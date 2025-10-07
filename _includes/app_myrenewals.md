@@ -56,8 +56,8 @@ All subscriptions and notes are stored locally on your device using **Core Data*
 
 We never sell or share your information.  
 For details, see our  
-<a href="_includes/privacy-policy.md" target="_blank">Privacy Policy</a> and  
-<a href="_includes/terms-of-use.md" target="_blank">Terms of Use</a>.
+<a href="{{ '/privacy-policy/' | relative_url }}" target="_blank">Privacy Policy</a> and  
+<a href="{{ '/terms-of-use/' | relative_url }}" target="_blank">Terms of Use</a>.
 
 ---
 
@@ -82,6 +82,6 @@ Swift-first, privacy-first, and designed to feel at home on every Apple device.
 ---
 
 <p>© 2025 Magic Lab Solutions. All rights reserved.<br>
-<a href="_includes/privacy-policy.md" target="_blank">Privacy Policy</a> •
-<a href="_includes/terms-of-use.md" target="_blank">Terms of Use</a>
+<a href="{{ '/privacy-policy/' | relative_url }}" target="_blank">Privacy Policy</a> •
+<a href="{{ '/terms-of-use/' | relative_url }}" target="_blank">Terms of Use</a>
 </p>

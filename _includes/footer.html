@@ -6,8 +6,8 @@
 
 		<div class="footer__copyright">
 			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
-            <a href="privacy-policy.md" target="_blank">Privacy Policy</a> •
-            <a href="terms-of-use.md" target="_blank">Terms of Use</a>
+            <a href="{{ '/privacy-policy/' | relative_url }}" target="_blank">Privacy Policy</a> •
+            <a href="{{ '/terms-of-use/' | relative_url }}" target="_blank">Terms of Use</a>
 		</div>
 
 		{% include socials.html %}
