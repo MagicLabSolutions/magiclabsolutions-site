@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Personal
+  site_title: Magic Lab Solutions
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -8,9 +8,9 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'Home'
       url: '/'
-    - title: 'Blog'
+    - title: 'Projects'
       url: '/blog/'
     - title: 'About'
       url: '/about'
@@ -18,7 +18,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: A sleek, modern Jekyll theme for personal websites.
+  footer_tagline: Magic Lab Solutions is a creative mobile development studio crafting elegant, high-performance apps that bring everyday magic to your screen.
 
 hero_settings:
   overlay_opacity: 0.8
@@ -61,16 +61,16 @@ social_settings:
   linkedin_url: ''
 
 color_settings:
-  background_color: '#ffffff'
-  background_alt_color: '#f4f5f6'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
-  accent_color: '#3498db'
-  border_color: '#dddddd'
-  hero_background_color: '#132930'
-  hero_text_color: '#ffffff'
-  error_color: '#D64541'
+    background_color: '#121212'
+    background_alt_color: '#1E1E1E'
+    text_dark_color: '#FFFFFF'
+    text_medium_color: '#D1D1D1'
+    text_light_color: '#9FA6AD'
+    accent_color: '#3498db'
+    border_color: '#2A2F36'
+    hero_background_color: '#0A1A1F'
+    hero_text_color: '#FFFFFF'
+    error_color: '#E74C3C'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
