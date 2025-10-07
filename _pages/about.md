@@ -1,26 +1,26 @@
 ---
 title: About Us
-subtitle: Designing and delivering impactful mobile apps.
-description: From concept to launch, we build mobile experiences that delight users and drive growth.
+subtitle: Crafting premium native iOS apps.
+description: We design, build, and support native iPhone, iPad, and Apple Watch apps that feel perfectly at home in the Apple ecosystem.
 featured_image: /images/demo/about.jpg
 ---
 
-I'm a product-minded mobile developer obsessed with crafting apps that feel intuitive, polished, and fast. I lead projects end to end—ideation, UX, architecture, development, deployment, and iteration—so teams can think bigger while I handle the details that make an app stand out in the App Store or Google Play.
+At Magic Lab Solutions, we live and breathe Apple's platforms. From the first sketches to the final TestFlight build, we craft Swift-first experiences tailored to iPhone, iPad, Apple Watch, and Apple TV. Every pixel, animation, and haptic gets the attention it needs so your product feels fast, intuitive, and unmistakably native.
 
 ## What I Build
 
-* Native iOS and Android apps with smooth animations and responsive layouts
-* Cross-platform experiences with Flutter and React Native for consistent delivery
-* Scalable backends and APIs that keep features real-time and reliable
-* Data-rich dashboards, offline-first workflows, and secure authentication
-* CI/CD pipelines that accelerate releases without sacrificing quality
+* Swift and SwiftUI apps with buttery-smooth navigation and custom transitions
+* Universal layouts that adapt beautifully across iPhone, iPad, and the Dynamic Island
+* watchOS, widget, and Live Activity extensions that surface the right info at the right time
+* App Intents, Siri Shortcuts, and Share Sheet integrations that delight power users
+* Privacy-first storage with Core Data, CloudKit sync, and secure Keychain access
 
 ## How I Deliver
 
-* Discovery workshops to clarify goals, users, and success metrics
-* UX prototypes and design systems tailored for mobile-first journeys
-* Clean, test-covered codebases that are easy to evolve with your product
-* Performance profiling, monitoring, and analytics to grow retention
-* App Store and Google Play launch playbooks, maintenance, and updates
+* Discovery sprints to clarify user needs, product vision, and App Store goals
+* Interactive prototypes and design systems aligned with the latest Human Interface Guidelines
+* Modular architectures (MVVM, Combine, async/await) and automated testing for confident scaling
+* Performance tuning, accessibility audits, and crash monitoring to keep experiences polished
+* Launch support, from TestFlight betas to App Store submissions, release notes, and ASO follow-through
 
-Have an idea you'd like to bring to life? Let's build it together.
+Ready to build something magical for the Apple ecosystem? Let's talk.
