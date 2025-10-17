@@ -97,4 +97,3 @@ If you have questions about these Terms or need support, contact us at:
 
 > © 2025 Magic Lab Solutions. All rights reserved.  
 > [magiclabsolutions.com](https://magiclabsolutions.com)
-

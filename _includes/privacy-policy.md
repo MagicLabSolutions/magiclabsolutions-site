@@ -1,97 +1,117 @@
 ## Privacy Policy
 
 **Effective Date:** January 1, 2025  
-**Contact:** [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)  
-**Website:** [magiclabsolutions.com](https://magiclabsolutions.com)
+**Contact:** [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)
 
 ---
 
 ### Introduction
 
-Welcome to **Magic Lab Solutions** (“we”, “our”, “us”).  
-We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we handle information when you use our apps, including **MyRenewals: Sub Track & Cancel**.
+This Privacy Policy explains how **Magic Lab Solutions** (“we”, “us”, or “our”) collects, uses, and protects your personal data when you use our mobile applications and related services, including **MyRenewals: Sub Track & Cancel**.
+
+By using our app, you agree to the collection and use of information as described in this policy.  
+If you do not agree, please discontinue use immediately.
 
 ---
 
 ### Information We Collect
 
-We may collect the following types of data:
+We collect only the data necessary to provide and improve the app’s functionality.
 
-* **Usage Data:** anonymous analytics, app interactions, and crash reports to improve performance.  
-* **Device Information:** such as model, operating system, and app version for diagnostics.  
-* **Purchase Data:** information related to in-app purchases or subscriptions (handled by the App Store).  
-* **Optional Data:** only if you enable cloud backup or contact us directly (e.g., via email).
+#### 1. Personal Data
+We may collect limited personal information if you choose to contact us for support, such as:
+* Your email address  
+* Any details you voluntarily include in your support request
 
-We **do not** store payment details or collect personal identifiers unless you voluntarily provide them.
+#### 2. Usage Data
+The app may collect non-identifiable data automatically, including:
+* App version and device type  
+* Operating system version  
+* Anonymous analytics on feature usage (if enabled)  
+* Crash reports and performance logs  
+
+We use these insights solely to improve stability and functionality — not for advertising or profiling.
+
+#### 3. Subscription Data
+Data you add inside the app (e.g., subscription names, costs, notes, or categories) is stored **locally on your device** and optionally backed up to iCloud if you have iCloud enabled.  
+We **do not** have access to your personal subscription data.
 
 ---
 
 ### How We Use Your Information
 
-We use your data to:
+We use your information to:
+* Provide and maintain the app  
+* Send local notifications (reminders) for upcoming renewals  
+* Respond to user support requests  
+* Improve app reliability and user experience  
+* Comply with legal obligations
 
-* Deliver and improve our app’s core functionality.  
-* Provide reminders and notifications (if you enable them).  
-* Analyze usage trends for performance and reliability.  
-* Manage subscriptions via trusted services like RevenueCat.  
-* Communicate with you about support or feature updates.
+We do **not** sell, rent, or share your information with third parties for marketing purposes.
 
 ---
 
 ### Data Storage and Security
 
-Your data is primarily stored on your device using secure local storage.  
-If you enable cloud backup, we use **Firebase** for encrypted, authenticated storage.  
-We use industry-standard security measures and never sell your data.
+Your data is stored securely on your device or within Apple’s iCloud infrastructure (if you choose to sync).  
+We do not maintain external databases containing user data.  
+
+While we take reasonable precautions to protect information, no system is 100% secure. You use the app at your own risk.
 
 ---
 
-### Sharing of Data
+### Third-Party Services
 
-We only share limited data with service providers necessary for:
+Our app may use the following trusted third-party services for functionality and analytics:
 
-| Purpose | Partner | Description |
-|----------|----------|-------------|
-| Analytics | Firebase | Helps us understand app usage |
-| Subscription Management | RevenueCat | Validates in-app purchases |
-| Crash Reporting | Firebase Crashlytics | Diagnoses and fixes errors |
+* **Apple App Store / Google Play** — handles purchases, billing, and subscription management.  
+* **Apple iCloud** (optional) — for secure data backup and sync.  
+* **Crash reporting / analytics tools** (e.g., Apple or Firebase Crashlytics) — to help diagnose app issues.  
 
-These partners process data under strict security and privacy terms.
-
----
-
-### Notifications
-
-You can choose to receive subscription renewal reminders.  
-Notifications are **local**, processed only on your device, and can be disabled anytime in system settings.
-
----
-
-### Your Rights
-
-Depending on your location, you may:
-
-1. Request access to your data.  
-2. Request deletion of your data.  
-3. Withdraw consent for data collection.  
-
-To make a request, email us at [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com).
+Each provider follows their own privacy policies and data protection practices.
 
 ---
 
 ### Children’s Privacy
 
 Our apps are not intended for children under 13.  
-We do not knowingly collect data from minors.
+We do not knowingly collect personal data from minors.  
+If you believe your child has provided us with personal information, please contact us to request deletion.
 
 ---
 
-### Changes to This Policy
+### International Data Transfers
 
-We may update this Privacy Policy periodically. The latest version will always be available on our website.
+As we use cloud-based tools provided by Apple or Google, your data may be processed in other countries where those providers operate.  
+We ensure all data transfers comply with applicable privacy laws, including GDPR standards for EU users.
 
 ---
 
-> For any privacy concerns or data-related inquiries, please reach out to  
-> [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)
+### Your Rights (GDPR / EU Users)
 
+If you reside in the European Union, you have the right to:
+* Access, correct, or delete your personal data  
+* Withdraw consent to data processing  
+* Lodge a complaint with your local data protection authority  
+
+To exercise your rights, contact us at [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com).
+
+---
+
+### Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.  
+When we do, we will update the “Effective Date” above and post the new version on this page.  
+Continued use of the app after changes take effect means you accept the updated policy.
+
+---
+
+### Contact Us
+
+If you have questions about this Privacy Policy or how your data is handled, please contact us at:  
+[magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)
+
+---
+
+> © 2025 Magic Lab Solutions. All rights reserved.  
+> [magiclabsolutions.com](https://magiclabsolutions.com)
