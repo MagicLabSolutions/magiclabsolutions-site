@@ -5,9 +5,15 @@ description: We design, build, and support native iPhone, iPad, and Apple Watch 
 featured_image: /images/demo/about.jpg
 ---
 
-At Magic Lab Solutions, we live and breathe Apple's platforms. From the first sketches to the final TestFlight build, we craft Swift-first experiences tailored to iPhone, iPad, Apple Watch, and Apple TV. Every pixel, animation, and haptic gets the attention it needs so your product feels fast, intuitive, and unmistakably native.
+<div style="text-align: center; margin-bottom: 30px;">
+  <img src="/images/evandro_fabio.jpeg" alt="Evandro and Fabio" style="width: 225px; height: 300px; object-fit: cover; border-radius: 12px; border: 2px solid #9FA6AD;" />
+</div>
 
-## What I Build
+Hi! We're Evandro and Fabio — two brothers from Brazil building apps we genuinely use ourselves. We care a lot about making them useful, simple, and enjoyable. If you have ideas, feedback, or something isn't working right, we'd really love to hear from you.
+
+---
+
+## What We Build
 
 * Swift and SwiftUI apps with buttery-smooth navigation and custom transitions
 * Universal layouts that adapt beautifully across iPhone, iPad, and the Dynamic Island
@@ -15,7 +21,7 @@ At Magic Lab Solutions, we live and breathe Apple's platforms. From the first sk
 * App Intents, Siri Shortcuts, and Share Sheet integrations that delight power users
 * Privacy-first storage with Core Data, CloudKit sync, and secure Keychain access
 
-## How I Deliver
+## How We Deliver
 
 * Discovery sprints to clarify user needs, product vision, and App Store goals
 * Interactive prototypes and design systems aligned with the latest Human Interface Guidelines
@@ -23,4 +29,6 @@ At Magic Lab Solutions, we live and breathe Apple's platforms. From the first sk
 * Performance tuning, accessibility audits, and crash monitoring to keep experiences polished
 * Launch support, from TestFlight betas to App Store submissions, release notes, and ASO follow-through
 
-Ready to build something magical for the Apple ecosystem? Let's talk.
+---
+
+Ready to build something magical for the Apple ecosystem? [Drop us a message](/contact).
