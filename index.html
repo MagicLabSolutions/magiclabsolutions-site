@@ -13,10 +13,13 @@ featured_image: /images/demo/home.jpg
 
 	<div class="wrap">
 
-		<h1>Magic Lab Solutions is a creative mobile development studio crafting elegant, high-performance apps that bring everyday magic to your screen.</h1>
-		<p>We design, prototype, and ship polished native products—combining strategy, design, and engineering to launch experiences that feel like magic.</p>
+		<h1>We craft elegant, high&#8209;performance apps that bring everyday magic to your screen.</h1>
+		<p>Designing, prototyping, and shipping polished native products — combining strategy, design, and engineering to launch experiences that feel like magic.</p>
 
-		{% include socials.html %}
+		<div style="margin-top: 30px;">
+			<a href="/blog/" class="button button--large">Explore Our Apps</a>
+			<a href="/contact" class="button button--large button--light" style="margin-left: 10px;">Get in Touch</a>
+		</div>
 
 	</div>
 
@@ -28,7 +31,7 @@ featured_image: /images/demo/home.jpg
 
 		{% for project in site.projects reversed %}
 
-		<article class="post">
+		<article class="post animate-on-scroll">
 
 			<div class="post__image-wrap">
 				<div class="post__image" style="background-image: url({{ project.featured_image | relative_url }})"></div>
@@ -36,9 +39,13 @@ featured_image: /images/demo/home.jpg
 
 			<div class="post__content-wrap">
 				<div class="post__content">
+					<div class="post__app-icon">
+						<img src="/images/myrenewals/app_icon.png" alt="{{ project.title }} icon" />
+					</div>
 					<h2 class="post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
 					<p class="post__subtitle">{{ project.subtitle }}</p>
 					<p class="post__description">{{ project.description }}</p>
+					<a href="{{ project.url | relative_url }}" class="button" style="margin-top: 20px;">Learn More</a>
 				</div>
 			</div>
 

@@ -1,62 +1,104 @@
+
+<div style="text-align: center; margin-bottom: 30px;">
+  <img src="/images/myrenewals/app_icon.png" alt="MyRenewals app icon" style="width: 120px; height: 120px; border-radius: 22px;" />
+</div>
+
 ## MyRenewals: Sub Track & Cancel
 
 Stay in control of your subscriptions with **MyRenewals**, a clean and smart app that helps you track, manage, and cancel your recurring payments before they renew.
 
-![MyRenewals app preview](/images/myrenewals/hero.png)
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" target="_blank" rel="noopener">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
+  </a>
+</div>
 
 ---
 
 ### Why MyRenewals?
 
-We all forget about subscriptions — streaming, storage, software — and end up paying for services we no longer use.  
+We all forget about subscriptions — streaming, storage, software — and end up paying for services we no longer use.
 **MyRenewals** keeps you informed with smart notifications, monthly spend summaries, and an easy overview of your upcoming renewals.
 
 ---
 
 ### Features
 
-* **Monthly Spend Summary**  
-  Instantly see your total subscription cost this month.
+<div class="feature-showcase animate-on-scroll">
+  <div class="feature-showcase__image">
+    <img src="/images/myrenewals/screenshot1.png" alt="Dashboard view" />
+  </div>
+  <div class="feature-showcase__text">
+    <h4>Monthly Spend Summary</h4>
+    <p>Instantly see your total subscription cost this month. Get a clear picture of where your money goes with beautiful pie charts organized by category — Entertainment, Work, Productivity, and more.</p>
+  </div>
+</div>
 
-* **Pie Chart by Category**  
-  Visualize where your money goes — Entertainment, Work, Productivity, and more.
+<div class="feature-showcase feature-showcase--reverse animate-on-scroll">
+  <div class="feature-showcase__image">
+    <img src="/images/myrenewals/screenshot2.png" alt="Upcoming renewals" />
+  </div>
+  <div class="feature-showcase__text">
+    <h4>Upcoming Renewals</h4>
+    <p>Stay ahead with renewal dates, prices, and status tags that warn you when a charge is near. Never be caught off guard by a surprise renewal again.</p>
+  </div>
+</div>
 
-* **Upcoming Renewals**  
-  Stay ahead with renewal dates, prices, and status tags (warning when renewal is near).
+<div class="feature-showcase animate-on-scroll">
+  <div class="feature-showcase__image">
+    <img src="/images/myrenewals/screenshot3.png" alt="Detail view with cost breakdown" />
+  </div>
+  <div class="feature-showcase__text">
+    <h4>Smart Notifications</h4>
+    <p>Choose to be reminded 3, 7, or 14 days before a charge. Get notified on your terms so you always have time to decide whether to keep or cancel a subscription.</p>
+  </div>
+</div>
 
-* **Smart Notifications**  
-  Choose to be reminded 3, 7, or 14 days before a charge.
-
-* **iPad-Optimized Layout**  
-  See charts, totals, and your subscription list side by side in a beautiful split view.
-
-* **Custom Categories**  
-  Tag subscriptions to organize your spending.
-
-* **Cloud Backup (Pro)**  
-  Enable encrypted cloud sync and export your data securely.
+<div class="feature-showcase feature-showcase--reverse animate-on-scroll">
+  <div class="feature-showcase__image">
+    <img src="/images/myrenewals/screenshot4.png" alt="Notifications settings" />
+  </div>
+  <div class="feature-showcase__text">
+    <h4>iPad-Optimized & Cloud Backup</h4>
+    <p>See charts, totals, and your subscription list side by side in a beautiful split view on iPad. Enable encrypted cloud sync and export your data securely with Pro.</p>
+  </div>
+</div>
 
 ---
 
-### How It Works
+### What Users Are Saying
 
-<div class="gallery" data-columns="2">
-  <img src="/images/myrenewals/screenshot1.png" alt="Dashboard view" />
-  <img src="/images/myrenewals/screenshot2.png" alt="Upcoming renewals" />
-  <img src="/images/myrenewals/screenshot3.png" alt="Detail view with cost breakdown" />
-  <img src="/images/myrenewals/screenshot4.png" alt="Notifications settings" />
+<div class="testimonials">
+  <div class="testimonial animate-on-scroll">
+    <div class="testimonial__stars">★★★★★</div>
+    <p class="testimonial__text">"Finally, a subscription tracker that's simple and actually looks good. Love the notifications — saved me from two charges I forgot about!"</p>
+    <p class="testimonial__author">— Happy User</p>
+  </div>
+  <div class="testimonial animate-on-scroll">
+    <div class="testimonial__stars">★★★★★</div>
+    <p class="testimonial__text">"Clean design, easy to use, and the pie chart feature helps me see exactly where my money goes each month. Highly recommended."</p>
+    <p class="testimonial__author">— Subscription Saver</p>
+  </div>
+</div>
+
+---
+
+<div style="text-align: center; margin: 40px 0;">
+  <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" target="_blank" rel="noopener">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
+  </a>
 </div>
 
 ---
 
 ### Privacy & Transparency
 
-Your data is yours.  
+Your data is yours.
 All subscriptions and notes are stored locally on your device using **Core Data**, and only synced to the cloud if you enable backup.
 
-We never sell or share your information.  
-For details, see our  
-<a href="{{ '/privacy-policy/' | relative_url }}" target="_blank">Privacy Policy</a> and  
+We never sell or share your information.
+For details, see our
+<a href="{{ '/privacy-policy/' | relative_url }}" target="_blank">Privacy Policy</a> and
 <a href="{{ '/terms-of-use/' | relative_url }}" target="_blank">Terms of Use</a>.
 
 ---
@@ -76,7 +118,7 @@ Swift-first, privacy-first, and designed to feel at home on every Apple device.
 
 ---
 
-> **MyRenewals** is developed by [Magic Lab Solutions](https://magiclabsolutions.com).  
+> **MyRenewals** is developed by [Magic Lab Solutions](https://magiclabsolutions.com).
 > Questions or support? Contact us at [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com).
 
 ---

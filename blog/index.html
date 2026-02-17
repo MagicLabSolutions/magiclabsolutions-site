@@ -28,7 +28,7 @@ featured_image: /images/demo/blog.jpg
 		{% if apps.size > 0 %}
 		{% for app in apps %}
 
-		<article class="post">
+		<article class="post animate-on-scroll">
 
 			<div class="post__image-wrap">
 				<div class="post__image" style="background-image: url({{ app.featured_image | relative_url }})"></div>
@@ -36,9 +36,13 @@ featured_image: /images/demo/blog.jpg
 
 			<div class="post__content-wrap">
 				<div class="post__content">
+					<div class="post__app-icon">
+						<img src="/images/myrenewals/app_icon.png" alt="{{ app.title }} icon" />
+					</div>
 					<h2 class="post__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h2>
 					<p class="post__subtitle">{{ app.subtitle }}</p>
 					<p class="post__description">{{ app.description }}</p>
+					<a href="{{ app.url | relative_url }}" class="button" style="margin-top: 20px;">Learn More</a>
 				</div>
 			</div>
 

@@ -11,6 +11,15 @@ featured_image: /images/demo/about.jpg
 
 Hi! We're Evandro and Fabio — two brothers from Brazil building apps we genuinely use ourselves. We care a lot about making them useful, simple, and enjoyable. If you have ideas, feedback, or something isn't working right, we'd really love to hear from you.
 
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank" style="display: inline-block; margin: 0 8px; font-size: 14px;">
+    <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+  </a>
+  <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank" style="display: inline-block; margin: 0 8px; font-size: 14px;">
+    <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+  </a>
+</div>
+
 ---
 
 ## What We Build
