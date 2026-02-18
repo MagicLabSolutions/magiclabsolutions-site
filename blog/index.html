@@ -36,9 +36,11 @@ featured_image: /images/demo/blog.jpg
 
 			<div class="post__content-wrap">
 				<div class="post__content">
+					{% if app.app_icon %}
 					<div class="post__app-icon">
-						<img src="/images/myrenewals/app_icon.png" alt="{{ app.title }} icon" />
+						<img src="{{ app.app_icon | relative_url }}" alt="{{ app.title }} icon" />
 					</div>
+					{% endif %}
 					<h2 class="post__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h2>
 					<p class="post__subtitle">{{ app.subtitle }}</p>
 					<p class="post__description">{{ app.description }}</p>
