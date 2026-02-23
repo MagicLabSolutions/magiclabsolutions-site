@@ -39,6 +39,9 @@ defaults:
     values:
       layout: "project"
 
+include:
+  - ".well-known"
+
 markdown: kramdown
 
 kramdown:

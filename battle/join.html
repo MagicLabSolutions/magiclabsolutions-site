@@ -1,0 +1,138 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Brainfold Battle</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .container {
+            text-align: center;
+            max-width: 360px;
+        }
+        .icon {
+            font-size: 64px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 32px;
+        }
+        .code-display {
+            font-family: 'SF Mono', 'Menlo', monospace;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            color: #FF6B6B;
+            margin-bottom: 32px;
+        }
+        .spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #FF6B6B;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .status {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 32px;
+        }
+        .store-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #FF6B6B, #FF8E8E);
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .store-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(255, 107, 107, 0.3);
+        }
+        .store-link {
+            display: block;
+            margin-top: 16px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+        .store-link a {
+            color: #FF6B6B;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🧠⚡</div>
+        <h1>Brainfold Battle</h1>
+        <p class="subtitle">You've been invited to join a battle!</p>
+        <div class="code-display" id="code"></div>
+        <div class="spinner" id="spinner"></div>
+        <p class="status" id="status">Opening Brainfold...</p>
+        <a href="#" class="store-btn" id="store-btn" style="display: none;">Get Brainfold</a>
+        <p class="store-link" id="store-link" style="display: none;">
+            Don't have the app? <a href="https://apps.apple.com/app/brainfold/id6746427975">Download from App Store</a>
+        </p>
+    </div>
+
+    <script>
+        (function() {
+            // Extract code from URL
+            var params = new URLSearchParams(window.location.search);
+            var code = params.get('code') || '';
+            var codeEl = document.getElementById('code');
+            var statusEl = document.getElementById('status');
+            var spinnerEl = document.getElementById('spinner');
+            var storeBtnEl = document.getElementById('store-btn');
+            var storeLinkEl = document.getElementById('store-link');
+
+            if (code) {
+                codeEl.textContent = code.toUpperCase();
+            } else {
+                codeEl.style.display = 'none';
+            }
+
+            // App Store URL
+            var appStoreUrl = 'https://apps.apple.com/app/brainfold/id6746427975';
+            storeBtnEl.href = appStoreUrl;
+
+            // Show fallback after timeout
+            setTimeout(function() {
+                spinnerEl.style.display = 'none';
+                statusEl.textContent = 'App not detected. Download Brainfold to join!';
+                storeBtnEl.style.display = 'inline-block';
+                storeLinkEl.style.display = 'block';
+            }, 2500);
+        })();
+    </script>
+</body>
+</html>
