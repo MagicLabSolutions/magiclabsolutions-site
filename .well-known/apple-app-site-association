@@ -5,6 +5,10 @@
       {
         "appID": "S2DSCP4F3H.com.magiclabsolutions.brainf",
         "paths": ["/battle/*"]
+      },
+      {
+        "appID": "S2DSCP4F3H.com.magiclabsolutions.zuzu",
+        "paths": ["/invite/*"]
       }
     ]
   }
