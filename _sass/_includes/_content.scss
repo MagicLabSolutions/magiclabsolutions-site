@@ -30,6 +30,7 @@
 	margin-top: -40px;
 	background: $background-color;
 	padding: 16px 20px;
+	border-radius: 16px;
 	@include box-shadow(0, 6px, 16px, rgba(0,0,0,0.05));
 
 	@include mq(tabletp) {
@@ -141,11 +142,13 @@
 
 	table {
 		min-width: 600px;
-		border: 2px solid $text-dark-color;
+		border: 1px solid $border-color;
+		border-radius: 12px;
+		overflow: hidden;
 
 		thead {
-			background: $text-dark-color;
-			color: $background-color;
+			background: $background-alt-color;
+			color: $text-dark-color;
 			text-align: left;
 			font-weight: $bold-weight;
 

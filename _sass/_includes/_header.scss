@@ -9,15 +9,15 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
 
 .header {
-	margin-top: 20px;
-
-	@include mq(tabletp) {
-		margin-top: 25px;
-	}
-
-	@include mq(laptop) {
-		margin-top: 30px;
-	}
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	margin-top: 0;
+	padding: 14px 0;
+	background: rgba(255, 255, 255, 0.72);
+	backdrop-filter: saturate(180%) blur(20px);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .header__logo {
@@ -147,7 +147,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba($background-color,0.95);
+	background: rgba(255, 255, 255, 0.98);
 	overflow: auto;
 
 	visibility: hidden;

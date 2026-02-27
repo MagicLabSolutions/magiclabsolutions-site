@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="legal-hero">
+	<div class="wrap">
+		<p class="legal-hero__label">Legal</p>
+		<h1>{{ page.title }}</h1>
+		{% if page.effective_date %}
+		<p class="legal-hero__updated">Effective {{ page.effective_date }}</p>
+		{% endif %}
+	</div>
+</section>
+
+<section class="legal-content">
+	<div class="wrap">
+		<article class="legal-post">
+			{{ page.content }}
+		</article>
+	</div>
+</section>

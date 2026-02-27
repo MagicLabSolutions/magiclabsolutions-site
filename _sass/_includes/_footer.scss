@@ -10,18 +10,16 @@
 
 .footer {
 	@include transition(all 0.4s ease-in-out 0.8s);
-	padding: 40px 0;
+	padding: 50px 0 30px;
+	background: $background-alt-color;
+	border-top: 1px solid $border-color;
 
 	@include mq(tabletp) {
-		padding: 50px 0;
-	}
-
-	@include mq(tabletl) {
-		padding: 60px 0;
+		padding: 60px 0 30px;
 	}
 
 	@include mq(laptop) {
-		padding: 80px 0;
+		padding: 70px 0 30px;
 	}
 }
 
@@ -90,6 +88,82 @@
 		position: absolute;
 		top: 0;
 		right: 0;
+		margin-top: 0;
+	}
+}
+
+.footer__grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 30px;
+
+	@include mq(tabletp) {
+		grid-template-columns: 2fr 1fr 1fr 1fr;
+		gap: 40px;
+	}
+}
+
+.footer__col {
+
+}
+
+.footer__heading {
+	font-size: 14px;
+	font-weight: $bold-weight;
+	color: $text-dark-color;
+	margin-top: 0;
+	letter-spacing: 0;
+}
+
+.footer__links {
+	list-style: none;
+	margin-top: 12px;
+
+	li {
+		margin-top: 8px;
+		font-size: 14px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	a {
+		color: $text-medium-color;
+		font-weight: $regular-weight;
+		font-size: 14px;
+
+		&:hover {
+			color: $accent-color;
+		}
+	}
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: 1px solid $border-color;
+
+	span {
+		font-size: 13px;
+		color: $text-light-color;
+	}
+
+	@include mq(tabletp) {
+		margin-top: 50px;
+	}
+}
+
+.footer__bottom .socials {
+	margin-top: 0;
+
+	@include mq(laptop) {
+		position: relative;
+		top: auto;
+		right: auto;
 		margin-top: 0;
 	}
 }

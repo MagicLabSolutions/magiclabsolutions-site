@@ -1,0 +1,13 @@
+<article class="app-card animate-on-scroll" style="--card-accent: {{ include.app.accent_color | default: '#0071E3' }}">
+	<a href="{{ include.app.url | relative_url }}" class="app-card__link">
+		{% if include.app.app_icon %}
+		<div class="app-card__icon">
+			<img src="{{ include.app.app_icon | relative_url }}" alt="{{ include.app.title }} icon" />
+		</div>
+		{% endif %}
+		<h3 class="app-card__title">{{ include.app.title }}</h3>
+		<p class="app-card__subtitle">{{ include.app.subtitle }}</p>
+		<p class="app-card__description">{{ include.app.description }}</p>
+		<span class="app-card__cta">Learn More &rarr;</span>
+	</a>
+</article>

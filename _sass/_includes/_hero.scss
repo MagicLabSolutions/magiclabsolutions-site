@@ -1,28 +1,29 @@
 // - - - - - - - - - - - - - - - - - -
 
-// Profile
+// Hero
 
 // - - - - - - - - - - - - - - - - - -
 
 
 .hero {
 	position: relative;
-	margin-top: 20px;
-	padding: 60px 0 100px;
+	margin-top: 0;
+	padding: 80px 0 60px;
 	background: $hero-background-color;
+	text-align: center;
 
 	@include mq(tabletp) {
-		margin-top: 25px;
-		padding: 120px 0 180px;
+		padding: 100px 0 80px;
 	}
 
 	@include mq(laptop) {
-		margin-top: 30px;
-		padding: 160px 0 220px;
+		padding: 140px 0 100px;
 	}
 
 	h1 {
 		color: $hero-text-color;
+		max-width: 900px;
+		margin: 0 auto;
 
 		@include mq(tabletp) {
 			white-space: pre-line;
@@ -30,14 +31,16 @@
 	}
 
 	p {
-		color: rgba($hero-text-color, 0.8);
+		color: $text-medium-color;
+		max-width: 600px;
+		margin: 20px auto 0;
 
 		@include mq(tabletp) {
-			margin-top: 25px;
+			margin-top: 24px;
 		}
 
 		@include mq(laptop) {
-			margin-top: 30px;
+			margin-top: 28px;
 		}
 	}
 
@@ -54,11 +57,11 @@
 	}
 
 	.socials__item__link {
-		background: rgba($hero-text-color, 0.8);
-		color: $hero-background-color;
+		background: rgba($hero-text-color, 0.1);
+		color: $hero-text-color;
 
 		&:hover {
-			background: $hero-text-color;
+			background: rgba($hero-text-color, 0.2);
 		}
 	}
 }

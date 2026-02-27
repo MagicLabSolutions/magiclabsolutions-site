@@ -195,36 +195,37 @@ blockquote {
 
 a {
 	text-decoration: none;
-	color: $text-dark-color;
-	font-weight: $bold-weight;
+	color: $accent-color;
+	font-weight: 500;
 	@include transition(all 0.15s ease-in-out);
 
 	&:hover {
-		color: $accent-color;
+		color: darken($accent-color, 10%);
 	}
 }
 
 .button {
 	display: inline-block;
-	padding: 9px 10px 10px;
-	font-size: 13px;
+	padding: 12px 22px;
+	font-size: 15px;
 	line-height: 1;
-	border: 2px solid $accent-color;
+	border: none;
+	border-radius: 980px;
 	background: $accent-color;
-	color: $background-color;
+	color: #FFFFFF;
 	font-weight: $button-weight;
 	letter-spacing: $button-spacing;
 	cursor: pointer;
+	@include transition(all 0.15s ease-in-out);
 
 	@include mq(tabletp) {
-		padding: 11px 20px 12px;
-		font-size: 15px;
+		padding: 14px 28px;
+		font-size: 17px;
 	}
 
 	&:hover {
-		background: adjust-hue($accent-color,15%);
-		border-color: adjust-hue($accent-color,15%);
-		color: $background-color;
+		background: darken($accent-color, 8%);
+		color: #FFFFFF;
 	}
 
 	svg {
@@ -247,32 +248,31 @@ a {
 }
 
 .button--large {
-	padding: 15px 20px 16px;
-	font-size: 13px;
+	padding: 16px 32px;
+	font-size: 15px;
 
 	@include mq(tabletp) {
-		padding: 19px 40px 20px;
+		padding: 18px 40px;
 		font-size: 17px;
 	}
 }
 
 .button--light {
 	background: transparent;
-	border-color: $text-dark-color;
+	border: 1.5px solid $text-dark-color;
 	color: $text-dark-color;
 
 	&:hover {
-		background: $accent-color;
-		border-color: $accent-color;
-		color: $background-color;
+		background: $text-dark-color;
+		color: #FFFFFF;
 	}
 }
 
 hr {
 	margin: 40px 0;
 	border: 0;
-	height: 2px;
-	background: $background-alt-color;
+	height: 1px;
+	background: $border-color;
 }
 
 ::selection 	 { background: $accent-color; color: $background-color; }
@@ -335,7 +335,7 @@ body.loading {
 	svg {
 		width: 100%;
 		height: 100%;
-		fill: rgba($text-dark-color,0.2);
+		fill: rgba($accent-color,0.3);
 	}
 }
 
@@ -382,7 +382,7 @@ section {
 	}
 
 	@include mq(laptop) {
-		max-width: 1100px;
+		max-width: 1200px;
 	}
 }
 

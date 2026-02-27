@@ -1,60 +1,36 @@
 ---
 layout: default
 title: Magic Lab Solutions — Mobile App Studio
-description: Magic Lab Solutions crafts premium, high-performance mobile experiences that blend thoughtful design with rock-solid engineering.
-featured_image: /images/demo/home.jpg
+description: We craft premium, privacy-first mobile apps for the Apple ecosystem.
+featured_image: /images/social.jpg
 ---
 
 <section class="hero">
-
-	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
-		<div class="hero__overlay"></div>
-	</div>
-
 	<div class="wrap">
-
-		<h1>We craft elegant, high&#8209;performance apps that bring everyday magic to your screen.</h1>
-		<p>Designing, prototyping, and shipping polished native products — combining strategy, design, and engineering to launch experiences that feel like magic.</p>
-
-		<div style="margin-top: 30px;">
-			<a href="/blog/" class="button button--large">Explore Our Apps</a>
-			<a href="/contact" class="button button--large button--light" style="margin-left: 10px;">Get in Touch</a>
+		<h1>Apps that feel<br>like magic.</h1>
+		<p>We design and build premium native apps for iPhone, iPad, and Apple Watch — crafted with care and built for everyday life.</p>
+		<div style="margin-top: 40px;">
+			<a href="/apps/" class="button button--large">Explore Our Apps</a>
+			<a href="/contact" class="button button--large button--light" style="margin-left: 12px;">Get in Touch</a>
 		</div>
-
 	</div>
-
 </section>
 
-<section class="listing">
-
+<section class="apps-grid">
 	<div class="wrap">
-
-		{% for project in site.projects reversed %}
-
-		<article class="post animate-on-scroll">
-
-			<div class="post__image-wrap">
-				<div class="post__image" style="background-image: url({{ project.featured_image | relative_url }})"></div>
-			</div>
-
-			<div class="post__content-wrap">
-				<div class="post__content">
-					{% if project.app_icon %}
-					<div class="post__app-icon">
-						<img src="{{ project.app_icon | relative_url }}" alt="{{ project.title }} icon" />
-					</div>
-					{% endif %}
-					<h2 class="post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-					<p class="post__subtitle">{{ project.subtitle }}</p>
-					<p class="post__description">{{ project.description }}</p>
-					<a href="{{ project.url | relative_url }}" class="button" style="margin-top: 20px;">Learn More</a>
-				</div>
-			</div>
-
-		</article>
-
-		{% endfor %}
-
+		<div class="apps-grid__container">
+			{% assign apps = site.projects | sort: 'date' | reverse %}
+			{% for app in apps %}
+				{% include app-card.html app=app %}
+			{% endfor %}
+		</div>
 	</div>
+</section>
 
+<section class="philosophy">
+	<div class="wrap" style="text-align: center;">
+		<h2>Built for Apple.<br>Designed for everyone.</h2>
+		<p>We are two brothers from Brazil who build apps we genuinely use ourselves. Every product is Swift-first, privacy-first, and designed to feel at home on every Apple device.</p>
+		<a href="/about" class="button" style="margin-top: 28px;">About Us</a>
+	</div>
 </section>

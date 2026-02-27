@@ -1,21 +1,21 @@
 ---
 title: About Us
-subtitle: Crafting premium native iOS apps.
+subtitle: Two brothers building apps they genuinely use.
 description: We design, build, and support native iPhone, iPad, and Apple Watch apps that feel perfectly at home in the Apple ecosystem.
-featured_image: /images/demo/about.jpg
+permalink: /about/
 ---
 
-<div style="text-align: center; margin-bottom: 30px;">
-  <img src="/images/evandro_fabio.jpeg" alt="Evandro and Fabio" style="width: 225px; height: 300px; object-fit: cover; border-radius: 12px; border: 2px solid #9FA6AD;" />
+<div class="about-photo">
+  <img src="/images/evandro_fabio.jpeg" alt="Evandro and Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
 </div>
 
 Hi! We're Evandro and Fabio — two brothers from Brazil building apps we genuinely use ourselves. We care a lot about making them useful, simple, and enjoyable. If you have ideas, feedback, or something isn't working right, we'd really love to hear from you.
 
-<div style="text-align: center; margin-top: 20px;">
-  <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank" style="display: inline-block; margin: 0 8px; font-size: 14px;">
+<div class="about-socials">
+  <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
     <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
   </a>
-  <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank" style="display: inline-block; margin: 0 8px; font-size: 14px;">
+  <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
     <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
   </a>
 </div>

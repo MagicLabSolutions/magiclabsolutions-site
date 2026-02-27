@@ -1,60 +1,10 @@
 ---
 layout: default
 title: Our Apps
-description: Discover the suite of apps crafted by Magic Lab Solutions to simplify everyday life.
-featured_image: /images/demo/blog.jpg
+description: Discover the suite of apps crafted by Magic Lab Solutions.
+permalink: /blog/
+redirect_to: /apps/
 ---
 
-<section class="hero hero--single">
-
-	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
-		<div class="hero__overlay"></div>
-	</div>
-
-	<div class="wrap">
-
-		<h1>Our Apps</h1>
-		<p>Explore the products we design, build, and continuously improve for Apple platforms.</p>
-
-	</div>
-
-</section>
-
-<section class="listing">
-
-	<div class="wrap">
-
-		{% assign apps = site.projects | sort: 'date' | reverse %}
-		{% if apps.size > 0 %}
-		{% for app in apps %}
-
-		<article class="post animate-on-scroll">
-
-			<div class="post__image-wrap">
-				<div class="post__image" style="background-image: url({{ app.featured_image | relative_url }})"></div>
-			</div>
-
-			<div class="post__content-wrap">
-				<div class="post__content">
-					{% if app.app_icon %}
-					<div class="post__app-icon">
-						<img src="{{ app.app_icon | relative_url }}" alt="{{ app.title }} icon" />
-					</div>
-					{% endif %}
-					<h2 class="post__title"><a href="{{ app.url | relative_url }}">{{ app.title }}</a></h2>
-					<p class="post__subtitle">{{ app.subtitle }}</p>
-					<p class="post__description">{{ app.description }}</p>
-					<a href="{{ app.url | relative_url }}" class="button" style="margin-top: 20px;">Learn More</a>
-				</div>
-			</div>
-
-		</article>
-
-		{% endfor %}
-		{% else %}
-		<p class="post__description">We’re polishing the next batch of Magic Lab Solutions apps. Check back soon!</p>
-		{% endif %}
-
-	</div>
-
-</section>
+<meta http-equiv="refresh" content="0; url=/apps/">
+<p>Redirecting to <a href="/apps/">Our Apps</a>...</p>

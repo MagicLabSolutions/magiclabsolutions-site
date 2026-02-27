@@ -1,10 +1,15 @@
 ---
-title: Thank you
+title: Thank You!
 subtitle: Your message was sent successfully.
-description: A sleek, modern Jekyll theme for personal websites.
-featured_image: /images/demo/contact.jpg
+description: Thank you for reaching out to Magic Lab Solutions.
+permalink: /thanks/
 ---
 
-![](/images/demo/about.jpg)
+We appreciate you getting in touch! We'll review your message and get back to you as soon as possible.
 
-Please note, this contact form is for demo purposes only and is not monitored. Please contact us [via our website](https://jekyllthemes.io) if you need support.
+In the meantime, feel free to explore our apps or learn more about what we do.
+
+<div style="display: flex; gap: 12px; justify-content: center; margin-top: 2rem;">
+  <a href="/apps/" class="button button--large">Explore Our Apps</a>
+  <a href="/about" class="button button--large">About Us</a>
+</div>

@@ -1,10 +1,12 @@
 ---
 title: Contact
-subtitle: Personal comes with a built-in contact form that's free and easy to set up.
-description: Personal is the perfect theme for developers, designers and other creatives.
-featured_image: /images/demo/contact.jpg
+subtitle: We'd love to hear from you.
+description: Get in touch with Magic Lab Solutions for questions, feedback, or collaboration.
+permalink: /contact/
 ---
 
-{% include contact-form.html %}
+Have a question, feedback, or want to collaborate? Drop us a message and we'll get back to you.
 
-We've made a contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service.
+You can also reach us directly at [contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com).
+
+{% include contact-form.html %}
