@@ -119,7 +119,7 @@ Swift-first, privacy-first, and designed to feel at home on every Apple device.
 ---
 
 > **MyRenewals** is developed by [Magic Lab Solutions](https://magiclabsolutions.com).
-> Questions or support? Contact us at [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com).
+> Questions or support? Contact us at [contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com).
 
 ---
 

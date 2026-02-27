@@ -1,7 +1,7 @@
 ## Privacy Policy
 
 **Effective Date:** January 1, 2025  
-**Contact:** [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)
+**Contact:** [contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com)
 
 ---
 
@@ -94,7 +94,7 @@ If you reside in the European Union, you have the right to:
 * Withdraw consent to data processing  
 * Lodge a complaint with your local data protection authority  
 
-To exercise your rights, contact us at [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com).
+To exercise your rights, contact us at [contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com).
 
 ---
 
@@ -109,7 +109,7 @@ Continued use of the app after changes take effect means you accept the updated 
 ### Contact Us
 
 If you have questions about this Privacy Policy or how your data is handled, please contact us at:  
-[magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)
+[contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com)
 
 ---
 

@@ -1,7 +1,7 @@
 ## Terms of Use
 
 **Effective Date:** January 1, 2025  
-**Contact:** [magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)
+**Contact:** [contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com)
 
 ---
 
@@ -91,7 +91,7 @@ These Terms are governed by the laws of **Germany**, without regard to its confl
 ### Contact
 
 If you have questions about these Terms or need support, contact us at:  
-[magiclabsolutions@gmail.com](mailto:magiclabsolutions@gmail.com)
+[contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com)
 
 ---
 
