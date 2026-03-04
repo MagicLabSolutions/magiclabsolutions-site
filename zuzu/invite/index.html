@@ -1,0 +1,188 @@
+---
+layout: null
+permalink: /zuzu/invite/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Family on Zuzu</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #F5F3FF;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      max-width: 400px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+    .header {
+      background: #7C3AED;
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .header h1 {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .header p {
+      color: #DDD6FE;
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    .body {
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .body h2 {
+      color: #1F2937;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .body p {
+      color: #6B7280;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .code-box {
+      background: #F5F3FF;
+      border: 2px dashed #C4B5FD;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    .code-label {
+      color: #6B7280;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 6px;
+    }
+    .code-value {
+      color: #7C3AED;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 6px;
+    }
+    .btn {
+      display: inline-block;
+      background: #7C3AED;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 14px 36px;
+      border-radius: 50px;
+      margin-bottom: 12px;
+    }
+    .btn:hover { background: #6D28D9; }
+    .btn-secondary {
+      display: inline-block;
+      color: #7C3AED;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .steps {
+      text-align: left;
+      margin: 24px 0;
+      padding: 0 8px;
+    }
+    .steps li {
+      color: #6B7280;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 8px;
+      list-style: none;
+      padding-left: 28px;
+      position: relative;
+    }
+    .steps li::before {
+      content: attr(data-step);
+      position: absolute;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      background: #EDE9FE;
+      color: #7C3AED;
+      border-radius: 50%;
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 2px;
+    }
+    .footer {
+      border-top: 1px solid #E5E7EB;
+      padding: 16px 24px;
+      text-align: center;
+    }
+    .footer p {
+      color: #9CA3AF;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1>Zuzu</h1>
+      <p>Baby Tracking, Together</p>
+    </div>
+    <div class="body">
+      <h2>You've been invited!</h2>
+      <p>Someone invited you to co-parent on Zuzu. Use the code below to join their family.</p>
+
+      <div class="code-box" id="codeBox" style="display:none;">
+        <div class="code-label">Your Invite Code</div>
+        <div class="code-value" id="codeValue"></div>
+      </div>
+
+      <a class="btn" id="openApp" href="#">Open in Zuzu</a>
+      <br /><br />
+
+      <p style="font-size:13px;color:#9CA3AF;margin-bottom:16px;">Don't have the app yet?</p>
+
+      <ol class="steps">
+        <li data-step="1">Download <strong>Zuzu</strong> from the App Store</li>
+        <li data-step="2">Create your account</li>
+        <li data-step="3">Enter the invite code when prompted</li>
+      </ol>
+
+      <a class="btn-secondary" href="https://apps.apple.com/app/id6757988505">Download Zuzu</a>
+    </div>
+    <div class="footer">
+      <p>&copy; Magic Lab Solutions</p>
+    </div>
+  </div>
+
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    var code = params.get('code');
+
+    if (code) {
+      document.getElementById('codeBox').style.display = 'block';
+      document.getElementById('codeValue').textContent = code;
+      document.getElementById('openApp').href = 'zuzu://invite?code=' + encodeURIComponent(code);
+    } else {
+      document.getElementById('openApp').href = 'zuzu://';
+    }
+  </script>
+</body>
+</html>

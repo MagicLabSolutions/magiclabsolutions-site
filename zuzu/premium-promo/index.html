@@ -1,0 +1,140 @@
+---
+layout: null
+permalink: /zuzu/premium-promo/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zuzu Premium</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #F5F3FF;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      max-width: 400px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+    .header {
+      background: linear-gradient(135deg, #7C3AED, #A855F7);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .header h1 {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .header p {
+      color: #DDD6FE;
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    .body {
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .body h2 {
+      color: #1F2937;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .body p {
+      color: #6B7280;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .features {
+      text-align: left;
+      margin: 0 0 24px;
+      padding: 0 8px;
+    }
+    .features li {
+      color: #374151;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      list-style: none;
+      padding-left: 28px;
+      position: relative;
+    }
+    .features li::before {
+      content: "\2713";
+      position: absolute;
+      left: 0;
+      color: #7C3AED;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .btn {
+      display: inline-block;
+      background: #7C3AED;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 14px 36px;
+      border-radius: 50px;
+      margin-bottom: 12px;
+    }
+    .btn:hover { background: #6D28D9; }
+    .btn-secondary {
+      display: inline-block;
+      color: #7C3AED;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .footer {
+      border-top: 1px solid #E5E7EB;
+      padding: 16px 24px;
+      text-align: center;
+    }
+    .footer p {
+      color: #9CA3AF;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1>Zuzu Premium</h1>
+      <p>Unlock the full experience</p>
+    </div>
+    <div class="body">
+      <h2>A special offer awaits you</h2>
+      <p>Open Zuzu to claim your exclusive Premium offer and unlock everything.</p>
+
+      <ul class="features">
+        <li>AI-powered sleep & feeding insights</li>
+        <li>Unlimited family members</li>
+        <li>Advanced charts & reports</li>
+        <li>Priority support</li>
+      </ul>
+
+      <a class="btn" id="openApp" href="zuzu://premium-promo">Open in Zuzu</a>
+      <br /><br />
+      <a class="btn-secondary" href="https://apps.apple.com/app/id6757988505">Download Zuzu</a>
+    </div>
+    <div class="footer">
+      <p>&copy; Magic Lab Solutions</p>
+    </div>
+  </div>
+</body>
+</html>
