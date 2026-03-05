@@ -20,6 +20,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      featured_image: "/images/social.jpg"
   -
     scope:
       path: ""
