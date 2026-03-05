@@ -1,8 +1,3 @@
-
-<div style="text-align: center; margin-bottom: 30px;">
-  <img src="/images/myrenewals/app_icon.png" alt="MyRenewals app icon" style="width: 120px; height: 120px; border-radius: 22px;" />
-</div>
-
 ## MyRenewals: Sub Track & Cancel
 
 Stay in control of your subscriptions with **MyRenewals**, a clean and smart app that helps you track, manage, and cancel your recurring payments before they renew.

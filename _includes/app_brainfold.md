@@ -1,8 +1,3 @@
-
-<div style="text-align: center; margin-bottom: 30px;">
-  <img src="/images/brainfold/app_icon.png" alt="Brainfold Battle app icon" style="width: 120px; height: 120px; border-radius: 22px;" />
-</div>
-
 ## Brainfold Battle
 
 Challenge your brain and battle your friends in real-time trivia showdowns. **Brainfold Battle** lets you create custom quizzes, compete head-to-head, and climb the leaderboard.

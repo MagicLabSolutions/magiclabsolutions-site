@@ -1,8 +1,3 @@
-
-<div style="text-align: center; margin-bottom: 30px;">
-  <img src="/images/qramen/app_icon.png" alt="QRamen app icon" style="width: 120px; height: 120px; border-radius: 22px;" />
-</div>
-
 ## QRamen: Scan, Read, Save QRs
 
 Your all-in-one QR code companion. Scan, create, and organize every QR code you need — all in one place.

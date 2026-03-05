@@ -1,8 +1,3 @@
-
-<div style="text-align: center; margin-bottom: 30px;">
-  <img src="/images/zuzu/app_icon.png" alt="Zuzu app icon" style="width: 120px; height: 120px; border-radius: 22px;" />
-</div>
-
 ## Zuzu: Baby Tracker for Parents
 
 Co-parenting is a team effort. **Zuzu** helps you and your partner track feeds, sleep, diapers, growth, and milestones together — so nothing falls through the cracks.
