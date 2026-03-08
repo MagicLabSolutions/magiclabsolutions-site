@@ -287,11 +287,30 @@ permalink: /zuzu/
             width: 36px;
             height: 36px;
             border-radius: 10px;
-            background: linear-gradient(135deg, #8B5CF6, #EC4899);
+            object-fit: cover;
+        }
+
+        .app-icon-section {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 1.125rem;
+            padding: 48px 0 16px;
+        }
+
+        .app-icon-large {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            box-shadow: 0 8px 32px rgba(139, 92, 246, 0.3);
+        }
+
+        .app-icon-label {
+            margin-top: 12px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
         }
 
         .nav-links {
@@ -1195,16 +1214,10 @@ permalink: /zuzu/
     <nav>
         <div class="nav-inner">
             <a href="/" class="nav-back" title="Back to Magic Lab Solutions">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-                MLS
+                MagicLabSolutions
             </a>
             <a href="#" class="nav-logo">
-                <div class="nav-logo-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/>
-                        <circle cx="12" cy="9" r="2.5"/>
-                    </svg>
-                </div>
+                <img src="../images/zuzu/app_icon.png" alt="Zuzu" class="nav-logo-icon">
                 Zuzu
             </a>
             <ul class="nav-links">
@@ -1221,6 +1234,14 @@ permalink: /zuzu/
             </ul>
         </div>
     </nav>
+
+    <!-- ========================================
+         APP ICON
+         ======================================== -->
+    <div class="app-icon-section">
+        <img src="../images/zuzu/app_icon.png" alt="Zuzu App Icon" class="app-icon-large">
+        <span class="app-icon-label">Zuzu</span>
+    </div>
 
     <!-- ========================================
          HERO SECTION
