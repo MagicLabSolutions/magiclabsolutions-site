@@ -1,0 +1,1030 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zuzu: Baby & Sleep Tracker — Pitch Deck</title>
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0B0B1E;
+    --bg-card: #12122B;
+    --bg-card-hover: #1A1A3A;
+    --purple: #8B5CF6;
+    --purple-dim: rgba(139, 92, 246, 0.15);
+    --purple-glow: rgba(139, 92, 246, 0.35);
+    --pink: #EC4899;
+    --pink-dim: rgba(236, 72, 153, 0.15);
+    --text: #F1F0F7;
+    --text-dim: #9896AB;
+    --gradient: linear-gradient(135deg, #8B5CF6, #EC4899);
+    --gradient-subtle: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(236,72,153,0.25));
+
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  /* -- Slide Container ---------------------------------------- */
+  .deck {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 80px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px) scale(0.97);
+    transition: opacity 0.65s cubic-bezier(0.4,0,0.2,1),
+                transform 0.65s cubic-bezier(0.4,0,0.2,1),
+                visibility 0s 0.65s;
+    z-index: 0;
+  }
+
+  .slide.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    transition: opacity 0.65s cubic-bezier(0.4,0,0.2,1),
+                transform 0.65s cubic-bezier(0.4,0,0.2,1),
+                visibility 0s 0s;
+    z-index: 1;
+  }
+
+  /* -- Ambient Glow ------------------------------------------- */
+  .slide::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--purple-glow) 0%, transparent 70%);
+    top: -120px;
+    right: -100px;
+    pointer-events: none;
+    opacity: 0.4;
+  }
+  .slide::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(236,72,153,0.2) 0%, transparent 70%);
+    bottom: -150px;
+    left: -80px;
+    pointer-events: none;
+    opacity: 0.35;
+  }
+
+  /* -- Typography --------------------------------------------- */
+  h1 { font-size: 3.2rem; font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; }
+  h2 { font-size: 2.4rem; font-weight: 700; line-height: 1.2; letter-spacing: -0.015em; margin-bottom: 12px; }
+  h3 { font-size: 1.2rem; font-weight: 600; line-height: 1.35; }
+  p, li { font-size: 1.05rem; line-height: 1.7; color: var(--text-dim); }
+
+  .gradient-text {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subtitle {
+    font-size: 1.35rem;
+    color: var(--text-dim);
+    max-width: 640px;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--purple);
+    margin-bottom: 10px;
+  }
+
+  /* -- Framed Screenshot (pre-framed App Store images) --------- */
+  .framed-screenshot {
+    max-height: 500px;
+    width: auto;
+    border-radius: 12px;
+    filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));
+    flex-shrink: 0;
+  }
+
+  .framed-screenshot.large {
+    max-height: 530px;
+  }
+
+  .framed-screenshot.small {
+    max-height: 368px;
+  }
+
+  /* -- Slide Counter ------------------------------------------ */
+  .slide-counter {
+    position: fixed;
+    bottom: 28px;
+    right: 40px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(18,18,43,0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(139,92,246,0.2);
+    border-radius: 40px;
+    padding: 8px 20px;
+  }
+
+  .slide-counter .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.18);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .slide-counter .dot.active {
+    background: var(--purple);
+    box-shadow: 0 0 8px var(--purple-glow);
+    width: 24px;
+    border-radius: 4px;
+  }
+
+  .counter-text {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    min-width: 42px;
+    text-align: center;
+  }
+
+  /* -- Nav Arrows --------------------------------------------- */
+  .nav-arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid rgba(139,92,246,0.25);
+    background: rgba(18,18,43,0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: var(--text);
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s ease;
+    opacity: 0.6;
+  }
+  .nav-arrow:hover { opacity: 1; background: rgba(139,92,246,0.2); border-color: var(--purple); }
+  .nav-arrow.prev { left: 24px; }
+  .nav-arrow.next { right: 24px; }
+  .nav-arrow.hidden { opacity: 0; pointer-events: none; }
+
+  /* -- Cards -------------------------------------------------- */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 28px 24px;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(139,92,246,0.3);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+  }
+
+  /* -- Feature Grid ------------------------------------------- */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 960px;
+    width: 100%;
+    margin-top: 32px;
+  }
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+  }
+  .feature-card p {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--text-dim);
+    margin-top: 6px;
+  }
+
+  /* -- Screenshot Row with Phone Frames ----------------------- */
+  .screenshot-row {
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 28px;
+  }
+
+  /* -- Split Layout ------------------------------------------- */
+  .split {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    max-width: 1060px;
+    width: 100%;
+  }
+  .split .text-side { flex: 1; }
+  .split .image-side {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* -- Bullet list -------------------------------------------- */
+  .bullet-list {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .bullet-list li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 14px;
+    font-size: 1.05rem;
+  }
+  .bullet-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--gradient);
+  }
+
+  /* -- Pricing Cards (3-tier) --------------------------------- */
+  .pricing-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    max-width: 960px;
+    align-items: stretch;
+  }
+  .pricing-card {
+    flex: 1;
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 20px;
+    padding: 28px 24px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-card.featured {
+    border-color: var(--purple);
+    box-shadow: 0 0 40px rgba(139,92,246,0.15);
+    transform: scale(1.04);
+  }
+  .pricing-card.premium {
+    border-color: var(--pink);
+    box-shadow: 0 0 30px rgba(236,72,153,0.12);
+  }
+  .pricing-card.featured::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--gradient-subtle);
+    opacity: 0.35;
+    pointer-events: none;
+  }
+  .pricing-card.premium::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(236,72,153,0.12), rgba(139,92,246,0.12));
+    opacity: 0.35;
+    pointer-events: none;
+  }
+  .pricing-card .badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--gradient);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    width: fit-content;
+  }
+  .pricing-card .badge.pink-badge {
+    background: linear-gradient(135deg, #EC4899, #8B5CF6);
+  }
+  .pricing-card .tier-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+  .pricing-card .price {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1;
+  }
+  .pricing-card .price span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-dim);
+  }
+  .pricing-card .price-alt {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+  .pricing-features {
+    list-style: none;
+    margin-top: 18px;
+    flex: 1;
+  }
+  .pricing-features li {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.4;
+  }
+  .pricing-features li .check {
+    color: var(--purple);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .pricing-features li .check.pink {
+    color: var(--pink);
+  }
+  .pricing-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,0.06);
+    margin: 12px 0;
+  }
+  .pricing-includes {
+    font-size: 0.75rem;
+    color: var(--purple);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-top: 14px;
+    margin-bottom: 4px;
+  }
+
+  /* -- Roadmap Timeline --------------------------------------- */
+  .roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 28px;
+  }
+  .roadmap-column h3 {
+    color: var(--text);
+    margin-bottom: 16px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .roadmap-column h3 .roadmap-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 12px;
+  }
+  .roadmap-badge.now { background: rgba(139,92,246,0.2); color: var(--purple); }
+  .roadmap-badge.next { background: rgba(236,72,153,0.2); color: var(--pink); }
+  .roadmap-badge.future { background: rgba(255,255,255,0.08); color: var(--text-dim); }
+
+  .roadmap-list {
+    list-style: none;
+    margin-top: 0;
+  }
+  .roadmap-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 0.95rem;
+  }
+  .roadmap-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--gradient);
+    flex-shrink: 0;
+    margin-top: 5px;
+    box-shadow: 0 0 8px var(--purple-glow);
+  }
+
+  /* -- CTA Button --------------------------------------------- */
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--gradient);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 16px 36px;
+    border-radius: 60px;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 8px 30px rgba(139,92,246,0.3);
+    cursor: pointer;
+    border: none;
+  }
+  .cta-button:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 12px 40px rgba(139,92,246,0.45);
+  }
+
+  /* -- Problem Icons ------------------------------------------ */
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 820px;
+    margin-top: 36px;
+  }
+  .problem-card {
+    text-align: center;
+    padding: 28px 20px;
+  }
+  .problem-icon {
+    font-size: 2.6rem;
+    margin-bottom: 14px;
+  }
+  .problem-card h3 { margin-bottom: 8px; }
+
+  /* -- Contact Links ------------------------------------------ */
+  .contact-links {
+    display: flex;
+    gap: 24px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 14px;
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.25s ease;
+  }
+  .contact-link:hover {
+    border-color: var(--purple);
+    color: var(--text);
+    background: rgba(139,92,246,0.08);
+  }
+
+  /* -- Title slide specifics ---------------------------------- */
+  .title-content {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    max-width: 900px;
+  }
+  .title-text-side {
+    flex: 1;
+    text-align: left;
+  }
+  .logo-text {
+    font-size: 5.5rem;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .logo-sub {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+  }
+  .byline {
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    margin-top: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /* -- Keyboard hint ------------------------------------------ */
+  .key-hint {
+    position: fixed;
+    bottom: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.2);
+    z-index: 100;
+    letter-spacing: 0.05em;
+  }
+
+  /* -- Staggered animation ------------------------------------ */
+  .slide.active .stagger { animation: fadeInUp 0.55s cubic-bezier(0.4,0,0.2,1) both; }
+  .slide.active .stagger:nth-child(1) { animation-delay: 0.08s; }
+  .slide.active .stagger:nth-child(2) { animation-delay: 0.16s; }
+  .slide.active .stagger:nth-child(3) { animation-delay: 0.24s; }
+  .slide.active .stagger:nth-child(4) { animation-delay: 0.32s; }
+  .slide.active .stagger:nth-child(5) { animation-delay: 0.40s; }
+  .slide.active .stagger:nth-child(6) { animation-delay: 0.48s; }
+  .slide.active .stagger:nth-child(7) { animation-delay: 0.56s; }
+  .slide.active .stagger:nth-child(8) { animation-delay: 0.64s; }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(22px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* -- Floating particles (title / CTA slides) ---------------- */
+  .particles {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .particle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.15;
+    animation: drift linear infinite;
+  }
+  @keyframes drift {
+    0%   { transform: translateY(0) translateX(0) scale(1); }
+    50%  { transform: translateY(-80px) translateX(40px) scale(1.1); }
+    100% { transform: translateY(0) translateX(0) scale(1); }
+  }
+
+  .slide > * { position: relative; z-index: 1; }
+
+  /* -- Phone glow effect -------------------------------------- */
+  .phone-glow {
+    position: relative;
+  }
+  .phone-glow::before {
+    content: "";
+    position: absolute;
+    inset: -20px;
+    background: radial-gradient(ellipse at center, rgba(139,92,246,0.15) 0%, transparent 70%);
+    border-radius: 50px;
+    pointer-events: none;
+    z-index: -1;
+  }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- ======== SLIDE 1: Title ======== -->
+  <div class="slide active" data-slide="0">
+    <div class="particles">
+      <div class="particle" style="width:220px;height:220px;background:var(--purple);top:15%;left:8%;animation-duration:14s;"></div>
+      <div class="particle" style="width:180px;height:180px;background:var(--pink);top:60%;right:10%;animation-duration:18s;animation-delay:2s;"></div>
+      <div class="particle" style="width:120px;height:120px;background:var(--purple);bottom:20%;left:45%;animation-duration:12s;animation-delay:4s;"></div>
+    </div>
+    <div class="title-content">
+      <div class="title-text-side">
+        <div class="logo-text stagger">Zuzu</div>
+        <div class="logo-sub stagger">Baby &amp; Sleep Tracker</div>
+        <p class="stagger" style="font-size:1.15rem;color:var(--text-dim);max-width:360px;margin-top:8px;">The premium baby tracker designed with love for modern parents.</p>
+        <div class="byline stagger">by Magic Lab Solutions</div>
+      </div>
+      <div class="stagger phone-glow">
+        <img src="screenshots/raw/08_home.png" alt="Zuzu Home Screen" class="framed-screenshot large" data-locale-img>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 2: The Problem ======== -->
+  <div class="slide" data-slide="1">
+    <div class="section-label stagger">The Problem</div>
+    <h2 class="stagger">Parenthood is wonderful.<br><span class="gradient-text">Tracking it shouldn't be painful.</span></h2>
+    <div class="problem-grid">
+      <div class="card problem-card stagger">
+        <div class="problem-icon">&#x1F4DD;</div>
+        <h3>Scattered Notes</h3>
+        <p>Scribbled times on paper, texts to partners, half-remembered feedings at 3 AM.</p>
+      </div>
+      <div class="card problem-card stagger">
+        <div class="problem-icon">&#x1F616;</div>
+        <h3>Ugly &amp; Complex</h3>
+        <p>Existing trackers look like spreadsheets. Too many taps, confusing screens, zero delight.</p>
+      </div>
+      <div class="card problem-card stagger">
+        <div class="problem-icon">&#x1F9E0;</div>
+        <h3>No Intelligence</h3>
+        <p>Raw data with no context. Parents need insights, not just logs and timestamps.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 3: The Solution ======== -->
+  <div class="slide" data-slide="2">
+    <div class="split">
+      <div class="text-side">
+        <div class="section-label stagger">The Solution</div>
+        <h2 class="stagger">One beautiful app.<br><span class="gradient-text">Everything tracked.</span></h2>
+        <p class="stagger" style="margin-top:16px;max-width:420px;">
+          Zuzu replaces scattered notes with a single, stunning interface built around our signature <strong style="color:var(--text);">Visual Timeline Arc</strong> &mdash; see your baby's entire day unfold in one glance.
+        </p>
+        <p class="stagger" style="margin-top:12px;max-width:420px;">
+          Feeds, sleep, diapers, milestones, and growth &mdash; all in seconds, all in one place.
+        </p>
+      </div>
+      <div class="image-side stagger phone-glow">
+        <img src="screenshots/raw/01_hero_arc.png" alt="Zuzu Timeline Arc" class="framed-screenshot large" data-locale-img>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 4: Key Features ======== -->
+  <div class="slide" data-slide="3">
+    <div class="section-label stagger">Key Features</div>
+    <h2 class="stagger">Everything parents need. <span class="gradient-text">Nothing they don't.</span></h2>
+    <div class="feature-grid">
+      <div class="card feature-card stagger">
+        <div class="feature-icon" style="background:var(--purple-dim);">
+          <svg width="24" height="24" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Visual Timeline Arc</h3>
+        <p>See your baby's entire day at a glance with our unique circular timeline.</p>
+      </div>
+      <div class="card feature-card stagger">
+        <div class="feature-icon" style="background:var(--pink-dim);">
+          <svg width="24" height="24" fill="none" stroke="#EC4899" stroke-width="2" stroke-linecap="round"><path d="M13 2L3 14h9l-1 8 10-12h-9z"/></svg>
+        </div>
+        <h3>Quick Logging</h3>
+        <p>Track bottles, nursing, diapers in seconds &mdash; even at 3 AM with one hand.</p>
+      </div>
+      <div class="card feature-card stagger">
+        <div class="feature-icon" style="background:var(--purple-dim);">
+          <svg width="24" height="24" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"><path d="M17.8 19.2L16 11l-4 4-3-3L2 19"/><path d="M17.8 19.2L21 16l-3-8-4 4"/></svg>
+        </div>
+        <h3>Live Nap Tracking</h3>
+        <p>Real-time duration with smart predictions so you know when to expect wake-up.</p>
+      </div>
+      <div class="card feature-card stagger">
+        <div class="feature-icon" style="background:var(--pink-dim);">
+          <svg width="24" height="24" fill="none" stroke="#EC4899" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 017 7c0 5-7 13-7 13S5 14 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        </div>
+        <h3>AI Insights</h3>
+        <p>Personalized recommendations based on your baby's unique patterns.</p>
+      </div>
+      <div class="card feature-card stagger">
+        <div class="feature-icon" style="background:var(--purple-dim);">
+          <svg width="24" height="24" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 5-10"/></svg>
+        </div>
+        <h3>Growth Charts</h3>
+        <p>WHO percentile tracking for height, weight, and head circumference.</p>
+      </div>
+      <div class="card feature-card stagger">
+        <div class="feature-icon" style="background:var(--pink-dim);">
+          <svg width="24" height="24" fill="none" stroke="#EC4899" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Family Sharing</h3>
+        <p>Multiple caregivers, one shared timeline. Everyone stays in sync.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 5: Screenshots ======== -->
+  <div class="slide" data-slide="4">
+    <div class="section-label stagger">The Product</div>
+    <h2 class="stagger">Designed with <span class="gradient-text">love &amp; precision</span></h2>
+    <div class="screenshot-row stagger">
+      <img src="screenshots/raw/08_home.png" alt="Home Screen" class="framed-screenshot small" data-locale-img>
+      <img src="screenshots/raw/06_insights.png" alt="AI Insights" class="framed-screenshot" style="max-height:408px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));" data-locale-img>
+      <img src="screenshots/raw/07_growth.png" alt="Growth Charts" class="framed-screenshot" style="max-height:408px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));" data-locale-img>
+      <img src="screenshots/raw/05_timeline_events.png" alt="Timeline Events" class="framed-screenshot small" data-locale-img>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 6: AI-Powered Insights ======== -->
+  <div class="slide" data-slide="5">
+    <div class="split">
+      <div class="text-side">
+        <div class="section-label stagger">Intelligent</div>
+        <h2 class="stagger">AI-Powered<br><span class="gradient-text">Insights</span></h2>
+        <p class="stagger" style="margin-top:12px;max-width:400px;">
+          Zuzu doesn't just record &mdash; it understands. Our AI engine analyzes patterns and delivers actionable guidance.
+        </p>
+        <ul class="bullet-list" style="margin-top:20px;">
+          <li class="stagger"><strong style="color:var(--text);">Hydration checks</strong> &mdash; alerts if fluid intake is low</li>
+          <li class="stagger"><strong style="color:var(--text);">Sleep debt analysis</strong> &mdash; understand accumulated rest gaps</li>
+          <li class="stagger"><strong style="color:var(--text);">Feeding pattern recognition</strong> &mdash; spot trends before issues arise</li>
+          <li class="stagger"><strong style="color:var(--text);">Personalized recommendations</strong> &mdash; tailored to your baby's age &amp; habits</li>
+        </ul>
+      </div>
+      <div class="image-side stagger phone-glow">
+        <img src="screenshots/raw/06_insights.png" alt="Zuzu AI Insights" class="framed-screenshot large" data-locale-img>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 7: Growth Tracking ======== -->
+  <div class="slide" data-slide="6">
+    <div class="split" style="flex-direction:row-reverse;">
+      <div class="text-side">
+        <div class="section-label stagger">Growth</div>
+        <h2 class="stagger">WHO Percentile<br><span class="gradient-text">Growth Charts</span></h2>
+        <p class="stagger" style="margin-top:12px;max-width:420px;">
+          Track your baby's development against World Health Organization standards with beautiful, easy-to-read charts.
+        </p>
+        <ul class="bullet-list" style="margin-top:20px;">
+          <li class="stagger"><strong style="color:var(--text);">Weight tracking</strong> with percentile curves</li>
+          <li class="stagger"><strong style="color:var(--text);">Height/Length tracking</strong> for steady growth monitoring</li>
+          <li class="stagger"><strong style="color:var(--text);">Head circumference</strong> charting</li>
+          <li class="stagger"><strong style="color:var(--text);">Measurement history</strong> &amp; milestone logging</li>
+        </ul>
+      </div>
+      <div class="image-side stagger phone-glow">
+        <img src="screenshots/raw/07_growth.png" alt="Zuzu Growth Tracking" class="framed-screenshot large" data-locale-img>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 8: Pricing ======== -->
+  <div class="slide" data-slide="7">
+    <div class="section-label stagger">Pricing</div>
+    <h2 class="stagger">Simple plans that <span class="gradient-text">grow with you</span></h2>
+    <div class="pricing-row">
+      <!-- Free -->
+      <div class="pricing-card stagger">
+        <div class="tier-name">Free</div>
+        <div class="price">$0</div>
+        <div class="price-alt">Forever free</div>
+        <ul class="pricing-features" style="margin-top:18px;">
+          <li><span class="check">&#10003;</span> Track 1 baby</li>
+          <li><span class="check">&#10003;</span> 7 days of history</li>
+          <li><span class="check">&#10003;</span> Basic tracking (feeds, sleep, diapers)</li>
+          <li><span class="check">&#10003;</span> Timeline view</li>
+          <li><span class="check">&#10003;</span> Limited sleep sounds</li>
+        </ul>
+      </div>
+      <!-- Plus (Popular) -->
+      <div class="pricing-card featured stagger">
+        <div class="badge">Popular</div>
+        <div class="tier-name">Plus</div>
+        <div class="price">$4.99<span>/mo</span></div>
+        <div class="price-alt">or $24.99/year (save 58%)</div>
+        <ul class="pricing-features" style="margin-top:18px;">
+          <li><span class="check">&#10003;</span> Full history (unlimited)</li>
+          <li><span class="check">&#10003;</span> AI-powered insights</li>
+          <li><span class="check">&#10003;</span> Sleep predictions</li>
+          <li><span class="check">&#10003;</span> PDF export</li>
+          <li><span class="check">&#10003;</span> Home Screen widgets</li>
+          <li><span class="check">&#10003;</span> Apple Watch app</li>
+          <li><span class="check">&#10003;</span> Premium sound library</li>
+          <li><span class="check">&#10003;</span> 1 caregiver</li>
+        </ul>
+      </div>
+      <!-- Premium (Best Value) -->
+      <div class="pricing-card premium stagger">
+        <div class="badge pink-badge">Best Value</div>
+        <div class="tier-name">Premium</div>
+        <div class="price">$9.99<span>/mo</span></div>
+        <div class="price-alt">or $49.99/year (save 58%)</div>
+        <div class="pricing-includes">Everything in Plus, and:</div>
+        <ul class="pricing-features">
+          <li><span class="check pink">&#10003;</span> Unlimited babies</li>
+          <li><span class="check pink">&#10003;</span> Unlimited caregivers</li>
+          <li><span class="check pink">&#10003;</span> Caregiver activity log</li>
+          <li><span class="check pink">&#10003;</span> Weekly summary reports</li>
+          <li><span class="check pink">&#10003;</span> Priority support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 9: Roadmap ======== -->
+  <div class="slide" data-slide="8">
+    <div class="section-label stagger">Roadmap</div>
+    <h2 class="stagger">Live &amp; growing. <span class="gradient-text">Big plans ahead.</span></h2>
+    <div class="roadmap-grid">
+      <div class="roadmap-column stagger">
+        <h3><span class="roadmap-badge now">Shipped</span></h3>
+        <ul class="roadmap-list">
+          <li><div class="roadmap-dot"></div><div><strong style="color:var(--text);">App Store Launch</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Live in 38 markets worldwide</span></div></li>
+          <li><div class="roadmap-dot"></div><div><strong style="color:var(--text);">38 Languages</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Full localization</span></div></li>
+          <li><div class="roadmap-dot"></div><div><strong style="color:var(--text);">AI Insights</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Intelligent pattern analysis</span></div></li>
+          <li><div class="roadmap-dot"></div><div><strong style="color:var(--text);">WHO Growth Charts</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Percentile tracking</span></div></li>
+        </ul>
+      </div>
+      <div class="roadmap-column stagger">
+        <h3><span class="roadmap-badge next">Q2 2026</span></h3>
+        <ul class="roadmap-list">
+          <li><div class="roadmap-dot" style="background:var(--pink);box-shadow:0 0 8px rgba(236,72,153,0.35);"></div><div><strong style="color:var(--text);">Home Screen Widgets</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">At-a-glance baby stats</span></div></li>
+          <li><div class="roadmap-dot" style="background:var(--pink);box-shadow:0 0 8px rgba(236,72,153,0.35);"></div><div><strong style="color:var(--text);">Apple Watch</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Quick logging from your wrist</span></div></li>
+          <li><div class="roadmap-dot" style="background:var(--pink);box-shadow:0 0 8px rgba(236,72,153,0.35);"></div><div><strong style="color:var(--text);">Caregiver Sharing</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Multi-user sync &amp; activity log</span></div></li>
+        </ul>
+      </div>
+      <div class="roadmap-column stagger">
+        <h3><span class="roadmap-badge future">Later</span></h3>
+        <ul class="roadmap-list">
+          <li><div class="roadmap-dot" style="background:rgba(255,255,255,0.25);box-shadow:0 0 8px rgba(255,255,255,0.1);"></div><div><strong style="color:var(--text);">Nap Scheduler</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">AI-suggested nap windows</span></div></li>
+          <li><div class="roadmap-dot" style="background:rgba(255,255,255,0.25);box-shadow:0 0 8px rgba(255,255,255,0.1);"></div><div><strong style="color:var(--text);">Sound Packs</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Expanded white noise &amp; lullabies</span></div></li>
+          <li><div class="roadmap-dot" style="background:rgba(255,255,255,0.25);box-shadow:0 0 8px rgba(255,255,255,0.1);"></div><div><strong style="color:var(--text);">Pediatrician Export</strong><br><span style="color:var(--text-dim);font-size:0.85rem;">Shareable health reports</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== SLIDE 10: Download CTA ======== -->
+  <div class="slide" data-slide="9">
+    <div class="particles">
+      <div class="particle" style="width:280px;height:280px;background:var(--purple);top:10%;right:5%;animation-duration:16s;"></div>
+      <div class="particle" style="width:200px;height:200px;background:var(--pink);bottom:15%;left:8%;animation-duration:20s;animation-delay:3s;"></div>
+    </div>
+    <div class="logo-text stagger" style="font-size:4.5rem;">Zuzu</div>
+    <h2 class="stagger" style="margin-top:8px;">Download <span class="gradient-text">Zuzu</span> today</h2>
+    <p class="subtitle stagger">The premium baby tracker designed with love for modern parents.</p>
+    <div style="margin-top:32px;" class="stagger">
+      <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" target="_blank" class="cta-button">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Download on the App Store
+      </a>
+    </div>
+    <div class="contact-links stagger">
+      <a href="https://magiclabsolutions.com" target="_blank" class="contact-link">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="9" r="8"/><path d="M1 9h16M9 1a12.3 12.3 0 014 8 12.3 12.3 0 01-4 8 12.3 12.3 0 01-4-8 12.3 12.3 0 014-8z"/></svg>
+        magiclabsolutions.com
+      </a>
+      <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" target="_blank" class="contact-link">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="3" width="14" height="12" rx="2"/><path d="M9 3v12M2 9h14"/></svg>
+        App Store Listing
+      </a>
+      <a href="mailto:hello@magiclabsolutions.com" class="contact-link">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="4" width="14" height="10" rx="2"/><path d="M2 4l7 5 7-5"/></svg>
+        hello@magiclabsolutions.com
+      </a>
+    </div>
+    <div class="byline stagger" style="margin-top:40px;">Magic Lab Solutions &middot; 2026</div>
+  </div>
+
+</div>
+
+<!-- -- Navigation --------------------------------------------- -->
+<button class="nav-arrow prev hidden" id="prevBtn" aria-label="Previous slide">&#8592;</button>
+<button class="nav-arrow next" id="nextBtn" aria-label="Next slide">&#8594;</button>
+
+<div class="slide-counter" id="counter"></div>
+<div class="key-hint">Use arrow keys or click to navigate</div>
+
+<script>
+(function() {
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  let current = 0;
+  let transitioning = false;
+
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const counter = document.getElementById('counter');
+
+  function buildCounter() {
+    counter.innerHTML = '';
+    const text = document.createElement('span');
+    text.className = 'counter-text';
+    text.textContent = (current + 1) + ' / ' + total;
+    counter.appendChild(text);
+    for (let i = 0; i < total; i++) {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === current ? ' active' : '');
+      dot.addEventListener('click', () => goTo(i));
+      counter.appendChild(dot);
+    }
+  }
+
+  function updateNav() {
+    prevBtn.classList.toggle('hidden', current === 0);
+    nextBtn.classList.toggle('hidden', current === total - 1);
+  }
+
+  function goTo(index) {
+    if (index === current || index < 0 || index >= total || transitioning) return;
+    transitioning = true;
+
+    slides[current].classList.remove('active');
+
+    const staggerEls = slides[index].querySelectorAll('.stagger');
+    staggerEls.forEach(el => {
+      el.style.animation = 'none';
+      el.offsetHeight;
+      el.style.animation = '';
+    });
+
+    slides[index].classList.add('active');
+    current = index;
+    buildCounter();
+    updateNav();
+
+    setTimeout(() => { transitioning = false; }, 700);
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  // Keyboard
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); next(); }
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); prev(); }
+    if (e.key === 'Home') { e.preventDefault(); goTo(0); }
+    if (e.key === 'End') { e.preventDefault(); goTo(total - 1); }
+  });
+
+  // Click nav arrows
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+
+  // Click on slide advances (but not on links/buttons)
+  document.addEventListener('click', e => {
+    if (e.target.closest('.nav-arrow') || e.target.closest('.slide-counter') ||
+        e.target.closest('a') || e.target.closest('button')) return;
+    if (e.clientX > window.innerWidth * 0.5) next();
+    else prev();
+  });
+
+  // Touch swipe
+  let touchStartX = 0;
+  document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 50) { dx < 0 ? next() : prev(); }
+  }, { passive: true });
+
+  // Init
+  buildCounter();
+  updateNav();
+})();
+</script>
+
+<script src="locale.js"></script>
+</body>
+</html>

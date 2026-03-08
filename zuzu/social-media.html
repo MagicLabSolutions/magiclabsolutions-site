@@ -1,0 +1,1282 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zuzu — Social Media Assets</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #1a1a2e;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+    padding: 48px;
+  }
+
+  .page-header {
+    max-width: 1800px;
+    margin: 0 auto 48px;
+  }
+
+  .page-header h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .page-header p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.6;
+  }
+
+  /* ============================================
+     RESPONSIVE GRID OF CARDS
+     ============================================ */
+  .assets-grid {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .asset-card {
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    background: #12121f;
+  }
+
+  .asset-card-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .asset-card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #c4b5fd;
+  }
+
+  .asset-card-dims {
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+    letter-spacing: 0.5px;
+    background: rgba(255,255,255,0.05);
+    padding: 3px 10px;
+    border-radius: 6px;
+    border: 1px solid #333;
+  }
+
+
+  /* ============================================
+     ASSET 1: Instagram Post — Hero (1080x1080)
+     ============================================ */
+  .asset-1 {
+    width: 1080px;
+    height: 1080px;
+    background: linear-gradient(160deg, #1a0a3e 0%, #0B0B1E 40%, #0B0B1E 60%, #150835 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px 70px;
+    text-align: center;
+  }
+
+  .asset-1::before {
+    content: '';
+    position: absolute;
+    top: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(139,92,246,0.2) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-1::after {
+    content: '';
+    position: absolute;
+    bottom: -120px;
+    right: -80px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(236,72,153,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-1 .top-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .asset-1 .zuzu-logo {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 12px;
+  }
+
+  .asset-1 .tagline {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 0.3px;
+  }
+
+  .asset-1 .phone-area {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .asset-1 .bottom-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .asset-1 .app-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 1px;
+  }
+
+  /* ============================================
+     ASSET 2: Instagram Post — Features (1080x1080)
+     ============================================ */
+  .asset-2 {
+    width: 1080px;
+    height: 1080px;
+    background: linear-gradient(170deg, #1e0845 0%, #0B0B1E 50%, #0a0a1a 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 70px 60px;
+  }
+
+  .asset-2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle at top right, rgba(139,92,246,0.2) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .asset-2 .header {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  .asset-2 .header .label {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #8B5CF6;
+    margin-bottom: 12px;
+  }
+
+  .asset-2 .header h2 {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.1;
+    background: linear-gradient(135deg, #ffffff, #c4b5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .asset-2 .content-row {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .asset-2 .phones-side {
+    flex-shrink: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .asset-2 .features-side {
+    flex: 1;
+    padding-top: 20px;
+  }
+
+  .asset-2 .feature-bullet {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .asset-2 .feature-bullet .icon-circle {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+
+  .asset-2 .feature-bullet .icon-circle.purple { background: rgba(139,92,246,0.2); }
+  .asset-2 .feature-bullet .icon-circle.pink { background: rgba(236,72,153,0.2); }
+  .asset-2 .feature-bullet .icon-circle.green { background: rgba(16,185,129,0.2); }
+
+  .asset-2 .feature-bullet .feature-text {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.92);
+  }
+
+  .asset-2 .feature-bullet .feature-desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.45);
+    margin-top: 3px;
+  }
+
+  .asset-2 .bottom-bar {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .asset-2 .bottom-bar .zuzu-small {
+    font-size: 28px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .asset-2 .bottom-bar .free-text {
+    font-size: 16px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 500;
+  }
+
+  /* ============================================
+     ASSET 3: Instagram Story — Full Feature (1080x1920)
+     ============================================ */
+  .asset-3 {
+    width: 1080px;
+    height: 1920px;
+    background: linear-gradient(180deg, #1a0a3e 0%, #0B0B1E 30%, #0B0B1E 70%, #150835 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 70px 90px;
+    text-align: center;
+  }
+
+  .asset-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    background: radial-gradient(ellipse at top center, rgba(139,92,246,0.25) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background: radial-gradient(ellipse at bottom center, rgba(236,72,153,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-3 .top-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .asset-3 .top-section h2 {
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+
+  .asset-3 .top-section h2 span {
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .asset-3 .phone-area {
+    position: relative;
+    z-index: 1;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  .asset-3 .phone-area .phone-glow {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(139,92,246,0.18) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-3 .feature-list {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    max-width: 580px;
+    margin: 0 auto 40px;
+  }
+
+  .asset-3 .feature-list .feat-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.88);
+  }
+
+  .asset-3 .feature-list .feat-item .feat-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .asset-3 .bottom-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .asset-3 .cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    border-radius: 40px;
+    padding: 22px 60px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+  }
+
+  .asset-3 .app-store-text {
+    font-size: 16px;
+    color: rgba(255,255,255,0.4);
+    font-weight: 400;
+  }
+
+  /* ============================================
+     ASSET 4: Twitter/X Post — Launch (1200x675)
+     ============================================ */
+  .asset-4 {
+    width: 1200px;
+    height: 675px;
+    background: #0B0B1E;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+  }
+
+  .asset-4::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(139,92,246,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-4 .left-side {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    padding-right: 60px;
+  }
+
+  .asset-4 .left-side .zuzu-logo {
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+  }
+
+  .asset-4 .left-side h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    color: #fff;
+  }
+
+  .asset-4 .left-side h2 em {
+    font-style: normal;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .asset-4 .left-side .subtitle {
+    font-size: 18px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 400;
+  }
+
+  .asset-4 .right-side {
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+  }
+
+  /* ============================================
+     ASSET 5: Twitter/X Post — AI Insights (1200x675)
+     ============================================ */
+  .asset-5 {
+    width: 1200px;
+    height: 675px;
+    background: #0B0B1E;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+  }
+
+  .asset-5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    background: radial-gradient(ellipse at right center, rgba(139,92,246,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-5::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(236,72,153,0.06) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .asset-5 .left-side {
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    margin-right: 60px;
+  }
+
+  .asset-5 .right-side {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+  }
+
+  .asset-5 .right-side .ai-badge {
+    display: inline-block;
+    background: rgba(139,92,246,0.15);
+    border: 1px solid rgba(139,92,246,0.3);
+    border-radius: 24px;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #c4b5fd;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .asset-5 .right-side h2 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .asset-5 .right-side h2 span {
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .asset-5 .right-side .desc {
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 24px;
+  }
+
+  .asset-5 .right-side .zuzu-brand {
+    font-size: 22px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* ============================================
+     ASSET 6: LinkedIn Banner (1584x396)
+     ============================================ */
+  .asset-6 {
+    width: 1584px;
+    height: 396px;
+    background: linear-gradient(90deg, #0B0B1E 0%, #110b28 50%, #0B0B1E 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+  }
+
+  .asset-6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(139,92,246,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 50%, rgba(236,72,153,0.06) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .asset-6 .text-section {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    padding-right: 60px;
+  }
+
+  .asset-6 .text-section .zuzu-logo {
+    font-size: 44px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4px;
+  }
+
+  .asset-6 .text-section .subtitle {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 8px;
+  }
+
+  .asset-6 .text-section .tagline {
+    font-size: 15px;
+    color: rgba(255,255,255,0.45);
+    font-weight: 400;
+  }
+
+  .asset-6 .screenshots-row {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+  }
+
+  .asset-6 .branding {
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  /* ============================================
+     ASSET 7: Carousel Slide 1 — Meet Zuzu (1080x1080)
+     ============================================ */
+  .asset-7 {
+    width: 1080px;
+    height: 1080px;
+    background: linear-gradient(160deg, #1a0a3e 0%, #0B0B1E 50%, #0d0820 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 80px 70px;
+    text-align: center;
+  }
+
+  .asset-7::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(139,92,246,0.12) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .asset-7 .top-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .asset-7 .meet-badge {
+    display: inline-block;
+    background: rgba(139,92,246,0.15);
+    border: 1px solid rgba(139,92,246,0.3);
+    border-radius: 30px;
+    padding: 10px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c4b5fd;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+
+  .asset-7 .zuzu-logo {
+    font-size: 56px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+  }
+
+  .asset-7 .tagline {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .asset-7 .phone-area {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .asset-7 .bottom-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .asset-7 .tier-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .asset-7 .tier-pill {
+    padding: 8px 22px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  .asset-7 .tier-pill.free {
+    background: rgba(16,185,129,0.15);
+    border: 1px solid rgba(16,185,129,0.3);
+    color: #6ee7b7;
+  }
+
+  .asset-7 .tier-pill.plus {
+    background: rgba(139,92,246,0.15);
+    border: 1px solid rgba(139,92,246,0.3);
+    color: #c4b5fd;
+  }
+
+  .asset-7 .tier-pill.premium {
+    background: rgba(236,72,153,0.15);
+    border: 1px solid rgba(236,72,153,0.3);
+    color: #f9a8d4;
+  }
+
+  .asset-7 .app-store-link {
+    font-size: 14px;
+    color: rgba(255,255,255,0.35);
+    font-weight: 400;
+  }
+
+  /* ============================================
+     ASSET 8: Carousel Slide 2 — Pricing (1080x1080)
+     ============================================ */
+  .asset-8 {
+    width: 1080px;
+    height: 1080px;
+    background: linear-gradient(160deg, #0d0820 0%, #0B0B1E 40%, #110b28 100%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 60px 60px;
+    text-align: center;
+  }
+
+  .asset-8::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(139,92,246,0.1) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .asset-8 .header {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+  }
+
+  .asset-8 .header .pricing-badge {
+    display: inline-block;
+    background: rgba(139,92,246,0.15);
+    border: 1px solid rgba(139,92,246,0.25);
+    border-radius: 24px;
+    padding: 8px 22px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #c4b5fd;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+
+  .asset-8 .header h2 {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.15;
+  }
+
+  .asset-8 .header h2 span {
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .asset-8 .pricing-row {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .asset-8 .pricing-card {
+    flex: 1;
+    border-radius: 24px;
+    padding: 36px 28px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .asset-8 .pricing-card.free-card {
+    background: rgba(16,185,129,0.08);
+    border: 1px solid rgba(16,185,129,0.2);
+  }
+
+  .asset-8 .pricing-card.plus-card {
+    background: rgba(139,92,246,0.1);
+    border: 2px solid rgba(139,92,246,0.4);
+    transform: scale(1.02);
+  }
+
+  .asset-8 .pricing-card.premium-card {
+    background: rgba(236,72,153,0.08);
+    border: 1px solid rgba(236,72,153,0.2);
+  }
+
+  .asset-8 .pricing-card .plan-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  .asset-8 .pricing-card.free-card .plan-name { color: #6ee7b7; }
+  .asset-8 .pricing-card.plus-card .plan-name { color: #c4b5fd; }
+  .asset-8 .pricing-card.premium-card .plan-name { color: #f9a8d4; }
+
+  .asset-8 .pricing-card .plan-price {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 4px;
+    color: #fff;
+  }
+
+  .asset-8 .pricing-card .plan-period {
+    font-size: 13px;
+    color: rgba(255,255,255,0.35);
+    margin-bottom: 24px;
+  }
+
+  .asset-8 .pricing-card .plan-features {
+    flex: 1;
+    list-style: none;
+  }
+
+  .asset-8 .pricing-card .plan-features li {
+    font-size: 15px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.3;
+  }
+
+  .asset-8 .pricing-card .plan-features li .ck {
+    flex-shrink: 0;
+    font-size: 14px;
+    margin-top: 1px;
+  }
+
+  .asset-8 .pricing-card.free-card .plan-features li .ck { color: #6ee7b7; }
+  .asset-8 .pricing-card.plus-card .plan-features li .ck { color: #c4b5fd; }
+  .asset-8 .pricing-card.premium-card .plan-features li .ck { color: #f9a8d4; }
+
+  .asset-8 .pricing-card .popular-tag {
+    display: inline-block;
+    background: rgba(139,92,246,0.3);
+    border-radius: 12px;
+    padding: 4px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #c4b5fd;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    align-self: flex-start;
+  }
+
+  .asset-8 .bottom-bar {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+  }
+
+  .asset-8 .bottom-bar .zuzu-small {
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* ============================================
+     App Store badge (reusable)
+     ============================================ */
+  .app-store-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .app-store-badge .apple-icon {
+    font-size: 20px;
+  }
+
+  .app-store-badge .badge-text-small {
+    font-size: 10px;
+    font-weight: 400;
+    display: block;
+    line-height: 1;
+  }
+
+  .app-store-badge .badge-text-large {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    line-height: 1.2;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Zuzu &mdash; Social Media Assets</h1>
+  <p>Each card below is rendered at its true pixel size, ready to screenshot.<br>
+  Zoom out (Cmd/Ctrl + minus) if assets extend beyond your screen.</p>
+</div>
+
+<div class="assets-grid">
+
+  <!-- =============================================
+       ASSET 1: Instagram Post — Hero (1080x1080)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">1. Instagram Post &mdash; Hero</span>
+      <span class="asset-card-dims">1080 &times; 1080</span>
+    </div>
+    <div class="asset-1">
+      <div class="top-section">
+        <div class="zuzu-logo">Zuzu</div>
+        <div class="tagline">Track every precious moment</div>
+      </div>
+      <div class="phone-area">
+        <img data-locale-img src="screenshots/raw/08_home.png" alt="Zuzu Home" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+      </div>
+      <div class="bottom-section">
+        <div class="app-store-badge">
+          <span class="apple-icon">&#63743;</span>
+          <span>
+            <span class="badge-text-small">Download on the</span>
+            <span class="badge-text-large">App Store</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       ASSET 2: Instagram Post — Features (1080x1080)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">2. Instagram Post &mdash; Features</span>
+      <span class="asset-card-dims">1080 &times; 1080</span>
+    </div>
+    <div class="asset-2">
+      <div class="header">
+        <div class="label">Everything you need</div>
+        <h2>Insights &amp;<br>Growth Tracking</h2>
+      </div>
+      <div class="content-row">
+        <div class="phones-side">
+          <img data-locale-img src="screenshots/raw/06_insights.png" alt="Zuzu Insights" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+          <img data-locale-img src="screenshots/raw/07_growth.png" alt="Zuzu Growth" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+
+        </div>
+        <div class="features-side">
+          <div class="feature-bullet">
+            <div class="icon-circle purple">&#9733;</div>
+            <div>
+              <div class="feature-text">AI-Powered Insights</div>
+              <div class="feature-desc">Personalized tips based on patterns</div>
+            </div>
+          </div>
+          <div class="feature-bullet">
+            <div class="icon-circle green">&#9652;</div>
+            <div>
+              <div class="feature-text">Growth Percentiles</div>
+              <div class="feature-desc">WHO-standard growth charts</div>
+            </div>
+          </div>
+          <div class="feature-bullet">
+            <div class="icon-circle pink">&#9790;</div>
+            <div>
+              <div class="feature-text">Sleep Analysis</div>
+              <div class="feature-desc">Track naps, nighttime, and trends</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="zuzu-small">Zuzu</div>
+        <div class="free-text">Free on the App Store</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       ASSET 3: Instagram Story — Full Feature (1080x1920)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">3. Instagram Story &mdash; Full Feature</span>
+      <span class="asset-card-dims">1080 &times; 1920</span>
+    </div>
+    <div class="asset-3">
+      <div class="top-section">
+        <h2>Your baby's day,<br><span>beautifully tracked</span></h2>
+      </div>
+
+      <div class="phone-area">
+        <div class="phone-glow"></div>
+        <img data-locale-img src="screenshots/raw/08_home.png" alt="Zuzu Home" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+      </div>
+
+      <div class="feature-list">
+        <div class="feat-item">
+          <div class="feat-icon" style="background: rgba(139,92,246,0.2);">&#9790;</div>
+          <span>Sleep &amp; nap tracking with timeline arc</span>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon" style="background: rgba(236,72,153,0.2);">&#9825;</div>
+          <span>Feeding logs &mdash; bottle, nursing &amp; solids</span>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon" style="background: rgba(59,130,246,0.2);">&#9733;</div>
+          <span>AI-powered insights &amp; suggestions</span>
+        </div>
+        <div class="feat-item">
+          <div class="feat-icon" style="background: rgba(16,185,129,0.2);">&#9652;</div>
+          <span>Growth percentile charts (WHO data)</span>
+        </div>
+      </div>
+
+      <div class="bottom-section">
+        <div class="cta-button">Download Free</div>
+        <div class="app-store-text">Available on the App Store</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       ASSET 4: Twitter/X Post — Launch (1200x675)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">4. Twitter/X Post &mdash; Launch</span>
+      <span class="asset-card-dims">1200 &times; 675</span>
+    </div>
+    <div class="asset-4">
+      <div class="left-side">
+        <div class="zuzu-logo">Zuzu</div>
+        <h2>Track every<br><em>precious moment</em></h2>
+        <div class="subtitle">Sleep, feeds, growth &amp; AI insights &mdash; all in one beautiful app.</div>
+      </div>
+      <div class="right-side">
+        <img data-locale-img src="screenshots/raw/08_home.png" alt="Zuzu Home" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       ASSET 5: Twitter/X Post — AI Insights (1200x675)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">5. Twitter/X Post &mdash; AI Insights</span>
+      <span class="asset-card-dims">1200 &times; 675</span>
+    </div>
+    <div class="asset-5">
+      <div class="left-side">
+        <img data-locale-img src="screenshots/raw/06_insights.png" alt="Zuzu Insights" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+      </div>
+      <div class="right-side">
+        <div class="ai-badge">Powered by AI</div>
+        <h2>AI-Powered<br><span>Baby Insights</span></h2>
+        <div class="desc">Smart, personalized recommendations based on your baby's unique sleep, feeding, and growth patterns.</div>
+        <div class="zuzu-brand">Zuzu</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       ASSET 6: LinkedIn Banner (1584x396)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">6. LinkedIn Banner</span>
+      <span class="asset-card-dims">1584 &times; 396</span>
+    </div>
+    <div class="asset-6">
+      <div class="text-section">
+        <div class="zuzu-logo">Zuzu</div>
+        <div class="subtitle">Baby &amp; Sleep Tracker</div>
+        <div class="tagline">Track every precious moment &mdash; sleep, feeds, growth &amp; AI insights</div>
+      </div>
+      <div class="screenshots-row">
+        <img data-locale-img src="screenshots/raw/08_home.png" alt="Home" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+        <img data-locale-img src="screenshots/raw/06_insights.png" alt="Insights" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+        <img data-locale-img src="screenshots/raw/07_growth.png" alt="Growth" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+
+      </div>
+      <div class="branding">Magic Lab Solutions</div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       ASSET 7: Carousel Slide 1 — Meet Zuzu (1080x1080)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">7. Carousel Slide 1 &mdash; Meet Zuzu</span>
+      <span class="asset-card-dims">1080 &times; 1080</span>
+    </div>
+    <div class="asset-7">
+      <div class="top-section">
+        <div class="meet-badge">Introducing</div>
+        <div class="zuzu-logo">Meet Zuzu</div>
+        <div class="tagline">Your baby's day, beautifully tracked</div>
+      </div>
+      <div class="phone-area">
+        <img data-locale-img src="screenshots/raw/08_home.png" alt="Zuzu Home" style="max-height:480px; width:auto; border-radius:12px; filter: drop-shadow(0 15px 40px rgba(0,0,0,0.4));">
+      </div>
+      <div class="bottom-section">
+        <div class="tier-row">
+          <div class="tier-pill free">Free</div>
+          <div class="tier-pill plus">Plus</div>
+          <div class="tier-pill premium">Premium</div>
+        </div>
+        <div class="app-store-link">Available on the App Store</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       ASSET 8: Carousel Slide 2 — Pricing (1080x1080)
+       ============================================= -->
+  <div class="asset-card">
+    <div class="asset-card-header">
+      <span class="asset-card-title">8. Carousel Slide 2 &mdash; Pricing</span>
+      <span class="asset-card-dims">1080 &times; 1080</span>
+    </div>
+    <div class="asset-8">
+      <div class="header">
+        <div class="pricing-badge">Choose your plan</div>
+        <h2>A plan for <span>every parent</span></h2>
+      </div>
+
+      <div class="pricing-row">
+        <!-- Free -->
+        <div class="pricing-card free-card">
+          <div class="plan-name">Free</div>
+          <div class="plan-price">$0</div>
+          <div class="plan-period">Forever free</div>
+          <ul class="plan-features">
+            <li><span class="ck">&#10003;</span> Sleep &amp; feed tracking</li>
+            <li><span class="ck">&#10003;</span> Timeline arc view</li>
+            <li><span class="ck">&#10003;</span> Quick-log buttons</li>
+            <li><span class="ck">&#10003;</span> Daily summaries</li>
+            <li><span class="ck">&#10003;</span> 1 child profile</li>
+          </ul>
+        </div>
+
+        <!-- Plus -->
+        <div class="pricing-card plus-card">
+          <div class="popular-tag">Most Popular</div>
+          <div class="plan-name">Plus</div>
+          <div class="plan-price">$4.99</div>
+          <div class="plan-period">per month</div>
+          <ul class="plan-features">
+            <li><span class="ck">&#10003;</span> Everything in Free</li>
+            <li><span class="ck">&#10003;</span> AI-powered insights</li>
+            <li><span class="ck">&#10003;</span> Growth percentile charts</li>
+            <li><span class="ck">&#10003;</span> Unlimited child profiles</li>
+            <li><span class="ck">&#10003;</span> Data export</li>
+          </ul>
+        </div>
+
+        <!-- Premium -->
+        <div class="pricing-card premium-card">
+          <div class="plan-name">Premium</div>
+          <div class="plan-price">$9.99</div>
+          <div class="plan-period">per month</div>
+          <ul class="plan-features">
+            <li><span class="ck">&#10003;</span> Everything in Plus</li>
+            <li><span class="ck">&#10003;</span> Caregiver sharing</li>
+            <li><span class="ck">&#10003;</span> Advanced sleep analysis</li>
+            <li><span class="ck">&#10003;</span> Priority support</li>
+            <li><span class="ck">&#10003;</span> Early access to features</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <div class="zuzu-small">Zuzu</div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- .assets-grid -->
+
+<script src="locale.js"></script>
+</body>
+</html>
