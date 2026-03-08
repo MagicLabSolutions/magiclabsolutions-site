@@ -1,0 +1,1653 @@
+---
+layout: null
+permalink: /apps/zuzu/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuzu: Baby & Sleep Tracker -- Track Every Precious Moment</title>
+    <meta name="description" content="Zuzu is a premium iOS app for tracking baby sleep, feeds, diapers, nursing, growth, and more. Features a unique visual timeline arc, AI-powered insights, and WHO growth charts.">
+    <meta name="theme-color" content="#0B0B1E">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F476;</text></svg>">
+    <style>
+        /* ========================================
+           RESET & BASE
+           ======================================== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: #0B0B1E;
+            color: #E2E8F0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ========================================
+           ANIMATIONS
+           ======================================== */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+        }
+
+        @keyframes glow-pulse {
+            0%, 100% { opacity: 0.4; }
+            50% { opacity: 0.7; }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -200% center; }
+            100% { background-position: 200% center; }
+        }
+
+        /* ========================================
+           UTILITIES
+           ======================================== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #8B5CF6;
+            margin-bottom: 16px;
+            padding: 6px 16px;
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 100px;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            line-height: 1.15;
+            letter-spacing: -0.025em;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            font-size: clamp(1.0625rem, 2vw, 1.25rem);
+            color: #94A3B8;
+            max-width: 600px;
+            line-height: 1.7;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #8B5CF6, #EC4899, #8B5CF6);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ========================================
+           IPHONE FRAME
+           ======================================== */
+        .iphone-frame {
+            position: relative;
+            width: 280px;
+            flex-shrink: 0;
+            background: #1A1A1A;
+            border-radius: 44px;
+            padding: 12px;
+            box-shadow:
+                inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+                0 0 0 2px #2A2A2A,
+                0 0 0 4px #1A1A1A,
+                0 25px 60px rgba(0, 0, 0, 0.5),
+                0 0 80px rgba(139, 92, 246, 0.1);
+        }
+
+        .iphone-frame::before {
+            content: '';
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 28px;
+            background: #1A1A1A;
+            border-radius: 0 0 18px 18px;
+            z-index: 10;
+        }
+
+        .iphone-frame::after {
+            content: '';
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 28px;
+            background: #000000;
+            border-radius: 0 0 18px 18px;
+            z-index: 11;
+        }
+
+        .iphone-screen {
+            position: relative;
+            width: 100%;
+            border-radius: 34px;
+            overflow: hidden;
+            background: #000;
+            aspect-ratio: 393 / 852;
+        }
+
+        .iphone-screen img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Side buttons */
+        .iphone-frame .btn-power {
+            position: absolute;
+            right: -3px;
+            top: 140px;
+            width: 3px;
+            height: 80px;
+            background: #2A2A2A;
+            border-radius: 0 2px 2px 0;
+        }
+
+        .iphone-frame .btn-vol-up {
+            position: absolute;
+            left: -3px;
+            top: 120px;
+            width: 3px;
+            height: 44px;
+            background: #2A2A2A;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .iphone-frame .btn-vol-down {
+            position: absolute;
+            left: -3px;
+            top: 176px;
+            width: 3px;
+            height: 44px;
+            background: #2A2A2A;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .iphone-frame .btn-action {
+            position: absolute;
+            left: -3px;
+            top: 84px;
+            width: 3px;
+            height: 26px;
+            background: #2A2A2A;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .iphone-frame-sm {
+            width: 240px;
+        }
+
+        .iphone-frame-sm .iphone-screen {
+            border-radius: 30px;
+        }
+
+        .iphone-frame-sm::before,
+        .iphone-frame-sm::after {
+            width: 86px;
+            height: 24px;
+            border-radius: 0 0 16px 16px;
+            top: 12px;
+        }
+
+        /* ========================================
+           NAVIGATION
+           ======================================== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 16px 0;
+            background: rgba(11, 11, 30, 0.8);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(139, 92, 246, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-back {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+            color: rgba(226, 232, 240, 0.5);
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-left: 16px;
+            transition: color 0.2s ease;
+        }
+
+        .nav-back:hover {
+            color: #A78BFA;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-logo-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .app-icon-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 0 24px;
+        }
+
+        .app-icon-large {
+            width: 240px;
+            height: 240px;
+            border-radius: 54px;
+            box-shadow: 0 12px 48px rgba(139, 92, 246, 0.3);
+        }
+
+        .app-icon-label {
+            margin-top: 12px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+            margin-left: auto;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #94A3B8;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: #FFFFFF;
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            background: #8B5CF6;
+            color: #FFFFFF !important;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .nav-cta:hover {
+            background: #7C3AED;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links li:not(:last-child) { display: none; }
+        }
+
+        /* ========================================
+           HERO SECTION
+           ======================================== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 0 80px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, rgba(236, 72, 153, 0.06) 40%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background: linear-gradient(to top, #0B0B1E, transparent);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 100px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: #C4B5FD;
+            margin-bottom: 24px;
+        }
+
+        .hero-badge-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #22C55E;
+            animation: glow-pulse 2s ease-in-out infinite;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            line-height: 1.08;
+            letter-spacing: -0.035em;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: clamp(1.0625rem, 2vw, 1.25rem);
+            color: #94A3B8;
+            line-height: 1.7;
+            max-width: 500px;
+            margin-bottom: 36px;
+        }
+
+        .hero-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .app-store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 28px;
+            background: #FFFFFF;
+            color: #0B0B1E;
+            text-decoration: none;
+            border-radius: 14px;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.25s ease;
+            border: none;
+        }
+
+        .app-store-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15);
+        }
+
+        .app-store-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .app-store-btn-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 1.2;
+        }
+
+        .app-store-btn-text small {
+            font-size: 0.6875rem;
+            font-weight: 400;
+            opacity: 0.7;
+        }
+
+        .app-store-btn-text span {
+            font-size: 1.125rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .hero-visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .hero-phone-wrapper {
+            position: relative;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .hero-phone-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.3) 0%, rgba(236, 72, 153, 0.15) 40%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(40px);
+            animation: glow-pulse 4s ease-in-out infinite;
+        }
+
+        @media (max-width: 900px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 48px;
+            }
+            .hero-content { order: 1; }
+            .hero-visual { order: 2; }
+            .hero p { margin-left: auto; margin-right: auto; }
+            .hero-actions { justify-content: center; }
+        }
+
+        /* ========================================
+           FRAMED SCREENSHOTS (already have device frame baked in)
+           ======================================== */
+        .framed-screenshot {
+            display: block;
+            width: 320px;
+            height: auto;
+            border-radius: 12px;
+            filter: drop-shadow(0 25px 60px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 40px rgba(139, 92, 246, 0.08));
+        }
+
+        .framed-screenshot-sm {
+            width: 240px;
+        }
+
+        @media (max-width: 600px) {
+            .framed-screenshot { width: 260px; }
+            .framed-screenshot-sm { width: 200px; }
+        }
+
+        /* ========================================
+           FEATURES SECTION
+           ======================================== */
+        .features {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .features::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.2), transparent);
+        }
+
+        .features-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .features-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            position: relative;
+            padding: 32px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.3), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feature-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(139, 92, 246, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.375rem;
+            margin-bottom: 20px;
+        }
+
+        .feature-icon-purple {
+            background: rgba(139, 92, 246, 0.12);
+            border: 1px solid rgba(139, 92, 246, 0.15);
+        }
+
+        .feature-icon-pink {
+            background: rgba(236, 72, 153, 0.12);
+            border: 1px solid rgba(236, 72, 153, 0.15);
+        }
+
+        .feature-icon-blue {
+            background: rgba(59, 130, 246, 0.12);
+            border: 1px solid rgba(59, 130, 246, 0.15);
+        }
+
+        .feature-icon-green {
+            background: rgba(34, 197, 94, 0.12);
+            border: 1px solid rgba(34, 197, 94, 0.15);
+        }
+
+        .feature-icon-amber {
+            background: rgba(245, 158, 11, 0.12);
+            border: 1px solid rgba(245, 158, 11, 0.15);
+        }
+
+        .feature-icon-cyan {
+            background: rgba(6, 182, 212, 0.12);
+            border: 1px solid rgba(6, 182, 212, 0.15);
+        }
+
+        .feature-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            letter-spacing: -0.01em;
+        }
+
+        .feature-card p {
+            font-size: 0.9375rem;
+            color: #94A3B8;
+            line-height: 1.65;
+        }
+
+        @media (max-width: 900px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ========================================
+           SCREENSHOT SHOWCASE SECTION
+           ======================================== */
+        .showcase {
+            padding: 120px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .showcase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(236, 72, 153, 0.2), transparent);
+        }
+
+        .showcase-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .showcase-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .showcase-scroll {
+            display: flex;
+            gap: 32px;
+            overflow-x: auto;
+            padding: 20px 40px 40px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            justify-content: center;
+        }
+
+        .showcase-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .showcase-scroll .iphone-frame,
+        .showcase-scroll .framed-screenshot {
+            scroll-snap-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .showcase-scroll .iphone-frame:hover,
+        .showcase-scroll .framed-screenshot:hover {
+            transform: translateY(-8px);
+        }
+
+        .showcase-caption {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: #94A3B8;
+        }
+
+        @media (max-width: 1100px) {
+            .showcase-scroll {
+                justify-content: flex-start;
+                padding: 20px 24px 40px;
+            }
+        }
+
+        /* ========================================
+           PRICING SECTION
+           ======================================== */
+        .pricing {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .pricing::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.2), transparent);
+        }
+
+        .pricing-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .pricing-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            align-items: stretch;
+        }
+
+        .pricing-card {
+            position: relative;
+            padding: 36px 28px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .pricing-card.featured {
+            background: rgba(139, 92, 246, 0.06);
+            border-color: rgba(139, 92, 246, 0.3);
+            box-shadow: 0 0 60px rgba(139, 92, 246, 0.08);
+        }
+
+        .pricing-card.featured:hover {
+            border-color: rgba(139, 92, 246, 0.5);
+        }
+
+        .pricing-card.premium {
+            background: rgba(236, 72, 153, 0.04);
+            border-color: rgba(236, 72, 153, 0.2);
+        }
+
+        .pricing-card.premium:hover {
+            border-color: rgba(236, 72, 153, 0.4);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 4px 16px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .pricing-badge-popular {
+            background: linear-gradient(135deg, #8B5CF6, #7C3AED);
+            color: #FFFFFF;
+        }
+
+        .pricing-badge-value {
+            background: linear-gradient(135deg, #EC4899, #DB2777);
+            color: #FFFFFF;
+        }
+
+        .pricing-tier {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+        }
+
+        .pricing-desc {
+            font-size: 0.875rem;
+            color: #94A3B8;
+            margin-bottom: 24px;
+        }
+
+        .pricing-price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            letter-spacing: -0.03em;
+            margin-bottom: 4px;
+        }
+
+        .pricing-period {
+            font-size: 0.8125rem;
+            color: #64748B;
+            margin-bottom: 28px;
+        }
+
+        .pricing-divider {
+            width: 100%;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.06);
+            margin-bottom: 28px;
+        }
+
+        .pricing-features {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-bottom: 32px;
+            flex-grow: 1;
+        }
+
+        .pricing-features li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.9375rem;
+            color: #CBD5E1;
+            line-height: 1.5;
+        }
+
+        .pricing-features li .check {
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+            font-size: 0.625rem;
+        }
+
+        .check-purple {
+            background: rgba(139, 92, 246, 0.15);
+            color: #A78BFA;
+        }
+
+        .check-pink {
+            background: rgba(236, 72, 153, 0.15);
+            color: #F472B6;
+        }
+
+        .check-free {
+            background: rgba(148, 163, 184, 0.12);
+            color: #94A3B8;
+        }
+
+        .pricing-cta {
+            display: block;
+            width: 100%;
+            padding: 14px 24px;
+            border-radius: 14px;
+            text-align: center;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .pricing-cta-default {
+            background: rgba(255, 255, 255, 0.06);
+            color: #FFFFFF;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .pricing-cta-default:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .pricing-cta-primary {
+            background: #8B5CF6;
+            color: #FFFFFF;
+        }
+
+        .pricing-cta-primary:hover {
+            background: #7C3AED;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+        }
+
+        .pricing-cta-pink {
+            background: linear-gradient(135deg, #EC4899, #DB2777);
+            color: #FFFFFF;
+        }
+
+        .pricing-cta-pink:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(236, 72, 153, 0.4);
+        }
+
+        @media (max-width: 900px) {
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                max-width: 420px;
+                margin: 0 auto;
+            }
+            .pricing-card.featured {
+                order: -1;
+            }
+        }
+
+        /* ========================================
+           MEDIA KIT SECTION
+           ======================================== */
+        .media {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .media-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .media-video-wrapper {
+            max-width: 360px;
+            margin: 0 auto 60px;
+            position: relative;
+        }
+
+        .media-phone-frame {
+            position: relative;
+            background: #1A1A2E;
+            border-radius: 48px;
+            padding: 14px;
+            border: 2px solid rgba(255, 255, 255, 0.08);
+            box-shadow:
+                0 0 0 1px rgba(0, 0, 0, 0.3),
+                0 25px 80px rgba(0, 0, 0, 0.5),
+                0 0 60px rgba(139, 92, 246, 0.08);
+        }
+
+        .media-phone-frame::before {
+            content: '';
+            position: absolute;
+            top: 14px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 110px;
+            height: 30px;
+            background: #1A1A2E;
+            border-radius: 0 0 18px 18px;
+            z-index: 3;
+        }
+
+        .media-phone-frame video {
+            display: block;
+            width: 100%;
+            border-radius: 36px;
+            background: #000;
+        }
+
+        .media-video-label {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 0.875rem;
+            color: #64748B;
+        }
+
+        .media-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .media-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .media-card:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(139, 92, 246, 0.2);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .media-card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .media-card-icon-purple {
+            background: rgba(139, 92, 246, 0.12);
+        }
+
+        .media-card-icon-pink {
+            background: rgba(236, 72, 153, 0.12);
+        }
+
+        .media-card-icon-blue {
+            background: rgba(96, 165, 250, 0.12);
+        }
+
+        .media-card h3 {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        .media-card p {
+            font-size: 0.875rem;
+            color: #94A3B8;
+            line-height: 1.6;
+        }
+
+        .media-card-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #A78BFA;
+            margin-top: auto;
+            padding-top: 8px;
+        }
+
+        .media-card:hover .media-card-action {
+            gap: 10px;
+        }
+
+        .media-card-action svg {
+            transition: transform 0.2s ease;
+        }
+
+        .media-card:hover .media-card-action svg {
+            transform: translateX(3px);
+        }
+
+        @media (max-width: 768px) {
+            .media-cards {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+            }
+        }
+
+        /* ========================================
+           FINAL CTA SECTION
+           ======================================== */
+        .final-cta {
+            padding: 120px 0;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, rgba(236, 72, 153, 0.05) 40%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .final-cta .section-subtitle {
+            margin: 0 auto 40px;
+        }
+
+        /* ========================================
+           FOOTER
+           ======================================== */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: #475569;
+            font-size: 0.875rem;
+        }
+
+        .footer-content a {
+            color: #64748B;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .footer-content a:hover {
+            color: #8B5CF6;
+        }
+
+        /* ========================================
+           DIVIDER
+           ======================================== */
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.15), transparent);
+        }
+
+        /* ========================================
+           RESPONSIVE OVERRIDES
+           ======================================== */
+        @media (max-width: 600px) {
+            .hero { padding: 100px 0 60px; }
+            .features, .showcase, .pricing, .media, .final-cta { padding: 80px 0; }
+            .iphone-frame { width: 240px; border-radius: 38px; padding: 10px; }
+            .iphone-screen { border-radius: 30px; }
+            .iphone-frame::before, .iphone-frame::after {
+                width: 86px; height: 24px; border-radius: 0 0 16px 16px; top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========================================
+         NAVIGATION
+         ======================================== -->
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <img src="../../images/zuzu/app_icon.png" alt="Zuzu" class="nav-logo-icon">
+                Zuzu
+            </a>
+            <a href="/" class="nav-back" title="Back to Magic Lab Solutions">
+                MagicLabSolutions
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#media">Media</a></li>
+                <li>
+                    <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="nav-cta" target="_blank" rel="noopener">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                        Download
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         APP ICON
+         ======================================== -->
+    <div class="app-icon-section">
+        <img src="../../images/zuzu/app_icon.png" alt="Zuzu App Icon" class="app-icon-large">
+        <span class="app-icon-label">Zuzu</span>
+    </div>
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <div class="hero-badge-dot"></div>
+                        Available on iOS
+                    </div>
+                    <h1>Track every<br><span class="gradient-text">precious moment</span></h1>
+                    <p>Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights -- all in one place.</p>
+                    <div class="hero-actions">
+                        <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="app-store-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                            </svg>
+                            <div class="app-store-btn-text">
+                                <small>Download on the</small>
+                                <span>App Store</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-phone-wrapper">
+                        <div class="hero-phone-glow"></div>
+                        <img src="screenshots/raw/08_home.png" alt="Zuzu home screen showing baby tracking dashboard" class="framed-screenshot" loading="eager" data-locale-img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FEATURES SECTION
+         ======================================== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-header">
+                <div class="section-label">Features</div>
+                <h2 class="section-title">Everything you need,<br><span class="gradient-text">nothing you don't</span></h2>
+                <p class="section-subtitle">Designed by parents, for parents. Zuzu makes baby tracking intuitive, insightful, and genuinely helpful.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Visual Timeline Arc</h3>
+                    <p>See your baby's entire day at a glance with an intuitive circular timeline. Instantly spot patterns in sleep, feeds, and activities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-pink">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F472B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                    </div>
+                    <h3>AI-Powered Insights</h3>
+                    <p>Get personalized analysis and predictions powered by AI. Understand your baby's routines and receive smart recommendations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>Quick Action Logging</h3>
+                    <p>Log feeds, diapers, sleep, and more with a single tap. Nursing timer, bottle tracking, and custom event types built right in.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <h3>Growth & Milestones</h3>
+                    <p>Track weight, height, and head circumference with WHO growth charts. Record milestones and see how your baby is progressing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-amber">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                    </div>
+                    <h3>Smart Sleep Predictions</h3>
+                    <p>Know when your baby will be tired next. Sleep predictions adapt to your baby's unique rhythm and improve over time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-cyan">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Widgets & Apple Watch</h3>
+                    <p>Check timers and recent events without opening the app. Home screen widgets and Apple Watch complication keep info at your fingertips.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SCREENSHOT SHOWCASE SECTION
+         ======================================== -->
+    <section class="showcase" id="screenshots">
+        <div class="container">
+            <div class="showcase-header">
+                <div class="section-label">In Action</div>
+                <h2 class="section-title">See Zuzu <span class="gradient-text">in action</span></h2>
+                <p class="section-subtitle">From visual timelines to detailed insights, every screen is crafted to make parenting a little easier.</p>
+            </div>
+        </div>
+        <div class="showcase-scroll">
+            <div>
+                <img src="screenshots/raw/01_hero_arc.png" alt="Visual timeline arc showing daily overview" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">Timeline Arc</div>
+            </div>
+            <div>
+                <img src="screenshots/raw/02_quick_log_bottle.png" alt="Quick log screen for bottle feeding" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">Quick Logging</div>
+            </div>
+            <div>
+                <img src="screenshots/raw/04_active_nap.png" alt="Active nap tracking with timer" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">Active Nap</div>
+            </div>
+            <div>
+                <img src="screenshots/raw/06_insights.png" alt="AI-powered insights and analysis" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">AI Insights</div>
+            </div>
+            <div>
+                <img src="screenshots/raw/07_growth.png" alt="WHO growth charts and tracking" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">Growth Charts</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PRICING SECTION
+         ======================================== -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="pricing-header">
+                <div class="section-label">Pricing</div>
+                <h2 class="section-title">Simple, <span class="gradient-text">transparent pricing</span></h2>
+                <p class="section-subtitle">Start free and upgrade when you're ready. No hidden fees, no surprise charges.</p>
+            </div>
+            <div class="pricing-grid">
+
+                <!-- Free Tier -->
+                <div class="pricing-card">
+                    <div class="pricing-tier">Free</div>
+                    <div class="pricing-desc">Get started with the basics</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li>
+                            <span class="check check-free">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Track 1 baby
+                        </li>
+                        <li>
+                            <span class="check check-free">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            7 days of history
+                        </li>
+                        <li>
+                            <span class="check check-free">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Basic tracking (sleep, feeds, diapers)
+                        </li>
+                        <li>
+                            <span class="check check-free">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Quick action buttons
+                        </li>
+                    </ul>
+                    <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="pricing-cta pricing-cta-default" target="_blank" rel="noopener">Get Started Free</a>
+                </div>
+
+                <!-- Plus Tier -->
+                <div class="pricing-card featured">
+                    <div class="pricing-badge pricing-badge-popular">Popular</div>
+                    <div class="pricing-tier">Plus</div>
+                    <div class="pricing-desc">For dedicated parents</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Everything in Free
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Full history & trends
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Smart sleep predictions
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            AI-powered insights
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            PDF export for doctor visits
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Widgets & Apple Watch
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Premium sounds
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Custom event types
+                        </li>
+                        <li>
+                            <span class="check check-purple">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            1 additional caregiver
+                        </li>
+                    </ul>
+                    <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="pricing-cta pricing-cta-primary" target="_blank" rel="noopener">Get Plus</a>
+                </div>
+
+                <!-- Premium Tier -->
+                <div class="pricing-card premium">
+                    <div class="pricing-badge pricing-badge-value">Best Value</div>
+                    <div class="pricing-tier">Premium</div>
+                    <div class="pricing-desc">For the whole family</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li>
+                            <span class="check check-pink">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Everything in Plus
+                        </li>
+                        <li>
+                            <span class="check check-pink">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Unlimited babies
+                        </li>
+                        <li>
+                            <span class="check check-pink">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Unlimited caregivers
+                        </li>
+                        <li>
+                            <span class="check check-pink">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Caregiver activity log
+                        </li>
+                        <li>
+                            <span class="check check-pink">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Weekly summary reports
+                        </li>
+                        <li>
+                            <span class="check check-pink">
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            Priority support
+                        </li>
+                    </ul>
+                    <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="pricing-cta pricing-cta-pink" target="_blank" rel="noopener">Get Premium</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         MEDIA KIT SECTION
+         ======================================== -->
+    <div class="section-divider"></div>
+    <section class="media" id="media">
+        <div class="container">
+            <div class="media-header">
+                <div class="section-label">Media Kit</div>
+                <h2 class="section-title">Promo <span class="gradient-text">materials</span></h2>
+                <p class="section-subtitle">Pitch deck and ready-to-use social media assets.</p>
+            </div>
+
+            <!-- Asset Cards -->
+            <div class="media-cards">
+                <a href="pitch-deck.html" class="media-card" target="_blank">
+                    <div class="media-card-icon media-card-icon-purple">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Pitch Deck</h3>
+                    <p>Interactive presentation covering features and the Zuzu story.</p>
+                    <span class="media-card-action">
+                        View Deck
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </span>
+                </a>
+                <a href="social-media.html" class="media-card" target="_blank">
+                    <div class="media-card-icon media-card-icon-pink">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F472B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                    </div>
+                    <h3>Social Media Assets</h3>
+                    <p>8 ready-to-use graphics for Instagram, Twitter/X, and LinkedIn campaigns.</p>
+                    <span class="media-card-action">
+                        View Assets
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FINAL CTA SECTION
+         ======================================== -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="section-label">Get Started</div>
+            <h2 class="section-title">Ready to track every<br><span class="gradient-text">precious moment?</span></h2>
+            <p class="section-subtitle">Download Zuzu today and join thousands of parents who trust us with their baby's most important data.</p>
+            <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="app-store-btn" target="_blank" rel="noopener" style="display: inline-flex;">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                </svg>
+                <div class="app-store-btn-text">
+                    <small>Download on the</small>
+                    <span>App Store</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <span>&copy; 2025 <a href="#">Magic Lab Solutions</a>. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Locale-aware screenshot swapping -->
+    <script src="locale.js"></script>
+
+    <!-- ========================================
+         SCROLL ANIMATIONS
+         ======================================== -->
+    <script>
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -40px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .pricing-card').forEach((el, i) => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = `opacity 0.6s ease ${i * 0.08}s, transform 0.6s ease ${i * 0.08}s`;
+            observer.observe(el);
+        });
+
+        // Navbar scroll effect
+        let lastScroll = 0;
+        const navbar = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 100) {
+                navbar.style.padding = '10px 0';
+                navbar.style.borderBottomColor = 'rgba(139, 92, 246, 0.12)';
+            } else {
+                navbar.style.padding = '16px 0';
+                navbar.style.borderBottomColor = 'rgba(139, 92, 246, 0.08)';
+            }
+            lastScroll = currentScroll;
+        });
+    </script>
+
+</body>
+</html>
