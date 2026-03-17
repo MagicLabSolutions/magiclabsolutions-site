@@ -7,7 +7,8 @@ featured_image: '/images/brainfold/hero.png'
 app_icon: '/images/brainfold/app_icon.png'
 accent_color: '#FF6B6B'
 app_store_url: 'https://apps.apple.com/app/id6746427975'
-permalink: /apps/brainfold/
+permalink: /project/brainfold/
+link: /apps/brainfold/
 ---
 
 {% include app_brainfold.md %}

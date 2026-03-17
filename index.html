@@ -18,20 +18,96 @@ featured_image: /images/social.jpg
 
 <section class="featured-app">
 	<div class="wrap">
-		<a href="/apps/brainfold/" class="featured-app__card">
-			<span class="featured-app__badge">New</span>
-			<div class="featured-app__icon">
-				<img src="/images/brainfold/app_icon.png" alt="Brainfold icon" />
-			</div>
-			<div class="featured-app__content">
-				<h2 class="featured-app__title">Brainfold</h2>
-				<p class="featured-app__subtitle">AI-powered study companion</p>
-				<p class="featured-app__desc">Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.</p>
-				<span class="featured-app__cta">Explore Brainfold &rarr;</span>
-			</div>
-		</a>
+		<div class="featured-app__carousel" id="featuredCarousel">
+			<a href="/apps/brainfold/" class="featured-app__card featured-app__card--brainfold featured-app__card--active" data-slide="0">
+				<span class="featured-app__badge featured-app__badge--brainfold">New</span>
+				<div class="featured-app__icon">
+					<img src="/images/brainfold/app_icon.png" alt="Brainfold icon" />
+				</div>
+				<div class="featured-app__content">
+					<h2 class="featured-app__title">Brainfold</h2>
+					<p class="featured-app__subtitle">AI-powered study companion</p>
+					<p class="featured-app__desc">Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.</p>
+					<span class="featured-app__cta featured-app__cta--brainfold">Explore Brainfold &rarr;</span>
+				</div>
+			</a>
+			<a href="/apps/zuzu/" class="featured-app__card featured-app__card--zuzu" data-slide="1">
+				<span class="featured-app__badge featured-app__badge--zuzu">New</span>
+				<div class="featured-app__icon">
+					<img src="/images/zuzu/app_icon.png" alt="Zuzu icon" />
+				</div>
+				<div class="featured-app__content">
+					<h2 class="featured-app__title">Zuzu</h2>
+					<p class="featured-app__subtitle">Baby tracking, together</p>
+					<p class="featured-app__desc">Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights -- all in one place.</p>
+					<span class="featured-app__cta featured-app__cta--zuzu">Explore Zuzu &rarr;</span>
+				</div>
+			</a>
+		</div>
+		<div class="featured-app__dots">
+			<button class="featured-app__dot featured-app__dot--active" data-slide="0" aria-label="Show Brainfold"></button>
+			<button class="featured-app__dot" data-slide="1" aria-label="Show Zuzu"></button>
+		</div>
 	</div>
 </section>
+
+<script>
+(function() {
+	var carousel = document.getElementById('featuredCarousel');
+	if (!carousel) return;
+	var cards = carousel.querySelectorAll('.featured-app__card');
+	var dots = document.querySelectorAll('.featured-app__dot');
+	var current = 0;
+	var interval = null;
+	var DELAY = 5000;
+
+	function show(index) {
+		cards[current].classList.remove('featured-app__card--active');
+		dots[current].classList.remove('featured-app__dot--active');
+		current = index;
+		cards[current].classList.add('featured-app__card--active');
+		dots[current].classList.add('featured-app__dot--active');
+	}
+
+	function next() {
+		show((current + 1) % cards.length);
+	}
+
+	function startAuto() {
+		stopAuto();
+		interval = setInterval(next, DELAY);
+	}
+
+	function stopAuto() {
+		if (interval) { clearInterval(interval); interval = null; }
+	}
+
+	dots.forEach(function(dot) {
+		dot.addEventListener('click', function(e) {
+			e.preventDefault();
+			show(parseInt(this.getAttribute('data-slide')));
+			startAuto();
+		});
+	});
+
+	// Swipe support
+	var startX = 0;
+	carousel.addEventListener('touchstart', function(e) { startX = e.touches[0].clientX; }, { passive: true });
+	carousel.addEventListener('touchend', function(e) {
+		var diff = startX - e.changedTouches[0].clientX;
+		if (Math.abs(diff) > 50) {
+			show(diff > 0 ? Math.min(current + 1, cards.length - 1) : Math.max(current - 1, 0));
+			startAuto();
+		}
+	});
+
+	// Pause on hover
+	carousel.addEventListener('mouseenter', stopAuto);
+	carousel.addEventListener('mouseleave', startAuto);
+
+	startAuto();
+})();
+</script>
 
 <section class="apps-grid">
 	<div class="wrap">

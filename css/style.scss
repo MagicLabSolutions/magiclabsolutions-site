@@ -339,18 +339,79 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   }
 }
 
+.featured-app__carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
 .featured-app__card {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 32px;
-  background: #0B0B1E;
   border-radius: 24px;
   padding: 40px 44px;
   text-decoration: none;
   color: #FFFFFF;
   position: relative;
   overflow: hidden;
-  @include transition(all 0.3s ease);
+  animation: featuredFadeIn 0.5s ease;
+  @include transition(transform 0.3s ease, box-shadow 0.3s ease);
+
+  &--active {
+    display: flex;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 24px;
+    gap: 20px;
+  }
+}
+
+@keyframes featuredFadeIn {
+  from { opacity: 0; @include translate(0, 8px); }
+  to { opacity: 1; @include translate(0, 0); }
+}
+
+// Brainfold card theme
+.featured-app__card--brainfold {
+  background: #0F1A2E;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(ellipse at 80% 50%, rgba(255, 107, 107, 0.12), transparent 70%);
+    pointer-events: none;
+  }
+
+  &:hover {
+    @include translate(0, -4px);
+    box-shadow: 0 16px 48px rgba(255, 107, 107, 0.2);
+    color: #FFFFFF;
+  }
+
+  .featured-app__icon img {
+    box-shadow: 0 8px 24px rgba(255, 107, 107, 0.3);
+  }
+
+  .featured-app__title {
+    color: #FF6B6B;
+  }
+
+  .featured-app__subtitle {
+    color: #FF8E53;
+  }
+}
+
+// Zuzu card theme
+.featured-app__card--zuzu {
+  background: #0B0B1E;
 
   &::before {
     content: '';
@@ -369,11 +430,16 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
     color: #FFFFFF;
   }
 
-  @media (max-width: 600px) {
-    flex-direction: column;
-    text-align: center;
-    padding: 32px 24px;
-    gap: 20px;
+  .featured-app__icon img {
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
+  }
+
+  .featured-app__title {
+    color: #8B5CF6;
+  }
+
+  .featured-app__subtitle {
+    color: #A78BFA;
   }
 }
 
@@ -381,7 +447,6 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   position: absolute;
   top: 20px;
   right: 24px;
-  background: linear-gradient(135deg, #8B5CF6, #EC4899);
   color: #FFFFFF;
   font-size: 12px;
   font-weight: 700;
@@ -389,6 +454,14 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   letter-spacing: 0.08em;
   padding: 4px 14px;
   border-radius: 20px;
+
+  &--brainfold {
+    background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+  }
+
+  &--zuzu {
+    background: linear-gradient(135deg, #8B5CF6, #EC4899);
+  }
 }
 
 .featured-app__icon {
@@ -398,7 +471,6 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
     width: 100px;
     height: 100px;
     border-radius: 22px;
-    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
   }
 }
 
@@ -412,11 +484,9 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   font-weight: 700;
   margin: 0;
   letter-spacing: -0.02em;
-  color: #EAB308;
 }
 
 .featured-app__subtitle {
-  color: #A78BFA;
   font-size: 15px;
   font-weight: 500;
   margin-top: 2px;
@@ -432,13 +502,53 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 .featured-app__cta {
   display: inline-block;
   margin-top: 14px;
-  color: #A78BFA;
   font-weight: 600;
   font-size: 15px;
   @include transition(color 0.2s ease);
 
-  .featured-app__card:hover & {
-    color: #C4B5FD;
+  &--brainfold {
+    color: #FF8E53;
+
+    .featured-app__card:hover & {
+      color: #FFB088;
+    }
+  }
+
+  &--zuzu {
+    color: #A78BFA;
+
+    .featured-app__card:hover & {
+      color: #C4B5FD;
+    }
+  }
+}
+
+// Carousel dots
+.featured-app__dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.featured-app__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  padding: 0;
+  @include transition(all 0.3s ease);
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  &--active {
+    background: $accent-color;
+    width: 28px;
+    border-radius: 5px;
   }
 }
 
@@ -475,7 +585,6 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 .apps-grid__container--centered {
   max-width: 1200px;
   margin: 0 auto;
-  justify-items: center;
 }
 
 // App card
