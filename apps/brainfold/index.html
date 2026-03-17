@@ -1042,7 +1042,7 @@ layout: null
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
-            align-items: start;
+            align-items: stretch;
         }
 
         .plan-card {
@@ -1052,6 +1052,8 @@ layout: null
             border-radius: 24px;
             position: relative;
             transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
         }
 
         .plan-card:hover {
@@ -1147,6 +1149,7 @@ layout: null
             display: flex;
             flex-direction: column;
             gap: 14px;
+            flex: 1;
         }
 
         .plan-features li {
@@ -1622,7 +1625,7 @@ layout: null
                     <div class="plan-subtitle">Get started with the basics</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--free">&#10003;</span> 150 credits total</li>
+                        <li><span class="check check--free">&#10003;</span> 50 free credits</li>
                         <li><span class="check check--free">&#10003;</span> 3 scans (30 pages total)</li>
                         <li><span class="check check--free">&#10003;</span> Up to 3 study packs</li>
                         <li><span class="check check--free">&#10003;</span> 10 pages per scan</li>
@@ -1640,13 +1643,13 @@ layout: null
                     <div class="plan-subtitle">For serious students</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--coral">&#10003;</span> 950 credits/month + 15/day</li>
-                        <li><span class="check check--coral">&#10003;</span> ~380 pages/month + ~6 extra/day</li>
+                        <li><span class="check check--coral">&#10003;</span> 950 monthly credits</li>
+                        <li><span class="check check--coral">&#10003;</span> 15 daily credits</li>
                         <li><span class="check check--coral">&#10003;</span> Unlimited study packs</li>
                         <li><span class="check check--coral">&#10003;</span> Unlimited pages per scan</li>
                         <li><span class="check check--coral">&#10003;</span> Full AI tutor access</li>
                         <li><span class="check check--coral">&#10003;</span> Discounted battle hosting</li>
-                        <li><span class="check check--coral">&#10003;</span> Bonus pages on renewal</li>
+                        <li><span class="check check--coral">&#10003;</span> Bonus credits on renewal</li>
                     </ul>
                     <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--popular" target="_blank" rel="noopener">Start Free Trial</a>
                 </div>
@@ -1658,14 +1661,14 @@ layout: null
                     <div class="plan-subtitle">Unlimited everything</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--gold">&#10003;</span> 2,400 credits/month + 30/day</li>
-                        <li><span class="check check--gold">&#10003;</span> ~960 pages/month + ~12 extra/day</li>
+                        <li><span class="check check--gold">&#10003;</span> 2,400 monthly credits</li>
+                        <li><span class="check check--gold">&#10003;</span> 30 daily credits</li>
                         <li><span class="check check--gold">&#10003;</span> Unlimited study packs</li>
                         <li><span class="check check--gold">&#10003;</span> Unlimited pages per scan</li>
                         <li><span class="check check--gold">&#10003;</span> Full AI tutor access</li>
                         <li><span class="check check--gold">&#10003;</span> Free battle hosting</li>
                         <li><span class="check check--gold">&#10003;</span> Priority support</li>
-                        <li><span class="check check--gold">&#10003;</span> Bonus pages on renewal</li>
+                        <li><span class="check check--gold">&#10003;</span> Bonus credits on renewal</li>
                     </ul>
                     <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--best" target="_blank" rel="noopener">Start Free Trial</a>
                 </div>
