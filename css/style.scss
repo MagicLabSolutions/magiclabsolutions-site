@@ -616,6 +616,8 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
 .app-card__icon {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 
   img {
     width: 80px;
