@@ -585,6 +585,7 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 .apps-grid__container--centered {
   max-width: 1200px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 // App card
