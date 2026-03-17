@@ -18,16 +18,16 @@ featured_image: /images/social.jpg
 
 <section class="featured-app">
 	<div class="wrap">
-		<a href="/apps/zuzu/" class="featured-app__card">
+		<a href="/apps/brainfold/" class="featured-app__card">
 			<span class="featured-app__badge">New</span>
 			<div class="featured-app__icon">
-				<img src="/images/zuzu/app_icon.png" alt="Zuzu icon" />
+				<img src="/images/brainfold/app_icon.png" alt="Brainfold icon" />
 			</div>
 			<div class="featured-app__content">
-				<h2 class="featured-app__title">Zuzu</h2>
-				<p class="featured-app__subtitle">Baby tracking, together</p>
-				<p class="featured-app__desc">Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights — all in one place.</p>
-				<span class="featured-app__cta">Explore Zuzu &rarr;</span>
+				<h2 class="featured-app__title">Brainfold</h2>
+				<p class="featured-app__subtitle">AI-powered study companion</p>
+				<p class="featured-app__desc">Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.</p>
+				<span class="featured-app__cta">Explore Brainfold &rarr;</span>
 			</div>
 		</a>
 	</div>
@@ -35,9 +35,9 @@ featured_image: /images/social.jpg
 
 <section class="apps-grid">
 	<div class="wrap">
-		<div class="apps-grid__container">
+		<div class="apps-grid__container apps-grid__container--centered">
 			{% assign apps = site.projects | sort: 'date' | reverse %}
-			{% for app in apps %}
+			{% for app in apps limit:4 %}
 				{% include app-card.html app=app %}
 			{% endfor %}
 		</div>

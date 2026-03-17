@@ -1,13 +1,13 @@
 ---
-title: 'Brainfold Battle'
-subtitle: 'Challenge your brain, battle your friends'
+title: 'Brainfold'
+subtitle: 'AI-powered study companion'
 date: 2025-02-15 00:00:00
-description: A fast-paced multiplayer trivia game that puts your knowledge to the test. Create custom quizzes, challenge friends, and climb the leaderboard.
+description: Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.
 featured_image: '/images/brainfold/hero.png'
 app_icon: '/images/brainfold/app_icon.png'
-accent_color: '#FF3B30'
+accent_color: '#FF6B6B'
 app_store_url: 'https://apps.apple.com/app/id6746427975'
-permalink: /apps/brainfold-battle/
+permalink: /apps/brainfold/
 ---
 
 {% include app_brainfold.md %}

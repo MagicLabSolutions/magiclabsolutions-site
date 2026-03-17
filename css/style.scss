@@ -472,6 +472,12 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   }
 }
 
+.apps-grid__container--centered {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
 // App card
 .app-card {
   background: #FFFFFF;

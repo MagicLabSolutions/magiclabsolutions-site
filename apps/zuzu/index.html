@@ -1131,6 +1131,81 @@ permalink: /apps/zuzu/
         }
 
         /* ========================================
+           REVIEWS SECTION
+           ======================================== */
+        .reviews {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .reviews::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.2), transparent);
+        }
+
+        .reviews-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .reviews-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .review-card {
+            padding: 28px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .review-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateY(-4px);
+        }
+
+        .review-stars {
+            color: #FBBF24;
+            font-size: 0.875rem;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .review-text {
+            font-size: 0.9375rem;
+            color: #CBD5E1;
+            line-height: 1.65;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+
+        .review-author {
+            font-size: 0.8125rem;
+            font-weight: 600;
+            color: #94A3B8;
+        }
+
+        @media (max-width: 900px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+        }
+
+        /* ========================================
            FINAL CTA SECTION
            ======================================== */
         .final-cta {
@@ -1527,6 +1602,51 @@ permalink: /apps/zuzu/
                     <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="pricing-cta pricing-cta-pink" target="_blank" rel="noopener">Get Premium</a>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         REVIEWS SECTION
+         ======================================== -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="reviews-header">
+                <div class="section-label">Reviews</div>
+                <h2 class="section-title">Trusted by <span class="gradient-text">parents</span></h2>
+                <p class="section-subtitle">See why families around the world rely on Zuzu for their daily tracking.</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"The visual timeline arc is genius. I can see my baby's entire day at a glance and instantly spot when she's due for a nap. No other app does this."</p>
+                    <span class="review-author">Jessica W. -- Mom of 2</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"We tried 5 different baby trackers before Zuzu. The AI insights are actually useful, not generic. It noticed a pattern in our son's sleep we completely missed."</p>
+                    <span class="review-author">Michael & Anna T. -- New Parents</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Being able to share tracking with my partner and our nanny is a lifesaver. Everyone stays on the same page and the caregiver log shows exactly what happened during the day."</p>
+                    <span class="review-author">Rachel K. -- Working Mom</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"The growth charts following WHO standards give me peace of mind. I export the PDF before every pediatrician visit and my doctor is always impressed with the data."</p>
+                    <span class="review-author">Dr. Sarah L. -- Pediatrician & Mom</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Quick logging with one tap is everything when you're sleep-deprived at 3am. The Apple Watch widget means I don't even need to find my phone. Brilliant design."</p>
+                    <span class="review-author">Tom H. -- Dad of Twins</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"The sleep prediction feature is scary accurate. Zuzu told me my daughter would be tired in 20 minutes and she was yawning right on schedule. This app understands my baby."</p>
+                    <span class="review-author">Lisa M. -- First-Time Mom</span>
+                </div>
             </div>
         </div>
     </section>
