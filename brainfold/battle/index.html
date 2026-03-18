@@ -1,0 +1,169 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Brainfold Battle</title>
+    <meta property="og:title" content="Brainfold Battle">
+    <meta property="og:description" content="You've been challenged to a quiz battle! Open in Brainfold to join.">
+    <meta property="og:image" content="https://www.magiclabsolutions.com/images/brainfold/app_icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(170deg, #2A3F8F 0%, #090D1D 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .container {
+            text-align: center;
+            max-width: 360px;
+        }
+        .battle-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            margin-bottom: 32px;
+            position: relative;
+        }
+        .brain-icon {
+            width: 72px;
+            height: 72px;
+            border-radius: 16px;
+        }
+        .brain-icon.left {
+            transform: scaleX(-1) rotate(-12deg);
+        }
+        .brain-icon.right {
+            transform: rotate(12deg);
+        }
+        .bolt {
+            font-size: 40px;
+            margin: 0 -8px;
+            z-index: 1;
+            filter: drop-shadow(0 0 12px rgba(255, 107, 107, 0.6));
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 32px;
+        }
+        .code-display {
+            font-family: 'SF Mono', 'Menlo', monospace;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            color: #FF4119;
+            margin-bottom: 32px;
+        }
+        .spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #FF4119;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .status {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 32px;
+        }
+        .store-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #FF4119, #FF6B4A);
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .store-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(255, 65, 25, 0.3);
+        }
+        .store-link {
+            display: block;
+            margin-top: 16px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+        .store-link a {
+            color: #FF4119;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="battle-icons">
+            <img src="/images/brainfold/app_icon.png" alt="Brainfold" class="brain-icon left">
+            <span class="bolt">&#9889;</span>
+            <img src="/images/brainfold/app_icon.png" alt="Brainfold" class="brain-icon right">
+        </div>
+        <h1>Brainfold Battle</h1>
+        <p class="subtitle">You've been invited to join a battle!</p>
+        <div class="code-display" id="code"></div>
+        <div class="spinner" id="spinner"></div>
+        <p class="status" id="status">Opening Brainfold...</p>
+        <a href="#" class="store-btn" id="store-btn" style="display: none;">Get Brainfold</a>
+        <p class="store-link" id="store-link" style="display: none;">
+            Don't have the app? <a href="https://apps.apple.com/app/brainfold/id6746427975">Download from App Store</a>
+        </p>
+    </div>
+
+    <script>
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            var code = params.get('code') || '';
+            var codeEl = document.getElementById('code');
+            var statusEl = document.getElementById('status');
+            var spinnerEl = document.getElementById('spinner');
+            var storeBtnEl = document.getElementById('store-btn');
+            var storeLinkEl = document.getElementById('store-link');
+
+            if (code) {
+                codeEl.textContent = code.toUpperCase();
+            } else {
+                codeEl.style.display = 'none';
+            }
+
+            var appStoreUrl = 'https://apps.apple.com/app/brainfold/id6746427975';
+            storeBtnEl.href = appStoreUrl;
+
+            // Show fallback after timeout (app not installed)
+            setTimeout(function() {
+                spinnerEl.style.display = 'none';
+                statusEl.textContent = 'App not detected. Download Brainfold to join!';
+                storeBtnEl.style.display = 'inline-block';
+                storeLinkEl.style.display = 'block';
+            }, 2500);
+        })();
+    </script>
+</body>
+</html>
