@@ -288,29 +288,10 @@ layout: null
 
         .hero-app-icon {
             position: relative;
-            display: inline-block;
-            margin-bottom: 24px;
-            animation: heroIconFloat 6s ease-in-out infinite;
-        }
-        .hero-app-icon img {
-            width: 120px;
-            height: 120px;
-            border-radius: 28px;
-            position: relative;
-            z-index: 1;
-            filter: drop-shadow(0 4px 20px rgba(52, 199, 89, 0.3));
-        }
-        .hero-app-glow {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 800px;
-            height: 800px;
-            background: radial-gradient(ellipse, rgba(52, 199, 89, 0.25) 0%, rgba(48, 209, 88, 0.12) 40%, transparent 70%);
-            border-radius: 50%;
-            animation: heroGlowPulse 4s ease-in-out infinite;
-            pointer-events: none;
+            width: 280px;
+            height: 280px;
+            border-radius: 62px;
+            box-shadow: 0 25px 60px rgba(52, 199, 89, 0.3), 0 0 80px rgba(52, 199, 89, 0.1);
         }
         @keyframes heroIconFloat {
             0%, 100% { transform: translateY(0); }
@@ -495,22 +476,32 @@ layout: null
             animation: fadeInUp 0.8s ease-out 0.2s both;
         }
 
-        .hero-phone-wrapper {
+        .hero-icon-wrapper {
             position: relative;
             animation: float 6s ease-in-out infinite;
         }
 
-        .hero-phone-glow {
+        .hero-icon-glow {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 320px;
-            height: 320px;
+            width: 800px;
+            height: 800px;
             background: radial-gradient(circle, rgba(52, 199, 89, 0.25) 0%, rgba(48, 209, 88, 0.12) 40%, transparent 70%);
             border-radius: 50%;
             filter: blur(40px);
             animation: glow-pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes glow-pulse {
+            0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
         }
 
         @media (max-width: 900px) {
@@ -523,6 +514,7 @@ layout: null
             .hero-visual { order: 2; }
             .hero p { margin-left: auto; margin-right: auto; }
             .hero-actions { justify-content: center; }
+            .hero-app-icon { width: 200px; height: 200px; border-radius: 46px; }
         }
 
         /* ========================================
@@ -1174,12 +1166,7 @@ layout: null
          HERO SECTION
          ======================================== -->
     <section class="hero">
-        <div class="container">            <div style="text-align: center;">
-                <div class="hero-app-icon">
-                    <div class="hero-app-glow"></div>
-                    <img src="../../images/myrenewals/app_icon.png" alt="MyRenewals">
-                </div>
-            </div>
+        <div class="container">
             <div class="hero-grid">
                 <div class="hero-content">
                     <h1>Never miss a<br><span class="gradient-text">renewal</span> again</h1>
@@ -1197,17 +1184,9 @@ layout: null
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <div class="hero-phone-wrapper">
-                        <div class="hero-phone-glow"></div>
-                        <div class="iphone-frame">
-                            <div class="iphone-screen">
-                                <img src="../../images/myrenewals/screenshot1.png" alt="MyRenewals subscription dashboard" loading="eager">
-                            </div>
-                            <div class="btn-power"></div>
-                            <div class="btn-vol-up"></div>
-                            <div class="btn-vol-down"></div>
-                            <div class="btn-action"></div>
-                        </div>
+                    <div class="hero-icon-wrapper">
+                        <div class="hero-icon-glow"></div>
+                        <img src="../../images/myrenewals/app_icon.png" alt="MyRenewals App Icon" class="hero-app-icon" loading="eager">
                     </div>
                 </div>
             </div>
