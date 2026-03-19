@@ -552,6 +552,14 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   }
 }
 
+// Section divider (gradient line)
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.2), transparent);
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 // App card grid
 .apps-grid {
   margin-top: 0;
