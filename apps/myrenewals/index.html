@@ -1,0 +1,1273 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRenewals -- Subscription Tracker</title>
+    <meta name="description" content="Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew. Beautiful pie charts, smart notifications, and iPad-optimized.">
+    <meta name="theme-color" content="#0A1A0F">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F4B3;</text></svg>">
+    <style>
+        /* ========================================
+           RESET & BASE
+           ======================================== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: #0A1A0F;
+            color: #E2E8F0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ========================================
+           ANIMATIONS
+           ======================================== */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+        }
+
+        @keyframes glow-pulse {
+            0%, 100% { opacity: 0.4; }
+            50% { opacity: 0.7; }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -200% center; }
+            100% { background-position: 200% center; }
+        }
+
+        /* ========================================
+           UTILITIES
+           ======================================== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #34C759;
+            margin-bottom: 16px;
+            padding: 6px 16px;
+            background: rgba(52, 199, 89, 0.1);
+            border: 1px solid rgba(52, 199, 89, 0.2);
+            border-radius: 100px;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            line-height: 1.15;
+            letter-spacing: -0.025em;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            font-size: clamp(1.0625rem, 2vw, 1.25rem);
+            color: #94A3B8;
+            max-width: 600px;
+            line-height: 1.7;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #34C759, #30D158, #34C759);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ========================================
+           IPHONE FRAME
+           ======================================== */
+        .iphone-frame {
+            position: relative;
+            width: 280px;
+            flex-shrink: 0;
+            background: #1A1A1A;
+            border-radius: 44px;
+            padding: 12px;
+            box-shadow:
+                inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+                0 0 0 2px #2A2A2A,
+                0 0 0 4px #1A1A1A,
+                0 25px 60px rgba(0, 0, 0, 0.5),
+                0 0 80px rgba(52, 199, 89, 0.1);
+        }
+
+        .iphone-frame::before {
+            content: '';
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 28px;
+            background: #1A1A1A;
+            border-radius: 0 0 18px 18px;
+            z-index: 10;
+        }
+
+        .iphone-frame::after {
+            content: '';
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 28px;
+            background: #000000;
+            border-radius: 0 0 18px 18px;
+            z-index: 11;
+        }
+
+        .iphone-screen {
+            position: relative;
+            width: 100%;
+            border-radius: 34px;
+            overflow: hidden;
+            background: #000;
+            aspect-ratio: 393 / 852;
+        }
+
+        .iphone-screen img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .iphone-frame .btn-power {
+            position: absolute;
+            right: -3px;
+            top: 140px;
+            width: 3px;
+            height: 80px;
+            background: #2A2A2A;
+            border-radius: 0 2px 2px 0;
+        }
+
+        .iphone-frame .btn-vol-up {
+            position: absolute;
+            left: -3px;
+            top: 120px;
+            width: 3px;
+            height: 44px;
+            background: #2A2A2A;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .iphone-frame .btn-vol-down {
+            position: absolute;
+            left: -3px;
+            top: 176px;
+            width: 3px;
+            height: 44px;
+            background: #2A2A2A;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .iphone-frame .btn-action {
+            position: absolute;
+            left: -3px;
+            top: 84px;
+            width: 3px;
+            height: 26px;
+            background: #2A2A2A;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .iphone-frame-sm {
+            width: 240px;
+        }
+
+        .iphone-frame-sm .iphone-screen {
+            border-radius: 30px;
+        }
+
+        .iphone-frame-sm::before,
+        .iphone-frame-sm::after {
+            width: 86px;
+            height: 24px;
+            border-radius: 0 0 16px 16px;
+            top: 12px;
+        }
+
+        /* ========================================
+           NAVIGATION
+           ======================================== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 16px 0;
+            background: rgba(10, 26, 15, 0.8);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(52, 199, 89, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-back {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+            color: rgba(226, 232, 240, 0.5);
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-left: 16px;
+            transition: color 0.2s ease;
+        }
+
+        .nav-back:hover {
+            color: #30D158;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-logo-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .app-icon-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 0 24px;
+        }
+
+        .app-icon-large {
+            width: 240px;
+            height: 240px;
+            border-radius: 54px;
+            box-shadow: 0 12px 48px rgba(52, 199, 89, 0.25);
+        }
+
+        .app-icon-label {
+            margin-top: 12px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+            margin-left: auto;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #94A3B8;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: #FFFFFF;
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            background: #34C759;
+            color: #FFFFFF !important;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .nav-cta:hover {
+            background: #2DB84E;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(52, 199, 89, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links li:not(:last-child) { display: none; }
+        }
+
+        /* ========================================
+           HERO SECTION
+           ======================================== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 0 80px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(52, 199, 89, 0.1) 0%, rgba(48, 209, 88, 0.05) 40%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background: linear-gradient(to top, #0A1A0F, transparent);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(52, 199, 89, 0.1);
+            border: 1px solid rgba(52, 199, 89, 0.2);
+            border-radius: 100px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: #86EFAC;
+            margin-bottom: 24px;
+        }
+
+        .hero-badge-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #34C759;
+            animation: glow-pulse 2s ease-in-out infinite;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            line-height: 1.08;
+            letter-spacing: -0.035em;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: clamp(1.0625rem, 2vw, 1.25rem);
+            color: #94A3B8;
+            line-height: 1.7;
+            max-width: 500px;
+            margin-bottom: 36px;
+        }
+
+        .hero-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .app-store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 28px;
+            background: #FFFFFF;
+            color: #0A1A0F;
+            text-decoration: none;
+            border-radius: 14px;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.25s ease;
+            border: none;
+        }
+
+        .app-store-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15);
+        }
+
+        .app-store-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .app-store-btn-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 1.2;
+        }
+
+        .app-store-btn-text small {
+            font-size: 0.6875rem;
+            font-weight: 400;
+            opacity: 0.7;
+        }
+
+        .app-store-btn-text span {
+            font-size: 1.125rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .hero-visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .hero-phone-wrapper {
+            position: relative;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .hero-phone-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(52, 199, 89, 0.25) 0%, rgba(48, 209, 88, 0.12) 40%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(40px);
+            animation: glow-pulse 4s ease-in-out infinite;
+        }
+
+        @media (max-width: 900px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 48px;
+            }
+            .hero-content { order: 1; }
+            .hero-visual { order: 2; }
+            .hero p { margin-left: auto; margin-right: auto; }
+            .hero-actions { justify-content: center; }
+        }
+
+        /* ========================================
+           FRAMED SCREENSHOTS
+           ======================================== */
+        .framed-screenshot {
+            display: block;
+            width: 320px;
+            height: auto;
+            border-radius: 12px;
+            filter: drop-shadow(0 25px 60px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 40px rgba(52, 199, 89, 0.06));
+        }
+
+        .framed-screenshot-sm {
+            width: 240px;
+        }
+
+        @media (max-width: 600px) {
+            .framed-screenshot { width: 260px; }
+            .framed-screenshot-sm { width: 200px; }
+        }
+
+        /* ========================================
+           FEATURES SECTION
+           ======================================== */
+        .features {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .features::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(52, 199, 89, 0.2), transparent);
+        }
+
+        .features-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .features-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            position: relative;
+            padding: 32px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(52, 199, 89, 0.3), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feature-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(52, 199, 89, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.375rem;
+            margin-bottom: 20px;
+        }
+
+        .feature-icon-green {
+            background: rgba(52, 199, 89, 0.12);
+            border: 1px solid rgba(52, 199, 89, 0.15);
+        }
+
+        .feature-icon-blue {
+            background: rgba(59, 130, 246, 0.12);
+            border: 1px solid rgba(59, 130, 246, 0.15);
+        }
+
+        .feature-icon-amber {
+            background: rgba(245, 158, 11, 0.12);
+            border: 1px solid rgba(245, 158, 11, 0.15);
+        }
+
+        .feature-icon-purple {
+            background: rgba(139, 92, 246, 0.12);
+            border: 1px solid rgba(139, 92, 246, 0.15);
+        }
+
+        .feature-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            letter-spacing: -0.01em;
+        }
+
+        .feature-card p {
+            font-size: 0.9375rem;
+            color: #94A3B8;
+            line-height: 1.65;
+        }
+
+        @media (max-width: 600px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ========================================
+           SCREENSHOT SHOWCASE SECTION
+           ======================================== */
+        .showcase {
+            padding: 120px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .showcase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(48, 209, 88, 0.2), transparent);
+        }
+
+        .showcase-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .showcase-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .showcase-scroll {
+            display: flex;
+            gap: 32px;
+            overflow-x: auto;
+            padding: 20px 40px 40px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            justify-content: center;
+        }
+
+        .showcase-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .showcase-scroll .iphone-frame,
+        .showcase-scroll .framed-screenshot {
+            scroll-snap-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .showcase-scroll .iphone-frame:hover,
+        .showcase-scroll .framed-screenshot:hover {
+            transform: translateY(-8px);
+        }
+
+        .showcase-caption {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: #94A3B8;
+        }
+
+        @media (max-width: 1100px) {
+            .showcase-scroll {
+                justify-content: flex-start;
+                padding: 20px 24px 40px;
+            }
+        }
+
+        /* ========================================
+           REVIEWS SECTION
+           ======================================== */
+        .reviews {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .reviews::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(52, 199, 89, 0.2), transparent);
+        }
+
+        .reviews-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .reviews-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .review-card {
+            padding: 28px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .review-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateY(-4px);
+        }
+
+        .review-stars {
+            color: #FBBF24;
+            font-size: 0.875rem;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .review-text {
+            font-size: 0.9375rem;
+            color: #CBD5E1;
+            line-height: 1.65;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+
+        .review-author {
+            font-size: 0.8125rem;
+            font-weight: 600;
+            color: #94A3B8;
+        }
+
+        @media (max-width: 900px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+        }
+
+        /* ========================================
+           PRIVACY SECTION
+           ======================================== */
+        .privacy {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .privacy::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(52, 199, 89, 0.2), transparent);
+        }
+
+        .privacy-content {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .privacy-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 18px;
+            background: rgba(52, 199, 89, 0.12);
+            border: 1px solid rgba(52, 199, 89, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 1.75rem;
+        }
+
+        .privacy-content p {
+            font-size: 1rem;
+            color: #94A3B8;
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        .privacy-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #34C759;
+            text-decoration: none;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .privacy-link:hover {
+            color: #30D158;
+        }
+
+        /* ========================================
+           FINAL CTA SECTION
+           ======================================== */
+        .final-cta {
+            padding: 120px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(52, 199, 89, 0.2), transparent);
+        }
+
+        .final-cta .section-subtitle {
+            margin: 0 auto 36px;
+        }
+
+        /* ========================================
+           FOOTER
+           ======================================== */
+        footer {
+            padding: 40px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-content {
+            text-align: center;
+            font-size: 0.8125rem;
+            color: #64748B;
+        }
+
+        .footer-content a {
+            color: #94A3B8;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-content a:hover {
+            color: #34C759;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        /* ========================================
+           DIVIDER
+           ======================================== */
+        .divider {
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(52, 199, 89, 0.15), transparent);
+            margin: 0;
+        }
+
+        /* ========================================
+           SCROLL ANIMATIONS
+           ======================================== */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .scroll-reveal.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ========================================
+           RESPONSIVE OVERRIDES
+           ======================================== */
+        @media (max-width: 600px) {
+            .features, .showcase, .privacy, .final-cta { padding: 80px 0; }
+            .iphone-frame { width: 240px; border-radius: 38px; padding: 10px; }
+            .iphone-screen { border-radius: 30px; }
+            .iphone-frame::before, .iphone-frame::after {
+                width: 86px; height: 24px; border-radius: 0 0 16px 16px; top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========================================
+         NAVIGATION
+         ======================================== -->
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <img src="../../images/myrenewals/app_icon.png" alt="MyRenewals" class="nav-logo-icon">
+                MyRenewals
+            </a>
+            <a href="/" class="nav-back" title="Back to Magic Lab Solutions">
+                MagicLabSolutions
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li>
+                    <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="nav-cta" target="_blank" rel="noopener">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                        Download
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         APP ICON
+         ======================================== -->
+    <div class="app-icon-section">
+        <img src="../../images/myrenewals/app_icon.png" alt="MyRenewals App Icon" class="app-icon-large">
+        <span class="app-icon-label">MyRenewals</span>
+    </div>
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <div class="hero-badge-dot"></div>
+                        Available on iOS & iPadOS
+                    </div>
+                    <h1>Never miss a<br><span class="gradient-text">renewal</span> again</h1>
+                    <p>Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew.</p>
+                    <div class="hero-actions">
+                        <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="app-store-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                            </svg>
+                            <div class="app-store-btn-text">
+                                <small>Download on the</small>
+                                <span>App Store</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-phone-wrapper">
+                        <div class="hero-phone-glow"></div>
+                        <div class="iphone-frame">
+                            <div class="iphone-screen">
+                                <img src="../../images/myrenewals/screenshot1.png" alt="MyRenewals subscription dashboard" loading="eager">
+                            </div>
+                            <div class="btn-power"></div>
+                            <div class="btn-vol-up"></div>
+                            <div class="btn-vol-down"></div>
+                            <div class="btn-action"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FEATURES SECTION
+         ======================================== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-header scroll-reveal">
+                <div class="section-label">Features</div>
+                <h2 class="section-title">Everything you need to<br><span class="gradient-text">stay in control</span></h2>
+                <p class="section-subtitle">Track every subscription, get timely reminders, and never pay for something you forgot to cancel.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon feature-icon-green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#34C759" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
+                    </div>
+                    <h3>Monthly Spend Summary</h3>
+                    <p>See total subscription costs with beautiful pie charts organized by category. Understand exactly where your money goes at a glance.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon feature-icon-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="12" cy="16" r="2"/></svg>
+                    </div>
+                    <h3>Upcoming Renewals</h3>
+                    <p>Stay ahead with renewal dates, prices, and status tags warning of near charges. Never be surprised by an unexpected payment again.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon feature-icon-amber">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                    </div>
+                    <h3>Smart Notifications</h3>
+                    <p>Get reminded 3, 7, or 14 days before a charge. Choose your timing so you always have enough time to decide whether to keep or cancel.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon feature-icon-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><path d="M7 8h5"/><path d="M7 12h3"/></svg>
+                    </div>
+                    <h3>iPad-Optimized & Cloud Backup</h3>
+                    <p>Beautiful split-view on iPad for side-by-side management. Encrypted cloud sync keeps your data safe, with secure export options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SCREENSHOT SHOWCASE SECTION
+         ======================================== -->
+    <section class="showcase" id="screenshots">
+        <div class="container">
+            <div class="showcase-header scroll-reveal">
+                <div class="section-label">Screenshots</div>
+                <h2 class="section-title">See MyRenewals <span class="gradient-text">in action</span></h2>
+                <p class="section-subtitle">A clean, intuitive interface designed to make subscription management effortless.</p>
+            </div>
+        </div>
+        <div class="showcase-scroll">
+            <div>
+                <div class="iphone-frame iphone-frame-sm">
+                    <div class="iphone-screen">
+                        <img src="../../images/myrenewals/screenshot1.png" alt="MyRenewals - Subscription Dashboard" loading="lazy">
+                    </div>
+                    <div class="btn-power"></div>
+                    <div class="btn-vol-up"></div>
+                    <div class="btn-vol-down"></div>
+                    <div class="btn-action"></div>
+                </div>
+                <div class="showcase-caption">Dashboard</div>
+            </div>
+            <div>
+                <div class="iphone-frame iphone-frame-sm">
+                    <div class="iphone-screen">
+                        <img src="../../images/myrenewals/screenshot2.png" alt="MyRenewals - Spending Overview" loading="lazy">
+                    </div>
+                    <div class="btn-power"></div>
+                    <div class="btn-vol-up"></div>
+                    <div class="btn-vol-down"></div>
+                    <div class="btn-action"></div>
+                </div>
+                <div class="showcase-caption">Spend Summary</div>
+            </div>
+            <div>
+                <div class="iphone-frame iphone-frame-sm">
+                    <div class="iphone-screen">
+                        <img src="../../images/myrenewals/screenshot3.png" alt="MyRenewals - Upcoming Renewals" loading="lazy">
+                    </div>
+                    <div class="btn-power"></div>
+                    <div class="btn-vol-up"></div>
+                    <div class="btn-vol-down"></div>
+                    <div class="btn-action"></div>
+                </div>
+                <div class="showcase-caption">Upcoming Renewals</div>
+            </div>
+            <div>
+                <div class="iphone-frame iphone-frame-sm">
+                    <div class="iphone-screen">
+                        <img src="../../images/myrenewals/screenshot4.png" alt="MyRenewals - Subscription Details" loading="lazy">
+                    </div>
+                    <div class="btn-power"></div>
+                    <div class="btn-vol-up"></div>
+                    <div class="btn-vol-down"></div>
+                    <div class="btn-action"></div>
+                </div>
+                <div class="showcase-caption">Subscription Details</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         REVIEWS SECTION
+         ======================================== -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="reviews-header scroll-reveal">
+                <div class="section-label">Testimonials</div>
+                <h2 class="section-title">What users <span class="gradient-text">are saying</span></h2>
+                <p class="section-subtitle">Real feedback from people who took control of their subscriptions.</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card scroll-reveal">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Finally, a subscription tracker that's simple and actually looks good. Love the notifications -- saved me from two charges I forgot about!"</p>
+                    <span class="review-author">Alex R. -- App Store Review</span>
+                </div>
+                <div class="review-card scroll-reveal">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Clean design, easy to use, and the pie chart feature helps me see exactly where my money goes each month. Highly recommended."</p>
+                    <span class="review-author">Taylor M. -- App Store Review</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PRIVACY SECTION
+         ======================================== -->
+    <section class="privacy" id="privacy">
+        <div class="container">
+            <div class="privacy-content scroll-reveal">
+                <div class="privacy-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#34C759" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                </div>
+                <div class="section-label">Privacy First</div>
+                <h2 class="section-title">Your data stays <span class="gradient-text">yours</span></h2>
+                <p>MyRenewals is built with privacy at its core. Your subscription data is encrypted end-to-end and never shared with third parties. We don't sell your data, period.</p>
+                <a href="/privacy" class="privacy-link">
+                    Read our Privacy Policy
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FINAL CTA SECTION
+         ======================================== -->
+    <section class="final-cta">
+        <div class="container scroll-reveal">
+            <div class="section-label">Get Started</div>
+            <h2 class="section-title">Take control of your<br><span class="gradient-text">subscriptions</span></h2>
+            <p class="section-subtitle">Download MyRenewals today and stop paying for subscriptions you don't use.</p>
+            <div class="hero-actions" style="justify-content: center;">
+                <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="app-store-btn" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <div class="app-store-btn-text">
+                        <small>Download on the</small>
+                        <span>App Store</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="/">MagicLabSolutions</a>
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Use</a>
+                    <a href="mailto:support@magiclabsolutions.com">Contact</a>
+                </div>
+                <p>&copy; 2025 Magic Lab Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================
+         SCROLL REVEAL SCRIPT
+         ======================================== -->
+    <script>
+        // Scroll reveal animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Navbar scroll effect
+        let lastScrollY = 0;
+        const nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', () => {
+            const currentScrollY = window.scrollY;
+            if (currentScrollY > 100) {
+                nav.style.padding = '10px 0';
+                nav.style.background = 'rgba(10, 26, 15, 0.95)';
+            } else {
+                nav.style.padding = '16px 0';
+                nav.style.background = 'rgba(10, 26, 15, 0.8)';
+            }
+            lastScrollY = currentScrollY;
+        });
+    </script>
+
+</body>
+</html>

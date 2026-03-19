@@ -536,13 +536,13 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   height: 10px;
   border-radius: 50%;
   border: none;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.2);
   cursor: pointer;
   padding: 0;
   @include transition(all 0.3s ease);
 
   &:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.4);
   }
 
   &--active {
@@ -590,17 +590,18 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
 // App card
 .app-card {
-  background: #FFFFFF;
+  background: $background-alt-color;
   border-radius: 20px;
   padding: 40px 28px;
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  border: 1px solid $border-color;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
   @include transition(all 0.3s ease);
 
   &:hover {
     @include translate(0, -4px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    border-color: rgba(59, 130, 246, 0.2);
   }
 }
 
@@ -631,7 +632,7 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 .app-card__title {
   font-size: 22px;
   font-weight: 700;
-  color: $text-dark-color;
+  color: #FFFFFF;
   margin-top: 0;
   letter-spacing: -0.01em;
 }

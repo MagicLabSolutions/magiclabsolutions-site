@@ -18,7 +18,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Magic Lab Solutions crafts premium, privacy-first mobile apps for the Apple ecosystem.
+  footer_tagline: Magic Lab Solutions crafts premium, privacy-first mobile apps for iOS and Android.
 
 hero_settings:
   overlay_opacity: 0.03
@@ -61,15 +61,15 @@ social_settings:
   linkedin_url: 'https://www.linkedin.com/in/evandro-harrison-hoffmann'
 
 color_settings:
-    background_color: '#FFFFFF'
-    background_alt_color: '#F5F5F7'
-    text_dark_color: '#1D1D1F'
-    text_medium_color: '#6E6E73'
-    text_light_color: '#86868B'
-    accent_color: '#0071E3'
-    border_color: '#D2D2D7'
-    hero_background_color: '#FBFBFD'
-    hero_text_color: '#1D1D1F'
+    background_color: '#0C0F14'
+    background_alt_color: '#141820'
+    text_dark_color: '#E2E8F0'
+    text_medium_color: '#94A3B8'
+    text_light_color: '#64748B'
+    accent_color: '#3B82F6'
+    border_color: '#1E293B'
+    hero_background_color: '#0C0F14'
+    hero_text_color: '#E2E8F0'
     error_color: '#FF3B30'
 
 font_settings:
