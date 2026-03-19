@@ -305,8 +305,8 @@ layout: null
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 300px;
-            height: 300px;
+            width: 500px;
+            height: 500px;
             background: radial-gradient(ellipse, rgba(52, 199, 89, 0.15) 0%, rgba(48, 209, 88, 0.06) 40%, transparent 70%);
             border-radius: 50%;
             animation: heroGlowPulse 4s ease-in-out infinite;
@@ -376,19 +376,6 @@ layout: null
             padding: 120px 0 80px;
             overflow: hidden;
         }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -40%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 800px;
-            height: 800px;
-            background: radial-gradient(circle, rgba(52, 199, 89, 0.1) 0%, rgba(48, 209, 88, 0.05) 40%, transparent 70%);
-            pointer-events: none;
-        }
-
         .hero::after {
             content: '';
             position: absolute;
@@ -1162,12 +1149,12 @@ layout: null
          ======================================== -->
     <nav>
         <div class="nav-inner">
+            <a href="/" class="nav-back" title="Back to Magic Lab Solutions">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </a>
             <a href="#" class="nav-logo">
                 <img src="../../images/myrenewals/app_icon.png" alt="MyRenewals" class="nav-logo-icon">
                 MyRenewals
-            </a>
-            <a href="/" class="nav-back" title="Back to Magic Lab Solutions">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
             </a>
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
