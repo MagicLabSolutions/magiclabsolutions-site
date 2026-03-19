@@ -270,6 +270,9 @@ layout: null
             color: #A78BFA;
         }
 
+        .nav-back-chevron { flex-shrink: 0; }
+        @media (max-width: 600px) { .nav-back-text { display: none; } }
+
         .nav-logo {
             display: flex;
             align-items: center;
@@ -288,43 +291,39 @@ layout: null
             object-fit: cover;
         }
 
-        .app-icon-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 100px 0 24px;
+        .hero-app-icon {
             position: relative;
-            overflow: visible;
+            display: inline-block;
+            margin-bottom: 24px;
+            animation: heroIconFloat 6s ease-in-out infinite;
         }
-
-        .app-icon-large {
-            width: 240px;
-            height: 240px;
-            border-radius: 54px;
+        .hero-app-icon img {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
             position: relative;
+            z-index: 1;
+            filter: drop-shadow(0 4px 20px rgba(139, 92, 246, 0.3));
         }
-
-        .app-icon-large::before {
+        .hero-app-glow {
             position: absolute;
-            content: '';
-            width: 300px;
-            height: 300px;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(ellipse, rgba(139, 92, 246, 0.15) 0%, rgba(236, 72, 153, 0.06) 40%, transparent 70%);
             border-radius: 50%;
-            z-index: -1;
+            animation: heroGlowPulse 4s ease-in-out infinite;
             pointer-events: none;
         }
-
-        .app-icon-label {
-            margin-top: 12px;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #FFFFFF;
-            letter-spacing: -0.02em;
+        @keyframes heroIconFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes heroGlowPulse {
+            0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); }
         }
 
         .nav-links {
@@ -1325,14 +1324,6 @@ layout: null
     </nav>
 
     <!-- ========================================
-         APP ICON
-         ======================================== -->
-    <div class="app-icon-section">
-        <img src="../../images/zuzu/app_icon.png" alt="Zuzu App Icon" class="app-icon-large">
-        <span class="app-icon-label">Zuzu</span>
-    </div>
-
-    <!-- ========================================
          HERO SECTION
          ======================================== -->
     <section class="hero">
@@ -1342,6 +1333,10 @@ layout: null
                     <div class="hero-badge">
                         <div class="hero-badge-dot"></div>
                         Available on iOS
+                    </div>
+                    <div class="hero-app-icon">
+                        <div class="hero-app-glow"></div>
+                        <img src="../../images/zuzu/app_icon.png" alt="Zuzu">
                     </div>
                     <h1>Track every<br><span class="gradient-text">precious moment</span></h1>
                     <p>Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights -- all in one place.</p>
