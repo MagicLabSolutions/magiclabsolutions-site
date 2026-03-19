@@ -9,7 +9,7 @@ layout: null
     <title>Brainfold -- AI-Powered Study Companion</title>
     <meta name="description" content="Brainfold transforms your notes into flashcards, quizzes, summaries, and an AI tutor. Scan, study, and battle friends -- all powered by AI.">
     <meta name="theme-color" content="#0F1A2E">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F9E0;</text></svg>">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
         /* ========================================
            RESET & BASE
@@ -334,13 +334,29 @@ layout: null
             align-items: center;
             justify-content: center;
             padding: 100px 0 24px;
+            position: relative;
+            overflow: visible;
         }
 
         .app-icon-large {
             width: 240px;
             height: 240px;
             border-radius: 54px;
-            box-shadow: 0 12px 48px rgba(255, 107, 107, 0.25);
+            position: relative;
+        }
+
+        .app-icon-large::before {
+            position: absolute;
+            content: '';
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(255, 107, 107, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            pointer-events: none;
         }
 
         .app-icon-label {
@@ -1150,6 +1166,7 @@ layout: null
             flex-direction: column;
             gap: 14px;
             flex: 1;
+            margin-bottom: 28px;
         }
 
         .plan-features li {
@@ -1198,7 +1215,6 @@ layout: null
             text-align: center;
             margin-top: auto;
             padding: 14px;
-            padding-top: 28px;
             border-radius: 14px;
             font-size: 0.9375rem;
             font-weight: 600;

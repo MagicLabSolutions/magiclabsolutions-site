@@ -9,7 +9,7 @@ layout: null
     <title>QRamen -- Scan, Create & Organize QR Codes</title>
     <meta name="description" content="QRamen is your all-in-one QR code companion for scanning, creating custom-branded QR codes, organizing with folders and tags, and tracking analytics.">
     <meta name="theme-color" content="#1A1208">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F365;</text></svg>">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
         /* ========================================
            RESET & BASE
@@ -177,13 +177,29 @@ layout: null
             align-items: center;
             justify-content: center;
             padding: 100px 0 24px;
+            position: relative;
+            overflow: visible;
         }
 
         .app-icon-large {
             width: 240px;
             height: 240px;
             border-radius: 54px;
-            box-shadow: 0 12px 48px rgba(255, 149, 0, 0.25);
+            position: relative;
+        }
+
+        .app-icon-large::before {
+            position: absolute;
+            content: '';
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(255, 149, 0, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            pointer-events: none;
         }
 
         .app-icon-label {
@@ -737,6 +753,7 @@ layout: null
             flex-direction: column;
             gap: 14px;
             flex: 1;
+            margin-bottom: 28px;
         }
 
         .plan-features li {
@@ -775,7 +792,6 @@ layout: null
             text-align: center;
             margin-top: auto;
             padding: 14px;
-            padding-top: 28px;
             border-radius: 14px;
             font-size: 0.9375rem;
             font-weight: 600;
@@ -1053,7 +1069,7 @@ layout: null
                 <div class="hero-content">
                     <div class="hero-badge">
                         <div class="hero-badge-dot"></div>
-                        Available on iOS & Android
+                        Available on iOS
                     </div>
                     <h1>Scan, create &<br><span class="gradient-text">organize QR codes</span></h1>
                     <p>Your all-in-one QR code companion. Scan any code instantly, create custom-branded QR codes, organize with folders and tags, and track analytics.</p>
@@ -1065,15 +1081,6 @@ layout: null
                             <div class="app-store-btn-text">
                                 <small>Download on the</small>
                                 <span>App Store</span>
-                            </div>
-                        </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.magiclabsolutions.qramen" class="app-store-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
-                            </svg>
-                            <div class="app-store-btn-text">
-                                <small>Get it on</small>
-                                <span>Google Play</span>
                             </div>
                         </a>
                     </div>
@@ -1250,15 +1257,6 @@ layout: null
                     <h3>Widgets</h3>
                     <p>Home Screen shortcuts</p>
                 </div>
-                <div class="platform-card">
-                    <div class="platform-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                            <path fill="#FF9500" d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
-                        </svg>
-                    </div>
-                    <h3>Android</h3>
-                    <p>Available on Google Play</p>
-                </div>
             </div>
         </div>
     </section>
@@ -1295,15 +1293,6 @@ layout: null
                     <div class="app-store-btn-text">
                         <small>Download on the</small>
                         <span>App Store</span>
-                    </div>
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.magiclabsolutions.qramen" class="app-store-btn" target="_blank" rel="noopener">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
-                    </svg>
-                    <div class="app-store-btn-text">
-                        <small>Get it on</small>
-                        <span>Google Play</span>
                     </div>
                 </a>
             </div>

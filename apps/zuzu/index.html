@@ -9,7 +9,7 @@ layout: null
     <title>Zuzu: Baby & Sleep Tracker -- Track Every Precious Moment</title>
     <meta name="description" content="Zuzu is a premium iOS app for tracking baby sleep, feeds, diapers, nursing, growth, and more. Features a unique visual timeline arc, AI-powered insights, and WHO growth charts.">
     <meta name="theme-color" content="#0B0B1E">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F476;</text></svg>">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
         /* ========================================
            RESET & BASE
@@ -294,13 +294,29 @@ layout: null
             align-items: center;
             justify-content: center;
             padding: 100px 0 24px;
+            position: relative;
+            overflow: visible;
         }
 
         .app-icon-large {
             width: 240px;
             height: 240px;
             border-radius: 54px;
-            box-shadow: 0 12px 48px rgba(139, 92, 246, 0.3);
+            position: relative;
+        }
+
+        .app-icon-large::before {
+            position: absolute;
+            content: '';
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            pointer-events: none;
         }
 
         .app-icon-label {
@@ -881,7 +897,7 @@ layout: null
             display: flex;
             flex-direction: column;
             gap: 14px;
-            margin-bottom: 32px;
+            margin-bottom: 28px;
             flex-grow: 1;
         }
 

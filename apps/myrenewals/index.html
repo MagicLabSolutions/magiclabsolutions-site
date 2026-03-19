@@ -9,7 +9,7 @@ layout: null
     <title>MyRenewals -- Subscription Tracker</title>
     <meta name="description" content="Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew. Beautiful pie charts, smart notifications, and iPad-optimized.">
     <meta name="theme-color" content="#0A1A0F">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F4B3;</text></svg>">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
         /* ========================================
            RESET & BASE
@@ -299,7 +299,21 @@ layout: null
             width: 240px;
             height: 240px;
             border-radius: 54px;
-            box-shadow: 0 12px 48px rgba(52, 199, 89, 0.25);
+            position: relative;
+        }
+
+        .app-icon-large::before {
+            position: absolute;
+            content: '';
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(circle, rgba(52, 199, 89, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            pointer-events: none;
         }
 
         .app-icon-label {
@@ -869,6 +883,190 @@ layout: null
         }
 
         /* ========================================
+           PLANS SECTION
+           ======================================== */
+        .plans {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .plans::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(52, 199, 89, 0.2), transparent);
+        }
+
+        .plans-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .plans-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .plans-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            align-items: stretch;
+        }
+
+        .plan-card {
+            padding: 32px 28px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 24px;
+            position: relative;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .plan-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateY(-4px);
+        }
+
+        .plan-card--pro {
+            border-color: rgba(52, 199, 89, 0.4);
+            background: rgba(52, 199, 89, 0.05);
+        }
+
+        .plan-card--pro:hover {
+            background: rgba(52, 199, 89, 0.08);
+        }
+
+        .plan-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 0.6875rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            white-space: nowrap;
+        }
+
+        .plan-badge--pro {
+            background: linear-gradient(135deg, #34C759, #30D158);
+            color: #fff;
+        }
+
+        .plan-name {
+            font-size: 1.375rem;
+            font-weight: 700;
+            color: #F1F5F9;
+            margin-bottom: 4px;
+        }
+
+        .plan-card--pro .plan-name {
+            color: #34C759;
+        }
+
+        .plan-subtitle {
+            font-size: 0.8125rem;
+            color: #64748B;
+            margin-bottom: 20px;
+        }
+
+        .plan-divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.06);
+            margin-bottom: 24px;
+        }
+
+        .plan-features {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            flex: 1;
+            margin-bottom: 28px;
+        }
+
+        .plan-features li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.875rem;
+            color: #CBD5E1;
+            line-height: 1.5;
+        }
+
+        .plan-features li .check {
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.625rem;
+            margin-top: 2px;
+        }
+
+        .plan-features li .check--free {
+            background: rgba(148, 163, 184, 0.15);
+            color: #94A3B8;
+        }
+
+        .plan-features li .check--green {
+            background: rgba(52, 199, 89, 0.15);
+            color: #34C759;
+        }
+
+        .plan-cta {
+            display: block;
+            text-align: center;
+            margin-top: auto;
+            padding: 14px;
+            border-radius: 14px;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .plan-cta--free {
+            background: rgba(255, 255, 255, 0.06);
+            color: #CBD5E1;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .plan-cta--free:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .plan-cta--pro {
+            background: linear-gradient(135deg, #34C759, #30D158);
+            color: #fff;
+        }
+
+        .plan-cta--pro:hover {
+            box-shadow: 0 8px 32px rgba(52, 199, 89, 0.3);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 700px) {
+            .plans-grid {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+                margin: 0 auto;
+                gap: 32px;
+            }
+        }
+
+        /* ========================================
            FINAL CTA SECTION
            ======================================== */
         .final-cta {
@@ -1165,6 +1363,54 @@ layout: null
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <p class="review-text">"Clean design, easy to use, and the pie chart feature helps me see exactly where my money goes each month. Highly recommended."</p>
                     <span class="review-author">Taylor M. -- App Store Review</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PLANS SECTION
+         ======================================== -->
+    <section class="plans" id="plans">
+        <div class="container">
+            <div class="plans-header scroll-reveal">
+                <div class="section-label">Plans</div>
+                <h2 class="section-title">Simple, transparent <span class="gradient-text">pricing</span></h2>
+                <p class="section-subtitle">Start free and upgrade to Pro when you're ready for the full experience.</p>
+            </div>
+            <div class="plans-grid">
+                <!-- Free -->
+                <div class="plan-card scroll-reveal">
+                    <div class="plan-name">Free</div>
+                    <div class="plan-subtitle">Get started for free</div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li><span class="check check--free">&#10003;</span> Track subscriptions (limited count)</li>
+                        <li><span class="check check--free">&#10003;</span> Smart renewal reminders</li>
+                        <li><span class="check check--free">&#10003;</span> Basic spending overview</li>
+                        <li><span class="check check--free">&#10003;</span> Cancel tracking</li>
+                    </ul>
+                    <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="plan-cta plan-cta--free" target="_blank" rel="noopener">Get Started</a>
+                </div>
+
+                <!-- Pro -->
+                <div class="plan-card plan-card--pro scroll-reveal">
+                    <span class="plan-badge plan-badge--pro">Recommended</span>
+                    <div class="plan-name">Pro</div>
+                    <div class="plan-subtitle">Everything, unlimited</div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li><span class="check check--green">&#10003;</span> Everything in Free</li>
+                        <li><span class="check check--green">&#10003;</span> Unlimited subscriptions</li>
+                        <li><span class="check check--green">&#10003;</span> Premium Insights dashboard</li>
+                        <li><span class="check check--green">&#10003;</span> Category breakdown (donut chart)</li>
+                        <li><span class="check check--green">&#10003;</span> 12-month spending trends</li>
+                        <li><span class="check check--green">&#10003;</span> Free trials tracker</li>
+                        <li><span class="check check--green">&#10003;</span> Most/cheapest plans ranking</li>
+                        <li><span class="check check--green">&#10003;</span> Cloud backup &amp; sync</li>
+                        <li><span class="check check--green">&#10003;</span> PDF export</li>
+                    </ul>
+                    <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="plan-cta plan-cta--pro" target="_blank" rel="noopener">Upgrade to Pro</a>
                 </div>
             </div>
         </div>
