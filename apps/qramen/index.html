@@ -140,21 +140,17 @@ layout: null
         .nav-back {
             display: flex;
             align-items: center;
-            gap: 4px;
             text-decoration: none;
             color: rgba(226, 232, 240, 0.5);
-            font-size: 0.8rem;
-            font-weight: 500;
-            margin-left: 16px;
-            transition: color 0.2s ease;
+            padding: 6px;
+            border-radius: 8px;
+            transition: color 0.2s ease, background 0.2s ease;
         }
 
         .nav-back:hover {
             color: #FFB84D;
+            background: rgba(255, 255, 255, 0.05);
         }
-
-        .nav-back-chevron { flex-shrink: 0; }
-        @media (max-width: 600px) { .nav-back-text { display: none; } }
 
         .nav-logo {
             display: flex;
@@ -1038,7 +1034,7 @@ layout: null
                 QRamen
             </a>
             <a href="/" class="nav-back" title="Back to Magic Lab Solutions">
-                MagicLabSolutions
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
             </a>
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
@@ -1059,16 +1055,18 @@ layout: null
          ======================================== -->
     <section class="hero">
         <div class="container">
+            <div class="hero-badge" style="margin-bottom: 16px;">
+                <div class="hero-badge-dot"></div>
+                Available on iOS
+            </div>
+            <div style="text-align: center;">
+                <div class="hero-app-icon">
+                    <div class="hero-app-glow"></div>
+                    <img src="/images/qramen/app_icon.png" alt="QRamen">
+                </div>
+            </div>
             <div class="hero-grid">
                 <div class="hero-content">
-                    <div class="hero-badge">
-                        <div class="hero-badge-dot"></div>
-                        Available on iOS
-                    </div>
-                    <div class="hero-app-icon">
-                        <div class="hero-app-glow"></div>
-                        <img src="/images/qramen/app_icon.png" alt="QRamen">
-                    </div>
                     <h1>Scan, create &<br><span class="gradient-text">organize QR codes</span></h1>
                     <p>Your all-in-one QR code companion. Scan any code instantly, create custom-branded QR codes, organize with folders and tags, and track analytics.</p>
                     <div class="hero-actions">
