@@ -5,9 +5,49 @@ description: We craft premium, privacy-first mobile apps for iOS and Android.
 featured_image: /images/social.jpg
 ---
 
+<style>
+.hero-brand-icon {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 24px;
+	animation: heroIconFloat 6s ease-in-out infinite;
+}
+.hero-brand-icon img {
+	width: 88px;
+	height: 88px;
+	border-radius: 20px;
+	position: relative;
+	z-index: 1;
+	filter: drop-shadow(0 4px 20px rgba(59, 130, 246, 0.3));
+}
+.hero-brand-glow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 180px;
+	height: 180px;
+	background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, rgba(99, 102, 241, 0.08) 50%, transparent 70%);
+	border-radius: 50%;
+	animation: heroGlowPulse 4s ease-in-out infinite;
+	pointer-events: none;
+}
+@keyframes heroIconFloat {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-10px); }
+}
+@keyframes heroGlowPulse {
+	0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+	50% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); }
+}
+</style>
+
 <section class="hero">
 	<div class="wrap">
-		<img src="/images/favicon.png" alt="Magic Lab Solutions" style="width: 80px; height: 80px; margin-bottom: 24px; border-radius: 16px;">
+		<div class="hero-brand-icon">
+			<div class="hero-brand-glow"></div>
+			<img src="/images/favicon.png" alt="Magic Lab Solutions">
+		</div>
 		<h1>Apps that feel<br>like magic.</h1>
 		<p>We design and build premium native apps for iOS and Android — crafted with care and built for everyday life.</p>
 		<div style="margin-top: 40px;">
