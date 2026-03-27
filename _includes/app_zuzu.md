@@ -2,9 +2,12 @@
 
 Co-parenting is a team effort. **Zuzu** helps you and your partner track feeds, sleep, diapers, growth, and milestones together — so nothing falls through the cracks.
 
-<div style="text-align: center; margin: 30px 0;">
+<div style="text-align: center; margin: 30px 0; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
   <a href="https://apps.apple.com/app/id6757988505" target="_blank" rel="noopener">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=com.magiclabsolutions.zuzu" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" style="height: 50px;" />
   </a>
 </div>
 
@@ -48,9 +51,12 @@ Keeping track of your baby's day is hard enough — doing it across two househol
 
 ---
 
-<div style="text-align: center; margin: 40px 0;">
+<div style="text-align: center; margin: 40px 0; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
   <a href="https://apps.apple.com/app/id6757988505" target="_blank" rel="noopener">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=com.magiclabsolutions.zuzu" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" style="height: 50px;" />
   </a>
 </div>
 
@@ -59,7 +65,7 @@ Keeping track of your baby's day is hard enough — doing it across two househol
 ### Privacy & Transparency
 
 Your data is yours.
-All baby tracking data is stored locally on your device using **Core Data**, and synced with your family through **CloudKit** when you choose to connect.
+All baby tracking data is stored locally on your device and synced with your family through the cloud when you choose to connect.
 
 We never sell or share your information.
 For details, see our
@@ -68,18 +74,18 @@ For details, see our
 
 ---
 
-### Built with Apple Technologies
+### Built with Modern Technologies
 
-Swift-first, privacy-first, and designed to feel at home on every Apple device.
+Privacy-first and designed to feel at home on every device.
 
 | Technology | Purpose |
 |-------------|----------|
-| Swift & SwiftUI | Modern, responsive interface |
-| Core Data + CloudKit | Local storage with family sync |
+| Swift & SwiftUI | Native iOS interface |
+| Kotlin & Jetpack Compose | Native Android interface |
 | Firebase | Cloud infrastructure |
 | RevenueCat | Subscription management |
-| WidgetKit | Home screen widgets |
-| Charts Framework | Activity insights |
+| Widgets | Home screen widgets (iOS & Android) |
+| Charts | Activity insights |
 
 ---
 
