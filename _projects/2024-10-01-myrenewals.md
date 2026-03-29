@@ -9,6 +9,7 @@ accent_color: '#34C759'
 app_store_url: 'https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785'
 permalink: /project/myrenewals/
 link: /apps/myrenewals/
+lang-ref: project-myrenewals
 ---
 
 {% include app_myrenewals.md %}

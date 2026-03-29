@@ -1,0 +1,78 @@
+nav:
+  home: Inicio
+  apps: Aplicaciones
+  about: Acerca de
+  contact: Contacto
+footer:
+  tagline: Magic Lab Solutions crea aplicaciones móviles premium que dan prioridad a la privacidad para iOS y Android.
+  apps: Aplicaciones
+  company: Compañía
+  legal: Legal
+  about: Acerca de
+  contact: Contacto
+  privacy_policy: Política de privacidad
+  terms_of_use: Condiciones de uso
+contact_form:
+  email_label: Dirección de correo electrónico *
+  email_placeholder: Tu dirección de correo electrónico...
+  name_label: Nombre *
+  name_placeholder: Tu nombre...
+  message_label: Mensaje *
+  message_placeholder: Tu mensaje...
+  send_button: Enviar mensaje
+legal:
+  label: Legal
+  effective: Vigente desde
+app_card:
+  learn_more: Más información
+home:
+  title: Magic Lab Solutions – Estudio de aplicaciones móviles
+  description: Creamos aplicaciones móviles premium que priorizan la privacidad para iOS y Android.
+  hero_heading: Apps que se sienten como magia.
+  hero_text: Diseñamos y construimos aplicaciones nativas premium para iOS y Android — creadas con cuidado y pensadas para la vida cotidiana.
+  explore_apps: Explorar nuestras apps
+  get_in_touch: Contáctanos
+  badge_new: Nuevo
+  brainfold_subtitle: Compañero de estudio con IA
+  brainfold_desc: Escanea tus apuntes y deja que la IA cree tarjetas, cuestionarios, resúmenes y un tutor personal. Estudia solo o compite con amigos.
+  explore_brainfold: Explorar Brainfold
+  zuzu_subtitle: Seguimiento del bebé, juntos
+  zuzu_desc: Seguimiento inteligente del bebé con una hermosa línea de tiempo visual. Sueño, alimentación, pañales, crecimiento e información impulsada por IA — todo en un solo lugar.
+  explore_zuzu: Explorar Zuzu
+  show_brainfold: Ver Brainfold
+  show_zuzu: Ver Zuzu
+  philosophy_heading: Hecho con cuidado.<br>Diseñado para todos.
+  philosophy_text: Somos dos hermanos de Brasil que crean apps que realmente usamos nosotros mismos. Cada producto prioriza la privacidad y está diseñado para sentirse como en casa en cualquier dispositivo — iPhone, iPad, Android y más.
+  about_us: Acerca de nosotros
+apps_page:
+  title: Nuestras apps
+  description: Descubre la suite de aplicaciones creadas por Magic Lab Solutions para la vida cotidiana.
+  heading: Nuestras apps
+  subtitle: Herramientas hermosas y privadas diseñadas para la vida cotidiana.
+error_404:
+  title: Página no encontrada
+  description: Lo sentimos — la página que buscas no existe.
+  heading: "404"
+  subtitle: Página no encontrada.
+  message: Lo sentimos — la página que buscas no existe. Es posible que se haya movido o que la URL sea incorrecta.
+  back_home: Volver al inicio
+thanks:
+  title: "¡Gracias!"
+  subtitle: Tu mensaje fue enviado exitosamente.
+  description: Gracias por contactar a Magic Lab Solutions.
+  message: "¡Agradecemos tu mensaje! Revisaremos tu mensaje y te responderemos lo antes posible."
+  secondary: Mientras tanto, no dudes en explorar nuestras apps o conocer más sobre lo que hacemos.
+  explore_apps: Explorar nuestras apps
+  about_us: Acerca de nosotros
+about:
+  title: Acerca de nosotros
+  subtitle: Dos hermanos creando apps que realmente usan.
+  description: Diseñamos, creamos y mantenemos aplicaciones móviles nativas para iOS y Android que se sienten perfectamente en cualquier dispositivo.
+contact_page:
+  title: Contacto
+  subtitle: Nos encantaría saber de ti.
+  description: Ponte en contacto con Magic Lab Solutions para preguntas, comentarios o colaboración.
+  intro: "¿Tienes una pregunta, comentario o quieres colaborar? Envíanos un mensaje y te responderemos."
+  email_cta: También puedes contactarnos directamente en
+lang:
+  label: Idioma

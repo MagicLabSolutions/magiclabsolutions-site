@@ -3,12 +3,15 @@ layout: default
 title: Our Apps
 description: Discover the suite of apps crafted by Magic Lab Solutions for everyday life.
 featured_image: /images/social.jpg
+lang-ref: apps
 ---
+
+{% assign t = site.data.translations[site.active_lang] %}
 
 <section class="page-hero">
 	<div class="wrap">
-		<h1>Our Apps</h1>
-		<p>Beautiful, privacy-first tools designed for everyday life.</p>
+		<h1>{{ t.apps_page.heading | default: "Our Apps" }}</h1>
+		<p>{{ t.apps_page.subtitle | default: "Beautiful, privacy-first tools designed for everyday life." }}</p>
 	</div>
 </section>
 

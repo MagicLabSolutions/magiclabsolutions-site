@@ -1,0 +1,78 @@
+nav:
+  home: ホーム
+  apps: アプリ
+  about: 当社について
+  contact: お問い合わせ
+footer:
+  tagline: Magic Lab Solutions は、iOS および Android 向けのプライバシー最優先のプレミアム モバイル アプリを作成します。
+  apps: アプリ
+  company: 会社
+  legal: 法的情報
+  about: 当社について
+  contact: お問い合わせ
+  privacy_policy: プライバシーポリシー
+  terms_of_use: 利用規約
+contact_form:
+  email_label: メールアドレス *
+  email_placeholder: メールアドレスを入力...
+  name_label: お名前 *
+  name_placeholder: お名前を入力...
+  message_label: メッセージ *
+  message_placeholder: メッセージを入力...
+  send_button: メッセージを送信
+legal:
+  label: 法的情報
+  effective: 発効日
+app_card:
+  learn_more: 詳しく見る
+home:
+  title: Magic Lab Solutions — モバイルアプリスタジオ
+  description: iOS および Android 向けのプライバシー最優先のプレミアムモバイルアプリを作成しています。
+  hero_heading: まるで魔法のように感じられるアプリ。
+  hero_text: iOS および Android 向けのプレミアム ネイティブ アプリを設計および構築します。慎重に作成され、日常生活向けに構築されています。
+  explore_apps: アプリを探索する
+  get_in_touch: お問い合わせ
+  badge_new: 新着
+  brainfold_subtitle: AIを活用した学習パートナー
+  brainfold_desc: ノートをスキャンして、AIにフラッシュカード、クイズ、要約、パーソナルチューターを作成してもらいましょう。一人で学んだり、友達と対戦したりできます。
+  explore_brainfold: Brainfoldを探索する
+  zuzu_subtitle: 一緒にベビートラッキング
+  zuzu_desc: 美しいビジュアルタイムラインでスマートなベビートラッキング。睡眠、授乳、おむつ、成長、AIによるインサイト — すべてが一か所に。
+  explore_zuzu: Zuzuを探索する
+  show_brainfold: Brainfoldを見る
+  show_zuzu: Zuzuを見る
+  philosophy_heading: 丁寧に作られています。<br>すべての人のために。
+  philosophy_text: 私たちはブラジル出身の兄弟で、自分たちが本当に使うアプリを作っています。すべての製品はプライバシーを最優先にし、iPhone、iPad、Android、その他のデバイスで快適に使えるように設計されています。
+  about_us: 当社について
+apps_page:
+  title: 私たちのアプリ
+  description: Magic Lab Solutions が日常生活のために作成したアプリスイートをご覧ください。
+  heading: 私たちのアプリ
+  subtitle: 日常生活のために設計された、美しくプライバシーを重視したツール。
+error_404:
+  title: ページが見つかりません
+  description: 申し訳ありません — お探しのページは存在しません。
+  heading: "404"
+  subtitle: ページが見つかりません。
+  message: 申し訳ありません — お探しのページは存在しません。移動されたか、URLが正しくない可能性があります。
+  back_home: ホームに戻る
+thanks:
+  title: ありがとうございます！
+  subtitle: メッセージが正常に送信されました。
+  description: Magic Lab Solutions にお問い合わせいただきありがとうございます。
+  message: お問い合わせいただきありがとうございます！メッセージを確認し、できるだけ早くご返信いたします。
+  secondary: その間、ぜひ私たちのアプリを探索したり、私たちの活動について詳しく知ってください。
+  explore_apps: アプリを探索する
+  about_us: 当社について
+about:
+  title: 当社について
+  subtitle: 本当に使うアプリを作る二人の兄弟。
+  description: iPhone、iPad、Android、あらゆるデバイスで快適に使えるネイティブモバイルアプリを設計、構築、サポートしています。
+contact_page:
+  title: お問い合わせ
+  subtitle: ぜひご連絡ください。
+  description: ご質問、フィードバック、コラボレーションについて Magic Lab Solutions にお問い合わせください。
+  intro: ご質問、フィードバック、またはコラボレーションをご希望ですか？メッセージをお送りください。折り返しご連絡いたします。
+  email_cta: こちらのメールでも直接ご連絡いただけます
+lang:
+  label: 言語

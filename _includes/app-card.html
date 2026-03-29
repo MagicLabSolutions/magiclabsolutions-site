@@ -8,6 +8,7 @@
 		<h3 class="app-card__title">{{ include.app.title }}</h3>
 		<p class="app-card__subtitle">{{ include.app.subtitle }}</p>
 		<p class="app-card__description">{{ include.app.description }}</p>
-		<span class="app-card__cta">Learn More &rarr;</span>
+		{% assign t = site.data.translations[site.active_lang] %}
+		<span class="app-card__cta">{{ t.app_card.learn_more | default: "Learn More" }} &rarr;</span>
 	</a>
 </article>

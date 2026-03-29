@@ -1,3 +1,4 @@
+{% assign t = site.data.translations[site.active_lang] %}
 <header class="header">
 
 	<div class="wrap">
@@ -18,12 +19,20 @@
 			</div>
 			<div class="menu__wrap">
 				<ul class="menu__list">
-					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
-						<a href="{{ item.url | relative_url }}" class="menu__list__item__link">{{ item.title }}</a>
+						<a href="{{ '/' | relative_url }}" class="menu__list__item__link">{{ t.nav.home | default: "Home" }}</a>
 					</li>
-					{% endfor %}
+					<li class="menu__list__item">
+						<a href="{{ '/apps/' | relative_url }}" class="menu__list__item__link">{{ t.nav.apps | default: "Apps" }}</a>
+					</li>
+					<li class="menu__list__item">
+						<a href="{{ '/about' | relative_url }}" class="menu__list__item__link">{{ t.nav.about | default: "About" }}</a>
+					</li>
+					<li class="menu__list__item">
+						<a href="{{ '/contact' | relative_url }}" class="menu__list__item__link">{{ t.nav.contact | default: "Contact" }}</a>
+					</li>
 				</ul>
+				{% include language-switcher.html %}
 			</div>
 		</div>
 

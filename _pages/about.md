@@ -3,8 +3,13 @@ title: About Us
 subtitle: Two brothers building apps they genuinely use.
 description: We design, build, and support native mobile apps for iOS and Android that feel perfectly at home on every device.
 permalink: /about/
+lang-ref: about
 ---
 
+{% assign t = site.data.translations[site.active_lang] %}
+{% if t.about.content %}
+{{ t.about.content | markdownify }}
+{% else %}
 <div class="about-photo" style="display: flex; justify-content: center;">
   <img src="/images/evandro_fabio.jpeg" alt="Evandro and Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
 </div>
@@ -41,3 +46,4 @@ Hi! We're Evandro and Fabio — two brothers from Brazil building apps we genuin
 ---
 
 Ready to build something magical? [Drop us a message](/contact).
+{% endif %}

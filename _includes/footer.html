@@ -1,12 +1,13 @@
+{% assign t = site.data.translations[site.active_lang] %}
 <footer class="footer">
 	<div class="wrap">
 		<div class="footer__grid">
 			<div class="footer__col">
 				<h4 class="footer__heading">{{ site.data.settings.basic_settings.site_title }}</h4>
-				<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
+				<p class="footer__text">{{ t.footer.tagline | default: site.data.settings.footer_settings.footer_tagline }}</p>
 			</div>
 			<div class="footer__col">
-				<h4 class="footer__heading">Apps</h4>
+				<h4 class="footer__heading">{{ t.footer.apps | default: "Apps" }}</h4>
 				<ul class="footer__links">
 					{% assign apps = site.projects | sort: 'date' | reverse %}
 					{% for app in apps %}
@@ -15,17 +16,17 @@
 				</ul>
 			</div>
 			<div class="footer__col">
-				<h4 class="footer__heading">Company</h4>
+				<h4 class="footer__heading">{{ t.footer.company | default: "Company" }}</h4>
 				<ul class="footer__links">
-					<li><a href="{{ '/about' | relative_url }}">About</a></li>
-					<li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+					<li><a href="{{ '/about' | relative_url }}">{{ t.footer.about | default: "About" }}</a></li>
+					<li><a href="{{ '/contact' | relative_url }}">{{ t.footer.contact | default: "Contact" }}</a></li>
 				</ul>
 			</div>
 			<div class="footer__col">
-				<h4 class="footer__heading">Legal</h4>
+				<h4 class="footer__heading">{{ t.footer.legal | default: "Legal" }}</h4>
 				<ul class="footer__links">
-					<li><a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a></li>
-					<li><a href="{{ '/terms-of-use/' | relative_url }}">Terms of Use</a></li>
+					<li><a href="{{ '/privacy-policy/' | relative_url }}">{{ t.footer.privacy_policy | default: "Privacy Policy" }}</a></li>
+					<li><a href="{{ '/terms-of-use/' | relative_url }}">{{ t.footer.terms_of_use | default: "Terms of Use" }}</a></li>
 				</ul>
 			</div>
 		</div>

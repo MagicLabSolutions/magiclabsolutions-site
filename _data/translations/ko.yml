@@ -1,0 +1,78 @@
+nav:
+  home: 홈
+  apps: 앱
+  about: 소개
+  contact: 문의
+footer:
+  tagline: Magic Lab Solutions는 iOS 및 Android용 개인 정보 보호 우선 프리미엄 모바일 앱을 제작합니다.
+  apps: 앱
+  company: 회사
+  legal: 법적 고지
+  about: 소개
+  contact: 문의
+  privacy_policy: 개인정보처리방침
+  terms_of_use: 이용약관
+contact_form:
+  email_label: 이메일 주소 *
+  email_placeholder: 이메일 주소를 입력하세요...
+  name_label: 이름 *
+  name_placeholder: 이름을 입력하세요...
+  message_label: 메시지 *
+  message_placeholder: 메시지를 입력하세요...
+  send_button: 메시지 보내기
+legal:
+  label: 법적 고지
+  effective: 시행일
+app_card:
+  learn_more: 자세히 보기
+home:
+  title: Magic Lab Solutions — 모바일 앱 스튜디오
+  description: iOS 및 Android용 개인 정보 보호 우선 프리미엄 모바일 앱을 제작합니다.
+  hero_heading: 마법 같은 앱.
+  hero_text: iOS 및 Android를 위한 프리미엄 네이티브 앱을 설계하고 구축합니다. 정성을 다해 만들고 일상을 위해 설계되었습니다.
+  explore_apps: 앱 살펴보기
+  get_in_touch: 문의하기
+  badge_new: 신규
+  brainfold_subtitle: AI 기반 학습 동반자
+  brainfold_desc: 노트를 스캔하고 AI가 플래시카드, 퀴즈, 요약, 개인 튜터를 만들어 줍니다. 혼자 공부하거나 친구와 대결하세요.
+  explore_brainfold: Brainfold 살펴보기
+  zuzu_subtitle: 함께하는 아기 기록
+  zuzu_desc: 아름다운 비주얼 타임라인으로 스마트한 아기 기록. 수면, 수유, 기저귀, 성장, AI 기반 인사이트 — 모두 한 곳에서.
+  explore_zuzu: Zuzu 살펴보기
+  show_brainfold: Brainfold 보기
+  show_zuzu: Zuzu 보기
+  philosophy_heading: 정성을 다해 만들었습니다.<br>모두를 위해 설계되었습니다.
+  philosophy_text: 우리는 브라질 출신의 두 형제로, 실제로 우리가 사용하는 앱을 만듭니다. 모든 제품은 개인 정보를 최우선으로 하며 iPhone, iPad, Android 등 모든 기기에서 편안하게 사용할 수 있도록 설계되었습니다.
+  about_us: 소개
+apps_page:
+  title: 우리의 앱
+  description: Magic Lab Solutions가 일상을 위해 만든 앱 모음을 살펴보세요.
+  heading: 우리의 앱
+  subtitle: 일상을 위해 설계된 아름답고 개인 정보 보호 우선 도구.
+error_404:
+  title: 페이지를 찾을 수 없습니다
+  description: 죄송합니다 — 찾으시는 페이지가 존재하지 않습니다.
+  heading: "404"
+  subtitle: 페이지를 찾을 수 없습니다.
+  message: 죄송합니다 — 찾으시는 페이지가 존재하지 않습니다. 이동되었거나 URL이 올바르지 않을 수 있습니다.
+  back_home: 홈으로 돌아가기
+thanks:
+  title: 감사합니다!
+  subtitle: 메시지가 성공적으로 전송되었습니다.
+  description: Magic Lab Solutions에 연락해 주셔서 감사합니다.
+  message: 연락해 주셔서 감사합니다! 메시지를 검토한 후 가능한 빨리 답변 드리겠습니다.
+  secondary: 그동안 저희 앱을 살펴보거나 저희에 대해 더 알아보세요.
+  explore_apps: 앱 살펴보기
+  about_us: 소개
+about:
+  title: 소개
+  subtitle: 정말 사용하는 앱을 만드는 두 형제.
+  description: iPhone, iPad, Android 등 모든 기기에서 완벽하게 작동하는 네이티브 모바일 앱을 설계, 구축, 지원합니다.
+contact_page:
+  title: 문의
+  subtitle: 연락을 기다리고 있습니다.
+  description: 질문, 피드백 또는 협업에 대해 Magic Lab Solutions에 문의하세요.
+  intro: 질문, 피드백 또는 협업을 원하시나요? 메시지를 보내주시면 연락 드리겠습니다.
+  email_cta: 다음 이메일로도 직접 연락하실 수 있습니다
+lang:
+  label: 언어

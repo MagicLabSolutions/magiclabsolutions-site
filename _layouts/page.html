@@ -2,10 +2,15 @@
 layout: default
 ---
 
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign page_t = t[page.lang-ref] %}
+
 <section class="page-hero">
 	<div class="wrap">
-		<h1>{{ page.title }}</h1>
-		{% if page.subtitle %}
+		<h1>{% if page_t.title %}{{ page_t.title }}{% else %}{{ page.title }}{% endif %}</h1>
+		{% if page_t.subtitle %}
+		<p>{{ page_t.subtitle }}</p>
+		{% elsif page.subtitle %}
 		<p>{{ page.subtitle }}</p>
 		{% endif %}
 	</div>
