@@ -1,0 +1,88 @@
+nav:
+  home: Lar
+  apps: Aplicativos
+  about: Sobre
+  contact: Contato
+footer:
+  tagline: A Magic Lab Solutions cria aplicativos móveis premium que priorizam a privacidade para iOS e Android.
+  apps: Aplicativos
+  company: Empresa
+  legal: Jurídico
+  about: Sobre
+  contact: Contato
+  privacy_policy: política de Privacidade
+  terms_of_use: Termos de Uso
+contact_form:
+  email_label: Endereço de email *
+  email_placeholder: Seu endereço de email...
+  name_label: Nome *
+  name_placeholder: Seu nome...
+  message_label: Mensagem *
+  message_placeholder: Sua mensagem...
+  send_button: Enviar mensagem
+legal:
+  label: Jurídico
+  effective: Eficaz
+app_card:
+  learn_more: Saber mais
+home:
+  title: Soluções Magic Lab – Estúdio de aplicativos móveis
+  description: Criamos aplicativos móveis premium que priorizam a privacidade para iOS e Android.
+  hero_heading: Aplicativos que parecem<br>mágicos.
+  hero_text: Projetamos e construímos aplicativos nativos premium para iOS e Android — criados com cuidado e desenvolvidos para o dia a dia.
+  explore_apps: Explore nossos aplicativos
+  get_in_touch: Entre em contato
+  badge_new: Novo
+  brainfold_subtitle: Companheiro de estudo com tecnologia de IA
+  brainfold_desc: Digitalize suas anotações e deixe a IA criar flashcards, questionários, resumos e um tutor pessoal. Estude sozinho ou lute com amigos.
+  explore_brainfold: Explorar a Dobra Cerebral
+  zuzu_subtitle: Registro de alimentação, fraldas e crescimento
+  zuzu_desc: Rastreamento inteligente do bebê com uma bela linha do tempo visual. Sono, alimentação, fraldas, crescimento e insights baseados em IA – tudo em um só lugar.
+  explore_zuzu: Explorar Zuzu
+  show_brainfold: Mostrar dobra cerebral
+  show_zuzu: Mostrar Zuzu
+  philosophy_heading: Construído com cuidado.<br>Projetado para todos.
+  philosophy_text: 'Somos dois irmãos do Brasil que criam aplicativos que nós mesmos usamos genuinamente. Cada produto prioriza a privacidade e foi projetado para se sentir confortável em todos os dispositivos:
+    iPhone, iPad, Android e muito mais.'
+  about_us: Sobre nós
+apps_page:
+  title: Nossos aplicativos
+  description: Descubra o conjunto de aplicativos criados pela Magic Lab Solutions para o dia a dia.
+  heading: Nossos aplicativos
+  subtitle: Ferramentas lindas e que priorizam a privacidade, projetadas para a vida cotidiana.
+error_404:
+  title: Página não encontrada
+  description: Desculpe – a página que você está procurando não existe.
+  heading: '404'
+  subtitle: Página não encontrada.
+  message: Desculpe, a página que você está procurando não existe. Pode ter sido movido ou o URL pode estar incorreto.
+  back_home: De volta para casa
+thanks:
+  title: Obrigado!
+  subtitle: Sua mensagem foi enviada com sucesso.
+  description: Obrigado por entrar em contato com a Magic Lab Solutions.
+  message: Agradecemos seu contato! Analisaremos sua mensagem e entraremos em contato com você o mais breve possível.
+  secondary: Enquanto isso, fique à vontade para explorar nossos aplicativos ou saber mais sobre o que fazemos.
+  explore_apps: Explore nossos aplicativos
+  about_us: Sobre nós
+about:
+  title: Sobre nós
+  subtitle: Dois irmãos criando aplicativos que realmente usam.
+  description: Projetamos, construímos e oferecemos suporte a aplicativos móveis nativos para iOS e Android que se adaptam perfeitamente a todos os dispositivos.
+  content: "<div class=\"about-photo\" style=\"display: flex; justify-content: center;\">\n  <img src=\"/images/evandro_fabio.jpeg\" alt=\"Evandro and Fabio\" style=\"width: 225px; height: 300px; object-fit:\
+    \ cover;\" />\n</div>\n\nHi! We're Evandro and Fabio — two brothers from Brazil building apps we genuinely use ourselves. We care a lot about making them useful, simple, and enjoyable. If you have ideas,\
+    \ feedback, or something isn't working right, we'd really love to hear from you.\n\n<div class=\"about-socials\">\n  <a href=\"https://www.linkedin.com/in/evandro-harrison-hoffmann\" target=\"_blank\"\
+    >\n    <i class=\"fab fa-linkedin\" aria-hidden=\"true\"></i> Evandro\n  </a>\n  <a href=\"https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625\" target=\"_blank\">\n    <i class=\"fab fa-linkedin\"\
+    \ aria-hidden=\"true\"></i> Fabio\n  </a>\n</div>\n\n---\n\n## What We Build\n\n* Native iOS apps with Swift and SwiftUI — buttery-smooth navigation and custom transitions\n* Cross-platform experiences\
+    \ for both iPhone/iPad and Android\n* Universal layouts that adapt beautifully across devices and screen sizes\n* Widgets, Live Activities, and platform-specific extensions that surface the right info\
+    \ at the right time\n* Privacy-first storage with secure sync across devices\n\n## How We Deliver\n\n* Discovery sprints to clarify user needs, product vision, and launch goals\n* Interactive prototypes\
+    \ and design systems aligned with platform guidelines\n* Modular architectures (MVVM, async/await) and automated testing for confident scaling\n* Performance tuning, accessibility audits, and crash\
+    \ monitoring to keep experiences polished\n* Launch support — from beta testing to store submissions, release notes, and ASO follow-through\n\n---\n\nReady to build something magical? [Drop us a message](/contact).\n"
+contact_page:
+  title: Contato
+  subtitle: Adoraríamos ouvir de você.
+  description: Entre em contato com Magic Lab Solutions para perguntas, feedback ou colaboração.
+  intro: Tem alguma dúvida, feedback ou deseja colaborar? Deixe-nos uma mensagem e entraremos em contato com você.
+  email_cta: Você também pode entrar em contato conosco diretamente em
+lang:
+  label: Linguagem

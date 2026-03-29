@@ -7,6 +7,7 @@ featured_image: '/images/myrenewals/hero.png'
 app_icon: '/images/myrenewals/app_icon.png'
 accent_color: '#34C759'
 app_store_url: 'https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785'
+lang-ref: project-myrenewals
 permalink: /project/myrenewals/
 link: /apps/myrenewals/
 ---

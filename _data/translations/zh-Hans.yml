@@ -1,0 +1,87 @@
+nav:
+  home: 家
+  apps: 应用程序
+  about: 关于
+  contact: 接触
+footer:
+  tagline: Magic Lab Solutions 为 iOS 和 Android 打造优质、隐私至上的移动应用程序。
+  apps: 应用程序
+  company: 公司
+  legal: 合法的
+  about: 关于
+  contact: 接触
+  privacy_policy: 隐私政策
+  terms_of_use: 使用条款
+contact_form:
+  email_label: 电子邮件地址 *
+  email_placeholder: 您的电子邮件地址...
+  name_label: 姓名 *
+  name_placeholder: 你的名字...
+  message_label: 信息 *
+  message_placeholder: 您的留言...
+  send_button: 发送消息
+legal:
+  label: 合法的
+  effective: 有效的
+app_card:
+  learn_more: 了解更多
+home:
+  title: Magic Lab 解决方案 — 移动应用工作室
+  description: 我们为 iOS 和 Android 打造优质、隐私至上的移动应用程序。
+  hero_heading: <br>感觉像魔法一样的应用程序。
+  hero_text: 我们为 iOS 和 Android 设计和构建优质本机应用程序 - 精心打造，专为日常生活而打造。
+  explore_apps: 探索我们的应用程序
+  get_in_touch: 联系我们
+  badge_new: 新的
+  brainfold_subtitle: AI驱动的学习伴侣
+  brainfold_desc: 扫描你的笔记，让人工智能创建抽认卡、测验、摘要和个人导师。单独学习或与朋友战斗。
+  explore_brainfold: 探索脑筋急转弯
+  zuzu_subtitle: 饲料、尿布和生长日志
+  zuzu_desc: 智能婴儿追踪，带有漂亮的视觉时间线。睡眠、喂养、尿布、生长和人工智能驱动的见解——全部集中在一处。
+  explore_zuzu: 探索祖祖
+  show_brainfold: 显示脑筋急转弯
+  show_zuzu: 显示祖祖
+  philosophy_heading: 精心打造。<br>专为所有人设计。
+  philosophy_text: 我们是来自巴西的两兄弟，他们开发了我们自己真正使用的应用程序。每款产品都以隐私为先，旨在让您在各种设备（iPhone、iPad、Android 等）上都能获得宾至如归的感觉。
+  about_us: 关于我们
+apps_page:
+  title: 我们的应用程序
+  description: 探索 Magic Lab Solutions 为日常生活打造的应用程序套件。
+  heading: 我们的应用程序
+  subtitle: 专为日常生活而设计的精美、隐私至上的工具。
+error_404:
+  title: 找不到页面
+  description: 抱歉 - 您要查找的页面不存在。
+  heading: '404'
+  subtitle: 找不到页面。
+  message: 抱歉 - 您要查找的页面不存在。它可能已被移动或 URL 可能不正确。
+  back_home: 返回首页
+thanks:
+  title: 谢谢你！
+  subtitle: 您的消息已成功发送。
+  description: 感谢您联系 Magic Lab Solutions。
+  message: 感谢您与我们联系！我们将审核您的消息并尽快回复您。
+  secondary: 与此同时，请随意探索我们的应用程序或了解有关我们所做工作的更多信息。
+  explore_apps: 探索我们的应用程序
+  about_us: 关于我们
+about:
+  title: 关于我们
+  subtitle: 两兄弟正在开发他们真正使用的应用程序。
+  description: 我们设计、构建并支持适用于 iOS 和 Android 的本机移动应用程序，让您在每台设备上都能轻松自在。
+  content: "<div class=\"about-photo\" style=\"display: flex; justify-content: center;\">\n  <img src=\"/images/evandro_fabio.jpeg\" alt=\"Evandro and Fabio\" style=\"width: 225px; height: 300px; object-fit:\
+    \ cover;\" />\n</div>\n\nHi! We're Evandro and Fabio — two brothers from Brazil building apps we genuinely use ourselves. We care a lot about making them useful, simple, and enjoyable. If you have ideas,\
+    \ feedback, or something isn't working right, we'd really love to hear from you.\n\n<div class=\"about-socials\">\n  <a href=\"https://www.linkedin.com/in/evandro-harrison-hoffmann\" target=\"_blank\"\
+    >\n    <i class=\"fab fa-linkedin\" aria-hidden=\"true\"></i> Evandro\n  </a>\n  <a href=\"https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625\" target=\"_blank\">\n    <i class=\"fab fa-linkedin\"\
+    \ aria-hidden=\"true\"></i> Fabio\n  </a>\n</div>\n\n---\n\n## What We Build\n\n* Native iOS apps with Swift and SwiftUI — buttery-smooth navigation and custom transitions\n* Cross-platform experiences\
+    \ for both iPhone/iPad and Android\n* Universal layouts that adapt beautifully across devices and screen sizes\n* Widgets, Live Activities, and platform-specific extensions that surface the right info\
+    \ at the right time\n* Privacy-first storage with secure sync across devices\n\n## How We Deliver\n\n* Discovery sprints to clarify user needs, product vision, and launch goals\n* Interactive prototypes\
+    \ and design systems aligned with platform guidelines\n* Modular architectures (MVVM, async/await) and automated testing for confident scaling\n* Performance tuning, accessibility audits, and crash\
+    \ monitoring to keep experiences polished\n* Launch support — from beta testing to store submissions, release notes, and ASO follow-through\n\n---\n\nReady to build something magical? [Drop us a message](/contact).\n"
+contact_page:
+  title: 接触
+  subtitle: 我们很乐意听取您的意见。
+  description: 如有问题、反馈或协作，请联系 Magic Lab Solutions。
+  intro: 有问题、反馈或想要合作吗？请给我们留言，我们会回复您。
+  email_cta: 您也可以直接联系我们
+lang:
+  label: 语言

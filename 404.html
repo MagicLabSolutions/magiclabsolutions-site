@@ -2,16 +2,18 @@
 layout: default
 title: Page Not Found
 description: Sorry – the page you're looking for doesn't exist.
+lang-ref: 404
 ---
+{% assign t = site.data.translations[site.active_lang] %}
 
 <section class="page-hero">
 	<div class="wrap">
-		<h1>404</h1>
-		<p class="page-hero__subtitle">Page not found.</p>
+		<h1>{{ t.error_404.heading }}</h1>
+		<p class="page-hero__subtitle">{{ t.error_404.subtitle }}</p>
 	</div>
 </section>
 
 <section class="wrap" style="text-align: center; padding: 60px 20px;">
-	<p style="font-size: 1.125rem; color: #6E6E73; max-width: 480px; margin: 0 auto 2rem;">Sorry — the page you're looking for doesn't exist. It may have been moved or the URL might be incorrect.</p>
-	<a href="/" class="button button--large">Back to Home</a>
+	<p style="font-size: 1.125rem; color: #6E6E73; max-width: 480px; margin: 0 auto 2rem;">{{ t.error_404.message }}</p>
+	<a href="/" class="button button--large">{{ t.error_404.back_home }}</a>
 </section>

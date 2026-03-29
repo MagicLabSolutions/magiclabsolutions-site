@@ -3,7 +3,9 @@ layout: default
 title: Magic Lab Solutions — Mobile App Studio
 description: We craft premium, privacy-first mobile apps for iOS and Android.
 featured_image: /images/social.jpg
+lang-ref: home
 ---
+{% assign t = site.data.translations[site.active_lang] %}
 
 <style>
 .hero-brand-icon {
@@ -48,11 +50,11 @@ featured_image: /images/social.jpg
 			<div class="hero-brand-glow"></div>
 			<img src="/images/favicon.png" alt="Magic Lab Solutions">
 		</div>
-		<h1>Apps that feel<br>like magic.</h1>
-		<p>We design and build premium native apps for iOS and Android — crafted with care and built for everyday life.</p>
+		<h1>{{ t.home.hero_heading }}</h1>
+		<p>{{ t.home.hero_text }}</p>
 		<div style="margin-top: 40px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
-			<a href="/apps/" class="button button--large">Explore Our Apps</a>
-			<a href="/contact" class="button button--large button--light">Get in Touch</a>
+			<a href="/apps/" class="button button--large">{{ t.home.explore_apps }}</a>
+			<a href="/contact" class="button button--large button--light">{{ t.home.get_in_touch }}</a>
 		</div>
 	</div>
 </section>
@@ -63,33 +65,33 @@ featured_image: /images/social.jpg
 	<div class="wrap">
 		<div class="featured-app__carousel" id="featuredCarousel">
 			<a href="/apps/brainfold/" class="featured-app__card featured-app__card--brainfold featured-app__card--active" data-slide="0">
-				<span class="featured-app__badge featured-app__badge--brainfold">New</span>
+				<span class="featured-app__badge featured-app__badge--brainfold">{{ t.home.badge_new }}</span>
 				<div class="featured-app__icon">
 					<img src="/images/brainfold/app_icon.png" alt="Brainfold icon" />
 				</div>
 				<div class="featured-app__content">
 					<h2 class="featured-app__title">Brainfold</h2>
-					<p class="featured-app__subtitle">AI-powered study companion</p>
-					<p class="featured-app__desc">Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.</p>
-					<span class="featured-app__cta featured-app__cta--brainfold">Explore Brainfold &rarr;</span>
+					<p class="featured-app__subtitle">{{ t.home.brainfold_subtitle }}</p>
+					<p class="featured-app__desc">{{ t.home.brainfold_desc }}</p>
+					<span class="featured-app__cta featured-app__cta--brainfold">{{ t.home.explore_brainfold }} &rarr;</span>
 				</div>
 			</a>
 			<a href="/apps/zuzu/" class="featured-app__card featured-app__card--zuzu" data-slide="1">
-				<span class="featured-app__badge featured-app__badge--zuzu">New</span>
+				<span class="featured-app__badge featured-app__badge--zuzu">{{ t.home.badge_new }}</span>
 				<div class="featured-app__icon">
 					<img src="/images/zuzu/app_icon.png" alt="Zuzu icon" />
 				</div>
 				<div class="featured-app__content">
 					<h2 class="featured-app__title">Zuzu</h2>
-					<p class="featured-app__subtitle">Baby tracking, together</p>
-					<p class="featured-app__desc">Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights -- all in one place.</p>
-					<span class="featured-app__cta featured-app__cta--zuzu">Explore Zuzu &rarr;</span>
+					<p class="featured-app__subtitle">{{ t.home.zuzu_subtitle }}</p>
+					<p class="featured-app__desc">{{ t.home.zuzu_desc }}</p>
+					<span class="featured-app__cta featured-app__cta--zuzu">{{ t.home.explore_zuzu }} &rarr;</span>
 				</div>
 			</a>
 		</div>
 		<div class="featured-app__dots">
-			<button class="featured-app__dot featured-app__dot--active" data-slide="0" aria-label="Show Brainfold"></button>
-			<button class="featured-app__dot" data-slide="1" aria-label="Show Zuzu"></button>
+			<button class="featured-app__dot featured-app__dot--active" data-slide="0" aria-label="{{ t.home.show_brainfold }}"></button>
+			<button class="featured-app__dot" data-slide="1" aria-label="{{ t.home.show_zuzu }}"></button>
 		</div>
 	</div>
 </section>
@@ -169,8 +171,8 @@ featured_image: /images/social.jpg
 
 <section class="philosophy">
 	<div class="wrap" style="text-align: center;">
-		<h2>Built with care.<br>Designed for everyone.</h2>
-		<p>We are two brothers from Brazil who build apps we genuinely use ourselves. Every product is privacy-first and designed to feel at home on every device — iPhone, iPad, Android, and beyond.</p>
-		<a href="/about" class="button" style="margin-top: 28px;">About Us</a>
+		<h2>{{ t.home.philosophy_heading }}</h2>
+		<p>{{ t.home.philosophy_text }}</p>
+		<a href="/about" class="button" style="margin-top: 28px;">{{ t.home.about_us }}</a>
 	</div>
 </section>
