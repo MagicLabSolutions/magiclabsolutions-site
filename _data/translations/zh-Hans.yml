@@ -74,5 +74,99 @@ contact_page:
   description: 如有问题、反馈或合作意向，请联系 Magic Lab Solutions。
   intro: 有问题、反馈或想要合作？给我们发送消息，我们会尽快回复。
   email_cta: 您也可以直接通过以下邮箱联系我们
+zuzu_page:
+  title: "Zuzu: 宝宝与睡眠追踪 — 记录每一个珍贵时刻"
+  description: "Zuzu 是一款适用于 iOS 和 Android 的优质应用，用于追踪宝宝的睡眠、喂养、换尿布、哺乳、成长等。具有独特的可视时间轴弧线、AI驱动的洞察和WHO生长曲线图。"
+  nav_features: 功能特色
+  nav_screenshots: 应用截图
+  nav_pricing: 价格方案
+  nav_download: 下载
+  hero_heading_1: 记录每一个
+  hero_heading_2: 珍贵时刻
+  hero_text: 智能宝宝追踪，配有精美的可视时间轴。睡眠、喂养、换尿布、成长和AI驱动的洞察 -- 一切尽在一处。
+  download_appstore: 下载于
+  appstore: "App Store"
+  download_google: 获取于
+  google_play: "Google Play"
+  features_label: 功能特色
+  features_heading_1: 你需要的一切，
+  features_heading_2: 没有多余的负担
+  features_subtitle: 由父母设计，为父母打造。Zuzu 让宝宝追踪变得直观、有洞察力且真正实用。
+  feature_timeline_title: 可视时间轴弧线
+  feature_timeline_desc: 通过直观的圆形时间轴一目了然地查看宝宝的一整天。立即发现睡眠、喂养和活动的规律。
+  feature_ai_title: AI驱动的洞察
+  feature_ai_desc: 获取由AI提供的个性化分析和预测。了解宝宝的日常规律，接收智能建议。
+  feature_logging_title: 快速操作记录
+  feature_logging_desc: 一键记录喂养、换尿布、睡眠等。内置哺乳计时器、奶瓶追踪和自定义事件类型。
+  feature_growth_title: 成长与里程碑
+  feature_growth_desc: 通过WHO生长曲线图追踪体重、身高和头围。记录里程碑，查看宝宝的成长进度。
+  feature_sleep_title: 智能睡眠预测
+  feature_sleep_desc: 提前知道宝宝何时会犯困。睡眠预测会根据宝宝独特的作息节奏进行调整，并随时间不断优化。
+  feature_widgets_title: 小组件与可穿戴设备
+  feature_widgets_desc: 无需打开应用即可查看计时器和最近事件。主屏幕小组件和智能手表支持让信息触手可及。
+  screenshots_label: 实际体验
+  screenshots_heading_1: 看看 Zuzu
+  screenshots_heading_2: 的实际效果
+  screenshots_subtitle: 从可视时间轴到详细洞察，每个界面都精心设计，让育儿变得更轻松。
+  caption_timeline: 时间轴弧线
+  caption_logging: 快速记录
+  caption_nap: 正在小睡
+  caption_insights: AI 洞察
+  caption_growth: 生长曲线图
+  pricing_label: 价格方案
+  pricing_heading_1: 简单，
+  pricing_heading_2: 透明的价格
+  pricing_subtitle: 免费开始，准备好时再升级。没有隐藏费用，没有意外收费。
+  tier_free: 免费版
+  tier_free_desc: 从基础功能开始
+  free_1: 追踪 1 个宝宝
+  free_2: 7 天历史记录
+  free_3: "基础追踪（睡眠、喂养、换尿布）"
+  free_4: 快速操作按钮
+  free_cta: 免费开始
+  tier_plus: Plus 版
+  tier_plus_desc: 为用心的父母打造
+  badge_popular: 热门
+  plus_1: 包含免费版全部功能
+  plus_2: 完整历史记录与趋势
+  plus_3: 智能睡眠预测
+  plus_4: AI驱动的洞察
+  plus_5: 为就诊导出PDF报告
+  plus_6: 小组件与可穿戴设备
+  plus_7: 高级音效
+  plus_8: 自定义事件类型
+  plus_9: 额外 1 位看护人
+  plus_cta: 获取 Plus
+  tier_premium: Premium 版
+  tier_premium_desc: 为全家人打造
+  badge_value: 最划算
+  premium_1: 包含 Plus 版全部功能
+  premium_2: 无限宝宝数量
+  premium_3: 无限看护人数量
+  premium_4: 看护人活动日志
+  premium_5: 每周总结报告
+  premium_6: 优先支持
+  premium_cta: 获取 Premium
+  reviews_label: 用户评价
+  reviews_heading_1: 深受
+  reviews_heading_2: 父母信赖
+  reviews_subtitle: 看看世界各地的家庭为什么选择 Zuzu 进行日常追踪。
+  review_1_text: "\"可视时间轴弧线真是太棒了。我可以一目了然地看到宝宝一整天的情况，立刻知道她什么时候该小睡了。没有其他应用能做到这一点。\""
+  review_1_author: "Jessica W. — 两个孩子的妈妈"
+  review_2_text: "\"我们在用 Zuzu 之前试了 5 款不同的宝宝追踪器。AI洞察真的很实用，不是千篇一律的建议。它发现了我们儿子睡眠中我们完全忽略的规律。\""
+  review_2_author: "Michael & Anna T. — 新手父母"
+  review_3_text: "\"能与伴侣和保姆共享追踪记录简直是救星。每个人都能掌握最新情况，看护人日志清楚地记录了一天中发生的所有事情。\""
+  review_3_author: "Rachel K. — 职场妈妈"
+  review_4_text: "\"遵循WHO标准的生长曲线图让我很安心。每次看儿科医生前我都会导出PDF，医生对数据的详尽程度总是印象深刻。\""
+  review_4_author: "Dr. Sarah L. — 儿科医生兼妈妈"
+  review_5_text: "\"凌晨三点睡眠不足时，一键记录就是一切。有了小组件，我甚至不需要解锁手机。设计太出色了。\""
+  review_5_author: "Tom H. — 双胞胎爸爸"
+  review_6_text: "\"睡眠预测功能准确得惊人。Zuzu 告诉我女儿 20 分钟后会犯困，她果然准时开始打哈欠了。这款应用真的懂我的宝宝。\""
+  review_6_author: "Lisa M. — 新手妈妈"
+  cta_label: 立即开始
+  cta_heading_1: 准备好记录每一个
+  cta_heading_2: 珍贵时刻了吗？
+  cta_subtitle: 立即下载 Zuzu，加入成千上万信赖我们守护宝宝重要数据的父母。
+  footer_rights: 保留所有权利。
 lang:
   label: 语言

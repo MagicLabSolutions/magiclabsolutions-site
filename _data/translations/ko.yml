@@ -74,5 +74,99 @@ contact_page:
   description: 질문, 피드백 또는 협업에 대해 Magic Lab Solutions에 문의하세요.
   intro: 질문, 피드백 또는 협업을 원하시나요? 메시지를 보내주시면 연락 드리겠습니다.
   email_cta: 다음 이메일로도 직접 연락하실 수 있습니다
+zuzu_page:
+  title: "Zuzu: 아기 & 수면 트래커 — 소중한 모든 순간을 기록하세요"
+  description: "Zuzu는 iOS 및 Android용 프리미엄 앱으로, 아기의 수면, 수유, 기저귀, 모유 수유, 성장 등을 기록할 수 있습니다. 독특한 비주얼 타임라인 아크, AI 기반 인사이트, WHO 성장 차트를 제공합니다."
+  nav_features: 기능
+  nav_screenshots: 스크린샷
+  nav_pricing: 요금제
+  nav_download: 다운로드
+  hero_heading_1: "소중한 모든"
+  hero_heading_2: "순간을 기록하세요"
+  hero_text: "아름다운 비주얼 타임라인으로 스마트한 아기 기록. 수면, 수유, 기저귀, 성장, AI 기반 인사이트 — 모두 한 곳에서."
+  download_appstore: "다운로드하기"
+  appstore: "App Store"
+  download_google: "다운로드하기"
+  google_play: "Google Play"
+  features_label: 기능
+  features_heading_1: "필요한 것만,"
+  features_heading_2: "딱 그만큼"
+  features_subtitle: "부모가 직접 설계한, 부모를 위한 앱. Zuzu는 아기 기록을 직관적이고 유용하게 만들어 줍니다."
+  feature_timeline_title: 비주얼 타임라인 아크
+  feature_timeline_desc: "직관적인 원형 타임라인으로 아기의 하루를 한눈에 확인하세요. 수면, 수유, 활동 패턴을 즉시 파악할 수 있습니다."
+  feature_ai_title: AI 기반 인사이트
+  feature_ai_desc: "AI가 분석한 맞춤형 분석과 예측을 받아보세요. 아기의 루틴을 이해하고 스마트한 추천을 제공합니다."
+  feature_logging_title: 빠른 활동 기록
+  feature_logging_desc: "한 번의 탭으로 수유, 기저귀, 수면 등을 기록하세요. 수유 타이머, 젖병 기록, 사용자 지정 이벤트 유형이 기본 내장되어 있습니다."
+  feature_growth_title: 성장 및 이정표
+  feature_growth_desc: "WHO 성장 차트로 체중, 신장, 머리둘레를 추적하세요. 이정표를 기록하고 아기의 발달 과정을 확인하세요."
+  feature_sleep_title: 스마트 수면 예측
+  feature_sleep_desc: "아기가 다음에 언제 졸려할지 알 수 있습니다. 수면 예측은 아기만의 고유한 리듬에 맞춰 시간이 갈수록 정확해집니다."
+  feature_widgets_title: 위젯 & 웨어러블
+  feature_widgets_desc: "앱을 열지 않아도 타이머와 최근 활동을 확인하세요. 홈 화면 위젯과 스마트워치 지원으로 정보를 손끝에서 바로 확인할 수 있습니다."
+  screenshots_label: 실제 화면
+  screenshots_heading_1: "Zuzu를"
+  screenshots_heading_2: "직접 확인하세요"
+  screenshots_subtitle: "비주얼 타임라인부터 상세한 인사이트까지, 모든 화면이 육아를 조금 더 편하게 만들어 줍니다."
+  caption_timeline: 타임라인 아크
+  caption_logging: 빠른 기록
+  caption_nap: 진행 중인 낮잠
+  caption_insights: AI 인사이트
+  caption_growth: 성장 차트
+  pricing_label: 요금제
+  pricing_heading_1: "간단하고"
+  pricing_heading_2: "투명한 요금제"
+  pricing_subtitle: "무료로 시작하고 준비되면 업그레이드하세요. 숨겨진 수수료나 예상치 못한 요금이 없습니다."
+  tier_free: 무료
+  tier_free_desc: 기본 기능으로 시작하기
+  free_1: 아기 1명 기록
+  free_2: 7일간의 기록 보기
+  free_3: "기본 기록 (수면, 수유, 기저귀)"
+  free_4: 빠른 활동 버튼
+  free_cta: 무료로 시작하기
+  tier_plus: Plus
+  tier_plus_desc: 열정적인 부모를 위해
+  badge_popular: 인기
+  plus_1: 무료 기능 전체 포함
+  plus_2: 전체 기록 및 추세
+  plus_3: 스마트 수면 예측
+  plus_4: AI 기반 인사이트
+  plus_5: 병원 방문용 PDF 내보내기
+  plus_6: 위젯 & 웨어러블
+  plus_7: 프리미엄 사운드
+  plus_8: 사용자 지정 이벤트 유형
+  plus_9: 보호자 1명 추가
+  plus_cta: Plus 시작하기
+  tier_premium: Premium
+  tier_premium_desc: 온 가족을 위해
+  badge_value: 최고 가성비
+  premium_1: Plus 기능 전체 포함
+  premium_2: 아기 수 무제한
+  premium_3: 보호자 수 무제한
+  premium_4: 보호자 활동 기록
+  premium_5: 주간 요약 리포트
+  premium_6: 우선 지원
+  premium_cta: Premium 시작하기
+  reviews_label: 리뷰
+  reviews_heading_1: "부모들이"
+  reviews_heading_2: "신뢰합니다"
+  reviews_subtitle: "전 세계 가족들이 일상 기록에 Zuzu를 사용하는 이유를 확인하세요."
+  review_1_text: "\"비주얼 타임라인 아크는 정말 천재적이에요. 아기의 하루를 한눈에 볼 수 있고 언제 낮잠이 필요한지 바로 알 수 있어요. 이런 앱은 다른 데 없어요.\""
+  review_1_author: "Jessica W. — 두 아이의 엄마"
+  review_2_text: "\"Zuzu 전에 아기 트래커 5개나 써봤어요. AI 인사이트가 뻔하지 않고 정말 유용해요. 우리가 놓친 아들의 수면 패턴을 AI가 발견해 줬어요.\""
+  review_2_author: "Michael & Anna T. — 초보 부모"
+  review_3_text: "\"남편과 베이비시터와 함께 기록을 공유할 수 있어서 정말 편해요. 모두가 같은 정보를 보고, 보호자 기록으로 낮 동안 무슨 일이 있었는지 정확히 알 수 있어요.\""
+  review_3_author: "Rachel K. — 워킹맘"
+  review_4_text: "\"WHO 기준 성장 차트가 마음의 안정을 줘요. 소아과 방문 전에 PDF로 내보내면 의사 선생님이 데이터에 항상 감탄하세요.\""
+  review_4_author: "Dr. Sarah L. — 소아과 의사이자 엄마"
+  review_5_text: "\"새벽 3시에 잠이 부족할 때 한 번 탭으로 기록할 수 있는 게 전부예요. 위젯 덕분에 폰 잠금을 풀 필요도 없어요. 정말 훌륭한 디자인이에요.\""
+  review_5_author: "Tom H. — 쌍둥이 아빠"
+  review_6_text: "\"수면 예측 기능이 무서울 정도로 정확해요. Zuzu가 딸이 20분 후에 졸려할 거라고 했는데 딱 맞춰서 하품을 하더라고요. 이 앱은 우리 아기를 진짜 이해해요.\""
+  review_6_author: "Lisa M. — 초보 엄마"
+  cta_label: 시작하기
+  cta_heading_1: "소중한 모든 순간을"
+  cta_heading_2: "기록할 준비가 되셨나요?"
+  cta_subtitle: "지금 Zuzu를 다운로드하고, 아기의 소중한 데이터를 믿고 맡기는 수천 명의 부모들과 함께하세요."
+  footer_rights: 모든 권리 보유.
 lang:
   label: 언어

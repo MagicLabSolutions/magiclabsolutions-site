@@ -74,5 +74,99 @@ contact_page:
   description: ご質問、フィードバック、コラボレーションについて Magic Lab Solutions にお問い合わせください。
   intro: ご質問、フィードバック、またはコラボレーションをご希望ですか？メッセージをお送りください。折り返しご連絡いたします。
   email_cta: こちらのメールでも直接ご連絡いただけます
+zuzu_page:
+  title: "Zuzu: ベビー＆睡眠トラッカー — 大切なひとときを記録しよう"
+  description: "Zuzu は、赤ちゃんの睡眠、授乳、おむつ、母乳、成長などを記録できる iOS・Android 向けプレミアムアプリです。独自のビジュアルタイムラインアーク、AIインサイト、WHO成長チャートを搭載。"
+  nav_features: 機能
+  nav_screenshots: スクリーンショット
+  nav_pricing: 料金
+  nav_download: ダウンロード
+  hero_heading_1: 大切なひとときを
+  hero_heading_2: すべて記録しよう
+  hero_text: 美しいビジュアルタイムラインでスマートなベビートラッキング。睡眠、授乳、おむつ、成長、AIインサイト — すべてが一か所に。
+  download_appstore: こちらからダウンロード
+  appstore: "App Store"
+  download_google: こちらで入手
+  google_play: "Google Play"
+  features_label: 機能
+  features_heading_1: 必要なものがすべて揃い、
+  features_heading_2: 余計なものは一切なし
+  features_subtitle: 親が親のために設計しました。Zuzu は赤ちゃんの記録を直感的で、洞察力があり、本当に役立つものにします。
+  feature_timeline_title: ビジュアルタイムラインアーク
+  feature_timeline_desc: 直感的な円形タイムラインで赤ちゃんの一日を一目で把握。睡眠、授乳、活動のパターンをすぐに見つけられます。
+  feature_ai_title: AIインサイト
+  feature_ai_desc: AIが赤ちゃんの生活リズムを分析し、パーソナライズされたアドバイスや予測を提供。スマートなおすすめも受け取れます。
+  feature_logging_title: ワンタップ記録
+  feature_logging_desc: 授乳、おむつ、睡眠などをワンタップで記録。授乳タイマー、ミルク量の追跡、カスタムイベントも標準搭載。
+  feature_growth_title: 成長とマイルストーン
+  feature_growth_desc: WHO成長チャートで体重、身長、頭囲を追跡。マイルストーンを記録して、赤ちゃんの発達を確認できます。
+  feature_sleep_title: スマート睡眠予測
+  feature_sleep_desc: 赤ちゃんが次にいつ眠くなるかがわかります。睡眠予測は赤ちゃん固有のリズムに適応し、使うほど精度が上がります。
+  feature_widgets_title: ウィジェット＆ウェアラブル
+  feature_widgets_desc: アプリを開かずにタイマーや最近のイベントを確認。ホーム画面ウィジェットとスマートウォッチ対応で、必要な情報がすぐ手元に。
+  screenshots_label: 実際の画面
+  screenshots_heading_1: Zuzu を
+  screenshots_heading_2: 体験してみよう
+  screenshots_subtitle: ビジュアルタイムラインから詳細なインサイトまで、すべての画面が育児を少し楽にするために作られています。
+  caption_timeline: タイムラインアーク
+  caption_logging: かんたん記録
+  caption_nap: お昼寝中
+  caption_insights: AIインサイト
+  caption_growth: 成長チャート
+  pricing_label: 料金
+  pricing_heading_1: シンプルで
+  pricing_heading_2: わかりやすい料金
+  pricing_subtitle: 無料で始めて、準備ができたらアップグレード。隠れた費用や予期しない請求は一切ありません。
+  tier_free: 無料
+  tier_free_desc: 基本機能で始めましょう
+  free_1: 赤ちゃん1人を記録
+  free_2: 7日間の履歴
+  free_3: "基本的な記録（睡眠、授乳、おむつ）"
+  free_4: クイックアクションボタン
+  free_cta: 無料で始める
+  tier_plus: Plus
+  tier_plus_desc: 育児に全力のパパ・ママへ
+  badge_popular: 人気
+  plus_1: 無料プランのすべて
+  plus_2: 全履歴とトレンド
+  plus_3: スマート睡眠予測
+  plus_4: AIインサイト
+  plus_5: 診察用PDF出力
+  plus_6: ウィジェット＆ウェアラブル
+  plus_7: プレミアムサウンド
+  plus_8: カスタムイベント
+  plus_9: 追加ケアギバー1名
+  plus_cta: Plus を入手
+  tier_premium: Premium
+  tier_premium_desc: 家族みんなのために
+  badge_value: 最もお得
+  premium_1: Plus のすべて
+  premium_2: 赤ちゃん無制限
+  premium_3: ケアギバー無制限
+  premium_4: ケアギバー行動ログ
+  premium_5: 週間サマリーレポート
+  premium_6: 優先サポート
+  premium_cta: Premium を入手
+  reviews_label: レビュー
+  reviews_heading_1: パパ・ママに
+  reviews_heading_2: 選ばれています
+  reviews_subtitle: 世界中の家族が毎日の記録に Zuzu を使う理由をご覧ください。
+  review_1_text: "\"ビジュアルタイムラインアークは天才的。赤ちゃんの一日を一目で見渡せて、次のお昼寝のタイミングもすぐわかります。他のアプリにはこの機能はありません。\""
+  review_1_author: "Jessica W. — 2児のママ"
+  review_2_text: "\"Zuzu の前に5つのベビートラッカーを試しました。AIインサイトが本当に役立つんです。息子の睡眠パターンで私たちが見逃していたことをAIが気づいてくれました。\""
+  review_2_author: "Michael & Anna T. — 新米パパ・ママ"
+  review_3_text: "\"パートナーやベビーシッターと記録を共有できるのは本当に助かります。全員が同じ情報を共有でき、ケアギバーログで日中に何があったか一目瞭然です。\""
+  review_3_author: "Rachel K. — ワーキングマザー"
+  review_4_text: "\"WHO基準の成長チャートがあると安心です。小児科の受診前にPDFを出力していますが、先生もいつもデータの充実ぶりに感心してくれます。\""
+  review_4_author: "Dr. Sarah L. — 小児科医＆ママ"
+  review_5_text: "\"午前3時に寝不足の状態でもワンタップで記録できるのが最高です。ウィジェットのおかげでスマホのロック解除すら不要。素晴らしいデザインです。\""
+  review_5_author: "Tom H. — 双子のパパ"
+  review_6_text: "\"睡眠予測が驚くほど正確です。娘が20分後に眠くなるとZuzuが教えてくれて、その通りにあくびし始めました。このアプリは私の赤ちゃんを理解しています。\""
+  review_6_author: "Lisa M. — 初めてのママ"
+  cta_label: はじめよう
+  cta_heading_1: 大切なひとときを
+  cta_heading_2: 記録する準備はできましたか？
+  cta_subtitle: 今すぐ Zuzu をダウンロードして、赤ちゃんの大切なデータを安心して任せている何千人もの親御さんの仲間入りをしましょう。
+  footer_rights: All rights reserved.
 lang:
   label: 言語
