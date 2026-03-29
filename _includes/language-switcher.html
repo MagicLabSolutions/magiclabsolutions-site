@@ -4,25 +4,43 @@
 		<span>{{ site.data.language_names[site.active_lang] }}</span>
 		<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
 	</button>
-	<ul class="lang-switcher__dropdown">
-		{% for lang in site.languages %}
-		{% if lang == site.active_lang %}
-		<li class="lang-switcher__item lang-switcher__item--active">{{ site.data.language_names[lang] }}</li>
-		{% elsif lang == site.default_lang %}
-		<li class="lang-switcher__item">
-			<a href="{{ site.url }}{{ page.url }}">{{ site.data.language_names[lang] }}</a>
-		</li>
-		{% else %}
-		<li class="lang-switcher__item">
-			<a href="{{ site.url }}/{{ lang }}{{ page.url }}">{{ site.data.language_names[lang] }}</a>
-		</li>
-		{% endif %}
-		{% endfor %}
-	</ul>
+	<ul class="lang-switcher__dropdown" id="langDropdown"></ul>
 </div>
 <script>
-document.addEventListener('click', function(e) {
-	var sw = document.getElementById('langSwitcher');
-	if (sw && !sw.contains(e.target)) sw.classList.remove('is-open');
-});
+(function() {
+	var langs = {{ site.languages | jsonify }};
+	var names = {{ site.data.language_names | jsonify }};
+	var defaultLang = '{{ site.default_lang }}';
+	var activeLang = '{{ site.active_lang }}';
+	var path = window.location.pathname;
+
+	// Strip current language prefix to get the base path
+	var basePath = path;
+	for (var i = 0; i < langs.length; i++) {
+		var prefix = '/' + langs[i] + '/';
+		if (path.indexOf(prefix) === 0) {
+			basePath = path.substring(prefix.length - 1); // keep leading /
+			break;
+		}
+	}
+	if (basePath === '') basePath = '/';
+
+	var dropdown = document.getElementById('langDropdown');
+	var html = '';
+	for (var i = 0; i < langs.length; i++) {
+		var lang = langs[i];
+		if (lang === activeLang) {
+			html += '<li class="lang-switcher__item lang-switcher__item--active">' + names[lang] + '</li>';
+		} else {
+			var href = lang === defaultLang ? basePath : '/' + lang + basePath;
+			html += '<li class="lang-switcher__item"><a href="' + href + '">' + names[lang] + '</a></li>';
+		}
+	}
+	dropdown.innerHTML = html;
+
+	document.addEventListener('click', function(e) {
+		var sw = document.getElementById('langSwitcher');
+		if (sw && !sw.contains(e.target)) sw.classList.remove('is-open');
+	});
+})();
 </script>

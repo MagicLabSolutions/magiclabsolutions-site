@@ -39,14 +39,19 @@
 	<meta property="og:locale" content="{{ site.active_lang | replace: '-', '_' }}" />
 
 	{% if page.lang-ref %}
+	{% assign base_path = page.url %}
+	{% if site.active_lang != site.default_lang %}
+	{% assign lp = "/" | append: site.active_lang | append: "/" %}
+	{% assign base_path = page.url | replace_first: lp, "/" %}
+	{% endif %}
 	{% for lang in site.languages %}
 	{% if lang == site.default_lang %}
-	<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url }}" />
+	<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ base_path }}" />
 	{% else %}
-	<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ page.url }}" />
+	<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ base_path }}" />
 	{% endif %}
 	{% endfor %}
-	<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
+	<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ base_path }}" />
 	{% endif %}
 
 	{% if site.data.settings.font_settings.font_embed %}
