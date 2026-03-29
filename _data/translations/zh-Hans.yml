@@ -168,5 +168,281 @@ zuzu_page:
   cta_heading_2: 珍贵时刻了吗？
   cta_subtitle: 立即下载 Zuzu，加入成千上万信赖我们守护宝宝重要数据的父母。
   footer_rights: 保留所有权利。
+qramen_page:
+  title: "QRamen -- 扫描、创建和整理 QR 码"
+  description: "QRamen 是您的一站式 QR 码伴侣，可用于扫描、创建自定义品牌 QR 码、使用文件夹和标签整理，以及追踪分析数据。"
+  nav_features: 功能特色
+  nav_how_it_works: 使用方法
+  nav_pricing: 价格方案
+  nav_download: 下载
+  hero_heading_1: "扫描、创建并"
+  hero_heading_2: "整理 QR 码"
+  hero_text: "一站式 QR 码伴侣。即时扫描任何代码，创建自定义 QR 码，使用文件夹和标签整理，追踪分析数据。"
+  download_appstore: 下载于
+  appstore: "App Store"
+  features_label: 功能特色
+  features_heading_1: "您的完整"
+  features_heading_2: "QR 工具箱"
+  features_subtitle: "一个强大的应用即可满足扫描、创建、整理和追踪 QR 码的全部需求。"
+  feature_scan_title: "扫描并即时保存"
+  feature_scan_desc: "将摄像头对准任何 QR 码即可立即识别。也可从相册或其他应用导入。每次扫描都会自动保存到您的收藏中。"
+  feature_create_title: "创建自定义 QR 码"
+  feature_create_desc: "为 Wi-Fi 网络、联系人、URL、日历事件等生成 QR 码。使用品牌颜色自定义，添加logo，从精美模板中选择。"
+  feature_organize_title: "用文件夹和标签整理"
+  feature_organize_desc: "按照您想要的方式整理 QR 码。创建文件夹，添加标签，使用强大的搜索功能在几秒钟内找到任何代码。"
+  feature_analytics_title: "QR 分析"
+  feature_analytics_desc: "通过详细的分析追踪 QR 码的使用情况。查看扫描次数、打开率和分享历史记录。"
+  how_it_works_label: 使用方法
+  how_it_works_heading_1: "从扫描到"
+  how_it_works_heading_2: "整理"
+  how_it_works_subtitle: "四个简单步骤，掌控您的 QR 码。"
+  step_1_title: 扫描
+  step_1_desc: "将摄像头对准 QR 码，或从相册导入。"
+  step_2_title: 保存
+  step_2_desc: "每个代码都会自动保存其内容、日期和位置。"
+  step_3_title: 整理
+  step_3_desc: "分类到文件夹中，添加标签，使用搜索保持一切井井有条。"
+  step_4_title: 分享
+  step_4_desc: "通过 AirDrop、短信、电子邮件或社交媒体与他人分享 QR 码。"
+  pricing_label: 价格方案
+  pricing_heading_1: "选择您的"
+  pricing_heading_2: "方案"
+  pricing_subtitle: "免费开始，升级到 QRamen Pro 获得无限功能。"
+  tier_free: 免费版
+  tier_free_desc: "从基础功能开始"
+  free_1: "最多 5 个 QR 码"
+  free_2: "基础扫描"
+  free_3: "标准模板"
+  free_4: "通过链接分享"
+  free_cta: "免费开始"
+  badge_pro: Pro
+  tier_pro: "QRamen Pro"
+  tier_pro_desc: "无限 QR 能力"
+  pro_1: "无限 QR 码"
+  pro_2: "自定义颜色和样式"
+  pro_3: "QR 码上叠加logo"
+  pro_4: "详细分析"
+  pro_5: "CSV 批量导入"
+  pro_6: "文件夹和标签"
+  pro_cta: "升级到 Pro"
+  platforms_label: 平台
+  platforms_heading_1: "随时随地"
+  platforms_heading_2: "可用"
+  platforms_subtitle: "QRamen 适用于所有设备，让您的 QR 码触手可及。"
+  platform_iphone: iPhone
+  platform_iphone_desc: "功能完整的 iOS 应用"
+  platform_ipad: iPad
+  platform_ipad_desc: "大屏幕优化"
+  platform_watch: Apple Watch
+  platform_watch_desc: "腕上快速访问"
+  platform_widgets: 小组件
+  platform_widgets_desc: "主屏幕快捷方式"
+  privacy_label: 隐私优先
+  privacy_heading_1: "您的数据始终"
+  privacy_heading_2: "属于您"
+  privacy_text: "QRamen 在您的设备上本地处理 QR 码。您的扫描记录、代码和个人数据不会发送到外部服务器，除非您选择分享。"
+  cta_label: 立即开始
+  cta_heading_1: "准备好掌控"
+  cta_heading_2: "QR 码了吗？"
+  cta_subtitle: "下载 QRamen，掌控您遇到的每一个 QR 码。扫描、创建、整理和分享 -- 一切尽在一个应用中。"
+  footer_home: 首页
+  footer_features: 功能特色
+  footer_pricing: 价格方案
+  footer_privacy: 隐私
+  footer_rights: 保留所有权利。
+myrenewals_page:
+  title: "MyRenewals -- 订阅管理"
+  description: "掌控您的订阅。追踪、管理并在续费前取消定期付款。精美的饼图、智能提醒，为 iPhone、iPad 和 Mac 优化。"
+  nav_features: 功能
+  nav_screenshots: 截图
+  nav_reviews: 评价
+  nav_download: 下载
+  hero_heading_1: 再也不会错过
+  hero_heading_2: 任何一次续费
+  hero_text: 掌控您的订阅。追踪、管理并在续费前取消定期付款。
+  download_appstore: "下载于"
+  appstore: "App Store"
+  features_label: 功能
+  features_heading_1: 掌控一切
+  features_heading_2: 所需的一切
+  features_subtitle: 追踪每个订阅，及时获得提醒，再也不为忘记取消的服务付费。
+  feature_spend_title: 每月支出摘要
+  feature_spend_desc: 通过按类别整理的精美饼图查看订阅总费用。一目了然地了解资金去向。
+  feature_renewals_title: 即将续费
+  feature_renewals_desc: 通过续费日期、价格和警告即将扣费的状态标签提前做好准备。不再被意外付款吓到。
+  feature_notifications_title: 智能提醒
+  feature_notifications_desc: 在扣费前 3 天、7 天或 14 天收到提醒。选择合适的时机，确保有足够时间决定保留还是取消。
+  feature_devices_title: "iPad、Mac 和云备份"
+  feature_devices_desc: iPad 上精美的分屏视图和完整的原生 Mac 体验。加密云同步确保所有设备上的数据安全。
+  screenshots_label: 截图
+  screenshots_heading_1: 查看 MyRenewals
+  screenshots_heading_2: 实际效果
+  screenshots_subtitle: 简洁直观的界面，让订阅管理变得轻松。
+  caption_dashboard: 仪表盘
+  caption_spend: 支出摘要
+  caption_renewals: 即将续费
+  caption_details: 订阅详情
+  reviews_label: 用户评价
+  reviews_heading_1: 用户们
+  reviews_heading_2: 怎么说
+  reviews_subtitle: 来自掌控了订阅管理的用户的真实反馈。
+  review_1_text: "终于找到了一个简单又好看的订阅追踪器。通知功能太棒了——帮我避免了两笔忘记的扣费！"
+  review_1_author: "Alex R. -- App Store 评价"
+  review_2_text: "设计简洁，使用方便，饼图功能帮我清楚地看到每个月的钱花在哪里。强烈推荐。"
+  review_2_author: "Taylor M. -- App Store 评价"
+  plans_label: 方案
+  plans_heading_1: 简单透明的
+  plans_heading_2: 定价
+  plans_subtitle: 免费开始，准备好体验完整功能时升级到 Pro。
+  tier_free: 免费
+  tier_free_desc: 免费开始
+  free_1: 追踪订阅（数量有限）
+  free_2: 智能续费提醒
+  free_3: 基础支出概览
+  free_4: 取消追踪
+  free_cta: 免费开始
+  tier_pro: Pro
+  tier_pro_desc: 一切无限制
+  badge_recommended: 推荐
+  pro_1: 免费版的所有功能
+  pro_2: 无限订阅
+  pro_3: Premium Insights 仪表盘
+  pro_4: 分类明细（环形图）
+  pro_5: 12 个月支出趋势
+  pro_6: 免费试用追踪
+  pro_7: "最贵/最便宜方案排名"
+  pro_8: 云备份与同步
+  pro_9: PDF 导出
+  pro_cta: 升级到 Pro
+  privacy_label: 隐私优先
+  privacy_heading_1: 您的数据
+  privacy_heading_2: 属于您
+  privacy_text: MyRenewals 以隐私为核心构建。您的订阅数据端到端加密，绝不与第三方共享。我们不出售您的数据。
+  privacy_link: 阅读我们的隐私政策
+  cta_label: 开始使用
+  cta_heading_1: 掌控您的
+  cta_heading_2: 订阅
+  cta_subtitle: 立即下载 MyRenewals，停止为不使用的订阅付费。
+  footer_privacy: 隐私政策
+  footer_terms: 使用条款
+  footer_contact: 联系我们
+  footer_rights: 保留所有权利。
+brainfold_page:
+  title: "Brainfold -- AI驱动的学习伙伴"
+  description: "Brainfold将你的笔记转化为闪卡、测验、摘要和AI导师。扫描、学习、与朋友对战——全部由AI驱动。"
+  nav_features: 功能
+  nav_screenshots: 截图
+  nav_how_it_works: 使用方法
+  nav_download: 下载
+  hero_heading_1: "更聪明地"
+  hero_heading_2: "学习"
+  hero_heading_accent: "AI驱动"
+  hero_text: "扫描你的笔记，让AI创建闪卡、测验、摘要和个人导师。独自学习或与朋友对战。"
+  download_appstore: "下载于"
+  appstore: "App Store"
+  features_label: 功能
+  features_heading_1: "完整的"
+  features_heading_2: "学习工具箱"
+  features_subtitle: "扫描任何文档，让AI将其转化为你需要的每种学习格式。一次扫描，无限学习方式。"
+  feature_flashcards_title: AI闪卡
+  feature_flashcards_desc: "从你的笔记自动生成带间隔重复的闪卡。滑动浏览，掌握每个概念。"
+  feature_quizzes_title: 智能测验
+  feature_quizzes_desc: "AI创建具有挑战性的选择题测验，测试真正的理解力，而非单纯记忆。"
+  feature_summaries_title: 丰富摘要
+  feature_summaries_desc: "获取包含关键洞察、公式、要点和提示的结构化摘要。如同即时获得完美笔记。"
+  feature_tutor_title: AI Tutor
+  feature_tutor_desc: "与了解你学习材料的AI导师聊天。提问、获取解释、通过挑战练习。"
+  feature_battle_title: 对战模式
+  feature_battle_desc: "用你自己的学习材料向朋友发起实时测验对战挑战。让学习变得有竞争力和趣味。"
+  feature_scan_title: 扫描一切
+  feature_scan_desc: "拍摄教科书、手写笔记或PDF。AI自动提取和处理所有内容。"
+  how_it_works_label: 使用方法
+  how_it_works_heading_1: "从笔记到"
+  how_it_works_heading_2: "精通"
+  how_it_works_subtitle: "四个简单步骤，将任何材料转化为完整的学习系统。"
+  step_1_title: 扫描
+  step_1_desc: "拍摄你的笔记、教科书或上传PDF文档。"
+  step_2_title: 处理
+  step_2_desc: "AI分析你的内容并生成闪卡、测验和摘要。"
+  step_3_title: 学习
+  step_3_desc: "选择你的模式：闪卡、测验、摘要或与AI导师聊天。"
+  step_4_title: 对战
+  step_4_desc: "向朋友发起测验对战，看看谁最了解学习材料。"
+  screenshots_iphone_label: iPhone
+  screenshots_heading_1: "Brainfold"
+  screenshots_heading_2: "实际体验"
+  screenshots_subtitle: "每个界面都旨在让学习轻松、吸引人且高效。"
+  caption_study: 学习仪表盘
+  caption_flashcards: 闪卡
+  caption_quiz: 智能测验
+  caption_tutor: AI Tutor
+  caption_summary: 丰富摘要
+  caption_battle: 对战模式
+  screenshots_ipad_label: iPad
+  ipad_heading_1: "iPad上"
+  ipad_heading_2: "精美呈现"
+  ipad_subtitle: "利用更大的屏幕享受沉浸式学习体验。"
+  ipad_caption_study: 学习仪表盘
+  ipad_caption_summary: 丰富摘要
+  ipad_caption_tutor: AI Tutor
+  ipad_caption_battle: 对战模式
+  reviews_label: 评价
+  reviews_heading_1: "深受"
+  reviews_heading_2: "学生喜爱"
+  reviews_subtitle: "看看世界各地的学生对Brainfold的评价。"
+  review_1_text: "我扫描了整章生物学教科书，Brainfold在几秒内就创建了完美的闪卡。AI导师甚至比我的教授更好地帮我理解了光合作用！"
+  review_1_author: "Sarah M. -- 生物学专业"
+  review_2_text: "对战模式对学习小组来说是革命性的。我和朋友们在考试前互相测验，非常有趣。有机化学成绩从C提升到了A。"
+  review_2_author: "James K. -- 医学预科生"
+  review_3_text: "摘要太棒了。上传课件后就能得到精美整理的学习指南，关键洞察和公式都被突出显示。节省了我数小时的时间。"
+  review_3_author: "Priya R. -- 工程学生"
+  review_4_text: "作为医学生，我需要记忆数千个术语。Brainfold的间隔重复闪卡完全取代了我以前的学习方法。必备应用。"
+  review_4_author: "David L. -- 医学生"
+  review_5_text: "我喜欢只需拍一张手写笔记的照片，应用就能完成所有工作。测验真正测试理解力，而不仅仅是记忆。最棒的学习应用。"
+  review_5_author: "Emma T. -- 高中毕业班"
+  review_6_text: "AI导师就像有一个24小时可用的私人老师。我让它逐步解释导数，它完美地分解了一切并附上练习题。"
+  review_6_author: "Carlos M. -- 数学专业"
+  plans_label: 方案
+  plans_heading_1: "选择你的"
+  plans_heading_2: "学习方案"
+  plans_subtitle: "免费开始，准备好了再升级。每个方案都包含完整的Brainfold学习工具。"
+  tier_free: 免费
+  tier_free_desc: 从基础开始
+  free_1: 120个免费积分
+  free_2: 最多扫描30页
+  free_3: 最多3个学习包
+  free_4: 每次扫描10页
+  free_5: "闪卡、测验和摘要"
+  free_6: 对战模式
+  free_7: "基础AI Tutor"
+  free_cta: 免费开始
+  tier_plus: Plus
+  tier_plus_desc: 适合认真的学生
+  badge_popular: 热门
+  plus_1: "每月950积分（约380页）"
+  plus_2: "每日15积分（约6页/天）"
+  plus_3: 无限学习包
+  plus_4: 每次扫描无限页数
+  plus_5: "完整AI Tutor访问"
+  plus_6: 对战托管折扣
+  plus_7: 续订奖励积分
+  plus_cta: 订阅
+  tier_premium: Premium
+  tier_premium_desc: 一切无限
+  badge_value: 最佳价值
+  premium_1: "每月2,400积分（约960页）"
+  premium_2: "每日30积分（约12页/天）"
+  premium_3: 无限学习包
+  premium_4: 每次扫描无限页数
+  premium_5: "完整AI Tutor访问"
+  premium_6: 免费对战托管
+  premium_7: 优先支持
+  premium_8: 续订奖励积分
+  premium_cta: 订阅
+  cta_label: 开始使用
+  cta_heading_1: "准备好更聪明地"
+  cta_heading_2: "学习了吗？"
+  cta_subtitle: "下载Brainfold，将任何材料转化为你的AI驱动个人学习系统。"
+  footer_rights: 保留所有权利。
 lang:
   label: 语言

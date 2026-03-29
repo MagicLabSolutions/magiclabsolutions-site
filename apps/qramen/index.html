@@ -1,13 +1,16 @@
 ---
 layout: null
+lang-ref: qramen-page
 ---
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
+{% assign q = t.qramen_page %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.active_lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QRamen -- Scan, Create & Organize QR Codes</title>
-    <meta name="description" content="QRamen is your all-in-one QR code companion for scanning, creating custom-branded QR codes, organizing with folders and tags, and tracking analytics.">
+    <title>{{ q.title | default: "QRamen -- Scan, Create & Organize QR Codes" }}</title>
+    <meta name="description" content="{{ q.description | default: "QRamen is your all-in-one QR code companion for scanning, creating custom-branded QR codes, organizing with folders and tags, and tracking analytics." }}">
     <meta name="theme-color" content="#1A1208">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
@@ -1023,13 +1026,13 @@ layout: null
                 QRamen
             </a>
             <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#features">{{ q.nav_features | default: "Features" }}</a></li>
+                <li><a href="#how-it-works">{{ q.nav_how_it_works | default: "How It Works" }}</a></li>
+                <li><a href="#pricing">{{ q.nav_pricing | default: "Pricing" }}</a></li>
                 <li>
                     <a href="https://apps.apple.com/us/app/qramen-scan-read-save-qrs/id6444232316" class="nav-cta" target="_blank" rel="noopener">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                        Download
+                        {{ q.nav_download | default: "Download" }}
                     </a>
                 </li>
             </ul>
@@ -1043,16 +1046,16 @@ layout: null
         <div class="container">
             <div class="hero-grid">
                 <div class="hero-content">
-                    <h1>Scan, create &<br><span class="gradient-text">organize QR codes</span></h1>
-                    <p>Your all-in-one QR code companion. Scan any code instantly, create custom-branded QR codes, organize with folders and tags, and track analytics.</p>
+                    <h1>{{ q.hero_heading_1 | default: "Scan, create &" }}<br><span class="gradient-text">{{ q.hero_heading_2 | default: "organize QR codes" }}</span></h1>
+                    <p>{{ q.hero_text | default: "Your all-in-one QR code companion. Scan any code instantly, create custom-branded QR codes, organize with folders and tags, and track analytics." }}</p>
                     <div class="hero-actions">
                         <a href="https://apps.apple.com/us/app/qramen-scan-read-save-qrs/id6444232316" class="app-store-btn" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                             </svg>
                             <div class="app-store-btn-text">
-                                <small>Download on the</small>
-                                <span>App Store</span>
+                                <small>{{ q.download_appstore | default: "Download on the" }}</small>
+                                <span>{{ q.appstore | default: "App Store" }}</span>
                             </div>
                         </a>
                     </div>
@@ -1073,38 +1076,38 @@ layout: null
     <section class="features" id="features">
         <div class="container">
             <div class="features-header">
-                <div class="section-label">Features</div>
-                <h2 class="section-title">Your complete<br><span class="gradient-text">QR toolkit</span></h2>
-                <p class="section-subtitle">Everything you need to scan, create, organize, and track QR codes in one powerful app.</p>
+                <div class="section-label">{{ q.features_label | default: "Features" }}</div>
+                <h2 class="section-title">{{ q.features_heading_1 | default: "Your complete" }}<br><span class="gradient-text">{{ q.features_heading_2 | default: "QR toolkit" }}</span></h2>
+                <p class="section-subtitle">{{ q.features_subtitle | default: "Everything you need to scan, create, organize, and track QR codes in one powerful app." }}</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-orange">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF9500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
                     </div>
-                    <h3>Scan & Save Instantly</h3>
-                    <p>Point your camera at any QR code and it's recognized instantly. Import from your photo library or other apps. Every scan is automatically saved to your collection for easy access later.</p>
+                    <h3>{{ q.feature_scan_title | default: "Scan & Save Instantly" }}</h3>
+                    <p>{{ q.feature_scan_desc | default: "Point your camera at any QR code and it is recognized instantly. Import from your photo library or other apps. Every scan is automatically saved to your collection for easy access later." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-blue">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
                     </div>
-                    <h3>Create Custom QR Codes</h3>
-                    <p>Generate QR codes for Wi-Fi networks, contacts, URLs, calendar events, and more. Customize with your brand colors, add your logo, and choose from beautiful templates.</p>
+                    <h3>{{ q.feature_create_title | default: "Create Custom QR Codes" }}</h3>
+                    <p>{{ q.feature_create_desc | default: "Generate QR codes for Wi-Fi networks, contacts, URLs, calendar events, and more. Customize with your brand colors, add your logo, and choose from beautiful templates." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-green">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h3>Organize with Folders & Tags</h3>
-                    <p>Keep your QR codes organized exactly the way you want. Create folders, add tags, and use powerful search to find any code in seconds. Never lose a QR code again.</p>
+                    <h3>{{ q.feature_organize_title | default: "Organize with Folders & Tags" }}</h3>
+                    <p>{{ q.feature_organize_desc | default: "Keep your QR codes organized exactly the way you want. Create folders, add tags, and use powerful search to find any code in seconds. Never lose a QR code again." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-purple">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
                     </div>
-                    <h3>QR Analytics</h3>
-                    <p>Track how your QR codes are being used with detailed analytics. See scan counts, open rates, and share history. Understand your audience and optimize your codes.</p>
+                    <h3>{{ q.feature_analytics_title | default: "QR Analytics" }}</h3>
+                    <p>{{ q.feature_analytics_desc | default: "Track how your QR codes are being used with detailed analytics. See scan counts, open rates, and share history. Understand your audience and optimize your codes." }}</p>
                 </div>
             </div>
         </div>
@@ -1116,30 +1119,30 @@ layout: null
     <section class="how-it-works" id="how-it-works">
         <div class="container">
             <div class="how-it-works-header">
-                <div class="section-label">How It Works</div>
-                <h2 class="section-title">From scan to <span class="gradient-text">organized</span></h2>
-                <p class="section-subtitle">Four simple steps to take control of your QR codes.</p>
+                <div class="section-label">{{ q.how_it_works_label | default: "How It Works" }}</div>
+                <h2 class="section-title">{{ q.how_it_works_heading_1 | default: "From scan to" }} <span class="gradient-text">{{ q.how_it_works_heading_2 | default: "organized" }}</span></h2>
+                <p class="section-subtitle">{{ q.how_it_works_subtitle | default: "Four simple steps to take control of your QR codes." }}</p>
             </div>
             <div class="steps-grid">
                 <div class="step-card">
                     <div class="step-number">1</div>
-                    <h3>Scan</h3>
-                    <p>Point your camera at any QR code or import from your photo library.</p>
+                    <h3>{{ q.step_1_title | default: "Scan" }}</h3>
+                    <p>{{ q.step_1_desc | default: "Point your camera at any QR code or import from your photo library." }}</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">2</div>
-                    <h3>Save</h3>
-                    <p>Every code is automatically saved with its content, date, and location.</p>
+                    <h3>{{ q.step_2_title | default: "Save" }}</h3>
+                    <p>{{ q.step_2_desc | default: "Every code is automatically saved with its content, date, and location." }}</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">3</div>
-                    <h3>Organize</h3>
-                    <p>Sort into folders, add tags, and use search to keep everything tidy.</p>
+                    <h3>{{ q.step_3_title | default: "Organize" }}</h3>
+                    <p>{{ q.step_3_desc | default: "Sort into folders, add tags, and use search to keep everything tidy." }}</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">4</div>
-                    <h3>Share</h3>
-                    <p>Share QR codes with anyone via AirDrop, messages, email, or social media.</p>
+                    <h3>{{ q.step_4_title | default: "Share" }}</h3>
+                    <p>{{ q.step_4_desc | default: "Share QR codes with anyone via AirDrop, messages, email, or social media." }}</p>
                 </div>
             </div>
         </div>
@@ -1151,40 +1154,40 @@ layout: null
     <section class="plans" id="pricing">
         <div class="container">
             <div class="plans-header">
-                <div class="section-label">Pricing</div>
-                <h2 class="section-title">Choose your <span class="gradient-text">plan</span></h2>
-                <p class="section-subtitle">Start free and upgrade to QRamen Pro for unlimited power.</p>
+                <div class="section-label">{{ q.pricing_label | default: "Pricing" }}</div>
+                <h2 class="section-title">{{ q.pricing_heading_1 | default: "Choose your" }} <span class="gradient-text">{{ q.pricing_heading_2 | default: "plan" }}</span></h2>
+                <p class="section-subtitle">{{ q.pricing_subtitle | default: "Start free and upgrade to QRamen Pro for unlimited power." }}</p>
             </div>
             <div class="plans-grid">
                 <!-- Free -->
                 <div class="plan-card">
-                    <div class="plan-name">Free</div>
-                    <div class="plan-subtitle">Get started with the basics</div>
+                    <div class="plan-name">{{ q.tier_free | default: "Free" }}</div>
+                    <div class="plan-subtitle">{{ q.tier_free_desc | default: "Get started with the basics" }}</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--free">&#10003;</span> Up to 5 QR codes</li>
-                        <li><span class="check check--free">&#10003;</span> Basic scanning</li>
-                        <li><span class="check check--free">&#10003;</span> Standard templates</li>
-                        <li><span class="check check--free">&#10003;</span> Share via link</li>
+                        <li><span class="check check--free">&#10003;</span> {{ q.free_1 | default: "Up to 5 QR codes" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ q.free_2 | default: "Basic scanning" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ q.free_3 | default: "Standard templates" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ q.free_4 | default: "Share via link" }}</li>
                     </ul>
-                    <a href="https://apps.apple.com/us/app/qramen-scan-read-save-qrs/id6444232316" class="plan-cta plan-cta--free" target="_blank" rel="noopener">Get Started</a>
+                    <a href="https://apps.apple.com/us/app/qramen-scan-read-save-qrs/id6444232316" class="plan-cta plan-cta--free" target="_blank" rel="noopener">{{ q.free_cta | default: "Get Started" }}</a>
                 </div>
 
                 <!-- Pro -->
                 <div class="plan-card plan-card--pro">
-                    <span class="plan-badge plan-badge--pro">Pro</span>
-                    <div class="plan-name">QRamen Pro</div>
-                    <div class="plan-subtitle">Unlimited QR power</div>
+                    <span class="plan-badge plan-badge--pro">{{ q.badge_pro | default: "Pro" }}</span>
+                    <div class="plan-name">{{ q.tier_pro | default: "QRamen Pro" }}</div>
+                    <div class="plan-subtitle">{{ q.tier_pro_desc | default: "Unlimited QR power" }}</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--pro">&#10003;</span> Unlimited QR codes</li>
-                        <li><span class="check check--pro">&#10003;</span> Custom colors & styles</li>
-                        <li><span class="check check--pro">&#10003;</span> Logo overlay on QR codes</li>
-                        <li><span class="check check--pro">&#10003;</span> Detailed analytics</li>
-                        <li><span class="check check--pro">&#10003;</span> Bulk CSV import</li>
-                        <li><span class="check check--pro">&#10003;</span> Folders & tags</li>
+                        <li><span class="check check--pro">&#10003;</span> {{ q.pro_1 | default: "Unlimited QR codes" }}</li>
+                        <li><span class="check check--pro">&#10003;</span> {{ q.pro_2 | default: "Custom colors & styles" }}</li>
+                        <li><span class="check check--pro">&#10003;</span> {{ q.pro_3 | default: "Logo overlay on QR codes" }}</li>
+                        <li><span class="check check--pro">&#10003;</span> {{ q.pro_4 | default: "Detailed analytics" }}</li>
+                        <li><span class="check check--pro">&#10003;</span> {{ q.pro_5 | default: "Bulk CSV import" }}</li>
+                        <li><span class="check check--pro">&#10003;</span> {{ q.pro_6 | default: "Folders & tags" }}</li>
                     </ul>
-                    <a href="https://apps.apple.com/us/app/qramen-scan-read-save-qrs/id6444232316" class="plan-cta plan-cta--pro" target="_blank" rel="noopener">Upgrade to Pro</a>
+                    <a href="https://apps.apple.com/us/app/qramen-scan-read-save-qrs/id6444232316" class="plan-cta plan-cta--pro" target="_blank" rel="noopener">{{ q.pro_cta | default: "Upgrade to Pro" }}</a>
                 </div>
             </div>
         </div>
@@ -1196,38 +1199,38 @@ layout: null
     <section class="platforms" id="platforms">
         <div class="container">
             <div class="platforms-header">
-                <div class="section-label">Platforms</div>
-                <h2 class="section-title">Available <span class="gradient-text">everywhere</span></h2>
-                <p class="section-subtitle">QRamen works across all your devices so your QR codes are always within reach.</p>
+                <div class="section-label">{{ q.platforms_label | default: "Platforms" }}</div>
+                <h2 class="section-title">{{ q.platforms_heading_1 | default: "Available" }} <span class="gradient-text">{{ q.platforms_heading_2 | default: "everywhere" }}</span></h2>
+                <p class="section-subtitle">{{ q.platforms_subtitle | default: "QRamen works across all your devices so your QR codes are always within reach." }}</p>
             </div>
             <div class="platforms-grid">
                 <div class="platform-card">
                     <div class="platform-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF9500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
                     </div>
-                    <h3>iPhone</h3>
-                    <p>Full-featured iOS app</p>
+                    <h3>{{ q.platform_iphone | default: "iPhone" }}</h3>
+                    <p>{{ q.platform_iphone_desc | default: "Full-featured iOS app" }}</p>
                 </div>
                 <div class="platform-card">
                     <div class="platform-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF9500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2" ry="2"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
                     </div>
-                    <h3>iPad</h3>
-                    <p>Optimized for big screens</p>
+                    <h3>{{ q.platform_ipad | default: "iPad" }}</h3>
+                    <p>{{ q.platform_ipad_desc | default: "Optimized for big screens" }}</p>
                 </div>
                 <div class="platform-card">
                     <div class="platform-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF9500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><polyline points="12 9 12 12 13.5 13.5"/><path d="M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83"/></svg>
                     </div>
-                    <h3>Apple Watch</h3>
-                    <p>Quick access on your wrist</p>
+                    <h3>{{ q.platform_watch | default: "Apple Watch" }}</h3>
+                    <p>{{ q.platform_watch_desc | default: "Quick access on your wrist" }}</p>
                 </div>
                 <div class="platform-card">
                     <div class="platform-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF9500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
                     </div>
-                    <h3>Widgets</h3>
-                    <p>Home Screen shortcuts</p>
+                    <h3>{{ q.platform_widgets | default: "Widgets" }}</h3>
+                    <p>{{ q.platform_widgets_desc | default: "Home Screen shortcuts" }}</p>
                 </div>
             </div>
         </div>
@@ -1242,9 +1245,9 @@ layout: null
                 <div class="privacy-icon">
                     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FF9500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
-                <div class="section-label">Privacy First</div>
-                <h2 class="section-title">Your data stays <span class="gradient-text">yours</span></h2>
-                <p class="section-subtitle">QRamen processes QR codes locally on your device. Your scans, codes, and personal data are never sent to external servers unless you choose to share them.</p>
+                <div class="section-label">{{ q.privacy_label | default: "Privacy First" }}</div>
+                <h2 class="section-title">{{ q.privacy_heading_1 | default: "Your data stays" }} <span class="gradient-text">{{ q.privacy_heading_2 | default: "yours" }}</span></h2>
+                <p class="section-subtitle">{{ q.privacy_text | default: "QRamen processes QR codes locally on your device. Your scans, codes, and personal data are never sent to external servers unless you choose to share them." }}</p>
             </div>
         </div>
     </section>
@@ -1254,17 +1257,17 @@ layout: null
          ======================================== -->
     <section class="final-cta">
         <div class="container">
-            <div class="section-label">Get Started</div>
-            <h2 class="section-title">Ready to master<br><span class="gradient-text">QR codes?</span></h2>
-            <p class="section-subtitle">Download QRamen and take control of every QR code you encounter. Scan, create, organize, and share -- all in one app.</p>
+            <div class="section-label">{{ q.cta_label | default: "Get Started" }}</div>
+            <h2 class="section-title">{{ q.cta_heading_1 | default: "Ready to master" }}<br><span class="gradient-text">{{ q.cta_heading_2 | default: "QR codes?" }}</span></h2>
+            <p class="section-subtitle">{{ q.cta_subtitle | default: "Download QRamen and take control of every QR code you encounter. Scan, create, organize, and share -- all in one app." }}</p>
             <div class="final-cta-buttons">
                 <a href="https://apps.apple.com/us/app/qramen-scan-read-save-qrs/id6444232316" class="app-store-btn" target="_blank" rel="noopener">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                     </svg>
                     <div class="app-store-btn-text">
-                        <small>Download on the</small>
-                        <span>App Store</span>
+                        <small>{{ q.download_appstore | default: "Download on the" }}</small>
+                        <span>{{ q.appstore | default: "App Store" }}</span>
                     </div>
                 </a>
             </div>
@@ -1278,12 +1281,12 @@ layout: null
         <div class="container">
             <div class="footer-content">
                 <div class="footer-links">
-                    <a href="/">Home</a>
-                    <a href="#features">Features</a>
-                    <a href="#pricing">Pricing</a>
-                    <a href="#privacy">Privacy</a>
+                    <a href="/">{{ q.footer_home | default: "Home" }}</a>
+                    <a href="#features">{{ q.footer_features | default: "Features" }}</a>
+                    <a href="#pricing">{{ q.footer_pricing | default: "Pricing" }}</a>
+                    <a href="#privacy">{{ q.footer_privacy | default: "Privacy" }}</a>
                 </div>
-                <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. All rights reserved.</span>
+                <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. {{ q.footer_rights | default: "All rights reserved." }}</span>
             </div>
         </div>
     </footer>

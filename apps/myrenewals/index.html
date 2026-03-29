@@ -1,13 +1,16 @@
 ---
 layout: null
+lang-ref: myrenewals-page
 ---
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
+{% assign m = t.myrenewals_page %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.active_lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyRenewals -- Subscription Tracker</title>
-    <meta name="description" content="Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew. Beautiful pie charts, smart notifications, and optimized for iPhone, iPad, and Mac.">
+    <title>{{ m.title | default: "MyRenewals -- Subscription Tracker" }}</title>
+    <meta name="description" content="{{ m.description | default: "Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew. Beautiful pie charts, smart notifications, and optimized for iPhone, iPad, and Mac." }}">
     <meta name="theme-color" content="#0A1A0F">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
@@ -1145,17 +1148,17 @@ layout: null
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
             </a>
             <a href="#" class="nav-logo">
-                <img src="../../images/myrenewals/app_icon.png" alt="MyRenewals" class="nav-logo-icon">
+                <img src="/images/myrenewals/app_icon.png" alt="MyRenewals" class="nav-logo-icon">
                 MyRenewals
             </a>
             <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#screenshots">Screenshots</a></li>
-                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#features">{{ m.nav_features | default: "Features" }}</a></li>
+                <li><a href="#screenshots">{{ m.nav_screenshots | default: "Screenshots" }}</a></li>
+                <li><a href="#reviews">{{ m.nav_reviews | default: "Reviews" }}</a></li>
                 <li>
                     <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="nav-cta" target="_blank" rel="noopener">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                        Download
+                        {{ m.nav_download | default: "Download" }}
                     </a>
                 </li>
             </ul>
@@ -1169,16 +1172,16 @@ layout: null
         <div class="container">
             <div class="hero-grid">
                 <div class="hero-content">
-                    <h1>Never miss a<br><span class="gradient-text">renewal</span> again</h1>
-                    <p>Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew.</p>
+                    <h1>{{ m.hero_heading_1 | default: "Never miss a" }}<br><span class="gradient-text">{{ m.hero_heading_2 | default: "renewal again" }}</span></h1>
+                    <p>{{ m.hero_text | default: "Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew." }}</p>
                     <div class="hero-actions">
                         <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="app-store-btn" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                             </svg>
                             <div class="app-store-btn-text">
-                                <small>Download on the</small>
-                                <span>App Store</span>
+                                <small>{{ m.download_appstore | default: "Download on the" }}</small>
+                                <span>{{ m.appstore | default: "App Store" }}</span>
                             </div>
                         </a>
                     </div>
@@ -1186,7 +1189,7 @@ layout: null
                 <div class="hero-visual">
                     <div class="hero-icon-wrapper">
                         <div class="hero-icon-glow"></div>
-                        <img src="../../images/myrenewals/app_icon.png" alt="MyRenewals App Icon" class="hero-app-icon" loading="eager">
+                        <img src="/images/myrenewals/app_icon.png" alt="MyRenewals App Icon" class="hero-app-icon" loading="eager">
                     </div>
                 </div>
             </div>
@@ -1199,38 +1202,38 @@ layout: null
     <section class="features" id="features">
         <div class="container">
             <div class="features-header scroll-reveal">
-                <div class="section-label">Features</div>
-                <h2 class="section-title">Everything you need to<br><span class="gradient-text">stay in control</span></h2>
-                <p class="section-subtitle">Track every subscription, get timely reminders, and never pay for something you forgot to cancel.</p>
+                <div class="section-label">{{ m.features_label | default: "Features" }}</div>
+                <h2 class="section-title">{{ m.features_heading_1 | default: "Everything you need to" }}<br><span class="gradient-text">{{ m.features_heading_2 | default: "stay in control" }}</span></h2>
+                <p class="section-subtitle">{{ m.features_subtitle | default: "Track every subscription, get timely reminders, and never pay for something you forgot to cancel." }}</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card scroll-reveal">
                     <div class="feature-icon feature-icon-green">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#34C759" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
                     </div>
-                    <h3>Monthly Spend Summary</h3>
-                    <p>See total subscription costs with beautiful pie charts organized by category. Understand exactly where your money goes at a glance.</p>
+                    <h3>{{ m.feature_spend_title | default: "Monthly Spend Summary" }}</h3>
+                    <p>{{ m.feature_spend_desc | default: "See total subscription costs with beautiful pie charts organized by category. Understand exactly where your money goes at a glance." }}</p>
                 </div>
                 <div class="feature-card scroll-reveal">
                     <div class="feature-icon feature-icon-blue">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="12" cy="16" r="2"/></svg>
                     </div>
-                    <h3>Upcoming Renewals</h3>
-                    <p>Stay ahead with renewal dates, prices, and status tags warning of near charges. Never be surprised by an unexpected payment again.</p>
+                    <h3>{{ m.feature_renewals_title | default: "Upcoming Renewals" }}</h3>
+                    <p>{{ m.feature_renewals_desc | default: "Stay ahead with renewal dates, prices, and status tags warning of near charges. Never be surprised by an unexpected payment again." }}</p>
                 </div>
                 <div class="feature-card scroll-reveal">
                     <div class="feature-icon feature-icon-amber">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
                     </div>
-                    <h3>Smart Notifications</h3>
-                    <p>Get reminded 3, 7, or 14 days before a charge. Choose your timing so you always have enough time to decide whether to keep or cancel.</p>
+                    <h3>{{ m.feature_notifications_title | default: "Smart Notifications" }}</h3>
+                    <p>{{ m.feature_notifications_desc | default: "Get reminded 3, 7, or 14 days before a charge. Choose your timing so you always have enough time to decide whether to keep or cancel." }}</p>
                 </div>
                 <div class="feature-card scroll-reveal">
                     <div class="feature-icon feature-icon-purple">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><path d="M7 8h5"/><path d="M7 12h3"/></svg>
                     </div>
-                    <h3>iPad, Mac & Cloud Backup</h3>
-                    <p>Beautiful split-view on iPad and a full native Mac experience. Encrypted cloud sync keeps your data safe across all your devices.</p>
+                    <h3>{{ m.feature_devices_title | default: "iPad, Mac & Cloud Backup" }}</h3>
+                    <p>{{ m.feature_devices_desc | default: "Beautiful split-view on iPad and a full native Mac experience. Encrypted cloud sync keeps your data safe across all your devices." }}</p>
                 </div>
             </div>
         </div>
@@ -1242,59 +1245,59 @@ layout: null
     <section class="showcase" id="screenshots">
         <div class="container">
             <div class="showcase-header scroll-reveal">
-                <div class="section-label">Screenshots</div>
-                <h2 class="section-title">See MyRenewals <span class="gradient-text">in action</span></h2>
-                <p class="section-subtitle">A clean, intuitive interface designed to make subscription management effortless.</p>
+                <div class="section-label">{{ m.screenshots_label | default: "Screenshots" }}</div>
+                <h2 class="section-title">{{ m.screenshots_heading_1 | default: "See MyRenewals" }} <span class="gradient-text">{{ m.screenshots_heading_2 | default: "in action" }}</span></h2>
+                <p class="section-subtitle">{{ m.screenshots_subtitle | default: "A clean, intuitive interface designed to make subscription management effortless." }}</p>
             </div>
         </div>
         <div class="showcase-scroll">
             <div>
                 <div class="iphone-frame iphone-frame-sm">
                     <div class="iphone-screen">
-                        <img src="../../images/myrenewals/screenshot1.png" alt="MyRenewals - Subscription Dashboard" loading="lazy">
+                        <img src="/images/myrenewals/screenshot1.png" alt="MyRenewals - Subscription Dashboard" loading="lazy">
                     </div>
                     <div class="btn-power"></div>
                     <div class="btn-vol-up"></div>
                     <div class="btn-vol-down"></div>
                     <div class="btn-action"></div>
                 </div>
-                <div class="showcase-caption">Dashboard</div>
+                <div class="showcase-caption">{{ m.caption_dashboard | default: "Dashboard" }}</div>
             </div>
             <div>
                 <div class="iphone-frame iphone-frame-sm">
                     <div class="iphone-screen">
-                        <img src="../../images/myrenewals/screenshot2.png" alt="MyRenewals - Spending Overview" loading="lazy">
+                        <img src="/images/myrenewals/screenshot2.png" alt="MyRenewals - Spending Overview" loading="lazy">
                     </div>
                     <div class="btn-power"></div>
                     <div class="btn-vol-up"></div>
                     <div class="btn-vol-down"></div>
                     <div class="btn-action"></div>
                 </div>
-                <div class="showcase-caption">Spend Summary</div>
+                <div class="showcase-caption">{{ m.caption_spend | default: "Spend Summary" }}</div>
             </div>
             <div>
                 <div class="iphone-frame iphone-frame-sm">
                     <div class="iphone-screen">
-                        <img src="../../images/myrenewals/screenshot3.png" alt="MyRenewals - Upcoming Renewals" loading="lazy">
+                        <img src="/images/myrenewals/screenshot3.png" alt="MyRenewals - Upcoming Renewals" loading="lazy">
                     </div>
                     <div class="btn-power"></div>
                     <div class="btn-vol-up"></div>
                     <div class="btn-vol-down"></div>
                     <div class="btn-action"></div>
                 </div>
-                <div class="showcase-caption">Upcoming Renewals</div>
+                <div class="showcase-caption">{{ m.caption_renewals | default: "Upcoming Renewals" }}</div>
             </div>
             <div>
                 <div class="iphone-frame iphone-frame-sm">
                     <div class="iphone-screen">
-                        <img src="../../images/myrenewals/screenshot4.png" alt="MyRenewals - Subscription Details" loading="lazy">
+                        <img src="/images/myrenewals/screenshot4.png" alt="MyRenewals - Subscription Details" loading="lazy">
                     </div>
                     <div class="btn-power"></div>
                     <div class="btn-vol-up"></div>
                     <div class="btn-vol-down"></div>
                     <div class="btn-action"></div>
                 </div>
-                <div class="showcase-caption">Subscription Details</div>
+                <div class="showcase-caption">{{ m.caption_details | default: "Subscription Details" }}</div>
             </div>
         </div>
     </section>
@@ -1305,20 +1308,20 @@ layout: null
     <section class="reviews" id="reviews">
         <div class="container">
             <div class="reviews-header scroll-reveal">
-                <div class="section-label">Testimonials</div>
-                <h2 class="section-title">What users <span class="gradient-text">are saying</span></h2>
-                <p class="section-subtitle">Real feedback from people who took control of their subscriptions.</p>
+                <div class="section-label">{{ m.reviews_label | default: "Testimonials" }}</div>
+                <h2 class="section-title">{{ m.reviews_heading_1 | default: "What users" }} <span class="gradient-text">{{ m.reviews_heading_2 | default: "are saying" }}</span></h2>
+                <p class="section-subtitle">{{ m.reviews_subtitle | default: "Real feedback from people who took control of their subscriptions." }}</p>
             </div>
             <div class="reviews-grid">
                 <div class="review-card scroll-reveal">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"Finally, a subscription tracker that's simple and actually looks good. Love the notifications -- saved me from two charges I forgot about!"</p>
-                    <span class="review-author">Alex R. -- App Store Review</span>
+                    <p class="review-text">{{ m.review_1_text | default: "Finally, a subscription tracker that is simple and actually looks good. Love the notifications -- saved me from two charges I forgot about!" }}</p>
+                    <span class="review-author">{{ m.review_1_author | default: "Alex R. -- App Store Review" }}</span>
                 </div>
                 <div class="review-card scroll-reveal">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"Clean design, easy to use, and the pie chart feature helps me see exactly where my money goes each month. Highly recommended."</p>
-                    <span class="review-author">Taylor M. -- App Store Review</span>
+                    <p class="review-text">{{ m.review_2_text | default: "Clean design, easy to use, and the pie chart feature helps me see exactly where my money goes each month. Highly recommended." }}</p>
+                    <span class="review-author">{{ m.review_2_author | default: "Taylor M. -- App Store Review" }}</span>
                 </div>
             </div>
         </div>
@@ -1330,43 +1333,43 @@ layout: null
     <section class="plans" id="plans">
         <div class="container">
             <div class="plans-header scroll-reveal">
-                <div class="section-label">Plans</div>
-                <h2 class="section-title">Simple, transparent <span class="gradient-text">pricing</span></h2>
-                <p class="section-subtitle">Start free and upgrade to Pro when you're ready for the full experience.</p>
+                <div class="section-label">{{ m.plans_label | default: "Plans" }}</div>
+                <h2 class="section-title">{{ m.plans_heading_1 | default: "Simple, transparent" }} <span class="gradient-text">{{ m.plans_heading_2 | default: "pricing" }}</span></h2>
+                <p class="section-subtitle">{{ m.plans_subtitle | default: "Start free and upgrade to Pro when you are ready for the full experience." }}</p>
             </div>
             <div class="plans-grid">
                 <!-- Free -->
                 <div class="plan-card scroll-reveal">
-                    <div class="plan-name">Free</div>
-                    <div class="plan-subtitle">Get started for free</div>
+                    <div class="plan-name">{{ m.tier_free | default: "Free" }}</div>
+                    <div class="plan-subtitle">{{ m.tier_free_desc | default: "Get started for free" }}</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--free">&#10003;</span> Track subscriptions (limited count)</li>
-                        <li><span class="check check--free">&#10003;</span> Smart renewal reminders</li>
-                        <li><span class="check check--free">&#10003;</span> Basic spending overview</li>
-                        <li><span class="check check--free">&#10003;</span> Cancel tracking</li>
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_1 | default: "Track subscriptions (limited count)" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_2 | default: "Smart renewal reminders" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_3 | default: "Basic spending overview" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_4 | default: "Cancel tracking" }}</li>
                     </ul>
-                    <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="plan-cta plan-cta--free" target="_blank" rel="noopener">Get Started</a>
+                    <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="plan-cta plan-cta--free" target="_blank" rel="noopener">{{ m.free_cta | default: "Get Started" }}</a>
                 </div>
 
                 <!-- Pro -->
                 <div class="plan-card plan-card--pro scroll-reveal">
-                    <span class="plan-badge plan-badge--pro">Recommended</span>
-                    <div class="plan-name">Pro</div>
-                    <div class="plan-subtitle">Everything, unlimited</div>
+                    <span class="plan-badge plan-badge--pro">{{ m.badge_recommended | default: "Recommended" }}</span>
+                    <div class="plan-name">{{ m.tier_pro | default: "Pro" }}</div>
+                    <div class="plan-subtitle">{{ m.tier_pro_desc | default: "Everything, unlimited" }}</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--green">&#10003;</span> Everything in Free</li>
-                        <li><span class="check check--green">&#10003;</span> Unlimited subscriptions</li>
-                        <li><span class="check check--green">&#10003;</span> Premium Insights dashboard</li>
-                        <li><span class="check check--green">&#10003;</span> Category breakdown (donut chart)</li>
-                        <li><span class="check check--green">&#10003;</span> 12-month spending trends</li>
-                        <li><span class="check check--green">&#10003;</span> Free trials tracker</li>
-                        <li><span class="check check--green">&#10003;</span> Most/cheapest plans ranking</li>
-                        <li><span class="check check--green">&#10003;</span> Cloud backup &amp; sync</li>
-                        <li><span class="check check--green">&#10003;</span> PDF export</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_1 | default: "Everything in Free" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_2 | default: "Unlimited subscriptions" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_3 | default: "Premium Insights dashboard" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_4 | default: "Category breakdown (donut chart)" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_5 | default: "12-month spending trends" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_6 | default: "Free trials tracker" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_7 | default: "Most/cheapest plans ranking" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_8 | default: "Cloud backup & sync" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_9 | default: "PDF export" }}</li>
                     </ul>
-                    <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="plan-cta plan-cta--pro" target="_blank" rel="noopener">Upgrade to Pro</a>
+                    <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="plan-cta plan-cta--pro" target="_blank" rel="noopener">{{ m.pro_cta | default: "Upgrade to Pro" }}</a>
                 </div>
             </div>
         </div>
@@ -1381,11 +1384,11 @@ layout: null
                 <div class="privacy-icon">
                     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#34C759" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
                 </div>
-                <div class="section-label">Privacy First</div>
-                <h2 class="section-title">Your data stays <span class="gradient-text">yours</span></h2>
-                <p>MyRenewals is built with privacy at its core. Your subscription data is encrypted end-to-end and never shared with third parties. We don't sell your data, period.</p>
+                <div class="section-label">{{ m.privacy_label | default: "Privacy First" }}</div>
+                <h2 class="section-title">{{ m.privacy_heading_1 | default: "Your data stays" }} <span class="gradient-text">{{ m.privacy_heading_2 | default: "yours" }}</span></h2>
+                <p>{{ m.privacy_text | default: "MyRenewals is built with privacy at its core. Your subscription data is encrypted end-to-end and never shared with third parties. We don't sell your data, period." }}</p>
                 <a href="/privacy" class="privacy-link">
-                    Read our Privacy Policy
+                    {{ m.privacy_link | default: "Read our Privacy Policy" }}
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
                 </a>
             </div>
@@ -1397,17 +1400,17 @@ layout: null
          ======================================== -->
     <section class="final-cta">
         <div class="container scroll-reveal">
-            <div class="section-label">Get Started</div>
-            <h2 class="section-title">Take control of your<br><span class="gradient-text">subscriptions</span></h2>
-            <p class="section-subtitle">Download MyRenewals today and stop paying for subscriptions you don't use.</p>
+            <div class="section-label">{{ m.cta_label | default: "Get Started" }}</div>
+            <h2 class="section-title">{{ m.cta_heading_1 | default: "Take control of your" }}<br><span class="gradient-text">{{ m.cta_heading_2 | default: "subscriptions" }}</span></h2>
+            <p class="section-subtitle">{{ m.cta_subtitle | default: "Download MyRenewals today and stop paying for subscriptions you don't use." }}</p>
             <div class="hero-actions" style="justify-content: center;">
                 <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" class="app-store-btn" target="_blank" rel="noopener">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                     </svg>
                     <div class="app-store-btn-text">
-                        <small>Download on the</small>
-                        <span>App Store</span>
+                        <small>{{ m.download_appstore | default: "Download on the" }}</small>
+                        <span>{{ m.appstore | default: "App Store" }}</span>
                     </div>
                 </a>
             </div>
@@ -1422,11 +1425,11 @@ layout: null
             <div class="footer-content">
                 <div class="footer-links">
                     <a href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg> MagicLabSolutions</a>
-                    <a href="/privacy">Privacy Policy</a>
-                    <a href="/terms">Terms of Use</a>
-                    <a href="mailto:support@magiclabsolutions.com">Contact</a>
+                    <a href="/privacy">{{ m.footer_privacy | default: "Privacy Policy" }}</a>
+                    <a href="/terms">{{ m.footer_terms | default: "Terms of Use" }}</a>
+                    <a href="mailto:support@magiclabsolutions.com">{{ m.footer_contact | default: "Contact" }}</a>
                 </div>
-                <p>&copy; 2025 Magic Lab Solutions. All rights reserved.</p>
+                <p>&copy; 2025 Magic Lab Solutions. {{ m.footer_rights | default: "All rights reserved." }}</p>
             </div>
         </div>
     </footer>

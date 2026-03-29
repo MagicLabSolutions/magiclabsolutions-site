@@ -168,5 +168,281 @@ zuzu_page:
   cta_heading_2: 記録する準備はできましたか？
   cta_subtitle: 今すぐ Zuzu をダウンロードして、赤ちゃんの大切なデータを安心して任せている何千人もの親御さんの仲間入りをしましょう。
   footer_rights: All rights reserved.
+qramen_page:
+  title: "QRamen -- QRコードをスキャン、作成、整理"
+  description: "QRamenは、QRコードのスキャン、カスタムブランドQRコードの作成、フォルダやタグでの整理、分析の追跡ができるオールインワンQRコードアプリです。"
+  nav_features: 機能
+  nav_how_it_works: 使い方
+  nav_pricing: 料金
+  nav_download: ダウンロード
+  hero_heading_1: "スキャン、作成、"
+  hero_heading_2: "QRコードを整理"
+  hero_text: "オールインワンのQRコードアプリ。あらゆるコードを瞬時にスキャン、カスタムQRコードを作成、フォルダやタグで整理、分析を追跡。"
+  download_appstore: こちらからダウンロード
+  appstore: "App Store"
+  features_label: 機能
+  features_heading_1: "あなただけの"
+  features_heading_2: "QRツールキット"
+  features_subtitle: "QRコードのスキャン、作成、整理、追跡に必要なすべてが一つのアプリに。"
+  feature_scan_title: "スキャン＆即座に保存"
+  feature_scan_desc: "カメラをQRコードに向けるだけで瞬時に認識。写真ライブラリや他のアプリからインポートも可能。すべてのスキャンがコレクションに自動保存されます。"
+  feature_create_title: "カスタムQRコードを作成"
+  feature_create_desc: "Wi-Fiネットワーク、連絡先、URL、カレンダーイベントなどのQRコードを生成。ブランドカラーでカスタマイズし、ロゴを追加、美しいテンプレートから選択できます。"
+  feature_organize_title: "フォルダとタグで整理"
+  feature_organize_desc: "QRコードを好きなように整理。フォルダを作成し、タグを追加し、パワフルな検索で数秒で任意のコードを見つけられます。"
+  feature_analytics_title: "QR分析"
+  feature_analytics_desc: "詳細な分析でQRコードの使用状況を追跡。スキャン回数、開封率、共有履歴を確認できます。"
+  how_it_works_label: 使い方
+  how_it_works_heading_1: "スキャンから"
+  how_it_works_heading_2: "整理まで"
+  how_it_works_subtitle: "4つの簡単なステップでQRコードを管理しましょう。"
+  step_1_title: スキャン
+  step_1_desc: "カメラをQRコードに向けるか、写真ライブラリからインポートします。"
+  step_2_title: 保存
+  step_2_desc: "各コードは内容、日付、場所とともに自動的に保存されます。"
+  step_3_title: 整理
+  step_3_desc: "フォルダに分類し、タグを追加し、検索を使ってすべてを整頓します。"
+  step_4_title: 共有
+  step_4_desc: "AirDrop、メッセージ、メール、SNSでQRコードを共有できます。"
+  pricing_label: 料金
+  pricing_heading_1: "プランを"
+  pricing_heading_2: "選ぶ"
+  pricing_subtitle: "無料で始めて、QRamen Proにアップグレードして無制限のパワーを手に入れましょう。"
+  tier_free: 無料
+  tier_free_desc: "基本機能で始めましょう"
+  free_1: "最大5つのQRコード"
+  free_2: "基本スキャン"
+  free_3: "スタンダードテンプレート"
+  free_4: "リンクで共有"
+  free_cta: "無料で始める"
+  badge_pro: Pro
+  tier_pro: "QRamen Pro"
+  tier_pro_desc: "無制限のQRパワー"
+  pro_1: "無制限のQRコード"
+  pro_2: "カスタムカラー＆スタイル"
+  pro_3: "QRコードにロゴオーバーレイ"
+  pro_4: "詳細な分析"
+  pro_5: "CSV一括インポート"
+  pro_6: "フォルダ＆タグ"
+  pro_cta: "Proにアップグレード"
+  platforms_label: プラットフォーム
+  platforms_heading_1: "どこでも"
+  platforms_heading_2: "利用可能"
+  platforms_subtitle: "QRamenはすべてのデバイスで動作し、QRコードがいつでも手元にあります。"
+  platform_iphone: iPhone
+  platform_iphone_desc: "フル機能のiOSアプリ"
+  platform_ipad: iPad
+  platform_ipad_desc: "大画面に最適化"
+  platform_watch: Apple Watch
+  platform_watch_desc: "手首から素早くアクセス"
+  platform_widgets: ウィジェット
+  platform_widgets_desc: "ホーム画面のショートカット"
+  privacy_label: プライバシー最優先
+  privacy_heading_1: "あなたのデータは"
+  privacy_heading_2: "あなたのもの"
+  privacy_text: "QRamenはQRコードをデバイス上でローカルに処理します。スキャン、コード、個人データは、共有を選択しない限り、外部サーバーに送信されることはありません。"
+  cta_label: はじめよう
+  cta_heading_1: "QRコードを"
+  cta_heading_2: "マスターする準備は？"
+  cta_subtitle: "QRamenをダウンロードして、出会うすべてのQRコードを管理しましょう。スキャン、作成、整理、共有 -- すべてが一つのアプリに。"
+  footer_home: ホーム
+  footer_features: 機能
+  footer_pricing: 料金
+  footer_privacy: プライバシー
+  footer_rights: All rights reserved.
+myrenewals_page:
+  title: "MyRenewals -- サブスクリプション管理"
+  description: "サブスクリプションをコントロール。定期支払いを追跡、管理、更新前にキャンセル。美しい円グラフ、スマート通知、iPhone、iPad、Mac対応。"
+  nav_features: 機能
+  nav_screenshots: スクリーンショット
+  nav_reviews: レビュー
+  nav_download: ダウンロード
+  hero_heading_1: もう二度と
+  hero_heading_2: 更新を見逃さない
+  hero_text: サブスクリプションをコントロールしましょう。定期支払いを追跡、管理し、更新前にキャンセルできます。
+  download_appstore: "からダウンロード"
+  appstore: "App Store"
+  features_label: 機能
+  features_heading_1: コントロールに必要な
+  features_heading_2: すべてが揃っています
+  features_subtitle: すべてのサブスクリプションを追跡し、タイムリーなリマインダーを受け取り、キャンセルし忘れたものに二度と支払わないようにしましょう。
+  feature_spend_title: 月間支出サマリー
+  feature_spend_desc: カテゴリ別に整理された美しい円グラフでサブスクリプションの総コストを確認。お金がどこに使われているか一目で把握できます。
+  feature_renewals_title: 今後の更新
+  feature_renewals_desc: 更新日、価格、請求が近づいていることを警告するステータスタグで先を読みましょう。予期しない支払いに驚かされることはもうありません。
+  feature_notifications_title: スマート通知
+  feature_notifications_desc: 請求の3日、7日、または14日前にリマインダーを受け取れます。継続するかキャンセルするか、十分な時間を持てるようタイミングを選択できます。
+  feature_devices_title: "iPad、Mac、クラウドバックアップ"
+  feature_devices_desc: iPadでの美しいスプリットビューと完全なネイティブMac体験。暗号化されたクラウド同期がすべてのデバイスでデータを安全に保ちます。
+  screenshots_label: スクリーンショット
+  screenshots_heading_1: MyRenewalsを
+  screenshots_heading_2: 実際に見る
+  screenshots_subtitle: サブスクリプション管理を簡単にするクリーンで直感的なインターフェース。
+  caption_dashboard: ダッシュボード
+  caption_spend: 支出サマリー
+  caption_renewals: 今後の更新
+  caption_details: サブスクリプション詳細
+  reviews_label: レビュー
+  reviews_heading_1: ユーザーの
+  reviews_heading_2: 声
+  reviews_subtitle: サブスクリプションをコントロールした人々からのリアルなフィードバック。
+  review_1_text: "ついにシンプルで本当に見た目が良いサブスクリプショントラッカーに出会えました。通知が素晴らしい -- 忘れていた2つの請求から救ってくれました！"
+  review_1_author: "Alex R. -- App Store レビュー"
+  review_2_text: クリーンなデザインで使いやすく、円グラフで毎月のお金の行方が正確にわかります。強くおすすめします。
+  review_2_author: "Taylor M. -- App Store レビュー"
+  plans_label: プラン
+  plans_heading_1: シンプルで透明な
+  plans_heading_2: 料金
+  plans_subtitle: 無料で始めて、フル体験の準備ができたらProにアップグレード。
+  tier_free: 無料
+  tier_free_desc: 無料で始めましょう
+  free_1: サブスクリプションの追跡（数量制限あり）
+  free_2: スマート更新リマインダー
+  free_3: 基本的な支出概要
+  free_4: キャンセル追跡
+  free_cta: 無料で始める
+  tier_pro: Pro
+  tier_pro_desc: すべて無制限
+  badge_recommended: おすすめ
+  pro_1: 無料プランのすべて
+  pro_2: 無制限のサブスクリプション
+  pro_3: Premium Insightsダッシュボード
+  pro_4: カテゴリ別内訳（ドーナツチャート）
+  pro_5: 12ヶ月の支出トレンド
+  pro_6: 無料トライアルトラッカー
+  pro_7: "最高額/最安プランランキング"
+  pro_8: クラウドバックアップと同期
+  pro_9: PDFエクスポート
+  pro_cta: Proにアップグレード
+  privacy_label: プライバシー最優先
+  privacy_heading_1: あなたのデータは
+  privacy_heading_2: あなたのもの
+  privacy_text: MyRenewalsはプライバシーを核として構築されています。サブスクリプションデータはエンドツーエンドで暗号化され、第三者と共有されることはありません。データの販売は一切行いません。
+  privacy_link: プライバシーポリシーを読む
+  cta_label: 始める
+  cta_heading_1: あなたの
+  cta_heading_2: サブスクリプションをコントロール
+  cta_subtitle: 今すぐMyRenewalsをダウンロードして、使っていないサブスクリプションへの支払いをやめましょう。
+  footer_privacy: プライバシーポリシー
+  footer_terms: 利用規約
+  footer_contact: お問い合わせ
+  footer_rights: All rights reserved.
+brainfold_page:
+  title: "Brainfold -- AIパワー学習コンパニオン"
+  description: "Brainfoldはノートをフラッシュカード、クイズ、要約、AIチューターに変換します。スキャン、学習、友達とバトル -- すべてAIで。"
+  nav_features: 機能
+  nav_screenshots: スクリーンショット
+  nav_how_it_works: 使い方
+  nav_download: ダウンロード
+  hero_heading_1: "もっとスマートに"
+  hero_heading_2: "学ぼう"
+  hero_heading_accent: "AIパワー"
+  hero_text: "ノートをスキャンして、AIにフラッシュカード、クイズ、要約、パーソナルチューターを作成させましょう。一人で学習したり、友達とバトルしたり。"
+  download_appstore: "からダウンロード"
+  appstore: "App Store"
+  features_label: 機能
+  features_heading_1: "完全な"
+  features_heading_2: "学習ツールキット"
+  features_subtitle: "どんなドキュメントもスキャンして、AIにあらゆる学習フォーマットに変換させましょう。1回のスキャンで、無限の学び方。"
+  feature_flashcards_title: AIフラッシュカード
+  feature_flashcards_desc: "ノートから自動生成されたフラッシュカードで間隔反復学習。スワイプしてすべての概念をマスター。"
+  feature_quizzes_title: スマートクイズ
+  feature_quizzes_desc: "AIが本当の理解力をテストする挑戦的な選択問題クイズを作成。単なる暗記ではありません。"
+  feature_summaries_title: リッチ要約
+  feature_summaries_desc: "重要なインサイト、数式、ハイライト、箇条書きを含む構造化された要約を取得。完璧なノートが瞬時に。"
+  feature_tutor_title: AI Tutor
+  feature_tutor_desc: "あなたの教材を理解したAIチューターとチャット。質問して、説明を受けて、チャレンジで練習しましょう。"
+  feature_battle_title: バトルモード
+  feature_battle_desc: "自分の学習教材を使って友達とリアルタイムクイズバトルに挑戦。勉強を競争的で楽しいものに。"
+  feature_scan_title: 何でもスキャン
+  feature_scan_desc: "教科書、手書きノート、PDFを撮影。AIが自動的にすべてを抽出・処理します。"
+  how_it_works_label: 使い方
+  how_it_works_heading_1: "ノートから"
+  how_it_works_heading_2: "マスターへ"
+  how_it_works_subtitle: "あらゆる教材を完全な学習システムに変換する4つの簡単なステップ。"
+  step_1_title: スキャン
+  step_1_desc: "ノート、教科書を撮影するか、PDFドキュメントをアップロード。"
+  step_2_title: 処理
+  step_2_desc: "AIがコンテンツを分析し、フラッシュカード、クイズ、要約を生成。"
+  step_3_title: 学習
+  step_3_desc: "モードを選択：フラッシュカード、クイズ、要約、またはAIチューターとチャット。"
+  step_4_title: バトル
+  step_4_desc: "友達にクイズバトルを挑んで、誰が一番教材を理解しているか競いましょう。"
+  screenshots_iphone_label: iPhone
+  screenshots_heading_1: "Brainfoldを"
+  screenshots_heading_2: "体験"
+  screenshots_subtitle: "すべての画面が学習を楽で、魅力的で、効果的にするよう設計されています。"
+  caption_study: 学習ダッシュボード
+  caption_flashcards: フラッシュカード
+  caption_quiz: スマートクイズ
+  caption_tutor: AI Tutor
+  caption_summary: リッチ要約
+  caption_battle: バトルモード
+  screenshots_ipad_label: iPad
+  ipad_heading_1: "iPadで"
+  ipad_heading_2: "美しく"
+  ipad_subtitle: "大画面を活用して没入感のある学習体験を。"
+  ipad_caption_study: 学習ダッシュボード
+  ipad_caption_summary: リッチ要約
+  ipad_caption_tutor: AI Tutor
+  ipad_caption_battle: バトルモード
+  reviews_label: レビュー
+  reviews_heading_1: "学生に"
+  reviews_heading_2: "愛されています"
+  reviews_subtitle: "世界中の学生がBrainfoldについて何と言っているかをご覧ください。"
+  review_1_text: "生物学の教科書の章をまるごとスキャンしたら、Brainfoldが数秒で完璧なフラッシュカードを作成してくれました。AIチューターは教授よりも光合成を分かりやすく説明してくれました！"
+  review_1_author: "Sarah M. -- 生物学専攻"
+  review_2_text: "バトルモードは勉強グループにとって革命的です。友達と試験前にクイズし合うのが本当に楽しいです。有機化学の成績がCからAに上がりました。"
+  review_2_author: "James K. -- 医学部予科生"
+  review_3_text: "要約が素晴らしいです。講義スライドをアップロードすると、重要なインサイトと数式がハイライトされた美しい学習ガイドが得られます。何時間も節約できます。"
+  review_3_author: "Priya R. -- 工学部生"
+  review_4_text: "医学生として何千もの用語を覚える必要があります。Brainfoldの間隔反復フラッシュカードは以前の学習法を完全に置き換えました。絶対に必要なアプリです。"
+  review_4_author: "David L. -- 医学生"
+  review_5_text: "手書きノートの写真を撮るだけでアプリがすべてやってくれるのが大好きです。クイズは暗記ではなく本当の理解をテストしてくれます。最高の学習アプリです。"
+  review_5_author: "Emma T. -- 高校3年生"
+  review_6_text: "AIチューターは24時間利用可能な個人教師のようです。微分をステップバイステップで説明してもらったら、練習問題付きで完璧に分解してくれました。"
+  review_6_author: "Carlos M. -- 数学専攻"
+  plans_label: プラン
+  plans_heading_1: "あなたの"
+  plans_heading_2: "学習プランを選択"
+  plans_subtitle: "無料で始めて、準備ができたらアップグレード。すべてのプランにBrainfold学習ツールキットが含まれます。"
+  tier_free: 無料
+  tier_free_desc: 基本機能で始める
+  free_1: 120無料クレジット
+  free_2: 最大30ページのスキャン
+  free_3: 最大3学習パック
+  free_4: 1回のスキャンで10ページ
+  free_5: "フラッシュカード、クイズ、要約"
+  free_6: バトルモード
+  free_7: "ベーシックAI Tutor"
+  free_cta: 無料で始める
+  tier_plus: Plus
+  tier_plus_desc: 本気の学生向け
+  badge_popular: 人気
+  plus_1: "月950クレジット（約380ページ）"
+  plus_2: "日15クレジット（約6ページ/日）"
+  plus_3: 無制限の学習パック
+  plus_4: 1回のスキャンで無制限ページ
+  plus_5: "フルAI Tutorアクセス"
+  plus_6: バトルホスティング割引
+  plus_7: 更新時ボーナスクレジット
+  plus_cta: 購読する
+  tier_premium: Premium
+  tier_premium_desc: すべて無制限
+  badge_value: 最高の価値
+  premium_1: "月2,400クレジット（約960ページ）"
+  premium_2: "日30クレジット（約12ページ/日）"
+  premium_3: 無制限の学習パック
+  premium_4: 1回のスキャンで無制限ページ
+  premium_5: "フルAI Tutorアクセス"
+  premium_6: 無料バトルホスティング
+  premium_7: 優先サポート
+  premium_8: 更新時ボーナスクレジット
+  premium_cta: 購読する
+  cta_label: 始めよう
+  cta_heading_1: "もっとスマートに"
+  cta_heading_2: "学ぶ準備は？"
+  cta_subtitle: "Brainfoldをダウンロードして、あらゆる教材をAIパワーのパーソナル学習システムに変えましょう。"
+  footer_rights: All rights reserved.
 lang:
   label: 言語

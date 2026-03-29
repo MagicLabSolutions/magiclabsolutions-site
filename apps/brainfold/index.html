@@ -1,13 +1,16 @@
 ---
 layout: null
+lang-ref: brainfold-page
 ---
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
+{% assign b = t.brainfold_page %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.active_lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brainfold -- AI-Powered Study Companion</title>
-    <meta name="description" content="Brainfold transforms your notes into flashcards, quizzes, summaries, and an AI tutor. Scan, study, and battle friends -- all powered by AI.">
+    <title>{{ b.title | default: "Brainfold -- AI-Powered Study Companion" }}</title>
+    <meta name="description" content="{{ b.description | default: 'Brainfold transforms your notes into flashcards, quizzes, summaries, and an AI tutor. Scan, study, and battle friends -- all powered by AI.' }}">
     <meta name="theme-color" content="#0F1A2E">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
@@ -1307,17 +1310,17 @@ layout: null
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
             </a>
             <a href="#" class="nav-logo">
-                <img src="../../images/brainfold/app_icon.png" alt="Brainfold" class="nav-logo-icon">
+                <img src="/images/brainfold/app_icon.png" alt="Brainfold" class="nav-logo-icon">
                 Brainfold
             </a>
             <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#screenshots">Screenshots</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#features">{{ b.nav_features | default: "Features" }}</a></li>
+                <li><a href="#screenshots">{{ b.nav_screenshots | default: "Screenshots" }}</a></li>
+                <li><a href="#how-it-works">{{ b.nav_how_it_works | default: "How It Works" }}</a></li>
                 <li>
                     <a href="https://apps.apple.com/app/id6746427975" class="nav-cta" target="_blank" rel="noopener">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                        Download
+                        {{ b.nav_download | default: "Download" }}
                     </a>
                 </li>
             </ul>
@@ -1331,16 +1334,16 @@ layout: null
         <div class="container">
             <div class="hero-grid">
                 <div class="hero-content">
-                    <h1>Study smarter<br>with <span class="gradient-text">AI power</span></h1>
-                    <p>Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.</p>
+                    <h1>{{ b.hero_heading_1 | default: "Study smarter" }}<br>{{ b.hero_heading_2 | default: "with" }} <span class="gradient-text">{{ b.hero_heading_accent | default: "AI power" }}</span></h1>
+                    <p>{{ b.hero_text | default: "Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends." }}</p>
                     <div class="hero-actions">
                         <a href="https://apps.apple.com/app/id6746427975" class="app-store-btn" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                             </svg>
                             <div class="app-store-btn-text">
-                                <small>Download on the</small>
-                                <span>App Store</span>
+                                <small>{{ b.download_appstore | default: "Download on the" }}</small>
+                                <span>{{ b.appstore | default: "App Store" }}</span>
                             </div>
                         </a>
                     </div>
@@ -1348,7 +1351,7 @@ layout: null
                 <div class="hero-visual">
                     <div class="hero-icon-wrapper">
                         <div class="hero-icon-glow"></div>
-                        <img src="../../images/brainfold/app_icon.png" alt="Brainfold App Icon" class="hero-app-icon" loading="eager">
+                        <img src="/images/brainfold/app_icon.png" alt="Brainfold App Icon" class="hero-app-icon" loading="eager">
                     </div>
                 </div>
             </div>
@@ -1361,52 +1364,52 @@ layout: null
     <section class="features" id="features">
         <div class="container">
             <div class="features-header">
-                <div class="section-label">Features</div>
-                <h2 class="section-title">Your complete<br><span class="gradient-text">study toolkit</span></h2>
-                <p class="section-subtitle">Scan any document and let AI transform it into every study format you need. One scan, endless ways to learn.</p>
+                <div class="section-label">{{ b.features_label | default: "Features" }}</div>
+                <h2 class="section-title">{{ b.features_heading_1 | default: "Your complete" }}<br><span class="gradient-text">{{ b.features_heading_2 | default: "study toolkit" }}</span></h2>
+                <p class="section-subtitle">{{ b.features_subtitle | default: "Scan any document and let AI transform it into every study format you need. One scan, endless ways to learn." }}</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-coral">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
                     </div>
-                    <h3>AI Flashcards</h3>
-                    <p>Automatically generated flashcards from your notes with spaced repetition. Swipe through and master every concept.</p>
+                    <h3>{{ b.feature_flashcards_title | default: "AI Flashcards" }}</h3>
+                    <p>{{ b.feature_flashcards_desc | default: "Automatically generated flashcards from your notes with spaced repetition. Swipe through and master every concept." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-navy">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
                     </div>
-                    <h3>Smart Quizzes</h3>
-                    <p>AI creates challenging multiple-choice quizzes that test real understanding, not just memorization.</p>
+                    <h3>{{ b.feature_quizzes_title | default: "Smart Quizzes" }}</h3>
+                    <p>{{ b.feature_quizzes_desc | default: "AI creates challenging multiple-choice quizzes that test real understanding, not just memorization." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-amber">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
                     </div>
-                    <h3>Rich Summaries</h3>
-                    <p>Get structured summaries with key insights, formulas, callouts, and bullet points. Like having perfect notes, instantly.</p>
+                    <h3>{{ b.feature_summaries_title | default: "Rich Summaries" }}</h3>
+                    <p>{{ b.feature_summaries_desc | default: "Get structured summaries with key insights, formulas, callouts, and bullet points. Like having perfect notes, instantly." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-purple">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h3>AI Tutor</h3>
-                    <p>Chat with an AI tutor that knows your material. Ask questions, get explanations, and practice with challenges.</p>
+                    <h3>{{ b.feature_tutor_title | default: "AI Tutor" }}</h3>
+                    <p>{{ b.feature_tutor_desc | default: "Chat with an AI tutor that knows your material. Ask questions, get explanations, and practice with challenges." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-green">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
                     </div>
-                    <h3>Battle Mode</h3>
-                    <p>Challenge friends to real-time quiz battles using your own study material. Make studying competitive and fun.</p>
+                    <h3>{{ b.feature_battle_title | default: "Battle Mode" }}</h3>
+                    <p>{{ b.feature_battle_desc | default: "Challenge friends to real-time quiz battles using your own study material. Make studying competitive and fun." }}</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon feature-icon-cyan">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
                     </div>
-                    <h3>Scan Anything</h3>
-                    <p>Take a photo of textbooks, handwritten notes, or PDFs. AI extracts and processes everything automatically.</p>
+                    <h3>{{ b.feature_scan_title | default: "Scan Anything" }}</h3>
+                    <p>{{ b.feature_scan_desc | default: "Take a photo of textbooks, handwritten notes, or PDFs. AI extracts and processes everything automatically." }}</p>
                 </div>
             </div>
         </div>
@@ -1418,30 +1421,30 @@ layout: null
     <section class="how-it-works" id="how-it-works">
         <div class="container">
             <div class="how-it-works-header">
-                <div class="section-label">How It Works</div>
-                <h2 class="section-title">From notes to <span class="gradient-text">mastery</span></h2>
-                <p class="section-subtitle">Four simple steps to transform any material into a complete study system.</p>
+                <div class="section-label">{{ b.how_it_works_label | default: "How It Works" }}</div>
+                <h2 class="section-title">{{ b.how_it_works_heading_1 | default: "From notes to" }} <span class="gradient-text">{{ b.how_it_works_heading_2 | default: "mastery" }}</span></h2>
+                <p class="section-subtitle">{{ b.how_it_works_subtitle | default: "Four simple steps to transform any material into a complete study system." }}</p>
             </div>
             <div class="steps-grid">
                 <div class="step-card">
                     <div class="step-number">1</div>
-                    <h3>Scan</h3>
-                    <p>Take a photo of your notes, textbook, or upload a PDF document.</p>
+                    <h3>{{ b.step_1_title | default: "Scan" }}</h3>
+                    <p>{{ b.step_1_desc | default: "Take a photo of your notes, textbook, or upload a PDF document." }}</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">2</div>
-                    <h3>Process</h3>
-                    <p>AI analyzes your content and generates flashcards, quizzes, and summaries.</p>
+                    <h3>{{ b.step_2_title | default: "Process" }}</h3>
+                    <p>{{ b.step_2_desc | default: "AI analyzes your content and generates flashcards, quizzes, and summaries." }}</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">3</div>
-                    <h3>Study</h3>
-                    <p>Choose your mode: flashcards, quizzes, summaries, or chat with your AI tutor.</p>
+                    <h3>{{ b.step_3_title | default: "Study" }}</h3>
+                    <p>{{ b.step_3_desc | default: "Choose your mode: flashcards, quizzes, summaries, or chat with your AI tutor." }}</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">4</div>
-                    <h3>Battle</h3>
-                    <p>Challenge friends to quiz battles and see who knows the material best.</p>
+                    <h3>{{ b.step_4_title | default: "Battle" }}</h3>
+                    <p>{{ b.step_4_desc | default: "Challenge friends to quiz battles and see who knows the material best." }}</p>
                 </div>
             </div>
         </div>
@@ -1453,35 +1456,35 @@ layout: null
     <section class="showcase" id="screenshots">
         <div class="container">
             <div class="showcase-header">
-                <div class="section-label">iPhone</div>
-                <h2 class="section-title">See Brainfold <span class="gradient-text">in action</span></h2>
-                <p class="section-subtitle">Every screen is designed to make studying effortless, engaging, and effective.</p>
+                <div class="section-label">{{ b.screenshots_iphone_label | default: "iPhone" }}</div>
+                <h2 class="section-title">{{ b.screenshots_heading_1 | default: "See Brainfold" }} <span class="gradient-text">{{ b.screenshots_heading_2 | default: "in action" }}</span></h2>
+                <p class="section-subtitle">{{ b.screenshots_subtitle | default: "Every screen is designed to make studying effortless, engaging, and effective." }}</p>
             </div>
         </div>
         <div class="showcase-scroll">
             <div>
-                <img src="screenshots/raw/01_study_tab.jpg" alt="Study dashboard with pack list and radar chart" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">Study Dashboard</div>
+                <img src="/apps/brainfold/screenshots/raw/01_study_tab.jpg" alt="Study dashboard with pack list and radar chart" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">{{ b.caption_study | default: "Study Dashboard" }}</div>
             </div>
             <div>
-                <img src="screenshots/raw/02_flashcard.jpg" alt="Flashcard front side with swipe gestures" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">Flashcards</div>
+                <img src="/apps/brainfold/screenshots/raw/02_flashcard.jpg" alt="Flashcard front side with swipe gestures" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">{{ b.caption_flashcards | default: "Flashcards" }}</div>
             </div>
             <div>
-                <img src="screenshots/raw/03_quiz.jpg" alt="Multiple choice quiz with answer feedback" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">Smart Quiz</div>
+                <img src="/apps/brainfold/screenshots/raw/03_quiz.jpg" alt="Multiple choice quiz with answer feedback" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">{{ b.caption_quiz | default: "Smart Quiz" }}</div>
             </div>
             <div>
-                <img src="screenshots/raw/04_tutor.jpg" alt="AI tutor chat with structured explanations" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">AI Tutor</div>
+                <img src="/apps/brainfold/screenshots/raw/04_tutor.jpg" alt="AI tutor chat with structured explanations" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">{{ b.caption_tutor | default: "AI Tutor" }}</div>
             </div>
             <div>
-                <img src="screenshots/raw/05_summary.jpg" alt="Rich summary with callouts and formulas" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">Rich Summary</div>
+                <img src="/apps/brainfold/screenshots/raw/05_summary.jpg" alt="Rich summary with callouts and formulas" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">{{ b.caption_summary | default: "Rich Summary" }}</div>
             </div>
             <div>
-                <img src="screenshots/raw/06_battle.jpg" alt="Battle mode setup screen" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">Battle Mode</div>
+                <img src="/apps/brainfold/screenshots/raw/06_battle.jpg" alt="Battle mode setup screen" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <div class="showcase-caption">{{ b.caption_battle | default: "Battle Mode" }}</div>
             </div>
         </div>
     </section>
@@ -1492,43 +1495,43 @@ layout: null
     <section class="ipad-showcase">
         <div class="container">
             <div class="ipad-showcase-header">
-                <div class="section-label">iPad</div>
-                <h2 class="section-title">Beautiful on <span class="gradient-text">iPad</span></h2>
-                <p class="section-subtitle">Take advantage of the larger screen for an immersive study experience.</p>
+                <div class="section-label">{{ b.screenshots_ipad_label | default: "iPad" }}</div>
+                <h2 class="section-title">{{ b.ipad_heading_1 | default: "Beautiful on" }} <span class="gradient-text">{{ b.ipad_heading_2 | default: "iPad" }}</span></h2>
+                <p class="section-subtitle">{{ b.ipad_subtitle | default: "Take advantage of the larger screen for an immersive study experience." }}</p>
             </div>
         </div>
         <div class="ipad-showcase-scroll">
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="screenshots/ipad/raw/01_study_tab.jpg" alt="Brainfold on iPad - Study Dashboard" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/raw/01_study_tab.jpg" alt="Brainfold on iPad - Study Dashboard" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
-                <div class="showcase-caption">Study Dashboard</div>
+                <div class="showcase-caption">{{ b.ipad_caption_study | default: "Study Dashboard" }}</div>
             </div>
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="screenshots/ipad/raw/05_summary.jpg" alt="Brainfold on iPad - Rich Summary" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/raw/05_summary.jpg" alt="Brainfold on iPad - Rich Summary" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
-                <div class="showcase-caption">Rich Summary</div>
+                <div class="showcase-caption">{{ b.ipad_caption_summary | default: "Rich Summary" }}</div>
             </div>
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="screenshots/ipad/raw/04_tutor.jpg" alt="Brainfold on iPad - AI Tutor" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/raw/04_tutor.jpg" alt="Brainfold on iPad - AI Tutor" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
-                <div class="showcase-caption">AI Tutor</div>
+                <div class="showcase-caption">{{ b.ipad_caption_tutor | default: "AI Tutor" }}</div>
             </div>
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="screenshots/ipad/raw/06_battle.jpg" alt="Brainfold on iPad - Battle Mode" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/raw/06_battle.jpg" alt="Brainfold on iPad - Battle Mode" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
-                <div class="showcase-caption">Battle Mode</div>
+                <div class="showcase-caption">{{ b.ipad_caption_battle | default: "Battle Mode" }}</div>
             </div>
         </div>
     </section>
@@ -1539,40 +1542,40 @@ layout: null
     <section class="reviews" id="reviews">
         <div class="container">
             <div class="reviews-header">
-                <div class="section-label">Reviews</div>
-                <h2 class="section-title">Loved by <span class="gradient-text">students</span></h2>
-                <p class="section-subtitle">See what students around the world are saying about Brainfold.</p>
+                <div class="section-label">{{ b.reviews_label | default: "Reviews" }}</div>
+                <h2 class="section-title">{{ b.reviews_heading_1 | default: "Loved by" }} <span class="gradient-text">{{ b.reviews_heading_2 | default: "students" }}</span></h2>
+                <p class="section-subtitle">{{ b.reviews_subtitle | default: "See what students around the world are saying about Brainfold." }}</p>
             </div>
             <div class="reviews-grid">
                 <div class="review-card">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"I scanned my entire biology textbook chapter and Brainfold created perfect flashcards in seconds. The AI tutor even helped me understand photosynthesis better than my professor!"</p>
-                    <span class="review-author">Sarah M. -- Biology Major</span>
+                    <p class="review-text">"{{ b.review_1_text | default: "I scanned my entire biology textbook chapter and Brainfold created perfect flashcards in seconds. The AI tutor even helped me understand photosynthesis better than my professor!" }}"</p>
+                    <span class="review-author">{{ b.review_1_author | default: "Sarah M. -- Biology Major" }}</span>
                 </div>
                 <div class="review-card">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"Battle mode is a game changer for study groups. My friends and I quiz each other before exams now and it's actually fun. Went from a C to an A in organic chemistry."</p>
-                    <span class="review-author">James K. -- Pre-Med Student</span>
+                    <p class="review-text">"{{ b.review_2_text | default: "Battle mode is a game changer for study groups. My friends and I quiz each other before exams now and it's actually fun. Went from a C to an A in organic chemistry." }}"</p>
+                    <span class="review-author">{{ b.review_2_author | default: "James K. -- Pre-Med Student" }}</span>
                 </div>
                 <div class="review-card">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"The summaries are incredible. I upload my lecture slides and get a beautifully organized study guide with key insights and formulas highlighted. Saves me hours of note-taking."</p>
-                    <span class="review-author">Priya R. -- Engineering Student</span>
+                    <p class="review-text">"{{ b.review_3_text | default: "The summaries are incredible. I upload my lecture slides and get a beautifully organized study guide with key insights and formulas highlighted. Saves me hours of note-taking." }}"</p>
+                    <span class="review-author">{{ b.review_3_author | default: "Priya R. -- Engineering Student" }}</span>
                 </div>
                 <div class="review-card">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"As a med student, I need to memorize thousands of terms. Brainfold's flashcards with spaced repetition have completely replaced my old study method. Absolute must-have app."</p>
-                    <span class="review-author">David L. -- Medical Student</span>
+                    <p class="review-text">"{{ b.review_4_text | default: "As a med student, I need to memorize thousands of terms. Brainfold flashcards with spaced repetition have completely replaced my old study method. Absolute must-have app." }}"</p>
+                    <span class="review-author">{{ b.review_4_author | default: "David L. -- Medical Student" }}</span>
                 </div>
                 <div class="review-card">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"I love that I can just take a photo of my handwritten notes and the app does everything. The quizzes really test understanding, not just memorization. Best study app I've ever used."</p>
-                    <span class="review-author">Emma T. -- High School Senior</span>
+                    <p class="review-text">"{{ b.review_5_text | default: "I love that I can just take a photo of my handwritten notes and the app does everything. The quizzes really test understanding, not just memorization. Best study app I have ever used." }}"</p>
+                    <span class="review-author">{{ b.review_5_author | default: "Emma T. -- High School Senior" }}</span>
                 </div>
                 <div class="review-card">
                     <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"The AI tutor feels like having a private tutor available 24/7. I asked it to explain derivatives step by step and it broke everything down perfectly with practice problems."</p>
-                    <span class="review-author">Carlos M. -- Math Student</span>
+                    <p class="review-text">"{{ b.review_6_text | default: "The AI tutor feels like having a private tutor available 24/7. I asked it to explain derivatives step by step and it broke everything down perfectly with practice problems." }}"</p>
+                    <span class="review-author">{{ b.review_6_author | default: "Carlos M. -- Math Student" }}</span>
                 </div>
             </div>
         </div>
@@ -1584,63 +1587,63 @@ layout: null
     <section class="plans" id="plans">
         <div class="container">
             <div class="plans-header">
-                <div class="section-label">Plans</div>
-                <h2 class="section-title">Choose your <span class="gradient-text">study plan</span></h2>
-                <p class="section-subtitle">Start free and upgrade when you're ready. Every plan includes the full Brainfold study toolkit.</p>
+                <div class="section-label">{{ b.plans_label | default: "Plans" }}</div>
+                <h2 class="section-title">{{ b.plans_heading_1 | default: "Choose your" }} <span class="gradient-text">{{ b.plans_heading_2 | default: "study plan" }}</span></h2>
+                <p class="section-subtitle">{{ b.plans_subtitle | default: "Start free and upgrade when you are ready. Every plan includes the full Brainfold study toolkit." }}</p>
             </div>
             <div class="plans-grid">
                 <!-- Free -->
                 <div class="plan-card">
-                    <div class="plan-name">Free</div>
-                    <div class="plan-subtitle">Get started with the basics</div>
+                    <div class="plan-name">{{ b.tier_free | default: "Free" }}</div>
+                    <div class="plan-subtitle">{{ b.tier_free_desc | default: "Get started with the basics" }}</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--free">&#10003;</span> 120 free credits</li>
-                        <li><span class="check check--free">&#10003;</span> Up to 30 scanned pages</li>
-                        <li><span class="check check--free">&#10003;</span> Up to 3 study packs</li>
-                        <li><span class="check check--free">&#10003;</span> 10 pages per scan</li>
-                        <li><span class="check check--free">&#10003;</span> Flashcards, quizzes &amp; summaries</li>
-                        <li><span class="check check--free">&#10003;</span> Battle mode</li>
-                        <li><span class="check check--free">&#10003;</span> Basic AI tutor</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_1 | default: "120 free credits" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_2 | default: "Up to 30 scanned pages" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_3 | default: "Up to 3 study packs" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_4 | default: "10 pages per scan" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_5 | default: "Flashcards, quizzes & summaries" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_6 | default: "Battle mode" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_7 | default: "Basic AI tutor" }}</li>
                     </ul>
-                    <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--free" target="_blank" rel="noopener">Get Started</a>
+                    <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--free" target="_blank" rel="noopener">{{ b.free_cta | default: "Get Started" }}</a>
                 </div>
 
                 <!-- Plus -->
                 <div class="plan-card plan-card--popular">
-                    <span class="plan-badge plan-badge--popular">Popular</span>
-                    <div class="plan-name">Plus</div>
-                    <div class="plan-subtitle">For serious students</div>
+                    <span class="plan-badge plan-badge--popular">{{ b.badge_popular | default: "Popular" }}</span>
+                    <div class="plan-name">{{ b.tier_plus | default: "Plus" }}</div>
+                    <div class="plan-subtitle">{{ b.tier_plus_desc | default: "For serious students" }}</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--coral">&#10003;</span> 950 monthly credits (~380 pages)</li>
-                        <li><span class="check check--coral">&#10003;</span> 15 daily credits (~6 pages/day)</li>
-                        <li><span class="check check--coral">&#10003;</span> Unlimited study packs</li>
-                        <li><span class="check check--coral">&#10003;</span> Unlimited pages per scan</li>
-                        <li><span class="check check--coral">&#10003;</span> Full AI tutor access</li>
-                        <li><span class="check check--coral">&#10003;</span> Discounted battle hosting</li>
-                        <li><span class="check check--coral">&#10003;</span> Bonus credits on renewal</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_1 | default: "950 monthly credits (~380 pages)" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_2 | default: "15 daily credits (~6 pages/day)" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_3 | default: "Unlimited study packs" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_4 | default: "Unlimited pages per scan" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_5 | default: "Full AI tutor access" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_6 | default: "Discounted battle hosting" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_7 | default: "Bonus credits on renewal" }}</li>
                     </ul>
-                    <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--popular" target="_blank" rel="noopener">Subscribe</a>
+                    <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--popular" target="_blank" rel="noopener">{{ b.plus_cta | default: "Subscribe" }}</a>
                 </div>
 
                 <!-- Premium -->
                 <div class="plan-card plan-card--best">
-                    <span class="plan-badge plan-badge--best">Best Value</span>
-                    <div class="plan-name">Premium</div>
-                    <div class="plan-subtitle">Unlimited everything</div>
+                    <span class="plan-badge plan-badge--best">{{ b.badge_value | default: "Best Value" }}</span>
+                    <div class="plan-name">{{ b.tier_premium | default: "Premium" }}</div>
+                    <div class="plan-subtitle">{{ b.tier_premium_desc | default: "Unlimited everything" }}</div>
                     <div class="plan-divider"></div>
                     <ul class="plan-features">
-                        <li><span class="check check--gold">&#10003;</span> 2,400 monthly credits (~960 pages)</li>
-                        <li><span class="check check--gold">&#10003;</span> 30 daily credits (~12 pages/day)</li>
-                        <li><span class="check check--gold">&#10003;</span> Unlimited study packs</li>
-                        <li><span class="check check--gold">&#10003;</span> Unlimited pages per scan</li>
-                        <li><span class="check check--gold">&#10003;</span> Full AI tutor access</li>
-                        <li><span class="check check--gold">&#10003;</span> Free battle hosting</li>
-                        <li><span class="check check--gold">&#10003;</span> Priority support</li>
-                        <li><span class="check check--gold">&#10003;</span> Bonus credits on renewal</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_1 | default: "2,400 monthly credits (~960 pages)" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_2 | default: "30 daily credits (~12 pages/day)" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_3 | default: "Unlimited study packs" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_4 | default: "Unlimited pages per scan" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_5 | default: "Full AI tutor access" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_6 | default: "Free battle hosting" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_7 | default: "Priority support" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_8 | default: "Bonus credits on renewal" }}</li>
                     </ul>
-                    <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--best" target="_blank" rel="noopener">Subscribe</a>
+                    <a href="https://apps.apple.com/app/id6746427975" class="plan-cta plan-cta--best" target="_blank" rel="noopener">{{ b.premium_cta | default: "Subscribe" }}</a>
                 </div>
             </div>
         </div>
@@ -1651,16 +1654,16 @@ layout: null
          ======================================== -->
     <section class="final-cta">
         <div class="container">
-            <div class="section-label">Get Started</div>
-            <h2 class="section-title">Ready to study<br><span class="gradient-text">smarter?</span></h2>
-            <p class="section-subtitle">Download Brainfold and turn any material into your personal study system, powered by AI.</p>
+            <div class="section-label">{{ b.cta_label | default: "Get Started" }}</div>
+            <h2 class="section-title">{{ b.cta_heading_1 | default: "Ready to study" }}<br><span class="gradient-text">{{ b.cta_heading_2 | default: "smarter?" }}</span></h2>
+            <p class="section-subtitle">{{ b.cta_subtitle | default: "Download Brainfold and turn any material into your personal study system, powered by AI." }}</p>
             <a href="https://apps.apple.com/app/id6746427975" class="app-store-btn" target="_blank" rel="noopener" style="display: inline-flex;">
                 <svg viewBox="0 0 24 24" fill="currentColor">
                     <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                 </svg>
                 <div class="app-store-btn-text">
-                    <small>Download on the</small>
-                    <span>App Store</span>
+                    <small>{{ b.download_appstore | default: "Download on the" }}</small>
+                    <span>{{ b.appstore | default: "App Store" }}</span>
                 </div>
             </a>
         </div>
@@ -1672,13 +1675,13 @@ layout: null
     <footer>
         <div class="container">
             <div class="footer-content">
-                <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. All rights reserved.</span>
+                <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. {{ b.footer_rights | default: "All rights reserved." }}</span>
             </div>
         </div>
     </footer>
 
     <!-- Locale-aware screenshot swapping -->
-    <script src="locale.js"></script>
+    <script src="/apps/brainfold/locale.js"></script>
 
     <!-- ========================================
          SCROLL ANIMATIONS
