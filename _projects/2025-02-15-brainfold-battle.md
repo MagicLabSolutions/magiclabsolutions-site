@@ -9,7 +9,6 @@ accent_color: '#FF6B6B'
 app_store_url: 'https://apps.apple.com/app/id6746427975'
 permalink: /project/brainfold/
 link: /apps/brainfold/
-lang-ref: project-brainfold
 ---
 
 {% include app_brainfold.md %}

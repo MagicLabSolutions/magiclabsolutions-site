@@ -55,28 +55,6 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-polyglot
-
-languages: ["en", "de", "es", "fr", "pt-BR", "ja", "ko", "zh-Hans"]
-default_lang: "en"
-parallel_localization: true
-
-exclude_from_localization:
-  - js
-  - images
-  - css
-  - _sass
-  - CNAME
-  - googlee501f14b4b28a756.html
-  - apps/zuzu/
-  - apps/brainfold/
-  - apps/myrenewals/
-  - apps/qramen/
-  - zuzu/
-  - battle/
-  - invite/
-  - "*.pdf"
-  - "*.mp4"
 
 paginate: 6
 paginate_path: "/blog/page:num/"

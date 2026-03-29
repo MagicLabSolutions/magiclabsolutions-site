@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html class="no-js" lang="{{ site.active_lang }}">
+<html class="no-js" lang="en">
 
 <head>
 
@@ -36,18 +36,6 @@
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description | strip_html | xml_escape }}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
-	<meta property="og:locale" content="{{ site.active_lang | replace: '-', '_' }}" />
-
-	{% if page.lang-ref %}
-	{% for lang in site.languages %}
-	{% if lang == site.default_lang %}
-	<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url }}" />
-	{% else %}
-	<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ page.url }}" />
-	{% endif %}
-	{% endfor %}
-	<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
-	{% endif %}
 
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->

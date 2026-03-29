@@ -1,21 +1,20 @@
-{% assign t = site.data.translations[site.active_lang] %}
 <div class="contact-form">
 
 	<form method="post" action="{{ site.data.settings.contact_settings.form_action }}" id="contact-form">
 
 		<div class="contact-form__item">
-			<label class="contact-form__label">{{ t.contact_form.email_label }}</label>
-			<input type="text" name="email" placeholder="{{ t.contact_form.email_placeholder }}" class="contact-form__input">
+			<label class="contact-form__label">Email Address *</label>
+			<input type="text" name="email" placeholder="Your email address..." class="contact-form__input">
 		</div>
 
 		<div class="contact-form__item">
-			<label class="contact-form__label">{{ t.contact_form.name_label }}</label>
-			<input type="text" name="name" placeholder="{{ t.contact_form.name_placeholder }}" class="contact-form__input">
+			<label class="contact-form__label">Name *</label>
+			<input type="text" name="name" placeholder="Your name..." class="contact-form__input">
 		</div>
 
 		<div class="contact-form__item">
-			<label class="contact-form__label">{{ t.contact_form.message_label }}</label>
-			<textarea name="message" placeholder="{{ t.contact_form.message_placeholder }}" class="contact-form__textarea"></textarea>
+			<label class="contact-form__label">Message *</label>
+			<textarea name="message" placeholder="Your message..." class="contact-form__textarea"></textarea>
 		</div>
 
 		<input type="hidden" name="_next" value="{{ site.data.settings.contact_settings.confirmation_url }}" />
@@ -23,7 +22,7 @@
 		<input type="text" name="_gotcha" style="display: none;" class="contact-form__gotcha" val="">
 
 		<div class="contact-form__item">
-			<input type="submit" value="{{ t.contact_form.send_button }}" class="button button--large">
+			<input type="submit" value="{{ site.data.settings.contact_settings.send_button_text }}" class="button button--large">
 		</div>
 
 	</form>

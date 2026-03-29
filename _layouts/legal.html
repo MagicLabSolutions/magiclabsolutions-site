@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-{% assign t = site.data.translations[site.active_lang] %}
 
 <section class="legal-hero">
 	<div class="wrap">
-		<p class="legal-hero__label">{{ t.legal.label }}</p>
+		<p class="legal-hero__label">Legal</p>
 		<h1>{{ page.title }}</h1>
 		{% if page.effective_date %}
-		<p class="legal-hero__updated">{{ t.legal.effective }} {{ page.effective_date }}</p>
+		<p class="legal-hero__updated">Effective {{ page.effective_date }}</p>
 		{% endif %}
 	</div>
 </section>
