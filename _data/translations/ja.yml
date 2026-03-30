@@ -85,6 +85,43 @@ about:
   title: 当社について
   subtitle: 本当に使うアプリを作る二人の兄弟。
   description: iPhone、iPad、Android、あらゆるデバイスで快適に使えるネイティブモバイルアプリを設計、構築、サポートしています。
+  content: >
+    <div class="about-photo" style="display: flex; justify-content: center;">
+      <img src="/images/evandro_fabio.jpeg" alt="EvandroとFabio" style="width: 225px; height: 300px; object-fit: cover;" />
+    </div>
+
+    こんにちは！私たちはEvandroとFabioです。ブラジル出身の兄弟で、自分たちが本当に使うアプリを作っています。便利で、シンプルで、使っていて楽しいものにすることにこだわっています。アイデアやフィードバック、何か不具合があれば、ぜひお聞かせください。
+
+    <div class="about-socials">
+      <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+      </a>
+      <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+      </a>
+    </div>
+
+    ---
+
+    ## 私たちが作るもの
+
+    * SwiftとSwiftUIによるネイティブiOSアプリ — 滑らかなナビゲーションとカスタムトランジション
+    * iPhone/iPadとAndroidの両方に対応するクロスプラットフォーム体験
+    * あらゆるデバイスと画面サイズに美しく適応するユニバーサルレイアウト
+    * Widgets、Live Activities、プラットフォーム固有の拡張機能で、適切な情報を適切なタイミングで表示
+    * プライバシー最優先のストレージとデバイス間の安全な同期
+
+    ## 私たちの開発プロセス
+
+    * ユーザーニーズ、製品ビジョン、ローンチ目標を明確にするディスカバリースプリント
+    * プラットフォームガイドラインに沿ったインタラクティブなプロトタイプとデザインシステム
+    * モジュラーアーキテクチャ（MVVM、async/await）と自動テストによる安心のスケーリング
+    * パフォーマンスチューニング、アクセシビリティ監査、クラッシュモニタリングで磨き上げた体験を維持
+    * ローンチサポート — ベータテストからストア申請、リリースノート、ASO対応まで
+
+    ---
+
+    何か魔法のようなものを一緒に作りませんか？[メッセージをお送りください](/contact)。
 contact_page:
   title: お問い合わせ
   subtitle: ぜひご連絡ください。

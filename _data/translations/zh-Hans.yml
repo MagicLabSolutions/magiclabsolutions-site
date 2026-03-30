@@ -85,6 +85,43 @@ about:
   title: 关于我们
   subtitle: 两兄弟打造他们真正使用的应用。
   description: 我们为 iOS 和 Android 设计、构建和支持原生移动应用，让它们在每台设备上都完美运行。
+  content: >
+    <div class="about-photo" style="display: flex; justify-content: center;">
+      <img src="/images/evandro_fabio.jpeg" alt="Evandro和Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
+    </div>
+
+    你好！我们是Evandro和Fabio——来自巴西的兄弟，专注于开发我们自己也在使用的应用。我们非常注重让它们实用、简洁、令人愉悦。如果你有任何想法、反馈，或者发现什么问题，我们非常期待听到你的声音。
+
+    <div class="about-socials">
+      <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+      </a>
+      <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+      </a>
+    </div>
+
+    ---
+
+    ## 我们的产品
+
+    * 使用Swift和SwiftUI开发的原生iOS应用——丝滑的导航和自定义过渡动画
+    * 同时支持iPhone/iPad和Android的跨平台体验
+    * 在不同设备和屏幕尺寸上都能完美适配的通用布局
+    * Widgets、Live Activities和平台专属扩展，在合适的时间展示合适的信息
+    * 隐私至上的存储方案，支持跨设备安全同步
+
+    ## 我们的交付方式
+
+    * 通过发现冲刺明确用户需求、产品愿景和上线目标
+    * 符合平台规范的交互原型和设计系统
+    * 模块化架构（MVVM、async/await）和自动化测试，确保稳健扩展
+    * 性能调优、无障碍审查和崩溃监控，保持出色的用户体验
+    * 上线支持——从Beta测试到商店提交、版本说明和ASO跟进
+
+    ---
+
+    准备好打造魔法般的产品了吗？[给我们留言](/contact)。
 contact_page:
   title: 联系我们
   subtitle: 期待您的来信。

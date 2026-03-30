@@ -85,6 +85,43 @@ about:
   title: 소개
   subtitle: 정말 사용하는 앱을 만드는 두 형제.
   description: iPhone, iPad, Android 등 모든 기기에서 완벽하게 작동하는 네이티브 모바일 앱을 설계, 구축, 지원합니다.
+  content: >
+    <div class="about-photo" style="display: flex; justify-content: center;">
+      <img src="/images/evandro_fabio.jpeg" alt="Evandro와 Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
+    </div>
+
+    안녕하세요! 저희는 Evandro와 Fabio입니다. 브라질 출신의 형제로, 저희가 직접 사용하는 앱을 만들고 있습니다. 유용하고, 간단하며, 즐겁게 쓸 수 있는 앱을 만드는 데 큰 관심을 가지고 있습니다. 아이디어, 피드백, 또는 잘 작동하지 않는 부분이 있다면 꼭 알려주세요.
+
+    <div class="about-socials">
+      <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+      </a>
+      <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+      </a>
+    </div>
+
+    ---
+
+    ## 우리가 만드는 것
+
+    * Swift와 SwiftUI로 만든 네이티브 iOS 앱 — 부드러운 내비게이션과 커스텀 트랜지션
+    * iPhone/iPad와 Android를 위한 크로스 플랫폼 경험
+    * 다양한 기기와 화면 크기에 아름답게 적응하는 유니버설 레이아웃
+    * Widgets, Live Activities 및 플랫폼별 확장 기능으로 적시에 적절한 정보 제공
+    * 프라이버시 최우선 저장소와 기기 간 안전한 동기화
+
+    ## 우리의 작업 방식
+
+    * 사용자 니즈, 제품 비전, 출시 목표를 명확히 하는 디스커버리 스프린트
+    * 플랫폼 가이드라인에 맞춘 인터랙티브 프로토타입과 디자인 시스템
+    * 모듈형 아키텍처(MVVM, async/await)와 자동화 테스트로 안정적인 확장
+    * 성능 튜닝, 접근성 감사, 크래시 모니터링으로 완성도 높은 경험 유지
+    * 출시 지원 — 베타 테스트부터 스토어 제출, 릴리스 노트, ASO 후속 조치까지
+
+    ---
+
+    마법 같은 것을 만들 준비가 되셨나요? [메시지를 보내주세요](/contact).
 contact_page:
   title: 문의
   subtitle: 연락을 기다리고 있습니다.

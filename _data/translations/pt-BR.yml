@@ -85,6 +85,43 @@ about:
   title: Sobre nós
   subtitle: Dois irmãos criando apps que realmente usam.
   description: Projetamos, criamos e mantemos aplicativos móveis nativos para iOS e Android que se adaptam perfeitamente a qualquer dispositivo.
+  content: >
+    <div class="about-photo" style="display: flex; justify-content: center;">
+      <img src="/images/evandro_fabio.jpeg" alt="Evandro e Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
+    </div>
+
+    Oi! Somos o Evandro e o Fabio — dois irmãos do Brasil que criam apps que realmente usamos no dia a dia. Nos importamos muito em torná-los úteis, simples e agradáveis. Se você tiver ideias, feedback ou algo não estiver funcionando direito, adoraríamos ouvir de você.
+
+    <div class="about-socials">
+      <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+      </a>
+      <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+      </a>
+    </div>
+
+    ---
+
+    ## O que criamos
+
+    * Apps nativos para iOS com Swift e SwiftUI — navegação ultra fluida e transições personalizadas
+    * Experiências multiplataforma para iPhone/iPad e Android
+    * Layouts universais que se adaptam lindamente a diferentes dispositivos e tamanhos de tela
+    * Widgets, Live Activities e extensões específicas de cada plataforma que mostram a informação certa na hora certa
+    * Armazenamento com privacidade em primeiro lugar e sincronização segura entre dispositivos
+
+    ## Como entregamos
+
+    * Sprints de descoberta para definir necessidades dos usuários, visão do produto e metas de lançamento
+    * Protótipos interativos e sistemas de design alinhados com as diretrizes de cada plataforma
+    * Arquiteturas modulares (MVVM, async/await) e testes automatizados para escalar com confiança
+    * Otimização de desempenho, auditorias de acessibilidade e monitoramento de crashes para experiências impecáveis
+    * Suporte ao lançamento — de testes beta a submissões nas lojas, notas de versão e acompanhamento de ASO
+
+    ---
+
+    Pronto para criar algo mágico? [Envie-nos uma mensagem](/contact).
 contact_page:
   title: Contato
   subtitle: Adoraríamos ouvir de você.

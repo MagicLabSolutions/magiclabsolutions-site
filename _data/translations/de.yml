@@ -85,6 +85,43 @@ about:
   title: Über uns
   subtitle: Zwei Brüder entwickeln Apps, die sie wirklich nutzen.
   description: Wir entwerfen, erstellen und unterstützen native mobile Apps für iOS und Android, die auf jedem Gerät perfekt zu Hause sind.
+  content: >
+    <div class="about-photo" style="display: flex; justify-content: center;">
+      <img src="/images/evandro_fabio.jpeg" alt="Evandro und Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
+    </div>
+
+    Hallo! Wir sind Evandro und Fabio — zwei Brüder aus Brasilien, die Apps entwickeln, die wir selbst täglich nutzen. Es ist uns sehr wichtig, dass sie nützlich, einfach und angenehm zu bedienen sind. Wenn du Ideen, Feedback hast oder etwas nicht richtig funktioniert, freuen wir uns sehr, von dir zu hören.
+
+    <div class="about-socials">
+      <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+      </a>
+      <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+      </a>
+    </div>
+
+    ---
+
+    ## Was wir entwickeln
+
+    * Native iOS-Apps mit Swift und SwiftUI — butterweiche Navigation und maßgeschneiderte Übergänge
+    * Plattformübergreifende Erlebnisse für iPhone/iPad und Android
+    * Universelle Layouts, die sich wunderschön an verschiedene Geräte und Bildschirmgrößen anpassen
+    * Widgets, Live Activities und plattformspezifische Erweiterungen, die die richtigen Informationen zur richtigen Zeit anzeigen
+    * Datenschutz-orientierte Speicherung mit sicherer Synchronisierung über alle Geräte
+
+    ## Wie wir liefern
+
+    * Discovery-Sprints zur Klärung von Nutzerbedürfnissen, Produktvision und Launch-Zielen
+    * Interaktive Prototypen und Designsysteme, die den Plattform-Richtlinien entsprechen
+    * Modulare Architekturen (MVVM, async/await) und automatisierte Tests für zuverlässige Skalierung
+    * Performance-Optimierung, Barrierefreiheits-Audits und Crash-Monitoring für ein ausgereiftes Nutzererlebnis
+    * Launch-Unterstützung — von Beta-Tests über Store-Einreichungen und Release Notes bis hin zu ASO-Nachverfolgung
+
+    ---
+
+    Bereit, etwas Magisches zu bauen? [Schreib uns eine Nachricht](/contact).
 contact_page:
   title: Kontakt
   subtitle: Wir würden uns freuen, von Ihnen zu hören.

@@ -85,6 +85,43 @@ about:
   title: À propos
   subtitle: Deux frères qui créent des apps qu'ils utilisent vraiment.
   description: Nous concevons, créons et maintenons des applications mobiles natives pour iOS et Android qui s'adaptent parfaitement à chaque appareil.
+  content: >
+    <div class="about-photo" style="display: flex; justify-content: center;">
+      <img src="/images/evandro_fabio.jpeg" alt="Evandro et Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
+    </div>
+
+    Bonjour ! Nous sommes Evandro et Fabio — deux frères du Brésil qui développent des apps qu'ils utilisent vraiment au quotidien. Nous tenons beaucoup à ce qu'elles soient utiles, simples et agréables. Si vous avez des idées, des retours ou si quelque chose ne fonctionne pas correctement, nous serions ravis d'en discuter avec vous.
+
+    <div class="about-socials">
+      <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+      </a>
+      <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+      </a>
+    </div>
+
+    ---
+
+    ## Ce que nous créons
+
+    * Applications iOS natives avec Swift et SwiftUI — navigation ultra fluide et transitions personnalisées
+    * Expériences multiplateformes pour iPhone/iPad et Android
+    * Mises en page universelles qui s'adaptent élégamment à tous les appareils et tailles d'écran
+    * Widgets, Live Activities et extensions spécifiques à chaque plateforme qui affichent la bonne information au bon moment
+    * Stockage respectueux de la vie privée avec synchronisation sécurisée entre les appareils
+
+    ## Comment nous travaillons
+
+    * Sprints de découverte pour clarifier les besoins utilisateurs, la vision produit et les objectifs de lancement
+    * Prototypes interactifs et systèmes de design alignés sur les directives de chaque plateforme
+    * Architectures modulaires (MVVM, async/await) et tests automatisés pour une montée en charge sereine
+    * Optimisation des performances, audits d'accessibilité et monitoring des crashs pour des expériences irréprochables
+    * Accompagnement au lancement — des tests bêta aux soumissions en magasin, notes de version et suivi ASO
+
+    ---
+
+    Prêt à créer quelque chose de magique ? [Envoyez-nous un message](/contact).
 contact_page:
   title: Contact
   subtitle: Nous serions ravis d'avoir de vos nouvelles.

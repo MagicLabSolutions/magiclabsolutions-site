@@ -85,6 +85,43 @@ about:
   title: Acerca de nosotros
   subtitle: Dos hermanos creando apps que realmente usan.
   description: Diseñamos, creamos y mantenemos aplicaciones móviles nativas para iOS y Android que se sienten perfectamente en cualquier dispositivo.
+  content: >
+    <div class="about-photo" style="display: flex; justify-content: center;">
+      <img src="/images/evandro_fabio.jpeg" alt="Evandro y Fabio" style="width: 225px; height: 300px; object-fit: cover;" />
+    </div>
+
+    ¡Hola! Somos Evandro y Fabio — dos hermanos de Brasil que crean apps que realmente usamos nosotros mismos. Nos importa mucho que sean útiles, simples y agradables. Si tienes ideas, comentarios o algo no funciona bien, nos encantaría saber de ti.
+
+    <div class="about-socials">
+      <a href="https://www.linkedin.com/in/evandro-harrison-hoffmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Evandro
+      </a>
+      <a href="https://www.linkedin.com/in/fabio-gustavo-hoffmann-03931625" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i> Fabio
+      </a>
+    </div>
+
+    ---
+
+    ## Lo que creamos
+
+    * Apps nativas de iOS con Swift y SwiftUI — navegación ultra fluida y transiciones personalizadas
+    * Experiencias multiplataforma para iPhone/iPad y Android
+    * Diseños universales que se adaptan perfectamente a distintos dispositivos y tamaños de pantalla
+    * Widgets, Live Activities y extensiones específicas de cada plataforma que muestran la información correcta en el momento adecuado
+    * Almacenamiento con privacidad como prioridad y sincronización segura entre dispositivos
+
+    ## Cómo trabajamos
+
+    * Sprints de descubrimiento para definir necesidades del usuario, visión del producto y objetivos de lanzamiento
+    * Prototipos interactivos y sistemas de diseño alineados con las guías de cada plataforma
+    * Arquitecturas modulares (MVVM, async/await) y pruebas automatizadas para escalar con confianza
+    * Optimización del rendimiento, auditorías de accesibilidad y monitoreo de errores para mantener experiencias pulidas
+    * Soporte de lanzamiento — desde pruebas beta hasta envíos a la tienda, notas de versión y seguimiento de ASO
+
+    ---
+
+    ¿Listo para crear algo mágico? [Envíanos un mensaje](/contact).
 contact_page:
   title: Contacto
   subtitle: Nos encantaría saber de ti.
