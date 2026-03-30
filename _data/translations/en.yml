@@ -25,6 +25,23 @@ legal:
   effective: Effective
 app_card:
   learn_more: Learn More
+projects:
+  project-zuzu:
+    title: Zuzu
+    subtitle: Baby tracking, together
+    description: Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights — all in one place.
+  project-brainfold:
+    title: Brainfold
+    subtitle: AI-powered study companion
+    description: Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.
+  project-qramen:
+    title: QRamen
+    subtitle: Scan, create, and organize QR codes
+    description: Your all-in-one QR code companion. Scan, create custom-branded QR codes, organize with folders and tags, and track analytics — all in one beautifully designed app.
+  project-myrenewals:
+    title: MyRenewals
+    subtitle: Subscription tracker
+    description: Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew.
 home:
   title: Magic Lab Solutions — Mobile App Studio
   description: We craft premium, privacy-first mobile apps for iOS and Android.

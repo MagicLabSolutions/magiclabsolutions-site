@@ -25,6 +25,23 @@ legal:
   effective: 시행일
 app_card:
   learn_more: 자세히 보기
+projects:
+  project-zuzu:
+    title: Zuzu
+    subtitle: 함께하는 아기 기록
+    description: 아름다운 비주얼 타임라인으로 스마트한 아기 기록. 수면, 수유, 기저귀, 성장, AI 분석 — 모두 한 곳에서.
+  project-brainfold:
+    title: Brainfold
+    subtitle: AI 기반 학습 도우미
+    description: 노트를 스캔하고 AI가 플래시카드, 퀴즈, 요약, 개인 튜터를 만들게 하세요. 혼자 공부하거나 친구와 대결하세요.
+  project-qramen:
+    title: QRamen
+    subtitle: QR 코드 스캔, 생성 및 정리
+    description: 올인원 QR 코드 도우미. 스캔, 맞춤 QR 코드 생성, 폴더와 태그로 정리, 분석 추적 — 아름답게 디자인된 앱 하나로 모든 것을.
+  project-myrenewals:
+    title: MyRenewals
+    subtitle: 구독 관리
+    description: 구독을 완벽하게 관리하세요. 갱신 전에 정기 결제를 추적, 관리, 취소하세요.
 home:
   title: Magic Lab Solutions — 모바일 앱 스튜디오
   description: iOS 및 Android용 개인 정보 보호 우선 프리미엄 모바일 앱을 제작합니다.

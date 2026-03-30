@@ -25,6 +25,23 @@ legal:
   effective: 生效日期
 app_card:
   learn_more: 了解更多
+projects:
+  project-zuzu:
+    title: Zuzu
+    subtitle: 一起记录宝宝成长
+    description: 通过精美的可视化时间线智能记录宝宝的一切。睡眠、喂养、换尿布、成长和AI分析——尽在一处。
+  project-brainfold:
+    title: Brainfold
+    subtitle: AI驱动的学习伙伴
+    description: 扫描笔记，让AI创建闪卡、测验、摘要和个人导师。独自学习或与朋友对战。
+  project-qramen:
+    title: QRamen
+    subtitle: 扫描、创建和整理二维码
+    description: 您的一站式二维码助手。扫描、创建自定义品牌二维码、用文件夹和标签整理、跟踪分析——尽在一个精美设计的应用中。
+  project-myrenewals:
+    title: MyRenewals
+    subtitle: 订阅管理器
+    description: 掌控您的订阅。在续费前追踪、管理和取消定期付款。
 home:
   title: Magic Lab Solutions — 移动应用工作室
   description: 我们为 iOS 和 Android 打造优质、隐私至上的移动应用。

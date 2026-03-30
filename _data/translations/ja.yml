@@ -25,6 +25,23 @@ legal:
   effective: 発効日
 app_card:
   learn_more: 詳しく見る
+projects:
+  project-zuzu:
+    title: Zuzu
+    subtitle: 一緒に赤ちゃんの記録を
+    description: 美しいビジュアルタイムラインでスマートな赤ちゃんの記録。睡眠、授乳、おむつ、成長、AI分析 — すべてを一つの場所で。
+  project-brainfold:
+    title: Brainfold
+    subtitle: AI搭載の学習パートナー
+    description: ノートをスキャンしてAIにフラッシュカード、クイズ、要約、個人チューターを作成させましょう。一人で学習したり、友達と対戦したり。
+  project-qramen:
+    title: QRamen
+    subtitle: QRコードのスキャン、作成、整理
+    description: オールインワンのQRコードコンパニオン。スキャン、カスタムQRコードの作成、フォルダやタグで整理、分析の追跡 — すべてが美しくデザインされたアプリで。
+  project-myrenewals:
+    title: MyRenewals
+    subtitle: サブスクリプション管理
+    description: サブスクリプションをしっかり管理。定期払いを更新前に追跡、管理、解約。
 home:
   title: Magic Lab Solutions — モバイルアプリスタジオ
   description: iOS および Android 向けのプライバシー最優先のプレミアムモバイルアプリを作成しています。

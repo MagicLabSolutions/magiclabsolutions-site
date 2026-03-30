@@ -1,3 +1,6 @@
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
+{% assign ref = include.app.lang-ref %}
+{% assign proj = t.projects[ref] %}
 <article class="app-card animate-on-scroll" style="--card-accent: {{ include.app.accent_color | default: '#0071E3' }}">
 	<a href="{{ include.app.link | default: include.app.url | relative_url }}" class="app-card__link">
 		{% if include.app.app_icon %}
@@ -5,10 +8,9 @@
 			<img src="{{ include.app.app_icon | relative_url }}" alt="{{ include.app.title }} icon" />
 		</div>
 		{% endif %}
-		<h3 class="app-card__title">{{ include.app.title }}</h3>
-		<p class="app-card__subtitle">{{ include.app.subtitle }}</p>
-		<p class="app-card__description">{{ include.app.description }}</p>
-		{% assign t = site.data.translations[site.active_lang] %}
+		<h3 class="app-card__title">{{ proj.title | default: include.app.title }}</h3>
+		<p class="app-card__subtitle">{{ proj.subtitle | default: include.app.subtitle }}</p>
+		<p class="app-card__description">{{ proj.description | default: include.app.description }}</p>
 		<span class="app-card__cta">{{ t.app_card.learn_more | default: "Learn More" }} &rarr;</span>
 	</a>
 </article>
