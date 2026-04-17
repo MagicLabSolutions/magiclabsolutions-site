@@ -1283,7 +1283,6 @@ lang-ref: zuzu-page
             <ul class="nav-links">
                 <li><a href="#features">{{ z.nav_features | default: "Features" }}</a></li>
                 <li><a href="#screenshots">{{ z.nav_screenshots | default: "Screenshots" }}</a></li>
-                <li><a href="#pricing">{{ z.nav_pricing | default: "Pricing" }}</a></li>
                 <li>
                     <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="nav-cta" target="_blank" rel="noopener">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
@@ -1427,168 +1426,6 @@ lang-ref: zuzu-page
     </section>
 
     <!-- ========================================
-         PRICING SECTION
-         ======================================== -->
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <div class="pricing-header">
-                <div class="section-label">{{ z.pricing_label | default: "Pricing" }}</div>
-                <h2 class="section-title">{{ z.pricing_heading_1 | default: "Simple," }} <span class="gradient-text">{{ z.pricing_heading_2 | default: "transparent pricing" }}</span></h2>
-                <p class="section-subtitle">{{ z.pricing_subtitle | default: "Start free and upgrade when you're ready. No hidden fees, no surprise charges." }}</p>
-            </div>
-            <div class="pricing-grid">
-
-                <!-- Free Tier -->
-                <div class="pricing-card">
-                    <div class="pricing-tier">{{ z.tier_free | default: "Free" }}</div>
-                    <div class="pricing-desc">{{ z.tier_free_desc | default: "Get started with the basics" }}</div>
-                    <div class="pricing-divider"></div>
-                    <ul class="pricing-features">
-                        <li>
-                            <span class="check check-free">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.free_1 | default: "Track 1 baby" }}
-                        </li>
-                        <li>
-                            <span class="check check-free">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.free_2 | default: "7 days of history" }}
-                        </li>
-                        <li>
-                            <span class="check check-free">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.free_3 | default: "Basic tracking (sleep, feeds, diapers)" }}
-                        </li>
-                        <li>
-                            <span class="check check-free">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.free_4 | default: "Quick action buttons" }}
-                        </li>
-                    </ul>
-                    <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="pricing-cta pricing-cta-default" target="_blank" rel="noopener">{{ z.free_cta | default: "Get Started Free" }}</a>
-                </div>
-
-                <!-- Plus Tier -->
-                <div class="pricing-card featured">
-                    <div class="pricing-badge pricing-badge-popular">{{ z.badge_popular | default: "Popular" }}</div>
-                    <div class="pricing-tier">{{ z.tier_plus | default: "Plus" }}</div>
-                    <div class="pricing-desc">{{ z.tier_plus_desc | default: "For dedicated parents" }}</div>
-                    <div class="pricing-divider"></div>
-                    <ul class="pricing-features">
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_1 | default: "Everything in Free" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_2 | default: "Full history & trends" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_3 | default: "Smart sleep predictions" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_4 | default: "AI-powered insights" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_5 | default: "PDF export for doctor visits" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_6 | default: "Widgets & Wearables" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_7 | default: "Premium sounds" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_8 | default: "Custom event types" }}
-                        </li>
-                        <li>
-                            <span class="check check-purple">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.plus_9 | default: "1 additional caregiver" }}
-                        </li>
-                    </ul>
-                    <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="pricing-cta pricing-cta-primary" target="_blank" rel="noopener">{{ z.plus_cta | default: "Get Plus" }}</a>
-                </div>
-
-                <!-- Premium Tier -->
-                <div class="pricing-card premium">
-                    <div class="pricing-badge pricing-badge-value">{{ z.badge_value | default: "Best Value" }}</div>
-                    <div class="pricing-tier">{{ z.tier_premium | default: "Premium" }}</div>
-                    <div class="pricing-desc">{{ z.tier_premium_desc | default: "For the whole family" }}</div>
-                    <div class="pricing-divider"></div>
-                    <ul class="pricing-features">
-                        <li>
-                            <span class="check check-pink">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.premium_1 | default: "Everything in Plus" }}
-                        </li>
-                        <li>
-                            <span class="check check-pink">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.premium_2 | default: "Unlimited babies" }}
-                        </li>
-                        <li>
-                            <span class="check check-pink">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.premium_3 | default: "Unlimited caregivers" }}
-                        </li>
-                        <li>
-                            <span class="check check-pink">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.premium_4 | default: "Caregiver activity log" }}
-                        </li>
-                        <li>
-                            <span class="check check-pink">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.premium_5 | default: "Weekly summary reports" }}
-                        </li>
-                        <li>
-                            <span class="check check-pink">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                            </span>
-                            {{ z.premium_6 | default: "Priority support" }}
-                        </li>
-                    </ul>
-                    <a href="https://apps.apple.com/us/app/zuzu-baby-sleep-tracker/id6757988505" class="pricing-cta pricing-cta-pink" target="_blank" rel="noopener">{{ z.premium_cta | default: "Get Premium" }}</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
          REVIEWS SECTION
          ======================================== -->
     <section class="reviews" id="reviews">
@@ -1698,7 +1535,7 @@ lang-ref: zuzu-page
             });
         }, observerOptions);
 
-        document.querySelectorAll('.feature-card, .pricing-card').forEach((el, i) => {
+        document.querySelectorAll('.feature-card').forEach((el, i) => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
             el.style.transition = `opacity 0.6s ease ${i * 0.08}s, transform 0.6s ease ${i * 0.08}s`;
