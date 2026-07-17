@@ -1,8 +1,16 @@
 {% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
 {% assign ref = include.app.lang-ref %}
 {% assign proj = t.projects[ref] %}
+{% assign card_link = include.app.link | default: include.app.url %}
+{% if card_link contains '://' %}
+	{% assign card_href = card_link %}
+	{% assign card_external = true %}
+{% else %}
+	{% assign card_href = card_link | relative_url %}
+	{% assign card_external = false %}
+{% endif %}
 <article class="app-card animate-on-scroll" style="--card-accent: {{ include.app.accent_color | default: '#0071E3' }}">
-	<a href="{{ include.app.link | default: include.app.url | relative_url }}" class="app-card__link">
+	<a href="{{ card_href }}" class="app-card__link"{% if card_external %} target="_blank" rel="noopener"{% endif %}>
 		{% if include.app.app_icon %}
 		<div class="app-card__icon">
 			<img src="{{ include.app.app_icon | relative_url }}" alt="{{ include.app.title }} icon" />

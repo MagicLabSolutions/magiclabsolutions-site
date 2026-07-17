@@ -26,6 +26,14 @@ legal:
 app_card:
   learn_more: Learn More
 projects:
+  project-kinfold:
+    title: Kinfold
+    subtitle: Family documents & travel
+    description: A private, iCloud-backed home for your family's passports, IDs, and visas — with expiry reminders, smart-copy in any format, and travel-ready packing.
+  project-hooray:
+    title: Hooray
+    subtitle: Group cards people remember
+    description: Start a group greeting card, share a private link, and everyone adds messages, stickers, and GIFs. It's delivered to the recipient's inbox with a confetti reveal.
   project-zuzu:
     title: Zuzu
     subtitle: Baby tracking, together
@@ -56,6 +64,12 @@ home:
   zuzu_subtitle: Baby tracking, together
   zuzu_desc: Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights -- all in one place.
   explore_zuzu: Explore Zuzu
+  kinfold_subtitle: Family documents & travel
+  kinfold_desc: A private, iCloud-backed home for your family's passports, IDs, and visas — with expiry reminders, smart-copy, and travel-ready packing.
+  explore_kinfold: Explore Kinfold
+  hooray_subtitle: Group cards people remember
+  hooray_desc: Start a group greeting card, share a private link, and everyone adds messages, stickers, and GIFs — delivered with a confetti reveal.
+  explore_hooray: Explore Hooray
   show_brainfold: Show Brainfold
   show_zuzu: Show Zuzu
   philosophy_heading: Built with care.<br>Designed for everyone.

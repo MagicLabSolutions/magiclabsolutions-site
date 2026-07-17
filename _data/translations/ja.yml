@@ -26,6 +26,14 @@ legal:
 app_card:
   learn_more: 詳しく見る
 projects:
+  project-kinfold:
+    title: Kinfold
+    subtitle: 家族の書類と旅行
+    description: 家族のパスポートや身分証、ビザをiCloudで安全に保管するプライベートな場所。有効期限のリマインダー、どんな書式にも合わせて使えるスマートコピー、旅行に備えた持ち物リストを備えています。
+  project-hooray:
+    title: Hooray
+    subtitle: 記憶に残るみんなの寄せ書き
+    description: グループのグリーティングカードを作成し、プライベートなリンクを共有すると、みんながメッセージやステッカー、GIFを追加できます。指定した時刻に相手の受信箱へ届き、紙吹雪の演出とともに開きます。
   project-zuzu:
     title: Zuzu
     subtitle: 一緒に赤ちゃんの記録を
@@ -56,6 +64,12 @@ home:
   zuzu_subtitle: 一緒にベビートラッキング
   zuzu_desc: 美しいビジュアルタイムラインでスマートなベビートラッキング。睡眠、授乳、おむつ、成長、AIによるインサイト — すべてが一か所に。
   explore_zuzu: Zuzuを探索する
+  kinfold_subtitle: 家族の書類と旅行
+  kinfold_desc: 家族のパスポートや身分証、ビザをiCloudで安全に保管するプライベートな場所。有効期限のリマインダー、スマートコピー、旅行に備えた持ち物リストを備えています。
+  explore_kinfold: Kinfoldを探索する
+  hooray_subtitle: 記憶に残るみんなの寄せ書き
+  hooray_desc: グループのグリーティングカードを作成し、プライベートなリンクを共有すると、みんながメッセージやステッカー、GIFを追加。紙吹雪の演出とともに届きます。
+  explore_hooray: Hoorayを探索する
   show_brainfold: Brainfoldを見る
   show_zuzu: Zuzuを見る
   philosophy_heading: 丁寧に作られています。<br>すべての人のために。

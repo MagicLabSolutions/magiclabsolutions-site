@@ -443,6 +443,74 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   }
 }
 
+// Kinfold card theme
+.featured-app__card--kinfold {
+  background: #0B0A14;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(ellipse at 80% 50%, rgba(88, 86, 214, 0.16), transparent 70%);
+    pointer-events: none;
+  }
+
+  &:hover {
+    @include translate(0, -4px);
+    box-shadow: 0 16px 48px rgba(88, 86, 214, 0.22);
+    color: #FFFFFF;
+  }
+
+  .featured-app__icon img {
+    box-shadow: 0 8px 24px rgba(88, 86, 214, 0.35);
+  }
+
+  .featured-app__title {
+    color: #8B89F0;
+  }
+
+  .featured-app__subtitle {
+    color: #A5A3F5;
+  }
+}
+
+// Hooray card theme
+.featured-app__card--hooray {
+  background: #17110D;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(ellipse at 80% 50%, rgba(255, 107, 74, 0.16), transparent 70%);
+    pointer-events: none;
+  }
+
+  &:hover {
+    @include translate(0, -4px);
+    box-shadow: 0 16px 48px rgba(255, 107, 74, 0.22);
+    color: #FFFFFF;
+  }
+
+  .featured-app__icon img {
+    box-shadow: 0 8px 24px rgba(255, 107, 74, 0.35);
+  }
+
+  .featured-app__title {
+    color: #FF6B4A;
+  }
+
+  .featured-app__subtitle {
+    color: #FFC838;
+  }
+}
+
 .featured-app__badge {
   position: absolute;
   top: 20px;
@@ -461,6 +529,14 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
   &--zuzu {
     background: linear-gradient(135deg, #8B5CF6, #EC4899);
+  }
+
+  &--kinfold {
+    background: linear-gradient(135deg, #5856D6, #8B89F0);
+  }
+
+  &--hooray {
+    background: linear-gradient(135deg, #FF6B4A, #FFC838);
   }
 }
 
@@ -519,6 +595,22 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
     .featured-app__card:hover & {
       color: #C4B5FD;
+    }
+  }
+
+  &--kinfold {
+    color: #A5A3F5;
+
+    .featured-app__card:hover & {
+      color: #C4C3F5;
+    }
+  }
+
+  &--hooray {
+    color: #FF8A6E;
+
+    .featured-app__card:hover & {
+      color: #FFB199;
     }
   }
 }

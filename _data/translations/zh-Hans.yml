@@ -26,6 +26,14 @@ legal:
 app_card:
   learn_more: 了解更多
 projects:
+  project-kinfold:
+    title: Kinfold
+    subtitle: 家庭证件与出行
+    description: 一个私密、由 iCloud 备份的空间，集中存放全家的护照、证件和签证，并提供到期提醒、可按任意格式复制的智能复制，以及出行前的行李清单。
+  project-hooray:
+    title: Hooray
+    subtitle: 让人难忘的集体贺卡
+    description: 发起一张集体贺卡，分享私密链接，大家都能添加留言、贴纸和 GIF。它会在设定的时间送达收件人的邮箱，并以彩纸庆祝的方式打开。
   project-zuzu:
     title: Zuzu
     subtitle: 一起记录宝宝成长
@@ -56,6 +64,12 @@ home:
   zuzu_subtitle: 一起记录宝宝成长
   zuzu_desc: 智能宝宝追踪，配有精美的可视时间轴。睡眠、喂养、换尿布、成长和AI驱动的洞察 — 一切尽在一处。
   explore_zuzu: 探索 Zuzu
+  kinfold_subtitle: 家庭证件与出行
+  kinfold_desc: 一个私密、由 iCloud 备份的空间，集中存放全家的护照、证件和签证，并提供到期提醒、智能复制以及出行前的行李清单。
+  explore_kinfold: 探索 Kinfold
+  hooray_subtitle: 让人难忘的集体贺卡
+  hooray_desc: 发起一张集体贺卡，分享私密链接，大家都能添加留言、贴纸和 GIF，并以彩纸庆祝的方式送达。
+  explore_hooray: 探索 Hooray
   show_brainfold: 查看 Brainfold
   show_zuzu: 查看 Zuzu
   philosophy_heading: 用心打造。<br>为每个人而设计。

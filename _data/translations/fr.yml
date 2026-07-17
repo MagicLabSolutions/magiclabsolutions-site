@@ -26,6 +26,14 @@ legal:
 app_card:
   learn_more: En savoir plus
 projects:
+  project-kinfold:
+    title: Kinfold
+    subtitle: Documents de famille & voyages
+    description: Un espace privé, sauvegardé sur iCloud, pour les passeports, pièces d'identité et visas de votre famille — avec rappels d'expiration, copie intelligente dans tous les formats et listes de bagages prêtes à voyager.
+  project-hooray:
+    title: Hooray
+    subtitle: Des cartes de groupe mémorables
+    description: Lancez une carte de vœux collective, partagez un lien privé, et chacun ajoute ses messages, autocollants et GIFs. Elle arrive dans la boîte mail du destinataire avec une pluie de confettis.
   project-zuzu:
     title: Zuzu
     subtitle: Suivi de bébé, ensemble
@@ -56,6 +64,12 @@ home:
   zuzu_subtitle: Suivi de bébé, ensemble
   zuzu_desc: Suivi intelligent de bébé avec une belle chronologie visuelle. Sommeil, repas, couches, croissance et analyses IA — tout en un seul endroit.
   explore_zuzu: Découvrir Zuzu
+  kinfold_subtitle: Documents de famille & voyages
+  kinfold_desc: Un espace privé, sauvegardé sur iCloud, pour les passeports, pièces d'identité et visas de votre famille — avec rappels d'expiration, copie intelligente et listes de bagages prêtes à voyager.
+  explore_kinfold: Découvrir Kinfold
+  hooray_subtitle: Des cartes de groupe mémorables
+  hooray_desc: Lancez une carte de vœux collective, partagez un lien privé, et chacun ajoute messages, autocollants et GIFs — livrée avec une pluie de confettis.
+  explore_hooray: Découvrir Hooray
   show_brainfold: Voir Brainfold
   show_zuzu: Voir Zuzu
   philosophy_heading: Conçu avec soin.<br>Pensé pour tous.

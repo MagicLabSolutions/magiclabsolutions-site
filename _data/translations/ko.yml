@@ -26,6 +26,14 @@ legal:
 app_card:
   learn_more: 자세히 보기
 projects:
+  project-kinfold:
+    title: Kinfold
+    subtitle: 가족 문서와 여행
+    description: 가족의 여권, 신분증, 비자를 iCloud에 안전하게 보관하는 개인 공간입니다. 만료 알림, 어떤 서식에도 맞춰 복사하는 스마트 복사, 여행 준비 짐 목록을 제공합니다.
+  project-hooray:
+    title: Hooray
+    subtitle: 오래 기억되는 단체 카드
+    description: 단체 축하 카드를 만들고 비공개 링크를 공유하면 모두가 메시지, 스티커, GIF를 더할 수 있습니다. 예정된 시간에 받는 사람의 메일함으로 전달되며 색종이 축하와 함께 열립니다.
   project-zuzu:
     title: Zuzu
     subtitle: 함께하는 아기 기록
@@ -56,6 +64,12 @@ home:
   zuzu_subtitle: 함께하는 아기 기록
   zuzu_desc: 아름다운 비주얼 타임라인으로 스마트한 아기 기록. 수면, 수유, 기저귀, 성장, AI 기반 인사이트 — 모두 한 곳에서.
   explore_zuzu: Zuzu 살펴보기
+  kinfold_subtitle: 가족 문서와 여행
+  kinfold_desc: 가족의 여권, 신분증, 비자를 iCloud에 안전하게 보관하는 개인 공간입니다. 만료 알림, 스마트 복사, 여행 준비 짐 목록을 제공합니다.
+  explore_kinfold: Kinfold 살펴보기
+  hooray_subtitle: 오래 기억되는 단체 카드
+  hooray_desc: 단체 축하 카드를 만들고 비공개 링크를 공유하면 모두가 메시지, 스티커, GIF를 더할 수 있고, 색종이 축하와 함께 전달됩니다.
+  explore_hooray: Hooray 살펴보기
   show_brainfold: Brainfold 보기
   show_zuzu: Zuzu 보기
   philosophy_heading: 정성을 다해 만들었습니다.<br>모두를 위해 설계되었습니다.

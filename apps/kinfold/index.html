@@ -1,0 +1,980 @@
+---
+layout: null
+lang-ref: kinfold-page
+---
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign k = t.kinfold_page %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+    {% include gtag.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ k.title | default: "Kinfold — Family Documents & Travel, Kept Safe" }}</title>
+    <meta name="description" content="{{ k.description | default: "Kinfold keeps your family's passports, IDs, and visas in one private, iCloud-backed place. Scan on-device, get expiry reminders, smart-copy any format, and travel ready. For iPhone, iPad, Mac & Apple Vision Pro." }}">
+    <meta name="theme-color" content="#0B0A14">
+    <meta property="og:title" content="{{ k.title | default: "Kinfold — Family Documents & Travel" }}">
+    <meta property="og:description" content="{{ k.description | default: "Your family's passports, IDs, and visas in one private, iCloud-backed place — with expiry reminders, smart-copy, and travel-ready packing." }}">
+    <meta property="og:image" content="/images/kinfold/app_icon.png">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <style>
+        /* ========================================
+           RESET & BASE
+           ======================================== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: #0B0A14;
+            color: #E2E8F0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ========================================
+           ANIMATIONS
+           ======================================== */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes glow-pulse {
+            0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        /* ========================================
+           UTILITIES
+           ======================================== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #8B89F0;
+            margin-bottom: 16px;
+            padding: 6px 16px;
+            background: rgba(88, 86, 214, 0.12);
+            border: 1px solid rgba(88, 86, 214, 0.22);
+            border-radius: 100px;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            line-height: 1.15;
+            letter-spacing: -0.025em;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            font-size: clamp(1.0625rem, 2vw, 1.25rem);
+            color: #94A3B8;
+            max-width: 620px;
+            line-height: 1.7;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #6D6BE8, #A5A3F5, #6D6BE8);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ========================================
+           NAVIGATION
+           ======================================== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 16px 0;
+            background: rgba(11, 10, 20, 0.8);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(88, 86, 214, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-back {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: rgba(226, 232, 240, 0.5);
+            padding: 6px;
+            border-radius: 8px;
+            transition: color 0.2s ease, background 0.2s ease;
+        }
+
+        .nav-back:hover {
+            color: #A5A3F5;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-logo-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+            margin-left: auto;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #94A3B8;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: #FFFFFF;
+        }
+
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            background: #5856D6;
+            color: #FFFFFF !important;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .nav-cta:hover {
+            background: #4644C4;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(88, 86, 214, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links li:not(:last-child) { display: none; }
+        }
+
+        /* ========================================
+           HERO SECTION
+           ======================================== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 0 80px;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background: linear-gradient(to top, #0B0A14, transparent);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(88, 86, 214, 0.1);
+            border: 1px solid rgba(88, 86, 214, 0.22);
+            border-radius: 100px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: #C4C3F5;
+            margin-bottom: 24px;
+        }
+
+        .hero-badge-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #22C55E;
+            box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.15);
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            line-height: 1.08;
+            letter-spacing: -0.035em;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: clamp(1.0625rem, 2vw, 1.25rem);
+            color: #94A3B8;
+            line-height: 1.7;
+            max-width: 520px;
+            margin-bottom: 32px;
+        }
+
+        .hero-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .hero-platforms {
+            margin-top: 18px;
+            font-size: 0.8125rem;
+            color: #64748B;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .app-store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 28px;
+            background: #FFFFFF;
+            color: #0B0A14;
+            text-decoration: none;
+            border-radius: 14px;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.25s ease;
+            border: none;
+        }
+
+        .app-store-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15);
+        }
+
+        .app-store-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .app-store-btn-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 1.2;
+        }
+
+        .app-store-btn-text small {
+            font-size: 0.6875rem;
+            font-weight: 400;
+            opacity: 0.7;
+        }
+
+        .app-store-btn-text span {
+            font-size: 1.125rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .hero-visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .hero-icon-wrapper {
+            position: relative;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .hero-icon-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(88, 86, 214, 0.3) 0%, rgba(124, 122, 240, 0.12) 40%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(40px);
+            animation: glow-pulse 4s ease-in-out infinite;
+        }
+
+        .hero-app-icon {
+            position: relative;
+            width: 280px;
+            height: 280px;
+            border-radius: 62px;
+            box-shadow: 0 25px 60px rgba(88, 86, 214, 0.35), 0 0 80px rgba(88, 86, 214, 0.12);
+        }
+
+        @media (max-width: 900px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 48px;
+            }
+            .hero-content { order: 1; }
+            .hero-visual { order: 2; }
+            .hero p { margin-left: auto; margin-right: auto; }
+            .hero-actions { justify-content: center; }
+            .hero-platforms { justify-content: center; }
+            .hero-app-icon { width: 200px; height: 200px; border-radius: 46px; }
+        }
+
+        /* ========================================
+           FRAMED SCREENSHOTS (frame baked in)
+           ======================================== */
+        .framed-screenshot {
+            display: block;
+            width: 260px;
+            height: auto;
+            border-radius: 14px;
+            filter: drop-shadow(0 25px 60px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 40px rgba(88, 86, 214, 0.1));
+        }
+
+        @media (max-width: 600px) {
+            .framed-screenshot { width: 220px; }
+        }
+
+        /* ========================================
+           FEATURES SECTION
+           ======================================== */
+        .features {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .features::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(88, 86, 214, 0.25), transparent);
+        }
+
+        .features-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .features-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            position: relative;
+            padding: 32px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(88, 86, 214, 0.35), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feature-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(88, 86, 214, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .feature-icon-indigo { background: rgba(88, 86, 214, 0.14); border: 1px solid rgba(88, 86, 214, 0.2); }
+        .feature-icon-violet { background: rgba(139, 92, 246, 0.12); border: 1px solid rgba(139, 92, 246, 0.16); }
+        .feature-icon-blue   { background: rgba(59, 130, 246, 0.12); border: 1px solid rgba(59, 130, 246, 0.16); }
+        .feature-icon-amber  { background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.16); }
+        .feature-icon-teal   { background: rgba(6, 182, 212, 0.12);  border: 1px solid rgba(6, 182, 212, 0.16); }
+        .feature-icon-green  { background: rgba(34, 197, 94, 0.12);  border: 1px solid rgba(34, 197, 94, 0.16); }
+
+        .feature-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            letter-spacing: -0.01em;
+        }
+
+        .feature-card p {
+            font-size: 0.9375rem;
+            color: #94A3B8;
+            line-height: 1.65;
+        }
+
+        @media (max-width: 900px) {
+            .features-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 600px) {
+            .features-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ========================================
+           SCREENSHOT SHOWCASE SECTION
+           ======================================== */
+        .showcase {
+            padding: 120px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .showcase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(88, 86, 214, 0.25), transparent);
+        }
+
+        .showcase-header {
+            text-align: center;
+            margin-bottom: 56px;
+        }
+
+        .showcase-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .showcase-scroll {
+            display: flex;
+            gap: 28px;
+            overflow-x: auto;
+            padding: 20px 40px 40px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+
+        .showcase-scroll::-webkit-scrollbar { display: none; }
+
+        .showcase-scroll .framed-screenshot {
+            scroll-snap-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .showcase-scroll .framed-screenshot:hover {
+            transform: translateY(-8px);
+        }
+
+        .showcase-caption {
+            text-align: center;
+            margin-top: 8px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: #94A3B8;
+        }
+
+        /* ========================================
+           HOW IT WORKS SECTION
+           ======================================== */
+        .steps {
+            padding: 120px 0;
+            position: relative;
+        }
+
+        .steps::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(88, 86, 214, 0.25), transparent);
+        }
+
+        .steps-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .steps-header .section-subtitle {
+            margin: 0 auto;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .step-card {
+            padding: 36px 32px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .step-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(88, 86, 214, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .step-number {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #A5A3F5;
+            background: rgba(88, 86, 214, 0.14);
+            border: 1px solid rgba(88, 86, 214, 0.22);
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .step-card h3 {
+            font-size: 1.1875rem;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            letter-spacing: -0.01em;
+        }
+
+        .step-card p {
+            font-size: 0.9375rem;
+            color: #94A3B8;
+            line-height: 1.65;
+        }
+
+        @media (max-width: 900px) {
+            .steps-grid { grid-template-columns: 1fr; max-width: 460px; margin: 0 auto; }
+        }
+
+        /* ========================================
+           FINAL CTA SECTION
+           ======================================== */
+        .final-cta {
+            padding: 120px 0;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .final-cta::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(88, 86, 214, 0.12) 0%, rgba(124, 122, 240, 0.05) 40%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .final-cta .section-subtitle {
+            margin: 0 auto 40px;
+        }
+
+        /* ========================================
+           FOOTER
+           ======================================== */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: #475569;
+            font-size: 0.875rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-content a {
+            color: #64748B;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .footer-content a:hover {
+            color: #8B89F0;
+        }
+
+        .footer-sep { color: #334155; }
+
+        /* ========================================
+           RESPONSIVE OVERRIDES
+           ======================================== */
+        @media (max-width: 600px) {
+            .hero { padding: 100px 0 60px; }
+            .features, .showcase, .steps, .final-cta { padding: 80px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========================================
+         NAVIGATION
+         ======================================== -->
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="nav-back" title="Back to Magic Lab Solutions">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </a>
+            <a href="#" class="nav-logo">
+                <img src="/images/kinfold/app_icon.png" alt="Kinfold" class="nav-logo-icon">
+                Kinfold
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">{{ k.nav_features | default: "Features" }}</a></li>
+                <li><a href="#screenshots">{{ k.nav_screenshots | default: "Screenshots" }}</a></li>
+                <li>
+                    <a href="https://apps.apple.com/app/id6785646082" class="nav-cta" rel="noopener">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                        {{ k.nav_download | default: "Download" }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="hero-badge-dot"></span>
+                        {{ k.hero_badge | default: "iPhone · iPad · Mac · Apple Vision Pro" }}
+                    </div>
+                    <h1>{{ k.hero_heading_1 | default: "Your family's papers," }}<br><span class="gradient-text">{{ k.hero_heading_2 | default: "safe and ready" }}</span></h1>
+                    <p>{{ k.hero_text | default: "Kinfold keeps every passport, ID, and visa in one private, iCloud-backed place — reads them for you on-device, reminds you before they expire, and gets you packed when it's time to travel." }}</p>
+                    <div class="hero-actions">
+                        <a href="https://apps.apple.com/app/id6785646082" class="app-store-btn" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                            </svg>
+                            <div class="app-store-btn-text">
+                                <small>{{ k.download_appstore | default: "Download on the" }}</small>
+                                <span>{{ k.appstore | default: "App Store" }}</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hero-platforms">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                        {{ k.hero_privacy | default: "End-to-end encrypted in your iCloud. Nothing lives on our servers." }}
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-icon-wrapper">
+                        <div class="hero-icon-glow"></div>
+                        <img src="/images/kinfold/app_icon.png" alt="Kinfold App Icon" class="hero-app-icon" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FEATURES SECTION
+         ======================================== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-header">
+                <div class="section-label">{{ k.features_label | default: "Features" }}</div>
+                <h2 class="section-title">{{ k.features_heading_1 | default: "Everything important," }}<br><span class="gradient-text">{{ k.features_heading_2 | default: "in one place" }}</span></h2>
+                <p class="section-subtitle">{{ k.features_subtitle | default: "Kinfold turns a drawer full of documents into a calm, searchable, always-current home for your family's papers." }}</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-indigo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A5A3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="10" r="2"/><path d="M14 9h4M14 13h4M5 16c.7-1.5 2-2.3 3.5-2.3S11.3 14.5 12 16"/></svg>
+                    </div>
+                    <h3>{{ k.feature_scan_title | default: "Scan &amp; recognise" }}</h3>
+                    <p>{{ k.feature_scan_desc | default: "Scan a passport, ID, licence, visa, or permit and Kinfold reads the details, photo, and expiry date for you — entirely on-device. No typing, no uploading." }}</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-violet">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C4B5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                    </div>
+                    <h3>{{ k.feature_copy_title | default: "Smart-copy, any format" }}</h3>
+                    <p>{{ k.feature_copy_desc | default: "Every value is stored as a real type, so you can copy an expiry date exactly how a form wants it — airline·ICAO, German, Brazil·EU, US, or ISO 8601." }}</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-amber">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                    </div>
+                    <h3>{{ k.feature_renew_title | default: "Never miss a renewal" }}</h3>
+                    <p>{{ k.feature_renew_desc | default: "Kinfold tracks every expiry date and warns you well before a passport or visa lapses — so a renewal never sneaks up the week before a trip." }}</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-teal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    </div>
+                    <h3>{{ k.feature_trips_title | default: "Trips &amp; packing" }}</h3>
+                    <p>{{ k.feature_trips_desc | default: "Packing checklists that adapt to the destination and travelers, with a travel-readiness check that confirms every passport outlasts the trip." }}</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h3>{{ k.feature_schedule_title | default: "A schedule that thinks ahead" }}</h3>
+                    <p>{{ k.feature_schedule_desc | default: "An agenda and calendar with renewal events derived from your documents. Add an event in a sentence, and mirror the ones you choose to Apple Calendar." }}</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                    </div>
+                    <h3>{{ k.feature_private_title | default: "Private by design" }}</h3>
+                    <p>{{ k.feature_private_desc | default: "Your documents are end-to-end encrypted in your iCloud and shared only with the family members you choose. Nothing lives on our servers." }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SCREENSHOT SHOWCASE SECTION
+         ======================================== -->
+    <section class="showcase" id="screenshots">
+        <div class="container">
+            <div class="showcase-header">
+                <div class="section-label">{{ k.screenshots_label | default: "In Action" }}</div>
+                <h2 class="section-title">{{ k.screenshots_heading_1 | default: "See Kinfold" }} <span class="gradient-text">{{ k.screenshots_heading_2 | default: "in action" }}</span></h2>
+                <p class="section-subtitle">{{ k.screenshots_subtitle | default: "From the family vault to a fully packed trip, every screen is built to keep you calm and prepared." }}</p>
+            </div>
+        </div>
+        <div class="showcase-scroll">
+            <div>
+                <img src="/apps/kinfold/screenshots/en-US/01_vault.png" alt="Family vault with documents grouped by member" class="framed-screenshot" loading="lazy">
+                <div class="showcase-caption">{{ k.caption_vault | default: "Family vault" }}</div>
+            </div>
+            <div>
+                <img src="/apps/kinfold/screenshots/en-US/02_trip.png" alt="Trip overview with travel readiness" class="framed-screenshot" loading="lazy">
+                <div class="showcase-caption">{{ k.caption_trip | default: "Trip overview" }}</div>
+            </div>
+            <div>
+                <img src="/apps/kinfold/screenshots/en-US/03_packing.png" alt="Smart packing checklist" class="framed-screenshot" loading="lazy">
+                <div class="showcase-caption">{{ k.caption_packing | default: "Smart packing" }}</div>
+            </div>
+            <div>
+                <img src="/apps/kinfold/screenshots/en-US/04_schedule.png" alt="Schedule with renewal events" class="framed-screenshot" loading="lazy">
+                <div class="showcase-caption">{{ k.caption_schedule | default: "Schedule" }}</div>
+            </div>
+            <div>
+                <img src="/apps/kinfold/screenshots/en-US/05_search.png" alt="Instant on-device search" class="framed-screenshot" loading="lazy">
+                <div class="showcase-caption">{{ k.caption_search | default: "Instant search" }}</div>
+            </div>
+            <div>
+                <img src="/apps/kinfold/screenshots/en-US/06_document.png" alt="Document detail with smart-copy" class="framed-screenshot" loading="lazy">
+                <div class="showcase-caption">{{ k.caption_document | default: "Document detail" }}</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         HOW IT WORKS SECTION
+         ======================================== -->
+    <section class="steps">
+        <div class="container">
+            <div class="steps-header">
+                <div class="section-label">{{ k.steps_label | default: "How it works" }}</div>
+                <h2 class="section-title">{{ k.steps_heading_1 | default: "Set up once," }} <span class="gradient-text">{{ k.steps_heading_2 | default: "ready for years" }}</span></h2>
+                <p class="section-subtitle">{{ k.steps_subtitle | default: "Three steps to go from a drawer of loose papers to a family that's always travel-ready." }}</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>{{ k.step_1_title | default: "Scan your documents" }}</h3>
+                    <p>{{ k.step_1_desc | default: "Point your camera at a passport or ID and Kinfold reads and files it on-device — details, photo, and expiry date filled in for you." }}</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>{{ k.step_2_title | default: "Organise by family" }}</h3>
+                    <p>{{ k.step_2_desc | default: "Everyone's papers are grouped by member, with expiry status at a glance and sharing for the people you trust." }}</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>{{ k.step_3_title | default: "Travel with confidence" }}</h3>
+                    <p>{{ k.step_3_desc | default: "Renewal reminders, a smart schedule, and packing checklists keep every trip on track — long before you reach the airport." }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FINAL CTA SECTION
+         ======================================== -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="section-label">{{ k.cta_label | default: "Get Kinfold" }}</div>
+            <h2 class="section-title">{{ k.cta_heading_1 | default: "Your whole family's documents," }}<br><span class="gradient-text">{{ k.cta_heading_2 | default: "safe on every device" }}</span></h2>
+            <p class="section-subtitle">{{ k.cta_subtitle | default: "Download Kinfold and keep your family's most important documents organised, current, and ready — on iPhone, iPad, Mac, and Apple Vision Pro." }}</p>
+            <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                <a href="https://apps.apple.com/app/id6785646082" class="app-store-btn" rel="noopener" style="display: inline-flex;">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <div class="app-store-btn-text">
+                        <small>{{ k.download_appstore | default: "Download on the" }}</small>
+                        <span>{{ k.appstore | default: "App Store" }}</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. {{ k.footer_rights | default: "All rights reserved." }}</span>
+                <span class="footer-sep">·</span>
+                <a href="/privacy-policy">{{ k.footer_privacy | default: "Privacy Policy" }}</a>
+                <span class="footer-sep">·</span>
+                <a href="/terms-of-use">{{ k.footer_terms | default: "Terms of Use" }}</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================
+         SCROLL ANIMATIONS
+         ======================================== -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+        document.querySelectorAll('.feature-card, .step-card').forEach((el, i) => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = `opacity 0.6s ease ${(i % 3) * 0.08}s, transform 0.6s ease ${(i % 3) * 0.08}s`;
+            observer.observe(el);
+        });
+
+        const navbar = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                navbar.style.padding = '10px 0';
+                navbar.style.borderBottomColor = 'rgba(88, 86, 214, 0.15)';
+            } else {
+                navbar.style.padding = '16px 0';
+                navbar.style.borderBottomColor = 'rgba(88, 86, 214, 0.1)';
+            }
+        });
+    </script>
+
+</body>
+</html>
