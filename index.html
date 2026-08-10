@@ -65,7 +65,19 @@ lang-ref: home
 <section class="featured-app">
 	<div class="wrap">
 		<div class="featured-app__carousel" id="featuredCarousel">
-			<a href="/apps/kinfold/" class="featured-app__card featured-app__card--kinfold featured-app__card--active" data-slide="0">
+			<a href="/apps/sundust/" class="featured-app__card featured-app__card--sundust featured-app__card--active" data-slide="0">
+				<span class="featured-app__badge featured-app__badge--sundust">{{ t.home.badge_new | default: "New" }}</span>
+				<div class="featured-app__icon">
+					<img src="/images/sundust/app_icon.png" alt="Sundust icon" />
+				</div>
+				<div class="featured-app__content">
+					<h2 class="featured-app__title">Sundust</h2>
+					<p class="featured-app__subtitle">{{ t.home.sundust_subtitle | default: "Your tiny solar system" }}</p>
+					<p class="featured-app__desc">{{ t.home.sundust_desc | default: "A cozy space sandbox on real orbital mechanics. Fly your rocket, land gently, walk alien worlds, mine and build — across iPhone, iPad, Mac, and Apple TV." }}</p>
+					<span class="featured-app__cta featured-app__cta--sundust">{{ t.home.explore_sundust | default: "Explore Sundust" }} &rarr;</span>
+				</div>
+			</a>
+			<a href="/apps/kinfold/" class="featured-app__card featured-app__card--kinfold" data-slide="1">
 				<span class="featured-app__badge featured-app__badge--kinfold">{{ t.home.badge_new | default: "New" }}</span>
 				<div class="featured-app__icon">
 					<img src="/images/kinfold/app_icon.png" alt="Kinfold icon" />
@@ -77,7 +89,7 @@ lang-ref: home
 					<span class="featured-app__cta featured-app__cta--kinfold">{{ t.home.explore_kinfold | default: "Explore Kinfold" }} &rarr;</span>
 				</div>
 			</a>
-			<a href="https://hooraycards.com" target="_blank" rel="noopener" class="featured-app__card featured-app__card--hooray" data-slide="1">
+			<a href="https://hooraycards.com" target="_blank" rel="noopener" class="featured-app__card featured-app__card--hooray" data-slide="2">
 				<span class="featured-app__badge featured-app__badge--hooray">{{ t.home.badge_new | default: "New" }}</span>
 				<div class="featured-app__icon">
 					<img src="/images/hooray/app_icon.png" alt="Hooray icon" />
@@ -89,7 +101,7 @@ lang-ref: home
 					<span class="featured-app__cta featured-app__cta--hooray">{{ t.home.explore_hooray | default: "Explore Hooray" }} &rarr;</span>
 				</div>
 			</a>
-			<a href="/apps/brainfold/" class="featured-app__card featured-app__card--brainfold" data-slide="2">
+			<a href="/apps/brainfold/" class="featured-app__card featured-app__card--brainfold" data-slide="3">
 				<span class="featured-app__badge featured-app__badge--brainfold">{{ t.home.badge_new | default: "New" }}</span>
 				<div class="featured-app__icon">
 					<img src="/images/brainfold/app_icon.png" alt="Brainfold icon" />
@@ -101,7 +113,7 @@ lang-ref: home
 					<span class="featured-app__cta featured-app__cta--brainfold">{{ t.home.explore_brainfold | default: "Explore Brainfold" }} &rarr;</span>
 				</div>
 			</a>
-			<a href="/apps/zuzu/" class="featured-app__card featured-app__card--zuzu" data-slide="3">
+			<a href="/apps/zuzu/" class="featured-app__card featured-app__card--zuzu" data-slide="4">
 				<span class="featured-app__badge featured-app__badge--zuzu">{{ t.home.badge_new | default: "New" }}</span>
 				<div class="featured-app__icon">
 					<img src="/images/zuzu/app_icon.png" alt="Zuzu icon" />
@@ -115,10 +127,11 @@ lang-ref: home
 			</a>
 		</div>
 		<div class="featured-app__dots">
-			<button class="featured-app__dot featured-app__dot--active" data-slide="0" aria-label="Show Kinfold"></button>
-			<button class="featured-app__dot" data-slide="1" aria-label="Show Hooray"></button>
-			<button class="featured-app__dot" data-slide="2" aria-label="Show Brainfold"></button>
-			<button class="featured-app__dot" data-slide="3" aria-label="Show Zuzu"></button>
+			<button class="featured-app__dot featured-app__dot--active" data-slide="0" aria-label="Show Sundust"></button>
+			<button class="featured-app__dot" data-slide="1" aria-label="Show Kinfold"></button>
+			<button class="featured-app__dot" data-slide="2" aria-label="Show Hooray"></button>
+			<button class="featured-app__dot" data-slide="3" aria-label="Show Brainfold"></button>
+			<button class="featured-app__dot" data-slide="4" aria-label="Show Zuzu"></button>
 		</div>
 	</div>
 </section>
