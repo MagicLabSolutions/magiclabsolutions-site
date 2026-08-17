@@ -3,7 +3,7 @@
 Challenge your brain and battle your friends in real-time trivia showdowns. **Brainfold Battle** lets you create custom quizzes, compete head-to-head, and climb the leaderboard.
 
 <div style="text-align: center; margin: 30px 0;">
-  <a href="https://apps.apple.com/app/id6746427975" target="_blank" rel="noopener">
+  <a href="https://apps.apple.com/app/id6760474378" target="_blank" rel="noopener">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
   </a>
 </div>
@@ -49,7 +49,7 @@ Trivia is more fun when it's personal. **Brainfold Battle** lets you build quizz
 ---
 
 <div style="text-align: center; margin: 40px 0;">
-  <a href="https://apps.apple.com/app/id6746427975" target="_blank" rel="noopener">
+  <a href="https://apps.apple.com/app/id6760474378" target="_blank" rel="noopener">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
   </a>
 </div>
