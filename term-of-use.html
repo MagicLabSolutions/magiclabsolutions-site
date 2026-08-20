@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /term-of-use/
+sitemap: false
+lang-ref: term-of-use-redirect
+title: Terms of Use
+description: The Terms of Use have moved to /terms-of-use/.
+---
+{%- comment -%}
+Polyglot rewrites href attributes per language but leaves meta-refresh and
+script URLs alone, so build the localized path explicitly for all three.
+{%- endcomment -%}
+{%- if site.active_lang == site.default_lang -%}
+	{%- assign target = '/terms-of-use/' -%}
+{%- else -%}
+	{%- assign target = '/' | append: site.active_lang | append: '/terms-of-use/' -%}
+{%- endif -%}
+<!-- Legacy URL kept alive: earlier App Store listings advertised the singular
+     /term-of-use/ path, which never existed on this site. -->
+<link rel="canonical" href="{{ target | absolute_url }}">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url={{ target }}">
+<script>window.location.replace({{ target | jsonify }});</script>
+
+<section class="wrap" style="text-align: center; padding: 60px 20px;">
+	<p style="font-size: 1.125rem; color: #6E6E73; max-width: 480px; margin: 0 auto 2rem;">
+		The Terms of Use have moved.
+	</p>
+	<a href="{{ target }}" class="button button--large">Read the Terms of Use</a>
+</section>
