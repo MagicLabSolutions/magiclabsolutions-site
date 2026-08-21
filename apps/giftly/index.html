@@ -1,0 +1,400 @@
+---
+layout: null
+lang-ref: giftly-page
+---
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign s = t.giftly_page %}
+{% comment %}
+  Flip `released` to true the moment the app is approved — that swaps the
+  "coming soon" pill for a real App Store button. The link 404s until then.
+{% endcomment %}
+{% assign released = false %}
+{% assign app_store_url = "https://apps.apple.com/app/id6802913010" %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+    {% include gtag.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.title | default: "Giftly — Never Forget a Birthday" }}</title>
+    <meta name="description" content="{{ s.description | default: "Giftly keeps the people you love, the dates that matter, and the gift ideas worth remembering. Reminders that arrive in time to shop, and around 890 curated suggestions matched to tastes, age, and sizes — on iPhone, iPad, and Mac, synced privately through iCloud." }}">
+    <meta name="theme-color" content="#F7F4ED">
+    <meta property="og:title" content="{{ s.title | default: "Giftly — Never Forget a Birthday" }}">
+    <meta property="og:description" content="{{ s.og_description | default: "The people you love, the dates that matter, and the gift ideas worth remembering — on iPhone, iPad, and Mac." }}">
+    <meta property="og:image" content="/images/giftly/app_icon.png">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Giftly's own "paper" palette, lifted from the app's asset catalog */
+        :root {
+            --paper: #F7F4ED;
+            --surface: #FFFDF8;
+            --ink: #26231C;
+            --muted: #8A8577;
+            --line: #E7E1D2;
+            --evergreen: #1E6B58;
+            --evergreen-deep: #14513F;
+            --green-tint: #E4EFEA;
+            --marigold: #E2A63D;
+            --display: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            --body: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+        body {
+            font-family: var(--body);
+            background: var(--paper);
+            color: var(--ink);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+        h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.08; letter-spacing: -0.02em; }
+
+        a { color: inherit; }
+
+        /* ---------- Top bar ---------- */
+        .topbar {
+            position: sticky; top: 0; z-index: 50;
+            background: rgba(247, 244, 237, 0.86);
+            backdrop-filter: saturate(180%) blur(14px);
+            -webkit-backdrop-filter: saturate(180%) blur(14px);
+            border-bottom: 1px solid var(--line);
+        }
+        .topbar__inner { display: flex; align-items: center; gap: 20px; height: 62px; }
+        .topbar__brand { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 18px; text-decoration: none; }
+        .topbar__brand img { width: 30px; height: 30px; border-radius: 8px; }
+        .topbar__links { margin-left: auto; display: flex; align-items: center; gap: 22px; list-style: none; }
+        .topbar__links a { text-decoration: none; font-size: 14.5px; font-weight: 500; color: var(--muted); transition: color .18s; }
+        .topbar__links a:hover { color: var(--ink); }
+        @media (max-width: 700px) { .topbar__links li:not(:last-child) { display: none; } }
+
+        /* ---------- Buttons ---------- */
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+            padding: 13px 24px; border-radius: 999px;
+            font-family: var(--body); font-size: 15px; font-weight: 600;
+            text-decoration: none; border: 1px solid transparent;
+            transition: transform .16s ease, background .16s ease, border-color .16s ease;
+        }
+        .btn--solid { background: var(--evergreen); color: #FFFDF8; }
+        .btn--solid:hover { background: var(--evergreen-deep); transform: translateY(-1px); }
+        .btn--ghost { border-color: var(--evergreen); color: var(--evergreen); }
+        .btn--ghost:hover { background: var(--green-tint); transform: translateY(-1px); }
+        .btn--soon { background: var(--green-tint); color: var(--evergreen-deep); cursor: default; }
+
+        /* ---------- Hero ---------- */
+        .hero { padding: 76px 0 64px; position: relative; overflow: hidden; }
+        .hero::before {
+            content: ''; position: absolute; inset: 0; pointer-events: none;
+            background:
+                radial-gradient(closest-side at 88% 8%, rgba(30, 107, 88, 0.10), transparent),
+                radial-gradient(closest-side at 4% 88%, rgba(226, 166, 61, 0.14), transparent);
+        }
+        .hero__grid { position: relative; display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center; }
+        .hero__kicker {
+            display: inline-flex; align-items: center; gap: 8px;
+            font-size: 12px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase;
+            color: var(--evergreen); margin-bottom: 18px;
+        }
+        .hero__kicker::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--marigold); }
+        .hero h1 { font-size: clamp(38px, 6vw, 60px); margin-bottom: 18px; }
+        .hero h1 em { font-style: normal; color: var(--evergreen); }
+        .hero__lede { font-size: clamp(16.5px, 2vw, 19px); color: #4A463C; max-width: 34em; margin-bottom: 28px; }
+        .hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
+        .hero__platforms { font-size: 14px; color: var(--muted); }
+
+        .hero__art { display: flex; justify-content: center; }
+        .hero__icon { width: min(260px, 62vw); height: auto; filter: drop-shadow(0 24px 44px rgba(20, 81, 63, 0.22)); }
+
+        @media (max-width: 860px) {
+            .hero { padding: 52px 0 44px; }
+            .hero__grid { grid-template-columns: 1fr; gap: 34px; }
+            .hero__art { order: -1; }
+            .hero__icon { width: min(180px, 46vw); }
+        }
+
+        /* ---------- Sections ---------- */
+        .section { padding: 72px 0; }
+        .section--tinted { background: var(--surface); border-block: 1px solid var(--line); }
+        .section__head { max-width: 40em; margin-bottom: 42px; }
+        .section__head h2 { font-size: clamp(27px, 3.6vw, 38px); margin-bottom: 12px; }
+        .section__head p { color: var(--muted); font-size: 17px; }
+
+        /* ---------- Feature cards ---------- */
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); gap: 18px; }
+        .card {
+            background: var(--surface); border: 1px solid var(--line);
+            border-radius: 18px; padding: 26px 24px;
+            transition: transform .18s ease, box-shadow .18s ease;
+        }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(38, 35, 28, 0.07); }
+        .card__glyph {
+            width: 42px; height: 42px; border-radius: 12px;
+            background: var(--green-tint); color: var(--evergreen);
+            display: grid; place-items: center; margin-bottom: 16px;
+        }
+        .card__glyph svg { width: 21px; height: 21px; }
+        .card h3 { font-size: 18.5px; margin-bottom: 7px; }
+        .card p { font-size: 15px; color: #555044; }
+
+        /* ---------- Age bands ---------- */
+        .bands { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
+        .band { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: var(--surface); }
+        .band__top { padding: 18px 22px; background: var(--green-tint); }
+        .band__top strong { font-family: var(--display); font-size: 17px; }
+        .band__top span { display: block; font-size: 13px; color: var(--evergreen-deep); opacity: .8; }
+        .band ul { list-style: none; padding: 18px 22px 22px; }
+        .band li { font-size: 14.5px; color: #555044; padding-left: 18px; position: relative; margin-bottom: 7px; }
+        .band li::before { content: ''; position: absolute; left: 0; top: 9px; width: 6px; height: 6px; border-radius: 50%; background: var(--marigold); }
+
+        /* ---------- Privacy strip ---------- */
+        .privacy { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+        .privacy__item { text-align: center; padding: 22px 18px; border: 1px dashed var(--line); border-radius: 16px; }
+        .privacy__item strong { display: block; font-family: var(--display); font-size: 16.5px; margin-bottom: 4px; }
+        .privacy__item span { font-size: 14px; color: var(--muted); }
+
+        /* ---------- Closing CTA ---------- */
+        .closer { text-align: center; padding: 86px 0; background: var(--evergreen-deep); color: #F4F1E8; }
+        .closer h2 { font-size: clamp(28px, 4vw, 42px); margin-bottom: 14px; color: #FFFDF8; }
+        .closer p { color: rgba(244, 241, 232, .78); max-width: 32em; margin: 0 auto 26px; font-size: 17px; }
+        .closer .btn--solid { background: var(--marigold); color: #26231C; }
+        .closer .btn--solid:hover { background: #EDB863; }
+        .closer .btn--soon { background: rgba(255, 253, 248, .14); color: #F4F1E8; }
+        .closer .btn--ghost { border-color: rgba(244, 241, 232, .5); color: #F4F1E8; }
+        .closer .btn--ghost:hover { background: rgba(255, 253, 248, .1); }
+
+        /* ---------- Footer ---------- */
+        .foot { padding: 30px 0 40px; border-top: 1px solid var(--line); }
+        .foot__inner { display: flex; flex-wrap: wrap; gap: 14px 26px; align-items: center; font-size: 14px; color: var(--muted); }
+        .foot a { color: var(--muted); text-decoration: none; }
+        .foot a:hover { color: var(--ink); text-decoration: underline; }
+        .foot__spacer { margin-left: auto; }
+
+        /* ---------- Motion ---------- */
+        .reveal { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
+        .reveal.is-in { opacity: 1; transform: none; }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .reveal { opacity: 1; transform: none; transition: none; }
+            .card:hover, .btn:hover { transform: none; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="topbar">
+    <div class="wrap topbar__inner">
+        <a class="topbar__brand" href="/">
+            <img src="/images/giftly/app_icon.png" alt="">
+            Giftly
+        </a>
+        <ul class="topbar__links">
+            <li><a href="#features">{{ s.nav_features | default: "Features" }}</a></li>
+            <li><a href="#suggestions">{{ s.nav_suggestions | default: "Suggestions" }}</a></li>
+            <li><a href="#privacy">{{ s.nav_privacy | default: "Privacy" }}</a></li>
+            <li><a href="/giftly/support/">{{ s.nav_support | default: "Support" }}</a></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="wrap hero__grid">
+            <div>
+                <span class="hero__kicker">{{ s.hero_kicker | default: "iPhone · iPad · Mac" }}</span>
+                <h1>{{ s.hero_heading_1 | default: "Never arrive" }}<br><em>{{ s.hero_heading_2 | default: "empty-handed" }}</em></h1>
+                <p class="hero__lede">{{ s.hero_lede | default: "Giftly keeps the people you love, the dates that matter, and the gift ideas worth remembering — and reminds you while there is still time to do something about it." }}</p>
+                <div class="hero__actions">
+                    {% if released %}
+                    <a class="btn btn--solid" href="{{ app_store_url }}" target="_blank" rel="noopener">{{ s.cta_download | default: "Download on the App Store" }}</a>
+                    {% else %}
+                    <span class="btn btn--soon">{{ s.cta_soon | default: "Coming soon to the App Store" }}</span>
+                    {% endif %}
+                    <a class="btn btn--ghost" href="#features">{{ s.cta_learn | default: "See what it does" }}</a>
+                </div>
+                <p class="hero__platforms">{{ s.hero_platforms | default: "Free · No ads · No account · Synced through iCloud" }}</p>
+            </div>
+            <div class="hero__art">
+                <img class="hero__icon" src="/images/giftly/app_icon.png" alt="{{ s.icon_alt | default: "Giftly app icon" }}" loading="eager" width="512" height="512">
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--tinted" id="features">
+        <div class="wrap">
+            <div class="section__head reveal">
+                <h2>{{ s.features_heading | default: "The part you always forget, handled" }}</h2>
+                <p>{{ s.features_sub | default: "Everything Giftly does exists to stop one thing: realising, three days late, that you missed it." }}</p>
+            </div>
+            <div class="features">
+                <div class="card reveal">
+                    <div class="card__glyph">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
+                    </div>
+                    <h3>{{ s.f1_title | default: "Every date that matters" }}</h3>
+                    <p>{{ s.f1_body | default: "Birthdays, anniversaries, the day you met — plus the holidays each person actually celebrates, which follow the country you're in." }}</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card__glyph">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 1 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+                    </div>
+                    <h3>{{ s.f2_title | default: "Reminders with time to spare" }}</h3>
+                    <p>{{ s.f2_body | default: "On the day, three days, a week, or two weeks before — set per person, with a default you choose once in Settings." }}</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card__glyph">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                    </div>
+                    <h3>{{ s.f3_title | default: "Ideas you saved in March" }}</h3>
+                    <p>{{ s.f3_body | default: "Jot down a gift idea the moment it comes up. Mark the one you picked and the app stops nagging until the next occasion." }}</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card__glyph">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+                    </div>
+                    <h3>{{ s.f4_title | default: "Tastes, sizes, and notes" }}</h3>
+                    <p>{{ s.f4_body | default: "A hundred tastes across fourteen categories, plus shoe and clothing sizes — the details you can never recall in the shop." }}</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card__glyph">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+                    </div>
+                    <h3>{{ s.f5_title | default: "What you gave last year" }}</h3>
+                    <p>{{ s.f5_body | default: "A short history per person, so the same scarf never turns up twice." }}</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card__glyph">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 0 0 .5-8.98A6 6 0 0 0 6.3 9.4 4.5 4.5 0 0 0 7 19z"/></svg>
+                    </div>
+                    <h3>{{ s.f6_title | default: "On all your devices" }}</h3>
+                    <p>{{ s.f6_body | default: "iPhone, iPad, and Mac stay in step through your own iCloud account. Nothing passes through our servers." }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="suggestions">
+        <div class="wrap">
+            <div class="section__head reveal">
+                <h2>{{ s.sugg_heading | default: "Suggestions that fit the person" }}</h2>
+                <p>{{ s.sugg_sub | default: "Around 890 curated ideas — things and experiences — matched to their tastes, relationship, sizes and, crucially, their age. A seven-year-old and a grandparent get genuinely different lists." }}</p>
+            </div>
+            <div class="bands">
+                <div class="band reveal">
+                    <div class="band__top">
+                        <strong>{{ s.band_kids | default: "Children" }}</strong>
+                        <span>{{ s.band_kids_age | default: "up to 12" }}</span>
+                    </div>
+                    <ul>
+                        <li>{{ s.band_kids_1 | default: "A first fishing rod" }}</li>
+                        <li>{{ s.band_kids_2 | default: "A day at the aquarium" }}</li>
+                        <li>{{ s.band_kids_3 | default: "Build-a-birdhouse kit" }}</li>
+                    </ul>
+                </div>
+                <div class="band reveal">
+                    <div class="band__top">
+                        <strong>{{ s.band_teens | default: "Teenagers" }}</strong>
+                        <span>{{ s.band_teens_age | default: "13 to 17" }}</span>
+                    </div>
+                    <ul>
+                        <li>{{ s.band_teens_1 | default: "A coached skatepark session" }}</li>
+                        <li>{{ s.band_teens_2 | default: "Money towards driving lessons" }}</li>
+                        <li>{{ s.band_teens_3 | default: "Their own song pressed to vinyl" }}</li>
+                    </ul>
+                </div>
+                <div class="band reveal">
+                    <div class="band__top">
+                        <strong>{{ s.band_adults | default: "Grown-ups" }}</strong>
+                        <span>{{ s.band_adults_age | default: "18 and up" }}</span>
+                    </div>
+                    <ul>
+                        <li>{{ s.band_adults_1 | default: "A guided cheese tasting" }}</li>
+                        <li>{{ s.band_adults_2 | default: "Handmade ceramic mugs" }}</li>
+                        <li>{{ s.band_adults_3 | default: "A weekend in a cabin" }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--tinted" id="privacy">
+        <div class="wrap">
+            <div class="section__head reveal">
+                <h2>{{ s.privacy_heading | default: "Private by construction" }}</h2>
+                <p>{{ s.privacy_sub | default: "Giftly holds a list of the people closest to you. That list belongs to you and stays with you." }}</p>
+            </div>
+            <div class="privacy">
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p1_title | default: "No account" }}</strong>
+                    <span>{{ s.p1_body | default: "Nothing to sign up for" }}</span>
+                </div>
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p2_title | default: "No tracking" }}</strong>
+                    <span>{{ s.p2_body | default: "No analytics on your contacts" }}</span>
+                </div>
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p3_title | default: "Your iCloud" }}</strong>
+                    <span>{{ s.p3_body | default: "Synced in your private database" }}</span>
+                </div>
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p4_title | default: "34 languages" }}</strong>
+                    <span>{{ s.p4_body | default: "Including the gift catalogue" }}</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="closer">
+        <div class="wrap">
+            <h2>{{ s.closer_heading | default: "Someone you love has a birthday soon" }}</h2>
+            <p>{{ s.closer_body | default: "Add them once. Giftly takes it from there." }}</p>
+            {% if released %}
+            <a class="btn btn--solid" href="{{ app_store_url }}" target="_blank" rel="noopener">{{ s.cta_download | default: "Download on the App Store" }}</a>
+            {% else %}
+            <span class="btn btn--soon">{{ s.cta_soon | default: "Coming soon to the App Store" }}</span>
+            {% endif %}
+            <a class="btn btn--ghost" href="/giftly/support/">{{ s.cta_support | default: "Support" }}</a>
+        </div>
+    </section>
+</main>
+
+<footer class="foot">
+    <div class="wrap foot__inner">
+        <span>&copy; {{ site.time | date: "%Y" }} Magic Lab Solutions</span>
+        <span class="foot__spacer"></span>
+        <a href="/apps/">{{ t.nav.apps | default: "Apps" }}</a>
+        <a href="/giftly/support/">{{ s.nav_support | default: "Support" }}</a>
+        <a href="/privacy-policy/">{{ t.footer.privacy_policy | default: "Privacy Policy" }}</a>
+        <a href="/terms-of-use/">{{ t.footer.terms_of_use | default: "Terms of Use" }}</a>
+    </div>
+</footer>
+
+<script>
+    (function () {
+        var items = document.querySelectorAll('.reveal');
+        if (!('IntersectionObserver' in window)) {
+            items.forEach(function (el) { el.classList.add('is-in'); });
+            return;
+        }
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (!entry.isIntersecting) return;
+                entry.target.classList.add('is-in');
+                io.unobserve(entry.target);
+            });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+        items.forEach(function (el) { io.observe(el); });
+    })();
+</script>
+
+</body>
+</html>

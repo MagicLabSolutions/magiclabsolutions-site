@@ -1,0 +1,192 @@
+---
+layout: null
+permalink: /giftly/support/
+lang-ref: giftly-support
+---
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign s = t.giftly_support %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+    {% include gtag.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.title | default: "Giftly Support — Magic Lab Solutions" }}</title>
+    <meta name="description" content="{{ s.description | default: "Help with Giftly: iCloud sync, reminders, gift suggestions, languages, and how to reach a human." }}">
+    <meta name="theme-color" content="#F7F4ED">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --paper: #F7F4ED;
+            --surface: #FFFDF8;
+            --ink: #26231C;
+            --muted: #8A8577;
+            --line: #E7E1D2;
+            --evergreen: #1E6B58;
+            --evergreen-deep: #14513F;
+            --green-tint: #E4EFEA;
+            --marigold: #E2A63D;
+            --display: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            --body: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+        body {
+            font-family: var(--body); background: var(--paper); color: var(--ink);
+            line-height: 1.65; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+        }
+        .wrap { width: 100%; max-width: 760px; margin: 0 auto; padding: 0 24px; }
+        h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.12; letter-spacing: -0.02em; }
+        a { color: var(--evergreen); }
+
+        .topbar { background: var(--surface); border-bottom: 1px solid var(--line); }
+        .topbar__inner { display: flex; align-items: center; gap: 10px; height: 62px; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+        .topbar__brand { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 18px; text-decoration: none; color: var(--ink); }
+        .topbar__brand img { width: 30px; height: 30px; border-radius: 8px; }
+        .topbar__back { margin-left: auto; font-size: 14.5px; font-weight: 500; text-decoration: none; color: var(--muted); }
+        .topbar__back:hover { color: var(--ink); }
+
+        .head { padding: 60px 0 34px; }
+        .head h1 { font-size: clamp(32px, 5vw, 44px); margin-bottom: 12px; }
+        .head p { color: var(--muted); font-size: 17.5px; }
+
+        .contact {
+            display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+            background: var(--surface); border: 1px solid var(--line); border-radius: 18px;
+            padding: 24px; margin-bottom: 48px;
+        }
+        .contact__text strong { display: block; font-family: var(--display); font-size: 18px; margin-bottom: 3px; }
+        .contact__text span { font-size: 15px; color: var(--muted); }
+        .contact__cta {
+            margin-left: auto;
+            display: inline-flex; align-items: center; padding: 12px 22px; border-radius: 999px;
+            background: var(--evergreen); color: #FFFDF8; text-decoration: none;
+            font-size: 15px; font-weight: 600; transition: background .16s ease;
+        }
+        .contact__cta:hover { background: var(--evergreen-deep); }
+        @media (max-width: 560px) { .contact__cta { margin-left: 0; } }
+
+        .faq { padding-bottom: 20px; }
+        .faq h2 { font-size: 24px; margin-bottom: 20px; }
+        details {
+            border: 1px solid var(--line); border-radius: 14px; background: var(--surface);
+            padding: 0 20px; margin-bottom: 10px;
+        }
+        details[open] { border-color: #D6CDB6; }
+        summary {
+            list-style: none; cursor: pointer; padding: 17px 0;
+            font-family: var(--display); font-weight: 600; font-size: 16.5px;
+            display: flex; align-items: center; gap: 12px;
+        }
+        summary::-webkit-details-marker { display: none; }
+        summary::after {
+            content: '+'; margin-left: auto; color: var(--evergreen);
+            font-family: var(--body); font-weight: 500; font-size: 21px; line-height: 1;
+        }
+        details[open] summary::after { content: '−'; }
+        details > p, details > ul { padding: 0 0 18px; font-size: 15.5px; color: #555044; }
+        details > ul { padding-left: 20px; }
+        details > ul li { margin-bottom: 6px; }
+        details > p + p { padding-top: 0; }
+
+        .foot { padding: 34px 0 46px; border-top: 1px solid var(--line); margin-top: 40px; }
+        .foot__inner { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; font-size: 14px; color: var(--muted); max-width: 760px; margin: 0 auto; padding: 0 24px; }
+        .foot a { color: var(--muted); text-decoration: none; }
+        .foot a:hover { color: var(--ink); text-decoration: underline; }
+        .foot__spacer { margin-left: auto; }
+    </style>
+</head>
+<body>
+
+<header class="topbar">
+    <div class="topbar__inner">
+        <a class="topbar__brand" href="/apps/giftly/">
+            <img src="/images/giftly/app_icon.png" alt="">
+            Giftly
+        </a>
+        <a class="topbar__back" href="/apps/giftly/">{{ s.back | default: "← Back to Giftly" }}</a>
+    </div>
+</header>
+
+<main class="wrap">
+    <div class="head">
+        <h1>{{ s.heading | default: "Giftly Support" }}</h1>
+        <p>{{ s.subheading | default: "Answers to the things people ask most — and a real person at the end of an email." }}</p>
+    </div>
+
+    <div class="contact">
+        <div class="contact__text">
+            <strong>{{ s.contact_title | default: "Still stuck?" }}</strong>
+            <span>{{ s.contact_body | default: "Write to us and we'll get back to you. Telling us your device and iOS version helps." }}</span>
+        </div>
+        <a class="contact__cta" href="mailto:contact@magiclabsolutions.com?subject=Giftly%20Support">{{ s.contact_cta | default: "Email support" }}</a>
+    </div>
+
+    <section class="faq">
+        <h2>{{ s.faq_heading | default: "Common questions" }}</h2>
+
+        <details>
+            <summary>{{ s.q_sync | default: "My contacts aren't showing up on my other device" }}</summary>
+            <p>{{ s.a_sync_1 | default: "Giftly syncs through your own iCloud account, so both devices need to be signed in to the same Apple Account with iCloud Drive turned on, and iCloud enabled for Giftly in Settings." }}</p>
+            <p>{{ s.a_sync_2 | default: "The first sync can take a few minutes and needs a network connection. Opening the app on both devices and leaving it in the foreground for a moment usually settles it. Nothing you have already saved is lost while it catches up." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_reminders | default: "I'm not getting reminders" }}</summary>
+            <p>{{ s.a_reminders_1 | default: "Giftly asks for notification permission the first time it has a reason to remind you. If you declined, open the Settings app → Giftly → Notifications and turn them back on; the app also shows a warning when they're blocked." }}</p>
+            <p>{{ s.a_reminders_2 | default: "Each contact has its own switches — on the day, 3 days, 1 week, 2 weeks before — on their profile. Reminders arrive at 9:00 local time." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_defaults | default: "Can I choose which reminders new contacts start with?" }}</summary>
+            <p>{{ s.a_defaults | default: "Yes. Settings → Reminders for new contacts. Whatever you pick there becomes the starting point for everyone you add afterwards; contacts you already saved keep their own switches." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_suggestions | default: "Where do the gift suggestions come from?" }}</summary>
+            <p>{{ s.a_suggestions | default: "They're a hand-written catalogue of around 890 ideas built into the app — nothing is generated on a server and nothing about your contacts leaves your device. Suggestions are matched by the tastes you picked, the relationship, known sizes, and age band: children, teenagers and adults get different lists. Tap \"More ideas\" to cycle through a fresh batch." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_age | default: "Why am I seeing suggestions meant for a different age?" }}</summary>
+            <p>{{ s.a_age | default: "Age comes from the birthday you saved. If you ticked \"I don't know the year\", Giftly has no age to work with and assumes an adult. Adding the birth year switches the suggestions over immediately." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_holidays | default: "Which holidays does Giftly know about?" }}</summary>
+            <p>{{ s.a_holidays | default: "Mother's Day, Father's Day, Valentine's Day, Children's Day, Women's Day, Men's Day and Christmas — with the dates and the selection that apply to the country your device is set to. You choose per person which ones they celebrate, and any regional holiday can be picked for anyone." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_language | default: "Can I change the app's language?" }}</summary>
+            <p>{{ s.a_language | default: "Settings → Language. Giftly ships in 34 languages, including every gift suggestion. \"System\" follows your device; pick a specific language and Giftly asks you to relaunch so it applies everywhere." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_data | default: "What happens to my data?" }}</summary>
+            <p>{{ s.a_data | default: "It stays in your own private iCloud database and on your devices. There is no Giftly account, no server of ours in the middle, and no analytics on who you track or what you give them. Deleting the app removes the local copy; deleting the data from iCloud settings removes the synced one." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_platforms | default: "Which devices are supported?" }}</summary>
+            <p>{{ s.a_platforms | default: "iPhone and iPad on iOS/iPadOS 18 or later, and Mac on macOS 15 or later. Giftly is free on all of them." }}</p>
+        </details>
+    </section>
+</main>
+
+<footer class="foot">
+    <div class="foot__inner">
+        <span>&copy; {{ site.time | date: "%Y" }} Magic Lab Solutions</span>
+        <span class="foot__spacer"></span>
+        <a href="/apps/giftly/">Giftly</a>
+        <a href="/apps/">{{ t.nav.apps | default: "Apps" }}</a>
+        <a href="/privacy-policy/">{{ t.footer.privacy_policy | default: "Privacy Policy" }}</a>
+        <a href="/terms-of-use/">{{ t.footer.terms_of_use | default: "Terms of Use" }}</a>
+    </div>
+</footer>
+
+</body>
+</html>
