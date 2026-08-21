@@ -1,0 +1,248 @@
+---
+layout: null
+permalink: /brainfold/support/
+lang-ref: brainfold-support
+---
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign s = t.brainfold_support %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+    {% include gtag.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.title | default: "Brainfold Support — Magic Lab Solutions" }}</title>
+    <meta name="description" content="{{ s.description | default: "Help with Brainfold: accounts and syncing, how credits work, subscriptions and restoring purchases, scanning, battle mode, and how to reach a human." }}">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <style>
+        /* Brainfold's own dark palette, matching /apps/brainfold/ */
+        :root {
+            --bg: #000000;
+            --panel: #1A1A1A;
+            --panel-2: #2A2A2A;
+            --line: rgba(255, 255, 255, 0.09);
+            --text: #F1F5F9;
+            --text-dim: #CBD5E1;
+            --muted: #94A3B8;
+            --coral: #FF6B6B;
+            --orange: #FF8E53;
+            --amber: #FBBF24;
+            --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+        body {
+            font-family: var(--font); background: var(--bg); color: var(--text);
+            line-height: 1.65; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+        }
+        .wrap { width: 100%; max-width: 780px; margin: 0 auto; padding: 0 24px; }
+        h1, h2 { font-weight: 700; line-height: 1.14; letter-spacing: -0.02em; }
+        a { color: var(--orange); }
+
+        .grad {
+            background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent;
+        }
+
+        .topbar { background: rgba(10, 10, 10, 0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
+        .topbar__inner { display: flex; align-items: center; gap: 10px; height: 62px; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+        .topbar__brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; text-decoration: none; color: var(--text); }
+        .topbar__brand img { width: 30px; height: 30px; border-radius: 8px; }
+        .topbar__back { margin-left: auto; font-size: 14.5px; font-weight: 500; text-decoration: none; color: var(--muted); transition: color .18s; }
+        .topbar__back:hover { color: var(--text); }
+
+        .head { padding: 62px 0 32px; }
+        .head h1 { font-size: clamp(32px, 5vw, 44px); margin-bottom: 12px; }
+        .head p { color: var(--muted); font-size: 17.5px; }
+
+        .contact {
+            display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+            background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
+            padding: 24px; margin-bottom: 46px;
+        }
+        .contact__text strong { display: block; font-size: 18px; margin-bottom: 3px; }
+        .contact__text span { font-size: 15px; color: var(--muted); }
+        .contact__cta {
+            margin-left: auto;
+            display: inline-flex; align-items: center; padding: 12px 22px; border-radius: 999px;
+            background: linear-gradient(135deg, #FF6B6B, #FF8E53); color: #fff; text-decoration: none;
+            font-size: 15px; font-weight: 600; transition: opacity .18s ease, transform .18s ease;
+        }
+        .contact__cta:hover { opacity: .92; transform: translateY(-1px); }
+        @media (max-width: 560px) { .contact__cta { margin-left: 0; } }
+
+        .faq { padding-bottom: 22px; }
+        .faq h2 { font-size: 23px; margin: 34px 0 16px; }
+        .faq h2:first-child { margin-top: 0; }
+        details {
+            border: 1px solid var(--line); border-radius: 14px; background: var(--panel);
+            padding: 0 20px; margin-bottom: 10px;
+        }
+        details[open] { background: var(--panel-2); border-color: rgba(255, 142, 83, 0.3); }
+        summary {
+            list-style: none; cursor: pointer; padding: 17px 0;
+            font-weight: 600; font-size: 16.5px; color: var(--text);
+            display: flex; align-items: center; gap: 12px;
+        }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: '+'; margin-left: auto; color: var(--orange); font-weight: 500; font-size: 21px; line-height: 1; }
+        details[open] summary::after { content: '−'; }
+        details > p, details > ul { padding: 0 0 18px; font-size: 15.5px; color: var(--text-dim); }
+        details > p + p { padding-top: 0; }
+        details > ul { padding-left: 20px; }
+        details > ul li { margin-bottom: 6px; }
+        details strong { color: var(--text); font-weight: 600; }
+
+        .foot { padding: 34px 0 46px; border-top: 1px solid var(--line); margin-top: 40px; }
+        .foot__inner { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; font-size: 14px; color: var(--muted); max-width: 780px; margin: 0 auto; padding: 0 24px; }
+        .foot a { color: var(--muted); text-decoration: none; }
+        .foot a:hover { color: var(--text); text-decoration: underline; }
+        .foot__spacer { margin-left: auto; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .contact__cta:hover { transform: none; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="topbar">
+    <div class="topbar__inner">
+        <a class="topbar__brand" href="/apps/brainfold/">
+            <img src="/images/brainfold/app_icon.png" alt="">
+            Brainfold
+        </a>
+        <a class="topbar__back" href="/apps/brainfold/">{{ s.back | default: "← Back to Brainfold" }}</a>
+    </div>
+</header>
+
+<main class="wrap">
+    <div class="head">
+        <h1>{{ s.heading_1 | default: "Brainfold" }} <span class="grad">{{ s.heading_2 | default: "Support" }}</span></h1>
+        <p>{{ s.subheading | default: "Answers to the things people ask most — and a real person at the end of an email." }}</p>
+    </div>
+
+    <div class="contact">
+        <div class="contact__text">
+            <strong>{{ s.contact_title | default: "Still stuck?" }}</strong>
+            <span>{{ s.contact_body | default: "Write to us and we'll get back to you. Telling us your device, iOS version, and what you were doing helps." }}</span>
+        </div>
+        <a class="contact__cta" href="mailto:contact@magiclabsolutions.com?subject=Brainfold%20Support">{{ s.contact_cta | default: "Email support" }}</a>
+    </div>
+
+    <section class="faq">
+        <h2>{{ s.group_account | default: "Account & syncing" }}</h2>
+
+        <details>
+            <summary>{{ s.q_account | default: "Do I need an account?" }}</summary>
+            <p>{{ s.a_account_1 | default: "No — you can tap “Try it — no account needed” and start scanning straight away." }}</p>
+            <p>{{ s.a_account_2 | default: "An account is what makes your study packs follow you: it backs your work up and syncs it to your other devices. Without one, everything lives only on the device you created it on, and it goes away with the app." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_link | default: "I started without an account — can I keep what I made?" }}</summary>
+            <p>{{ s.a_link | default: "Yes. Open Settings → Link Account and sign in with Apple or with an email and password. Your existing packs, cards and progress move over to the account rather than being replaced. Do this before you delete the app or switch phones — an unlinked guest session cannot be recovered afterwards." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_signin | default: "Which sign-in options are there?" }}</summary>
+            <p>{{ s.a_signin | default: "Sign in with Apple, or an email address and password. Google sign-in appears in the app but is not switched on yet — if you tap it you'll see a message saying so. If you forgot your password, use “Forgot password?” on the email screen and we'll send a reset link." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_sync | default: "My packs aren't on my other device" }}</summary>
+            <p>{{ s.a_sync | default: "Make sure you're signed in to the same account on both devices — guest sessions don't sync. If you are signed in and something is still missing, the device may have been offline when you created it; open the app with a connection and give it a moment." }}</p>
+        </details>
+
+        <h2>{{ s.group_credits | default: "Credits" }}</h2>
+
+        <details>
+            <summary>{{ s.q_credits | default: "How do credits work?" }}</summary>
+            <p>{{ s.a_credits_1 | default: "Credits are what the AI work costs — scanning pages and generating flashcards, quizzes, summaries and tutor replies. The app shows the cost before you confirm, so nothing is ever spent by surprise." }}</p>
+            <p>{{ s.a_credits_2 | default: "Your monthly allowance resets on the 1st. Paid plans also top up a smaller amount every day at midnight. Credits sit in buckets with their own expiry dates, and the oldest ones are always used first — Settings shows your balance, the next refresh, and anything about to expire." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_out_of_credits | default: "I've run out of credits" }}</summary>
+            <p>{{ s.a_out_of_credits | default: "You can wait for the next refresh, buy a top-up, or move to a plan with a bigger allowance. Everything you have already generated stays readable and studiable while you're out — only new AI work needs credits." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_numbers | default: "How many credits does my plan include?" }}</summary>
+            <p>{{ s.a_numbers | default: "Open the plans screen in the app for the current numbers. We tune allowances and costs from time to time, so the app is always the accurate source rather than this page." }}</p>
+        </details>
+
+        <h2>{{ s.group_billing | default: "Subscriptions & purchases" }}</h2>
+
+        <details>
+            <summary>{{ s.q_restore | default: "I paid but the app still shows me as free" }}</summary>
+            <p>{{ s.a_restore | default: "Tap “Restore Purchases” on the plans screen, and check you're signed in to the App Store with the same Apple Account that made the purchase. If it still doesn't appear, email us with the receipt and we'll sort it out." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_manage | default: "How do I change or cancel my plan?" }}</summary>
+            <p>{{ s.a_manage | default: "Settings → Manage subscription takes you straight to Apple's subscription screen, where upgrades, downgrades and cancellation all happen. You can also get there from the Settings app → your name → Subscriptions. Cancelling stops the renewal; you keep the plan until the period you already paid for ends." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_refund | default: "Can I get a refund?" }}</summary>
+            <p>{{ s.a_refund | default: "Purchases go through Apple, so refunds do too — request one at reportaproblem.apple.com. If something in the app went wrong, tell us as well and we'll help." }}</p>
+        </details>
+
+        <h2>{{ s.group_using | default: "Using Brainfold" }}</h2>
+
+        <details>
+            <summary>{{ s.q_scan | default: "What can I scan?" }}</summary>
+            <p>{{ s.a_scan | default: "Photos of textbook pages, handwritten notes, printouts, and PDFs. Good light and a flat page make a real difference to what the AI can read. How many pages you can put through in one go depends on your plan." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_quality | default: "The flashcards it made aren't very good" }}</summary>
+            <p>{{ s.a_quality | default: "Usually that traces back to the source: blurry photos, cropped edges, or a page that's mostly diagrams give the AI little to work with. Rescanning that page more carefully is normally enough. If a specific pack keeps coming out wrong, send it to us — that's genuinely useful for improving the app." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_battle | default: "How does Battle Mode work?" }}</summary>
+            <p>{{ s.a_battle | default: "One person creates a room from a study pack and shares the six-character code; everyone else taps “Join with Code” and plays a live quiz built from that material. On the free plan, hosting a room costs credits; paid plans host for free. Joining someone else's battle never costs anything." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_languages | default: "Which languages does Brainfold speak?" }}</summary>
+            <p>{{ s.a_languages | default: "The app is translated into 52 languages and follows whatever your device is set to. The AI works from your material in its own language too — you don't have to study in English." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_devices | default: "Which devices are supported?" }}</summary>
+            <p>{{ s.a_devices | default: "iPhone and iPad on iOS or iPadOS 18 and later, with a layout built for the bigger screen. Your subscription covers every device you sign in on." }}</p>
+        </details>
+
+        <h2>{{ s.group_data | default: "Your data" }}</h2>
+
+        <details>
+            <summary>{{ s.q_data | default: "What happens to what I scan?" }}</summary>
+            <p>{{ s.a_data | default: "Pages you scan are sent to our servers to be processed into cards, quizzes and summaries, and your study packs are stored with your account so they can sync. The Privacy Policy has the full detail." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_delete | default: "How do I delete my account and everything in it?" }}</summary>
+            <p>{{ s.a_delete | default: "Email us from the address on the account and we'll delete it along with your packs and scans. You can remove individual study packs yourself at any time from the pack menu." }}</p>
+        </details>
+    </section>
+</main>
+
+<footer class="foot">
+    <div class="foot__inner">
+        <span>&copy; {{ site.time | date: "%Y" }} Magic Lab Solutions</span>
+        <span class="foot__spacer"></span>
+        <a href="/apps/brainfold/">Brainfold</a>
+        <a href="/apps/">{{ t.nav.apps | default: "Apps" }}</a>
+        <a href="/privacy-policy/">{{ t.footer.privacy_policy | default: "Privacy Policy" }}</a>
+        <a href="/terms-of-use/">{{ t.footer.terms_of_use | default: "Terms of Use" }}</a>
+    </div>
+</footer>
+
+</body>
+</html>
