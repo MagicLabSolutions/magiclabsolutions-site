@@ -1,5 +1,6 @@
 ---
 title: 'Brainfold'
+category: apps
 subtitle: 'AI-powered study companion'
 date: 2025-02-15 00:00:00
 description: Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends.

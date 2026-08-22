@@ -1,11 +1,13 @@
 nav:
   home: Startseite
   apps: Apps
+  games: Spiele
   about: Über uns
   contact: Kontakt
 footer:
   tagline: Magic Lab Solutions entwickelt erstklassige, datenschutzorientierte mobile Apps für iOS und Android.
   apps: Apps
+  games: Spiele
   company: Unternehmen
   legal: Rechtliches
   about: Über uns
@@ -24,6 +26,7 @@ legal:
   label: Rechtliches
   effective: Gültig ab
 app_card:
+  game: Spiel
   learn_more: Erfahren Sie mehr
 projects:
   project-giftly:
@@ -91,6 +94,11 @@ apps_page:
   description: Entdecken Sie die Suite von Apps, die Magic Lab Solutions für den Alltag entwickelt hat.
   heading: Unsere Apps
   subtitle: Wunderschöne, datenschutzorientierte Tools für den Alltag.
+games_page:
+  title: "Unsere Spiele"
+  description: "Spiele die Titel von Magic Lab Solutions — eigene Welten, mit derselben Sorgfalt gebaut wie unsere Apps."
+  heading: "Unsere Spiele"
+  subtitle: "Eigene Welten zum Entdecken, mit derselben Sorgfalt gebaut wie unsere Apps."
 error_404:
   title: Seite nicht gefunden
   description: Entschuldigung – die von Ihnen gesuchte Seite existiert nicht.

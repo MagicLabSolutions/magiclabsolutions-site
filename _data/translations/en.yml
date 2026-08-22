@@ -1,11 +1,13 @@
 nav:
   home: Home
   apps: Apps
+  games: Games
   about: About
   contact: Contact
 footer:
   tagline: Magic Lab Solutions crafts premium, privacy-first mobile apps for iOS and Android.
   apps: Apps
+  games: Games
   company: Company
   legal: Legal
   about: About
@@ -24,6 +26,7 @@ legal:
   label: Legal
   effective: Effective
 app_card:
+  game: Game
   learn_more: Learn More
 projects:
   project-giftly:
@@ -91,6 +94,11 @@ apps_page:
   description: Discover the suite of apps crafted by Magic Lab Solutions for everyday life.
   heading: Our Apps
   subtitle: Beautiful, privacy-first tools designed for everyday life.
+games_page:
+  title: "Our Games"
+  description: "Play the games crafted by Magic Lab Solutions — original worlds built with the same care as our apps."
+  heading: "Our Games"
+  subtitle: "Original worlds to explore, built with the same care as our apps."
 error_404:
   title: Page Not Found
   description: Sorry – the page you're looking for doesn't exist.

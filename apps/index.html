@@ -18,7 +18,7 @@ lang-ref: apps
 <section class="apps-grid">
 	<div class="wrap">
 		<div class="apps-grid__container">
-			{% assign apps = site.projects | sort: 'date' | reverse %}
+			{% assign apps = site.projects | where_exp: 'p', 'p.category != "games"' | sort: 'date' | reverse %}
 			{% for app in apps %}
 				{% include app-card.html app=app %}
 			{% endfor %}

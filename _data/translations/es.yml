@@ -1,11 +1,13 @@
 nav:
   home: Inicio
   apps: Aplicaciones
+  games: Juegos
   about: Acerca de
   contact: Contacto
 footer:
   tagline: Magic Lab Solutions crea aplicaciones móviles premium que dan prioridad a la privacidad para iOS y Android.
   apps: Aplicaciones
+  games: Juegos
   company: Compañía
   legal: Legal
   about: Acerca de
@@ -24,6 +26,7 @@ legal:
   label: Legal
   effective: Vigente desde
 app_card:
+  game: Juego
   learn_more: Más información
 projects:
   project-giftly:
@@ -91,6 +94,11 @@ apps_page:
   description: Descubre la suite de aplicaciones creadas por Magic Lab Solutions para la vida cotidiana.
   heading: Nuestras apps
   subtitle: Herramientas hermosas y privadas diseñadas para la vida cotidiana.
+games_page:
+  title: "Nuestros juegos"
+  description: "Juega los títulos creados por Magic Lab Solutions: mundos originales hechos con el mismo cuidado que nuestras apps."
+  heading: "Nuestros juegos"
+  subtitle: "Mundos originales para explorar, hechos con el mismo cuidado que nuestras apps."
 error_404:
   title: Página no encontrada
   description: Lo sentimos — la página que buscas no existe.

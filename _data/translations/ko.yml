@@ -1,11 +1,13 @@
 nav:
   home: 홈
   apps: 앱
+  games: 게임
   about: 소개
   contact: 문의
 footer:
   tagline: Magic Lab Solutions는 iOS 및 Android용 개인 정보 보호 우선 프리미엄 모바일 앱을 제작합니다.
   apps: 앱
+  games: 게임
   company: 회사
   legal: 법적 고지
   about: 소개
@@ -24,6 +26,7 @@ legal:
   label: 법적 고지
   effective: 시행일
 app_card:
+  game: 게임
   learn_more: 자세히 보기
 projects:
   project-giftly:
@@ -91,6 +94,11 @@ apps_page:
   description: Magic Lab Solutions가 일상을 위해 만든 앱 모음을 살펴보세요.
   heading: 우리의 앱
   subtitle: 일상을 위해 설계된 아름답고 개인 정보 보호 우선 도구.
+games_page:
+  title: "게임"
+  description: "Magic Lab Solutions가 만든 게임. 앱과 똑같은 정성으로 만든 오리지널 세계입니다."
+  heading: "게임"
+  subtitle: "앱과 똑같은 정성으로 만든, 탐험할 수 있는 오리지널 세계."
 error_404:
   title: 페이지를 찾을 수 없습니다
   description: 죄송합니다 — 찾으시는 페이지가 존재하지 않습니다.

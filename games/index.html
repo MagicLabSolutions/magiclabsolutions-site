@@ -1,0 +1,27 @@
+---
+layout: default
+title: Our Games
+description: Play the games crafted by Magic Lab Solutions — original worlds built with the same care as our apps.
+featured_image: /images/social.jpg
+lang-ref: games
+---
+
+{% assign t = site.data.translations[site.active_lang] %}
+
+<section class="page-hero">
+	<div class="wrap">
+		<h1>{{ t.games_page.heading | default: "Our Games" }}</h1>
+		<p>{{ t.games_page.subtitle | default: "Original worlds to explore, built with the same care as our apps." }}</p>
+	</div>
+</section>
+
+<section class="apps-grid">
+	<div class="wrap">
+		<div class="apps-grid__container apps-grid__container--centered">
+			{% assign games = site.projects | where: 'category', 'games' | sort: 'date' | reverse %}
+			{% for app in games %}
+				{% include app-card.html app=app %}
+			{% endfor %}
+		</div>
+	</div>
+</section>

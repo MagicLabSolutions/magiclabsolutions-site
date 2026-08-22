@@ -9,8 +9,17 @@
 			<div class="footer__col">
 				<h4 class="footer__heading">{{ t.footer.apps | default: "Apps" }}</h4>
 				<ul class="footer__links">
-					{% assign apps = site.projects | sort: 'date' | reverse %}
+					{% assign apps = site.projects | where_exp: 'p', 'p.category != "games"' | sort: 'date' | reverse %}
 					{% for app in apps %}
+					<li><a href="{{ app.url | relative_url }}">{{ app.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="footer__col">
+				<h4 class="footer__heading">{{ t.footer.games | default: "Games" }}</h4>
+				<ul class="footer__links">
+					{% assign games = site.projects | where: 'category', 'games' | sort: 'date' | reverse %}
+					{% for app in games %}
 					<li><a href="{{ app.url | relative_url }}">{{ app.title }}</a></li>
 					{% endfor %}
 				</ul>

@@ -1,5 +1,6 @@
 ---
 title: 'MyRenewals'
+category: apps
 subtitle: 'Subscription tracker'
 date: 2024-10-01 00:00:00
 description: Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew.
