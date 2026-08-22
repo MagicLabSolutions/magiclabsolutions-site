@@ -62,7 +62,11 @@
 
 	<!-- Styles -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+	{% comment %}
+	Version the stylesheet so a cached CSS can never pair with newly deployed
+	HTML — that mismatch is what made the new footer columns look unstyled.
+	{% endcomment %}
+	<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 	
 	<!-- Icons -->
 	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
