@@ -1,0 +1,88 @@
+<!doctype html>
+<!--
+  TikTok OAuth callback.
+
+  Deliberately a STATIC file with no Jekyll front matter: the site defaults apply
+  layout "default" to anything with front matter, and this page should be bare.
+
+  It exists because TikTok requires an https redirect URI on a verified domain —
+  localhost is not permitted — so the loopback flow used for Google and Instagram
+  is unavailable. This page does nothing but display the one-time authorisation
+  code that TikTok appends to the URL. The code is exchanged for a token on the
+  developer's own machine, so the client secret never reaches the browser and is
+  never present on this site. Nothing is stored, sent, or logged here.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>TikTok authorisation — Magic Lab Solutions</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+         background: #0a1020; color: #e8eefc; padding: 24px;
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+  .card { width: 100%; max-width: 34rem; background: rgba(255,255,255,.04);
+          border: 1px solid rgba(255,255,255,.12); border-radius: 16px; padding: 28px; }
+  h1 { font-size: 1.25rem; margin: 0 0 .35rem; }
+  p { color: #9fb0c9; margin: .4rem 0 1rem; }
+  code { display: block; word-break: break-all; background: #060a14;
+         border: 1px solid rgba(255,255,255,.12); border-radius: 10px;
+         padding: 14px; font-size: 13px; color: #ffc36b; }
+  button { margin-top: 14px; width: 100%; padding: 12px 16px; font-size: 15px;
+           font-weight: 650; border-radius: 10px; cursor: pointer;
+           border: 1px solid rgba(255,195,107,.45); background: rgba(255,195,107,.14);
+           color: #ffc36b; }
+  button:active { transform: scale(.99); }
+  .bad { color: #ff9a9a; }
+  .muted { font-size: 13px; color: #7f8da3; }
+</style>
+</head>
+<body>
+  <div class="card" id="card">
+    <h1>Working…</h1>
+  </div>
+
+<script>
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var card = document.getElementById('card');
+    var err = q.get('error');
+    var code = q.get('code');
+
+    if (err) {
+      card.innerHTML =
+        '<h1 class="bad">Authorisation declined</h1>' +
+        '<p>TikTok returned: <b>' + err.replace(/[<>&]/g, '') + '</b></p>' +
+        '<p>Close this tab and run the command again.</p>';
+      return;
+    }
+    if (!code) {
+      card.innerHTML =
+        '<h1>Nothing to do here</h1>' +
+        '<p>This page only receives TikTok authorisation callbacks.</p>';
+      return;
+    }
+
+    card.innerHTML =
+      '<h1>Authorised</h1>' +
+      '<p>Copy this code and paste it back into the terminal. It is single-use and ' +
+      'expires within minutes.</p>' +
+      '<code id="code"></code>' +
+      '<button id="copy">Copy code</button>' +
+      '<p class="muted">Nothing is stored or sent by this page. The code is ' +
+      'exchanged for a token on the developer\'s own machine.</p>';
+
+    document.getElementById('code').textContent = code;
+    document.getElementById('copy').addEventListener('click', function () {
+      navigator.clipboard.writeText(code).then(function () {
+        var b = document.getElementById('copy');
+        b.textContent = 'Copied';
+        setTimeout(function () { b.textContent = 'Copy code'; }, 1600);
+      });
+    });
+  })();
+</script>
+</body>
+</html>
