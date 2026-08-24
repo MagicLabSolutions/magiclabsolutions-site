@@ -232,6 +232,18 @@ lang-ref: sundust-page
         .footer-content a { color: #6b7c99; text-decoration: none; transition: color 0.2s ease; }
         .footer-content a:hover { color: #7fd7ff; }
         .footer-sep { color: #2a3550; }
+        .footer-socials { display: flex; justify-content: center; gap: 14px; margin-bottom: 22px; }
+        .social-link {
+            width: 42px; height: 42px; border-radius: 50%;
+            display: inline-flex; align-items: center; justify-content: center;
+            background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(127, 215, 255, 0.14);
+            color: #8fa0bd; transition: all 0.2s ease;
+        }
+        .social-link:hover {
+            color: #0a0e18; background: #7fd7ff; border-color: #7fd7ff;
+            transform: translateY(-2px); box-shadow: 0 6px 20px rgba(127, 215, 255, 0.3);
+        }
+        .social-link svg { width: 20px; height: 20px; }
 
         @media (max-width: 600px) {
             .hero { padding: 100px 0 40px; }
@@ -479,6 +491,17 @@ lang-ref: sundust-page
     <!-- FOOTER -->
     <footer>
         <div class="container">
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/sundustgame/" target="_blank" rel="noopener" class="social-link" aria-label="Sundust on Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://www.youtube.com/@sundustgame" target="_blank" rel="noopener" class="social-link" aria-label="Sundust on YouTube">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.46-5.17a2.78 2.78 0 0 0-1.94-1.96C18.88 4.4 12 4.4 12 4.4s-6.88 0-8.6.47A2.78 2.78 0 0 0 1.46 6.83C1 8.5 1 12 1 12s0 3.5.46 5.17a2.78 2.78 0 0 0 1.94 1.96c1.72.47 8.6.47 8.6.47s6.88 0 8.6-.47a2.78 2.78 0 0 0 1.94-1.96C23 15.5 23 12 23 12zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+                </a>
+                <a href="https://www.tiktok.com/@sundustgame" target="_blank" rel="noopener" class="social-link" aria-label="Sundust on TikTok">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.32 2.13 1.5 3.63 3.5 3.9v2.62c-1.28.11-2.5-.29-3.5-1v5.86c0 3.38-2.6 5.62-5.6 5.62-3.2 0-5.6-2.62-5.6-5.62 0-3.28 2.9-5.9 6.3-5.5v2.72c-.4-.1-.8-.16-1.2-.16-1.5 0-2.72 1.22-2.72 2.72s1.22 2.7 2.72 2.7c1.5 0 2.9-1.16 2.9-2.66V3h3.2z"/></svg>
+                </a>
+            </div>
             <div class="footer-content">
                 <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. {{ s.footer_rights | default: "All rights reserved." }}</span>
                 <span class="footer-sep">·</span>
