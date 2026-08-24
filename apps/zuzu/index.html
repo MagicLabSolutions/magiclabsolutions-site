@@ -972,6 +972,16 @@ lang-ref: zuzu-page
             position: relative;
         }
 
+        .media::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.2), transparent);
+        }
+
         .media-header {
             text-align: center;
             margin-bottom: 60px;
@@ -1421,6 +1431,24 @@ lang-ref: zuzu-page
             <div>
                 <img src="/apps/zuzu/screenshots/raw/07_growth.jpg" alt="WHO growth charts and tracking" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
                 <div class="showcase-caption">{{ z.caption_growth | default: "Growth Charts" }}</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         VIDEO SECTION
+         ======================================== -->
+    <section class="media" id="video">
+        <div class="container">
+            <div class="media-header">
+                <div class="section-label">{{ z.video_label | default: "In Motion" }}</div>
+                <h2 class="section-title">{{ z.video_heading_1 | default: "Watch Zuzu" }} <span class="gradient-text">{{ z.video_heading_2 | default: "in motion" }}</span></h2>
+                <p class="section-subtitle" style="margin: 0 auto;">{{ z.video_subtitle | default: "A quick tour of the timeline arc, one-tap logging, and AI insights — the calm, everyday feel of tracking with Zuzu." }}</p>
+            </div>
+            <div class="media-video-wrapper">
+                <div class="media-phone-frame">
+                    <video src="/apps/zuzu/promo-video.mp4" poster="/images/zuzu/promo-poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+                </div>
             </div>
         </div>
     </section>
