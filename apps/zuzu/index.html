@@ -1436,22 +1436,12 @@ lang-ref: zuzu-page
     </section>
 
     <!-- ========================================
-         VIDEO SECTION
+         VIDEO SECTION — temporarily hidden
+         The "Watch Zuzu in motion" section is removed until a light-mode
+         promo recording is available. Its .media CSS, z.video_* strings, and
+         /apps/zuzu/promo-video.mp4 + poster remain, so restoring it is just a
+         matter of re-adding the <section class="media" id="video"> markup.
          ======================================== -->
-    <section class="media" id="video">
-        <div class="container">
-            <div class="media-header">
-                <div class="section-label">{{ z.video_label | default: "In Motion" }}</div>
-                <h2 class="section-title">{{ z.video_heading_1 | default: "Watch Zuzu" }} <span class="gradient-text">{{ z.video_heading_2 | default: "in motion" }}</span></h2>
-                <p class="section-subtitle" style="margin: 0 auto;">{{ z.video_subtitle | default: "A quick tour of the timeline arc, one-tap logging, and AI insights — the calm, everyday feel of tracking with Zuzu." }}</p>
-            </div>
-            <div class="media-video-wrapper">
-                <div class="media-phone-frame">
-                    <video src="/apps/zuzu/promo-video.mp4" poster="/images/zuzu/promo-poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- ========================================
          REVIEWS SECTION
