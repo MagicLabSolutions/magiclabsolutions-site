@@ -9,6 +9,10 @@
       {
         "appID": "S2DSCP4F3H.com.magiclabsolutions.zuzu",
         "paths": ["/zuzu/*", "/invite", "/invite/*"]
+      },
+      {
+        "appID": "AYZ4DPUAYU.com.magiclabsolutions.giftly",
+        "paths": ["/giftly/share", "/giftly/share/", "/giftly/share/*"]
       }
     ]
   }
