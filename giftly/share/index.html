@@ -1,26 +1,26 @@
 ---
 layout: null
 permalink: /giftly/share/
-lang-ref: giftly-share
 sitemap: false
 ---
-{% assign t = site.data.translations[site.active_lang] %}
-{% assign s = t.giftly_share %}
 <!DOCTYPE html>
-<html lang="{{ site.active_lang }}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
     <meta name="referrer" content="no-referrer">
-    <title>{{ s.title | default: "Shared with you — Giftly" }}</title>
+    <title>Shared with you — Giftly</title>
     <meta name="theme-color" content="#F7F4ED">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
     <!-- No analytics on this page on purpose: the shared list lives in the URL
-         fragment, and nothing here should ever read or report it. -->
+         fragment, and nothing here should ever read or report it.
+         Not localized by polyglot (see exclude_from_localization): every link
+         points at this one URL, so the page picks the visitor's language itself,
+         from the same 34 languages the app ships. -->
     <style>
         :root {
             --paper: #F7F4ED;
@@ -57,7 +57,7 @@ sitemap: false
         .actions { display: grid; gap: 10px; }
         .btn { display: flex; align-items: center; justify-content: center; min-height: 50px; border-radius: 999px;
                font-family: var(--body); font-size: 16px; font-weight: 600; text-decoration: none;
-               border: 1px solid transparent; transition: background .16s ease; }
+               border: 1px solid transparent; transition: background .16s ease; padding: 0 18px; }
         .btn--solid { background: var(--evergreen); color: #FFFDF8; }
         .btn--solid:hover { background: var(--evergreen-deep); }
         .btn--ghost { border-color: var(--evergreen); color: var(--evergreen); }
@@ -69,19 +69,51 @@ sitemap: false
 </head>
 <body>
     <main class="card">
-        <img class="icon" src="/images/giftly/app_icon.png" alt="{{ s.icon_alt | default: "Giftly app icon" }}" width="84" height="84">
+        <img class="icon" src="/images/giftly/app_icon.png" alt="Giftly app icon" data-i18n-alt="icon" width="84" height="84">
         <span class="kicker">Giftly</span>
-        <h1>{{ s.heading | default: "Someone shared birthdays with you" }}</h1>
-        <p>{{ s.lede | default: "Open this link in Giftly to choose who to add. The list travels inside the link itself — it never reaches our servers." }}</p>
+        <h1 data-i18n="heading">Someone shared birthdays with you</h1>
+        <p data-i18n="lede">Open this link in Giftly to choose who to add. The list travels inside the link itself, so it never reaches our servers.</p>
         <div class="actions">
-            <a id="open" class="btn btn--solid" href="giftly://share">{{ s.open | default: "Open in Giftly" }}</a>
-            <a class="btn btn--ghost" href="https://apps.apple.com/app/id6802913010" target="_blank" rel="noopener">{{ s.get | default: "Get Giftly on the App Store" }}</a>
+            <a id="open" class="btn btn--solid" href="giftly://share" data-i18n="open">Open in Giftly</a>
+            <a class="btn btn--ghost" href="https://apps.apple.com/app/id6802913010" target="_blank" rel="noopener" data-i18n="get">Get Giftly on the App Store</a>
         </div>
-        <p class="note">{{ s.note | default: "Giftly is free for iPhone, iPad and Mac." }}</p>
-        <p class="note note--warn" id="missing" hidden>{{ s.missing | default: "This link looks incomplete. Ask for a new code or link." }}</p>
+        <p class="note" data-i18n="note">Giftly is free for iPhone, iPad and Mac.</p>
+        <p class="note note--warn" id="missing" data-i18n="missing" hidden>This link looks incomplete. Ask for a new code or link.</p>
     </main>
-    <script>
+    {% raw %}<script>
         (function () {
+            var strings = {"en":{"title":"Shared with you — Giftly","icon":"Giftly app icon","heading":"Someone shared birthdays with you","lede":"Open this link in Giftly to choose who to add. The list travels inside the link itself, so it never reaches our servers.","open":"Open in Giftly","get":"Get Giftly on the App Store","note":"Giftly is free for iPhone, iPad and Mac.","missing":"This link looks incomplete. Ask for a new code or link."},"pt-BR":{"title":"Compartilhado com você — Giftly","icon":"Ícone do app Giftly","heading":"Alguém compartilhou aniversários com você","lede":"Abra este link no Giftly para escolher quem adicionar. A lista vai dentro do próprio link, então nunca passa pelos nossos servidores.","open":"Abrir no Giftly","get":"Baixar o Giftly na App Store","note":"O Giftly é grátis para iPhone, iPad e Mac.","missing":"Este link parece incompleto. Peça um novo código ou link."},"pt-PT":{"title":"Partilhado contigo — Giftly","icon":"Ícone da app Giftly","heading":"Alguém partilhou aniversários contigo","lede":"Abre este link no Giftly para escolheres quem adicionar. A lista vai dentro do próprio link, por isso nunca passa pelos nossos servidores.","open":"Abrir no Giftly","get":"Descarregar o Giftly na App Store","note":"O Giftly é gratuito para iPhone, iPad e Mac.","missing":"Este link parece incompleto. Pede um novo código ou link."},"es":{"title":"Compartido contigo — Giftly","icon":"Icono de la app Giftly","heading":"Alguien compartió cumpleaños contigo","lede":"Abre este enlace en Giftly para elegir a quién añadir. La lista viaja dentro del propio enlace, así que nunca pasa por nuestros servidores.","open":"Abrir en Giftly","get":"Descargar Giftly en el App Store","note":"Giftly es gratis para iPhone, iPad y Mac.","missing":"Este enlace parece incompleto. Pide un código o enlace nuevo."},"fr":{"title":"Partagé avec toi — Giftly","icon":"Icône de l'app Giftly","heading":"Quelqu'un a partagé des anniversaires avec toi","lede":"Ouvre ce lien dans Giftly pour choisir qui ajouter. La liste voyage dans le lien lui-même : elle ne passe jamais par nos serveurs.","open":"Ouvrir dans Giftly","get":"Télécharger Giftly sur l'App Store","note":"Giftly est gratuit sur iPhone, iPad et Mac.","missing":"Ce lien semble incomplet. Demande un nouveau code ou lien."},"de":{"title":"Mit dir geteilt — Giftly","icon":"Giftly-App-Symbol","heading":"Jemand hat Geburtstage mit dir geteilt","lede":"Öffne diesen Link in Giftly und wähle aus, wen du hinzufügst. Die Liste steckt im Link selbst und landet nie auf unseren Servern.","open":"In Giftly öffnen","get":"Giftly im App Store laden","note":"Giftly ist kostenlos für iPhone, iPad und Mac.","missing":"Dieser Link scheint unvollständig zu sein. Bitte um einen neuen Code oder Link."},"it":{"title":"Condiviso con te — Giftly","icon":"Icona dell'app Giftly","heading":"Qualcuno ha condiviso dei compleanni con te","lede":"Apri questo link in Giftly per scegliere chi aggiungere. La lista viaggia dentro il link stesso, quindi non passa mai dai nostri server.","open":"Apri in Giftly","get":"Scarica Giftly dall'App Store","note":"Giftly è gratis per iPhone, iPad e Mac.","missing":"Questo link sembra incompleto. Chiedi un nuovo codice o link."},"nl":{"title":"Met je gedeeld — Giftly","icon":"App-icoon van Giftly","heading":"Iemand heeft verjaardagen met je gedeeld","lede":"Open deze link in Giftly om te kiezen wie je toevoegt. De lijst zit in de link zelf en komt dus nooit op onze servers.","open":"Openen in Giftly","get":"Download Giftly in de App Store","note":"Giftly is gratis voor iPhone, iPad en Mac.","missing":"Deze link lijkt onvolledig. Vraag om een nieuwe code of link."},"da":{"title":"Delt med dig — Giftly","icon":"Giftly-appikon","heading":"Nogen har delt fødselsdage med dig","lede":"Åbn linket i Giftly for at vælge, hvem du vil tilføje. Listen ligger i selve linket, så den kommer aldrig forbi vores servere.","open":"Åbn i Giftly","get":"Hent Giftly i App Store","note":"Giftly er gratis til iPhone, iPad og Mac.","missing":"Linket ser ud til at være ufuldstændigt. Bed om en ny kode eller et nyt link."},"nb":{"title":"Delt med deg — Giftly","icon":"Giftly-appikon","heading":"Noen har delt bursdager med deg","lede":"Åpne lenken i Giftly for å velge hvem du vil legge til. Listen ligger i selve lenken, så den havner aldri på serverne våre.","open":"Åpne i Giftly","get":"Last ned Giftly i App Store","note":"Giftly er gratis for iPhone, iPad og Mac.","missing":"Lenken ser ut til å være ufullstendig. Be om en ny kode eller lenke."},"sv":{"title":"Delat med dig — Giftly","icon":"Giftlys appsymbol","heading":"Någon har delat födelsedagar med dig","lede":"Öppna länken i Giftly för att välja vilka du vill lägga till. Listan ligger i själva länken och når aldrig våra servrar.","open":"Öppna i Giftly","get":"Hämta Giftly på App Store","note":"Giftly är gratis för iPhone, iPad och Mac.","missing":"Länken verkar vara ofullständig. Be om en ny kod eller länk."},"fi":{"title":"Jaettu sinulle — Giftly","icon":"Giftly-apin kuvake","heading":"Joku jakoi syntymäpäiviä sinulle","lede":"Avaa linkki Giftlyssä ja valitse, keitä lisäät. Lista kulkee itse linkissä, joten se ei koskaan käy palvelimillamme.","open":"Avaa Giftlyssä","get":"Lataa Giftly App Storesta","note":"Giftly on ilmainen iPhonelle, iPadille ja Macille.","missing":"Linkki näyttää vajaalta. Pyydä uusi koodi tai linkki."},"pl":{"title":"Udostępnione tobie — Giftly","icon":"Ikona aplikacji Giftly","heading":"Ktoś udostępnił ci urodziny","lede":"Otwórz ten link w Giftly, aby wybrać, kogo dodać. Lista jest zapisana w samym linku, więc nigdy nie trafia na nasze serwery.","open":"Otwórz w Giftly","get":"Pobierz Giftly z App Store","note":"Giftly jest bezpłatne na iPhone'a, iPada i Maca.","missing":"Ten link wygląda na niekompletny. Poproś o nowy kod lub link."},"cs":{"title":"Sdíleno s tebou — Giftly","icon":"Ikona aplikace Giftly","heading":"Někdo s tebou sdílel narozeniny","lede":"Otevři tento odkaz v Giftly a vyber, koho přidáš. Seznam je uložený přímo v odkazu, takže se nikdy nedostane na naše servery.","open":"Otevřít v Giftly","get":"Stáhnout Giftly v App Storu","note":"Giftly je zdarma pro iPhone, iPad i Mac.","missing":"Tento odkaz vypadá neúplně. Požádej o nový kód nebo odkaz."},"sk":{"title":"Zdieľané s tebou — Giftly","icon":"Ikona aplikácie Giftly","heading":"Niekto s tebou zdieľal narodeniny","lede":"Otvor tento odkaz v Giftly a vyber, koho pridáš. Zoznam je uložený priamo v odkaze, takže sa nikdy nedostane na naše servery.","open":"Otvoriť v Giftly","get":"Stiahnuť Giftly v App Store","note":"Giftly je zadarmo pre iPhone, iPad aj Mac.","missing":"Tento odkaz vyzerá neúplne. Požiadaj o nový kód alebo odkaz."},"hr":{"title":"Podijeljeno s tobom — Giftly","icon":"Ikona aplikacije Giftly","heading":"Netko je s tobom podijelio rođendane","lede":"Otvori ovu poveznicu u Giftlyju i odaberi koga želiš dodati. Popis putuje unutar same poveznice pa nikad ne prolazi kroz naše poslužitelje.","open":"Otvori u Giftlyju","get":"Preuzmi Giftly na App Storeu","note":"Giftly je besplatan za iPhone, iPad i Mac.","missing":"Ova poveznica izgleda nepotpuno. Zatraži novi kôd ili poveznicu."},"hu":{"title":"Megosztották veled — Giftly","icon":"A Giftly app ikonja","heading":"Valaki születésnapokat osztott meg veled","lede":"Nyisd meg ezt a linket a Giftlyben, és válaszd ki, kiket adsz hozzá. A lista magában a linkben utazik, így soha nem kerül a szervereinkre.","open":"Megnyitás a Giftlyben","get":"Giftly letöltése az App Store-ból","note":"A Giftly ingyenes iPhone-ra, iPadre és Macre.","missing":"Ez a link hiányosnak tűnik. Kérj új kódot vagy linket."},"ro":{"title":"Distribuit cu tine — Giftly","icon":"Pictograma aplicației Giftly","heading":"Cineva a distribuit zile de naștere cu tine","lede":"Deschide acest link în Giftly ca să alegi pe cine adaugi. Lista călătorește în linkul însuși, așa că nu ajunge niciodată pe serverele noastre.","open":"Deschide în Giftly","get":"Descarcă Giftly din App Store","note":"Giftly este gratuit pentru iPhone, iPad și Mac.","missing":"Linkul pare incomplet. Cere un cod sau un link nou."},"ru":{"title":"С тобой поделились — Giftly","icon":"Значок приложения Giftly","heading":"С тобой поделились днями рождения","lede":"Открой эту ссылку в Giftly и выбери, кого добавить. Список хранится в самой ссылке, поэтому никогда не попадает на наши серверы.","open":"Открыть в Giftly","get":"Загрузить Giftly в App Store","note":"Giftly бесплатен для iPhone, iPad и Mac.","missing":"Похоже, ссылка неполная. Попроси новый код или ссылку."},"uk":{"title":"З тобою поділилися — Giftly","icon":"Значок застосунку Giftly","heading":"З тобою поділилися днями народження","lede":"Відкрий це посилання в Giftly й обери, кого додати. Список зберігається в самому посиланні, тож ніколи не потрапляє на наші сервери.","open":"Відкрити в Giftly","get":"Завантажити Giftly з App Store","note":"Giftly безкоштовний для iPhone, iPad і Mac.","missing":"Схоже, посилання неповне. Попроси новий код чи посилання."},"el":{"title":"Κοινοποιήθηκε σε σένα — Giftly","icon":"Εικονίδιο της εφαρμογής Giftly","heading":"Κάποιος μοιράστηκε γενέθλια μαζί σου","lede":"Άνοιξε αυτόν τον σύνδεσμο στο Giftly για να διαλέξεις ποιους θα προσθέσεις. Η λίστα ταξιδεύει μέσα στον ίδιο τον σύνδεσμο, οπότε δεν περνά ποτέ από τους διακομιστές μας.","open":"Άνοιγμα στο Giftly","get":"Κατέβασε το Giftly από το App Store","note":"Το Giftly είναι δωρεάν για iPhone, iPad και Mac.","missing":"Αυτός ο σύνδεσμος φαίνεται ελλιπής. Ζήτα νέο κωδικό ή σύνδεσμο."},"tr":{"title":"Seninle paylaşıldı — Giftly","icon":"Giftly uygulama simgesi","heading":"Biri seninle doğum günleri paylaştı","lede":"Kimleri ekleyeceğini seçmek için bu bağlantıyı Giftly'de aç. Liste bağlantının içinde taşınır, bu yüzden sunucularımıza hiç ulaşmaz.","open":"Giftly'de aç","get":"Giftly'yi App Store'dan indir","note":"Giftly; iPhone, iPad ve Mac için ücretsiz.","missing":"Bu bağlantı eksik görünüyor. Yeni bir kod veya bağlantı iste."},"he":{"title":"שותף איתך — Giftly","icon":"סמל האפליקציה Giftly","heading":"מישהו שיתף איתך ימי הולדת","lede":"פתח את הקישור ב-Giftly כדי לבחור את מי להוסיף. הרשימה נמצאת בתוך הקישור עצמו, כך שהיא אף פעם לא מגיעה לשרתים שלנו.","open":"פתיחה ב-Giftly","get":"הורדת Giftly מה-App Store","note":"Giftly חינמי ל-iPhone, ל-iPad ול-Mac.","missing":"הקישור נראה חלקי. בקש קוד או קישור חדש."},"ar":{"title":"تمت مشاركته معك — Giftly","icon":"أيقونة تطبيق Giftly","heading":"شارك أحدهم أعياد ميلاد معك","lede":"افتح هذا الرابط في Giftly لتختار من تضيف. القائمة موجودة داخل الرابط نفسه، لذلك لا تصل إلى خوادمنا أبدًا.","open":"فتح في Giftly","get":"نزّل Giftly من App Store","note":"Giftly مجاني على iPhone وiPad وMac.","missing":"يبدو أن هذا الرابط غير مكتمل. اطلب رمزًا أو رابطًا جديدًا."},"hi":{"title":"तुम्हारे साथ शेयर किया गया — Giftly","icon":"Giftly ऐप आइकन","heading":"किसी ने तुम्हारे साथ जन्मदिन शेयर किए हैं","lede":"किसे जोड़ना है, यह चुनने के लिए यह लिंक Giftly में खोलो। लिस्ट लिंक के अंदर ही रहती है, इसलिए हमारे सर्वर तक कभी नहीं पहुँचती।","open":"Giftly में खोलें","get":"App Store से Giftly पाएँ","note":"Giftly iPhone, iPad और Mac के लिए मुफ़्त है।","missing":"यह लिंक अधूरा लगता है। नया कोड या लिंक माँगो।"},"id":{"title":"Dibagikan denganmu — Giftly","icon":"Ikon aplikasi Giftly","heading":"Seseorang membagikan ulang tahun denganmu","lede":"Buka tautan ini di Giftly untuk memilih siapa yang mau ditambahkan. Daftarnya ada di dalam tautan itu sendiri, jadi tidak pernah sampai ke server kami.","open":"Buka di Giftly","get":"Unduh Giftly di App Store","note":"Giftly gratis untuk iPhone, iPad, dan Mac.","missing":"Tautan ini sepertinya tidak lengkap. Minta kode atau tautan baru."},"ms":{"title":"Dikongsi dengan kamu — Giftly","icon":"Ikon apl Giftly","heading":"Seseorang berkongsi hari jadi dengan kamu","lede":"Buka pautan ini dalam Giftly untuk memilih siapa yang mahu ditambah. Senarai itu berada dalam pautan itu sendiri, jadi ia tidak pernah sampai ke pelayan kami.","open":"Buka dalam Giftly","get":"Muat turun Giftly di App Store","note":"Giftly percuma untuk iPhone, iPad dan Mac.","missing":"Pautan ini nampaknya tidak lengkap. Minta kod atau pautan baharu."},"th":{"title":"มีคนแชร์ให้คุณ — Giftly","icon":"ไอคอนแอป Giftly","heading":"มีคนแชร์วันเกิดให้คุณ","lede":"เปิดลิงก์นี้ใน Giftly เพื่อเลือกคนที่จะเพิ่ม รายชื่ออยู่ในลิงก์นี้เอง จึงไม่ผ่านเซิร์ฟเวอร์ของเราเลย","open":"เปิดใน Giftly","get":"ดาวน์โหลด Giftly จาก App Store","note":"Giftly ใช้ได้ฟรีบน iPhone, iPad และ Mac","missing":"ลิงก์นี้ดูเหมือนไม่ครบ ขอโค้ดหรือลิงก์ใหม่อีกครั้ง"},"vi":{"title":"Được chia sẻ với bạn — Giftly","icon":"Biểu tượng ứng dụng Giftly","heading":"Có người đã chia sẻ ngày sinh nhật với bạn","lede":"Mở liên kết này trong Giftly để chọn người muốn thêm. Danh sách nằm ngay trong liên kết nên không bao giờ đi qua máy chủ của chúng tôi.","open":"Mở trong Giftly","get":"Tải Giftly trên App Store","note":"Giftly miễn phí cho iPhone, iPad và Mac.","missing":"Liên kết này có vẻ chưa đầy đủ. Hãy xin mã hoặc liên kết mới."},"ja":{"title":"共有されました — Giftly","icon":"Giftlyアプリのアイコン","heading":"誕生日が共有されました","lede":"このリンクをGiftlyで開いて、追加する人を選んでください。リストはリンクそのものに含まれているので、私たちのサーバーを通ることはありません。","open":"Giftlyで開く","get":"App StoreでGiftlyを入手","note":"GiftlyはiPhone、iPad、Macで無料です。","missing":"このリンクは不完全なようです。新しいコードかリンクを依頼してください。"},"ko":{"title":"공유받은 생일 — Giftly","icon":"Giftly 앱 아이콘","heading":"누군가 생일을 공유했어요","lede":"이 링크를 Giftly에서 열고 추가할 사람을 골라요. 목록은 링크 안에 담겨 있어서 저희 서버를 거치지 않아요.","open":"Giftly에서 열기","get":"App Store에서 Giftly 받기","note":"Giftly는 iPhone, iPad, Mac에서 무료예요.","missing":"링크가 불완전한 것 같아요. 새 코드나 링크를 요청해 주세요."},"zh-Hans":{"title":"分享给你的生日 — Giftly","icon":"Giftly App 图标","heading":"有人和你分享了生日","lede":"在 Giftly 中打开此链接，选择要添加的人。名单就在链接里，永远不会经过我们的服务器。","open":"在 Giftly 中打开","get":"在 App Store 下载 Giftly","note":"Giftly 在 iPhone、iPad 和 Mac 上免费。","missing":"这个链接似乎不完整，请对方重新分享二维码或链接。"},"zh-Hant":{"title":"分享給你的生日 — Giftly","icon":"Giftly App 圖示","heading":"有人和你分享了生日","lede":"在 Giftly 中打開這個連結，選擇要加入的人。名單就在連結裡，永遠不會經過我們的伺服器。","open":"在 Giftly 中打開","get":"在 App Store 下載 Giftly","note":"Giftly 在 iPhone、iPad 和 Mac 上免費。","missing":"這個連結似乎不完整，請對方重新分享 QR 碼或連結。"},"ca":{"title":"Compartit amb tu — Giftly","icon":"Icona de l'app Giftly","heading":"Algú ha compartit aniversaris amb tu","lede":"Obre aquest enllaç a Giftly per triar a qui vols afegir. La llista viatja dins del mateix enllaç, així que mai no passa pels nostres servidors.","open":"Obre a Giftly","get":"Baixa Giftly a l'App Store","note":"Giftly és gratuït per a iPhone, iPad i Mac.","missing":"Sembla que aquest enllaç està incomplet. Demana un codi o un enllaç nou."}};
+
+            // ?lang=xx first (handy for checking a translation), then the browser's languages
+            function pickLanguage() {
+                var wanted = [new URLSearchParams(window.location.search).get('lang')]
+                    .concat(navigator.languages || [navigator.language]);
+                for (var i = 0; i < wanted.length; i++) {
+                    var tag = String(wanted[i] || '').toLowerCase().replace('_', '-');
+                    if (!tag) continue;
+                    if (/^zh-(hant|tw|hk|mo)/.test(tag)) return 'zh-Hant';
+                    if (/^zh/.test(tag)) return 'zh-Hans';
+                    if (/^pt-(pt|ao|mz|cv|gw|st|tl)/.test(tag)) return 'pt-PT';
+                    if (/^pt/.test(tag)) return 'pt-BR';
+                    if (/^(nb|no|nn)\b/.test(tag)) return 'nb';
+                    var base = tag.split('-')[0];
+                    if (strings[base]) return base;
+                }
+                return 'en';
+            }
+
+            var lang = pickLanguage();
+            var t = strings[lang];
+            document.documentElement.lang = lang;
+            if (lang === 'ar' || lang === 'he') document.documentElement.dir = 'rtl';
+            document.title = t.title;
+            Array.prototype.forEach.call(document.querySelectorAll('[data-i18n]'), function (el) {
+                el.textContent = t[el.getAttribute('data-i18n')];
+            });
+            Array.prototype.forEach.call(document.querySelectorAll('[data-i18n-alt]'), function (el) {
+                el.alt = t[el.getAttribute('data-i18n-alt')];
+            });
+
             var hash = window.location.hash || '';
             var open = document.getElementById('open');
             if (hash.indexOf('#g1.') === 0 && hash.length > 8) {
@@ -92,6 +124,6 @@ sitemap: false
                 document.getElementById('missing').hidden = false;
             }
         })();
-    </script>
+    </script>{% endraw %}
 </body>
 </html>
