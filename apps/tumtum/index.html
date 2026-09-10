@@ -1,0 +1,88 @@
+---
+layout: null
+lang-ref: tumtum-page
+---
+{% assign copy = site.data.tumtum_page[site.active_lang] | default: site.data.tumtum_page.en %}
+{% assign prefix = '' %}
+{% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
+{% assign legal_prefix = '' %}
+{% if site.active_lang == 'pt-BR' %}{% assign legal_prefix = '/pt-BR' %}{% endif %}
+<!doctype html>
+<html lang="{{ site.active_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TumTum — {{ copy.soon }} · Magic Lab Solutions</title>
+  <meta name="description" content="{{ copy.description | escape }}">
+  <meta name="theme-color" content="#f6f0e5">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TumTum — {{ copy.soon }}">
+  <meta property="og:description" content="{{ copy.description | escape }}">
+  <meta property="og:image" content="https://magiclabsolutions.com/images/tumtum/coming-soon.webp">
+  <meta property="og:url" content="https://magiclabsolutions.com{{ prefix }}/apps/tumtum/">
+  <link rel="canonical" {% static_href %}href="https://magiclabsolutions.com{{ prefix }}/apps/tumtum/"{% endstatic_href %}>
+  {% for lang in site.languages %}
+  {% assign lang_prefix = '' %}{% if lang != site.default_lang %}{% assign lang_prefix = lang | prepend: '/' %}{% endif %}
+  <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="https://magiclabsolutions.com{{ lang_prefix }}/apps/tumtum/"{% endstatic_href %}>
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" {% static_href %}href="https://magiclabsolutions.com/apps/tumtum/"{% endstatic_href %}>
+  <link rel="icon" href="/images/tumtum/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="/css/tumtum-coming-soon.css">
+</head>
+<body>
+  <a class="skip" href="#main">{{ copy.skip }}</a>
+  <header class="site-header wrap">
+    <a class="studio" href="/games/"><span aria-hidden="true">←</span> Magic Lab Solutions</a>
+    <details class="languages">
+      <summary>{{ site.data.language_names[site.active_lang] }} <span aria-hidden="true">⌄</span></summary>
+      <nav aria-label="{{ copy.languages }}">
+        {% for lang in site.languages %}
+        {% assign lang_prefix = '' %}{% if lang != site.default_lang %}{% assign lang_prefix = lang | prepend: '/' %}{% endif %}
+        <a lang="{{ lang }}" hreflang="{{ lang }}" {% if lang == site.active_lang %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com{{ lang_prefix }}/apps/tumtum/"{% endstatic_href %}>{{ site.data.language_names[lang] }}</a>
+        {% endfor %}
+      </nav>
+    </details>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="hero-copy">
+        <p class="status"><span aria-hidden="true">✦</span> {{ copy.soon }}</p>
+        <h1 id="title">TumTum</h1>
+        <p class="headline">{{ copy.headline }}</p>
+        <p class="intro">{{ copy.intro }}</p>
+        <p class="platform">{{ copy.platform }}</p>
+        <a class="button" href="#play">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="/images/tumtum/coming-soon.webp" width="640" height="640" fetchpriority="high" alt="{{ copy.image_alt | escape }}">
+      </div>
+    </section>
+    <section id="play" class="play wrap" aria-labelledby="play-title">
+      <p class="eyebrow">{{ copy.eyebrow }}</p>
+      <h2 id="play-title">{{ copy.play_title }}</h2>
+      <div class="ideas">
+        {% for idea in copy.ideas %}
+        <article>
+          <span class="idea-mark" aria-hidden="true">{{ forloop.index | prepend: '0' }}</span>
+          <h3>{{ idea.title }}</h3>
+          <p>{{ idea.text }}</p>
+        </article>
+        {% endfor %}
+      </div>
+      <div class="method">
+        <h3>{{ copy.method_title }}</h3>
+        <p>{{ copy.method_text }}</p>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap">
+    <p><strong>TumTum</strong> <span>· {{ copy.soon }}</span></p>
+    <nav aria-label="{{ copy.footer_label }}">
+      <a href="mailto:contact@magiclabsolutions.com?subject=TumTum">{{ copy.contact }}</a>
+      <a {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/tumtum/privacy-policy/"{% endstatic_href %}>{{ copy.privacy }}</a>
+      <a {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/tumtum/terms-of-use/"{% endstatic_href %}>{{ copy.terms }}</a>
+    </nav>
+    <small>© {{ site.time | date: '%Y' }} Magic Lab Solutions</small>
+  </footer>
+</body>
+</html>

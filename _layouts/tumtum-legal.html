@@ -21,7 +21,7 @@
 </head>
 <body>
   <header class="brand-bar">
-    <a class="brand" {% static_href %}href="https://magiclabsolutions.com/"{% endstatic_href %}><img src="/images/tumtum/app-icon.png" width="44" height="44" alt=""><span>TumTum<small>Magic Lab Solutions</small></span></a>
+    <a class="brand" {% static_href %}href="https://magiclabsolutions.com{{ prefix }}/apps/tumtum/"{% endstatic_href %}><img src="/images/tumtum/app-icon.png" width="44" height="44" alt=""><span>TumTum<small>Magic Lab Solutions</small></span></a>
     <nav aria-label="{{ copy.languages }}" class="languages">
       <a {% if copy.lang == 'en' %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com{{ page.url }}"{% endstatic_href %} lang="en">English</a>
       <a {% if copy.lang == 'pt-BR' %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com/pt-BR{{ page.url }}"{% endstatic_href %} lang="pt-BR">Português</a>

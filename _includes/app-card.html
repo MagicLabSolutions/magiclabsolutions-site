@@ -1,6 +1,7 @@
 {% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
 {% assign ref = include.app.lang-ref %}
 {% assign proj = t.projects[ref] %}
+{% if ref == 'project-tumtum' %}{% assign proj = site.data.tumtum_page[site.active_lang].card %}{% endif %}
 {% assign card_link = include.app.link | default: include.app.url %}
 {% if card_link contains '://' %}
 	{% assign card_href = card_link %}
@@ -11,7 +12,9 @@
 {% endif %}
 <article class="app-card animate-on-scroll" style="--card-accent: {{ include.app.accent_color | default: '#0071E3' }}">
 	<a href="{{ card_href }}" class="app-card__link"{% if card_external %} target="_blank" rel="noopener"{% endif %}>
-		{% if include.app.category == 'games' %}
+		{% if include.app.coming_soon %}
+		<span class="app-card__badge">{{ site.data.tumtum_page[site.active_lang].soon | default: "Coming soon" }}</span>
+		{% elsif include.app.category == 'games' %}
 		<span class="app-card__badge">{{ t.app_card.game | default: "Game" }}</span>
 		{% endif %}
 		{% if include.app.app_icon %}
