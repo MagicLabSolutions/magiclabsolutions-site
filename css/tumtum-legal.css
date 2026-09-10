@@ -1,0 +1,31 @@
+@font-face{font-family:Nunito;src:url('/images/tumtum/Nunito-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Nunito;src:url('/images/tumtum/Nunito-ExtraBold.ttf') format('truetype');font-weight:800;font-display:swap}
+:root{color-scheme:light;--paper:#f5f0e6;--ink:#303a37;--muted:#56615a;--sage:#dce7d5;--honey:#e9c87e;--link:#30584b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.75 Nunito,ui-rounded,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--link);text-underline-offset:4px}
+a:focus-visible{outline:3px solid #ab6b41;outline-offset:5px;border-radius:4px}
+.brand-bar{max-width:1120px;margin:auto;padding:26px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;gap:12px;align-items:center;font-size:23px;line-height:1.2;font-weight:800;text-decoration:none;color:var(--ink)}
+.brand img{border-radius:12px;box-shadow:0 2px 2px #303a3720}
+.brand small{display:block;font-size:12px;font-weight:400;line-height:1.8}
+.languages{display:flex;gap:16px;font-size:14px;flex-wrap:wrap}
+.languages a{min-height:44px;display:flex;align-items:center}
+a[aria-current=page]{font-weight:800}
+main,footer{width:min(100% - 48px,790px);margin:auto}
+.intro{padding:44px 0 28px}
+.eyebrow{display:inline-block;margin:0 0 16px;padding:5px 14px;border-radius:9px;background:var(--sage);font-size:14px;font-weight:800}
+h1{font-size:clamp(34px,6vw,52px);line-height:1.13;letter-spacing:-1px;margin:0 0 18px;font-weight:800}
+.date{font-size:14px;color:var(--muted);margin:0 0 26px}
+.lede{font-size:20px;line-height:1.65;margin:0}
+article{border-top:4px solid var(--honey);padding-top:10px}
+section{padding:22px 0 8px}
+h2{font-size:23px;line-height:1.35;margin:0 0 12px;font-weight:800}
+p{margin:0 0 16px}
+.contact{background:var(--sage);border-radius:24px 19px 25px 21px;padding:28px;margin:36px 0;box-shadow:0 3px 1px #303a3710}
+.contact a{overflow-wrap:anywhere}
+.references{font-size:15px;margin-top:28px}
+footer{border-top:1px solid #303a3725;padding:28px 0 42px;font-size:14px;color:var(--muted)}
+footer nav{display:flex;gap:20px;flex-wrap:wrap;margin:12px 0 20px}
+footer a{display:inline-flex;align-items:center;min-height:44px}
+@media(max-width:520px){body{font-size:17px}.brand-bar{padding:18px 24px;align-items:flex-start;flex-wrap:wrap;gap:12px}.intro{padding-top:28px}.lede{font-size:18px}.contact{padding:22px}h2{font-size:22px}}

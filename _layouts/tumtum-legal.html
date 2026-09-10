@@ -1,0 +1,64 @@
+{% assign copy = site.data.tumtum_legal[site.active_lang] | default: site.data.tumtum_legal.en %}
+{% assign doc = copy[page.document] %}
+{% assign title = copy.privacyTitle %}
+{% if page.document == 'terms' %}{% assign title = copy.termsTitle %}{% endif %}
+{% assign prefix = '' %}
+{% if copy.lang == 'pt-BR' %}{% assign prefix = '/pt-BR' %}{% endif %}
+<!doctype html>
+<html lang="{{ copy.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TumTum · {{ title }} — Magic Lab Solutions</title>
+  <meta name="description" content="{{ doc.intro | escape }}">
+  <meta name="theme-color" content="#f5f0e6">
+  <link rel="canonical" {% static_href %}href="https://magiclabsolutions.com{{ prefix }}{{ page.url }}"{% endstatic_href %}>
+  <link rel="alternate" hreflang="en" {% static_href %}href="https://magiclabsolutions.com{{ page.url }}"{% endstatic_href %}>
+  <link rel="alternate" hreflang="pt-BR" {% static_href %}href="https://magiclabsolutions.com/pt-BR{{ page.url }}"{% endstatic_href %}>
+  <link rel="alternate" hreflang="x-default" {% static_href %}href="https://magiclabsolutions.com{{ page.url }}"{% endstatic_href %}>
+  <link rel="icon" href="/images/tumtum/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="/css/tumtum-legal.css">
+</head>
+<body>
+  <header class="brand-bar">
+    <a class="brand" {% static_href %}href="https://magiclabsolutions.com/"{% endstatic_href %}><img src="/images/tumtum/app-icon.png" width="44" height="44" alt=""><span>TumTum<small>Magic Lab Solutions</small></span></a>
+    <nav aria-label="{{ copy.languages }}" class="languages">
+      <a {% if copy.lang == 'en' %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com{{ page.url }}"{% endstatic_href %} lang="en">English</a>
+      <a {% if copy.lang == 'pt-BR' %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com/pt-BR{{ page.url }}"{% endstatic_href %} lang="pt-BR">Português</a>
+    </nav>
+  </header>
+  <main>
+    <header class="intro">
+      <p class="eyebrow">{{ copy.audience }}</p>
+      <h1>{{ title }}</h1>
+      <p class="date">{{ copy.updated }}</p>
+      <p class="lede">{{ doc.intro }}</p>
+    </header>
+    <article>
+      {% for section in doc.sections %}
+      <section aria-labelledby="section-{{ forloop.index }}">
+        <h2 id="section-{{ forloop.index }}">{{ section[0] }}</h2>
+        <p>{{ section[1] }}</p>
+      </section>
+      {% endfor %}
+      {% if page.document == 'privacy' %}
+      <p class="references"><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub · Privacy</a> · <a href="https://www.apple.com/legal/privacy/">Apple · Privacy</a></p>
+      {% else %}
+      <p class="references"><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple · Standard EULA</a></p>
+      {% endif %}
+    </article>
+    <aside class="contact">
+      <h2>{{ copy.contact }}</h2>
+      <a href="mailto:contact@magiclabsolutions.com?subject=TumTum">contact@magiclabsolutions.com</a>
+    </aside>
+  </main>
+  <footer>
+    <p>{{ copy.note }}</p>
+    <nav>
+      <a {% if page.document == 'privacy' %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com{{ prefix }}/tumtum/privacy-policy/"{% endstatic_href %}>{{ copy.privacyTitle }}</a>
+      <a {% if page.document == 'terms' %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com{{ prefix }}/tumtum/terms-of-use/"{% endstatic_href %}>{{ copy.termsTitle }}</a>
+    </nav>
+    <small>© 2026 Magic Lab Solutions</small>
+  </footer>
+</body>
+</html>
