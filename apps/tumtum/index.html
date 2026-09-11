@@ -3,6 +3,8 @@ layout: null
 lang-ref: tumtum-page
 ---
 {% assign copy = site.data.tumtum_page[site.active_lang] | default: site.data.tumtum_page.en %}
+{% assign gallery = copy.gallery %}
+{% assign shots = site.data.tumtum_screenshots[site.active_lang] | default: site.data.tumtum_screenshots.en %}
 {% assign prefix = '' %}
 {% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
 {% assign legal_prefix = '' %}
@@ -28,6 +30,7 @@ lang-ref: tumtum-page
   <link rel="alternate" hreflang="x-default" {% static_href %}href="https://magiclabsolutions.com/apps/tumtum/"{% endstatic_href %}>
   <link rel="icon" href="/images/tumtum/app-icon.png" type="image/png">
   <link rel="stylesheet" href="/css/tumtum-coming-soon.css">
+  <script src="/js/tumtum-gallery.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">{{ copy.skip }}</a>
@@ -51,11 +54,52 @@ lang-ref: tumtum-page
         <p class="headline">{{ copy.headline }}</p>
         <p class="intro">{{ copy.intro }}</p>
         <p class="platform">{{ copy.platform }}</p>
-        <a class="button" href="#play">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
+        <a class="button" href="#screenshots">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
       </div>
       <div class="hero-art">
         <img src="/images/tumtum/coming-soon.webp" width="640" height="640" fetchpriority="high" alt="{{ copy.image_alt | escape }}">
       </div>
+    </section>
+    <section id="screenshots" class="gallery" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow">{{ gallery.eyebrow }}</p>
+            <h2 id="gallery-title">{{ gallery.title }}</h2>
+            <p class="gallery-intro">{{ gallery.intro }}</p>
+          </div>
+          <fieldset class="gallery-mode">
+            <legend class="sr-only">{{ gallery.device }}</legend>
+            <label><input type="radio" name="gallery-device" value="iphone" checked><span>iPhone</span></label>
+            <label><input type="radio" name="gallery-device" value="ipad"><span>iPad</span></label>
+          </fieldset>
+        </div>
+        <div class="gallery-toolbar">
+          <p id="gallery-hint">{{ gallery.hint }}</p>
+          <div class="gallery-controls" hidden>
+            <button class="round-button" type="button" data-gallery-previous aria-label="{{ gallery.previous | escape }}" disabled><span aria-hidden="true">←</span></button>
+            <span class="gallery-position" aria-hidden="true">01 / 08</span>
+            <button class="round-button" type="button" data-gallery-next aria-label="{{ gallery.next | escape }}"><span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+      {% assign devices = 'iphone,ipad' | split: ',' %}
+      {% for device in devices %}
+      <ol class="gallery-rail" id="gallery-{{ device }}" data-device="{{ device }}" tabindex="0" aria-label="{% if device == 'iphone' %}iPhone{% else %}iPad{% endif %}" aria-describedby="gallery-hint">
+        {% for shot in shots %}
+        {% assign small = shot[device][0] %}
+        {% assign large = shot[device][1] %}
+        <li>
+          <figure style="--shot-color:{{ shot.color }}">
+            <a class="gallery-image" href="{{ large.path }}" data-gallery-image data-title="{{ shot.title | escape }}" data-caption="{{ shot.caption | escape }}" data-description="{{ shot.description | escape }}" aria-label="{{ gallery.open | escape }}: {{ shot.title | escape }}" aria-describedby="shot-{{ device }}-{{ shot.id }}">
+              <img src="{{ small.path }}" srcset="{{ small.path }} {{ small.width }}w, {{ large.path }} {{ large.width }}w" sizes="{% if device == 'iphone' %}(max-width: 600px) 78vw, 280px{% else %}(max-width: 600px) 84vw, 340px{% endif %}" width="{{ small.width }}" height="{{ small.height }}" loading="lazy" decoding="async" alt="{{ shot.alt | escape }}">
+            </a>
+            <figcaption id="shot-{{ device }}-{{ shot.id }}"><span class="shot-number" aria-hidden="true">{{ forloop.index | prepend: '0' }}</span><span>{{ shot.title }}<span class="sr-only">. {{ shot.caption }} {{ shot.description }}</span></span></figcaption>
+          </figure>
+        </li>
+        {% endfor %}
+      </ol>
+      {% endfor %}
     </section>
     <section id="play" class="play wrap" aria-labelledby="play-title">
       <p class="eyebrow">{{ copy.eyebrow }}</p>
@@ -75,6 +119,21 @@ lang-ref: tumtum-page
       </div>
     </section>
   </main>
+  <dialog class="gallery-dialog" aria-labelledby="gallery-dialog-title" aria-describedby="gallery-dialog-caption">
+    <div class="dialog-header">
+      <h2 id="gallery-dialog-title"></h2>
+      <form method="dialog"><button class="dialog-close" autofocus>{{ gallery.close }}</button></form>
+    </div>
+    <div class="dialog-content">
+      <img class="dialog-image" alt="" width="1080" height="2347">
+      <p id="gallery-dialog-caption"></p>
+      <div class="dialog-navigation">
+        <button type="button" class="round-button" data-dialog-previous aria-label="{{ gallery.previous_image | escape }}"><span aria-hidden="true">←</span></button>
+        <a class="dialog-original" href="#">{{ gallery.full_image }}</a>
+        <button type="button" class="round-button" data-dialog-next aria-label="{{ gallery.next_image | escape }}"><span aria-hidden="true">→</span></button>
+      </div>
+    </div>
+  </dialog>
   <footer class="wrap">
     <p><strong>TumTum</strong> <span>· {{ copy.soon }}</span></p>
     <nav aria-label="{{ copy.footer_label }}">

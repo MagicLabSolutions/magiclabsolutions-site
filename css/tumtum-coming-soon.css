@@ -52,3 +52,53 @@ footer small,footer span{color:var(--muted)}
 @media(max-width:760px){.hero{gap:2rem;grid-template-columns:1fr;padding-block:2rem 3rem}.hero-art{width:min(78%,340px);grid-row:2}.headline{max-width:20ch}.ideas{grid-template-columns:1fr;gap:1.8rem}.ideas article{display:grid;grid-template-columns:2.4rem 1fr;gap:0 1rem}.idea-mark{grid-row:span 2;align-self:start}.ideas h3{margin-bottom:.5rem}.method{grid-template-columns:1fr;gap:.75rem}.play{padding-top:2.4rem}.site-header{flex-wrap:wrap}.intro{max-width:none}}
 @media(max-width:370px){.wrap{width:calc(100% - 2rem)}.method{padding:1.4rem}.site-header{gap:.25rem}.hero-art{width:85%}}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+
+/* The approved posters keep their own composition and original proportions. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+[hidden]{display:none!important}
+button,input{font:inherit}
+button{color:inherit;cursor:pointer}
+button:focus-visible,.gallery-rail:focus-visible{outline:3px solid var(--clay);outline-offset:5px}
+.gallery{padding-block:3rem 4rem;border-top:1px solid #3d615230;scroll-margin-top:1rem;--gallery-gutter:max(1.5rem,calc((100vw - 1120px)/2))}
+.gallery-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem}
+.gallery-heading h2{max-width:22ch;margin-bottom:1rem}
+.gallery-intro{max-width:55ch;margin:0;color:var(--muted)}
+.gallery-mode{display:flex;align-self:flex-start;flex-shrink:0;gap:.25rem;border:1px solid #3d615230;border-radius:20px;padding:.3rem;margin:0;background:#fffaf070}
+.gallery-mode label{position:relative;cursor:pointer;display:flex}
+.gallery-mode input{position:absolute;opacity:0;width:1px;height:1px}
+.gallery-mode span{display:flex;min-height:44px;min-width:84px;justify-content:center;align-items:center;padding:.4rem .9rem;border-radius:15px;font-size:1rem;font-weight:800}
+.gallery-mode input:checked+span{background:var(--pine);color:#fffaf0;box-shadow:0 2px 0 #264235}
+.gallery-mode input:focus-visible+span{outline:3px solid var(--clay);outline-offset:4px}
+.gallery-toolbar{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;margin-block:1.6rem 1.2rem}
+.gallery-toolbar p{font-size:.875rem;color:var(--muted);margin:0;max-width:45ch}
+.gallery-controls{display:flex;align-items:center;gap:.7rem;flex-shrink:0}
+.round-button{display:inline-flex;justify-content:center;align-items:center;width:46px;height:46px;flex-shrink:0;border:1px solid #3d615230;border-radius:50%;background:var(--paper);font-size:1.3rem;line-height:1}
+.round-button:hover:not(:disabled){background:var(--sage)}
+.round-button:disabled{opacity:.3;cursor:default}
+.gallery-position{font-size:.75rem;font-weight:800;font-variant-numeric:tabular-nums;min-width:3rem;text-align:center}
+.gallery-rail{list-style:none;display:grid;grid-auto-flow:column;grid-auto-columns:280px;gap:22px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scroll-padding-inline:var(--gallery-gutter);padding:12px var(--gallery-gutter) 22px;margin:0;scrollbar-width:thin;scrollbar-color:#b5bfb0 transparent;-webkit-overflow-scrolling:touch}
+.gallery-rail[data-device=ipad]{grid-auto-columns:340px}
+.gallery:has(input[value=iphone]:checked) .gallery-rail[data-device=ipad],.gallery:has(input[value=ipad]:checked) .gallery-rail[data-device=iphone]{display:none}
+.gallery-rail li{min-width:0;scroll-snap-align:start}
+.gallery-rail figure{margin:0;position:relative}
+.gallery-image{cursor:zoom-in;display:block;position:relative;border-radius:14px;overflow:hidden;background:var(--shot-color);box-shadow:0 3px 0 #6c584016,0 10px 20px #6c584012}
+.gallery-image img{display:block;width:100%;height:auto}
+.gallery-image:focus-visible{outline-offset:5px}
+.gallery-rail figcaption{display:flex;align-items:baseline;gap:.75rem;padding:1rem .25rem 0;font-size:.9375rem;font-weight:800;line-height:1.35}
+.shot-number{font-size:.6875rem;font-variant-numeric:tabular-nums;color:var(--muted);font-weight:400}
+.gallery-dialog{width:min(100% - 2rem,720px);max-height:calc(100dvh - 2rem);padding:0;border:0;border-radius:20px;background:var(--paper) url('/images/tumtum/paper.webp') repeat;color:var(--ink);box-shadow:0 24px 100px #1c282f50;overflow:auto;overscroll-behavior:contain}
+.gallery-dialog::backdrop{background:#23372ee0}
+body:has(.gallery-dialog[open]){overflow:hidden}
+.dialog-header{position:sticky;top:0;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 1.25rem;background:var(--paper);border-bottom:1px solid #3d615220}
+.dialog-header h2{font-size:1.25rem;line-height:1.3;margin:0;letter-spacing:0;overflow-wrap:anywhere}
+.dialog-header form{flex-shrink:0}
+.dialog-close{border:0;border-radius:12px;background:var(--sage);font-size:.9375rem;font-weight:800;min-height:44px;padding:.5rem 1rem}
+.dialog-content{padding:1.25rem}
+.dialog-image{display:block;width:100%;height:auto;border-radius:10px;background:var(--paper)}
+.dialog-content p{font-size:1rem;color:var(--muted);margin:1.25rem 0}
+.dialog-navigation{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.dialog-original{text-align:center;font-size:.9375rem;min-height:44px;display:flex;align-items:center;justify-content:center}
+@media(max-width:760px){.gallery-heading{align-items:flex-start;flex-direction:column;gap:1.25rem}.gallery-heading h2{max-width:22ch}.gallery-toolbar{align-items:flex-end}.gallery-toolbar p{max-width:28ch}.gallery-position{display:none}.gallery-controls{gap:.5rem}.gallery{padding-top:2.4rem}}
+@media(max-width:600px){.gallery-rail{grid-auto-columns:min(78vw,320px);gap:16px}.gallery-rail[data-device=ipad]{grid-auto-columns:min(84vw,380px)}.gallery-dialog{width:calc(100% - 1rem);max-height:calc(100dvh - 1rem);border-radius:16px}.dialog-header,.dialog-content{padding:1rem}}
+@media(max-width:370px){.gallery{--gallery-gutter:1rem}.gallery-toolbar{flex-wrap:wrap;gap:.75rem}.gallery-toolbar p{max-width:none}}
+@media(prefers-reduced-motion:no-preference){.gallery-rail{scroll-behavior:smooth}.gallery-image{transition:box-shadow .2s}.gallery-image:hover{box-shadow:0 3px 0 #6c584020,0 12px 25px #6c584025}}

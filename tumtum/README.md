@@ -51,3 +51,34 @@ instead of copying their legal clauses or inheriting another app's policy.
   canonical URLs and coming-soon labels were checked on the generated output.
 - To launch, update availability/copy and add the real store destination once
   confirmed. Do not silently retain the coming-soon label beside a download CTA.
+
+## Approved App Store screenshots on the product page
+
+- The gallery on `/apps/tumtum/#screenshots` shows the eight approved scenes:
+  Home, House, Town, Dinosaurs, Cooking, Aquarium, Phonics and parent Settings.
+  Every one of the eight page languages uses its own approved localized posters,
+  with both iPhone and iPad views. Coming-soon status remains in place.
+- Sources are `../TumTum/fastlane/screenshots/<App Store locale>/*.png`, from
+  the collection approved for version 1.0. Original PNGs are left unchanged.
+- `scripts/export-tumtum-screenshots.py /path/to/TumTum` exports WebP at two
+  widths per device (iPhone 480/1080, iPad 640/1440), quality 86. It verifies
+  the approved source manifest hashes, keeps the original proportions, and
+  generates `_data/tumtum_screenshots.json` plus `screenshots-manifest.json`.
+  Run with Python 3 and Pillow. Re-export only when new images are approved.
+- `images/tumtum/screenshots/<site language>/` contains 256 web exports, about
+  23 MiB total across all languages and sizes. `srcset` selects an appropriate
+  size; lazy loading and the device selector avoid sending the entire collection
+  to each visitor. Enlarged images are loaded on demand. Original App Store
+  PNGs are not published with the site.
+- Gallery controls/copy live in `_data/tumtum_page.json`; poster copy is copied
+  from the App Store text files and also supplied as accessible HTML descriptions.
+- `js/tumtum-gallery.js` uses native horizontal scrolling and a native dialog.
+  No autoplay, tracking, CDN dependency or third-party gallery. Escape closes
+  the dialog, arrow keys change images, and focus returns to the original link.
+  The close control stays visible while scrolling. Reduced motion is respected.
+  Without JavaScript, the gallery scrolls normally and each image link opens
+  the larger WebP. Device selection is native radio controls plus CSS.
+- Checked: Jekyll build; all eight languages, 16 images per route, source hashes,
+  file paths and accessible references; existing four legal-page checks;
+  desktop, 390px phone and 320px German layout; device toggle, navigation,
+  enlargement, Escape and focus restoration. No horizontal page overflow.

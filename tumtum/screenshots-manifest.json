@@ -1,0 +1,2310 @@
+{
+  "source": "TumTum/fastlane/screenshots, approved App Store collection for 1.0",
+  "transform": "WebP quality 86, Lanczos; original aspect ratio, no crop",
+  "files": [
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-01-home.png",
+      "source_sha256": "427c815d38b3bfd4dcc5448dd40b7e6462b4d4979929af402e2148c171956838",
+      "sha256": "2f2cb2b8f3574b8f83363a0d6be6f6f1c7455a3db84ab54fc822c3fc41711be6",
+      "bytes": 41174
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-01-home.png",
+      "source_sha256": "427c815d38b3bfd4dcc5448dd40b7e6462b4d4979929af402e2148c171956838",
+      "sha256": "79090e41658ab716d67c86b13dcae24c510c1fb4339fff78ff8d8e6fb172793a",
+      "bytes": 158024
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-01-home.png",
+      "source_sha256": "0eebc42d6f8ba3b5b5738178f96f0029ce0c942ee812022343dc9e1440d59f91",
+      "sha256": "c965d8bef9242f3dc2174ea0a21749acd4260a2f0541b25e4405b69b49a42207",
+      "bytes": 37024
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-01-home.png",
+      "source_sha256": "0eebc42d6f8ba3b5b5738178f96f0029ce0c942ee812022343dc9e1440d59f91",
+      "sha256": "00c74df889131c9612f54a2a3b653d3b5acb372d2ea1f83c8dfccabcbb3982dd",
+      "bytes": 148684
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-02-house.png",
+      "source_sha256": "09d0fb26605716b1dcd094e2b9f9bf811047e2f4e86010a407943ee0fb767c17",
+      "sha256": "cf4c82b5a54a7eb32442316107df86de77add2c6e2cf946ea9df95fd830520a4",
+      "bytes": 49600
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-02-house.png",
+      "source_sha256": "09d0fb26605716b1dcd094e2b9f9bf811047e2f4e86010a407943ee0fb767c17",
+      "sha256": "e34bb138668e31e5befa3723b857b830ad9ee0b53d99a48669c82effa9f6ee6f",
+      "bytes": 158440
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-02-house.png",
+      "source_sha256": "2b5d7b42920b66a857c479e367cd95f1502c9f1feabe81260a6fca70e0b7c0bc",
+      "sha256": "db1fdec561feb76177d92615403524a1f02bab3223a6f285dc5f6248a6fb42f7",
+      "bytes": 40822
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-02-house.png",
+      "source_sha256": "2b5d7b42920b66a857c479e367cd95f1502c9f1feabe81260a6fca70e0b7c0bc",
+      "sha256": "3a3e9eb3277cd8ee399337f309261cc7350221af6f3e54f8d4797d8d9e14a956",
+      "bytes": 137114
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-03-town.png",
+      "source_sha256": "ff52ec82ba5a6c048f9cf8339cbc8c9de90df0731dbc4cba9137ec98d11de013",
+      "sha256": "524e5a133b594a961a10d754469dd44b4b5a003a0a95989ad8ca4043a5011786",
+      "bytes": 46234
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-03-town.png",
+      "source_sha256": "ff52ec82ba5a6c048f9cf8339cbc8c9de90df0731dbc4cba9137ec98d11de013",
+      "sha256": "ef9493ff45bed191681f1923178009d0d87ea37445ba7aefc52d9e12219578fb",
+      "bytes": 157300
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-03-town.png",
+      "source_sha256": "8b78963d2858e16c4f8912aaf0b2a45cc48d2db35198b3324c311eb5a5ec43e0",
+      "sha256": "8ae3b9712856c7068a488c5f92f4be9ee345d61f4304cbb9cfa27d09e119a333",
+      "bytes": 50516
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-03-town.png",
+      "source_sha256": "8b78963d2858e16c4f8912aaf0b2a45cc48d2db35198b3324c311eb5a5ec43e0",
+      "sha256": "d0eeefa0872af626cad417667e9a50d1e339017ce37722739f373175feeef80c",
+      "bytes": 175270
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-04-dinos.png",
+      "source_sha256": "a73aa516ef5305bce0e8518cbfd6b3afdffcfb96470869fbbf8f3f8cd0459710",
+      "sha256": "886cbd1821de1e98b39f384d122a530a35ce0ba25f2e9127a8ce6c5f03599410",
+      "bytes": 41246
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-04-dinos.png",
+      "source_sha256": "a73aa516ef5305bce0e8518cbfd6b3afdffcfb96470869fbbf8f3f8cd0459710",
+      "sha256": "78257e452760e88b780b655ce746452cba3d6096219a1b11a9027e32f1df1ebc",
+      "bytes": 145230
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-04-dinos.png",
+      "source_sha256": "e4dad42f3e330ef47b8483e0433c8dbfc0ab0199854907d031dee1f3ca7a277b",
+      "sha256": "ea6adf8c9410964da27c12e1a47eb1f371ba3bd7d0f045aa48e1b51c7a0359a2",
+      "bytes": 42822
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-04-dinos.png",
+      "source_sha256": "e4dad42f3e330ef47b8483e0433c8dbfc0ab0199854907d031dee1f3ca7a277b",
+      "sha256": "4e3fe5da4446350c5a92454a1e886ed990ed24385c48f90a48a2ba52078f4941",
+      "bytes": 147512
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-05-cooking.png",
+      "source_sha256": "5a7de09e61d62ffe1a6ad848fc156ca396d90b52dc780265f55a36ed9f8a93b5",
+      "sha256": "12c8e97588613df11292a43b4944fc01f84b9ca9bf4e425e09e7ef6a9e56de2c",
+      "bytes": 34788
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-05-cooking.png",
+      "source_sha256": "5a7de09e61d62ffe1a6ad848fc156ca396d90b52dc780265f55a36ed9f8a93b5",
+      "sha256": "1de8a41d6dac64a478d65f02783f7715a634e7137ba8cc4d93f59885d9fefff0",
+      "bytes": 129088
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-05-cooking.png",
+      "source_sha256": "9ba63eb8b83332f6c3fd922e45b12430a4d13eecf1088f514c13bf0bdcb07523",
+      "sha256": "c2f0a7ce578c918eeaa25e0c938529b37eace85b9c30c63c4f353bb62ce0580f",
+      "bytes": 39762
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-05-cooking.png",
+      "source_sha256": "9ba63eb8b83332f6c3fd922e45b12430a4d13eecf1088f514c13bf0bdcb07523",
+      "sha256": "ebd81bb40a292cb0b35f435122fc4da63e3c3850dd04d1df5ac45a842f789611",
+      "bytes": 142836
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-06-aquarium.png",
+      "source_sha256": "419f6cc7ed7a3fdb87e917176c7c984274143b3197c74e3e54ced4fcd816629b",
+      "sha256": "005600316e07d9ad8de6caac64e3b33d7bb00d348e052ab98d9d864bec3680e2",
+      "bytes": 42540
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-06-aquarium.png",
+      "source_sha256": "419f6cc7ed7a3fdb87e917176c7c984274143b3197c74e3e54ced4fcd816629b",
+      "sha256": "c5b512bae2742fcea59ba031cd0a1e177dfba9c0331e442fb11ae2538208fdcc",
+      "bytes": 146096
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-06-aquarium.png",
+      "source_sha256": "6baecfe11a02a5169f77a2f83a7246ec954303f3d3e94206e8a8001ac960a762",
+      "sha256": "5050f055dc8a50b359e97d07b2315f94316fcf2d33bbedc7db9d45722a9979f8",
+      "bytes": 51120
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-06-aquarium.png",
+      "source_sha256": "6baecfe11a02a5169f77a2f83a7246ec954303f3d3e94206e8a8001ac960a762",
+      "sha256": "b7ba48de557c0698bff82ae8072c572419df9af9d120bd12eaf2ab0f0d5a0607",
+      "bytes": 204832
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-07-phonics.png",
+      "source_sha256": "ba7d1e9ba5ce86725f03ae31ed1176579ccf6450208374dc7c8f9659768a9080",
+      "sha256": "ebd273174c6c49d9d3e8e96ff6914fd0ef8caa3220b6c3834490c8eefa0f81fc",
+      "bytes": 27180
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-07-phonics.png",
+      "source_sha256": "ba7d1e9ba5ce86725f03ae31ed1176579ccf6450208374dc7c8f9659768a9080",
+      "sha256": "3f152b1d5c1808270d514509be86cc447b2ddcb511613c669e36cf6c4692b4c7",
+      "bytes": 86584
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-07-phonics.png",
+      "source_sha256": "4e70aa2b3ef4a7dbb9f4b9de90c173cf24c865f5666c04842cc75e851422ebfa",
+      "sha256": "a44119939f592ba9882af0d0f06673d804d87fd29198b39a446c742254007f90",
+      "bytes": 24992
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-07-phonics.png",
+      "source_sha256": "4e70aa2b3ef4a7dbb9f4b9de90c173cf24c865f5666c04842cc75e851422ebfa",
+      "sha256": "fa53060ac1311f05374b24e411e868c6561d8c3b902505eb36eebf225b15db24",
+      "bytes": 81054
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-08-parents.png",
+      "source_sha256": "86c207adb81131c789fd3fa21ab90565052e5df14b2168ae110b77137b2631f5",
+      "sha256": "9f1e2a53046957429e2126fa5518a13294fbdcb1f8f5216239329f4b244af802",
+      "bytes": 39336
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/en-US/iphone-08-parents.png",
+      "source_sha256": "86c207adb81131c789fd3fa21ab90565052e5df14b2168ae110b77137b2631f5",
+      "sha256": "a3585507989ee8b0741dd6963cf478397ddae5b3157f3b2a94369d0f7c2a340b",
+      "bytes": 147376
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-08-parents.png",
+      "source_sha256": "70ade3955999457a56eef84c07d67a3b6371ca280931bf9c44a2cd45de627de9",
+      "sha256": "f3dd37250219cda7167c08f5742ed74edd04b148ac36d4c25a256cc87912a2ab",
+      "bytes": 30578
+    },
+    {
+      "path": "/images/tumtum/screenshots/en/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/en-US/ipad-08-parents.png",
+      "source_sha256": "70ade3955999457a56eef84c07d67a3b6371ca280931bf9c44a2cd45de627de9",
+      "sha256": "a9aa4af4f85f42da82fc992278acf1724d982cae254cbf4cec82a6164755362b",
+      "bytes": 129422
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-01-home.png",
+      "source_sha256": "af657e816d5dfa708ba3f15ddb2813cf43aeca5afc3849aaf51cff0d5c83f6ff",
+      "sha256": "a36e72b051ac56072ab1ecf049bf36cf4319003c481aa0a7187a3bfc9053df45",
+      "bytes": 44200
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-01-home.png",
+      "source_sha256": "af657e816d5dfa708ba3f15ddb2813cf43aeca5afc3849aaf51cff0d5c83f6ff",
+      "sha256": "4b33beb409e47faf851bf574bb7bfa39689407b7f43f039de379dca1b0691033",
+      "bytes": 163020
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-01-home.png",
+      "source_sha256": "210d42ece0993ef658854ffa048ca600a98a4e05aac79abdd656d59b94aec4d4",
+      "sha256": "82f6d7e6808a9a81fcd95377f047c052c37031cfde0710307c5dd1a859abfc38",
+      "bytes": 40900
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-01-home.png",
+      "source_sha256": "210d42ece0993ef658854ffa048ca600a98a4e05aac79abdd656d59b94aec4d4",
+      "sha256": "3b8b3a06f1b72cd12a0c3fa4be5709affd307f00084a1a7b7272880147ebae56",
+      "bytes": 158120
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-02-house.png",
+      "source_sha256": "443c82f6f159f2f5d3ef2258f0c4658ab73b0512b305a55f0bd27da3bfae33f9",
+      "sha256": "41489ef3ecd70fdd2906b778352f1b947f60e5c956a0b4eec7cc6efd16f522b0",
+      "bytes": 51778
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-02-house.png",
+      "source_sha256": "443c82f6f159f2f5d3ef2258f0c4658ab73b0512b305a55f0bd27da3bfae33f9",
+      "sha256": "c015f1bfe496949327d544dda35fab5bcc593e84fdfd273bbd2d297c6d600a32",
+      "bytes": 163006
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-02-house.png",
+      "source_sha256": "a0c4ed418eadeca84cec8fbc71d6382fac30fdf2cff22bfe68b37cf417a63d11",
+      "sha256": "2b5189633efb6afecd3aa56a5251ba4e4088d92a908a3c56fd1666bc9646a5db",
+      "bytes": 42828
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-02-house.png",
+      "source_sha256": "a0c4ed418eadeca84cec8fbc71d6382fac30fdf2cff22bfe68b37cf417a63d11",
+      "sha256": "c64cf04bcfc459c62d5a10890a591f43b5a8bbe5f2875fa8d0b1b23b03d90fec",
+      "bytes": 142560
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-03-town.png",
+      "source_sha256": "d271231678cdd01dd6b49c0ca9e01e65b7ddf07daf292547a05a3aa0e08e4704",
+      "sha256": "283b2a8e0883ff7c1ea1c72924e55f859fa4bcee23495bc670987c79732bede9",
+      "bytes": 48916
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-03-town.png",
+      "source_sha256": "d271231678cdd01dd6b49c0ca9e01e65b7ddf07daf292547a05a3aa0e08e4704",
+      "sha256": "cf93c9db0c58c6731632d3e9720ab5f3a6ea931d9b7b5e7a72c3677e34686941",
+      "bytes": 166812
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-03-town.png",
+      "source_sha256": "e81adcea76216ed569536048278bd9194df5ed9c7b9a7f5f9e0b1c701acb457b",
+      "sha256": "388b40e80cfe2bb0e89138a286bd3d3c89948f46781b3194a42ebfe86ef170bc",
+      "bytes": 53276
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-03-town.png",
+      "source_sha256": "e81adcea76216ed569536048278bd9194df5ed9c7b9a7f5f9e0b1c701acb457b",
+      "sha256": "7641b3bb78b9a5a331c1e6a6ba0789af40aded5177fddce83bb402fe02c688ad",
+      "bytes": 179922
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-04-dinos.png",
+      "source_sha256": "a0161c12ea5f6818a7fdc8174be48a35e5f0b3badd2ba4f1685e96b828e99876",
+      "sha256": "5f98a7f89fc32088a07205fd5a89229712651f14b48222b8a15f0c4e8c666fbe",
+      "bytes": 38646
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-04-dinos.png",
+      "source_sha256": "a0161c12ea5f6818a7fdc8174be48a35e5f0b3badd2ba4f1685e96b828e99876",
+      "sha256": "6615dca8f53368ae42c4e17a42d9edf639d3c54836786134acb4c050c908b411",
+      "bytes": 135068
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-04-dinos.png",
+      "source_sha256": "eb40858d12becc1b083f730a374cc2f459b3b277a8360ad39d6c9ebf96976faf",
+      "sha256": "9eed31b0ad66c4fe4c1d41665b7bbc729c02de993f07707c3838618698a11d0b",
+      "bytes": 50744
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-04-dinos.png",
+      "source_sha256": "eb40858d12becc1b083f730a374cc2f459b3b277a8360ad39d6c9ebf96976faf",
+      "sha256": "68741002221bc3d360d3183e624bf70d06cfa88423eca4cbe6ab21ca4e868614",
+      "bytes": 178290
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-05-cooking.png",
+      "source_sha256": "d9b3ad90774123728a64498fb9aff49e627ddbf382ffb193f779205a0ef3efb2",
+      "sha256": "56f675d621625b7e084a6f42d26a54df883e73f8bd979d5dd3fab82561c555ff",
+      "bytes": 36748
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-05-cooking.png",
+      "source_sha256": "d9b3ad90774123728a64498fb9aff49e627ddbf382ffb193f779205a0ef3efb2",
+      "sha256": "b21d84d35873886d87f9243bf55fd0d66029490901671292250c37977f4d54e8",
+      "bytes": 132810
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-05-cooking.png",
+      "source_sha256": "8c0dd1f45af1e252dfdb3140cdb6885ab62e72d56f5a437ae39bd7f9e199dbb5",
+      "sha256": "0dcc8a2633bd4b3819a9a5bd402223acecadcdd39ccd1774fc4994f278de7349",
+      "bytes": 41396
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-05-cooking.png",
+      "source_sha256": "8c0dd1f45af1e252dfdb3140cdb6885ab62e72d56f5a437ae39bd7f9e199dbb5",
+      "sha256": "7743d481196da0a72e2b0ecf3a56a08aa563189353a9f12598d5697eb708e525",
+      "bytes": 148806
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-06-aquarium.png",
+      "source_sha256": "f8f13d84d7ab3d5cf0aed37a61f253c4749b721e6d57f667c01c619b0c6ffce5",
+      "sha256": "56300a824f27ed676a31371f283e691e1fb096983af8dac548642f0aa4d90866",
+      "bytes": 44234
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-06-aquarium.png",
+      "source_sha256": "f8f13d84d7ab3d5cf0aed37a61f253c4749b721e6d57f667c01c619b0c6ffce5",
+      "sha256": "db13af587ed7a9b6e14e37d1ac9aaf8f8fc3a0186ea13b78721ec8072c26c835",
+      "bytes": 147514
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-06-aquarium.png",
+      "source_sha256": "e34b1dd28f1ce561b49244ebaccf00b3701196a7f9d62c907b015cac8dd4d63e",
+      "sha256": "1e5c266d58e7fbdcf7b0f662c4e17ee6f0129381f77fcdf09d280d389fb982fa",
+      "bytes": 53860
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-06-aquarium.png",
+      "source_sha256": "e34b1dd28f1ce561b49244ebaccf00b3701196a7f9d62c907b015cac8dd4d63e",
+      "sha256": "f6fafe35f7a7778436b64e629155626bb677416ba31d7bc22ecd0900c9db83f4",
+      "bytes": 210428
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-07-phonics.png",
+      "source_sha256": "2af6b7f1889b3edd0cf50d86cb5080f2946b16e7a7130075949e2cd16a200596",
+      "sha256": "d4e831f3f903a680ace188eee0d50b6413237d8e0a0cd9be6a803120ef499d8c",
+      "bytes": 26354
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-07-phonics.png",
+      "source_sha256": "2af6b7f1889b3edd0cf50d86cb5080f2946b16e7a7130075949e2cd16a200596",
+      "sha256": "00bf9bc16d463127f4f08f57ee02fcb5c7f15308dc9fc84cf4d83a8839be6eb9",
+      "bytes": 86430
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-07-phonics.png",
+      "source_sha256": "26243575a98e72c976c254f50557ee52ae5eea773fa2cc75de54a70a935cc746",
+      "sha256": "8b2ac18eb6649e37527f604dd1af1f32f5283c7c64dac1603e992b459445f4f5",
+      "bytes": 24314
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-07-phonics.png",
+      "source_sha256": "26243575a98e72c976c254f50557ee52ae5eea773fa2cc75de54a70a935cc746",
+      "sha256": "28f69571fd253733defefafc564c25cc3e6c87078fddaa3610d7e9134872522a",
+      "bytes": 78864
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-08-parents.png",
+      "source_sha256": "b7c04edc3990b24e68a067f6acbf3556cdf9d9359fa991521a8f969f31e9a380",
+      "sha256": "5c07ba01015c8e13b5deb1ac73a2e09f671e6ebcbdc8065b90e1c48d55202671",
+      "bytes": 40972
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/pt-BR/iphone-08-parents.png",
+      "source_sha256": "b7c04edc3990b24e68a067f6acbf3556cdf9d9359fa991521a8f969f31e9a380",
+      "sha256": "0f3a75ef6a91260e4031298bdb2e37ea0b9a9ab32a5f32b6792197c8e1ea9fea",
+      "bytes": 154770
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-08-parents.png",
+      "source_sha256": "d2343d411c277a6da8ebc6fa00d81996990a3dda8a45f885beca6ad9a92cdc1c",
+      "sha256": "3dd594da3a128683adec0e43801b77424945b0c72992835cb86e8cee78e83d63",
+      "bytes": 31952
+    },
+    {
+      "path": "/images/tumtum/screenshots/pt-BR/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/pt-BR/ipad-08-parents.png",
+      "source_sha256": "d2343d411c277a6da8ebc6fa00d81996990a3dda8a45f885beca6ad9a92cdc1c",
+      "sha256": "14c6bd65cc3dc1f076cf0ec1cb0dffaa12b8ed591e44a330bea781fdbbeb52f1",
+      "bytes": 137630
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-01-home.png",
+      "source_sha256": "4596a6daf425843e223c1239d91505eb933d8706b5a30b7e1433b88994e54da8",
+      "sha256": "032f007c70eb1499a94d8b35bed58abace8c7f723e6774e5ecae2b5dea1b42d4",
+      "bytes": 43426
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-01-home.png",
+      "source_sha256": "4596a6daf425843e223c1239d91505eb933d8706b5a30b7e1433b88994e54da8",
+      "sha256": "b139ae887411ed2a7854e6a079431d74b853a60e9d8ec359364208ce82367996",
+      "bytes": 164818
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-01-home.png",
+      "source_sha256": "b689f32a80a41c278ebd35d33466b256ae4c8346a6b7c861ad3115020d9d7e99",
+      "sha256": "c7701a057f5a720f23a94751fe6d9bf9b29e2c8337f0feb84f3c0e2ec3ce2610",
+      "bytes": 41140
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-01-home.png",
+      "source_sha256": "b689f32a80a41c278ebd35d33466b256ae4c8346a6b7c861ad3115020d9d7e99",
+      "sha256": "27470e48f84a016a72385061368d07543bbe10cba31bba83466678f510d043e5",
+      "bytes": 158894
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-02-house.png",
+      "source_sha256": "4117a5144c8e6b28026d25cc30c139c5018c59403fab16479e0fe6d2b13c7595",
+      "sha256": "52c5a3f97fe543c6a95f74180eb61e3217a3cde673102063419da43d61e3e0fa",
+      "bytes": 52294
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-02-house.png",
+      "source_sha256": "4117a5144c8e6b28026d25cc30c139c5018c59403fab16479e0fe6d2b13c7595",
+      "sha256": "a616596fa0412436e9d11e83e95508f69ffaa12f4c2f8564e4a36ff1b398d408",
+      "bytes": 164640
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-02-house.png",
+      "source_sha256": "8798730483ba7eec240fcb486548d2d89b7b4202b7a5e5177ad925010ff31a29",
+      "sha256": "c742b6591665a6f5318937ef931ed17face0e9f96818b8947f074fee5974bc66",
+      "bytes": 44328
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-02-house.png",
+      "source_sha256": "8798730483ba7eec240fcb486548d2d89b7b4202b7a5e5177ad925010ff31a29",
+      "sha256": "8a2b2186783100a56ecebf73ced6f161676602804b1ceb83f72bd2f2b6042938",
+      "bytes": 144052
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-03-town.png",
+      "source_sha256": "62471ca41e38f86c62bbe023808984b72837c24961ce55e1d8b416efcba1dd41",
+      "sha256": "a2365b95f17ada5c4fef9ec7c8f06d5923c7ba0e69de5a0492d569947ddedc04",
+      "bytes": 47050
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-03-town.png",
+      "source_sha256": "62471ca41e38f86c62bbe023808984b72837c24961ce55e1d8b416efcba1dd41",
+      "sha256": "d5e2d4df66cacf5ff4a57714236f49dbf6dc030a7e97ac98fbbecff9bc0ad5a3",
+      "bytes": 162404
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-03-town.png",
+      "source_sha256": "7a18b4f517566e487ae785338ffdd5b20aab153d3f68e467e273d2bbc239ee85",
+      "sha256": "8afddbe18b9ac316bd39e135be62e5999c2a64f1c8a17cf82f23f0e97e1a8210",
+      "bytes": 51252
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-03-town.png",
+      "source_sha256": "7a18b4f517566e487ae785338ffdd5b20aab153d3f68e467e273d2bbc239ee85",
+      "sha256": "16ef61a3aff3aae2bf101b1e2d6920f3d808ae1e103eddb369b40edcd2877272",
+      "bytes": 182980
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-04-dinos.png",
+      "source_sha256": "38b97b0a2e5aa5d82ef7fa68f031da58dd7207709f980136e3cd623ca120565f",
+      "sha256": "2ea363ab3768b21634265c2454eb7cf38f60b371816640c7d496b66c7a232d1f",
+      "bytes": 43230
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-04-dinos.png",
+      "source_sha256": "38b97b0a2e5aa5d82ef7fa68f031da58dd7207709f980136e3cd623ca120565f",
+      "sha256": "578a709219bfe5cdc5bb89669dc4d10f4493bcd60a561a4950728dc7f49189a5",
+      "bytes": 153696
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-04-dinos.png",
+      "source_sha256": "dfeb35918b54baf116e5706e934f71e8a06b49faee59df380ad078aee541afb1",
+      "sha256": "3cdf7a4cd14e9f04e5d0c4702651137055e46cfa01025c4d6b4ecbb3df934d5c",
+      "bytes": 45558
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-04-dinos.png",
+      "source_sha256": "dfeb35918b54baf116e5706e934f71e8a06b49faee59df380ad078aee541afb1",
+      "sha256": "00d02569ce00925d419466d33a2dc865c7aa1285e36e29ea42c873a89553bd74",
+      "bytes": 162280
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-05-cooking.png",
+      "source_sha256": "29a96f6679e019100bca81a9563b7fab7f6098d053688f5cc531b16a5e736775",
+      "sha256": "cdb03dd89738680aedc162675edd40168ea11bcb20daa70f589791035a1e9aaa",
+      "bytes": 35626
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-05-cooking.png",
+      "source_sha256": "29a96f6679e019100bca81a9563b7fab7f6098d053688f5cc531b16a5e736775",
+      "sha256": "d336ae2f3ee389448ab66ebc65866618c61ccc8af6820935e7486617d68710da",
+      "bytes": 131078
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-05-cooking.png",
+      "source_sha256": "1e24bf849e416d8378ea82d23dcee3827ba37db359778049ec6e4b807938fa4d",
+      "sha256": "c87ddc446a1dc4a177cba60146be69be9fce9ba0297be36f4c3817860da66c2c",
+      "bytes": 40508
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-05-cooking.png",
+      "source_sha256": "1e24bf849e416d8378ea82d23dcee3827ba37db359778049ec6e4b807938fa4d",
+      "sha256": "6b72489b3a681c6dd63f7f8af7dc7b3ba9298f13d213e9b4b2bdd2a1af7bc877",
+      "bytes": 144960
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-06-aquarium.png",
+      "source_sha256": "9357fe86c62983b4a05823034f7546097636d8eb9a6558113207dd703e591632",
+      "sha256": "43abecf43df033e78cce6bc624ba67bf709fe41c1f589b30f60963d79ee99796",
+      "bytes": 44440
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-06-aquarium.png",
+      "source_sha256": "9357fe86c62983b4a05823034f7546097636d8eb9a6558113207dd703e591632",
+      "sha256": "6157b5a532c272b6dc995bb0441c31aca546fcbe680f4c5d7433a1c7f4c0432a",
+      "bytes": 150890
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-06-aquarium.png",
+      "source_sha256": "ab7eb494917fa48b9b4145f14811f6dc1f26d9bfb6e810ab04d0ec27de9f70ce",
+      "sha256": "0d8d9f56daa496679751ef3aabaa3e318137a41225b8ee88e4858f55f8b8c451",
+      "bytes": 54444
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-06-aquarium.png",
+      "source_sha256": "ab7eb494917fa48b9b4145f14811f6dc1f26d9bfb6e810ab04d0ec27de9f70ce",
+      "sha256": "35c1c1a761a33d1eea023efe632601e00631a81a74aa8fc37fc0757cdec0aff4",
+      "bytes": 211842
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-07-phonics.png",
+      "source_sha256": "7958db4639e295ad29120d8dc2cfc1f3c887470e4e4f0dd5af35e9a1628c5231",
+      "sha256": "3f3e4ff4ffbe531f797a1fb8b1341c522ce48e02b1f105ff24167202d9b9254c",
+      "bytes": 25918
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-07-phonics.png",
+      "source_sha256": "7958db4639e295ad29120d8dc2cfc1f3c887470e4e4f0dd5af35e9a1628c5231",
+      "sha256": "7abc53ae025df520001acb0708737d912569a3c35ebcdde2b16bf8b15ca2c0b9",
+      "bytes": 85808
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-07-phonics.png",
+      "source_sha256": "939275edaf4f9fe0f126d82def431227957f9893136253fee4a4466268325f90",
+      "sha256": "c20d9eeac879e1c73aa73ce30ba4efa1872244d05e67e681e19bbbe6e5886d53",
+      "bytes": 24372
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-07-phonics.png",
+      "source_sha256": "939275edaf4f9fe0f126d82def431227957f9893136253fee4a4466268325f90",
+      "sha256": "e2ac054ad79adf17e086a4cee8dabd5afca11465b95fd9bd4020281dad97ffcb",
+      "bytes": 78748
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-08-parents.png",
+      "source_sha256": "20706c7e4bfa6978d5975a830ff632735193f6e3d351ac06d863fa8cf5577257",
+      "sha256": "6b6f6a221758d1a709267fa4bbaffe45e7ff62c4f083c0014064c203904daa5a",
+      "bytes": 41878
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/es-ES/iphone-08-parents.png",
+      "source_sha256": "20706c7e4bfa6978d5975a830ff632735193f6e3d351ac06d863fa8cf5577257",
+      "sha256": "d4fb3322a406a29cd4b3df8a23853eff939bee116dcfc7aeb8bf1b0fff69d27e",
+      "bytes": 156556
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-08-parents.png",
+      "source_sha256": "65fa816ce9eb79e50d04d80aef80a48cec89cfffc36a7f3afccb93677007b1da",
+      "sha256": "30ea35763330f9f178f6cd75ab11d312a491da0d2885347057f0585e89e5abd0",
+      "bytes": 32718
+    },
+    {
+      "path": "/images/tumtum/screenshots/es/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/es-ES/ipad-08-parents.png",
+      "source_sha256": "65fa816ce9eb79e50d04d80aef80a48cec89cfffc36a7f3afccb93677007b1da",
+      "sha256": "c3738aaf22fd31509858a0b400d4d5abfb5a2f8ad90f98cbd19998aa76a0fcc0",
+      "bytes": 139168
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-01-home.png",
+      "source_sha256": "cad571e4702e166a088e198439d2b2d73d8a764359ab825519d818693f39dabe",
+      "sha256": "80f88469473c574e6b37c5cdf595a9ee8af17ae4652cfa77570db4b6e740ca17",
+      "bytes": 42190
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-01-home.png",
+      "source_sha256": "cad571e4702e166a088e198439d2b2d73d8a764359ab825519d818693f39dabe",
+      "sha256": "d6272a3dcd099bca4daafd6707a55134e373a62820bc520017dbd9bb3d395de8",
+      "bytes": 159614
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-01-home.png",
+      "source_sha256": "10357c1016c411e4e843bf4eed7d8dc06077845beaf5c9b5e41af158d2bacacf",
+      "sha256": "854f81fd4fe81857139ffab9a219880ee7333f2451b063b289e1685260857121",
+      "bytes": 39762
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-01-home.png",
+      "source_sha256": "10357c1016c411e4e843bf4eed7d8dc06077845beaf5c9b5e41af158d2bacacf",
+      "sha256": "0f51571bcafc271149ef8907b352180c8b1a461d9fd2e40f3311660f7c16fce8",
+      "bytes": 155846
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-02-house.png",
+      "source_sha256": "bc75aa7cc23a5049cf009b3724afbdebc75bc4398812a1dbb98ef2b3ba6a07f5",
+      "sha256": "5ff0c4164976902d166f33d773730b88567628514f0371bc197a565bfd6cd168",
+      "bytes": 52100
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-02-house.png",
+      "source_sha256": "bc75aa7cc23a5049cf009b3724afbdebc75bc4398812a1dbb98ef2b3ba6a07f5",
+      "sha256": "24551aff2e013aec0ed1eed2902146dbc34187c79e54cf5f2e6ec3a75dd754e8",
+      "bytes": 163210
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-02-house.png",
+      "source_sha256": "57e56f76c64a2edc2273eedb69afa529bc41fe89793b688b79c0850ffb976abf",
+      "sha256": "c5b1ddf288baf5b42c29e964a24c5e8d3b6d92bb51bcfe2f7f6c38bcd88cb290",
+      "bytes": 45232
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-02-house.png",
+      "source_sha256": "57e56f76c64a2edc2273eedb69afa529bc41fe89793b688b79c0850ffb976abf",
+      "sha256": "24b7e8d0fdb7ef5562745e0a68242c345148071be13627fb14c53f580881eb7e",
+      "bytes": 149186
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-03-town.png",
+      "source_sha256": "64c24e16f7e0817f401a55c6539121d6d3a386ea7eb49ee9a8a8589d4d2d905a",
+      "sha256": "dbf127e6b7a7251fd0eeba3facca21c2543d555756774cf3a618a6036b769e01",
+      "bytes": 46542
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-03-town.png",
+      "source_sha256": "64c24e16f7e0817f401a55c6539121d6d3a386ea7eb49ee9a8a8589d4d2d905a",
+      "sha256": "bbdd71b5bf68f52f2402eeb9075f6b3b58ecf225e0488286e490b78c4e9eee77",
+      "bytes": 161102
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-03-town.png",
+      "source_sha256": "f02685f4bde853e9b8a6adea09029867ac5d6c4f2dd03e5e29955a677598cb62",
+      "sha256": "70b1f4672a30d6758aef05527fe1c5b635d66fa7cf01787033d91ec5ca88c84d",
+      "bytes": 50632
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-03-town.png",
+      "source_sha256": "f02685f4bde853e9b8a6adea09029867ac5d6c4f2dd03e5e29955a677598cb62",
+      "sha256": "c4903db2edee08af0d83c083c0db11bf929c5a779c50c8ec6e5f3ba5cff09c03",
+      "bytes": 179604
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-04-dinos.png",
+      "source_sha256": "2e5878ea9fdb8635abace1e5be57b246ca2f942ffa72999e6cdc8771b9b83162",
+      "sha256": "174aff76bc9cefcdfb7643e85b400c32851686cced99b13629c277383b274f79",
+      "bytes": 42800
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-04-dinos.png",
+      "source_sha256": "2e5878ea9fdb8635abace1e5be57b246ca2f942ffa72999e6cdc8771b9b83162",
+      "sha256": "8ca06e9c88173623438a7c173eed57d53e12357d9f3101c779d60214d9c3d6ad",
+      "bytes": 152462
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-04-dinos.png",
+      "source_sha256": "0b3375deadee8a7a4530e01f6a9a8cce323c1a20e1649d4700255a8e0bdac7b2",
+      "sha256": "725bd53398c715e9ab864a90ee5655ee1ba44b6b19a8ba3942d1f4f33a6ea6ad",
+      "bytes": 44814
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-04-dinos.png",
+      "source_sha256": "0b3375deadee8a7a4530e01f6a9a8cce323c1a20e1649d4700255a8e0bdac7b2",
+      "sha256": "55927c1f2679eef08967ad9fc4681f9a39e77f178ac8fc057af5add8f41bc4c9",
+      "bytes": 155826
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-05-cooking.png",
+      "source_sha256": "e686d788f5f9c292bb3bf7162f4fe9891cdd41ae5e41a57ba27c197fa98dadb6",
+      "sha256": "4194181bd8ff4e8e9d1048dbfd383eb1831ba43d3be0eca47a5fa25274a9bacf",
+      "bytes": 35098
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-05-cooking.png",
+      "source_sha256": "e686d788f5f9c292bb3bf7162f4fe9891cdd41ae5e41a57ba27c197fa98dadb6",
+      "sha256": "596211f5d18bf3efa835bb8d6624646c3f92c62d8fa1fe27ac36447b164819bd",
+      "bytes": 130534
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-05-cooking.png",
+      "source_sha256": "22373b0c6086e857364bbb25aebb036651a70f74c46d1068a1245de3210b7ac7",
+      "sha256": "ff6dc92d35d1e1c3ed486b7f87ff541c7bb529ebcb4269a9f83689e4e6725a64",
+      "bytes": 40026
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-05-cooking.png",
+      "source_sha256": "22373b0c6086e857364bbb25aebb036651a70f74c46d1068a1245de3210b7ac7",
+      "sha256": "b9c8d875ab99a7270764cc491d8e214937f2927eb450a234b81d105829040358",
+      "bytes": 144876
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-06-aquarium.png",
+      "source_sha256": "4658924bbdb5e54f0e33b845cd720f5a3b3ae9617f5406bda65d5bbf23a8347d",
+      "sha256": "450178149ab54850a8f37273f27fac0ebceb8b30c5477e7a4a14087dbe98facc",
+      "bytes": 44048
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-06-aquarium.png",
+      "source_sha256": "4658924bbdb5e54f0e33b845cd720f5a3b3ae9617f5406bda65d5bbf23a8347d",
+      "sha256": "a0c86f8fc27dcb393db31e3611c98068cc2e8dc31e7861be64137fd4026fa684",
+      "bytes": 150268
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-06-aquarium.png",
+      "source_sha256": "06100ed0071fafd301915b67c461ee9e338dbc0925fe789c00198b2de916f278",
+      "sha256": "c0cab8e269a6a8e5e5e7ba3f0047e6760885f413b2bb37874b3b73f684b72af4",
+      "bytes": 54260
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-06-aquarium.png",
+      "source_sha256": "06100ed0071fafd301915b67c461ee9e338dbc0925fe789c00198b2de916f278",
+      "sha256": "e65e1ad1e03066923b81f347b969a687676422792f607e42c4f7fc8776104581",
+      "bytes": 211002
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-07-phonics.png",
+      "source_sha256": "4100e8c59cf8c17140b1523a12bf2915c829e9b8517b167dc7e2e8761560cff2",
+      "sha256": "7ab48a4352e06aa500bffe56e9ebb6b418f78f37a489b15978337f499747339f",
+      "bytes": 24984
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-07-phonics.png",
+      "source_sha256": "4100e8c59cf8c17140b1523a12bf2915c829e9b8517b167dc7e2e8761560cff2",
+      "sha256": "232489b36589465d6076a3a95c5669ac4cdf6d375b66c149372df0e7b5d28311",
+      "bytes": 84192
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-07-phonics.png",
+      "source_sha256": "e738d41c4453372b8264999e39f40e57c05fba0b6c57f9f144cb0e022d1c7864",
+      "sha256": "754730f3195117f1c22286cacf051f6e3a437b82c166e4f5b8719cafafa38982",
+      "bytes": 22860
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-07-phonics.png",
+      "source_sha256": "e738d41c4453372b8264999e39f40e57c05fba0b6c57f9f144cb0e022d1c7864",
+      "sha256": "34fa60e970d9a9c3c3019a3c3b62bcaa2443830d35ba74a55941c40ee0e6ced8",
+      "bytes": 75806
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-08-parents.png",
+      "source_sha256": "84e35a262972b86b47eda3212b909826a16002d14ce66ac6ac1e19d811d68c55",
+      "sha256": "9a4c97dfaf804d971ef899118ca95e870c12621ea1245c397d09677af9bd62d6",
+      "bytes": 41142
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/fr-FR/iphone-08-parents.png",
+      "source_sha256": "84e35a262972b86b47eda3212b909826a16002d14ce66ac6ac1e19d811d68c55",
+      "sha256": "d5bc0758d5439206f059786d7b9024e23978b4d89b44eb62c3b27a040977fbd7",
+      "bytes": 154628
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-08-parents.png",
+      "source_sha256": "e6fc64b2837ada4d902e5377056b5d03f917de443ce329ec4910b055218a3a58",
+      "sha256": "67325255c4c694aadb75279cb3101b4849c7b2ede3ca167c5127346c5ab5f59a",
+      "bytes": 31698
+    },
+    {
+      "path": "/images/tumtum/screenshots/fr/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/fr-FR/ipad-08-parents.png",
+      "source_sha256": "e6fc64b2837ada4d902e5377056b5d03f917de443ce329ec4910b055218a3a58",
+      "sha256": "741d474127abc22f5e8c98329890e877a2441f112bbdc81c8393ead313623dc9",
+      "bytes": 137510
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-01-home.png",
+      "source_sha256": "d9583ebbbfca51bb1b1ec970333e524b2d8a8d3f12fecaeae9161f61a5b01fcf",
+      "sha256": "86ba95e63d70523495e40cf240444a67a151cbbd04914c803df7dc806a91dedc",
+      "bytes": 43282
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-01-home.png",
+      "source_sha256": "d9583ebbbfca51bb1b1ec970333e524b2d8a8d3f12fecaeae9161f61a5b01fcf",
+      "sha256": "15bc3f6b5274b65fad524da97ca9154ed33bb991749530bb7f245d14ddfc331a",
+      "bytes": 160886
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-01-home.png",
+      "source_sha256": "257791d2bf4136b3cb8329427de97dcc60aec347dacb6427c70d8660364280df",
+      "sha256": "9d6f1fa81f2ed9748e242bbb01e81a0f91c1dc5a78021ea90c7cbbb8eb185513",
+      "bytes": 40164
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-01-home.png",
+      "source_sha256": "257791d2bf4136b3cb8329427de97dcc60aec347dacb6427c70d8660364280df",
+      "sha256": "3d8c6be300f4f5d046507eb9ba04b7adf49acc61a7675a6f9e0bfb7702059296",
+      "bytes": 155832
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-02-house.png",
+      "source_sha256": "eb4f4e9afd127f010de1c77a326187e55d1bae8b0c8cd0d2fc3495f767ff726a",
+      "sha256": "22be8a2b2607f6846406276b69b7e101bd6302d4aa98ccdf649ba0bcd7ed5ab9",
+      "bytes": 52592
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-02-house.png",
+      "source_sha256": "eb4f4e9afd127f010de1c77a326187e55d1bae8b0c8cd0d2fc3495f767ff726a",
+      "sha256": "dafa42ad07eb29ccb2c6daefcbdcd51921bc7c36ebdd7d8e18b8237b99added9",
+      "bytes": 165966
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-02-house.png",
+      "source_sha256": "01379dfbe39a7e4f995ba4eb350ed7ea02dabcc977d9cd8034af57e59693023c",
+      "sha256": "06509d4aa51e7870cca25ddf0b1c6f2b0dbe41f979c8260d1f4beef0007b8b53",
+      "bytes": 46664
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-02-house.png",
+      "source_sha256": "01379dfbe39a7e4f995ba4eb350ed7ea02dabcc977d9cd8034af57e59693023c",
+      "sha256": "2bd20af4912973c6a218c1f7063cee340805e5aeb2c8c6a6845518e04c4b122c",
+      "bytes": 152116
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-03-town.png",
+      "source_sha256": "666d614cd5ae348dca28f6297a5533c294c15db462a8443fe6a5cf4d2a3c46d0",
+      "sha256": "4578b0c74602ccb72b522ac9f416594f3c4186680081232327a469288123cc20",
+      "bytes": 48602
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-03-town.png",
+      "source_sha256": "666d614cd5ae348dca28f6297a5533c294c15db462a8443fe6a5cf4d2a3c46d0",
+      "sha256": "bc3597b1f7f2fca98d0842e5dde24d548e7feacd652d359891c34dccf655c198",
+      "bytes": 166576
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-03-town.png",
+      "source_sha256": "09d80bf62fc301d86a4e2dd757e80c60c033ac919f8c6fda1312138c3a1a8e1f",
+      "sha256": "7878b7e5fa94b525aabce1e154e90c9ac5e874a8c3a9f1761d4781473bc0e2e3",
+      "bytes": 53366
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-03-town.png",
+      "source_sha256": "09d80bf62fc301d86a4e2dd757e80c60c033ac919f8c6fda1312138c3a1a8e1f",
+      "sha256": "85d09510f04b6cc1e095815b36e9b67dc634f55c1cec527daffe8720e271d967",
+      "bytes": 184850
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-04-dinos.png",
+      "source_sha256": "741c536848a46cc37cd01648eead65cadb388aa0e6e1248438fc4c94cac140ee",
+      "sha256": "9f3d33abc0c0c01a64e0f99110f7a4362a74f5ab0c323ab5d55a9e970af61763",
+      "bytes": 42942
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-04-dinos.png",
+      "source_sha256": "741c536848a46cc37cd01648eead65cadb388aa0e6e1248438fc4c94cac140ee",
+      "sha256": "1a195f1defe2a1b7af4fbf42c781da511cfe2f65334bbf7416613126c56136bd",
+      "bytes": 149918
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-04-dinos.png",
+      "source_sha256": "b7149165be8b3f8f5e32fe34a21c1974cc8563a7c3ad5cdbf44f4973cfc2d728",
+      "sha256": "ef952a4aa4b8382f5f0f5e8bad71d76cbcfb240d3ad35f554dbaa6d90df7ffae",
+      "bytes": 44488
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-04-dinos.png",
+      "source_sha256": "b7149165be8b3f8f5e32fe34a21c1974cc8563a7c3ad5cdbf44f4973cfc2d728",
+      "sha256": "8828789585be29a8c111ba5152ae556bf17af1f9451c560d27e61be87ef1a51f",
+      "bytes": 151202
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-05-cooking.png",
+      "source_sha256": "3f31273cfc47352ba2347201940797e7d0fe1b29b9413ae0d67cc5bdf887dd08",
+      "sha256": "bd061cbc2b95e4d90356aa8b3095b69dfea7217775b87372f3b6e24f3142e990",
+      "bytes": 34698
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-05-cooking.png",
+      "source_sha256": "3f31273cfc47352ba2347201940797e7d0fe1b29b9413ae0d67cc5bdf887dd08",
+      "sha256": "61d2923f535d691a2d18a536503d3106fb76f181d3b83d3d56fb9175d04b50ea",
+      "bytes": 128066
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-05-cooking.png",
+      "source_sha256": "044f6bdbe85c0a7f18aca53ddf99a7c0841b04e21212dbe6938d15d1fe6b7073",
+      "sha256": "46dad7e0705b0039913ed2a022f9e768661b762bfbce91d673d950bda1726806",
+      "bytes": 39356
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-05-cooking.png",
+      "source_sha256": "044f6bdbe85c0a7f18aca53ddf99a7c0841b04e21212dbe6938d15d1fe6b7073",
+      "sha256": "fd2389cde311bb98f297f8b6944b7fdff6827c8a3f8dd64104140c0cc24d06ab",
+      "bytes": 142690
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-06-aquarium.png",
+      "source_sha256": "df51d2e26b57b073700b508385aab2f8214a281f4503205846e62e0ef389b24a",
+      "sha256": "32d5ce88fe46e3e10ea24df978a8b0452c5809aa7baffd8cd194455b9db38101",
+      "bytes": 43294
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-06-aquarium.png",
+      "source_sha256": "df51d2e26b57b073700b508385aab2f8214a281f4503205846e62e0ef389b24a",
+      "sha256": "53a309e50a6cfc00d5d013ef69c632f26b012f644f1780fc3fc1e8a9d52e4108",
+      "bytes": 147604
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-06-aquarium.png",
+      "source_sha256": "859a8b65362760031963d30ade2c120473ce9fb3229c2d8d4ecd5bb8d5dc78ff",
+      "sha256": "2bd6382c789ab58b5d4ca737c039c743fd98170d0b5c5080f54f0f98c7d94561",
+      "bytes": 52024
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-06-aquarium.png",
+      "source_sha256": "859a8b65362760031963d30ade2c120473ce9fb3229c2d8d4ecd5bb8d5dc78ff",
+      "sha256": "6faaa53a232d758d95def2b680c67844799f79ec9aeef8fb2ecc15d85fa2eb65",
+      "bytes": 206788
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-07-phonics.png",
+      "source_sha256": "4b9a3479fc52632fcdc13d4e3a1d1710372a245bfbecb1f814fe97367ec169e1",
+      "sha256": "3bc385f5edb53021f3716076278aee273937f41c0b6dc416c0ab00fd319f4039",
+      "bytes": 25768
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-07-phonics.png",
+      "source_sha256": "4b9a3479fc52632fcdc13d4e3a1d1710372a245bfbecb1f814fe97367ec169e1",
+      "sha256": "f6bd39ed59b6502e01d186e01cde10fba088ac21bffef70ced52694f6551deab",
+      "bytes": 84742
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-07-phonics.png",
+      "source_sha256": "e1d0bca88833901f3ef833f308870b98d0c66bae29878ce673c0ffc2fc9e88ef",
+      "sha256": "76e2d9adcb8050deb7fbfd54e54146fa89dadcca7e4791fb41cd53c00a26bccd",
+      "bytes": 23568
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-07-phonics.png",
+      "source_sha256": "e1d0bca88833901f3ef833f308870b98d0c66bae29878ce673c0ffc2fc9e88ef",
+      "sha256": "67c4218a1d8b9dc2d347c7942d6d8ffba02b3f898c952d16ea288125656fabbe",
+      "bytes": 75512
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-08-parents.png",
+      "source_sha256": "f06518061745ece26851f28b6261e9703768b3cdd54a4ca6e99a91e3409244ff",
+      "sha256": "025dde4a226b8a49f794b49f837b5a36ee453fa9b0b084a28ff1ef4f6ad6dcbd",
+      "bytes": 40192
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/de-DE/iphone-08-parents.png",
+      "source_sha256": "f06518061745ece26851f28b6261e9703768b3cdd54a4ca6e99a91e3409244ff",
+      "sha256": "38b47426872c5a872bdc10576616a675b59a56d267e6088ad96c71dced043228",
+      "bytes": 152458
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-08-parents.png",
+      "source_sha256": "eb0b9098ab3d2ea6e35524ff10c6fa753dcba3cf74e1526d2dfbb2e644bc9364",
+      "sha256": "68e91688b223849de85f9c412c4e3fb7d823287a9d8c29007d52ab2b8d28a7a9",
+      "bytes": 30728
+    },
+    {
+      "path": "/images/tumtum/screenshots/de/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/de-DE/ipad-08-parents.png",
+      "source_sha256": "eb0b9098ab3d2ea6e35524ff10c6fa753dcba3cf74e1526d2dfbb2e644bc9364",
+      "sha256": "08605d36bae6029ce923233cc3d17dc2c737144f9654e2643a92fa9daa238637",
+      "bytes": 136230
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-01-home.png",
+      "source_sha256": "df0df314313f798f22818a98a0d63741a82d149127be3c39470e1a26e8b7abcb",
+      "sha256": "486973152c61d285e845e917373abbd7b0401e4ceb4236332b5d9b83dc65d68c",
+      "bytes": 42740
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-01-home.png",
+      "source_sha256": "df0df314313f798f22818a98a0d63741a82d149127be3c39470e1a26e8b7abcb",
+      "sha256": "14ad0e7e2fe43ad9187b5aedbbf2dd791659cc4c45fd9c0b0defe0755670fd15",
+      "bytes": 159390
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-01-home.png",
+      "source_sha256": "4a104b8acb890a1d64a6140f94af756580222477828117a15cc757e7aa91316e",
+      "sha256": "2c08e9b003f32232f279f31379787fc712b0eb1629e6545ea02b2e48494c896a",
+      "bytes": 37842
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-01-home.png",
+      "source_sha256": "4a104b8acb890a1d64a6140f94af756580222477828117a15cc757e7aa91316e",
+      "sha256": "701ddf5ba87e7e3142d89ec9ed3c49b57a67e1a1790f07ceed5f59a35696ddc4",
+      "bytes": 151492
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-02-house.png",
+      "source_sha256": "81153a8056b74e0068a3f75d3d1f8d32a66bfce3229c3b9d7993cd2f5f7a3873",
+      "sha256": "2e28adff128a6f4103f001a97041ffa669f3c6bffaeff456d2d4e35cf0097bc2",
+      "bytes": 53430
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-02-house.png",
+      "source_sha256": "81153a8056b74e0068a3f75d3d1f8d32a66bfce3229c3b9d7993cd2f5f7a3873",
+      "sha256": "752fe1ca549f8d5936990570d02653f403ba88c5d33ae333fd4f4410df60cfb5",
+      "bytes": 167780
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-02-house.png",
+      "source_sha256": "a40b738e25e8265f4f0cf86af086eb358a2c97a80c68392f708b6799a19205da",
+      "sha256": "340709518c973b1e0a18e846c220f3f06305643e3d5cc395edb594a2f383def0",
+      "bytes": 46226
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-02-house.png",
+      "source_sha256": "a40b738e25e8265f4f0cf86af086eb358a2c97a80c68392f708b6799a19205da",
+      "sha256": "298201a0a0df8ced75faa575378ddbdca66e46cabb0ea85088493d140fa696e3",
+      "bytes": 147348
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-03-town.png",
+      "source_sha256": "82898bab6a03c262df9ecc3fcbbec56e10e3edefbd5a7281b367021b8303c4d9",
+      "sha256": "2ea004f6e758e0837e6e16cf7c59b4a628f92cc267173ffe7738faee397c9acc",
+      "bytes": 48548
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-03-town.png",
+      "source_sha256": "82898bab6a03c262df9ecc3fcbbec56e10e3edefbd5a7281b367021b8303c4d9",
+      "sha256": "2c73a56e16bc97ebbe332e12571b84c83b4f4924a2ad9419d71186fbb482df16",
+      "bytes": 167294
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-03-town.png",
+      "source_sha256": "66d2db3e6c6a7faef2b716aa3b8888b5704e158ba66329b2312778ea52388d2f",
+      "sha256": "a343cbeef1922061bca759f90e7ee2f199719ab9e56db1663584589f0d1afac5",
+      "bytes": 52714
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-03-town.png",
+      "source_sha256": "66d2db3e6c6a7faef2b716aa3b8888b5704e158ba66329b2312778ea52388d2f",
+      "sha256": "485530d10f5280265a25fbe9502aefd1c3522dce52cd91a60b097ad9eaeab75f",
+      "bytes": 185134
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-04-dinos.png",
+      "source_sha256": "1f3e36d5b3689140c166a819a2dfc2a7061f612936a0987c4fb8f3b4eefa75a3",
+      "sha256": "f4048bacebce7f8d0e60bdb9df4880e1e8cef99649aeb98fb0c2717600acb9c0",
+      "bytes": 43220
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-04-dinos.png",
+      "source_sha256": "1f3e36d5b3689140c166a819a2dfc2a7061f612936a0987c4fb8f3b4eefa75a3",
+      "sha256": "9c35d3b0ac33a2f8ff810d2ba66affdd65e25a6fd75771481cdfdc30c5ad4918",
+      "bytes": 153120
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-04-dinos.png",
+      "source_sha256": "d07a98699e1ebc78bc91e6184e5d2ed7c742185ffeaa1fb04a23563c0ca6e410",
+      "sha256": "cf3f77cef74ec578ecf77e72f2b227146c9498d023562f6f7c97ce89455535ff",
+      "bytes": 44396
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-04-dinos.png",
+      "source_sha256": "d07a98699e1ebc78bc91e6184e5d2ed7c742185ffeaa1fb04a23563c0ca6e410",
+      "sha256": "66df9d5213c30fcb83a048b03239ff0b71f565a70a847fe26118a9aff42b9b6f",
+      "bytes": 154790
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-05-cooking.png",
+      "source_sha256": "62f9fd1bb27c99dacf468ee66977d1b93140732240c69f4ffd3e1282759c9087",
+      "sha256": "86684f003718ff43516f37f2f46fa69c0d2b08d72155905d4e4e05321e306aff",
+      "bytes": 36750
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-05-cooking.png",
+      "source_sha256": "62f9fd1bb27c99dacf468ee66977d1b93140732240c69f4ffd3e1282759c9087",
+      "sha256": "6f9d80a625894e39513f9aee2573cb0ff5b6d3b9da5f56708a4ac3e801a3d32a",
+      "bytes": 134316
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-05-cooking.png",
+      "source_sha256": "cb61c996d48a444ea259f097af5e9fc53db4c6de537a9a861de429e9aa0d8180",
+      "sha256": "dd1937960e176d6997d7b591547bf5e7088cded3039b9221e4396b840d9303d4",
+      "bytes": 41440
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-05-cooking.png",
+      "source_sha256": "cb61c996d48a444ea259f097af5e9fc53db4c6de537a9a861de429e9aa0d8180",
+      "sha256": "a077b349ca7d69a21ce808423d5a1b2d4cc25e8e222c4748a8e593af97530b64",
+      "bytes": 148622
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-06-aquarium.png",
+      "source_sha256": "47da8b3589221dfe9f364205227339ef4c9a16f2bb4bc1a7278d6f5405295134",
+      "sha256": "42fe714108d09d87aae1ad3e280bd29fd248ad6669fc80a3e9dec67ae07a7bc7",
+      "bytes": 44220
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-06-aquarium.png",
+      "source_sha256": "47da8b3589221dfe9f364205227339ef4c9a16f2bb4bc1a7278d6f5405295134",
+      "sha256": "bdaead0fd86ce4e825e0bc3972386998f68c54926890b0743986e344ab43e362",
+      "bytes": 150920
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-06-aquarium.png",
+      "source_sha256": "9d78b26fb33c6a7dd885d50ffc80ed5bd56e21d01001bf8e8f77295776502b7f",
+      "sha256": "dd4f124d8f7343978837a795b837845e4c60cf2bd386775539bb162ec26d1fbb",
+      "bytes": 52766
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-06-aquarium.png",
+      "source_sha256": "9d78b26fb33c6a7dd885d50ffc80ed5bd56e21d01001bf8e8f77295776502b7f",
+      "sha256": "4c02a19d813df436cc828309b9792aa409e4a26c9b1c75d098603e5695282f5f",
+      "bytes": 209920
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-07-phonics.png",
+      "source_sha256": "c6b21eafb7f126c9cd97802d2ae892cfbaba49b4835ab63a958477a81941f1cf",
+      "sha256": "91ffb4fc5e55a5a9a1dbd840587e9c7defb95c8c010cb0dcc08f46f95d35bb0d",
+      "bytes": 28302
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-07-phonics.png",
+      "source_sha256": "c6b21eafb7f126c9cd97802d2ae892cfbaba49b4835ab63a958477a81941f1cf",
+      "sha256": "0598c1b499800551ee2c5e279ef37a6c487f8a046ea53e9c9bfcf2f94a6bc9c6",
+      "bytes": 90748
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-07-phonics.png",
+      "source_sha256": "860cb34a02200275b70e2e650c07d3df278a132f49543c6f8b3c97dd2c5d14aa",
+      "sha256": "8287e455f38e4dea6ade4cd3302ff2dd8d4487e968a6a884ac6ccfe06c7c24db",
+      "bytes": 25942
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-07-phonics.png",
+      "source_sha256": "860cb34a02200275b70e2e650c07d3df278a132f49543c6f8b3c97dd2c5d14aa",
+      "sha256": "e7001bf53a06a17c3e76d5a27236848f882ce33eb0987845847e4525ae37c9b2",
+      "bytes": 83838
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-08-parents.png",
+      "source_sha256": "e66f173f576b364cae140daad8c3da8dd2861ed91da59b8acf8578450830ffd8",
+      "sha256": "9f1ba7bde0cd81012d8f896d331743188bf9df2e1cb1158708be3a14d33c09c2",
+      "bytes": 41484
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ja/iphone-08-parents.png",
+      "source_sha256": "e66f173f576b364cae140daad8c3da8dd2861ed91da59b8acf8578450830ffd8",
+      "sha256": "88dcdb690a484ce27c3956cf444db7a5d354df1bd42337351c9664e5de7ff8ad",
+      "bytes": 157310
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-08-parents.png",
+      "source_sha256": "e9bc995eb94ae6b060fc6934ef5744155c22e5a7a2e0de7d67b867fe4d606cb8",
+      "sha256": "c239e1818df64be51759437f423af04c74b48e4083a8de50b528ded6679340a2",
+      "bytes": 33174
+    },
+    {
+      "path": "/images/tumtum/screenshots/ja/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ja/ipad-08-parents.png",
+      "source_sha256": "e9bc995eb94ae6b060fc6934ef5744155c22e5a7a2e0de7d67b867fe4d606cb8",
+      "sha256": "3c1343cfad0cf0da24205fddbbf96da331c572aa093ccf4a86fad26d808f7b81",
+      "bytes": 140684
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-01-home.png",
+      "source_sha256": "c6f0df789fe70d72cf35d8c458559f31f2a92dd178c205616894acbcbb14dabb",
+      "sha256": "34bf9e1f16c5e2a842fbb355e36572a6dee335a7bdfa63124eaf6b95a4b19f12",
+      "bytes": 38438
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-01-home.png",
+      "source_sha256": "c6f0df789fe70d72cf35d8c458559f31f2a92dd178c205616894acbcbb14dabb",
+      "sha256": "249a60a0bf52547a4e0b87171897abdfbc8c56a64c6076314db6281f1767f0cd",
+      "bytes": 146700
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-01-home.png",
+      "source_sha256": "92deb2d8d4490999d61fd8f0eeada868d3300eb65b4a53d537b19c217ad25282",
+      "sha256": "be6d4ca685eb4862162102002bf567c6a0138284bedb4d17ae4518ce0ec948de",
+      "bytes": 34008
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-01-home.png",
+      "source_sha256": "92deb2d8d4490999d61fd8f0eeada868d3300eb65b4a53d537b19c217ad25282",
+      "sha256": "cb435422b088bb98d325d7632d7de56d5025d0606c51d11058c364b6fbe80682",
+      "bytes": 138686
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-02-house.png",
+      "source_sha256": "d09c95fcb902fa2573423a8827ec6dd97819d07774501146b585bd382d2bd9cb",
+      "sha256": "2fd5705272d4ae1123d046a7c2918f6bfe81c37d6acae09e7d2db487e16c66f3",
+      "bytes": 49884
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-02-house.png",
+      "source_sha256": "d09c95fcb902fa2573423a8827ec6dd97819d07774501146b585bd382d2bd9cb",
+      "sha256": "e976a98869d9b8460e6ae38d474e6c5dfe03a9d4289ab7cfdac29f10fb3524d3",
+      "bytes": 156974
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-02-house.png",
+      "source_sha256": "77a5ddcd76c0946cff07634415812b8ce416e094f874295c9f8a5d1047451da7",
+      "sha256": "94dc1ff7c07d1ad2bc13d7610312328591a930980586d38d12bce98713a20286",
+      "bytes": 42690
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-02-house.png",
+      "source_sha256": "77a5ddcd76c0946cff07634415812b8ce416e094f874295c9f8a5d1047451da7",
+      "sha256": "cd3fe5b2dee18cb2c82e0304712e05c2e9bdaf76f8032a6bb51a3f0731647384",
+      "bytes": 135906
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-03-town.png",
+      "source_sha256": "a3e874c2e45f2766e9a80ed1e26fb582a318d6744ec9397d8b9e4effe18e54e9",
+      "sha256": "2f25732ecb9fbfd1396dd18b5385f4b10dec2fcb7539ae887270408094c086f3",
+      "bytes": 45408
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-03-town.png",
+      "source_sha256": "a3e874c2e45f2766e9a80ed1e26fb582a318d6744ec9397d8b9e4effe18e54e9",
+      "sha256": "4ce8548987484c9dec3c9d730caa33122733dd4aed6ad7f8d634dc63186091a2",
+      "bytes": 151868
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-03-town.png",
+      "source_sha256": "b8935f16b877ade11984b1a9044df8b65f167e0694b360f92c7afd1596aebfe2",
+      "sha256": "c727e9c1693506e5ba6423337714ca1c51568038e0b7a844556887ec41396529",
+      "bytes": 49354
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-03-town.png",
+      "source_sha256": "b8935f16b877ade11984b1a9044df8b65f167e0694b360f92c7afd1596aebfe2",
+      "sha256": "cb3369656d99bcbcdc0676eafe91385be890cefa10e11c5cdfc4a00d4444cb1c",
+      "bytes": 169906
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-04-dinos.png",
+      "source_sha256": "1fd4dfcdd8906a096adf6d63e7b65b2dc4511cd098ff4e267a0ccafb64a7cb6f",
+      "sha256": "1e03dfc3d7437840d9cf81fb80b79292ee7c969574526a87eea066e07af1a0ab",
+      "bytes": 38742
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-04-dinos.png",
+      "source_sha256": "1fd4dfcdd8906a096adf6d63e7b65b2dc4511cd098ff4e267a0ccafb64a7cb6f",
+      "sha256": "307a5b56c0c3d6f178baa0709a71dbbea1c04cbd0bb5a74f88938b42d5d4e41b",
+      "bytes": 135650
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-04-dinos.png",
+      "source_sha256": "31b8d8e89b7ef5c6636b2dad17340fd3b5c396a1d9b205336bc266d7d3dd0138",
+      "sha256": "ddfd1a0926cdaea8c4333ce0a824a631a9179e27d2ca2ad480ccb3c1df59d9f5",
+      "bytes": 40360
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-04-dinos.png",
+      "source_sha256": "31b8d8e89b7ef5c6636b2dad17340fd3b5c396a1d9b205336bc266d7d3dd0138",
+      "sha256": "a6f85f2de2d03f2c24a13df0212a9f3b67dc5328a2a37332bb5e696d88b42c64",
+      "bytes": 140258
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-05-cooking.png",
+      "source_sha256": "b663febd7e372ef984b85404084736461009e410fd29375e3a8ae5b38a2332ed",
+      "sha256": "7502e0f7de3a269373f4c3aa796424fa03cbe9c4b44c1ba17df489b035abacfd",
+      "bytes": 33068
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-05-cooking.png",
+      "source_sha256": "b663febd7e372ef984b85404084736461009e410fd29375e3a8ae5b38a2332ed",
+      "sha256": "2724e9c3852acfa73e7f86a8a11edd1653a48dd802db742e884b0dbb7663ca4d",
+      "bytes": 122302
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-05-cooking.png",
+      "source_sha256": "2a112f402c97083d2dcb2d73a3a50b23e7e3b6ae8e7683d3236cb3e87c9b275c",
+      "sha256": "87b16d583d27d4cac3bcc6c3acbf3e3250f0bec90eb4f9ce50af94a6159eceb6",
+      "bytes": 37392
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-05-cooking.png",
+      "source_sha256": "2a112f402c97083d2dcb2d73a3a50b23e7e3b6ae8e7683d3236cb3e87c9b275c",
+      "sha256": "02042a86dfc9ac69476be90c1f99ea7bd27929be68f841fab1c10a7b003284e6",
+      "bytes": 136878
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-06-aquarium.png",
+      "source_sha256": "df6b55e0667b6d1e69375896a735c30ed29ff2c2ece781741adacc0ffbed81c0",
+      "sha256": "691a36c1d2475a2b6b3b4e8b3006dc1cd53773343df81ad15fd04c21f014953e",
+      "bytes": 41560
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-06-aquarium.png",
+      "source_sha256": "df6b55e0667b6d1e69375896a735c30ed29ff2c2ece781741adacc0ffbed81c0",
+      "sha256": "6cc266210634c39503f29141d70a8432d3a0a6cd1f613176359940047b4c1c79",
+      "bytes": 140908
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-06-aquarium.png",
+      "source_sha256": "e55037c544f1b655781e16746dc26763d403fdcc6c1d8f90f620140751279873",
+      "sha256": "877e4551db7a1adc7d3eb4122d73a4aa666c86ab8c4d013244efefdeb965615f",
+      "bytes": 50846
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-06-aquarium.png",
+      "source_sha256": "e55037c544f1b655781e16746dc26763d403fdcc6c1d8f90f620140751279873",
+      "sha256": "1e914f448e283323f37da99cb51db18e8757ce5bdde2bc513e5f08764797dd85",
+      "bytes": 198838
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-07-phonics.png",
+      "source_sha256": "0f31df5358cf926f426c90e0fbdd2f1d197b6a40eba33617f972a030ac668387",
+      "sha256": "41363eedf4fa0bd50c47797918d0b9973b21fa6d509a2cdefa962e58a806ebf2",
+      "bytes": 23432
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-07-phonics.png",
+      "source_sha256": "0f31df5358cf926f426c90e0fbdd2f1d197b6a40eba33617f972a030ac668387",
+      "sha256": "0776ad5487c402cccc2ff79078704616d16ea82b43ecd0b9bde7e2c50ed1d2fa",
+      "bytes": 77682
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-07-phonics.png",
+      "source_sha256": "5eabe37b06a0fce04beef27987e47786aab4f33fd0473ef38e0f692b4a134672",
+      "sha256": "2356cf7d1ff5c258b0b9c4f5c51533d5b8f6811e945afed5523787f17537d09f",
+      "bytes": 20656
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-07-phonics.png",
+      "source_sha256": "5eabe37b06a0fce04beef27987e47786aab4f33fd0473ef38e0f692b4a134672",
+      "sha256": "adb618b7bc21be5c4211f2f76eec87042294bca818ab9b12dc040b339b88efe2",
+      "bytes": 68400
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-08-parents.png",
+      "source_sha256": "2f0e7c9486d61383ca067dc348a932585a39adc9056af4fb02ed56f4fe95348d",
+      "sha256": "ef9273a473a29fac98b7c0ef2a4c955f75bbed603abcc5fb8b6123ea17bd52ae",
+      "bytes": 35988
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/ko/iphone-08-parents.png",
+      "source_sha256": "2f0e7c9486d61383ca067dc348a932585a39adc9056af4fb02ed56f4fe95348d",
+      "sha256": "6dab26ec95c0eb8901bfa4f03bc6aefc4cfd66008d0a7f8e341b989b0eafe53f",
+      "bytes": 137286
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-08-parents.png",
+      "source_sha256": "eaf669bd9c0d65b2d4994489bc7f3656316e395311012336570ea0f6166c9c37",
+      "sha256": "4ebe0952890fb4dbd366c8bea2f31c501506dd37defa901a7cf75cc374d4f6ac",
+      "bytes": 27730
+    },
+    {
+      "path": "/images/tumtum/screenshots/ko/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/ko/ipad-08-parents.png",
+      "source_sha256": "eaf669bd9c0d65b2d4994489bc7f3656316e395311012336570ea0f6166c9c37",
+      "sha256": "66bf869256cf07eea61ae2639180396ef0bc0499ac6edfba4b09a64b214805db",
+      "bytes": 122622
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-01-home-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-01-home.png",
+      "source_sha256": "edbe710b9f55c07146ff5dde3f4fa8429e954068ae7d2114146c263d359193ca",
+      "sha256": "4a4b428b54492d539cf479e7709f566ce9c6b6373193692a3eab4544418e626e",
+      "bytes": 39844
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-01-home-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-01-home.png",
+      "source_sha256": "edbe710b9f55c07146ff5dde3f4fa8429e954068ae7d2114146c263d359193ca",
+      "sha256": "c206305112e04985d7ec733a550a362e86db93b3468cf7553f3b1055e4a85db8",
+      "bytes": 153392
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-01-home-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-01-home.png",
+      "source_sha256": "3edecf8d29a0487089ef2fb9a0f1c4176e31a92be1dfbf0d943a34ffca00472f",
+      "sha256": "2c254bfb7f3467cf734347a339662c247d38c10bb1cbc05f6ff176e0cfa640d9",
+      "bytes": 35402
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-01-home-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-01-home.png",
+      "source_sha256": "3edecf8d29a0487089ef2fb9a0f1c4176e31a92be1dfbf0d943a34ffca00472f",
+      "sha256": "bdd8b9b2ed9b008ccb4b6286fd9452668e44496300a8fef3123eaa097da0dbcf",
+      "bytes": 146508
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-02-house-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-02-house.png",
+      "source_sha256": "3350ca25dfec64a7ac1566f87822e98c74da5eff0637ef42b3866fa978071a1e",
+      "sha256": "048fc2596ae463e4fecb4cad83c36a4239714b364ec4d69e24d00609ad504263",
+      "bytes": 50828
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-02-house-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-02-house.png",
+      "source_sha256": "3350ca25dfec64a7ac1566f87822e98c74da5eff0637ef42b3866fa978071a1e",
+      "sha256": "7465cf9ae7909ab9149b1402b12bb810058f96cbe482f2f7fb1487ca96366d8d",
+      "bytes": 161244
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-02-house-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-02-house.png",
+      "source_sha256": "0283e2d6f0829977d03ca35ba967711d8918907a22be39b5f1b76f325abe447d",
+      "sha256": "896adc6f8eb3dad4003b03d09007bd231e43c6e4458afc5fcb087a40a65d3b26",
+      "bytes": 41850
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-02-house-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-02-house.png",
+      "source_sha256": "0283e2d6f0829977d03ca35ba967711d8918907a22be39b5f1b76f325abe447d",
+      "sha256": "f54cd67c380d8fe0e3dbf4c69392cf379bd29f9bce954559f2d690c0d1cf97a4",
+      "bytes": 140418
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-03-town-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-03-town.png",
+      "source_sha256": "7d766eb60e8f528bf84ccee142667492462adf4fc3b16fb60b9f799e4eb97cbd",
+      "sha256": "6d8c6eaa02a034f6b4baedd69618db1f646bd1aa3911ef14f443d9d77275f4f3",
+      "bytes": 47398
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-03-town-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-03-town.png",
+      "source_sha256": "7d766eb60e8f528bf84ccee142667492462adf4fc3b16fb60b9f799e4eb97cbd",
+      "sha256": "92ffd70976bedc16cb6dce3a09e5f338f4afeb3949e0551f91611885a82f7a52",
+      "bytes": 161928
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-03-town-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-03-town.png",
+      "source_sha256": "bd5b68f635778f6a8907c6a10d231793c3bcf4b91b1c77491c5ed8d30efdd8ab",
+      "sha256": "ae7f4744077fd32093c9f97856cb7e514d490fad2baa4b10b4716d33ea18d677",
+      "bytes": 51780
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-03-town-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-03-town.png",
+      "source_sha256": "bd5b68f635778f6a8907c6a10d231793c3bcf4b91b1c77491c5ed8d30efdd8ab",
+      "sha256": "32a311287b80bea6ef73c3227583562778ec9d9e464c010c081af5f884efdb35",
+      "bytes": 178018
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-04-dinos-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-04-dinos.png",
+      "source_sha256": "55b93123660bf58d20325d1097f6a1eeb6bbe94cddea3824df8530e71e7c22c9",
+      "sha256": "65c92dac1d568ee9a02205933e3c03e47fea448f0872f4d6224aaf2ffe622145",
+      "bytes": 41104
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-04-dinos-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-04-dinos.png",
+      "source_sha256": "55b93123660bf58d20325d1097f6a1eeb6bbe94cddea3824df8530e71e7c22c9",
+      "sha256": "b12d1bd389fdb7444fd4157b72ac4db4071b08891a491de1564ea6b37a3e86aa",
+      "bytes": 143712
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-04-dinos-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-04-dinos.png",
+      "source_sha256": "98208a61151b0aee246edadbf909b2d717a296e751b6b59261d4a723fa8098fa",
+      "sha256": "86d3cc91e900f7930bd9f4b5d9f93422193a907e7f6e9068262d907173d42083",
+      "bytes": 42736
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-04-dinos-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-04-dinos.png",
+      "source_sha256": "98208a61151b0aee246edadbf909b2d717a296e751b6b59261d4a723fa8098fa",
+      "sha256": "5880d4212e995e05a829692933460ea374285f78f169a652ca6708fabf95b922",
+      "bytes": 149044
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-05-cooking-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-05-cooking.png",
+      "source_sha256": "fabf3e4f20e9af2486db28626efe1979346cf87c8827a13b86f52018aba4f699",
+      "sha256": "f70ab24a479bb7fe1dca5c7a84dad6bdc64cc60113b3fa0c445cb492d5013f21",
+      "bytes": 35212
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-05-cooking-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-05-cooking.png",
+      "source_sha256": "fabf3e4f20e9af2486db28626efe1979346cf87c8827a13b86f52018aba4f699",
+      "sha256": "5a1fee9eeed8455b0396e4afb568b297b56b6cfc13f636b8a6685e9eb8733e85",
+      "bytes": 128852
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-05-cooking-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-05-cooking.png",
+      "source_sha256": "bab006ebb7bec1dc88f47e3366b015c4415d8e4d61f461de69851d7294c1afdc",
+      "sha256": "76ff186d4678da16b84593644eb023175cb2bf3f34ba83384c57292aba309a72",
+      "bytes": 38728
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-05-cooking-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-05-cooking.png",
+      "source_sha256": "bab006ebb7bec1dc88f47e3366b015c4415d8e4d61f461de69851d7294c1afdc",
+      "sha256": "8d7fee3779b6915aefbcd373720492a8de8971e5110da17c71badc6d32c76510",
+      "bytes": 142830
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-06-aquarium-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-06-aquarium.png",
+      "source_sha256": "eb63c2cd6d2b96894bfed52f17dc62652e45506f8c609e0286dbb1200f17ffbe",
+      "sha256": "129190f65a4274afee3a6f893f2912fddc07639d1786c3c0c8de3022afb47074",
+      "bytes": 42232
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-06-aquarium-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-06-aquarium.png",
+      "source_sha256": "eb63c2cd6d2b96894bfed52f17dc62652e45506f8c609e0286dbb1200f17ffbe",
+      "sha256": "644db39d12c389e3ad0f7920e78a522942e4ec2430a4720c09c7015aa98f55e6",
+      "bytes": 145710
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-06-aquarium-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-06-aquarium.png",
+      "source_sha256": "d15923f44c7592c55d635d8f3c0d3f571f621bb166d4d4f3ba6459c0573f3c6c",
+      "sha256": "c93613e7b0cb03e2c9beba047d6c4feeacda28e23329cd36667780bf610d85b9",
+      "bytes": 50550
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-06-aquarium-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-06-aquarium.png",
+      "source_sha256": "d15923f44c7592c55d635d8f3c0d3f571f621bb166d4d4f3ba6459c0573f3c6c",
+      "sha256": "4476679ab9a41184d528876927a11a0ad83fab0dd568465fb4800bbb9574b85f",
+      "bytes": 203844
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-07-phonics-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-07-phonics.png",
+      "source_sha256": "d2de8eb11f0a5945995e1ce8cf7fb14b04a99e08f8722c219756d142afd5d20f",
+      "sha256": "ab1954fd960a8296956e6dd83f54b48a81365ba9ffedcba15ae82f5e6e8e5534",
+      "bytes": 28980
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-07-phonics-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-07-phonics.png",
+      "source_sha256": "d2de8eb11f0a5945995e1ce8cf7fb14b04a99e08f8722c219756d142afd5d20f",
+      "sha256": "e13a3f9bee2cb084619560e8b36f94726a806f98bf1bd346ec11ce903d69893a",
+      "bytes": 92598
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-07-phonics-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-07-phonics.png",
+      "source_sha256": "0acd796ffa0696db4b23e0d7ba7071f4ef7505b9a42f3904a4590cd76bca0bf4",
+      "sha256": "3001506f732e07d2bab6e49ad0400cdf76e403229181f286d253af0e7d6fc209",
+      "bytes": 25840
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-07-phonics-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-07-phonics.png",
+      "source_sha256": "0acd796ffa0696db4b23e0d7ba7071f4ef7505b9a42f3904a4590cd76bca0bf4",
+      "sha256": "9448a5aafe971d0344168c1094d658dee4ae2710364cc84ba5a877c059f27357",
+      "bytes": 84662
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-08-parents-480.webp",
+      "width": 480,
+      "height": 1043,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-08-parents.png",
+      "source_sha256": "cc15de28f903f876c265e68420f1a954e0df3287f1ff42a943b9692021e8ca89",
+      "sha256": "8a857ceadc0cf0caa670e3f3afce48bae982d7f3e0ddf2eecd9a190817cbb31b",
+      "bytes": 39898
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/iphone-08-parents-1080.webp",
+      "width": 1080,
+      "height": 2347,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/iphone-08-parents.png",
+      "source_sha256": "cc15de28f903f876c265e68420f1a954e0df3287f1ff42a943b9692021e8ca89",
+      "sha256": "07e2042f6f9d2770c7204c811dc8404f14d15d62a56071807aafdf25e06dabbb",
+      "bytes": 151158
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-08-parents-640.webp",
+      "width": 640,
+      "height": 853,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-08-parents.png",
+      "source_sha256": "a103c01cdc89d46a51b7ec988c15eb77c4ee0770adbcb7807ea1cbfbf6c931d2",
+      "sha256": "f28fb15a1799c0d70f4fceb3ca340c678b99c6d7aa6a6ff3936df6a86b4181c6",
+      "bytes": 30534
+    },
+    {
+      "path": "/images/tumtum/screenshots/zh-Hans/ipad-08-parents-1440.webp",
+      "width": 1440,
+      "height": 1920,
+      "source": "TumTum/fastlane/screenshots/zh-Hans/ipad-08-parents.png",
+      "source_sha256": "a103c01cdc89d46a51b7ec988c15eb77c4ee0770adbcb7807ea1cbfbf6c931d2",
+      "sha256": "3d177dca9f415b9ef484df75f4072bb7cd6dbad809be0c5db50d82940963a0d9",
+      "bytes": 133938
+    }
+  ]
+}
