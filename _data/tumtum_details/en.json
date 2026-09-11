@@ -1,0 +1,119 @@
+{
+  "nav_label": "Explore TumTum",
+  "nav": [
+    "Little discoveries",
+    "Montessori inspiration",
+    "Play in another language",
+    "For grown-ups"
+  ],
+  "discoveries": {
+    "eyebrow": "What shall we try today?",
+    "title": "Every touch can start a little story.",
+    "items": [
+      {
+        "title": "Everyday life, reimagined",
+        "text": "In the House, care for the family and pets. In the Kitchen, choose ingredients, mix them and serve a meal. Familiar routines become invitations to pretend.",
+        "prompt": "Try together: who shall we cook for today?"
+      },
+      {
+        "title": "A world worth a closer look",
+        "text": "Feed the fish in the Aquarium, explore the farm in the Town or uncover fossils among the dinosaurs. Return to a favorite place and try something different.",
+        "prompt": "Try together: what changed when you touched it?"
+      },
+      {
+        "title": "Little experiments, big curiosity",
+        "text": "Stack wooden blocks, make sounds with the Musical Blobs or explore balance with frogs and numbers. There are no scores to chase or races to finish.",
+        "prompt": "Try together: what might happen if we add one more?"
+      }
+    ]
+  },
+  "method": {
+    "eyebrow": "The thinking behind the play",
+    "title": "Room to choose. Time to discover.",
+    "intro": "TumTum is inspired by Montessori principles: respect for the child's pace, freedom to explore and an adult who supports curiosity.",
+    "principles": [
+      {
+        "title": "Choice with care",
+        "text": "You prepare the selection of toys. Your child chooses what to explore, with no fixed route through the playroom."
+      },
+      {
+        "title": "Repetition is welcome",
+        "text": "Filling, emptying, stacking, trying again. A familiar action can be interesting all over again, without a reward or a new level."
+      },
+      {
+        "title": "An inviting environment",
+        "text": "Recognizable objects, tactile paper artwork and gentle sounds give each little world its character. Touches and movements invite children to notice what happens."
+      }
+    ],
+    "more_title": "What does “inspired by Montessori” mean?",
+    "more": [
+      "Montessori education combines hands-on experiences, a carefully prepared environment and the attentive support of a trained adult. Choice, observation and time to repeat are part of that approach.",
+      "TumTum brings some of those principles to digital play. It is not a certified Montessori curriculum or a replacement for real materials, movement and relationships. Sit nearby, notice what interests your child and offer help when it is needed."
+    ],
+    "source": "Read about Montessori environments at AMI (in English)"
+  },
+  "language": {
+    "eyebrow": "Familiar discoveries. New words.",
+    "title": "A little hello to another language.",
+    "intro": "Choose a play language and explore familiar objects, animals and everyday scenes together. Hearing their names offers a playful way to encounter words in another language.",
+    "available": "Eight play languages",
+    "steps": [
+      {
+        "title": "Choose the language",
+        "text": "Change the family's play language in settings. Text and narration in the Home and games follow your choice."
+      },
+      {
+        "title": "Listen and explore",
+        "text": "Use narration at a comfortable volume. Let your child revisit a favorite animal or object and listen again, without asking them to repeat on demand."
+      },
+      {
+        "title": "Take a word with you",
+        "text": "After playing, look for a familiar fruit, color or animal in a book or around the house. Share the word again if your child is interested."
+      }
+    ],
+    "note": "Settings, setup and the toy list stay in the device language. TumTum offers contact with words and sounds; it is not a structured language course or a promise of fluency."
+  },
+  "parents": {
+    "eyebrow": "Their curiosity. Your care.",
+    "title": "Make the playroom feel right for your family.",
+    "intro": "Choose what is available, adjust the sound and decide when it is time for a pause. The grown-up controls stay together in settings.",
+    "items": [
+      {
+        "title": "A space for each child",
+        "text": "Create profiles and switch by holding the child's name in the Home. Toys are initially selected by age; you can also include toys from other age groups. When the age range changes, TumTum suggests reviewing the selection."
+      },
+      {
+        "title": "Up to 15 toys on the rug",
+        "text": "Choose which games each child sees. If you select more than 15, the Home rotates up to 15 different blocks each time the app opens. The full toy list remains available, including age filters."
+      },
+      {
+        "title": "Sound at your family's pace",
+        "text": "Adjust narration and sound effects separately, or mute either one. Effects start at a lower volume so the spoken words have room to be heard."
+      },
+      {
+        "title": "A calmer room, when you want it",
+        "text": "Turn the Home blocks' shake and tilt responses on or off. You can also adjust the difficulty of the Flashlight search in settings."
+      },
+      {
+        "title": "A little pause for the menus",
+        "text": "Menu buttons use a press and hold to reduce accidental screen changes. Inside the toys, ordinary taps and drags keep the play simple."
+      },
+      {
+        "title": "Parent information, close by",
+        "text": "Find the play guide, privacy policy, terms and contact option in settings. Opening an external link or email from the app requires a separate adult check."
+      }
+    ],
+    "session": {
+      "eyebrow": "A pause you choose",
+      "title": "Play time, with a gentle stopping point.",
+      "text": "The session limit is off by default. If you turn it on, choose your own hours and minutes. When the time is up, a calm rest screen pauses the games until a grown-up holds the button to start a new session.",
+      "detail": "Time is counted during active play in TumTum, separately for each child. It pauses when the app is in the background, the device is locked or parent controls are open. This controls the TumTum session, not the device's overall screen time.",
+      "shortcut": "The moon button in the Home opens just the play-time controls."
+    }
+  },
+  "together": {
+    "eyebrow": "And when the screen rests…",
+    "title": "The story can keep going.",
+    "text": "Make a pretend meal together, stack real blocks or look for birds on a walk. You do not need to turn every discovery into a lesson. Follow what caught your child's attention and leave room for their next idea."
+  }
+}

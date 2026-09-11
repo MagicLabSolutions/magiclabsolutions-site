@@ -4,6 +4,7 @@ lang-ref: tumtum-page
 ---
 {% assign copy = site.data.tumtum_page[site.active_lang] | default: site.data.tumtum_page.en %}
 {% assign gallery = copy.gallery %}
+{% assign details = site.data.tumtum_details[site.active_lang] %}
 {% assign shots = site.data.tumtum_screenshots[site.active_lang] | default: site.data.tumtum_screenshots.en %}
 {% assign prefix = '' %}
 {% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
@@ -60,6 +61,12 @@ lang-ref: tumtum-page
         <img src="/images/tumtum/coming-soon.webp" width="640" height="640" fetchpriority="high" alt="{{ copy.image_alt | escape }}">
       </div>
     </section>
+    <nav class="page-sections wrap" aria-label="{{ details.nav_label | escape }}">
+      {% assign sections = 'play,method,languages,parents' | split: ',' %}
+      {% for label in details.nav %}
+      <a href="#{{ sections[forloop.index0] }}">{{ label }} <span aria-hidden="true">↘</span></a>
+      {% endfor %}
+    </nav>
     <section id="screenshots" class="gallery" aria-labelledby="gallery-title">
       <div class="wrap">
         <div class="gallery-heading">
@@ -102,21 +109,92 @@ lang-ref: tumtum-page
       {% endfor %}
     </section>
     <section id="play" class="play wrap" aria-labelledby="play-title">
-      <p class="eyebrow">{{ copy.eyebrow }}</p>
-      <h2 id="play-title">{{ copy.play_title }}</h2>
+      <p class="eyebrow">{{ details.discoveries.eyebrow }}</p>
+      <h2 id="play-title">{{ details.discoveries.title }}</h2>
       <div class="ideas">
-        {% for idea in copy.ideas %}
+        {% for idea in details.discoveries.items %}
         <article>
           <span class="idea-mark" aria-hidden="true">{{ forloop.index | prepend: '0' }}</span>
           <h3>{{ idea.title }}</h3>
           <p>{{ idea.text }}</p>
+          <p class="play-prompt">{{ idea.prompt }}</p>
         </article>
         {% endfor %}
       </div>
-      <div class="method">
-        <h3>{{ copy.method_title }}</h3>
-        <p>{{ copy.method_text }}</p>
+    </section>
+    <section id="method" class="method-section" aria-labelledby="method-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">{{ details.method.eyebrow }}</p>
+          <h2 id="method-title">{{ details.method.title }}</h2>
+          <p>{{ details.method.intro }}</p>
+        </div>
+        <div class="principles">
+          {% for principle in details.method.principles %}
+          <article>
+            <h3>{{ principle.title }}</h3>
+            <p>{{ principle.text }}</p>
+          </article>
+          {% endfor %}
+        </div>
+        <details class="method-more">
+          <summary>{{ details.method.more_title }}</summary>
+          <div>
+            {% for paragraph in details.method.more %}<p>{{ paragraph }}</p>{% endfor %}
+            <p><a href="https://montessori-ami.org/node/2169">{{ details.method.source }}</a></p>
+          </div>
+        </details>
       </div>
+    </section>
+    <section id="languages" class="language-section wrap" aria-labelledby="language-title">
+      <div class="section-heading">
+        <p class="eyebrow">{{ details.language.eyebrow }}</p>
+        <h2 id="language-title">{{ details.language.title }}</h2>
+        <p>{{ details.language.intro }}</p>
+      </div>
+      <div class="language-paper">
+        <h3>{{ details.language.available }}</h3>
+        <ul class="play-languages">
+          {% assign play_languages = 'en,pt-BR,es,fr,de,ja,ko,zh-Hans' | split: ',' %}
+          {% for lang in play_languages %}
+          <li lang="{{ lang }}">{{ site.data.language_names[lang] }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <ol class="language-steps">
+        {% for step in details.language.steps %}
+        <li><h3>{{ step.title }}</h3><p>{{ step.text }}</p></li>
+        {% endfor %}
+      </ol>
+      <p class="section-note">{{ details.language.note }}</p>
+    </section>
+    <section id="parents" class="parents-section wrap" aria-labelledby="parents-title">
+      <div class="section-heading">
+        <p class="eyebrow">{{ details.parents.eyebrow }}</p>
+        <h2 id="parents-title">{{ details.parents.title }}</h2>
+        <p>{{ details.parents.intro }}</p>
+      </div>
+      <div class="parent-features">
+        {% for feature in details.parents.items %}
+        <article><h3>{{ feature.title }}</h3><p>{{ feature.text }}</p></article>
+        {% endfor %}
+      </div>
+      <aside class="session-paper" aria-labelledby="session-title">
+        <div>
+          <p class="eyebrow">{{ details.parents.session.eyebrow }}</p>
+          <h3 id="session-title">{{ details.parents.session.title }}</h3>
+          <p class="session-shortcut">{{ details.parents.session.shortcut }}</p>
+        </div>
+        <div>
+          <p>{{ details.parents.session.text }}</p>
+          <p class="session-detail">{{ details.parents.session.detail }}</p>
+        </div>
+      </aside>
+    </section>
+    <section class="together wrap" aria-labelledby="together-title">
+      <p class="eyebrow">{{ details.together.eyebrow }}</p>
+      <h2 id="together-title">{{ details.together.title }}</h2>
+      <p>{{ details.together.text }}</p>
     </section>
   </main>
   <dialog class="gallery-dialog" aria-labelledby="gallery-dialog-title" aria-describedby="gallery-dialog-caption">

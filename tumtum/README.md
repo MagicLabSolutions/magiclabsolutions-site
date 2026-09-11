@@ -52,6 +52,48 @@ instead of copying their legal clauses or inheriting another app's policy.
 - To launch, update availability/copy and add the real store destination once
   confirmed. Do not silently retain the coming-soon label beside a download CTA.
 
+## Parent-facing product explanations
+
+The product page also includes play examples, Montessori inspiration, language
+exploration and the parent controls. Each of the eight locales has its own file
+in `_data/tumtum_details/`; use the same keys and array order as `en.json` when
+adding another language. All headings, body copy, navigation and disclosures
+are live HTML text. The Montessori explanation uses native `details`/`summary`
+so it works with a keyboard and without JavaScript. Keep coming-soon status.
+
+Product facts were checked against TumTum on 2026-09-11:
+
+- `Household` and `HouseholdModel`: profiles and per-child toy selection, initial
+  age recommendations that parents can override, and an age-change review prompt.
+- `HomeToyRotation`: at most 15 distinct selected toys, rotating on app launch
+  when the selection is larger. The full toy catalog remains accessible.
+- `PlayLanguage` and `PlayroomIntroduction`: eight household play languages;
+  Home/game text and narration follow this choice. Setup, settings and the toy
+  catalog use the device language. Do not claim a separate language per child,
+  automatic bilingual lessons, a language course or guaranteed learning outcomes.
+- `PlaySettings`, `ParentSessionSection` and `PlaySession`: optional session
+  limits (off by default), hours/minutes chosen by an adult, active play counted
+  separately per child, and a rest screen until an adult holds to restart.
+  Background, device lock and parent controls pause counting. This is not an
+  OS-wide screen-time restriction. The Home moon opens these controls directly.
+- `PlaySettings` and `GrownUpsPlaySections`: separate narration/effect volumes,
+  quieter default effects, Home shake/tilt switches and Flashlight difficulty.
+- `PlayroomIntroduction` and `ParentExternalLink`: hold menus reduce accidental
+  navigation; external links/email require a separate adult check. Do not
+  describe holding alone as a secure parental gate.
+
+Montessori copy is an original summary, informed by Association Montessori
+Internationale's [Montessori environments](https://montessori-ami.org/node/2169)
+and [home guidance](https://digital.montessori-ami.org/index.php/general-guidelines).
+Describe TumTum as inspired by principles, never certified, endorsed, equivalent
+to a Montessori classroom, or a replacement for real materials and relationships.
+The page links to AMI as further reading, not as an endorsement. Shared-play
+prompts and everyday language ideas are suggestions, not learning guarantees.
+
+When reviewing updates, build all eight routes and check headings, local anchor
+links, the disclosure, gallery, small screens and enlarged text. No new images,
+fonts, scripts, tracking or external embeds are needed for these sections.
+
 ## Approved App Store screenshots on the product page
 
 - The gallery on `/apps/tumtum/#screenshots` shows the eight approved scenes:
