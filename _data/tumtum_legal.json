@@ -2,18 +2,22 @@
   "en": {
     "lang": "en",
     "audience": "For parents & caregivers",
-    "updated": "Updated September 10, 2026",
+    "updated": "Updated September 14, 2026",
     "privacyTitle": "Privacy policy",
     "termsTitle": "Terms of use",
     "contact": "Contact us",
     "note": "These documents describe TumTum, the children's toy room by Magic Lab Solutions.",
     "languages": "Languages",
     "privacy": {
-      "intro": "TumTum is made for children to explore with a parent or caregiver. Magic Lab Solutions provides the app. This policy explains the information used by the app, these TumTum pages and our support email.",
+      "intro": "TumTum is made for children to explore with a parent or caregiver. Magic Lab Solutions provides the app. This policy explains the information used by the app and its plans, these TumTum pages and our support email.",
       "sections": [
         [
           "A toy room that works offline",
-          "The toys, illustrations, sounds and voices are included in the app. Playing does not require an account or an internet connection. The current app has no ads, advertising identifiers, third-party analytics SDKs or in-game purchases. It does not send children's profiles or play activity to Magic Lab Solutions."
+          "The toys, illustrations, sounds and voices are included in the app. Playing does not require an account or an internet connection. The app has no ads, advertising identifiers or third-party analytics SDKs. It does not send children's profiles or play activity to Magic Lab Solutions."
+        ],
+        [
+          "Plans and purchases",
+          "The toys open with a TumTum plan: a yearly subscription with a free trial, a monthly subscription or a one-time lifetime purchase. Plans and prices appear only in the grown-ups area, after an adult question. Apple processes every payment through your Apple Account, and we never receive card details, your name or your Apple Account email address. The app checks which plan is active with Apple on the device, so play stays offline. When a grown-up opens the plans page, the app contacts our subscription service, Tally, which runs on Google Cloud, to learn which plans to show, and it records a purchase made there. For this, Tally receives a random identifier created for this installation, the app version, the iOS version and the App Store country, together with the purchase record signed by Apple (the product, dates, price and transaction identifiers). Apple also sends us notices about each plan, such as renewals, cancellations and refunds. We use this information to provide and support plans, understand how the plans page performs and keep financial records. It is never used for advertising or tracking and never includes children's details. Deleting the app removes the random identifier from the device; purchase records are kept only as long as needed for support, accounting and legal obligations. You can manage or cancel a subscription in your Apple Account settings."
         ],
         [
           "What stays on your device",
@@ -78,18 +82,22 @@
   "pt-BR": {
     "lang": "pt-BR",
     "audience": "Para pais e responsáveis",
-    "updated": "Atualizado em 10 de setembro de 2026",
+    "updated": "Atualizado em 14 de setembro de 2026",
     "privacyTitle": "Política de privacidade",
     "termsTitle": "Termos de uso",
     "contact": "Fale conosco",
     "note": "Estes documentos se referem ao TumTum, o quarto de brinquedos da Magic Lab Solutions.",
     "languages": "Idiomas",
     "privacy": {
-      "intro": "O TumTum foi criado para crianças explorarem com pais ou responsáveis. O app é oferecido pela Magic Lab Solutions. Esta política explica as informações utilizadas pelo app, por estas páginas do TumTum e pelo nosso atendimento por e-mail.",
+      "intro": "O TumTum foi criado para crianças explorarem com pais ou responsáveis. O app é oferecido pela Magic Lab Solutions. Esta política explica as informações utilizadas pelo app e seus planos, por estas páginas do TumTum e pelo nosso atendimento por e-mail.",
       "sections": [
         [
           "Um quarto de brinquedos que funciona sem internet",
-          "Os brinquedos, ilustrações, sons e vozes estão incluídos no app. Para brincar, não é preciso criar uma conta nem ter conexão com a internet. O app atual não tem anúncios, identificadores de publicidade, SDKs de análise de terceiros nem compras dentro dos jogos. Ele não envia perfis das crianças ou atividades de brincadeira à Magic Lab Solutions."
+          "Os brinquedos, ilustrações, sons e vozes estão incluídos no app. Para brincar, não é preciso criar uma conta nem ter conexão com a internet. O app não tem anúncios, identificadores de publicidade nem SDKs de análise de terceiros. Ele não envia perfis das crianças ou atividades de brincadeira à Magic Lab Solutions."
+        ],
+        [
+          "Planos e compras",
+          "Os brinquedos são liberados com um plano TumTum: uma assinatura anual com teste gratuito, uma assinatura mensal ou uma compra vitalícia única. Planos e preços aparecem apenas na área dos responsáveis, depois de uma pergunta para adultos. A Apple processa todos os pagamentos pela sua Conta Apple, e nunca recebemos dados de cartão, seu nome ou o e-mail da sua Conta Apple. O app confere com a Apple, no próprio aparelho, qual plano está ativo, então a brincadeira continua sem internet. Quando um adulto abre a página de planos, o app consulta nosso serviço de assinaturas, o Tally, que funciona no Google Cloud, para saber quais planos mostrar, e registra a compra feita ali. Para isso, o Tally recebe um identificador aleatório criado para esta instalação, a versão do app, a versão do iOS e o país da App Store, junto com o registro da compra assinado pela Apple (produto, datas, preço e identificadores da transação). A Apple também nos envia avisos sobre cada plano, como renovações, cancelamentos e reembolsos. Usamos essas informações para oferecer e dar suporte aos planos, entender o desempenho da página de planos e manter registros financeiros. Elas nunca são usadas para publicidade ou rastreamento e nunca incluem dados das crianças. Apagar o app remove o identificador aleatório do aparelho; os registros de compra são mantidos apenas pelo tempo necessário para atendimento, contabilidade e obrigações legais. Você pode gerenciar ou cancelar uma assinatura nos ajustes da sua Conta Apple."
         ],
         [
           "O que fica no seu aparelho",
