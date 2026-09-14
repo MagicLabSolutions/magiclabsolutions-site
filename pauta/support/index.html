@@ -49,7 +49,8 @@ lang-ref: pauta-support
             display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
             max-width: 720px; margin: 0 auto; padding: 22px 24px 14px;
         }
-        .masthead__name { font-size: 27px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; color: var(--ink); }
+        .masthead__name { display: inline-flex; align-items: center; gap: 10px; font-size: 27px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; color: var(--ink); }
+        .masthead__name img { width: 34px; height: 34px; border-radius: 22.37%; }
         .masthead__rule { font-size: 14px; color: var(--ink-600); font-style: italic; }
         .masthead__back { margin-left: auto; font-size: 15px; text-decoration: none; }
 
@@ -109,9 +110,9 @@ lang-ref: pauta-support
 
 <header class="masthead">
     <div class="masthead__inner">
-        <a class="masthead__name" href="{{ prefix }}/apps/">Pauta</a>
+        <a class="masthead__name" href="{{ prefix }}/apps/pauta/"><img src="/images/pauta/app-icon.png" width="34" height="34" alt="">Pauta</a>
         <span class="masthead__rule">{{ s.masthead | default: "One headline a day. The rest is a footnote." }}</span>
-        <a class="masthead__back" href="{{ prefix }}/apps/">{{ s.back | default: "← All apps" }}</a>
+        <a class="masthead__back" href="{{ prefix }}/apps/pauta/">{{ s.back | default: "← About Pauta" }}</a>
     </div>
 </header>
 

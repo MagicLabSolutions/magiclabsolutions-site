@@ -1,0 +1,159 @@
+---
+layout: null
+permalink: /apps/pauta/
+lang-ref: pauta-page
+---
+{% assign copy = site.data.pauta_page[site.active_lang] | default: site.data.pauta_page.en %}
+{% assign prefix = '' %}
+{% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
+{% assign legal_prefix = '' %}
+{% if site.active_lang == 'pt-BR' or site.active_lang == 'es' %}{% assign legal_prefix = site.active_lang | prepend: '/' %}{% endif %}
+<!doctype html>
+<html lang="{{ site.active_lang }}">
+<head>
+  {% include gtag.html %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pauta — {{ copy.soon }} · Magic Lab Solutions</title>
+  <meta name="description" content="{{ copy.description | escape }}">
+  <meta name="theme-color" content="#f3f2f2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pauta — {{ copy.headline | escape }}">
+  <meta property="og:description" content="{{ copy.description | escape }}">
+  <meta property="og:image" content="https://magiclabsolutions.com/images/pauta/app-icon.png">
+  <meta property="og:url" content="https://magiclabsolutions.com{{ prefix }}/apps/pauta/">
+  <link rel="canonical" {% static_href %}href="https://magiclabsolutions.com{{ prefix }}/apps/pauta/"{% endstatic_href %}>
+  {% for lang in site.languages %}
+  {% assign lang_prefix = '' %}{% if lang != site.default_lang %}{% assign lang_prefix = lang | prepend: '/' %}{% endif %}
+  <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="https://magiclabsolutions.com{{ lang_prefix }}/apps/pauta/"{% endstatic_href %}>
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" {% static_href %}href="https://magiclabsolutions.com/apps/pauta/"{% endstatic_href %}>
+  <link rel="icon" href="/images/pauta/app-icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/pauta-coming-soon.css">
+</head>
+<body>
+  <a class="skip" href="#main">{{ copy.skip }}</a>
+  <header class="site-header wrap">
+    <a class="studio" href="{{ prefix }}/apps/"><span aria-hidden="true">←</span> Magic Lab Solutions</a>
+    <details class="languages">
+      <summary>{{ site.data.language_names[site.active_lang] }} <span aria-hidden="true">⌄</span></summary>
+      <nav aria-label="{{ copy.languages }}">
+        {% for lang in site.languages %}
+        {% assign lang_prefix = '' %}{% if lang != site.default_lang %}{% assign lang_prefix = lang | prepend: '/' %}{% endif %}
+        <a lang="{{ lang }}" hreflang="{{ lang }}" {% if lang == site.active_lang %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com{{ lang_prefix }}/apps/pauta/"{% endstatic_href %}>{{ site.data.language_names[lang] }}</a>
+        {% endfor %}
+      </nav>
+    </details>
+  </header>
+  <hr class="rule-double">
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="hero-copy">
+        <p class="status">{{ copy.kicker }} · {{ copy.soon }}</p>
+        <h1 id="title">Pauta<span class="dot" aria-hidden="true">.</span></h1>
+        <p class="headline">{{ copy.headline }}</p>
+        <p class="intro">{{ copy.intro }}</p>
+        <p class="platform">{{ copy.platform }}</p>
+        <a class="button" href="#capture">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="/images/pauta/app-icon.png" width="512" height="512" fetchpriority="high" alt="{{ copy.image_alt | escape }}">
+      </div>
+    </section>
+
+    <nav class="page-sections wrap" aria-label="{{ copy.nav_label | escape }}">
+      {% assign sections = 'capture,household,desk,quiet' | split: ',' %}
+      {% for label in copy.nav %}
+      <a href="#{{ sections[forloop.index0] }}">{{ label }} <span aria-hidden="true">↘</span></a>
+      {% endfor %}
+    </nav>
+
+    <section id="capture" class="capture" aria-labelledby="capture-title">
+      <div class="wrap">
+        <p class="eyebrow">{{ copy.capture.eyebrow }}</p>
+        <h2 id="capture-title">{{ copy.capture.title }}</h2>
+        <div class="capture-body">
+          <div>
+            <p>{{ copy.capture.intro }}</p>
+            <p class="capture-note">{{ copy.capture.note }}</p>
+          </div>
+          <ul class="said">
+            {% for example in copy.capture.examples %}<li>{{ example }}</li>{% endfor %}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="household" class="household" aria-labelledby="household-title">
+      <div class="wrap">
+        <p class="eyebrow">{{ copy.household.eyebrow }}</p>
+        <h2 id="household-title">{{ copy.household.title }}</h2>
+        <p>{{ copy.household.intro }}</p>
+        <div class="columns">
+          {% for item in copy.household.items %}
+          <article>
+            <span class="column-mark" aria-hidden="true">{{ forloop.index | prepend: '0' }}</span>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.text }}</p>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section id="desk" class="desk" aria-labelledby="desk-title">
+      <div class="wrap">
+        <p class="eyebrow eyebrow-quiet">{{ copy.desk.eyebrow }}</p>
+        <h2 id="desk-title">{{ copy.desk.title }}</h2>
+        <div class="columns">
+          {% for item in copy.desk.items %}
+          <article>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.text }}</p>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section id="quiet" class="quiet" aria-labelledby="quiet-title">
+      <div class="wrap">
+        <div class="quiet-body">
+          <div>
+            <p class="eyebrow">{{ copy.quiet.eyebrow }}</p>
+            <h2 id="quiet-title">{{ copy.quiet.title }}</h2>
+          </div>
+          <div>
+            <p>{{ copy.quiet.text }}</p>
+            <a class="more" {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/pauta/privacy-policy/"{% endstatic_href %}>{{ copy.quiet.link }} <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="platforms" aria-labelledby="platforms-title">
+      <div class="wrap">
+        <p class="eyebrow eyebrow-quiet">{{ copy.platforms.eyebrow }}</p>
+        <h2 id="platforms-title">{{ copy.platforms.title }}</h2>
+        <p>{{ copy.platforms.text }}</p>
+        <p class="note">{{ copy.platforms.note }}</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p><strong>Pauta<span class="dot" aria-hidden="true">.</span></strong> <span>· {{ copy.soon }}</span></p>
+    <nav aria-label="{{ copy.footer_label }}">
+      <a {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/pauta/support/"{% endstatic_href %}>{{ copy.support }}</a>
+      <a href="mailto:redacao@pauta.app?subject=Pauta">{{ copy.contact }}</a>
+      <a {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/pauta/privacy-policy/"{% endstatic_href %}>{{ copy.privacy }}</a>
+      <a {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/pauta/terms-of-use/"{% endstatic_href %}>{{ copy.terms }}</a>
+    </nav>
+    <small>© {{ site.time | date: '%Y' }} Magic Lab Solutions</small>
+  </footer>
+</body>
+</html>
