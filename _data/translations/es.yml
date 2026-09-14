@@ -29,6 +29,10 @@ app_card:
   game: Juego
   learn_more: Más información
 projects:
+  project-pauta:
+    title: Pauta
+    subtitle: Un titular al día
+    description: Un planificador diario para ti y tu familia, con aire de periódico impreso. Captura por voz o por texto, deja que un asistente lo archive en el proyecto correcto y mantén la casa — tareas, compra, deseos — en la misma página. Muy pronto para iPhone, iPad y Mac.
   project-giftly:
     title: Giftly
     subtitle: Nunca más olvides un cumpleaños
@@ -598,3 +602,50 @@ giftly_page:
   closer_heading: "Alguien a quien quieres cumple años pronto"
   closer_body: "Añádelo una vez. Giftly se encarga del resto."
   cta_support: "Soporte"
+pauta_support:
+  title: "Soporte de Pauta — Magic Lab Solutions"
+  description: "Ayuda con Pauta: capturar por voz, invitar a tu familia, el código de seis letras para niños, planes y restaurar compras, exportar tus datos y cerrar la redacción."
+  masthead: "Un titular al día. Lo demás es pie de página."
+  back: "← Todas las apps"
+  kicker: "Mostrador de atención"
+  heading: "Soporte de Pauta"
+  subheading: "Las preguntas que más llegan — y una persona de verdad al otro lado del correo."
+  about_kicker: "La edición"
+  about_heading: "Qué es Pauta"
+  about_1: "Pauta es un planificador diario para ti y tu familia, con aire de periódico impreso. Cada día abre con un titular — lo que de verdad importa — y todo lo demás baja al pie de página, que es su sitio."
+  about_2: "Capturas hablando o escribiendo, con las palabras que te salgan, y un asistente archiva la nota en el proyecto correcto. Nada de lo que propone se vuelve real hasta que tú lo aceptas."
+  about_item_1_title: "Un espacio de la familia"
+  about_item_1: "tareas, la lista de la compra y una lista de deseos cuyos elementos suben de prioridad cuanto más esperan."
+  about_item_2_title: "Proyectos por área"
+  about_item_2: "Casa, Trabajo, Personal y Familia, cada uno con su hoja de ruta de hitos."
+  about_item_3_title: "Un cuaderno de ideas"
+  about_item_3: "una idea vive 30 días; o haces algo con ella, o se apaga sin reclamarte nada."
+  about_item_4_title: "Prompts programados"
+  about_item_4: "preguntas que se ejecutan solas y vuelven con propuestas que aceptas o ignoras."
+  about_item_5_title: "iPhone, iPad y Mac"
+  about_item_5: "en portugués, inglés y español. Sin publicidad y sin rastreo entre apps."
+  faq_kicker: "Fe de erratas"
+  faq_heading: "Preguntas frecuentes"
+  q_voice: "¿Cómo capturo algo por voz?"
+  a_voice_1: "Toca el campo de captura y luego el micrófono del teclado, y habla como le hablarías a una persona: “mañana comprar leche”, “llamar al dentista el jueves por la mañana”. Quien transcribe es tu dispositivo; el audio no sale de ahí."
+  a_voice_2: "El asistente lee la frase, deduce el día y el proyecto, y la archiva. Si no aparece el micrófono, activa el dictado en Ajustes → General → Teclado → Activar dictado. También puedes capturar sin decir una palabra — escribir funciona exactamente igual."
+  q_invite: "¿Cómo invito a mi familia?"
+  a_invite: "Redacción → Equipo → Invitar. Pauta genera un código y un enlace que envías como prefieras. Cuando la persona abre el enlace o escribe el código, entra en tu casa y ve las tareas compartidas, la lista de la compra y la de deseos. Puedes revocar el acceso de cualquiera desde la misma pantalla."
+  q_child: "¿Qué es el código de seis letras para niños?"
+  a_child_1: "Un niño no necesita correo ni contraseña. Tú creas su sitio en la casa y Pauta te da un código de seis letras; el niño lo escribe en su propio dispositivo y ya está dentro."
+  a_child_2: "La cuenta de un niño guarda solo su nombre y su avatar — sin fecha de nacimiento, sin ubicación, sin chat y sin nada que venga de fuera de la casa. Solo el dueño de la casa aprueba un código, y cualquier código se puede revocar."
+  q_plans: "¿Cuánto cuestan los planes y cómo restauro una compra?"
+  a_plans_1: "Solo cuesta R$ 16,90 al mes o R$ 139,90 al año (US$ 3,99 / US$ 34,99); Familia, R$ 34,90 al mes o R$ 279,90 al año (US$ 7,99 / US$ 69,99). Los dos empiezan con 14 días gratis, y el precio aparece en tu moneda antes de comprar."
+  a_plans_2: "¿Dispositivo nuevo o app reinstalada? Redacción → Suscripción → Restaurar compras recupera la suscripción desde tu cuenta de Apple. La cancelación y los reembolsos los gestiona Apple, en Ajustes → tu nombre → Suscripciones."
+  q_export: "¿Puedo llevarme mis datos?"
+  a_export: "Siempre. En Redacción → Cuenta → Exportar datos recibes un archivo con todo lo que guarda tu casa: tareas, listas, ideas, proyectos e hitos. Funciona con la suscripción activa y después de que termine — exportar nunca depende del plan."
+  q_close: "¿Cómo cierro mi cuenta?"
+  a_close: "Redacción → Cuenta → Cerrar la redacción. La cuenta se bloquea al instante y tienes 30 días para arrepentirte; pasado el plazo se borra todo de forma definitiva y no hay vuelta atrás. Exporta tus datos antes, si quieres conservarlos, y cancela la suscripción en la App Store — borrar la cuenta no la cancela."
+  q_offline: "¿Pauta funciona sin conexión?"
+  a_offline: "Leer y escribir siguen funcionando sin conexión, y todo se sincroniza cuando vuelves. Solo el asistente necesita red: una captura hecha sin conexión espera y se archiva en cuanto vuelves a estar en línea."
+  contact_kicker: "Cartas al director"
+  contact_title: "¿Sigues atascado?"
+  contact_body: "Escríbenos y te responde una persona. Contarnos tu dispositivo, la versión del sistema y qué esperabas que pasara hace que la respuesta útil llegue mucho antes."
+  contact_cta: "Escribir a redacao@pauta.app"
+  privacy: "Política de Privacidad de Pauta"
+  terms: "Condiciones de Uso de Pauta"

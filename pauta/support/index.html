@@ -1,0 +1,201 @@
+---
+layout: null
+permalink: /pauta/support/
+lang-ref: pauta-support
+---
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign s = t.pauta_support %}
+{% assign prefix = '' %}{% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+    {% include gtag.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.title | default: "Pauta Support — Magic Lab Solutions" }}</title>
+    <meta name="description" content="{{ s.description | default: "Help with Pauta: capturing by voice, inviting your family, the children's six-letter code, plans and restoring a purchase, exporting your data, and closing the newsroom." }}">
+    <meta name="theme-color" content="#f3f2f2">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --paper: #f3f2f2;
+            --ink: #201e1d;
+            --ink-700: #4a4644;
+            --ink-600: #6b6663;
+            --rule: #cfcac6;
+            --cyan: #0088b0;
+            --cyan-deep: #006a8a;
+            --magenta: #d6006c;
+            --serif: 'Source Serif 4', 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+        body {
+            font-family: var(--serif); background: var(--paper); color: var(--ink);
+            font-size: 17px; line-height: 1.6;
+            -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+        }
+        .wrap { width: 100%; max-width: 720px; margin: 0 auto; padding: 0 24px; }
+        h1, h2, h3 { font-weight: 700; line-height: 1.14; letter-spacing: -0.01em; }
+        a { color: var(--cyan); text-underline-offset: 3px; }
+        a:hover { color: var(--cyan-deep); }
+        p + p { margin-top: 12px; }
+
+        .masthead { border-bottom: 3px double var(--ink); }
+        .masthead__inner {
+            display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+            max-width: 720px; margin: 0 auto; padding: 22px 24px 14px;
+        }
+        .masthead__name { font-size: 27px; font-weight: 700; letter-spacing: 0.01em; text-decoration: none; color: var(--ink); }
+        .masthead__rule { font-size: 14px; color: var(--ink-600); font-style: italic; }
+        .masthead__back { margin-left: auto; font-size: 15px; text-decoration: none; }
+
+        .kicker {
+            font-size: 11.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+            color: var(--magenta); margin-bottom: 8px;
+        }
+        .kicker--quiet { color: var(--ink-600); }
+
+        .head { padding: 46px 0 8px; }
+        .head h1 { font-size: clamp(34px, 6vw, 46px); margin-bottom: 14px; }
+        .head .lede { font-size: 19px; color: var(--ink-700); }
+
+        .about { padding: 34px 0 10px; }
+        .about h2 { font-size: 23px; margin-bottom: 12px; }
+        .about ul { list-style: none; margin-top: 16px; }
+        .about li { padding: 9px 0 9px 0; border-top: 1px solid var(--rule); font-size: 16.5px; color: var(--ink-700); }
+        .about li strong { color: var(--ink); font-weight: 600; }
+
+        .faq { padding: 40px 0 8px; }
+        .faq h2 { font-size: 23px; padding-bottom: 12px; border-bottom: 1px solid var(--ink); margin-bottom: 4px; }
+        details { border-bottom: 1px solid var(--rule); }
+        summary {
+            list-style: none; cursor: pointer; padding: 16px 30px 16px 0; position: relative;
+            font-weight: 600; font-size: 18px; line-height: 1.3;
+        }
+        summary::-webkit-details-marker { display: none; }
+        summary::after {
+            content: '+'; position: absolute; right: 0; top: 14px;
+            color: var(--cyan); font-weight: 400; font-size: 22px; line-height: 1.2;
+        }
+        details[open] summary::after { content: '–'; }
+        details > p, details > ul { font-size: 16.5px; color: var(--ink-700); }
+        details > p:last-child, details > ul:last-child { padding-bottom: 18px; }
+        details > ul { padding-left: 20px; margin-top: 10px; }
+        details > ul li { margin-bottom: 6px; }
+
+        .contact { margin: 44px 0 10px; padding: 26px 0; border-top: 3px double var(--ink); border-bottom: 1px solid var(--ink); }
+        .contact h2 { font-size: 23px; margin-bottom: 10px; }
+        .contact p { color: var(--ink-700); font-size: 16.5px; }
+        .contact__cta {
+            display: inline-block; margin-top: 18px; padding: 11px 24px;
+            background: var(--cyan); color: var(--paper); text-decoration: none;
+            font-weight: 600; font-size: 16px;
+        }
+        .contact__cta:hover { background: var(--cyan-deep); color: var(--paper); }
+
+        .foot { padding: 30px 0 52px; font-size: 14.5px; color: var(--ink-600); }
+        .foot__inner { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline; max-width: 720px; margin: 0 auto; padding: 0 24px; }
+        .foot a { color: var(--ink-600); text-decoration: none; }
+        .foot a:hover { color: var(--ink); text-decoration: underline; }
+        .foot__spacer { margin-left: auto; }
+        @media (max-width: 560px) { .foot__spacer { margin-left: 0; flex-basis: 100%; } }
+    </style>
+</head>
+<body>
+
+<header class="masthead">
+    <div class="masthead__inner">
+        <a class="masthead__name" href="{{ prefix }}/apps/">Pauta</a>
+        <span class="masthead__rule">{{ s.masthead | default: "One headline a day. The rest is a footnote." }}</span>
+        <a class="masthead__back" href="{{ prefix }}/apps/">{{ s.back | default: "← All apps" }}</a>
+    </div>
+</header>
+
+<main class="wrap">
+    <div class="head">
+        <p class="kicker">{{ s.kicker | default: "Support desk" }}</p>
+        <h1>{{ s.heading | default: "Pauta Support" }}</h1>
+        <p class="lede">{{ s.subheading | default: "The questions people ask most — and a real person at the end of an email." }}</p>
+    </div>
+
+    <section class="about">
+        <p class="kicker kicker--quiet">{{ s.about_kicker | default: "The edition" }}</p>
+        <h2>{{ s.about_heading | default: "What Pauta is" }}</h2>
+        <p>{{ s.about_1 | default: "Pauta is a daily planner for you and your family, dressed as a printed newspaper. Each day opens with one headline — the thing that actually matters — and everything else falls below the fold, where it belongs." }}</p>
+        <p>{{ s.about_2 | default: "You capture by speaking or typing, in whatever words come out, and an assistant files the note in the right project. Nothing it proposes becomes real until you accept it." }}</p>
+        <ul>
+            <li><strong>{{ s.about_item_1_title | default: "A shared household" }}</strong> — {{ s.about_item_1 | default: "tasks, the grocery list, and a wish list whose items climb in priority the longer they wait." }}</li>
+            <li><strong>{{ s.about_item_2_title | default: "Projects by area" }}</strong> — {{ s.about_item_2 | default: "Home, Work, Personal and Family, each with a roadmap of milestones." }}</li>
+            <li><strong>{{ s.about_item_3_title | default: "An ideas notebook" }}</strong> — {{ s.about_item_3 | default: "ideas live for 30 days; act on one or let it fade, with no guilt attached." }}</li>
+            <li><strong>{{ s.about_item_4_title | default: "Scheduled prompts" }}</strong> — {{ s.about_item_4 | default: "questions that run on their own and come back with proposals you accept or ignore." }}</li>
+            <li><strong>{{ s.about_item_5_title | default: "iPhone, iPad and Mac" }}</strong> — {{ s.about_item_5 | default: "in Portuguese, English and Spanish. No ads and no cross-app tracking." }}</li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <p class="kicker">{{ s.faq_kicker | default: "Errata" }}</p>
+        <h2>{{ s.faq_heading | default: "Common questions" }}</h2>
+
+        <details>
+            <summary>{{ s.q_voice | default: "How do I capture something by voice?" }}</summary>
+            <p>{{ s.a_voice_1 | default: "Tap the capture field and then the microphone on the keyboard, and talk the way you would to a person: “tomorrow buy milk”, “call the dentist on Thursday morning”. Your device does the transcription; the audio never leaves it." }}</p>
+            <p>{{ s.a_voice_2 | default: "The assistant reads the sentence, works out the day and the project, and files it. If dictation is missing, turn it on in Settings → General → Keyboard → Enable Dictation. You can also capture without saying a word — typing works exactly the same way." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_invite | default: "How do I invite my family?" }}</summary>
+            <p>{{ s.a_invite | default: "Newsroom → Staff → Invite. Pauta generates a code and a link you can send however you like. When the person opens the link or types the code, they join your household and see the shared tasks, the grocery list and the wish list. You can revoke anyone's access from the same screen." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_child | default: "What is the children's six-letter code?" }}</summary>
+            <p>{{ s.a_child_1 | default: "Children do not need an email address or a password. You create their place in the household and Pauta gives you a six-letter code; the child types it on their own device and they are in." }}</p>
+            <p>{{ s.a_child_2 | default: "A child's account holds only their name and avatar — no date of birth, no location, no chat and nothing from anyone outside the household. Only the owner of the house approves a code, and any code can be revoked." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_plans | default: "What do the plans cost, and how do I restore a purchase?" }}</summary>
+            <p>{{ s.a_plans_1 | default: "Solo is R$ 16,90 a month or R$ 139,90 a year (US$ 3.99 / US$ 34.99); Family is R$ 34,90 a month or R$ 279,90 a year (US$ 7.99 / US$ 69.99). Both start with 14 days free, and prices appear in your own currency before you buy." }}</p>
+            <p>{{ s.a_plans_2 | default: "New device, or the app reinstalled? Newsroom → Subscription → Restore purchases brings the subscription back from your Apple Account. Cancelling and refunds are handled by Apple, in Settings → your name → Subscriptions." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_export | default: "Can I get my data out?" }}</summary>
+            <p>{{ s.a_export | default: "Yes, always. Newsroom → Account → Export data hands you a file with everything your household holds: tasks, lists, ideas, projects and milestones. It works while you are subscribed and after you stop — exporting never depends on a plan." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_close | default: "How do I close my account?" }}</summary>
+            <p>{{ s.a_close | default: "Newsroom → Account → Close the newsroom. The account is locked straight away and you have 30 days to change your mind; after that everything is deleted for good and cannot be recovered. Export your data first if you want to keep it, and cancel the subscription in the App Store — deleting the account does not cancel it." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_offline | default: "Does Pauta work without a connection?" }}</summary>
+            <p>{{ s.a_offline | default: "Reading and writing keep working offline, and everything syncs when you come back. Only the assistant needs a connection: a capture made offline waits, and is filed as soon as you are online again." }}</p>
+        </details>
+    </section>
+
+    <section class="contact">
+        <p class="kicker kicker--quiet">{{ s.contact_kicker | default: "Letters to the editor" }}</p>
+        <h2>{{ s.contact_title | default: "Still stuck?" }}</h2>
+        <p>{{ s.contact_body | default: "Write to us and a person answers. Telling us your device, your OS version and what you expected to happen gets you a useful reply faster." }}</p>
+        <a class="contact__cta" href="mailto:redacao@pauta.app?subject=Pauta%20Support">{{ s.contact_cta | default: "Email redacao@pauta.app" }}</a>
+    </section>
+</main>
+
+<footer class="foot">
+    <div class="foot__inner">
+        <span>&copy; {{ site.time | date: "%Y" }} Magic Lab Solutions</span>
+        <span class="foot__spacer"></span>
+        <a href="{{ prefix }}/pauta/privacy-policy/">{{ s.privacy | default: "Pauta Privacy Policy" }}</a>
+        <a href="{{ prefix }}/pauta/terms-of-use/">{{ s.terms | default: "Pauta Terms of Use" }}</a>
+        <a href="{{ prefix }}/apps/">{{ t.nav.apps | default: "Apps" }}</a>
+    </div>
+</footer>
+
+</body>
+</html>

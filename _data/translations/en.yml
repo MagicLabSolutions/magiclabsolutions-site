@@ -29,6 +29,10 @@ app_card:
   game: Game
   learn_more: Learn More
 projects:
+  project-pauta:
+    title: Pauta
+    subtitle: One headline a day
+    description: A daily planner for you and your family, dressed as a printed newspaper. Capture by voice or text, let an assistant file it in the right project, and keep the household — tasks, groceries, wishes — on the same page. Coming soon for iPhone, iPad and Mac.
   project-giftly:
     title: Giftly
     subtitle: Never forget a birthday
@@ -537,3 +541,50 @@ brainfold_page:
   footer_rights: All rights reserved.
 lang:
   label: Language
+pauta_support:
+  title: "Pauta Support — Magic Lab Solutions"
+  description: "Help with Pauta: capturing by voice, inviting your family, the children's six-letter code, plans and restoring a purchase, exporting your data, and closing the newsroom."
+  masthead: "One headline a day. The rest is a footnote."
+  back: "← All apps"
+  kicker: "Support desk"
+  heading: "Pauta Support"
+  subheading: "The questions people ask most — and a real person at the end of an email."
+  about_kicker: "The edition"
+  about_heading: "What Pauta is"
+  about_1: "Pauta is a daily planner for you and your family, dressed as a printed newspaper. Each day opens with one headline — the thing that actually matters — and everything else falls below the fold, where it belongs."
+  about_2: "You capture by speaking or typing, in whatever words come out, and an assistant files the note in the right project. Nothing it proposes becomes real until you accept it."
+  about_item_1_title: "A shared household"
+  about_item_1: "tasks, the grocery list, and a wish list whose items climb in priority the longer they wait."
+  about_item_2_title: "Projects by area"
+  about_item_2: "Home, Work, Personal and Family, each with a roadmap of milestones."
+  about_item_3_title: "An ideas notebook"
+  about_item_3: "ideas live for 30 days; act on one or let it fade, with no guilt attached."
+  about_item_4_title: "Scheduled prompts"
+  about_item_4: "questions that run on their own and come back with proposals you accept or ignore."
+  about_item_5_title: "iPhone, iPad and Mac"
+  about_item_5: "in Portuguese, English and Spanish. No ads and no cross-app tracking."
+  faq_kicker: "Errata"
+  faq_heading: "Common questions"
+  q_voice: "How do I capture something by voice?"
+  a_voice_1: "Tap the capture field and then the microphone on the keyboard, and talk the way you would to a person: “tomorrow buy milk”, “call the dentist on Thursday morning”. Your device does the transcription; the audio never leaves it."
+  a_voice_2: "The assistant reads the sentence, works out the day and the project, and files it. If dictation is missing, turn it on in Settings → General → Keyboard → Enable Dictation. You can also capture without saying a word — typing works exactly the same way."
+  q_invite: "How do I invite my family?"
+  a_invite: "Newsroom → Staff → Invite. Pauta generates a code and a link you can send however you like. When the person opens the link or types the code, they join your household and see the shared tasks, the grocery list and the wish list. You can revoke anyone's access from the same screen."
+  q_child: "What is the children's six-letter code?"
+  a_child_1: "Children do not need an email address or a password. You create their place in the household and Pauta gives you a six-letter code; the child types it on their own device and they are in."
+  a_child_2: "A child's account holds only their name and avatar — no date of birth, no location, no chat and nothing from anyone outside the household. Only the owner of the house approves a code, and any code can be revoked."
+  q_plans: "What do the plans cost, and how do I restore a purchase?"
+  a_plans_1: "Solo is R$ 16,90 a month or R$ 139,90 a year (US$ 3.99 / US$ 34.99); Family is R$ 34,90 a month or R$ 279,90 a year (US$ 7.99 / US$ 69.99). Both start with 14 days free, and prices appear in your own currency before you buy."
+  a_plans_2: "New device, or the app reinstalled? Newsroom → Subscription → Restore purchases brings the subscription back from your Apple Account. Cancelling and refunds are handled by Apple, in Settings → your name → Subscriptions."
+  q_export: "Can I get my data out?"
+  a_export: "Yes, always. Newsroom → Account → Export data hands you a file with everything your household holds: tasks, lists, ideas, projects and milestones. It works while you are subscribed and after you stop — exporting never depends on a plan."
+  q_close: "How do I close my account?"
+  a_close: "Newsroom → Account → Close the newsroom. The account is locked straight away and you have 30 days to change your mind; after that everything is deleted for good and cannot be recovered. Export your data first if you want to keep it, and cancel the subscription in the App Store — deleting the account does not cancel it."
+  q_offline: "Does Pauta work without a connection?"
+  a_offline: "Reading and writing keep working offline, and everything syncs when you come back. Only the assistant needs a connection: a capture made offline waits, and is filed as soon as you are online again."
+  contact_kicker: "Letters to the editor"
+  contact_title: "Still stuck?"
+  contact_body: "Write to us and a person answers. Telling us your device, your OS version and what you expected to happen gets you a useful reply faster."
+  contact_cta: "Email redacao@pauta.app"
+  privacy: "Pauta Privacy Policy"
+  terms: "Pauta Terms of Use"
