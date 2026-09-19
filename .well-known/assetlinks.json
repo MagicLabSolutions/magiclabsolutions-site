@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.magiclabsolutions.zuzu",
+      "sha256_cert_fingerprints": [
+        "E9:AD:74:6F:FD:3F:C0:1F:DE:9C:69:C1:92:0F:A1:12:BD:92:F9:82:86:A0:2B:48:2E:4F:81:68:2E:56:1A:C8",
+        "4F:42:5A:91:E1:78:00:80:9B:06:F7:CF:6A:28:9D:E3:D1:C9:8F:FA:C8:09:58:DF:B7:D1:1B:F6:8F:D1:C9:22"
+      ]
+    }
+  }
+]
