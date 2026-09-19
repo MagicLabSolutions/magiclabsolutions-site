@@ -5,6 +5,15 @@ description: Sorry – the page you're looking for doesn't exist.
 lang-ref: 404
 ---
 
+<script>
+  (function () {
+    var match = location.pathname.match(/\/(?:zuzu\/)?invite\/([A-Za-z0-9]+)\/?$/i);
+    if (match) {
+      location.replace('/zuzu/invite/?code=' + encodeURIComponent(match[1].toUpperCase()));
+    }
+  })();
+</script>
+
 {% assign t = site.data.translations[site.active_lang] %}
 
 <section class="page-hero">

@@ -171,18 +171,6 @@ permalink: /invite/
     </div>
   </div>
 
-  <script>
-    // Extract code from URL query parameter
-    var params = new URLSearchParams(window.location.search);
-    var code = params.get('code');
-
-    if (code) {
-      document.getElementById('codeBox').style.display = 'block';
-      document.getElementById('codeValue').textContent = code;
-      document.getElementById('openApp').href = 'zuzu://invite?code=' + encodeURIComponent(code);
-    } else {
-      document.getElementById('openApp').href = 'zuzu://';
-    }
-  </script>
+  {% include zuzu-invite-script.html %}
 </body>
 </html>

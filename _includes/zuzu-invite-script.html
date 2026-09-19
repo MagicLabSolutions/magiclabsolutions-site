@@ -1,0 +1,22 @@
+<script>
+  (function () {
+    function inviteCode() {
+      var params = new URLSearchParams(window.location.search);
+      var fromQuery = params.get('code');
+      if (fromQuery) return fromQuery;
+      var match = window.location.pathname.match(/\/(?:zuzu\/)?invite\/([A-Za-z0-9]+)\/?$/i);
+      return match ? match[1] : null;
+    }
+    var code = inviteCode();
+    var box = document.getElementById('codeBox');
+    var value = document.getElementById('codeValue');
+    var openApp = document.getElementById('openApp');
+    if (code && box && value && openApp) {
+      box.style.display = 'block';
+      value.textContent = code.toUpperCase();
+      openApp.href = 'zuzu://invite?code=' + encodeURIComponent(code);
+    } else if (openApp) {
+      openApp.href = 'zuzu://';
+    }
+  })();
+</script>
