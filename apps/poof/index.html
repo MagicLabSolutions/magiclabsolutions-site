@@ -1,0 +1,80 @@
+---
+layout: null
+lang-ref: poof-page
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poof — make room on your Mac · Magic Lab Solutions</title>
+  <meta name="description" content="Poof finds the caches, logs and build leftovers apps pile up on your Mac — and removes only what you choose. Scanning is free.">
+  <meta name="theme-color" content="#2b1257">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Poof — make room on your Mac">
+  <meta property="og:description" content="Find gigabytes in seconds, and clean them away in one click. Safe by design.">
+  <meta property="og:image" content="https://magiclabsolutions.com/images/poof/hero.jpg">
+  <meta property="og:url" content="https://magiclabsolutions.com/apps/poof/">
+  <link rel="canonical" {% static_href %}href="https://magiclabsolutions.com/apps/poof/"{% endstatic_href %}>
+  <link rel="icon" href="/images/poof/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="/css/poof.css">
+</head>
+<body>
+  <header class="brand-bar wrap">
+    <a class="brand" href="/"><img src="/images/poof/app-icon.png" width="44" height="44" alt=""><span>Poof<small>Magic Lab Solutions</small></span></a>
+    <nav class="languages" aria-label="Poof">
+      <a href="#support">Support</a>
+      <a {% static_href %}href="https://magiclabsolutions.com/poof/privacy-policy/"{% endstatic_href %}>Privacy</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="title">
+      <img class="icon" src="/images/poof/app-icon.png" width="128" height="128" alt="">
+      <h1 id="title">Poof</h1>
+      <p class="headline">Make room on your Mac.</p>
+      <p class="lede">Poof finds the caches, logs, build leftovers and forgotten files that apps pile up — and removes only what you choose. Scanning is always free.</p>
+      <div class="actions">
+        <a class="button" href="https://apps.apple.com/app/id6816976275">Get it on the Mac App Store</a>
+        <a class="button quiet" href="#support">Support</a>
+      </div>
+      <p class="fine">For macOS 14 Sonoma and later.</p>
+      <div class="shot"><img src="/images/poof/hero.jpg" width="1600" height="1000" alt="Poof’s Smart Scan showing 43.99 GB ready to clean, sorted into System Junk, Developer, Trash, and Installers &amp; Backups."></div>
+    </section>
+
+    <section class="features wrap" aria-label="What Poof does">
+      <div class="feature"><span class="glyph" aria-hidden="true">✦</span><h2>See everything first</h2><p>Smart Scan shows exactly what’s taking space, what each item is and which app it belongs to — in seconds.</p></div>
+      <div class="feature"><span class="glyph" aria-hidden="true">✦</span><h2>Safe by design</h2><p>Only what rebuilds itself is selected. Anything in use or changed recently is left alone, and your documents are never touched.</p></div>
+      <div class="feature"><span class="glyph" aria-hidden="true">✦</span><h2>Made for developers, too</h2><p>Xcode DerivedData, device support, archives and the caches of npm, Homebrew, CocoaPods, Gradle, Cargo and more.</p></div>
+      <div class="feature"><span class="glyph" aria-hidden="true">✦</span><h2>Keeps watch</h2><p>Free space in your menu bar, and a heads-up when your Mac runs low — with an estimate of what you could clean.</p></div>
+    </section>
+
+    <section id="support" class="support wrap" aria-labelledby="support-title">
+      <h2 id="support-title">Support</h2>
+      <section>
+        <h2>Poof asks for my Home folder</h2>
+        <p>The Mac App Store edition runs in Apple’s App Sandbox, so macOS asks you to choose your Home folder once. Poof reads only names, sizes and dates to find what can be cleaned, and removes nothing until you confirm.</p>
+      </section>
+      <section>
+        <h2>What is Full Disk Access for?</h2>
+        <p>It is optional. With it, Poof can also look at the Trash, Mail downloads and app container caches. Turn it on in System Settings › Privacy &amp; Security › Full Disk Access.</p>
+      </section>
+      <section>
+        <h2>Poof Pro, restoring and cancelling</h2>
+        <p>Scanning is free; cleaning needs Poof Pro — weekly, yearly or lifetime. To bring back a purchase on another Mac, choose Restore Purchases on the plans page or in Poof › Settings. Manage or cancel a subscription in your App Store account settings.</p>
+      </section>
+      <aside class="contact">
+        <h2>Contact us</h2>
+        <p>Questions, ideas or something that didn’t work? We read everything.</p>
+        <a href="mailto:contact@magiclabsolutions.com?subject=Poof">contact@magiclabsolutions.com</a>
+      </aside>
+    </section>
+  </main>
+  <footer class="wrap">
+    <nav>
+      <a {% static_href %}href="https://magiclabsolutions.com/poof/privacy-policy/"{% endstatic_href %}>Privacy policy</a>
+      <a {% static_href %}href="https://magiclabsolutions.com/poof/terms-of-use/"{% endstatic_href %}>Terms of use</a>
+    </nav>
+    <small>© 2026 Magic Lab Solutions</small>
+  </footer>
+</body>
+</html>
