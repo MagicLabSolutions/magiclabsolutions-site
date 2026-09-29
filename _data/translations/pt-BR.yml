@@ -29,6 +29,10 @@ app_card:
   game: Jogo
   learn_more: Saiba mais
 projects:
+  project-toctoc:
+    title: Toc Toc
+    subtitle: Bate antes de cada reunião
+    description: "Um app de Mac que bate na sua tela inteira um minuto antes de cada reunião, com contagem regressiva grande e botão para entrar no Zoom, Meet e Teams. Sem conta, nada sai do seu Mac. Em breve para Mac."
   project-pauta:
     title: Pauta
     subtitle: Uma manchete por dia
@@ -649,3 +653,49 @@ pauta_support:
   contact_cta: "Escrever para redacao@pauta.app"
   privacy: "Política de Privacidade do Pauta"
   terms: "Termos de Uso do Pauta"
+toctoc_support:
+  title: "Suporte do Toc Toc — Magic Lab Solutions"
+  description: "Ajuda com o Toc Toc, o app de Mac que bate na sua tela antes de cada reunião: calendários, links de chamada, apps que não podem ser interrompidos, Toc Toc Pro e privacidade."
+  masthead: "Bate antes de cada reunião."
+  back: "← Mais apps"
+  kicker: "Suporte"
+  heading: "Suporte do Toc Toc"
+  subheading: "As perguntas mais comuns — e uma pessoa de verdade do outro lado do e-mail."
+  about_heading: "O que é o Toc Toc"
+  about_1: "O Toc Toc é um app de Mac que bate na sua tela logo antes de uma reunião começar. Um minuto antes, ele toma todos os monitores com duas batidinhas simpáticas, uma contagem regressiva grande e um botão para entrar, para nenhuma reunião escapar enquanto você está concentrado."
+  about_item_1_title: "Entre com uma tecla"
+  about_item_1: "o Return abre a chamada: Zoom, Google Meet, Microsoft Teams, Webex, FaceTime e outros."
+  about_item_2_title: "Um aviso antes"
+  about_item_2: "um banner discreto dez minutos antes, e a próxima reunião na barra de menus."
+  about_item_3_title: "Respeita o seu foco"
+  about_item_3: "pause por uma hora ou até amanhã; ele espera enquanto você apresenta."
+  about_item_4_title: "Privado de verdade"
+  about_item_4: "sem conta, sem servidor, sem rastreamento. Suas reuniões nunca saem do seu Mac."
+  faq_kicker: "Respostas"
+  faq_heading: "Perguntas comuns"
+  q_silent: "O Toc Toc não bateu. O que eu confiro?"
+  a_silent_1: "Acesso ao calendário: Ajustes do Sistema → Privacidade e Segurança → Calendários → o Toc Toc precisa estar ligado (acesso total)."
+  a_silent_2: "O calendário está ligado em Toc Toc → Ajustes → Calendários."
+  a_silent_3: "O evento não é de dia inteiro, cancelado ou recusado — esses nunca batem."
+  a_silent_4: "O Toc Toc não está pausado (a barra de menus avisa) e nenhum app silencioso, como o Keynote, estava na frente."
+  a_silent_5: "No plano grátis a batida vem como um banner no canto superior direito; o Toc Toc Pro deixa em tela cheia."
+  q_calendars: "Com quais calendários ele funciona?"
+  a_calendars: "Com todos que o app Calendário do seu Mac mostra: iCloud, Google, Microsoft Exchange, Outlook, calendários assinados. Para adicionar uma conta, abra Ajustes do Sistema → Contas de Internet. O Toc Toc só lê os eventos; nunca cria nem altera nenhum."
+  q_links: "Quais links de chamada o Entrar entende?"
+  a_links_1: "Zoom, Google Meet, Microsoft Teams, Webex, Whereby, FaceTime, Jitsi, Around, Discord, huddles do Slack, BlueJeans, GoTo Meeting e Skype, além de qualquer outro link de vídeo no URL ou no local do evento. Links embrulhados por safe links do Outlook, redirecionamentos do Google ou Proofpoint são desembrulhados antes."
+  a_links_2: "Em Ajustes → Geral → Entrar abre você escolhe o app da própria reunião (Zoom e Teams abrem direto quando instalados) ou o navegador."
+  q_quiet: "Ele fica quieto enquanto eu apresento?"
+  a_quiet_1: "Fica. Pause pela barra de menus por uma hora ou até amanhã. Enquanto o Keynote, o PowerPoint ou o QuickTime Player estiverem na frente, as batidas esperam; adicione ou remova apps em Ajustes → Avançado. Com um monitor espelhado num projetor ou TV, a batida vira um banner pequeno."
+  a_quiet_2: "O macOS não deixa os apps saberem quando um app de chamada está compartilhando a sua tela, então o Toc Toc não consegue detectar isso — se você compartilha com frequência, coloque o seu app de chamada na lista."
+  q_pro: "O que o Toc Toc Pro acrescenta, e como restauro a compra?"
+  a_pro_1: "O Toc Toc é grátis: a batida chega como um banner no canto. O Toc Toc Pro deixa em tela cheia em todos os monitores, com a contagem, o som e o Entrar no Return. Escolha a assinatura anual, com a primeira semana grátis, ou uma compra única vitalícia."
+  a_pro_2: "Mac novo ou app reinstalado? Ajustes → Pro → Restaurar compras. Assinaturas são gerenciadas e canceladas na sua conta da App Store; reembolsos são com a Apple."
+  q_privacy: "O Toc Toc vê ou guarda as minhas reuniões?"
+  a_privacy: "O Toc Toc lê os seus eventos no seu Mac para saber quando bater, e guarda lá só os seus ajustes. Nada é enviado para lugar nenhum: sem conta, sem servidor, sem analytics. As compras passam pela Apple, e nós nunca vemos dados de pagamento."
+  q_login: "Como faço para abrir ao iniciar a sessão ou esconder o ícone do Dock?"
+  a_login: "Ajustes → Geral → Abrir ao iniciar a sessão, e Esconder o ícone do Dock. O Toc Toc continua na barra de menus nos dois casos; se o macOS pedir aprovação do item de início, ele fica em Ajustes do Sistema → Geral → Itens de Início."
+  contact_title: "Ainda com dúvida?"
+  contact_body: "Escreva para a gente e uma pessoa responde. Dizer o seu Mac, a versão do macOS e o que você esperava que acontecesse faz a resposta útil chegar bem mais rápido."
+  contact_cta: "Escrever para contact@magiclabsolutions.com"
+  privacy: "Política de Privacidade do Toc Toc"
+  terms: "Termos de Uso"

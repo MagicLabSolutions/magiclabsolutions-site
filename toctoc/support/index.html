@@ -1,0 +1,184 @@
+---
+layout: null
+permalink: /toctoc/support/
+lang-ref: toctoc-support
+---
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign s = t.toctoc_support %}
+{% assign prefix = '' %}{% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+    {% include gtag.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.title | default: "Toc Toc Support — Magic Lab Solutions" }}</title>
+    <meta name="description" content="{{ s.description | default: "Help with Toc Toc, the Mac app that knocks on your screen before every meeting: calendars, call links, quiet apps, Toc Toc Pro and privacy." }}">
+    <meta name="theme-color" content="#F26B1D">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <style>
+        :root {
+            --bg: #f5f5f7; --surface: #ffffff; --ink: #1d1d1f; --ink-2: #48484a; --ink-3: #86868b;
+            --line: #d2d2d7; --touch: #F26B1D; --touch-strong: #C24E0C;
+            --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            --rounded: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111113; --surface: #1c1c1e; --ink: #f5f5f7; --ink-2: #d1d1d6; --ink-3: #98989d;
+                --line: #38383a; --touch: #FF8A3D; --touch-strong: #FFA466;
+            }
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { -webkit-text-size-adjust: 100%; }
+        body { font-family: var(--font); background: var(--bg); color: var(--ink); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+        .wrap { width: 100%; max-width: 720px; margin: 0 auto; padding: 0 20px; }
+        a { color: var(--touch-strong); text-underline-offset: 3px; }
+        h1, h2 { line-height: 1.15; letter-spacing: -0.015em; }
+        p + p { margin-top: 12px; }
+
+        .masthead { border-bottom: 1px solid var(--line); background: var(--surface); }
+        .masthead__inner { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; max-width: 720px; margin: 0 auto; padding: 16px 20px; }
+        .masthead__name { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; }
+        .masthead__icon { width: 34px; height: 34px; border-radius: 9px; background: var(--touch); display: grid; place-items: center; }
+        .masthead__tag { color: var(--ink-3); font-size: 15px; }
+        .masthead__back { margin-left: auto; font-size: 15px; text-decoration: none; }
+
+        .head { padding: 48px 0 8px; }
+        .kicker { font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--touch-strong); margin-bottom: 8px; }
+        .head h1 { font-family: var(--rounded); font-size: clamp(34px, 6vw, 46px); margin-bottom: 12px; }
+        .head .lede { font-size: 19px; color: var(--ink-2); }
+
+        .about { margin-top: 32px; padding: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+        .about h2 { font-size: 22px; margin-bottom: 10px; }
+        .about p { color: var(--ink-2); }
+        .about ul { list-style: none; margin-top: 14px; }
+        .about li { padding: 9px 0; border-top: 1px solid var(--line); color: var(--ink-2); font-size: 16px; }
+        .about li strong { color: var(--ink); }
+
+        .faq { padding: 40px 0 8px; }
+        .faq h2 { font-size: 22px; margin-bottom: 8px; }
+        details { border-bottom: 1px solid var(--line); }
+        summary { list-style: none; cursor: pointer; padding: 16px 30px 16px 0; position: relative; font-weight: 600; font-size: 18px; line-height: 1.3; }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: '+'; position: absolute; right: 2px; top: 13px; color: var(--touch-strong); font-size: 22px; font-weight: 400; }
+        details[open] summary::after { content: '–'; }
+        details > p, details > ul { color: var(--ink-2); font-size: 16px; }
+        details > p:last-child, details > ul:last-child { padding-bottom: 18px; }
+        details > ul { padding-left: 20px; margin-top: 8px; }
+        details > ul li { margin-bottom: 5px; }
+
+        .contact { margin: 40px 0 10px; padding: 26px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+        .contact h2 { font-size: 22px; margin-bottom: 8px; }
+        .contact p { color: var(--ink-2); font-size: 16px; }
+        .contact__cta { display: inline-block; margin-top: 16px; padding: 10px 22px; border-radius: 12px; background: var(--touch); color: #fff; text-decoration: none; font-weight: 600; }
+        .contact__cta:hover { background: var(--touch-strong); color: #fff; }
+
+        .foot { padding: 28px 0 48px; font-size: 14px; color: var(--ink-3); }
+        .foot__inner { display: flex; flex-wrap: wrap; gap: 10px 20px; max-width: 720px; margin: 0 auto; padding: 0 20px; }
+        .foot a { color: var(--ink-3); text-decoration: none; }
+        .foot a:hover { color: var(--ink); text-decoration: underline; }
+        .foot__spacer { margin-left: auto; }
+        @media (max-width: 560px) { .foot__spacer { margin-left: 0; flex-basis: 100%; } .masthead__back { margin-left: 0; } }
+    </style>
+</head>
+<body>
+
+<header class="masthead">
+    <div class="masthead__inner">
+        <a class="masthead__name" href="{{ prefix }}/toctoc/support/">
+            <span class="masthead__icon" aria-hidden="true">
+                <svg width="18" height="20" viewBox="0 0 18 20" fill="none"><rect x="3" y="1" width="12" height="18" rx="2.5" fill="#fff"/><circle cx="12" cy="10.5" r="1.3" fill="#F26B1D"/></svg>
+            </span>Toc Toc
+        </a>
+        <span class="masthead__tag">{{ s.masthead | default: "Knocks before every meeting." }}</span>
+        <a class="masthead__back" href="{{ prefix }}/apps/">{{ s.back | default: "← More apps" }}</a>
+    </div>
+</header>
+
+<main class="wrap">
+    <div class="head">
+        <p class="kicker">{{ s.kicker | default: "Support" }}</p>
+        <h1>{{ s.heading | default: "Toc Toc Support" }}</h1>
+        <p class="lede">{{ s.subheading | default: "The questions people ask most — and a real person at the end of an email." }}</p>
+    </div>
+
+    <section class="about">
+        <h2>{{ s.about_heading | default: "What Toc Toc is" }}</h2>
+        <p>{{ s.about_1 | default: "Toc Toc is a Mac app that knocks on your screen right before a meeting starts. One minute before, it takes over every display with a friendly double knock, a big countdown and a Join button, so a meeting never slips past while you are deep in work." }}</p>
+        <ul>
+            <li><strong>{{ s.about_item_1_title | default: "Join in one key" }}</strong> — {{ s.about_item_1 | default: "Return opens the call: Zoom, Google Meet, Microsoft Teams, Webex, FaceTime and more." }}</li>
+            <li><strong>{{ s.about_item_2_title | default: "A heads-up first" }}</strong> — {{ s.about_item_2 | default: "a quiet banner ten minutes before, and your next meeting in the menu bar." }}</li>
+            <li><strong>{{ s.about_item_3_title | default: "Respects your focus" }}</strong> — {{ s.about_item_3 | default: "pause for an hour or until tomorrow; it waits while you present." }}</li>
+            <li><strong>{{ s.about_item_4_title | default: "Private by design" }}</strong> — {{ s.about_item_4 | default: "no account, no servers, no tracking. Your meetings never leave your Mac." }}</li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <p class="kicker">{{ s.faq_kicker | default: "Answers" }}</p>
+        <h2>{{ s.faq_heading | default: "Common questions" }}</h2>
+
+        <details>
+            <summary>{{ s.q_silent | default: "Toc Toc did not knock. What should I check?" }}</summary>
+            <ul>
+                <li>{{ s.a_silent_1 | default: "Calendar access: System Settings → Privacy & Security → Calendars → Toc Toc must be on (full access)." }}</li>
+                <li>{{ s.a_silent_2 | default: "The calendar is switched on in Toc Toc → Settings → Calendars." }}</li>
+                <li>{{ s.a_silent_3 | default: "The event is not all-day, cancelled or declined — those never knock." }}</li>
+                <li>{{ s.a_silent_4 | default: "Toc Toc is not paused (the menu bar says so) and no quiet app, such as Keynote, was in front." }}</li>
+                <li>{{ s.a_silent_5 | default: "On the free plan the knock comes as a banner in the top right corner; Toc Toc Pro makes it full screen." }}</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>{{ s.q_calendars | default: "Which calendars does it work with?" }}</summary>
+            <p>{{ s.a_calendars | default: "Every calendar your Mac's Calendar app shows: iCloud, Google, Microsoft Exchange, Outlook, subscribed calendars. To add an account, open System Settings → Internet Accounts. Toc Toc only reads events; it never creates or changes them." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_links | default: "Which call links does Join understand?" }}</summary>
+            <p>{{ s.a_links_1 | default: "Zoom, Google Meet, Microsoft Teams, Webex, Whereby, FaceTime, Jitsi, Around, Discord, Slack huddles, BlueJeans, GoTo Meeting and Skype, plus any other video link in the event's URL or location. Links wrapped by Outlook safe links, Google redirects or Proofpoint are unwrapped first." }}</p>
+            <p>{{ s.a_links_2 | default: "Settings → General → Join opens lets you choose the meeting's own app (Zoom and Teams open directly when installed) or your browser." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_quiet | default: "Can it stay out of the way while I present?" }}</summary>
+            <p>{{ s.a_quiet_1 | default: "Yes. Pause from the menu bar for an hour or until tomorrow. While Keynote, PowerPoint or QuickTime Player is in front, knocks wait; add or remove apps in Settings → Advanced. When a display is mirrored to a projector or TV, the knock becomes a small banner." }}</p>
+            <p>{{ s.a_quiet_2 | default: "macOS does not let apps know when a call app is sharing your screen, so Toc Toc cannot detect that — add your call app to the quiet list if you share often." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_pro | default: "What does Toc Toc Pro add, and how do I restore it?" }}</summary>
+            <p>{{ s.a_pro_1 | default: "Toc Toc is free: the knock arrives as a banner in the corner. Toc Toc Pro makes it full screen on every display, with the countdown, the sound and Join on Return. Choose a yearly subscription, with the first week free, or a single lifetime purchase." }}</p>
+            <p>{{ s.a_pro_2 | default: "New Mac, or reinstalled? Settings → Pro → Restore purchases. Subscriptions are managed and cancelled in your App Store account; refunds are handled by Apple." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_privacy | default: "Does Toc Toc see or keep my meetings?" }}</summary>
+            <p>{{ s.a_privacy | default: "Toc Toc reads your events on your Mac to know when to knock, and keeps only your settings there. Nothing is sent anywhere: no account, no servers, no analytics. Purchases go through Apple, and we never see payment details." }}</p>
+        </details>
+
+        <details>
+            <summary>{{ s.q_login | default: "How do I start it at login or hide the Dock icon?" }}</summary>
+            <p>{{ s.a_login | default: "Settings → General → Start at login, and Hide the Dock icon. Toc Toc stays in the menu bar either way; if macOS asks you to approve the login item, you will find it in System Settings → General → Login Items." }}</p>
+        </details>
+    </section>
+
+    <section class="contact">
+        <h2>{{ s.contact_title | default: "Still stuck?" }}</h2>
+        <p>{{ s.contact_body | default: "Write to us and a person answers. Telling us your Mac, your macOS version and what you expected to happen gets you a useful reply faster." }}</p>
+        <a class="contact__cta" href="mailto:contact@magiclabsolutions.com?subject=Toc%20Toc">{{ s.contact_cta | default: "Email contact@magiclabsolutions.com" }}</a>
+    </section>
+</main>
+
+<footer class="foot">
+    <div class="foot__inner">
+        <span>&copy; {{ site.time | date: "%Y" }} Magic Lab Solutions</span>
+        <span class="foot__spacer"></span>
+        <a href="{{ prefix }}/toctoc/privacy-policy/">{{ s.privacy | default: "Toc Toc Privacy Policy" }}</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">{{ s.terms | default: "Terms of Use" }}</a>
+        <a href="{{ prefix }}/apps/">{{ t.nav.apps | default: "Apps" }}</a>
+    </div>
+</footer>
+
+</body>
+</html>
