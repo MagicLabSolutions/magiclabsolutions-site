@@ -1,0 +1,99 @@
+/* Toc Toc's page: the night blue of its dark icon and store screenshots, touch orange for the
+   one thing that matters (as in the app: the countdown and Join), the system's own type. */
+:root {
+  --night: #101528;
+  --night-2: #171d36;
+  --ink: #f3f4fa;
+  --ink-2: #b9bdd3;
+  --touch: #ff8a3d;
+  --touch-deep: #f26b1d;
+  --line: rgba(255, 255, 255, 0.1);
+  --radius: 22px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: radial-gradient(1200px 700px at 85% -10%, rgba(58, 70, 160, 0.45), transparent 60%),
+              radial-gradient(900px 600px at 10% 105%, rgba(242, 107, 29, 0.18), transparent 60%),
+              var(--night);
+  color: var(--ink);
+  font: 18px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--touch); }
+.wrap { width: min(1120px, 100% - 40px); margin-inline: auto; }
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 16px; top: 16px; background: var(--ink); color: var(--night); padding: 8px 12px; border-radius: 8px; z-index: 10; }
+
+.site-header { display: flex; justify-content: space-between; align-items: center; padding: 22px 0; }
+.studio { color: var(--ink-2); text-decoration: none; font-size: 15px; }
+.studio:hover { color: var(--ink); }
+.languages { position: relative; font-size: 15px; }
+.languages summary { cursor: pointer; list-style: none; color: var(--ink-2); padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; }
+.languages summary::-webkit-details-marker { display: none; }
+.languages nav { position: absolute; right: 0; top: calc(100% + 8px); background: var(--night-2); border: 1px solid var(--line); border-radius: 14px; padding: 8px; display: grid; min-width: 180px; z-index: 5; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); }
+.languages nav a { color: var(--ink); text-decoration: none; padding: 8px 12px; border-radius: 8px; }
+.languages nav a:hover, .languages nav a[aria-current] { background: rgba(255, 255, 255, 0.08); }
+
+.hero { text-align: center; padding: 56px 0 72px; }
+.hero .icon { width: 160px; height: 160px; margin: 0 auto 18px; filter: drop-shadow(0 18px 36px rgba(242, 107, 29, 0.35)); }
+.kicker { color: var(--touch); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; font-size: 14px; margin: 0 0 8px; }
+.hero h1 { font-size: clamp(56px, 9vw, 96px); line-height: 1; margin: 0; letter-spacing: -0.03em; }
+.headline { font-size: clamp(24px, 3.4vw, 34px); font-weight: 600; margin: 14px 0 12px; }
+.intro { color: var(--ink-2); max-width: 720px; margin: 0 auto; font-size: 19px; }
+.actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 28px 0 14px; }
+.soon, .button { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 999px; font-weight: 600; font-size: 16px; text-decoration: none; }
+.soon { background: linear-gradient(180deg, var(--touch), var(--touch-deep)); color: #fff; }
+.button { color: var(--ink); border: 1px solid var(--line); background: rgba(255, 255, 255, 0.04); }
+.button:hover { background: rgba(255, 255, 255, 0.09); }
+.platform { color: var(--ink-2); font-size: 15px; margin: 0; }
+
+.eyebrow { color: var(--touch); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; font-size: 14px; margin: 0 0 8px; }
+h2 { font-size: clamp(32px, 4.6vw, 52px); line-height: 1.08; letter-spacing: -0.02em; margin: 0 0 14px; }
+.lede { color: var(--ink-2); font-size: 20px; max-width: 760px; margin: 0 0 32px; }
+
+.mac { padding: 48px 0 72px; text-align: center; }
+.mac .lede { margin-inline: auto; }
+.screen { margin: 0 auto; border-radius: var(--radius); overflow: hidden; box-shadow: 0 40px 90px rgba(0, 0, 0, 0.55), 0 0 0 1px var(--line); }
+.screen-small { max-width: 860px; margin-top: 36px; }
+.points { list-style: none; padding: 0; margin: 36px auto 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 14px; max-width: 900px; }
+.points li { padding: 10px 16px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255, 255, 255, 0.04); font-size: 16px; }
+
+.iphone { padding: 80px 0; background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.03) 30%, transparent); }
+.iphone-body { display: grid; grid-template-columns: 1fr 1.1fr; gap: 48px; align-items: center; }
+.phones { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.phones img { border-radius: 13% / 6%; box-shadow: 0 30px 70px rgba(0, 0, 0, 0.55), 0 0 0 1px var(--line); }
+.phones img:last-child { transform: translateY(36px); }
+
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 72px 0 40px; }
+.features article { background: rgba(255, 255, 255, 0.04); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+.features h3 { margin: 0 0 8px; font-size: 20px; }
+.features p { margin: 0; color: var(--ink-2); font-size: 16px; }
+
+.pro { text-align: center; padding: 56px 0 88px; }
+.pro .lede { margin-inline: auto; }
+
+footer { border-top: 1px solid var(--line); padding: 28px 0 40px; display: flex; flex-wrap: wrap; gap: 12px 28px; align-items: center; justify-content: space-between; color: var(--ink-2); font-size: 15px; }
+footer p { margin: 0; }
+footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+footer a { color: var(--ink-2); text-decoration: none; }
+footer a:hover { color: var(--ink); }
+
+@media (max-width: 860px) {
+  .iphone-body { grid-template-columns: 1fr; }
+  .features { grid-template-columns: 1fr; }
+  .phones img:last-child { transform: none; }
+  body { font-size: 17px; }
+  .lede, .intro { font-size: 18px; }
+}
+/* Japanese and Korean may break between any two characters, which splits words on a phone
+   ("消音モードでも鳴るア / ラーム"). Korean breaks at its spaces instead, and Japanese headings
+   at their 、 and 。 (each title has one where the line may turn). Chrome's auto-phrase was left
+   out on purpose: Safari lacks it, and one rule breaks the lines the same way in both.
+   overflow-wrap stays the safety net for a line that still cannot fit. */
+:lang(ko), :lang(ja) :is(.headline, h2, h3) { word-break: keep-all; overflow-wrap: break-word; }
+@media (max-width: 480px) { :lang(ja) h2 { font-size: 28px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

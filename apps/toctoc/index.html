@@ -1,0 +1,123 @@
+---
+layout: null
+permalink: /apps/toctoc/
+lang-ref: toctoc-page
+# The languages with screenshots in images/toctoc/<lang>/. Listed rather than looked up in
+# site.static_files: images/ is excluded from localization, so polyglot's builds of the other
+# languages do not see those files and the lookup always fell back to English.
+mac_langs: [en, de, es, fr, pt-BR, ja, ko, zh-Hans]
+phone_langs: [en, de, es, fr, pt-BR, ja, ko, zh-Hans]
+---
+{% assign copy = site.data.toctoc_page[site.active_lang] | default: site.data.toctoc_page.en %}
+{% assign prefix = '' %}
+{% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
+{% assign legal_prefix = '' %}
+{% if site.active_lang == 'pt-BR' or site.active_lang == 'es' %}{% assign legal_prefix = site.active_lang | prepend: '/' %}{% endif %}
+{% comment %} Screenshots in the page's language when they exist, English otherwise. {% endcomment %}
+{% if page.mac_langs contains site.active_lang %}{% assign mac_lang = site.active_lang %}{% else %}{% assign mac_lang = 'en' %}{% endif %}
+{% if page.phone_langs contains site.active_lang %}{% assign phone_lang = site.active_lang %}{% else %}{% assign phone_lang = 'en' %}{% endif %}
+<!doctype html>
+<html lang="{{ site.active_lang }}">
+<head>
+  {% include gtag.html %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toc Toc — {{ copy.headline }} · Magic Lab Solutions</title>
+  <meta name="description" content="{{ copy.description | escape }}">
+  <meta name="theme-color" content="#101528">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Toc Toc — {{ copy.headline | escape }}">
+  <meta property="og:description" content="{{ copy.description | escape }}">
+  <meta property="og:image" content="https://magiclabsolutions.com/images/toctoc/{{ mac_lang }}/mac-knock.jpg">
+  <meta property="og:url" content="https://magiclabsolutions.com{{ prefix }}/apps/toctoc/">
+  <link rel="canonical" {% static_href %}href="https://magiclabsolutions.com{{ prefix }}/apps/toctoc/"{% endstatic_href %}>
+  {% for lang in site.languages %}
+  {% assign lang_prefix = '' %}{% if lang != site.default_lang %}{% assign lang_prefix = lang | prepend: '/' %}{% endif %}
+  <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="https://magiclabsolutions.com{{ lang_prefix }}/apps/toctoc/"{% endstatic_href %}>
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" {% static_href %}href="https://magiclabsolutions.com/apps/toctoc/"{% endstatic_href %}>
+  <link rel="icon" href="/images/toctoc/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="/css/toctoc.css">
+</head>
+<body>
+  <a class="skip" href="#main">{{ copy.skip }}</a>
+  <header class="site-header wrap">
+    <a class="studio" href="{{ prefix }}/apps/"><span aria-hidden="true">←</span> Magic Lab Solutions</a>
+    <details class="languages">
+      <summary>{{ site.data.language_names[site.active_lang] }} <span aria-hidden="true">⌄</span></summary>
+      <nav aria-label="{{ copy.languages }}">
+        {% for lang in site.languages %}
+        {% assign lang_prefix = '' %}{% if lang != site.default_lang %}{% assign lang_prefix = lang | prepend: '/' %}{% endif %}
+        <a lang="{{ lang }}" hreflang="{{ lang }}" {% if lang == site.active_lang %}aria-current="page"{% endif %} {% static_href %}href="https://magiclabsolutions.com{{ lang_prefix }}/apps/toctoc/"{% endstatic_href %}>{{ site.data.language_names[lang] }}</a>
+        {% endfor %}
+      </nav>
+    </details>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="title">
+      <img class="icon" src="/images/toctoc/app-icon.png" width="160" height="160" alt="{{ copy.icon_alt | escape }}">
+      <p class="kicker">{{ copy.kicker }}</p>
+      <h1 id="title">Toc Toc</h1>
+      <p class="headline">{{ copy.headline }}</p>
+      <p class="intro">{{ copy.intro }}</p>
+      <div class="actions">
+        <span class="soon">{{ copy.soon }}</span>
+        <a class="button" href="#mac">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
+      </div>
+      <p class="platform">{{ copy.platform }}</p>
+    </section>
+
+    <section id="mac" class="mac wrap" aria-labelledby="mac-title">
+      <p class="eyebrow">{{ copy.mac.eyebrow }}</p>
+      <h2 id="mac-title">{{ copy.mac.title }}</h2>
+      <p class="lede">{{ copy.mac.text }}</p>
+      <figure class="screen"><img src="/images/toctoc/{{ mac_lang }}/mac-knock.jpg" width="1600" height="1000" fetchpriority="high" alt="{{ copy.mac.knock_alt | escape }}"></figure>
+      <ul class="points">
+        {% for point in copy.mac.points %}<li>{{ point }}</li>{% endfor %}
+      </ul>
+      <figure class="screen screen-small"><img src="/images/toctoc/{{ mac_lang }}/mac-menubar.jpg" width="1600" height="1000" loading="lazy" alt="{{ copy.mac.menubar_alt | escape }}"></figure>
+    </section>
+
+    <section id="iphone" class="iphone" aria-labelledby="iphone-title">
+      <div class="wrap iphone-body">
+        <div class="iphone-copy">
+          <p class="eyebrow">{{ copy.iphone.eyebrow }}</p>
+          <h2 id="iphone-title">{{ copy.iphone.title }}</h2>
+          <p class="lede">{{ copy.iphone.text }}</p>
+        </div>
+        <div class="phones">
+          <img src="/images/toctoc/{{ phone_lang }}/iphone-alarm.jpg" width="660" height="1434" loading="lazy" alt="{{ copy.iphone.alarm_alt | escape }}">
+          <img src="/images/toctoc/{{ phone_lang }}/iphone-today.jpg" width="660" height="1434" loading="lazy" alt="{{ copy.iphone.today_alt | escape }}">
+        </div>
+      </div>
+    </section>
+
+    <section class="features wrap" aria-label="{{ copy.features_label | escape }}">
+      {% for feature in copy.features %}
+      <article>
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.text }}</p>
+      </article>
+      {% endfor %}
+    </section>
+
+    <section class="pro wrap" aria-labelledby="pro-title">
+      <p class="eyebrow">{{ copy.pro.eyebrow }}</p>
+      <h2 id="pro-title">{{ copy.pro.title }}</h2>
+      <p class="lede">{{ copy.pro.text }}</p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p><strong>Toc Toc</strong> · {{ copy.soon }}</p>
+    <nav aria-label="{{ copy.footer_label | escape }}">
+      <a {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/toctoc/support/"{% endstatic_href %}>{{ copy.support }}</a>
+      <a href="mailto:contact@magiclabsolutions.com?subject=Toc%20Toc">{{ copy.contact }}</a>
+      <a {% static_href %}href="https://magiclabsolutions.com{{ legal_prefix }}/toctoc/privacy-policy/"{% endstatic_href %}>{{ copy.privacy }}</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">{{ copy.terms }}</a>
+    </nav>
+    <small>© {{ site.time | date: '%Y' }} Magic Lab Solutions</small>
+  </footer>
+</body>
+</html>

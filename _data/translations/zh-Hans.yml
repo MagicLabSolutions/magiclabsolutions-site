@@ -29,6 +29,10 @@ app_card:
   game: 游戏
   learn_more: 了解更多
 projects:
+  project-toctoc:
+    title: Toc Toc
+    subtitle: 每场会议前都来敲门
+    description: 每场会议开始前一分钟，Toc Toc 就会来敲门：在 Mac 上全屏显示倒计时和“加入”按钮，在 iPhone 上以闹钟响起，静音模式下也不例外。无需账户，数据不会离开你的设备。即将登陆 Mac 和 iPhone。
   project-giftly:
     title: Giftly
     subtitle: 再也不会忘记生日

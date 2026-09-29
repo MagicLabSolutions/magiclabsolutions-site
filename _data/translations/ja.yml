@@ -29,6 +29,10 @@ app_card:
   game: ゲーム
   learn_more: 詳しく見る
 projects:
+  project-toctoc:
+    title: Toc Toc
+    subtitle: 会議の前に、ノックでお知らせ
+    description: 会議の1分前、Toc Tocがノックします。Macでは画面いっぱいにカウントダウンと「参加」ボタンを表示し、iPhoneでは消音モードのときでもアラームが鳴ります。アカウント不要で、データがデバイスの外に出ることはありません。Mac・iPhone向けに近日公開。
   project-giftly:
     title: Giftly
     subtitle: 誕生日をもう忘れない
