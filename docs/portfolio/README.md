@@ -54,6 +54,8 @@ was changed for testing. Why Me? remains in development and has no fabricated ap
 
 ## Remaining evidence
 
+- Memories icon correction (2026-09-30): the public App Store 1.1.0 icon (teal lens with a heart) supersedes the orange film icon still in the source repository. The catalog now uses the store asset with a content-versioned filename; source and hash are in asset-provenance.json.
+
 - Poof: its existing store ID 6816976275 returns no public BR/US listing and the public URL returned 404. The page offers a preview without a download promise. This does not prove that it has never launched in another channel.
 - Why Me?: rechecked after the repository was populated. README, product brief, design tokens and implementation checklist establish a bar-table / who-pays game for iPhone and iPad, still in development. The site now uses the native Tampinha placeholder icon, descriptive copy and a labeled browser-only draw. No native app screenshots exist in the repository yet. Active app changes were preserved.
 - Soooon and Hortulus: no screenshots were present. Native app capture was blocked because the Mac session was locked.

@@ -79,7 +79,7 @@
     "repository_revision": "5c391a13a3f2885f60f13633391cc2aa7d6f5f16"
   },
   "memories": {
-    "icon_source": "Memories/Memories/Assets.xcassets/AppIcon.appiconset/Gemini_Generated_Image_idle2iidle2iidle.jpg",
+    "icon_source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/b0/a7/edb0a7c7-65c7-f9df-54d7-c46826eabce3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
     "generated": false,
     "screenshots": [
       {
@@ -98,8 +98,11 @@
         "kind": "app-capture"
       }
     ],
-    "source_sha256": "ee597ce05d5575db1c6691498b6792c047f61cd88e00bbbba863a743e2f4a31d",
-    "repository_revision": "76729fc56bcdd3cb9236479b228163940874eff4"
+    "source_sha256": "0c42daadf8fa55c3bead9410d8f4aae4967f5268aed540d9d496cd082491fb21",
+    "icon_output": "/images/portfolio/memories/icon-0c42daadf8.webp",
+    "checked_at": "2026-09-30",
+    "store_version": "1.1.0",
+    "note": "The public App Store icon supersedes the orange icon still selected in the current source repository. Asset filename includes its source hash to invalidate browser/CDN caches."
   },
   "casecraft": {
     "icon_source": "Casecraft/App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
