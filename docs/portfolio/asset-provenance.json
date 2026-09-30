@@ -281,7 +281,17 @@
       }
     ],
     "source_sha256": "3bb754fce8604b7ba0fe16cd55c1b3b9b8f5ae84c4e4374eb46029053d27583d",
-    "repository_revision": "6e0ac2db32b795a1889fa8f11ac3f9c9331b9c5a"
+    "repository_revision": "6e0ac2db32b795a1889fa8f11ac3f9c9331b9c5a",
+    "share_page_icons": {
+      "page": "/giftly/share/",
+      "derived_from": "icon_source",
+      "outputs": [
+        "/images/giftly/apple-touch-icon.png",
+        "/images/giftly/favicon-64.png",
+        "/images/giftly/share-icon-512.png"
+      ],
+      "note": "Link previews of shared Giftly lists (Messages, WhatsApp, Mail); resized with sips, favicon clipped to the rounded-rect shape"
+    }
   },
   "kinfold": {
     "icon_source": "FamilyKit/FamilyVault/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
