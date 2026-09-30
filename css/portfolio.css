@@ -60,3 +60,15 @@
 /* Keep decorative orbits inside their column; galleries scroll in their own rail. */
 .p-hero-visual{overflow:clip}
 .p-demo-section,.p-inside{scroll-margin-top:100px}
+
+/* Why Me: a website illustration, independent of the native app UI. */
+.p-demo[data-demo=table]{--p-accent:#f5a524;background:#1c1916}
+.p-demo[data-demo=table] .p-demo-stage{background:radial-gradient(ellipse,#6b482a30,transparent 70%)}
+.p-friends-table{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:38px 65px;padding:20px 0;max-width:100%}
+.p-coaster{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:108px;height:108px;border:5px double #c4a47b;border-radius:50%;background:#e9d4ad;color:#3e3024;transform:rotate(-8deg);transition:transform .35s,box-shadow .35s}
+.p-coaster:nth-child(even){transform:rotate(9deg)}.p-coaster strong{font-size:14px}.p-coaster-face{font-size:38px;line-height:1}
+.p-table-bell{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#f5a524;font-size:28px}
+.p-coaster.is-picked{outline:3px solid #f5a524;outline-offset:6px;transform:rotate(0) scale(1.08);box-shadow:0 0 40px #f5a52430}
+.is-drawing .p-coaster{animation:p-coaster-light .3s 3 alternate}.is-drawing .p-coaster:nth-child(even){animation-delay:.1s}
+@keyframes p-coaster-light{to{box-shadow:0 0 25px #f5a52455;transform:translateY(-5px)}}
+@media(max-width:420px){.p-friends-table{gap:35px 45px}.p-coaster{width:92px;height:92px}}

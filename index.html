@@ -9,6 +9,7 @@ lang-ref: home
 {% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
 {% assign shots = site.data.tumtum_screenshots[site.active_lang] | default: site.data.tumtum_screenshots.en %}
 <section class="lab-hero lab-wrap" aria-labelledby="hero-title">
+  <svg class="magic-trail" viewBox="0 0 1440 900" fill="none" aria-hidden="true"><path class="trail-soft" d="M-180 660C180 150 480 940 920 460S1580 50 1480 770"/><path class="trail-main" pathLength="1" d="M-180 675C180 165 480 955 920 475S1580 65 1480 785"/><path class="trail-fine" d="M-180 695C180 185 480 975 920 495S1580 85 1480 805"/></svg>
   <div class="hero-copy">
     <p class="lab-kicker"><span class="status-dot"></span> {{ h.eyebrow }}</p>
     <h1 id="hero-title">{{ h.title_first }}<br><span>{{ h.title_second }}</span></h1>
@@ -17,15 +18,15 @@ lang-ref: home
     <div class="hero-signature"><span aria-hidden="true">✳</span><p>{{ h.signature }}<br><span>{{ h.signature_sub }}</span></p></div>
   </div>
   <div class="hero-lab" id="hero-lab" data-product="toctoc">
-    <div class="lab-orbit orbit-one" aria-hidden="true"></div><div class="lab-orbit orbit-two" aria-hidden="true"></div>
+    <span class="hero-spark spark-one" aria-hidden="true">✳</span><span class="hero-spark spark-two" aria-hidden="true">✦</span>
     <div class="hero-stage">
       <div class="stage-label"><span><span class="status-dot"></span> {{ h.spotlight }}</span><span data-stage-number>01 / 04</span></div>
       <div class="stage-panel" id="preview-toctoc" role="tabpanel" aria-labelledby="tab-toctoc">
-        <div class="hero-monitor"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Toc Toc</span><span>10:00</span></div><img src="{{ '/images/toctoc/' | append: site.active_lang | append: '/mac-knock.jpg' | relative_url }}" alt="{{ t.projects.project-toctoc.subtitle }}" width="1600" height="1000" fetchpriority="high"></div>
+        <div class="hero-monitor"><img src="{{ '/images/toctoc/' | append: site.active_lang | append: '/mac-knock.jpg' | relative_url }}" alt="{{ t.projects.project-toctoc.subtitle }}" width="1600" height="1000" fetchpriority="high"></div>
         <div class="stage-caption"><img src="{{ '/images/home/toctoc.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Toc Toc</strong><p>{{ t.projects.project-toctoc.subtitle }}</p></div><a href="{{ '/apps/toctoc/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Toc Toc">↗</a></div><span class="stage-tag">{{ h.soon }} · Mac + iPhone</span>
       </div>
       <div class="stage-panel" id="preview-pauta" role="tabpanel" aria-labelledby="tab-pauta" hidden>
-        <div class="hero-monitor"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Pauta</span><span>iPad</span></div><img src="{{ '/images/portfolio/pauta/screen-2.webp' | relative_url }}" width="1440" height="1080" loading="lazy" alt="Pauta — {{ t.projects.project-pauta.subtitle }}"></div>
+        <div class="hero-monitor"><img src="{{ '/images/portfolio/pauta/screen-2.webp' | relative_url }}" width="1440" height="1080" loading="lazy" alt="Pauta — {{ t.projects.project-pauta.subtitle }}"></div>
         <div class="stage-caption"><img src="{{ '/images/home/pauta.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Pauta</strong><p>{{ t.projects.project-pauta.subtitle }}</p></div><a href="{{ '/apps/pauta/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Pauta">↗</a></div><span class="stage-tag">{{ h.soon }} · iPhone, iPad + Mac</span>
       </div>
       <div class="stage-panel" id="preview-sundust" role="tabpanel" aria-labelledby="tab-sundust" hidden>
@@ -33,7 +34,7 @@ lang-ref: home
         <div class="stage-caption"><img src="{{ '/images/home/sundust.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Sundust</strong><p>{{ t.projects.project-sundust.subtitle }}</p></div><a href="{{ '/apps/sundust/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Sundust">↗</a></div><span class="stage-tag">iPhone, iPad, Mac + Apple TV</span>
       </div>
       <div class="stage-panel" id="preview-poof" role="tabpanel" aria-labelledby="tab-poof" hidden>
-        <div class="hero-monitor"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Poof</span><span>Mac</span></div><img src="{{ '/images/poof/hero.jpg' | relative_url }}" width="1600" height="1000" loading="lazy" alt="Poof — {{ h.poof }}"></div>
+        <div class="hero-monitor"><img src="{{ '/images/poof/hero.jpg' | relative_url }}" width="1600" height="1000" loading="lazy" alt="Poof — {{ h.poof }}"></div>
         <div class="stage-caption"><img src="{{ '/images/home/poof.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Poof</strong><p>{{ h.poof }}</p></div><a href="{{ '/apps/poof/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Poof">↗</a></div><span class="stage-tag">Mac</span>
       </div>
     </div>
@@ -46,6 +47,26 @@ lang-ref: home
   </div>
 </section>
 <div class="lab-ribbon"><div class="lab-wrap"><span>{{ h.ribbon_one }}</span><span aria-hidden="true">✳</span><span>{{ h.ribbon_two }}</span><span aria-hidden="true">✳</span><span>{{ h.ribbon_three }}</span></div></div>
+
+<section class="lab-story lab-wrap" id="discover" aria-labelledby="story-title">
+  <div class="story-heading" data-reveal><p class="lab-kicker">{{ h.spotlight }}</p><h2 id="story-title">{{ h.story_first }}<br><span>{{ h.story_second }}</span></h2><p>{{ h.story_intro }}</p></div>
+  {% assign story_slugs = 'poof,zuzu,tumtum' | split: ',' %}
+  <div class="story-layout">
+    <div class="story-visual" aria-hidden="true">
+      <svg class="story-trail" viewBox="0 0 600 700" fill="none"><path pathLength="1" d="M-90 600C300 810 660 380 350 100S-200 460 650 540"/></svg>
+      {% for slug in story_slugs %}{% assign app = site.data.portfolio | where: 'slug', slug | first %}<div class="story-frame{% if forloop.first %} is-current{% endif %}" data-story-frame="{{ forloop.index0 }}" style="--scene-color:{{ app.color }}"><img class="story-screen" src="{{ app.screenshots[0].output | relative_url }}" loading="lazy" alt=""><img class="story-icon" src="{{ app.icon | relative_url }}" width="100" height="100" loading="lazy" alt=""><span class="story-watermark">{{ app.name }}</span></div>{% endfor %}
+      <div class="story-indicator">01 <span></span> 03</div>
+    </div>
+    <div class="story-chapters">
+      {% assign ui = site.data.portfolio_ui[site.active_lang] | default: site.data.portfolio_ui.en %}
+      {% for slug in story_slugs %}{% assign app = site.data.portfolio | where: 'slug', slug | first %}{% assign info = app.copy[site.active_lang] | default: app.copy.en %}
+      <article class="story-chapter" data-story-chapter="{{ forloop.index0 }}" style="--scene-color:{{ app.color }}">
+        <p class="lab-kicker">0{{ forloop.index }} / {{ app.name }}</p><h3>{{ info.headline }}</h3><p class="story-description">{{ info.description }}</p><span class="story-status">{{ ui.status[app.status] }} · {{ app.platform }}</span><a class="lab-text-link" href="{{ '/apps/' | append: app.slug | append: '/' | relative_url }}">{{ t.app_card.learn_more }} — {{ app.name }} <span aria-hidden="true">↗</span></a>
+        <img class="story-mobile-screen" src="{{ app.screenshots[0].output | relative_url }}" loading="lazy" alt="{{ app.name }} — {{ app.screenshots[0].alt[site.active_lang] | default: app.screenshots[0].alt.en | escape }}">
+      </article>{% endfor %}
+    </div>
+  </div>
+</section>
 <section class="lab-play lab-wrap" id="play" aria-labelledby="play-title">
   <div class="section-heading" data-reveal><div><p class="lab-kicker">01 / {{ h.try }}</p><h2 id="play-title">{{ h.play_title }}</h2></div><p>{{ h.play_intro }}</p></div>
   <div class="demo-layout" data-reveal>
@@ -69,7 +90,7 @@ lang-ref: home
     {% assign catalog = site.data.portfolio | sort: 'name' %}
     {% assign ui = site.data.portfolio_ui[site.active_lang] | default: site.data.portfolio_ui.en %}
     {% for app in catalog %}{% assign info = app.copy[site.active_lang] | default: app.copy.en %}
-    <a class="product-card" href="{{ '/apps/' | append: app.slug | append: '/' | relative_url }}" data-category="{{ app.category }}" data-status="{{ app.status }}" data-soon="{% if app.status == 'development' or app.status == 'beta' or app.status == 'concept' %}true{% else %}false{% endif %}" data-search="{{ app.name | append: ' ' | append: info.description | escape }}" style="--product-color:{{ app.color }}"><div class="product-card-top"><img src="{{ app.icon | relative_url }}" width="64" height="64" loading="lazy" alt=""><span class="product-arrow" aria-hidden="true">↗</span></div><span class="product-category">{{ ui.status[app.status] }} · {% if app.category == 'games' %}{{ t.nav.games }}{% else %}{{ t.nav.apps }}{% endif %}</span><h3>{{ app.name }}</h3><p>{{ info.headline }}</p></a>
+    <a class="product-card" href="{{ '/apps/' | append: app.slug | append: '/' | relative_url }}" data-category="{{ app.category }}" data-status="{{ app.status }}" data-soon="{% if app.status == 'development' or app.status == 'beta' or app.status == 'concept' %}true{% else %}false{% endif %}" data-search="{{ app.name | append: ' ' | append: info.description | escape }}" style="--product-color:{{ app.color }}"><img class="catalog-icon" src="{{ app.icon | relative_url }}" width="72" height="72" loading="lazy" alt=""><div class="product-card-copy"><span class="product-category">{{ ui.status[app.status] }} · {% if app.category == 'games' %}{{ t.nav.games }}{% else %}{{ t.nav.apps }}{% endif %}</span><h3>{{ app.name }}</h3><p>{{ info.headline }}</p></div><span class="product-arrow" aria-hidden="true">↗</span></a>
     {% endfor %}
   </div><p id="catalog-status" class="sr-only" role="status" data-label="{{ h.collection }}"></p>
 </section>

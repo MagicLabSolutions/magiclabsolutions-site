@@ -207,13 +207,13 @@
       "path": "../WhyMe",
       "requested": true,
       "cloned": true,
-      "dirty_before": false,
+      "dirty_before": true,
       "branch": "main",
       "upstream": "origin/main",
       "ahead": 0,
       "behind": 0,
-      "result": "current",
-      "head": "40a29bff556124194c623a441f722297b92ccfbb"
+      "result": "current; active local app changes preserved",
+      "head": "7ba0f5631a537027f5ae1a12cfdd1f3f94defa8b"
     },
     {
       "repository": "TumTum",

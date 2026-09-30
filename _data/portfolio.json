@@ -1114,43 +1114,50 @@
   },
   {
     "slug": "whyme",
-    "name": "WhyMe",
-    "category": "apps",
-    "status": "concept",
-    "color": "#BAC2D2",
-    "platform": "Magic Lab · em preparação",
-    "demo": "idea",
+    "name": "Why Me?",
+    "category": "games",
+    "status": "development",
+    "color": "#F5A524",
+    "platform": "iPhone · iPad",
+    "demo": "table",
     "repositories": [
       "WhyMe"
     ],
-    "icon": "/images/favicon.png",
+    "icon": "/images/portfolio/whyme/icon.webp",
     "keywords": [
-      "WhyMe Magic Lab",
-      "projetos Magic Lab"
+      "Why Me jogos de boteco",
+      "quem paga a conta",
+      "jogos de mesa para amigos",
+      "who pays the bill app",
+      "party games iPhone"
     ],
     "screenshots": [],
     "checked_at": "2026-09-30",
     "copy": {
       "pt-BR": {
-        "headline": "Uma nova ideia está a caminho.",
-        "description": "Um novo projeto da Magic Lab. A proposta e as primeiras imagens serão apresentadas aqui quando estiverem prontas.",
+        "headline": "A conta chegou. A mesa decide.",
+        "description": "Jogos rápidos para decidir quem paga e continuar a diversão entre amigos. O Why Me? transforma o iPhone ou iPad em uma mesa de boteco, com sorteios, jogos tradicionais e combinados do grupo. Em desenvolvimento.",
         "features": [
-          "Uma nova ideia",
-          "Em preparação",
-          "Novidades por aqui"
+          "Sorteios rápidos entre amigos",
+          "Jogos de mesa de vários países",
+          "Combinados antes da brincadeira"
         ]
       },
       "en": {
-        "headline": "A new idea is taking shape.",
-        "description": "A new Magic Lab project. We will share its purpose and first images here when they are ready.",
+        "headline": "The bill is here. The table decides.",
+        "description": "Quick draws to decide who pays and keep the fun going with friends. Why Me? turns an iPhone or iPad into a bar table, with draws, traditional games and your group’s house rules. In development.",
         "features": [
-          "A new idea",
-          "In preparation",
-          "More to come here"
+          "Quick draws with friends",
+          "Table games from around the world",
+          "Agree on the rules before playing"
         ]
       }
     },
-    "noindex": true
+    "availability_note": {
+      "pt-BR": "Em desenvolvimento para iPhone e iPad. A prévia abaixo ilustra a ideia no navegador.",
+      "en": "In development for iPhone and iPad. The preview below illustrates the idea in your browser."
+    },
+    "evidence": "WhyMe/CHECKLIST.md — S2 table UI, S3 quick draws and S7 hand games; not a public release"
   },
   {
     "slug": "tumtum",

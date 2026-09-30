@@ -117,6 +117,24 @@
       icon();const c=make('strong','p-value-label',word('Cuidado que conecta.','Care that connects.'));stage.append(c);
       heading('Cada ajuda tem seu lugar.','Every kind of help matters.');
       [word('Adotar','Adopt'),word('Apadrinhar','Sponsor'),word('Cuidar','Care')].forEach((label,i)=>button(label,()=>{c.textContent=label;output.textContent=[word('Conhecer um animal é o começo de uma nova história.','Meeting an animal starts a new story.'),word('O apoio contínuo ajuda o abrigo a planejar os cuidados.','Ongoing support helps the shelter plan care.'),word('A organização da equipe deixa mais tempo para os animais.','Team organisation leaves more time for the animals.')][i];}));
+    }else if(type==='table'){
+      const table=make('div','p-friends-table');
+      const names=['Ana','Bruno','Clara','Davi'];
+      const coasters=names.map((name,i)=>{const c=make('span','p-coaster');c.append(make('span','p-coaster-face',['☺','◡','☺','◡'][i]),make('strong','',name));table.append(c);return c;});
+      const bell=make('span','p-table-bell','✦');bell.setAttribute('aria-hidden','true');table.append(bell);stage.append(table);
+      heading('Quem paga o café?','Who’s buying coffee?','Quatro amigos, um combinado. Toque para ver a mesa escolher.','Four friends, one agreement. Tap to let the table choose.');
+      let pending=null,turn=0;
+      const draw=button(word('Deixar a mesa decidir','Let the table decide'),()=>{
+        clearTimeout(pending);const current=++turn;
+        coasters.forEach(c=>c.classList.remove('is-picked'));
+        output.textContent=word('A mesa está escolhendo…','The table is choosing…');
+        draw.disabled=true;table.classList.add('is-drawing');
+        const pick=new Uint32Array(1);crypto.getRandomValues(pick);const chosen=pick[0]%names.length;
+        pending=setTimeout(()=>{if(current!==turn)return;table.classList.remove('is-drawing');coasters[chosen].classList.add('is-picked');output.textContent=word(`${names[chosen]} paga o café nesta rodada de exemplo.`,`${names[chosen]} buys coffee in this example round.`);draw.disabled=false;},motion.matches?0:1100);
+      },true);
+      const reset=()=>{turn++;clearTimeout(pending);draw.disabled=false;table.classList.remove('is-drawing');coasters.forEach(c=>c.classList.remove('is-picked'));output.textContent='';};
+      button(word('Começar outra rodada','Start another round'),reset);
+      document.addEventListener('visibilitychange',()=>{if(document.hidden)reset();});window.addEventListener('pagehide',reset);
     }else if(type==='qr'){
       const img=make('img');img.src='/images/portfolio/qramen/demo-qr.svg';img.width=200;img.height=200;img.alt=word('QR de exemplo para magiclabsolutions.com','Example QR for magiclabsolutions.com');stage.append(img);
       heading('Um endereço pronto para compartilhar.','An address ready to share.','Este QR abre o site da Magic Lab.','This QR opens the Magic Lab website.');

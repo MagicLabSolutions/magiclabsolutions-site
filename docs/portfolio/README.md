@@ -10,6 +10,21 @@
 - Product-specific search phrases, descriptive content, structured data, canonical routes and locale alternates. New landing-page and demo copy is Portuguese and English; other locale routes explicitly mark English fallback. Existing translated landing pages remain.
 - Reusable skill lives in ../Skills/magiclab-site-update and is linked into ~/.codex/skills/magiclab-site-update.
 
+## Flow refinement — 2026-09-30
+
+The home now follows the visual rhythm of the owner’s Stem Split reference: oversized type,
+open screenshot compositions, curved light trails, a native-scroll sequence with a sticky image,
+and a two-column editorial catalog. The mobile layout places each image with its corresponding
+text; reduced motion removes animated transforms and fades. Existing approved icon files are
+unchanged. Why Me? is the sole icon substitution: the studio favicon was replaced by the native
+repository’s current Tampinha placeholder.
+
+Verification for this refinement: desktop scene switching, 390px visual review, all eight home
+locales at 320px, search, game filter, hero keyboard tabs, Toc Toc start/join, and Why Me? draw/reset
+with pointer and keyboard. Both changed JavaScript files pass syntax checks. The build and all
+176 product-route checks pass. Reduced-motion behavior was reviewed in source; no OS preference
+was changed for testing. Why Me? remains in development and has no fabricated app captures.
+
 ## Availability and imagery
 
 | Product | Status | Real captures | Game illustrations |
@@ -29,7 +44,7 @@
 | Zuzu | released | 3 | 0 |
 | Hortulus | development | 0 | 0 |
 | Moonfold | development | 3 | 0 |
-| WhyMe | concept | 0 | 0 |
+| Why Me? | development | 0 | 0 |
 | TumTum | released | 2 | 0 |
 | Giftly | released | 3 | 0 |
 | Sundust | released | 1 | 0 |
@@ -40,7 +55,7 @@
 ## Remaining evidence
 
 - Poof: its existing store ID 6816976275 returns no public BR/US listing and the public URL returned 404. The page offers a preview without a download promise. This does not prove that it has never launched in another channel.
-- WhyMe: README contains only the name. Product description and custom icon await the owner’s brief.
+- Why Me?: rechecked after the repository was populated. README, product brief, design tokens and implementation checklist establish a bar-table / who-pays game for iPhone and iPad, still in development. The site now uses the native Tampinha placeholder icon, descriptive copy and a labeled browser-only draw. No native app screenshots exist in the repository yet. Active app changes were preserved.
 - Soooon and Hortulus: no screenshots were present. Native app capture was blocked because the Mac session was locked.
 - CaseCraft and Starwake: current game illustrations are displayed and labeled; gameplay captures remain to be added.
 - Native-app icon asset catalogs were preserved. Newly generated icons are website assets, with masters ready for future app integration.
@@ -75,7 +90,7 @@ Search phrases belong in meaningful copy, titles and descriptions. Google does n
 | Zuzu | rotina do bebê, baby tracker, sono alimentação fraldas |
 | Hortulus | cuidados com plantas, plant care app, herbário digital |
 | Moonfold | histórias para dormir, bedtime stories app, rotina noturna infantil |
-| WhyMe | WhyMe Magic Lab, projetos Magic Lab |
+| Why Me? | jogos de boteco, quem paga a conta, party games iPhone, who pays the bill app |
 | TumTum | brinquedos digitais infantis, jogo Montessori, toddler playroom |
 | Giftly | organizador presentes, gift planner, lista de presentes |
 | Sundust | jogo exploração espacial, space exploration game, Sundust |

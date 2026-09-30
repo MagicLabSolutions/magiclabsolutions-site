@@ -32,6 +32,43 @@
   lab.addEventListener('pointerleave', resetTilt);
   reduced.addEventListener('change', resetTilt);
 
+  // Scroll remains native. A single frame updates only while the visible scene moves.
+  const hero = document.querySelector('.lab-hero');
+  const story = document.querySelector('.lab-story');
+  const chapters = [...document.querySelectorAll('[data-story-chapter]')];
+  const frames = [...document.querySelectorAll('[data-story-frame]')];
+  const wide = matchMedia('(min-width: 801px)');
+  let scheduled = false;
+  function renderScroll() {
+    scheduled = false;
+    if (document.hidden) return;
+    const heroBounds = hero.getBoundingClientRect();
+    if (heroBounds.bottom > 0) {
+      hero.style.setProperty('--hero-drift', reduced.matches ? '0px' : `${Math.max(0, -heroBounds.top) * .16}px`);
+    }
+    if (!wide.matches) return;
+    const bounds = story.getBoundingClientRect();
+    if (bounds.bottom < 0 || bounds.top > innerHeight) return;
+    const progress = Math.max(0, Math.min(1, (innerHeight * .45 - bounds.top) / (bounds.height - innerHeight * .3)));
+    story.style.setProperty('--story-progress', progress);
+    story.style.setProperty('--story-trace', reduced.matches ? 0 : 1 - progress);
+    let nearest = 0, distance = Infinity;
+    chapters.forEach((chapter, i) => {
+      const rect = chapter.getBoundingClientRect();
+      const delta = Math.abs(rect.top + rect.height / 2 - innerHeight / 2);
+      if (delta < distance) { distance = delta; nearest = i; }
+    });
+    frames.forEach((frame, i) => frame.classList.toggle('is-current', i === nearest));
+  }
+  function scheduleScroll() {
+    if (!scheduled) { scheduled = true; requestAnimationFrame(renderScroll); }
+  }
+  addEventListener('scroll', scheduleScroll, { passive: true });
+  addEventListener('resize', scheduleScroll);
+  reduced.addEventListener('change', scheduleScroll);
+  document.addEventListener('visibilitychange', scheduleScroll);
+  renderScroll();
+
   const filters = [...document.querySelectorAll('[data-filter]')];
   const cards = [...document.querySelectorAll('.product-card')];
   const search = document.querySelector('#catalog-search');
@@ -52,12 +89,7 @@
     filterCatalog();
   }));
   search.addEventListener('input', filterCatalog);
-  cards.forEach(card => card.addEventListener('pointermove', event => {
-    if (reduced.matches || !finePointer.matches) return;
-    const rect = card.getBoundingClientRect();
-    card.style.setProperty('--pointer-x', `${event.clientX - rect.left}px`);
-    card.style.setProperty('--pointer-y', `${event.clientY - rect.top}px`);
-  }));
+
 
   // No calendar access, sound or external call: this is a local, accelerated demo.
   const start = document.querySelector('#demo-start');

@@ -369,5 +369,13 @@
       }
     ],
     "source_sha256": "3b54303f8b6b708b05f95dd60c2657f80f95d16aad270696fd47f6209a4323e9"
+  },
+  "whyme": {
+    "icon_source": "WhyMe/App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+    "generated": false,
+    "screenshots": [],
+    "source_sha256": "33f9f170de3242616cf0caf40fe539223865c8677178ebde427a84f7b51bc23e",
+    "repository_revision": "7ba0f5631a537027f5ae1a12cfdd1f3f94defa8b",
+    "note": "Current native placeholder by the app team (Tampinha); replaces the generic studio favicon. No native captures available in the repository."
   }
 }
