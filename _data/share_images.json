@@ -1,0 +1,728 @@
+{
+  "home": {
+    "en": {
+      "image": "/images/share/magiclab-en-6570ae5548.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — A little touch. Of magic."
+    },
+    "pt-BR": {
+      "image": "/images/share/magiclab-pt-BR-b769ed41dd.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — Um toque. De mágica."
+    },
+    "es": {
+      "image": "/images/share/magiclab-es-1dafa9e0e2.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — Un toque. De magia."
+    },
+    "de": {
+      "image": "/images/share/magiclab-de-e536cdd78a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — Ein Hauch. Von Magie."
+    },
+    "fr": {
+      "image": "/images/share/magiclab-fr-8ba09c02e2.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — Une touche. De magie."
+    },
+    "ja": {
+      "image": "/images/share/magiclab-ja-9f89c292bc.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — 毎日に、 ひとさじの魔法。"
+    },
+    "ko": {
+      "image": "/images/share/magiclab-ko-050b6b4f03.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — 일상에, 작은 마법."
+    },
+    "zh-Hans": {
+      "image": "/images/share/magiclab-zh-Hans-9691c18ce4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "Magic Lab Solutions — 一点点， 小魔法。"
+    }
+  },
+  "products": {
+    "toctoc": {
+      "pt-BR": {
+        "image": "/images/share/toctoc-pt-BR-671f9ce504.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — A reunião chama. Você chega."
+      },
+      "en": {
+        "image": "/images/share/toctoc-en-dd2c308f32.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — Your meeting is calling. Be there."
+      },
+      "de": {
+        "image": "/images/share/toctoc-de-4d3cfb41e1.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — Klopft vor jedem Meeting an"
+      },
+      "es": {
+        "image": "/images/share/toctoc-es-d7a922b591.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — Toca antes de cada reunión"
+      },
+      "fr": {
+        "image": "/images/share/toctoc-fr-ce53b4a992.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — Frappe avant chaque réunion"
+      },
+      "ja": {
+        "image": "/images/share/toctoc-ja-60d4e12942.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — 会議の前に、ノックでお知らせ"
+      },
+      "ko": {
+        "image": "/images/share/toctoc-ko-247bdcd0d1.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — 회의 직전마다 똑똑 노크"
+      },
+      "zh-Hans": {
+        "image": "/images/share/toctoc-zh-Hans-1f9389206d.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Toc Toc — 每场会议前都来敲门"
+      }
+    },
+    "soooon": {
+      "pt-BR": {
+        "image": "/images/share/soooon-pt-BR-050a2ba17e.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Soooon — A espera também pode ser boa."
+      },
+      "en": {
+        "image": "/images/share/soooon-en-eab7cb76cf.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Soooon — Something good is getting closer."
+      }
+    },
+    "groundcontrol": {
+      "pt-BR": {
+        "image": "/images/share/groundcontrol-pt-BR-70a0c1d2d8.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "GroundControl — Todos os seus repositórios. Uma missão."
+      },
+      "en": {
+        "image": "/images/share/groundcontrol-en-4f7e2f7595.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "GroundControl — Every repository. One mission control."
+      }
+    },
+    "poof": {
+      "pt-BR": {
+        "image": "/images/share/poof-pt-BR-fab7e7c588.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Poof — Abra espaço. E respire."
+      },
+      "en": {
+        "image": "/images/share/poof-en-b1531daee7.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Poof — Make room. Breathe easier."
+      }
+    },
+    "hooray": {
+      "pt-BR": {
+        "image": "/images/share/hooray-pt-BR-e9a8464117.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — Uma surpresa. Muitas pessoas."
+      },
+      "en": {
+        "image": "/images/share/hooray-en-f8d7fc2933.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — One surprise. So many people."
+      },
+      "de": {
+        "image": "/images/share/hooray-de-a0aa120dc6.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — Gruppenkarten, die man behält"
+      },
+      "es": {
+        "image": "/images/share/hooray-es-f2bf1f40fa.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — Tarjetas grupales que se recuerdan"
+      },
+      "fr": {
+        "image": "/images/share/hooray-fr-eec802a9b6.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — Des cartes de groupe mémorables"
+      },
+      "ja": {
+        "image": "/images/share/hooray-ja-32bb93c2df.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — 記憶に残るみんなの寄せ書き"
+      },
+      "ko": {
+        "image": "/images/share/hooray-ko-883ef92fc6.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — 오래 기억되는 단체 카드"
+      },
+      "zh-Hans": {
+        "image": "/images/share/hooray-zh-Hans-0f198d237e.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hooray — 让人难忘的集体贺卡"
+      }
+    },
+    "memories": {
+      "pt-BR": {
+        "image": "/images/share/memories-pt-BR-3a090aa026.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Memories — Eles crescem. A história fica."
+      },
+      "en": {
+        "image": "/images/share/memories-en-4c96620f7f.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Memories — They grow. The story stays."
+      }
+    },
+    "casecraft": {
+      "pt-BR": {
+        "image": "/images/share/casecraft-pt-BR-5b81a382dd.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "CaseCraft — Todo detalhe conta uma história."
+      },
+      "en": {
+        "image": "/images/share/casecraft-en-91c8eb3f76.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "CaseCraft — Every detail tells a story."
+      }
+    },
+    "donaneusa": {
+      "pt-BR": {
+        "image": "/images/share/donaneusa-pt-BR-a2fe280317.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Dona Neusa — Mais tempo para cuidar."
+      },
+      "en": {
+        "image": "/images/share/donaneusa-en-cfe5bfdc6e.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Dona Neusa — More time to care."
+      }
+    },
+    "pauta": {
+      "pt-BR": {
+        "image": "/images/share/pauta-pt-BR-059d801334.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Pauta — Sua vida merece uma boa pauta."
+      },
+      "en": {
+        "image": "/images/share/pauta-en-b8a512ebcc.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Pauta — Give your day a little direction."
+      },
+      "es": {
+        "image": "/images/share/pauta-es-a2288d6faa.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Pauta — Un titular al día"
+      }
+    },
+    "brainfold": {
+      "pt-BR": {
+        "image": "/images/share/brainfold-pt-BR-fb23c964db.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — Aprender. Lembrar. Conectar."
+      },
+      "en": {
+        "image": "/images/share/brainfold-en-47388486b9.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — Learn it. Remember it. Connect it."
+      },
+      "de": {
+        "image": "/images/share/brainfold-de-ed8c01d42f.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — KI-gestützter Lernbegleiter"
+      },
+      "es": {
+        "image": "/images/share/brainfold-es-c7e95cb071.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — Compañero de estudio con IA"
+      },
+      "fr": {
+        "image": "/images/share/brainfold-fr-80f1bc2b99.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — Compagnon d'étude propulsé par l'IA"
+      },
+      "ja": {
+        "image": "/images/share/brainfold-ja-6737087471.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — AI搭載の学習パートナー"
+      },
+      "ko": {
+        "image": "/images/share/brainfold-ko-3c10d3ce92.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — AI 기반 학습 도우미"
+      },
+      "zh-Hans": {
+        "image": "/images/share/brainfold-zh-Hans-7729a7ebab.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Brainfold — AI驱动的学习伙伴"
+      }
+    },
+    "starwake": {
+      "pt-BR": {
+        "image": "/images/share/starwake-pt-BR-3f1cf455f5.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Starwake — O silêncio também é um sinal."
+      },
+      "en": {
+        "image": "/images/share/starwake-en-f660a348e3.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Starwake — Silence is a signal, too."
+      }
+    },
+    "murmur": {
+      "pt-BR": {
+        "image": "/images/share/murmur-pt-BR-0b35fad219.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Murmur — Uma mensagem muda tudo."
+      },
+      "en": {
+        "image": "/images/share/murmur-en-45a9ccb38a.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Murmur — One message changes everything."
+      }
+    },
+    "zuzu": {
+      "pt-BR": {
+        "image": "/images/share/zuzu-pt-BR-16e7f86238.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — O dia do bebê. Em boas mãos."
+      },
+      "en": {
+        "image": "/images/share/zuzu-en-2a57fbdd12.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — Baby’s day. In good hands."
+      },
+      "de": {
+        "image": "/images/share/zuzu-de-46eec0ce54.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — Baby-Tracking, gemeinsam"
+      },
+      "es": {
+        "image": "/images/share/zuzu-es-10de32b1f4.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — Seguimiento del bebé, juntos"
+      },
+      "fr": {
+        "image": "/images/share/zuzu-fr-c28a81a7e4.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — Suivi de bébé, ensemble"
+      },
+      "ja": {
+        "image": "/images/share/zuzu-ja-f70b97d1d3.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — 一緒に赤ちゃんの記録を"
+      },
+      "ko": {
+        "image": "/images/share/zuzu-ko-0521f112b2.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — 함께하는 아기 기록"
+      },
+      "zh-Hans": {
+        "image": "/images/share/zuzu-zh-Hans-7aee8028bf.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Zuzu — 一起记录宝宝成长"
+      }
+    },
+    "hortulus": {
+      "pt-BR": {
+        "image": "/images/share/hortulus-pt-BR-59e4f053df.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hortulus — Um jardim que você entende."
+      },
+      "en": {
+        "image": "/images/share/hortulus-en-a960733e49.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Hortulus — A garden you understand."
+      }
+    },
+    "moonfold": {
+      "pt-BR": {
+        "image": "/images/share/moonfold-pt-BR-cf7a94fe9e.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Moonfold — A noite chega devagar."
+      },
+      "en": {
+        "image": "/images/share/moonfold-en-5787f5b1a1.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Moonfold — Let the night arrive gently."
+      }
+    },
+    "whyme": {
+      "pt-BR": {
+        "image": "/images/share/whyme-pt-BR-d320463abe.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Why Me? — A conta chegou. A mesa decide."
+      },
+      "en": {
+        "image": "/images/share/whyme-en-10460aded8.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Why Me? — The bill is here. The table decides."
+      }
+    },
+    "tumtum": {
+      "pt-BR": {
+        "image": "/images/share/tumtum-pt-BR-4e977a95c6.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — Pequenas mãos. Grandes descobertas."
+      },
+      "en": {
+        "image": "/images/share/tumtum-en-7eae4883dc.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — Little hands. Big discoveries."
+      },
+      "de": {
+        "image": "/images/share/tumtum-de-0cd53d7038.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — Kleine Hände. Große Entdeckungen."
+      },
+      "es": {
+        "image": "/images/share/tumtum-es-b89e096707.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — Manos pequeñas. Grandes descubrimientos."
+      },
+      "fr": {
+        "image": "/images/share/tumtum-fr-232857eb32.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — Petites mains. Grandes découvertes."
+      },
+      "ja": {
+        "image": "/images/share/tumtum-ja-e422703e4a.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — 小さな手で、大きな発見。"
+      },
+      "ko": {
+        "image": "/images/share/tumtum-ko-93181dc1c7.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — 작은 손으로 만나는 큰 발견."
+      },
+      "zh-Hans": {
+        "image": "/images/share/tumtum-zh-Hans-191b75eca8.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "TumTum — 小小双手，大大发现。"
+      }
+    },
+    "giftly": {
+      "pt-BR": {
+        "image": "/images/share/giftly-pt-BR-0a398ef033.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — O presente certo começa com uma ideia."
+      },
+      "en": {
+        "image": "/images/share/giftly-en-e2e48b75dd.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — A thoughtful gift starts with an idea."
+      },
+      "de": {
+        "image": "/images/share/giftly-de-8883b5eaa9.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — Nie wieder einen Geburtstag vergessen"
+      },
+      "es": {
+        "image": "/images/share/giftly-es-32aa863a23.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — Nunca más olvides un cumpleaños"
+      },
+      "fr": {
+        "image": "/images/share/giftly-fr-a21e0a406b.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — N'oublie plus jamais un anniversaire"
+      },
+      "ja": {
+        "image": "/images/share/giftly-ja-31503b9de1.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — 誕生日をもう忘れない"
+      },
+      "ko": {
+        "image": "/images/share/giftly-ko-134221f932.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — 생일을 다시는 잊지 않게"
+      },
+      "zh-Hans": {
+        "image": "/images/share/giftly-zh-Hans-b41e23a3b8.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Giftly — 再也不会忘记生日"
+      }
+    },
+    "sundust": {
+      "pt-BR": {
+        "image": "/images/share/sundust-pt-BR-3ad4ae10cb.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — Um universo para descobrir."
+      },
+      "en": {
+        "image": "/images/share/sundust-en-78e943024a.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — A universe to discover."
+      },
+      "de": {
+        "image": "/images/share/sundust-de-6ff6a7ebf3.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — Dein kleines Sonnensystem"
+      },
+      "es": {
+        "image": "/images/share/sundust-es-ecb784c324.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — Tu pequeño sistema solar"
+      },
+      "fr": {
+        "image": "/images/share/sundust-fr-7eebbe885c.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — Votre petit système solaire"
+      },
+      "ja": {
+        "image": "/images/share/sundust-ja-67bc34e1fe.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — あなただけの小さな太陽系"
+      },
+      "ko": {
+        "image": "/images/share/sundust-ko-1e1cacd674.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — 나만의 작은 태양계"
+      },
+      "zh-Hans": {
+        "image": "/images/share/sundust-zh-Hans-70f2cc5968.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sundust — 你的迷你太阳系"
+      }
+    },
+    "kinfold": {
+      "pt-BR": {
+        "image": "/images/share/kinfold-pt-BR-e7d644ec9d.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — A família pronta para ir."
+      },
+      "en": {
+        "image": "/images/share/kinfold-en-4b55ffbf1b.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — Your family, ready to go."
+      },
+      "de": {
+        "image": "/images/share/kinfold-de-53088f9d44.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — Familiendokumente & Reisen"
+      },
+      "es": {
+        "image": "/images/share/kinfold-es-bf31030496.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — Documentos familiares y viajes"
+      },
+      "fr": {
+        "image": "/images/share/kinfold-fr-d598b2fbe1.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — Documents de famille & voyages"
+      },
+      "ja": {
+        "image": "/images/share/kinfold-ja-ce66d34809.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — 家族の書類と旅行"
+      },
+      "ko": {
+        "image": "/images/share/kinfold-ko-7764c68621.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — 가족 문서와 여행"
+      },
+      "zh-Hans": {
+        "image": "/images/share/kinfold-zh-Hans-ca3e0897de.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Kinfold — 家庭证件与出行"
+      }
+    },
+    "myrenewals": {
+      "pt-BR": {
+        "image": "/images/share/myrenewals-pt-BR-cb1bb79538.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — Assinaturas sem surpresas."
+      },
+      "en": {
+        "image": "/images/share/myrenewals-en-1c360bd026.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — Subscriptions without surprises."
+      },
+      "de": {
+        "image": "/images/share/myrenewals-de-e2584814da.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — Abonnement-Tracker"
+      },
+      "es": {
+        "image": "/images/share/myrenewals-es-096a21f281.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — Rastreador de suscripciones"
+      },
+      "fr": {
+        "image": "/images/share/myrenewals-fr-f8de75b13e.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — Suivi d'abonnements"
+      },
+      "ja": {
+        "image": "/images/share/myrenewals-ja-802dec32d3.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — サブスクリプション管理"
+      },
+      "ko": {
+        "image": "/images/share/myrenewals-ko-309bd5653f.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — 구독 관리"
+      },
+      "zh-Hans": {
+        "image": "/images/share/myrenewals-zh-Hans-5370c6ad7d.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "MyRenewals — 订阅管理器"
+      }
+    },
+    "qramen": {
+      "pt-BR": {
+        "image": "/images/share/qramen-pt-BR-311fb3a1e6.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — Uma conexão. Um quadradinho."
+      },
+      "en": {
+        "image": "/images/share/qramen-en-4652ccbcc0.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — One small square. A new connection."
+      },
+      "de": {
+        "image": "/images/share/qramen-de-df9970aff8.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — QR-Codes scannen, erstellen und organisieren"
+      },
+      "es": {
+        "image": "/images/share/qramen-es-00b9623a85.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — Escanea, crea y organiza códigos QR"
+      },
+      "fr": {
+        "image": "/images/share/qramen-fr-61463393cd.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — Scannez, créez et organisez des codes QR"
+      },
+      "ja": {
+        "image": "/images/share/qramen-ja-efc13d31b1.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — QRコードのスキャン、作成、整理"
+      },
+      "ko": {
+        "image": "/images/share/qramen-ko-26627218ed.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — QR 코드 스캔, 생성 및 정리"
+      },
+      "zh-Hans": {
+        "image": "/images/share/qramen-zh-Hans-2039601e9e.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "QRamen — 扫描、创建和整理二维码"
+      }
+    }
+  }
+}

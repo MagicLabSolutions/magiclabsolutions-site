@@ -104,4 +104,11 @@ Reference: https://developers.google.com/search/docs/crawling-indexing/special-t
 
 ## Publishing
 
-Changes are prepared on codex/interactive-portfolio. Production deployment was not requested and has not been triggered. The repository deploys GitHub Pages from main.
+The portfolio was published with the owner’s approval on 2026-09-30. The repository deploys GitHub Pages from main; updates are prepared on codex/interactive-portfolio and fast-forwarded after validation.
+
+
+## Link previews
+
+The home and all 22 products have 1200×630 JPEG share cards, rendered from approved icons and existing localized copy. Product translations fall back to English when unavailable. `_includes/social-meta.html` supplies consistent Open Graph and Twitter metadata, absolute image URLs, image dimensions and localized page URLs.
+
+Regenerate with `node scripts/generate-social-cards.cjs` in an environment with `sharp` available. The generator writes content-versioned assets to `images/share/` and updates `_data/share_images.json`. Validate the Jekyll output with `python3 scripts/check-social-previews.py <build-directory>`. Filename changes allow platforms to fetch the updated artwork; previously shared messages may retain platform-managed caches.

@@ -13,9 +13,6 @@ lang-ref: sundust-page
     <title>{{ s.title | default: "Sundust — A Tiny Solar System to Call Home" }}</title>
     <meta name="description" content="{{ s.description | default: "Sundust is a cozy space program built on real orbital mechanics. Fly, land, walk, mine, and build across a pocket-sized solar system — on iPhone, iPad, Mac, and Apple TV, with Game Center and iCloud sync. No ads, no in-app purchases, no internet required." }}">
     <meta name="theme-color" content="#0a0e18">
-    <meta property="og:title" content="{{ s.title | default: "Sundust — A Tiny Solar System to Call Home" }}">
-    <meta property="og:description" content="{{ s.description | default: "A cozy space program on real orbital mechanics. Fly, land, walk, mine, and build — on iPhone, iPad, Mac, and Apple TV." }}">
-    <meta property="og:image" content="/images/sundust/art/act1-signal.jpg">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -253,6 +250,7 @@ lang-ref: sundust-page
     </style>
   <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
+  {% include social-meta.html product='sundust' %}
 </head>
 <body>
 

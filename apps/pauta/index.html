@@ -17,11 +17,6 @@ lang-ref: pauta-page
   <title>Pauta — {{ copy.soon }} · Magic Lab Solutions</title>
   <meta name="description" content="{{ copy.description | escape }}">
   <meta name="theme-color" content="#f3f2f2">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Pauta — {{ copy.headline | escape }}">
-  <meta property="og:description" content="{{ copy.description | escape }}">
-  <meta property="og:image" content="https://magiclabsolutions.com/images/portfolio/pauta/icon.webp">
-  <meta property="og:url" content="https://magiclabsolutions.com{{ prefix }}/apps/pauta/">
   <link rel="canonical" {% static_href %}href="https://magiclabsolutions.com{{ prefix }}/apps/pauta/"{% endstatic_href %}>
   {% for lang in site.languages %}
   {% assign lang_prefix = '' %}{% if lang != site.default_lang %}{% assign lang_prefix = lang | prepend: '/' %}{% endif %}
@@ -35,6 +30,7 @@ lang-ref: pauta-page
   <link rel="stylesheet" href="/css/pauta-coming-soon.css">
   <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
+  {% include social-meta.html product='pauta' %}
 </head>
 <body>
   <a class="skip" href="#main">{{ copy.skip }}</a>

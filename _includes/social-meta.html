@@ -1,0 +1,41 @@
+{% assign social_card = site.data.share_images.home[site.active_lang] | default: site.data.share_images.home.en %}
+{% assign social_title = page.title | append: ' · Magic Lab Solutions' %}
+{% assign social_description = page.description %}
+{% if include.product %}
+  {% assign social_product = site.data.portfolio | where: 'slug', include.product | first %}
+  {% assign social_copy = social_product.copy[site.active_lang] | default: social_product.copy.en %}
+  {% assign social_variants = site.data.share_images.products[include.product] %}
+  {% assign social_card = social_variants[site.active_lang] | default: social_variants.en %}
+  {% assign social_title = social_product.name | append: ' — ' | append: social_copy.headline %}
+  {% assign social_description = social_copy.description %}
+{% elsif include.home %}
+  {% assign social_home = site.data.home_page[site.active_lang] | default: site.data.home_page.en %}
+  {% assign social_title = 'Magic Lab Solutions — ' | append: social_home.title_first | append: ' ' | append: social_home.title_second %}
+  {% assign social_description = social_home.intro %}
+{% endif %}
+{% assign social_image = social_card.image %}
+{% assign social_alt = social_card.alt %}
+{% if include.custom_image and page.featured_image and page.featured_image != '/images/social.jpg' %}
+  {% assign social_image = page.featured_image %}
+  {% assign social_alt = page.title %}
+  {% assign social_custom = true %}
+{% else %}{% assign social_custom = false %}{% endif %}
+{% assign social_prefix = '' %}{% if site.active_lang != site.default_lang %}{% assign social_prefix = site.active_lang | prepend: '/' %}{% endif %}
+{% capture social_locale %}{% case site.active_lang %}{% when 'en' %}en_US{% when 'pt-BR' %}pt_BR{% when 'de' %}de_DE{% when 'es' %}es_ES{% when 'fr' %}fr_FR{% when 'ja' %}ja_JP{% when 'ko' %}ko_KR{% when 'zh-Hans' %}zh_CN{% endcase %}{% endcapture %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Magic Lab Solutions">
+<meta property="og:locale" content="{{ social_locale | strip }}">
+<meta property="og:title" content="{{ social_title | strip_html | escape }}">
+<meta property="og:description" content="{{ social_description | strip_html | escape }}">
+<meta property="og:url" content="{{ site.url }}{{ social_prefix }}{{ page.url }}">
+<meta property="og:image" content="{{ social_image | absolute_url }}">
+<meta property="og:image:secure_url" content="{{ social_image | absolute_url }}">
+<meta property="og:image:alt" content="{{ social_alt | escape }}">
+{% unless social_custom %}<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="{{ social_card.width }}">
+<meta property="og:image:height" content="{{ social_card.height }}">{% endunless %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ social_title | strip_html | escape }}">
+<meta name="twitter:description" content="{{ social_description | strip_html | escape }}">
+<meta name="twitter:image" content="{{ social_image | absolute_url }}">
+<meta name="twitter:image:alt" content="{{ social_alt | escape }}">

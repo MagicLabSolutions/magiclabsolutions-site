@@ -10,9 +10,9 @@
   <link rel="canonical" {% static_href %}href="{{ site.url }}{{ prefix }}/"{% endstatic_href %}>
   {% for lang in site.languages %}{% assign lp = '' %}{% if lang != site.default_lang %}{% assign lp = lang | prepend: '/' %}{% endif %}<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}{{ lp }}/"{% endstatic_href %}>{% endfor %}
   <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ site.url }}/"{% endstatic_href %}>
-  <meta property="og:type" content="website"><meta property="og:title" content="Magic Lab Solutions — {{ h.eyebrow | escape }}"><meta property="og:description" content="{{ h.intro | escape }}"><meta property="og:image" content="{{ '/images/social.jpg' | absolute_url }}"><meta property="og:url" content="{{ site.url }}{{ prefix }}/"><meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="{{ '/css/home.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}"><script src="{{ '/js/home.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>
   {% if jekyll.environment == 'production' %}{% include gtag.html %}{% endif %}
+  {% include social-meta.html home=true %}
 </head>
 <body>
   <a class="skip-link" href="#main">{{ h.skip }}</a>

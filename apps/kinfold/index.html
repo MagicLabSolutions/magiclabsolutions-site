@@ -13,9 +13,6 @@ lang-ref: kinfold-page
     <title>{{ k.title | default: "Kinfold — Family Documents & Travel, Kept Safe" }}</title>
     <meta name="description" content="{{ k.description | default: "Kinfold keeps your family's passports, IDs, and visas in one private, iCloud-backed place. Scan on-device, get expiry reminders, smart-copy any format, and travel ready. For iPhone, iPad, Mac & Apple Vision Pro." }}">
     <meta name="theme-color" content="#0B0A14">
-    <meta property="og:title" content="{{ k.title | default: "Kinfold — Family Documents & Travel" }}">
-    <meta property="og:description" content="{{ k.description | default: "Your family's passports, IDs, and visas in one private, iCloud-backed place — with expiry reminders, smart-copy, and travel-ready packing." }}">
-    <meta property="og:image" content="/images/portfolio/kinfold/icon.webp">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
         /* ========================================
@@ -715,6 +712,7 @@ lang-ref: kinfold-page
     </style>
   <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
+  {% include social-meta.html product='kinfold' %}
 </head>
 <body>
 

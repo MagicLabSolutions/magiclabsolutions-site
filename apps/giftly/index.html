@@ -19,9 +19,6 @@ lang-ref: giftly-page
     <title>{{ s.title | default: "Giftly — Never Forget a Birthday" }}</title>
     <meta name="description" content="{{ s.description | default: "Giftly keeps the people you love, the dates that matter, and the gift ideas worth remembering. Reminders that arrive in time to shop, and around 890 curated suggestions matched to tastes, age, and sizes — on iPhone, iPad, and Mac, synced privately through iCloud." }}">
     <meta name="theme-color" content="#F7F4ED">
-    <meta property="og:title" content="{{ s.title | default: "Giftly — Never Forget a Birthday" }}">
-    <meta property="og:description" content="{{ s.og_description | default: "The people you love, the dates that matter, and the gift ideas worth remembering — on iPhone, iPad, and Mac." }}">
-    <meta property="og:image" content="/images/portfolio/giftly/icon.webp">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -190,6 +187,7 @@ lang-ref: giftly-page
     </style>
   <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
+  {% include social-meta.html product='giftly' %}
 </head>
 <body>
 
