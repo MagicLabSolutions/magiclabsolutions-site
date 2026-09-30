@@ -1,0 +1,18 @@
+{% assign exp = site.data.portfolio | where: 'slug', include.slug | first %}
+{% assign el = 'en' %}{% if site.active_lang == 'pt-BR' %}{% assign el = 'pt-BR' %}{% endif %}
+{% assign eu = site.data.portfolio_ui[el] %}
+<div class="p-experience" style="--p-accent:{{ exp.color }}" lang="{{ el }}">
+  <section class="p-wrap p-demo-section" id="experience" aria-labelledby="experience-title" data-p-reveal>
+    <div class="p-section-heading"><div><p class="p-kicker">01 / {{ eu.try }}</p><h2 id="experience-title">{{ eu.demo_title }}</h2></div><p>{{ eu.demo_note }}</p></div>
+    <div class="p-demo" data-demo="{{ exp.demo }}" data-slug="{{ exp.slug }}" data-lang="{{ el }}" data-icon="{{ exp.icon | relative_url }}"><noscript>{{ eu.nojs }}</noscript></div>
+  </section>
+  <section class="p-wrap p-inside" id="inside" aria-labelledby="inside-title" data-p-reveal>
+    <div class="p-section-heading"><div><p class="p-kicker">02 / {{ eu.inside }}</p><h2 id="inside-title">{% if exp.artwork.size > 0 %}{{ eu.art_title }}{% else %}{{ eu.real_title }}{% endif %}</h2></div><p>{% if exp.screenshots.size > 0 %}{{ eu.real_note }}{% elsif exp.artwork.size > 0 %}{{ eu.art_note }}{% else %}{{ eu.no_captures }}{% endif %}</p></div>
+    {% if exp.screenshots.size > 0 %}<div class="p-gallery" role="list">{% for shot in exp.screenshots %}<figure role="listitem"><button class="p-shot" data-p-image="{{ shot.output | relative_url }}" aria-label="{{ eu.enlarge }} {{ forloop.index }} — {{ exp.name }}"><img src="{{ shot.output | relative_url }}" loading="lazy" alt="{{ exp.name }} — {{ shot.alt[el] | escape }}"></button><figcaption>{{ exp.name }} / {{ eu.capture }} 0{{ forloop.index }}</figcaption></figure>{% endfor %}</div>{% endif %}
+    {% if exp.artwork.size > 0 %}<div class="p-gallery" role="list">{% for art in exp.artwork %}<figure role="listitem"><button class="p-shot" data-p-image="{{ art.output | relative_url }}" aria-label="{{ eu.enlarge }} {{ forloop.index }} — {{ exp.name }}"><img src="{{ art.output | relative_url }}" loading="lazy" alt="{{ exp.name }} — {{ eu.art }} {{ forloop.index }}"></button><figcaption>{{ exp.name }} / {{ eu.art }} 0{{ forloop.index }}</figcaption></figure>{% endfor %}</div>{% endif %}
+    <p class="p-availability"><span class="p-dot"></span> {{ eu.status[exp.status] }}{% if exp.version %} · {{ exp.version }}{% endif %}{% if exp.store_url %} · <a href="{{ exp.store_url }}">App Store ↗</a>{% endif %}{% if exp.play_url %} · <a href="{{ exp.play_url }}">Google Play ↗</a>{% endif %}</p>
+  </section>
+  <dialog class="p-lightbox" aria-label="{{ eu.enlarge }}"><form method="dialog"><button aria-label="{{ eu.close }}">×</button></form><img alt=""><p></p></dialog>
+</div>
+
+{% unless page.layout == 'product' %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"{% if exp.category == 'games' %}VideoGame{% else %}SoftwareApplication{% endif %}","name":{{ exp.name | jsonify }},"description":{{ exp.copy[el].description | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"image":{{ exp.icon | absolute_url | jsonify }},"author":{"@type":"Organization","name":"Magic Lab Solutions"}{% if exp.store_url %},"downloadUrl":{{ exp.store_url | jsonify }}{% endif %}}</script>{% endunless %}

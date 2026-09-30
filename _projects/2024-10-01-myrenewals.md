@@ -7,7 +7,7 @@ description: Stay in control of your subscriptions. Track, manage, and cancel re
 featured_image: '/images/myrenewals/hero.png'
 app_icon: '/images/myrenewals/app_icon.png'
 accent_color: '#34C759'
-app_store_url: 'https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785'
+app_store_url: 'https://apps.apple.com/app/myrenewals-sub-track-cancel/id6752888662'
 permalink: /project/myrenewals/
 link: /apps/myrenewals/
 lang-ref: project-myrenewals

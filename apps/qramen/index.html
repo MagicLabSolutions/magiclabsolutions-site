@@ -1011,6 +1011,8 @@ lang-ref: qramen-page
             .hero-app-icon { width: 200px; height: 200px; border-radius: 46px; }
         }
     </style>
+  <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+  <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
 </head>
 <body>
 
@@ -1278,7 +1280,8 @@ lang-ref: qramen-page
     <!-- ========================================
          FOOTER
          ======================================== -->
-    <footer>
+    {% include product-experience.html slug='qramen' %}
+<footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-links">

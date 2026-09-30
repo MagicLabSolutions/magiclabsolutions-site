@@ -36,6 +36,9 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Validate product portfolio
+        run: python3 scripts/check-portfolio.py _site
+
       - name: Validate TumTum legal pages
         run: python3 scripts/check-tumtum-legal.py _site
 

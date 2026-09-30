@@ -13,7 +13,7 @@
 <article class="app-card animate-on-scroll" style="--card-accent: {{ include.app.accent_color | default: '#0071E3' }}">
 	<a href="{{ card_href }}" class="app-card__link"{% if card_external %} target="_blank" rel="noopener"{% endif %}>
 		{% if include.app.coming_soon %}
-		<span class="app-card__badge">{{ site.data.tumtum_page[site.active_lang].soon | default: "Coming soon" }}</span>
+		<span class="app-card__badge">{{ site.data.home_page[site.active_lang].soon | default: "Coming soon" }}</span>
 		{% elsif include.app.category == 'games' %}
 		<span class="app-card__badge">{{ t.app_card.game | default: "Game" }}</span>
 		{% endif %}

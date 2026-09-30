@@ -16,12 +16,14 @@ lang-ref: poof-page
   <meta property="og:image" content="https://magiclabsolutions.com/images/poof/hero.jpg">
   <meta property="og:url" content="https://magiclabsolutions.com/apps/poof/">
   <link rel="canonical" {% static_href %}href="https://magiclabsolutions.com/apps/poof/"{% endstatic_href %}>
-  <link rel="icon" href="/images/poof/app-icon.png" type="image/png">
+  <link rel="icon" href="/images/portfolio/poof/icon.webp" type="image/png">
   <link rel="stylesheet" href="/css/poof.css">
+  <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+  <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
 </head>
 <body>
   <header class="brand-bar wrap">
-    <a class="brand" href="/"><img src="/images/poof/app-icon.png" width="44" height="44" alt=""><span>Poof<small>Magic Lab Solutions</small></span></a>
+    <a class="brand" href="/"><img src="/images/portfolio/poof/icon.webp" width="44" height="44" alt=""><span>Poof<small>Magic Lab Solutions</small></span></a>
     <nav class="languages" aria-label="Poof">
       <a href="#support">Support</a>
       <a {% static_href %}href="https://magiclabsolutions.com/poof/privacy-policy/"{% endstatic_href %}>Privacy</a>
@@ -29,14 +31,15 @@ lang-ref: poof-page
   </header>
   <main>
     <section class="hero wrap" aria-labelledby="title">
-      <img class="icon" src="/images/poof/app-icon.png" width="128" height="128" alt="">
+      <img class="icon" src="/images/portfolio/poof/icon.webp" width="128" height="128" alt="">
       <h1 id="title">Poof</h1>
       <p class="headline">Make room on your Mac.</p>
       <p class="lede">Poof finds the caches, logs and build leftovers that apps pile up, uninstalls apps along with their data, and shows you your biggest and most forgotten files — and removes only what you choose. Scanning is always free.</p>
       <div class="actions">
-        <a class="button" href="https://apps.apple.com/app/id6816976275">Get it on the Mac App Store</a>
+        <a class="button" href="#inside">Explore Poof</a>
         <a class="button quiet" href="#support">Support</a>
       </div>
+      <p class="fine">Public availability is being confirmed.</p>
       <p class="fine">For macOS 14 Sonoma and later.</p>
       <div class="shot"><img src="/images/poof/hero.jpg" width="1600" height="1000" alt="Poof’s Smart Scan showing 43.99 GB ready to clean, sorted into System Junk, Developer, Trash, and Installers &amp; Backups, with Applications, Large Files and Unused Files in the sidebar."></div>
     </section>
@@ -74,7 +77,9 @@ lang-ref: poof-page
         <a href="mailto:contact@magiclabsolutions.com?subject=Poof">contact@magiclabsolutions.com</a>
       </aside>
     </section>
-  </main>
+
+{% include product-experience.html slug='poof' %}
+</main>
   <footer class="wrap">
     <nav>
       <a {% static_href %}href="https://magiclabsolutions.com/poof/privacy-policy/"{% endstatic_href %}>Privacy policy</a>

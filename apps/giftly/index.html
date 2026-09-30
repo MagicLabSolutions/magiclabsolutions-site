@@ -21,7 +21,7 @@ lang-ref: giftly-page
     <meta name="theme-color" content="#F7F4ED">
     <meta property="og:title" content="{{ s.title | default: "Giftly — Never Forget a Birthday" }}">
     <meta property="og:description" content="{{ s.og_description | default: "The people you love, the dates that matter, and the gift ideas worth remembering — on iPhone, iPad, and Mac." }}">
-    <meta property="og:image" content="/images/giftly/app_icon.png">
+    <meta property="og:image" content="/images/portfolio/giftly/icon.webp">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -188,13 +188,15 @@ lang-ref: giftly-page
             .card:hover, .btn:hover { transform: none; }
         }
     </style>
+  <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+  <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
 </head>
 <body>
 
 <header class="topbar">
     <div class="wrap topbar__inner">
         <a class="topbar__brand" href="/">
-            <img src="/images/giftly/app_icon.png" alt="">
+            <img src="/images/portfolio/giftly/icon.webp" alt="">
             Giftly
         </a>
         <ul class="topbar__links">
@@ -224,7 +226,7 @@ lang-ref: giftly-page
                 <p class="hero__platforms">{{ s.hero_platforms | default: "Free · No ads · No account · Synced through iCloud" }}</p>
             </div>
             <div class="hero__art">
-                <img class="hero__icon" src="/images/giftly/app_icon.png" alt="{{ s.icon_alt | default: "Giftly app icon" }}" loading="eager" width="512" height="512">
+                <img class="hero__icon" src="/images/portfolio/giftly/icon.webp" alt="{{ s.icon_alt | default: "Giftly app icon" }}" loading="eager" width="512" height="512">
             </div>
         </div>
     </section>
@@ -365,6 +367,8 @@ lang-ref: giftly-page
             <a class="btn btn--ghost" href="/giftly/support/">{{ s.cta_support | default: "Support" }}</a>
         </div>
     </section>
+
+{% include product-experience.html slug='giftly' %}
 </main>
 
 <footer class="foot">

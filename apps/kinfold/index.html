@@ -15,7 +15,7 @@ lang-ref: kinfold-page
     <meta name="theme-color" content="#0B0A14">
     <meta property="og:title" content="{{ k.title | default: "Kinfold — Family Documents & Travel" }}">
     <meta property="og:description" content="{{ k.description | default: "Your family's passports, IDs, and visas in one private, iCloud-backed place — with expiry reminders, smart-copy, and travel-ready packing." }}">
-    <meta property="og:image" content="/images/kinfold/app_icon.png">
+    <meta property="og:image" content="/images/portfolio/kinfold/icon.webp">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
         /* ========================================
@@ -713,6 +713,8 @@ lang-ref: kinfold-page
             .features, .showcase, .steps, .final-cta { padding: 80px 0; }
         }
     </style>
+  <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+  <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
 </head>
 <body>
 
@@ -725,7 +727,7 @@ lang-ref: kinfold-page
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
             </a>
             <a href="#" class="nav-logo">
-                <img src="/images/kinfold/app_icon.png" alt="Kinfold" class="nav-logo-icon">
+                <img src="/images/portfolio/kinfold/icon.webp" alt="Kinfold" class="nav-logo-icon">
                 Kinfold
             </a>
             <ul class="nav-links">
@@ -773,7 +775,7 @@ lang-ref: kinfold-page
                 <div class="hero-visual">
                     <div class="hero-icon-wrapper">
                         <div class="hero-icon-glow"></div>
-                        <img src="/images/kinfold/app_icon.png" alt="Kinfold App Icon" class="hero-app-icon" loading="eager">
+                        <img src="/images/portfolio/kinfold/icon.webp" alt="Kinfold App Icon" class="hero-app-icon" loading="eager">
                     </div>
                 </div>
             </div>
@@ -931,7 +933,8 @@ lang-ref: kinfold-page
     <!-- ========================================
          FOOTER
          ======================================== -->
-    <footer>
+    {% include product-experience.html slug='kinfold' %}
+<footer>
         <div class="container">
             <div class="footer-content">
                 <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. {{ k.footer_rights | default: "All rights reserved." }}</span>

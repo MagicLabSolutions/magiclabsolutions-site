@@ -1,0 +1,373 @@
+{
+  "toctoc": {
+    "icon_source": "TocToc/iOS/Resources/Assets.xcassets/AppIcon.appiconset/icon-ios.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/toctoc/pt-BR/mac-knock.jpg",
+        "output": "/images/portfolio/toctoc/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "magiclabsolutions-site/images/toctoc/pt-BR/mac-menubar.jpg",
+        "output": "/images/portfolio/toctoc/screen-2.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "b0639eeb91cc154a39d6570adbfdaa06f232a3fff8743917d4584c03887a081a",
+    "repository_revision": "4107f953ff325645c30351108e611fb2b2d23d19"
+  },
+  "soooon": {
+    "icon_source": "Soooon/app/Soooon/Resources/Assets.xcassets/AppIcon.appiconset/icon-ios.png",
+    "generated": false,
+    "screenshots": [],
+    "source_sha256": "978c82e5b9a0691d4ec565afe68f6cf17b007e3633e0bd0464b4ea983bb6365f",
+    "repository_revision": "b542f8fb60cf12dcd50345c74ba2a51ac539fc0c"
+  },
+  "groundcontrol": {
+    "icon_source": "GroundControl/app/GroundControl/Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "GroundControl/fastlane/screenshots/en-US/1-flight-map.png",
+        "output": "/images/portfolio/groundcontrol/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "GroundControl/fastlane/screenshots/en-US/4-changes.png",
+        "output": "/images/portfolio/groundcontrol/screen-2.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "GroundControl/fastlane/screenshots/en-US/3-pull.png",
+        "output": "/images/portfolio/groundcontrol/screen-3.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "c4ff8da22c0fd7b9a0b43ecaf3f6e0dd3ae77a9b1400b366e005dce994db3fdc",
+    "repository_revision": "57626555520a396cbd11a01d37d3766562f3885b"
+  },
+  "poof": {
+    "icon_source": "Poof/app/Poof/Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/poof/hero.jpg",
+        "output": "/images/portfolio/poof/screen-1.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "db692d3370add72fc09b2de3e27435008ba29c5a2cb86c3539323d4f60ef567d",
+    "repository_revision": "20721b215d3a2bc88329356b58d496ea2e8960b9"
+  },
+  "hooray": {
+    "icon_source": "Hooray/public/icon-512.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "https://hooraycards.com (public example card, captured 2026-09-30)",
+        "output": "/images/portfolio/hooray/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "https://hooraycards.com (public example card, captured 2026-09-30)",
+        "output": "/images/portfolio/hooray/screen-2.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "943f94949e8b271d1c11bad445a05fcefdd20944d1328945a7e65034acead52e",
+    "repository_revision": "5c391a13a3f2885f60f13633391cc2aa7d6f5f16"
+  },
+  "memories": {
+    "icon_source": "Memories/Memories/Assets.xcassets/AppIcon.appiconset/Gemini_Generated_Image_idle2iidle2iidle.jpg",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "Memories/fastlane/screenshots/pt-BR/00_hero.png",
+        "output": "/images/portfolio/memories/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Memories/fastlane/screenshots/pt-BR/01_timeline.png",
+        "output": "/images/portfolio/memories/screen-2.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Memories/fastlane/screenshots/pt-BR/02_highlights.png",
+        "output": "/images/portfolio/memories/screen-3.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "ee597ce05d5575db1c6691498b6792c047f61cd88e00bbbba863a743e2f4a31d",
+    "repository_revision": "76729fc56bcdd3cb9236479b228163940874eff4"
+  },
+  "casecraft": {
+    "icon_source": "Casecraft/App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+    "generated": false,
+    "screenshots": [],
+    "artwork": [
+      {
+        "source": "Casecraft/Packs/london-1964/assets/story/london-hero.png",
+        "output": "/images/portfolio/casecraft/art-1.webp",
+        "kind": "in-game-illustration"
+      },
+      {
+        "source": "Casecraft/Packs/tycho-station-2061/assets/story/hero.png",
+        "output": "/images/portfolio/casecraft/art-2.webp",
+        "kind": "in-game-illustration"
+      }
+    ],
+    "source_sha256": "71842709b74b65c1301f166ebb7ec2f360c9eb2af5bd0c5e50bcb209fb6f0ca8",
+    "repository_revision": "59659d2ca0de6518d4cafb6b6dbb31b152953c7a"
+  },
+  "donaneusa": {
+    "icon_source": "DonaNeusa/ios/DonaNeusa/Resources/Assets.xcassets/AppIcon.appiconset/icon.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "https://abrigodonaneusa.com.br (public home captured 2026-09-30)",
+        "output": "/images/portfolio/donaneusa/screen-1.webp",
+        "kind": "web-capture"
+      }
+    ],
+    "source_sha256": "713b86d7a7573c8955092b5f2b4983ab5766a31a023d534fb7f4e7d795bd4f50",
+    "repository_revision": "59c0ffd423034014808eb1221717c741c739589f"
+  },
+  "pauta": {
+    "icon_source": "Pauta/apple/App/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "Pauta/docs/verification/daily-workspaces/iphone-today.png",
+        "output": "/images/portfolio/pauta/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Pauta/docs/verification/daily-workspaces/ipad-home.png",
+        "output": "/images/portfolio/pauta/screen-2.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Pauta/docs/verification/daily-workspaces/iphone-project.png",
+        "output": "/images/portfolio/pauta/screen-3.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "986167f88ec90c639bafdc08ec2c9f5c37f89c36523e02838e1744576353d070",
+    "repository_revision": "87aa918322009f5dc9ad0e822ca8b123c3fdfbec"
+  },
+  "brainfold": {
+    "icon_source": "Brainfold/Brainfold/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "Brainfold/fastlane/screenshots/en-US/00_01_study_tab_ipad.png",
+        "output": "/images/portfolio/brainfold/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Brainfold/fastlane/screenshots/en-US/03_04_tutor.png",
+        "output": "/images/portfolio/brainfold/screen-2.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "e8dd2928734a15bba6079a1ef49d1b480dbc8e7d19d2a0a2340c3c9aaa8aabdc",
+    "repository_revision": "62d690bfe94f16660417314a151aff3b33937195"
+  },
+  "starwake": {
+    "icon_source": "Starwake/app/Starwake/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+    "generated": false,
+    "screenshots": [],
+    "artwork": [
+      {
+        "source": "Starwake/app/Starwake/Plates/plate-home.jpg",
+        "output": "/images/portfolio/starwake/art-1.webp",
+        "kind": "in-game-illustration"
+      },
+      {
+        "source": "Starwake/app/Starwake/Plates/plate-firstWorld.jpg",
+        "output": "/images/portfolio/starwake/art-2.webp",
+        "kind": "in-game-illustration"
+      }
+    ],
+    "source_sha256": "3adccf59ed37b1bd0dd0acf4a12f91ed5b1dc8106a49294b02c5e10571794694",
+    "repository_revision": "9e6d4b9a815bee90824dbcfdfaeb6b948f8f204c"
+  },
+  "murmur": {
+    "icon_source": "Murmur/Murmur/Assets.xcassets/AppIcon.appiconset/murmuricon.jpg",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "Murmur/fastlane/screenshots_final/en-US/iPhone17ProMax-01_picker.png",
+        "output": "/images/portfolio/murmur/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Murmur/fastlane/screenshots_final/en-US/iPhone17ProMax-03_choice.png",
+        "output": "/images/portfolio/murmur/screen-2.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Murmur/fastlane/screenshots_final/en-US/iPhone17ProMax-04_world.png",
+        "output": "/images/portfolio/murmur/screen-3.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "91f8729db14ad7d94eeaf281f2f2519153cbf40a249b8188d934478b49ac48af",
+    "repository_revision": "74d2f1ffaa71133acef467419f73ac2ac02a7d20"
+  },
+  "zuzu": {
+    "icon_source": "zuzu/Zuzu/Assets/Assets.xcassets/AppIcon.appiconset/AppIconLight.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "zuzu/fastlane/screenshots/pt-BR/00_01_hero_home.png",
+        "output": "/images/portfolio/zuzu/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "zuzu/fastlane/screenshots/pt-BR/04_05_insights.png",
+        "output": "/images/portfolio/zuzu/screen-2.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Zuzu-android/fastlane/metadata/android/pt-BR/images/phoneScreenshots/01_home.png",
+        "output": "/images/portfolio/zuzu/screen-3.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "3fe06c0302481e8b299b5853afc9a597ccaac966f4fac61a4e4f19568d4a2006",
+    "repository_revision": "50c80fa590c087cf891c6afc29ca9c3a8893401b"
+  },
+  "tumtum": {
+    "icon_source": "TumTum/Sources/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/tumtum/screenshots/pt-BR/ipad-02-house-1440.webp",
+        "output": "/images/portfolio/tumtum/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "magiclabsolutions-site/images/tumtum/screenshots/pt-BR/ipad-06-aquarium-1440.webp",
+        "output": "/images/portfolio/tumtum/screen-2.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "f1caa66fe22458c74e6fe5564c47fd3f9c913117b96a890dd08ea04ceac2e920",
+    "repository_revision": "53e84fa7a39c24c3a15fd6455acb9ea6c3587567"
+  },
+  "giftly": {
+    "icon_source": "Giftly/Giftly/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/ba/6c/e0ba6ce3-1c60-bcfb-d532-ab5747d1ca69/iphone_1_today.png/320x480bb.jpg",
+        "output": "/images/portfolio/giftly/screen-1.webp",
+        "kind": "store-capture"
+      },
+      {
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/8f/0a/568f0a78-501d-f07d-8794-5803a6b34eb9/iphone_2_upcoming.png/320x480bb.jpg",
+        "output": "/images/portfolio/giftly/screen-2.webp",
+        "kind": "store-capture"
+      },
+      {
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/f9/80/17f980bc-4426-54e3-3824-19788ad51f3a/iphone_3_ideas.png/320x480bb.jpg",
+        "output": "/images/portfolio/giftly/screen-3.webp",
+        "kind": "store-capture"
+      }
+    ],
+    "source_sha256": "3bb754fce8604b7ba0fe16cd55c1b3b9b8f5ae84c4e4374eb46029053d27583d",
+    "repository_revision": "6e0ac2db32b795a1889fa8f11ac3f9c9331b9c5a"
+  },
+  "kinfold": {
+    "icon_source": "FamilyKit/FamilyVault/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "apps/kinfold/screenshots/en-US/01_vault.png",
+        "output": "/images/portfolio/kinfold/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "apps/kinfold/screenshots/en-US/02_trip.png",
+        "output": "/images/portfolio/kinfold/screen-2.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "281495e2758f2447484aa1443203f5fd56efb9141ba6638b62f609ffa9b23987",
+    "repository_revision": "57a9c8b1b7dabae56ba71cb873160c863d4b8d64"
+  },
+  "myrenewals": {
+    "icon_source": "SubscriptionManager/SubscriptionManager/Assets/Assets.xcassets/AppIcon.appiconset/myrenewals_icon.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/myrenewals/screenshot1.png",
+        "output": "/images/portfolio/myrenewals/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "magiclabsolutions-site/images/myrenewals/screenshot2.png",
+        "output": "/images/portfolio/myrenewals/screen-2.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "daaee151335b40365d9df6888eec4f0be76e9cda04a2cfcd13469b9c57c1cbe9",
+    "repository_revision": "17f9ecdf20c205d614bc7e6c4b5f8ccc5f22b1b1"
+  },
+  "sundust": {
+    "icon_source": "magiclabsolutions-site/images/sundust/app_icon.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/sundust/preview-poster.jpg",
+        "output": "/images/portfolio/sundust/screen-1.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "77de3f081dd0679f0dae81aa876b9f6a6a1095dfd8b4ceaa0b56c146ff17c9a7",
+    "repository_revision": "303e30b83ba548a2a75a250261360aa253e0534a"
+  },
+  "qramen": {
+    "icon_source": "magiclabsolutions-site/images/qramen/app_icon.png",
+    "generated": false,
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/qramen/hero.png",
+        "output": "/images/portfolio/qramen/screen-1.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "e7c63cd58739dc49fda7bc5de42da3d2fbc86012ec783bc746203a45d5660d46",
+    "repository_revision": "303e30b83ba548a2a75a250261360aa253e0534a"
+  },
+  "hortulus": {
+    "icon_source": "/Users/fabio.hoffmann/.codex/generated_images/01a0ed56-998f-7e00-be1e-ccc7c06c5c65/exec-09abb8ba-3c09-47ad-9144-70bf1bce837d.png",
+    "generated": true,
+    "screenshots": [],
+    "source_sha256": "17cd80d408dc810b3fad2ad9e49017802fa202a760620b2c0758e8a9de247e67"
+  },
+  "moonfold": {
+    "icon_source": "/Users/fabio.hoffmann/.codex/generated_images/01a0ed56-998f-7e00-be1e-ccc7c06c5c65/exec-2520752c-6550-465f-8047-9e8288365dde.png",
+    "generated": true,
+    "screenshots": [
+      {
+        "source": "Moonfold/docs/proofs/routine-phone-pt.png",
+        "output": "/images/portfolio/moonfold/screen-1.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Moonfold/docs/proofs/train-phone-pt.png",
+        "output": "/images/portfolio/moonfold/screen-2.webp",
+        "kind": "app-capture"
+      },
+      {
+        "source": "Moonfold/docs/proofs/studio-phone.png",
+        "output": "/images/portfolio/moonfold/screen-3.webp",
+        "kind": "app-capture"
+      }
+    ],
+    "source_sha256": "3b54303f8b6b708b05f95dd60c2657f80f95d16aad270696fd47f6209a4323e9"
+  }
+}

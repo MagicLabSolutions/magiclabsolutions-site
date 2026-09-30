@@ -1299,6 +1299,8 @@ lang-ref: brainfold-page
             }
         }
     </style>
+  <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+  <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
 </head>
 <body>
 
@@ -1311,7 +1313,7 @@ lang-ref: brainfold-page
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
             </a>
             <a href="#" class="nav-logo">
-                <img src="/images/brainfold/app_icon.png" alt="Brainfold" class="nav-logo-icon">
+                <img src="/images/portfolio/brainfold/icon.webp" alt="Brainfold" class="nav-logo-icon">
                 Brainfold
             </a>
             <ul class="nav-links">
@@ -1352,7 +1354,7 @@ lang-ref: brainfold-page
                 <div class="hero-visual">
                     <div class="hero-icon-wrapper">
                         <div class="hero-icon-glow"></div>
-                        <img src="/images/brainfold/app_icon.png" alt="Brainfold App Icon" class="hero-app-icon" loading="eager">
+                        <img src="/images/portfolio/brainfold/icon.webp" alt="Brainfold App Icon" class="hero-app-icon" loading="eager">
                     </div>
                 </div>
             </div>
@@ -1673,7 +1675,8 @@ lang-ref: brainfold-page
     <!-- ========================================
          FOOTER
          ======================================== -->
-    <footer>
+    {% include product-experience.html slug='brainfold' %}
+<footer>
         <div class="container">
             <div class="footer-content">
                 <span>&copy; 2025 <a href="/">Magic Lab Solutions</a>. {{ b.footer_rights | default: "All rights reserved." }}</span>

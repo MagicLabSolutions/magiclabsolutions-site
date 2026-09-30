@@ -1275,6 +1275,8 @@ lang-ref: zuzu-page
             }
         }
     </style>
+  <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+  <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
 </head>
 <body>
 
@@ -1287,7 +1289,7 @@ lang-ref: zuzu-page
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
             </a>
             <a href="#" class="nav-logo">
-                <img src="/images/zuzu/app_icon.png" alt="Zuzu" class="nav-logo-icon">
+                <img src="/images/portfolio/zuzu/icon.webp" alt="Zuzu" class="nav-logo-icon">
                 Zuzu
             </a>
             <ul class="nav-links">
@@ -1336,7 +1338,7 @@ lang-ref: zuzu-page
                 <div class="hero-visual">
                     <div class="hero-icon-wrapper">
                         <div class="hero-icon-glow"></div>
-                        <img src="/images/zuzu/app_icon.png" alt="Zuzu App Icon" class="hero-app-icon" loading="eager">
+                        <img src="/images/portfolio/zuzu/icon.webp" alt="Zuzu App Icon" class="hero-app-icon" loading="eager">
                     </div>
                 </div>
             </div>
@@ -1522,7 +1524,8 @@ lang-ref: zuzu-page
     <!-- ========================================
          FOOTER
          ======================================== -->
-    <footer>
+    {% include product-experience.html slug='zuzu' %}
+<footer>
         <div class="container">
             <div class="footer-content">
                 <span>&copy; 2025 <a href="#">Magic Lab Solutions</a>. {{ z.footer_rights | default: "All rights reserved." }}</span>

@@ -1,0 +1,1840 @@
+[
+  {
+    "slug": "toctoc",
+    "name": "Toc Toc",
+    "category": "apps",
+    "status": "beta",
+    "color": "#F26B1D",
+    "platform": "Mac · iPhone",
+    "demo": "knock",
+    "repositories": [
+      "TocToc"
+    ],
+    "icon": "/images/portfolio/toctoc/icon.webp",
+    "keywords": [
+      "alerta de reunião Mac",
+      "lembrete de reunião iPhone",
+      "meeting reminders"
+    ],
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/toctoc/pt-BR/mac-knock.jpg",
+        "output": "/images/portfolio/toctoc/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Alerta de reunião em tela cheia no Mac",
+          "en": "Full-screen meeting alert on Mac"
+        }
+      },
+      {
+        "source": "magiclabsolutions-site/images/toctoc/pt-BR/mac-menubar.jpg",
+        "output": "/images/portfolio/toctoc/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Próximas reuniões na barra de menus",
+          "en": "Upcoming meetings in the menu bar"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "A reunião chama. Você chega.",
+        "description": "Alertas de reunião que atravessam o hiperfoco: duas batidinhas, contagem regressiva e o caminho para a chamada.",
+        "features": [
+          "Duas batidas para chamar atenção",
+          "Contagem regressiva visível",
+          "Atalho para entrar na reunião"
+        ]
+      },
+      "en": {
+        "headline": "Your meeting is calling. Be there.",
+        "description": "Meeting reminders that cut through deep focus: two knocks, a countdown and a way into your call.",
+        "features": [
+          "Two knocks to get your attention",
+          "A countdown you can see",
+          "A way into your meeting"
+        ]
+      },
+      "de": {
+        "headline": "Klopft vor jedem Meeting an",
+        "description": "Eine Minute vor jedem Meeting klopft Toc Toc an – im Vollbild auf deinem Mac, mit Countdown und Beitreten-Button, und mit einem Wecker auf deinem iPhone, selbst im Stummmodus. Kein Account, nichts verlässt deine Geräte. Demnächst für Mac und iPhone.",
+        "features": [
+          "Two knocks to get your attention",
+          "A countdown you can see",
+          "A way into your meeting"
+        ]
+      },
+      "es": {
+        "headline": "Toca antes de cada reunión",
+        "description": "Un minuto antes de cada reunión, Toc Toc toca: en toda la pantalla de tu Mac, con una cuenta atrás y un botón Unirse, y como alarma en tu iPhone, incluso en modo Silencio. Sin cuenta, nada sale de tus dispositivos. Muy pronto para Mac y iPhone.",
+        "features": [
+          "Two knocks to get your attention",
+          "A countdown you can see",
+          "A way into your meeting"
+        ]
+      },
+      "fr": {
+        "headline": "Frappe avant chaque réunion",
+        "description": "Une minute avant chaque réunion, Toc Toc frappe — en plein écran sur votre Mac, avec un compte à rebours et un bouton Rejoindre, et avec une alarme sur votre iPhone, même en mode Silence. Sans compte, rien ne quitte vos appareils. Bientôt disponible sur Mac et iPhone.",
+        "features": [
+          "Two knocks to get your attention",
+          "A countdown you can see",
+          "A way into your meeting"
+        ]
+      },
+      "ja": {
+        "headline": "会議の前に、ノックでお知らせ",
+        "description": "会議の1分前、Toc Tocがノックします。Macでは画面いっぱいにカウントダウンと「参加」ボタンを表示し、iPhoneでは消音モードのときでもアラームが鳴ります。アカウント不要で、データがデバイスの外に出ることはありません。Mac・iPhone向けに近日公開。",
+        "features": [
+          "Two knocks to get your attention",
+          "A countdown you can see",
+          "A way into your meeting"
+        ]
+      },
+      "ko": {
+        "headline": "회의 직전마다 똑똑 노크",
+        "description": "회의 1분 전, Toc Toc이 노크합니다. Mac에서는 카운트다운과 참가 버튼으로 화면 전체를 채우고, iPhone에서는 무음 모드에서도 알람으로 울립니다. 계정이 필요 없고, 어떤 데이터도 기기 밖으로 나가지 않습니다. Mac과 iPhone용으로 출시 예정입니다.",
+        "features": [
+          "Two knocks to get your attention",
+          "A countdown you can see",
+          "A way into your meeting"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "每场会议前都来敲门",
+        "description": "每场会议开始前一分钟，Toc Toc 就会来敲门：在 Mac 上全屏显示倒计时和“加入”按钮，在 iPhone 上以闹钟响起，静音模式下也不例外。无需账户，数据不会离开你的设备。即将登陆 Mac 和 iPhone。",
+        "features": [
+          "Two knocks to get your attention",
+          "A countdown you can see",
+          "A way into your meeting"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "soooon",
+    "name": "Soooon",
+    "category": "apps",
+    "status": "development",
+    "color": "#F9AA65",
+    "platform": "iPhone · iPad · Mac",
+    "demo": "countdown",
+    "repositories": [
+      "Soooon"
+    ],
+    "icon": "/images/portfolio/soooon/icon.webp",
+    "keywords": [
+      "contagem regressiva",
+      "countdown app",
+      "aniversários e viagens"
+    ],
+    "screenshots": [],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "A espera também pode ser boa.",
+        "description": "Aniversários, viagens e feriados em contagens regressivas com uma criaturinha que se anima junto com você.",
+        "features": [
+          "Datas que importam",
+          "Uma companhia para esperar",
+          "Widgets para acompanhar"
+        ]
+      },
+      "en": {
+        "headline": "Something good is getting closer.",
+        "description": "Birthdays, trips and holidays become countdowns with a little companion that gets excited with you.",
+        "features": [
+          "Dates that matter",
+          "A companion for the wait",
+          "Widgets to follow along"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "groundcontrol",
+    "name": "GroundControl",
+    "category": "apps",
+    "status": "beta",
+    "color": "#8DC5FC",
+    "platform": "Mac",
+    "demo": "git",
+    "repositories": [
+      "GroundControl"
+    ],
+    "icon": "/images/portfolio/groundcontrol/icon.webp",
+    "keywords": [
+      "cliente Git Mac",
+      "Git dashboard",
+      "gerenciador repositórios"
+    ],
+    "screenshots": [
+      {
+        "source": "GroundControl/fastlane/screenshots/en-US/1-flight-map.png",
+        "output": "/images/portfolio/groundcontrol/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Mapa de branches e repositórios Git",
+          "en": "Git repository and branch map"
+        }
+      },
+      {
+        "source": "GroundControl/fastlane/screenshots/en-US/4-changes.png",
+        "output": "/images/portfolio/groundcontrol/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Alterações de arquivos no projeto",
+          "en": "Project file changes"
+        }
+      },
+      {
+        "source": "GroundControl/fastlane/screenshots/en-US/3-pull.png",
+        "output": "/images/portfolio/groundcontrol/screen-3.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Revisão antes do pull",
+          "en": "Review before a pull"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Todos os seus repositórios. Uma missão.",
+        "description": "Um painel nativo para ver branches, alterações e o que precisa de atenção nos seus repositórios Git.",
+        "features": [
+          "Visão dos repositórios",
+          "Branches e alterações",
+          "Pull, push e histórico"
+        ]
+      },
+      "en": {
+        "headline": "Every repository. One mission control.",
+        "description": "A native dashboard for branches, changes and everything that needs attention across your Git repositories.",
+        "features": [
+          "Your repositories at a glance",
+          "Branches and changes",
+          "Pull, push and history"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "poof",
+    "name": "Poof",
+    "category": "apps",
+    "status": "unverified",
+    "color": "#CAA5FF",
+    "platform": "Mac",
+    "demo": "clean",
+    "repositories": [
+      "Poof"
+    ],
+    "icon": "/images/portfolio/poof/icon.webp",
+    "keywords": [
+      "limpeza de Mac",
+      "Mac cleaner",
+      "liberar espaço macOS"
+    ],
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/poof/hero.jpg",
+        "output": "/images/portfolio/poof/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Resultado da análise de espaço no Mac",
+          "en": "Mac storage scan results"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Abra espaço. E respire.",
+        "description": "Veja caches, arquivos grandes e sobras de desenvolvimento. Escolha o que sai antes de limpar o Mac.",
+        "features": [
+          "Veja antes de limpar",
+          "Encontre arquivos grandes",
+          "Escolha o que remover"
+        ]
+      },
+      "en": {
+        "headline": "Make room. Breathe easier.",
+        "description": "Find caches, large files and development leftovers. See what goes before you clean your Mac.",
+        "features": [
+          "Review before cleaning",
+          "Find large files",
+          "Choose what to remove"
+        ]
+      }
+    },
+    "availability_note": {
+      "pt-BR": "A disponibilidade pública está em confirmação. Conheça o projeto enquanto isso.",
+      "en": "Public availability is being confirmed. Explore the project in the meantime."
+    }
+  },
+  {
+    "slug": "hooray",
+    "name": "Hooray",
+    "category": "apps",
+    "status": "released",
+    "color": "#FF977E",
+    "platform": "Web",
+    "demo": "card",
+    "repositories": [
+      "Hooray"
+    ],
+    "icon": "/images/portfolio/hooray/icon.webp",
+    "keywords": [
+      "cartão coletivo online",
+      "group greeting cards",
+      "cartão aniversário"
+    ],
+    "screenshots": [
+      {
+        "source": "https://hooraycards.com (public example card, captured 2026-09-30)",
+        "output": "/images/portfolio/hooray/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Criação de cartões de grupo no site Hooray",
+          "en": "Group greeting cards on the Hooray website"
+        }
+      },
+      {
+        "source": "https://hooraycards.com (public example card, captured 2026-09-30)",
+        "output": "/images/portfolio/hooray/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Cartão público de demonstração aberto",
+          "en": "An open public example card"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Uma surpresa. Muitas pessoas.",
+        "description": "Cartões de grupo com mensagens, adesivos e uma revelação cheia de confete. Cada pessoa deixa um pedacinho de carinho.",
+        "features": [
+          "Um link para o grupo",
+          "Mensagens e adesivos",
+          "Uma surpresa para abrir"
+        ]
+      },
+      "en": {
+        "headline": "One surprise. So many people.",
+        "description": "Group greeting cards with messages, stickers and a confetti reveal. A little kindness from everyone.",
+        "features": [
+          "One link for the group",
+          "Messages and stickers",
+          "A surprise to open"
+        ]
+      },
+      "de": {
+        "headline": "Gruppenkarten, die man behält",
+        "description": "Starte eine gemeinsame Grußkarte, teile einen privaten Link, und alle fügen Nachrichten, Sticker und GIFs hinzu. Sie wird mit einem Konfetti-Moment im Postfach der beschenkten Person zugestellt.",
+        "features": [
+          "One link for the group",
+          "Messages and stickers",
+          "A surprise to open"
+        ]
+      },
+      "es": {
+        "headline": "Tarjetas grupales que se recuerdan",
+        "description": "Crea una tarjeta de felicitación en grupo, comparte un enlace privado y cada persona añade mensajes, pegatinas y GIFs. Se entrega en la bandeja de entrada del destinatario con una lluvia de confeti.",
+        "features": [
+          "One link for the group",
+          "Messages and stickers",
+          "A surprise to open"
+        ]
+      },
+      "fr": {
+        "headline": "Des cartes de groupe mémorables",
+        "description": "Lancez une carte de vœux collective, partagez un lien privé, et chacun ajoute ses messages, autocollants et GIFs. Elle arrive dans la boîte mail du destinataire avec une pluie de confettis.",
+        "features": [
+          "One link for the group",
+          "Messages and stickers",
+          "A surprise to open"
+        ]
+      },
+      "ja": {
+        "headline": "記憶に残るみんなの寄せ書き",
+        "description": "グループのグリーティングカードを作成し、プライベートなリンクを共有すると、みんながメッセージやステッカー、GIFを追加できます。指定した時刻に相手の受信箱へ届き、紙吹雪の演出とともに開きます。",
+        "features": [
+          "One link for the group",
+          "Messages and stickers",
+          "A surprise to open"
+        ]
+      },
+      "ko": {
+        "headline": "오래 기억되는 단체 카드",
+        "description": "단체 축하 카드를 만들고 비공개 링크를 공유하면 모두가 메시지, 스티커, GIF를 더할 수 있습니다. 예정된 시간에 받는 사람의 메일함으로 전달되며 색종이 축하와 함께 열립니다.",
+        "features": [
+          "One link for the group",
+          "Messages and stickers",
+          "A surprise to open"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "让人难忘的集体贺卡",
+        "description": "发起一张集体贺卡，分享私密链接，大家都能添加留言、贴纸和 GIF。它会在设定的时间送达收件人的邮箱，并以彩纸庆祝的方式打开。",
+        "features": [
+          "One link for the group",
+          "Messages and stickers",
+          "A surprise to open"
+        ]
+      }
+    },
+    "web_url": "https://hooraycards.com",
+    "evidence": "https://hooraycards.com — verified HTTP 200 and public example card on 2026-09-30"
+  },
+  {
+    "slug": "memories",
+    "name": "Memories",
+    "category": "apps",
+    "status": "released",
+    "color": "#F4B9CD",
+    "platform": "iPhone · iPad",
+    "demo": "timeline",
+    "repositories": [
+      "Memories"
+    ],
+    "icon": "/images/portfolio/memories/icon.webp",
+    "keywords": [
+      "vídeo mesversário",
+      "baby milestone video",
+      "fotos bebê"
+    ],
+    "screenshots": [
+      {
+        "source": "Memories/fastlane/screenshots/pt-BR/00_hero.png",
+        "output": "/images/portfolio/memories/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Meses de fotos organizados em filmes",
+          "en": "Monthly photos organised into films"
+        }
+      },
+      {
+        "source": "Memories/fastlane/screenshots/pt-BR/01_timeline.png",
+        "output": "/images/portfolio/memories/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Linha do tempo de memórias",
+          "en": "Memories timeline"
+        }
+      },
+      {
+        "source": "Memories/fastlane/screenshots/pt-BR/02_highlights.png",
+        "output": "/images/portfolio/memories/screen-3.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Seleção de momentos favoritos",
+          "en": "Favourite moments"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Eles crescem. A história fica.",
+        "description": "Transforme fotos do crescimento do bebê em uma linha do tempo e vídeos de mesversário para guardar e compartilhar.",
+        "features": [
+          "Uma linha do tempo",
+          "Momentos para guardar",
+          "Vídeos para compartilhar"
+        ]
+      },
+      "en": {
+        "headline": "They grow. The story stays.",
+        "description": "Turn your baby’s photos into a growing timeline and monthly milestone videos to keep and share.",
+        "features": [
+          "A growing timeline",
+          "Moments to keep",
+          "Videos to share"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/memories-v%C3%ADdeo-de-mesvers%C3%A1rio/id6763877209",
+    "version": "1.1.0",
+    "evidence": "https://itunes.apple.com/lookup?bundleId=com.magiclabsolutions.memories&country=br"
+  },
+  {
+    "slug": "casecraft",
+    "name": "CaseCraft",
+    "category": "games",
+    "status": "development",
+    "color": "#78CCC6",
+    "platform": "iPhone · iPad · Mac · Apple TV",
+    "demo": "clue",
+    "repositories": [
+      "CaseCraft"
+    ],
+    "icon": "/images/portfolio/casecraft/icon.webp",
+    "keywords": [
+      "jogo detetive",
+      "detective puzzle",
+      "jogo lógica investigação"
+    ],
+    "screenshots": [],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Todo detalhe conta uma história.",
+        "description": "Uma antologia de mistérios ilustrados. Cruze pistas, teste álibis e resolva puzzles de lógica em diferentes épocas e lugares.",
+        "features": [
+          "Cenários ilustrados",
+          "Pistas que se conectam",
+          "Puzzles de dedução"
+        ]
+      },
+      "en": {
+        "headline": "Every detail tells a story.",
+        "description": "An anthology of illustrated mysteries. Connect clues, test alibis and solve logic puzzles across places and eras.",
+        "features": [
+          "Illustrated settings",
+          "Clues that connect",
+          "Deduction puzzles"
+        ]
+      }
+    },
+    "artwork": [
+      {
+        "source": "Casecraft/Packs/london-1964/assets/story/london-hero.png",
+        "output": "/images/portfolio/casecraft/art-1.webp",
+        "kind": "in-game-illustration"
+      },
+      {
+        "source": "Casecraft/Packs/tycho-station-2061/assets/story/hero.png",
+        "output": "/images/portfolio/casecraft/art-2.webp",
+        "kind": "in-game-illustration"
+      }
+    ]
+  },
+  {
+    "slug": "donaneusa",
+    "name": "Dona Neusa",
+    "category": "apps",
+    "status": "released",
+    "color": "#F1B46A",
+    "platform": "Web · app da equipe / team app",
+    "demo": "shelter",
+    "repositories": [
+      "DonaNeusa"
+    ],
+    "icon": "/images/portfolio/donaneusa/icon.webp",
+    "keywords": [
+      "abrigo de animais",
+      "plataforma adoção",
+      "gestão abrigo"
+    ],
+    "screenshots": [
+      {
+        "source": "https://abrigodonaneusa.com.br (public home captured 2026-09-30)",
+        "output": "/images/portfolio/donaneusa/screen-1.webp",
+        "kind": "web-capture",
+        "alt": {
+          "pt-BR": "Página pública de adoção do Abrigo Dona Neusa",
+          "en": "Dona Neusa shelter’s public adoption website"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Mais tempo para cuidar.",
+        "description": "Um projeto para o abrigo de animais: adoção, apadrinhamento e organização do trabalho de quem cuida todos os dias.",
+        "features": [
+          "Adoção responsável",
+          "Apadrinhamento",
+          "Organização da equipe"
+        ]
+      },
+      "en": {
+        "headline": "More time to care.",
+        "description": "A project for an animal shelter: adoption, sponsorship and tools for the people providing care every day.",
+        "features": [
+          "Responsible adoption",
+          "Sponsorship",
+          "Team organisation"
+        ]
+      }
+    },
+    "web_url": "https://abrigodonaneusa.com.br",
+    "evidence": "https://abrigodonaneusa.com.br — public website verified 2026-09-30; staff app has restricted distribution"
+  },
+  {
+    "slug": "pauta",
+    "name": "Pauta",
+    "category": "apps",
+    "status": "beta",
+    "color": "#E9CD94",
+    "platform": "iPhone · iPad · Mac",
+    "demo": "tasks",
+    "repositories": [
+      "Pauta"
+    ],
+    "icon": "/images/portfolio/pauta/icon.webp",
+    "keywords": [
+      "gerenciador de tarefas",
+      "organizador de projetos",
+      "task planner"
+    ],
+    "screenshots": [
+      {
+        "source": "Pauta/docs/verification/daily-workspaces/iphone-today.png",
+        "output": "/images/portfolio/pauta/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "A pauta do dia no iPhone",
+          "en": "Today’s agenda on iPhone"
+        }
+      },
+      {
+        "source": "Pauta/docs/verification/daily-workspaces/ipad-home.png",
+        "output": "/images/portfolio/pauta/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Visão de trabalho no iPad",
+          "en": "Workspace on iPad"
+        }
+      },
+      {
+        "source": "Pauta/docs/verification/daily-workspaces/iphone-project.png",
+        "output": "/images/portfolio/pauta/screen-3.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Detalhes de um projeto",
+          "en": "Project details"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Sua vida merece uma boa pauta.",
+        "description": "Tarefas, projetos e rotina em uma interface com cara de jornal. Do que precisa ser feito hoje ao que você está construindo.",
+        "features": [
+          "Seu dia organizado",
+          "Projetos no horizonte",
+          "Pequenos próximos passos"
+        ]
+      },
+      "en": {
+        "headline": "Give your day a little direction.",
+        "description": "Tasks, projects and routines in an interface inspired by newspapers. From today’s essentials to what you are building next.",
+        "features": [
+          "Your day organised",
+          "Projects on the horizon",
+          "Small next steps"
+        ]
+      },
+      "es": {
+        "headline": "Un titular al día",
+        "description": "Un planificador diario para ti y tu familia, con aire de periódico impreso. Captura por voz o por texto, deja que un asistente lo archive en el proyecto correcto y mantén la casa — tareas, compra, deseos — en la misma página. Muy pronto para iPhone, iPad y Mac.",
+        "features": [
+          "Your day organised",
+          "Projects on the horizon",
+          "Small next steps"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "brainfold",
+    "name": "Brainfold",
+    "category": "apps",
+    "status": "released",
+    "color": "#BEAFFA",
+    "platform": "iPhone · iPad · Mac",
+    "demo": "flashcard",
+    "repositories": [
+      "Brainfold"
+    ],
+    "icon": "/images/portfolio/brainfold/icon.webp",
+    "keywords": [
+      "flashcards com IA",
+      "repetição espaçada",
+      "AI flashcards"
+    ],
+    "screenshots": [
+      {
+        "source": "Brainfold/fastlane/screenshots/en-US/00_01_study_tab_ipad.png",
+        "output": "/images/portfolio/brainfold/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Biblioteca de estudos no iPad",
+          "en": "Study library on iPad"
+        }
+      },
+      {
+        "source": "Brainfold/fastlane/screenshots/en-US/03_04_tutor.png",
+        "output": "/images/portfolio/brainfold/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Tutor de estudos",
+          "en": "Study tutor"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Aprender. Lembrar. Conectar.",
+        "description": "Transforme materiais de estudo em flashcards e revise com repetição espaçada, ajuda de IA e sessões que cabem no seu dia.",
+        "features": [
+          "Crie flashcards",
+          "Revise com frequência",
+          "Conecte o aprendizado"
+        ]
+      },
+      "en": {
+        "headline": "Learn it. Remember it. Connect it.",
+        "description": "Turn study materials into flashcards and review with spaced repetition, AI assistance and sessions that fit your day.",
+        "features": [
+          "Create flashcards",
+          "Review regularly",
+          "Connect your learning"
+        ]
+      },
+      "de": {
+        "headline": "KI-gestützter Lernbegleiter",
+        "description": "Scanne deine Notizen und lass KI Lernkarten, Quizze, Zusammenfassungen und einen persönlichen Tutor erstellen. Lerne allein oder fordere Freunde heraus.",
+        "features": [
+          "Create flashcards",
+          "Review regularly",
+          "Connect your learning"
+        ]
+      },
+      "es": {
+        "headline": "Compañero de estudio con IA",
+        "description": "Escanea tus apuntes y deja que la IA cree tarjetas, cuestionarios, resúmenes y un tutor personal. Estudia solo o desafía a tus amigos.",
+        "features": [
+          "Create flashcards",
+          "Review regularly",
+          "Connect your learning"
+        ]
+      },
+      "fr": {
+        "headline": "Compagnon d'étude propulsé par l'IA",
+        "description": "Scannez vos notes et laissez l'IA créer des cartes mémoire, des quiz, des résumés et un tuteur personnel. Étudiez seul ou défiez vos amis.",
+        "features": [
+          "Create flashcards",
+          "Review regularly",
+          "Connect your learning"
+        ]
+      },
+      "ja": {
+        "headline": "AI搭載の学習パートナー",
+        "description": "ノートをスキャンしてAIにフラッシュカード、クイズ、要約、個人チューターを作成させましょう。一人で学習したり、友達と対戦したり。",
+        "features": [
+          "Create flashcards",
+          "Review regularly",
+          "Connect your learning"
+        ]
+      },
+      "ko": {
+        "headline": "AI 기반 학습 도우미",
+        "description": "노트를 스캔하고 AI가 플래시카드, 퀴즈, 요약, 개인 튜터를 만들게 하세요. 혼자 공부하거나 친구와 대결하세요.",
+        "features": [
+          "Create flashcards",
+          "Review regularly",
+          "Connect your learning"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "AI驱动的学习伙伴",
+        "description": "扫描笔记，让AI创建闪卡、测验、摘要和个人导师。独自学习或与朋友对战。",
+        "features": [
+          "Create flashcards",
+          "Review regularly",
+          "Connect your learning"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/brainfold-flashcards-com-ia/id6760474378",
+    "version": "1.2.0",
+    "evidence": "https://itunes.apple.com/lookup?id=6760474378&country=br"
+  },
+  {
+    "slug": "starwake",
+    "name": "Starwake",
+    "category": "games",
+    "status": "development",
+    "color": "#86C5D8",
+    "platform": "Plataformas Apple",
+    "demo": "space",
+    "repositories": [
+      "Starwake"
+    ],
+    "icon": "/images/portfolio/starwake/icon.webp",
+    "keywords": [
+      "exploração espacial",
+      "procedural galaxy game",
+      "jogo planetas"
+    ],
+    "screenshots": [],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "O silêncio também é um sinal.",
+        "description": "Uma galáxia procedural para viajar, pousar e explorar. Planetas, civilizações e vestígios de quem esteve aqui antes.",
+        "features": [
+          "Explore outros mundos",
+          "Trace seu caminho",
+          "Descubra o desconhecido"
+        ]
+      },
+      "en": {
+        "headline": "Silence is a signal, too.",
+        "description": "A procedural galaxy to travel, land and explore. Planets, civilisations and traces of those who came before.",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      }
+    },
+    "artwork": [
+      {
+        "source": "Starwake/app/Starwake/Plates/plate-home.jpg",
+        "output": "/images/portfolio/starwake/art-1.webp",
+        "kind": "in-game-illustration"
+      },
+      {
+        "source": "Starwake/app/Starwake/Plates/plate-firstWorld.jpg",
+        "output": "/images/portfolio/starwake/art-2.webp",
+        "kind": "in-game-illustration"
+      }
+    ]
+  },
+  {
+    "slug": "murmur",
+    "name": "Murmur",
+    "category": "games",
+    "status": "development",
+    "color": "#B3ADDE",
+    "platform": "iPhone · iPad",
+    "demo": "story",
+    "repositories": [
+      "Murmur"
+    ],
+    "icon": "/images/portfolio/murmur/icon.webp",
+    "keywords": [
+      "histórias interativas",
+      "interactive chat stories",
+      "ficção escolhas"
+    ],
+    "screenshots": [
+      {
+        "source": "Murmur/fastlane/screenshots_final/en-US/iPhone17ProMax-01_picker.png",
+        "output": "/images/portfolio/murmur/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Biblioteca de histórias por mensagens",
+          "en": "Library of chat stories"
+        }
+      },
+      {
+        "source": "Murmur/fastlane/screenshots_final/en-US/iPhone17ProMax-03_choice.png",
+        "output": "/images/portfolio/murmur/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Escolhas dentro de uma conversa",
+          "en": "Choices in a conversation"
+        }
+      },
+      {
+        "source": "Murmur/fastlane/screenshots_final/en-US/iPhone17ProMax-04_world.png",
+        "output": "/images/portfolio/murmur/screen-3.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "O mundo da história",
+          "en": "The story world"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Uma mensagem muda tudo.",
+        "description": "Histórias que acontecem em conversas. Escolha o que responder e descubra aonde cada decisão pode levar.",
+        "features": [
+          "Converse com a história",
+          "Escolha uma resposta",
+          "Descubra outros caminhos"
+        ]
+      },
+      "en": {
+        "headline": "One message changes everything.",
+        "description": "Stories told through conversations. Choose your reply and discover where each decision can lead.",
+        "features": [
+          "Talk to the story",
+          "Choose a reply",
+          "Discover other paths"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "zuzu",
+    "name": "Zuzu",
+    "category": "apps",
+    "status": "released",
+    "color": "#C7B8F0",
+    "platform": "iPhone · iPad · Android",
+    "demo": "baby",
+    "repositories": [
+      "zuzu",
+      "Zuzu-android"
+    ],
+    "icon": "/images/portfolio/zuzu/icon.webp",
+    "keywords": [
+      "rotina do bebê",
+      "baby tracker",
+      "sono alimentação fraldas"
+    ],
+    "screenshots": [
+      {
+        "source": "zuzu/fastlane/screenshots/pt-BR/00_01_hero_home.png",
+        "output": "/images/portfolio/zuzu/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Rotina do bebê no iPhone",
+          "en": "Baby’s daily routine on iPhone"
+        }
+      },
+      {
+        "source": "zuzu/fastlane/screenshots/pt-BR/04_05_insights.png",
+        "output": "/images/portfolio/zuzu/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Insights da rotina",
+          "en": "Routine insights"
+        }
+      },
+      {
+        "source": "Zuzu-android/fastlane/metadata/android/pt-BR/images/phoneScreenshots/01_home.png",
+        "output": "/images/portfolio/zuzu/screen-3.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Rotina do bebê no Android",
+          "en": "Baby’s daily routine on Android"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "O dia do bebê. Em boas mãos.",
+        "description": "Sono, alimentação, fraldas e crescimento em um só lugar, para toda a rede de cuidado acompanhar a rotina do bebê.",
+        "features": [
+          "Registros do dia a dia",
+          "Sono e alimentação",
+          "Cuidado em família"
+        ]
+      },
+      "en": {
+        "headline": "Baby’s day. In good hands.",
+        "description": "Sleep, feeding, diapers and growth in one place, helping everyone who cares for your baby follow the day together.",
+        "features": [
+          "Everyday logs",
+          "Sleep and feeding",
+          "Care as a family"
+        ]
+      },
+      "de": {
+        "headline": "Baby-Tracking, gemeinsam",
+        "description": "Smartes Baby-Tracking mit einer wunderschönen visuellen Zeitleiste. Schlaf, Mahlzeiten, Windeln, Wachstum und KI-gestützte Einblicke — alles an einem Ort.",
+        "features": [
+          "Everyday logs",
+          "Sleep and feeding",
+          "Care as a family"
+        ]
+      },
+      "es": {
+        "headline": "Seguimiento del bebé, juntos",
+        "description": "Seguimiento inteligente del bebé con una hermosa línea de tiempo visual. Sueño, alimentación, pañales, crecimiento e información impulsada por IA — todo en un solo lugar.",
+        "features": [
+          "Everyday logs",
+          "Sleep and feeding",
+          "Care as a family"
+        ]
+      },
+      "fr": {
+        "headline": "Suivi de bébé, ensemble",
+        "description": "Suivi intelligent de bébé avec une belle chronologie visuelle. Sommeil, repas, couches, croissance et analyses alimentées par l'IA — tout en un seul endroit.",
+        "features": [
+          "Everyday logs",
+          "Sleep and feeding",
+          "Care as a family"
+        ]
+      },
+      "ja": {
+        "headline": "一緒に赤ちゃんの記録を",
+        "description": "美しいビジュアルタイムラインでスマートな赤ちゃんの記録。睡眠、授乳、おむつ、成長、AI分析 — すべてを一つの場所で。",
+        "features": [
+          "Everyday logs",
+          "Sleep and feeding",
+          "Care as a family"
+        ]
+      },
+      "ko": {
+        "headline": "함께하는 아기 기록",
+        "description": "아름다운 비주얼 타임라인으로 스마트한 아기 기록. 수면, 수유, 기저귀, 성장, AI 분석 — 모두 한 곳에서.",
+        "features": [
+          "Everyday logs",
+          "Sleep and feeding",
+          "Care as a family"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "一起记录宝宝成长",
+        "description": "通过精美的可视化时间线智能记录宝宝的一切。睡眠、喂养、换尿布、成长和AI分析——尽在一处。",
+        "features": [
+          "Everyday logs",
+          "Sleep and feeding",
+          "Care as a family"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/zuzu-rastreador-beb%C3%AA-sono/id6757988505",
+    "version": "2.6.0",
+    "evidence": "https://itunes.apple.com/lookup?id=6757988505&country=br",
+    "play_url": "https://play.google.com/store/apps/details?id=com.magiclabsolutions.zuzu"
+  },
+  {
+    "slug": "hortulus",
+    "name": "Hortulus",
+    "category": "apps",
+    "status": "development",
+    "color": "#AAC58F",
+    "platform": "iPhone · iPad · Mac · Apple Watch",
+    "demo": "plant",
+    "repositories": [
+      "Hortulus"
+    ],
+    "icon": "/images/portfolio/hortulus/icon.webp",
+    "keywords": [
+      "cuidados com plantas",
+      "plant care app",
+      "herbário digital"
+    ],
+    "screenshots": [],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Um jardim que você entende.",
+        "description": "Seu herbário vivo: plantas, cuidados com explicação e uma horta planejada para o seu clima. Em desenvolvimento.",
+        "features": [
+          "Um herbário vivo",
+          "Cuidados com explicação",
+          "Planejamento da horta"
+        ]
+      },
+      "en": {
+        "headline": "A garden you understand.",
+        "description": "Your living herbarium: plants, care with explanations and a vegetable garden planned for your climate. In development.",
+        "features": [
+          "A living herbarium",
+          "Care with explanations",
+          "Garden planning"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "moonfold",
+    "name": "Moonfold",
+    "category": "apps",
+    "status": "development",
+    "color": "#DABAD4",
+    "platform": "iPhone · iPad",
+    "demo": "bedtime",
+    "repositories": [
+      "Moonfold"
+    ],
+    "icon": "/images/portfolio/moonfold/icon.webp",
+    "keywords": [
+      "histórias para dormir",
+      "bedtime stories app",
+      "rotina noturna infantil"
+    ],
+    "screenshots": [
+      {
+        "source": "Moonfold/docs/proofs/routine-phone-pt.png",
+        "output": "/images/portfolio/moonfold/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Rotina noturna em desenvolvimento",
+          "en": "Bedtime routine in development"
+        }
+      },
+      {
+        "source": "Moonfold/docs/proofs/train-phone-pt.png",
+        "output": "/images/portfolio/moonfold/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Trem noturno em desenvolvimento",
+          "en": "Night train in development"
+        }
+      },
+      {
+        "source": "Moonfold/docs/proofs/studio-phone.png",
+        "output": "/images/portfolio/moonfold/screen-3.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Estúdio de histórias em desenvolvimento",
+          "en": "Story studio in development"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "A noite chega devagar.",
+        "description": "Um quarto de papel, histórias e pequenos rituais para a hora de dormir. Uma experiência calma em construção para crianças e famílias.",
+        "features": [
+          "Um ritual mais calmo",
+          "Histórias para compartilhar",
+          "Um quarto que adormece"
+        ]
+      },
+      "en": {
+        "headline": "Let the night arrive gently.",
+        "description": "A paper room, stories and little bedtime rituals. A calm experience in development for children and families.",
+        "features": [
+          "A calmer ritual",
+          "Stories to share",
+          "A room that falls asleep"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "whyme",
+    "name": "WhyMe",
+    "category": "apps",
+    "status": "concept",
+    "color": "#BAC2D2",
+    "platform": "Magic Lab · em preparação",
+    "demo": "idea",
+    "repositories": [
+      "WhyMe"
+    ],
+    "icon": "/images/favicon.png",
+    "keywords": [
+      "WhyMe Magic Lab",
+      "projetos Magic Lab"
+    ],
+    "screenshots": [],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Uma nova ideia está a caminho.",
+        "description": "Um novo projeto da Magic Lab. A proposta e as primeiras imagens serão apresentadas aqui quando estiverem prontas.",
+        "features": [
+          "Uma nova ideia",
+          "Em preparação",
+          "Novidades por aqui"
+        ]
+      },
+      "en": {
+        "headline": "A new idea is taking shape.",
+        "description": "A new Magic Lab project. We will share its purpose and first images here when they are ready.",
+        "features": [
+          "A new idea",
+          "In preparation",
+          "More to come here"
+        ]
+      }
+    },
+    "noindex": true
+  },
+  {
+    "slug": "tumtum",
+    "name": "TumTum",
+    "category": "games",
+    "status": "released",
+    "color": "#EDB693",
+    "platform": "iPhone · iPad",
+    "demo": "playroom",
+    "repositories": [
+      "TumTum"
+    ],
+    "icon": "/images/portfolio/tumtum/icon.webp",
+    "keywords": [
+      "brinquedos digitais infantis",
+      "jogo Montessori",
+      "toddler playroom"
+    ],
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/tumtum/screenshots/pt-BR/ipad-02-house-1440.webp",
+        "output": "/images/portfolio/tumtum/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Brincadeira na casa do TumTum",
+          "en": "Playing in TumTum’s house"
+        }
+      },
+      {
+        "source": "magiclabsolutions-site/images/tumtum/screenshots/pt-BR/ipad-06-aquarium-1440.webp",
+        "output": "/images/portfolio/tumtum/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Exploração do aquário",
+          "en": "Exploring the aquarium"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Pequenas mãos. Grandes descobertas.",
+        "description": "Brinquedos digitais para explorar, cuidar e inventar histórias no ritmo da criança. Disponível na App Store.",
+        "features": [
+          "Exploração livre",
+          "Mundos de papel",
+          "Brincadeira no seu ritmo"
+        ]
+      },
+      "en": {
+        "headline": "Little hands. Big discoveries.",
+        "description": "Digital toys to explore, care and invent stories at your child’s own pace. Available on the App Store.",
+        "features": [
+          "Open-ended exploration",
+          "Paper worlds",
+          "Play at your own pace"
+        ]
+      },
+      "de": {
+        "headline": "Kleine Hände. Große Entdeckungen.",
+        "description": "TumTum ist ein digitales Spielzimmer, inspiriert von Montessori-Prinzipien, mit Papierkunst und freiem Entdecken. Für iPhone und iPad verfügbar.",
+        "features": [
+          "Open-ended exploration",
+          "Paper worlds",
+          "Play at your own pace"
+        ]
+      },
+      "es": {
+        "headline": "Manos pequeñas. Grandes descubrimientos.",
+        "description": "Conoce TumTum: un cuarto de juguetes digitales inspirado en principios Montessori, con arte de papel y exploración libre. Disponible para iPhone y iPad.",
+        "features": [
+          "Open-ended exploration",
+          "Paper worlds",
+          "Play at your own pace"
+        ]
+      },
+      "fr": {
+        "headline": "Petites mains. Grandes découvertes.",
+        "description": "Découvrez TumTum : une salle de jeux numérique inspirée des principes Montessori, avec un univers de papier et une exploration libre. Disponible sur iPhone et iPad.",
+        "features": [
+          "Open-ended exploration",
+          "Paper worlds",
+          "Play at your own pace"
+        ]
+      },
+      "ja": {
+        "headline": "小さな手で、大きな発見。",
+        "description": "TumTumは、モンテッソーリの考え方に着想を得たデジタルのおもちゃ部屋。紙のようなアートの世界で自由に探索できます。iPhoneとiPadで利用できます。",
+        "features": [
+          "Open-ended exploration",
+          "Paper worlds",
+          "Play at your own pace"
+        ]
+      },
+      "ko": {
+        "headline": "작은 손으로 만나는 큰 발견.",
+        "description": "몬테소리 원칙에서 영감을 받은 디지털 장난감 방, TumTum. 종이 질감의 세상에서 자유롭게 탐험해요. iPhone과 iPad용으로 출시 예정입니다.",
+        "features": [
+          "Open-ended exploration",
+          "Paper worlds",
+          "Play at your own pace"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "小小双手，大大发现。",
+        "description": "认识 TumTum：一个受到蒙台梭利理念启发的数字玩具房，拥有纸艺风格的画面与自由探索的玩法。现已支持 iPhone 和 iPad。",
+        "features": [
+          "Open-ended exploration",
+          "Paper worlds",
+          "Play at your own pace"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/tumtum-brinquedos-infantis/id6808820820",
+    "version": "1.0",
+    "evidence": "https://itunes.apple.com/lookup?id=6808820820&country=br"
+  },
+  {
+    "slug": "giftly",
+    "name": "Giftly",
+    "category": "apps",
+    "status": "released",
+    "color": "#F1ABA7",
+    "platform": "iPhone · iPad · Mac",
+    "demo": "gift",
+    "repositories": [
+      "Giftly"
+    ],
+    "icon": "/images/portfolio/giftly/icon.webp",
+    "keywords": [
+      "organizador presentes",
+      "gift planner",
+      "lista de presentes"
+    ],
+    "screenshots": [
+      {
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/ba/6c/e0ba6ce3-1c60-bcfb-d532-ab5747d1ca69/iphone_1_today.png/320x480bb.jpg",
+        "output": "/images/portfolio/giftly/screen-1.webp",
+        "kind": "store-capture",
+        "alt": {
+          "pt-BR": "Pessoas e próximas datas especiais",
+          "en": "People and upcoming occasions"
+        }
+      },
+      {
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/8f/0a/568f0a78-501d-f07d-8794-5803a6b34eb9/iphone_2_upcoming.png/320x480bb.jpg",
+        "output": "/images/portfolio/giftly/screen-2.webp",
+        "kind": "store-capture",
+        "alt": {
+          "pt-BR": "Organização de ideias de presentes",
+          "en": "Organising gift ideas"
+        }
+      },
+      {
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/f9/80/17f980bc-4426-54e3-3824-19788ad51f3a/iphone_3_ideas.png/320x480bb.jpg",
+        "output": "/images/portfolio/giftly/screen-3.webp",
+        "kind": "store-capture",
+        "alt": {
+          "pt-BR": "Detalhes de presentes e ocasiões",
+          "en": "Gift and occasion details"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "O presente certo começa com uma ideia.",
+        "description": "Guarde ideias de presentes, organize ocasiões e lembre de quem faz parte da sua vida.",
+        "features": [
+          "Guarde boas ideias",
+          "Organize ocasiões",
+          "Pense em cada pessoa"
+        ]
+      },
+      "en": {
+        "headline": "A thoughtful gift starts with an idea.",
+        "description": "Keep gift ideas, organise occasions and remember the people who matter to you.",
+        "features": [
+          "Save good ideas",
+          "Organise occasions",
+          "Think of each person"
+        ]
+      },
+      "de": {
+        "headline": "Nie wieder einen Geburtstag vergessen",
+        "description": "Die Menschen, die dir wichtig sind, die Tage, die zählen, und die Geschenkideen, die du dir wirklich merken willst — mit Erinnerungen, die früh genug kommen, und Vorschlägen passend zu Vorlieben und Alter.",
+        "features": [
+          "Save good ideas",
+          "Organise occasions",
+          "Think of each person"
+        ]
+      },
+      "es": {
+        "headline": "Nunca más olvides un cumpleaños",
+        "description": "Las personas que quieres, las fechas que importan y las ideas de regalo que de verdad quieres recordar — con recordatorios que llegan a tiempo de comprar y sugerencias según sus gustos y su edad.",
+        "features": [
+          "Save good ideas",
+          "Organise occasions",
+          "Think of each person"
+        ]
+      },
+      "fr": {
+        "headline": "N'oublie plus jamais un anniversaire",
+        "description": "Les gens qui comptent, les dates qui comptent et les idées de cadeaux que tu veux vraiment retenir — avec des rappels qui arrivent à temps et des suggestions selon leurs goûts et leur âge.",
+        "features": [
+          "Save good ideas",
+          "Organise occasions",
+          "Think of each person"
+        ]
+      },
+      "ja": {
+        "headline": "誕生日をもう忘れない",
+        "description": "大切な人、大切な日、そして覚えておきたい贈り物のアイデアを一か所に。買い物が間に合うタイミングで知らせ、好みや年齢に合った候補を出します。",
+        "features": [
+          "Save good ideas",
+          "Organise occasions",
+          "Think of each person"
+        ]
+      },
+      "ko": {
+        "headline": "생일을 다시는 잊지 않게",
+        "description": "소중한 사람과 기억해야 할 날, 그리고 정말 남겨두고 싶은 선물 아이디어를 한곳에. 준비할 시간이 있을 때 알려주고, 취향과 나이에 맞는 후보를 골라줘요.",
+        "features": [
+          "Save good ideas",
+          "Organise occasions",
+          "Think of each person"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "再也不会忘记生日",
+        "description": "把在乎的人、要紧的日子和真正想记住的送礼灵感放在一起——提醒来得及去买，建议也贴合对方的喜好和年纪。",
+        "features": [
+          "Save good ideas",
+          "Organise occasions",
+          "Think of each person"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/giftly-presentes-e-lembretes/id6802913010",
+    "version": "1.0.0",
+    "evidence": "https://itunes.apple.com/lookup?id=6802913010&country=br"
+  },
+  {
+    "slug": "sundust",
+    "name": "Sundust",
+    "category": "games",
+    "status": "released",
+    "color": "#E8BA80",
+    "platform": "iPhone · iPad · Mac · Apple TV",
+    "demo": "space",
+    "repositories": [
+      "Sundust"
+    ],
+    "icon": "/images/portfolio/sundust/icon.webp",
+    "keywords": [
+      "jogo exploração espacial",
+      "space exploration game",
+      "Sundust"
+    ],
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/sundust/preview-poster.jpg",
+        "output": "/images/portfolio/sundust/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Imagem de gameplay de Sundust",
+          "en": "Sundust gameplay image"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Um universo para descobrir.",
+        "description": "Explore um universo de planetas, recursos e descobertas. Construa sua jornada pelo espaço.",
+        "features": [
+          "Explore outros mundos",
+          "Trace seu caminho",
+          "Descubra o desconhecido"
+        ]
+      },
+      "en": {
+        "headline": "A universe to discover.",
+        "description": "Explore a universe of planets, resources and discoveries. Build your own journey through space.",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      },
+      "de": {
+        "headline": "Dein kleines Sonnensystem",
+        "description": "Ein gemütliches Weltraum-Sandbox-Spiel mit echter Orbitalmechanik. Steuere deine Rakete, lande sanft, erkunde fremde Welten zu Fuß, sammle Rohstoffe und baue – auf iPhone, iPad, Mac und Apple TV.",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      },
+      "es": {
+        "headline": "Tu pequeño sistema solar",
+        "description": "Un acogedor sandbox espacial con mecánica orbital real. Pilota tu cohete, aterriza con suavidad, explora mundos alienígenas a pie, extrae recursos y construye — en iPhone, iPad, Mac y Apple TV.",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      },
+      "fr": {
+        "headline": "Votre petit système solaire",
+        "description": "Un bac à sable spatial cosy fondé sur une vraie mécanique orbitale. Pilotez votre fusée, posez-vous en douceur, explorez des mondes extraterrestres à pied, minez et construisez — sur iPhone, iPad, Mac et Apple TV.",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      },
+      "ja": {
+        "headline": "あなただけの小さな太陽系",
+        "description": "本物の軌道力学で遊ぶ、ゆったりした宇宙サンドボックス。ロケットを操縦し、そっと着陸し、異世界を歩き、採掘して建設。iPhone、iPad、Mac、Apple TVで楽しめます。",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      },
+      "ko": {
+        "headline": "나만의 작은 태양계",
+        "description": "실제 궤도 역학으로 즐기는 아늑한 우주 샌드박스. 로켓을 조종해 부드럽게 착륙하고, 외계 세계를 거닐며 자원을 캐고 건설하세요. iPhone, iPad, Mac, Apple TV에서 즐길 수 있습니다.",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "你的迷你太阳系",
+        "description": "一款基于真实轨道力学的惬意太空沙盒。驾驶火箭、平稳着陆、漫步外星世界、采矿建造——支持 iPhone、iPad、Mac 和 Apple TV。",
+        "features": [
+          "Explore other worlds",
+          "Chart your journey",
+          "Discover the unknown"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/sundust/id6791888066",
+    "version": "1.2.2",
+    "evidence": "https://itunes.apple.com/lookup?id=6791888066&country=br"
+  },
+  {
+    "slug": "kinfold",
+    "name": "Kinfold",
+    "category": "apps",
+    "status": "released",
+    "color": "#96C5B1",
+    "platform": "iPhone · iPad · Mac · Apple Vision Pro",
+    "demo": "family",
+    "repositories": [
+      "FamilyKit"
+    ],
+    "icon": "/images/portfolio/kinfold/icon.webp",
+    "keywords": [
+      "documentos da família",
+      "family document vault",
+      "travel organiser"
+    ],
+    "screenshots": [
+      {
+        "source": "apps/kinfold/screenshots/en-US/01_vault.png",
+        "output": "/images/portfolio/kinfold/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Cofre de documentos da família",
+          "en": "Family document vault"
+        }
+      },
+      {
+        "source": "apps/kinfold/screenshots/en-US/02_trip.png",
+        "output": "/images/portfolio/kinfold/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Preparação de uma viagem",
+          "en": "Getting ready for a trip"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "A família pronta para ir.",
+        "description": "Passaportes, documentos e vistos em um cofre privado no iCloud, com lembretes de validade e organização para viajar.",
+        "features": [
+          "Documentos da família",
+          "Lembretes de validade",
+          "Preparação para viajar"
+        ]
+      },
+      "en": {
+        "headline": "Your family, ready to go.",
+        "description": "Passports, IDs and visas in a private iCloud vault, with expiry reminders and tools to get your family ready to travel.",
+        "features": [
+          "Family documents",
+          "Expiry reminders",
+          "Travel preparation"
+        ]
+      },
+      "de": {
+        "headline": "Familiendokumente & Reisen",
+        "description": "Ein privater, in iCloud gesicherter Ort für die Pässe, Ausweise und Visa deiner Familie – mit Ablauf-Erinnerungen, Smart-Kopieren in jedem Format und reisefertigen Packlisten.",
+        "features": [
+          "Family documents",
+          "Expiry reminders",
+          "Travel preparation"
+        ]
+      },
+      "es": {
+        "headline": "Documentos familiares y viajes",
+        "description": "Un hogar privado y respaldado en iCloud para los pasaportes, documentos de identidad y visados de tu familia, con avisos de caducidad, copia inteligente en cualquier formato y listas de equipaje listas para viajar.",
+        "features": [
+          "Family documents",
+          "Expiry reminders",
+          "Travel preparation"
+        ]
+      },
+      "fr": {
+        "headline": "Documents de famille & voyages",
+        "description": "Un espace privé, sauvegardé sur iCloud, pour les passeports, pièces d'identité et visas de votre famille — avec rappels d'expiration, copie intelligente dans tous les formats et listes de bagages prêtes à voyager.",
+        "features": [
+          "Family documents",
+          "Expiry reminders",
+          "Travel preparation"
+        ]
+      },
+      "ja": {
+        "headline": "家族の書類と旅行",
+        "description": "家族のパスポートや身分証、ビザをiCloudで安全に保管するプライベートな場所。有効期限のリマインダー、どんな書式にも合わせて使えるスマートコピー、旅行に備えた持ち物リストを備えています。",
+        "features": [
+          "Family documents",
+          "Expiry reminders",
+          "Travel preparation"
+        ]
+      },
+      "ko": {
+        "headline": "가족 문서와 여행",
+        "description": "가족의 여권, 신분증, 비자를 iCloud에 안전하게 보관하는 개인 공간입니다. 만료 알림, 어떤 서식에도 맞춰 복사하는 스마트 복사, 여행 준비 짐 목록을 제공합니다.",
+        "features": [
+          "Family documents",
+          "Expiry reminders",
+          "Travel preparation"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "家庭证件与出行",
+        "description": "一个私密、由 iCloud 备份的空间，集中存放全家的护照、证件和签证，并提供到期提醒、可按任意格式复制的智能复制，以及出行前的行李清单。",
+        "features": [
+          "Family documents",
+          "Expiry reminders",
+          "Travel preparation"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/kinfold/id6785646082",
+    "version": "1.0.1",
+    "evidence": "https://itunes.apple.com/lookup?id=6785646082&country=br"
+  },
+  {
+    "slug": "myrenewals",
+    "name": "MyRenewals",
+    "category": "apps",
+    "status": "released",
+    "color": "#96D9AA",
+    "platform": "iPhone · iPad",
+    "demo": "subscriptions",
+    "repositories": [
+      "SubscriptionManager"
+    ],
+    "icon": "/images/portfolio/myrenewals/icon.webp",
+    "keywords": [
+      "controle assinaturas",
+      "subscription tracker",
+      "pagamentos recorrentes"
+    ],
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/myrenewals/screenshot1.png",
+        "output": "/images/portfolio/myrenewals/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Resumo de assinaturas",
+          "en": "Subscription summary"
+        }
+      },
+      {
+        "source": "magiclabsolutions-site/images/myrenewals/screenshot2.png",
+        "output": "/images/portfolio/myrenewals/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Organização de pagamentos recorrentes",
+          "en": "Organising recurring payments"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Assinaturas sem surpresas.",
+        "description": "Organize pagamentos recorrentes e acompanhe as próximas renovações para entender o que você gasta.",
+        "features": [
+          "Pagamentos organizados",
+          "Próximas renovações",
+          "Gastos mais claros"
+        ]
+      },
+      "en": {
+        "headline": "Subscriptions without surprises.",
+        "description": "Organise recurring payments and see upcoming renewals to understand your subscription spending.",
+        "features": [
+          "Organised payments",
+          "Upcoming renewals",
+          "Clearer spending"
+        ]
+      },
+      "de": {
+        "headline": "Abonnement-Tracker",
+        "description": "Behalte die Kontrolle über deine Abonnements. Verfolge, verwalte und kündige wiederkehrende Zahlungen, bevor sie sich verlängern.",
+        "features": [
+          "Organised payments",
+          "Upcoming renewals",
+          "Clearer spending"
+        ]
+      },
+      "es": {
+        "headline": "Rastreador de suscripciones",
+        "description": "Mantén el control de tus suscripciones. Rastrea, gestiona y cancela pagos recurrentes antes de que se renueven.",
+        "features": [
+          "Organised payments",
+          "Upcoming renewals",
+          "Clearer spending"
+        ]
+      },
+      "fr": {
+        "headline": "Suivi d'abonnements",
+        "description": "Gardez le contrôle de vos abonnements. Suivez, gérez et annulez les paiements récurrents avant leur renouvellement.",
+        "features": [
+          "Organised payments",
+          "Upcoming renewals",
+          "Clearer spending"
+        ]
+      },
+      "ja": {
+        "headline": "サブスクリプション管理",
+        "description": "サブスクリプションをしっかり管理。定期払いを更新前に追跡、管理、解約。",
+        "features": [
+          "Organised payments",
+          "Upcoming renewals",
+          "Clearer spending"
+        ]
+      },
+      "ko": {
+        "headline": "구독 관리",
+        "description": "구독을 완벽하게 관리하세요. 갱신 전에 정기 결제를 추적, 관리, 취소하세요.",
+        "features": [
+          "Organised payments",
+          "Upcoming renewals",
+          "Clearer spending"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "订阅管理器",
+        "description": "掌控您的订阅。在续费前追踪、管理和取消定期付款。",
+        "features": [
+          "Organised payments",
+          "Upcoming renewals",
+          "Clearer spending"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/app/id6752888662",
+    "version": "1.2.6",
+    "evidence": "https://itunes.apple.com/lookup?id=6752888662&country=br"
+  },
+  {
+    "slug": "qramen",
+    "name": "QRamen",
+    "category": "apps",
+    "status": "released",
+    "color": "#F1C383",
+    "platform": "iPhone · iPad",
+    "demo": "qr",
+    "repositories": [],
+    "icon": "/images/portfolio/qramen/icon.webp",
+    "keywords": [
+      "gerador QR code",
+      "QR code scanner",
+      "leitor QR"
+    ],
+    "screenshots": [
+      {
+        "source": "magiclabsolutions-site/images/qramen/hero.png",
+        "output": "/images/portfolio/qramen/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Leitura e criação de códigos QR",
+          "en": "Scanning and creating QR codes"
+        }
+      }
+    ],
+    "checked_at": "2026-09-30",
+    "copy": {
+      "pt-BR": {
+        "headline": "Uma conexão. Um quadradinho.",
+        "description": "Crie e leia códigos QR para compartilhar informações do dia a dia de um jeito simples.",
+        "features": [
+          "Crie códigos",
+          "Leia informações",
+          "Compartilhe com facilidade"
+        ]
+      },
+      "en": {
+        "headline": "One small square. A new connection.",
+        "description": "Create and scan QR codes to share everyday information with less effort.",
+        "features": [
+          "Create codes",
+          "Read information",
+          "Share with ease"
+        ]
+      },
+      "de": {
+        "headline": "QR-Codes scannen, erstellen und organisieren",
+        "description": "Dein All-in-One QR-Code-Begleiter. Scanne, erstelle individuelle QR-Codes, organisiere mit Ordnern und Tags und verfolge Analysen — alles in einer wunderschön gestalteten App.",
+        "features": [
+          "Create codes",
+          "Read information",
+          "Share with ease"
+        ]
+      },
+      "es": {
+        "headline": "Escanea, crea y organiza códigos QR",
+        "description": "Tu compañero todo en uno para códigos QR. Escanea, crea códigos QR personalizados, organiza con carpetas y etiquetas, y rastrea estadísticas — todo en una app bellamente diseñada.",
+        "features": [
+          "Create codes",
+          "Read information",
+          "Share with ease"
+        ]
+      },
+      "fr": {
+        "headline": "Scannez, créez et organisez des codes QR",
+        "description": "Votre compagnon tout-en-un pour les codes QR. Scannez, créez des codes QR personnalisés, organisez avec des dossiers et des tags, et suivez les statistiques — le tout dans une app magnifiquement conçue.",
+        "features": [
+          "Create codes",
+          "Read information",
+          "Share with ease"
+        ]
+      },
+      "ja": {
+        "headline": "QRコードのスキャン、作成、整理",
+        "description": "オールインワンのQRコードコンパニオン。スキャン、カスタムQRコードの作成、フォルダやタグで整理、分析の追跡 — すべてが美しくデザインされたアプリで。",
+        "features": [
+          "Create codes",
+          "Read information",
+          "Share with ease"
+        ]
+      },
+      "ko": {
+        "headline": "QR 코드 스캔, 생성 및 정리",
+        "description": "올인원 QR 코드 도우미. 스캔, 맞춤 QR 코드 생성, 폴더와 태그로 정리, 분석 추적 — 아름답게 디자인된 앱 하나로 모든 것을.",
+        "features": [
+          "Create codes",
+          "Read information",
+          "Share with ease"
+        ]
+      },
+      "zh-Hans": {
+        "headline": "扫描、创建和整理二维码",
+        "description": "您的一站式二维码助手。扫描、创建自定义品牌二维码、用文件夹和标签整理、跟踪分析——尽在一个精美设计的应用中。",
+        "features": [
+          "Create codes",
+          "Read information",
+          "Share with ease"
+        ]
+      }
+    },
+    "store_url": "https://apps.apple.com/br/app/qramen-criador-de-qr-code/id6444232316",
+    "version": "1.2.0",
+    "evidence": "https://itunes.apple.com/lookup?id=6444232316&country=br"
+  }
+]

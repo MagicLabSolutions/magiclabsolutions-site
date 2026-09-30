@@ -1,218 +1,81 @@
 ---
-layout: default
-title: Magic Lab Solutions — Mobile App Studio
-description: We craft premium, privacy-first mobile apps for iOS and Android.
+layout: home
+title: Magic Lab Solutions — Independent apps & games
+description: Small apps. Big possibilities. Apps and games made by two brothers in Brazil.
 featured_image: /images/social.jpg
 lang-ref: home
 ---
-
-{% assign t = site.data.translations[site.active_lang] %}
-
-<style>
-.hero-brand-icon {
-	position: relative;
-	display: inline-block;
-	margin-bottom: 24px;
-	animation: heroIconFloat 6s ease-in-out infinite;
-}
-.hero-brand-icon img {
-	width: 120px;
-	height: 120px;
-	border-radius: 28px;
-	position: relative;
-	z-index: 1;
-	filter: drop-shadow(0 4px 20px rgba(59, 130, 246, 0.3));
-}
-.hero-brand-glow {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 240px;
-	height: 240px;
-	background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, rgba(99, 102, 241, 0.08) 50%, transparent 70%);
-	border-radius: 50%;
-	animation: heroGlowPulse 4s ease-in-out infinite;
-	pointer-events: none;
-}
-@keyframes heroIconFloat {
-	0%, 100% { transform: translateY(0); }
-	50% { transform: translateY(-10px); }
-}
-@keyframes heroGlowPulse {
-	0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
-	50% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); }
-}
-</style>
-
-<section class="hero">
-	<div class="wrap">
-		<div class="hero-brand-icon">
-			<div class="hero-brand-glow"></div>
-			<img src="/images/favicon.png" alt="Magic Lab Solutions">
-		</div>
-		<h1>{{ t.home.hero_heading | default: "Apps that feel<br>like magic." }}</h1>
-		<p>{{ t.home.hero_text | default: "We design and build premium native apps for iOS and Android — crafted with care and built for everyday life." }}</p>
-		<div style="margin-top: 40px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
-			<a href="/apps/" class="button button--large">{{ t.home.explore_apps | default: "Explore Our Apps" }}</a>
-			<a href="/contact" class="button button--large button--light">{{ t.home.get_in_touch | default: "Get in Touch" }}</a>
-		</div>
-	</div>
+{% assign h = site.data.home_page[site.active_lang] | default: site.data.home_page.en %}
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
+{% assign shots = site.data.tumtum_screenshots[site.active_lang] | default: site.data.tumtum_screenshots.en %}
+<section class="lab-hero lab-wrap" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="lab-kicker"><span class="status-dot"></span> {{ h.eyebrow }}</p>
+    <h1 id="hero-title">{{ h.title_first }}<br><span>{{ h.title_second }}</span></h1>
+    <p class="hero-description">{{ h.intro }}</p>
+    <div class="lab-actions"><a class="lab-button" href="#apps">{{ h.explore }} <span aria-hidden="true">↗</span></a><a class="lab-text-link" href="#play">{{ h.try }} <span aria-hidden="true">↓</span></a></div>
+    <div class="hero-signature"><span aria-hidden="true">✳</span><p>{{ h.signature }}<br><span>{{ h.signature_sub }}</span></p></div>
+  </div>
+  <div class="hero-lab" id="hero-lab" data-product="toctoc">
+    <div class="lab-orbit orbit-one" aria-hidden="true"></div><div class="lab-orbit orbit-two" aria-hidden="true"></div>
+    <div class="hero-stage">
+      <div class="stage-label"><span><span class="status-dot"></span> {{ h.spotlight }}</span><span data-stage-number>01 / 04</span></div>
+      <div class="stage-panel" id="preview-toctoc" role="tabpanel" aria-labelledby="tab-toctoc">
+        <div class="hero-monitor"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Toc Toc</span><span>10:00</span></div><img src="{{ '/images/toctoc/' | append: site.active_lang | append: '/mac-knock.jpg' | relative_url }}" alt="{{ t.projects.project-toctoc.subtitle }}" width="1600" height="1000" fetchpriority="high"></div>
+        <div class="stage-caption"><img src="{{ '/images/home/toctoc.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Toc Toc</strong><p>{{ t.projects.project-toctoc.subtitle }}</p></div><a href="{{ '/apps/toctoc/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Toc Toc">↗</a></div><span class="stage-tag">{{ h.soon }} · Mac + iPhone</span>
+      </div>
+      <div class="stage-panel" id="preview-pauta" role="tabpanel" aria-labelledby="tab-pauta" hidden>
+        <div class="hero-monitor"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Pauta</span><span>iPad</span></div><img src="{{ '/images/portfolio/pauta/screen-2.webp' | relative_url }}" width="1440" height="1080" loading="lazy" alt="Pauta — {{ t.projects.project-pauta.subtitle }}"></div>
+        <div class="stage-caption"><img src="{{ '/images/home/pauta.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Pauta</strong><p>{{ t.projects.project-pauta.subtitle }}</p></div><a href="{{ '/apps/pauta/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Pauta">↗</a></div><span class="stage-tag">{{ h.soon }} · iPhone, iPad + Mac</span>
+      </div>
+      <div class="stage-panel" id="preview-sundust" role="tabpanel" aria-labelledby="tab-sundust" hidden>
+        <div class="space-preview"><img src="{{ '/images/sundust/preview-poster.jpg' | relative_url }}" width="1200" height="675" loading="lazy" alt="Sundust — {{ t.projects.project-sundust.subtitle }}"></div>
+        <div class="stage-caption"><img src="{{ '/images/home/sundust.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Sundust</strong><p>{{ t.projects.project-sundust.subtitle }}</p></div><a href="{{ '/apps/sundust/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Sundust">↗</a></div><span class="stage-tag">iPhone, iPad, Mac + Apple TV</span>
+      </div>
+      <div class="stage-panel" id="preview-poof" role="tabpanel" aria-labelledby="tab-poof" hidden>
+        <div class="hero-monitor"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Poof</span><span>Mac</span></div><img src="{{ '/images/poof/hero.jpg' | relative_url }}" width="1600" height="1000" loading="lazy" alt="Poof — {{ h.poof }}"></div>
+        <div class="stage-caption"><img src="{{ '/images/home/poof.webp' | relative_url }}" width="58" height="58" alt=""><div><strong>Poof</strong><p>{{ h.poof }}</p></div><a href="{{ '/apps/poof/' | relative_url }}" aria-label="{{ t.app_card.learn_more }} — Poof">↗</a></div><span class="stage-tag">Mac</span>
+      </div>
+    </div>
+    <div class="product-tabs" role="tablist" aria-label="{{ h.spotlight }}">
+      <button id="tab-toctoc" role="tab" aria-selected="true" aria-controls="preview-toctoc" data-preview="toctoc"><img src="{{ '/images/home/toctoc.webp' | relative_url }}" width="34" height="34" alt=""><span>Toc Toc</span></button>
+      <button id="tab-pauta" role="tab" aria-selected="false" aria-controls="preview-pauta" data-preview="pauta" tabindex="-1"><img src="{{ '/images/home/pauta.webp' | relative_url }}" width="34" height="34" alt=""><span>Pauta</span></button>
+      <button id="tab-sundust" role="tab" aria-selected="false" aria-controls="preview-sundust" data-preview="sundust" tabindex="-1"><img src="{{ '/images/home/sundust.webp' | relative_url }}" width="34" height="34" alt=""><span>Sundust</span></button>
+      <button id="tab-poof" role="tab" aria-selected="false" aria-controls="preview-poof" data-preview="poof" tabindex="-1"><img src="{{ '/images/home/poof.webp' | relative_url }}" width="34" height="34" alt=""><span>Poof</span></button>
+    </div>
+  </div>
 </section>
-
-<div class="section-divider"></div>
-
-<section class="featured-app">
-	<div class="wrap">
-		<div class="featured-app__carousel" id="featuredCarousel">
-			<a href="/apps/sundust/" class="featured-app__card featured-app__card--sundust featured-app__card--active" data-slide="0">
-				<span class="featured-app__badge featured-app__badge--sundust">{{ t.home.badge_new | default: "New" }}</span>
-				<div class="featured-app__icon">
-					<img src="/images/sundust/app_icon.png" alt="Sundust icon" />
-				</div>
-				<div class="featured-app__content">
-					<h2 class="featured-app__title">Sundust</h2>
-					<p class="featured-app__subtitle">{{ t.home.sundust_subtitle | default: "Your tiny solar system" }}</p>
-					<p class="featured-app__desc">{{ t.home.sundust_desc | default: "A cozy space sandbox on real orbital mechanics. Fly your rocket, land gently, walk alien worlds, mine and build — across iPhone, iPad, Mac, and Apple TV." }}</p>
-					<span class="featured-app__cta featured-app__cta--sundust">{{ t.home.explore_sundust | default: "Explore Sundust" }} &rarr;</span>
-				</div>
-			</a>
-			<a href="/apps/kinfold/" class="featured-app__card featured-app__card--kinfold" data-slide="1">
-				<span class="featured-app__badge featured-app__badge--kinfold">{{ t.home.badge_new | default: "New" }}</span>
-				<div class="featured-app__icon">
-					<img src="/images/kinfold/app_icon.png" alt="Kinfold icon" />
-				</div>
-				<div class="featured-app__content">
-					<h2 class="featured-app__title">Kinfold</h2>
-					<p class="featured-app__subtitle">{{ t.home.kinfold_subtitle | default: "Family documents & travel" }}</p>
-					<p class="featured-app__desc">{{ t.home.kinfold_desc | default: "A private, iCloud-backed home for your family's passports, IDs, and visas — with expiry reminders, smart-copy, and travel-ready packing." }}</p>
-					<span class="featured-app__cta featured-app__cta--kinfold">{{ t.home.explore_kinfold | default: "Explore Kinfold" }} &rarr;</span>
-				</div>
-			</a>
-			<a href="https://hooraycards.com" target="_blank" rel="noopener" class="featured-app__card featured-app__card--hooray" data-slide="2">
-				<span class="featured-app__badge featured-app__badge--hooray">{{ t.home.badge_new | default: "New" }}</span>
-				<div class="featured-app__icon">
-					<img src="/images/hooray/app_icon.png" alt="Hooray icon" />
-				</div>
-				<div class="featured-app__content">
-					<h2 class="featured-app__title">Hooray</h2>
-					<p class="featured-app__subtitle">{{ t.home.hooray_subtitle | default: "Group cards people remember" }}</p>
-					<p class="featured-app__desc">{{ t.home.hooray_desc | default: "Start a group greeting card, share a private link, and everyone adds messages, stickers, and GIFs — delivered with a confetti reveal." }}</p>
-					<span class="featured-app__cta featured-app__cta--hooray">{{ t.home.explore_hooray | default: "Explore Hooray" }} &rarr;</span>
-				</div>
-			</a>
-			<a href="/apps/brainfold/" class="featured-app__card featured-app__card--brainfold" data-slide="3">
-				<span class="featured-app__badge featured-app__badge--brainfold">{{ t.home.badge_new | default: "New" }}</span>
-				<div class="featured-app__icon">
-					<img src="/images/brainfold/app_icon.png" alt="Brainfold icon" />
-				</div>
-				<div class="featured-app__content">
-					<h2 class="featured-app__title">Brainfold</h2>
-					<p class="featured-app__subtitle">{{ t.home.brainfold_subtitle | default: "AI-powered study companion" }}</p>
-					<p class="featured-app__desc">{{ t.home.brainfold_desc | default: "Scan your notes and let AI create flashcards, quizzes, summaries, and a personal tutor. Study solo or battle friends." }}</p>
-					<span class="featured-app__cta featured-app__cta--brainfold">{{ t.home.explore_brainfold | default: "Explore Brainfold" }} &rarr;</span>
-				</div>
-			</a>
-			<a href="/apps/zuzu/" class="featured-app__card featured-app__card--zuzu" data-slide="4">
-				<span class="featured-app__badge featured-app__badge--zuzu">{{ t.home.badge_new | default: "New" }}</span>
-				<div class="featured-app__icon">
-					<img src="/images/zuzu/app_icon.png" alt="Zuzu icon" />
-				</div>
-				<div class="featured-app__content">
-					<h2 class="featured-app__title">Zuzu</h2>
-					<p class="featured-app__subtitle">{{ t.home.zuzu_subtitle | default: "Baby tracking, together" }}</p>
-					<p class="featured-app__desc">{{ t.home.zuzu_desc | default: "Smart baby tracking with a beautiful visual timeline. Sleep, feeds, diapers, growth, and AI-powered insights -- all in one place." }}</p>
-					<span class="featured-app__cta featured-app__cta--zuzu">{{ t.home.explore_zuzu | default: "Explore Zuzu" }} &rarr;</span>
-				</div>
-			</a>
-		</div>
-		<div class="featured-app__dots">
-			<button class="featured-app__dot featured-app__dot--active" data-slide="0" aria-label="Show Sundust"></button>
-			<button class="featured-app__dot" data-slide="1" aria-label="Show Kinfold"></button>
-			<button class="featured-app__dot" data-slide="2" aria-label="Show Hooray"></button>
-			<button class="featured-app__dot" data-slide="3" aria-label="Show Brainfold"></button>
-			<button class="featured-app__dot" data-slide="4" aria-label="Show Zuzu"></button>
-		</div>
-	</div>
+<div class="lab-ribbon"><div class="lab-wrap"><span>{{ h.ribbon_one }}</span><span aria-hidden="true">✳</span><span>{{ h.ribbon_two }}</span><span aria-hidden="true">✳</span><span>{{ h.ribbon_three }}</span></div></div>
+<section class="lab-play lab-wrap" id="play" aria-labelledby="play-title">
+  <div class="section-heading" data-reveal><div><p class="lab-kicker">01 / {{ h.try }}</p><h2 id="play-title">{{ h.play_title }}</h2></div><p>{{ h.play_intro }}</p></div>
+  <div class="demo-layout" data-reveal>
+    <div class="demo-copy"><img src="{{ '/images/home/toctoc.webp' | relative_url }}" width="70" height="70" loading="lazy" alt="Toc Toc"><span class="lab-pill">{{ h.soon }} · Mac + iPhone</span><h3>{{ h.demo_title }}</h3><p>{{ h.demo_intro }}</p><ol class="demo-steps"><li class="is-active" data-step="0"><span>01</span>{{ h.step_focus }}</li><li data-step="1"><span>02</span>{{ h.step_knock }}</li><li data-step="2"><span>03</span>{{ h.step_join }}</li></ol><a class="lab-text-link" href="{{ '/apps/toctoc/' | relative_url }}">{{ t.app_card.learn_more }} — Toc Toc ↗</a></div>
+    <div class="demo-interactive">
+      <div class="demo-window" id="demo-window"><div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>{{ h.demo_workspace }}</span><span>09:59</span></div>
+        <div class="demo-desktop"><div class="focus-paper"><span class="lab-kicker">{{ h.paper_today }}</span><strong>{{ h.focus_title }}</strong><div class="skeleton-line"></div><div class="skeleton-line short"></div><div class="focus-task">✓ {{ h.paper_item }}</div><div class="focus-task">○ {{ h.paper_task }}</div><div class="focus-cursor" aria-hidden="true"></div></div><span class="desktop-note">{{ h.focus_note }}</span></div>
+        <div class="meeting-overlay" id="meeting-overlay" hidden><div class="meeting-card"><div class="meeting-meta"><span class="status-dot"></span> {{ h.demo_meeting }}</div><h4>{{ h.demo_meeting_title }}</h4><span class="count-label">{{ h.starts_in }}</span><strong class="demo-count" id="demo-count">00:08</strong><button class="join-button" id="demo-join">{{ h.join }} <span aria-hidden="true">↗</span></button></div></div>
+        <div class="demo-success" id="demo-success" hidden><span class="success-check" aria-hidden="true">✓</span><h4>{{ h.success }}</h4><p>{{ h.success_note }}</p></div>
+      </div>
+      <div class="demo-toolbar"><button class="lab-button" id="demo-start" data-start="{{ h.demo_start }}" data-reset="{{ h.demo_again }}">{{ h.demo_start }} <span aria-hidden="true">↗</span></button><span>{{ h.demo_disclaimer }}</span></div>
+      <p class="sr-only" id="demo-status" role="status" aria-live="polite" data-knock="{{ h.step_knock }}" data-ready="{{ h.step_join }}" data-success="{{ h.success }}"></p>
+    </div>
+  </div>
 </section>
-
-<script>
-(function() {
-	var carousel = document.getElementById('featuredCarousel');
-	if (!carousel) return;
-	var cards = carousel.querySelectorAll('.featured-app__card');
-	var dots = document.querySelectorAll('.featured-app__dot');
-	var current = 0;
-	var interval = null;
-	var DELAY = 5000;
-
-	function show(index) {
-		cards[current].classList.remove('featured-app__card--active');
-		dots[current].classList.remove('featured-app__dot--active');
-		current = index;
-		cards[current].classList.add('featured-app__card--active');
-		dots[current].classList.add('featured-app__dot--active');
-	}
-
-	function next() {
-		show((current + 1) % cards.length);
-	}
-
-	function startAuto() {
-		stopAuto();
-		interval = setInterval(next, DELAY);
-	}
-
-	function stopAuto() {
-		if (interval) { clearInterval(interval); interval = null; }
-	}
-
-	dots.forEach(function(dot) {
-		dot.addEventListener('click', function(e) {
-			e.preventDefault();
-			show(parseInt(this.getAttribute('data-slide')));
-			startAuto();
-		});
-	});
-
-	// Swipe support
-	var startX = 0;
-	carousel.addEventListener('touchstart', function(e) { startX = e.touches[0].clientX; }, { passive: true });
-	carousel.addEventListener('touchend', function(e) {
-		var diff = startX - e.changedTouches[0].clientX;
-		if (Math.abs(diff) > 50) {
-			show(diff > 0 ? Math.min(current + 1, cards.length - 1) : Math.max(current - 1, 0));
-			startAuto();
-		}
-	});
-
-	// Pause on hover
-	carousel.addEventListener('mouseenter', stopAuto);
-	carousel.addEventListener('mouseleave', startAuto);
-
-	startAuto();
-})();
-</script>
-
-<div class="section-divider"></div>
-
-<section class="apps-grid">
-	<div class="wrap">
-		<div class="apps-grid__container apps-grid__container--centered">
-			{% assign apps = site.projects | sort: 'date' | reverse %}
-			{% for app in apps limit:4 %}
-				{% include app-card.html app=app %}
-			{% endfor %}
-		</div>
-	</div>
+<section class="lab-catalog lab-wrap" id="apps" aria-labelledby="apps-title">
+  <div class="section-heading" data-reveal><div><p class="lab-kicker">02 / {{ h.collection }}</p><h2 id="apps-title">{{ h.catalog_title }}</h2></div><p>{{ h.catalog_intro }}</p></div>
+  <div class="catalog-filters" aria-label="{{ h.collection }}"><button data-filter="all" aria-pressed="true">{{ h.all }}</button><button data-filter="apps" aria-pressed="false">{{ t.nav.apps }}</button><button data-filter="games" aria-pressed="false">{{ t.nav.games }}</button><button data-filter="released" aria-pressed="false">{{ h.available }}</button><button data-filter="soon" aria-pressed="false">{{ h.soon }}</button></div>
+  <label class="catalog-search"><span>{{ h.search }}</span><input type="search" id="catalog-search" placeholder="{{ h.search_placeholder }}" autocomplete="off"></label>
+  <div class="catalog-grid" id="catalog-grid">
+    {% assign catalog = site.data.portfolio | sort: 'name' %}
+    {% assign ui = site.data.portfolio_ui[site.active_lang] | default: site.data.portfolio_ui.en %}
+    {% for app in catalog %}{% assign info = app.copy[site.active_lang] | default: app.copy.en %}
+    <a class="product-card" href="{{ '/apps/' | append: app.slug | append: '/' | relative_url }}" data-category="{{ app.category }}" data-status="{{ app.status }}" data-soon="{% if app.status == 'development' or app.status == 'beta' or app.status == 'concept' %}true{% else %}false{% endif %}" data-search="{{ app.name | append: ' ' | append: info.description | escape }}" style="--product-color:{{ app.color }}"><div class="product-card-top"><img src="{{ app.icon | relative_url }}" width="64" height="64" loading="lazy" alt=""><span class="product-arrow" aria-hidden="true">↗</span></div><span class="product-category">{{ ui.status[app.status] }} · {% if app.category == 'games' %}{{ t.nav.games }}{% else %}{{ t.nav.apps }}{% endif %}</span><h3>{{ app.name }}</h3><p>{{ info.headline }}</p></a>
+    {% endfor %}
+  </div><p id="catalog-status" class="sr-only" role="status" data-label="{{ h.collection }}"></p>
 </section>
-
-<div class="section-divider"></div>
-
-<section class="philosophy">
-	<div class="wrap" style="text-align: center;">
-		<h2>{{ t.home.philosophy_heading | default: "Built with care.<br>Designed for everyone." }}</h2>
-		<p>{{ t.home.philosophy_text | default: "We are two brothers from Brazil who build apps we genuinely use ourselves. Every product is privacy-first and designed to feel at home on every device — iPhone, iPad, Android, and beyond." }}</p>
-		<a href="/about" class="button" style="margin-top: 28px;">{{ t.home.about_us | default: "About Us" }}</a>
-	</div>
+<section class="lab-worlds lab-wrap" id="games" aria-labelledby="games-title">
+  <div class="section-heading" data-reveal><div><p class="lab-kicker">03 / {{ t.nav.games }}</p><h2 id="games-title">{{ h.worlds_title }}</h2></div><p>{{ h.worlds_intro }}</p></div>
+  <div class="worlds-grid"><a class="world-card world-space" href="{{ '/apps/sundust/' | relative_url }}" data-reveal><div class="world-image"><img src="{{ '/images/sundust/preview-poster.jpg' | relative_url }}" width="1200" height="675" loading="lazy" alt="Sundust — {{ t.projects.project-sundust.subtitle }}"></div><div class="world-copy"><span class="lab-kicker">SUNDUST</span><h3>{{ t.projects.project-sundust.subtitle }}</h3><span>{{ t.app_card.learn_more }} ↗</span></div></a><a class="world-card world-paper" href="{{ '/apps/tumtum/' | relative_url }}" data-reveal><div class="world-image"><img src="{{ shots[1].ipad[0].path | relative_url }}" width="640" height="853" loading="lazy" alt="{{ shots[1].alt | escape }}"></div><div class="world-copy"><span class="lab-kicker">TUMTUM · {{ site.data.tumtum_page[site.active_lang].soon }}</span><h3>{{ h.tumtum }}</h3><span>{{ t.app_card.learn_more }} ↗</span></div></a></div>
 </section>
+<section class="lab-studio lab-wrap" id="studio" aria-labelledby="studio-title" data-reveal><div class="studio-photo"><img src="{{ '/images/home/founders.webp' | relative_url }}" width="800" height="600" loading="lazy" alt="Evandro & Fabio"><span>EVANDRO + FABIO</span></div><div><p class="lab-kicker">04 / {{ h.studio }}</p><h2 id="studio-title">{{ h.studio_title }}</h2><p>{{ h.studio_intro }}</p><a class="lab-text-link" href="{{ '/about/' | relative_url }}">{{ t.home.about_us }} ↗</a></div></section>
+<section class="lab-outro lab-wrap" data-reveal><span aria-hidden="true">✳</span><h2>{{ h.outro }}</h2><a class="lab-button" href="{{ '/contact/' | relative_url }}">{{ t.home.get_in_touch }} ↗</a></section>

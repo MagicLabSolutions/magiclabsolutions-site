@@ -3,7 +3,7 @@
 Stay in control of your subscriptions with **MyRenewals**, a clean and smart app that helps you track, manage, and cancel your recurring payments before they renew.
 
 <div style="text-align: center; margin: 30px 0;">
-  <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" target="_blank" rel="noopener">
+  <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6752888662" target="_blank" rel="noopener">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
   </a>
 </div>
@@ -79,7 +79,7 @@ We all forget about subscriptions — streaming, storage, software — and end u
 ---
 
 <div style="text-align: center; margin: 40px 0;">
-  <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6670665785" target="_blank" rel="noopener">
+  <a href="https://apps.apple.com/app/myrenewals-sub-track-cancel/id6752888662" target="_blank" rel="noopener">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 50px;" />
   </a>
 </div>

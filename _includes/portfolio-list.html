@@ -1,0 +1,5 @@
+{% assign items = site.data.portfolio | where: 'category', include.category | sort: 'name' %}
+{% assign list_ui = site.data.portfolio_ui[site.active_lang] | default: site.data.portfolio_ui.en %}
+{% for item in items %}{% assign text = item.copy[site.active_lang] | default: item.copy.en %}
+<article class="app-card animate-on-scroll" style="--card-accent:{{ item.color }}"><a href="{{ '/apps/' | append: item.slug | append: '/' | relative_url }}" class="app-card__link"><span class="app-card__badge">{{ list_ui.status[item.status] }}</span><div class="app-card__icon"><img src="{{ item.icon | relative_url }}" width="80" height="80" loading="lazy" alt="{{ item.name }}"></div><h3 class="app-card__title">{{ item.name }}</h3><p class="app-card__subtitle">{{ text.headline }}</p><p class="app-card__description">{{ text.description }}</p><span class="app-card__cta">{{ list_ui.inside }} ↗</span></a></article>
+{% endfor %}

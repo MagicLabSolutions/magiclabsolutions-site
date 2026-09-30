@@ -29,9 +29,11 @@ lang-ref: tumtum-page
   <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="https://magiclabsolutions.com{{ lang_prefix }}/apps/tumtum/"{% endstatic_href %}>
   {% endfor %}
   <link rel="alternate" hreflang="x-default" {% static_href %}href="https://magiclabsolutions.com/apps/tumtum/"{% endstatic_href %}>
-  <link rel="icon" href="/images/tumtum/app-icon.png" type="image/png">
+  <link rel="icon" href="/images/portfolio/tumtum/icon.webp" type="image/png">
   <link rel="stylesheet" href="/css/tumtum-coming-soon.css">
   <script src="/js/tumtum-gallery.js" defer></script>
+  <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+  <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">{{ copy.skip }}</a>
@@ -55,6 +57,7 @@ lang-ref: tumtum-page
         <p class="headline">{{ copy.headline }}</p>
         <p class="intro">{{ copy.intro }}</p>
         <p class="platform">{{ copy.platform }}</p>
+        <a class="button" href="https://apps.apple.com/app/id6808820820">{{ copy.download }} ↗</a>
         <a class="button" href="#screenshots">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
       </div>
       <div class="hero-art">
@@ -196,7 +199,9 @@ lang-ref: tumtum-page
       <h2 id="together-title">{{ details.together.title }}</h2>
       <p>{{ details.together.text }}</p>
     </section>
-  </main>
+
+{% include product-experience.html slug='tumtum' %}
+</main>
   <dialog class="gallery-dialog" aria-labelledby="gallery-dialog-title" aria-describedby="gallery-dialog-caption">
     <div class="dialog-header">
       <h2 id="gallery-dialog-title"></h2>
