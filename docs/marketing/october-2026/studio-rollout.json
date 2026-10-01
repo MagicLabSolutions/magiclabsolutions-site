@@ -46,12 +46,19 @@
         "ipad": 4
       },
       "rationale": "Five distinct native game scenes: flight, surface exploration, construction, orbital map and star chart.",
-      "composition": "Three clean / two layered iPhone views; three clean / one layered iPad view."
+      "composition": "Three clean / two layered iPhone views; three clean / one layered iPad view.",
+      "publication": "Verified live after successful Pages deployment 36919390602."
     },
     "memories": {
-      "status": "queued",
+      "status": "complete",
       "primary_images": 4,
-      "website": "pending"
+      "website": "checked",
+      "native_variants": {
+        "iphone": 4,
+        "ipad": 4
+      },
+      "rationale": "Timeline, monthly film, favorites and soundtrack: four distinct native views.",
+      "composition": "Two clean and two layered views per Apple platform."
     },
     "hooray": {
       "status": "queued",
@@ -91,5 +98,6 @@
   },
   "tumtum_store": "Preserve original approved store assets; update four editorial highlights and the product page.",
   "publication_authorization": "Owner requested publication after every website update on October 1, 2026.",
-  "treatment": "Mixed clean device views, coherent corner props and selected layered native components, as requested October 1."
+  "treatment": "Mixed clean device views, coherent corner props and selected layered native components, as requested October 1.",
+  "approval_stage": "English revision review. Owner requested changes before the multilingual image rollout on October 1."
 }

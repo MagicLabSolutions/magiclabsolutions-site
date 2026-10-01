@@ -554,8 +554,8 @@
   "memories": {
     "locale": "en-US",
     "position": "Make a film of the life you are already photographing.",
-    "headline": "Your photos. A film every month.",
-    "description": "Turn everyday photos into monthly films.",
+    "headline": "Little moments. One story.",
+    "description": "Keep everyday photos in a personal timeline.",
     "cta": "Discover Memories",
     "steps": [
       "Open your personal timeline",
@@ -568,48 +568,123 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/memories/highlight-1.webp",
-        "alt": "Memories: Your photos. A film every month. — Turn everyday photos into monthly films.",
-        "caption": "Your photos. A film every month.",
+        "alt": "Memories: Little moments. One story. — Keep everyday photos in a personal timeline.",
+        "caption": "Little moments. One story.",
         "width": 1320,
         "height": 2868
       },
       {
         "output": "/images/campaign/en-US/memories/highlight-2.webp",
-        "alt": "Memories: Your months. Your story. — Follow a timeline built around your special date.",
-        "caption": "Your months. Your story.",
+        "alt": "Memories: Your month. In a film. — Bring the month’s moments together.",
+        "caption": "Your month. In a film.",
         "width": 1320,
         "height": 2868
       },
       {
         "output": "/images/campaign/en-US/memories/highlight-3.webp",
-        "alt": "Memories: Keep the moments that matter. — Mark the highlights you want to return to.",
-        "caption": "Keep the moments that matter.",
+        "alt": "Memories: Keep the favorites close. — Star the memories you want to find again.",
+        "caption": "Keep the favorites close.",
         "width": 1320,
         "height": 2868
       },
       {
         "output": "/images/campaign/en-US/memories/highlight-4.webp",
-        "alt": "Memories: A year worth looking back on. — Start with a child, an anniversary or your own year.",
-        "caption": "A year worth looking back on.",
+        "alt": "Memories: Give it a soundtrack. — Choose the sound that fits your story.",
+        "caption": "Give it a soundtrack.",
         "width": 1320,
         "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-highlight-1.webp",
+        "alt": "Memories: iPad / Little moments. One story. — Keep everyday photos in a personal timeline.",
+        "caption": "iPad / Little moments. One story.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-highlight-2.webp",
+        "alt": "Memories: iPad / Your month. In a film. — Bring the month’s moments together.",
+        "caption": "iPad / Your month. In a film.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-highlight-3.webp",
+        "alt": "Memories: iPad / Keep the favorites close. — Star the memories you want to find again.",
+        "caption": "iPad / Keep the favorites close.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-highlight-4.webp",
+        "alt": "Memories: iPad / Give it a soundtrack. — Choose the sound that fits your story.",
+        "caption": "iPad / Give it a soundtrack.",
+        "width": 1440,
+        "height": 1920
       }
     ],
     "captures": [
       {
         "output": "/images/campaign/en-US/memories/capture-1.webp",
-        "alt": "Memories: Monthly films from your photos (real English product capture)",
-        "label": "Monthly films from your photos",
-        "description": "Turn everyday photos into monthly films."
+        "alt": "Memories: Your personal timeline (real English product capture)",
+        "label": "Your personal timeline",
+        "description": "Keep everyday photos in a personal timeline."
+      },
+      {
+        "output": "/images/campaign/en-US/memories/capture-2.webp",
+        "alt": "Memories: Monthly film (real English product capture)",
+        "label": "Monthly film",
+        "description": "Bring the month’s moments together."
       },
       {
         "output": "/images/campaign/en-US/memories/capture-3.webp",
-        "alt": "Memories: Your favorite little things (real English product capture)",
-        "label": "Your favorite little things",
-        "description": "Mark the highlights you want to return to."
+        "alt": "Memories: Highlights (real English product capture)",
+        "label": "Highlights",
+        "description": "Star the memories you want to find again."
+      },
+      {
+        "output": "/images/campaign/en-US/memories/capture-4.webp",
+        "alt": "Memories: Soundtrack choices (real English product capture)",
+        "label": "Soundtrack choices",
+        "description": "Choose the sound that fits your story."
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-capture-1.webp",
+        "alt": "Memories: iPad / Your personal timeline (real English product capture)",
+        "label": "iPad / Your personal timeline",
+        "description": "Keep everyday photos in a personal timeline."
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-capture-2.webp",
+        "alt": "Memories: iPad / Monthly film (real English product capture)",
+        "label": "iPad / Monthly film",
+        "description": "Bring the month’s moments together."
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-capture-3.webp",
+        "alt": "Memories: iPad / Highlights (real English product capture)",
+        "label": "iPad / Highlights",
+        "description": "Star the memories you want to find again."
+      },
+      {
+        "output": "/images/campaign/en-US/memories/ipad-capture-4.webp",
+        "alt": "Memories: iPad / Soundtrack choices (real English product capture)",
+        "label": "iPad / Soundtrack choices",
+        "description": "Choose the sound that fits your story."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "Little moments.\nA story to keep.",
+      "description": "Collect the photos of the life you are living. Find a favorite, revisit a month and choose a soundtrack for the film you keep.",
+      "primary_count": 4,
+      "palette": [
+        "#FFF5EC",
+        "#362E29",
+        "#AF4C32"
+      ]
+    }
   },
   "poof": {
     "locale": "en-US",

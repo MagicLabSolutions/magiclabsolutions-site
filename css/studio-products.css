@@ -57,3 +57,8 @@
 .studio-page[data-studio=sundust] .hero p{color:var(--studio-ink)}
 .studio-page[data-studio=sundust] .p-button{color:#09151B!important}
 @media(max-width:860px){.studio-page[data-studio=sundust] .hero{padding-top:110px}}
+
+.studio-page .p-language nav{background:var(--studio-paper);color:var(--studio-ink);border-color:color-mix(in srgb,var(--studio-ink),transparent 75%)}
+.studio-page .p-note,.studio-page .p-footer p,.studio-page .p-footer nav{color:var(--studio-ink)}
+.studio-page .p-text-link{color:var(--studio-ink)!important}.studio-page .p-header nav a:hover{color:var(--studio-accent)}
+.studio-page .p-tour-image img{object-fit:contain;height:auto;max-height:650px;width:100%}

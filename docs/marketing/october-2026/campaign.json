@@ -1350,24 +1350,24 @@
       "keywords": "baby,milestone,video,montage,timeline,journal,family,scrapbook,recap,diary,anniversary",
       "panels": [
         [
-          "Your photos. A film every month.",
-          "Turn everyday photos into monthly films.",
-          "Monthly films from your photos"
+          "Little moments. One story.",
+          "Keep everyday photos in a personal timeline.",
+          "Your personal timeline"
         ],
         [
-          "Your months. Your story.",
-          "Follow a timeline built around your special date.",
-          "A personal timeline"
+          "Your month. In a film.",
+          "Bring the month’s moments together.",
+          "Monthly film"
         ],
         [
-          "Keep the moments that matter.",
-          "Mark the highlights you want to return to.",
-          "Your favorite little things"
+          "Keep the favorites close.",
+          "Star the memories you want to find again.",
+          "Highlights"
         ],
         [
-          "A year worth looking back on.",
-          "Start with a child, an anniversary or your own year.",
-          "Stories you already live"
+          "Give it a soundtrack.",
+          "Choose the sound that fits your story.",
+          "Soundtrack choices"
         ]
       ],
       "hooks": [
@@ -1411,10 +1411,10 @@
       "cta": "Discover Memories",
       "store_format": "iphone-6.9",
       "screens": [
-        "/docs/marketing/october-2026/sources/memories/unframed-1.png",
-        "/docs/marketing/october-2026/sources/memories/unframed-2.png",
-        "/docs/marketing/october-2026/sources/memories/unframed-3.png",
-        "/docs/marketing/october-2026/sources/memories/unframed-4.png"
+        "/docs/marketing/october-2026/sources/memories/native-1.png",
+        "/docs/marketing/october-2026/sources/memories/native-2.png",
+        "/docs/marketing/october-2026/sources/memories/native-3.png",
+        "/docs/marketing/october-2026/sources/memories/native-4.png"
       ],
       "hardware": "iphone",
       "capture_has_device_frame": false,
@@ -1434,16 +1434,226 @@
       "background": "/docs/marketing/october-2026/lifestyle/family.png",
       "details": [
         null,
-        {
-          "asset": "/docs/marketing/october-2026/sources/memories/detail-primary-2.png",
-          "label": "Month by month"
-        },
-        {
-          "asset": "/docs/marketing/october-2026/sources/memories/detail-primary-3.png",
-          "label": "Keep a favorite"
-        },
+        null,
+        null,
         null
-      ]
+      ],
+      "studio_art": {
+        "copy": [
+          [
+            "Little moments.\nOne story.",
+            "Everyday photos.\nYour personal timeline."
+          ],
+          [
+            "Your month.\nIn a film.",
+            "Bring the month’s\nmoments together."
+          ],
+          [
+            "Keep the\nfavorites close.",
+            "Star the memories\nyou want to find again."
+          ],
+          [
+            "Give it\na soundtrack.",
+            "Choose the sound\nthat fits your story."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/memories/native-2.png",
+                "rect": [
+                  240,
+                  628,
+                  1080,
+                  2126
+                ],
+                "left": 0.035,
+                "top": 0.52,
+                "width": 0.55,
+                "radius": 75,
+                "angle": -2
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/memories/native-4.png",
+                "rect": [
+                  60,
+                  1080,
+                  645,
+                  1412
+                ],
+                "left": 0.02,
+                "top": 0.65,
+                "width": 0.54,
+                "radius": 75,
+                "angle": -3
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/memories/native-4.png",
+                "rect": [
+                  675,
+                  1080,
+                  1260,
+                  1412
+                ],
+                "left": 0.43,
+                "top": 0.8,
+                "width": 0.54,
+                "radius": 75,
+                "angle": 3
+              }
+            ]
+          ]
+        },
+        "props": [
+          {
+            "asset": "/docs/marketing/october-2026/assets/memories/photo-cutout.png",
+            "width": 0.32,
+            "left": 0.75,
+            "bottom": -0.01,
+            "angle": 7,
+            "panels": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "ipad": {
+          "copy": [
+            [
+              "Little moments.\nOne story.",
+              "Everyday photos.\nYour personal timeline."
+            ],
+            [
+              "Your month.\nIn a film.",
+              "Bring the month’s\nmoments together."
+            ],
+            [
+              "Keep the\nfavorites close.",
+              "Star the memories\nyou want to find again."
+            ],
+            [
+              "Give it\na soundtrack.",
+              "Choose the sound\nthat fits your story."
+            ]
+          ],
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/memories/ipad/native-2.png",
+                "rect": [
+                  744,
+                  826,
+                  1310,
+                  1828
+                ],
+                "left": 0.025,
+                "top": 0.505,
+                "width": 0.36,
+                "radius": 45,
+                "angle": -2
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/memories/ipad/native-4.png",
+                "rect": [
+                  48,
+                  674,
+                  1008,
+                  892
+                ],
+                "left": 0.02,
+                "top": 0.63,
+                "width": 0.94,
+                "radius": 36,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/memories/ipad/native-4.png",
+                "rect": [
+                  1054,
+                  674,
+                  2016,
+                  892
+                ],
+                "left": 0.04,
+                "top": 0.81,
+                "width": 0.94,
+                "radius": 36,
+                "angle": 2
+              }
+            ]
+          ]
+        }
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "Little moments.\nA story to keep.",
+        "description": "Collect the photos of the life you are living. Find a favorite, revisit a month and choose a soundtrack for the film you keep.",
+        "primary_count": 4,
+        "palette": [
+          "#FFF5EC",
+          "#362E29",
+          "#AF4C32"
+        ]
+      },
+      "ipad_store": {
+        "hardware": "ipad",
+        "device": "ipad",
+        "frame": {
+          "asset": "/docs/marketing/october-2026/.frames-cache/ipad.png",
+          "dimensions": [
+            2300,
+            3000
+          ],
+          "screen": [
+            118,
+            124,
+            2064,
+            2752
+          ]
+        },
+        "screens": [
+          "/docs/marketing/october-2026/sources/memories/ipad/native-1.png",
+          "/docs/marketing/october-2026/sources/memories/ipad/native-2.png",
+          "/docs/marketing/october-2026/sources/memories/ipad/native-3.png",
+          "/docs/marketing/october-2026/sources/memories/ipad/native-4.png"
+        ],
+        "panels": [
+          [
+            "Little moments. One story.",
+            "Keep everyday photos in a personal timeline.",
+            "Your personal timeline"
+          ],
+          [
+            "Your month. In a film.",
+            "Bring the month’s moments together.",
+            "Monthly film"
+          ],
+          [
+            "Keep the favorites close.",
+            "Star the memories you want to find again.",
+            "Highlights"
+          ],
+          [
+            "Give it a soundtrack.",
+            "Choose the sound that fits your story.",
+            "Soundtrack choices"
+          ]
+        ],
+        "dimensions": [
+          2064,
+          2752
+        ]
+      }
     },
     {
       "slug": "poof",

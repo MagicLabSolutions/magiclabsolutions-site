@@ -18,6 +18,7 @@ for(const p of campaign.products.filter(p=>process.argv.slice(2).includes(p.slug
    const r=await page.evaluate(()=>{const rect=s=>document.querySelector(s).getBoundingClientRect().toJSON();return {copy:rect('.copy'),device:rect('#device'),screen:rect('#capture'),natural:[document.querySelector('#capture').naturalWidth,document.querySelector('#capture').naturalHeight],headline:parseFloat(getComputedStyle(document.querySelector('h1')).fontSize),description:parseFloat(getComputedStyle(document.querySelector('.description')).fontSize),cutouts:[...document.querySelectorAll('.ui-cutout')].map(el=>({box:el.getBoundingClientRect().toJSON(),source:el.dataset.source,rect:JSON.parse(el.dataset.rect)}))};});
    const key=platform+'-'+(i+1);
    if(r.device.width/size[0]<.78)errors.push(key+': device too small');
+   if(product.frame&&Math.abs(r.natural[0]/r.natural[1]/(product.frame.screen[2]/product.frame.screen[3])-1)>.003)errors.push(key+': native capture does not fit the device opening');
    if(product.frame&&Math.abs(r.device.width/r.device.height-product.frame.dimensions[0]/product.frame.dimensions[1])>.0001)errors.push(key+': distorted hardware');
    if(r.copy.bottom>r.device.top-size[0]*.015)errors.push(key+': copy overlaps hardware');
    if(r.headline/size[0]*390<32||r.description/size[0]*390<16)errors.push(key+': copy too small');
