@@ -11,19 +11,24 @@ class Page(HTMLParser):
         super().__init__()
         self.assets, self.ids, self.links, self.schemas = [], [], [], []
         self.demo_count = 0
+        self.capture_tour_count = 0
         self.schema = None
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if attrs.get('id'):
             self.ids.append(attrs['id'])
-        if tag in ('img', 'script') and attrs.get('src'):
+        if tag in ('img', 'script', 'source', 'track', 'video') and attrs.get('src'):
             self.assets.append(attrs['src'])
+        if tag == 'video' and attrs.get('poster'):
+            self.assets.append(attrs['poster'])
         if tag == 'link' and attrs.get('rel') == 'stylesheet':
             self.assets.append(attrs['href'])
         if tag == 'a' and attrs.get('href'):
             self.links.append(attrs['href'])
         if 'data-demo' in attrs:
             self.demo_count += 1
+        if 'data-capture-tour' in attrs:
+            self.capture_tour_count += 1
         if tag == 'script' and attrs.get('type') == 'application/ld+json':
             self.schema = ''
     def handle_data(self, data):
@@ -51,8 +56,8 @@ def main():
                 continue
             page = Page()
             page.feed(path.read_text())
-            if page.demo_count != 1:
-                errors.append(f'{route}: expected one demo, found {page.demo_count}')
+            if page.demo_count + page.capture_tour_count != 1:
+                errors.append(f'{route}: expected one demo or real capture tour')
             if len(page.ids) != len(set(page.ids)):
                 errors.append(f'{route}: duplicate element IDs')
             for url in page.assets:

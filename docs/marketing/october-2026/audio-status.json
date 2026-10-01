@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-01",
+  "provider": "ElevenLabs",
+  "status": "prepared_awaiting_credit",
+  "remaining_characters": 0,
+  "recorded_new_voiceovers": 0,
+  "tumtum": "Existing approved Maisie narration and instrumental retained in both real gameplay trailers",
+  "other_products": "Music, visible English copy and editable caption tracks are ready. Twenty-two narration scripts and voice IDs are prepared in audio-plan.json; finish-audio.py records, synchronizes and refreshes all outputs. TumTum reuses approved audio.",
+  "future_command": "python3 scripts/marketing/finish-audio.py --record"
+}

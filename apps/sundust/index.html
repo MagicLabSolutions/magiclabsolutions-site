@@ -251,6 +251,7 @@ lang-ref: sundust-page
   <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   {% include social-meta.html product='sundust' %}
+  <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 </head>
 <body>
 
@@ -317,8 +318,9 @@ lang-ref: sundust-page
     <section class="video-section">
         <div class="container">
             <div class="video-frame">
-                <video autoplay muted loop playsinline preload="metadata" poster="/images/sundust/preview-poster.jpg">
-                    <source src="/apps/sundust/sundust-preview.mp4" type="video/mp4">
+                <video controls playsinline preload="none" poster="/images/campaign/en-US/sundust/poster.webp">
+                    <source src="/images/campaign/en-US/sundust/walkthrough.mp4" type="video/mp4">
+                    <track kind="captions" src="/images/campaign/en-US/sundust/walkthrough.vtt" srclang="en" label="English" default>
                 </video>
             </div>
             <p class="video-caption">{{ s.video_caption | default: "Real orbits, live gravity — a lift-off from Home Base." }}</p>

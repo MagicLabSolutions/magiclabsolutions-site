@@ -1,3 +1,14 @@
 _site/
 .sass-cache/
 .jekyll-cache/
+
+# Locally generated review bundles and video intermediate files.
+docs/marketing/**/*.zip
+docs/marketing/**/*-silent.mp4
+docs/marketing/**/work/
+
+__pycache__/
+*.pyc
+
+# Official standalone device artwork is kept in a private local cache.
+docs/marketing/october-2026/.frames-cache/

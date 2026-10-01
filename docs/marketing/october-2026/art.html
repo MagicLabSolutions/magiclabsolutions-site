@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Magic Lab — campaign artwork master</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0}body{font-family:-apple-system,BlinkMacSystemFont,'Avenir Next',sans-serif;background:var(--paper);color:var(--ink)}
+.art{width:var(--w);height:var(--h);position:relative;overflow:hidden;padding:7% 7.2%;display:flex;flex-direction:column;background:var(--paper);isolation:isolate}
+.halo{position:absolute;z-index:-1;width:100%;aspect-ratio:1;right:-35%;bottom:-15%;border-radius:50%;background:var(--accent);opacity:.12}.rule{position:absolute;inset:3.3%;border:1px solid color-mix(in srgb,var(--ink),transparent 85%);border-radius:34px;pointer-events:none}
+.brand{display:flex;gap:20px;align-items:center;font-weight:650;font-size:calc(var(--w)*.035);letter-spacing:-.02em}.brand img{width:calc(var(--w)*.062);height:calc(var(--w)*.062);border-radius:24%;object-fit:contain}
+.overline{margin:7% 0 2.4%;font-size:calc(var(--w)*.027);font-weight:650;letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:calc(var(--w)*.085);line-height:1.03;letter-spacing:-.055em;font-weight:760;margin:0;max-width:100%;text-wrap:balance}
+.description{font-size:calc(var(--w)*.033);line-height:1.45;max-width:85%;margin:3% 0 5%;opacity:.84;text-wrap:balance}
+.capture-wrap{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;position:relative;padding:2.5% 0}
+.capture{display:block;object-fit:contain;max-width:100%;max-height:100%;border-radius:22px;filter:drop-shadow(0 30px 35px #0002)}
+.capture.phone{height:100%;width:auto;border:8px solid color-mix(in srgb,var(--ink),transparent 5%);border-radius:65px;background:var(--ink)}
+.capture.landscape,.capture.mac,.capture.web{width:100%;height:auto;border:1px solid color-mix(in srgb,var(--ink),transparent 75%);border-radius:18px}
+.footer{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:calc(var(--w)*.025);margin-top:4%;font-weight:550}
+.footer strong{color:var(--accent);font-weight:700}.dots{display:flex;gap:9px}.dots i{width:12px;height:12px;border-radius:100%;background:var(--ink);opacity:.2}.dots i.on{opacity:1;background:var(--accent)}
+.social h1{font-size:calc(var(--w)*.079);max-width:85%}.social .overline{margin-top:6%}.social .description{font-size:calc(var(--w)*.03);margin-bottom:3%}.social .capture-wrap{justify-content:flex-end}.social .capture.phone{max-height:100%;margin-right:4%;border-width:5px;border-radius:38px}.social .footer{font-size:calc(var(--w)*.029)}
+.social .capture-wrap:before{content:'01 /';position:absolute;left:2%;top:35%;font-size:calc(var(--w)*.1);color:var(--accent);opacity:.18;font-weight:800;letter-spacing:-.08em}
+.video{padding:12% 8% 17%}.video .overline{margin-top:6%;font-size:calc(var(--w)*.026)}.video h1{font-size:calc(var(--w)*.065);max-width:94%;line-height:1.12}.video .description{font-size:calc(var(--w)*.031)}.video .capture-wrap{padding-bottom:3%}.video .capture.phone{max-height:100%;border-width:5px;border-radius:42px}.video .footer{font-size:calc(var(--w)*.029);line-height:1.4}.video .footer strong{max-width:70%}.video .rule{inset:6% 3.5% 12%}
+.wide{padding:5% 5.5%;display:grid;grid-template-columns:1fr 1.6fr;grid-template-rows:auto 1fr auto;column-gap:5%;align-items:center}.wide .brand{grid-column:1 / 3;font-size:calc(var(--w)*.022)}.wide .brand img{width:calc(var(--w)*.04);height:calc(var(--w)*.04)}.wide .copy{grid-column:1;grid-row:2}.wide h1{font-size:calc(var(--w)*.051);line-height:1.08}.wide .overline{font-size:calc(var(--w)*.015);margin:9% 0 7%}.wide .description{font-size:calc(var(--w)*.019);max-width:100%;margin-top:8%}.wide .capture-wrap{grid-column:2;grid-row:2;align-self:stretch}.wide .footer{grid-row:3;grid-column:1/3;font-size:calc(var(--w)*.014)}
+[data-slug=memories] h1,[data-slug=hooray] h1{font-family:Georgia,serif;font-weight:500;letter-spacing:-.045em;line-height:1.07}
+[data-slug=soooon] h1{font-family:'Arial Rounded MT Bold',-apple-system,sans-serif;letter-spacing:-.045em;color:#5D28B2}
+[data-slug=tumtum] h1{font-family:'Arial Rounded MT Bold',-apple-system,sans-serif;letter-spacing:-.035em}
+[data-slug=sundust] h1{font-family:Georgia,serif;font-weight:400;letter-spacing:-.035em;line-height:1.12}
+.game-phone .capture-wrap{align-items:stretch}.game-phone .capture.landscape{width:100%;height:100%;object-fit:cover;object-position:center;min-height:0}
+/* Long translations keep the layout and grow to three lines before any type reduction. */
+.tablet .overline{margin-top:3%}.tablet h1{font-size:calc(var(--w)*.066)}.tablet .description{font-size:calc(var(--w)*.028);margin:2% 0 3%}
+.art[data-long-copy=true] h1{font-size:calc(var(--w)*.074)}
+
+/* Lifestyle opening images: context above, actual product pixels below. */
+.lifestyle{color:#fff;background-size:cover;background-position:center 20%}
+.lifestyle .rule,.lifestyle .halo,.lifestyle .overline,.lifestyle .dots,.lifestyle .capture-wrap:before{display:none}
+.lifestyle .brand{position:absolute;top:5%;left:7.2%;font-size:calc(var(--w)*.034);text-shadow:0 2px 12px #0006}
+.lifestyle .brand img{width:calc(var(--w)*.05);height:calc(var(--w)*.05)}
+.lifestyle .copy{position:absolute;top:12%;left:7.2%;right:7.2%;z-index:2}
+.lifestyle h1{font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-weight:760;font-size:calc(var(--w)*.085);letter-spacing:-.04em;line-height:1.06;color:#fff;max-width:100%;text-shadow:0 3px 24px #0004}
+.lifestyle .description{font-size:calc(var(--w)*.032);max-width:85%;margin-top:3%;opacity:1;text-shadow:0 2px 12px #0008}
+.lifestyle .capture-wrap{position:absolute;top:52%;bottom:-12%;left:6%;right:6%;padding:0;justify-content:center}
+.lifestyle .capture.phone{height:100%;max-height:none;border-color:#171e21;border-width:7px;filter:drop-shadow(0 12px 25px #0006)}
+.lifestyle .footer{position:absolute;bottom:3%;left:7%;right:7%;z-index:3;margin:0;display:none}
+.lifestyle.social .copy{top:12%}.lifestyle.social h1{font-size:calc(var(--w)*.07);max-width:100%}
+.lifestyle.social .capture-wrap{top:57%;bottom:-35%;left:8%;right:8%}.lifestyle.social .capture.phone{margin:0}
+.lifestyle.wide{background-position:center 42%}.lifestyle.wide .brand{font-size:calc(var(--w)*.025)}.lifestyle.wide .brand img{width:calc(var(--w)*.04);height:calc(var(--w)*.04)}
+.lifestyle.wide .copy{top:22%;left:6%;right:52%}.lifestyle.wide h1{font-size:calc(var(--w)*.061)}.lifestyle.wide .description{font-size:calc(var(--w)*.025);max-width:100%}
+.lifestyle.wide .capture-wrap{top:34%;bottom:8%;left:45%;right:5%}.lifestyle.wide .capture.web{background:#fff;border-color:#ffffff6a;border-width:3px}
+
+/* Official raster Apple bezels and separate Android/Mac treatments. */
+.device-frame{position:relative;display:flex;align-items:center;justify-content:center;max-width:100%;max-height:100%}
+.device-frame .camera,.device-frame .side-key{display:none}
+/* Android remains a distinct handset; Apple uses the official PNG artwork below. */
+.device-frame.android{height:100%;aspect-ratio:var(--screen-ratio);padding:calc(var(--w)*.009);border:2px solid #6d7580;border-radius:calc(var(--w)*.026);background:linear-gradient(110deg,#646973,#15181c 12%,#0a0b0e 80%,#5b626c);flex:none}
+.device-frame.android .capture{height:100%;width:100%;border:0;border-radius:calc(var(--w)*.021);filter:none;background:#08090b}
+.device-frame.android .camera{display:block;position:absolute;top:1.7%;left:48%;width:4%;aspect-ratio:1;border:2px solid #2e3442;border-radius:50%;background:#050609;z-index:3}
+.device-bezel{display:none}
+.device-frame.real{display:block;flex:none;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;margin:0}
+.device-frame.real .camera,.device-frame.real .side-key{display:none}
+.device-frame.real .capture{position:absolute;max-width:none;max-height:none;border:0;filter:none;margin:0;object-fit:contain;background:var(--paper)}
+.device-frame.real .device-bezel{display:block;position:absolute;inset:0;width:100%;height:100%;z-index:2}
+.lifestyle .capture-wrap{top:43%;bottom:3%;left:6%;right:6%}
+.lifestyle.social .capture-wrap{top:44%;bottom:2%;left:8%;right:8%}
+.device-frame.macbook{width:91%;padding:calc(var(--w)*.004) calc(var(--w)*.005) calc(var(--w)*.008);border:2px solid #898d92;background:#08090b;border-radius:calc(var(--w)*.009);box-shadow:0 16px 40px #0005;margin-bottom:3%}
+.device-frame.macbook .capture{width:100%;height:auto;max-height:100%;border:0;border-radius:calc(var(--w)*.004);filter:none}
+.device-frame.macbook:after{content:'';position:absolute;left:-7%;right:-7%;bottom:calc(var(--w)*-.01);height:calc(var(--w)*.012);background:linear-gradient(#c8cdd3 0%,#8c939c 45%,#50555e 75%,#252a33);border-radius:2px 2px 55% 55% / 2px 2px 80% 80%;box-shadow:0 8px 18px #0004}
+.device-frame.macbook .camera{display:block;position:absolute;left:49.7%;top:2px;width:calc(var(--w)*.002);height:calc(var(--w)*.002);background:#253343;border-radius:50%;z-index:3}
+.device-frame.browser .capture{width:100%;height:auto}
+.device-frame.existing{height:100%;width:auto;aspect-ratio:var(--screen-ratio);background:transparent;border:0;padding:0;border-radius:0;box-shadow:none}
+.device-frame.existing .capture{height:100%;width:auto;object-fit:contain;border:0;background:transparent;border-radius:0;filter:drop-shadow(0 20px 25px #0003)}
+.device-frame.existing .camera,.device-frame.existing .side-key{display:none}
+.lifestyle .device-frame{height:100%;max-height:none}.lifestyle .device-frame .capture{margin:0}
+.lifestyle.wide .device-frame{height:auto;width:100%}.social .device-frame{margin-right:4%}
+</style></head><body><main class="art" id="art"><div class="rule"></div><div class="halo"></div><div class="brand"><img id="icon" alt=""><span id="name"></span></div><div class="copy"><p class="overline" id="overline"></p><h1 id="headline"></h1><p class="description" id="description"></p></div><div class="capture-wrap"><div class="device-frame" id="device"><i class="camera" aria-hidden="true"></i><i class="side-key" aria-hidden="true"></i><img class="capture" id="capture" alt=""><img class="device-bezel" id="bezel" alt=""></div></div><div class="footer"><strong id="footer"></strong><span class="dots"><i></i><i></i><i></i><i></i></span></div></main>
+<script>
+window.renderArtwork = async function(p,index,format,dimensions,variant=0){
+ const panel=p.panels[index];document.documentElement.style.cssText=`--paper:${p.palette[0]};--ink:${p.palette[1]};--accent:${p.palette[2]};--w:${dimensions[0]}px;--h:${dimensions[1]}px`;
+ const root=document.querySelector('#art');root.dataset.slug=p.slug;root.className='art '+(format==='carousel'?'social':format)+(dimensions[0]>dimensions[1]?' wide':'');
+ const photo={giftly:'celebration',hooray:'celebration',memories:'family',zuzu:'family',brainfold:'study',soooon:'anticipation'}[p.slug];
+ const usePhoto=photo&&index===0&&format!=='video'&&p.device!=='ipad';
+ root.classList.toggle('lifestyle',!!usePhoto);root.classList.toggle('tablet',p.device==='ipad');
+ root.style.backgroundImage=usePhoto?`linear-gradient(180deg,rgba(7,17,20,.64) 0%,rgba(7,17,20,.36) 30%,rgba(7,17,20,.04) 55%,rgba(7,17,20,.22) 100%),url('/docs/marketing/october-2026/lifestyle/${photo}.png')`:'';
+ if(usePhoto){const im=new Image();im.src=`/docs/marketing/october-2026/lifestyle/${photo}.png`;await im.decode();}
+ root.dataset.longCopy=panel[0].length>40;document.querySelector('#name').textContent=p.name;
+ document.querySelector('#icon').src=p.icon;document.querySelector('#headline').textContent=format==='social'?p.hooks[index]:(format==='video'?p.steps[variant][index%3]:panel[0]);
+ document.querySelector('#description').textContent=format==='video'?(index===0?p.hooks[variant]:''):panel[1];document.querySelector('#overline').textContent=format==='video'?'A closer look':panel[2];
+ document.querySelector('#capture').src=p.screens[index];document.querySelector('#capture').className='capture '+p.device;
+ const device=document.querySelector('#device');device.className='device-frame '+(p.hardware||'browser')+(p.frame?' real':'')+(p.capture_has_device_frame?' existing':'');
+ const bezel=document.querySelector('#bezel');if(p.frame){bezel.src=p.frame.asset;}else{bezel.removeAttribute('src');}
+ device.style.cssText='';document.querySelector('#capture').style.cssText='';
+ document.querySelector('#footer').textContent=format==='store'?'':p.cta+' · magiclabsolutions.com';
+ document.querySelectorAll('.dots i').forEach((x,i)=>x.classList.toggle('on',i===index));
+ await Promise.all([...document.images].filter(im=>im.getAttribute('src')).map(im=>im.decode()));await document.fonts.ready;const cap=document.querySelector('#capture');device.style.setProperty('--screen-ratio',cap.naturalWidth+'/'+cap.naturalHeight);
+ if(p.frame){
+  const wrap=document.querySelector('.capture-wrap'),box=wrap.getBoundingClientRect(),[fw,fh]=p.frame.dimensions,[x,y,w,h]=p.frame.screen;
+  const scale=Math.min(box.width/fw,(box.height-parseFloat(getComputedStyle(wrap).paddingTop)-parseFloat(getComputedStyle(wrap).paddingBottom))/fh);
+  device.style.width=fw*scale+'px';device.style.height=fh*scale+'px';
+  cap.style.cssText=`left:${x/fw*100}%;top:${y/fh*100}%;width:${w/fw*100}%;height:${h/fh*100}%;border-radius:${(p.device==='ipad'?42:150)*scale}px`;
+ }
+ return {scrollWidth:document.documentElement.scrollWidth,scrollHeight:document.documentElement.scrollHeight,headlineHeight:document.querySelector('h1').getBoundingClientRect().height};
+};
+</script></body></html>

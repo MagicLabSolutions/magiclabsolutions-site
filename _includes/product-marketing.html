@@ -1,0 +1,19 @@
+{% assign campaign = site.data.product_marketing[exp.slug] %}
+{% if campaign %}
+<section class="p-wrap p-campaign" aria-labelledby="campaign-title" lang="en" data-p-reveal>
+  <div class="p-section-heading"><div><p class="p-kicker">A CLOSER LOOK / {{ exp.name }}</p><h2 id="campaign-title">{{ campaign.position }}</h2></div><p>{% if site.active_lang != 'en' %}This collection is in English. {% endif %}Take a look at {{ exp.name }} in everyday use.</p></div>
+  <div class="p-proof-grid">
+    <video controls playsinline preload="none" poster="{{ campaign.poster | relative_url }}" aria-label="{{ exp.name }} product walkthrough in English">
+      <source src="{{ campaign.video | relative_url }}" type="video/mp4">
+      <track kind="captions" src="{{ campaign.captions | relative_url }}" srclang="en" label="English" default>
+      <p><a href="{{ campaign.video | relative_url }}">Watch the {{ exp.name }} video</a></p>
+    </video>
+    <div class="p-proof-copy"><h3>{{ campaign.headline }}</h3><p>{{ campaign.description }}</p><ol>{% for step in campaign.steps %}<li>{{ step }}</li>{% endfor %}</ol><a class="p-button" href="{% if exp.store_url %}{{ exp.store_url }}{% elsif exp.web_url %}{{ exp.web_url }}{% else %}#inside{% endif %}">{{ campaign.cta }} ↗</a></div>
+  </div>
+  {% unless exp.slug == 'tumtum' %}
+  <div class="p-gallery p-campaign-gallery" role="list" aria-label="{{ exp.name }} highlights in English">
+    {% for shot in campaign.gallery %}<figure role="listitem"><button class="p-shot" data-p-image="{{ shot.output | relative_url }}" aria-label="Enlarge — {{ shot.alt | escape }}"><img src="{{ shot.output | relative_url }}" loading="lazy" width="{{ shot.width }}" height="{{ shot.height }}" alt="{{ shot.alt | escape }}"></button><figcaption>{{ shot.caption }}</figcaption></figure>{% endfor %}
+  </div>
+  {% endunless %}
+</section>
+{% endif %}

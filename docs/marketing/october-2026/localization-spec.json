@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "reference_locale": "en-US",
+  "copy_file": "locales/en-US.json",
+  "campaign_source": "campaign.json",
+  "separate_text_from_pixels": true,
+  "layout_rules": {
+    "max_headline_lines": 3,
+    "reserve_text_expansion_percent": 30,
+    "minimum_body_export_pixels": 32,
+    "font_fallback": "system CJK fonts for Japanese, Korean and Chinese; preserve brand font when supported",
+    "rtl": "future locales require mirrored reading order and native RTL captures, not flipped app screenshots"
+  },
+  "workflow": [
+    "Translate benefits and search intent for the target market; do not translate keyword lists literally.",
+    "Approve 30-character name/subtitle and 100-character App Store keyword fields for each native app.",
+    "Capture the actual native app in that language and device family using demo fixtures.",
+    "Map copy and capture paths into a locale-specific campaign file.",
+    "Render art, rerender captions/video and inspect all exports at full resolution.",
+    "Set approval only after copy, app UI, timing, safety margins and CTA checks."
+  ],
+  "outputs": [
+    "PNG store artwork",
+    "PNG social/carousel",
+    "MP4 social video",
+    "SRT/VTT captions",
+    "proposed metadata text files"
+  ],
+  "unimplemented": "Automated translation and publishing. Locale placeholders are not translated exports."
+}

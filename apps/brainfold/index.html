@@ -1302,6 +1302,7 @@ lang-ref: brainfold-page
   <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   {% include social-meta.html product='brainfold' %}
+  <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 </head>
 <body>
 
@@ -1467,27 +1468,27 @@ lang-ref: brainfold-page
         </div>
         <div class="showcase-scroll">
             <div>
-                <img src="/apps/brainfold/screenshots/raw/01_study_tab.jpg" alt="Study dashboard with pack list and radar chart" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <img src="/apps/brainfold/screenshots/framed/01_study_tab.webp" alt="Study dashboard with pack list and radar chart" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
                 <div class="showcase-caption">{{ b.caption_study | default: "Study Dashboard" }}</div>
             </div>
             <div>
-                <img src="/apps/brainfold/screenshots/raw/02_flashcard.jpg" alt="Flashcard front side with swipe gestures" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <img src="/apps/brainfold/screenshots/framed/02_flashcard.webp" alt="Flashcard front side with swipe gestures" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
                 <div class="showcase-caption">{{ b.caption_flashcards | default: "Flashcards" }}</div>
             </div>
             <div>
-                <img src="/apps/brainfold/screenshots/raw/03_quiz.jpg" alt="Multiple choice quiz with answer feedback" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <img src="/apps/brainfold/screenshots/framed/03_quiz.webp" alt="Multiple choice quiz with answer feedback" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
                 <div class="showcase-caption">{{ b.caption_quiz | default: "Smart Quiz" }}</div>
             </div>
             <div>
-                <img src="/apps/brainfold/screenshots/raw/04_tutor.jpg" alt="AI tutor chat with structured explanations" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <img src="/apps/brainfold/screenshots/framed/04_tutor.webp" alt="AI tutor chat with structured explanations" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
                 <div class="showcase-caption">{{ b.caption_tutor | default: "AI Tutor" }}</div>
             </div>
             <div>
-                <img src="/apps/brainfold/screenshots/raw/05_summary.jpg" alt="Rich summary with callouts and formulas" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <img src="/apps/brainfold/screenshots/framed/05_summary.webp" alt="Rich summary with callouts and formulas" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
                 <div class="showcase-caption">{{ b.caption_summary | default: "Rich Summary" }}</div>
             </div>
             <div>
-                <img src="/apps/brainfold/screenshots/raw/06_battle.jpg" alt="Battle mode setup screen" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
+                <img src="/apps/brainfold/screenshots/framed/06_battle.webp" alt="Battle mode setup screen" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
                 <div class="showcase-caption">{{ b.caption_battle | default: "Battle Mode" }}</div>
             </div>
         </div>
@@ -1508,7 +1509,7 @@ lang-ref: brainfold-page
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/raw/01_study_tab.jpg" alt="Brainfold on iPad - Study Dashboard" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/framed/01_study_tab.webp" alt="Brainfold on iPad - Study Dashboard" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
                 <div class="showcase-caption">{{ b.ipad_caption_study | default: "Study Dashboard" }}</div>
@@ -1516,7 +1517,7 @@ lang-ref: brainfold-page
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/raw/05_summary.jpg" alt="Brainfold on iPad - Rich Summary" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/framed/05_summary.webp" alt="Brainfold on iPad - Rich Summary" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
                 <div class="showcase-caption">{{ b.ipad_caption_summary | default: "Rich Summary" }}</div>
@@ -1524,7 +1525,7 @@ lang-ref: brainfold-page
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/raw/04_tutor.jpg" alt="Brainfold on iPad - AI Tutor" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/framed/04_tutor.webp" alt="Brainfold on iPad - AI Tutor" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
                 <div class="showcase-caption">{{ b.ipad_caption_tutor | default: "AI Tutor" }}</div>
@@ -1532,7 +1533,7 @@ lang-ref: brainfold-page
             <div>
                 <div class="ipad-frame ipad-frame-sm">
                     <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/raw/06_battle.jpg" alt="Brainfold on iPad - Battle Mode" loading="lazy" data-locale-img-ipad>
+                        <img src="/apps/brainfold/screenshots/ipad/framed/06_battle.webp" alt="Brainfold on iPad - Battle Mode" loading="lazy" data-locale-img-ipad>
                     </div>
                 </div>
                 <div class="showcase-caption">{{ b.ipad_caption_battle | default: "Battle Mode" }}</div>

@@ -1,0 +1,1334 @@
+{
+  "schema_version": 1,
+  "month": "2026-10",
+  "timezone": "America/Sao_Paulo",
+  "approval": "draft",
+  "locale": "en-US",
+  "products": [
+    {
+      "slug": "hooray",
+      "name": "Hooray",
+      "audience": "People organizing birthdays, farewells and team celebrations",
+      "position": "The whole group, in one thoughtful card.",
+      "palette": [
+        "#FFF7EA",
+        "#202E26",
+        "#E66239"
+      ],
+      "device": "web",
+      "voice": "Maisie",
+      "title": "Hooray — Group Greeting Cards",
+      "subtitle": "Bring everyone into the card",
+      "keywords": "group greeting cards,online birthday card,team farewell card,thank you card",
+      "panels": [
+        [
+          "One card. Everyone signs.",
+          "Make the celebration feel like all of you.",
+          "A group greeting card"
+        ],
+        [
+          "Make it personal.",
+          "Add words and stickers that sound like you.",
+          "Messages & stickers"
+        ],
+        [
+          "A little surprise.",
+          "Open a card filled with thoughtful messages.",
+          "The finished card"
+        ],
+        [
+          "For your kind of occasion.",
+          "Birthdays, thank-yous and goodbyes worth remembering.",
+          "Celebrate together"
+        ]
+      ],
+      "hooks": [
+        "The group chat has a birthday coming up.",
+        "A goodbye deserves more than a thumbs-up.",
+        "Everyone has something to say.",
+        "Small messages. A big feeling."
+      ],
+      "narration": [
+        "The group chat has a birthday coming up. Bring everyone into one card. Add a message, make it personal, and open a surprise full of familiar voices. Hooray. Make a card together.",
+        "A goodbye deserves more than a thumbs-up. Give the whole team a place to leave a message. Kind words, little memories, one thoughtful card. Make it a Hooray moment."
+      ],
+      "steps": [
+        [
+          "Start a group card",
+          "Add a personal message",
+          "Open the finished surprise"
+        ],
+        [
+          "Choose your occasion",
+          "Bring the group together",
+          "Make the moment feel personal"
+        ]
+      ],
+      "captions": [
+        "One signing link. Plenty of personality. Bring everyone into the next birthday card.",
+        "The nicest part of a farewell? Hearing from everyone. Make room for their messages.",
+        "A card feels different when the whole group is in it.",
+        "Save this idea for your next team celebration."
+      ],
+      "tags": [
+        "GroupCard",
+        "BirthdayCard",
+        "TeamCelebration"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/hooray/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/hooray/",
+      "source_repository": "Hooray",
+      "cta": "Make a card",
+      "store_format": "web-editorial",
+      "screens": [
+        "/docs/marketing/october-2026/sources/hooray/screen-1.png",
+        "/docs/marketing/october-2026/sources/hooray/screen-2.png",
+        "/docs/marketing/october-2026/sources/hooray/screen-3.png",
+        "/docs/marketing/october-2026/sources/hooray/screen-4.png"
+      ],
+      "hardware": "browser",
+      "capture_has_device_frame": false,
+      "frame": null
+    },
+    {
+      "slug": "sundust",
+      "name": "Sundust",
+      "audience": "Players who enjoy space exploration and sandbox discovery",
+      "position": "Your own small space adventure, one landing at a time.",
+      "palette": [
+        "#09151B",
+        "#F4E8CD",
+        "#EAC17A"
+      ],
+      "device": "landscape",
+      "voice": "George",
+      "title": "Sundust: Space Sandbox",
+      "subtitle": "Fly, land, explore and build",
+      "keywords": "rocket,planet,orbit,astronaut,physics,discovery,mining,crafting,adventure,simulation",
+      "panels": [
+        [
+          "Your next world awaits.",
+          "Fly a rocket into a universe of discoveries.",
+          "A space sandbox"
+        ],
+        [
+          "Make the landing yours.",
+          "Find your way from orbit to the surface.",
+          "Fly & land"
+        ],
+        [
+          "Stay a little longer.",
+          "Explore, gather resources and build.",
+          "Explore & build"
+        ],
+        [
+          "Chart your own journey.",
+          "A small spacecraft. So many possibilities.",
+          "Your adventure"
+        ]
+      ],
+      "hooks": [
+        "That tiny rocket is yours.",
+        "One landing can start a whole adventure.",
+        "A quiet moment on another world.",
+        "Where would you land first?"
+      ],
+      "narration": [
+        "That tiny rocket is yours. Fly out, find a world, and make the landing. Then step outside and see what is there. Sundust. Your next little space adventure starts here.",
+        "One landing can start a whole adventure. Explore the surface, gather resources, and decide what comes next. Stay a little longer. There is a universe to discover in Sundust."
+      ],
+      "steps": [
+        [
+          "Leave the surface",
+          "Find your orbit",
+          "Make the landing"
+        ],
+        [
+          "Explore another world",
+          "Gather resources",
+          "Choose your next adventure"
+        ]
+      ],
+      "captions": [
+        "A tiny rocket. A world to discover. Which direction would you take?",
+        "A good landing is only the beginning. Explore Sundust at your own pace.",
+        "Sometimes the best part is just being on another world.",
+        "Save this for your next space-game evening."
+      ],
+      "tags": [
+        "SpaceGame",
+        "SandboxGame",
+        "IndieGame"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/sundust/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/sundust/",
+      "source_repository": "Sundust",
+      "cta": "Discover Sundust",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/sundust/screen-1.png",
+        "/docs/marketing/october-2026/sources/sundust/screen-2.png",
+        "/docs/marketing/october-2026/sources/sundust/screen-3.png",
+        "/docs/marketing/october-2026/sources/sundust/screen-4.png"
+      ],
+      "hardware": "iphone-landscape",
+      "capture_has_device_frame": false,
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone-landscape.png",
+        "dimensions": [
+          3000,
+          1470
+        ],
+        "screen": [
+          66,
+          75,
+          2868,
+          1320
+        ]
+      }
+    },
+    {
+      "slug": "giftly",
+      "name": "Giftly",
+      "audience": "Thoughtful gift givers who want fewer last-minute scrambles",
+      "position": "Remember the person, the date and the idea.",
+      "palette": [
+        "#F7F4ED",
+        "#262B22",
+        "#1E6B58"
+      ],
+      "device": "phone",
+      "voice": "Maisie",
+      "title": "Giftly: Birthdays & Gift Ideas",
+      "subtitle": "Remember dates. Save ideas.",
+      "keywords": "anniversary,reminder,occasion,wishlist,present,people,calendar,planner,holiday,family",
+      "panels": [
+        [
+          "Birthdays remembered. Gift ideas saved.",
+          "Remember the person. Save the idea.",
+          "Birthdays & gift ideas"
+        ],
+        [
+          "See the next celebration.",
+          "Keep birthdays and special dates in view.",
+          "Dates that matter"
+        ],
+        [
+          "Save it when you think of it.",
+          "Keep gift ideas with the person they belong to.",
+          "Ideas, not guesswork"
+        ],
+        [
+          "Know them a little better.",
+          "Tastes, sizes and past gifts, together.",
+          "The little details"
+        ]
+      ],
+      "hooks": [
+        "“I know exactly what to get them.” Save that thought.",
+        "The birthday is next week. You have an idea.",
+        "Your good gift ideas deserve a home.",
+        "Less last-minute. More thoughtful."
+      ],
+      "narration": [
+        "I know exactly what to get them. Save that thought in Giftly, with the person it belongs to. Keep their birthday and their little details nearby. A thoughtful gift starts with an idea.",
+        "The birthday is next week. Open Giftly, see what is coming up, and find the ideas you saved. Their tastes, sizes, and past gifts are all together. Less last-minute. More thoughtful."
+      ],
+      "steps": [
+        [
+          "See what is coming up",
+          "Keep ideas with each person",
+          "Remember their little details"
+        ],
+        [
+          "Check the next birthday",
+          "Open their saved ideas",
+          "Plan a thoughtful gift"
+        ]
+      ],
+      "captions": [
+        "The perfect idea usually arrives before you need it. Save it with the person in Giftly.",
+        "Birthdays are easier when the idea is already there.",
+        "Tastes, sizes and past gifts: the details that make giving feel personal.",
+        "Save this for the next time someone says, “What should we get them?”"
+      ],
+      "tags": [
+        "GiftIdeas",
+        "BirthdayReminder",
+        "ThoughtfulGifts"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/giftly/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/giftly/",
+      "source_repository": "Giftly",
+      "cta": "Discover Giftly",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/giftly/screen-1.png",
+        "/docs/marketing/october-2026/sources/giftly/screen-2.png",
+        "/docs/marketing/october-2026/sources/giftly/screen-3.png",
+        "/docs/marketing/october-2026/sources/giftly/screen-4.png"
+      ],
+      "hardware": "iphone",
+      "capture_has_device_frame": false,
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone.png",
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ]
+      },
+      "ipad_store": {
+        "hardware": "ipad",
+        "device": "ipad",
+        "frame": {
+          "asset": "/docs/marketing/october-2026/.frames-cache/ipad.png",
+          "dimensions": [
+            2300,
+            3000
+          ],
+          "screen": [
+            118,
+            124,
+            2064,
+            2752
+          ]
+        },
+        "screens": [
+          "/docs/marketing/october-2026/sources/giftly/ipad/screen-1.png",
+          "/docs/marketing/october-2026/sources/giftly/ipad/screen-2.png",
+          "/docs/marketing/october-2026/sources/giftly/ipad/screen-3.png",
+          "/docs/marketing/october-2026/sources/giftly/ipad/screen-4.png"
+        ],
+        "panels": [
+          [
+            "Birthdays remembered. Gift ideas saved.",
+            "Remember the person. Save the idea.",
+            "Birthdays & gift ideas"
+          ],
+          [
+            "See the next celebration.",
+            "Keep birthdays and special dates in view.",
+            "Dates that matter"
+          ],
+          [
+            "Save it when you think of it.",
+            "Keep gift ideas with the person they belong to.",
+            "Ideas, not guesswork"
+          ],
+          [
+            "Know them a little better.",
+            "Tastes, sizes and past gifts, together.",
+            "The little details"
+          ]
+        ],
+        "dimensions": [
+          2064,
+          2752
+        ]
+      }
+    },
+    {
+      "slug": "groundcontrol",
+      "name": "Ground Control",
+      "audience": "Mac developers juggling multiple local Git repositories",
+      "position": "A clear view of your Git fleet before the next move.",
+      "palette": [
+        "#0C1422",
+        "#ECF2F9",
+        "#8DC5FC"
+      ],
+      "device": "mac",
+      "voice": "Roger",
+      "title": "Ground Control: Git",
+      "subtitle": "Your repositories at a glance",
+      "keywords": "repository,branch,commit,diff,history,developer,version,merge,stash,source,code,mac",
+      "panels": [
+        [
+          "Your Git fleet. In view.",
+          "Know what needs attention across your repositories.",
+          "Git on your Mac"
+        ],
+        [
+          "Follow every branch.",
+          "Read the history as a visual flight map.",
+          "Branches & history"
+        ],
+        [
+          "See what changed.",
+          "Review local changes before your next move.",
+          "Changes in context"
+        ],
+        [
+          "Pull with a clear view.",
+          "Inspect your repository before you act.",
+          "Stay oriented"
+        ]
+      ],
+      "hooks": [
+        "How many repositories are open in your head?",
+        "Before the next pull, take a look.",
+        "A branch map you can actually follow.",
+        "One place to check the fleet."
+      ],
+      "narration": [
+        "How many repositories are open in your head? Ground Control brings your Git fleet into view. See branches, local changes, and what needs attention. A little more context before your next move.",
+        "Before the next pull, take a look. Follow the branch history, review local changes, and stay oriented across your repositories. Ground Control. Mission control for Git on your Mac."
+      ],
+      "steps": [
+        [
+          "Check your repositories",
+          "Follow the branch map",
+          "Review local changes"
+        ],
+        [
+          "Inspect the current branch",
+          "Review what changed",
+          "Plan the next Git action"
+        ]
+      ],
+      "captions": [
+        "Your repositories, their branches, and the work waiting for you. Meet Ground Control for Mac.",
+        "A clear view before the next Git action. Explore the project.",
+        "Branch history makes more sense when you can see the path.",
+        "Save this for the days you are moving between several repos."
+      ],
+      "tags": [
+        "Git",
+        "MacDeveloper",
+        "DeveloperTools"
+      ],
+      "locale": "en-US",
+      "status": "beta",
+      "icon": "/images/portfolio/groundcontrol/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/groundcontrol/",
+      "source_repository": "GroundControl",
+      "cta": "Explore the project",
+      "store_format": "mac-16x10",
+      "screens": [
+        "/docs/marketing/october-2026/sources/groundcontrol/screen-1.png",
+        "/docs/marketing/october-2026/sources/groundcontrol/screen-2.png",
+        "/docs/marketing/october-2026/sources/groundcontrol/screen-3.png",
+        "/docs/marketing/october-2026/sources/groundcontrol/screen-4.png"
+      ],
+      "hardware": "macbook",
+      "capture_has_device_frame": false,
+      "frame": null
+    },
+    {
+      "slug": "brainfold",
+      "name": "Brainfold",
+      "audience": "Students turning course materials into repeatable review",
+      "position": "Turn your own material into something you can practice.",
+      "palette": [
+        "#111A39",
+        "#FFF8F2",
+        "#FF6849"
+      ],
+      "device": "phone",
+      "voice": "Alice",
+      "title": "Brainfold: AI Flashcards",
+      "subtitle": "Scan notes. Practice smarter.",
+      "keywords": "study,quiz,revision,spaced,repetition,tutor,summary,exam,notes,learning,scan,pdf",
+      "panels": [
+        [
+          "Turn notes into flashcards.",
+          "Bring your study material. Build a review routine.",
+          "AI study companion"
+        ],
+        [
+          "One question at a time.",
+          "Review flashcards with spaced repetition.",
+          "Flashcards that fit your day"
+        ],
+        [
+          "Try what you remember.",
+          "Practice with quizzes from your material.",
+          "Put ideas to the test"
+        ],
+        [
+          "Get unstuck. Keep going.",
+          "Ask the AI tutor about your study material.",
+          "Help in context"
+        ]
+      ],
+      "hooks": [
+        "You have the notes. Now make them practice.",
+        "Reading it again is only the start.",
+        "One spare moment. One more question.",
+        "Your material, in a different form."
+      ],
+      "narration": [
+        "You have the notes. Now make them practice. Brainfold turns study material into flashcards and quizzes. Review one question at a time, and come back with spaced repetition. Start with what you are studying.",
+        "Stuck on a concept? Ask Brainfold's AI tutor about your material, then return to a question and try it yourself. Notes, practice, and help in one study routine. Keep the next step small."
+      ],
+      "steps": [
+        [
+          "Bring your study material",
+          "Review a flashcard",
+          "Try a practice quiz"
+        ],
+        [
+          "Open your study pack",
+          "Ask about a concept",
+          "Return to your practice"
+        ]
+      ],
+      "captions": [
+        "Give those pages a second job: flashcards and practice questions.",
+        "Short review sessions can fit between the other things in your day.",
+        "Ask about your material, then try a question yourself.",
+        "Save this for your next revision session."
+      ],
+      "tags": [
+        "Flashcards",
+        "StudyRoutine",
+        "StudentLife"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/brainfold/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/brainfold/",
+      "source_repository": "Brainfold",
+      "cta": "Discover Brainfold",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/brainfold/screen-1.png",
+        "/docs/marketing/october-2026/sources/brainfold/screen-2.png",
+        "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
+        "/docs/marketing/october-2026/sources/brainfold/screen-4.png"
+      ],
+      "hardware": "iphone",
+      "capture_has_device_frame": false,
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone.png",
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ]
+      },
+      "ipad_store": {
+        "hardware": "ipad",
+        "device": "ipad",
+        "frame": {
+          "asset": "/docs/marketing/october-2026/.frames-cache/ipad.png",
+          "dimensions": [
+            2300,
+            3000
+          ],
+          "screen": [
+            118,
+            124,
+            2064,
+            2752
+          ]
+        },
+        "screens": [
+          "/docs/marketing/october-2026/sources/brainfold/ipad/screen-1.png",
+          "/docs/marketing/october-2026/sources/brainfold/ipad/screen-2.png",
+          "/docs/marketing/october-2026/sources/brainfold/ipad/screen-3.png",
+          "/docs/marketing/october-2026/sources/brainfold/ipad/screen-4.png"
+        ],
+        "panels": [
+          [
+            "Turn notes into flashcards.",
+            "Bring your study material. Build a review routine.",
+            "AI study companion"
+          ],
+          [
+            "Keep the lesson close.",
+            "Review a rich summary alongside your study material.",
+            "Rich summaries"
+          ],
+          [
+            "Bring a friend into the challenge.",
+            "Explore the battle view on a larger screen.",
+            "Battle mode"
+          ],
+          [
+            "Get unstuck. Keep going.",
+            "Ask the AI tutor about your study material.",
+            "Help in context"
+          ]
+        ],
+        "dimensions": [
+          2064,
+          2752
+        ]
+      }
+    },
+    {
+      "slug": "memories",
+      "name": "Memories",
+      "audience": "Parents, couples and people documenting a year in their lives",
+      "position": "Make a film of the life you are already photographing.",
+      "palette": [
+        "#FFF5EC",
+        "#362E29",
+        "#CE704F"
+      ],
+      "device": "phone",
+      "voice": "Maisie",
+      "title": "Memories: Monthly Films",
+      "subtitle": "Your photos, a month at a time",
+      "keywords": "baby,milestone,video,montage,timeline,journal,family,scrapbook,recap,diary,anniversary",
+      "panels": [
+        [
+          "Your photos. A film every month.",
+          "Turn everyday photos into monthly films.",
+          "Monthly films from your photos"
+        ],
+        [
+          "Your months. Your story.",
+          "Follow a timeline built around your special date.",
+          "A personal timeline"
+        ],
+        [
+          "Keep the moments that matter.",
+          "Mark the highlights you want to return to.",
+          "Your favorite little things"
+        ],
+        [
+          "A year worth looking back on.",
+          "Start with a child, an anniversary or your own year.",
+          "Stories you already live"
+        ]
+      ],
+      "hooks": [
+        "Your camera roll is already telling a story.",
+        "That ordinary Tuesday will matter one day.",
+        "A whole month, in a little film.",
+        "Start with the date that matters to you."
+      ],
+      "narration": [
+        "Your camera roll is already telling a story. Memories brings the moments into a personal timeline and turns your months into films. Mark the little things you want to keep. Life moves. Keep a little.",
+        "Start with the date that matters to you. A baby's first year, your anniversary, or a year in your own life. Follow the months and save the highlights. Make room to look back with Memories."
+      ],
+      "steps": [
+        [
+          "Open your personal timeline",
+          "Find this month’s moments",
+          "Mark your favorite highlights"
+        ],
+        [
+          "Choose the story you are keeping",
+          "Follow your personal months",
+          "Keep the moments that matter"
+        ]
+      ],
+      "captions": [
+        "You already take the photos. Give them a story you can return to.",
+        "Not every memory is a milestone. Some are just a very good Tuesday.",
+        "Your first year together. Their first year here. Your year in life.",
+        "Save this for the photos you keep meaning to do something with."
+      ],
+      "tags": [
+        "MonthlyFilm",
+        "FamilyMemories",
+        "PhotoJournal"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/memories/icon-0c42daadf8.webp",
+      "landing": "https://magiclabsolutions.com/apps/memories/",
+      "source_repository": "Memories",
+      "cta": "Discover Memories",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/memories/unframed-1.png",
+        "/docs/marketing/october-2026/sources/memories/unframed-2.png",
+        "/docs/marketing/october-2026/sources/memories/unframed-3.png",
+        "/docs/marketing/october-2026/sources/memories/unframed-4.png"
+      ],
+      "hardware": "iphone",
+      "capture_has_device_frame": false,
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone.png",
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ]
+      }
+    },
+    {
+      "slug": "poof",
+      "name": "Poof",
+      "audience": "Mac users and developers who want to understand storage clutter",
+      "position": "Know what is taking up space, then choose what goes.",
+      "palette": [
+        "#181123",
+        "#FBF4FF",
+        "#DBADFA"
+      ],
+      "device": "mac",
+      "voice": "Roger",
+      "title": "Poof: Mac Cleaner",
+      "subtitle": "Review clutter. Make room.",
+      "keywords": "storage,cache,disk,space,cleanup,uninstall,files,xcode,developer,build,system,junk",
+      "panels": [
+        [
+          "Make room for what’s next.",
+          "See what is taking up space on your Mac.",
+          "A clearer view of storage"
+        ],
+        [
+          "Choose what goes.",
+          "Review the selection before cleaning.",
+          "You stay in control"
+        ],
+        [
+          "Find the build leftovers.",
+          "See development clutter in one place.",
+          "Room for your next project"
+        ],
+        [
+          "A little breathing space.",
+          "Understand the clutter before you act.",
+          "Less mystery. More room."
+        ]
+      ],
+      "hooks": [
+        "The next project needs some room.",
+        "Before you clean, look at the list.",
+        "Build leftovers have a way of building up.",
+        "What is actually taking up the space?"
+      ],
+      "narration": [
+        "The next project needs some room. Poof shows caches, large files, and development leftovers on your Mac. Review what is there and choose what goes. A little less mystery. A little more breathing space.",
+        "Before you clean, look at the list. Poof puts storage clutter in view so you can review the selection first. Choose what to remove, then make room for what is next."
+      ],
+      "steps": [
+        [
+          "See the scan results",
+          "Review the categories",
+          "Choose what to remove"
+        ],
+        [
+          "Find development leftovers",
+          "Review the file selection",
+          "Make an informed cleanup choice"
+        ]
+      ],
+      "captions": [
+        "What is filling the disk? Start with a clear view. Meet Poof for Mac.",
+        "Review first. Choose what goes. Explore the project.",
+        "Development leftovers add up. Keep them in view.",
+        "Save this for the next “disk almost full” day."
+      ],
+      "tags": [
+        "MacStorage",
+        "DeveloperTools",
+        "MacApps"
+      ],
+      "locale": "en-US",
+      "status": "unverified",
+      "icon": "/images/portfolio/poof/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/poof/",
+      "source_repository": "Poof",
+      "cta": "Explore the project",
+      "store_format": "mac-16x10",
+      "screens": [
+        "/docs/marketing/october-2026/sources/poof/screen-1.png",
+        "/docs/marketing/october-2026/sources/poof/screen-2.png",
+        "/docs/marketing/october-2026/sources/poof/screen-3.png",
+        "/docs/marketing/october-2026/sources/poof/screen-4.png"
+      ],
+      "hardware": "macbook",
+      "capture_has_device_frame": false,
+      "frame": null
+    },
+    {
+      "slug": "soooon",
+      "name": "Soooon",
+      "audience": "People who enjoy looking forward to trips, birthdays and holidays",
+      "position": "A countdown with a companion that shares the anticipation.",
+      "palette": [
+        "#F2E8FF",
+        "#2B1B4B",
+        "#7546D3"
+      ],
+      "device": "phone",
+      "voice": "Jessica",
+      "title": "Soooon: Countdown Widgets",
+      "subtitle": "Big days. Little companion.",
+      "keywords": "birthday,holiday,trip,vacation,christmas,event,timer,reminder,wedding,anniversary,date",
+      "panels": [
+        [
+          "Count down to your next big day.",
+          "A countdown that gets excited with you.",
+          "Big days, little companion"
+        ],
+        [
+          "Make the wait part of it.",
+          "Keep your next special day in view.",
+          "Count down together"
+        ],
+        [
+          "Your dates belong here.",
+          "Trips, birthdays and celebrations, together.",
+          "Something to look forward to"
+        ],
+        [
+          "Pick your kind of hype.",
+          "Give your countdown a little personality.",
+          "A companion for the wait"
+        ]
+      ],
+      "hooks": [
+        "The trip is not today. The excitement is.",
+        "You are allowed to be excited already.",
+        "What are you looking forward to?",
+        "Even the wait can be a good part."
+      ],
+      "narration": [
+        "The trip is not today. The excitement is. Soooon counts down to your big days with a little companion that gets excited with you. Birthdays, trips, and celebrations. Good things are getting closer.",
+        "What are you looking forward to? Add the date, pick your kind of hype, and make the wait part of the fun. Soooon. A little companion for the days until your big day."
+      ],
+      "steps": [
+        [
+          "See your next big day",
+          "Open the countdown",
+          "Meet your little companion"
+        ],
+        [
+          "Keep a special date nearby",
+          "Choose your countdown style",
+          "Enjoy the anticipation"
+        ]
+      ],
+      "captions": [
+        "A countdown with someone to share the hype. Meet Soooon.",
+        "The waiting is part of the trip, too. Explore what we are building.",
+        "Birthdays, holidays, plans: what is your next big day?",
+        "Save this for the next thing you cannot wait for."
+      ],
+      "tags": [
+        "Countdown",
+        "TravelCountdown",
+        "Widgets"
+      ],
+      "locale": "en-US",
+      "status": "development",
+      "icon": "/images/portfolio/soooon/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/soooon/",
+      "source_repository": "Soooon",
+      "cta": "Explore the project",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/soooon/screen-1.png",
+        "/docs/marketing/october-2026/sources/soooon/screen-2.png",
+        "/docs/marketing/october-2026/sources/soooon/screen-3.png",
+        "/docs/marketing/october-2026/sources/soooon/screen-4.png"
+      ],
+      "hardware": "iphone",
+      "capture_has_device_frame": false,
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone.png",
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ]
+      },
+      "ipad_store": {
+        "hardware": "ipad",
+        "device": "ipad",
+        "frame": {
+          "asset": "/docs/marketing/october-2026/.frames-cache/ipad.png",
+          "dimensions": [
+            2300,
+            3000
+          ],
+          "screen": [
+            118,
+            124,
+            2064,
+            2752
+          ]
+        },
+        "screens": [
+          "/docs/marketing/october-2026/sources/soooon/ipad/screen-1.png",
+          "/docs/marketing/october-2026/sources/soooon/ipad/screen-2.png",
+          "/docs/marketing/october-2026/sources/soooon/ipad/screen-3.png",
+          "/docs/marketing/october-2026/sources/soooon/ipad/screen-4.png"
+        ],
+        "panels": [
+          [
+            "Count down to your next big day.",
+            "A countdown that gets excited with you.",
+            "Big days, little companion"
+          ],
+          [
+            "Make the wait part of it.",
+            "Keep your next special day in view.",
+            "Count down together"
+          ],
+          [
+            "Your dates belong here.",
+            "Trips, birthdays and celebrations, together.",
+            "Something to look forward to"
+          ],
+          [
+            "Pick your kind of hype.",
+            "Give your countdown a little personality.",
+            "A companion for the wait"
+          ]
+        ],
+        "dimensions": [
+          2064,
+          2752
+        ]
+      }
+    },
+    {
+      "slug": "myrenewals",
+      "name": "My Renewals",
+      "audience": "People managing several recurring payments",
+      "position": "A clear view of recurring costs before the next renewal.",
+      "palette": [
+        "#ECF7FA",
+        "#152B37",
+        "#056B82"
+      ],
+      "device": "phone",
+      "voice": "River",
+      "title": "My Renewals: Subscriptions",
+      "subtitle": "Track costs and renewal dates",
+      "keywords": "recurring,payment,bill,expense,budget,monthly,annual,reminder,trial,spending,manager",
+      "panels": [
+        [
+          "Know what renews next.",
+          "Keep recurring payments and dates in view.",
+          "Subscription tracking"
+        ],
+        [
+          "See the recurring total.",
+          "Get a clearer picture of subscription spending.",
+          "Costs, together"
+        ],
+        [
+          "Keep the details handy.",
+          "Organize each plan and its renewal date.",
+          "One place to check"
+        ],
+        [
+          "Go into next month informed.",
+          "Review your subscriptions before the next charge.",
+          "Fewer loose ends"
+        ]
+      ],
+      "hooks": [
+        "Another renewal? Check what is next.",
+        "Small monthly payments add up.",
+        "Do you know what renews this month?",
+        "A clearer view of your recurring spending."
+      ],
+      "narration": [
+        "Another renewal? Check what is next. My Renewals brings your subscriptions, recurring costs, and upcoming dates together. See the total and review each plan. Go into next month with a clearer view.",
+        "Small monthly payments add up. Keep the plans in one place, look at your recurring total, and see what renews next. My Renewals. A little more clarity before the next charge."
+      ],
+      "steps": [
+        [
+          "See upcoming renewals",
+          "Review the recurring total",
+          "Open a plan’s details"
+        ],
+        [
+          "Review your subscription list",
+          "Check the dates",
+          "Plan for the next month"
+        ]
+      ],
+      "captions": [
+        "Know what renews next, and see the recurring total together.",
+        "Make next month’s subscriptions less of a guessing game.",
+        "The small payments are easier to understand when you can see them together.",
+        "Save this for your next monthly money check-in."
+      ],
+      "tags": [
+        "SubscriptionTracker",
+        "RecurringPayments",
+        "MonthlyBudget"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/myrenewals/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/myrenewals/",
+      "source_repository": "SubscriptionManager",
+      "cta": "Discover My Renewals",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/myrenewals/unframed-1.png",
+        "/docs/marketing/october-2026/sources/myrenewals/unframed-2.png",
+        "/docs/marketing/october-2026/sources/myrenewals/unframed-3.png",
+        "/docs/marketing/october-2026/sources/myrenewals/unframed-4.png"
+      ],
+      "hardware": "iphone",
+      "capture_has_device_frame": false,
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone.png",
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ]
+      }
+    },
+    {
+      "slug": "toctoc",
+      "name": "Toc Toc",
+      "audience": "People who lose track of meetings while focused on Mac",
+      "position": "A meeting reminder designed to get through deep focus.",
+      "palette": [
+        "#171D25",
+        "#FFF1E7",
+        "#F99551"
+      ],
+      "device": "mac",
+      "voice": "Roger",
+      "title": "Toc Toc: Meeting Reminders",
+      "subtitle": "A knock before the next call",
+      "keywords": "calendar,alert,alarm,countdown,menubar,focus,join,call,work,schedule,mac",
+      "panels": [
+        [
+          "Deep in work? Toc toc.",
+          "Your meeting gets a moment of your attention.",
+          "Meeting reminders"
+        ],
+        [
+          "See the time. Join the call.",
+          "A visible countdown and a path to your meeting.",
+          "A reminder you can see"
+        ],
+        [
+          "Keep the next call nearby.",
+          "See upcoming meetings from the menu bar.",
+          "Your agenda, at a glance"
+        ],
+        [
+          "Let your reminder stand out.",
+          "Choose how Toc Toc gets your attention.",
+          "Fit it to your day"
+        ]
+      ],
+      "hooks": [
+        "You were deep in work. The meeting starts now.",
+        "The calendar alert was easy to miss.",
+        "A little knock before your next call.",
+        "Focus on the work. Keep the meeting in view."
+      ],
+      "narration": [
+        "You were deep in work. Your meeting is coming up. Toc Toc gets your attention with a knock and a visible countdown, with a way into your call. Deep in work? Toc toc.",
+        "The calendar alert was easy to miss. Give your next meeting a reminder you can see. Check your agenda from the menu bar and keep the countdown in view. Meet Toc Toc."
+      ],
+      "steps": [
+        [
+          "See the meeting reminder",
+          "Follow the countdown",
+          "Keep the join action in view"
+        ],
+        [
+          "Check the upcoming agenda",
+          "See the next meeting",
+          "Choose your reminder style"
+        ]
+      ],
+      "captions": [
+        "For the moments when focus makes the calendar disappear. Meet Toc Toc.",
+        "A countdown, a knock, and a way into the call. Explore the project.",
+        "Keep the next meeting nearby while you work.",
+        "Save this for your next day of back-to-back calls."
+      ],
+      "tags": [
+        "MeetingReminder",
+        "MacApps",
+        "DeepWork"
+      ],
+      "locale": "en-US",
+      "status": "beta",
+      "icon": "/images/portfolio/toctoc/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/toctoc/",
+      "source_repository": "TocToc",
+      "cta": "Explore the project",
+      "store_format": "mac-16x10",
+      "screens": [
+        "/docs/marketing/october-2026/sources/toctoc/screen-1.png",
+        "/docs/marketing/october-2026/sources/toctoc/screen-2.png",
+        "/docs/marketing/october-2026/sources/toctoc/screen-3.png",
+        "/docs/marketing/october-2026/sources/toctoc/screen-4.png"
+      ],
+      "hardware": "macbook",
+      "capture_has_device_frame": false,
+      "frame": null
+    },
+    {
+      "slug": "tumtum",
+      "name": "TumTum",
+      "audience": "Parents and caregivers seeking calm, open-ended digital play",
+      "position": "A paper toy room for discovery at a child’s own pace.",
+      "palette": [
+        "#FFF7E7",
+        "#294B3D",
+        "#607848"
+      ],
+      "device": "landscape",
+      "voice": "Maisie",
+      "preserve_store": true,
+      "title": "TumTum: Open-Ended Play",
+      "subtitle": "Little hands. Big discoveries.",
+      "keywords": "toddler,kids,toys,house,animals,dinosaur,creative,preschool,explore,paper,imagination",
+      "panels": [
+        [
+          "Little hands. Big discoveries.",
+          "A toy room to explore at your child’s own pace.",
+          "Open-ended digital play"
+        ],
+        [
+          "Make a little story.",
+          "Explore a cozy home and see what happens.",
+          "The house"
+        ],
+        [
+          "Follow their curiosity.",
+          "Take a closer look at a world of paper toys.",
+          "Explore together"
+        ],
+        [
+          "Play at your own pace.",
+          "Room to choose, repeat and imagine.",
+          "Their next discovery"
+        ]
+      ],
+      "hooks": [
+        "What happens if we try this?",
+        "A little story starts with a little touch.",
+        "Follow their next “what if?”",
+        "Some discoveries deserve a second try."
+      ],
+      "narration": [
+        "Little hands, big discoveries. Step into a cozy home and make up your own stories. Follow their curiosity, and see what happens next. Tumtum. Play at your own pace.",
+        "A little story starts with a little touch. Explore together, choose what to try, and return to a favorite discovery. A paper toy room with space to imagine. Tumtum. Play at your own pace."
+      ],
+      "steps": [
+        [
+          "Step into the house",
+          "Try a little action",
+          "Follow the next discovery"
+        ],
+        [
+          "Choose a little world",
+          "Explore together",
+          "Return to a favorite toy"
+        ]
+      ],
+      "captions": [
+        "A cozy home. A curious touch. A little story of their own. Discover TumTum together.",
+        "Choose, try, repeat. There is room to explore at their own pace.",
+        "What happens next? Let their curiosity lead the play.",
+        "Save this for a little moment of exploring together."
+      ],
+      "tags": [
+        "OpenEndedPlay",
+        "DigitalToys",
+        "PlayTogether"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/tumtum/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/tumtum/",
+      "source_repository": "TumTum",
+      "cta": "Discover TumTum",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/tumtum/screen-1.png",
+        "/docs/marketing/october-2026/sources/tumtum/screen-2.png",
+        "/docs/marketing/october-2026/sources/tumtum/screen-3.png",
+        "/docs/marketing/october-2026/sources/tumtum/screen-4.png"
+      ],
+      "hardware": "iphone-landscape",
+      "capture_has_device_frame": false,
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone-landscape.png",
+        "dimensions": [
+          3000,
+          1470
+        ],
+        "screen": [
+          66,
+          75,
+          2868,
+          1320
+        ]
+      }
+    },
+    {
+      "slug": "zuzu",
+      "name": "zuzu",
+      "audience": "Parents and caregivers coordinating a baby’s everyday care",
+      "position": "Bring the baby’s day into one shared view.",
+      "palette": [
+        "#FFF3E9",
+        "#40332D",
+        "#AF5937"
+      ],
+      "device": "phone",
+      "voice": "Maisie",
+      "title": "Zuzu: Baby Tracker & Sleep",
+      "subtitle": "Naps, feeds and care together",
+      "keywords": "newborn,breastfeeding,nursing,bottle,formula,diaper,growth,milestone,family,caregiver,log",
+      "panels": [
+        [
+          "Baby’s day. In one shared view.",
+          "Keep naps, feeds and changes in one view.",
+          "Baby care, together"
+        ],
+        [
+          "Follow the little moments.",
+          "See feeds and everyday events on a timeline.",
+          "The day, in order"
+        ],
+        [
+          "Keep the routine in view.",
+          "See sleep, feeding and changes together.",
+          "A shared view of the day"
+        ],
+        [
+          "Keep the little details.",
+          "Bring growth records and daily care together.",
+          "The details that help"
+        ]
+      ],
+      "hooks": [
+        "“When was the last feed?” Start here.",
+        "The handover is easier with a shared view.",
+        "A day with a baby has a lot of little details.",
+        "One quick log. One less thing to remember."
+      ],
+      "narration": [
+        "When was the last feed? Start with a shared view of the day. Zuzu keeps sleep, feeding, and diaper changes together so everyone caring for your baby can follow along. One little day, together.",
+        "A day with a baby has a lot of little details. Follow the timeline, check the everyday events, and keep the care records together. Zuzu helps you see what happened, without holding every detail in your head."
+      ],
+      "steps": [
+        [
+          "See today’s routine",
+          "Follow the everyday events",
+          "Keep care details together"
+        ],
+        [
+          "Check the everyday records",
+          "See what happened",
+          "Keep caregivers in the loop"
+        ]
+      ],
+      "captions": [
+        "Sleep, feeds and changes: a shared view for the people caring for your baby.",
+        "The everyday details are easier to follow when they are together.",
+        "A quick log can help the next caregiver see what happened.",
+        "Save this for the next “When was the last…?”"
+      ],
+      "tags": [
+        "BabyTracker",
+        "NewParents",
+        "FamilyCare"
+      ],
+      "locale": "en-US",
+      "status": "released",
+      "icon": "/images/portfolio/zuzu/icon.webp",
+      "landing": "https://magiclabsolutions.com/apps/zuzu/",
+      "source_repository": "zuzu",
+      "cta": "Discover zuzu",
+      "store_format": "iphone-6.9",
+      "screens": [
+        "/docs/marketing/october-2026/sources/zuzu/unframed-1.png",
+        "/docs/marketing/october-2026/sources/zuzu/unframed-2.png",
+        "/docs/marketing/october-2026/sources/zuzu/unframed-3.png",
+        "/docs/marketing/october-2026/sources/zuzu/unframed-4.png"
+      ],
+      "hardware": "iphone",
+      "capture_has_device_frame": false,
+      "play_store": {
+        "hardware": "android",
+        "device": "android",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "screens": [
+          "/docs/marketing/october-2026/sources/zuzu/android/screen-1.png",
+          "/docs/marketing/october-2026/sources/zuzu/android/screen-2.png",
+          "/docs/marketing/october-2026/sources/zuzu/android/screen-3.png",
+          "/docs/marketing/october-2026/sources/zuzu/android/screen-4.png"
+        ],
+        "panels": [
+          [
+            "Baby’s day. In one shared view.",
+            "Keep everyday baby care together.",
+            "Baby care on Android"
+          ],
+          [
+            "Follow the little moments.",
+            "See everyday events on the timeline.",
+            "The day, in order"
+          ],
+          [
+            "Keep the little details.",
+            "Add feeds, changes and everyday care.",
+            "Everyday logs"
+          ],
+          [
+            "Their details, close by.",
+            "Keep your baby’s profile in one place.",
+            "A personal baby profile"
+          ]
+        ],
+        "native_repository": "Zuzu-android"
+      },
+      "frame": {
+        "asset": "/docs/marketing/october-2026/.frames-cache/iphone.png",
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ]
+      }
+    }
+  ]
+}

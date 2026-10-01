@@ -1,14 +1,31 @@
 {% assign exp = site.data.portfolio | where: 'slug', include.slug | first %}
 {% assign el = 'en' %}{% if site.active_lang == 'pt-BR' %}{% assign el = 'pt-BR' %}{% endif %}
 {% assign eu = site.data.portfolio_ui[el] %}
+{% assign marketing = site.data.product_marketing[exp.slug] %}
 <div class="p-experience" style="--p-accent:{{ exp.color }}" lang="{{ el }}">
+  {% if marketing %}
+  {% include product-marketing.html %}
+  <section class="p-wrap p-demo-section" id="experience" aria-labelledby="experience-title" data-p-reveal>
+    <div class="p-section-heading"><div><p class="p-kicker">{{ exp.name }} / {% if el == 'pt-BR' %}NA PRÁTICA{% else %}IN PRACTICE{% endif %}</p><h2 id="experience-title">{% if el == 'pt-BR' %}Veja o produto de perto.{% else %}See the product up close.{% endif %}</h2></div><p>{% if el == 'pt-BR' %}Capturas reais do produto. Escolha uma tela para conhecer os detalhes. Esta seleção está em inglês.{% else %}Real product captures. Choose a screen to see the details.{% endif %}</p></div>
+    <div class="p-capture-tour" data-capture-tour>
+      <div class="p-tour-image"><button class="p-shot" data-p-image="{{ marketing.captures[0].output | relative_url }}" aria-label="{{ eu.enlarge }} — {{ exp.name }}"><img src="{{ marketing.captures[0].output | relative_url }}" alt="{{ marketing.captures[0].alt | escape }}" loading="lazy"></button></div>
+      <div class="p-tour-options" lang="en" role="group" aria-label="Product screens">
+        {% if marketing.captures.size == 1 %}<div class="p-tour-single"><h3>{{ marketing.captures[0].label }}</h3><p>{{ marketing.captures[0].description }}</p></div>{% else %}
+        {% for capture in marketing.captures %}<button type="button" data-tour-image="{{ capture.output | relative_url }}" data-tour-alt="{{ capture.alt | escape }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"><span>0{{ forloop.index }}</span><strong>{{ capture.label }}</strong><span>{{ capture.description }}</span></button>{% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% else %}
   <section class="p-wrap p-demo-section" id="experience" aria-labelledby="experience-title" data-p-reveal>
     <div class="p-section-heading"><div><p class="p-kicker">01 / {{ eu.try }}</p><h2 id="experience-title">{{ eu.demo_title }}</h2></div><p>{{ eu.demo_note }}</p></div>
     <div class="p-demo" data-demo="{{ exp.demo }}" data-slug="{{ exp.slug }}" data-lang="{{ el }}" data-icon="{{ exp.icon | relative_url }}"><noscript>{{ eu.nojs }}</noscript></div>
   </section>
+  {% endif %}
   <section class="p-wrap p-inside" id="inside" aria-labelledby="inside-title" data-p-reveal>
     <div class="p-section-heading"><div><p class="p-kicker">02 / {{ eu.inside }}</p><h2 id="inside-title">{% if exp.artwork.size > 0 %}{{ eu.art_title }}{% else %}{{ eu.real_title }}{% endif %}</h2></div><p>{% if exp.screenshots.size > 0 %}{{ eu.real_note }}{% elsif exp.artwork.size > 0 %}{{ eu.art_note }}{% else %}{{ eu.no_captures }}{% endif %}</p></div>
-    {% if exp.screenshots.size > 0 %}<div class="p-gallery" role="list">{% for shot in exp.screenshots %}<figure role="listitem"><button class="p-shot" data-p-image="{{ shot.output | relative_url }}" aria-label="{{ eu.enlarge }} {{ forloop.index }} — {{ exp.name }}"><img src="{{ shot.output | relative_url }}" loading="lazy" alt="{{ exp.name }} — {{ shot.alt[el] | escape }}"></button><figcaption>{{ exp.name }} / {{ eu.capture }} 0{{ forloop.index }}</figcaption></figure>{% endfor %}</div>{% endif %}
+    {% if marketing and exp.slug != 'tumtum' %}{% assign product_shots = marketing.captures %}{% else %}{% assign product_shots = exp.screenshots %}{% endif %}
+    {% if product_shots.size > 0 %}<div class="p-gallery" role="list">{% for shot in product_shots %}<figure role="listitem"><button class="p-shot" data-p-image="{{ shot.output | relative_url }}" aria-label="{{ eu.enlarge }} {{ forloop.index }} — {{ exp.name }}"><img src="{{ shot.output | relative_url }}" loading="lazy" alt="{{ exp.name }} — {% if marketing and exp.slug != 'tumtum' %}{{ shot.alt | escape }}{% else %}{{ shot.alt[el] | escape }}{% endif %}"></button><figcaption>{{ exp.name }} / {{ eu.capture }} 0{{ forloop.index }}</figcaption></figure>{% endfor %}</div>{% endif %}
     {% if exp.artwork.size > 0 %}<div class="p-gallery" role="list">{% for art in exp.artwork %}<figure role="listitem"><button class="p-shot" data-p-image="{{ art.output | relative_url }}" aria-label="{{ eu.enlarge }} {{ forloop.index }} — {{ exp.name }}"><img src="{{ art.output | relative_url }}" loading="lazy" alt="{{ exp.name }} — {{ eu.art }} {{ forloop.index }}"></button><figcaption>{{ exp.name }} / {{ eu.art }} 0{{ forloop.index }}</figcaption></figure>{% endfor %}</div>{% endif %}
     <p class="p-availability"><span class="p-dot"></span> {{ eu.status[exp.status] }}{% if exp.version %} · {{ exp.version }}{% endif %}{% if exp.store_url %} · <a href="{{ exp.store_url }}">App Store ↗</a>{% endif %}{% if exp.play_url %} · <a href="{{ exp.play_url }}">Google Play ↗</a>{% endif %}</p>
   </section>

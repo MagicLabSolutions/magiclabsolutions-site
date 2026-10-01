@@ -1,0 +1,76 @@
+/* Comfortable reading and touch targets across the studio and product landing pages. */
+html{font-size:16px;text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{font-size:18px;line-height:1.65}
+img,video{max-width:100%}input,select,textarea{font-size:16px}
+button,input,select,textarea,a,summary{-webkit-tap-highlight-color:transparent}
+:is(button,summary,.button,.btn,.nav-cta,.lab-button,.header-cta,.p-button){min-height:44px}
+:is(nav a,.topbar__links a,.header-nav a,.nav-links a){display:inline-flex;align-items:center;min-height:44px;font-size:16px;line-height:1.35}
+:is(.badge,.eyebrow,.kicker,.lab-kicker,.hero__eyebrow,.platform,.hero__platforms,.stage-tag,.stage-label,.hero-badge,.hero-platforms,.status,.section-eyebrow,.stat-label){font-size:14px;line-height:1.5}
+:is(.card p,.feature p,.feature-card p,.feature-description,.feature-desc,.faq-answer,.faq-item p,.privacy__item span,.band li,.pricing-card p,.pricing-note,.hero-description){font-size:18px;line-height:1.65}
+:is(.fine,.footnote,.footer-note,.footer-links,.foot__inner,.site-footer,.footer-bottom,.footer p,.lab-footer p,.lab-footer nav,.footer__copyright){font-size:15px;line-height:1.6}
+:is(.lab-card p,.product-card p,.project-card p){font-size:17px;line-height:1.65}
+:is(.lab-languages,.language-selector,.language-switcher,.languages){font-size:16px}
+.portfolio-page,.p-experience{font-size:18px}
+.p-header>nav,.p-language{font-size:16px}.p-header{height:auto;min-height:100px;padding-block:16px;gap:24px}.p-header>nav{gap:24px}
+.p-kicker{font-size:14px!important;letter-spacing:1.3px}.p-lede{font-size:20px;line-height:1.65}.p-note{font-size:16px;max-width:48ch}
+.p-button,.p-text-link{font-size:16px;min-height:48px}.p-text-link{display:inline-flex;align-items:center}.p-section-heading p{font-size:17px;line-height:1.65}
+.p-demo-controls p,.p-demo-controls label,.p-demo-output{font-size:17px!important}.p-demo-tag{font-size:13px}.p-value-label{font-size:16px}.p-gallery figcaption{font-size:14px;text-transform:none;letter-spacing:0;max-width:48ch}.p-availability{font-size:16px}
+.p-lightbox button{width:48px;height:48px}.p-lightbox p{font-size:16px}.p-footer p,.p-footer nav{font-size:15px}.p-footer nav a{min-height:44px}
+.p-gallery{gap:28px;padding-bottom:32px}.p-shot img{height:460px;width:auto;max-width:100%;object-fit:contain}
+.p-campaign-gallery .p-shot img{height:500px}.p-campaign{padding-top:8px}.p-campaign .p-section-heading p{max-width:40ch}
+.p-proof-grid{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);align-items:center;gap:clamp(32px,6vw,80px);padding:32px;border:1px solid #ffffff24;border-radius:28px;background:#171e2c}
+.p-proof-grid video{width:100%;max-height:610px;border-radius:18px;background:#080c13}.p-proof-copy h3{font-size:clamp(28px,3vw,42px);line-height:1.15;letter-spacing:-1px;color:#f2f2f6}.p-proof-copy p,.p-proof-copy li{font-size:18px;line-height:1.65;color:#c5cedf}.p-proof-copy ol{padding-left:24px;margin:28px 0}.p-proof-copy li{padding-left:6px;margin:12px 0}
+.p-capture-tour{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:36px;align-items:center;border:1px solid #ffffff24;border-radius:28px;padding:32px;background:#171e2c}
+.p-tour-image{min-width:0;display:grid;place-items:center}.p-tour-image .p-shot{width:100%;border:0!important;background:transparent!important}.p-tour-image img{height:480px;width:100%;object-fit:contain}.p-tour-options{display:grid;gap:14px}
+.p-tour-options button{display:grid;grid-template-columns:28px 1fr;gap:6px 16px;text-align:left;border:1px solid #566074;border-radius:16px;padding:18px 20px;background:#222b3c;color:#f2f2f6;font:inherit;min-height:94px;cursor:pointer;transition:border-color .15s,background .15s}
+.p-tour-options button>span:first-child{grid-row:1/3;font-size:14px;color:var(--p-accent);padding-top:4px}.p-tour-options button strong{font-size:19px;line-height:1.3}.p-tour-options button>span:last-child{font-size:16px;color:#c6cfe0;line-height:1.5}.p-tour-options button[aria-pressed=true]{border-color:var(--p-accent);background:#303b50}.p-tour-options button:hover{border-color:#fff}
+/* Existing pages use their own color and font systems; these adjustments keep those identities. */
+.topbar__links a,.card p,.privacy__item span,.band li{font-size:17px}.hero__eyebrow{font-size:14px}.hero__platforms{font-size:16px}.foot__inner{font-size:15px}
+.header-nav{gap:24px}.header-nav a,.header-cta,.lab-languages,.lab-text-link{font-size:16px}.lab-kicker,.stage-tag,.stage-label,.product-status,.card-category{font-size:14px}.stage-caption p,.lab-card-description,.card-description{font-size:17px}.lab-footer p,.lab-footer nav{font-size:15px}
+@media(max-width:800px){.p-wrap{width:calc(100% - 40px)}.p-proof-grid,.p-capture-tour{grid-template-columns:minmax(0,1fr);padding:24px;gap:24px}.p-proof-grid video{max-height:570px}.p-proof-copy h3{font-size:30px}.p-tour-image img{height:420px}.p-campaign-gallery .p-shot img{height:410px}.p-header{min-height:90px;gap:16px;flex-wrap:wrap}.p-header>nav{gap:16px;order:3;width:100%;justify-content:space-between}.p-header>nav a:nth-child(3){display:inline-flex}.p-language{margin-left:auto}.p-hero h1{letter-spacing:-1.6px}.p-section-heading{margin-top:48px}.p-section-heading>p{margin-top:18px}}
+@media(max-width:420px){.p-wrap{width:calc(100% - 32px)}.p-header>nav a:nth-child(2){display:inline-flex}.p-header>nav{font-size:15px;gap:12px}.p-hero-visual{min-height:360px}.p-hero-screen{max-height:350px}.p-kicker{font-size:14px!important}.p-proof-grid,.p-capture-tour{padding:18px;border-radius:20px}.p-tour-options button{padding:16px;min-height:100px}.p-gallery figure{max-width:92%}.p-shot img,.p-campaign-gallery .p-shot img{height:380px}.p-tour-image img{height:390px}.p-footer nav{flex-wrap:wrap}.p-button{max-width:100%;white-space:normal;text-align:center;line-height:1.4}}
+@media(prefers-reduced-motion:reduce){.p-tour-options button{transition:none}}
+
+.p-tour-single h3{font-size:28px;line-height:1.3;color:#edf0f8}.p-tour-single p{font-size:18px;line-height:1.65;color:#c6cfe0}
+
+/* The audit found 10–13px labels in the home catalog and legacy footers. */
+.lab-button{font-size:16px;min-height:48px;line-height:1.4}
+.product-tabs button{font-size:14px;min-width:76px;min-height:80px}
+.catalog-filters button{font-size:16px;min-height:48px}
+.catalog-search{font-size:16px}.catalog-search input{font-size:16px}
+.lab-ribbon>.lab-wrap{font-size:16px}.story-status,.product-category,.story-watermark{font-size:14px}
+.story-description,.section-heading>p,.story-heading>p:last-child{font-size:18px}
+.video-caption,footer p,footer a,.footer p,.footer a{font-size:15px}
+.eyebrow{font-size:14px}
+@media(max-width:600px){.product-tabs{flex-wrap:wrap}.catalog-search{flex-wrap:wrap;gap:12px}}
+
+.play-knock .lab-button,.lab-play .lab-button,.play-controls .lab-button,body .lab-button{font-size:16px}
+body .eyebrow,body .lang-switcher__toggle{font-size:14px}
+
+body .session-paper .eyebrow{font-size:14px}
+.platform-card p{font-size:17px;line-height:1.6}
+/* Readable labels inside existing website previews, plans and store buttons. */
+.lab-pill,.desktop-note,.window-bar,.window-bar span,.story-indicator{font-size:14px}
+.demo-steps li{font-size:16px}.demo-steps li span,.demo-toolbar>span{font-size:14px}
+.focus-paper .lab-kicker,.focus-paper>span,.meeting-card>span,.meeting-card p{font-size:14px}
+.p-demo-tag,.p-features article>span{font-size:14px}
+body .plan-badge,body .review-author,body .check{font-size:14px}
+.app-store-btn-text small,.play-store-btn-text small,.store-btn small,.brand small{font-size:14px}
+.p-footer span,footer small,.footer small,footer>div>span{font-size:15px}
+.hero__kicker,.band__top span{font-size:14px}
+.world-copy>span:last-child{font-size:17px}.studio-photo>span{font-size:14px}
+.plan-features li .check{font-size:14px}
+.footer-content>span{font-size:15px}
+
+.footer__bottom>span{font-size:15px}
+
+/* Finished Apple PNG compositions include their own hardware; avoid a second CSS bezel. */
+body .ipad-frame:has(img[src*="/framed/"]){padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important}
+body .ipad-frame:has(img[src*="/framed/"])::before,body .ipad-frame:has(img[src*="/framed/"])::after{display:none!important}
+body .ipad-frame:has(img[src*="/framed/"]) .ipad-screen{background:transparent!important;border-radius:0!important;overflow:visible!important}
+body .framed-screenshot[src*="/framed/"]{filter:none!important;border:0!important;border-radius:0!important}
+body .ipad-frame:has(img[src*="/framed/"]) .ipad-screen{aspect-ratio:auto!important}
+body .ipad-frame:has(img[src*="/framed/"]) .ipad-screen img{height:auto!important;object-fit:contain!important}
+body .ipad-frame-sm:has(img[src*="/framed/"]){width:min(600px,80vw)!important}
+/* Legacy pages reset the native dialog margin; keep enlarged screenshots centered. */
+.p-lightbox{position:fixed!important;inset:0!important;margin:auto!important}

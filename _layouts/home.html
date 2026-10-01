@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="{{ '/css/home.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}"><script src="{{ '/js/home.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>
   {% if jekyll.environment == 'production' %}{% include gtag.html %}{% endif %}
   {% include social-meta.html home=true %}
+  <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 </head>
 <body>
   <a class="skip-link" href="#main">{{ h.skip }}</a>

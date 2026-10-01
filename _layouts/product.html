@@ -1,4 +1,5 @@
 {% assign product = site.data.portfolio | where: 'slug', page.product | first %}
+{% assign product_marketing = site.data.product_marketing[product.slug] %}
 {% assign pc = product.copy[site.active_lang] | default: product.copy.en %}
 {% assign pl = 'en' %}{% if site.active_lang == 'pt-BR' %}{% assign pl = 'pt-BR' %}{% endif %}
 {% assign pc = product.copy[pl] %}
@@ -18,6 +19,7 @@
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"{% if product.category == 'games' %}VideoGame{% else %}SoftwareApplication{% endif %}","name":{{ product.name | jsonify }},"description":{{ pc.description | jsonify }},"image":{{ product.icon | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"author":{"@type":"Organization","name":"Magic Lab Solutions"}{% if product.store_url %},"downloadUrl":{{ product.store_url | jsonify }}{% endif %}}</script>
   {% include social-meta.html product=page.product %}
+  <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 </head>
 <body class="portfolio-page" style="--p-accent:{{ product.color }}">
   <a class="p-skip" href="#main">{{ ui.skip }}</a>
@@ -25,7 +27,7 @@
   <main id="main" lang="{{ pl }}">
     <section class="p-hero p-wrap">
       <div class="p-hero-copy"><p class="p-kicker"><span class="p-dot"></span> {{ ui.status[product.status] }} · {{ product.platform }}</p><img class="p-app-icon" src="{{ product.icon | relative_url }}" width="88" height="88" alt="{{ product.name }}"><p class="p-product-name">{{ product.name }}</p><h1>{{ pc.headline }}</h1><p class="p-lede">{{ pc.description }}</p><div class="p-actions">{% if product.store_url %}<a class="p-button" href="{{ product.store_url }}" rel="noopener">App Store ↗</a>{% elsif product.web_url %}<a class="p-button" href="{{ product.web_url }}" rel="noopener">{{ ui.open }} ↗</a>{% else %}<a class="p-button" href="#experience">{{ ui.try }} ↓</a>{% endif %}{% if product.play_url %}<a class="p-button p-quiet" href="{{ product.play_url }}" rel="noopener">Google Play ↗</a>{% else %}<a class="p-text-link" href="#inside">{{ ui.inside }} ↘</a>{% endif %}</div>{% if product.availability_note %}<p class="p-note">{{ product.availability_note[pl] }}</p>{% endif %}</div>
-      <div class="p-hero-visual" data-p-tilt><span class="p-orbit" aria-hidden="true"></span><span class="p-orbit p-orbit-two" aria-hidden="true"></span>{% if product.screenshots.size > 0 %}<img class="p-hero-screen" src="{{ product.screenshots[0].output | relative_url }}" fetchpriority="high" alt="{{ product.name }} — {{ product.screenshots[0].alt[pl] | escape }}">{% elsif product.artwork.size > 0 %}<img class="p-hero-screen" src="{{ product.artwork[0].output | relative_url }}" fetchpriority="high" alt="{{ product.name }} — {{ ui.art }}">{% else %}<img class="p-hero-emblem" src="{{ product.icon | relative_url }}" width="360" height="360" fetchpriority="high" alt="{{ product.name }}">{% endif %}</div>
+      <div class="p-hero-visual" data-p-tilt><span class="p-orbit" aria-hidden="true"></span><span class="p-orbit p-orbit-two" aria-hidden="true"></span>{% if product_marketing.gallery.size > 0 %}<img class="p-hero-screen" src="{{ product_marketing.gallery[0].output | relative_url }}" fetchpriority="high" alt="{{ product_marketing.gallery[0].alt | escape }} (English)">{% elsif product.screenshots.size > 0 %}<img class="p-hero-screen" src="{{ product.screenshots[0].output | relative_url }}" fetchpriority="high" alt="{{ product.name }} — {{ product.screenshots[0].alt[pl] | escape }}">{% elsif product.artwork.size > 0 %}<img class="p-hero-screen" src="{{ product.artwork[0].output | relative_url }}" fetchpriority="high" alt="{{ product.name }} — {{ ui.art }}">{% else %}<img class="p-hero-emblem" src="{{ product.icon | relative_url }}" width="360" height="360" fetchpriority="high" alt="{{ product.name }}">{% endif %}</div>
     </section>
     <div class="p-marquee" aria-hidden="true"><span>{{ product.name }} · {{ pc.features[0] }} · {{ pc.features[1] }} · {{ pc.features[2] }} · {{ product.name }}</span></div>
     {% include product-experience.html slug=page.product %}
