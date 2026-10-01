@@ -22,12 +22,20 @@
       "native_variants": {
         "iphone": 6,
         "ipad": 4
-      }
+      },
+      "publication": "Verified live after successful Pages deployment 36914214876."
     },
     "zuzu": {
-      "status": "queued",
+      "status": "complete",
       "primary_images": 6,
-      "website": "pending"
+      "website": "checked",
+      "native_variants": {
+        "iphone": 6,
+        "ipad": 6,
+        "android": 6
+      },
+      "rationale": "Six meaningful Apple experiences and six separate Android experiences, captured natively with offline fixtures.",
+      "composition": "Three clean device views and three selected layered layouts per native platform."
     },
     "sundust": {
       "status": "queued",
@@ -76,5 +84,6 @@
     }
   },
   "tumtum_store": "Preserve original approved store assets; update four editorial highlights and the product page.",
-  "publication_authorization": "Owner requested publication after every website update on October 1, 2026."
+  "publication_authorization": "Owner requested publication after every website update on October 1, 2026.",
+  "treatment": "Mixed clean device views, coherent corner props and selected layered native components, as requested October 1."
 }

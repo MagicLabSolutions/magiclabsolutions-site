@@ -1,46 +1,95 @@
-[
-  {
-    "platform": "Android",
-    "slug": "zuzu",
-    "panel": 1,
-    "source": "Zuzu-android/screenshots/en-US/images/phoneScreenshots/01_home_1772558181273.png",
-    "copy": "docs/marketing/october-2026/sources/zuzu/android/screen-1.png",
-    "source_sha256": "947789fbe85a715932541be407ac46f277874f4022287157b3f3933e753fcc0c",
-    "repository_revision_at_collection": "56f341d0cbbb7cdebea65c199cef43c23becaf52",
-    "kind": "archival-native-Android-capture",
-    "note": "Existing Android Screengrab test artifacts with demo content; not claimed to be regenerated from current HEAD."
-  },
-  {
-    "platform": "Android",
-    "slug": "zuzu",
-    "panel": 2,
-    "source": "Zuzu-android/screenshots/en-US/images/phoneScreenshots/02_timeline_1772558201700.png",
-    "copy": "docs/marketing/october-2026/sources/zuzu/android/screen-2.png",
-    "source_sha256": "edceb25c1ea396a24132fc37d51cbfafdf7a1adea0caecbf110713b154c2fc59",
-    "repository_revision_at_collection": "56f341d0cbbb7cdebea65c199cef43c23becaf52",
-    "kind": "archival-native-Android-capture",
-    "note": "Existing Android Screengrab test artifacts with demo content; not claimed to be regenerated from current HEAD."
-  },
-  {
-    "platform": "Android",
-    "slug": "zuzu",
-    "panel": 3,
-    "source": "Zuzu-android/screenshots/en-US/images/phoneScreenshots/05_add_actions_1772558274720.png",
-    "copy": "docs/marketing/october-2026/sources/zuzu/android/screen-3.png",
-    "source_sha256": "baa59e7bdd9bb9960e51e8d557d4fcdf482378dc67428f37c81aeff5b19f3357",
-    "repository_revision_at_collection": "56f341d0cbbb7cdebea65c199cef43c23becaf52",
-    "kind": "archival-native-Android-capture",
-    "note": "Existing Android Screengrab test artifacts with demo content; not claimed to be regenerated from current HEAD."
-  },
-  {
-    "platform": "Android",
-    "slug": "zuzu",
-    "panel": 4,
-    "source": "Zuzu-android/screenshots/en-US/images/phoneScreenshots/04_baby_profile_1772558251731.png",
-    "copy": "docs/marketing/october-2026/sources/zuzu/android/screen-4.png",
-    "source_sha256": "d2c6e41b97c2077c837074edf45cef9beaa8618998247b773530e7f2449fa719",
-    "repository_revision_at_collection": "56f341d0cbbb7cdebea65c199cef43c23becaf52",
-    "kind": "archival-native-Android-capture",
-    "note": "Existing Android Screengrab test artifacts with demo content; not claimed to be regenerated from current HEAD."
-  }
-]
+{
+  "supersedes": "Archived screenshot folder had iOS chrome despite Android repository name; replaced after visual inspection.",
+  "records": [
+    {
+      "platform": "Android",
+      "panel": 1,
+      "source_repository": "Zuzu-android",
+      "revision": "23531c4",
+      "kind": "fresh-native-Android-fixture-capture",
+      "sha256": "50323432c70c946fe90b4d65f455cbf61f4fc3f96155432df246f947f8b5ec38",
+      "dimensions": [
+        1280,
+        2856
+      ],
+      "harness": "LayoutAudit (current real composables with offline demo fixtures)",
+      "frame": "Pixel 9 Pro, Android Studio device-art-resources",
+      "limitation": "Captured from source 2.6.0; offline capture build disables Firebase build plugins and adds an invalid sign-in client placeholder. No production app code or accounts changed."
+    },
+    {
+      "platform": "Android",
+      "panel": 2,
+      "source_repository": "Zuzu-android",
+      "revision": "23531c4",
+      "kind": "fresh-native-Android-fixture-capture",
+      "sha256": "d7d05e4f2e1104f3ee32a1e7d6d256e36496a549d1651a915cab2f782c5afa99",
+      "dimensions": [
+        1280,
+        2856
+      ],
+      "harness": "LayoutAudit (current real composables with offline demo fixtures)",
+      "frame": "Pixel 9 Pro, Android Studio device-art-resources",
+      "limitation": "Captured from source 2.6.0; offline capture build disables Firebase build plugins and adds an invalid sign-in client placeholder. No production app code or accounts changed."
+    },
+    {
+      "platform": "Android",
+      "panel": 3,
+      "source_repository": "Zuzu-android",
+      "revision": "23531c4",
+      "kind": "fresh-native-Android-fixture-capture",
+      "sha256": "e373a9648d3c78b503c900727b5452db91378b135a91b44430f8d6314a84902b",
+      "dimensions": [
+        1280,
+        2856
+      ],
+      "harness": "LayoutAudit (current real composables with offline demo fixtures)",
+      "frame": "Pixel 9 Pro, Android Studio device-art-resources",
+      "limitation": "Captured from source 2.6.0; offline capture build disables Firebase build plugins and adds an invalid sign-in client placeholder. No production app code or accounts changed."
+    },
+    {
+      "platform": "Android",
+      "panel": 4,
+      "source_repository": "Zuzu-android",
+      "revision": "23531c4",
+      "kind": "fresh-native-Android-fixture-capture",
+      "sha256": "41cb8f532fb4672daa81acc64c174d61b0e4352e6becc59daddf203f345f87e3",
+      "dimensions": [
+        1280,
+        2856
+      ],
+      "harness": "LayoutAudit (current real composables with offline demo fixtures)",
+      "frame": "Pixel 9 Pro, Android Studio device-art-resources",
+      "limitation": "Captured from source 2.6.0; offline capture build disables Firebase build plugins and adds an invalid sign-in client placeholder. No production app code or accounts changed."
+    },
+    {
+      "platform": "Android",
+      "panel": 5,
+      "source_repository": "Zuzu-android",
+      "revision": "23531c4",
+      "kind": "fresh-native-Android-fixture-capture",
+      "sha256": "de7fac8a655ecab0053bc021d4fda9e393236ea97eb813be5e7dde1f9f49d30e",
+      "dimensions": [
+        1280,
+        2856
+      ],
+      "harness": "LayoutAudit (current real composables with offline demo fixtures)",
+      "frame": "Pixel 9 Pro, Android Studio device-art-resources",
+      "limitation": "Captured from source 2.6.0; offline capture build disables Firebase build plugins and adds an invalid sign-in client placeholder. No production app code or accounts changed."
+    },
+    {
+      "platform": "Android",
+      "panel": 6,
+      "source_repository": "Zuzu-android",
+      "revision": "23531c4",
+      "kind": "fresh-native-Android-fixture-capture",
+      "sha256": "a433c88bafbebb0d9a235ba213093ebbc199cca241159f2708688f3640dddbe6",
+      "dimensions": [
+        1280,
+        2856
+      ],
+      "harness": "LayoutAudit (current real composables with offline demo fixtures)",
+      "frame": "Pixel 9 Pro, Android Studio device-art-resources",
+      "limitation": "Captured from source 2.6.0; offline capture build disables Firebase build plugins and adds an invalid sign-in client placeholder. No production app code or accounts changed."
+    }
+  ]
+}

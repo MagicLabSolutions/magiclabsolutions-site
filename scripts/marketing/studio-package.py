@@ -18,18 +18,16 @@ for export,prefix,panels,label in variants:
    im=im.convert('RGB');im.thumbnail((1440,4320));im.save(target,'WEBP',quality=88,method=4);w,h=im.size
   gallery.append(dict(output='/'+str(target.relative_to(root)),alt=f'{p["name"]}: {label}{panel[0]} — {panel[1]}',caption=label+panel[0],width=w,height=h))
 entry.update(gallery=gallery,headline=p['panels'][0][0],description=p['panels'][0][1],website_layout=p['website_layout'],website_editorial=p['website_editorial'])
-for i,panel in enumerate(p['panels']):
- target=public/f'capture-{i+1}.webp';url='/'+str(target.relative_to(root))
- if not any(c['output']==url for c in entry['captures']):
-  source=out/'sources'/slug/f'framed-{i+1}.png' if p.get('frame') else root/p['screens'][i].lstrip('/')
+# Replace every native thumbnail from its measured composition, including existing rows.
+entry['captures']=[c for c in entry['captures'] if not re.search(r'/(ipad-|android-)?capture-\d+\.webp$',c['output'])]
+for native,prefix,platform,label in [(p,'',None,''),(p.get('ipad_store'),'ipad-','ipad','iPad / '),(p.get('play_store'),'android-','android','Android / ')]:
+ if not native:continue
+ for i,panel in enumerate(native['panels']):
+  target=public/f'{prefix}capture-{i+1}.webp'
+  source=out/'sources'/slug/(platform or '')/f'framed-{i+1}.png' if native.get('frame') else root/native['screens'][i].lstrip('/')
   with Image.open(source) as im:
    im=im.convert('RGBA');im.thumbnail((1440,4320));im.save(target,'WEBP',quality=88,method=4)
-  entry['captures'].insert(i,dict(output=url,alt=f'{p["name"]}: {panel[2]} (real English product capture)',label=panel[2],description=panel[1]))
-for capture in entry['captures']:
- match=re.search(r'/(ipad-|android-)?capture-(\d+)\.webp$',capture['output'])
- if match:
-  panels=p.get('ipad_store',{}).get('panels') if match[1]=='ipad-' else p.get('play_store',{}).get('panels') if match[1]=='android-' else p['panels']
-  capture['description']=panels[int(match[2])-1][1]
+  entry['captures'].append(dict(output='/'+str(target.relative_to(root)),alt=f'{p["name"]}: {label}{panel[2]} (real English product capture)',label=label+panel[2],description=panel[1]))
 (root/'_data/product_marketing.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 (out/'metadata/en-US'/slug/'promotional_text.txt').write_text(p['position']+' '+p['panels'][0][1]+'\n')
 # Keep approved creative text independently editable for subsequent translations.

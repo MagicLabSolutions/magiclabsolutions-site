@@ -1871,7 +1871,7 @@
       "panels": [
         [
           "Baby’s day. All together.",
-          "Sleep, feeds and changes in one view.",
+          "Sleep, feeds and changes. One shared view.",
           "Everyday baby care"
         ],
         [
@@ -1886,7 +1886,7 @@
         ],
         [
           "Watch them grow.",
-          "Keep growth records close by.",
+          "Track measurements. Keep their story close.",
           "Growth records"
         ],
         [
@@ -1896,7 +1896,7 @@
         ],
         [
           "A nap. As it happens.",
-          "Start a nap and follow its timer.",
+          "Start a nap. Follow its timer.",
           "Sleep tracking"
         ]
       ],
@@ -1954,8 +1954,8 @@
         "hardware": "android",
         "device": "android",
         "dimensions": [
-          1080,
-          1920
+          1280,
+          2856
         ],
         "screens": [
           "/docs/marketing/october-2026/sources/zuzu/android/screen-1.png",
@@ -1968,56 +1968,51 @@
         "panels": [
           [
             "Baby’s day. All together.",
-            "Keep everyday baby care in view.",
-            "Baby care on Android"
+            "Sleep, feeds and changes. One shared view.",
+            "Home Nap"
           ],
           [
             "Every little moment.",
-            "Follow the day’s events in order.",
-            "A daily timeline"
+            "Follow the day’s events. Keep the details close.",
+            "Timeline Day"
           ],
           [
-            "Log the little details.",
-            "Add feeds, changes and everyday care.",
-            "Everyday logs"
+            "A little log. A clearer day.",
+            "Naps, feeds and changes. Choose what to track.",
+            "Add Sheet"
           ],
           [
-            "Their details, close by.",
-            "Keep a personal baby profile.",
-            "Baby profile"
+            "A nap. As it happens.",
+            "See the running timer. Keep the nap in view.",
+            "Sleep Nap"
           ],
           [
-            "Settle into the quiet.",
-            "Explore the soothing sounds screen.",
-            "Soothing sounds"
+            "Make room for learning.",
+            "Explore Sleep School. One chapter at a time.",
+            "Sleep School"
           ],
           [
-            "Ready for the next moment.",
-            "Return to your everyday care overview.",
-            "An everyday overview"
+            "The first week. Day by day.",
+            "Find a place to start. Keep early moments close.",
+            "First Week"
           ]
         ],
         "native_repository": "Zuzu-android",
-        "details": [
-          null,
-          {
-            "asset": "/docs/marketing/october-2026/sources/zuzu/detail-android-2.png",
-            "label": "A daily timeline"
-          },
-          {
-            "asset": "/docs/marketing/october-2026/sources/zuzu/detail-android-3.png",
-            "label": "Everyday logs"
-          },
-          {
-            "asset": "/docs/marketing/october-2026/sources/zuzu/detail-android-4.png",
-            "label": "Baby profile"
-          },
-          {
-            "asset": "/docs/marketing/october-2026/sources/zuzu/detail-android-5.png",
-            "label": "Soothing sounds"
-          },
-          null
-        ]
+        "details": [],
+        "frame": {
+          "asset": "/docs/marketing/october-2026/.frames-cache/pixel-9-pro.png",
+          "dimensions": [
+            1408,
+            2974
+          ],
+          "screen": [
+            60,
+            61,
+            1280,
+            2856
+          ],
+          "radius": 109
+        }
       },
       "frame": {
         "asset": "/docs/marketing/october-2026/.frames-cache/iphone.png",
@@ -2080,7 +2075,7 @@
         "panels": [
           [
             "Baby’s day. All together.",
-            "Sleep, feeds and changes in one view.",
+            "Sleep, feeds and changes. One shared view.",
             "Everyday baby care"
           ],
           [
@@ -2095,7 +2090,7 @@
           ],
           [
             "Watch them grow.",
-            "Keep growth records close by.",
+            "Track measurements. Keep their story close.",
             "Growth records"
           ],
           [
@@ -2105,7 +2100,7 @@
           ],
           [
             "A nap. As it happens.",
-            "Start a nap and follow its timer.",
+            "Start a nap. Follow its timer.",
             "Sleep tracking"
           ]
         ],
@@ -2133,6 +2128,333 @@
           },
           null
         ]
+      },
+      "studio_art": {
+        "copy": [
+          [
+            "Baby’s day.\nAll together.",
+            "Sleep, feeds and changes.\nOne shared view."
+          ],
+          [
+            "Every little\nmoment.",
+            "Keep the day’s events\nin order."
+          ],
+          [
+            "See their\ndaily patterns.",
+            "Explore insights\nfrom everyday logs."
+          ],
+          [
+            "Watch them\ngrow.",
+            "Track measurements.\nKeep their story close."
+          ],
+          [
+            "Start before\nthe birth.",
+            "Follow the weeks\nwhile you wait."
+          ],
+          [
+            "A nap.\nAs it happens.",
+            "Start a nap.\nFollow its timer."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/creative-native-2.png",
+                "rect": [
+                  48,
+                  550,
+                  1272,
+                  766
+                ],
+                "left": 0.02,
+                "top": 0.62,
+                "width": 0.88,
+                "radius": 42,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/creative-native-2.png",
+                "rect": [
+                  48,
+                  1510,
+                  1272,
+                  1725
+                ],
+                "left": 0.1,
+                "top": 0.77,
+                "width": 0.88,
+                "radius": 42,
+                "angle": 2
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/creative-native-4.png",
+                "rect": [
+                  48,
+                  730,
+                  1272,
+                  1698
+                ],
+                "left": 0.025,
+                "top": 0.58,
+                "width": 0.95,
+                "radius": 65,
+                "angle": 1
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/creative-native-6.png",
+                "rect": [
+                  48,
+                  2240,
+                  1272,
+                  2572
+                ],
+                "left": 0.03,
+                "top": 0.75,
+                "width": 0.94,
+                "radius": 65,
+                "angle": -2
+              }
+            ]
+          ]
+        },
+        "ipad": {
+          "copy": [
+            [
+              "Baby’s day.\nAll together.",
+              "Sleep, feeds and changes.\nOne shared view."
+            ],
+            [
+              "Every little\nmoment.",
+              "Keep the day’s events\nin order."
+            ],
+            [
+              "See their\ndaily patterns.",
+              "Explore insights\nfrom everyday logs."
+            ],
+            [
+              "Watch them\ngrow.",
+              "Track measurements.\nKeep their story close."
+            ],
+            [
+              "Start before\nthe birth.",
+              "Follow the weeks\nwhile you wait."
+            ],
+            [
+              "A nap.\nAs it happens.",
+              "Start a nap.\nFollow its timer."
+            ]
+          ],
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/ipad/screen-2.png",
+                "rect": [
+                  566,
+                  448,
+                  1500,
+                  592
+                ],
+                "left": 0.01,
+                "top": 0.66,
+                "width": 0.93,
+                "radius": 38,
+                "angle": -2
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/ipad/screen-4.png",
+                "rect": [
+                  564,
+                  418,
+                  1500,
+                  1063
+                ],
+                "left": 0.06,
+                "top": 0.53,
+                "width": 0.88,
+                "radius": 42,
+                "angle": 0
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/ipad/screen-6.png",
+                "rect": [
+                  550,
+                  2446,
+                  1514,
+                  2650
+                ],
+                "left": 0.035,
+                "top": 0.76,
+                "width": 0.93,
+                "radius": 42,
+                "angle": -1
+              }
+            ]
+          ]
+        },
+        "props": [
+          {
+            "asset": "/docs/marketing/october-2026/assets/zuzu/nursery-cutout.png",
+            "width": 0.34,
+            "left": 0.76,
+            "bottom": -0.01,
+            "angle": 8,
+            "panels": [
+              1,
+              2,
+              4
+            ]
+          },
+          {
+            "asset": "/docs/marketing/october-2026/assets/zuzu/nursery-cutout.png",
+            "width": 0.3,
+            "left": -0.09,
+            "bottom": -0.02,
+            "angle": -8,
+            "panels": [
+              3,
+              5
+            ]
+          }
+        ],
+        "hero_background": "/docs/marketing/october-2026/lifestyle/family.png",
+        "android": {
+          "copy": [
+            [
+              "Baby’s day.\nAll together.",
+              "Sleep, feeds and changes.\nOne shared view."
+            ],
+            [
+              "Every little\nmoment.",
+              "Follow the day’s events.\nKeep the details close."
+            ],
+            [
+              "A little log.\nA clearer day.",
+              "Naps, feeds and changes.\nChoose what to track."
+            ],
+            [
+              "A nap.\nAs it happens.",
+              "See the running timer.\nKeep the nap in view."
+            ],
+            [
+              "Make room\nfor learning.",
+              "Explore Sleep School.\nOne chapter at a time."
+            ],
+            [
+              "The first week.\nDay by day.",
+              "Find a place to start.\nKeep early moments close."
+            ]
+          ],
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/android/screen-2.png",
+                "rect": [
+                  64,
+                  1834,
+                  1216,
+                  2017
+                ],
+                "left": 0.025,
+                "top": 0.62,
+                "width": 0.94,
+                "radius": 42,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/android/screen-2.png",
+                "rect": [
+                  64,
+                  2040,
+                  1216,
+                  2230
+                ],
+                "left": 0.065,
+                "top": 0.77,
+                "width": 0.9,
+                "radius": 42,
+                "angle": 2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/android/screen-3.png",
+                "rect": [
+                  48,
+                  1476,
+                  426,
+                  1749
+                ],
+                "left": 0.015,
+                "top": 0.64,
+                "width": 0.44,
+                "radius": 42,
+                "angle": -3
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/android/screen-3.png",
+                "rect": [
+                  853,
+                  1476,
+                  1232,
+                  1749
+                ],
+                "left": 0.535,
+                "top": 0.72,
+                "width": 0.44,
+                "radius": 42,
+                "angle": 3
+              }
+            ],
+            [],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/android/screen-6.png",
+                "rect": [
+                  48,
+                  204,
+                  1232,
+                  1454
+                ],
+                "left": 0.05,
+                "top": 0.55,
+                "width": 0.9,
+                "radius": 48,
+                "angle": 0
+              }
+            ]
+          ]
+        }
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "Little moments.\nOne shared day.",
+        "description": "From the daily timeline to growth records and the weeks before birth: explore zuzu through its real Apple screens. Android has its own native examples below.",
+        "walkthrough_title": "A shared view,\nwhen you need it.",
+        "walkthrough_description": "See how a quick log helps keep the everyday care details together.",
+        "primary_count": 6,
+        "palette": [
+          "#FFF3E9",
+          "#40332D",
+          "#AF5937"
+        ],
+        "gallery_id": "screenshots"
       }
     }
   ]
