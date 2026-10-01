@@ -1,0 +1,61 @@
+{
+  "repository": "TumTum",
+  "revision": "53e84fa7a39c24c3a15fd6455acb9ea6c3587567",
+  "method": "Existing repository App Preview simulator recordings, English iPhone 1320x2868. Native portrait orientation preserved. Production screenshots remain unchanged; this is a separate editorial website set.",
+  "captures": [
+    {
+      "source": "fastlane/app-previews/raw/iphone/en/house-after.png",
+      "output": "docs/marketing/october-2026/sources/tumtum/native-1.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "sha256": "7095cf8f913cc41619eb388219d5af34db536750c89ef0419f2f74a5a8521f0b"
+    },
+    {
+      "source": "fastlane/app-previews/raw/iphone/en/cooking-after.png",
+      "output": "docs/marketing/october-2026/sources/tumtum/native-2.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "sha256": "0b0aa974c40a786788d120d622a2c10da786d5c1db3a1d9a6a13874203ed8f04"
+    },
+    {
+      "source": "fastlane/app-previews/raw/iphone/en/town-after.png",
+      "output": "docs/marketing/october-2026/sources/tumtum/native-3.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "sha256": "6845986b5e4de0460de80848abb9ec37da2dc0103414c40db0fc8146236c72fe"
+    },
+    {
+      "source": "fastlane/app-previews/raw/iphone/en/dinos-after.png",
+      "output": "docs/marketing/october-2026/sources/tumtum/native-4.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "sha256": "f82f06e416e54d2dd4015423cccd5658c7221414e2801ea14004f4fd5d2b27b4"
+    },
+    {
+      "source": "fastlane/app-previews/raw/iphone/en/aquarium-after.png",
+      "output": "docs/marketing/october-2026/sources/tumtum/native-5.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "sha256": "37f3113d737e983b42dcdf748899d26664609404ea5467ecb8dfcc1bdd941beb"
+    },
+    {
+      "source": "fastlane/app-previews/raw/iphone/en/parents-session-after.png",
+      "output": "docs/marketing/october-2026/sources/tumtum/native-6.png",
+      "dimensions": [
+        1320,
+        2868
+      ],
+      "sha256": "e0bafe03c180284922b82bd951ff7a0b84bf15ea9784946c94286975e908770a"
+    }
+  ]
+}

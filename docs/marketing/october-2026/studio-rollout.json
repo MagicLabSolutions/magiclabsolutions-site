@@ -124,12 +124,17 @@
       "composition": "2 clean views and 1 selected layered views."
     },
     "tumtum": {
-      "status": "queued",
-      "primary_images": 4,
-      "website": "pending"
+      "status": "complete",
+      "primary_images": 6,
+      "website": "checked",
+      "native_variants": {
+        "iphone_editorial": 6
+      },
+      "composition": "Four clean native device views (two with canonical paper props) and two selected UI emphasis views.",
+      "rationale": "House, cooking, town, dinosaurs, aquarium and grown-up session controls."
     }
   },
-  "tumtum_store": "Preserve original approved store assets; update four editorial highlights and the product page.",
+  "tumtum_store": "Original approved store images and localized iPhone/iPad gallery preserved; six new portrait editorial highlights.",
   "publication_authorization": "Owner requested publication after every website update on October 1, 2026.",
   "treatment": "Mixed clean device views, coherent corner props and selected layered native components, as requested October 1.",
   "approval_stage": "English revision review. Owner requested changes before the multilingual image rollout on October 1."

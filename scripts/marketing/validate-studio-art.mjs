@@ -6,7 +6,7 @@ const campaign=JSON.parse(await fs.readFile(path.join(out,'campaign.json'),'utf8
 const browser=await chromium.launch({headless:true,channel:'chrome'}),page=await browser.newPage();
 for(const p of campaign.products.filter(p=>process.argv.slice(2).includes(p.slug))){
  const results=[],errors=[];
- const primarySize=p.device==='mac'?[2880,1800]:p.device==='web'?[2400,1500]:p.device==='landscape'?[2868,1320]:p.preserve_store?[1080,1350]:[1320,2868];
+ const primarySize=p.device==='mac'?[2880,1800]:p.device==='web'?[2400,1500]:p.device==='landscape'?[2868,1320]:[1320,2868];
  const formats=[['primary',primarySize,p]];
  if(p.ipad_store)formats.push(['ipad',p.ipad_store.dimensions,{...p,...p.ipad_store}]);
  if(p.play_store)formats.push(['android',p.play_store.dimensions,{...p,...p.play_store,frame:p.play_store.frame||null}]);
@@ -28,7 +28,7 @@ for(const p of campaign.products.filter(p=>process.argv.slice(2).includes(p.slug
   }
   if(!layered||layered===product.panels.length)errors.push(platform+': balance clean device views and selected layered panels');
   const columns=Math.min(product.panels.length,product.panels.length>4?3:4),rows=Math.ceil(product.panels.length/columns),width=390,total=columns*width+40;
-  const format=platform==='primary'?(p.preserve_store?'social':'store'):platform==='ipad'?'ipad-store':'play-store';
+  const format=platform==='primary'?(p.preserve_store?'editorial':'store'):platform==='ipad'?'ipad-store':'play-store';
   const height=Math.ceil(size[1]/size[0]*width);
   await page.setViewportSize({width:total,height:height*rows+80});
   await page.setContent('<style>*{box-sizing:border-box}body{margin:0;background:#eeeae1;font:18px -apple-system,sans-serif;padding:20px}.grid{display:grid;grid-template-columns:repeat('+columns+',390px);gap:0}img{display:block;width:390px;height:auto}h1{font-size:20px;margin:0 0 18px}</style><h1>'+p.name+' · layered studio direction · '+platform+'</h1><div class="grid">'+product.panels.map((_,i)=>'<img src="http://127.0.0.1:8766/docs/marketing/october-2026/exports/en-US/'+p.slug+'/'+format+'-'+(i+1)+'.png">').join('')+'</div>');await page.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));

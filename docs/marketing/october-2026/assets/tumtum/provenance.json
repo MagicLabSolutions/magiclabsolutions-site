@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dinosaur.trex",
+    "source": "TumTumKit/Sources/DesignSystem/PaperAssets/dinosaurs/dinosaurs-2.png",
+    "rect": [
+      4,
+      4,
+      412,
+      295
+    ],
+    "output": "docs/marketing/october-2026/assets/tumtum/trex.png",
+    "sha256": "c326cfae3681be070cb1c04d3527242455cc2ead51b99cf633d8c11c37612b72",
+    "method": "Unmodified canonical atlas region with existing production alpha. No remasking or generation."
+  },
+  {
+    "id": "paper-toys.fish.clownfish",
+    "source": "TumTumKit/Sources/DesignSystem/PaperAssets/water-animals/water-animals-1.png",
+    "rect": [
+      416,
+      297,
+      359,
+      250
+    ],
+    "output": "docs/marketing/october-2026/assets/tumtum/clownfish.png",
+    "sha256": "1896dbd7230703a685d55ce305499d21b9a28eea53a900b5f3594d8ab5ca566e",
+    "method": "Unmodified canonical atlas region with existing production alpha. No remasking or generation."
+  }
+]

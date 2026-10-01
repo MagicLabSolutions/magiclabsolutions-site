@@ -8,7 +8,7 @@ p=next(p for p in campaign['products'] if p['slug']==slug)
 folder=out/'exports/en-US'/slug;public=root/'images/campaign/en-US'/slug
 data=json.loads((root/'_data/product_marketing.json').read_text());entry=data[slug]
 gallery=[]
-variants=[('social' if p.get('preserve_store') else 'store','highlight',p['panels'],'')]
+variants=[('editorial' if p.get('preserve_store') else 'store','highlight',p['panels'],'')]
 if p.get('play_store'):variants.append(('play-store','android-highlight',p['play_store']['panels'],'Android / '))
 if p.get('ipad_store'):variants.append(('ipad-store','ipad-highlight',p['ipad_store']['panels'],'iPad / '))
 # Flexible panel counts must not leave obsolete store panels in the review ZIP.

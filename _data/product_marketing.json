@@ -1257,7 +1257,7 @@
     "locale": "en-US",
     "position": "A paper toy room for discovery at a child’s own pace.",
     "headline": "Little hands. Big discoveries.",
-    "description": "A toy room to explore at your child’s own pace.",
+    "description": "A toy room to explore at their own pace.",
     "cta": "Discover TumTum",
     "steps": [
       "Step into the house",
@@ -1270,54 +1270,98 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/tumtum/highlight-1.webp",
-        "alt": "TumTum editorial highlight: What happens if we try this?",
-        "caption": "What happens if we try this?",
-        "width": 1080,
-        "height": 1350
+        "alt": "TumTum: Little hands. Big discoveries. — A toy room to explore at their own pace.",
+        "caption": "Little hands. Big discoveries.",
+        "width": 1320,
+        "height": 2868
       },
       {
         "output": "/images/campaign/en-US/tumtum/highlight-2.webp",
-        "alt": "TumTum editorial highlight: A little story starts with a little touch.",
-        "caption": "A little story starts with a little touch.",
-        "width": 1080,
-        "height": 1350
+        "alt": "TumTum: Make a little story. — Mix, pour and imagine in the kitchen.",
+        "caption": "Make a little story.",
+        "width": 1320,
+        "height": 2868
       },
       {
         "output": "/images/campaign/en-US/tumtum/highlight-3.webp",
-        "alt": "TumTum editorial highlight: Follow their next “what if?”",
-        "caption": "Follow their next “what if?”",
-        "width": 1080,
-        "height": 1350
+        "alt": "TumTum: A world of their own. — Explore little places and everyday moments.",
+        "caption": "A world of their own.",
+        "width": 1320,
+        "height": 2868
       },
       {
         "output": "/images/campaign/en-US/tumtum/highlight-4.webp",
-        "alt": "TumTum editorial highlight: Some discoveries deserve a second try.",
-        "caption": "Some discoveries deserve a second try.",
-        "width": 1080,
-        "height": 1350
+        "alt": "TumTum: Follow their curiosity. — Meet dinosaurs in a world of paper toys.",
+        "caption": "Follow their curiosity.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/tumtum/highlight-5.webp",
+        "alt": "TumTum: Dive into discovery. — See who lives beneath the paper sea.",
+        "caption": "Dive into discovery.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/tumtum/highlight-6.webp",
+        "alt": "TumTum: Set the family rhythm. — Choose optional play-session limits.",
+        "caption": "Set the family rhythm.",
+        "width": 1320,
+        "height": 2868
       }
     ],
     "captures": [
       {
         "output": "/images/campaign/en-US/tumtum/capture-1.webp",
-        "alt": "TumTum: Open-ended digital play (real English product capture)",
-        "label": "Open-ended digital play",
-        "description": "A toy room to explore at your child’s own pace."
+        "alt": "TumTum: The house (real English product capture)",
+        "label": "The house",
+        "description": "A toy room to explore at their own pace."
+      },
+      {
+        "output": "/images/campaign/en-US/tumtum/capture-2.webp",
+        "alt": "TumTum: Cooking (real English product capture)",
+        "label": "Cooking",
+        "description": "Mix, pour and imagine in the kitchen."
       },
       {
         "output": "/images/campaign/en-US/tumtum/capture-3.webp",
-        "alt": "TumTum: Explore together (real English product capture)",
-        "label": "Explore together",
-        "description": "Take a closer look at a world of paper toys."
+        "alt": "TumTum: The town (real English product capture)",
+        "label": "The town",
+        "description": "Explore little places and everyday moments."
       },
       {
         "output": "/images/campaign/en-US/tumtum/capture-4.webp",
-        "alt": "TumTum: Their next discovery (real English product capture)",
-        "label": "Their next discovery",
-        "description": "Room to choose, repeat and imagine."
+        "alt": "TumTum: Dinosaurs (real English product capture)",
+        "label": "Dinosaurs",
+        "description": "Meet dinosaurs in a world of paper toys."
+      },
+      {
+        "output": "/images/campaign/en-US/tumtum/capture-5.webp",
+        "alt": "TumTum: Aquarium (real English product capture)",
+        "label": "Aquarium",
+        "description": "See who lives beneath the paper sea."
+      },
+      {
+        "output": "/images/campaign/en-US/tumtum/capture-6.webp",
+        "alt": "TumTum: For grown-ups (real English product capture)",
+        "label": "For grown-ups",
+        "description": "Choose optional play-session limits."
       }
     ],
-    "video_kind": "recorded-real-gameplay"
+    "video_kind": "recorded-real-gameplay",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "A little world,\nat their own pace.",
+      "description": "Make a story in the house, explore the kitchen and town, meet dinosaurs, and discover the paper sea. Six portrait views of the real app, including optional controls for grown-ups.",
+      "primary_count": 6,
+      "palette": [
+        "#FFF7E7",
+        "#294B3D",
+        "#607848"
+      ],
+      "gallery_id": "studio-highlights"
+    }
   },
   "zuzu": {
     "locale": "en-US",

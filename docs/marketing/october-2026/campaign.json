@@ -2846,23 +2846,33 @@
       "panels": [
         [
           "Little hands. Big discoveries.",
-          "A toy room to explore at your child’s own pace.",
-          "Open-ended digital play"
-        ],
-        [
-          "Make a little story.",
-          "Explore a cozy home and see what happens.",
+          "A toy room to explore at their own pace.",
           "The house"
         ],
         [
-          "Follow their curiosity.",
-          "Take a closer look at a world of paper toys.",
-          "Explore together"
+          "Make a little story.",
+          "Mix, pour and imagine in the kitchen.",
+          "Cooking"
         ],
         [
-          "Play at your own pace.",
-          "Room to choose, repeat and imagine.",
-          "Their next discovery"
+          "A world of their own.",
+          "Explore little places and everyday moments.",
+          "The town"
+        ],
+        [
+          "Follow their curiosity.",
+          "Meet dinosaurs in a world of paper toys.",
+          "Dinosaurs"
+        ],
+        [
+          "Dive into discovery.",
+          "See who lives beneath the paper sea.",
+          "Aquarium"
+        ],
+        [
+          "Set the family rhythm.",
+          "Choose optional play-session limits.",
+          "For grown-ups"
         ]
       ],
       "hooks": [
@@ -2906,10 +2916,12 @@
       "cta": "Discover TumTum",
       "store_format": "iphone-6.9",
       "screens": [
-        "/docs/marketing/october-2026/sources/tumtum/screen-1.png",
-        "/docs/marketing/october-2026/sources/tumtum/screen-2.png",
-        "/docs/marketing/october-2026/sources/tumtum/screen-3.png",
-        "/docs/marketing/october-2026/sources/tumtum/screen-4.png"
+        "/docs/marketing/october-2026/sources/tumtum/native-1.png",
+        "/docs/marketing/october-2026/sources/tumtum/native-2.png",
+        "/docs/marketing/october-2026/sources/tumtum/native-3.png",
+        "/docs/marketing/october-2026/sources/tumtum/native-4.png",
+        "/docs/marketing/october-2026/sources/tumtum/native-5.png",
+        "/docs/marketing/october-2026/sources/tumtum/native-6.png"
       ],
       "hardware": "iphone",
       "capture_has_device_frame": false,
@@ -2929,16 +2941,114 @@
       "background": "/docs/marketing/october-2026/lifestyle/tumtum.png",
       "details": [
         null,
-        {
-          "asset": "/docs/marketing/october-2026/sources/tumtum/detail-primary-2.png",
-          "label": "Make a little story"
-        },
-        {
-          "asset": "/docs/marketing/october-2026/sources/tumtum/detail-primary-3.png",
-          "label": "Follow curiosity"
-        },
+        null,
+        null,
+        null,
+        null,
         null
-      ]
+      ],
+      "studio_art": {
+        "copy": [
+          [
+            "Little hands.\nBig discoveries.",
+            "A toy room to explore\nat their own pace."
+          ],
+          [
+            "Make a\nlittle story.",
+            "Mix, pour and imagine\nin the kitchen."
+          ],
+          [
+            "A world of\ntheir own.",
+            "Explore little places\nand everyday moments."
+          ],
+          [
+            "Follow their\ncuriosity.",
+            "Meet dinosaurs in a\nworld of paper toys."
+          ],
+          [
+            "Dive into\ndiscovery.",
+            "See who lives beneath\nthe paper sea."
+          ],
+          [
+            "Set the\nfamily rhythm.",
+            "Choose optional\nplay-session limits."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/tumtum/native-3.png",
+                "rect": [
+                  254,
+                  2600,
+                  1076,
+                  2750
+                ],
+                "left": 0.025,
+                "top": 0.7,
+                "width": 0.95,
+                "radius": 80,
+                "angle": -2
+              }
+            ],
+            [],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/tumtum/native-6.png",
+                "rect": [
+                  104,
+                  730,
+                  1210,
+                  846
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.95,
+                "radius": 40,
+                "angle": -2
+              }
+            ]
+          ]
+        },
+        "props": [
+          {
+            "asset": "/docs/marketing/october-2026/assets/tumtum/trex.png",
+            "panels": [
+              3
+            ],
+            "top": 0.38,
+            "left": 0.79,
+            "width": 0.23,
+            "angle": -8
+          },
+          {
+            "asset": "/docs/marketing/october-2026/assets/tumtum/clownfish.png",
+            "panels": [
+              4
+            ],
+            "top": 0.36,
+            "left": 0.015,
+            "width": 0.22,
+            "angle": 8
+          }
+        ]
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "A little world,\nat their own pace.",
+        "description": "Make a story in the house, explore the kitchen and town, meet dinosaurs, and discover the paper sea. Six portrait views of the real app, including optional controls for grown-ups.",
+        "primary_count": 6,
+        "palette": [
+          "#FFF7E7",
+          "#294B3D",
+          "#607848"
+        ],
+        "gallery_id": "studio-highlights"
+      }
     },
     {
       "slug": "zuzu",

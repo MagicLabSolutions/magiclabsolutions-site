@@ -31,8 +31,9 @@ lang-ref: tumtum-page
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   {% include social-meta.html product='tumtum' %}
   <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+<link rel="stylesheet" href="{{ '/css/studio-products.css' | relative_url }}">
 </head>
-<body>
+<body class="studio-page" data-studio="tumtum" style="--studio-paper:#FFF7E7;--studio-ink:#294B3D;--studio-accent:#607848">
   <a class="skip" href="#main">{{ copy.skip }}</a>
   <header class="site-header wrap">
     <a class="studio" href="/games/"><span aria-hidden="true">←</span> Magic Lab Solutions</a>
@@ -55,12 +56,13 @@ lang-ref: tumtum-page
         <p class="intro">{{ copy.intro }}</p>
         <p class="platform">{{ copy.platform }}</p>
         <a class="button" href="https://apps.apple.com/app/id6808820820">{{ copy.download }} ↗</a>
-        <a class="button" href="#screenshots">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
+        <a class="button" href="#studio-highlights">{{ copy.discover }} <span aria-hidden="true">↓</span></a>
       </div>
       <div class="hero-art">
-        <img src="/images/tumtum/coming-soon.webp" width="640" height="640" fetchpriority="high" alt="{{ copy.image_alt | escape }}">
+        <a class="studio-hero-link" href="#studio-highlights" lang="en"><img class="studio-hero-art" src="/images/campaign/en-US/tumtum/highlight-1.webp" width="1320" height="2868" fetchpriority="high" alt="TumTum — little hands, big discoveries. Real portrait iPhone play in the house."></a>
       </div>
     </section>
+    {% include product-experience.html slug='tumtum' omit_capture_gallery=true %}
     <nav class="page-sections wrap" aria-label="{{ details.nav_label | escape }}">
       {% assign sections = 'play,method,languages,parents' | split: ',' %}
       {% for label in details.nav %}
@@ -197,7 +199,7 @@ lang-ref: tumtum-page
       <p>{{ details.together.text }}</p>
     </section>
 
-{% include product-experience.html slug='tumtum' %}
+
 </main>
   <dialog class="gallery-dialog" aria-labelledby="gallery-dialog-title" aria-describedby="gallery-dialog-caption">
     <div class="dialog-header">

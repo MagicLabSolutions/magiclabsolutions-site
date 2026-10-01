@@ -17,6 +17,7 @@ for(const p of campaign.products){
  if(wanted.length&&!wanted.includes(p.slug))continue;
  const output=path.join(root,'docs/marketing/october-2026/exports/en-US',p.slug);await fs.mkdir(output,{recursive:true});
  const formats=[['social',[1080,1350]],['carousel',[1080,1350]],['video',[1080,1920]]];
+ if(p.preserve_store&&p.studio_art)formats.push(['editorial',[1320,2868]]);
  if(!p.preserve_store){
   formats.push(['store',p.device==='mac'?[2880,1800]:p.device==='web'?[2400,1500]:p.device==='landscape'?[2868,1320]:[1320,2868]]);
   if(p.play_store)formats.push(['play-store',p.play_store.dimensions]);
@@ -27,11 +28,11 @@ for(const p of campaign.products){
   if(process.env.MAGICLAB_FORMATS&&!process.env.MAGICLAB_FORMATS.split(',').includes(format))continue;
   await page.setViewportSize({width:dimensions[0],height:dimensions[1]});
   const pilot=p.store_pilot&&['store','ipad-store'].includes(format);
-  const studio=p.studio_art&&(['store','ipad-store','play-store'].includes(format)||p.preserve_store&&format==='social');
+  const studio=p.studio_art&&(['store','ipad-store','play-store'].includes(format)||p.preserve_store&&format==='editorial');
   await page.goto(base+'/docs/marketing/october-2026/'+(studio?'studio-art.html':pilot?'giftly-pilot.html':'art.html'));
   const variants=format==='video'?[0,1]:[0];
   const visualProduct=format==='play-store'?{...p,...p.play_store,frame:p.play_store.frame||null,capture_has_device_frame:false}:format==='ipad-store'?{...p,...p.ipad_store,capture_has_device_frame:false}:p;
-  const count=format==='video'?3:['store','play-store','ipad-store'].includes(format)?visualProduct.panels.length:4;
+  const count=format==='video'?3:['store','play-store','ipad-store','editorial'].includes(format)?visualProduct.panels.length:4;
   for(const variant of variants)for(let i=0;i<count;i++){
    const visual=await page.evaluate(({p,i,format,dimensions,variant})=>window.renderArtwork(p,i,format,dimensions,variant),{p:format==='play-store'?{...p,...p.play_store,frame:p.play_store.frame||null,capture_has_device_frame:false}:format==='ipad-store'?{...p,...p.ipad_store,capture_has_device_frame:false}:p,i,format:['play-store','ipad-store'].includes(format)?'store':format,dimensions,variant});
    const filename=format==='video'?`reel-${variant+1}-frame-${i+1}.png`:`${format}-${i+1}.png`;
