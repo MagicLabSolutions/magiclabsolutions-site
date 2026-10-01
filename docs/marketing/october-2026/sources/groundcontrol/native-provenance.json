@@ -1,0 +1,34 @@
+{
+  "repository": "GroundControl",
+  "revision": "5ba5248865d693b152f75a201ff9f1f8e701906a",
+  "method": "Native app driven by the repository SnapshotDirector using disposable demo Git repositories only. ScreenCaptureKit currentProcess captures the app\u2019s own window. Capture-only checkout shows the window on screen briefly; alpha-only unused buffer padding trimmed to [0,0,1280,820]. No Git operations on real repositories.",
+  "captures": [
+    {
+      "source": "/private/tmp/magiclab-groundcontrol-native/1-flight-map-trimmed.png",
+      "output": "docs/marketing/october-2026/sources/groundcontrol/native-1.png",
+      "dimensions": [
+        1280,
+        820
+      ],
+      "sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+    },
+    {
+      "source": "/private/tmp/magiclab-groundcontrol-native/2-conflicts-trimmed.png",
+      "output": "docs/marketing/october-2026/sources/groundcontrol/native-2.png",
+      "dimensions": [
+        1280,
+        820
+      ],
+      "sha256": "9aec63c8d3050eb2844764aa1c42cd67e6259e0c7a9050915bcbf8bb8b415680"
+    },
+    {
+      "source": "/private/tmp/magiclab-groundcontrol-native/4-changes-trimmed.png",
+      "output": "docs/marketing/october-2026/sources/groundcontrol/native-3.png",
+      "dimensions": [
+        1280,
+        820
+      ],
+      "sha256": "7f04635afdbc5267ae48680d786dfbb6094c5661e95c79a2283525227cd1099f"
+    }
+  ]
+}

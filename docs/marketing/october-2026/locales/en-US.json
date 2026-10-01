@@ -380,7 +380,21 @@
         "Review the change",
         null
       ],
-      "detail_note": "A closer look"
+      "detail_note": "A closer look",
+      "studio_art_copy": [
+        [
+          "Follow the branch.",
+          "Your Git history, in context."
+        ],
+        [
+          "Resolve together.",
+          "Compare both sides of a conflict."
+        ],
+        [
+          "Review changes.",
+          "See your work before the commit."
+        ]
+      ]
     },
     "brainfold": {
       "title": "Brainfold: AI Flashcards",

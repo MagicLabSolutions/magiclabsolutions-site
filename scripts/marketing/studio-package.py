@@ -11,6 +11,11 @@ gallery=[]
 variants=[('social' if p.get('preserve_store') else 'store','highlight',p['panels'],'')]
 if p.get('play_store'):variants.append(('play-store','android-highlight',p['play_store']['panels'],'Android / '))
 if p.get('ipad_store'):variants.append(('ipad-store','ipad-highlight',p['ipad_store']['panels'],'iPad / '))
+# Flexible panel counts must not leave obsolete store panels in the review ZIP.
+for export,prefix,panels,label in variants:
+ for old in folder.glob(export+'-*.png'):
+  match=re.fullmatch(re.escape(export)+r'-(\d+)\.png',old.name)
+  if match and int(match[1])>len(panels):old.unlink()
 for export,prefix,panels,label in variants:
  for i,panel in enumerate(panels):
   source=folder/f'{export}-{i+1}.png';target=public/f'{prefix}-{i+1}.webp'

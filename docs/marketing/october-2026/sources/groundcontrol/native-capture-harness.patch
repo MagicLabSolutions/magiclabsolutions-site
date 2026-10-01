@@ -1,0 +1,17 @@
+diff --git a/app/GroundControl/Debug/SnapshotDirector.swift b/app/GroundControl/Debug/SnapshotDirector.swift
+index 3c6dd99..937ffb8 100644
+--- a/app/GroundControl/Debug/SnapshotDirector.swift
++++ b/app/GroundControl/Debug/SnapshotDirector.swift
+@@ -158,10 +158,10 @@ final class SnapshotDirector {
+     private func photo(_ name: String) async {
+         guard let window else { return }
+         let frame = window.frame
+-        window.setFrameOrigin(NSPoint(x: -30_000, y: -30_000))
++        window.setFrameOrigin(NSPoint(x: 40, y: 80))
+         window.alphaValue = 1
+         window.orderFrontRegardless()
+-        try? await Task.sleep(for: .milliseconds(400))
++        try? await Task.sleep(for: .milliseconds(900))
+         do {
+             try await WindowSnapshot.capture(window, to: folder.appending(path: "\(name).png"), scale: scale)
+             try state().write(to: folder.appending(path: "\(name).txt"), atomically: true, encoding: .utf8)

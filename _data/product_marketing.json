@@ -349,8 +349,8 @@
   "groundcontrol": {
     "locale": "en-US",
     "position": "A clear view of your Git fleet before the next move.",
-    "headline": "Your Git fleet.",
-    "description": "See what needs your attention.",
+    "headline": "Follow the branch.",
+    "description": "Your Git history, in context.",
     "cta": "Explore the project",
     "steps": [
       "Check your repositories",
@@ -363,29 +363,22 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/groundcontrol/highlight-1.webp",
-        "alt": "Ground Control: Your Git fleet. — See what needs your attention.",
-        "caption": "Your Git fleet.",
+        "alt": "Ground Control: Follow the branch. — Your Git history, in context.",
+        "caption": "Follow the branch.",
         "width": 1440,
         "height": 900
       },
       {
         "output": "/images/campaign/en-US/groundcontrol/highlight-2.webp",
-        "alt": "Ground Control: Follow every branch. — Read a visual map of your history.",
-        "caption": "Follow every branch.",
+        "alt": "Ground Control: Resolve together. — Compare both sides of a conflict.",
+        "caption": "Resolve together.",
         "width": 1440,
         "height": 900
       },
       {
         "output": "/images/campaign/en-US/groundcontrol/highlight-3.webp",
-        "alt": "Ground Control: See what changed. — Review your local changes.",
-        "caption": "See what changed.",
-        "width": 1440,
-        "height": 900
-      },
-      {
-        "output": "/images/campaign/en-US/groundcontrol/highlight-4.webp",
-        "alt": "Ground Control: Pull with clarity. — Inspect before your next move.",
-        "caption": "Pull with clarity.",
+        "alt": "Ground Control: Review changes. — See your work before the commit.",
+        "caption": "Review changes.",
         "width": 1440,
         "height": 900
       }
@@ -393,24 +386,36 @@
     "captures": [
       {
         "output": "/images/campaign/en-US/groundcontrol/capture-1.webp",
-        "alt": "Ground Control: Git on your Mac (real English product capture)",
-        "label": "Git on your Mac",
-        "description": "See what needs your attention."
+        "alt": "Ground Control: Branch map (real English product capture)",
+        "label": "Branch map",
+        "description": "Your Git history, in context."
+      },
+      {
+        "output": "/images/campaign/en-US/groundcontrol/capture-2.webp",
+        "alt": "Ground Control: Conflict resolver (real English product capture)",
+        "label": "Conflict resolver",
+        "description": "Compare both sides of a conflict."
       },
       {
         "output": "/images/campaign/en-US/groundcontrol/capture-3.webp",
-        "alt": "Ground Control: Changes in context (real English product capture)",
-        "label": "Changes in context",
-        "description": "Review your local changes."
-      },
-      {
-        "output": "/images/campaign/en-US/groundcontrol/capture-4.webp",
-        "alt": "Ground Control: Stay oriented (real English product capture)",
-        "label": "Stay oriented",
-        "description": "Inspect before your next move."
+        "alt": "Ground Control: Uncommitted changes (real English product capture)",
+        "label": "Uncommitted changes",
+        "description": "See your work before the commit."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "Context before\nthe next move.",
+      "description": "Read the branch map, compare a conflict, and review uncommitted work. Three distinct views of the real Mac app.",
+      "primary_count": 3,
+      "palette": [
+        "#0C1422",
+        "#ECF2F9",
+        "#8DC5FC"
+      ],
+      "gallery_id": "studio-highlights"
+    }
   },
   "brainfold": {
     "locale": "en-US",

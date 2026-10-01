@@ -94,9 +94,14 @@
       "rationale": "Overview, imported-plan review, renewal calendar, profiles, plan details and subscriptions."
     },
     "groundcontrol": {
-      "status": "queued",
-      "primary_images": 4,
-      "website": "pending"
+      "status": "complete",
+      "primary_images": 3,
+      "website": "checked",
+      "native_variants": {
+        "mac": 3
+      },
+      "rationale": "Read the branch map, compare a conflict, and review uncommitted work. Three distinct views of the real Mac app.",
+      "composition": "2 clean views and 1 selected layered views."
     },
     "poof": {
       "status": "queued",

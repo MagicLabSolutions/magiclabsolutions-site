@@ -860,24 +860,19 @@
       "keywords": "repository,branch,commit,diff,history,developer,version,merge,stash,source,code,mac",
       "panels": [
         [
-          "Your Git fleet.",
-          "See what needs your attention.",
-          "Git on your Mac"
+          "Follow the branch.",
+          "Your Git history, in context.",
+          "Branch map"
         ],
         [
-          "Follow every branch.",
-          "Read a visual map of your history.",
-          "Branches & history"
+          "Resolve together.",
+          "Compare both sides of a conflict.",
+          "Conflict resolver"
         ],
         [
-          "See what changed.",
-          "Review your local changes.",
-          "Changes in context"
-        ],
-        [
-          "Pull with clarity.",
-          "Inspect before your next move.",
-          "Stay oriented"
+          "Review changes.",
+          "See your work before the commit.",
+          "Uncommitted changes"
         ]
       ],
       "hooks": [
@@ -921,10 +916,9 @@
       "cta": "Explore the project",
       "store_format": "mac-16x10",
       "screens": [
-        "/docs/marketing/october-2026/sources/groundcontrol/screen-1.png",
-        "/docs/marketing/october-2026/sources/groundcontrol/screen-2.png",
-        "/docs/marketing/october-2026/sources/groundcontrol/screen-3.png",
-        "/docs/marketing/october-2026/sources/groundcontrol/screen-4.png"
+        "/docs/marketing/october-2026/sources/groundcontrol/native-1.png",
+        "/docs/marketing/october-2026/sources/groundcontrol/native-2.png",
+        "/docs/marketing/october-2026/sources/groundcontrol/native-3.png"
       ],
       "hardware": "macbook",
       "capture_has_device_frame": false,
@@ -932,16 +926,59 @@
       "background": "/docs/marketing/october-2026/lifestyle/groundcontrol.png",
       "details": [
         null,
-        {
-          "asset": "/docs/marketing/october-2026/sources/groundcontrol/detail-primary-2.png",
-          "label": "Read the branch map"
-        },
-        {
-          "asset": "/docs/marketing/october-2026/sources/groundcontrol/detail-primary-3.png",
-          "label": "Review the change"
-        },
+        null,
         null
-      ]
+      ],
+      "studio_art": {
+        "copy": [
+          [
+            "Follow the branch.",
+            "Your Git history, in context."
+          ],
+          [
+            "Resolve together.",
+            "Compare both sides of a conflict."
+          ],
+          [
+            "Review changes.",
+            "See your work before the commit."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [
+              {
+                "rect": [
+                  436,
+                  166,
+                  1265,
+                  393
+                ],
+                "left": 0.025,
+                "top": 0.64,
+                "width": 0.6,
+                "radius": 10,
+                "angle": -2,
+                "source": "/docs/marketing/october-2026/sources/groundcontrol/native-2.png"
+              }
+            ],
+            []
+          ]
+        }
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "Context before\nthe next move.",
+        "description": "Read the branch map, compare a conflict, and review uncommitted work. Three distinct views of the real Mac app.",
+        "primary_count": 3,
+        "palette": [
+          "#0C1422",
+          "#ECF2F9",
+          "#8DC5FC"
+        ],
+        "gallery_id": "studio-highlights"
+      }
     },
     {
       "slug": "brainfold",
