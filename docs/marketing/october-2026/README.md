@@ -1,34 +1,54 @@
 # October 2026 English creative review
 
-Open `index.html` through a local HTTP server, rather than file://, for caption tracks and absolute icon paths. The review index links to strategy, calendars, original exports and per-product ZIPs.
+The Giftly pilot was approved on October 1, 2026. Its large native devices, readable benefit copy, product-specific environments and selected complete interface cutouts now guide the studio rollout. The owner requested a varied set rather than emphasis on every image, flexible counts, publication after website updates, and revisions before multilingual artwork.
 
-## Deliverables
+Open `index.html` through the source HTTP server on localhost:8766. The review links to strategy, calendars, exports and local per-product ZIPs. `studio-rollout.json` records current counts and publication evidence; individual `*-studio-validation.json` and `*-web-validation.json` files record checks.
 
-- 42 primary App Store screenshot drafts (nine products × four, zuzu × six), 18 native iPad variants (Giftly, Soooon, Brainfold × four; zuzu × six), six native Android zuzu Play Store images, plus four web/editorial Hooray images. TumTum store images are unchanged; four portrait editorial highlights are included on its product page.
-- 48 static social images and 48 carousel slides (1080 × 1350).
-- 24 social videos (1080 × 1920) with SRT/VTT: 20 edited real-screen walkthroughs and four existing real-gameplay cuts.
-- 96 suggested product-channel slots, plus a separate 12-post studio rotation. No posts have been scheduled.
-- English metadata drafts in `metadata/en-US/`, isolated from production Fastlane directories.
-- Per-product review ZIPs, generated locally and omitted from Git. Recreate with `package.py`.
-- `locales/` provides the English reference and placeholders for the site languages; `locales.py` expands this to the source-observed app locale pool. These are scaffolds, not completed translations.
+## Current English artwork
+
+| Product | Primary | Native iPad | Native Android |
+| --- | ---: | ---: | ---: |
+| Giftly | 4 iPhone | 4 | — |
+| Brainfold | 6 iPhone | 4 | — |
+| zuzu | 6 iPhone | 6 | 6 |
+| Sundust | 5 iPhone | 4 | — |
+| Memories | 4 iPhone | 4 | — |
+| Hooray | 4 browser | — | — |
+| Soooon | 6 iPhone | 6 | — |
+| My Renewals | 6 iPhone | 6 | — |
+| Ground Control | 3 Mac | — | — |
+| Poof | 4 Mac | — | — |
+| TocToc | 3 Mac | — | — |
+| TumTum | 6 portrait iPhone editorial | Original approved gallery retained | — |
+
+There are 97 current editorial/store images across these variants. TumTum's six new portrait editorial pieces are independent of its original approved store art. Native Mac and browser views retain their proportions. Apple hardware uses original PNG bezels measured against the actual screen opening; only zuzu has an Android store variant, with separate native Android captures. Native source records, capture-only harness patches and hashes live under `sources/<product>/`.
+
+The product websites use the corresponding English highlights, readable components, native capture controls and image dialogs. Existing translated copy, product-specific support and legal material remain. Public website updates have been deployed under the owner's explicit authorization; this does not constitute store-image approval or App Store submission.
+
+## Campaign preparation and paused work
+
+- The initial English campaign includes 48 static social drafts and 48 carousel drafts, plus 96 proposed product-channel slots and a separate 12-post studio rotation. These are planning and draft assets; no social posts have been scheduled or published.
+- The 24 existing video drafts and caption sources are retained for a later creative pass. The owner paused videos because they need improvement. All product-page video sections remain disabled by `product_videos_enabled: false`; do not restore them during screenshot work.
+- Voice scripts, editable SRT/VTT, voice direction and audio insertion plans are retained. ElevenLabs production waits for credits and the owner's continuation; no new paid audio calls were made in this screenshot rollout.
+- English metadata drafts are in `metadata/en-US/`, isolated from production Fastlane directories. Keyword strategy is a hypothesis based on actual features, not measured search volume.
+- `locales/` keeps editable English reference strings and translation scaffolds. **Do not generate the other-language artwork before the owner's requested revisions have been applied and approved.**
 
 ## Reproduction
 
-Requirements: Python with Pillow and NumPy, ffmpeg/ffprobe, Node with Playwright and installed Chrome. `MAGICLAB_NODE_MODULES` points to the Playwright dependency directory. Serve the website source on localhost:8766 (or set `MAGICLAB_CAMPAIGN_URL`).
+Use Python with Pillow, Node with Playwright and installed Chrome. Point `MAGICLAB_NODE_MODULES` to the bundled Node dependency directory, and serve the repository source on port 8766. Original Apple hardware stays in the ignored `.frames-cache`; its sources and measured geometry are in `device-framing.json` and product configurations.
 
-1. `python3 scripts/marketing/brief.py` creates the English brief from inspected product claims.
-2. `python3 scripts/marketing/collect.py` collects/crops available real captures from sibling repositories. See `asset-provenance.json`; a checkout revision at collection is not the originating capture revision.
-3. `python3 scripts/marketing/devices.py` prepares platform variants. Download/mount the original Apple PNG bezel packages linked in `device-framing.json`, then run `python3 scripts/marketing/frames.py`, `python3 scripts/marketing/refine.py` then `python3 scripts/marketing/giftly-pilot.py` and `node scripts/marketing/capture-frames.mjs`. The original artwork stays in the ignored private `.frames-cache`; finished compositions are exportable. `node scripts/marketing/render.mjs` creates all visual formats. Layout lives in `art.html`; the isolated Giftly store test uses `giftly-pilot.html` and `giftly-pilot.json`. Strings live in `campaign.json`.
-4. Optional `python3 scripts/marketing/finish-audio.py --record` records voices, refreshes video mixes, aligns subtitles and packages the new cuts. `finish-audio.py` without flags prepares the plan with no API request. `voice.py --record` generates narrated cuts using the privately configured ElevenLabs key. The account had zero remaining credit on October 1, so no new paid recording succeeded.
-5. `python3 scripts/marketing/video.py` composes the videos and caption tracks.
-6. `python3 scripts/marketing/package.py` writes the calendars, metadata, review index, ZIPs, and optimized website assets.
-7. `python3 scripts/marketing/document.py` writes strategy and localization reference files; `python3 scripts/marketing/locales.py` expands the scaffolds from tracked app locale catalogs and records repository keyword comparisons.
-8. Build Jekyll and run the portfolio, social-preview and TumTum legal checks. `audit.mjs` inspects responsive product routes and interactions.
+For one current studio product:
 
-## Source limitations and rights
+1. Inspect `campaign.json`, its native source provenance and the corresponding studio skill before editing. Do not rerun the original collection/brief scripts over accepted creative.
+2. Run `MAGICLAB_FORMATS=store,ipad-store,play-store,editorial node scripts/marketing/render.mjs <slug>`. `studio-art.html` composes the current direction; Giftly retains its approved pilot template.
+3. Run `node scripts/marketing/validate-studio-art.mjs <slug>` and inspect the complete exports and contact sheets. Source UI components must be complete, with correct native aspect, safe camera clearance and readable copy at 390px and 320px.
+4. For newly captured Apple screens, run `node scripts/marketing/capture-frames.mjs <slug>`. Package accepted studio pieces with `python3 scripts/marketing/studio-package.py <slug>`. Giftly's approved pilot has its own packaging path. ZIPs are generated locally and omitted from Git.
+5. Build Jekyll into an isolated destination and run `validate-studio-web.mjs <slug>` against its preview. Check the portfolio, TumTum legal pages and social previews with the existing repository validators. Native capture controls, keyboard zoom, Escape, focus return and narrow mobile widths are covered.
 
-All app interfaces are real source captures or published listing captures, with demo content. Giftly was captured in a new isolated simulator using fixtures. Some products use archival screenshots because their current build depends on a missing private billing SDK; no payment implementation was changed to force a build. Zuzu uses fresh native fixture captures from an isolated worktree; its capture-only entry routing and TipKit launch arguments are saved in `zuzu-capture-harness.patch` (apply with `git apply --unidiff-zero` to its recorded base revision). Production app source remains unchanged. Poof has one inspected native capture reused across its four benefit treatments; its website does not simulate file deletion. Hooray is a web product and has no new App Store upload set. iPhone and iPad artwork uses original official Apple PNG bezels, with measured screen openings and accurate native screen fit. The Giftly pilot intentionally crops the device at the canvas bottom. Eighteen iPad variants use actual iPad captures; phone UI is never enlarged into an iPad. MacBook uses the existing hardware treatment. Zuzu’s Android set uses archival native Screengrab captures in Android hardware; provenance is in `android-provenance.json`. Other store device variants require their own native captures.
+The original social/video composition scripts remain available for that later creative pass. `finish-audio.py` without recording flags prepares an audio plan without an API call. Never interpret an existing script as permission to publish social posts, submit store images, purchase advertising or spend paid API credits.
 
-TumTum and Sundust gameplay comes from the studio’s existing recorded assets. TumTum retains approved voice and music. Other music is generated by `video.py`. Fonts use installed system families; visual artwork combines product pixels, typography and original geometric layout. Twelve product-specific background masters combine four existing lifestyle images with eight newly generated editorial environments. Every product has its own scene; Sundust uses a solar system and TumTum uses the approved House paper material. The previous round uses enlarged real UI details beside the hardware. The revised Giftly pilot instead layers clean, complete component cutouts over a larger device, preserving the lifestyle hero and adding white-contour gift/photo assets. The owner approved its four iPhone and four iPad exports on October 1, 2026. They are the studio visual reference, saved in the Skills repository. Giftly’s product page now uses this artwork in its opening and benefit gallery, with a separate native iPad section and product-colored capture controls; this revised treatment has not been applied to other products. Headlines and descriptions are checked at 390px viewing width. Prompts and saved source paths are in `lifestyle/provenance.json` and `background-provenance.json`; the people are illustrative, not testimonials. No fictional UI or fabricated reviews are used.
+## Provenance and limitations
 
-All files are English approval drafts. No production deployment, social posting, advertising purchase or store upload was performed.
+New native screenshots use actual product views with synthetic fixtures. Capture-only application and SDK adjustments were confined to isolated checkouts/DerivedData and archived with the capture recipe; production authentication, billing, filesystem operations and app repositories were not changed. Existing TumTum and Soooon paper/character assets are reused from their canonical sources. Generated background and photographic prop provenance remains under `lifestyle/`, `assets/` and the campaign provenance files. Illustrative people are not testimonials, and editorial props are not additional app features.
+
+All new artwork remains in the English revision stage. No store upload, social posting, advertising purchase or multilingual image rollout was performed.
