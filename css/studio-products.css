@@ -74,3 +74,7 @@
 .studio-page[data-studio=tumtum] .hero{align-items:start}.studio-page[data-studio=tumtum] .hero-art{aspect-ratio:auto;background:none;transform:none}.studio-page[data-studio=tumtum] .hero-art:before,.studio-page[data-studio=tumtum] .hero-art:after{display:none}.studio-page[data-studio=tumtum] .hero-art img{aspect-ratio:auto;height:auto;object-fit:contain;transform:none}.studio-page[data-studio=tumtum] .studio-hero-link{margin-inline:auto}
 
 .studio-page[data-studio=tumtum] .gallery-position,.studio-page[data-studio=tumtum] .shot-number,.studio-page[data-studio=tumtum] .idea-mark{font-size:14px}.studio-page[data-studio=tumtum] .language-steps li:before{font-size:16px}
+
+.studio-page[data-studio=tumtum] .hero-art{width:100%;max-width:380px;padding:0;justify-self:center}
+
+.studio-page[data-studio=tumtum] .studio-hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}

@@ -10698,811 +10698,6 @@
     }
   },
   {
-    "slug": "brainfold",
-    "filename": "store-1.png",
-    "format": "store",
-    "dimensions": [
-      1320,
-      2868
-    ],
-    "headline": {
-      "x": 92.390625,
-      "y": 344.15625,
-      "width": 1135.21875,
-      "height": 299.375,
-      "top": 344.15625,
-      "right": 1227.609375,
-      "bottom": 643.53125,
-      "left": 92.390625
-    },
-    "image": {
-      "x": 162.15625,
-      "y": 1283.015625,
-      "width": 995.65625,
-      "height": 2163.296875,
-      "top": 1283.015625,
-      "right": 1157.8125,
-      "bottom": 3446.3125,
-      "left": 162.15625
-    },
-    "wrapper": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 1634.765625,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 2868,
-      "left": 105.59375
-    },
-    "imageNaturalWidth": 660,
-    "headlinePixels": 142.56,
-    "descriptionPixels": 64.68,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [],
-    "device": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 2262.875,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 3496.109375,
-      "left": 105.59375
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "store-2.png",
-    "format": "store",
-    "dimensions": [
-      1320,
-      2868
-    ],
-    "headline": {
-      "x": 92.390625,
-      "y": 344.15625,
-      "width": 1135.21875,
-      "height": 299.375,
-      "top": 344.15625,
-      "right": 1227.609375,
-      "bottom": 643.53125,
-      "left": 92.390625
-    },
-    "image": {
-      "x": 162.15625,
-      "y": 1283.015625,
-      "width": 995.65625,
-      "height": 2163.296875,
-      "top": 1283.015625,
-      "right": 1157.8125,
-      "bottom": 3446.3125,
-      "left": 162.15625
-    },
-    "wrapper": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 1634.765625,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 2868,
-      "left": 105.59375
-    },
-    "imageNaturalWidth": 660,
-    "headlinePixels": 142.56,
-    "descriptionPixels": 64.68,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 51.46084976196289,
-          "y": 1485.562744140625,
-          "width": 1217.062744140625,
-          "height": 1271.82763671875,
-          "top": 1485.562744140625,
-          "right": 1268.523593902588,
-          "bottom": 2757.390380859375,
-          "left": 51.46084976196289
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-2.png",
-        "rect": [
-          30,
-          452,
-          630,
-          1081
-        ]
-      }
-    ],
-    "device": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 2262.875,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 3496.109375,
-      "left": 105.59375
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "store-3.png",
-    "format": "store",
-    "dimensions": [
-      1320,
-      2868
-    ],
-    "headline": {
-      "x": 92.390625,
-      "y": 344.15625,
-      "width": 1135.21875,
-      "height": 299.375,
-      "top": 344.15625,
-      "right": 1227.609375,
-      "bottom": 643.53125,
-      "left": 92.390625
-    },
-    "image": {
-      "x": 162.15625,
-      "y": 1283.015625,
-      "width": 995.65625,
-      "height": 2163.296875,
-      "top": 1283.015625,
-      "right": 1157.8125,
-      "bottom": 3446.3125,
-      "left": 162.15625
-    },
-    "wrapper": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 1634.765625,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 2868,
-      "left": 105.59375
-    },
-    "imageNaturalWidth": 660,
-    "headlinePixels": 142.56,
-    "descriptionPixels": 64.68,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 36.868350982666016,
-          "y": 1756.558837890625,
-          "width": 1246.24755859375,
-          "height": 221.03857421875,
-          "top": 1756.558837890625,
-          "right": 1283.115909576416,
-          "bottom": 1977.597412109375,
-          "left": 36.868350982666016
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
-        "rect": [
-          30,
-          347,
-          630,
-          433
-        ]
-      },
-      {
-        "bounds": {
-          "x": 56.758609771728516,
-          "y": 2129.861572265625,
-          "width": 1219.654541015625,
-          "height": 214.30810546875,
-          "top": 2129.861572265625,
-          "right": 1276.4131507873535,
-          "bottom": 2344.169677734375,
-          "left": 56.758609771728516
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
-        "rect": [
-          30,
-          445,
-          630,
-          530
-        ]
-      }
-    ],
-    "device": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 2262.875,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 3496.109375,
-      "left": 105.59375
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "store-4.png",
-    "format": "store",
-    "dimensions": [
-      1320,
-      2868
-    ],
-    "headline": {
-      "x": 92.390625,
-      "y": 344.15625,
-      "width": 1135.21875,
-      "height": 299.375,
-      "top": 344.15625,
-      "right": 1227.609375,
-      "bottom": 643.53125,
-      "left": 92.390625
-    },
-    "image": {
-      "x": 162.15625,
-      "y": 1283.015625,
-      "width": 995.65625,
-      "height": 2163.296875,
-      "top": 1283.015625,
-      "right": 1157.8125,
-      "bottom": 3446.3125,
-      "left": 162.15625
-    },
-    "wrapper": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 1634.765625,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 2868,
-      "left": 105.59375
-    },
-    "imageNaturalWidth": 660,
-    "headlinePixels": 142.56,
-    "descriptionPixels": 64.68,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 103.11094665527344,
-          "y": 1471.3697509765625,
-          "width": 1153.356201171875,
-          "height": 202.307373046875,
-          "top": 1471.3697509765625,
-          "right": 1256.4671478271484,
-          "bottom": 1673.6771240234375,
-          "left": 103.11094665527344
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-4.png",
-        "rect": [
-          248,
-          190,
-          630,
-          244
-        ]
-      },
-      {
-        "bounds": {
-          "x": 63.50979232788086,
-          "y": 1681.9378662109375,
-          "width": 1192.96484375,
-          "height": 1071.5928955078125,
-          "top": 1681.9378662109375,
-          "right": 1256.4746360778809,
-          "bottom": 2753.53076171875,
-          "left": 63.50979232788086
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-4.png",
-        "rect": [
-          30,
-          259,
-          515,
-          693
-        ]
-      }
-    ],
-    "device": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 2262.875,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 3496.109375,
-      "left": 105.59375
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "store-5.png",
-    "format": "store",
-    "dimensions": [
-      1320,
-      2868
-    ],
-    "headline": {
-      "x": 92.390625,
-      "y": 344.15625,
-      "width": 1135.21875,
-      "height": 299.375,
-      "top": 344.15625,
-      "right": 1227.609375,
-      "bottom": 643.53125,
-      "left": 92.390625
-    },
-    "image": {
-      "x": 162.15625,
-      "y": 1283.015625,
-      "width": 995.65625,
-      "height": 2163.296875,
-      "top": 1283.015625,
-      "right": 1157.8125,
-      "bottom": 3446.3125,
-      "left": 162.15625
-    },
-    "wrapper": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 1634.765625,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 2868,
-      "left": 105.59375
-    },
-    "imageNaturalWidth": 660,
-    "headlinePixels": 142.56,
-    "descriptionPixels": 64.68,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 54.51638412475586,
-          "y": 1785.959228515625,
-          "width": 1210.93603515625,
-          "height": 342.03466796875,
-          "top": 1785.959228515625,
-          "right": 1265.4524192810059,
-          "bottom": 2127.993896484375,
-          "left": 54.51638412475586
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-5.png",
-        "rect": [
-          30,
-          624,
-          630,
-          774
-        ]
-      }
-    ],
-    "device": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 2262.875,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 3496.109375,
-      "left": 105.59375
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "store-6.png",
-    "format": "store",
-    "dimensions": [
-      1320,
-      2868
-    ],
-    "headline": {
-      "x": 92.390625,
-      "y": 344.15625,
-      "width": 1135.21875,
-      "height": 299.375,
-      "top": 344.15625,
-      "right": 1227.609375,
-      "bottom": 643.53125,
-      "left": 92.390625
-    },
-    "image": {
-      "x": 162.15625,
-      "y": 1283.015625,
-      "width": 995.65625,
-      "height": 2163.296875,
-      "top": 1283.015625,
-      "right": 1157.8125,
-      "bottom": 3446.3125,
-      "left": 162.15625
-    },
-    "wrapper": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 1634.765625,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 2868,
-      "left": 105.59375
-    },
-    "imageNaturalWidth": 660,
-    "headlinePixels": 142.56,
-    "descriptionPixels": 64.68,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 43.237571716308594,
-          "y": 1699.6640625,
-          "width": 1220.29052734375,
-          "height": 232.515625,
-          "top": 1699.6640625,
-          "right": 1263.5280990600586,
-          "bottom": 1932.1796875,
-          "left": 43.237571716308594
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-6.png",
-        "rect": [
-          30,
-          454,
-          630,
-          548
-        ]
-      },
-      {
-        "bounds": {
-          "x": 56.40286636352539,
-          "y": 2187.45751953125,
-          "width": 1207.1630859375,
-          "height": 233.9912109375,
-          "top": 2187.45751953125,
-          "right": 1263.5659523010254,
-          "bottom": 2421.44873046875,
-          "left": 56.40286636352539
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/screen-6.png",
-        "rect": [
-          30,
-          597,
-          630,
-          693
-        ]
-      }
-    ],
-    "device": {
-      "x": 105.59375,
-      "y": 1233.234375,
-      "width": 1108.8125,
-      "height": 2262.875,
-      "top": 1233.234375,
-      "right": 1214.40625,
-      "bottom": 3496.109375,
-      "left": 105.59375
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "ipad-store-1.png",
-    "format": "ipad-store",
-    "dimensions": [
-      2064,
-      2752
-    ],
-    "headline": {
-      "x": 144.46875,
-      "y": 330.234375,
-      "width": 1775.0625,
-      "height": 416.09375,
-      "top": 330.234375,
-      "right": 1919.53125,
-      "bottom": 746.328125,
-      "left": 144.46875
-    },
-    "image": {
-      "x": 198.484375,
-      "y": 1283.5,
-      "width": 1667.015625,
-      "height": 2222.671875,
-      "top": 1283.5,
-      "right": 1865.5,
-      "bottom": 3506.171875,
-      "left": 198.484375
-    },
-    "wrapper": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 1568.640625,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 2752,
-      "left": 103.1875
-    },
-    "imageNaturalWidth": 1240,
-    "headlinePixels": 198.144,
-    "descriptionPixels": 97.008,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [],
-    "device": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 2422.984375,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 3606.34375,
-      "left": 103.1875
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "ipad-store-2.png",
-    "format": "ipad-store",
-    "dimensions": [
-      2064,
-      2752
-    ],
-    "headline": {
-      "x": 144.46875,
-      "y": 330.234375,
-      "width": 1775.0625,
-      "height": 416.09375,
-      "top": 330.234375,
-      "right": 1919.53125,
-      "bottom": 746.328125,
-      "left": 144.46875
-    },
-    "image": {
-      "x": 198.484375,
-      "y": 1283.5,
-      "width": 1667.015625,
-      "height": 2222.671875,
-      "top": 1283.5,
-      "right": 1865.5,
-      "bottom": 3506.171875,
-      "left": 198.484375
-    },
-    "wrapper": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 1568.640625,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 2752,
-      "left": 103.1875
-    },
-    "imageNaturalWidth": 1240,
-    "headlinePixels": 198.144,
-    "descriptionPixels": 97.008,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 49.66049575805664,
-          "y": 1699.5787353515625,
-          "width": 1964.663330078125,
-          "height": 213.358154296875,
-          "top": 1699.5787353515625,
-          "right": 2014.3238258361816,
-          "bottom": 1912.9368896484375,
-          "left": 49.66049575805664
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-2.png",
-        "rect": [
-          127,
-          374,
-          1114,
-          447
-        ]
-      },
-      {
-        "bounds": {
-          "x": 70.2738265991211,
-          "y": 2195.65869140625,
-          "width": 1923.436767578125,
-          "height": 212.7607421875,
-          "top": 2195.65869140625,
-          "right": 1993.710594177246,
-          "bottom": 2408.41943359375,
-          "left": 70.2738265991211
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-2.png",
-        "rect": [
-          127,
-          999,
-          1114,
-          1074
-        ]
-      }
-    ],
-    "device": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 2422.984375,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 3606.34375,
-      "left": 103.1875
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "ipad-store-3.png",
-    "format": "ipad-store",
-    "dimensions": [
-      2064,
-      2752
-    ],
-    "headline": {
-      "x": 144.46875,
-      "y": 330.234375,
-      "width": 1775.0625,
-      "height": 416.09375,
-      "top": 330.234375,
-      "right": 1919.53125,
-      "bottom": 746.328125,
-      "left": 144.46875
-    },
-    "image": {
-      "x": 198.484375,
-      "y": 1283.5,
-      "width": 1667.015625,
-      "height": 2222.671875,
-      "top": 1283.5,
-      "right": 1865.5,
-      "bottom": 3506.171875,
-      "left": 198.484375
-    },
-    "wrapper": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 1568.640625,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 2752,
-      "left": 103.1875
-    },
-    "imageNaturalWidth": 1240,
-    "headlinePixels": 198.144,
-    "descriptionPixels": 97.008,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 55.26700210571289,
-          "y": 1644.98974609375,
-          "width": 1953.434814453125,
-          "height": 481.8017578125,
-          "top": 1644.98974609375,
-          "right": 2008.701816558838,
-          "bottom": 2126.79150390625,
-          "left": 55.26700210571289
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-3.png",
-        "rect": [
-          126,
-          354,
-          1114,
-          565
-        ]
-      }
-    ],
-    "device": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 2422.984375,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 3606.34375,
-      "left": 103.1875
-    }
-  },
-  {
-    "slug": "brainfold",
-    "filename": "ipad-store-4.png",
-    "format": "ipad-store",
-    "dimensions": [
-      2064,
-      2752
-    ],
-    "headline": {
-      "x": 144.46875,
-      "y": 330.234375,
-      "width": 1775.0625,
-      "height": 416.09375,
-      "top": 330.234375,
-      "right": 1919.53125,
-      "bottom": 746.328125,
-      "left": 144.46875
-    },
-    "image": {
-      "x": 198.484375,
-      "y": 1283.5,
-      "width": 1667.015625,
-      "height": 2222.671875,
-      "top": 1283.5,
-      "right": 1865.5,
-      "bottom": 3506.171875,
-      "left": 198.484375
-    },
-    "wrapper": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 1568.640625,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 2752,
-      "left": 103.1875
-    },
-    "imageNaturalWidth": 1240,
-    "headlinePixels": 198.144,
-    "descriptionPixels": 97.008,
-    "background": "/docs/marketing/october-2026/lifestyle/study.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 388.92626953125,
-          "y": 1540.5975341796875,
-          "width": 1616.3662109375,
-          "height": 269.258056640625,
-          "top": 1540.5975341796875,
-          "right": 2005.29248046875,
-          "bottom": 1809.8555908203125,
-          "left": 388.92626953125
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-4.png",
-        "rect": [
-          746,
-          115,
-          1116,
-          164
-        ]
-      },
-      {
-        "bounds": {
-          "x": 39.81790542602539,
-          "y": 2102.295166015625,
-          "width": 1922.4111328125,
-          "height": 216.12841796875,
-          "top": 2102.295166015625,
-          "right": 1962.2290382385254,
-          "bottom": 2318.423583984375,
-          "left": 39.81790542602539
-        },
-        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-4.png",
-        "rect": [
-          138,
-          455,
-          758,
-          514
-        ]
-      }
-    ],
-    "device": {
-      "x": 103.1875,
-      "y": 1183.359375,
-      "width": 1857.625,
-      "height": 2422.984375,
-      "top": 1183.359375,
-      "right": 1960.8125,
-      "bottom": 3606.34375,
-      "left": 103.1875
-    }
-  },
-  {
     "slug": "zuzu",
     "filename": "store-1.png",
     "format": "store",
@@ -16660,6 +15855,732 @@
       "right": 1214.40625,
       "bottom": 3496.109375,
       "left": 105.59375
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "store-1.png",
+    "format": "store",
+    "dimensions": [
+      1320,
+      2868
+    ],
+    "headline": {
+      "x": 92.390625,
+      "y": 344.15625,
+      "width": 1135.21875,
+      "height": 299.375,
+      "top": 344.15625,
+      "right": 1227.609375,
+      "bottom": 643.53125,
+      "left": 92.390625
+    },
+    "image": {
+      "x": 162.15625,
+      "y": 1283.015625,
+      "width": 995.65625,
+      "height": 2163.296875,
+      "top": 1283.015625,
+      "right": 1157.8125,
+      "bottom": 3446.3125,
+      "left": 162.15625
+    },
+    "wrapper": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 1634.765625,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 2868,
+      "left": 105.59375
+    },
+    "imageNaturalWidth": 660,
+    "headlinePixels": 142.56,
+    "descriptionPixels": 64.68,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [],
+    "device": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 2262.875,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 3496.109375,
+      "left": 105.59375
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "store-2.png",
+    "format": "store",
+    "dimensions": [
+      1320,
+      2868
+    ],
+    "headline": {
+      "x": 92.390625,
+      "y": 344.15625,
+      "width": 1135.21875,
+      "height": 299.375,
+      "top": 344.15625,
+      "right": 1227.609375,
+      "bottom": 643.53125,
+      "left": 92.390625
+    },
+    "image": {
+      "x": 162.15625,
+      "y": 1283.015625,
+      "width": 995.65625,
+      "height": 2163.296875,
+      "top": 1283.015625,
+      "right": 1157.8125,
+      "bottom": 3446.3125,
+      "left": 162.15625
+    },
+    "wrapper": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 1634.765625,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 2868,
+      "left": 105.59375
+    },
+    "imageNaturalWidth": 660,
+    "headlinePixels": 142.56,
+    "descriptionPixels": 64.68,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [
+      {
+        "bounds": {
+          "x": 51.46084976196289,
+          "y": 1485.562744140625,
+          "width": 1217.062744140625,
+          "height": 1271.82763671875,
+          "top": 1485.562744140625,
+          "right": 1268.523593902588,
+          "bottom": 2757.390380859375,
+          "left": 51.46084976196289
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/screen-2.png",
+        "rect": [
+          30,
+          452,
+          630,
+          1081
+        ]
+      }
+    ],
+    "device": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 2262.875,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 3496.109375,
+      "left": 105.59375
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "store-3.png",
+    "format": "store",
+    "dimensions": [
+      1320,
+      2868
+    ],
+    "headline": {
+      "x": 92.390625,
+      "y": 344.15625,
+      "width": 1135.21875,
+      "height": 299.375,
+      "top": 344.15625,
+      "right": 1227.609375,
+      "bottom": 643.53125,
+      "left": 92.390625
+    },
+    "image": {
+      "x": 162.15625,
+      "y": 1283.015625,
+      "width": 995.65625,
+      "height": 2163.296875,
+      "top": 1283.015625,
+      "right": 1157.8125,
+      "bottom": 3446.3125,
+      "left": 162.15625
+    },
+    "wrapper": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 1634.765625,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 2868,
+      "left": 105.59375
+    },
+    "imageNaturalWidth": 660,
+    "headlinePixels": 142.56,
+    "descriptionPixels": 64.68,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [
+      {
+        "bounds": {
+          "x": 36.868350982666016,
+          "y": 1756.558837890625,
+          "width": 1246.24755859375,
+          "height": 221.03857421875,
+          "top": 1756.558837890625,
+          "right": 1283.115909576416,
+          "bottom": 1977.597412109375,
+          "left": 36.868350982666016
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
+        "rect": [
+          30,
+          347,
+          630,
+          433
+        ]
+      },
+      {
+        "bounds": {
+          "x": 56.758609771728516,
+          "y": 2129.861572265625,
+          "width": 1219.654541015625,
+          "height": 214.30810546875,
+          "top": 2129.861572265625,
+          "right": 1276.4131507873535,
+          "bottom": 2344.169677734375,
+          "left": 56.758609771728516
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
+        "rect": [
+          30,
+          445,
+          630,
+          530
+        ]
+      }
+    ],
+    "device": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 2262.875,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 3496.109375,
+      "left": 105.59375
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "store-4.png",
+    "format": "store",
+    "dimensions": [
+      1320,
+      2868
+    ],
+    "headline": {
+      "x": 92.390625,
+      "y": 344.15625,
+      "width": 1135.21875,
+      "height": 299.375,
+      "top": 344.15625,
+      "right": 1227.609375,
+      "bottom": 643.53125,
+      "left": 92.390625
+    },
+    "image": {
+      "x": 162.15625,
+      "y": 1283.015625,
+      "width": 995.65625,
+      "height": 2163.296875,
+      "top": 1283.015625,
+      "right": 1157.8125,
+      "bottom": 3446.3125,
+      "left": 162.15625
+    },
+    "wrapper": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 1634.765625,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 2868,
+      "left": 105.59375
+    },
+    "imageNaturalWidth": 660,
+    "headlinePixels": 142.56,
+    "descriptionPixels": 64.68,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [
+      {
+        "bounds": {
+          "x": 103.11094665527344,
+          "y": 1471.3697509765625,
+          "width": 1153.356201171875,
+          "height": 202.307373046875,
+          "top": 1471.3697509765625,
+          "right": 1256.4671478271484,
+          "bottom": 1673.6771240234375,
+          "left": 103.11094665527344
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/screen-4.png",
+        "rect": [
+          248,
+          190,
+          630,
+          244
+        ]
+      },
+      {
+        "bounds": {
+          "x": 63.50979232788086,
+          "y": 1681.9378662109375,
+          "width": 1192.96484375,
+          "height": 1071.5928955078125,
+          "top": 1681.9378662109375,
+          "right": 1256.4746360778809,
+          "bottom": 2753.53076171875,
+          "left": 63.50979232788086
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/screen-4.png",
+        "rect": [
+          30,
+          259,
+          515,
+          693
+        ]
+      }
+    ],
+    "device": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 2262.875,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 3496.109375,
+      "left": 105.59375
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "store-5.png",
+    "format": "store",
+    "dimensions": [
+      1320,
+      2868
+    ],
+    "headline": {
+      "x": 92.390625,
+      "y": 344.15625,
+      "width": 1135.21875,
+      "height": 299.375,
+      "top": 344.15625,
+      "right": 1227.609375,
+      "bottom": 643.53125,
+      "left": 92.390625
+    },
+    "image": {
+      "x": 162.15625,
+      "y": 1283.015625,
+      "width": 995.65625,
+      "height": 2163.296875,
+      "top": 1283.015625,
+      "right": 1157.8125,
+      "bottom": 3446.3125,
+      "left": 162.15625
+    },
+    "wrapper": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 1634.765625,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 2868,
+      "left": 105.59375
+    },
+    "imageNaturalWidth": 660,
+    "headlinePixels": 142.56,
+    "descriptionPixels": 64.68,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [],
+    "device": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 2262.875,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 3496.109375,
+      "left": 105.59375
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "store-6.png",
+    "format": "store",
+    "dimensions": [
+      1320,
+      2868
+    ],
+    "headline": {
+      "x": 92.390625,
+      "y": 344.15625,
+      "width": 1135.21875,
+      "height": 299.375,
+      "top": 344.15625,
+      "right": 1227.609375,
+      "bottom": 643.53125,
+      "left": 92.390625
+    },
+    "image": {
+      "x": 162.15625,
+      "y": 1283.015625,
+      "width": 995.65625,
+      "height": 2163.296875,
+      "top": 1283.015625,
+      "right": 1157.8125,
+      "bottom": 3446.3125,
+      "left": 162.15625
+    },
+    "wrapper": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 1634.765625,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 2868,
+      "left": 105.59375
+    },
+    "imageNaturalWidth": 660,
+    "headlinePixels": 142.56,
+    "descriptionPixels": 64.68,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [],
+    "device": {
+      "x": 105.59375,
+      "y": 1233.234375,
+      "width": 1108.8125,
+      "height": 2262.875,
+      "top": 1233.234375,
+      "right": 1214.40625,
+      "bottom": 3496.109375,
+      "left": 105.59375
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "ipad-store-1.png",
+    "format": "ipad-store",
+    "dimensions": [
+      2064,
+      2752
+    ],
+    "headline": {
+      "x": 144.46875,
+      "y": 330.234375,
+      "width": 1775.0625,
+      "height": 416.09375,
+      "top": 330.234375,
+      "right": 1919.53125,
+      "bottom": 746.328125,
+      "left": 144.46875
+    },
+    "image": {
+      "x": 198.484375,
+      "y": 1283.5,
+      "width": 1667.015625,
+      "height": 2222.671875,
+      "top": 1283.5,
+      "right": 1865.5,
+      "bottom": 3506.171875,
+      "left": 198.484375
+    },
+    "wrapper": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 1568.640625,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 2752,
+      "left": 103.1875
+    },
+    "imageNaturalWidth": 1240,
+    "headlinePixels": 198.144,
+    "descriptionPixels": 97.008,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [],
+    "device": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 2422.984375,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 3606.34375,
+      "left": 103.1875
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "ipad-store-2.png",
+    "format": "ipad-store",
+    "dimensions": [
+      2064,
+      2752
+    ],
+    "headline": {
+      "x": 144.46875,
+      "y": 330.234375,
+      "width": 1775.0625,
+      "height": 416.09375,
+      "top": 330.234375,
+      "right": 1919.53125,
+      "bottom": 746.328125,
+      "left": 144.46875
+    },
+    "image": {
+      "x": 198.484375,
+      "y": 1283.5,
+      "width": 1667.015625,
+      "height": 2222.671875,
+      "top": 1283.5,
+      "right": 1865.5,
+      "bottom": 3506.171875,
+      "left": 198.484375
+    },
+    "wrapper": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 1568.640625,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 2752,
+      "left": 103.1875
+    },
+    "imageNaturalWidth": 1240,
+    "headlinePixels": 198.144,
+    "descriptionPixels": 97.008,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [
+      {
+        "bounds": {
+          "x": 49.66049575805664,
+          "y": 1699.5787353515625,
+          "width": 1964.663330078125,
+          "height": 213.358154296875,
+          "top": 1699.5787353515625,
+          "right": 2014.3238258361816,
+          "bottom": 1912.9368896484375,
+          "left": 49.66049575805664
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-2.png",
+        "rect": [
+          127,
+          374,
+          1114,
+          447
+        ]
+      },
+      {
+        "bounds": {
+          "x": 70.2738265991211,
+          "y": 2195.65869140625,
+          "width": 1923.436767578125,
+          "height": 212.7607421875,
+          "top": 2195.65869140625,
+          "right": 1993.710594177246,
+          "bottom": 2408.41943359375,
+          "left": 70.2738265991211
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-2.png",
+        "rect": [
+          127,
+          999,
+          1114,
+          1074
+        ]
+      }
+    ],
+    "device": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 2422.984375,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 3606.34375,
+      "left": 103.1875
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "ipad-store-3.png",
+    "format": "ipad-store",
+    "dimensions": [
+      2064,
+      2752
+    ],
+    "headline": {
+      "x": 144.46875,
+      "y": 330.234375,
+      "width": 1775.0625,
+      "height": 416.09375,
+      "top": 330.234375,
+      "right": 1919.53125,
+      "bottom": 746.328125,
+      "left": 144.46875
+    },
+    "image": {
+      "x": 198.484375,
+      "y": 1283.5,
+      "width": 1667.015625,
+      "height": 2222.671875,
+      "top": 1283.5,
+      "right": 1865.5,
+      "bottom": 3506.171875,
+      "left": 198.484375
+    },
+    "wrapper": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 1568.640625,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 2752,
+      "left": 103.1875
+    },
+    "imageNaturalWidth": 1240,
+    "headlinePixels": 198.144,
+    "descriptionPixels": 97.008,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [],
+    "device": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 2422.984375,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 3606.34375,
+      "left": 103.1875
+    }
+  },
+  {
+    "slug": "brainfold",
+    "filename": "ipad-store-4.png",
+    "format": "ipad-store",
+    "dimensions": [
+      2064,
+      2752
+    ],
+    "headline": {
+      "x": 144.46875,
+      "y": 330.234375,
+      "width": 1775.0625,
+      "height": 416.09375,
+      "top": 330.234375,
+      "right": 1919.53125,
+      "bottom": 746.328125,
+      "left": 144.46875
+    },
+    "image": {
+      "x": 198.484375,
+      "y": 1283.5,
+      "width": 1667.015625,
+      "height": 2222.671875,
+      "top": 1283.5,
+      "right": 1865.5,
+      "bottom": 3506.171875,
+      "left": 198.484375
+    },
+    "wrapper": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 1568.640625,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 2752,
+      "left": 103.1875
+    },
+    "imageNaturalWidth": 1240,
+    "headlinePixels": 198.144,
+    "descriptionPixels": 97.008,
+    "background": "/docs/marketing/october-2026/lifestyle/study.png",
+    "focus": null,
+    "cutouts": [
+      {
+        "bounds": {
+          "x": 388.92626953125,
+          "y": 1540.5975341796875,
+          "width": 1616.3662109375,
+          "height": 269.258056640625,
+          "top": 1540.5975341796875,
+          "right": 2005.29248046875,
+          "bottom": 1809.8555908203125,
+          "left": 388.92626953125
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-4.png",
+        "rect": [
+          746,
+          115,
+          1116,
+          164
+        ]
+      },
+      {
+        "bounds": {
+          "x": 39.81790542602539,
+          "y": 2102.295166015625,
+          "width": 1922.4111328125,
+          "height": 216.12841796875,
+          "top": 2102.295166015625,
+          "right": 1962.2290382385254,
+          "bottom": 2318.423583984375,
+          "left": 39.81790542602539
+        },
+        "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-4.png",
+        "rect": [
+          138,
+          455,
+          758,
+          514
+        ]
+      }
+    ],
+    "device": {
+      "x": 103.1875,
+      "y": 1183.359375,
+      "width": 1857.625,
+      "height": 2422.984375,
+      "top": 1183.359375,
+      "right": 1960.8125,
+      "bottom": 3606.34375,
+      "left": 103.1875
     }
   }
 ]
