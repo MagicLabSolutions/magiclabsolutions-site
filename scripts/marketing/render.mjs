@@ -18,7 +18,7 @@ for(const p of campaign.products){
  const output=path.join(root,'docs/marketing/october-2026/exports/en-US',p.slug);await fs.mkdir(output,{recursive:true});
  const formats=[['social',[1080,1350]],['carousel',[1080,1350]],['video',[1080,1920]]];
  if(!p.preserve_store){
-  formats.push(['store',p.device==='mac'?[2880,1800]:p.device==='web'?[2400,1500]:p.slug==='sundust'?[2868,1320]:[1320,2868]]);
+  formats.push(['store',p.device==='mac'?[2880,1800]:p.device==='web'?[2400,1500]:p.device==='landscape'?[2868,1320]:[1320,2868]]);
   if(p.play_store)formats.push(['play-store',p.play_store.dimensions]);
   if(p.ipad_store)formats.push(['ipad-store',p.ipad_store.dimensions]);
   // iPad and Mac artwork require actual captures from those devices, never a resized phone UI.

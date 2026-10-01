@@ -1,0 +1,50 @@
+{
+  "repository": "Sundust",
+  "revision": "3567b3ed137af70195fec6e15e020fa9d9176132",
+  "build": "Release iphonesimulator, Xcode",
+  "save_policy": "-demo uses isolated SaveStore.demoSession; -nogc avoids Game Center",
+  "devices": {
+    "iphone": "iPhone 17 Pro Max / iOS 26.5 / portrait 1320x2868",
+    "ipad": "iPad Pro 13-inch M5 / iOS 26.5 / portrait 2064x2752"
+  },
+  "scenes": [
+    [
+      "-demo",
+      "flight",
+      "-photo",
+      "-autothrust"
+    ],
+    [
+      "-demo",
+      "eva",
+      "-photo"
+    ],
+    [
+      "-demo",
+      "pad",
+      "-panel",
+      "build"
+    ],
+    [
+      "-demo",
+      "map",
+      "-photo"
+    ],
+    [
+      "-demo",
+      "galaxy",
+      "-photo"
+    ]
+  ],
+  "files": {
+    "screen-5.png": "20dba15cd604e93be7f9189eeee6663f3d92772717dee9076bd0d44a6e740ea3",
+    "screen-4.png": "a1c9920e76f3a195896465aef12444d39df90ed8c72c42e1d448a807ba306a58",
+    "screen-1.png": "f009e4e8184b944445087c3d887dce73ac07f2b2f14e06eeab6e8e2264a7007c",
+    "screen-3.png": "1b79c5ad269b21634b0190ab1e73582921ade23c4da16ad64607874cc330edef",
+    "screen-2.png": "227d0c9a44d10c6e7910351945c76592a5d7e8005414a775a47dec79a27d2363",
+    "ipad/screen-4.png": "d6a9b4f7855c9e99992bf132258a57024ec56634712095fc87b02ccecccdaf06",
+    "ipad/screen-1.png": "8bce2d26a2979e34b023bd206d561e3b3453e29139eae2ef01ce54d184b9a7e3",
+    "ipad/screen-3.png": "1740723a0bed10eceb1e2644473246ed72ae6ce41489c20315f999fe5581053a",
+    "ipad/screen-2.png": "da4d0c685cb122a5ca9a2363889aa16072f8294b226cbb117fa735e93aaa97d3"
+  }
+}

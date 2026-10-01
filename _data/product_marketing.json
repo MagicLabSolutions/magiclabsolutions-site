@@ -63,7 +63,7 @@
     "locale": "en-US",
     "position": "Your own small space adventure, one landing at a time.",
     "headline": "Your next world.",
-    "description": "Fly into a universe of discoveries.",
+    "description": "A little rocket. A universe to explore.",
     "cta": "Discover Sundust",
     "steps": [
       "Leave the surface",
@@ -76,60 +76,137 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/sundust/highlight-1.webp",
-        "alt": "Sundust: Your next world. — Fly into a universe of discoveries.",
+        "alt": "Sundust: Your next world. — A little rocket. A universe to explore.",
         "caption": "Your next world.",
-        "width": 1440,
-        "height": 663
+        "width": 1320,
+        "height": 2868
       },
       {
         "output": "/images/campaign/en-US/sundust/highlight-2.webp",
-        "alt": "Sundust: Find your landing. — From orbit to the surface.",
-        "caption": "Find your landing.",
-        "width": 1440,
-        "height": 663
+        "alt": "Sundust: Step outside. — Leave the ship. Explore on foot.",
+        "caption": "Step outside.",
+        "width": 1320,
+        "height": 2868
       },
       {
         "output": "/images/campaign/en-US/sundust/highlight-3.webp",
-        "alt": "Sundust: Explore. Build. Stay. — Gather resources. Make it yours.",
-        "caption": "Explore. Build. Stay.",
-        "width": 1440,
-        "height": 663
+        "alt": "Sundust: Build on your terms. — Mine resources. Make a place to return to.",
+        "caption": "Build on your terms.",
+        "width": 1320,
+        "height": 2868
       },
       {
         "output": "/images/campaign/en-US/sundust/highlight-4.webp",
-        "alt": "Sundust: Choose your journey. — A small craft. Many possibilities.",
-        "caption": "Choose your journey.",
+        "alt": "Sundust: Gravity is the guide. — Read the orbits. Choose your next landing.",
+        "caption": "Gravity is the guide.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/highlight-5.webp",
+        "alt": "Sundust: Follow the signal. — Keep exploring. See where the story leads.",
+        "caption": "Follow the signal.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-highlight-1.webp",
+        "alt": "Sundust: iPad / Your next world. — A little rocket. A universe to explore.",
+        "caption": "iPad / Your next world.",
         "width": 1440,
-        "height": 663
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-highlight-2.webp",
+        "alt": "Sundust: iPad / Step outside. — Leave the ship. Explore on foot.",
+        "caption": "iPad / Step outside.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-highlight-3.webp",
+        "alt": "Sundust: iPad / Build on your terms. — Mine resources. Make a place to return to.",
+        "caption": "iPad / Build on your terms.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-highlight-4.webp",
+        "alt": "Sundust: iPad / Gravity is the guide. — Read the orbits. Choose your next landing.",
+        "caption": "iPad / Gravity is the guide.",
+        "width": 1440,
+        "height": 1920
       }
     ],
     "captures": [
       {
         "output": "/images/campaign/en-US/sundust/capture-1.webp",
-        "alt": "Sundust: A space sandbox (real English product capture)",
-        "label": "A space sandbox",
-        "description": "Fly into a universe of discoveries."
+        "alt": "Sundust: Fly through space (real English product capture)",
+        "label": "Fly through space",
+        "description": "A little rocket. A universe to explore."
       },
       {
         "output": "/images/campaign/en-US/sundust/capture-2.webp",
-        "alt": "Sundust: Fly & land (real English product capture)",
-        "label": "Fly & land",
-        "description": "From orbit to the surface."
+        "alt": "Sundust: Surface exploration (real English product capture)",
+        "label": "Surface exploration",
+        "description": "Leave the ship. Explore on foot."
       },
       {
         "output": "/images/campaign/en-US/sundust/capture-3.webp",
-        "alt": "Sundust: Explore & build (real English product capture)",
-        "label": "Explore & build",
-        "description": "Gather resources. Make it yours."
+        "alt": "Sundust: Construction (real English product capture)",
+        "label": "Construction",
+        "description": "Mine resources. Make a place to return to."
       },
       {
         "output": "/images/campaign/en-US/sundust/capture-4.webp",
-        "alt": "Sundust: Your adventure (real English product capture)",
-        "label": "Your adventure",
-        "description": "A small craft. Many possibilities."
+        "alt": "Sundust: Live orbital map (real English product capture)",
+        "label": "Live orbital map",
+        "description": "Read the orbits. Choose your next landing."
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/capture-5.webp",
+        "alt": "Sundust: The star chart (real English product capture)",
+        "label": "The star chart",
+        "description": "Keep exploring. See where the story leads."
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-capture-1.webp",
+        "alt": "Sundust: iPad / Fly through space (real English product capture)",
+        "label": "iPad / Fly through space",
+        "description": "A little rocket. A universe to explore."
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-capture-2.webp",
+        "alt": "Sundust: iPad / Surface exploration (real English product capture)",
+        "label": "iPad / Surface exploration",
+        "description": "Leave the ship. Explore on foot."
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-capture-3.webp",
+        "alt": "Sundust: iPad / Construction (real English product capture)",
+        "label": "iPad / Construction",
+        "description": "Mine resources. Make a place to return to."
+      },
+      {
+        "output": "/images/campaign/en-US/sundust/ipad-capture-4.webp",
+        "alt": "Sundust: iPad / Live orbital map (real English product capture)",
+        "label": "iPad / Live orbital map",
+        "description": "Read the orbits. Choose your next landing."
       }
     ],
-    "video_kind": "recorded-real-gameplay"
+    "video_kind": "recorded-real-gameplay",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "A small rocket.\nYour own adventure.",
+      "description": "Fly through real orbits, step out onto a world, build a base and follow the signals beyond your next landing.",
+      "primary_count": 5,
+      "palette": [
+        "#09151B",
+        "#F4E8CD",
+        "#EAC17A"
+      ],
+      "gallery_id": "screenshots"
+    }
   },
   "giftly": {
     "locale": "en-US",

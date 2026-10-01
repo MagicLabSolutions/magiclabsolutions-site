@@ -38,9 +38,15 @@
       "composition": "Three clean device views and three selected layered layouts per native platform."
     },
     "sundust": {
-      "status": "queued",
-      "primary_images": 4,
-      "website": "pending"
+      "status": "complete",
+      "primary_images": 5,
+      "website": "checked",
+      "native_variants": {
+        "iphone": 5,
+        "ipad": 4
+      },
+      "rationale": "Five distinct native game scenes: flight, surface exploration, construction, orbital map and star chart.",
+      "composition": "Three clean / two layered iPhone views; three clean / one layered iPad view."
     },
     "memories": {
       "status": "queued",
