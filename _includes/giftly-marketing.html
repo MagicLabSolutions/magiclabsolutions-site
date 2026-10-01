@@ -5,8 +5,10 @@
   </div>
   <p class="giftly-gallery-hint"><span>Swipe to explore. </span>Open an image to see the details.</p>
   <details class="giftly-ipad"><summary>See Giftly on iPad</summary><div class="giftly-tablet-gallery" role="list" aria-label="Giftly on iPad">{% for shot in campaign.gallery offset:4 %}<figure role="listitem"><button type="button" class="p-shot" data-p-image="{{ shot.output | relative_url }}" aria-label="Enlarge — {{ shot.alt | escape }}"><img src="{{ shot.output | relative_url }}" loading="lazy" width="{{ shot.width }}" height="{{ shot.height }}" alt="{{ shot.alt | escape }}"></button><figcaption>{{ shot.caption | remove: 'iPad / ' }}</figcaption></figure>{% endfor %}</div></details>
+  {% if site.product_videos_enabled %}
   <div class="giftly-walkthrough">
     <div class="p-proof-copy"><p class="p-kicker">A MOMENT WITH GIFTLY</p><h3>A little planning.<br>A personal gift.</h3><p>See what’s coming up, open the ideas you saved and keep their preferences close by.</p><ol>{% for step in campaign.steps %}<li>{{ step }}</li>{% endfor %}</ol><a class="p-button" href="{{ exp.store_url }}">{{ campaign.cta }} ↗</a></div>
     <video controls playsinline preload="none" poster="{{ campaign.poster | relative_url }}" aria-label="Giftly product walkthrough in English"><source src="{{ campaign.video | relative_url }}" type="video/mp4"><track kind="captions" src="{{ campaign.captions | relative_url }}" srclang="en" label="English" default><p><a href="{{ campaign.video | relative_url }}">Watch the Giftly video</a></p></video>
   </div>
+  {% endif %}
 </section>

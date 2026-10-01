@@ -315,6 +315,7 @@ lang-ref: sundust-page
     </section>
 
     <!-- VIDEO -->
+    {% if site.product_videos_enabled %}
     <section class="video-section">
         <div class="container">
             <div class="video-frame">
@@ -326,6 +327,7 @@ lang-ref: sundust-page
             <p class="video-caption">{{ s.video_caption | default: "Real orbits, live gravity — a lift-off from Home Base." }}</p>
         </div>
     </section>
+    {% endif %}
 
     <!-- FEATURES -->
     <section class="features" id="features">

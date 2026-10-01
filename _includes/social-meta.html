@@ -39,3 +39,5 @@
 <meta name="twitter:description" content="{{ social_description | strip_html | escape }}">
 <meta name="twitter:image" content="{{ social_image | absolute_url }}">
 <meta name="twitter:image:alt" content="{{ social_alt | escape }}">
+
+{% unless site.product_videos_enabled %}{% include product-video-policy.html %}{% endunless %}
