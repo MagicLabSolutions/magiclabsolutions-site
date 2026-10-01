@@ -11,16 +11,16 @@ for product in p:
     for kind in ['store','social','carousel']:
         if kind=='store' and product.get('preserve_store'):assert not list(folder.glob('store-*.png'));continue
         expected=(1080,1350) if kind!='store' else (2880,1800) if product['device']=='mac' else (2400,1500) if product['device']=='web' else (2868,1320) if product['device']=='landscape' else (1320,2868)
-        for n in range(1,5):
+        for n in range(1,(len(product['panels']) if kind=='store' else 4)+1):
             with Image.open(folder/f'{kind}-{n}.png') as im:assert im.size==expected,(product['slug'],kind,n,im.size)
             counts[kind]+=1
     if product.get('play_store'):
-        for n in range(1,5):
+        for n in range(1,len(product['play_store']['panels'])+1):
             with Image.open(folder/f'play-store-{n}.png') as im:assert im.size==(1080,1920)
             assert (folder/f'play-store-{n}.png').stat().st_size<8*1024*1024
             counts.setdefault('play_store',0);counts['play_store']+=1
     if product.get('ipad_store'):
-        for n in range(1,5):
+        for n in range(1,len(product['ipad_store']['panels'])+1):
             with Image.open(folder/f'ipad-store-{n}.png') as im:assert im.size==(2064,2752)
             counts.setdefault('ipad_store',0);counts['ipad_store']+=1
     for n in [1,2]:

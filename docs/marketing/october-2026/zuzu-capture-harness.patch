@@ -1,0 +1,32 @@
+diff --git a/Zuzu/SceneDelegate.swift b/Zuzu/SceneDelegate.swift
+index a3f094f7..3e5bf541 100644
+--- a/Zuzu/SceneDelegate.swift
++++ b/Zuzu/SceneDelegate.swift
+@@ -147,0 +148,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
++        if UserDefaultFlags.isScreenshotMode {
++            // Isolated campaign capture harness: route to the existing local fixture.
++            isInOnboarding = false
++            didStart = true
++            setRoot(MainViewController())
++            return
++        }
+diff --git a/ZuzuUITests/ZuzuScreenshotCapture.swift b/ZuzuUITests/ZuzuScreenshotCapture.swift
+index 899f96b3..2ea3292d 100644
+--- a/ZuzuUITests/ZuzuScreenshotCapture.swift
++++ b/ZuzuUITests/ZuzuScreenshotCapture.swift
+@@ -294,0 +295 @@ final class ZuzuScreenshotCapture: XCTestCase {
++            "-com.apple.TipKit.HideAllTips", "1",
+@@ -301,0 +303,5 @@ final class ZuzuScreenshotCapture: XCTestCase {
++        if UIDevice.current.userInterfaceIdiom == .pad {
++            _ = app.buttons["My Baby"].firstMatch.waitForExistence(timeout: 10)
++            return
++        }
++
+@@ -341,0 +348,7 @@ final class ZuzuScreenshotCapture: XCTestCase {
++        if UIDevice.current.userInterfaceIdiom == .pad {
++            let label = [0: "My Baby", 1: "Timeline", 3: "Sounds", 4: "Insights"][index] ?? "My Baby"
++            let button = app.buttons[label].firstMatch
++            XCTAssertTrue(button.waitForExistence(timeout: 5), "iPad tab missing: \(label)")
++            button.tap()
++            return
++        }

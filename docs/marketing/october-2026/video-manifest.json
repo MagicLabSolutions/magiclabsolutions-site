@@ -1,31 +1,5 @@
 [
   {
-    "slug": "hooray",
-    "reel": 1,
-    "kind": "edited-screen-walkthrough",
-    "seconds": 21,
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "voice_recorded": false,
-    "soundtrack": "original procedural instrumental",
-    "file": "docs/marketing/october-2026/exports/en-US/hooray/reel-1.mp4"
-  },
-  {
-    "slug": "hooray",
-    "reel": 2,
-    "kind": "edited-screen-walkthrough",
-    "seconds": 21,
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "voice_recorded": false,
-    "soundtrack": "original procedural instrumental",
-    "file": "docs/marketing/october-2026/exports/en-US/hooray/reel-2.mp4"
-  },
-  {
     "slug": "sundust",
     "reel": 1,
     "kind": "recorded-real-gameplay",
@@ -50,6 +24,58 @@
     "voice_recorded": false,
     "source": "Sundust/out/v2/r05.mp4",
     "file": "docs/marketing/october-2026/exports/en-US/sundust/reel-2.mp4"
+  },
+  {
+    "slug": "tumtum",
+    "reel": 1,
+    "kind": "recorded-real-gameplay",
+    "seconds": 26.0,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "voice_recorded": true,
+    "source": "TumTum/fastlane/app-previews/en-US/tumtum-app-preview-iphone.mp4",
+    "file": "docs/marketing/october-2026/exports/en-US/tumtum/reel-1.mp4"
+  },
+  {
+    "slug": "tumtum",
+    "reel": 2,
+    "kind": "recorded-real-gameplay",
+    "seconds": 30.0,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "voice_recorded": true,
+    "source": "TumTum/fastlane/app-previews/en-US/tumtum-parents-preview-iphone.mp4",
+    "file": "docs/marketing/october-2026/exports/en-US/tumtum/reel-2.mp4"
+  },
+  {
+    "slug": "hooray",
+    "reel": 1,
+    "kind": "edited-screen-walkthrough",
+    "seconds": 21,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "voice_recorded": false,
+    "soundtrack": "original procedural instrumental",
+    "file": "docs/marketing/october-2026/exports/en-US/hooray/reel-1.mp4"
+  },
+  {
+    "slug": "hooray",
+    "reel": 2,
+    "kind": "edited-screen-walkthrough",
+    "seconds": 21,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "voice_recorded": false,
+    "soundtrack": "original procedural instrumental",
+    "file": "docs/marketing/october-2026/exports/en-US/hooray/reel-2.mp4"
   },
   {
     "slug": "giftly",
@@ -102,32 +128,6 @@
     "voice_recorded": false,
     "soundtrack": "original procedural instrumental",
     "file": "docs/marketing/october-2026/exports/en-US/groundcontrol/reel-2.mp4"
-  },
-  {
-    "slug": "brainfold",
-    "reel": 1,
-    "kind": "edited-screen-walkthrough",
-    "seconds": 21,
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "voice_recorded": false,
-    "soundtrack": "original procedural instrumental",
-    "file": "docs/marketing/october-2026/exports/en-US/brainfold/reel-1.mp4"
-  },
-  {
-    "slug": "brainfold",
-    "reel": 2,
-    "kind": "edited-screen-walkthrough",
-    "seconds": 21,
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "voice_recorded": false,
-    "soundtrack": "original procedural instrumental",
-    "file": "docs/marketing/october-2026/exports/en-US/brainfold/reel-2.mp4"
   },
   {
     "slug": "memories",
@@ -208,32 +208,6 @@
     "file": "docs/marketing/october-2026/exports/en-US/soooon/reel-2.mp4"
   },
   {
-    "slug": "myrenewals",
-    "reel": 1,
-    "kind": "edited-screen-walkthrough",
-    "seconds": 21,
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "voice_recorded": false,
-    "soundtrack": "original procedural instrumental",
-    "file": "docs/marketing/october-2026/exports/en-US/myrenewals/reel-1.mp4"
-  },
-  {
-    "slug": "myrenewals",
-    "reel": 2,
-    "kind": "edited-screen-walkthrough",
-    "seconds": 21,
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "voice_recorded": false,
-    "soundtrack": "original procedural instrumental",
-    "file": "docs/marketing/october-2026/exports/en-US/myrenewals/reel-2.mp4"
-  },
-  {
     "slug": "toctoc",
     "reel": 1,
     "kind": "edited-screen-walkthrough",
@@ -260,30 +234,56 @@
     "file": "docs/marketing/october-2026/exports/en-US/toctoc/reel-2.mp4"
   },
   {
-    "slug": "tumtum",
+    "slug": "brainfold",
     "reel": 1,
-    "kind": "recorded-real-gameplay",
-    "seconds": 26.0,
+    "kind": "edited-screen-walkthrough",
+    "seconds": 21,
     "dimensions": [
       1080,
       1920
     ],
-    "voice_recorded": true,
-    "source": "TumTum/fastlane/app-previews/en-US/tumtum-app-preview-iphone.mp4",
-    "file": "docs/marketing/october-2026/exports/en-US/tumtum/reel-1.mp4"
+    "voice_recorded": false,
+    "soundtrack": "original procedural instrumental",
+    "file": "docs/marketing/october-2026/exports/en-US/brainfold/reel-1.mp4"
   },
   {
-    "slug": "tumtum",
+    "slug": "brainfold",
     "reel": 2,
-    "kind": "recorded-real-gameplay",
-    "seconds": 30.0,
+    "kind": "edited-screen-walkthrough",
+    "seconds": 21,
     "dimensions": [
       1080,
       1920
     ],
-    "voice_recorded": true,
-    "source": "TumTum/fastlane/app-previews/en-US/tumtum-parents-preview-iphone.mp4",
-    "file": "docs/marketing/october-2026/exports/en-US/tumtum/reel-2.mp4"
+    "voice_recorded": false,
+    "soundtrack": "original procedural instrumental",
+    "file": "docs/marketing/october-2026/exports/en-US/brainfold/reel-2.mp4"
+  },
+  {
+    "slug": "myrenewals",
+    "reel": 1,
+    "kind": "edited-screen-walkthrough",
+    "seconds": 21,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "voice_recorded": false,
+    "soundtrack": "original procedural instrumental",
+    "file": "docs/marketing/october-2026/exports/en-US/myrenewals/reel-1.mp4"
+  },
+  {
+    "slug": "myrenewals",
+    "reel": 2,
+    "kind": "edited-screen-walkthrough",
+    "seconds": 21,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "voice_recorded": false,
+    "soundtrack": "original procedural instrumental",
+    "file": "docs/marketing/october-2026/exports/en-US/myrenewals/reel-2.mp4"
   },
   {
     "slug": "zuzu",

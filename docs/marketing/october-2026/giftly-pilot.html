@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Giftly — layered store artwork pilot</title><style>
+*{box-sizing:border-box}html,body{margin:0}body{font-family:-apple-system,BlinkMacSystemFont,'Avenir Next',sans-serif;background:#f7f4ed}
+.art{position:relative;width:var(--w);height:var(--h);overflow:hidden;isolation:isolate;background:#f7f4ed;color:#183f35}
+.scene,.veil{position:absolute;inset:0;z-index:-3;background-size:cover;background-position:center}.veil{z-index:-2;background:linear-gradient(180deg,#15241fdb 0%,#15241f99 24%,#15241f22 43%,#15241f44 100%)}
+.brand{position:absolute;left:7%;top:4%;display:flex;align-items:center;gap:calc(var(--w)*.018);font-size:calc(var(--w)*.039);font-weight:650}.brand img{width:calc(var(--w)*.062);height:calc(var(--w)*.062);border-radius:24%}
+.copy{position:absolute;left:7%;right:7%;top:12%;z-index:5}h1{margin:0;font-size:calc(var(--w)*.108);font-weight:760;letter-spacing:-.045em;line-height:1.05;text-wrap:balance;white-space:pre-line}.description{font-size:calc(var(--w)*.049);line-height:1.35;margin:5% 0 0;white-space:pre-line;max-width:100%;font-weight:450}
+.capture-wrap{position:absolute;left:8%;right:8%;top:43%;bottom:0;display:flex;justify-content:center;align-items:flex-start}.device-frame{position:relative;flex:none}.capture{position:absolute;object-fit:contain}.device-bezel{position:absolute;inset:0;width:100%;height:100%;z-index:2}.device-frame img{display:block}
+.cutouts{position:absolute;inset:0;pointer-events:none;z-index:4}.ui-cutout{position:absolute;overflow:hidden;transform:rotate(var(--angle,0deg));border-radius:var(--radius);filter:drop-shadow(0 18px 24px #16392b25);outline:calc(var(--w)*.003) solid #fffef9;isolation:isolate}.ui-cutout img{position:absolute;display:block;max-width:none}.prop{position:absolute;object-fit:contain;z-index:3;pointer-events:none}.gift{width:31%;left:-6%;bottom:3%;transform:rotate(-12deg)}.person{width:53%;right:-9%;top:25%;z-index:0;transform:rotate(7deg)}
+.paper-scrap{position:absolute;z-index:-1;width:70%;height:44%;right:-18%;bottom:-3%;background:#e7eddc;transform:rotate(-13deg);border:calc(var(--w)*.005) solid #fffdf6}.paper-scrap:after{content:'';position:absolute;left:5%;top:9%;width:80%;height:80%;border:2px dashed #8ca49266}
+[data-panel="0"]{color:white}[data-panel="0"] .prop,[data-panel="0"] .paper-scrap{display:none}[data-panel="0"] .description{text-shadow:0 2px 8px #14241f60}
+[data-panel="1"] .veil{background:linear-gradient(180deg,#f7f4edf8 0%,#f7f4eddc 29%,#f7f4ed45 49%,#f7f4ed6e 100%)}[data-panel="1"] .scene{background-position:58% 55%}[data-panel="1"] .gift{right:-6%;left:auto;bottom:1%;width:30%;transform:rotate(12deg)}[data-panel="1"] .person{display:none}
+[data-panel="2"] .veil{background:linear-gradient(135deg,#f7f4edee,#f7f4edd9)}[data-panel="2"] .scene{background-position:20% 75%}[data-panel="2"] .person{display:none}
+[data-panel="3"] .scene{display:none}[data-panel="3"] .veil{background:linear-gradient(150deg,#f7f4ed,#eef0e5)}[data-panel="3"] .gift{width:29%;left:auto;right:-7%;bottom:1%;transform:rotate(15deg)}
+.tablet .capture-wrap{top:43%;left:5%;right:5%}.tablet .copy{top:12%}.tablet h1{font-size:calc(var(--w)*.094)}.tablet .description{font-size:calc(var(--w)*.047);margin-top:3%}.tablet .brand{top:4%;font-size:calc(var(--w)*.035)}.tablet .brand img{width:calc(var(--w)*.054);height:calc(var(--w)*.054)}.tablet .person{top:26%;width:44%}.tablet .gift{width:23%}
+</style></head><body><main class="art" id="art"><div class="scene"></div><div class="veil"></div><div class="paper-scrap"></div><div class="brand"><img id="icon" alt=""><span id="name"></span></div><div class="copy"><h1 id="headline"></h1><p class="description" id="description"></p></div><img class="prop gift" id="gift" alt=""><img class="prop person" id="person" alt=""><div class="capture-wrap"><div class="device-frame" id="device"><img class="capture" id="capture" alt=""><img class="device-bezel" id="bezel" alt=""></div></div><div class="cutouts" id="cutouts"></div></main><script>
+window.renderArtwork=async function(p,index,format,dimensions){
+ const root=document.querySelector('#art'),tablet=p.device==='ipad',pilot=p.store_pilot;
+ document.documentElement.style.cssText=`--w:${dimensions[0]}px;--h:${dimensions[1]}px`;
+ root.className='art'+(tablet?' tablet':'');root.dataset.slug=p.slug;root.dataset.panel=index;root.dataset.background=p.background;
+ document.querySelector('.scene').style.backgroundImage=`url('${p.background}')`;
+ const bg=new Image();bg.src=p.background;await bg.decode();
+ document.querySelector('#icon').src=p.icon;document.querySelector('#name').textContent=p.name;
+ document.querySelector('#headline').textContent=(p.store_pilot_copy||pilot.copy)[index][0];document.querySelector('#description').textContent=(p.store_pilot_copy||pilot.copy)[index][1];
+ document.querySelector('#gift').src=pilot.gift;document.querySelector('#person').src=pilot.person;
+ const cap=document.querySelector('#capture'),device=document.querySelector('#device');cap.src=p.screens[index];document.querySelector('#bezel').src=p.frame.asset;
+ document.querySelector('#cutouts').replaceChildren();
+ await Promise.all([...document.images].map(im=>im.decode()));await document.fonts.ready;
+ const wrap=document.querySelector('.capture-wrap'),[fw,fh]=p.frame.dimensions,[x,y,w,h]=p.frame.screen,scale=wrap.getBoundingClientRect().width/fw;
+ device.style.cssText=`width:${fw*scale}px;height:${fh*scale}px`;cap.style.cssText=`left:${x/fw*100}%;top:${y/fh*100}%;width:${w/fw*100}%;height:${h/fh*100}%;border-radius:${(tablet?42:150)*scale}px`;
+ for(const c of (tablet?pilot.ipad_cutouts:pilot.cutouts)[index]){
+  const [l,t,r,b]=c.rect,width=dimensions[0]*c.width,s=width/(r-l),el=document.createElement('div'),im=document.createElement('img');
+  el.className='ui-cutout';el.dataset.source=c.source;el.dataset.rect=JSON.stringify(c.rect);el.style.cssText=`left:${c.left*100}%;top:${c.top*100}%;width:${width}px;height:${(b-t)*s}px;--radius:${c.radius*s}px;--angle:${c.angle||0}deg`;
+  im.src=c.source;await im.decode();im.style.cssText=`width:${im.naturalWidth*s}px;height:${im.naturalHeight*s}px;left:${-l*s}px;top:${-t*s}px`;el.append(im);document.querySelector('#cutouts').append(el);
+ }
+ return {scrollWidth:document.documentElement.scrollWidth,scrollHeight:document.documentElement.scrollHeight,headlineHeight:document.querySelector('h1').getBoundingClientRect().height};
+};
+</script></body></html>

@@ -7,7 +7,7 @@
   "layout_rules": {
     "max_headline_lines": 3,
     "reserve_text_expansion_percent": 30,
-    "minimum_body_export_pixels": 32,
+    "minimum_body_export_pixels": 62,
     "font_fallback": "system CJK fonts for Japanese, Korean and Chinese; preserve brand font when supported",
     "rtl": "future locales require mirrored reading order and native RTL captures, not flipped app screenshots"
   },

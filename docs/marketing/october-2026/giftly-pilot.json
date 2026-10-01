@@ -1,0 +1,181 @@
+{
+  "revision": "giftly-layered-2026-10-01",
+  "copy": [
+    [
+      "Give a little\nmore thought.",
+      "Birthdays remembered.\nGift ideas saved."
+    ],
+    [
+      "See the next\ncelebration.",
+      "Birthdays and special dates,\nall in one place."
+    ],
+    [
+      "Save the idea.\nMake their day.",
+      "Keep gift ideas with\nthe person they’re for."
+    ],
+    [
+      "The details make\nit personal.",
+      "Tastes, sizes and past gifts,\nready when you need them."
+    ]
+  ],
+  "gift": "/docs/marketing/october-2026/assets/giftly/gift-cutout.png",
+  "person": "/docs/marketing/october-2026/assets/giftly/person-cutout.png",
+  "cutouts": [
+    [],
+    [
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/screen-2.png",
+        "rect": [
+          60,
+          691,
+          1260,
+          885
+        ],
+        "width": 0.94,
+        "left": 0.025,
+        "top": 0.6,
+        "radius": 48,
+        "angle": -3
+      },
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/screen-2.png",
+        "rect": [
+          60,
+          911,
+          1260,
+          1104
+        ],
+        "width": 0.85,
+        "left": 0.1,
+        "top": 0.705,
+        "radius": 48,
+        "angle": 2
+      }
+    ],
+    [
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/screen-3.png",
+        "rect": [
+          60,
+          1627,
+          1260,
+          2257
+        ],
+        "width": 0.93,
+        "left": 0.035,
+        "top": 0.615,
+        "radius": 45,
+        "angle": -2
+      }
+    ],
+    [
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/screen-3.png",
+        "rect": [
+          60,
+          1309,
+          1260,
+          1582
+        ],
+        "width": 0.94,
+        "left": 0.03,
+        "top": 0.62,
+        "radius": 45,
+        "angle": 2
+      },
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/screen-3.png",
+        "rect": [
+          60,
+          1047,
+          647,
+          1258
+        ],
+        "width": 0.47,
+        "left": 0.035,
+        "top": 0.78,
+        "radius": 44,
+        "angle": -3
+      }
+    ]
+  ],
+  "ipad_cutouts": [
+    [],
+    [
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/ipad/screen-2.png",
+        "rect": [
+          653,
+          298,
+          2013,
+          423
+        ],
+        "width": 0.94,
+        "left": 0.025,
+        "top": 0.6,
+        "radius": 40,
+        "angle": -3
+      },
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/ipad/screen-2.png",
+        "rect": [
+          653,
+          447,
+          2013,
+          574
+        ],
+        "width": 0.85,
+        "left": 0.1,
+        "top": 0.7,
+        "radius": 40,
+        "angle": 2
+      }
+    ],
+    [
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/ipad/screen-3.png",
+        "rect": [
+          1370,
+          212,
+          2021,
+          628
+        ],
+        "width": 0.73,
+        "left": 0.14,
+        "top": 0.59,
+        "radius": 40,
+        "angle": -2
+      }
+    ],
+    [
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/ipad/screen-3.png",
+        "rect": [
+          641,
+          830,
+          1295,
+          1078
+        ],
+        "width": 0.74,
+        "left": 0.03,
+        "top": 0.61,
+        "radius": 40,
+        "angle": 2
+      },
+      {
+        "source": "/docs/marketing/october-2026/sources/giftly/ipad/screen-3.png",
+        "rect": [
+          641,
+          659,
+          957,
+          800
+        ],
+        "width": 0.4,
+        "left": 0.035,
+        "top": 0.79,
+        "radius": 38,
+        "angle": -3
+      }
+    ]
+  ]
+}

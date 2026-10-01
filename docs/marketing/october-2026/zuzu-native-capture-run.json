@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-01",
+  "base_revision": "d51c7ab4f31a032fde23f11d1a6c59141cc29030",
+  "fixture": "Existing ScreenshotFixture; no real care records",
+  "build": "isolated worktree with capture-only entry route and TipKit launch flag",
+  "patch": "zuzu-capture-harness.patch",
+  "test": "ZuzuUITests/ZuzuScreenshotCapture/testCaptureEnglishOnly",
+  "result": "TEST SUCCEEDED",
+  "phone": "iPhone 17 Pro Max simulator, native 1320x2868",
+  "captures": [
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/08_home.png",
+      "sha256": "97f89efe7932eaf4ba31ccf894d242a8b76f984023618724afad15a9d170c2b9"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/10_sounds.png",
+      "sha256": "8af2d0f15821a5c44f2d26bb7cf2373395c585047cdf6669a4bf3eeaca896ab8"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/04_active_nap.png",
+      "sha256": "3e0fe793508c6ab9cfd6244669866f45066cdc66994769c8880b15cad9ecc23a"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/05_timeline_events.png",
+      "sha256": "3b4a09a8866c6d197241b4505295a528fcbdcae5217c5617f27d7f6600f56666"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/06_insights.png",
+      "sha256": "6210bbe10676cb49b60f5e10b0db4dfea3cabb6beb56ffe949baf91d81fd0d62"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/03_pregnancy.png",
+      "sha256": "bdc415eb87f9b98e0e277aa00706425822f336785924709a6cf054c85bdca0db"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/09_sleeping_mode.png",
+      "sha256": "565417255b9b2eff7c2c353b9faa780784f0079cab0764a5681d02003e8ce3de"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/02_quick_log_bottle.png",
+      "sha256": "798362915f82929acb96ae8432990ad1c23abe94ba9523201f283a81b1f83346"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/07_growth.png",
+      "sha256": "95b8e5332f029d40e145ac81b5a13ff47f62e8e98fa13c9b31b50225a2cdc79b"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/native/01_hero_arc.png",
+      "sha256": "bbc5837d68a647fd38157f280fd398b12fd6d1dff5e09251010a5350eec90760"
+    }
+  ],
+  "ipad": "iPad Pro 13-inch (M5), native 2064x2752",
+  "ipad_result": "TEST SUCCEEDED",
+  "ipad_captures": [
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/08_home.png",
+      "sha256": "65334592a9d5737d56bfc4662262a08c771e88ca0e79bdd55ede9a46832cce21"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/10_sounds.png",
+      "sha256": "ae37cf73df8b5db33a4b75dc10a461e0cee4743b264aa93c61cb817aa1a8659d"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/04_active_nap.png",
+      "sha256": "6b685d2075a945a4e95561261627a59804b0dfd3e1812fae45264bcffae5ecbb"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/05_timeline_events.png",
+      "sha256": "b433bffab02b7c088bb0f3a116e435d8f27820d7beab2598f6d40cae48833cbf"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/06_insights.png",
+      "sha256": "34d5775ad0208cd0eb536425916c975cd9b8b76ae9300bb9bd0d69810ab4f9cb"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/03_pregnancy.png",
+      "sha256": "3e49060457871d6605cbd715c8d53c376aad1069d6ffde867a85e1b7b32a73cf"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/09_sleeping_mode.png",
+      "sha256": "6dc15b18de63e2181c4c28168663ba45be5bacc5e7850e3eb29a7fb075556b3c"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/02_quick_log_bottle.png",
+      "sha256": "0ded0a4c0f4704e225e61a41978b5567935c8e69b61d528e8f0b91fa447b4845"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/07_growth.png",
+      "sha256": "92e4262d4528dcbffe87345128999d990188bc325739ebb56188453909d16627"
+    },
+    {
+      "capture": "docs/marketing/october-2026/sources/zuzu/ipad/native/01_hero_arc.png",
+      "sha256": "b82217e5f52a22282016d635bbc2c54559d620fc441bdb8bfacbb31c12e264cb"
+    }
+  ]
+}

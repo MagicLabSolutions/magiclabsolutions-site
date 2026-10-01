@@ -26,13 +26,16 @@ for(const p of campaign.products){
  for(const [format,dimensions] of formats){
   if(process.env.MAGICLAB_FORMATS&&!process.env.MAGICLAB_FORMATS.split(',').includes(format))continue;
   await page.setViewportSize({width:dimensions[0],height:dimensions[1]});
-  await page.goto(base+'/docs/marketing/october-2026/art.html');
+  const pilot=p.store_pilot&&['store','ipad-store'].includes(format);
+  await page.goto(base+'/docs/marketing/october-2026/'+(pilot?'giftly-pilot.html':'art.html'));
   const variants=format==='video'?[0,1]:[0];
-  for(const variant of variants)for(let i=0;i<(format==='video'?3:4);i++){
+  const visualProduct=format==='play-store'?{...p,...p.play_store,frame:null,capture_has_device_frame:false}:format==='ipad-store'?{...p,...p.ipad_store,capture_has_device_frame:false}:p;
+  const count=format==='video'?3:['store','play-store','ipad-store'].includes(format)?visualProduct.panels.length:4;
+  for(const variant of variants)for(let i=0;i<count;i++){
    const visual=await page.evaluate(({p,i,format,dimensions,variant})=>window.renderArtwork(p,i,format,dimensions,variant),{p:format==='play-store'?{...p,...p.play_store,frame:null,capture_has_device_frame:false}:format==='ipad-store'?{...p,...p.ipad_store,capture_has_device_frame:false}:p,i,format:['play-store','ipad-store'].includes(format)?'store':format,dimensions,variant});
    const filename=format==='video'?`reel-${variant+1}-frame-${i+1}.png`:`${format}-${i+1}.png`;
    await page.screenshot({path:path.join(output,filename)});
-   const metrics=await page.evaluate(()=>{const img=document.querySelector('#capture'),h=document.querySelector('h1'),wrap=document.querySelector('.capture-wrap');return {headline:h.getBoundingClientRect().toJSON(),image:img.getBoundingClientRect().toJSON(),wrapper:wrap.getBoundingClientRect().toJSON(),imageNaturalWidth:img.naturalWidth};});
+   const metrics=await page.evaluate(()=>{const img=document.querySelector('#capture'),h=document.querySelector('h1'),d=document.querySelector('#description'),wrap=document.querySelector('.capture-wrap'),focus=document.querySelector('.focus');return {headline:h.getBoundingClientRect().toJSON(),image:img.getBoundingClientRect().toJSON(),wrapper:wrap.getBoundingClientRect().toJSON(),imageNaturalWidth:img.naturalWidth,headlinePixels:parseFloat(getComputedStyle(h).fontSize),descriptionPixels:parseFloat(getComputedStyle(d).fontSize),background:document.querySelector('#art').dataset.background,focus:focus&&!focus.hidden?focus.getBoundingClientRect().toJSON():null,cutouts:[...document.querySelectorAll('.ui-cutout')].map(el=>({bounds:el.getBoundingClientRect().toJSON(),source:el.dataset.source,rect:JSON.parse(el.dataset.rect)})),device:document.querySelector('#device').getBoundingClientRect().toJSON()};});
    if(visual.scrollWidth>dimensions[0]||visual.scrollHeight>dimensions[1])throw Error(`${p.slug}/${filename}: artwork overflows`);
    records.push({slug:p.slug,filename,format,dimensions,...metrics});
   }

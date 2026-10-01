@@ -9,23 +9,23 @@
       "position": "The whole group, in one thoughtful card.",
       "panels": [
         [
-          "One card. Everyone signs.",
-          "Make the celebration feel like all of you.",
+          "Everyone signs.",
+          "One thoughtful group card.",
           "A group greeting card"
         ],
         [
           "Make it personal.",
-          "Add words and stickers that sound like you.",
+          "Add your words and stickers.",
           "Messages & stickers"
         ],
         [
-          "A little surprise.",
-          "Open a card filled with thoughtful messages.",
+          "Open the surprise.",
+          "A card full of thoughtful messages.",
           "The finished card"
         ],
         [
-          "For your kind of occasion.",
-          "Birthdays, thank-yous and goodbyes worth remembering.",
+          "For your occasion.",
+          "Birthdays, thanks and goodbyes.",
           "Celebrate together"
         ]
       ],
@@ -62,7 +62,14 @@
         "GroupCard",
         "BirthdayCard",
         "TeamCelebration"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "A personal touch",
+        "Everyone’s words",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "sundust": {
       "title": "Sundust: Space Sandbox",
@@ -71,23 +78,23 @@
       "position": "Your own small space adventure, one landing at a time.",
       "panels": [
         [
-          "Your next world awaits.",
-          "Fly a rocket into a universe of discoveries.",
+          "Your next world.",
+          "Fly into a universe of discoveries.",
           "A space sandbox"
         ],
         [
-          "Make the landing yours.",
-          "Find your way from orbit to the surface.",
+          "Find your landing.",
+          "From orbit to the surface.",
           "Fly & land"
         ],
         [
-          "Stay a little longer.",
-          "Explore, gather resources and build.",
+          "Explore. Build. Stay.",
+          "Gather resources. Make it yours.",
           "Explore & build"
         ],
         [
-          "Chart your own journey.",
-          "A small spacecraft. So many possibilities.",
+          "Choose your journey.",
+          "A small craft. Many possibilities.",
           "Your adventure"
         ]
       ],
@@ -124,7 +131,14 @@
         "SpaceGame",
         "SandboxGame",
         "IndieGame"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "Find your landing",
+        "Explore the surface",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "giftly": {
       "title": "Giftly: Birthdays & Gift Ideas",
@@ -133,23 +147,23 @@
       "position": "Remember the person, the date and the idea.",
       "panels": [
         [
+          "Give a little more thought.",
           "Birthdays remembered. Gift ideas saved.",
-          "Remember the person. Save the idea.",
           "Birthdays & gift ideas"
         ],
         [
           "See the next celebration.",
-          "Keep birthdays and special dates in view.",
+          "Birthdays and special dates, all in one place.",
           "Dates that matter"
         ],
         [
-          "Save it when you think of it.",
-          "Keep gift ideas with the person they belong to.",
+          "Save the idea. Make their day.",
+          "Keep gift ideas with the person they’re for.",
           "Ideas, not guesswork"
         ],
         [
-          "Know them a little better.",
-          "Tastes, sizes and past gifts, together.",
+          "The details make it personal.",
+          "Tastes, sizes and past gifts, ready when you need them.",
           "The little details"
         ]
       ],
@@ -187,26 +201,57 @@
         "BirthdayReminder",
         "ThoughtfulGifts"
       ],
+      "detail_labels": [
+        null,
+        "Dates worth remembering",
+        "An idea worth keeping",
+        null
+      ],
+      "detail_note": "A closer look",
       "ipad_store_panels": [
         [
+          "Give a little more thought.",
           "Birthdays remembered. Gift ideas saved.",
-          "Remember the person. Save the idea.",
           "Birthdays & gift ideas"
         ],
         [
           "See the next celebration.",
-          "Keep birthdays and special dates in view.",
+          "Birthdays and special dates, all in one place.",
           "Dates that matter"
         ],
         [
-          "Save it when you think of it.",
-          "Keep gift ideas with the person they belong to.",
+          "Save the idea. Make their day.",
+          "Keep gift ideas with the person they’re for.",
           "Ideas, not guesswork"
         ],
         [
-          "Know them a little better.",
-          "Tastes, sizes and past gifts, together.",
+          "The details make it personal.",
+          "Tastes, sizes and past gifts, ready when you need them.",
           "The little details"
+        ]
+      ],
+      "ipad_store_detail_labels": [
+        null,
+        "Dates that matter",
+        "Ideas, not guesswork",
+        null
+      ],
+      "store_pilot_copy": [
+        [
+          "Give a little\nmore thought.",
+          "Birthdays remembered.\nGift ideas saved."
+        ],
+        [
+          "See the next\ncelebration.",
+          "Birthdays and special dates,\nall in one place."
+        ],
+        [
+          "Save the idea.\nMake their day.",
+          "Keep gift ideas with\nthe person they’re for."
+        ],
+        [
+          "The details make\nit personal.",
+          "Tastes, sizes and past gifts,\nready when you need them."
         ]
       ]
     },
@@ -217,23 +262,23 @@
       "position": "A clear view of your Git fleet before the next move.",
       "panels": [
         [
-          "Your Git fleet. In view.",
-          "Know what needs attention across your repositories.",
+          "Your Git fleet.",
+          "See what needs your attention.",
           "Git on your Mac"
         ],
         [
           "Follow every branch.",
-          "Read the history as a visual flight map.",
+          "Read a visual map of your history.",
           "Branches & history"
         ],
         [
           "See what changed.",
-          "Review local changes before your next move.",
+          "Review your local changes.",
           "Changes in context"
         ],
         [
-          "Pull with a clear view.",
-          "Inspect your repository before you act.",
+          "Pull with clarity.",
+          "Inspect before your next move.",
           "Stay oriented"
         ]
       ],
@@ -270,7 +315,14 @@
         "Git",
         "MacDeveloper",
         "DeveloperTools"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "Read the branch map",
+        "Review the change",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "brainfold": {
       "title": "Brainfold: AI Flashcards",
@@ -333,6 +385,13 @@
         "StudyRoutine",
         "StudentLife"
       ],
+      "detail_labels": [
+        null,
+        "Make it stick",
+        "Test your recall",
+        null
+      ],
+      "detail_note": "A closer look",
       "ipad_store_panels": [
         [
           "Turn notes into flashcards.",
@@ -354,6 +413,12 @@
           "Ask the AI tutor about your study material.",
           "Help in context"
         ]
+      ],
+      "ipad_store_detail_labels": [
+        null,
+        "Rich summaries",
+        "Battle mode",
+        null
       ]
     },
     "memories": {
@@ -416,7 +481,14 @@
         "MonthlyFilm",
         "FamilyMemories",
         "PhotoJournal"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "Month by month",
+        "Keep a favorite",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "poof": {
       "title": "Poof: Mac Cleaner",
@@ -425,23 +497,23 @@
       "position": "Know what is taking up space, then choose what goes.",
       "panels": [
         [
-          "Make room for what’s next.",
-          "See what is taking up space on your Mac.",
+          "Make a little room.",
+          "See what takes up space on your Mac.",
           "A clearer view of storage"
         ],
         [
           "Choose what goes.",
-          "Review the selection before cleaning.",
+          "Review your selection first.",
           "You stay in control"
         ],
         [
-          "Find the build leftovers.",
-          "See development clutter in one place.",
+          "Build. Clean. Repeat.",
+          "Find development clutter.",
           "Room for your next project"
         ],
         [
-          "A little breathing space.",
-          "Understand the clutter before you act.",
+          "Room for what’s next.",
+          "Understand before you act.",
           "Less mystery. More room."
         ]
       ],
@@ -478,7 +550,14 @@
         "MacStorage",
         "DeveloperTools",
         "MacApps"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "Review before cleaning",
+        "Find build clutter",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "soooon": {
       "title": "Soooon: Countdown Widgets",
@@ -541,6 +620,13 @@
         "TravelCountdown",
         "Widgets"
       ],
+      "detail_labels": [
+        null,
+        "The wait feels different",
+        "Your next big day",
+        null
+      ],
+      "detail_note": "A closer look",
       "ipad_store_panels": [
         [
           "Count down to your next big day.",
@@ -562,6 +648,12 @@
           "Give your countdown a little personality.",
           "A companion for the wait"
         ]
+      ],
+      "ipad_store_detail_labels": [
+        null,
+        "Count down together",
+        "Something to look forward to",
+        null
       ]
     },
     "myrenewals": {
@@ -624,7 +716,14 @@
         "SubscriptionTracker",
         "RecurringPayments",
         "MonthlyBudget"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "See the total",
+        "Know the next date",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "toctoc": {
       "title": "Toc Toc: Meeting Reminders",
@@ -634,22 +733,22 @@
       "panels": [
         [
           "Deep in work? Toc toc.",
-          "Your meeting gets a moment of your attention.",
+          "Give your meeting your attention.",
           "Meeting reminders"
         ],
         [
-          "See the time. Join the call.",
-          "A visible countdown and a path to your meeting.",
+          "Time to join.",
+          "See the countdown. Join the call.",
           "A reminder you can see"
         ],
         [
-          "Keep the next call nearby.",
-          "See upcoming meetings from the menu bar.",
+          "Your next call.",
+          "Keep meetings in the menu bar.",
           "Your agenda, at a glance"
         ],
         [
-          "Let your reminder stand out.",
-          "Choose how Toc Toc gets your attention.",
+          "Make it stand out.",
+          "Choose how your reminder appears.",
           "Fit it to your day"
         ]
       ],
@@ -686,7 +785,14 @@
         "MeetingReminder",
         "MacApps",
         "DeepWork"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "Time to join",
+        "See the next call",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "tumtum": {
       "title": "TumTum: Open-Ended Play",
@@ -748,7 +854,14 @@
         "OpenEndedPlay",
         "DigitalToys",
         "PlayTogether"
-      ]
+      ],
+      "detail_labels": [
+        null,
+        "Make a little story",
+        "Follow curiosity",
+        null
+      ],
+      "detail_note": "A closer look"
     },
     "zuzu": {
       "title": "Zuzu: Baby Tracker & Sleep",
@@ -757,24 +870,34 @@
       "position": "Bring the baby’s day into one shared view.",
       "panels": [
         [
-          "Baby’s day. In one shared view.",
-          "Keep naps, feeds and changes in one view.",
-          "Baby care, together"
+          "Baby’s day. All together.",
+          "Sleep, feeds and changes in one view.",
+          "Everyday baby care"
         ],
         [
-          "Follow the little moments.",
-          "See feeds and everyday events on a timeline.",
-          "The day, in order"
+          "Every little moment.",
+          "Keep the day’s events in order.",
+          "A daily timeline"
         ],
         [
-          "Keep the routine in view.",
-          "See sleep, feeding and changes together.",
-          "A shared view of the day"
+          "See their daily patterns.",
+          "Explore insights from everyday logs.",
+          "Baby care insights"
         ],
         [
-          "Keep the little details.",
-          "Bring growth records and daily care together.",
-          "The details that help"
+          "Watch them grow.",
+          "Keep growth records close by.",
+          "Growth records"
+        ],
+        [
+          "Start before the birth.",
+          "Follow the weeks while you wait.",
+          "Pregnancy countdown"
+        ],
+        [
+          "A nap. As it happens.",
+          "Start a nap and follow its timer.",
+          "Sleep tracking"
         ]
       ],
       "hooks": [
@@ -811,27 +934,94 @@
         "NewParents",
         "FamilyCare"
       ],
+      "detail_labels": [
+        null,
+        "The day, in order",
+        "See everyday patterns",
+        "Watch them grow",
+        "Before the birth",
+        null
+      ],
+      "detail_note": "A closer look",
       "play_store_panels": [
         [
-          "Baby’s day. In one shared view.",
-          "Keep everyday baby care together.",
+          "Baby’s day. All together.",
+          "Keep everyday baby care in view.",
           "Baby care on Android"
         ],
         [
-          "Follow the little moments.",
-          "See everyday events on the timeline.",
-          "The day, in order"
+          "Every little moment.",
+          "Follow the day’s events in order.",
+          "A daily timeline"
         ],
         [
-          "Keep the little details.",
+          "Log the little details.",
           "Add feeds, changes and everyday care.",
           "Everyday logs"
         ],
         [
           "Their details, close by.",
-          "Keep your baby’s profile in one place.",
-          "A personal baby profile"
+          "Keep a personal baby profile.",
+          "Baby profile"
+        ],
+        [
+          "Settle into the quiet.",
+          "Explore the soothing sounds screen.",
+          "Soothing sounds"
+        ],
+        [
+          "Ready for the next moment.",
+          "Return to your everyday care overview.",
+          "An everyday overview"
         ]
+      ],
+      "play_store_detail_labels": [
+        null,
+        "A daily timeline",
+        "Everyday logs",
+        "Baby profile",
+        "Soothing sounds",
+        null
+      ],
+      "ipad_store_panels": [
+        [
+          "Baby’s day. All together.",
+          "Sleep, feeds and changes in one view.",
+          "Everyday baby care"
+        ],
+        [
+          "Every little moment.",
+          "Keep the day’s events in order.",
+          "A daily timeline"
+        ],
+        [
+          "See their daily patterns.",
+          "Explore insights from everyday logs.",
+          "Baby care insights"
+        ],
+        [
+          "Watch them grow.",
+          "Keep growth records close by.",
+          "Growth records"
+        ],
+        [
+          "Start before the birth.",
+          "Follow the weeks while you wait.",
+          "Pregnancy countdown"
+        ],
+        [
+          "A nap. As it happens.",
+          "Start a nap and follow its timer.",
+          "Sleep tracking"
+        ]
+      ],
+      "ipad_store_detail_labels": [
+        null,
+        "A daily timeline",
+        "Baby care insights",
+        "Growth records",
+        "Pregnancy countdown",
+        null
       ]
     }
   }

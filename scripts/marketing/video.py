@@ -2,7 +2,7 @@
 
 All videos are English drafts for review. No external upload is implemented.
 """
-import json,math,shutil,subprocess,wave
+import json,math,shutil,subprocess,wave,sys
 from pathlib import Path
 import numpy as np
 from PIL import Image
@@ -35,6 +35,7 @@ for kind in ['warm','space']:music(audio/f'original-{kind}-bed.wav',kind)
 records=[]
 products=json.loads((OUT/'campaign.json').read_text())['products']
 for p in products:
+    if sys.argv[1:] and p['slug'] not in sys.argv[1:]:continue
     folder=OUT/'exports/en-US'/p['slug'];work=folder/'work';work.mkdir(exist_ok=True)
     for reel in [1,2]:
         if (audio/p['slug']/f'reel-{reel}.mp3').exists():
@@ -95,4 +96,6 @@ for p in products:
         records.append({'slug':p['slug'],'reel':variant+1,'kind':'edited-screen-walkthrough','seconds':seconds,'dimensions':[1080,1920],'voice_recorded':narration.exists(),'soundtrack':'approved TumTum ElevenLabs instrumental' if p['slug']=='tumtum' else 'original procedural instrumental','file':str(target.relative_to(ROOT))})
         print(f'{p["name"]}: reel {variant+1} ready',flush=True)
     shutil.rmtree(work)
-(OUT/'video-manifest.json').write_text(json.dumps(records,indent=2)+'\n')
+old=json.loads((OUT/'video-manifest.json').read_text()) if sys.argv[1:] else []
+keys={(r['slug'],r['reel']) for r in records}
+(OUT/'video-manifest.json').write_text(json.dumps([r for r in old if (r['slug'],r['reel']) not in keys]+records,indent=2)+'\n')

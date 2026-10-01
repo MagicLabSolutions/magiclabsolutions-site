@@ -10,10 +10,10 @@
     </video>
     <div class="p-proof-copy"><h3>{{ campaign.headline }}</h3><p>{{ campaign.description }}</p><ol>{% for step in campaign.steps %}<li>{{ step }}</li>{% endfor %}</ol><a class="p-button" href="{% if exp.store_url %}{{ exp.store_url }}{% elsif exp.web_url %}{{ exp.web_url }}{% else %}#inside{% endif %}">{{ campaign.cta }} ↗</a></div>
   </div>
-  {% unless exp.slug == 'tumtum' %}
+  {% if campaign.gallery.size > 0 %}
   <div class="p-gallery p-campaign-gallery" role="list" aria-label="{{ exp.name }} highlights in English">
     {% for shot in campaign.gallery %}<figure role="listitem"><button class="p-shot" data-p-image="{{ shot.output | relative_url }}" aria-label="Enlarge — {{ shot.alt | escape }}"><img src="{{ shot.output | relative_url }}" loading="lazy" width="{{ shot.width }}" height="{{ shot.height }}" alt="{{ shot.alt | escape }}"></button><figcaption>{{ shot.caption }}</figcaption></figure>{% endfor %}
   </div>
-  {% endunless %}
+  {% endif %}
 </section>
 {% endif %}

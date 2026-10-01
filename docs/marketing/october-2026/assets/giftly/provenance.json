@@ -1,0 +1,21 @@
+{
+  "provider": "built-in image_gen",
+  "created_at": "2026-10-01",
+  "records": [
+    {
+      "asset": "gift-cutout.png",
+      "original": "/Users/fabio.hoffmann/.codex/generated_images/01a0f7a7-52ba-7c32-b964-dfa22d78d618/exec-57e93b12-e4aa-4517-b658-bd7ad3d2d9cb.png",
+      "prompt": "Use case: product-mockup. Asset type: transparent cutout for Giftly App Store marketing, corner decoration. Create one photorealistic elegant small wrapped gift, muted sage green textured paper with a cream cotton ribbon and bow, a tiny sprig of rosemary tucked under the bow. Three quarter view, natural warm window lighting, premium editorial photography, realistic fiber texture and crisp clean silhouette. Add a continuous moderately thick white paper-cut sticker contour hugging the exact outer silhouette, including bow and rosemary, like a magazine photo cutout. Nothing else: no ground, no floor, no rectangle, no backdrop, no cast shadow outside the silhouette, no text, no logos, no phone, no UI. Transparent background outside the white cutout outline. Gift centered with generous transparent margin. This must look like an actual beautiful wrapped gift, not a 3D toy render.",
+      "type": "new-photographic-gift-sticker",
+      "sha256": "b35282134f4144183401ddf2fb374aa3081523434cbda0ca0d7ce88d90fadce6"
+    },
+    {
+      "asset": "person-cutout.png",
+      "original": "/Users/fabio.hoffmann/.codex/generated_images/01a0f7a7-52ba-7c32-b964-dfa22d78d618/exec-27142492-f84b-4044-ac72-9d3746c2629d.png",
+      "prompt": "Use case: background-extraction. Edit target: the supplied Giftly celebration lifestyle photo. Extract only the smiling woman on the LEFT wearing a cream knit sweater, INCLUDING her hands and the sage green wrapped gift she is holding. Remove the entire room background, the other woman, table, cups, plants, everything else. Keep the first woman's face, identity, cream sweater, natural photographic lighting and expression matching the original exactly. Complete a clean waist-up cutout with intact elbows, hands and gift, no cropped fingers, no frame. Add a continuous white paper-cut sticker contour around the outer silhouette, about 10px at 1024px image width, like an editorial magazine collage. True transparent background outside the contour. No words, letters, logos, UI or device. This is a photographic cutout for a thoughtful gift-planning app, not a testimonial. Center the full cutout with transparent margin.",
+      "type": "AI-photo-background-extraction",
+      "reference": "docs/marketing/october-2026/lifestyle/celebration.png",
+      "sha256": "4235a0fa8ef164fce6a79753b0c2e37a312d8afa0459b63edf689446821b05af"
+    }
+  ]
+}
