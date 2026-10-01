@@ -4,6 +4,7 @@ lang-ref: giftly-page
 ---
 {% assign t = site.data.translations[site.active_lang] %}
 {% assign s = t.giftly_page %}
+{% assign giftly_campaign = site.data.product_marketing.giftly %}
 {% comment %}
   Flip `released` to true the moment the app is approved — that swaps the
   "coming soon" pill for a real App Store button. The link 404s until then.
@@ -189,8 +190,9 @@ lang-ref: giftly-page
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   {% include social-meta.html product='giftly' %}
   <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+  <link rel="stylesheet" href="{{ "/css/giftly.css" | relative_url }}">
 </head>
-<body>
+<body class="giftly-page">
 
 <header class="topbar">
     <div class="wrap topbar__inner">
@@ -220,15 +222,17 @@ lang-ref: giftly-page
                     {% else %}
                     <span class="btn btn--soon">{{ s.cta_soon | default: "Coming soon to the App Store" }}</span>
                     {% endif %}
-                    <a class="btn btn--ghost" href="#features">{{ s.cta_learn | default: "See what it does" }}</a>
+                    <a class="btn btn--ghost" href="#experience">{{ s.cta_learn | default: "See what it does" }}</a>
                 </div>
                 <p class="hero__platforms">{{ s.hero_platforms | default: "Free · No ads · No account · Synced through iCloud" }}</p>
             </div>
             <div class="hero__art">
-                <img class="hero__icon" src="/images/portfolio/giftly/icon.webp" alt="{{ s.icon_alt | default: "Giftly app icon" }}" loading="eager" width="512" height="512">
+                <a href="{{ giftly_campaign.gallery[0].output | relative_url }}" target="_blank" rel="noopener" aria-label="View Giftly’s product image in English"><img src="{{ giftly_campaign.gallery[0].output | relative_url }}" alt="{{ giftly_campaign.gallery[0].alt | escape }}" lang="en" loading="eager" fetchpriority="high" width="{{ giftly_campaign.gallery[0].width }}" height="{{ giftly_campaign.gallery[0].height }}"></a>
             </div>
         </div>
     </section>
+
+    {% include product-experience.html slug='giftly' omit_capture_gallery=true %}
 
     <section class="section section--tinted" id="features">
         <div class="wrap">
@@ -367,7 +371,7 @@ lang-ref: giftly-page
         </div>
     </section>
 
-{% include product-experience.html slug='giftly' %}
+
 </main>
 
 <footer class="foot">

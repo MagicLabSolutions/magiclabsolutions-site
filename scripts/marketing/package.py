@@ -50,6 +50,14 @@ for product_index,p in enumerate(products):
     web_image(poster,public/'poster.webp',960)
     shutil.copy2(folder/'reel-1.mp4',public/'walkthrough.mp4');shutil.copy2(folder/'reel-1.vtt',public/'walkthrough.vtt')
     marketing[p['slug']]={'locale':'en-US','position':p['position'],'headline':p['panels'][0][0],'description':p['panels'][0][1],'cta':p['cta'],'steps':p['steps'][0],'video':f'/images/campaign/en-US/{p["slug"]}/walkthrough.mp4','poster':f'/images/campaign/en-US/{p["slug"]}/poster.webp','captions':f'/images/campaign/en-US/{p["slug"]}/walkthrough.vtt','gallery':gallery,'captures':captures,'video_kind':videos[p['slug'],1]['kind']}
+    if p.get('website_layout'):
+        marketing[p['slug']]['website_layout']=p['website_layout']
+    if p.get('website_layout')=='giftly-approved':
+        marketing[p['slug']]['captures']=[r for r in captures if not r['output'].endswith('/ipad-capture-4.webp')]
+        for r in marketing[p['slug']]['captures']:
+            if r['output'].endswith('/capture-3.webp') or r['output'].endswith('/ipad-capture-3.webp'):
+                r['label']=('iPad / ' if 'ipad-' in r['output'] else '')+'Gift ideas & personal details'
+                r['description']='Gift ideas, tastes, sizes and past gifts with each person.'
     # Four weeks, two distinct editorial slots per week, on product/audience channels.
     # The shared studio account uses the separate curated twelve-post rotation below.
     for week in range(4):

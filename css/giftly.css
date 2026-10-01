@@ -1,0 +1,50 @@
+/* Giftly's approved store direction, adapted to its product page. */
+.giftly-page{--muted:#625f53;font-size:18px}
+.giftly-page .hero{padding-block:56px 72px}
+.giftly-page .hero__grid{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:64px}
+.giftly-page .hero__art{margin:0;min-width:0}
+.giftly-page .hero__art a{display:block;width:min(100%,380px);border-radius:24px;overflow:hidden;line-height:0;box-shadow:0 22px 60px #234a3517}
+.giftly-page .hero__art img{display:block;width:100%;height:auto}
+.giftly-page .hero h1{font-size:clamp(42px,5.3vw,64px);max-width:11ch}
+.giftly-page .hero__lede{font-size:20px;line-height:1.65}
+.giftly-page .hero__kicker{font-size:15px;letter-spacing:.1em}
+.giftly-page .hero__platforms{font-size:16px}
+.giftly-page .btn{font-size:17px;min-height:48px}
+.giftly-page .section{padding-block:64px}
+.giftly-page .section__head p{font-size:18px;color:var(--muted)}
+.giftly-page .card h3{font-size:22px;line-height:1.25}
+.giftly-page .band__top span{font-size:16px;opacity:1}
+.giftly-page .band__top strong{font-size:20px}
+.giftly-page .privacy__item strong{font-size:20px}
+.giftly-page .closer{padding-block:72px}
+.giftly-page .p-experience{background:var(--paper);color:var(--ink);font-family:var(--body);padding-block:0 64px;--p-accent:var(--evergreen)!important}
+.giftly-page .p-wrap{width:min(1080px,calc(100% - 48px))}
+.giftly-page section[id]{scroll-margin-top:90px}
+.giftly-page .p-section-heading h2{color:var(--ink)!important;font-family:var(--display)}
+.giftly-page .p-section-heading p{color:var(--muted);font-size:18px}
+.giftly-page .p-kicker{color:var(--evergreen);font-size:15px!important}
+.giftly-page .p-campaign{border-top:1px solid var(--line);padding-top:4px}
+.giftly-page .giftly-stories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.giftly-page .giftly-stories figure,.giftly-page .giftly-tablet-gallery figure{margin:0;min-width:0}
+.giftly-page .giftly-stories .p-shot,.giftly-page .giftly-tablet-gallery .p-shot{width:100%;border:1px solid var(--line)!important;background:var(--paper)!important;border-radius:18px!important}
+.giftly-page .giftly-stories .p-shot img,.giftly-page .giftly-tablet-gallery .p-shot img{width:100%;height:auto;max-width:100%;transform:none}
+.giftly-page figcaption{font-size:17px;line-height:1.5;color:var(--evergreen-deep);margin-top:14px}
+.giftly-page .giftly-gallery-hint{font-size:16px;color:var(--muted);margin-top:22px}
+.giftly-page .giftly-gallery-hint span{display:none}
+.giftly-page .giftly-ipad{margin-top:32px;border:1px solid var(--line);border-radius:20px;background:var(--surface);padding:6px 24px}
+.giftly-page .giftly-ipad summary{font-size:20px;font-weight:600;min-height:60px;cursor:pointer;padding-block:14px;color:var(--evergreen-deep)}
+.giftly-page .giftly-tablet-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;padding-block:18px 24px}
+.giftly-page .giftly-walkthrough{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:center;gap:64px;margin-top:72px;padding:40px;border:1px solid var(--line);border-radius:26px;background:var(--surface)}
+.giftly-page .giftly-walkthrough video{display:block;width:100%;max-height:560px;border-radius:18px;background:var(--paper)}
+.giftly-page .p-proof-copy h3{color:var(--ink);font-family:var(--display)}
+.giftly-page .p-proof-copy p,.giftly-page .p-proof-copy li{color:var(--muted);font-size:18px}
+.giftly-page .p-button{background:var(--evergreen);color:var(--surface)!important;font-size:17px}
+.giftly-page .p-capture-tour{background:var(--surface);border-color:var(--line)}
+.giftly-page .p-tour-options button{background:var(--paper);color:var(--ink);border-color:var(--line);font-family:var(--body)}
+.giftly-page .p-tour-options button>span:last-child{color:var(--muted)}
+.giftly-page .p-tour-options button[aria-pressed=true]{background:var(--green-tint);border-color:var(--evergreen)}
+.giftly-page .p-tour-options button:hover{border-color:var(--evergreen)}
+.giftly-page .p-availability{border-color:var(--line);color:var(--muted)}
+.giftly-page :focus-visible{outline:3px solid var(--evergreen);outline-offset:5px}
+@media(max-width:860px){.giftly-page .hero__grid{grid-template-columns:minmax(0,1fr);gap:36px}.giftly-page .hero__art{order:0}.giftly-page .hero__art a{width:min(100%,390px)}.giftly-page .hero h1{max-width:15ch}.giftly-page .hero__lede{font-size:19px}.giftly-page .giftly-stories{display:flex;overflow-x:auto;gap:22px;scroll-snap-type:x proximity;padding-bottom:22px}.giftly-page .giftly-stories figure{flex:0 0 96%;scroll-snap-align:start}.giftly-page .giftly-gallery-hint span{display:inline}.giftly-page .giftly-walkthrough{grid-template-columns:minmax(0,1fr);padding:26px;gap:30px}.giftly-page .giftly-walkthrough video{max-height:580px}.giftly-page .p-wrap{width:calc(100% - 48px)}.giftly-page .giftly-tablet-gallery{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:420px){.giftly-page .hero{padding-block:40px 48px}.giftly-page .hero h1{font-size:44px}.giftly-page .p-wrap{width:calc(100% - 40px)}.giftly-page .giftly-ipad{padding-inline:16px}.giftly-page .giftly-walkthrough{padding:22px}.giftly-page .p-section-heading h2{font-size:34px!important}.giftly-page .p-tour-image img{height:430px}.giftly-page .section{padding-block:48px}.giftly-page .features{grid-template-columns:minmax(0,1fr)}}

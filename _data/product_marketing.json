@@ -219,8 +219,8 @@
       {
         "output": "/images/campaign/en-US/giftly/capture-3.webp",
         "alt": "Giftly: Ideas, not guesswork (real English product capture)",
-        "label": "Ideas, not guesswork",
-        "description": "Keep gift ideas with the person they’re for."
+        "label": "Gift ideas & personal details",
+        "description": "Gift ideas, tastes, sizes and past gifts with each person."
       },
       {
         "output": "/images/campaign/en-US/giftly/ipad-capture-1.webp",
@@ -237,17 +237,12 @@
       {
         "output": "/images/campaign/en-US/giftly/ipad-capture-3.webp",
         "alt": "Giftly on iPad: Ideas, not guesswork (real English capture)",
-        "label": "iPad / Ideas, not guesswork",
-        "description": "Keep gift ideas with the person they’re for."
-      },
-      {
-        "output": "/images/campaign/en-US/giftly/ipad-capture-4.webp",
-        "alt": "Giftly on iPad: The little details (real English capture)",
-        "label": "iPad / The little details",
-        "description": "Tastes, sizes and past gifts, ready when you need them."
+        "label": "iPad / Gift ideas & personal details",
+        "description": "Gift ideas, tastes, sizes and past gifts with each person."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "giftly-approved"
   },
   "groundcontrol": {
     "locale": "en-US",

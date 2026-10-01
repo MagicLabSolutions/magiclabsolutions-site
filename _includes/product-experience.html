@@ -22,6 +22,7 @@
     <div class="p-demo" data-demo="{{ exp.demo }}" data-slug="{{ exp.slug }}" data-lang="{{ el }}" data-icon="{{ exp.icon | relative_url }}"><noscript>{{ eu.nojs }}</noscript></div>
   </section>
   {% endif %}
+  {% unless include.omit_capture_gallery %}
   <section class="p-wrap p-inside" id="inside" aria-labelledby="inside-title" data-p-reveal>
     <div class="p-section-heading"><div><p class="p-kicker">02 / {{ eu.inside }}</p><h2 id="inside-title">{% if exp.artwork.size > 0 %}{{ eu.art_title }}{% else %}{{ eu.real_title }}{% endif %}</h2></div><p>{% if exp.screenshots.size > 0 %}{{ eu.real_note }}{% elsif exp.artwork.size > 0 %}{{ eu.art_note }}{% else %}{{ eu.no_captures }}{% endif %}</p></div>
     {% if marketing %}{% assign product_shots = marketing.captures %}{% else %}{% assign product_shots = exp.screenshots %}{% endif %}
@@ -29,6 +30,7 @@
     {% if exp.artwork.size > 0 %}<div class="p-gallery" role="list">{% for art in exp.artwork %}<figure role="listitem"><button class="p-shot" data-p-image="{{ art.output | relative_url }}" aria-label="{{ eu.enlarge }} {{ forloop.index }} — {{ exp.name }}"><img src="{{ art.output | relative_url }}" loading="lazy" alt="{{ exp.name }} — {{ eu.art }} {{ forloop.index }}"></button><figcaption>{{ exp.name }} / {{ eu.art }} 0{{ forloop.index }}</figcaption></figure>{% endfor %}</div>{% endif %}
     <p class="p-availability"><span class="p-dot"></span> {{ eu.status[exp.status] }}{% if exp.version %} · {{ exp.version }}{% endif %}{% if exp.store_url %} · <a href="{{ exp.store_url }}">App Store ↗</a>{% endif %}{% if exp.play_url %} · <a href="{{ exp.play_url }}">Google Play ↗</a>{% endif %}</p>
   </section>
+  {% endunless %}
   <dialog class="p-lightbox" aria-label="{{ eu.enlarge }}"><form method="dialog"><button aria-label="{{ eu.close }}">×</button></form><img alt=""><p></p></dialog>
 </div>
 
