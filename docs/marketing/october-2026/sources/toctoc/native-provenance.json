@@ -1,0 +1,34 @@
+{
+  "repository": "TocToc",
+  "revision": "b1724631a1495a18b027edfb8551accfaaee3e99",
+  "method": "Existing repository native English demo captures from Tools/store/capture.py and the app\u2019s -captureWindow harness. Real alert, menu bar and settings views with synthetic Design review meeting; no live calendar access.",
+  "captures": [
+    {
+      "source": "/Users/fabio.hoffmann/Development/MagicLabSolutions/TocToc/Tools/store/captures/en-US/alert.png",
+      "output": "docs/marketing/october-2026/sources/toctoc/native-1.png",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "sha256": "5771d32982664f99996b3b57ed79c209a4053070f50582a0d4344e3232d7496a"
+    },
+    {
+      "source": "/Users/fabio.hoffmann/Development/MagicLabSolutions/TocToc/Tools/store/captures/en-US/menubar.png",
+      "output": "docs/marketing/october-2026/sources/toctoc/native-2.png",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "sha256": "898282690c7ed690435255b0a23cbb97a3436d06b8d9f914cb1cb35946eb4992"
+    },
+    {
+      "source": "/Users/fabio.hoffmann/Development/MagicLabSolutions/TocToc/Tools/store/captures/en-US/settings.png",
+      "output": "docs/marketing/october-2026/sources/toctoc/native-3.png",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "sha256": "2b37525195640ddd65862fb9a8606d4801bc8a473634b3bf07a953711ecbcfd7"
+    }
+  ]
+}

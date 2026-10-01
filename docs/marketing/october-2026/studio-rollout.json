@@ -114,9 +114,14 @@
       "composition": "2 clean views and 2 selected layered views."
     },
     "toctoc": {
-      "status": "queued",
-      "primary_images": 4,
-      "website": "pending"
+      "status": "complete",
+      "primary_images": 3,
+      "website": "checked",
+      "native_variants": {
+        "mac": 3
+      },
+      "rationale": "A visible countdown, an agenda in your menu bar, and reminders you can adjust. Three real Mac views, with the upcoming iPhone experience presented separately.",
+      "composition": "2 clean views and 1 selected layered views."
     },
     "tumtum": {
       "status": "queued",

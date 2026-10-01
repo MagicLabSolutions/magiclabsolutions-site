@@ -2707,24 +2707,19 @@
       "keywords": "calendar,alert,alarm,countdown,menubar,focus,join,call,work,schedule,mac",
       "panels": [
         [
-          "Deep in work? Toc toc.",
-          "Give your meeting your attention.",
-          "Meeting reminders"
-        ],
-        [
           "Time to join.",
-          "See the countdown. Join the call.",
-          "A reminder you can see"
+          "A visible knock before the call.",
+          "Meeting countdown"
         ],
         [
           "Your next call.",
-          "Keep meetings in the menu bar.",
-          "Your agenda, at a glance"
+          "Keep your agenda in the menu bar.",
+          "Menu-bar agenda"
         ],
         [
-          "Make it stand out.",
-          "Choose how your reminder appears.",
-          "Fit it to your day"
+          "Your kind of knock.",
+          "Choose how the reminder appears.",
+          "Reminder settings"
         ]
       ],
       "hooks": [
@@ -2768,10 +2763,9 @@
       "cta": "Explore the project",
       "store_format": "mac-16x10",
       "screens": [
-        "/docs/marketing/october-2026/sources/toctoc/screen-1.png",
-        "/docs/marketing/october-2026/sources/toctoc/screen-2.png",
-        "/docs/marketing/october-2026/sources/toctoc/screen-3.png",
-        "/docs/marketing/october-2026/sources/toctoc/screen-4.png"
+        "/docs/marketing/october-2026/sources/toctoc/native-1.png",
+        "/docs/marketing/october-2026/sources/toctoc/native-2.png",
+        "/docs/marketing/october-2026/sources/toctoc/native-3.png"
       ],
       "hardware": "macbook",
       "capture_has_device_frame": false,
@@ -2779,16 +2773,59 @@
       "background": "/docs/marketing/october-2026/lifestyle/toctoc.png",
       "details": [
         null,
-        {
-          "asset": "/docs/marketing/october-2026/sources/toctoc/detail-primary-2.png",
-          "label": "Time to join"
-        },
-        {
-          "asset": "/docs/marketing/october-2026/sources/toctoc/detail-primary-3.png",
-          "label": "See the next call"
-        },
+        null,
         null
-      ]
+      ],
+      "studio_art": {
+        "copy": [
+          [
+            "Time to join.",
+            "A visible knock before the call."
+          ],
+          [
+            "Your next call.",
+            "Keep your agenda in the menu bar."
+          ],
+          [
+            "Your kind of knock.",
+            "Choose how the reminder appears."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/toctoc/native-1.png",
+                "rect": [
+                  666,
+                  571,
+                  1892,
+                  1156
+                ],
+                "left": 0.025,
+                "top": 0.635,
+                "width": 0.45,
+                "radius": 24,
+                "angle": -2
+              }
+            ],
+            [],
+            []
+          ]
+        }
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "Deep in work?\nToc toc.",
+        "description": "A visible countdown, an agenda in your menu bar, and reminders you can adjust. Three real Mac views, with the upcoming iPhone experience presented separately.",
+        "primary_count": 3,
+        "palette": [
+          "#171D25",
+          "#FFF1E7",
+          "#F99551"
+        ],
+        "gallery_id": "studio-highlights"
+      }
     },
     {
       "slug": "tumtum",

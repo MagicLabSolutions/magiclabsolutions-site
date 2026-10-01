@@ -1185,8 +1185,8 @@
   "toctoc": {
     "locale": "en-US",
     "position": "A meeting reminder designed to get through deep focus.",
-    "headline": "Deep in work? Toc toc.",
-    "description": "Give your meeting your attention.",
+    "headline": "Time to join.",
+    "description": "A visible knock before the call.",
     "cta": "Explore the project",
     "steps": [
       "See the meeting reminder",
@@ -1199,29 +1199,22 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/toctoc/highlight-1.webp",
-        "alt": "Toc Toc: Deep in work? Toc toc. — Give your meeting your attention.",
-        "caption": "Deep in work? Toc toc.",
-        "width": 1440,
-        "height": 900
-      },
-      {
-        "output": "/images/campaign/en-US/toctoc/highlight-2.webp",
-        "alt": "Toc Toc: Time to join. — See the countdown. Join the call.",
+        "alt": "Toc Toc: Time to join. — A visible knock before the call.",
         "caption": "Time to join.",
         "width": 1440,
         "height": 900
       },
       {
-        "output": "/images/campaign/en-US/toctoc/highlight-3.webp",
-        "alt": "Toc Toc: Your next call. — Keep meetings in the menu bar.",
+        "output": "/images/campaign/en-US/toctoc/highlight-2.webp",
+        "alt": "Toc Toc: Your next call. — Keep your agenda in the menu bar.",
         "caption": "Your next call.",
         "width": 1440,
         "height": 900
       },
       {
-        "output": "/images/campaign/en-US/toctoc/highlight-4.webp",
-        "alt": "Toc Toc: Make it stand out. — Choose how your reminder appears.",
-        "caption": "Make it stand out.",
+        "output": "/images/campaign/en-US/toctoc/highlight-3.webp",
+        "alt": "Toc Toc: Your kind of knock. — Choose how the reminder appears.",
+        "caption": "Your kind of knock.",
         "width": 1440,
         "height": 900
       }
@@ -1229,24 +1222,36 @@
     "captures": [
       {
         "output": "/images/campaign/en-US/toctoc/capture-1.webp",
-        "alt": "Toc Toc: Meeting reminders (real English product capture)",
-        "label": "Meeting reminders",
-        "description": "Give your meeting your attention."
+        "alt": "Toc Toc: Meeting countdown (real English product capture)",
+        "label": "Meeting countdown",
+        "description": "A visible knock before the call."
+      },
+      {
+        "output": "/images/campaign/en-US/toctoc/capture-2.webp",
+        "alt": "Toc Toc: Menu-bar agenda (real English product capture)",
+        "label": "Menu-bar agenda",
+        "description": "Keep your agenda in the menu bar."
       },
       {
         "output": "/images/campaign/en-US/toctoc/capture-3.webp",
-        "alt": "Toc Toc: Your agenda, at a glance (real English product capture)",
-        "label": "Your agenda, at a glance",
-        "description": "Keep meetings in the menu bar."
-      },
-      {
-        "output": "/images/campaign/en-US/toctoc/capture-4.webp",
-        "alt": "Toc Toc: Fit it to your day (real English product capture)",
-        "label": "Fit it to your day",
-        "description": "Choose how your reminder appears."
+        "alt": "Toc Toc: Reminder settings (real English product capture)",
+        "label": "Reminder settings",
+        "description": "Choose how the reminder appears."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "Deep in work?\nToc toc.",
+      "description": "A visible countdown, an agenda in your menu bar, and reminders you can adjust. Three real Mac views, with the upcoming iPhone experience presented separately.",
+      "primary_count": 3,
+      "palette": [
+        "#171D25",
+        "#FFF1E7",
+        "#F99551"
+      ],
+      "gallery_id": "studio-highlights"
+    }
   },
   "tumtum": {
     "locale": "en-US",
