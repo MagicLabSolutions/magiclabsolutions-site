@@ -719,8 +719,8 @@
   "poof": {
     "locale": "en-US",
     "position": "Know what is taking up space, then choose what goes.",
-    "headline": "Make a little room.",
-    "description": "See what takes up space on your Mac.",
+    "headline": "Make room.",
+    "description": "See what fills your Mac.",
     "cta": "Explore the project",
     "steps": [
       "See the scan results",
@@ -733,42 +733,78 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/poof/highlight-1.webp",
-        "alt": "Poof: Make a little room. — See what takes up space on your Mac.",
-        "caption": "Make a little room.",
+        "alt": "Poof: Make room. — See what fills your Mac.",
+        "caption": "Make room.",
         "width": 1440,
         "height": 900
       },
       {
         "output": "/images/campaign/en-US/poof/highlight-2.webp",
-        "alt": "Poof: Choose what goes. — Review your selection first.",
-        "caption": "Choose what goes.",
+        "alt": "Poof: Review first. — Choose the items that go.",
+        "caption": "Review first.",
         "width": 1440,
         "height": 900
       },
       {
         "output": "/images/campaign/en-US/poof/highlight-3.webp",
-        "alt": "Poof: Build. Clean. Repeat. — Find development clutter.",
-        "caption": "Build. Clean. Repeat.",
+        "alt": "Poof: Apps and data. — See the space each app keeps.",
+        "caption": "Apps and data.",
         "width": 1440,
         "height": 900
       },
       {
         "output": "/images/campaign/en-US/poof/highlight-4.webp",
-        "alt": "Poof: Room for what’s next. — Understand before you act.",
-        "caption": "Room for what’s next.",
+        "alt": "Poof: Build leftovers. — Keep development clutter in view.",
+        "caption": "Build leftovers.",
         "width": 1440,
         "height": 900
       }
     ],
     "captures": [
       {
+        "output": "/images/campaign/en-US/poof/menu-bar-capture.webp",
+        "alt": "Poof’s actual native menu-bar panel with disk capacity and scan status",
+        "label": "Menu-bar panel",
+        "description": "Keep free space and your latest scan nearby."
+      },
+      {
         "output": "/images/campaign/en-US/poof/capture-1.webp",
-        "alt": "Poof: A clearer view of storage (real English product capture)",
-        "label": "A clearer view of storage",
-        "description": "See what takes up space on your Mac."
+        "alt": "Poof: Smart Scan (real English product capture)",
+        "label": "Smart Scan",
+        "description": "See what fills your Mac."
+      },
+      {
+        "output": "/images/campaign/en-US/poof/capture-2.webp",
+        "alt": "Poof: System Junk (real English product capture)",
+        "label": "System Junk",
+        "description": "Choose the items that go."
+      },
+      {
+        "output": "/images/campaign/en-US/poof/capture-3.webp",
+        "alt": "Poof: Applications (real English product capture)",
+        "label": "Applications",
+        "description": "See the space each app keeps."
+      },
+      {
+        "output": "/images/campaign/en-US/poof/capture-4.webp",
+        "alt": "Poof: Developer (real English product capture)",
+        "label": "Developer",
+        "description": "Keep development clutter in view."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "Make room\nwith a clear view.",
+      "description": "Start with a scan, review the selected items, and understand what each app and project keeps. Four real native Mac views, plus the actual menu-bar panel in the capture tour.",
+      "primary_count": 4,
+      "palette": [
+        "#181123",
+        "#FBF4FF",
+        "#DBADFA"
+      ],
+      "gallery_id": "studio-highlights"
+    }
   },
   "soooon": {
     "locale": "en-US",

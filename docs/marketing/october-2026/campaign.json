@@ -1788,24 +1788,24 @@
       "keywords": "storage,cache,disk,space,cleanup,uninstall,files,xcode,developer,build,system,junk",
       "panels": [
         [
-          "Make a little room.",
-          "See what takes up space on your Mac.",
-          "A clearer view of storage"
+          "Make room.",
+          "See what fills your Mac.",
+          "Smart Scan"
         ],
         [
-          "Choose what goes.",
-          "Review your selection first.",
-          "You stay in control"
+          "Review first.",
+          "Choose the items that go.",
+          "System Junk"
         ],
         [
-          "Build. Clean. Repeat.",
-          "Find development clutter.",
-          "Room for your next project"
+          "Apps and data.",
+          "See the space each app keeps.",
+          "Applications"
         ],
         [
-          "Room for what’s next.",
-          "Understand before you act.",
-          "Less mystery. More room."
+          "Build leftovers.",
+          "Keep development clutter in view.",
+          "Developer"
         ]
       ],
       "hooks": [
@@ -1849,10 +1849,10 @@
       "cta": "Explore the project",
       "store_format": "mac-16x10",
       "screens": [
-        "/docs/marketing/october-2026/sources/poof/screen-1.png",
-        "/docs/marketing/october-2026/sources/poof/screen-2.png",
-        "/docs/marketing/october-2026/sources/poof/screen-3.png",
-        "/docs/marketing/october-2026/sources/poof/screen-4.png"
+        "/docs/marketing/october-2026/sources/poof/native-1.png",
+        "/docs/marketing/october-2026/sources/poof/native-2.png",
+        "/docs/marketing/october-2026/sources/poof/native-3.png",
+        "/docs/marketing/october-2026/sources/poof/native-4.png"
       ],
       "hardware": "macbook",
       "capture_has_device_frame": false,
@@ -1860,16 +1860,80 @@
       "background": "/docs/marketing/october-2026/lifestyle/poof.png",
       "details": [
         null,
-        {
-          "asset": "/docs/marketing/october-2026/sources/poof/detail-primary-2.png",
-          "label": "Review before cleaning"
-        },
-        {
-          "asset": "/docs/marketing/october-2026/sources/poof/detail-primary-3.png",
-          "label": "Find build clutter"
-        },
+        null,
+        null,
         null
-      ]
+      ],
+      "studio_art": {
+        "copy": [
+          [
+            "Make room.",
+            "See what fills your Mac."
+          ],
+          [
+            "Review first.",
+            "Choose the items that go."
+          ],
+          [
+            "Apps and data.",
+            "See the space each app keeps."
+          ],
+          [
+            "Build leftovers.",
+            "Keep development clutter in view."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [
+              {
+                "rect": [
+                  724,
+                  834,
+                  2364,
+                  1062
+                ],
+                "left": 0.025,
+                "top": 0.67,
+                "width": 0.78,
+                "radius": 24,
+                "angle": -2,
+                "source": "/docs/marketing/october-2026/sources/poof/native-2.png"
+              }
+            ],
+            [],
+            [
+              {
+                "rect": [
+                  708,
+                  328,
+                  2346,
+                  724
+                ],
+                "left": 0.025,
+                "top": 0.64,
+                "width": 0.6,
+                "radius": 24,
+                "angle": -2,
+                "source": "/docs/marketing/october-2026/sources/poof/native-4.png"
+              }
+            ]
+          ]
+        }
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "Make room\nwith a clear view.",
+        "description": "Start with a scan, review the selected items, and understand what each app and project keeps. Four real native Mac views, plus the actual menu-bar panel in the capture tour.",
+        "primary_count": 4,
+        "palette": [
+          "#181123",
+          "#FBF4FF",
+          "#DBADFA"
+        ],
+        "gallery_id": "studio-highlights"
+      }
     },
     {
       "slug": "soooon",

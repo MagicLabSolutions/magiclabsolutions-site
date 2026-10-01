@@ -104,9 +104,14 @@
       "composition": "2 clean views and 1 selected layered views."
     },
     "poof": {
-      "status": "queued",
+      "status": "complete",
       "primary_images": 4,
-      "website": "pending"
+      "website": "checked",
+      "native_variants": {
+        "mac": 4
+      },
+      "rationale": "Start with a scan, review the selected items, and understand what each app and project keeps. Four real native Mac views, plus the actual menu-bar panel in the capture tour.",
+      "composition": "2 clean views and 2 selected layered views."
     },
     "toctoc": {
       "status": "queued",

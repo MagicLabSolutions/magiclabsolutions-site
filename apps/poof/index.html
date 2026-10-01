@@ -17,8 +17,9 @@ lang-ref: poof-page
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   {% include social-meta.html product='poof' %}
   <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+<link rel="stylesheet" href="{{ '/css/studio-products.css' | relative_url }}">
 </head>
-<body>
+<body class="studio-page studio-wide" data-studio="poof" style="--studio-paper:#181123;--studio-ink:#FBF4FF;--studio-accent:#DBADFA">
   <header class="brand-bar wrap">
     <a class="brand" href="/"><img src="/images/portfolio/poof/icon.webp" width="44" height="44" alt=""><span>Poof<small>Magic Lab Solutions</small></span></a>
     <nav class="languages" aria-label="Poof">
@@ -33,13 +34,15 @@ lang-ref: poof-page
       <p class="headline">Make room on your Mac.</p>
       <p class="lede">Poof finds the caches, logs and build leftovers that apps pile up, uninstalls apps along with their data, and shows you your biggest and most forgotten files — and removes only what you choose. Scanning is always free.</p>
       <div class="actions">
-        <a class="button" href="#inside">Explore Poof</a>
+        <a class="button" href="#studio-highlights">Explore Poof</a>
         <a class="button quiet" href="#support">Support</a>
       </div>
       <p class="fine">Public availability is being confirmed.</p>
       <p class="fine">For macOS 14 Sonoma and later.</p>
-      <div class="shot"><img src="/images/poof/hero.jpg" width="1600" height="1000" alt="Poof’s Smart Scan showing 43.99 GB ready to clean, sorted into System Junk, Developer, Trash, and Installers &amp; Backups, with Applications, Large Files and Unused Files in the sidebar."></div>
+      <a class="studio-hero-link" href="#studio-highlights" lang="en"><img class="studio-hero-art" src="/images/campaign/en-US/poof/highlight-1.webp" width="2880" height="1800" alt="Poof — Make room. Native Mac demonstration." fetchpriority="high"></a>
     </section>
+
+    {% include product-experience.html slug='poof' omit_capture_gallery=true %}
 
     <section class="features wrap" aria-label="What Poof does">
       <div class="feature"><span class="glyph" aria-hidden="true">✦</span><h2>See everything first</h2><p>Smart Scan shows exactly what’s taking space, what each item is and which app it belongs to — in seconds.</p></div>
@@ -75,7 +78,7 @@ lang-ref: poof-page
       </aside>
     </section>
 
-{% include product-experience.html slug='poof' %}
+
 </main>
   <footer class="wrap">
     <nav>

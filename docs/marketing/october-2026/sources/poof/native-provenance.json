@@ -1,0 +1,43 @@
+{
+  "repository": "Poof",
+  "revision": "20721b2",
+  "method": "Actual Poof screens running with canonical -demo -sandboxed -pro fixtures in an isolated capture-only checkout. A native NSBitmapImageRep renders the window\u2019s real content view at 2\u00d7. MenuBarPanel rendered by the existing native ImageRenderer. No filesystem cleanup, accounts, billing, or permission changes.",
+  "captures": [
+    {
+      "source": "/private/tmp/magiclab-poof-native/en-US/results.png",
+      "output": "docs/marketing/october-2026/sources/poof/native-1.png",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "sha256": "7fd86e8d8724000f5408d86041879fdc3abdb7a5617c1eaf2692dcd23fecdef4"
+    },
+    {
+      "source": "/private/tmp/magiclab-poof-native/en-US/junk.png",
+      "output": "docs/marketing/october-2026/sources/poof/native-2.png",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "sha256": "7a00b2bab9c04b4d6a3cbb1cbcc204089e9fd1e568952553c91b0742023ca21e"
+    },
+    {
+      "source": "/private/tmp/magiclab-poof-native/en-US/apps.png",
+      "output": "docs/marketing/october-2026/sources/poof/native-3.png",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "sha256": "8f2f9e248db04dd55b2c5d6726734609720e34b3334656c7c7c4f614942cb250"
+    },
+    {
+      "source": "/private/tmp/magiclab-poof-native/en-US/developer.png",
+      "output": "docs/marketing/october-2026/sources/poof/native-4.png",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "sha256": "07945fd77ccb838c685805bde02c3866f7c74bcea77746853d9742a72df5fbd8"
+    }
+  ]
+}

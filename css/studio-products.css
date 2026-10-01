@@ -66,3 +66,5 @@
 .studio-page[data-studio=myrenewals] .hero{min-height:0;padding-block:130px 72px}.studio-page[data-studio=myrenewals] .hero:after{display:none}.studio-page[data-studio=myrenewals] .hero h1,.studio-page[data-studio=myrenewals] .hero p,.studio-page[data-studio=myrenewals] .section-title,.studio-page[data-studio=myrenewals] .feature-card h3{color:var(--studio-ink)}
 .studio-page[data-studio=myrenewals] .gradient-text{background:none;-webkit-text-fill-color:#056B82;color:#056B82}.studio-page[data-studio=myrenewals] .section-label{color:#056B82}.studio-page[data-studio=myrenewals] .section-subtitle,.studio-page[data-studio=myrenewals] .feature-card p,.studio-page[data-studio=myrenewals] .footer-content,.studio-page[data-studio=myrenewals] .footer-content a{color:#435963}.studio-page[data-studio=myrenewals] .feature-card{background:#fff9;border-color:#152b3725}
 @media(max-width:860px){.studio-page[data-studio=myrenewals] .hero{padding-top:110px}}
+
+.studio-page[data-studio=poof] .hero .studio-hero-link{margin:48px auto 0}.studio-page[data-studio=poof] .p-button{color:#181123!important}
