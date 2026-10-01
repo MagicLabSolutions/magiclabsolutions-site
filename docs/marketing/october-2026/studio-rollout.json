@@ -58,7 +58,8 @@
         "ipad": 4
       },
       "rationale": "Timeline, monthly film, favorites and soundtrack: four distinct native views.",
-      "composition": "Two clean and two layered views per Apple platform."
+      "composition": "Two clean and two layered views per Apple platform.",
+      "publication": "Verified live after Pages deployment 36924638376."
     },
     "hooray": {
       "status": "complete",
@@ -67,12 +68,19 @@
       "native_variants": {
         "web": 4
       },
-      "composition": "Two clean browser views and two with selected native components."
+      "composition": "Two clean browser views and two with selected native components.",
+      "publication": "Verified live after Pages deployment 36924991250."
     },
     "soooon": {
-      "status": "queued",
-      "primary_images": 4,
-      "website": "pending"
+      "status": "complete",
+      "primary_images": 6,
+      "website": "checked",
+      "native_variants": {
+        "iphone": 6,
+        "ipad": 6
+      },
+      "rationale": "Countdown list, event detail, calendar, personality, holidays and wardrobe.",
+      "composition": "Three clean and three layered images per platform."
     },
     "myrenewals": {
       "status": "queued",

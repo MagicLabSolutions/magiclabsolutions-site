@@ -1,0 +1,79 @@
+{
+  "repository": "Soooon",
+  "revision": "15f3d067cf4d1d2329a8e928d263a34666667543",
+  "method": "Repository native simulator captures documented in CLAUDE.md: SOOOON_DEMO=1, SOOOON_NOW=2026-11-12T08:41:00Z, US locale; unframed iPhone 1320x2868 and iPad 2064x2752.",
+  "captures": [
+    {
+      "platform": "iphone",
+      "source": "../Soooon/Tools/store/captures/iphone/home.png",
+      "output": "docs/marketing/october-2026/sources/soooon/native-1.png",
+      "sha256": "abc361f7da2c4082243363eaa3491e982bc6eb43573c5f71132772dee2c35539"
+    },
+    {
+      "platform": "iphone",
+      "source": "../Soooon/Tools/store/captures/iphone/detail.png",
+      "output": "docs/marketing/october-2026/sources/soooon/native-2.png",
+      "sha256": "9ecb704b056083ddc190e51d61d90cd0edc402cca7ee7efd0ae0f3bf76386c49"
+    },
+    {
+      "platform": "iphone",
+      "source": "../Soooon/Tools/store/captures/iphone/calendar.png",
+      "output": "docs/marketing/october-2026/sources/soooon/native-3.png",
+      "sha256": "8a704002f67e680f47aefb74b168012ba01c2ce356227f2f309a83a57cfaf627"
+    },
+    {
+      "platform": "iphone",
+      "source": "../Soooon/Tools/store/captures/iphone/personality.png",
+      "output": "docs/marketing/october-2026/sources/soooon/native-4.png",
+      "sha256": "33384e13328e7b6bd4c6b30559bec26ab4341654d46f1efc5e07551400631434"
+    },
+    {
+      "platform": "iphone",
+      "source": "../Soooon/Tools/store/captures/iphone/holidays.png",
+      "output": "docs/marketing/october-2026/sources/soooon/native-5.png",
+      "sha256": "2d9b538b7ac572e792a8ceea11c9457b37d960343c1c3ea5aab48c0200bfb3e9"
+    },
+    {
+      "platform": "iphone",
+      "source": "../Soooon/Tools/store/captures/iphone/wardrobe.png",
+      "output": "docs/marketing/october-2026/sources/soooon/native-6.png",
+      "sha256": "10035ed2a79b56cd779d58e3595e2733d727086fa974ce403e2ba52f5144ca06"
+    },
+    {
+      "platform": "ipad",
+      "source": "../Soooon/Tools/store/captures/ipad/home.png",
+      "output": "docs/marketing/october-2026/sources/soooon/ipad/native-1.png",
+      "sha256": "b2d2322fc8a15a0360ae45af2e05d8f02827386e841ec4525fd15c1db350ce6d"
+    },
+    {
+      "platform": "ipad",
+      "source": "../Soooon/Tools/store/captures/ipad/detail.png",
+      "output": "docs/marketing/october-2026/sources/soooon/ipad/native-2.png",
+      "sha256": "ba73c36d276b5facb96c68fd3bb2f70e30bc785c8e2e30959e81fc204d976f9b"
+    },
+    {
+      "platform": "ipad",
+      "source": "../Soooon/Tools/store/captures/ipad/calendar.png",
+      "output": "docs/marketing/october-2026/sources/soooon/ipad/native-3.png",
+      "sha256": "dd12d66b51d503cf2747d5a8c2bd620f94221d4b92f7bf1e2941059984218617"
+    },
+    {
+      "platform": "ipad",
+      "source": "../Soooon/Tools/store/captures/ipad/personality.png",
+      "output": "docs/marketing/october-2026/sources/soooon/ipad/native-4.png",
+      "sha256": "42f99d2b47329706c2da2f34d7ea4136b23c8a901bbd322dbaaadd2a692b0205"
+    },
+    {
+      "platform": "ipad",
+      "source": "../Soooon/Tools/store/captures/ipad/holidays.png",
+      "output": "docs/marketing/october-2026/sources/soooon/ipad/native-5.png",
+      "sha256": "cc88f0fc49646f029976f2e019e86c477b828db9324f337a635e79e90e18e33c"
+    },
+    {
+      "platform": "ipad",
+      "source": "../Soooon/Tools/store/captures/ipad/wardrobe.png",
+      "output": "docs/marketing/october-2026/sources/soooon/ipad/native-6.png",
+      "sha256": "4b55d7b7ec77dd4eb8271185a98796346d5e597141072ffa797713f00591dc46"
+    }
+  ]
+}

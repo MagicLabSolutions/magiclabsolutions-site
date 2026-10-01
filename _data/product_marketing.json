@@ -768,7 +768,7 @@
   "soooon": {
     "locale": "en-US",
     "position": "A countdown with a companion that shares the anticipation.",
-    "headline": "Count down to your next big day.",
+    "headline": "Big days. Little companion.",
     "description": "A countdown that gets excited with you.",
     "cta": "Explore the project",
     "steps": [
@@ -782,8 +782,8 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/soooon/highlight-1.webp",
-        "alt": "Soooon: Count down to your next big day. — A countdown that gets excited with you.",
-        "caption": "Count down to your next big day.",
+        "alt": "Soooon: Big days. Little companion. — A countdown that gets excited with you.",
+        "caption": "Big days. Little companion.",
         "width": 1320,
         "height": 2868
       },
@@ -803,36 +803,64 @@
       },
       {
         "output": "/images/campaign/en-US/soooon/highlight-4.webp",
-        "alt": "Soooon: Pick your kind of hype. — Give your countdown a little personality.",
-        "caption": "Pick your kind of hype.",
+        "alt": "Soooon: Your kind of hype. — Choose how your companion talks.",
+        "caption": "Your kind of hype.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/highlight-5.webp",
+        "alt": "Soooon: More to look forward to. — Explore holidays from your traditions.",
+        "caption": "More to look forward to.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/highlight-6.webp",
+        "alt": "Soooon: Dress for the big day. — Give your companion a little personality.",
+        "caption": "Dress for the big day.",
         "width": 1320,
         "height": 2868
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-highlight-1.webp",
-        "alt": "Soooon on iPad: Count down to your next big day.",
-        "caption": "iPad / Count down to your next big day.",
+        "alt": "Soooon: iPad / Big days. Little companion. — A countdown that gets excited with you.",
+        "caption": "iPad / Big days. Little companion.",
         "width": 1440,
         "height": 1920
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-highlight-2.webp",
-        "alt": "Soooon on iPad: Make the wait part of it.",
+        "alt": "Soooon: iPad / Make the wait part of it. — Keep your next special day in view.",
         "caption": "iPad / Make the wait part of it.",
         "width": 1440,
         "height": 1920
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-highlight-3.webp",
-        "alt": "Soooon on iPad: Your dates belong here.",
+        "alt": "Soooon: iPad / Your dates belong here. — Trips, birthdays and celebrations, together.",
         "caption": "iPad / Your dates belong here.",
         "width": 1440,
         "height": 1920
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-highlight-4.webp",
-        "alt": "Soooon on iPad: Pick your kind of hype.",
-        "caption": "iPad / Pick your kind of hype.",
+        "alt": "Soooon: iPad / Your kind of hype. — Choose how your companion talks.",
+        "caption": "iPad / Your kind of hype.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/ipad-highlight-5.webp",
+        "alt": "Soooon: iPad / More to look forward to. — Explore holidays from your traditions.",
+        "caption": "iPad / More to look forward to.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/ipad-highlight-6.webp",
+        "alt": "Soooon: iPad / Dress for the big day. — Give your companion a little personality.",
+        "caption": "iPad / Dress for the big day.",
         "width": 1440,
         "height": 1920
       }
@@ -840,54 +868,90 @@
     "captures": [
       {
         "output": "/images/campaign/en-US/soooon/capture-1.webp",
-        "alt": "Soooon: Big days, little companion (real English product capture)",
-        "label": "Big days, little companion",
+        "alt": "Soooon: Your countdowns (real English product capture)",
+        "label": "Your countdowns",
         "description": "A countdown that gets excited with you."
       },
       {
         "output": "/images/campaign/en-US/soooon/capture-2.webp",
-        "alt": "Soooon: Count down together (real English product capture)",
-        "label": "Count down together",
+        "alt": "Soooon: The big day (real English product capture)",
+        "label": "The big day",
         "description": "Keep your next special day in view."
       },
       {
         "output": "/images/campaign/en-US/soooon/capture-3.webp",
-        "alt": "Soooon: Something to look forward to (real English product capture)",
-        "label": "Something to look forward to",
+        "alt": "Soooon: Calendar (real English product capture)",
+        "label": "Calendar",
         "description": "Trips, birthdays and celebrations, together."
       },
       {
         "output": "/images/campaign/en-US/soooon/capture-4.webp",
-        "alt": "Soooon: A companion for the wait (real English product capture)",
-        "label": "A companion for the wait",
-        "description": "Give your countdown a little personality."
+        "alt": "Soooon: Personality (real English product capture)",
+        "label": "Personality",
+        "description": "Choose how your companion talks."
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/capture-5.webp",
+        "alt": "Soooon: Holidays (real English product capture)",
+        "label": "Holidays",
+        "description": "Explore holidays from your traditions."
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/capture-6.webp",
+        "alt": "Soooon: Wardrobe (real English product capture)",
+        "label": "Wardrobe",
+        "description": "Give your companion a little personality."
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-capture-1.webp",
-        "alt": "Soooon on iPad: Big days, little companion (real English capture)",
-        "label": "iPad / Big days, little companion",
+        "alt": "Soooon: iPad / Your countdowns (real English product capture)",
+        "label": "iPad / Your countdowns",
         "description": "A countdown that gets excited with you."
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-capture-2.webp",
-        "alt": "Soooon on iPad: Count down together (real English capture)",
-        "label": "iPad / Count down together",
+        "alt": "Soooon: iPad / The big day (real English product capture)",
+        "label": "iPad / The big day",
         "description": "Keep your next special day in view."
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-capture-3.webp",
-        "alt": "Soooon on iPad: Something to look forward to (real English capture)",
-        "label": "iPad / Something to look forward to",
+        "alt": "Soooon: iPad / Calendar (real English product capture)",
+        "label": "iPad / Calendar",
         "description": "Trips, birthdays and celebrations, together."
       },
       {
         "output": "/images/campaign/en-US/soooon/ipad-capture-4.webp",
-        "alt": "Soooon on iPad: A companion for the wait (real English capture)",
-        "label": "iPad / A companion for the wait",
-        "description": "Give your countdown a little personality."
+        "alt": "Soooon: iPad / Personality (real English product capture)",
+        "label": "iPad / Personality",
+        "description": "Choose how your companion talks."
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/ipad-capture-5.webp",
+        "alt": "Soooon: iPad / Holidays (real English product capture)",
+        "label": "iPad / Holidays",
+        "description": "Explore holidays from your traditions."
+      },
+      {
+        "output": "/images/campaign/en-US/soooon/ipad-capture-6.webp",
+        "alt": "Soooon: iPad / Wardrobe (real English product capture)",
+        "label": "iPad / Wardrobe",
+        "description": "Give your companion a little personality."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "The wait is\npart of the fun.",
+      "description": "Count down to the days you care about, explore your calendar, and give your little companion its own personality. Six real views, on iPhone and iPad.",
+      "primary_count": 6,
+      "palette": [
+        "#F2E8FF",
+        "#2B1B4B",
+        "#7546D3"
+      ],
+      "gallery_id": "studio-highlights"
+    }
   },
   "myrenewals": {
     "locale": "en-US",
