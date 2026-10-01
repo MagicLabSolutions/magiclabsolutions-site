@@ -1,6 +1,6 @@
 {% assign campaign = site.data.product_marketing[exp.slug] %}
 {% if campaign %}
-{% if campaign.website_layout == "giftly-approved" %}{% include giftly-marketing.html %}{% else %}
+{% if campaign.website_layout == "giftly-approved" %}{% include giftly-marketing.html %}{% elsif campaign.website_layout == "studio-layered" %}{% include studio-marketing.html %}{% else %}
 <section class="p-wrap p-campaign" aria-labelledby="campaign-title" lang="en" data-p-reveal>
   <div class="p-section-heading"><div><p class="p-kicker">A CLOSER LOOK / {{ exp.name }}</p><h2 id="campaign-title">{{ campaign.position }}</h2></div><p>{% if site.active_lang != 'en' %}This collection is in English. {% endif %}Take a look at {{ exp.name }} in everyday use.</p></div>
   <div class="p-proof-grid">

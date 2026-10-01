@@ -1,0 +1,44 @@
+/* Giftly's approved editorial pattern, with each product's own identity. */
+.studio-page{background:var(--studio-paper);color:var(--studio-ink);--p-accent:var(--studio-accent)!important;font-size:18px}
+.studio-page section[id]{scroll-margin-top:110px}
+.studio-page .studio-hero-art{display:block;width:min(100%,380px);height:auto;border-radius:24px;box-shadow:0 24px 60px #0002;animation:none;transform:none}
+.studio-page .studio-hero-link{display:block;width:min(100%,380px);line-height:0}
+.studio-page .p-experience{background:var(--studio-paper);color:var(--studio-ink);padding-block:0 64px;--p-accent:var(--studio-accent)!important;font-family:inherit}
+.studio-page .p-wrap{width:min(1080px,calc(100% - 48px))}
+.studio-page .p-section-heading h2{color:var(--studio-ink)!important;font-family:inherit;line-height:1.12;font-size:40px}
+.studio-page .p-section-heading p{color:color-mix(in srgb,var(--studio-ink),var(--studio-paper) 22%);font-size:18px;line-height:1.65}
+.studio-page .p-kicker{color:var(--studio-accent);font-size:15px!important}
+.studio-page .p-campaign{border-top:1px solid color-mix(in srgb,var(--studio-ink),transparent 82%);padding-top:4px}
+.studio-page .studio-stories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.studio-page .studio-stories--six{grid-template-columns:repeat(2,minmax(0,1fr));max-width:860px;margin-inline:auto}
+.studio-page .studio-stories--wide{grid-template-columns:minmax(0,1fr);max-width:1080px}
+.studio-page .studio-stories figure,.studio-page .studio-platform-gallery figure{margin:0;min-width:0}
+.studio-page .studio-stories .p-shot,.studio-page .studio-platform-gallery .p-shot{width:100%;border:1px solid color-mix(in srgb,var(--studio-ink),transparent 80%)!important;background:var(--studio-paper)!important;border-radius:18px!important}
+.studio-page .studio-stories .p-shot img,.studio-page .studio-platform-gallery .p-shot img{width:100%;height:auto;max-width:100%;transform:none}
+.studio-page .studio-story figcaption{font-size:17px;line-height:1.5;color:var(--studio-ink);margin-top:14px}
+.studio-page .studio-gallery-hint{font-size:16px;color:var(--studio-ink);margin-top:22px;opacity:.82}
+.studio-page .studio-gallery-hint span{display:none}
+.studio-page .studio-platform{margin-top:32px;border:1px solid color-mix(in srgb,var(--studio-ink),transparent 80%);border-radius:20px;background:color-mix(in srgb,var(--studio-paper),var(--studio-ink) 4%);padding:6px 24px}
+.studio-page .studio-platform summary{font-size:20px;font-weight:600;min-height:60px;cursor:pointer;padding-block:14px;color:var(--studio-ink)}
+.studio-page .studio-platform-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;padding-block:18px 24px}
+.studio-page .studio-walkthrough{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:center;gap:64px;margin-top:72px;padding:40px;border:1px solid color-mix(in srgb,var(--studio-ink),transparent 85%);border-radius:26px;background:color-mix(in srgb,var(--studio-paper),var(--studio-ink) 4%)}
+.studio-page .studio-walkthrough video{display:block;width:100%;max-height:560px;border-radius:18px;background:var(--studio-paper)}
+.studio-page .p-proof-copy h3{color:var(--studio-ink);font-family:inherit}
+.studio-page .p-proof-copy p,.studio-page .p-proof-copy li{color:color-mix(in srgb,var(--studio-ink),var(--studio-paper) 20%);font-size:18px}
+.studio-page .p-button{background:var(--studio-accent);color:var(--studio-paper)!important;font-size:17px;font-weight:650}
+.studio-page .p-capture-tour{background:color-mix(in srgb,var(--studio-paper),var(--studio-ink) 4%);border-color:color-mix(in srgb,var(--studio-ink),transparent 85%)}
+.studio-page .p-tour-options button{background:var(--studio-paper);color:var(--studio-ink);border-color:color-mix(in srgb,var(--studio-ink),transparent 75%);font-family:inherit}
+.studio-page .p-tour-options button>span:last-child{color:color-mix(in srgb,var(--studio-ink),var(--studio-paper) 20%)}
+.studio-page .p-tour-options button[aria-pressed=true]{background:color-mix(in srgb,var(--studio-paper),var(--studio-accent) 12%);border-color:var(--studio-accent)}
+.studio-page .p-tour-options button:hover{border-color:var(--studio-accent)}
+.studio-page :focus-visible{outline:3px solid var(--studio-accent);outline-offset:5px}
+.studio-page .p-hero-screen{height:auto;max-height:none;width:min(100%,380px);transform:none;border-radius:24px}
+.studio-page .p-hero-visual{overflow:visible;min-height:0}.studio-page .p-orbit{display:none}
+.studio-page .p-marquee,.studio-page .p-features article,.studio-page .p-related>a{background:color-mix(in srgb,var(--studio-paper),var(--studio-ink) 4%);color:var(--studio-ink);border-color:color-mix(in srgb,var(--studio-ink),transparent 85%)}
+.studio-page .p-lede,.studio-page .p-header>nav,.studio-page .p-footer,.studio-page .p-text-link{color:var(--studio-ink)}
+.studio-page.studio-wide .studio-hero-link,.studio-page.studio-wide .studio-hero-art,.studio-page.studio-wide .p-hero-screen{width:100%;max-width:1080px}
+.studio-page.studio-wide .p-hero{grid-template-columns:minmax(0,1fr);min-height:0}.studio-page.studio-wide .p-hero-copy{max-width:820px}.studio-page.studio-wide .p-hero-visual{width:100%;max-width:none}
+.studio-page[data-studio=brainfold] .hero{min-height:0;padding-block:130px 72px}.studio-page[data-studio=brainfold] .hero::after{display:none}
+@media(max-width:860px){.studio-page .studio-stories{display:flex;overflow-x:auto;gap:22px;scroll-snap-type:x proximity;padding-bottom:22px}.studio-page .studio-stories figure{flex:0 0 96%;scroll-snap-align:start}.studio-page .studio-gallery-hint span{display:inline}.studio-page .studio-walkthrough{grid-template-columns:minmax(0,1fr);padding:26px;gap:30px}.studio-page .studio-platform-gallery{grid-template-columns:minmax(0,1fr)}.studio-page .p-section-heading h2{font-size:34px}.studio-page[data-studio=brainfold] .hero{padding-top:110px}}
+@media(max-width:420px){.studio-page .p-wrap{width:calc(100% - 40px)}.studio-page .studio-platform{padding-inline:16px}.studio-page .studio-walkthrough{padding:22px}.studio-page .p-tour-image img{height:430px}.studio-page .p-hero-screen{max-height:none}.studio-page .p-section-heading h2{font-size:32px}}
+@media(prefers-reduced-motion:reduce){.studio-page *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

@@ -1303,8 +1303,9 @@ lang-ref: brainfold-page
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   {% include social-meta.html product='brainfold' %}
   <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+  <link rel="stylesheet" href="{{ "/css/studio-products.css" | relative_url }}">
 </head>
-<body>
+<body class="studio-page" data-studio="brainfold" style="--studio-paper:#0F1A2E;--studio-ink:#FBF7F3;--studio-accent:#FF8064">
 
     <!-- ========================================
          NAVIGATION
@@ -1354,14 +1355,13 @@ lang-ref: brainfold-page
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <div class="hero-icon-wrapper">
-                        <div class="hero-icon-glow"></div>
-                        <img src="/images/portfolio/brainfold/icon.webp" alt="Brainfold App Icon" class="hero-app-icon" loading="eager">
-                    </div>
+                    <a class="studio-hero-link" href="{{ site.data.product_marketing.brainfold.gallery[0].output | relative_url }}" target="_blank" rel="noopener" aria-label="View Brainfold’s product image in English"><img class="studio-hero-art" src="{{ site.data.product_marketing.brainfold.gallery[0].output | relative_url }}" alt="{{ site.data.product_marketing.brainfold.gallery[0].alt | escape }}" lang="en" loading="eager" fetchpriority="high" width="1320" height="2868"></a>
                 </div>
             </div>
         </div>
     </section>
+
+    {% include product-experience.html slug='brainfold' omit_capture_gallery=true %}
 
     <!-- ========================================
          FEATURES SECTION
@@ -1458,88 +1458,12 @@ lang-ref: brainfold-page
     <!-- ========================================
          SCREENSHOT SHOWCASE SECTION (iPhone)
          ======================================== -->
-    <section class="showcase" id="screenshots">
-        <div class="container">
-            <div class="showcase-header">
-                <div class="section-label">{{ b.screenshots_iphone_label | default: "iPhone" }}</div>
-                <h2 class="section-title">{{ b.screenshots_heading_1 | default: "See Brainfold" }} <span class="gradient-text">{{ b.screenshots_heading_2 | default: "in action" }}</span></h2>
-                <p class="section-subtitle">{{ b.screenshots_subtitle | default: "Every screen is designed to make studying effortless, engaging, and effective." }}</p>
-            </div>
-        </div>
-        <div class="showcase-scroll">
-            <div>
-                <img src="/apps/brainfold/screenshots/framed/01_study_tab.webp" alt="Study dashboard with pack list and radar chart" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">{{ b.caption_study | default: "Study Dashboard" }}</div>
-            </div>
-            <div>
-                <img src="/apps/brainfold/screenshots/framed/02_flashcard.webp" alt="Flashcard front side with swipe gestures" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">{{ b.caption_flashcards | default: "Flashcards" }}</div>
-            </div>
-            <div>
-                <img src="/apps/brainfold/screenshots/framed/03_quiz.webp" alt="Multiple choice quiz with answer feedback" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">{{ b.caption_quiz | default: "Smart Quiz" }}</div>
-            </div>
-            <div>
-                <img src="/apps/brainfold/screenshots/framed/04_tutor.webp" alt="AI tutor chat with structured explanations" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">{{ b.caption_tutor | default: "AI Tutor" }}</div>
-            </div>
-            <div>
-                <img src="/apps/brainfold/screenshots/framed/05_summary.webp" alt="Rich summary with callouts and formulas" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">{{ b.caption_summary | default: "Rich Summary" }}</div>
-            </div>
-            <div>
-                <img src="/apps/brainfold/screenshots/framed/06_battle.webp" alt="Battle mode setup screen" class="framed-screenshot framed-screenshot-sm" loading="lazy" data-locale-img>
-                <div class="showcase-caption">{{ b.caption_battle | default: "Battle Mode" }}</div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- ========================================
          SCREENSHOT SHOWCASE SECTION (iPad)
          ======================================== -->
-    <section class="ipad-showcase">
-        <div class="container">
-            <div class="ipad-showcase-header">
-                <div class="section-label">{{ b.screenshots_ipad_label | default: "iPad" }}</div>
-                <h2 class="section-title">{{ b.ipad_heading_1 | default: "Beautiful on" }} <span class="gradient-text">{{ b.ipad_heading_2 | default: "iPad" }}</span></h2>
-                <p class="section-subtitle">{{ b.ipad_subtitle | default: "Take advantage of the larger screen for an immersive study experience." }}</p>
-            </div>
-        </div>
-        <div class="ipad-showcase-scroll">
-            <div>
-                <div class="ipad-frame ipad-frame-sm">
-                    <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/framed/01_study_tab.webp" alt="Brainfold on iPad - Study Dashboard" loading="lazy" data-locale-img-ipad>
-                    </div>
-                </div>
-                <div class="showcase-caption">{{ b.ipad_caption_study | default: "Study Dashboard" }}</div>
-            </div>
-            <div>
-                <div class="ipad-frame ipad-frame-sm">
-                    <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/framed/05_summary.webp" alt="Brainfold on iPad - Rich Summary" loading="lazy" data-locale-img-ipad>
-                    </div>
-                </div>
-                <div class="showcase-caption">{{ b.ipad_caption_summary | default: "Rich Summary" }}</div>
-            </div>
-            <div>
-                <div class="ipad-frame ipad-frame-sm">
-                    <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/framed/04_tutor.webp" alt="Brainfold on iPad - AI Tutor" loading="lazy" data-locale-img-ipad>
-                    </div>
-                </div>
-                <div class="showcase-caption">{{ b.ipad_caption_tutor | default: "AI Tutor" }}</div>
-            </div>
-            <div>
-                <div class="ipad-frame ipad-frame-sm">
-                    <div class="ipad-screen">
-                        <img src="/apps/brainfold/screenshots/ipad/framed/06_battle.webp" alt="Brainfold on iPad - Battle Mode" loading="lazy" data-locale-img-ipad>
-                    </div>
-                </div>
-                <div class="showcase-caption">{{ b.ipad_caption_battle | default: "Battle Mode" }}</div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- ========================================
          REVIEWS SECTION
@@ -1677,7 +1601,7 @@ lang-ref: brainfold-page
     <!-- ========================================
          FOOTER
          ======================================== -->
-    {% include product-experience.html slug='brainfold' %}
+
 <footer>
         <div class="container">
             <div class="footer-content">

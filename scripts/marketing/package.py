@@ -52,6 +52,8 @@ for product_index,p in enumerate(products):
     marketing[p['slug']]={'locale':'en-US','position':p['position'],'headline':p['panels'][0][0],'description':p['panels'][0][1],'cta':p['cta'],'steps':p['steps'][0],'video':f'/images/campaign/en-US/{p["slug"]}/walkthrough.mp4','poster':f'/images/campaign/en-US/{p["slug"]}/poster.webp','captions':f'/images/campaign/en-US/{p["slug"]}/walkthrough.vtt','gallery':gallery,'captures':captures,'video_kind':videos[p['slug'],1]['kind']}
     if p.get('website_layout'):
         marketing[p['slug']]['website_layout']=p['website_layout']
+    if p.get('website_editorial'):
+        marketing[p['slug']]['website_editorial']=p['website_editorial']
     if p.get('website_layout')=='giftly-approved':
         marketing[p['slug']]['captures']=[r for r in captures if not r['output'].endswith('/ipad-capture-4.webp')]
         for r in marketing[p['slug']]['captures']:

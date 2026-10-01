@@ -691,24 +691,34 @@
       "keywords": "study,quiz,revision,spaced,repetition,tutor,summary,exam,notes,learning,scan,pdf",
       "panels": [
         [
-          "Turn notes into flashcards.",
-          "Bring your study material. Build a review routine.",
+          "Turn your notes. Into practice.",
+          "Flashcards, quizzes and a tutor. Built from your material.",
           "AI study companion"
         ],
         [
-          "One question at a time.",
-          "Review flashcards with spaced repetition.",
+          "Make time. Make it stick.",
+          "Review flashcards. One question at a time.",
           "Flashcards that fit your day"
         ],
         [
           "Try what you remember.",
-          "Practice with quizzes from your material.",
+          "Quizzes from your notes. Feedback as you go.",
           "Put ideas to the test"
         ],
         [
           "Get unstuck. Keep going.",
-          "Ask the AI tutor about your study material.",
+          "Ask about your study material. Keep the lesson in view.",
           "Help in context"
+        ],
+        [
+          "Keep the lesson. Close by.",
+          "Rich summaries and key insights. Your material, ready to review.",
+          "Rich summaries"
+        ],
+        [
+          "Bring a friend. Test your recall.",
+          "Choose your pack. Set up a knowledge battle.",
+          "Battle mode"
         ]
       ],
       "hooks": [
@@ -755,7 +765,9 @@
         "/docs/marketing/october-2026/sources/brainfold/screen-1.png",
         "/docs/marketing/october-2026/sources/brainfold/screen-2.png",
         "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
-        "/docs/marketing/october-2026/sources/brainfold/screen-4.png"
+        "/docs/marketing/october-2026/sources/brainfold/screen-4.png",
+        "/docs/marketing/october-2026/sources/brainfold/screen-5.png",
+        "/docs/marketing/october-2026/sources/brainfold/screen-6.png"
       ],
       "hardware": "iphone",
       "capture_has_device_frame": false,
@@ -796,23 +808,23 @@
         ],
         "panels": [
           [
-            "Turn notes into flashcards.",
-            "Bring your study material. Build a review routine.",
+            "Turn your notes. Into practice.",
+            "Flashcards, quizzes and a tutor. Built from your material.",
             "AI study companion"
           ],
           [
-            "Keep the lesson close.",
-            "Review a rich summary alongside your study material.",
+            "Keep the lesson. Close by.",
+            "Rich summaries and key insights. Your material, ready to review.",
             "Rich summaries"
           ],
           [
-            "Bring a friend into the challenge.",
-            "Explore the battle view on a larger screen.",
+            "Bring a friend. Test your recall.",
+            "Choose your pack. Set up a knowledge battle.",
             "Battle mode"
           ],
           [
             "Get unstuck. Keep going.",
-            "Ask the AI tutor about your study material.",
+            "Ask about your study material. Keep the lesson in view.",
             "Help in context"
           ]
         ],
@@ -845,7 +857,291 @@
           "label": "Test your recall"
         },
         null
-      ]
+      ],
+      "studio_art": {
+        "copy": [
+          [
+            "Turn your notes.\nInto practice.",
+            "Flashcards, quizzes and a tutor.\nBuilt from your material."
+          ],
+          [
+            "Make time.\nMake it stick.",
+            "Review flashcards.\nOne question at a time."
+          ],
+          [
+            "Try what\nyou remember.",
+            "Quizzes from your notes.\nFeedback as you go."
+          ],
+          [
+            "Get unstuck.\nKeep going.",
+            "Ask about your study material.\nKeep the lesson in view."
+          ],
+          [
+            "Keep the lesson.\nClose by.",
+            "Rich summaries and key insights.\nYour material, ready to review."
+          ],
+          [
+            "Bring a friend.\nTest your recall.",
+            "Choose your pack.\nSet up a knowledge battle."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-2.png",
+                "rect": [
+                  30,
+                  452,
+                  630,
+                  1081
+                ],
+                "left": 0.055,
+                "top": 0.525,
+                "width": 0.89,
+                "radius": 28,
+                "angle": -2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
+                "rect": [
+                  30,
+                  347,
+                  630,
+                  433
+                ],
+                "left": 0.03,
+                "top": 0.62,
+                "width": 0.94,
+                "radius": 18,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-3.png",
+                "rect": [
+                  30,
+                  445,
+                  630,
+                  530
+                ],
+                "left": 0.045,
+                "top": 0.75,
+                "width": 0.92,
+                "radius": 18,
+                "angle": 2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-4.png",
+                "rect": [
+                  248,
+                  190,
+                  630,
+                  244
+                ],
+                "left": 0.08,
+                "top": 0.52,
+                "width": 0.87,
+                "radius": 18,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-4.png",
+                "rect": [
+                  30,
+                  259,
+                  515,
+                  693
+                ],
+                "left": 0.055,
+                "top": 0.59,
+                "width": 0.89,
+                "radius": 18,
+                "angle": 1
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-5.png",
+                "rect": [
+                  30,
+                  624,
+                  630,
+                  774
+                ],
+                "left": 0.045,
+                "top": 0.63,
+                "width": 0.91,
+                "radius": 12,
+                "angle": -2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-6.png",
+                "rect": [
+                  30,
+                  454,
+                  630,
+                  548
+                ],
+                "left": 0.035,
+                "top": 0.6,
+                "width": 0.92,
+                "radius": 14,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/screen-6.png",
+                "rect": [
+                  30,
+                  597,
+                  630,
+                  693
+                ],
+                "left": 0.045,
+                "top": 0.77,
+                "width": 0.91,
+                "radius": 14,
+                "angle": 2
+              }
+            ]
+          ]
+        },
+        "ipad": {
+          "copy": [
+            [
+              "Turn your notes.\nInto practice.",
+              "Flashcards, quizzes and a tutor.\nBuilt from your material."
+            ],
+            [
+              "Keep the lesson.\nClose by.",
+              "Rich summaries and key insights.\nYour material, ready to review."
+            ],
+            [
+              "Bring a friend.\nTest your recall.",
+              "Choose your pack.\nSet up a knowledge battle."
+            ],
+            [
+              "Get unstuck.\nKeep going.",
+              "Ask about your study material.\nKeep the lesson in view."
+            ]
+          ],
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-2.png",
+                "rect": [
+                  127,
+                  374,
+                  1114,
+                  447
+                ],
+                "left": 0.025,
+                "top": 0.63,
+                "width": 0.95,
+                "radius": 10,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-2.png",
+                "rect": [
+                  127,
+                  999,
+                  1114,
+                  1074
+                ],
+                "left": 0.035,
+                "top": 0.81,
+                "width": 0.93,
+                "radius": 10,
+                "angle": 2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-3.png",
+                "rect": [
+                  126,
+                  354,
+                  1114,
+                  565
+                ],
+                "left": 0.03,
+                "top": 0.61,
+                "width": 0.94,
+                "radius": 12,
+                "angle": -2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-4.png",
+                "rect": [
+                  746,
+                  115,
+                  1116,
+                  164
+                ],
+                "left": 0.19,
+                "top": 0.57,
+                "width": 0.78,
+                "radius": 14,
+                "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/brainfold/ipad/screen-4.png",
+                "rect": [
+                  138,
+                  455,
+                  758,
+                  514
+                ],
+                "left": 0.02,
+                "top": 0.77,
+                "width": 0.93,
+                "radius": 12,
+                "angle": 1
+              }
+            ]
+          ]
+        },
+        "props": [
+          {
+            "asset": "/docs/marketing/october-2026/assets/brainfold/books-cutout.png",
+            "width": 0.32,
+            "left": 0.72,
+            "bottom": 0.015,
+            "angle": 8,
+            "panels": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "Your notes.\nYour next study session.",
+        "description": "Review a flashcard, try a quiz, keep a summary close or bring a friend into a knowledge battle. Brainfold turns the material you brought into practice.",
+        "walkthrough_title": "From material\nto practice.",
+        "walkthrough_description": "See your study pack, open a flashcard and get help with a question.",
+        "primary_count": 6,
+        "palette": [
+          "#0F1A2E",
+          "#FBF7F3",
+          "#FF8064"
+        ],
+        "gallery_id": "screenshots"
+      }
     },
     {
       "slug": "memories",

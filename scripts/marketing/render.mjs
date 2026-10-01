@@ -27,7 +27,8 @@ for(const p of campaign.products){
   if(process.env.MAGICLAB_FORMATS&&!process.env.MAGICLAB_FORMATS.split(',').includes(format))continue;
   await page.setViewportSize({width:dimensions[0],height:dimensions[1]});
   const pilot=p.store_pilot&&['store','ipad-store'].includes(format);
-  await page.goto(base+'/docs/marketing/october-2026/'+(pilot?'giftly-pilot.html':'art.html'));
+  const studio=p.studio_art&&(['store','ipad-store','play-store'].includes(format)||p.preserve_store&&format==='social');
+  await page.goto(base+'/docs/marketing/october-2026/'+(studio?'studio-art.html':pilot?'giftly-pilot.html':'art.html'));
   const variants=format==='video'?[0,1]:[0];
   const visualProduct=format==='play-store'?{...p,...p.play_store,frame:null,capture_has_device_frame:false}:format==='ipad-store'?{...p,...p.ipad_store,capture_has_device_frame:false}:p;
   const count=format==='video'?3:['store','play-store','ipad-store'].includes(format)?visualProduct.panels.length:4;
