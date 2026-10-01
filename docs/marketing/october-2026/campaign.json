@@ -27,13 +27,13 @@
           "A group greeting card"
         ],
         [
-          "Make it personal.",
-          "Add your words and stickers.",
+          "Your own words.",
+          "Messages with personality.",
           "Messages & stickers"
         ],
         [
           "Open the surprise.",
-          "A card full of thoughtful messages.",
+          "A card from the whole group.",
           "The finished card"
         ],
         [
@@ -83,10 +83,10 @@
       "cta": "Make a card",
       "store_format": "web-editorial",
       "screens": [
-        "/docs/marketing/october-2026/sources/hooray/screen-1.png",
-        "/docs/marketing/october-2026/sources/hooray/screen-2.png",
-        "/docs/marketing/october-2026/sources/hooray/screen-3.png",
-        "/docs/marketing/october-2026/sources/hooray/screen-4.png"
+        "/docs/marketing/october-2026/sources/hooray/native-1.png",
+        "/docs/marketing/october-2026/sources/hooray/native-2.png",
+        "/docs/marketing/october-2026/sources/hooray/native-3.png",
+        "/docs/marketing/october-2026/sources/hooray/native-4.png"
       ],
       "hardware": "browser",
       "capture_has_device_frame": false,
@@ -94,16 +94,95 @@
       "background": "/docs/marketing/october-2026/lifestyle/hooray.png",
       "details": [
         null,
-        {
-          "asset": "/docs/marketing/october-2026/sources/hooray/detail-primary-2.png",
-          "label": "A personal touch"
-        },
-        {
-          "asset": "/docs/marketing/october-2026/sources/hooray/detail-primary-3.png",
-          "label": "Everyone’s words"
-        },
+        null,
+        null,
         null
-      ]
+      ],
+      "studio_art": {
+        "copy": [
+          [
+            "Everyone signs.",
+            "One thoughtful group card."
+          ],
+          [
+            "Your own words.",
+            "Messages with personality."
+          ],
+          [
+            "Open the surprise.",
+            "A card from the whole group."
+          ],
+          [
+            "For your occasion.",
+            "Birthdays, thanks and goodbyes."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/hooray/native-2.png",
+                "rect": [
+                  493,
+                  120,
+                  720,
+                  211
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.44,
+                "radius": 12,
+                "angle": -2
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/hooray/native-4.png",
+                "rect": [
+                  342,
+                  355,
+                  581,
+                  592
+                ],
+                "left": 0.035,
+                "top": 0.6,
+                "width": 0.235,
+                "radius": 16,
+                "angle": -3
+              }
+            ]
+          ]
+        },
+        "props": [
+          {
+            "asset": "/docs/marketing/october-2026/assets/hooray/balloon.svg",
+            "width": 0.14,
+            "left": 0.85,
+            "bottom": -0.02,
+            "angle": 12,
+            "panels": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "The whole group.\nOne thoughtful card.",
+        "description": "Choose the occasion, give everyone a place to sign, and open a card full of familiar words. These are real views from the Hooray web app.",
+        "primary_count": 4,
+        "palette": [
+          "#FFF7EA",
+          "#202E26",
+          "#AE3E1C"
+        ],
+        "gallery_id": "studio-highlights",
+        "wide": true
+      }
     },
     {
       "slug": "sundust",

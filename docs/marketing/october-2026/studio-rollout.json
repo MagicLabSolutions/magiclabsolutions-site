@@ -61,9 +61,13 @@
       "composition": "Two clean and two layered views per Apple platform."
     },
     "hooray": {
-      "status": "queued",
+      "status": "complete",
       "primary_images": 4,
-      "website": "pending"
+      "website": "checked",
+      "native_variants": {
+        "web": 4
+      },
+      "composition": "Two clean browser views and two with selected native components."
     },
     "soooon": {
       "status": "queued",

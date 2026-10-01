@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "key": "primary-1",
+      "copy": {
+        "x": 144,
+        "y": 180,
+        "width": 2112,
+        "height": 419.28125,
+        "top": 180,
+        "right": 2256,
+        "bottom": 599.28125,
+        "left": 144
+      },
+      "device": {
+        "x": 192,
+        "y": 690,
+        "width": 2016,
+        "height": 0,
+        "top": 690,
+        "right": 2208,
+        "bottom": 690,
+        "left": 192
+      },
+      "screen": {
+        "x": 192,
+        "y": 690,
+        "width": 1440,
+        "height": 900,
+        "top": 690,
+        "right": 1632,
+        "bottom": 1590,
+        "left": 192
+      },
+      "natural": [
+        1440,
+        900
+      ],
+      "headline": 228,
+      "description": 110.4,
+      "cutouts": [],
+      "headlineAt390": 37.05,
+      "descriptionAt390": 17.94
+    },
+    {
+      "key": "primary-2",
+      "copy": {
+        "x": 144,
+        "y": 180,
+        "width": 2112,
+        "height": 419.28125,
+        "top": 180,
+        "right": 2256,
+        "bottom": 599.28125,
+        "left": 144
+      },
+      "device": {
+        "x": 192,
+        "y": 690,
+        "width": 2016,
+        "height": 0,
+        "top": 690,
+        "right": 2208,
+        "bottom": 690,
+        "left": 192
+      },
+      "screen": {
+        "x": 192,
+        "y": 690,
+        "width": 1440,
+        "height": 900,
+        "top": 690,
+        "right": 1632,
+        "bottom": 1590,
+        "left": 192
+      },
+      "natural": [
+        1440,
+        900
+      ],
+      "headline": 228,
+      "description": 110.4,
+      "cutouts": [
+        {
+          "box": {
+            "x": 52.93467330932617,
+            "y": 971.7020263671875,
+            "width": 1070.130615234375,
+            "height": 459.924072265625,
+            "top": 971.7020263671875,
+            "right": 1123.0652885437012,
+            "bottom": 1431.6260986328125,
+            "left": 52.93467330932617
+          },
+          "source": "/docs/marketing/october-2026/sources/hooray/native-2.png",
+          "rect": [
+            493,
+            120,
+            720,
+            211
+          ]
+        }
+      ],
+      "headlineAt390": 37.05,
+      "descriptionAt390": 17.94
+    },
+    {
+      "key": "primary-3",
+      "copy": {
+        "x": 144,
+        "y": 180,
+        "width": 2112,
+        "height": 419.28125,
+        "top": 180,
+        "right": 2256,
+        "bottom": 599.28125,
+        "left": 144
+      },
+      "device": {
+        "x": 192,
+        "y": 690,
+        "width": 2016,
+        "height": 0,
+        "top": 690,
+        "right": 2208,
+        "bottom": 690,
+        "left": 192
+      },
+      "screen": {
+        "x": 192,
+        "y": 690,
+        "width": 1440,
+        "height": 900,
+        "top": 690,
+        "right": 1632,
+        "bottom": 1590,
+        "left": 192
+      },
+      "natural": [
+        1440,
+        900
+      ],
+      "headline": 228,
+      "description": 110.4,
+      "cutouts": [],
+      "headlineAt390": 37.05,
+      "descriptionAt390": 17.94
+    },
+    {
+      "key": "primary-4",
+      "copy": {
+        "x": 144,
+        "y": 180,
+        "width": 2112,
+        "height": 419.28125,
+        "top": 180,
+        "right": 2256,
+        "bottom": 599.28125,
+        "left": 144
+      },
+      "device": {
+        "x": 192,
+        "y": 690,
+        "width": 2016,
+        "height": 0,
+        "top": 690,
+        "right": 2208,
+        "bottom": 690,
+        "left": 192
+      },
+      "screen": {
+        "x": 192,
+        "y": 690,
+        "width": 1440,
+        "height": 900,
+        "top": 690,
+        "right": 1632,
+        "bottom": 1590,
+        "left": 192
+      },
+      "natural": [
+        1440,
+        900
+      ],
+      "headline": 228,
+      "description": 110.4,
+      "cutouts": [
+        {
+          "box": {
+            "x": 69.75161743164062,
+            "y": 885.62451171875,
+            "width": 592.4967041015625,
+            "height": 588.0166015625,
+            "top": 885.62451171875,
+            "right": 662.2483215332031,
+            "bottom": 1473.64111328125,
+            "left": 69.75161743164062
+          },
+          "source": "/docs/marketing/october-2026/sources/hooray/native-4.png",
+          "rect": [
+            342,
+            355,
+            581,
+            592
+          ]
+        }
+      ],
+      "headlineAt390": 37.05,
+      "descriptionAt390": 17.94
+    }
+  ],
+  "errors": []
+}

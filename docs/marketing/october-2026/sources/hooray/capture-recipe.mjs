@@ -1,0 +1,8 @@
+import {createRequire} from 'node:module';import fs from 'node:fs/promises';
+const {chromium}=createRequire('/Users/fabio.hoffmann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json')('playwright');
+const b=await chromium.launch({headless:true,channel:'chrome'}),p=await b.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+await p.goto('http://127.0.0.1:8781/');await p.waitForLoadState('networkidle');await p.screenshot({path:'/private/tmp/hooray-current-1.png'});
+await p.evaluate(()=>{const cards=JSON.parse(localStorage.getItem('hooray.cards.v1'));const c=cards.find(c=>c.slug==='maya-b3f9');c.date='2026-11-10';c.status='collecting';c.pages=c.pages.map(page=>page.map(item=>item.type==='gif'?{...item,type:'sticker',label:'cake slice sticker'}:item));localStorage.setItem('hooray.cards.v1',JSON.stringify(cards));localStorage.setItem('hooray.joined.maya-b3f9','1')});
+await p.goto('http://127.0.0.1:8781/c/maya-b3f9/edit');await p.waitForLoadState('networkidle');await p.getByRole('button',{name:'Next page',exact:true}).click();await p.screenshot({path:'/private/tmp/hooray-current-2.png'});
+await p.goto('http://127.0.0.1:8781/c/maya-b3f9');await p.waitForLoadState('networkidle');await p.getByRole('button',{name:'Open your card',exact:true}).click();await p.getByRole('button',{name:'Next page',exact:true}).click();await p.screenshot({path:'/private/tmp/hooray-current-3.png'});
+await p.goto('http://127.0.0.1:8781/create');await p.waitForLoadState('networkidle');await p.screenshot({path:'/private/tmp/hooray-current-4.png'});await b.close();

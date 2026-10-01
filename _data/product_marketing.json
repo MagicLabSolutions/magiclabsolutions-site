@@ -23,14 +23,14 @@
       },
       {
         "output": "/images/campaign/en-US/hooray/highlight-2.webp",
-        "alt": "Hooray: Make it personal. — Add your words and stickers.",
-        "caption": "Make it personal.",
+        "alt": "Hooray: Your own words. — Messages with personality.",
+        "caption": "Your own words.",
         "width": 1440,
         "height": 900
       },
       {
         "output": "/images/campaign/en-US/hooray/highlight-3.webp",
-        "alt": "Hooray: Open the surprise. — A card full of thoughtful messages.",
+        "alt": "Hooray: Open the surprise. — A card from the whole group.",
         "caption": "Open the surprise.",
         "width": 1440,
         "height": 900
@@ -54,10 +54,35 @@
         "output": "/images/campaign/en-US/hooray/capture-2.webp",
         "alt": "Hooray: Messages & stickers (real English product capture)",
         "label": "Messages & stickers",
-        "description": "Add your words and stickers."
+        "description": "Messages with personality."
+      },
+      {
+        "output": "/images/campaign/en-US/hooray/capture-3.webp",
+        "alt": "Hooray: The finished card (real English product capture)",
+        "label": "The finished card",
+        "description": "A card from the whole group."
+      },
+      {
+        "output": "/images/campaign/en-US/hooray/capture-4.webp",
+        "alt": "Hooray: Celebrate together (real English product capture)",
+        "label": "Celebrate together",
+        "description": "Birthdays, thanks and goodbyes."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "The whole group.\nOne thoughtful card.",
+      "description": "Choose the occasion, give everyone a place to sign, and open a card full of familiar words. These are real views from the Hooray web app.",
+      "primary_count": 4,
+      "palette": [
+        "#FFF7EA",
+        "#202E26",
+        "#AE3E1C"
+      ],
+      "gallery_id": "studio-highlights",
+      "wide": true
+    }
   },
   "sundust": {
     "locale": "en-US",
