@@ -2242,23 +2242,33 @@
       "panels": [
         [
           "Know what renews next.",
-          "Keep recurring payments and dates in view.",
-          "Subscription tracking"
+          "Keep recurring costs and dates in view.",
+          "Your overview"
         ],
         [
-          "See the recurring total.",
-          "Get a clearer picture of subscription spending.",
-          "Costs, together"
+          "Start with your inbox.",
+          "Review imported plans before adding them.",
+          "Import review"
         ],
         [
-          "Keep the details handy.",
-          "Organize each plan and its renewal date.",
-          "One place to check"
+          "See the dates ahead.",
+          "Keep upcoming renewals together.",
+          "Renewal calendar"
         ],
         [
-          "Go into next month informed.",
-          "Review your subscriptions before the next charge.",
-          "Fewer loose ends"
+          "Separate work and life.",
+          "Compare recurring costs by profile.",
+          "Personal and company"
+        ],
+        [
+          "The details stay handy.",
+          "Check dates, payment methods and history.",
+          "Plan details"
+        ],
+        [
+          "All your plans. One place.",
+          "Review active and cancelled subscriptions.",
+          "Subscription list"
         ]
       ],
       "hooks": [
@@ -2302,10 +2312,12 @@
       "cta": "Discover My Renewals",
       "store_format": "iphone-6.9",
       "screens": [
-        "/docs/marketing/october-2026/sources/myrenewals/unframed-1.png",
-        "/docs/marketing/october-2026/sources/myrenewals/unframed-2.png",
-        "/docs/marketing/october-2026/sources/myrenewals/unframed-3.png",
-        "/docs/marketing/october-2026/sources/myrenewals/unframed-4.png"
+        "/docs/marketing/october-2026/sources/myrenewals/native-1.png",
+        "/docs/marketing/october-2026/sources/myrenewals/native-2.png",
+        "/docs/marketing/october-2026/sources/myrenewals/native-3.png",
+        "/docs/marketing/october-2026/sources/myrenewals/native-4.png",
+        "/docs/marketing/october-2026/sources/myrenewals/native-5.png",
+        "/docs/marketing/october-2026/sources/myrenewals/native-6.png"
       ],
       "hardware": "iphone",
       "capture_has_device_frame": false,
@@ -2325,16 +2337,257 @@
       "background": "/docs/marketing/october-2026/lifestyle/myrenewals.png",
       "details": [
         null,
-        {
-          "asset": "/docs/marketing/october-2026/sources/myrenewals/detail-primary-2.png",
-          "label": "See the total"
-        },
-        {
-          "asset": "/docs/marketing/october-2026/sources/myrenewals/detail-primary-3.png",
-          "label": "Know the next date"
-        },
+        null,
+        null,
+        null,
+        null,
         null
-      ]
+      ],
+      "ipad_store": {
+        "hardware": "ipad",
+        "device": "ipad",
+        "frame": {
+          "asset": "/docs/marketing/october-2026/.frames-cache/ipad.png",
+          "dimensions": [
+            2300,
+            3000
+          ],
+          "screen": [
+            118,
+            124,
+            2064,
+            2752
+          ]
+        },
+        "screens": [
+          "/docs/marketing/october-2026/sources/myrenewals/ipad/native-1.png",
+          "/docs/marketing/october-2026/sources/myrenewals/ipad/native-2.png",
+          "/docs/marketing/october-2026/sources/myrenewals/ipad/native-3.png",
+          "/docs/marketing/october-2026/sources/myrenewals/ipad/native-4.png",
+          "/docs/marketing/october-2026/sources/myrenewals/ipad/native-5.png",
+          "/docs/marketing/october-2026/sources/myrenewals/ipad/native-6.png"
+        ],
+        "panels": [
+          [
+            "Know what renews next.",
+            "Keep recurring costs and dates in view.",
+            "Your overview"
+          ],
+          [
+            "Start with your inbox.",
+            "Review imported plans before adding them.",
+            "Import review"
+          ],
+          [
+            "See the dates ahead.",
+            "Keep upcoming renewals together.",
+            "Renewal calendar"
+          ],
+          [
+            "Separate work and life.",
+            "Compare recurring costs by profile.",
+            "Personal and company"
+          ],
+          [
+            "The details stay handy.",
+            "Check dates, payment methods and history.",
+            "Plan details"
+          ],
+          [
+            "All your plans. One place.",
+            "Review active and cancelled subscriptions.",
+            "Subscription list"
+          ]
+        ],
+        "dimensions": [
+          2064,
+          2752
+        ],
+        "details": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "studio_art": {
+        "copy": [
+          [
+            "Know what\nrenews next.",
+            "Keep recurring costs\nand dates in view."
+          ],
+          [
+            "Start with\nyour inbox.",
+            "Review imported plans\nbefore adding them."
+          ],
+          [
+            "See the\ndates ahead.",
+            "Keep upcoming\nrenewals together."
+          ],
+          [
+            "Separate work\nand life.",
+            "Compare recurring\ncosts by profile."
+          ],
+          [
+            "The details\nstay handy.",
+            "Check dates, payment\nmethods and history."
+          ],
+          [
+            "All your plans.\nOne place.",
+            "Review active and\ncancelled subscriptions."
+          ]
+        ],
+        "primary": {
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/myrenewals/native-2.png",
+                "rect": [
+                  48,
+                  462,
+                  1272,
+                  738
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.95,
+                "radius": 45,
+                "angle": -2
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/myrenewals/native-4.png",
+                "rect": [
+                  48,
+                  636,
+                  1272,
+                  1014
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.95,
+                "radius": 45,
+                "angle": -2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/myrenewals/native-5.png",
+                "rect": [
+                  48,
+                  1002,
+                  1272,
+                  1242
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.95,
+                "radius": 45,
+                "angle": -2
+              }
+            ],
+            []
+          ]
+        },
+        "ipad": {
+          "copy": [
+            [
+              "Know what\nrenews next.",
+              "Keep recurring costs\nand dates in view."
+            ],
+            [
+              "Start with\nyour inbox.",
+              "Review imported plans\nbefore adding them."
+            ],
+            [
+              "See the\ndates ahead.",
+              "Keep upcoming\nrenewals together."
+            ],
+            [
+              "Separate work\nand life.",
+              "Compare recurring\ncosts by profile."
+            ],
+            [
+              "The details\nstay handy.",
+              "Check dates, payment\nmethods and history."
+            ],
+            [
+              "All your plans.\nOne place.",
+              "Review active and\ncancelled subscriptions."
+            ]
+          ],
+          "cutouts": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/myrenewals/ipad/native-2.png",
+                "rect": [
+                  264,
+                  248,
+                  1800,
+                  432
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.95,
+                "radius": 45,
+                "angle": -2
+              }
+            ],
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/myrenewals/ipad/native-4.png",
+                "rect": [
+                  232,
+                  364,
+                  1832,
+                  648
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.95,
+                "radius": 45,
+                "angle": -2
+              }
+            ],
+            [
+              {
+                "source": "/docs/marketing/october-2026/sources/myrenewals/ipad/native-5.png",
+                "rect": [
+                  232,
+                  600,
+                  1832,
+                  774
+                ],
+                "left": 0.025,
+                "top": 0.66,
+                "width": 0.95,
+                "radius": 45,
+                "angle": -2
+              }
+            ],
+            []
+          ]
+        }
+      },
+      "website_layout": "studio-layered",
+      "website_editorial": {
+        "title": "Recurring costs,\nwith more clarity.",
+        "description": "See the monthly picture, review plans from your inbox, and keep personal and company subscriptions organized. Six real views on iPhone and iPad.",
+        "primary_count": 6,
+        "palette": [
+          "#ECF7FA",
+          "#152B37",
+          "#056B82"
+        ],
+        "gallery_id": "screenshots"
+      }
     },
     {
       "slug": "toctoc",

@@ -83,9 +83,15 @@
       "composition": "Three clean and three layered images per platform."
     },
     "myrenewals": {
-      "status": "queued",
-      "primary_images": 4,
-      "website": "pending"
+      "status": "complete",
+      "primary_images": 6,
+      "website": "checked",
+      "native_variants": {
+        "iphone": 6,
+        "ipad": 6
+      },
+      "composition": "Three clean and three layered views per platform.",
+      "rationale": "Overview, imported-plan review, renewal calendar, profiles, plan details and subscriptions."
     },
     "groundcontrol": {
       "status": "queued",

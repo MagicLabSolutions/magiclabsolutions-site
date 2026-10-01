@@ -957,7 +957,7 @@
     "locale": "en-US",
     "position": "A clear view of recurring costs before the next renewal.",
     "headline": "Know what renews next.",
-    "description": "Keep recurring payments and dates in view.",
+    "description": "Keep recurring costs and dates in view.",
     "cta": "Discover My Renewals",
     "steps": [
       "See upcoming renewals",
@@ -970,60 +970,176 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/myrenewals/highlight-1.webp",
-        "alt": "My Renewals: Know what renews next. — Keep recurring payments and dates in view.",
+        "alt": "My Renewals: Know what renews next. — Keep recurring costs and dates in view.",
         "caption": "Know what renews next.",
         "width": 1320,
         "height": 2868
       },
       {
         "output": "/images/campaign/en-US/myrenewals/highlight-2.webp",
-        "alt": "My Renewals: See the recurring total. — Get a clearer picture of subscription spending.",
-        "caption": "See the recurring total.",
+        "alt": "My Renewals: Start with your inbox. — Review imported plans before adding them.",
+        "caption": "Start with your inbox.",
         "width": 1320,
         "height": 2868
       },
       {
         "output": "/images/campaign/en-US/myrenewals/highlight-3.webp",
-        "alt": "My Renewals: Keep the details handy. — Organize each plan and its renewal date.",
-        "caption": "Keep the details handy.",
+        "alt": "My Renewals: See the dates ahead. — Keep upcoming renewals together.",
+        "caption": "See the dates ahead.",
         "width": 1320,
         "height": 2868
       },
       {
         "output": "/images/campaign/en-US/myrenewals/highlight-4.webp",
-        "alt": "My Renewals: Go into next month informed. — Review your subscriptions before the next charge.",
-        "caption": "Go into next month informed.",
+        "alt": "My Renewals: Separate work and life. — Compare recurring costs by profile.",
+        "caption": "Separate work and life.",
         "width": 1320,
         "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/highlight-5.webp",
+        "alt": "My Renewals: The details stay handy. — Check dates, payment methods and history.",
+        "caption": "The details stay handy.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/highlight-6.webp",
+        "alt": "My Renewals: All your plans. One place. — Review active and cancelled subscriptions.",
+        "caption": "All your plans. One place.",
+        "width": 1320,
+        "height": 2868
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-highlight-1.webp",
+        "alt": "My Renewals: iPad / Know what renews next. — Keep recurring costs and dates in view.",
+        "caption": "iPad / Know what renews next.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-highlight-2.webp",
+        "alt": "My Renewals: iPad / Start with your inbox. — Review imported plans before adding them.",
+        "caption": "iPad / Start with your inbox.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-highlight-3.webp",
+        "alt": "My Renewals: iPad / See the dates ahead. — Keep upcoming renewals together.",
+        "caption": "iPad / See the dates ahead.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-highlight-4.webp",
+        "alt": "My Renewals: iPad / Separate work and life. — Compare recurring costs by profile.",
+        "caption": "iPad / Separate work and life.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-highlight-5.webp",
+        "alt": "My Renewals: iPad / The details stay handy. — Check dates, payment methods and history.",
+        "caption": "iPad / The details stay handy.",
+        "width": 1440,
+        "height": 1920
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-highlight-6.webp",
+        "alt": "My Renewals: iPad / All your plans. One place. — Review active and cancelled subscriptions.",
+        "caption": "iPad / All your plans. One place.",
+        "width": 1440,
+        "height": 1920
       }
     ],
     "captures": [
       {
         "output": "/images/campaign/en-US/myrenewals/capture-1.webp",
-        "alt": "My Renewals: Subscription tracking (real English product capture)",
-        "label": "Subscription tracking",
-        "description": "Keep recurring payments and dates in view."
+        "alt": "My Renewals: Your overview (real English product capture)",
+        "label": "Your overview",
+        "description": "Keep recurring costs and dates in view."
       },
       {
         "output": "/images/campaign/en-US/myrenewals/capture-2.webp",
-        "alt": "My Renewals: Costs, together (real English product capture)",
-        "label": "Costs, together",
-        "description": "Get a clearer picture of subscription spending."
+        "alt": "My Renewals: Import review (real English product capture)",
+        "label": "Import review",
+        "description": "Review imported plans before adding them."
       },
       {
         "output": "/images/campaign/en-US/myrenewals/capture-3.webp",
-        "alt": "My Renewals: One place to check (real English product capture)",
-        "label": "One place to check",
-        "description": "Organize each plan and its renewal date."
+        "alt": "My Renewals: Renewal calendar (real English product capture)",
+        "label": "Renewal calendar",
+        "description": "Keep upcoming renewals together."
       },
       {
         "output": "/images/campaign/en-US/myrenewals/capture-4.webp",
-        "alt": "My Renewals: Fewer loose ends (real English product capture)",
-        "label": "Fewer loose ends",
-        "description": "Review your subscriptions before the next charge."
+        "alt": "My Renewals: Personal and company (real English product capture)",
+        "label": "Personal and company",
+        "description": "Compare recurring costs by profile."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/capture-5.webp",
+        "alt": "My Renewals: Plan details (real English product capture)",
+        "label": "Plan details",
+        "description": "Check dates, payment methods and history."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/capture-6.webp",
+        "alt": "My Renewals: Subscription list (real English product capture)",
+        "label": "Subscription list",
+        "description": "Review active and cancelled subscriptions."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-capture-1.webp",
+        "alt": "My Renewals: iPad / Your overview (real English product capture)",
+        "label": "iPad / Your overview",
+        "description": "Keep recurring costs and dates in view."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-capture-2.webp",
+        "alt": "My Renewals: iPad / Import review (real English product capture)",
+        "label": "iPad / Import review",
+        "description": "Review imported plans before adding them."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-capture-3.webp",
+        "alt": "My Renewals: iPad / Renewal calendar (real English product capture)",
+        "label": "iPad / Renewal calendar",
+        "description": "Keep upcoming renewals together."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-capture-4.webp",
+        "alt": "My Renewals: iPad / Personal and company (real English product capture)",
+        "label": "iPad / Personal and company",
+        "description": "Compare recurring costs by profile."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-capture-5.webp",
+        "alt": "My Renewals: iPad / Plan details (real English product capture)",
+        "label": "iPad / Plan details",
+        "description": "Check dates, payment methods and history."
+      },
+      {
+        "output": "/images/campaign/en-US/myrenewals/ipad-capture-6.webp",
+        "alt": "My Renewals: iPad / Subscription list (real English product capture)",
+        "label": "iPad / Subscription list",
+        "description": "Review active and cancelled subscriptions."
       }
     ],
-    "video_kind": "edited-screen-walkthrough"
+    "video_kind": "edited-screen-walkthrough",
+    "website_layout": "studio-layered",
+    "website_editorial": {
+      "title": "Recurring costs,\nwith more clarity.",
+      "description": "See the monthly picture, review plans from your inbox, and keep personal and company subscriptions organized. Six real views on iPhone and iPad.",
+      "primary_count": 6,
+      "palette": [
+        "#ECF7FA",
+        "#152B37",
+        "#056B82"
+      ],
+      "gallery_id": "screenshots"
+    }
   },
   "toctoc": {
     "locale": "en-US",

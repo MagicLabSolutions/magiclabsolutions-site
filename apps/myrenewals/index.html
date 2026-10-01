@@ -11,7 +11,7 @@ lang-ref: myrenewals-page
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ m.title | default: "MyRenewals -- Subscription Tracker" }}</title>
-    <meta name="description" content="{{ m.description | default: "Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew. Beautiful pie charts, smart notifications, and optimized for iPhone, iPad, and Mac." }}">
+    <meta name="description" content="{{ m.description | default: "Stay in control of your subscriptions. Track recurring costs, check renewal dates, and review your subscriptions before the next charge. Beautiful pie charts, smart notifications, and optimized for iPhone, iPad, and Mac." }}">
     <meta name="theme-color" content="#0A1A0F">
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <style>
@@ -1141,8 +1141,9 @@ lang-ref: myrenewals-page
   <script src="{{ '/js/portfolio.js' | relative_url }}" defer></script>
   {% include social-meta.html product='myrenewals' %}
   <link rel="stylesheet" href="{{ '/css/readability.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+<link rel="stylesheet" href="{{ '/css/studio-products.css' | relative_url }}">
 </head>
-<body>
+<body class="studio-page" data-studio="myrenewals" style="--studio-paper:#ECF7FA;--studio-ink:#152B37;--studio-accent:#056B82">
 
     <!-- ========================================
          NAVIGATION
@@ -1178,7 +1179,7 @@ lang-ref: myrenewals-page
             <div class="hero-grid">
                 <div class="hero-content">
                     <h1>{{ m.hero_heading_1 | default: "Never miss a" }}<br><span class="gradient-text">{{ m.hero_heading_2 | default: "renewal again" }}</span></h1>
-                    <p>{{ m.hero_text | default: "Stay in control of your subscriptions. Track, manage, and cancel recurring payments before they renew." }}</p>
+                    <p>{{ m.hero_text | default: "Stay in control of your subscriptions. Track recurring costs, check renewal dates, and review your subscriptions before the next charge." }}</p>
                     <div class="hero-actions">
                         <a href="https://apps.apple.com/app/id6752888662" class="app-store-btn" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor">
@@ -1192,14 +1193,14 @@ lang-ref: myrenewals-page
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <div class="hero-icon-wrapper">
-                        <div class="hero-icon-glow"></div>
-                        <img src="/images/portfolio/myrenewals/icon.webp" alt="MyRenewals App Icon" class="hero-app-icon" loading="eager">
-                    </div>
+                    <a class="studio-hero-link" href="#screenshots" lang="en"><img class="studio-hero-art" src="/images/campaign/en-US/myrenewals/highlight-1.webp" width="1320" height="2868" alt="My Renewals — know what renews next, with a real iPhone overview" fetchpriority="high"></a>
+
                 </div>
             </div>
         </div>
     </section>
+
+    {% include product-experience.html slug='myrenewals' omit_capture_gallery=true %}
 
     <!-- ========================================
          FEATURES SECTION
@@ -1247,65 +1248,7 @@ lang-ref: myrenewals-page
     <!-- ========================================
          SCREENSHOT SHOWCASE SECTION
          ======================================== -->
-    <section class="showcase" id="screenshots">
-        <div class="container">
-            <div class="showcase-header scroll-reveal">
-                <div class="section-label">{{ m.screenshots_label | default: "Screenshots" }}</div>
-                <h2 class="section-title">{{ m.screenshots_heading_1 | default: "See MyRenewals" }} <span class="gradient-text">{{ m.screenshots_heading_2 | default: "in action" }}</span></h2>
-                <p class="section-subtitle">{{ m.screenshots_subtitle | default: "A clean, intuitive interface designed to make subscription management effortless." }}</p>
-            </div>
-        </div>
-        <div class="showcase-scroll">
-            <div>
-                <div class="iphone-frame iphone-frame-sm">
-                    <div class="iphone-screen">
-                        <img src="/images/myrenewals/screenshot1.png" alt="MyRenewals - Subscription Dashboard" loading="lazy">
-                    </div>
-                    <div class="btn-power"></div>
-                    <div class="btn-vol-up"></div>
-                    <div class="btn-vol-down"></div>
-                    <div class="btn-action"></div>
-                </div>
-                <div class="showcase-caption">{{ m.caption_dashboard | default: "Dashboard" }}</div>
-            </div>
-            <div>
-                <div class="iphone-frame iphone-frame-sm">
-                    <div class="iphone-screen">
-                        <img src="/images/myrenewals/screenshot2.png" alt="MyRenewals - Spending Overview" loading="lazy">
-                    </div>
-                    <div class="btn-power"></div>
-                    <div class="btn-vol-up"></div>
-                    <div class="btn-vol-down"></div>
-                    <div class="btn-action"></div>
-                </div>
-                <div class="showcase-caption">{{ m.caption_spend | default: "Spend Summary" }}</div>
-            </div>
-            <div>
-                <div class="iphone-frame iphone-frame-sm">
-                    <div class="iphone-screen">
-                        <img src="/images/myrenewals/screenshot3.png" alt="MyRenewals - Upcoming Renewals" loading="lazy">
-                    </div>
-                    <div class="btn-power"></div>
-                    <div class="btn-vol-up"></div>
-                    <div class="btn-vol-down"></div>
-                    <div class="btn-action"></div>
-                </div>
-                <div class="showcase-caption">{{ m.caption_renewals | default: "Upcoming Renewals" }}</div>
-            </div>
-            <div>
-                <div class="iphone-frame iphone-frame-sm">
-                    <div class="iphone-screen">
-                        <img src="/images/myrenewals/screenshot4.png" alt="MyRenewals - Subscription Details" loading="lazy">
-                    </div>
-                    <div class="btn-power"></div>
-                    <div class="btn-vol-up"></div>
-                    <div class="btn-vol-down"></div>
-                    <div class="btn-action"></div>
-                </div>
-                <div class="showcase-caption">{{ m.caption_details | default: "Subscription Details" }}</div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- ========================================
          REVIEWS SECTION
@@ -1425,7 +1368,7 @@ lang-ref: myrenewals-page
     <!-- ========================================
          FOOTER
          ======================================== -->
-    {% include product-experience.html slug='myrenewals' %}
+
 <footer>
         <div class="container">
             <div class="footer-content">
