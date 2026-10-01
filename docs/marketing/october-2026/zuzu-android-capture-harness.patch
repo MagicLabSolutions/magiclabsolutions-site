@@ -2,42 +2,22 @@ diff --git a/app/build.gradle.kts b/app/build.gradle.kts
 index 8aff248..6d79018 100644
 --- a/app/build.gradle.kts
 +++ b/app/build.gradle.kts
-@@ -3,8 +3,6 @@ plugins {
-     alias(libs.plugins.kotlin.compose)
-     alias(libs.plugins.hilt)
-     alias(libs.plugins.ksp)
+@@ -6,2 +5,0 @@ plugins {
 -    alias(libs.plugins.google.services)
 -    alias(libs.plugins.firebase.crashlytics)
- }
- 
- android {
 diff --git a/app/src/androidTest/java/com/magiclabsolutions/zuzu/layout/LayoutAudit.kt b/app/src/androidTest/java/com/magiclabsolutions/zuzu/layout/LayoutAudit.kt
 index 123bdbb..8574662 100644
 --- a/app/src/androidTest/java/com/magiclabsolutions/zuzu/layout/LayoutAudit.kt
 +++ b/app/src/androidTest/java/com/magiclabsolutions/zuzu/layout/LayoutAudit.kt
-@@ -76,7 +76,7 @@ class LayoutAudit {
-      *  tablet. Both are set explicitly — with the display at its own size, the
-      *  emulator stayed on its side when asked to stand upright. */
-     private enum class Window(val size: String, val density: String) {
+@@ -79 +79 @@ class LayoutAudit {
 -        PHONE("1080x2400", "420"),
 +        PHONE("1280x2856", "480"),
-         TABLET("1600x2560", "320"),
-     }
- 
-@@ -309,10 +309,10 @@ class LayoutAudit {
-      */
-     private fun capture(name: String, hour: LayoutFixtures.Hour, content: @Composable () -> Unit) {
-         TimeZone.setDefault(LayoutFixtures.zoneAt(hour))
+@@ -312 +312 @@ class LayoutAudit {
 -        for (window in Window.entries) {
 +        for (window in listOf(Window.PHONE)) {
-             device.executeShellCommand("wm size ${window.size}")
-             device.executeShellCommand("wm density ${window.density}")
+@@ -315 +315 @@ class LayoutAudit {
 -            for (landscape in listOf(false, true)) {
 +            for (landscape in listOf(false)) {
-                 ActivityScenario.launch(ComponentActivity::class.java).use { scenario ->
-                     // Turned with the activity already on top: turned first, the
-                     // lock landed on the launcher, which only stands upright, and
-
 diff --git a/app/src/main/res/values/marketing_capture.xml b/app/src/main/res/values/marketing_capture.xml
 new file mode 100644
 --- /dev/null
