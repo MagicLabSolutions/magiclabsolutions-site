@@ -71,7 +71,7 @@ The product websites use the corresponding English highlights, readable componen
 - The 24 existing video drafts and caption sources are retained for a later creative pass. The owner paused videos because they need improvement. All product-page video sections remain disabled by `product_videos_enabled: false`; do not restore them during screenshot work.
 - Voice scripts, editable SRT/VTT, voice direction and audio insertion plans are retained. ElevenLabs production waits for credits and the owner's continuation; no new paid audio calls were made in this screenshot rollout.
 - English metadata drafts are in `metadata/en-US/`, isolated from production Fastlane directories. Keyword strategy is a hypothesis based on actual features, not measured search volume.
-- `locales/` keeps editable English reference strings and translation scaffolds. **Do not generate the other-language artwork before the owner's requested revisions have been applied and approved.**
+- `locales/` keeps editable English reference strings and translation scaffolds. The owner authorized all supported app languages on October 2, 2026. Localized artwork is tracked separately in `localized/languages.json`, with native capture hashes, editable text and per-language completion records.
 
 ## Reproduction
 

@@ -1,0 +1,116 @@
+--- a/ZuzuUITests/ZuzuScreenshotCapture.swift
++++ b/ZuzuUITests/ZuzuScreenshotCapture.swift
+@@ -292,6 +292,7 @@
+         let language = locale.components(separatedBy: "-").first ?? locale
+         app.launchArguments = [
+             "-SCREENSHOT_MODE",
++            "-com.apple.TipKit.HideAllTips", "1",
+             "-UIViewAnimationsDisabled", "YES",
+             "-AppleLanguages", "(\(locale))",
+             "-AppleLocale", locale,
+@@ -299,6 +300,11 @@
+         app.launchEnvironment = ["DISABLE_ANIMATIONS": "1"]
+         app.launch()
+ 
++        if UIDevice.current.userInterfaceIdiom == .pad {
++            _ = app.buttons["My Baby"].firstMatch.waitForExistence(timeout: 10)
++            return
++        }
++
+         if !app.tabBars.firstMatch.waitForExistence(timeout: 5) {
+             signInIfNeeded()
+             _ = app.tabBars.firstMatch.waitForExistence(timeout: 15)
+@@ -339,6 +345,13 @@
+     }
+ 
+     private func tapTab(index: Int) {
++        if UIDevice.current.userInterfaceIdiom == .pad {
++            let label = [0: "My Baby", 1: "Timeline", 3: "Sounds", 4: "Insights"][index] ?? "My Baby"
++            let button = app.buttons[label].firstMatch
++            XCTAssertTrue(button.waitForExistence(timeout: 5), "iPad tab missing: \(label)")
++            button.tap()
++            return
++        }
+         let tab = app.tabBars.buttons.element(boundBy: index)
+         if tab.waitForExistence(timeout: 2) {
+             tab.tap()
+--- a/Zuzu/SceneDelegate.swift
++++ b/Zuzu/SceneDelegate.swift
+@@ -145,6 +145,13 @@
+         // Straight to the destination — `SplashView` is just the app's
+         // background colour, so there is no intro to wait for and a returning
+         // user lands on their timeline as fast as the window can be built.
++        if UserDefaultFlags.isScreenshotMode {
++            // Isolated campaign capture harness: route to the existing local fixture.
++            isInOnboarding = false
++            didStart = true
++            setRoot(MainViewController())
++            return
++        }
+         if !UserDefaultFlags.didShowOnboarding {
+             // The onboarding flow is Remote Config-driven (onboarding_variation:
+             // none/v1/v2). Hold on the splash until config has fetched+activated
+--- a/Zuzu/Modules/Main/MainViewController.swift
++++ b/Zuzu/Modules/Main/MainViewController.swift
+@@ -85,10 +85,49 @@
+     override func viewDidAppear(_ animated: Bool) {
+         super.viewDidAppear(animated)
+         hasAppeared = true
++        if !marketingDidRender, ProcessInfo.processInfo.arguments.contains("-marketing-screen") {
++            marketingDidRender = true
++            DispatchQueue.main.asyncAfter(deadline: .now() + 2) { self.marketingCaptureScene() }
++        }
+         if let pending = pendingDeeplink {
+             pendingDeeplink = nil
+             handlePresentationDeeplink(pending)
+         }
++    }
++
++    /// Capture-only scene routing on the existing local screenshot fixture.
++    private var marketingDidRender = false
++    private func marketingCaptureScene() {
++        let args = ProcessInfo.processInfo.arguments
++        let scene = args.firstIndex(of: "-marketing-screen").flatMap { $0 + 1 < args.count ? args[$0 + 1] : nil } ?? "hero"
++        switch scene {
++        case "hero", "timeline":
++            viewModel.selectedTab = .timeline
++            if scene == "timeline" {
++                DispatchQueue.main.asyncAfter(deadline: .now() + 2) { self.marketingScroll(self.selectedViewController?.view, offset: 520) }
++            }
++        case "insights": viewModel.selectedTab = .insights
++        case "growth":
++            let profile = BabyProfileViewController()
++            profile.baby = ScreenshotFixture.baby
++            profile.homeViewModel = sharedHomeViewModel
++            (selectedViewController as? UINavigationController)?.pushViewController(profile, animated: false)
++            if UIDevice.current.userInterfaceIdiom != .pad {
++                DispatchQueue.main.asyncAfter(deadline: .now() + 2) { self.marketingScroll(profile.view, offset: 420) }
++            }
++        case "nap": sharedHomeViewModel.startNap(at: Date().addingTimeInterval(-18 * 60))
++        default: break
++        }
++        print("[MarketingCapture] scene ready: \(scene)")
++    }
++    private func marketingScroll(_ view: UIView?, offset: CGFloat) {
++        guard let view else { return }
++        if let scroll = view as? UIScrollView, scroll.bounds.height > 300,
++            scroll.contentSize.height > scroll.bounds.height + offset {
++            scroll.setContentOffset(CGPoint(x: 0, y: offset), animated: false)
++            return
++        }
++        for child in view.subviews { marketingScroll(child, offset: offset) }
+     }
+ 
+     // MARK: - Tab Setup (UITab API — iOS 18+)
+--- a/Zuzu/Modules/Main/MainViewModel.swift
++++ b/Zuzu/Modules/Main/MainViewModel.swift
+@@ -95,6 +95,9 @@
+             // view model is handed over so the grid keeps its displayed month
+             // and computed activity across presentations.
+             let vc = TimelineDetailViewController()
++            if ProcessInfo.processInfo.arguments.contains("-marketing-screen") {
++                vc.initialDate = Calendar.current.date(byAdding: .day, value: -1, to: Date())
++            }
+             vc.viewModel = homeViewModel
+             vc.calendarViewModel = calendarViewModel
+                 ?? ActivityCalendarViewModel(homeViewModel: homeViewModel)

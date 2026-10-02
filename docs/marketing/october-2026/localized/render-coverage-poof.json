@@ -464,10 +464,13 @@
   {
     "slug": "poof",
     "locale": "ta",
-    "status": "render-error",
+    "status": "rendered",
     "missing": [],
-    "formats": {},
-    "error": "ta: copy exceeds 3 lines: ஒவ்வொரு செயலியும் எவ்வளவு இடத்தை எடுத்துக்கொள்கிறது என்று பாருங்கள்."
+    "formats": {
+      "mac-store": 4,
+      "social": 8,
+      "share": 1
+    }
   },
   {
     "slug": "poof",

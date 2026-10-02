@@ -1,0 +1,2319 @@
+{
+  "bundle": "com.magiclabsolutions.sundust",
+  "binary_sha256": "4d0dc5bccebdabb9774811c41269fbd03d8c2ecb7e0e510f99a4194d1eb4bdac",
+  "simulator": "09BCA0AA-CA30-4EE1-B4BF-BC2A7BD8350D",
+  "capture_timezone": "device default",
+  "method": "Existing isolated offline capture binary, real native views, per-locale launch arguments",
+  "records": [
+    {
+      "locale": "ar",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/iphone/native-1.png",
+      "sha256": "806a85192d900e46764f07634184b9fc88816823cbee1a793d0d3d371cfdc506"
+    },
+    {
+      "locale": "ar",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/iphone/native-2.png",
+      "sha256": "2b6f800a0cb7540deaeb7702780fd41f16daac01d32f85bb3b7080f0c297d051"
+    },
+    {
+      "locale": "ar",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/iphone/native-3.png",
+      "sha256": "7f2473ec0f368dd99bc831bf7d72a6638a08183b2708549f7003ceefc2bc90c1"
+    },
+    {
+      "locale": "ar",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/iphone/native-4.png",
+      "sha256": "9af2bd12577b4e461d8e2f281d889263b448b1240507ee3d75319d32b52304a9"
+    },
+    {
+      "locale": "ar",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/iphone/native-5.png",
+      "sha256": "bf18685c0a1e9e183324aecce043955456768d86b962003e4e9fc6e8923f094c"
+    },
+    {
+      "locale": "ar",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/iphone/native-6.png",
+      "sha256": "bdf8f1269e771ca8cf62189cb389f615b87784eb3263bda473eda6a6c0fb2e7e"
+    },
+    {
+      "locale": "bg",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/iphone/native-1.png",
+      "sha256": "b77858399c09efc70656b67cf3c3c5d6f2ff475b53ebbf92d0856e8be89275bc"
+    },
+    {
+      "locale": "bg",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/iphone/native-2.png",
+      "sha256": "2f05b5f8237ecc6cbacb3645598c3ec8bc82738c97f23f64b04a057a9f9ce321"
+    },
+    {
+      "locale": "bg",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/iphone/native-3.png",
+      "sha256": "190f737c0edfc32e2fbfa3dba9e6b63faac03dbd0ae5913028f32e6dbde0061a"
+    },
+    {
+      "locale": "bg",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/iphone/native-4.png",
+      "sha256": "617f7afe3e54de49e112016354ccbba0b2c89cc4e0cd68d7103e82c7f17f0595"
+    },
+    {
+      "locale": "bg",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/iphone/native-5.png",
+      "sha256": "3fae574909cf60b9628af854281fcb05f5c9899372576b071160bfe48bbb3310"
+    },
+    {
+      "locale": "bg",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/iphone/native-6.png",
+      "sha256": "d80f9ccd3cee66e1108198712287030bc662879c501885e7be385fdf0911a739"
+    },
+    {
+      "locale": "bn",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/iphone/native-1.png",
+      "sha256": "b056fe1726eb2b03f0523a451772041d4c836cafaf1692cd438616153ca564c1"
+    },
+    {
+      "locale": "bn",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/iphone/native-2.png",
+      "sha256": "3c3ee87beac1e682462efdfd450b6eac0fb08e25ecabf8f2180a8e595783833d"
+    },
+    {
+      "locale": "bn",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/iphone/native-3.png",
+      "sha256": "a67b798f69b471b61684bc3208abb10fc3eece718f37d6d1f61c3377c10f3a45"
+    },
+    {
+      "locale": "bn",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/iphone/native-4.png",
+      "sha256": "69da595e34c32b07f7b9999ba939701a97ff5bad1c2136b124d78feca669edf5"
+    },
+    {
+      "locale": "bn",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/iphone/native-5.png",
+      "sha256": "3a2710f82f453ee09a15199ba0e9f306866932f15edce28ceebc7f1ae9dcf644"
+    },
+    {
+      "locale": "bn",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/iphone/native-6.png",
+      "sha256": "db48e659bb550d4bcd477e224a665f5ede85cddb2c4df66689dbcc939efe776b"
+    },
+    {
+      "locale": "ca",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/iphone/native-1.png",
+      "sha256": "03ea14208cc0d5c79eb7e8b78f6d0de09c3e9da2c8951d424e1ce8bdc7542c7d"
+    },
+    {
+      "locale": "ca",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/iphone/native-2.png",
+      "sha256": "1a638eab9d6379ca37d523a6dcebeefc90cb1848899f147d5ff315c09cc8dd74"
+    },
+    {
+      "locale": "ca",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/iphone/native-3.png",
+      "sha256": "d5ac9f9ed264ea8617d75bc97e9db6809994f0a964386f460dee62f07980cebf"
+    },
+    {
+      "locale": "ca",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/iphone/native-4.png",
+      "sha256": "4bb3e635a0fa4ea80f1c41c3a05f0c22e04974d9835a8759c761fc151d0db6c1"
+    },
+    {
+      "locale": "ca",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/iphone/native-5.png",
+      "sha256": "bcc6c77212fd731cae6f10a7b324739fc6e0d62aab0226573070c5215c31c88b"
+    },
+    {
+      "locale": "ca",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/iphone/native-6.png",
+      "sha256": "b21e96dbb939619fd35e45cfcacc8afd3e4aed0e6bf57cf058c080ac4a5c71e5"
+    },
+    {
+      "locale": "cs",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/iphone/native-1.png",
+      "sha256": "a16eded8fdad316622cc1578071d57b844464591aa951cb2e8ca9779a24c51c7"
+    },
+    {
+      "locale": "cs",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/iphone/native-2.png",
+      "sha256": "3842ed33166659ffd229793c50c509562f460091089c8b3fe1a0d088e921c620"
+    },
+    {
+      "locale": "cs",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/iphone/native-3.png",
+      "sha256": "d2a9a448409228c50fc1cef48a920f1df496141a42c90f0ea95ff9e05271975d"
+    },
+    {
+      "locale": "cs",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/iphone/native-4.png",
+      "sha256": "024d5afd58feb568a8409f67020f648d7a5a6915e37d2de0e9e57be7978ebb2c"
+    },
+    {
+      "locale": "cs",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/iphone/native-5.png",
+      "sha256": "698fb3deef8242d93429526b4af7c541afe6e65b52a35f01a937f6c7cfff9376"
+    },
+    {
+      "locale": "cs",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/iphone/native-6.png",
+      "sha256": "acd4823fa91341054332da6eaf098cb963108aebf66ef31e7b3682d79f16ffad"
+    },
+    {
+      "locale": "da",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/iphone/native-1.png",
+      "sha256": "fc9db63c78782cc6605960fd536902b03611ca99a3c858b1120747de2edc8ce7"
+    },
+    {
+      "locale": "da",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/iphone/native-2.png",
+      "sha256": "8da25cf3773c8790dd6975223dbd9a35da49c9c08eb2571ddc5c28464755fd83"
+    },
+    {
+      "locale": "da",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/iphone/native-3.png",
+      "sha256": "1cff341af63fcb4b1d557f64e75f7dffd6df7062986423ebae5eaad3cbdade84"
+    },
+    {
+      "locale": "da",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/iphone/native-4.png",
+      "sha256": "756855f38c5aedff7a467663de4787f22aabeea25d5fc2e7adb8057ab3a31b01"
+    },
+    {
+      "locale": "da",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/iphone/native-5.png",
+      "sha256": "da82dd22b98c9ca6818c242f7b48797f5cd5fe9854e61402ae6c314698f23fd1"
+    },
+    {
+      "locale": "da",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/iphone/native-6.png",
+      "sha256": "9184250ca7642558b73c5b3f816fcf3d1c164bf0f25d4fd66694d47f08367e22"
+    },
+    {
+      "locale": "de",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/iphone/native-1.png",
+      "sha256": "190e2751d5456c330d22d08a53380791fa24fc4274b9cd995123ca621de9bc18"
+    },
+    {
+      "locale": "de",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/iphone/native-2.png",
+      "sha256": "db163e391fef286c32c50519527e1c76b7630d2b5f336ea4375983e7bf5f18cf"
+    },
+    {
+      "locale": "de",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/iphone/native-3.png",
+      "sha256": "3e7e471d3d02215871c6b699347550ee93e1c32072a71678f577616b1ec2f284"
+    },
+    {
+      "locale": "de",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/iphone/native-4.png",
+      "sha256": "b1b2d8c864b419d1886ef042bf07a1e4d378cf1d52f678895af89b6d39e5908b"
+    },
+    {
+      "locale": "de",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/iphone/native-5.png",
+      "sha256": "86e8ab0feb65d8c8121ad4629e9798e702ac557594dab343a4034cfa0663e280"
+    },
+    {
+      "locale": "de",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/iphone/native-6.png",
+      "sha256": "82eb4b4dc4da6b8bb09be0e1c7a56da9f9e0147b3d54badff5147b2b7be6b797"
+    },
+    {
+      "locale": "el",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/iphone/native-1.png",
+      "sha256": "2c67ffd7c6a8fe21a9c3e359d05659f94371b2037f039563eb8280addf1bfd14"
+    },
+    {
+      "locale": "el",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/iphone/native-2.png",
+      "sha256": "2cfb11a52650b086ee0123a83e91049c6d70d4d55caf11729a7a18d9f443ffcf"
+    },
+    {
+      "locale": "el",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/iphone/native-3.png",
+      "sha256": "45beddbb59554570380087800e86cefd7984882668229ea3eb8af0212739b3e8"
+    },
+    {
+      "locale": "el",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/iphone/native-4.png",
+      "sha256": "208bf1affd6b1c57ebc2cfa0b147e2a736aeae960c3c97554ba7c76c5cf72758"
+    },
+    {
+      "locale": "el",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/iphone/native-5.png",
+      "sha256": "5ffa64c38dff16dd020a6d915137fe6690dfe2cbe2903f90641b08435cdb646d"
+    },
+    {
+      "locale": "el",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/iphone/native-6.png",
+      "sha256": "1b62cb45b07780ecfb543995cf0a37e760c35a1ad6489bf9d40780fdba12a498"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/iphone/native-1.png",
+      "sha256": "89a360dde178737ca0954ac63eaa0e8d43326c6df9db7c9a5a7e4984e6d5b400"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/iphone/native-2.png",
+      "sha256": "479ed7654af107022ab3376a2697ae3e81d13cffa1c7c35000522d34df51a4b2"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/iphone/native-3.png",
+      "sha256": "0a0e0e019c18f6d6728604697f623d5bc5561cd956a470710be3c1f9ff889663"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/iphone/native-4.png",
+      "sha256": "43234e8d90a927c4d7dd705deba21120c2aa438550e33fb841549baafefc50ae"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/iphone/native-5.png",
+      "sha256": "235bed4997555ad097a68829379418be3779482816684111cc37d81ed3e673ab"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/iphone/native-6.png",
+      "sha256": "269e99ac65126fb3f70d33f71800aec4ed3f15723c44072c7230fcecbe4d7fb0"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/iphone/native-1.png",
+      "sha256": "67a56fc17eb1dee45f6cbb11869573989baaf17f8597e3188f3e42a4aeb7d9a1"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/iphone/native-2.png",
+      "sha256": "52e83a9bc1bcb0ae3a314fa2774a89383e210a3743b54adbff8b4c5231e790ab"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/iphone/native-3.png",
+      "sha256": "a7ab676ca7203daba40522d2caac8f30a47cd502fd775a7fe4150951ed8b035f"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/iphone/native-4.png",
+      "sha256": "15562ace6f72363109446d2d9590ca00a1f57d44792f2467955d4277febcc018"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/iphone/native-5.png",
+      "sha256": "7e8ec7e58d2bace124f286dbc8b38f1b847786760bd1deca99138df4fa0a9a70"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/iphone/native-6.png",
+      "sha256": "dbca8b341a0d76dd90d52f35e046fc31816f4726663b84ce80febb2c81fdb97d"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/iphone/native-1.png",
+      "sha256": "567aa57ee8581c276280252e26fc8d2c1f08ff58bb39d79622c3ee53b6c34b8f"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/iphone/native-2.png",
+      "sha256": "0b3f02ca24b1c8d7d95ac1cb62bffe048f00c33345c9604b5d0e872a290a5aaf"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/iphone/native-3.png",
+      "sha256": "df46446efb611fc618abcbfc2f26e2233bf01a9fe5a2f1e9b5347df0c21b3134"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/iphone/native-4.png",
+      "sha256": "4d9fef226d50dc3f3660bee5d0eef7efe50495f4abe3b75eacbb79fd4d1446eb"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/iphone/native-5.png",
+      "sha256": "3fdfe2b130bfc26251da8e76d11f797ed10d8854a97e094ac73dfc531cee83e2"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/iphone/native-6.png",
+      "sha256": "e04028bfa5270f5d7ee4ca0582f27a43bb14d2bfc8ba3237165434b1b8611849"
+    },
+    {
+      "locale": "en-US",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/iphone/native-1.png",
+      "sha256": "a2f31eab2b4df8f7ee5d5247b15c956c6260800699bff163e658778c797eebe3"
+    },
+    {
+      "locale": "en-US",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/iphone/native-2.png",
+      "sha256": "07a30afed96338a0487e300315be147aa26b725a52101c7b6e0c6d527d7ba346"
+    },
+    {
+      "locale": "en-US",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/iphone/native-3.png",
+      "sha256": "eb376ece22068cd8ea6326cbbbc27c951f51214000c5276dd8fc31323c64a3ac"
+    },
+    {
+      "locale": "en-US",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/iphone/native-4.png",
+      "sha256": "4b23ad18fb64dd14ff40d9022a5a9268c94dfd062fa748655a0947f36171dd04"
+    },
+    {
+      "locale": "en-US",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/iphone/native-5.png",
+      "sha256": "26fa3b78ee97d2c73b89559df372d4f1fe6cade4ff9fb849f4b41eed891e9fd3"
+    },
+    {
+      "locale": "en-US",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/iphone/native-6.png",
+      "sha256": "9cab992c3c1db14bf28b3191d1700a2182503d65c6cbd9ccede20e783f1046ea"
+    },
+    {
+      "locale": "es",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/iphone/native-1.png",
+      "sha256": "ccef38ce226d95c3f2153903f527f5a07789499eaea3debcf2898bba5dc5e404"
+    },
+    {
+      "locale": "es",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/iphone/native-2.png",
+      "sha256": "9607e3cbd08c272cfcddfd350e1b606e4d51867fa0e7ff25ff10b49e598cd1df"
+    },
+    {
+      "locale": "es",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/iphone/native-3.png",
+      "sha256": "c2fc1660c67bceabeedef7cc790ac86b2819be05bbacb5681a55ef881815d462"
+    },
+    {
+      "locale": "es",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/iphone/native-4.png",
+      "sha256": "677323c2f84c3cc9399fd9d0d018d5d886220e38df33a313752545e01d6e4f0c"
+    },
+    {
+      "locale": "es",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/iphone/native-5.png",
+      "sha256": "27b0fd777f087a536099de74ca40abe50fa03bd6aad03cabce2aafdd71cf3b3d"
+    },
+    {
+      "locale": "es",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/iphone/native-6.png",
+      "sha256": "f43fd962b3feeed6bc78f7fdee25f8419f5525708d2352fb64af0a8b21c395af"
+    },
+    {
+      "locale": "es-419",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/iphone/native-1.png",
+      "sha256": "ae8c42e71a5ff69a591f93068c5722d70d307bc254d7651227b7ba72da72f9af"
+    },
+    {
+      "locale": "es-419",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/iphone/native-2.png",
+      "sha256": "40185e72ca3a9d1d2596f34e36e09b2cf6275a31e7c352d438696031cce8997a"
+    },
+    {
+      "locale": "es-419",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/iphone/native-3.png",
+      "sha256": "e9959d9d9ad1ab616d0fc7b3ff3de0e80818cda59ffa9a21c104e28c5d7e9c32"
+    },
+    {
+      "locale": "es-419",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/iphone/native-4.png",
+      "sha256": "20fc76e3012372c95f80eb548cbf3f96efb401ae51a9e7fe27cc929f50b6df43"
+    },
+    {
+      "locale": "es-419",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/iphone/native-5.png",
+      "sha256": "3129b55e91446febae4b0dedbdb313ee9f5d778d3f2d9bdbdc076f7ca61b49dc"
+    },
+    {
+      "locale": "es-419",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/iphone/native-6.png",
+      "sha256": "6d91d01b85b4dde7381eb9277ea05f698d0fd03af5182706cd66474d97a2370f"
+    },
+    {
+      "locale": "es-US",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/iphone/native-1.png",
+      "sha256": "126b8f810c32c59cc8517ee5c6a22916ba1302240f5f3e4c398d799e97790ec7"
+    },
+    {
+      "locale": "es-US",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/iphone/native-2.png",
+      "sha256": "2b27b42c4c4ef9b376dc6908e68ec1dd03dd46f3f4482224668ec3cbb1696a49"
+    },
+    {
+      "locale": "es-US",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/iphone/native-3.png",
+      "sha256": "8be67715c29417a8ba1c6713cd430c465ac2223b7f34619a11580a2062618ffe"
+    },
+    {
+      "locale": "es-US",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/iphone/native-4.png",
+      "sha256": "c57cb8aa7e71294cc351a9cadf1bee2dc9c66b79d40bab419df675966a45874b"
+    },
+    {
+      "locale": "es-US",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/iphone/native-5.png",
+      "sha256": "56d9b74f29d42be1fbcfca842b9de8da84669c93c8996e3a4c3448692f0db520"
+    },
+    {
+      "locale": "es-US",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/iphone/native-6.png",
+      "sha256": "05bf1d2bba0b978b3aa6df2fcedbb3f3dfa30b2f9069eaff8ba7811235330f32"
+    },
+    {
+      "locale": "fi",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/iphone/native-1.png",
+      "sha256": "ea78f17546025f879a1096a6f67b82295d6f57a508fba7c8487b49b0c810fcdc"
+    },
+    {
+      "locale": "fi",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/iphone/native-2.png",
+      "sha256": "517b32fb95342742dd5aabf1dbd91a4657cde9f7dd627fdaec755b86e81d2a14"
+    },
+    {
+      "locale": "fi",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/iphone/native-3.png",
+      "sha256": "323137ab91c6ffa8ecb047c63db98c5ec8a0a2b875ef7b4d9dd62a5e4861efc1"
+    },
+    {
+      "locale": "fi",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/iphone/native-4.png",
+      "sha256": "202cc1e42a27c2695dab2abe5b6a4d98e48dddf16871d4ba76e3b7d85a697412"
+    },
+    {
+      "locale": "fi",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/iphone/native-5.png",
+      "sha256": "e8a4b49b4a711b8cfb0dc7dcdfc6964a7ae37e28d41af44909e5adbdd1f7ba8d"
+    },
+    {
+      "locale": "fi",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/iphone/native-6.png",
+      "sha256": "2bae93b043a899128716fd6d39093f23ee082dc3b9ba21b7c9f2af266c834846"
+    },
+    {
+      "locale": "fr",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/iphone/native-1.png",
+      "sha256": "d4fa0c3c9e047f2e9fa595e07478cef57e72ab5ea9f153050eb0cc4e6430c91a"
+    },
+    {
+      "locale": "fr",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/iphone/native-2.png",
+      "sha256": "7a9e821b251f608132511c6f944161f09d01cae441d57d08e76ef0c5bdc23294"
+    },
+    {
+      "locale": "fr",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/iphone/native-3.png",
+      "sha256": "e1e78864aa10df527c2ea18ffcad9c712a7d2b7f63580e4f9a88f7062914b673"
+    },
+    {
+      "locale": "fr",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/iphone/native-4.png",
+      "sha256": "43f608cb21b0ccbdba67d4e5f384ee4ac40865462ca8249879868f9228c2f23a"
+    },
+    {
+      "locale": "fr",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/iphone/native-5.png",
+      "sha256": "d4b2ee5a949bdc559c55053b6f766c7aca7467c2f48cf9177fa09bb9d2c30f23"
+    },
+    {
+      "locale": "fr",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/iphone/native-6.png",
+      "sha256": "204896e9d149e8650bef543e7b6350d35afd8d1576cac32eb0e27bd5d26069fb"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/iphone/native-1.png",
+      "sha256": "eb3943517db18f6368f83b1b8840fb00bf002f9952db59fcb20ee6a6fec7bc20"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/iphone/native-2.png",
+      "sha256": "739746c5523d462fdcf769137676e278c92d02d06b073a72d1232948581ad666"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/iphone/native-3.png",
+      "sha256": "09ba4f5d03240534791a637c5efaf5c27ae8f6cb3770fbc2b7e5a56cfb9cd135"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/iphone/native-4.png",
+      "sha256": "1742f0b797b5b6824ccfe821c23e75ede34f200229852a9086c5c5a1ac8112a3"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/iphone/native-5.png",
+      "sha256": "2f59184874cdfb3c92b76fb10f3eb233a2f07222a25800ced6e4cf556e82fc35"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/iphone/native-6.png",
+      "sha256": "41a28273c02916bed7cf8dd1f6aeebd57bdad737a4eb71774d818c651585ab1e"
+    },
+    {
+      "locale": "gu",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/iphone/native-1.png",
+      "sha256": "60821a5ba09d64dbc6d6dc222e638c620b9875b543c4acbfc8caf3c057f26856"
+    },
+    {
+      "locale": "gu",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/iphone/native-2.png",
+      "sha256": "389af1c6ecce75f2561e23c9ca9ae1d366407dd1bdb6065ef43c88178c8e8bd9"
+    },
+    {
+      "locale": "gu",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/iphone/native-3.png",
+      "sha256": "bbd17a0c9fb180a621584252f44179bbd73c58f1c84a5385012d1759682013c2"
+    },
+    {
+      "locale": "gu",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/iphone/native-4.png",
+      "sha256": "47ba054bc1ba5205fc263f64976f0d8374fe8c665384f8c12fe29cdff8115485"
+    },
+    {
+      "locale": "gu",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/iphone/native-5.png",
+      "sha256": "a907fadf1c88833f78fee98941ea4758f6a3089f250532e73abf7c083f6555fa"
+    },
+    {
+      "locale": "gu",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/iphone/native-6.png",
+      "sha256": "8cde11afb5f3c5e06aeaedfc79d11eb2be77b99d32af73d9c81908598858aa37"
+    },
+    {
+      "locale": "he",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/iphone/native-1.png",
+      "sha256": "66240dbd374e7d04f85906fe7296337c9367e0ac25a1465ce1966f342b89f147"
+    },
+    {
+      "locale": "he",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/iphone/native-2.png",
+      "sha256": "c6c39db0c5fd679c012ae8e301a2f5e5842b6dcdf8b07beadd349a038837dded"
+    },
+    {
+      "locale": "he",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/iphone/native-3.png",
+      "sha256": "a3af2c244c718f221666a0ff7c9b3cea3a35024a55e0f9af3fb5f5023fe55f11"
+    },
+    {
+      "locale": "he",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/iphone/native-4.png",
+      "sha256": "25443b5a08c7cff859122fcff1d69d6153488bef411ba4b02636d82f6936452c"
+    },
+    {
+      "locale": "he",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/iphone/native-5.png",
+      "sha256": "c00781cbff5d67c93493943a0911a4a979bf9d5bd31ef5965311b44db81407ec"
+    },
+    {
+      "locale": "he",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/iphone/native-6.png",
+      "sha256": "ed762b9bb65f53f7acb23b23aa40043fcd2d3096e67cfd23360d49db73f3e2d0"
+    },
+    {
+      "locale": "hi",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/iphone/native-1.png",
+      "sha256": "1bfd6aa9073cdd73c802a71d55cfbb5e4ee9328717c3b4c3cf6b271609c80a4f"
+    },
+    {
+      "locale": "hi",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/iphone/native-2.png",
+      "sha256": "abf39b396985bcbc1f7901aad72553f6b2bc8a863760d166a0a4d723018b080c"
+    },
+    {
+      "locale": "hi",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/iphone/native-3.png",
+      "sha256": "e92f39a12e25c2000301f9f6e403c0415d29747ba2f84fbe4f0c3672d78e8536"
+    },
+    {
+      "locale": "hi",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/iphone/native-4.png",
+      "sha256": "78c1f039e645f152eebe0be3332f8cab1d7a0ada017f431e4080d9a373ac064f"
+    },
+    {
+      "locale": "hi",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/iphone/native-5.png",
+      "sha256": "96c9dd8a1d70b81b39b3344fcb0ba5af5bb49d8b55ccc643370b9bd178a869a8"
+    },
+    {
+      "locale": "hi",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/iphone/native-6.png",
+      "sha256": "4dc8cbe876b5d09addaf6e1040d1cbe38658692e0089a828ad064a7a5ed2522d"
+    },
+    {
+      "locale": "hr",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/iphone/native-1.png",
+      "sha256": "67d6b460f9a158ef857268c6fd421337499e57545a580876b87f2a7118b18f33"
+    },
+    {
+      "locale": "hr",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/iphone/native-2.png",
+      "sha256": "21836818b6e74d7575792b17e5dd824a716df35233f3073b46a3b83e30564b93"
+    },
+    {
+      "locale": "hr",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/iphone/native-3.png",
+      "sha256": "961fba271c61321f3dc4cab7e14a6d1bb984712ce299bdbf3b6b15933315c928"
+    },
+    {
+      "locale": "hr",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/iphone/native-4.png",
+      "sha256": "9fc4f6510e09c92b84437161fe684ea50c77ce730476201eeb1b476d4b835c4a"
+    },
+    {
+      "locale": "hr",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/iphone/native-5.png",
+      "sha256": "e40ba175b1b8640eaa5f412dd1c2fa67505b8244175a4b45f0d9924bab2555ac"
+    },
+    {
+      "locale": "hr",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/iphone/native-6.png",
+      "sha256": "6ec2e13eb38f333f98544b1b26e71751968b47d23b30f1550f4a04f5ee813ca8"
+    },
+    {
+      "locale": "hu",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/iphone/native-1.png",
+      "sha256": "9127c8fb4fe199e22ccfa32fe1df4e42f7da68492a1504f1085340718b0cb9b5"
+    },
+    {
+      "locale": "hu",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/iphone/native-2.png",
+      "sha256": "b1a748d257cdd338b5d0812e235ff4a4d051bc609d4b7ddc5698536ff3c7b7a0"
+    },
+    {
+      "locale": "hu",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/iphone/native-3.png",
+      "sha256": "c9a7d2a6f18e382d22bed7bdeb26bb8b26aa36a50e8cff1f3ceb9242c3632c5e"
+    },
+    {
+      "locale": "hu",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/iphone/native-4.png",
+      "sha256": "c85e49a3557dfa0aa86d817df0fa36fa6d3faf43e3415940865657b2deadf9fc"
+    },
+    {
+      "locale": "hu",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/iphone/native-5.png",
+      "sha256": "bca4ee002d9e6fa7300e112a5f12d313022900e10159bd6debdc00830fb17788"
+    },
+    {
+      "locale": "hu",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/iphone/native-6.png",
+      "sha256": "aa551f2066bb0b7888a5b3c042de47f6c3365210ce8bc73addd1dd049e9cc991"
+    },
+    {
+      "locale": "id",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/iphone/native-1.png",
+      "sha256": "598b00852a72b5b5d8b302bdeea3ea3cd33ece26db55715b0d7285c61f424499"
+    },
+    {
+      "locale": "id",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/iphone/native-2.png",
+      "sha256": "6c5f5d06a41efb4444635c78147760e96c05dd4b523ffc1c5d22bd677e0c0269"
+    },
+    {
+      "locale": "id",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/iphone/native-3.png",
+      "sha256": "281c42733e5bf853fb455ba5b4b1350ee2ce51c8e6eccf2f317fd50694c4d191"
+    },
+    {
+      "locale": "id",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/iphone/native-4.png",
+      "sha256": "08f9a4fde10706b342759f1d55e54af04db795f9f8f25b9a38030b6b2541057b"
+    },
+    {
+      "locale": "id",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/iphone/native-5.png",
+      "sha256": "9fac6ea123ff6c9edca842840c17e4333cbcc46f9440ee6118e5f9cdd16bc4b4"
+    },
+    {
+      "locale": "id",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/iphone/native-6.png",
+      "sha256": "d6632fe2cd8de4ba01b958b45a7d76de900a91467719d05ea768f37a8239c958"
+    },
+    {
+      "locale": "it",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/iphone/native-1.png",
+      "sha256": "3c7e315b61d20e44438610bafa01f7ab37d5dc8ed2b96f7f420950d5f1f8ddbf"
+    },
+    {
+      "locale": "it",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/iphone/native-2.png",
+      "sha256": "7a91b0b4e0c9df19158b0f7eee512667f0bff1e7abf291085b89a9776f55123d"
+    },
+    {
+      "locale": "it",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/iphone/native-3.png",
+      "sha256": "0dff0b46d92c9dd45bf6222bdc8beb95029c95a07c1c8508344936ae7ebda3e0"
+    },
+    {
+      "locale": "it",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/iphone/native-4.png",
+      "sha256": "fb0cc1bf0f95ca437bb111fc9b09a5b7205c5a238977f37901f337d3a4080834"
+    },
+    {
+      "locale": "it",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/iphone/native-5.png",
+      "sha256": "56ca03d3cde30884c07183db4f6e56ac22629a6850351dade63b8d88c2cd7502"
+    },
+    {
+      "locale": "it",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/iphone/native-6.png",
+      "sha256": "56547ab31f9bb85a7ef226ea9c1c703bbb41816e9765ca5ae4994e4ed2e2d6f4"
+    },
+    {
+      "locale": "ja",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/iphone/native-1.png",
+      "sha256": "f389a327e9dfd5bfbe96d466f35031baa4b6bc34245717226cbef4aa70dd3dac"
+    },
+    {
+      "locale": "ja",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/iphone/native-2.png",
+      "sha256": "28a1f30221db3e1814057ad2edea5ebe8d4c09247c6ddcee44e3ec60f453afea"
+    },
+    {
+      "locale": "ja",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/iphone/native-3.png",
+      "sha256": "e07e2bcd7d285bb5a6545c8faffd7e89f9f7fc26279325c69621c8e919db7697"
+    },
+    {
+      "locale": "ja",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/iphone/native-4.png",
+      "sha256": "0dc8d454fb64d26f32959873655f55226e8bc1c5d7923b779119d9823d84ec76"
+    },
+    {
+      "locale": "ja",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/iphone/native-5.png",
+      "sha256": "e92965ea43a7b4a9326814b598bb6bcf6b5997c9a89027435514e37a7e943d79"
+    },
+    {
+      "locale": "ja",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/iphone/native-6.png",
+      "sha256": "05ee6271638ad8b0d9ae6d8ddfff53e5684f07a9acbd50a665ed76c291d0a8c4"
+    },
+    {
+      "locale": "kk",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/iphone/native-1.png",
+      "sha256": "adf5bb3bc3a0cf8d8b3754bc2053baa771ea7d57b409a1c436614682c7f44ac6"
+    },
+    {
+      "locale": "kk",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/iphone/native-2.png",
+      "sha256": "05d857e5c824f5686b17a97394bcb7ece91a117220f791e09062bed0f6e9d688"
+    },
+    {
+      "locale": "kk",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/iphone/native-3.png",
+      "sha256": "34c079326ed2aa9ab2495e8885d2beebf4ccde942746d525a970182d0317af2e"
+    },
+    {
+      "locale": "kk",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/iphone/native-4.png",
+      "sha256": "c2bee559cd3bf19bf361bf4b3e4c70147b7ee0edc00e3e3cbf0560689d756f1a"
+    },
+    {
+      "locale": "kk",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/iphone/native-5.png",
+      "sha256": "4143dde1f3f132643723604d884bba0093e05522148aa609928ca5d789940620"
+    },
+    {
+      "locale": "kk",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/iphone/native-6.png",
+      "sha256": "8882164c3023bc142b05b92f86d145d1afa0107d597d6085a5b735ea451585cd"
+    },
+    {
+      "locale": "kn",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/iphone/native-1.png",
+      "sha256": "287697286a3d7d4b579762004b5f53eecb84f7206cbd09e569718501c46c3dfe"
+    },
+    {
+      "locale": "kn",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/iphone/native-2.png",
+      "sha256": "8646b0eb1dab8661749d53fb2c2fb54ce9a4875a1fdfea48145b6bad5938a06f"
+    },
+    {
+      "locale": "kn",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/iphone/native-3.png",
+      "sha256": "8984d7009a2dbf9714c326b7c030bf4e02405f8d4da954307565aa6a3da68ada"
+    },
+    {
+      "locale": "kn",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/iphone/native-4.png",
+      "sha256": "5a7c51bb7eb5189557011a739d81bcfeb265ddabf89ed696540198a6d58d9bec"
+    },
+    {
+      "locale": "kn",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/iphone/native-5.png",
+      "sha256": "8b4e5f6b7f4ba30d1a817720ee391859cbd14b2c88dd754d8095358fa82ff2fc"
+    },
+    {
+      "locale": "kn",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/iphone/native-6.png",
+      "sha256": "a1afd509953d8830678d8392ff90c1499349d92eee549587234cce2500cbe9e3"
+    },
+    {
+      "locale": "ko",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/iphone/native-1.png",
+      "sha256": "dc4ad34dec14272369555a4fb608422804de1aa4cb694bba8cc2208f649221ae"
+    },
+    {
+      "locale": "ko",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/iphone/native-2.png",
+      "sha256": "48be7fcf03b41926cf44dbd2fc49838fcf85346f0aa4df381198d2cc3091c025"
+    },
+    {
+      "locale": "ko",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/iphone/native-3.png",
+      "sha256": "ac520092109f576fb38a091f3e402b8d999174e73f801d42d7826339903267c0"
+    },
+    {
+      "locale": "ko",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/iphone/native-4.png",
+      "sha256": "f96955b6ec67fcf2713d738bd28600f6ae0f0cad709f2ad8f33c979b35acecf1"
+    },
+    {
+      "locale": "ko",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/iphone/native-5.png",
+      "sha256": "2446c2bdae8e712a6add14825f00f2b2342c0b6539b552aa6203c6e8f19e7211"
+    },
+    {
+      "locale": "ko",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/iphone/native-6.png",
+      "sha256": "68afdeba622a2c6cf8c02107455e342e96669edf2970f0e762f6780fdf6ea723"
+    },
+    {
+      "locale": "lt",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/iphone/native-1.png",
+      "sha256": "0c3cbe112a34f2fef205a6a9b860e59c098743fb8b54e0499d7bd82e5f9276c8"
+    },
+    {
+      "locale": "lt",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/iphone/native-2.png",
+      "sha256": "100faf5d6d066a623d5ad737d533755c6111f32fa4bbee13c8728c7a8a2bc952"
+    },
+    {
+      "locale": "lt",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/iphone/native-3.png",
+      "sha256": "dbc3274748f93b2635a9e3b8c8e8b0041a9aa194e435607b3f0594ec0ca1bb45"
+    },
+    {
+      "locale": "lt",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/iphone/native-4.png",
+      "sha256": "c99f4e0d67aa6c14ed900213e08c4edd183ee5f4b635b96fc18ea27a83aa30e4"
+    },
+    {
+      "locale": "lt",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/iphone/native-5.png",
+      "sha256": "1a5a48079e5791214c7c856df0cf422209749258f22b858eb269af46bf85e925"
+    },
+    {
+      "locale": "lt",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/iphone/native-6.png",
+      "sha256": "ad19f434c65032ebf59425d9393581807e045b1e6faaebd0a338bfdb10706bac"
+    },
+    {
+      "locale": "ml",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/iphone/native-1.png",
+      "sha256": "edd8a5c926bdfe9aeca68b22f7842feaa96b29b84fac6dfbfc6f8e8ef84aadff"
+    },
+    {
+      "locale": "ml",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/iphone/native-2.png",
+      "sha256": "c02020b24206f3bd210f1173fbaa2a4ab59176f896682b4df9fb0bace781ff26"
+    },
+    {
+      "locale": "ml",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/iphone/native-3.png",
+      "sha256": "d4b87f3667f0f582506b64ba9444f14e3b72d9391d62786ff9013a717ce7ddc8"
+    },
+    {
+      "locale": "ml",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/iphone/native-4.png",
+      "sha256": "72cebb9dc9af303e7dc72a38fa3a6cc5ae7902d91fe6f81da185846a96da7622"
+    },
+    {
+      "locale": "ml",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/iphone/native-5.png",
+      "sha256": "9c086af071b2059b68fc185fc3229f05b4e53e616c0385581325ba6dc2c99236"
+    },
+    {
+      "locale": "ml",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/iphone/native-6.png",
+      "sha256": "045934bbfbb9e5734d54458a85fd33d467dc90c27afac4890940644fc7db2444"
+    },
+    {
+      "locale": "mr",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/iphone/native-1.png",
+      "sha256": "c5c844faafdc0aac36dd106b7625afddf6e6c688bd99c8f5f31fcf3e93c01e94"
+    },
+    {
+      "locale": "mr",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/iphone/native-2.png",
+      "sha256": "3350f5bfc4f13726e476ce06018b628cb988856d8953da4911aa0e0c4284cb7b"
+    },
+    {
+      "locale": "mr",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/iphone/native-3.png",
+      "sha256": "438830311306fbb0ba1ca3b4ec902eb4496faed778ab5c04e36b778be2f855bd"
+    },
+    {
+      "locale": "mr",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/iphone/native-4.png",
+      "sha256": "c538874e782c18ac04f6f476d22a5110e4e89b7b54de101f5f78e79f44ac0da3"
+    },
+    {
+      "locale": "mr",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/iphone/native-5.png",
+      "sha256": "c11cda22eefe8d0ec6ffa6c0fbda3796de6b285a6e25af48c8fb6ec11f821d0a"
+    },
+    {
+      "locale": "mr",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/iphone/native-6.png",
+      "sha256": "1814fe2c8e96fac896693878a9a6488ecc858a9e8e502cf0dc4823dbfd074aeb"
+    },
+    {
+      "locale": "ms",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/iphone/native-1.png",
+      "sha256": "45e91c5e46c8c55cb5ba685521a2fbc029792b995265b39aa3c4ccaafabc2538"
+    },
+    {
+      "locale": "ms",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/iphone/native-2.png",
+      "sha256": "bb12bae1524c100a68f0889adc66e72b13e3ac60a412c5f0603e84a0b065d85c"
+    },
+    {
+      "locale": "ms",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/iphone/native-3.png",
+      "sha256": "f93242ba248d89d9dbfd27f9aa75f9f855a2947fbe9074793cc4b4351f78b8e9"
+    },
+    {
+      "locale": "ms",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/iphone/native-4.png",
+      "sha256": "5e2151f842870e0235bc502fc4af29bf391f961d58d104dec5db32aa66b57123"
+    },
+    {
+      "locale": "ms",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/iphone/native-5.png",
+      "sha256": "adda36175e9c9ce4928c47832b472c7d408cb7e440ca788bbb740975d55e4fe2"
+    },
+    {
+      "locale": "ms",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/iphone/native-6.png",
+      "sha256": "59c2ce793455b287c92efd888e1c5c91926a18503534eda3156db6cbf3356fbd"
+    },
+    {
+      "locale": "nb",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/iphone/native-1.png",
+      "sha256": "9a1e3490610d6143555f419bef8a090dbf1cfe708a7b7ca9b61086de88fd0f39"
+    },
+    {
+      "locale": "nb",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/iphone/native-2.png",
+      "sha256": "4e526028ae112d5b6a752dbe59e7e78b647d2c93c1ef0b63f4a50c9a52c58ad4"
+    },
+    {
+      "locale": "nb",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/iphone/native-3.png",
+      "sha256": "0e1ed8f1a91dd7b1e2aeb7612c3b206d829fd3118a488fc4f4bccfb931a79554"
+    },
+    {
+      "locale": "nb",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/iphone/native-4.png",
+      "sha256": "58a15ce076f8f5fd722f5e624cbc91bdbb92b94bd720765a970943253a2f5256"
+    },
+    {
+      "locale": "nb",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/iphone/native-5.png",
+      "sha256": "b88ed77819a4dff6daab35a105a2b1f128ee412e588340a200e147119694f6e0"
+    },
+    {
+      "locale": "nb",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/iphone/native-6.png",
+      "sha256": "9489a85534107088f56fc51d2413f25c39f48c4d36ff59116d6f2e2080fb3565"
+    },
+    {
+      "locale": "nl",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/iphone/native-1.png",
+      "sha256": "601e1b051e8ad6a761228bac587fd7e1c6c79c9297378f7616ed08c1ebdc5431"
+    },
+    {
+      "locale": "nl",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/iphone/native-2.png",
+      "sha256": "8507098da21f49d240f82df016cf6658e17a5ae6d9584658feffeac9d3eb4b99"
+    },
+    {
+      "locale": "nl",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/iphone/native-3.png",
+      "sha256": "a42a3b2df2b6674c052f6f30f3f7bff0d137cde4f19da2215bc984e1bf89c65b"
+    },
+    {
+      "locale": "nl",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/iphone/native-4.png",
+      "sha256": "71b4ba71ed46a0fe0afca72f87d37dcb25196d6129355e94e184622ae6c479e1"
+    },
+    {
+      "locale": "nl",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/iphone/native-5.png",
+      "sha256": "aea514ee44b4a065bc8a1703f1e5951f1607a7f6ba9ec9d4e3834af5264b731a"
+    },
+    {
+      "locale": "nl",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/iphone/native-6.png",
+      "sha256": "3fb8bc7c42f070787b225f84e2d0177bc8d0b63b5c2bf99e0e31c347471aacf0"
+    },
+    {
+      "locale": "or",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/iphone/native-1.png",
+      "sha256": "e3d371ef643957f2e6bc1fa9542de6b0e8a955ffae8c1696355e08f8a225d0ff"
+    },
+    {
+      "locale": "or",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/iphone/native-2.png",
+      "sha256": "7022b147f4a2c14ab98474c1db80f45cfa27a1376e4f41548964d9c9e96e8d37"
+    },
+    {
+      "locale": "or",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/iphone/native-3.png",
+      "sha256": "3f631d4c0f3cd300bae69e4767af6fe70602abd2c8a0e144778a459f43b7788b"
+    },
+    {
+      "locale": "or",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/iphone/native-4.png",
+      "sha256": "35f29cfec09b47279ba4058b30c078ba027e9a0f38d5b7a33cd17982d9b740c5"
+    },
+    {
+      "locale": "or",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/iphone/native-5.png",
+      "sha256": "15e35ddc2e43547415441363c30502baf6171c6224eb1da3f3e5c7968cde3e1f"
+    },
+    {
+      "locale": "or",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/iphone/native-6.png",
+      "sha256": "f1b989dba16761682cbcbbc60a3cce33ea660f1c5e668c27b1ec4f1398dd6032"
+    },
+    {
+      "locale": "pa",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/iphone/native-1.png",
+      "sha256": "909cdc687facbdd9125e2e74873be1f1833b436b32a915331d84b8422eab2f5c"
+    },
+    {
+      "locale": "pa",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/iphone/native-2.png",
+      "sha256": "8cb47558f60f380873f56c6ae714e47d3eb6a47ba9cae75cc384b9dd8e70a9d4"
+    },
+    {
+      "locale": "pa",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/iphone/native-3.png",
+      "sha256": "e0a27c54a186bcc776775b778322bc94480dbe229b95d9ff321bd0672941c1e0"
+    },
+    {
+      "locale": "pa",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/iphone/native-4.png",
+      "sha256": "9b1d1ad3fc18becc4eda170c16e0c15e3fc73d924cc99a94396b96b96f695369"
+    },
+    {
+      "locale": "pa",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/iphone/native-5.png",
+      "sha256": "62e7df3bd860565e71f1361432c5d82a5c2c1e21bf3e5ad50275d555ded5cd23"
+    },
+    {
+      "locale": "pa",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/iphone/native-6.png",
+      "sha256": "af93f8f5917865e2c6f38525f182a035327e5899fed6a42329a9aa3f00195e2f"
+    },
+    {
+      "locale": "pl",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/iphone/native-1.png",
+      "sha256": "eda8c2e67c5c37afb8fa4d572a600916a08d4452a562b510313a42c166b561f7"
+    },
+    {
+      "locale": "pl",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/iphone/native-2.png",
+      "sha256": "e4c0468df51c9c7852ad27f0c41961fe8a1d350fa7e76dc6079304d974b2cbc3"
+    },
+    {
+      "locale": "pl",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/iphone/native-3.png",
+      "sha256": "0f8a264f8e1859ddb95b990c3b67dac24fb18ae18b5c6d29987a15323c5b004a"
+    },
+    {
+      "locale": "pl",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/iphone/native-4.png",
+      "sha256": "dde0316113092594b4e95e6e08802ea0bbe6e609c101d3b4bc70548bad8d6152"
+    },
+    {
+      "locale": "pl",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/iphone/native-5.png",
+      "sha256": "6e7e229b9e4f38a37d90fa5fe3c3bf26a7db4419824fdfa25e737afbb77fc8c1"
+    },
+    {
+      "locale": "pl",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/iphone/native-6.png",
+      "sha256": "afc5881eb8ea674fb3ccd0220ff1eb4160d44cda361140a32133501fa7905c88"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/iphone/native-1.png",
+      "sha256": "7a1c9ff0f9cdb63526c437817e9d35554a768c8fae6621756e845ffe18405eef"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/iphone/native-2.png",
+      "sha256": "fa8d29c33391a3919e61ba9a2446221b9ae46b2492a24b770fe3565414d38938"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/iphone/native-3.png",
+      "sha256": "8858cf0622e3652de657d55a81553369d39259df42975d8e7dba38261360bd3f"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/iphone/native-4.png",
+      "sha256": "3fa667fdcc431e6dcc9e2bd99cb946ca10fe54746fc88b54d543a314ffd055ee"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/iphone/native-5.png",
+      "sha256": "a125b161ea30aaf0e278c49e9a183066dbcf0dfd4d9026cedb0a0a6fe21a2ef4"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/iphone/native-6.png",
+      "sha256": "da193b0326987bd6c6c1208d57a98d4b99252b039a5f5b52831bf1269237081d"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/iphone/native-1.png",
+      "sha256": "9e263f3fd3ca56b8f5644eb97d3a12fa902af85468f3d91d4da0c8d20094b7f9"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/iphone/native-2.png",
+      "sha256": "b7eafa7531d95be615c7fc7076f605de7fc0f8d3041f4c8ad3c9a9b7c0e8bebd"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/iphone/native-3.png",
+      "sha256": "c81b23a7810305ab5e6a6e5ddce41db5e12f6e55c035fdac1507b7095d4974a5"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/iphone/native-4.png",
+      "sha256": "60b39231be190aa214b4bf0dbfb12494b565763a27749ebe213cd6e636fe0b32"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/iphone/native-5.png",
+      "sha256": "26c651c930f0501f8f90c51448c9b92a040e1a803cf72eae2e81f90dad9f1c7d"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/iphone/native-6.png",
+      "sha256": "585268578f931d5ea6de1ea2bff8961aa8e96a369a611fefb758116ce0862bfe"
+    },
+    {
+      "locale": "ro",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/iphone/native-1.png",
+      "sha256": "46ab61f7367060447fbde8c64c650e977aef4956a926508fdac3435e25fd7860"
+    },
+    {
+      "locale": "ro",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/iphone/native-2.png",
+      "sha256": "187fd6f919f9a98100239273127a953c4a088bc611bb076f2f43f01bcbf7d03a"
+    },
+    {
+      "locale": "ro",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/iphone/native-3.png",
+      "sha256": "45f703b417a46b511c5e2d0d65d37989fd5dc304b94b55e8460194852415274e"
+    },
+    {
+      "locale": "ro",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/iphone/native-4.png",
+      "sha256": "fce67ff9deece22f5683bce64af38361613b9929b8dd5399fe56a96a19ae39e9"
+    },
+    {
+      "locale": "ro",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/iphone/native-5.png",
+      "sha256": "29acc110a11c39a22fd06a5c23cdb7412448f99d9f54ef54b657e20206af40bf"
+    },
+    {
+      "locale": "ro",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/iphone/native-6.png",
+      "sha256": "80ee52489bdb375085dba70959e672489969edc44c19e6ddc8b191e66b67f69c"
+    },
+    {
+      "locale": "ru",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/iphone/native-1.png",
+      "sha256": "ccb9d1c33093b75c80daa402ae11af44e3dbd11c551a927fd9ad4a7dc4c60916"
+    },
+    {
+      "locale": "ru",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/iphone/native-2.png",
+      "sha256": "04865d6073d9036e144618498e869c7491f1f0571106f9c98e21b46b88cba145"
+    },
+    {
+      "locale": "ru",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/iphone/native-3.png",
+      "sha256": "93780650d9db63bfe2a033ea479c286b083316e825649486270192d828ac73e5"
+    },
+    {
+      "locale": "ru",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/iphone/native-4.png",
+      "sha256": "bc45ad9f5736f7525a99cb090b89bd177f5ff0948827febe3cafe271e6fd14b7"
+    },
+    {
+      "locale": "ru",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/iphone/native-5.png",
+      "sha256": "f421b3c41bed069d97ca755e88903e7b00a2a8e36e4794f3a4ee07e4a9564253"
+    },
+    {
+      "locale": "ru",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/iphone/native-6.png",
+      "sha256": "ab25cd8a7c180292f2109eb97e53e2925866b697f2321ea427f9203a0688dc98"
+    },
+    {
+      "locale": "sk",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/iphone/native-1.png",
+      "sha256": "651cf86a2e6192a93708fd9c5d281a8bafc957225ea2d3904ef5fff192cf433b"
+    },
+    {
+      "locale": "sk",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/iphone/native-2.png",
+      "sha256": "14baf7efa1abe41bd3b3b1a2adb9bfb9156b62224090d96cfbc4ef5a84fad8f3"
+    },
+    {
+      "locale": "sk",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/iphone/native-3.png",
+      "sha256": "40f531a6e40c06687ed176661af8ab973f63be44cbd57b786d0ba162a2dad808"
+    },
+    {
+      "locale": "sk",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/iphone/native-4.png",
+      "sha256": "ac6f21f80e998c97038b2cc95b1fce9ea657b69dd5683f58a6041e07f6e3b5d1"
+    },
+    {
+      "locale": "sk",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/iphone/native-5.png",
+      "sha256": "1f696e0ac6797e1ee21867d0e865c45ab3bab48878b19caaaddf7d27017c9e5c"
+    },
+    {
+      "locale": "sk",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/iphone/native-6.png",
+      "sha256": "b1b0780dd4956d4163619bcea73985eca117048eea95c88c2b8801e5c622d0b6"
+    },
+    {
+      "locale": "sl",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/iphone/native-1.png",
+      "sha256": "d3f8a4744002aed23ae41d1e79d3171413d1ee14076d403d118874a6a1bbb0d6"
+    },
+    {
+      "locale": "sl",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/iphone/native-2.png",
+      "sha256": "f04cf4381c2032dceaf027d60dfd714455eae813eb8a97fceda061fd3a44fe39"
+    },
+    {
+      "locale": "sl",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/iphone/native-3.png",
+      "sha256": "5db0828d9706dd4b7c60f6e43c8659122fbdbdc70a2dc7fe48e078a26412365e"
+    },
+    {
+      "locale": "sl",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/iphone/native-4.png",
+      "sha256": "05e15641c3b5576b54b811afd71d6a0f23ec55835927a8e091cc44318dc86550"
+    },
+    {
+      "locale": "sl",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/iphone/native-5.png",
+      "sha256": "80b4cb6a4eb64d3c30ca727d6c5ce929db38514e170e9fbb4d7d86c074a1dd5e"
+    },
+    {
+      "locale": "sl",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/iphone/native-6.png",
+      "sha256": "7006471989d06bade533fcca61054499d647707dcee75fc9c83689526df678f7"
+    },
+    {
+      "locale": "sv",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/iphone/native-1.png",
+      "sha256": "ce0f8c92393d5bfa05ce4f93544ec8a75f5b983ad897f61a1929cab5d1d20402"
+    },
+    {
+      "locale": "sv",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/iphone/native-2.png",
+      "sha256": "0526c4716aab7939beb3bd67757bb9a9a161b97819308ea8a196bf150156c9e0"
+    },
+    {
+      "locale": "sv",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/iphone/native-3.png",
+      "sha256": "18947939c4a82d3675dce5b5465e14b9fb14749bc41e34152bb3ecb3bd906201"
+    },
+    {
+      "locale": "sv",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/iphone/native-4.png",
+      "sha256": "302187b595d12cfc685c560db86f8a24c2267a6f7845ac32bdc92341275195b5"
+    },
+    {
+      "locale": "sv",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/iphone/native-5.png",
+      "sha256": "f0a91e87023f57d7fdea957dde8ba0cb716a8488e08008c718da851a30ab43e5"
+    },
+    {
+      "locale": "sv",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/iphone/native-6.png",
+      "sha256": "39afa53fbe36c115e78a5eb0a248f161d6b9a4b467db01f04ad22a78a64bbe01"
+    },
+    {
+      "locale": "ta",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/iphone/native-1.png",
+      "sha256": "b3631589d39bd363c2331836575a9240c31374cd7566269efdda50a3425ac9c7"
+    },
+    {
+      "locale": "ta",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/iphone/native-2.png",
+      "sha256": "02615fa320f4f1b5e59f14e068bc3ce44a811173d703082c01c269f153c2bda2"
+    },
+    {
+      "locale": "ta",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/iphone/native-3.png",
+      "sha256": "91e9713bdc183c5c03fbc8eca693f83dae3f920919e52e9345f32bf514da9c2e"
+    },
+    {
+      "locale": "ta",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/iphone/native-4.png",
+      "sha256": "2915df586af54bb8d9bd1dd3c503669eacfd888efd6b56c3160abc536931c817"
+    },
+    {
+      "locale": "ta",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/iphone/native-5.png",
+      "sha256": "2e8db1f23360875959d98634926376ff3dd423f8ca38fd16cb32601a487042b0"
+    },
+    {
+      "locale": "ta",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/iphone/native-6.png",
+      "sha256": "f12980427e01a7ff1221df5659c8640511927373f6bc87050625add4105df8de"
+    },
+    {
+      "locale": "te",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/iphone/native-1.png",
+      "sha256": "56a6a3a9d1f3181a94c88ec06cd8d0bfc4d3e6ed2d9739aae016f481bfd74d72"
+    },
+    {
+      "locale": "te",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/iphone/native-2.png",
+      "sha256": "f8ef584a1f38e11b4ba46371f1bcd3fc13604cb2ac6913acb312d59c22456d4c"
+    },
+    {
+      "locale": "te",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/iphone/native-3.png",
+      "sha256": "4a3b459edd3d2a52398981ac9c9f45859f98edc168ed2cf9dbe43ff13e257419"
+    },
+    {
+      "locale": "te",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/iphone/native-4.png",
+      "sha256": "fcf0ff41a76c937ff4f44f8ebc36efd1327d01640ea848c68a15b6b272d923a9"
+    },
+    {
+      "locale": "te",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/iphone/native-5.png",
+      "sha256": "4835c33700f2e92488d54015284c3549db0de07c990d06a66227b8406f898067"
+    },
+    {
+      "locale": "te",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/iphone/native-6.png",
+      "sha256": "d2d433992158645c2f9051f8d0bd5f53da32a62ba05a15b4dd5f5a79b5763e56"
+    },
+    {
+      "locale": "th",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/iphone/native-1.png",
+      "sha256": "d19266ce7a56c06eee7f838064a09d70fd1a284d9434a19972fa223e6d333661"
+    },
+    {
+      "locale": "th",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/iphone/native-2.png",
+      "sha256": "cdfc1704ea91a887bfcd5188534820279e793d8d86de4439afad0331f60614d2"
+    },
+    {
+      "locale": "th",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/iphone/native-3.png",
+      "sha256": "f26005f8850e5d2cba5272579ad13340291674aeebe1c2f97f92833f69b56768"
+    },
+    {
+      "locale": "th",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/iphone/native-4.png",
+      "sha256": "abb3acf7cda2db4ebf7c656293de80c3b5895229e97db424939edaa89b0d412c"
+    },
+    {
+      "locale": "th",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/iphone/native-5.png",
+      "sha256": "a91d7a7b357feb5d0641eba694d5600525da23b6b703450483b8ffba4b7ca1b7"
+    },
+    {
+      "locale": "th",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/iphone/native-6.png",
+      "sha256": "7333b4bc47309751329b465d3c686efb5a471618693f3dcbfb7ba262f0d8b00f"
+    },
+    {
+      "locale": "tr",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/iphone/native-1.png",
+      "sha256": "8e035e696b11d59f39f3df1dba8f743b969ce6fcb24d3765ea379b57e7ba1e99"
+    },
+    {
+      "locale": "tr",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/iphone/native-2.png",
+      "sha256": "498fe9ceaf1799d4a394f02227c67faa983d9e029b6a8824fea63645c264436b"
+    },
+    {
+      "locale": "tr",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/iphone/native-3.png",
+      "sha256": "6e12610cca4df5459dd218b6a87caa9c750e495281c02e886ccbabc332502bfc"
+    },
+    {
+      "locale": "tr",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/iphone/native-4.png",
+      "sha256": "aeebb21ad3a0d3deb72b9491d12fcf175a0bdbd641bb8ec7af7a3a0b8b6a75d8"
+    },
+    {
+      "locale": "tr",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/iphone/native-5.png",
+      "sha256": "5f0a6b0938581df95cd2815f24a8559de99263981ed8096a92551918baa86867"
+    },
+    {
+      "locale": "tr",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/iphone/native-6.png",
+      "sha256": "8057e3d98cbfc1c963560e8deaf95cbe29e9e902653194732b683fb519e2da1a"
+    },
+    {
+      "locale": "uk",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/iphone/native-1.png",
+      "sha256": "21d17aff8cdb4fd0b0f158406c8f59f27f1a0e3bacb59cb8753ea5cad18032b2"
+    },
+    {
+      "locale": "uk",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/iphone/native-2.png",
+      "sha256": "77599dc428297aba4c265db77b72059b37d13f5eca7f2fb70bf420f521bb5943"
+    },
+    {
+      "locale": "uk",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/iphone/native-3.png",
+      "sha256": "6515f620571a9fbdaed40b0598ffbddbbfcc16947a919adcd0322eead03f6238"
+    },
+    {
+      "locale": "uk",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/iphone/native-4.png",
+      "sha256": "8a6e581567817262ac3a88c69bdd993392fb1d6c2873606a821933349b217cd7"
+    },
+    {
+      "locale": "uk",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/iphone/native-5.png",
+      "sha256": "bd6ebddac8efbc61c6b05cd382284c0baff29fd6e0a607953ec437bd5fac5793"
+    },
+    {
+      "locale": "uk",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/iphone/native-6.png",
+      "sha256": "400e2dee16fd21298386132868314c659055f5a94f61e5d2bbea5b94b91ec759"
+    },
+    {
+      "locale": "ur",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/iphone/native-1.png",
+      "sha256": "928e30d1e6dfd4dad03f22f2dbae589a9d5d0acfcf260a353357463907560b61"
+    },
+    {
+      "locale": "ur",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/iphone/native-2.png",
+      "sha256": "276cb8fdb633777d65327f5143c1402a3bf2a5d208c0f5919439945557a0e2a8"
+    },
+    {
+      "locale": "ur",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/iphone/native-3.png",
+      "sha256": "aaf26a85e3f80a5a7f07f2f5d39858a331e6350d5cbbd1c43e088d448d0f6cbb"
+    },
+    {
+      "locale": "ur",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/iphone/native-4.png",
+      "sha256": "f58437d912e950ebd711823f99df4e1e4743bd3d9bc0e59309bafd43761b5fee"
+    },
+    {
+      "locale": "ur",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/iphone/native-5.png",
+      "sha256": "ad06dc02618a418dea1854ed424e98fab9e9d9324d167f94d508a464eb1f4367"
+    },
+    {
+      "locale": "ur",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/iphone/native-6.png",
+      "sha256": "3af8a6d32bdca9c8dea1f772c225b696d9109a81abfb8a8d985c7869476748dd"
+    },
+    {
+      "locale": "vi",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/iphone/native-1.png",
+      "sha256": "92a321c80a30b7851254b46d15989c7a54a39d5000206a5e26bfdb62e3265f01"
+    },
+    {
+      "locale": "vi",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/iphone/native-2.png",
+      "sha256": "90ea6c5ba42533e89e6239ff109d12799e4e250dfc0a7010e68743410409606b"
+    },
+    {
+      "locale": "vi",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/iphone/native-3.png",
+      "sha256": "ec2bbdbce5d76f8db68450aaeb927479d4500bc8dcb5a8918e45875f036709bd"
+    },
+    {
+      "locale": "vi",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/iphone/native-4.png",
+      "sha256": "7b1ef42f6cedfd47daefbd58d384d98b783392bf7756d3f781df0d4c1e06f4ca"
+    },
+    {
+      "locale": "vi",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/iphone/native-5.png",
+      "sha256": "dbbb26df441a75d491237a8223285284cf987f5b44ac9cf454ea35391c203c12"
+    },
+    {
+      "locale": "vi",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/iphone/native-6.png",
+      "sha256": "a53d8a714d6a9c90e583b9282c1d03fbc2890ddab3875a9a063ea7afffa5d58b"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/iphone/native-1.png",
+      "sha256": "044560492d59de0f6d2fca06db75a1d8628b1bd6f9bfb64289860bfcd81bb7ff"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/iphone/native-2.png",
+      "sha256": "d22d115522e9c78023fbfc13e5b7ef8667a845df63e1656dba6f07bc5ff11aaf"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/iphone/native-3.png",
+      "sha256": "a36644079191ca09a60c094ce6179a95bfca572b3d02c037b497161f89f893cd"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/iphone/native-4.png",
+      "sha256": "a83d9e8c0548b7e40687a75f10ebceb96127e40015004a678d49907ccc90b67c"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/iphone/native-5.png",
+      "sha256": "9064f083ec3527168adf64bef3cdf5bc8ccaa00cf3b98d805dd6089ad5ef5898"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/iphone/native-6.png",
+      "sha256": "aaafb0a2267e40dd0c4e46a1db1678e2ae43dee2973f6ac5a981104c6a66de33"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/iphone/native-1.png",
+      "sha256": "a313946e8fff8e31252f05e017201ea25e992bd5cb24941ff2658b9cd3e1f36b"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/iphone/native-2.png",
+      "sha256": "8d7a727d0528340563663d6b4f0af0bd216030cb6d75963296a717b1f0eec2f5"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/iphone/native-3.png",
+      "sha256": "30fc69698803a50f7276d80510510c52b9d24ea82ca0afa045f22ff2b423da88"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/iphone/native-4.png",
+      "sha256": "a2493a31a2d310ad6a5c9625019c07b711e4e33a9a618ac1ce7b0e45e529ac48"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/iphone/native-5.png",
+      "sha256": "059c7e9aa866a82b5ee759c874b1b8ec1498e8850fe4bf84491fffc5e803858e"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/iphone/native-6.png",
+      "sha256": "2c34f067d01410c6d30092e5b4b9f25a50edb71b9f3a431587484c0dc08b2f73"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "iphone",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/iphone/native-1.png",
+      "sha256": "81acc40af9efa07970f3e767483bd533974568b779cf3a750aa5fecdfc44d14a"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "iphone",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/iphone/native-2.png",
+      "sha256": "2c9911c82a8669e3d3f78d913a8715d2e42f36199fc6201ec6357174cc32f125"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "iphone",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/iphone/native-3.png",
+      "sha256": "0386ae61b0c40bdd277bb7ece6796b58233862b1eda8cf0b75e41d8966c5cc2d"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "iphone",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/iphone/native-4.png",
+      "sha256": "49166070d68ef66924cf1e3826ac222884d94c5c962689ee23077903badd248a"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "iphone",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/iphone/native-5.png",
+      "sha256": "633a6c4d020fc9d8818c783b5324962fa2e191daf69e4fc611b74c1343cf307c"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "iphone",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/iphone/native-6.png",
+      "sha256": "3c566462a2c7965b41df1888228ce486f82554b9fa0b82bdf802ade78789f184"
+    }
+  ]
+}

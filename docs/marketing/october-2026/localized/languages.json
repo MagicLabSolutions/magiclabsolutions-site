@@ -596,7 +596,8 @@
       "zh-Hant"
     ],
     "sources": [
-      "zuzu/Zuzu/Localization/Localizable.xcstrings"
+      "zuzu/Zuzu/Localization/Localizable.xcstrings",
+      "Zuzu-android/app/src/main/res/values*/strings.xml"
     ],
     "store_policy": "new-approved-style"
   }

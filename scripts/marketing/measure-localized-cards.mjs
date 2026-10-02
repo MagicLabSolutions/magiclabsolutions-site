@@ -15,6 +15,11 @@ for(const slug of process.argv.slice(2)){for(const locale of inventory[slug].loc
   const file=folder+`/native-${index+1}.png`,meta=await sharp(file).metadata(),cards=(await components(file)).filter(c=>c.rect[2]-c.rect[0]>meta.width*.5&&c.rect[3]-c.rect[1]<meta.height*.25).sort((a,b)=>Math.abs((a.rect[1]+a.rect[3])/2-target)-Math.abs((b.rect[1]+b.rect[3])/2-target));
   if(cards[0])panels[index]=[{source:'/'+file,rect:cards[0].rect,left:.025,top:.66,width:.95,radius:45,angle:-2,measurement:'complete connected native subscription card'}];
  }
+}else if(slug==='zuzu'){
+ const file=folder+'/native-2.png',meta=await sharp(file).metadata();
+ const target=meta.height*(platform==='iphone'?.63:.65);
+ const cards=(await components(file)).filter(c=>c.rect[2]-c.rect[0]>meta.width*.6 && c.rect[3]-c.rect[1]<meta.height*.16 && c.rect[1]>meta.height*.45 && c.rect[3]<meta.height*.89).sort((a,b)=>Math.abs((a.rect[1]+a.rect[3])/2-target)-Math.abs((b.rect[1]+b.rect[3])/2-target));
+ if(cards[0])panels[1]=[{source:'/'+file,rect:cards[0].rect,left:.025,top:.64,width:.95,radius:48,angle:-2,measurement:'complete connected native timeline card, remeasured for each locale'}];
 }else if(slug==='memories'){
  const file=folder+'/native-4.png',cards=await components(file);const candidates=cards.filter(c=>(c.rect[2]-c.rect[0])< (platform==='ipad'?2064:1320)*.57).sort((a,b)=>a.rect[1]-b.rect[1]);
  // Pick complete soundtrack cards near the second row, then the neighboring choice.

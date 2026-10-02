@@ -1,0 +1,2319 @@
+{
+  "bundle": "com.magiclabsolutions.sundust",
+  "binary_sha256": "4d0dc5bccebdabb9774811c41269fbd03d8c2ecb7e0e510f99a4194d1eb4bdac",
+  "simulator": "F473F837-B8DD-4CA1-B1AA-BCA9CA477DC0",
+  "capture_timezone": "device default",
+  "method": "Existing isolated offline capture binary, real native views, per-locale launch arguments",
+  "records": [
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/ipad/native-1.png",
+      "sha256": "638e3483520065b13c7400559bda769cb37a2fd2d8e1545b7906cfb71de7fef1"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/ipad/native-2.png",
+      "sha256": "c1085e51cb545b71f782d27a45c60fef282cb376da9e6181a16c4aff124932ff"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/ipad/native-3.png",
+      "sha256": "b7b1675c3950713d56bd31524b7e49efc92076815f6084b3ad629b05fe893fd7"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/ipad/native-4.png",
+      "sha256": "cbb6532872449c52dc25c3a98649d8560772443042029b29784233cf06eddd92"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/ipad/native-5.png",
+      "sha256": "ad96e0ea5872b1093d72593e59bd1a8b5893a1beb1cc063e78bc90e9d0544acc"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ar/ipad/native-6.png",
+      "sha256": "3c56c71dc876f833c9cfd13fdbf79ad8e71ab0df93f0c95f88ba654adb15f8ba"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/ipad/native-1.png",
+      "sha256": "847c6db20bc90ef7f2ad08eb22472bc64829293dbe67dff1f32d20d23c999f67"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/ipad/native-2.png",
+      "sha256": "c21775b6d1bf5ca9d0fb3b06a95bdfeed0480fc44940fe28f21862a7792cd6ca"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/ipad/native-3.png",
+      "sha256": "8f8564f081a35329f45dfa506026da335a6f233e1948c515786e3c6858c7578c"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/ipad/native-4.png",
+      "sha256": "9649f4922062eacd7e0ca6b755025c4595f6a78675398cc51f9b361014e3bd24"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/ipad/native-5.png",
+      "sha256": "73b93dcd381cd729d4ea2b0a9f7ea050822bc43bf8c7ed329a089ecf1308348f"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bg/ipad/native-6.png",
+      "sha256": "942ed14b03bf7b38b646b648a6d5594c6376bf4d4885a0afd0aac1237651e804"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/ipad/native-1.png",
+      "sha256": "a721e28af2d3a997103a8f0137e0c3696abdc1bf37f20d416d3611e8455f3e76"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/ipad/native-2.png",
+      "sha256": "280ca524b541e7c3e1d8f4a25f0688ff921d5ecee7d0ead0e0c22334e783bb71"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/ipad/native-3.png",
+      "sha256": "8ce4e90cc2e0374f54c4274ced1743ce379aa40e93fd19ade9e83cae02b26813"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/ipad/native-4.png",
+      "sha256": "ca9990d1e5c5ff1ec9b2ef12434f5916e8601659e6481d099938b423a72dbbd4"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/ipad/native-5.png",
+      "sha256": "35b48512fbe91ccbb9a9a0b7fb087e0b476ee0e1641daa05f620d1be8b41e234"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/bn/ipad/native-6.png",
+      "sha256": "6c430a107b34c603efda144104c3f99ba851c9e8724585aa35aef248c0022681"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/ipad/native-1.png",
+      "sha256": "ac5b375ede26e7cabf268c1040fa5a2aeb62eac87707f4d7544f35b221d93142"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/ipad/native-2.png",
+      "sha256": "7f278e04a5ee588a3bb9f22e08b5c8c314abf6c437091c44362b7259a56763e6"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/ipad/native-3.png",
+      "sha256": "6c0eff707f80ab978be2eb80d36bb118ce1aacf57997cfe4e2c04b72caf1dbed"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/ipad/native-4.png",
+      "sha256": "6f66fcd2576e536a4aa2d5431a693d3d628054a5e7da4f5f68243fc8c14e743b"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/ipad/native-5.png",
+      "sha256": "5d783041c5764ebed147b1becf98fe94b05710a29b94cb337ae209eea197ccf4"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ca/ipad/native-6.png",
+      "sha256": "2cbfa939cc0eb18f7f5b35b61a0bc80c419bb01a2d668d3e772664a56598aedd"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/ipad/native-1.png",
+      "sha256": "3ee5f8e5d23d5254a98882333db930a5a34e9ce79c816ffeba19e001fe63d003"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/ipad/native-2.png",
+      "sha256": "2fe0778faf077cd15f3162590bb534ad9a29991a84a22ef03819339a23aa8172"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/ipad/native-3.png",
+      "sha256": "8fd9b0d3f67290295da3d2d1ac310c5e528dd6b4aa8cf4f221a009ce5f0f1ebb"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/ipad/native-4.png",
+      "sha256": "060bdf056b4c9e5d3fe869f6c09f94d77685f34bd7bf4733067ab5c470f94a6a"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/ipad/native-5.png",
+      "sha256": "b9779dd0b96213c4b9bcdcbe9fb973d82cbc18f81a68c47b1515f3903f70fd14"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/cs/ipad/native-6.png",
+      "sha256": "1939098976ed7bb56984620261916cd0c08127c3303f0358a42642435a4390f2"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/ipad/native-1.png",
+      "sha256": "b383b0f247f8b8872047b0a4b9c91c8c6a806135290314be6741e1a56f743a26"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/ipad/native-2.png",
+      "sha256": "dc31b7499c68595350089ecb7ac47ce09eaa9a067add763b84995407410911fd"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/ipad/native-3.png",
+      "sha256": "fdc977e32ed5f5e90e3b0a8bc0196912f2d3f347e904d869fa95909426145610"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/ipad/native-4.png",
+      "sha256": "f09f68c9a7701bab67074ab0c7df60b9cd27cdb2c687e5be76cb7d964bb98783"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/ipad/native-5.png",
+      "sha256": "7e756ba89250d7e5494dccef04e8c58ba13655399f06d8b06fffc7cfaed3aa01"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/da/ipad/native-6.png",
+      "sha256": "d180f9cab4b1174b675b062acd3ec084a454cb19317647494f441d7a6222250a"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/ipad/native-1.png",
+      "sha256": "d04ce220051469a4c9feaf7f880117c9ee6ab5c605f7d83986be9dfe56318f80"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/ipad/native-2.png",
+      "sha256": "895dcc5ecec1763794a5d0e7a5dddadc15c2056a9e9223056207a09216855e1c"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/ipad/native-3.png",
+      "sha256": "220e94eb77a8c626ec83cd00b2f78c78befeba1efc5938d9be478d5f7c6f2f65"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/ipad/native-4.png",
+      "sha256": "39ac0dd487c759517261b14b66a9287e062a0781903908a52bea149e7d8152fd"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/ipad/native-5.png",
+      "sha256": "afda384421e1b2b1d7855448468a7b27f7c5e63f4b332fd707f5f07ebe5be645"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/de/ipad/native-6.png",
+      "sha256": "472756e1f037e2be3306f34834ca5fa26d6f8269ffaafa623a9eb888e865071b"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/ipad/native-1.png",
+      "sha256": "b6b317e94aece24a1ce968b41e379d76d73ac2497436695285562982655ecb10"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/ipad/native-2.png",
+      "sha256": "459de7c12e410164978f09059de47b9b5cb61eabbc6b6aebdb14f03180d22d78"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/ipad/native-3.png",
+      "sha256": "93b8fb2d24c09e0c936e22ce07a46e09a3f0bd3bcbe2f008e04b01ed509b1910"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/ipad/native-4.png",
+      "sha256": "f7b4847ecf67f1129c027bd220084257688a22b9af70100add7db3f2df40de83"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/ipad/native-5.png",
+      "sha256": "fe246455a931763a116f48cd61e582a3be234600d66676ff71ff4d16b812165f"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/el/ipad/native-6.png",
+      "sha256": "0088e09f37613e1f0c074964d890a4c82bad5b425266f99afbad23e65c25bca3"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/ipad/native-1.png",
+      "sha256": "752246b7e1b40cb916b32f1061c54ff800b74d3337c0a71b997f213188f12457"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/ipad/native-2.png",
+      "sha256": "99adc7bfa6e375a5514367f0775cc47c7a2ded3df9f548e138a286ec51068145"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/ipad/native-3.png",
+      "sha256": "5e66d833f014190ff817f711b2706d421ed88bdefeb2d80d04e015bacf08719d"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/ipad/native-4.png",
+      "sha256": "bb88556c0730bd16851198eae5e11d96f1b399a386cf4a1645f343261832ffec"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/ipad/native-5.png",
+      "sha256": "02333aafaf066adc0572ca3edc865c32fe4832f51959ea8d861fbe7f8cf6cc80"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-AU/ipad/native-6.png",
+      "sha256": "b9d1feb5dcf8b3834d0c9e8c509195ce57c4a16ae819f5acac325fa9bbc08d6c"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/ipad/native-1.png",
+      "sha256": "654fd73c3fddc24bdf8fe57cc3eb63081d251a8df90280ad2d7ca01c6e3426a2"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/ipad/native-2.png",
+      "sha256": "2466f0f0fd10e58a39c220a4536e59a206013df3f694213573b89f2ebff3974f"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/ipad/native-3.png",
+      "sha256": "0267f9138e0cdc761c41d4362d0423f4cfc56cfe5554f08facd155b9a5b002e1"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/ipad/native-4.png",
+      "sha256": "9a2851c8445b19cccecbe2301a4d919de934878f044c72296d8308248e4ff8de"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/ipad/native-5.png",
+      "sha256": "cb52cdcbadc31e70fc03fa1963d94203b27dd35dde73ed37e8066a70498ee72d"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-GB/ipad/native-6.png",
+      "sha256": "1b2c44d43d377833a914efbfe01c7594a6a9d4b1165dce9419eeea0d28bc0f4c"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/ipad/native-1.png",
+      "sha256": "4cfda83d3b14ce0e49ced43603a99e9e2cc2d0caa95e4c5fff18a59f4ef662c7"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/ipad/native-2.png",
+      "sha256": "f74fd2c5f7eebcd803a12df9608c894edd8bba53a4f9fa3c7015a7b138039cdb"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/ipad/native-3.png",
+      "sha256": "c91cc6a554777e9b30657b26e0d0ad8dd85eb4e0f5eced947a5b61130c2d8715"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/ipad/native-4.png",
+      "sha256": "2fc0dfc505310d6c3541b7e9061f86bb94d4f253f3ed222b097ffe4f9be87e51"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/ipad/native-5.png",
+      "sha256": "84a6fe6acc8a1158a97cca2048daaf4b7b7e7ae6527671baf12ca70005577d0f"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-IN/ipad/native-6.png",
+      "sha256": "93013c82c12366d4fd0ac41b64d42b558acb470acf5f07f4517b3487a35934ee"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/ipad/native-1.png",
+      "sha256": "f0761973ffaf6100f5f33b7cde8ca547b260c033fa0a4892566b1f8c88d0f34d"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/ipad/native-2.png",
+      "sha256": "051768a72b76de39281aef3634556be4353d3c7e221ff2fda449fd9b901fcc6b"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/ipad/native-3.png",
+      "sha256": "54fdd61a71ac745d4640b491ed0cf0c670ebb3d4900296785e9988d3004fc6a6"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/ipad/native-4.png",
+      "sha256": "1feaa7fff4e4cbf8261433ca0d6f78ba20ddde2a05b495f1f0e0aba80e2dda6c"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/ipad/native-5.png",
+      "sha256": "d4ad0d8aa8447e368fb19723562df8b6f1f1ff97e564c1aabddd1d942f3645f4"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/en-US/ipad/native-6.png",
+      "sha256": "86193affae7e8ec104d75368824415ff996b590444f82de1de38a0bfaffc771e"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/ipad/native-1.png",
+      "sha256": "b5de7151b81d3bbadd93ce027ffb410aaace54be367a46a8fb5758415c5aa3e0"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/ipad/native-2.png",
+      "sha256": "cd7359cc580279e2390fab2c9ec6d06d81371d4c33577a448138dcc565a6b970"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/ipad/native-3.png",
+      "sha256": "cca45172f63c040044dfd043129cc8e31739b1d8e33ade3d7673d339b3203136"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/ipad/native-4.png",
+      "sha256": "4592a022348ad4ef954724b0b578b24e3cba5c94dc30db31b22f1ee9773394a0"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/ipad/native-5.png",
+      "sha256": "23345de77e75466cc5f0c43c522bec45b71f915664ee5f9a1fcc0435f02670bf"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es/ipad/native-6.png",
+      "sha256": "6e3786c3eab13d6b36e54b945557c3388b862b92ec1887b4fe4beb21d8a04b48"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/ipad/native-1.png",
+      "sha256": "fbd97b911d4cf970f44999da2d4880d7d06958bdf877cbc40326c48423e5260a"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/ipad/native-2.png",
+      "sha256": "ce653d08bb05d221397082e1a1c3c9bff126b9ed7f7e6ec7a4deb543063f0528"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/ipad/native-3.png",
+      "sha256": "ca3b54770dffbd1d58bfa22b6d46d148acd55d04efd26eef8630b18aa126b4a2"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/ipad/native-4.png",
+      "sha256": "0f8301d9c4bb5967ae29322f9e4ddea8af0361af8a8f9fbf50e37a558d1617de"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/ipad/native-5.png",
+      "sha256": "3948fe4772027857f824ec8e7d045f167d5af1e4b75c50a3b871334a59f1d3aa"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-419/ipad/native-6.png",
+      "sha256": "51e8bc9c52c08e9445ee8f2996365fb37b82c8f00664db8fca9cca3b4e01ff07"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/ipad/native-1.png",
+      "sha256": "922e417b3ca7ea349625493bd638960f3a1c1abc24f20ecf49a5263f4a23d125"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/ipad/native-2.png",
+      "sha256": "f2a9a94ba2ed8c55bc0e788888dc6f1c22b966aa6ac043d3e0f893f1a670056e"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/ipad/native-3.png",
+      "sha256": "d36376d59647f1490fe639df44b3daba9667626f04153dcd35bda52cf64a68ea"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/ipad/native-4.png",
+      "sha256": "76a1eaa17325130b0a5cfc01a8269c88e60f24ac5331c7e0064857941ac32d8d"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/ipad/native-5.png",
+      "sha256": "ad967f62d1a53dda20b64b05007cc45f2ebcc7ae5812464fb7ee7254b2406c19"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/es-US/ipad/native-6.png",
+      "sha256": "7a6a9e6db01cf09545ee2a95a6e10b3a1d69633c2ae9cd125b8d97b7b1567884"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/ipad/native-1.png",
+      "sha256": "33d1daf53e376ef719bf03295b255ea32320e2b8a4e578cf18f724b69bb05165"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/ipad/native-2.png",
+      "sha256": "cccb5796c98c703bc3ddb65f0f653365ae822d3a27d0f936051a6a40cb66e9cf"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/ipad/native-3.png",
+      "sha256": "337213293f3e90a5fbe9b89fd2cd0fbccd3968a95c32830d50d4ff572b6a1d36"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/ipad/native-4.png",
+      "sha256": "325046ac2aaefb94248b81733e3fc4a62a52dfd51959c3db82a967f3ba2751f8"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/ipad/native-5.png",
+      "sha256": "5fbe4ae08703d2ed44f3a14c29357e81aabb8fc96dae347fb07aac7532d8f257"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fi/ipad/native-6.png",
+      "sha256": "ee32fa547db021ff02d73a698c6d70539d30e70bec40a8ee0ea6edc612ebdbc7"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/ipad/native-1.png",
+      "sha256": "5201c6933157a14e2b21b38071b1c996923d31b6a966e07c26d4d9a7859100ec"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/ipad/native-2.png",
+      "sha256": "3da04e747530e025f213dd9baa21f58942b6a25493e11eacdd8b40f1907b6e89"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/ipad/native-3.png",
+      "sha256": "4b4a90447a14a4d13d567589e607334077727b87a2301ef9aae0bac2332907f4"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/ipad/native-4.png",
+      "sha256": "e847283f8af31bec3db38d41003d5aa57ddb24b984e171d04e5dd0ee213b6c34"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/ipad/native-5.png",
+      "sha256": "3571d5682128c2939baa0570b907250314505b718cd377e5f13f30d83e866fd8"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr/ipad/native-6.png",
+      "sha256": "42962fc9cdebc860b7a4bca203d2e1957e4747b6630a7d75106160ff809d6e07"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/ipad/native-1.png",
+      "sha256": "405db037317f9372a7904b6ed4dbdfd448d0ca664eb676a724d92c1536977ca8"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/ipad/native-2.png",
+      "sha256": "86d7a81d48a89bc09432827cc87bff0d65ec10331b5e15d25c4fd03978b5b60c"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/ipad/native-3.png",
+      "sha256": "feb3f34a20f26d34f28c88b61363ddf2c124eb189f732f52a5995cb756bf6387"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/ipad/native-4.png",
+      "sha256": "4b9fa9f5dbff631ceab3b04074b30fa9bfaecfe7dab900187ab85ee10e740fcf"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/ipad/native-5.png",
+      "sha256": "d0014165ad8d46aa96c0cb7d02cc5469782ceb437e49516ce86338775c8a8cee"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/fr-CA/ipad/native-6.png",
+      "sha256": "8bf273f4de811d65f7e257d6e4d752a667ff2dce0faccb79a7fb8fd0ea29d37f"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/ipad/native-1.png",
+      "sha256": "c5213970c1cd75cb60af6fb4377af5afed9e0c87170818a07d057d6e64bb624e"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/ipad/native-2.png",
+      "sha256": "5bd515f2dd7fca54e76650fdb265fad8ab65ddb8e82c42e310aaef87dc215a0f"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/ipad/native-3.png",
+      "sha256": "f820c1c0358ef714a4085d013a3e2dc1438f92a12725a87c7a3d1c2c23766dcb"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/ipad/native-4.png",
+      "sha256": "913e3cc90b2d059233b12604fde22546a10807219d570517cc8a9c275cf3b883"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/ipad/native-5.png",
+      "sha256": "f05669137b5989d464895edc297e337fc42567fdb40177e5aa10b25f734e23c3"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/gu/ipad/native-6.png",
+      "sha256": "c57cd61cfd1ad2fb9e353f863145ba04d9a3be69daf53611c0afd1b7c6706061"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/ipad/native-1.png",
+      "sha256": "946726fed4b0672bc1d92fe13176562ed38531e09dee7c36286e854c69812bed"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/ipad/native-2.png",
+      "sha256": "9613ea53d5c947d775ba5c2a113be663d7308f21bcf24a2ff45098aea9fd5ef5"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/ipad/native-3.png",
+      "sha256": "ec7dd491283c49cf6703cbf7dc4cf8cdb8c87dded94b1aa11ad35d75f954b467"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/ipad/native-4.png",
+      "sha256": "b1ccc5e28bcaad2b73f68dbf40e90a4b8ef0af8ba4526e6b4012ce6985225f65"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/ipad/native-5.png",
+      "sha256": "d165325104318177959283314ab97571146df49879683f6f9b15b6db1613b355"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/he/ipad/native-6.png",
+      "sha256": "e80fbdcaba50c4788a6ddf4e69db8a92deac7c0cb01a9faddfde6456259bb970"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/ipad/native-1.png",
+      "sha256": "3ecbab1cac63af5e0ece50207d36e25632d9d1188bd9b2c1e7693490aa05d0f6"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/ipad/native-2.png",
+      "sha256": "e009e150cb6305f6b577b48a0eb82a6f8e49f0c366933fd7d78d526d214505b2"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/ipad/native-3.png",
+      "sha256": "74128988fea935f710712d0ee7f3e0d9487a72012488d2b97fe44a63bc39a9eb"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/ipad/native-4.png",
+      "sha256": "f4f6dbfd9d693c146b26cbc6ebe91f0aaf4c070a3475b5b3b7ef1b377918fa95"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/ipad/native-5.png",
+      "sha256": "c272707b2d18def5b9258a96ee279a2df0279dac86f104e40a7a656cc04d7eb6"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hi/ipad/native-6.png",
+      "sha256": "13435fa82a8959549b152688c1e7810a3c1d1bf7a2036226103f36807f98d011"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/ipad/native-1.png",
+      "sha256": "3e4ba39db2d62eb269e0f51a61b5319ad343d14d5427f388a32cc36a14c31551"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/ipad/native-2.png",
+      "sha256": "fe1d7500eb94270519c78e662fdd1c52ac993c27f0c1545cb0f0cb774cf234bb"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/ipad/native-3.png",
+      "sha256": "1073dd25fd238c33f28c882562ec60edb4b36945d0c6dfcda04dc0db97e14880"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/ipad/native-4.png",
+      "sha256": "826cafcfea17d835550911ce5895b36677c72a05e9a5ec7597789df72342e080"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/ipad/native-5.png",
+      "sha256": "7ef993687e231eaa2cc8d605fdccbe73126e26b16a79ed622476ebae28cb5d94"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hr/ipad/native-6.png",
+      "sha256": "013c271db4fd8420ab2f1e9cbfd83b3a1ebc0ebd6cb2d1475dcfcf6cd161a80a"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/ipad/native-1.png",
+      "sha256": "7541d84a2eebb16163d5864c4d9526550534b492f9149b3e5792a6b50227c547"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/ipad/native-2.png",
+      "sha256": "1d144c1a96f281c7671c6e0851467e486ba6743d851950537f5111887835eaa3"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/ipad/native-3.png",
+      "sha256": "0f519d285f06eabc505705a7bd148fd8ea9e4b1439bef48091925ccf634b318d"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/ipad/native-4.png",
+      "sha256": "8b43e9ddf73245e6d5e55d7a12bb4b8ae1d9e3d164d3d151685ee4d8d794ec71"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/ipad/native-5.png",
+      "sha256": "fb80863fc641e0202532543c5c2904d6089a32280b329eae51838b1a70bb157b"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/hu/ipad/native-6.png",
+      "sha256": "06aa2cb64180c9611ec286d6dbae86810bc2d01840dde6b49affe8ae18a4329e"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/ipad/native-1.png",
+      "sha256": "32d7e4bbff6564a3d2b4bd4bbb216f097561b84c2b42bc79ce37dd668d1dd91b"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/ipad/native-2.png",
+      "sha256": "6d9348dc6ceb68d2404b7c30af02dca1a7cdc8357f4b5af145b5f07d8a5e71a5"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/ipad/native-3.png",
+      "sha256": "d1cc659cbf160fc7181cf3bed229076fe9a2cf7e4049111cd227a1061aeabf1c"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/ipad/native-4.png",
+      "sha256": "9f7107b0ec8b471ee836386ba2b1d572830a686600177b18b25591622b876b69"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/ipad/native-5.png",
+      "sha256": "990ad59ca0473d226fc351303857a668356571872660a3e0e67bdc5eb30f8ec7"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/id/ipad/native-6.png",
+      "sha256": "67279cae347e113f602bedb7786b88255cf41264b5c5ea0ab21b90852f8d00bc"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/ipad/native-1.png",
+      "sha256": "b3f74464c28fd08d367b57f5b850fb9240675e5405f9cc74ed392f884f168121"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/ipad/native-2.png",
+      "sha256": "8bb8cc62403f823c45b8914942160c28337efc9d2c33ca24f495a553cfe1ca28"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/ipad/native-3.png",
+      "sha256": "b3a114c7077588158e8b24caddd4df0b56c62dece0f1d484ad73a34930e2c5a0"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/ipad/native-4.png",
+      "sha256": "825d6185c307b4afcd72e94d7723470379de98b869ab5cf4ec52097d8a88f568"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/ipad/native-5.png",
+      "sha256": "10130e66e16da0b496d7a4b16c3eed7d9cc82a34daf1769b974b902df78110dd"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/it/ipad/native-6.png",
+      "sha256": "e165db4b5199a0a49b0388665191fb0b276a0a5e676d5e620af68fa90cab5add"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/ipad/native-1.png",
+      "sha256": "f32d6b128dc076948b46802b58f7a62a15de530e616d44be434e03efb0ce210b"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/ipad/native-2.png",
+      "sha256": "aeec3466d6f8ab4373360d1071cb1a9331402e6e28a31fa283daa2e770ac547d"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/ipad/native-3.png",
+      "sha256": "3ad6376a0a13cea670014230b551d3ee4622ce444120701a588e9650e34a45b2"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/ipad/native-4.png",
+      "sha256": "cb7d7053fa851a49ab6eef16d6fcf3afc38d89dbb3a0935e34ecaa68dc78b1ec"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/ipad/native-5.png",
+      "sha256": "da15eb9e3a35fa5762800d96a4107e353b2914f5c31c8c629774b8fa07fa9cae"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ja/ipad/native-6.png",
+      "sha256": "33a6f4642ff35aa0befbcca5382f71bc3000b31b076808e469eff2c985b43aef"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/ipad/native-1.png",
+      "sha256": "ecacf8b11d9491636338fd488f20e8690121467db40cff9725820dccfaf7f80f"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/ipad/native-2.png",
+      "sha256": "28196d9f1c231819a53fe860ad7e045e2cd0af170aa0b118d55e295146c2f84c"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/ipad/native-3.png",
+      "sha256": "f5c7e95bce6aa7815b38cc0362f7fb3b130b49b06dfa25c38060e11ef3db735d"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/ipad/native-4.png",
+      "sha256": "2fd8aa41a93471cb238475e7c7f99a95cccafc6ecc423533c8541d71cf87e3b8"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/ipad/native-5.png",
+      "sha256": "f2daa5a391edbfbde67144310fe85eda87eec271b409d33fc4856812d96f5ce5"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kk/ipad/native-6.png",
+      "sha256": "e4c01e2d28571cdb0503c8ebc7b5f886289d0f8509fc2b938119e3d9a3940a3c"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/ipad/native-1.png",
+      "sha256": "7bebc9fbdfe79d020202f1312a32251a1b4e678b0097f6d4e357a0c692f03b83"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/ipad/native-2.png",
+      "sha256": "d1948d82f4123b729e4597d4e21bed82e480d36f1019ab7bf5c66d56c8f4a9d8"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/ipad/native-3.png",
+      "sha256": "c7ff692f26fbf660458b99ba0aae9ebe84c0844b1383c80c85e203d18c8ab17b"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/ipad/native-4.png",
+      "sha256": "20a00e828c9f3fea33f716bd8027887beadde9a83796eec42e99366181c7eb36"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/ipad/native-5.png",
+      "sha256": "4daffba69034ae30e4137dc3ac3edd4ca78e14e97b1257149cb6f2fc3cac7242"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/kn/ipad/native-6.png",
+      "sha256": "e1521c3123cb270c7d60d0ef06bb38b374c13d00b32f3e11caef6383721e752f"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/ipad/native-1.png",
+      "sha256": "7ee5b9a123b863ca814bd1e7f4213928c6054b1a25b7ecabf56a80914bc69ec0"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/ipad/native-2.png",
+      "sha256": "75c171b8bb98521d517e42ee3a0658b1fe204f82c7f7098a71329b4f166a044d"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/ipad/native-3.png",
+      "sha256": "688d762b3d68c962a4adff6eb80262672e0363461fdbd7136ce175a456ce1344"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/ipad/native-4.png",
+      "sha256": "165ee541ebfe4d8be5518c36f3ae1b0266ba47077a3f794342e829404500c47e"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/ipad/native-5.png",
+      "sha256": "467b4e7aef73a8ea8c09f7a13527d99039a7289752a6f4a145dec9e2df943aa1"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ko/ipad/native-6.png",
+      "sha256": "191b468d7532d119c9e8584ce19a91d498b0eb855ed0ebb9502b9ab0ae37326e"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/ipad/native-1.png",
+      "sha256": "37640e24838911442be15a7ad2fec8d2cea25a3bdcdd71afe34f1551748f5fb4"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/ipad/native-2.png",
+      "sha256": "9747f7ef25fd944c79b1f7fce267c21300a70faaaaa7faa564eeab4ec3011db4"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/ipad/native-3.png",
+      "sha256": "1d088c5d294c7470dd2b12b4acdd28e882d7d2c2029f4e85f4ec1088ab844f37"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/ipad/native-4.png",
+      "sha256": "8a212c9ec905851fb3908e8a1e350cfcbeea3ebb36175aa1d1fded8aee821bc2"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/ipad/native-5.png",
+      "sha256": "0b87b3748808876b9bcb9bec7fee65de9b81476b98f9a3bc7b229fe72903c5cb"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/lt/ipad/native-6.png",
+      "sha256": "e1c56d831ef41ad3a4651b79cb90034b714bbdb93a1732040992ea2fe3f93381"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/ipad/native-1.png",
+      "sha256": "7478183fb159170f06592c6e3f40b812be9d27a08a67fad056a8afa10fa8647d"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/ipad/native-2.png",
+      "sha256": "ae0d44b1e2c8148f0bf9e470f8c087c983f329793904e72f629078cbf64a392a"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/ipad/native-3.png",
+      "sha256": "546cbe380b2dff7f791236829df5709f261623d20c6bc6c5bba9a677273dd150"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/ipad/native-4.png",
+      "sha256": "7604c6941b0e6b5e625be52a2452ed670ba73cf6c20c522297601dbe3843d080"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/ipad/native-5.png",
+      "sha256": "6a76f0f866398efb0a9410d7dc6573fe24b3a690df6a5e8f269220c791673463"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ml/ipad/native-6.png",
+      "sha256": "293ac0fcc4b6063ec3491b8da9e0809cbcb990ea6f2392759f30eb3bff1a513d"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/ipad/native-1.png",
+      "sha256": "f6f49e719fa74c1298dc8f846d5e776c30a04e8002823fb7e2af93c6ff15eddf"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/ipad/native-2.png",
+      "sha256": "d08486108ac7ec335769131d9d5be4c2cf987d377888eca9ba5b5b141bc75ca3"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/ipad/native-3.png",
+      "sha256": "1c7db551bc5edde54870fb6659b10e6aa84926c79cc6f83621f1010fe52bdea9"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/ipad/native-4.png",
+      "sha256": "ee2954844bae55650eefb4bb76c845821c04c4ff45f7967f130f8b311611fc68"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/ipad/native-5.png",
+      "sha256": "23b36f1b3bb68a11082146aaf1854fcd26558a42106b880a4677fd33669aa0ef"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/mr/ipad/native-6.png",
+      "sha256": "e68e162e448e78b8915780ee83bd7b1053f1ac5ce11c6e2f8b9f64b7eaadd305"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/ipad/native-1.png",
+      "sha256": "7de1c8ec879db7d6e949ddda07f5398892a7aba221565812ef3eb7c003c347da"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/ipad/native-2.png",
+      "sha256": "719c2403b1f74fa227fc32620a2edd7885cfbf1a769ae2f7636ec0019552db06"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/ipad/native-3.png",
+      "sha256": "d5e5cd7bce2449fca57c8ec8a7330867238e9b4c2dcebb7eb75165694bb6a9dc"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/ipad/native-4.png",
+      "sha256": "0daa830303c84a0812da4136d590dd629b1082d54b1a209cac0ca030df3951f8"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/ipad/native-5.png",
+      "sha256": "6f020a9e8a7c2cf618e5c9fff9d0ac5f13efb43fb09d15af4cf05500c6a1a163"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ms/ipad/native-6.png",
+      "sha256": "ddff715f1fd753ec5fcb98c83f9ec40194939d0d951aa2b218d77bed03939fa3"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/ipad/native-1.png",
+      "sha256": "db81196c7124331f49ffc36035b7e2ae8f236f74cbc0d516b9d1afd971b67e30"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/ipad/native-2.png",
+      "sha256": "d9da789ca9a1d5e03d792880490280113697e2ef759670a672c3c47a2e693c04"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/ipad/native-3.png",
+      "sha256": "c6703951cc3ac16314f83777e63f7e3409cbeb6516d3f080730b6aadab28bdec"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/ipad/native-4.png",
+      "sha256": "72e4998925eac530b98e35d410f00ae48026d6b8972db3da9986d627d764ea20"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/ipad/native-5.png",
+      "sha256": "0c04d7353b028e1562fc33b10fc69cc7a62ff94b76898bcabcb722ea90e0b42e"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nb/ipad/native-6.png",
+      "sha256": "5ad83da83deaee612c06feb86f7be4cb10156f5135a3466e5191a06409759cc3"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/ipad/native-1.png",
+      "sha256": "2ccdc52b8e87797d118630693e453bd0d0b3d12e3dd43815248cdd47ba0e95aa"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/ipad/native-2.png",
+      "sha256": "5c26abe2c448a070418961e3c398ec2d3646c94810372cdc187469c249b60eb2"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/ipad/native-3.png",
+      "sha256": "d65caea1a8d2dae87a8cf9dfea41579a66568fedcd665af141539d6172fd5e5b"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/ipad/native-4.png",
+      "sha256": "72f709cc660546ed2600473b8e76a76f9b2db38b4dc6299e0e2a81158b53d891"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/ipad/native-5.png",
+      "sha256": "e5f54784d9090de8d91b6a39b81b8b56472b899e0533702c7dc8d66e8af26980"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/nl/ipad/native-6.png",
+      "sha256": "4cbfe08b84829c52cc21830dfd4c5c2188eccfbf1e46d820e21c790b704c9865"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/ipad/native-1.png",
+      "sha256": "d47d1887fd8c682b9d8b7db983f5af035fd50294b8c889bf4fada0ff35d6608d"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/ipad/native-2.png",
+      "sha256": "6e3d098a943c6a80a84da9c1c41d11abae8187e58ea1d63060e8ecd6414fe7dc"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/ipad/native-3.png",
+      "sha256": "908e1c69c0dc4fb183420ac1627d0274e781ea11beaa5027d1529ba408ac4fb2"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/ipad/native-4.png",
+      "sha256": "829a5820c76a944f92b6b9cd9dab520fa1727b1f8b2434d51030364641642f9a"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/ipad/native-5.png",
+      "sha256": "b0459afbd5c365ffbc853c5d32b33c126bf13db7209c03af64f506d3cebcc8c3"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/or/ipad/native-6.png",
+      "sha256": "6b8c86213c05650341c056c3e4d4364e99a950f664d5ada63d8d811fba3bcbfc"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/ipad/native-1.png",
+      "sha256": "5019f940f5bc7b4532696b84ec4a5845233b911ce6bd049557d72ad95c827356"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/ipad/native-2.png",
+      "sha256": "9e01d025678bc508885fddf101606839d7b0ff7e1210b18694e97e4aa457cab6"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/ipad/native-3.png",
+      "sha256": "dd29cb64cfb1590f23273e2174e43bc6b413ebac8a481dff9cf09b1aea431ea7"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/ipad/native-4.png",
+      "sha256": "09c8587becdc855d21bef17d31b49c6e50a2d1513406104c383c4145caa40cff"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/ipad/native-5.png",
+      "sha256": "57e37f3691ef77f46ddfec85ba2c6ec942b3a114df97243c306d6a3533231345"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pa/ipad/native-6.png",
+      "sha256": "c5b3a3e1e7fcfc4f7f7f2e5b99e8af8021fceb8a64ad0038e894ac8b82dd81be"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/ipad/native-1.png",
+      "sha256": "6500cb327b5854fa8e9094b6021549c0a0a8059d5d4c02af5acff67fbadbed14"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/ipad/native-2.png",
+      "sha256": "f7e538b5290a8385864e3fd8225bf00e9b537f6e07e097661c7c4127bcb8e9f9"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/ipad/native-3.png",
+      "sha256": "d57464c608b4e86e41b55f2e9dfcb14be62ccea54831132b9a782db1f6a33ad8"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/ipad/native-4.png",
+      "sha256": "6506baf8d9323d3a5fd453d7dd9239d5a6231f71e71aed249f9647d69794ed23"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/ipad/native-5.png",
+      "sha256": "058c47df039810caf608777378a0476ba4d01d7c6e786dd116817ba9fedeecd2"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pl/ipad/native-6.png",
+      "sha256": "84c9ef460c6a0974395c301917b9bcb0edbcb76975b942be412a90c1f0078a08"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/ipad/native-1.png",
+      "sha256": "9390d6e15a0e677ff6c015c061db5c4d2c375f3dd64e1f8f2a9fb126e53e68a1"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/ipad/native-2.png",
+      "sha256": "74e928ae5d5f99b013127bf00e41fb93b160345f8600a41c0a1cff325b5f2a59"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/ipad/native-3.png",
+      "sha256": "c55ab403a145fae08f22436cec969d0fa46895a9f8bc778271c641cd49f10ff7"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/ipad/native-4.png",
+      "sha256": "aaae79431b3cbc2afa4b960c0b50b664aafccf70753eaa30486f8a76cf5acf1b"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/ipad/native-5.png",
+      "sha256": "60734e94c8da7aa7675178663d614a068dd8f2db7da1dc1a002758f5322874e7"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-BR/ipad/native-6.png",
+      "sha256": "299cf1e1dc61245afdb3138b436794abb855bc037717199b448470d57e1cdc16"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/ipad/native-1.png",
+      "sha256": "06f4a28351e18cb12b50b43fc699a6f53ff210042c6875ea570360b802ffec62"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/ipad/native-2.png",
+      "sha256": "842a827349ecfad73b84e39337071e2c92154cccf866c86171d8cd4e4c095964"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/ipad/native-3.png",
+      "sha256": "d573d54b3f27e45ce91206c523b43f3a45863526fc9d81e8d9033bb30894a941"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/ipad/native-4.png",
+      "sha256": "4de3776fd07ba52251cd3c860f010b162a0b802e896a0bdd097b02a706372523"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/ipad/native-5.png",
+      "sha256": "fd7772b4319834616c8f70ff0e3e75190d6439def1ccbc7d24c1afe4a1c34a28"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/pt-PT/ipad/native-6.png",
+      "sha256": "f441c3cfe3171056d3e70c962de01c499f96b22ad48f9c936840f4e1ba0bf0e9"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/ipad/native-1.png",
+      "sha256": "5e5dac4200c90d02d7722f033f8be7bc5ee02130e28efe2b293805db548bb1c1"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/ipad/native-2.png",
+      "sha256": "de46595a5b217e27e57c7565a4045fbfeb318183642455a8fd62d752daf28b7d"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/ipad/native-3.png",
+      "sha256": "1a5429e741c6f8122e0e4bf5a9aac12f80b31ed39e805cf0d41a91c7ec0fc8a4"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/ipad/native-4.png",
+      "sha256": "80cd7deb2fdb2279349571657e136be4b42c39e20e133e27e7132d30f5f9b45f"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/ipad/native-5.png",
+      "sha256": "acc974755af508e71f8e131453893d13f2828238d8fd64578579c41df063d17b"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ro/ipad/native-6.png",
+      "sha256": "11940d5ad7f814b215d941c65d561e781507556528ebe787b0be20780f1c8bb1"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/ipad/native-1.png",
+      "sha256": "5bad2348d1a4c94c300a09ddc3e81f92d61730ada45546a78b79711f9e08f545"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/ipad/native-2.png",
+      "sha256": "9c57ad0115ed24de804661ea2863442c572e4d9eaac9ddf779eabf8a7eee2e19"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/ipad/native-3.png",
+      "sha256": "4de0416a5879eeb43f9efc52fb04ed4ef0db71b69155b5a3122ef4eddadd41ed"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/ipad/native-4.png",
+      "sha256": "6c49ecfe45c45426f0cf0b64a8962f452bc9f08a6304426cf68f2bac1cd431ce"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/ipad/native-5.png",
+      "sha256": "0c9c7a3055d10a2afe57dd538145f43aa9d276e0efc9a92f99decaeb621aa268"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ru/ipad/native-6.png",
+      "sha256": "3ff71d534d8bafbbecf57b15ef3cf7a137076545336ab54bb91109f8ee96d1e7"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/ipad/native-1.png",
+      "sha256": "bba41a55a4ec5fc20b1573fb21f18be4723701b58ff962ae4285d942dea7cb5d"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/ipad/native-2.png",
+      "sha256": "e04a4a16cb679673220a7c70e7231687d546bbad955d632bb884bb74cc53b4e7"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/ipad/native-3.png",
+      "sha256": "d5d629b7d25f82239a0cf6c2aa775dcc133f829f5f2fd2b6bdb3816fe60c544d"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/ipad/native-4.png",
+      "sha256": "2bd33ad89bb68640e4a6a398c004d417c9a9d5927db33058fae59ae4a483912a"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/ipad/native-5.png",
+      "sha256": "7be75e67a317bbe3b5b9a099c31e57cceb43e8e0a0c88f105121597e9f5f91f0"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sk/ipad/native-6.png",
+      "sha256": "b394126f837bf1fb513413f799912e518528f84fcd23015cdcc092dedfa62396"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/ipad/native-1.png",
+      "sha256": "d2e04fbc5cdfbfa6d5ccc4ef6eb2450f0870c6f988f5b3a7215679a1bc9b02fe"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/ipad/native-2.png",
+      "sha256": "7ecc800575ae378f53b8109942eb7041b4db3cc2fa6b5501f298357b6f9cf2b0"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/ipad/native-3.png",
+      "sha256": "4c6fc1d0ce8d3e799b36576624469ce77933d8810eafba79f86840a149fd4e9b"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/ipad/native-4.png",
+      "sha256": "959f70d52f9bd498935333aaff4f33e35542e0e75e4216a1210117116c2d6080"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/ipad/native-5.png",
+      "sha256": "a0258930a9ee35ee06730c4d35ea1acff71d8d632216aaf43be9c50b61fe90fd"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sl/ipad/native-6.png",
+      "sha256": "a9aac810d375a646a086d2aa8bee4ce2910b7270aa59e94279cab2ab74b5dbb3"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/ipad/native-1.png",
+      "sha256": "eaaa74619486a5c96da62fc75e47a7c26928f84a97f776aaf9e4c2b401e77634"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/ipad/native-2.png",
+      "sha256": "6d5d0a7c098e52bfbf845ce889fa5fee5f3c7980d0aa4a1a7c69b3c6a4151a77"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/ipad/native-3.png",
+      "sha256": "2e111527fa5caa474591c33cbb21222641b0c50916675adc00f3f272559d5b8e"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/ipad/native-4.png",
+      "sha256": "43a179aa3345a594285c961958b064e3ea11601d8f0814fc74fc25e9bfe29f86"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/ipad/native-5.png",
+      "sha256": "a814cb4fe4d5e1d2562a111a6e16933d1c6d1449da5a0b1fd8ea8e139b4d6472"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/sv/ipad/native-6.png",
+      "sha256": "2e25bd6d089e968ebac44da01d1e3b3a572e44eef4922cca20646d013723de9b"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/ipad/native-1.png",
+      "sha256": "1345a93b0f40515e2945f86f81ad118f0d6a799f18b9981c3e64cc96c7a947d6"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/ipad/native-2.png",
+      "sha256": "8c158f7a7b328c9cccf47a87d006a42b6dd0f16d105f60a5c7301e8eb73a8e86"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/ipad/native-3.png",
+      "sha256": "6f2bc991c79dfc707ca193232504a29520f2987ef0acec907330cb6522839313"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/ipad/native-4.png",
+      "sha256": "87ef1fc4dc2aaa0cc60ae2ffef60a5567e6abaaeb352faa3645ec3acdbc4dad8"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/ipad/native-5.png",
+      "sha256": "9ed6ad427b613a514537ae40b1d99d2a24cf3f21bce25e115f87f4893295800c"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ta/ipad/native-6.png",
+      "sha256": "a1e3bff9d906759fe7999a6dc654711cc93db97c594e9d2ea511ba1310766f0d"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/ipad/native-1.png",
+      "sha256": "619c792d7ce19b8c03568e87abe91f6d5213fe7460136b9e3052bf1835e7fb1e"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/ipad/native-2.png",
+      "sha256": "968c5ee1878384bcc634ab68ceebe93301a30c476f188816279bf70a10ab2bb6"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/ipad/native-3.png",
+      "sha256": "93de27dea0fb0014bdc052812106f3d0052a4f16db6ce44643ba50255e49c6a9"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/ipad/native-4.png",
+      "sha256": "730eaff55536bd769c2d917bded3ae159a1e2bc3ec60987fccbb0577da26b30b"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/ipad/native-5.png",
+      "sha256": "4405dff9559982c0e34942d6770788fe4e5d45675e442c12bada9b0f797dc3e7"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/te/ipad/native-6.png",
+      "sha256": "7905a290c3f25014e5281448d3d50dbf4a3f8da6c05ffdf7a0223cf9bdd35b93"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/ipad/native-1.png",
+      "sha256": "91f23486bd14ae56b73e0ba28d4d7bc51a62969cab5c452392840be1cd619081"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/ipad/native-2.png",
+      "sha256": "6d08e2df7a6d2eabab96c2a5e6cec27b0493c55bfddf1fa6b0db003f57168711"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/ipad/native-3.png",
+      "sha256": "53ae1669fbb3bb63d4f241253216c8dcad7ab8cafa4cd93a1e9f7cc1594ad99e"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/ipad/native-4.png",
+      "sha256": "90839278e5afc167f3a8c864e3506f1aa85c03af90f82b65aaf5a46f6cd893c8"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/ipad/native-5.png",
+      "sha256": "8f105600c0a923fbbbd0c50f55b254c39d1ceee727da42bd2aa2f7147b41b587"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/th/ipad/native-6.png",
+      "sha256": "c37157c2679ead80efcffe5aff89176d3ae3a1936dfbed01a6ed5f196098c688"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/ipad/native-1.png",
+      "sha256": "d7d4cf3455a7303fde8b4ac59d2aee01b1ecb212b3b38579c320ff23468e3a1d"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/ipad/native-2.png",
+      "sha256": "0dd5687520bce19e68b5b87204a713a6ccf0e317a4c6ccd4347a33b6e99147a8"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/ipad/native-3.png",
+      "sha256": "bb612fe4e964972465ffb3918f335594cd2794ca5925bab3b19d3793f22d3c91"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/ipad/native-4.png",
+      "sha256": "d4c7a568175b2287801566c5b971e3003eee1615500b4aa36b010cd2580f2b77"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/ipad/native-5.png",
+      "sha256": "6196d126698d67b331470d78ae184de4324af10e47ad2eb68b0ce8453b881bd3"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/tr/ipad/native-6.png",
+      "sha256": "296d313fc043d553fddf58e8f250c46cc210230362e18af854f4d89115832ffc"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/ipad/native-1.png",
+      "sha256": "c3c5ec04ffbedf70b7a0bd850cf6c0e750402d10fb2c3836bc260661a9d76864"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/ipad/native-2.png",
+      "sha256": "2cc729d3b1214dbd73fb5bebe50f8988d5a4ce0ed58c59852209aae31a1c8a4d"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/ipad/native-3.png",
+      "sha256": "e94c2902e43fcab7612deb9cd701f05103c84e23c164e270f9ab701fd5e8361c"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/ipad/native-4.png",
+      "sha256": "724e6fd9cca3059924b091cd16c88e419b45b04672e30542c6b44dabe23cda3d"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/ipad/native-5.png",
+      "sha256": "06f94cdda4bcce839dbc4f82580cc84606870afacb7730ec25fbfd12032c38c4"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/uk/ipad/native-6.png",
+      "sha256": "59f3e4fd2a6bb85a697b68483ccf99f5e938393cfc81abccca4fbc581dceeba2"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/ipad/native-1.png",
+      "sha256": "cbb596818e66b9e211f3e600cfb768f3e06dd64ce2ce095baef812aa6a84c19a"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/ipad/native-2.png",
+      "sha256": "8604e05469e6e498efa9049831db52965e9c63a79a4cd44280e11b314653b5d2"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/ipad/native-3.png",
+      "sha256": "0da5b316d37034a549fda24d34f80ab9833738c65f7dfbaf056ff3358adf98ea"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/ipad/native-4.png",
+      "sha256": "2ad6c62c927bb37509d94319dad1afad036e2e94db590ee64b9f87857002f6bb"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/ipad/native-5.png",
+      "sha256": "a3354b0a3fcab6b7ae193664ed6e0c95e0a29dc31e16e2dae5f1d8525ad25434"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/ur/ipad/native-6.png",
+      "sha256": "f103a015f21ee7c80e086f089d98bebe97df9b3bb73a7b5e1732236b96227e35"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/ipad/native-1.png",
+      "sha256": "ff25a5bce057c0a35192f0e11bc5462f8782af2999341340c21162e135517c61"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/ipad/native-2.png",
+      "sha256": "dbfbd305b3321c4ca3612ccc1ebb6a6033e2e5adc174f8f071037cca420010b5"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/ipad/native-3.png",
+      "sha256": "89627ce3b9c84d2b51184a24078f6024fc6637bb122b03414aad18ce3de04541"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/ipad/native-4.png",
+      "sha256": "f30cf0e485c4dc7969bb4a30c11d591cdec3c12f46fb3dec75490a37023ec6c0"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/ipad/native-5.png",
+      "sha256": "5e1344d1dad27d94fd608b53cf68c0486a838b48338abe5fdf4f518dd8ff4548"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/vi/ipad/native-6.png",
+      "sha256": "cf588d1579543aa229da3a07788beb17b80d092717b693f5fde45cf1bc926e2f"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/ipad/native-1.png",
+      "sha256": "0386f4be059a7e2b683a17ddbc1be16a18e2430fead36c3cabaa3557f33fa0e9"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/ipad/native-2.png",
+      "sha256": "43eec3fb523d280bc87e3c7feff803ef905bda15a5e92e4fc3e3a67ad0758f29"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/ipad/native-3.png",
+      "sha256": "0226ac073d32cded804d1c69f680b13dd5bcd3782b191295c9cd5144252f4da5"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/ipad/native-4.png",
+      "sha256": "88979695c6bc8627ec91b7fb095e9a07c1d10aa533aeb2f67a05163f06ec92fd"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/ipad/native-5.png",
+      "sha256": "995e6600eebb58778a7029e1f6b09b5bdcd536f3545245f53d294e2beda73696"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-HK/ipad/native-6.png",
+      "sha256": "995989902916a30fad5e743a4447f412a2692e92ede407f039f64dcb342c6a23"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/ipad/native-1.png",
+      "sha256": "7a8888695b22fe4045adc1eaedef4659eebf693ca00cbd2702ed83dc80f84ca0"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/ipad/native-2.png",
+      "sha256": "7242c707fbe674b806e5242e6a1789d28c5acfa6dfc9beed690eb906480ee948"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/ipad/native-3.png",
+      "sha256": "2e4bd67b06b7ef88b6e50ef1dd2c4106b972f652a854cff86fc5c10f662a324e"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/ipad/native-4.png",
+      "sha256": "a4104e0dfa2c03f5cc8bcdb6da666955b715819dd42ade1890fd7a4bf7c67e84"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/ipad/native-5.png",
+      "sha256": "4e35bf8175a262d70d62bee5a0280fa28c04ed631687e2f71219656489e5e784"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hans/ipad/native-6.png",
+      "sha256": "f89754257dc8b54c1407327d9fbb2e388b9546d531ec00f7186924ea9d08435a"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/ipad/native-1.png",
+      "sha256": "4256c097c2c6c303504ec595d22063ec98f55a9a7d273767a902a76021d832b7"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/ipad/native-2.png",
+      "sha256": "b7830d261b9b84f741f4a8e02bde5c213737c8821f4a0111a1d427931b959e5c"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/ipad/native-3.png",
+      "sha256": "950580dc2133707af4f7258f538de82b30e652f1cfc3ba1db5da2b8972307c9e"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/ipad/native-4.png",
+      "sha256": "dcb8b729febf5d4085445b6a59bff9c1b1ef35c43c3622149dab94171d2b2bfb"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/ipad/native-5.png",
+      "sha256": "5bc2eb3e46411cb71b2c7adc22cb9c1e6c79b0cf936ee1789c709bf2e9f0bce6"
+    },
+    {
+      "locale": "zh-Hant",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/sundust/zh-Hant/ipad/native-6.png",
+      "sha256": "60a75c615b14308167a075b8398f60a4bcf172088de82b7cb79d71a91d196170"
+    }
+  ]
+}

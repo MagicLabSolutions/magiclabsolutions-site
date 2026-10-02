@@ -1,0 +1,37 @@
+{
+  "soooon": {
+    "comparison_revision": "15f3d067cf4d1d2329a8e928d263a34666667543",
+    "isolated_fixture": "/private/tmp/magiclab-localization-captures/Soooon",
+    "changed_files": [
+      "app/Soooon/App/NativeMarketingMacExport.swift",
+      "app/Soooon/App/SoooonApp.swift",
+      "app/Soooon/App/AppContainer.swift",
+      "app/Soooon/App/LaunchRoot.swift",
+      "app/Soooon/Resources/MarketingFixtureTitles.json",
+      "app/Soooon.xcodeproj/project.pbxproj",
+      "SoooonKit/Package.swift",
+      "SoooonKit/Sources/Presentation/Mocks/SampleCountdowns.swift"
+    ],
+    "production_repository_modified": false
+  },
+  "zuzu": {
+    "comparison_revision": "d51c7ab4f31a032fde23f11d1a6c59141cc29030",
+    "isolated_fixture": "/private/tmp/magiclab-capture-studio/zuzu",
+    "changed_files": [
+      "ZuzuUITests/ZuzuScreenshotCapture.swift",
+      "Zuzu/SceneDelegate.swift",
+      "Zuzu/Modules/Main/MainViewController.swift",
+      "Zuzu/Modules/Main/MainViewModel.swift"
+    ],
+    "production_repository_modified": false
+  },
+  "zuzu-android": {
+    "comparison_revision": "23531c4ca7d1322d6ff5c990c7f2e5092d3665fa",
+    "isolated_fixture": "/private/tmp/magiclab-zuzu-android-capture",
+    "changed_files": [
+      "app/build.gradle.kts",
+      "app/src/androidTest/java/com/magiclabsolutions/zuzu/layout/LayoutAudit.kt"
+    ],
+    "production_repository_modified": false
+  }
+}

@@ -7,6 +7,7 @@ import path from 'node:path';
 import {createRequire} from 'node:module';
 const require=createRequire(path.join(process.env.MAGICLAB_NODE_MODULES||'/Users/fabio.hoffmann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules','package.json'));
 const {createCanvas,loadImage}=require('@napi-rs/canvas');
+const sharp=require('sharp');
 const cache=new Map();
 export function clearRenderCache(){cache.clear()}
 export const root=path.resolve('.');
@@ -64,6 +65,6 @@ export async function render(p,index,format,size,output){
  for(const record of crops){if(social){if(index%2!==1||(record.rect[2]-record.rect[0])/(record.rect[3]-record.rect[1])<2)continue;await cutout(c,record,W,H,true);break}else if(!share)await cutout(c,record,W,H)}
  if(social){c.fillStyle=p.palette[0];c.fillRect(0,H*.93,W,H*.07);text(c,p.cta,{x:margin,y:H*.946,width:W*.68,size:W*.031,minSize:W*.025,weight:650,color:p.palette[1],locale,maxLines:1});c.font=`${W*.024}px "Avenir Next"`;c.textAlign='right';c.fillText('magiclabsolutions.com',W*.93,H*.965)}
  if(share){c.font='20px "Avenir Next"';c.direction='ltr';c.textAlign='left';c.fillStyle=ink;c.fillText('magiclabsolutions.com',margin,H*.93)}
- await fs.mkdir(path.dirname(output),{recursive:true});await fs.writeFile(output,c.canvas.toBuffer('image/png'));
+ await fs.mkdir(path.dirname(output),{recursive:true});const png=c.canvas.toBuffer('image/png');await fs.writeFile(output,format==='store'?await sharp(png).flatten({background:'#ffffff'}).removeAlpha().png().toBuffer():png);
  return {locale,format,index,dimensions:size,headline:heading,description,device_top:top,source:p.screens[index],background:share?null:background};
 }

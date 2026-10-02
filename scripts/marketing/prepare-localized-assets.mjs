@@ -18,6 +18,7 @@ const shared=JSON.parse(await fs.readFile('_data/share_images.json'));
 const localized={},coverage=[],metrics=[];
 const wanted=process.argv.slice(2);
 const localeFilter=(process.env.MAGICLAB_LOCALES||'').split(',').filter(Boolean);
+const reportSuffix=(wanted.length?'-'+wanted.join('-'):'')+(process.env.MAGICLAB_RENDER_REPORT_SUFFIX?'-'+process.env.MAGICLAB_RENDER_REPORT_SUFFIX:'');
 async function exists(file){try{await fs.access(path.join(root,file));return true}catch{return false}}
 function localPath(slug,locale,platform,i){return `/${out}/native/${slug}/${locale}/${platform}/native-${i+1}.png`}
 async function captureSources(p,locale,platform){
@@ -81,13 +82,14 @@ for(const original of campaign.products){
     if(await exists(measureFile))cfg[side].cutouts=JSON.parse(await fs.readFile(measureFile));
    }
    cardRecords[platform]=cfg[platform==='ipad'?'ipad':platform==='android'?'android':'primary']?.cutouts||[];
-   const size=platform==='ipad'?[2064,2752]:platform==='android'?[1280,2856]:platform==='mac'||platform==='browser'?[2880,1800]:[1320,2868];
+   const size=platform==='ipad'?[2064,2752]:platform==='android'?[1440,2560]:platform==='mac'||platform==='browser'?[2880,1800]:[1320,2868];
    const dir=`${out}/exports/${locale}/${slug}`;
    if(!['tumtum','soooon'].includes(slug)){
     for(let i=0;i<variant.panels.length;i++){
      const name=(platform===primary?'store':platform+'-store')+'-'+(i+1),file=`${dir}/${name}.png`;
      const approved=slug==='giftly'?`${base}/giftly-localized/exports/${locale}/${platform==='ipad'?'ipad-':''}store-${i+1}.png`:locale==='en-US'?`${base}/exports/en-US/${slug}/${name}.png`:null;
      if(approved&&await exists(approved)){await fs.mkdir(path.dirname(file),{recursive:true});await fs.copyFile(approved,file);metrics.push({locale,slug,platform,index:i,format:'store',method:'reuse approved original',source:approved});}else metrics.push(await exportArt(variant,i,'store',size,file));
+     if(platform==='android'){const rgb=await sharp(file).flatten({background:'#ffffff'}).removeAlpha().png().toBuffer();await fs.writeFile(file,rgb);}
      await publicArt(file,`images/campaign-localized/${slug}/${locale}/${name}.webp`);
     }
     entry.formats[platform+'-store']=variant.panels.length;
@@ -139,7 +141,7 @@ await fs.writeFile('_data/localized_image_coverage.json',JSON.stringify([...merg
 const currentShared=JSON.parse(await fs.readFile('_data/share_images.json'));
 for(const e of coverage){if(!e.formats.share)continue;currentShared.products[e.slug][e.locale]=shared.products[e.slug][e.locale];if(e.locale==='en-US')currentShared.products[e.slug].en=shared.products[e.slug].en;}
 await fs.writeFile('_data/share_images.json',JSON.stringify(currentShared,null,2)+'\n');
-await fs.writeFile(out+'/render-coverage'+(wanted.length?'-'+wanted.join('-'):'')+'.json',JSON.stringify(coverage,null,2)+'\n');
-await fs.writeFile(out+'/render-metrics'+(wanted.length?'-'+wanted.join('-'):'')+'.json',JSON.stringify(metrics,null,2)+'\n');
+await fs.writeFile(out+'/render-coverage'+reportSuffix+'.json',JSON.stringify(coverage,null,2)+'\n');
+await fs.writeFile(out+'/render-metrics'+reportSuffix+'.json',JSON.stringify(metrics,null,2)+'\n');
 
 }finally{await fs.unlink(lock)}

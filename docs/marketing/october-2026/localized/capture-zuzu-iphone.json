@@ -2,6 +2,7 @@
   "bundle": "com.magiclabsolutions.zuzu",
   "binary_sha256": "0e6ea65df09c845c527ff781206cffd8fbd680a713c630efd37a4335ed87e9ae",
   "simulator": "09BCA0AA-CA30-4EE1-B4BF-BC2A7BD8350D",
+  "capture_timezone": "Etc/GMT-5 (app process only)",
   "method": "Existing isolated offline capture binary, real native views, per-locale launch arguments",
   "records": [
     {
@@ -9,7 +10,7 @@
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ar/iphone/native-1.png",
-      "sha256": "1c548a5810c8cc3a1c1a9d4ca24caca93e6ec2effeaa96f5a8d0cf04141c9130"
+      "sha256": "58c97224c048b4b0140f397ca2fba90c1b95002ed5aa73fe02c2641e902b89ad"
     },
     {
       "locale": "ar",
@@ -44,14 +45,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ar/iphone/native-6.png",
-      "sha256": "3c1ea5761747ff17f5c1eed1fe7a026c0c84bd481c39204447ebe25a2fa1a713"
+      "sha256": "3ec7f045e3ad5a5f54ab02ca7210a2518eca38edf24c80f00e438bb0291cbf74"
     },
     {
       "locale": "bg",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/bg/iphone/native-1.png",
-      "sha256": "d24da9f7633bdfd1d0e821ddc680d453b98f81c429b9f3b1e7b7852604076ca8"
+      "sha256": "58887944b14733871a85c4abcd8bd3e80ac07d9bd12fd5e548d11b569fb026a2"
     },
     {
       "locale": "bg",
@@ -86,14 +87,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/bg/iphone/native-6.png",
-      "sha256": "023c88dbe1545da2048ccbb66bc527a44082f4c046d8234b1f4917b5940b31e9"
+      "sha256": "f029a143ad80e8fcf6093839b1acb2d2a8c1a1d31dfe81746c6edd73791a1b80"
     },
     {
       "locale": "bn",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/bn/iphone/native-1.png",
-      "sha256": "7e82677b235ab489d18b6047781afba0c4a46b5ab96e4a289d1fcdaa97fcb7e5"
+      "sha256": "69cea47d6e9212e7f1ea8d75080017c92bc06133fb36fc1d899eede749b93602"
     },
     {
       "locale": "bn",
@@ -128,14 +129,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/bn/iphone/native-6.png",
-      "sha256": "5b6a405dc1815d13a1af53eda66fbf01d54137b8a3d9d7d0bf3c6ccf49aa4960"
+      "sha256": "6d2f3e80ff2d06607f5d519a0d5df24d5e966cd55080692e2accb91fbc7f335f"
     },
     {
       "locale": "ca",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ca/iphone/native-1.png",
-      "sha256": "40be46182a7b274ef1ec00c8be1fb5b1234cdbf7ba54d6f3b290486915396dc8"
+      "sha256": "2e04d4319a3740e5e5324f6d60395555b8c76c318afbb7e2f74e45e7190816c2"
     },
     {
       "locale": "ca",
@@ -170,14 +171,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ca/iphone/native-6.png",
-      "sha256": "99c75ff0c3a8e4cce16cf0c50e84f427c318f8237c267b8ceec640ad21aa5dca"
+      "sha256": "c974290933ded1a2f7c6161e105f97a592e84d343bce164312826e115bcd0706"
     },
     {
       "locale": "cs",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/cs/iphone/native-1.png",
-      "sha256": "090b028edddcc4af8dd0bbead53e81161783125bde817b5e8ec5e8931562861a"
+      "sha256": "7309130a2a57fa79744a016c3f6327f86e19588b600dbb8963925acacbc77898"
     },
     {
       "locale": "cs",
@@ -212,14 +213,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/cs/iphone/native-6.png",
-      "sha256": "79217375dee7261a487b89151df1261abb19c0ea434e81af400b9583a4d7d5d8"
+      "sha256": "0eb5bb89bd3265619859ce1379448b28e53da549c9ea6dd760a7b33d68f213c8"
     },
     {
       "locale": "da",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/da/iphone/native-1.png",
-      "sha256": "23d3758cc1cc392bad60a1f6a4f01dc4d290a88045e035af1173054790e061c9"
+      "sha256": "726b1a65e8b17ad6f49cff548c2eef235724b5b0fc2c80f337954e5b08b3e311"
     },
     {
       "locale": "da",
@@ -254,14 +255,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/da/iphone/native-6.png",
-      "sha256": "1f83b7b1fe911fba6d6a22ad962137f9af52b5ecf26824f6e58b018c6b8048c0"
+      "sha256": "df00bd58435d58e05a13724019392cb5806ea3e36483debafe80ea7ce3d13bed"
     },
     {
       "locale": "de",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/de/iphone/native-1.png",
-      "sha256": "ccb19fa418523edc6c233100890f7af854db33a44567960c0d27a66b20c51bc2"
+      "sha256": "3c5f36bf42eea3ca55fd62670418e695f3cdbbf51ac2eabe1e82ec5c9cc97803"
     },
     {
       "locale": "de",
@@ -296,14 +297,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/de/iphone/native-6.png",
-      "sha256": "fd0d5e28e65116211a76e897d9c3d3a682f560837f7de82227d9b8de0b0075ee"
+      "sha256": "1fb2bd4514cf2e0b270becfd69b9b55f73587b008b2c46e234631766d511140f"
     },
     {
       "locale": "el",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/el/iphone/native-1.png",
-      "sha256": "ec0bf64e8845f3535b549bbd0407be25163e1c53b501f7eac51a72ac6892bef2"
+      "sha256": "5e0bb16e516caff1299e86f6555990496d2e746c7e72b3772a7392972fc430a8"
     },
     {
       "locale": "el",
@@ -338,14 +339,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/el/iphone/native-6.png",
-      "sha256": "b74fa15047325e939b7a01da8e37728e6375f1f0d15eab7f80b3dad0a757fcc7"
+      "sha256": "31f9ccae56eef5f8ff524641a535d9b98e69cc5d41201d405514635fbf81398c"
     },
     {
       "locale": "en-AU",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/iphone/native-1.png",
-      "sha256": "08d4168e7b40cb7230c948b75c3f4e7e16afcffb6726ea436f70f0dccc4fb82c"
+      "sha256": "86baf1ee2ecc6b8484c40fe5139485503bc27e51bcb5b130cc07c140ffe89d74"
     },
     {
       "locale": "en-AU",
@@ -380,14 +381,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/iphone/native-6.png",
-      "sha256": "5d7061cb1df1d3c5cf05649c397535e15adc91a410cb22350779054803c446bb"
+      "sha256": "dc215b4d3e876400d791cd5ec7504a0886d9a5d68cd98b72e56a86c71905cc40"
     },
     {
       "locale": "en-GB",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/iphone/native-1.png",
-      "sha256": "ffac51f8c2c278f06066588fdd7486ce084686d41345bdfcb58a4f60ad036485"
+      "sha256": "d47622bdd1d6c049455df64402e370499737645c167c6e53a7902e6044d38cbe"
     },
     {
       "locale": "en-GB",
@@ -422,14 +423,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/iphone/native-6.png",
-      "sha256": "0772bc05ada52e22411f055cc2512513aea54ef04d67ef47883e4464ce2d8d66"
+      "sha256": "175190adbd1b3303dd3f585a285e8f9748991f4053217ce4d7cbd73c555ba3cf"
     },
     {
       "locale": "en-IN",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/iphone/native-1.png",
-      "sha256": "32a23a87671b449b20e95ed5933c29af24aafd198aa85f55670085912d5253ae"
+      "sha256": "ec894b3f9651aed5754da6861e361f264a9ebdf07858e76296bf7800ac4d735f"
     },
     {
       "locale": "en-IN",
@@ -464,14 +465,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/iphone/native-6.png",
-      "sha256": "49d72cffac60df58de12a1e9d8db9c3506160bc2b20115984e0b9c9764ee432e"
+      "sha256": "c3e06826b67ccb8daaf0453ff77986d3e94da29fef3ae89cdc5960d8cf66eb48"
     },
     {
       "locale": "en-US",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/iphone/native-1.png",
-      "sha256": "f0d850e9b320445ba9d76f13be32aa7285279661da3d583eb51df19e3afcbea9"
+      "sha256": "1d01d06d097e35b9ee45f13bcdd493f7f7458170838462fda745d09ae628adc2"
     },
     {
       "locale": "en-US",
@@ -506,14 +507,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/iphone/native-6.png",
-      "sha256": "baf9a64b99490180f88e3a3e59de430213a095f3d10266a921eb8b6369ccac1d"
+      "sha256": "bb6267242c912b17f4370f5d2cc2f45211f6274ca6b13461a49fbbaac69d3842"
     },
     {
       "locale": "es",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/es/iphone/native-1.png",
-      "sha256": "d98269d1aeafc095eae513804543f82470850fc7088d47f35a62c83b1152cbab"
+      "sha256": "42e0274905eebf10258c40ed80b6ee19236eef491b8aaff5d12751380103f27d"
     },
     {
       "locale": "es",
@@ -548,14 +549,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/es/iphone/native-6.png",
-      "sha256": "47e73fdbed1060f4bc4c8161c11b576409aa1f84980ce5c993b10999eeb82264"
+      "sha256": "0385a81f8cd149511e362392c7b5de0a25d64c713c721f68ea2baa72d6b0281e"
     },
     {
       "locale": "es-419",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/iphone/native-1.png",
-      "sha256": "87789050a8b56d1443af0ebe9b335bfc07861ae3fa6a885e492610f8a9ac18e1"
+      "sha256": "dba83ca7840358d0dd4607d677e362b676cc4eb61b5a6308add3f524495d970b"
     },
     {
       "locale": "es-419",
@@ -590,14 +591,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/iphone/native-6.png",
-      "sha256": "5cf53e214eab9260567c24fbdd2beaf8e7718a77c8a381df065f05554195efe8"
+      "sha256": "a1b55f8ef92935c7a0772e3423ed84bc19cd300cf08b3122584c4b3e84faed20"
     },
     {
       "locale": "es-US",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/iphone/native-1.png",
-      "sha256": "0fe154c4ba0a5afb0c6de8565e28d1e26c78a5b1eb64b6485143778542d9278a"
+      "sha256": "4995c264a273ec4941cd6b286dca8ba8356745623de5d7acf6436d9886a1435f"
     },
     {
       "locale": "es-US",
@@ -632,14 +633,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/iphone/native-6.png",
-      "sha256": "880a4f91071d80453558bfd4d747304978baadd2154c2f8153a02fe215c85a7a"
+      "sha256": "e1aaab0b6fe713c1b6e40e2a0e240616ddb807f74acba66543c01ac67806888c"
     },
     {
       "locale": "fi",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/fi/iphone/native-1.png",
-      "sha256": "2fb41f08010fe80cc4b3a831590243d5a487baad224d7b258e32ead13ec4507c"
+      "sha256": "462316752cab82871d6c3e24937408a2c0920a5ffea30464226240496badfdde"
     },
     {
       "locale": "fi",
@@ -674,14 +675,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/fi/iphone/native-6.png",
-      "sha256": "9780b9c85bd8b2a451b0e568494b58061fb131d2f098d09318258356e160e141"
+      "sha256": "686b2bc9abb64ae5f7d215fe21506c63c92b193e4842ddf567e4253064d3e9d4"
     },
     {
       "locale": "fr",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/fr/iphone/native-1.png",
-      "sha256": "7fd176d0cd1cfd6da0457f86b18822665974ca176fc4676d6bca248f73d62aa2"
+      "sha256": "6aa7482a51b3d32d805f204d2986e2894a9824b68760688669dc21f6e312f954"
     },
     {
       "locale": "fr",
@@ -716,14 +717,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/fr/iphone/native-6.png",
-      "sha256": "01609153d90be1f06704eb8a26b373d963f2efcdc33eea22650f059cf64ea787"
+      "sha256": "77e2eef4969f4c46a7cc93df3b5f88442aecdcfa71f0f59d990194b9addca69f"
     },
     {
       "locale": "fr-CA",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/iphone/native-1.png",
-      "sha256": "8593b0b5e95ec65f1d204f9a2a5b2e969cfbb2add282c64cff1e29ed72aa53c2"
+      "sha256": "1b3249cbf54b613acf2ce3a4078716e827394242af00e2f0182195d35892928e"
     },
     {
       "locale": "fr-CA",
@@ -758,14 +759,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/iphone/native-6.png",
-      "sha256": "6542a475570c84b929a0788c108509961d6d97dc0a8fe54d1e0390a88e6da467"
+      "sha256": "86d8c671fd83a9b120d156b65bb99c1fcdfe77852ea1b8e159abcbc15029e7ea"
     },
     {
       "locale": "gu",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/gu/iphone/native-1.png",
-      "sha256": "cc68ce418544451526f8153565669f8c792261a320ddd4cb8a518ca78a68a11b"
+      "sha256": "4b558f450bac2a27e4adfecb4e5b1ccead3823765f887dccfb30511811555cd3"
     },
     {
       "locale": "gu",
@@ -800,14 +801,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/gu/iphone/native-6.png",
-      "sha256": "34fd6460c73ddf823bfeeacd53f102f5af14d9116c25c0cca883a694b8fdfaf7"
+      "sha256": "779c30ee0b0e2ebe167bf6697679e9fa0646b9452ecd6bea34aeeb7daaeff0db"
     },
     {
       "locale": "he",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/he/iphone/native-1.png",
-      "sha256": "f1b7d255dc4d7f1da06812ed7f60e18a1449e3c60c5278cbc586d5f042413ac6"
+      "sha256": "82c59626c95fec8a602664d2659c8672aac899d52e5f55c2a78f389ba20880d3"
     },
     {
       "locale": "he",
@@ -842,14 +843,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/he/iphone/native-6.png",
-      "sha256": "cd951aa7a20efbbe338ca4df5f8b533a1150fee23e77bd5040b3381bd601927f"
+      "sha256": "404e382bcd6c9d74f3201d2e7a7b39dcc24321e8b91863b16de09500a15587a9"
     },
     {
       "locale": "hi",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/hi/iphone/native-1.png",
-      "sha256": "eda16a9148340ccc70e1b741a03c0eef9fdc43a63f72e2fd49419f10ba487a34"
+      "sha256": "de2574bc4b6ea0cd412ca0f4c11c6d6fba402b8a4bc0c473fe2e9280aed04d6e"
     },
     {
       "locale": "hi",
@@ -884,14 +885,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/hi/iphone/native-6.png",
-      "sha256": "9a34f37f2b60a009a4021783004eee9fd37db2bf0e90a775ca1526e3e4421773"
+      "sha256": "3db9dc99ac1c90f75782546e12b7574c476b7e0dfaf299408a56947e1439b50f"
     },
     {
       "locale": "hr",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/hr/iphone/native-1.png",
-      "sha256": "dec8a0b0ad679e444522e374ad76fcd8dbbbf3f944d71607581be22d6d80f8cb"
+      "sha256": "f52c499ebbd604fe6ae8368d5b71d5eecc0adbb530b3c7941af56d8a2b05c7bb"
     },
     {
       "locale": "hr",
@@ -926,14 +927,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/hr/iphone/native-6.png",
-      "sha256": "3778b0f4616107578bdf9e1559e7d812731c297b64f88e1ebd6b3dc3dba0016b"
+      "sha256": "4d622803507b574475a8c6c567aed7e58c149dbecb46dcd4478068bb68a6d9a3"
     },
     {
       "locale": "hu",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/hu/iphone/native-1.png",
-      "sha256": "afd6531a2233919a07d7d7c366a2376c7812504f0304915538ac2da631affd32"
+      "sha256": "f61b7092586abfec4c1daf9bfc193787a166a1d95bbd6e16d0366e6d0061605b"
     },
     {
       "locale": "hu",
@@ -968,14 +969,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/hu/iphone/native-6.png",
-      "sha256": "237daf882750373b51181f102805783924b785f5c3ba0db4e9a9473628b238b3"
+      "sha256": "e38bab57df69e792c08e256b9a32f5fa14249f4291e25140daca1a2f6d1f346e"
     },
     {
       "locale": "id",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/id/iphone/native-1.png",
-      "sha256": "b83d299c83cd2899a632ef3cdc110e52a70a62ac4587dad99d2d6f8af0282954"
+      "sha256": "ac65697ad4ca68e217794e5fd64f878320000c89c8e99c932215f238cf8e05b2"
     },
     {
       "locale": "id",
@@ -1010,14 +1011,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/id/iphone/native-6.png",
-      "sha256": "2242c78d9f28b9559894c4f16ee61c7eb8ca623d41a7cae8ae0e880a602746ed"
+      "sha256": "9504fd59bd348c50ea256f0ce8a9c13a1764a1858fdb853377a80e9979c58ac4"
     },
     {
       "locale": "it",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/it/iphone/native-1.png",
-      "sha256": "3897aed6a956417e9d218acf9f0cf781243aa41c4510a46efedf92272a78ec26"
+      "sha256": "7b60093fde1aceefd7e2d18042446d82f8764f2a332f025d237af8e6458d0491"
     },
     {
       "locale": "it",
@@ -1052,14 +1053,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/it/iphone/native-6.png",
-      "sha256": "04e654ac198eaa89b2d6e194a0a75096a18c60642fadac14984b3f5fb9b7e8c3"
+      "sha256": "0b99d60da163da6547f7db7349583f83ce7cbc3d1fe55dcc7424db54c4385e92"
     },
     {
       "locale": "ja",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ja/iphone/native-1.png",
-      "sha256": "2d6ff0bec892cd345f8d6898b62a5c7f405778e36c78983e800b332401ba9b5f"
+      "sha256": "b60b9126fd8e6b9ea24fff3b82acdc775ce881e37dd7846855e8ea6491d31bb5"
     },
     {
       "locale": "ja",
@@ -1094,14 +1095,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ja/iphone/native-6.png",
-      "sha256": "b232ed33136728f121f2958ad78fa74e2f17af8304e1f4a6cd3d3d4f6c999e46"
+      "sha256": "dab025b031c380297b19c8c52dcd45a4f4033def96fc75cc3f6449dcb0333e12"
     },
     {
       "locale": "kk",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/kk/iphone/native-1.png",
-      "sha256": "483fc8dbabbfc939d70efa2643014ccfec1274b6ba4fed4630d6db2f169bac6a"
+      "sha256": "99b6d6f8d8ba544d56776a702203a31ad8bbe8619e8e736abfeb070b8d109802"
     },
     {
       "locale": "kk",
@@ -1136,14 +1137,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/kk/iphone/native-6.png",
-      "sha256": "8a87be43a70e511cba3cf065afe6c32d77ef341bca93b759a5b897e4577b1f57"
+      "sha256": "61eb7d7c6eee67d6ba3987ab6275aa41459c65bee474bd46d828a394cc8e4cad"
     },
     {
       "locale": "kn",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/kn/iphone/native-1.png",
-      "sha256": "eec3ca50648d14597be25410247be3de8d1c7ddb48b937180817d893b52fb28b"
+      "sha256": "ab25fa8c5721d9ad15c2ea9c7f22c036c49d22abd88f2523a4d4d74d2f59eb86"
     },
     {
       "locale": "kn",
@@ -1178,14 +1179,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/kn/iphone/native-6.png",
-      "sha256": "59636c12dc14c3dc6f29856fcd69ca4b0f614340510e77625e2b13df4100a9ba"
+      "sha256": "fc1a8286a8d7aaf6e71819663037fc78847698e9c635213fff7e4771f9df4710"
     },
     {
       "locale": "ko",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ko/iphone/native-1.png",
-      "sha256": "74d574cea6ed003746def0dab07f5d57d948c64632985664f214a89f527ac852"
+      "sha256": "933b23b0a99697847aa2ee0112a70b82865bc4cb2e56d2dac4aa9ce5ae8cdffe"
     },
     {
       "locale": "ko",
@@ -1220,14 +1221,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ko/iphone/native-6.png",
-      "sha256": "7061ec30a9513f61912a5ea87ef9c936f0aa0112588cfa1fd9e6fd4e4b1e0358"
+      "sha256": "ce493d846ed168c295515a5acb974b9199252f47b7c04e5e8755f7e67298d84e"
     },
     {
       "locale": "lt",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/lt/iphone/native-1.png",
-      "sha256": "c2148441df15f6afa2442354b70587787a0ae46cc562dfb71039ad974cb811ad"
+      "sha256": "b24ae76621adda7f619a6a00c639c269e72aa817c8c7d5ffc4bd34986682d36a"
     },
     {
       "locale": "lt",
@@ -1262,14 +1263,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/lt/iphone/native-6.png",
-      "sha256": "55dd4e4b4d1a17c9c154a652c0acc24daab335c09e38f4add6e6f141dac5c08a"
+      "sha256": "bcbaac4587727463117b9abbd0086df55d163d0cca817db3958f69aa7db84f81"
     },
     {
       "locale": "ml",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ml/iphone/native-1.png",
-      "sha256": "633439ebc5ac7c231849faf0fbfe46d511403353929b6ae17e536ba2c8178950"
+      "sha256": "6b0235a40f6b8a3b1beb170ffcbb0519647f6c3ed1cbcf696f033b03e8154228"
     },
     {
       "locale": "ml",
@@ -1304,14 +1305,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ml/iphone/native-6.png",
-      "sha256": "de0b8993769c28d64219e0167aeceb2d02e27d41ad9623871e417f3939ce5b86"
+      "sha256": "8a04c6154a2cd9535489eedbeeccae55b3d7751f0b2ede12aca27fb4b77c27b0"
     },
     {
       "locale": "mr",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/mr/iphone/native-1.png",
-      "sha256": "10a7a9b76f4a5b4adc244459bae9cc580004ec8dc23856ff3d47e0f079873a37"
+      "sha256": "e1dd6a5c918ca9951c2ab0991e3d54bce7c8dc1ce207a4ed470cc08c361ddf6b"
     },
     {
       "locale": "mr",
@@ -1346,14 +1347,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/mr/iphone/native-6.png",
-      "sha256": "f2d634318f9ebe18154aca2fcc0acb51a60b07497bfbbb0f03c433c150bfead7"
+      "sha256": "10a60c7b2d3ecc0df71c6e67c2b3ac9e0d339cd90c25898789bfac270d7e7c9a"
     },
     {
       "locale": "ms",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ms/iphone/native-1.png",
-      "sha256": "24832cb592e3f9f7090099e1ea25911944ec863026475d8f1058bc4f8d362b95"
+      "sha256": "acd3c77c180d1c736dc3ac94dabef9019a7efc7ff27407a2d37bffe821171af4"
     },
     {
       "locale": "ms",
@@ -1388,14 +1389,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ms/iphone/native-6.png",
-      "sha256": "6810524ce84929cd03ef60fdcdcfb8a5e8e5fd51a64fc450663e9d796cb91210"
+      "sha256": "55295bb85909e3c7e77da0b261f1dc065cd63ec0c53587f3957d0c25ee4c33b1"
     },
     {
       "locale": "nb",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/nb/iphone/native-1.png",
-      "sha256": "a7ac3fc0822693353a7cf8b9041f33c91e2567803ff65d450382354d87b6eff0"
+      "sha256": "dd68f7d5ebcdaabc0d8a915a564c4870ecbb33e1ba509a77d89fa0e277fba1c8"
     },
     {
       "locale": "nb",
@@ -1430,14 +1431,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/nb/iphone/native-6.png",
-      "sha256": "377d505664255b477e1043988888309a2a9e18ecdaf486d585c9208849fae155"
+      "sha256": "9597f149da050c843c4255a4f27f53956a4079670ebbe4c595d81176d2802edb"
     },
     {
       "locale": "nl",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/nl/iphone/native-1.png",
-      "sha256": "2b7c2e5fb14018f0ae39cea46713b262a9ec93d2cca7cd00be6f9c1704362e31"
+      "sha256": "57e500166a5c63b3564aeb23c48cbe265a0b743f165cbc587b482db969fcb800"
     },
     {
       "locale": "nl",
@@ -1472,14 +1473,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/nl/iphone/native-6.png",
-      "sha256": "0ca46b54d7407a8de68f631a4c530435a2148d61ab4823a915a4bdd6f85612bc"
+      "sha256": "a7186e55e11f681faa441bb990ba5dead3652ea9c699b893197141f82942f4db"
     },
     {
       "locale": "or",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/or/iphone/native-1.png",
-      "sha256": "1d0b6031d628308da054ce8d485875d07e18854abeb80f34fa37a8e9555ea633"
+      "sha256": "320bbfcb4f8fb38a05cde2b39b858c9577ff71586ed9b440fe45b75053422e5c"
     },
     {
       "locale": "or",
@@ -1514,14 +1515,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/or/iphone/native-6.png",
-      "sha256": "b71ff09bb370284561bca2cbbd24bc4a5559314609682ac9217afc43f6ed1ac9"
+      "sha256": "3231348131472e0869da83688b5a14ebd3f172bf7530f27dc4785378b92be919"
     },
     {
       "locale": "pa",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pa/iphone/native-1.png",
-      "sha256": "d4934ed12b6d7a8ad775bb8b6c1285a0068bd11588f4bd5a2b611cfcce972d26"
+      "sha256": "9233793e80296292029f66153c2e9f613698eeee7e22836a55d262b4935df3a1"
     },
     {
       "locale": "pa",
@@ -1556,14 +1557,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pa/iphone/native-6.png",
-      "sha256": "5260ce61c16799d8fe1efc28fcc6d2d8d2dc00e62ea817f590b16f51ab2ff7b0"
+      "sha256": "3ddc9dc470d9c36b841d86a67460b28abedbfa6779bdf1bf770cb80bad8156b1"
     },
     {
       "locale": "pl",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pl/iphone/native-1.png",
-      "sha256": "044b229c12c283bc8209234f6076c86b9cf9b9159c7be84ca8111b2a397a0a0d"
+      "sha256": "8c307c4926b2dfb7e1d7ecebc220e052a60dafa67cd7cfe1e4cba9d865b34e7e"
     },
     {
       "locale": "pl",
@@ -1598,14 +1599,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pl/iphone/native-6.png",
-      "sha256": "2da896f4981e022dfd7d6fe7919260f364e0f99166d6f86cd548b53d052154db"
+      "sha256": "0998d03e60b8cab4e2d75c85083f39ef8f170a5aa68e23abdfba07080a27aa4e"
     },
     {
       "locale": "pt-BR",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/iphone/native-1.png",
-      "sha256": "6cc3a4b48299b8e1e5b444f81cfac5d6baa04141e2255bb1602fa05c48399304"
+      "sha256": "82628e4cd1e48dbf9445799eb50583b8fcdcd086c797331372807ed3fa7016ba"
     },
     {
       "locale": "pt-BR",
@@ -1640,14 +1641,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/iphone/native-6.png",
-      "sha256": "95b39a3b27d7034ffdbb4e0cb586a6bedf52be7e2a39256da7f785ec8931e0c0"
+      "sha256": "f660da093fc84da64c9963e923267d1bcc8a3b296c385de240172f2506f38986"
     },
     {
       "locale": "pt-PT",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/iphone/native-1.png",
-      "sha256": "76389cd063226d0339f58462c967e04d176c7b0c316a7fda4f33cd6b67a0049a"
+      "sha256": "800430c3e3cb338e823ceeb82c655cd4db1ad9d1f508d70cef66900ffc57f383"
     },
     {
       "locale": "pt-PT",
@@ -1682,14 +1683,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/iphone/native-6.png",
-      "sha256": "1d7870b1cb689980fe099cc5f1beefa4e8adfcb73f827204941923d812eefdcd"
+      "sha256": "2fc5f758e4aafd3a458a7392e177c8f5fe1dd2ed88c5af518875082bb15429de"
     },
     {
       "locale": "ro",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ro/iphone/native-1.png",
-      "sha256": "42f67a68b7d0dfd3cdf82aa59c455eafb4a50c921daafcfd821619836de0c74b"
+      "sha256": "5df5ef8afe9861b8859bf7ca8060103a29c08a127ccdcc4c4a36c9766d15b154"
     },
     {
       "locale": "ro",
@@ -1724,14 +1725,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ro/iphone/native-6.png",
-      "sha256": "1ccf8e0ada51d83ca1c979370ccb4089d303ebc800cc2dd386429e3a81f1f934"
+      "sha256": "31a88304c04f097b20932bb49b974204889874f5eefedcd2bb30364c06bf51a9"
     },
     {
       "locale": "ru",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ru/iphone/native-1.png",
-      "sha256": "fce3e476d9c6556cce15d5c22916abda99ca98c3836ab62cae14124ebafa3785"
+      "sha256": "2755ff1e9ec85029e3ed5812280a8ddb73af1f89c00c8eb5e363b4a46f90972a"
     },
     {
       "locale": "ru",
@@ -1766,14 +1767,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ru/iphone/native-6.png",
-      "sha256": "c58bc15fc38d25837c350001b3929e24f00bb4a6afb571616f8645ee279c4cf4"
+      "sha256": "9032558c0430b3199c43d677910d1da8503ff646c23b79d423660a9c10250600"
     },
     {
       "locale": "sk",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/sk/iphone/native-1.png",
-      "sha256": "560db7e79e96b52cfd5c427e228e274fa8c970a163ddb84563f9634a62ded7a9"
+      "sha256": "b0df181388322415dfbc558981a7f6cc82b060d9e5128730ee3bcca140fcfc64"
     },
     {
       "locale": "sk",
@@ -1808,14 +1809,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/sk/iphone/native-6.png",
-      "sha256": "4a9d060b96eda81cefb83e17b92280ee96f96434901b3a2cf478debc57e47ca2"
+      "sha256": "9fbe97ba6916c0e7227df2a2f7d5d2f1811ccbd6ee8d5902cf336a457e91cd14"
     },
     {
       "locale": "sl",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/sl/iphone/native-1.png",
-      "sha256": "8cecd3637b8c3e207af43b9ca4a941d10235f2e910d898f3ae31b84040b322c0"
+      "sha256": "92b7826dc5d23df2143497938b85a57170571b254b70be74c05cbad8078a8daf"
     },
     {
       "locale": "sl",
@@ -1850,14 +1851,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/sl/iphone/native-6.png",
-      "sha256": "a3bf967aca015edb854de29b8a46dd9309a363525f57fb5e93854acd6605ebc1"
+      "sha256": "ba868d9fe2c91b19675d3b8babe27b1b409c91bea3fbedc2f18aedde98d5f902"
     },
     {
       "locale": "sv",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/sv/iphone/native-1.png",
-      "sha256": "af7b2e9404f8ba5fb28eadb1c279b41488a62a917ea9f4ac633062a2cd2c7f14"
+      "sha256": "2939dfe5c72e74be3136105db51438ede51a9496a4a27ef634d2e3d4ba6bddb5"
     },
     {
       "locale": "sv",
@@ -1892,14 +1893,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/sv/iphone/native-6.png",
-      "sha256": "e21f35139db7de8d922055c698f501739f80ceeb1fc152c2483d11a69a15987c"
+      "sha256": "da6ea90ed0ae68ad9c670f2a09ab36995049d5fb9f552f6404826ec83b1e7cd6"
     },
     {
       "locale": "ta",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ta/iphone/native-1.png",
-      "sha256": "80210c777492e9faf7c4630c59d2536d839cede949c74910fee1abcdb41863cc"
+      "sha256": "27351f8a0db6c329c7df2c69fc88dcf0c79947a94a57f957c323deb13107d958"
     },
     {
       "locale": "ta",
@@ -1934,14 +1935,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ta/iphone/native-6.png",
-      "sha256": "fe2abff115678bbe4d2899bf5b4367c11472827c5517f34b217447acd5f3c1c3"
+      "sha256": "1356fdeb48b2ac2f239e0337df93b374cfe5784599f79321896b443e88c0c039"
     },
     {
       "locale": "te",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/te/iphone/native-1.png",
-      "sha256": "20cdbf7d73e0dcee6656b2b677056fb74c5ee5423f2514e70f82b7f863636e5c"
+      "sha256": "6299c0ebba455452c8a62dc19ca2829c05d991d1b90cc04a7ac2e2565d210893"
     },
     {
       "locale": "te",
@@ -1976,14 +1977,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/te/iphone/native-6.png",
-      "sha256": "9fd8bcf016242ae45dd3c629dbfb79c829bbc4b8de0ef47d38da2f035722094f"
+      "sha256": "ec6ac6b8d3c63308f92bf6946e47f02eaf2ad54c8c69c485bdf6222af855bf82"
     },
     {
       "locale": "th",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/th/iphone/native-1.png",
-      "sha256": "4139f8e2eb2f98c0824b37044934b1a3d83b62b27b8ac84a5fa62a6feb100f90"
+      "sha256": "d02ff84a1d82d4e37866ec4b5d50d6526583ca0a568609c80fe2edcd5e9aa13a"
     },
     {
       "locale": "th",
@@ -2018,14 +2019,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/th/iphone/native-6.png",
-      "sha256": "cb55aa749f121cd50b2703a98ac6cba83fee37a60bc6262d8ba60d1701217bed"
+      "sha256": "8a71d4347f8076e6814440b97cd825f3427041555943e5cbfae7929c07b4592c"
     },
     {
       "locale": "tr",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/tr/iphone/native-1.png",
-      "sha256": "d09a45cd5b2cbebddca235ac3d9a2274a1ee49b78adbe760bdf7112d11e6d085"
+      "sha256": "b5eabff9d391213c99f692d3c8b61eb973be3c6e3c59dc060cc325ce60917050"
     },
     {
       "locale": "tr",
@@ -2060,14 +2061,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/tr/iphone/native-6.png",
-      "sha256": "078cb0e59b2d1cb2d0c44a4d149a361a3a533067c20ce526f3c741f340fb0341"
+      "sha256": "82e0de99be1c2ba2e5f1b3991632ef21168e461c1a17314cd522db82883f7949"
     },
     {
       "locale": "uk",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/uk/iphone/native-1.png",
-      "sha256": "f817f221ad2c61ca36694fc3352aa49ed1705a659b0dc0f7e700cbf23aaa99c7"
+      "sha256": "d4920c27c0bd758b4a36ba8220fa72fab8c2ea0c9b16ff78a31be00d153ee603"
     },
     {
       "locale": "uk",
@@ -2102,14 +2103,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/uk/iphone/native-6.png",
-      "sha256": "758556e2fee10142b78e30750045c5a5f9183b579e78b5eb78eadfd34d2a5554"
+      "sha256": "446050cb6e9dcfec6b6b16ac6a5f82c30c58d1e0c09b3c89c145431105db6430"
     },
     {
       "locale": "ur",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ur/iphone/native-1.png",
-      "sha256": "ea41865531e243cc4e686e434088d2c43fceb2368b9e475683447a6d1a143b39"
+      "sha256": "eaf2d2af4870a5d594257975cd51e2acc71943ccea8e7c985045ea33d842b29b"
     },
     {
       "locale": "ur",
@@ -2144,14 +2145,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/ur/iphone/native-6.png",
-      "sha256": "d37a28a3ee068c878e0964422986e41845d599a809594742b97fd138c43fec8b"
+      "sha256": "299049c8cd6f79aa04d0dea57e9ed9e8d792c3d5309dc64f1f479b61ea5cd438"
     },
     {
       "locale": "vi",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/vi/iphone/native-1.png",
-      "sha256": "6908f909f176c223328ff8c3dd793c72d3de57e69ad8d592e4daba87e927a0d0"
+      "sha256": "c9d0f447bb4433b78e809889708b825476fe7ae4ecff94921a15fc008670cff0"
     },
     {
       "locale": "vi",
@@ -2186,14 +2187,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/vi/iphone/native-6.png",
-      "sha256": "b0f97cedfa877fa80a676904008b3200ec39806887b89107e6e158424365973c"
+      "sha256": "4c7a55d5c9854a321a4e3145663de751814ad83d3f84242e9b7e5908d885f5ee"
     },
     {
       "locale": "zh-HK",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/iphone/native-1.png",
-      "sha256": "06a264360858e94c2d3970638905812fdb2e15074fde52303e9bd9114e829924"
+      "sha256": "33cc1b52e91c7c4dfbe1edf5b83d64637f40e87503091e092f8a3f47099e3606"
     },
     {
       "locale": "zh-HK",
@@ -2228,14 +2229,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/iphone/native-6.png",
-      "sha256": "db72ea367fc23c5c2c4d657d0d68e9a898ee82e210d0cc451078e4152d18e6c4"
+      "sha256": "49d338ec6f9d1a7a4ef053405acc0a3d007f40d7e51a49020faaeff4f80bcaa6"
     },
     {
       "locale": "zh-Hans",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/iphone/native-1.png",
-      "sha256": "e142f8188c601350bcfbaeb418c451284a85b398ac97ea6e5f4e3a0568f95f67"
+      "sha256": "ade223ddef2336d993c63c150589bc9612c5e0d6baaa672b3c681452786a9842"
     },
     {
       "locale": "zh-Hans",
@@ -2270,14 +2271,14 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/iphone/native-6.png",
-      "sha256": "7319f1e29b4a6ef3b8e1fc5ff011aa77697d6579d1b6b66ca7900c6263feecbf"
+      "sha256": "d214813946d1505851811a5a4bf2761b7dfad03fccc2cee906a5a38505ed47bf"
     },
     {
       "locale": "zh-Hant",
       "platform": "iphone",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hant/iphone/native-1.png",
-      "sha256": "4674640c4c92643a1a8d2e55ce86ce0121020ab84dd07de225dee05dd97c18a3"
+      "sha256": "6ea6a8ff69d6d5f60e1949fa7bb5c41ee0c1a68b82b787dd3a60ad28854c1c0f"
     },
     {
       "locale": "zh-Hant",
@@ -2312,7 +2313,7 @@
       "platform": "iphone",
       "panel": 6,
       "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hant/iphone/native-6.png",
-      "sha256": "712a4d9286c8cc9c85df73bc3bd966f1ff4edfee7feaf62e3a368e58620949d3"
+      "sha256": "91384b197daeb685ce07e8a3be0a0bd0abe8d6c9db7bc66a2e30eda05860fe3c"
     }
   ]
 }

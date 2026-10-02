@@ -1,5 +1,2051 @@
---- a/SoooonKit/Package.swift	2026-10-01 10:33:54
-+++ b/SoooonKit/Package.swift	2026-10-02 01:03:08
+--- a/app/Soooon/App/NativeMarketingMacExport.swift
++++ b/app/Soooon/App/NativeMarketingMacExport.swift
+@@ -0,0 +1,40 @@
++#if os(macOS)
++import AppKit
++import SwiftUI
++import Foundation
++import DesignSystem
++
++/// Capture-only host for the actual macOS product views. The desktop is never captured.
++@MainActor
++enum NativeMarketingMacExport {
++ static func runIfAsked() {
++  guard ProcessInfo.processInfo.arguments.contains("-native-export") else { return }
++  Task { @MainActor in
++   guard let path = UserDefaults.standard.string(forKey:"marketingOut") else { exit(2) }
++   let directory=URL(fileURLWithPath:path).deletingLastPathComponent().appending(path:".fixture")
++   try? FileManager.default.createDirectory(at:directory,withIntermediateDirectories:true)
++   let container=AppContainer(stack:SharedStack(directory:directory),clock:DemoClock.clock())
++   await DemoSeed.fillIfEmpty(container)
++   let root=LaunchRoot(container:container)
++    .frame(maxWidth:.infinity,maxHeight:.infinity)
++    .background(Palette.background)
++    .environment(\.locale,Locale(identifier:UserDefaults.standard.string(forKey:"AppleLocale") ?? "en_US"))
++    .environment(\.layoutDirection,["ar","he","ur"].contains(UserDefaults.standard.stringArray(forKey:"AppleLanguages")?.first ?? "") ? .rightToLeft : .leftToRight)
++    .environment(\.photoFolder,container.photoFolder)
++    .environment(\.colorScheme,.light)
++   let host=NSHostingView(rootView:root)
++   let window=NSWindow(contentRect:NSRect(x:0,y:0,width:1500,height:1000),styleMask:[.borderless],backing:.buffered,defer:false)
++   window.contentView=host
++   host.frame=NSRect(x:0,y:0,width:1500,height:1000)
++   host.layoutSubtreeIfNeeded();window.displayIfNeeded()
++   try? await Task.sleep(for:.milliseconds(2500))
++   host.layoutSubtreeIfNeeded();window.displayIfNeeded()
++   let rep=NSBitmapImageRep(bitmapDataPlanes:nil,pixelsWide:3000,pixelsHigh:2000,bitsPerSample:8,samplesPerPixel:4,hasAlpha:true,isPlanar:false,colorSpaceName:.deviceRGB,bytesPerRow:0,bitsPerPixel:0)!
++   rep.size=CGSize(width:1500,height:1000)
++   host.cacheDisplay(in:host.bounds,to:rep)
++   if let data=rep.representation(using:.png,properties:[:]){try?data.write(to:URL(fileURLWithPath:path))}
++   print("NATIVE EXPORT READY");fflush(stdout);exit(0)
++  }
++ }
++}
++#endif
+--- a/app/Soooon/App/SoooonApp.swift
++++ b/app/Soooon/App/SoooonApp.swift
+@@ -6,6 +6,12 @@
+ @main
+ struct SoooonApp: App {
+     @State private var container = AppContainer.live()
++
++    init() {
++        #if os(macOS)
++        NativeMarketingMacExport.runIfAsked()
++        #endif
++    }
+ 
+     var body: some Scene {
+         WindowGroup {
+--- a/app/Soooon/App/AppContainer.swift
++++ b/app/Soooon/App/AppContainer.swift
+@@ -1,5 +1,4 @@
+ import Almanac
+-import Billing
+ import DataLayer
+ import Domain
+ import Foundation
+@@ -109,10 +108,8 @@
+     /// Where Pro is sold: Horse Revenue when this build has its key; made-up plans in a demo run;
+     /// otherwise nowhere — a build with no key sells nothing, so it locks nothing either.
+     private static func store() -> (any PurchaseUseCases, Bool) {
+-        if ProcessInfo.processInfo.environment["SOOOON_DEMO"] == "1" { return (MockPurchaseUseCases(), true) }
+-        let key = (Bundle.main.object(forInfoDictionaryKey: "HorseAPIKey") as? String)?.trimmingCharacters(in: .whitespaces) ?? ""
+-        guard key.hasPrefix("pk_") else { return (PurchaseUseCasesImpl(store: UnlockedPurchaseRepository()), false) }
+-        return (PurchaseUseCasesImpl(store: PurchaseRepositoryImpl(apiKey: key, baseURL: horseURL)), true)
++        precondition(ProcessInfo.processInfo.environment["SOOOON_DEMO"] == "1", "Capture fixture only")
++        return (MockPurchaseUseCases(), true)
+     }
+ 
+     private static let horseURL = URL(string: "https://tally-api-755619271848.us-central1.run.app")!
+--- a/app/Soooon/App/LaunchRoot.swift
++++ b/app/Soooon/App/LaunchRoot.swift
+@@ -1,3 +1,4 @@
++import Domain
+ import DesignSystem
+ import Presentation
+ import SwiftUI
+@@ -12,30 +13,18 @@
+     let container: AppContainer
+     @State private var phase: Phase = .splash
+ 
++    @State private var captureSeeded = false
+     var body: some View {
+-        ZStack {
+-            switch phase {
+-            case .splash:
+-                Color("LaunchBackground").ignoresSafeArea()
+-            case .onboarding:
+-                OnboardingScreen(viewModel: onboarding(), sounds: container.sounds) {
+-                    withAnimation(Motion.card) { phase = .app }
+-                }
+-                .transition(.opacity)
+-            case .app:
+-                RootView(container: container)
+-                    .transition(.opacity)
+-            }
++        Group {
++            if captureSeeded { MarketingCaptureRoot(container: container) }
++            else { Color("LaunchBackground") }
+         }
+-        // Here rather than on the countdowns: a link that arrives during onboarding waits in the
+-        // router and opens once the app is showing.
+-        .onOpenURL { container.router.handle($0) }
+         .task {
+-            #if DEBUG
+             await DemoSeed.fillIfEmpty(container)
+-            #endif
+-            let onboarded = await container.settings.settings().hasOnboarded
+-            withAnimation(.easeOut(duration: 0.3)) { phase = onboarded && !Self.forcesOnboarding ? .app : .onboarding }
++            await container.wardrobe.refresh()
++            await container.wardrobe.lookedAtEverything()
++            while container.wardrobe.showing != nil { container.wardrobe.admired() }
++            captureSeeded = true
+         }
+     }
+ 
+@@ -60,3 +49,33 @@
+         #endif
+     }
+ }
++
++
++/// Isolated screenshot route: production screens, local sample store only.
++private struct MarketingCaptureRoot: View {
++    let container: AppContainer
++    private var scene: String {
++        let args = ProcessInfo.processInfo.arguments
++        return args.firstIndex(of: "-marketing-screen").flatMap { $0 + 1 < args.count ? args[$0 + 1] : nil } ?? "home"
++    }
++    @ViewBuilder var body: some View {
++        switch scene {
++        case "detail": NavigationStack { CountdownDetailScreen(viewModel: container.detailViewModel(for: CountdownID(string: "5EED0000-0000-0000-0000-000000000001")!), container: container) }
++        case "calendar": NavigationStack { CalendarEventsScreen(calendar: container.calendarEventsViewModel(), sounds: container.sounds) }
++        case "personality": OnboardingScreen(viewModel: personality(), sounds: container.sounds, finished: {})
++        case "holidays": NavigationStack { DiscoverScreen(viewModel: container.discoverViewModel(), calendar: container.calendarEventsViewModel(), celebrations: container.celebrationsViewModel(), sounds: container.sounds) }
++        case "wardrobe": NavigationStack { WardrobeScreen(wardrobe: container.wardrobe, outfit: nil, sounds: container.sounds) }
++        default:
++            #if os(macOS)
++            HomeScreen(viewModel: container.homeViewModel(), container: container)
++            #else
++            RootView(container: container)
++            #endif
++        }
++    }
++    private func personality() -> OnboardingViewModel {
++        let vm = container.onboardingViewModel()
++        vm.jump(to: .personality)
++        return vm
++    }
++}
+--- a/app/Soooon/Resources/MarketingFixtureTitles.json
++++ b/app/Soooon/Resources/MarketingFixtureTitles.json
+@@ -0,0 +1,418 @@
++{
++  "ar": {
++    "Mom": "أمي",
++    "Lisbon trip": "رحلة إلى لشبونة",
++    "The weekend": "عطلة نهاية الأسبوع",
++    "Big concert": "حفل موسيقي كبير",
++    "Our anniversary": "ذكرى زواجنا",
++    "Grandpa": "جدي"
++  },
++  "bg": {
++    "Mom": "Мама",
++    "Lisbon trip": "Пътуване до Лисабон",
++    "The weekend": "Уикендът",
++    "Big concert": "Голям концерт",
++    "Our anniversary": "Нашата годишнина",
++    "Grandpa": "Дядо"
++  },
++  "bn": {
++    "Mom": "মা",
++    "Lisbon trip": "লিসবন ভ্রমণ",
++    "The weekend": "সপ্তাহান্ত",
++    "Big concert": "বড় কনসার্ট",
++    "Our anniversary": "আমাদের বিবাহবার্ষিকী",
++    "Grandpa": "দাদা/নানা"
++  },
++  "ca": {
++    "Mom": "Mare",
++    "Lisbon trip": "Viatge a Lisboa",
++    "The weekend": "El cap de setmana",
++    "Big concert": "Gran concert",
++    "Our anniversary": "El nostre aniversari",
++    "Grandpa": "Avi"
++  },
++  "cs": {
++    "Mom": "Máma",
++    "Lisbon trip": "Výlet do Lisabonu",
++    "The weekend": "Víkend",
++    "Big concert": "Velký koncert",
++    "Our anniversary": "Naše výročí",
++    "Grandpa": "Dědeček"
++  },
++  "da": {
++    "Mom": "Mor",
++    "Lisbon trip": "Tur til Lissabon",
++    "The weekend": "Weekenden",
++    "Big concert": "Stor koncert",
++    "Our anniversary": "Vores årsdag",
++    "Grandpa": "Bedstefar"
++  },
++  "de": {
++    "Mom": "Mama",
++    "Lisbon trip": "Lissabon-Reise",
++    "The weekend": "Das Wochenende",
++    "Big concert": "Großes Konzert",
++    "Our anniversary": "Unser Jahrestag",
++    "Grandpa": "Opa"
++  },
++  "el": {
++    "Mom": "Μαμά",
++    "Lisbon trip": "Ταξίδι στη Λισαβόνα",
++    "The weekend": "Το Σαββατοκύριακο",
++    "Big concert": "Μεγάλη συναυλία",
++    "Our anniversary": "Η επέτειός μας",
++    "Grandpa": "Παππούς"
++  },
++  "en-US": {
++    "Mom": "Mom",
++    "Lisbon trip": "Lisbon trip",
++    "The weekend": "The weekend",
++    "Big concert": "Big concert",
++    "Our anniversary": "Our anniversary",
++    "Grandpa": "Grandpa"
++  },
++  "es": {
++    "Mom": "Mamá",
++    "Lisbon trip": "Viaje a Lisboa",
++    "The weekend": "El fin de semana",
++    "Big concert": "Gran concierto",
++    "Our anniversary": "Nuestro aniversario",
++    "Grandpa": "Abuelo"
++  },
++  "es-419": {
++    "Mom": "Mamá",
++    "Lisbon trip": "Viaje a Lisboa",
++    "The weekend": "El fin de semana",
++    "Big concert": "Gran concierto",
++    "Our anniversary": "Nuestro aniversario",
++    "Grandpa": "Abuelo"
++  },
++  "es-US": {
++    "Mom": "Mamá",
++    "Lisbon trip": "Viaje a Lisboa",
++    "The weekend": "El fin de semana",
++    "Big concert": "Gran concierto",
++    "Our anniversary": "Nuestro aniversario",
++    "Grandpa": "Abuelo"
++  },
++  "fi": {
++    "Mom": "Äiti",
++    "Lisbon trip": "Lissabonin-matka",
++    "The weekend": "Viikonloppu",
++    "Big concert": "Suuri konsertti",
++    "Our anniversary": "Vuosipäivämme",
++    "Grandpa": "Isoisä"
++  },
++  "fr": {
++    "Mom": "Maman",
++    "Lisbon trip": "Voyage à Lisbonne",
++    "The weekend": "Le week-end",
++    "Big concert": "Grand concert",
++    "Our anniversary": "Notre anniversaire",
++    "Grandpa": "Grand-père"
++  },
++  "fr-CA": {
++    "Mom": "Maman",
++    "Lisbon trip": "Voyage à Lisbonne",
++    "The weekend": "Le week-end",
++    "Big concert": "Grand concert",
++    "Our anniversary": "Notre anniversaire",
++    "Grandpa": "Grand-père"
++  },
++  "gu": {
++    "Mom": "મમ્મી",
++    "Lisbon trip": "લિસ્બનની સફર",
++    "The weekend": "વીકેન્ડ",
++    "Big concert": "મોટો કોન્સર્ટ",
++    "Our anniversary": "અમારી વર્ષગાંઠ",
++    "Grandpa": "દાદા"
++  },
++  "he": {
++    "Mom": "אמא",
++    "Lisbon trip": "טיול לליסבון",
++    "The weekend": "סוף השבוע",
++    "Big concert": "הופעה גדולה",
++    "Our anniversary": "יום הנישואין שלנו",
++    "Grandpa": "סבא"
++  },
++  "hi": {
++    "Mom": "माँ",
++    "Lisbon trip": "लिस्बन की यात्रा",
++    "The weekend": "वीकेंड",
++    "Big concert": "बड़ा कॉन्सर्ट",
++    "Our anniversary": "हमारी सालगिरह",
++    "Grandpa": "दादाजी"
++  },
++  "hr": {
++    "Mom": "Mama",
++    "Lisbon trip": "Putovanje u Lisabon",
++    "The weekend": "Vikend",
++    "Big concert": "Veliki koncert",
++    "Our anniversary": "Naša godišnjica",
++    "Grandpa": "Djed"
++  },
++  "hu": {
++    "Mom": "Anya",
++    "Lisbon trip": "Lisszaboni út",
++    "The weekend": "A hétvége",
++    "Big concert": "Nagy koncert",
++    "Our anniversary": "Évfordulónk",
++    "Grandpa": "Nagypapa"
++  },
++  "id": {
++    "Mom": "Ibu",
++    "Lisbon trip": "Perjalanan ke Lisbon",
++    "The weekend": "Akhir pekan",
++    "Big concert": "Konser besar",
++    "Our anniversary": "Hari jadi kita",
++    "Grandpa": "Kakek"
++  },
++  "it": {
++    "Mom": "Mamma",
++    "Lisbon trip": "Viaggio a Lisbona",
++    "The weekend": "Il fine settimana",
++    "Big concert": "Grande concerto",
++    "Our anniversary": "Il nostro anniversario",
++    "Grandpa": "Nonno"
++  },
++  "ja": {
++    "Mom": "母",
++    "Lisbon trip": "リスボン旅行",
++    "The weekend": "週末",
++    "Big concert": "大きなコンサート",
++    "Our anniversary": "私たちの記念日",
++    "Grandpa": "祖父"
++  },
++  "kk": {
++    "Mom": "Анашым",
++    "Lisbon trip": "Лиссабонға сапар",
++    "The weekend": "Демалыс күндері",
++    "Big concert": "Үлкен концерт",
++    "Our anniversary": "Мерейтойымыз",
++    "Grandpa": "Атам"
++  },
++  "kn": {
++    "Mom": "ಅಮ್ಮ",
++    "Lisbon trip": "ಲಿಸ್ಬನ್ ಪ್ರವಾಸ",
++    "The weekend": "ವಾರಾಂತ್ಯ",
++    "Big concert": "ದೊಡ್ಡ ಸಂಗೀತ ಕಾರ್ಯಕ್ರಮ",
++    "Our anniversary": "ನಮ್ಮ ವಾರ್ಷಿಕೋತ್ಸವ",
++    "Grandpa": "ತಾತ"
++  },
++  "ko": {
++    "Mom": "엄마",
++    "Lisbon trip": "리스본 여행",
++    "The weekend": "주말",
++    "Big concert": "대규모 콘서트",
++    "Our anniversary": "기념일",
++    "Grandpa": "할아버지"
++  },
++  "lt": {
++    "Mom": "Mama",
++    "Lisbon trip": "Kelionė į Lisaboną",
++    "The weekend": "Savaitgalis",
++    "Big concert": "Didelis koncertas",
++    "Our anniversary": "Mūsų metinės",
++    "Grandpa": "Senelis"
++  },
++  "ml": {
++    "Mom": "അമ്മ",
++    "Lisbon trip": "ലിസ്ബൺ യാത്ര",
++    "The weekend": "വാരാന്ത്യം",
++    "Big concert": "വലിയ സംഗീതപരിപാടി",
++    "Our anniversary": "ഞങ്ങളുടെ വാർഷികം",
++    "Grandpa": "മുത്തശ്ശൻ"
++  },
++  "mr": {
++    "Mom": "आई",
++    "Lisbon trip": "लिस्बनची सहल",
++    "The weekend": "वीकेंड",
++    "Big concert": "मोठा कार्यक्रम (कॉन्सर्ट)",
++    "Our anniversary": "आमचा वाढदिवस (लग्नाचा/सहवासाचा)",
++    "Grandpa": "आजोबा"
++  },
++  "ms": {
++    "Mom": "Ibu",
++    "Lisbon trip": "Perjalanan ke Lisbon",
++    "The weekend": "Hujung minggu",
++    "Big concert": "Konsert besar",
++    "Our anniversary": "Ulang tahun kami",
++    "Grandpa": "Datuk"
++  },
++  "nb": {
++    "Mom": "Mamma",
++    "Lisbon trip": "Tur til Lisboa",
++    "The weekend": "Helgen",
++    "Big concert": "Stor konsert",
++    "Our anniversary": "Bryllupsdag",
++    "Grandpa": "Bestefar"
++  },
++  "nl": {
++    "Mom": "Mama",
++    "Lisbon trip": "Reis naar Lissabon",
++    "The weekend": "Het weekend",
++    "Big concert": "Groot concert",
++    "Our anniversary": "Ons jubileum",
++    "Grandpa": "Opa"
++  },
++  "or": {
++    "Mom": "ମା’",
++    "Lisbon trip": "ଲିସବନ୍ ଯାତ୍ରା",
++    "The weekend": "ସପ୍ତାହ ଶେଷ ଛୁଟି",
++    "Big concert": "ବଡ଼ ସଙ୍ଗୀତ କାର୍ଯ୍ୟକ୍ରମ",
++    "Our anniversary": "ଆମର ବାର୍ଷିକୀ",
++    "Grandpa": "ଜେଜେବାପା"
++  },
++  "pa": {
++    "Mom": "ਮੰਮੀ",
++    "Lisbon trip": "ਲਿਸਬਨ ਦੀ ਯਾਤਰਾ",
++    "The weekend": "ਵੀਕਐਂਡ",
++    "Big concert": "ਵੱਡਾ ਸੰਗੀਤ ਸਮਾਰੋਹ",
++    "Our anniversary": "ਸਾਡੀ ਵਰ੍ਹੇਗੰਢ",
++    "Grandpa": "ਦਾਦਾ ਜੀ"
++  },
++  "pl": {
++    "Mom": "Mama",
++    "Lisbon trip": "Wyjazd do Lizbony",
++    "The weekend": "Weekend",
++    "Big concert": "Wielki koncert",
++    "Our anniversary": "Nasza rocznica",
++    "Grandpa": "Dziadek\nstar_border"
++  },
++  "pt-BR": {
++    "Mom": "Mãe",
++    "Lisbon trip": "Viagem a Lisboa",
++    "The weekend": "O fim de semana",
++    "Big concert": "Grande show",
++    "Our anniversary": "Nosso aniversário",
++    "Grandpa": "Vovô"
++  },
++  "pt-PT": {
++    "Mom": "Mãe",
++    "Lisbon trip": "Viagem a Lisboa",
++    "The weekend": "O fim de semana",
++    "Big concert": "Grande show",
++    "Our anniversary": "Nosso aniversário",
++    "Grandpa": "Vovô\nstar_border"
++  },
++  "ro": {
++    "Mom": "Mama",
++    "Lisbon trip": "Excursie la Lisabona",
++    "The weekend": "Weekendul",
++    "Big concert": "Concert mare",
++    "Our anniversary": "Aniversarea noastră",
++    "Grandpa": "Bunicul\nstar_border"
++  },
++  "ru": {
++    "Mom": "Мама",
++    "Lisbon trip": "Поездка в Лиссабон",
++    "The weekend": "Выходные",
++    "Big concert": "Большой концерт",
++    "Our anniversary": "Наша годовщина",
++    "Grandpa": "Дедушка"
++  },
++  "sk": {
++    "Mom": "Mama",
++    "Lisbon trip": "Výlet do Lisabonu",
++    "The weekend": "Víkend",
++    "Big concert": "Veľký koncert",
++    "Our anniversary": "Naše výročie",
++    "Grandpa": "Dedko\nstar_border"
++  },
++  "sl": {
++    "Mom": "Mama",
++    "Lisbon trip": "Izlet v Lizbono",
++    "The weekend": "Vikend",
++    "Big concert": "Velik koncert",
++    "Our anniversary": "Najina obletnica",
++    "Grandpa": "Dedek\nstar_border"
++  },
++  "sv": {
++    "Mom": "Mamma",
++    "Lisbon trip": "Lissabonresa",
++    "The weekend": "Helgen",
++    "Big concert": "Stor konsert",
++    "Our anniversary": "Vår årsdag",
++    "Grandpa": "Morfar/Farfar\nstar_border"
++  },
++  "ta": {
++    "Mom": "அம்மா",
++    "Lisbon trip": "லிஸ்பன் பயணம்",
++    "The weekend": "வார இறுதி",
++    "Big concert": "பெரிய இசை நிகழ்ச்சி",
++    "Our anniversary": "எங்கள் ஆண்டுவிழா",
++    "Grandpa": "தாத்தா"
++  },
++  "te": {
++    "Mom": "అమ్మ",
++    "Lisbon trip": "లిస్బన్ యాత్ర",
++    "The weekend": "వారాంతం",
++    "Big concert": "భారీ సంగీత కచేరీ",
++    "Our anniversary": "మా వార్షికోత్సవం",
++    "Grandpa": "తాతయ్య"
++  },
++  "th": {
++    "Mom": "แม่",
++    "Lisbon trip": "ทริปลิสบอน",
++    "The weekend": "สุดสัปดาห์",
++    "Big concert": "คอนเสิร์ตใหญ่",
++    "Our anniversary": "วันครบรอบของเรา",
++    "Grandpa": "คุณปู่/คุณตา"
++  },
++  "tr": {
++    "Mom": "Annem",
++    "Lisbon trip": "Lizbon gezisi",
++    "The weekend": "Hafta sonu",
++    "Big concert": "Büyük konser",
++    "Our anniversary": "Yıldönümümüz",
++    "Grandpa": "Büyükbabam\nstar_border"
++  },
++  "uk": {
++    "Mom": "Мама",
++    "Lisbon trip": "Поїздка до Лісабона",
++    "The weekend": "Вихідні",
++    "Big concert": "Великий концерт",
++    "Our anniversary": "Наша річниця",
++    "Grandpa": "Дідусь"
++  },
++  "ur": {
++    "Mom": "امی",
++    "Lisbon trip": "لزبن کا سفر",
++    "The weekend": "ویک اینڈ",
++    "Big concert": "بڑا کنسرٹ",
++    "Our anniversary": "ہماری سالگرہ",
++    "Grandpa": "دادا/نانا"
++  },
++  "vi": {
++    "Mom": "Mẹ",
++    "Lisbon trip": "Chuyến đi Lisbon",
++    "The weekend": "Cuối tuần",
++    "Big concert": "Buổi hòa nhạc lớn",
++    "Our anniversary": "Lễ kỷ niệm của chúng ta",
++    "Grandpa": "Ông\nstar_border"
++  },
++  "zh-HK": {
++    "Mom": "媽媽",
++    "Lisbon trip": "里斯本之旅",
++    "The weekend": "週末",
++    "Big concert": "大型演唱會",
++    "Our anniversary": "我們的週年紀念日",
++    "Grandpa": "爺爺"
++  },
++  "zh-Hans": {
++    "Mom": "妈妈",
++    "Lisbon trip": "里斯本之旅",
++    "The weekend": "周末",
++    "Big concert": "大型音乐会",
++    "Our anniversary": "我们的纪念日",
++    "Grandpa": "爷爷"
++  },
++  "zh-Hant": {
++    "Mom": "媽媽",
++    "Lisbon trip": "里斯本之旅",
++    "The weekend": "週末",
++    "Big concert": "大型演唱會",
++    "Our anniversary": "我們的週年紀念日",
++    "Grandpa": "爺爺"
++  }
++}
+--- a/app/Soooon.xcodeproj/project.pbxproj
++++ b/app/Soooon.xcodeproj/project.pbxproj
+@@ -0,0 +1,1463 @@
++// !$*UTF8*$!
++{
++	archiveVersion = 1;
++	classes = {
++	};
++	objectVersion = 77;
++	objects = {
++
++/* Begin PBXBuildFile section */
++		04C4361654CFD54AB6345886 /* DoorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A347BD6B374361C47DCEEF /* DoorCardView.swift */; };
++		06E4944C2DADC25E73E0468E /* tap.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C4BA40ED929B9592528E99BA /* tap.m4a */; };
++		0A1C3D5D95C7435DF40F0E12 /* PlansReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35E4825BAEF8578D2045C8 /* PlansReason.swift */; };
++		0E769C9CCE539519148D8FCB /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CAE34C3CF3F9F259E2B46BCA /* Localizable.xcstrings */; };
++		106F15189496A783BA5092F2 /* LockScreenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80977C1653D2B66CFF3D7857 /* LockScreenWidget.swift */; };
++		14FE416A32B6A24DC4E5A865 /* whoosh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D92DDD42C2A8A50D02BC7FC6 /* whoosh.m4a */; };
++		151B154F50909BFCFF296B53 /* SeasonBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB08173747364BA824560DD /* SeasonBannerView.swift */; };
++		1588A54477BACEB5F123559C /* PressableCardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11D0FF7EBB99DA4993D844 /* PressableCardStyle.swift */; };
++		17F2052375DE1AC694E2FFDC /* WardrobeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2B0E1BFCA1D1C438E600 /* WardrobeScreen.swift */; };
++		185182CB74110B3414A3740A /* notifyNewYear.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6E423668EB8552BA24D366A8 /* notifyNewYear.caf */; };
++		1B937266154E3E81AD31BDC6 /* PokeableCritter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C74C5FA36DE7AC5C6C1FD /* PokeableCritter.swift */; };
++		1C2099A9737063D000112E7A /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C71742AE34874B81E2BB4F /* SettingsScreen.swift */; };
++		1C701CC92F7B21C222D8AC13 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC69B0361825C838C75E5E /* OnboardingScreen.swift */; };
++		1DFF3EDA5FED61A41AE90CDC /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 8CFDFF16999D9983CD3AEF1F /* DesignSystem */; };
++		1FD7A3CC80CCF2FCAAE2185A /* PlanRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A69CB17819BFD8E3F1104 /* PlanRow.swift */; };
++		21E10E71E18620A0E9BF4BAE /* CountdownProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED01A2A499B3257021BA551 /* CountdownProvider.swift */; };
++		23C57860B369D9CB05D3EB76 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 3E8FA60161D7C59942635FE8 /* DesignSystem */; };
++		257AB5A6FB64675D7BB808FB /* RecapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B1C3710313C803FD5E8A7 /* RecapPresenter.swift */; };
++		25DED080B6CECCF23FC47163 /* critterYawn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D59AD63FF40A1228FAD25176 /* critterYawn.m4a */; };
++		29B3C4055C5B0CA98E5F3D20 /* SoooonWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84118B76A72A8C6D9343C4D8 /* SoooonWidgetsBundle.swift */; };
++		2BD51197D7D8267114DE82AA /* notifyLove.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7926727C5A637BAAA0178980 /* notifyLove.caf */; };
++		2C06BD46F0723A7B3B48FF8D /* Words in Frameworks */ = {isa = PBXBuildFile; productRef = E6C29B9D4C438285A233422B /* Words */; };
++		2C2E8388A6C7BE2A91D792B3 /* Swell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B247F4876EC8D4813D3C5B50 /* Swell.swift */; };
++		2D8F070F93BC2F67569072A2 /* BirthdaysScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F10CDC4B75C9C4EA52A9A /* BirthdaysScreen.swift */; };
++		31733CFC0417396D84D0D2B4 /* critterPanic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 48F5B77F75721EA36424D50B /* critterPanic.m4a */; };
++		33238268394DEAF17DD78235 /* PokeCritterIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB93FE40927C4F2A77E2C8 /* PokeCritterIntent.swift */; };
++		34B749ACE45F35D9F84234FB /* notifyBirthday.caf in Resources */ = {isa = PBXBuildFile; fileRef = A5940899AF789A8C74B1DBAF /* notifyBirthday.caf */; };
++		35BA28AD47C0C9FF019C53DE /* RecapHomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5DA077352F52E6A560AD6 /* RecapHomeCard.swift */; };
++		35D6981A77596D8343B0D630 /* NewCountdownFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5118E149CB609ADDD8241A1 /* NewCountdownFlow.swift */; };
++		3B37B5179FAD02A1318E1EB9 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B10DE80F33E14CF4C45E711 /* SoundPlayer.swift */; };
++		3B8D8E2A18EAF06B83232BA2 /* slideWhistle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 096D81FEEAA37DB5C2F201EB /* slideWhistle.m4a */; };
++		3B98407CF7A289807D7E086F /* critterBrrr.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E5034D99F72C68C272F32264 /* critterBrrr.m4a */; };
++		3C8E67294349D1CDCAB5BD17 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FF7616A8632032164A7D6E /* HomeScreen.swift */; };
++		3F754BA684963130C99BE63F /* MenuBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797AB178C85825131773034 /* MenuBarContent.swift */; };
++		415C7BB4328C78B634AE5C3E /* StoryZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AD58D0361A8993357A876 /* StoryZones.swift */; };
++		43336682732C07958E6B72DE /* ShareSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C05AF2477F6D506F249FF /* ShareSamples.swift */; };
++		440880133EB8531F9727F730 /* SharedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49854E250FC0FF492F4D1FC3 /* SharedStack.swift */; };
++		45B26B34D559B06D3415AEB6 /* FunUnitsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623547C1305BB352A577297 /* FunUnitsGrid.swift */; };
++		462BFC5455D11A158603E1B0 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F75DF76CABCDCD1E07C3AD /* AppContainer.swift */; };
++		4664FADFB60F22DBC39A8301 /* squeak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 76B2CA6B6298442A9FDC79CA /* squeak.m4a */; };
++		483BEA0B22C2C0F534626C07 /* critterGasp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 27C81E232975729AA1FD3C4A /* critterGasp.m4a */; };
++		48A45FCC77C9B74E893F3D14 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = FF5A14CCC86E34CB2C4B200F /* Domain */; };
++		48F45674C6EF580AC4E770CD /* DiscoverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEDDBB06CF14EF2EE234C1A /* DiscoverScreen.swift */; };
++		496FD4FCD53D39C290725CEE /* RecapSettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC24696B045386167794ADB /* RecapSettingsRow.swift */; };
++		4A881855CD62AA6D0A4E1D73 /* InviteNameSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC27FB6F771751598906210 /* InviteNameSection.swift */; };
++		4AC241C449928488539A6CAD /* JoinSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E8CF5FBBB472A31D94A29 /* JoinSheet.swift */; };
++		4C023FDADC0892E9177B7789 /* InviteReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CA8DEBC8A65DA9C75C580 /* InviteReceiver.swift */; };
++		4C6DA879A8622B7E9418BFB9 /* MilestoneSurpriseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75C709B542AC1EF0FFE9F8 /* MilestoneSurpriseCard.swift */; };
++		4C7A2C1EEA91C38B47BEF533 /* ShareSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397D1D26697D8DF3E98A56D /* ShareSendButton.swift */; };
++		5159CEDF66605D5113D4EB82 /* CalendarLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487C2B9EBE7968E544AE750 /* CalendarLinkLabel.swift */; };
++		5196B3A84E2D31E38DE4424F /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE6223689FC6F0FA06E314 /* Links.swift */; };
++		530AA21BA643AB10AC8103A3 /* ShareOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635332F4296B701E9CC3537B /* ShareOptions.swift */; };
++		5712DA37A94D88297B8E5F6B /* MediumCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0FBF21733D2EE5D9781D2 /* MediumCountdownView.swift */; };
++		591BD2A3E5ADD05DAD5C1813 /* SoooonWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DDB176F099685030CAA83F1D /* SoooonWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
++		5B90DA320B48A210DC96C075 /* RecapSharePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61431F8919038EFBA4AFE83 /* RecapSharePage.swift */; };
++		5B948182D241093A2620F4AB /* TraditionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D843988820E6BE06FB99B9E /* TraditionLabels.swift */; };
++		5BECDE5A1648D076F95497F2 /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7081C4A6ADE8ED6630B4CE8F /* NotificationDelegate.swift */; };
++		5C0BCFA7E923FF33702213E4 /* CountdownDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B60B7554AE71C7336BC8C33 /* CountdownDetailScreen.swift */; };
++		5C3A88D8C9C8D4214CA29013 /* CritterCheer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68864311768120A6A300571B /* CritterCheer.swift */; };
++		5F9F91699A1A0DC2D1B105E1 /* SkeletonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D230A8F08D9FF02E1488F /* SkeletonList.swift */; };
++		637D17B0A3459EFFBADB532D /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C315FBD2117E02502B341C /* DemoSeed.swift */; };
++		63B98C5299C0D604357B8CD1 /* OpenDoorIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12CECD4CF4C25862583127 /* OpenDoorIntent.swift */; };
++		666278F6BA8EB379D98482E0 /* UpNextWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E69BF9E4498AE3C5CEDE7 /* UpNextWidgetView.swift */; };
++		67CCE62B57B7708B8875305B /* SystemShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD009FC9E99F59E04F45E2DA /* SystemShare.swift */; };
++		67CD4C9D554912A6DD1296E0 /* MarketingFixtureTitles.json in Resources */ = {isa = PBXBuildFile; fileRef = 858CAB9D59B10D3886793769 /* MarketingFixtureTitles.json */; };
++		68086BFB4A821CEF9D78A176 /* PlansScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687DDFC13BD231B5440C541 /* PlansScreen.swift */; };
++		69DBE0C27D313E66F88AFE00 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 07DA23C42147AB34E32A506D /* InfoPlist.xcstrings */; };
++		6CFEBA926D045D3A82580D5D /* CalendarEventsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6C20BADF6B8791E6C7EEA /* CalendarEventsScreen.swift */; };
++		6DE2A1C668D1B658F65BEBD5 /* ButtonPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FB2A0D5722EB04AE684299 /* ButtonPair.swift */; };
++		6E7A2423E445B8FF63322731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EFC233F89357BD7D0A6B04 /* Assets.xcassets */; };
++		6F7C45B799CA7598114B3F70 /* SoooonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD21A6022CACF6A9F05794A /* SoooonApp.swift */; };
++		6FD7F2EF6954D88AB7B79F8E /* partyHorn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D18C3CEF5F91A887A67D7571 /* partyHorn.m4a */; };
++		71C1FBD442EB0D78E2EF78C6 /* CountdownWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA59DC1BFE5DD123EED35A /* CountdownWidgetView.swift */; };
++		72C2DC1ACD0BF5582E6C2EBC /* UpNextWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43AFBDDB81FE61CD4E7694D /* UpNextWidget.swift */; };
++		7350439476B1AE254E2C5617 /* notifyDefault.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF05A5B72F4FDD080EB19C6F /* notifyDefault.caf */; };
++		74BA6A569B893B6E78075981 /* EmptyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0F241ED2343F613323B5E /* EmptyHomeView.swift */; };
++		74D2966B809FAFA8CCD085BE /* remove.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 09BF668AC96AAD2C05F99450 /* remove.m4a */; };
++		7571D705DFAE1F5B92A50CAF /* TogetherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3CFF58D3137DE124B6CCB1 /* TogetherButton.swift */; };
++		7647A135C4B04477AC63BB68 /* CelebrationChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA78CA3590F1233B1BE3A1D6 /* CelebrationChips.swift */; };
++		777E74CE723E374990B82BA6 /* SelectCountdownIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E718CA8A9448B5ABC0F8E /* SelectCountdownIntent.swift */; };
++		7854DB0C7066655592C6BA5B /* HeroCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF98E81E5A6A4C4FD5F429A6 /* HeroCardView.swift */; };
++		7A3BE492F04B46B375EA8FFB /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD5DA354C19456850412F2D /* Presentation */; };
++		7B24B2047B6CB8240A85DBBF /* PersonalityPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627FAC0DBBAB8F172F5BB3EC /* PersonalityPicker.swift */; };
++		7BA6DCF24868CD42723871F6 /* ShareScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670553F15657C7256CADC7BF /* ShareScreen.swift */; };
++		7BCCD9E354C3DBEAE3F34577 /* CountdownWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBABD9B131D97D0F9A7BA89 /* CountdownWidget.swift */; };
++		7C3A24DEA52F30007A978788 /* WidgetPokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA2B663DF8343ED705E5AE /* WidgetPokes.swift */; };
++		7D1CE13AF6454B7DB1770F9C /* notifyChristmas.caf in Resources */ = {isa = PBXBuildFile; fileRef = 47FF0A3560560593774D61B9 /* notifyChristmas.caf */; };
++		7D64740424BF053C5715C32F /* PhotoSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599910C17FD889257321079B /* PhotoSection.swift */; };
++		7E06BFC3374C9F1440C24AAA /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = CC32BE3BD7866E6833BA5A2D /* Domain */; };
++		837CBEEFF4EE11B26DE8030F /* StoreWindowSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2341FDC37BE5717776CAAFE5 /* StoreWindowSize.swift */; };
++		84254A8D45E8A4C3B17F093A /* CountdownLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BA03D53716E7D047D7E9 /* CountdownLiveActivity.swift */; };
++		84EB39796CAA303AF599500B /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C80FDDD241FDC81DFCDF7AF /* AppRouter.swift */; };
++		85D61E7AA1E609CA5AF3BFCB /* DataLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 813C0D3963E9F9E1D4CD7EF7 /* DataLayer */; };
++		8DE6F67794EBA0FAE6D86E62 /* LockScreenWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5914BAB394EFF49411ABB04 /* LockScreenWidgetView.swift */; };
++		8F2C80E6BC895509BF1F0C6C /* critterHiccup.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 11827FF25608C30D55AA6BB1 /* critterHiccup.m4a */; };
++		8F8592F48FD2C0B83AB07ACD /* critterHappy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DBCAE848272BBE748B2A9D36 /* critterHappy.m4a */; };
++		8FDD116E4EFDB99D3F20F0C0 /* Words in Frameworks */ = {isa = PBXBuildFile; productRef = 3ABB02CE182312BF5AC6DFBE /* Words */; };
++		923BE10AE4D880CA712F9111 /* SharedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49854E250FC0FF492F4D1FC3 /* SharedStack.swift */; };
++		94167D6AC581BCA40518B1E2 /* ShareClipFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E88844232DB32375E339E9 /* ShareClipFile.swift */; };
++		95583C8D0C83A47C8A048193 /* DragOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FBD624F5CA9126CF34A175 /* DragOut.swift */; };
++		9900CC55949DBC54D81BD00C /* CheerBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E49B1C9D429C4BA9625279 /* CheerBubble.swift */; };
++		9D02327DD9CFEF57DE9C2785 /* Almanac in Frameworks */ = {isa = PBXBuildFile; productRef = 5952BA2B30DD8F04589B20D7 /* Almanac */; };
++		9ED4BDB42793917B566DCC15 /* OccasionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F45232F33C92CA80DEA8322 /* OccasionPicker.swift */; };
++		A06D08108F39B803D0340F91 /* StoryTicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8286493446E06BDDBD37B501 /* StoryTicks.swift */; };
++		A1BAA1F9F53ECD6DE01B7E2F /* critterDizzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 29CB6C9DC3D3AA832C43EFB4 /* critterDizzy.m4a */; };
++		A2B5EE09B69341E31B7C724A /* CalendarSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDCCC1F0C9E80506C543D16 /* CalendarSection.swift */; };
++		A3900492A069B765DE97F5E7 /* EmojiStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BACBA6865028607238961C /* EmojiStrip.swift */; };
++		A3F7FDC15BD347DE2276229F /* ShareImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A59765991081FCAF8A51B /* ShareImage.swift */; };
++		A75FDB09AA0D9B316D9F47BF /* RecapPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91EB2934E2C48D3105B74A /* RecapPageView.swift */; };
++		A870F6E4BAE6E74E7B5221AA /* DataLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 55875337825C60170139BC68 /* DataLayer */; };
++		A8C082F3030024467F832E78 /* FinalSecondsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71000D166BF1E7CB71CBBAB3 /* FinalSecondsView.swift */; };
++		AC018A83E031174F380F154E /* critterRaspberry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6ADDDC78F6939B78EC177F9 /* critterRaspberry.m4a */; };
++		ACA35373A7929C4A05428E37 /* RecapLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E2375F42E6D446BF87561 /* RecapLauncher.swift */; };
++		AEB70712DDF629C503AB4656 /* CountdownEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81986C09181A4FEE9D55A281 /* CountdownEntity.swift */; };
++		B04CCEBA51A28FAD4DAA2D55 /* SmallCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C598AAA0C3B15E820DBA242 /* SmallCountdownView.swift */; };
++		B2F6A5DF6F5D318518DD9CF6 /* reveal.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7275A7F4B65C14DCC614256B /* reveal.m4a */; };
++		B492216B6B5632DB9541B147 /* Almanac in Frameworks */ = {isa = PBXBuildFile; productRef = C961BB88212A66F039F7DCD1 /* Almanac */; };
++		B7454D109DC501BE54E51799 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83ECB6CB2E67215F8E802A3 /* Sound.swift */; };
++		B98586DE962456D8E6FF24EF /* ErrorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB07531CE2AF2F714D3B4 /* ErrorStateView.swift */; };
++		B9A357B9BBBA094860C88206 /* ProRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070B579B2C44920D8D04384 /* ProRow.swift */; };
++		BA6E54A5E20E5D036A0FEA00 /* CostumeEarnedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC729D72E94B92853EDCE69 /* CostumeEarnedCard.swift */; };
++		BC7357D444208AF84A617BF5 /* MenuBarLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A847D55E5FA581F79E1D7 /* MenuBarLabel.swift */; };
++		C00E7F4887E8D2AB92DA73EC /* FormatChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994426B8E9BDBFCB14BC1CD /* FormatChips.swift */; };
++		C0FC8ACCB15DA66C59E9F39A /* tick.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DD459F0EF01DC98D71DAC902 /* tick.m4a */; };
++		C2065C28A40FE30C0FEF0E99 /* EditorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E31062C17ED433CE887FC /* EditorScreen.swift */; };
++		C40E5B2B2E03278EB170A445 /* critterCheer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FAE1620491C985A41313F120 /* critterCheer.m4a */; };
++		C602E71B42872570355A695A /* NativeMarketingMacExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B7B4BB8FEA3B6920A81096 /* NativeMarketingMacExport.swift */; };
++		C933C28E1E299B1176D61146 /* LaunchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F90321043ABB56D2658C58F /* LaunchRoot.swift */; };
++		CB30203E15472D4EDC7758EE /* ShareClipMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260C29850D2A0B22F8330E77 /* ShareClipMaker.swift */; };
++		CC35B3ABF7120EB797EDCDC6 /* ProBenefits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17FBA00F31862E1D7DC864 /* ProBenefits.swift */; };
++		CCC50320049BA18A0A43FF1F /* critterGiggle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 98FDF559A098023DD22422E3 /* critterGiggle.m4a */; };
++		CE8435683115198D97F908CA /* UpNextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EE1D8824F3022AC7E996F /* UpNextProvider.swift */; };
++		CE876125C797110E887710AD /* PlansCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066CF1C72BF91CB4FE2C631 /* PlansCover.swift */; };
++		CF1452B7DF56873811053850 /* LargeCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A844E398F1E8F58A7BBE7 /* LargeCountdownView.swift */; };
++		CFB108B95C721BA616F4F151 /* SuggestionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62974F8422D16917BF9D85 /* SuggestionRowView.swift */; };
++		D1CBBAD1461068D80EC0621B /* notifyToday.caf in Resources */ = {isa = PBXBuildFile; fileRef = 60A744C0A18D4A4A6201ECDB /* notifyToday.caf */; };
++		D20A91D76F927B5156C3FF82 /* critterCurious.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 63B78C1A6789F7AE32148F5F /* critterCurious.m4a */; };
++		D5C02EA6624D3230FA1A61B8 /* add.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4DA475B9EF8C7D260ECF7CDB /* add.m4a */; };
++		D67E73CB254F364F46283693 /* WidgetSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DA897F5AA4BBFFAD7DECA /* WidgetSamples.swift */; };
++		DAB785B685D19A0977D8E11F /* CountdownEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3DEF28603287324D66009 /* CountdownEntry.swift */; };
++		DCD8534E2651447AB44C7B9E /* LiveActivityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B22BB1B89DCAC610054123 /* LiveActivityViews.swift */; };
++		DDFF857AA8F22D8E5272E738 /* critterExcited.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 271E4BB117DECC2883978BCE /* critterExcited.m4a */; };
++		DE4883C0E2AB1A5E8534F310 /* boing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 467D881339639124FF414EC5 /* boing.m4a */; };
++		DECFEBE4D392C85B23FE1995 /* DemoClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921478FE30CADB536F5320A0 /* DemoClock.swift */; };
++		E0F3D515B40F82A52831794C /* WidgetEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C625C0816D03D338347F6D /* WidgetEmptyView.swift */; };
++		E1C5476D2416C892F2D5B2A6 /* CountingWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5877E159526948EDE5ED0D3 /* CountingWithLabel.swift */; };
++		E291959FA1F7CDCF259F7E7B /* RecapWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01B62A2A435D24A9AFF558 /* RecapWindow.swift */; };
++		E45C49FB537436334A8B4F11 /* doorOpen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 51834FB06238ED18318BD476 /* doorOpen.m4a */; };
++		E54AF1AC7CBE1FBA51B47AB3 /* CritterTapFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053AE29E118F9868BFC1FDCE /* CritterTapFeedback.swift */; };
++		E64F4E7A140E528F636BDA01 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = 654763FA7DD3AB59898C81F8 /* Presentation */; };
++		E82BDBF0305B1A0DB9065D9F /* notifyHalloween.caf in Resources */ = {isa = PBXBuildFile; fileRef = DAFCD7C1BAA9B2C6800C03D5 /* notifyHalloween.caf */; };
++		E885DD69AFA0E93F17158B11 /* pop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F8F5AB1D9B6383C182CEEBB4 /* pop.m4a */; };
++		EA0944D862F74D70F05783C4 /* FileShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3514FC88DFD038452887C5D /* FileShareButton.swift */; };
++		EDA49244227CACD5419A048A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D62EECE00AFA6A0DF48A0B /* RootView.swift */; };
++		EF4E7E7964245F06617BB641 /* WidgetSnapshotSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18567304DE5D822BF864149 /* WidgetSnapshotSource.swift */; };
++		F0321FA71208581C38476A1B /* CelebrationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A41610B9115749854FDD /* CelebrationsScreen.swift */; };
++		F153494E00241C7CC4492D52 /* drumroll.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 96F1CFC8036BCEF775CFA9CD /* drumroll.m4a */; };
++		F3F9A0C7BDD8880942F6309B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EE253CD619FEC085577D5675 /* Localizable.xcstrings */; };
++		F64795552F122EB767E3CE47 /* critterHuff.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22FF7F2ED3E72EBCAF1EC70A /* critterHuff.m4a */; };
++		F7E794A4E391D62FE401E4A5 /* tada.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B2CFADEAED90D2D202368D3B /* tada.m4a */; };
++		F9DB6EBC970379CA8C8BB356 /* RecapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032033E2F22B63B44085D628 /* RecapScreen.swift */; };
++		F9FE62412B36DE87CC7DC158 /* notifyTrip.caf in Resources */ = {isa = PBXBuildFile; fileRef = DADDAA3D9FC7FCA4F62E35E7 /* notifyTrip.caf */; };
++		FC2FB360E31C96FD932CB5DE /* confetti.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4AF117E7BFCB29EE64AD49A1 /* confetti.m4a */; };
++/* End PBXBuildFile section */
++
++/* Begin PBXContainerItemProxy section */
++		A9778BBDE984BB33D3B931F9 /* PBXContainerItemProxy */ = {
++			isa = PBXContainerItemProxy;
++			containerPortal = ADC349FD38D3E3D96C5219FB /* Project object */;
++			proxyType = 1;
++			remoteGlobalIDString = CF4886637CA8E23C69227E39;
++			remoteInfo = SoooonWidgets;
++		};
++/* End PBXContainerItemProxy section */
++
++/* Begin PBXCopyFilesBuildPhase section */
++		A425B02C0CE5C38F0BC0C3B6 /* Embed Foundation Extensions */ = {
++			isa = PBXCopyFilesBuildPhase;
++			buildActionMask = 2147483647;
++			dstPath = "";
++			dstSubfolderSpec = 13;
++			files = (
++				591BD2A3E5ADD05DAD5C1813 /* SoooonWidgets.appex in Embed Foundation Extensions */,
++			);
++			name = "Embed Foundation Extensions";
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++/* End PBXCopyFilesBuildPhase section */
++
++/* Begin PBXFileReference section */
++		031A59765991081FCAF8A51B /* ShareImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImage.swift; sourceTree = "<group>"; };
++		032033E2F22B63B44085D628 /* RecapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapScreen.swift; sourceTree = "<group>"; };
++		04C7A41610B9115749854FDD /* CelebrationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationsScreen.swift; sourceTree = "<group>"; };
++		053AE29E118F9868BFC1FDCE /* CritterTapFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterTapFeedback.swift; sourceTree = "<group>"; };
++		07DA23C42147AB34E32A506D /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
++		096D81FEEAA37DB5C2F201EB /* slideWhistle.m4a */ = {isa = PBXFileReference; path = slideWhistle.m4a; sourceTree = "<group>"; };
++		09BF668AC96AAD2C05F99450 /* remove.m4a */ = {isa = PBXFileReference; path = remove.m4a; sourceTree = "<group>"; };
++		0B6B1C3710313C803FD5E8A7 /* RecapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapPresenter.swift; sourceTree = "<group>"; };
++		0BD21A6022CACF6A9F05794A /* SoooonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoooonApp.swift; sourceTree = "<group>"; };
++		0E75C709B542AC1EF0FFE9F8 /* MilestoneSurpriseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneSurpriseCard.swift; sourceTree = "<group>"; };
++		0EAB93FE40927C4F2A77E2C8 /* PokeCritterIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCritterIntent.swift; sourceTree = "<group>"; };
++		1066CF1C72BF91CB4FE2C631 /* PlansCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansCover.swift; sourceTree = "<group>"; };
++		107FBD90C111F12642B25002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
++		11827FF25608C30D55AA6BB1 /* critterHiccup.m4a */ = {isa = PBXFileReference; path = critterHiccup.m4a; sourceTree = "<group>"; };
++		131666C8B320B2B092A892EF /* SoooonWidgets-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SoooonWidgets-macOS.entitlements"; sourceTree = "<group>"; };
++		1397D1D26697D8DF3E98A56D /* ShareSendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSendButton.swift; sourceTree = "<group>"; };
++		1487C2B9EBE7968E544AE750 /* CalendarLinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarLinkLabel.swift; sourceTree = "<group>"; };
++		198D230A8F08D9FF02E1488F /* SkeletonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonList.swift; sourceTree = "<group>"; };
++		1994426B8E9BDBFCB14BC1CD /* FormatChips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatChips.swift; sourceTree = "<group>"; };
++		1B60B7554AE71C7336BC8C33 /* CountdownDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownDetailScreen.swift; sourceTree = "<group>"; };
++		1C80FDDD241FDC81DFCDF7AF /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
++		22FF7F2ED3E72EBCAF1EC70A /* critterHuff.m4a */ = {isa = PBXFileReference; path = critterHuff.m4a; sourceTree = "<group>"; };
++		2341FDC37BE5717776CAAFE5 /* StoreWindowSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreWindowSize.swift; sourceTree = "<group>"; };
++		260C29850D2A0B22F8330E77 /* ShareClipMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareClipMaker.swift; sourceTree = "<group>"; };
++		271E4BB117DECC2883978BCE /* critterExcited.m4a */ = {isa = PBXFileReference; path = critterExcited.m4a; sourceTree = "<group>"; };
++		27C81E232975729AA1FD3C4A /* critterGasp.m4a */ = {isa = PBXFileReference; path = critterGasp.m4a; sourceTree = "<group>"; };
++		29CB6C9DC3D3AA832C43EFB4 /* critterDizzy.m4a */ = {isa = PBXFileReference; path = critterDizzy.m4a; sourceTree = "<group>"; };
++		2A84FBDAF4C2641F60F362CD /* SoooonWidgets-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SoooonWidgets-iOS.entitlements"; sourceTree = "<group>"; };
++		2E4AD58D0361A8993357A876 /* StoryZones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryZones.swift; sourceTree = "<group>"; };
++		2F45232F33C92CA80DEA8322 /* OccasionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccasionPicker.swift; sourceTree = "<group>"; };
++		35AA947C8B5B5057280FA1C5 /* Local-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Local-macOS.entitlements"; sourceTree = "<group>"; };
++		36AC69B0361825C838C75E5E /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
++		3E0E69BF9E4498AE3C5CEDE7 /* UpNextWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextWidgetView.swift; sourceTree = "<group>"; };
++		43D62EECE00AFA6A0DF48A0B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
++		467D881339639124FF414EC5 /* boing.m4a */ = {isa = PBXFileReference; path = boing.m4a; sourceTree = "<group>"; };
++		473E718CA8A9448B5ABC0F8E /* SelectCountdownIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountdownIntent.swift; sourceTree = "<group>"; };
++		4797AB178C85825131773034 /* MenuBarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContent.swift; sourceTree = "<group>"; };
++		47D328D1E6DF6D3F87B84CFF /* Soooon-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Soooon-macOS.entitlements"; sourceTree = "<group>"; };
++		47FF0A3560560593774D61B9 /* notifyChristmas.caf */ = {isa = PBXFileReference; path = notifyChristmas.caf; sourceTree = "<group>"; };
++		48F5B77F75721EA36424D50B /* critterPanic.m4a */ = {isa = PBXFileReference; path = critterPanic.m4a; sourceTree = "<group>"; };
++		49854E250FC0FF492F4D1FC3 /* SharedStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStack.swift; sourceTree = "<group>"; };
++		4AF117E7BFCB29EE64AD49A1 /* confetti.m4a */ = {isa = PBXFileReference; path = confetti.m4a; sourceTree = "<group>"; };
++		4C17FBA00F31862E1D7DC864 /* ProBenefits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProBenefits.swift; sourceTree = "<group>"; };
++		4D843988820E6BE06FB99B9E /* TraditionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraditionLabels.swift; sourceTree = "<group>"; };
++		4DA475B9EF8C7D260ECF7CDB /* add.m4a */ = {isa = PBXFileReference; path = add.m4a; sourceTree = "<group>"; };
++		4FDA59DC1BFE5DD123EED35A /* CountdownWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownWidgetView.swift; sourceTree = "<group>"; };
++		50CA2B663DF8343ED705E5AE /* WidgetPokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPokes.swift; sourceTree = "<group>"; };
++		51834FB06238ED18318BD476 /* doorOpen.m4a */ = {isa = PBXFileReference; path = doorOpen.m4a; sourceTree = "<group>"; };
++		581E31062C17ED433CE887FC /* EditorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorScreen.swift; sourceTree = "<group>"; };
++		599910C17FD889257321079B /* PhotoSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSection.swift; sourceTree = "<group>"; };
++		59B7B4BB8FEA3B6920A81096 /* NativeMarketingMacExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeMarketingMacExport.swift; sourceTree = "<group>"; };
++		5A1CA8DEBC8A65DA9C75C580 /* InviteReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteReceiver.swift; sourceTree = "<group>"; };
++		5F90321043ABB56D2658C58F /* LaunchRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRoot.swift; sourceTree = "<group>"; };
++		5FB08173747364BA824560DD /* SeasonBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonBannerView.swift; sourceTree = "<group>"; };
++		60A744C0A18D4A4A6201ECDB /* notifyToday.caf */ = {isa = PBXFileReference; path = notifyToday.caf; sourceTree = "<group>"; };
++		627FAC0DBBAB8F172F5BB3EC /* PersonalityPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityPicker.swift; sourceTree = "<group>"; };
++		635332F4296B701E9CC3537B /* ShareOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareOptions.swift; sourceTree = "<group>"; };
++		63B78C1A6789F7AE32148F5F /* critterCurious.m4a */ = {isa = PBXFileReference; path = critterCurious.m4a; sourceTree = "<group>"; };
++		670553F15657C7256CADC7BF /* ShareScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareScreen.swift; sourceTree = "<group>"; };
++		676C74C5FA36DE7AC5C6C1FD /* PokeableCritter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeableCritter.swift; sourceTree = "<group>"; };
++		67BACBA6865028607238961C /* EmojiStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiStrip.swift; sourceTree = "<group>"; };
++		68864311768120A6A300571B /* CritterCheer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterCheer.swift; sourceTree = "<group>"; };
++		6B10DE80F33E14CF4C45E711 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
++		6BBABD9B131D97D0F9A7BA89 /* CountdownWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownWidget.swift; sourceTree = "<group>"; };
++		6E423668EB8552BA24D366A8 /* notifyNewYear.caf */ = {isa = PBXFileReference; path = notifyNewYear.caf; sourceTree = "<group>"; };
++		7081C4A6ADE8ED6630B4CE8F /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
++		71000D166BF1E7CB71CBBAB3 /* FinalSecondsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalSecondsView.swift; sourceTree = "<group>"; };
++		71F75DF76CABCDCD1E07C3AD /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
++		7275A7F4B65C14DCC614256B /* reveal.m4a */ = {isa = PBXFileReference; path = reveal.m4a; sourceTree = "<group>"; };
++		76B2CA6B6298442A9FDC79CA /* squeak.m4a */ = {isa = PBXFileReference; path = squeak.m4a; sourceTree = "<group>"; };
++		7926727C5A637BAAA0178980 /* notifyLove.caf */ = {isa = PBXFileReference; path = notifyLove.caf; sourceTree = "<group>"; };
++		7C598AAA0C3B15E820DBA242 /* SmallCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCountdownView.swift; sourceTree = "<group>"; };
++		7D91EB2934E2C48D3105B74A /* RecapPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapPageView.swift; sourceTree = "<group>"; };
++		7E11D0FF7EBB99DA4993D844 /* PressableCardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressableCardStyle.swift; sourceTree = "<group>"; };
++		80977C1653D2B66CFF3D7857 /* LockScreenWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenWidget.swift; sourceTree = "<group>"; };
++		81986C09181A4FEE9D55A281 /* CountdownEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownEntity.swift; sourceTree = "<group>"; };
++		8286493446E06BDDBD37B501 /* StoryTicks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTicks.swift; sourceTree = "<group>"; };
++		84118B76A72A8C6D9343C4D8 /* SoooonWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoooonWidgetsBundle.swift; sourceTree = "<group>"; };
++		858CAB9D59B10D3886793769 /* MarketingFixtureTitles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MarketingFixtureTitles.json; sourceTree = "<group>"; };
++		8687DDFC13BD231B5440C541 /* PlansScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansScreen.swift; sourceTree = "<group>"; };
++		8BE0F241ED2343F613323B5E /* EmptyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyHomeView.swift; sourceTree = "<group>"; };
++		8E2C05AF2477F6D506F249FF /* ShareSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSamples.swift; sourceTree = "<group>"; };
++		8ED01A2A499B3257021BA551 /* CountdownProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownProvider.swift; sourceTree = "<group>"; };
++		921478FE30CADB536F5320A0 /* DemoClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoClock.swift; sourceTree = "<group>"; };
++		96F1CFC8036BCEF775CFA9CD /* drumroll.m4a */ = {isa = PBXFileReference; path = drumroll.m4a; sourceTree = "<group>"; };
++		98FDF559A098023DD22422E3 /* critterGiggle.m4a */ = {isa = PBXFileReference; path = critterGiggle.m4a; sourceTree = "<group>"; };
++		9F01F2D463607452D840DA8A /* Soooon.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Soooon.app; sourceTree = BUILT_PRODUCTS_DIR; };
++		A18567304DE5D822BF864149 /* WidgetSnapshotSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotSource.swift; sourceTree = "<group>"; };
++		A20E8CF5FBBB472A31D94A29 /* JoinSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinSheet.swift; sourceTree = "<group>"; };
++		A39E2375F42E6D446BF87561 /* RecapLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapLauncher.swift; sourceTree = "<group>"; };
++		A43AFBDDB81FE61CD4E7694D /* UpNextWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextWidget.swift; sourceTree = "<group>"; };
++		A5940899AF789A8C74B1DBAF /* notifyBirthday.caf */ = {isa = PBXFileReference; path = notifyBirthday.caf; sourceTree = "<group>"; };
++		A6EFC233F89357BD7D0A6B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
++		A7A347BD6B374361C47DCEEF /* DoorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorCardView.swift; sourceTree = "<group>"; };
++		A7B91D306F5D33AB2A9327F1 /* Soooon-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Soooon-iOS.entitlements"; sourceTree = "<group>"; };
++		AA12CECD4CF4C25862583127 /* OpenDoorIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenDoorIntent.swift; sourceTree = "<group>"; };
++		AC3CFF58D3137DE124B6CCB1 /* TogetherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogetherButton.swift; sourceTree = "<group>"; };
++		AC89BA03D53716E7D047D7E9 /* CountdownLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownLiveActivity.swift; sourceTree = "<group>"; };
++		AD009FC9E99F59E04F45E2DA /* SystemShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemShare.swift; sourceTree = "<group>"; };
++		AF35E4825BAEF8578D2045C8 /* PlansReason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansReason.swift; sourceTree = "<group>"; };
++		B15F10CDC4B75C9C4EA52A9A /* BirthdaysScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysScreen.swift; sourceTree = "<group>"; };
++		B247F4876EC8D4813D3C5B50 /* Swell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swell.swift; sourceTree = "<group>"; };
++		B2CFADEAED90D2D202368D3B /* tada.m4a */ = {isa = PBXFileReference; path = tada.m4a; sourceTree = "<group>"; };
++		B61431F8919038EFBA4AFE83 /* RecapSharePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapSharePage.swift; sourceTree = "<group>"; };
++		B623547C1305BB352A577297 /* FunUnitsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunUnitsGrid.swift; sourceTree = "<group>"; };
++		B6ADDDC78F6939B78EC177F9 /* critterRaspberry.m4a */ = {isa = PBXFileReference; path = critterRaspberry.m4a; sourceTree = "<group>"; };
++		B8FBD624F5CA9126CF34A175 /* DragOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragOut.swift; sourceTree = "<group>"; };
++		BA0A844E398F1E8F58A7BBE7 /* LargeCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCountdownView.swift; sourceTree = "<group>"; };
++		BADA516CB9DB636535369F71 /* SoooonKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SoooonKit; path = ../SoooonKit; sourceTree = SOURCE_ROOT; };
++		BBEDDBB06CF14EF2EE234C1A /* DiscoverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverScreen.swift; sourceTree = "<group>"; };
++		BCC27FB6F771751598906210 /* InviteNameSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteNameSection.swift; sourceTree = "<group>"; };
++		BEB5DA077352F52E6A560AD6 /* RecapHomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapHomeCard.swift; sourceTree = "<group>"; };
++		BEE0FBF21733D2EE5D9781D2 /* MediumCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumCountdownView.swift; sourceTree = "<group>"; };
++		BF05A5B72F4FDD080EB19C6F /* notifyDefault.caf */ = {isa = PBXFileReference; path = notifyDefault.caf; sourceTree = "<group>"; };
++		BFC729D72E94B92853EDCE69 /* CostumeEarnedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumeEarnedCard.swift; sourceTree = "<group>"; };
++		C1FB2A0D5722EB04AE684299 /* ButtonPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPair.swift; sourceTree = "<group>"; };
++		C3A6C20BADF6B8791E6C7EEA /* CalendarEventsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventsScreen.swift; sourceTree = "<group>"; };
++		C43A69CB17819BFD8E3F1104 /* PlanRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanRow.swift; sourceTree = "<group>"; };
++		C4BA40ED929B9592528E99BA /* tap.m4a */ = {isa = PBXFileReference; path = tap.m4a; sourceTree = "<group>"; };
++		C5118E149CB609ADDD8241A1 /* NewCountdownFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCountdownFlow.swift; sourceTree = "<group>"; };
++		C5877E159526948EDE5ED0D3 /* CountingWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingWithLabel.swift; sourceTree = "<group>"; };
++		C5914BAB394EFF49411ABB04 /* LockScreenWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenWidgetView.swift; sourceTree = "<group>"; };
++		C8C315FBD2117E02502B341C /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
++		CAE34C3CF3F9F259E2B46BCA /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
++		CBF3DEF28603287324D66009 /* CountdownEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownEntry.swift; sourceTree = "<group>"; };
++		CE62974F8422D16917BF9D85 /* SuggestionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionRowView.swift; sourceTree = "<group>"; };
++		CE9A847D55E5FA581F79E1D7 /* MenuBarLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarLabel.swift; sourceTree = "<group>"; };
++		CF98E81E5A6A4C4FD5F429A6 /* HeroCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardView.swift; sourceTree = "<group>"; };
++		D070B579B2C44920D8D04384 /* ProRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRow.swift; sourceTree = "<group>"; };
++		D18C3CEF5F91A887A67D7571 /* partyHorn.m4a */ = {isa = PBXFileReference; path = partyHorn.m4a; sourceTree = "<group>"; };
++		D59AD63FF40A1228FAD25176 /* critterYawn.m4a */ = {isa = PBXFileReference; path = critterYawn.m4a; sourceTree = "<group>"; };
++		D83ECB6CB2E67215F8E802A3 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
++		D8C0A0238B05795CAF4E5D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
++		D92DDD42C2A8A50D02BC7FC6 /* whoosh.m4a */ = {isa = PBXFileReference; path = whoosh.m4a; sourceTree = "<group>"; };
++		DA78CA3590F1233B1BE3A1D6 /* CelebrationChips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationChips.swift; sourceTree = "<group>"; };
++		DADDAA3D9FC7FCA4F62E35E7 /* notifyTrip.caf */ = {isa = PBXFileReference; path = notifyTrip.caf; sourceTree = "<group>"; };
++		DAFCD7C1BAA9B2C6800C03D5 /* notifyHalloween.caf */ = {isa = PBXFileReference; path = notifyHalloween.caf; sourceTree = "<group>"; };
++		DBCAE848272BBE748B2A9D36 /* critterHappy.m4a */ = {isa = PBXFileReference; path = critterHappy.m4a; sourceTree = "<group>"; };
++		DD459F0EF01DC98D71DAC902 /* tick.m4a */ = {isa = PBXFileReference; path = tick.m4a; sourceTree = "<group>"; };
++		DD7DA897F5AA4BBFFAD7DECA /* WidgetSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSamples.swift; sourceTree = "<group>"; };
++		DDB176F099685030CAA83F1D /* SoooonWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SoooonWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
++		DEBAB07531CE2AF2F714D3B4 /* ErrorStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorStateView.swift; sourceTree = "<group>"; };
++		DFC24696B045386167794ADB /* RecapSettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapSettingsRow.swift; sourceTree = "<group>"; };
++		E1B22BB1B89DCAC610054123 /* LiveActivityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityViews.swift; sourceTree = "<group>"; };
++		E1FF7616A8632032164A7D6E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
++		E2C625C0816D03D338347F6D /* WidgetEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEmptyView.swift; sourceTree = "<group>"; };
++		E5034D99F72C68C272F32264 /* critterBrrr.m4a */ = {isa = PBXFileReference; path = critterBrrr.m4a; sourceTree = "<group>"; };
++		E6E88844232DB32375E339E9 /* ShareClipFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareClipFile.swift; sourceTree = "<group>"; };
++		EE01B62A2A435D24A9AFF558 /* RecapWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapWindow.swift; sourceTree = "<group>"; };
++		EE253CD619FEC085577D5675 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
++		EFDCCC1F0C9E80506C543D16 /* CalendarSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSection.swift; sourceTree = "<group>"; };
++		F14EE1D8824F3022AC7E996F /* UpNextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextProvider.swift; sourceTree = "<group>"; };
++		F1C71742AE34874B81E2BB4F /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
++		F2AE6223689FC6F0FA06E314 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
++		F3514FC88DFD038452887C5D /* FileShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShareButton.swift; sourceTree = "<group>"; };
++		F5E49B1C9D429C4BA9625279 /* CheerBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerBubble.swift; sourceTree = "<group>"; };
++		F8F5AB1D9B6383C182CEEBB4 /* pop.m4a */ = {isa = PBXFileReference; path = pop.m4a; sourceTree = "<group>"; };
++		FAE1620491C985A41313F120 /* critterCheer.m4a */ = {isa = PBXFileReference; path = critterCheer.m4a; sourceTree = "<group>"; };
++		FD6D2B0E1BFCA1D1C438E600 /* WardrobeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeScreen.swift; sourceTree = "<group>"; };
++/* End PBXFileReference section */
++
++/* Begin PBXFrameworksBuildPhase section */
++		54ECACC64BF8424F313B9C60 /* Frameworks */ = {
++			isa = PBXFrameworksBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				9D02327DD9CFEF57DE9C2785 /* Almanac in Frameworks */,
++				7E06BFC3374C9F1440C24AAA /* Domain in Frameworks */,
++				2C06BD46F0723A7B3B48FF8D /* Words in Frameworks */,
++				85D61E7AA1E609CA5AF3BFCB /* DataLayer in Frameworks */,
++				7A3BE492F04B46B375EA8FFB /* Presentation in Frameworks */,
++				23C57860B369D9CB05D3EB76 /* DesignSystem in Frameworks */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++		C3B6CF1CAAD5FFA2A12852EB /* Frameworks */ = {
++			isa = PBXFrameworksBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				B492216B6B5632DB9541B147 /* Almanac in Frameworks */,
++				48A45FCC77C9B74E893F3D14 /* Domain in Frameworks */,
++				8FDD116E4EFDB99D3F20F0C0 /* Words in Frameworks */,
++				A870F6E4BAE6E74E7B5221AA /* DataLayer in Frameworks */,
++				E64F4E7A140E528F636BDA01 /* Presentation in Frameworks */,
++				1DFF3EDA5FED61A41AE90CDC /* DesignSystem in Frameworks */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++/* End PBXFrameworksBuildPhase section */
++
++/* Begin PBXGroup section */
++		0FB9911072DC5334B30D2339 /* SoooonWidgets */ = {
++			isa = PBXGroup;
++			children = (
++				5319001F7F7E8935EF14D7FA /* Intents */,
++				185D7528F56E16EB2784801B /* Timeline */,
++				88F35263C5FFD700396C14AB /* Views */,
++				236170A090BCC02CC720C579 /* Widgets */,
++				107FBD90C111F12642B25002 /* Info.plist */,
++				CAE34C3CF3F9F259E2B46BCA /* Localizable.xcstrings */,
++				2A84FBDAF4C2641F60F362CD /* SoooonWidgets-iOS.entitlements */,
++				131666C8B320B2B092A892EF /* SoooonWidgets-macOS.entitlements */,
++			);
++			path = SoooonWidgets;
++			sourceTree = "<group>";
++		};
++		13BD70EEA2152B54D3FC758D /* Onboarding */ = {
++			isa = PBXGroup;
++			children = (
++				36AC69B0361825C838C75E5E /* OnboardingScreen.swift */,
++			);
++			path = Onboarding;
++			sourceTree = "<group>";
++		};
++		15368F716C7C0792D536C348 /* Sounds */ = {
++			isa = PBXGroup;
++			children = (
++				4DA475B9EF8C7D260ECF7CDB /* add.m4a */,
++				467D881339639124FF414EC5 /* boing.m4a */,
++				4AF117E7BFCB29EE64AD49A1 /* confetti.m4a */,
++				E5034D99F72C68C272F32264 /* critterBrrr.m4a */,
++				FAE1620491C985A41313F120 /* critterCheer.m4a */,
++				63B78C1A6789F7AE32148F5F /* critterCurious.m4a */,
++				29CB6C9DC3D3AA832C43EFB4 /* critterDizzy.m4a */,
++				271E4BB117DECC2883978BCE /* critterExcited.m4a */,
++				27C81E232975729AA1FD3C4A /* critterGasp.m4a */,
++				98FDF559A098023DD22422E3 /* critterGiggle.m4a */,
++				DBCAE848272BBE748B2A9D36 /* critterHappy.m4a */,
++				11827FF25608C30D55AA6BB1 /* critterHiccup.m4a */,
++				22FF7F2ED3E72EBCAF1EC70A /* critterHuff.m4a */,
++				48F5B77F75721EA36424D50B /* critterPanic.m4a */,
++				B6ADDDC78F6939B78EC177F9 /* critterRaspberry.m4a */,
++				D59AD63FF40A1228FAD25176 /* critterYawn.m4a */,
++				51834FB06238ED18318BD476 /* doorOpen.m4a */,
++				96F1CFC8036BCEF775CFA9CD /* drumroll.m4a */,
++				A5940899AF789A8C74B1DBAF /* notifyBirthday.caf */,
++				47FF0A3560560593774D61B9 /* notifyChristmas.caf */,
++				BF05A5B72F4FDD080EB19C6F /* notifyDefault.caf */,
++				DAFCD7C1BAA9B2C6800C03D5 /* notifyHalloween.caf */,
++				7926727C5A637BAAA0178980 /* notifyLove.caf */,
++				6E423668EB8552BA24D366A8 /* notifyNewYear.caf */,
++				60A744C0A18D4A4A6201ECDB /* notifyToday.caf */,
++				DADDAA3D9FC7FCA4F62E35E7 /* notifyTrip.caf */,
++				D18C3CEF5F91A887A67D7571 /* partyHorn.m4a */,
++				F8F5AB1D9B6383C182CEEBB4 /* pop.m4a */,
++				09BF668AC96AAD2C05F99450 /* remove.m4a */,
++				7275A7F4B65C14DCC614256B /* reveal.m4a */,
++				096D81FEEAA37DB5C2F201EB /* slideWhistle.m4a */,
++				76B2CA6B6298442A9FDC79CA /* squeak.m4a */,
++				B2CFADEAED90D2D202368D3B /* tada.m4a */,
++				C4BA40ED929B9592528E99BA /* tap.m4a */,
++				DD459F0EF01DC98D71DAC902 /* tick.m4a */,
++				D92DDD42C2A8A50D02BC7FC6 /* whoosh.m4a */,
++			);
++			path = Sounds;
++			sourceTree = "<group>";
++		};
++		185D7528F56E16EB2784801B /* Timeline */ = {
++			isa = PBXGroup;
++			children = (
++				CBF3DEF28603287324D66009 /* CountdownEntry.swift */,
++				8ED01A2A499B3257021BA551 /* CountdownProvider.swift */,
++				68864311768120A6A300571B /* CritterCheer.swift */,
++				F14EE1D8824F3022AC7E996F /* UpNextProvider.swift */,
++				50CA2B663DF8343ED705E5AE /* WidgetPokes.swift */,
++				DD7DA897F5AA4BBFFAD7DECA /* WidgetSamples.swift */,
++				A18567304DE5D822BF864149 /* WidgetSnapshotSource.swift */,
++			);
++			path = Timeline;
++			sourceTree = "<group>";
++		};
++		236170A090BCC02CC720C579 /* Widgets */ = {
++			isa = PBXGroup;
++			children = (
++				AC89BA03D53716E7D047D7E9 /* CountdownLiveActivity.swift */,
++				6BBABD9B131D97D0F9A7BA89 /* CountdownWidget.swift */,
++				80977C1653D2B66CFF3D7857 /* LockScreenWidget.swift */,
++				84118B76A72A8C6D9343C4D8 /* SoooonWidgetsBundle.swift */,
++				A43AFBDDB81FE61CD4E7694D /* UpNextWidget.swift */,
++			);
++			path = Widgets;
++			sourceTree = "<group>";
++		};
++		3877FA207B8F2D37E9BAC106 /* Home */ = {
++			isa = PBXGroup;
++			children = (
++				CF98E81E5A6A4C4FD5F429A6 /* HeroCardView.swift */,
++				E1FF7616A8632032164A7D6E /* HomeScreen.swift */,
++				5FB08173747364BA824560DD /* SeasonBannerView.swift */,
++			);
++			path = Home;
++			sourceTree = "<group>";
++		};
++		3F1CAF43AC82DF9D83AF758D = {
++			isa = PBXGroup;
++			children = (
++				8631051E13BA4AF294857B90 /* Packages */,
++				5FA94A69D6B697FA17D14D9A /* Shared */,
++				9EBD2CA62800909778DFC3CD /* Soooon */,
++				0FB9911072DC5334B30D2339 /* SoooonWidgets */,
++				410641FD781B22A22F7C6994 /* Products */,
++			);
++			sourceTree = "<group>";
++		};
++		410641FD781B22A22F7C6994 /* Products */ = {
++			isa = PBXGroup;
++			children = (
++				9F01F2D463607452D840DA8A /* Soooon.app */,
++				DDB176F099685030CAA83F1D /* SoooonWidgets.appex */,
++			);
++			name = Products;
++			sourceTree = "<group>";
++		};
++		467FF917EA2F112DDB527260 /* Share */ = {
++			isa = PBXGroup;
++			children = (
++				B8FBD624F5CA9126CF34A175 /* DragOut.swift */,
++				F3514FC88DFD038452887C5D /* FileShareButton.swift */,
++				1994426B8E9BDBFCB14BC1CD /* FormatChips.swift */,
++				E6E88844232DB32375E339E9 /* ShareClipFile.swift */,
++				260C29850D2A0B22F8330E77 /* ShareClipMaker.swift */,
++				031A59765991081FCAF8A51B /* ShareImage.swift */,
++				635332F4296B701E9CC3537B /* ShareOptions.swift */,
++				8E2C05AF2477F6D506F249FF /* ShareSamples.swift */,
++				670553F15657C7256CADC7BF /* ShareScreen.swift */,
++				1397D1D26697D8DF3E98A56D /* ShareSendButton.swift */,
++			);
++			path = Share;
++			sourceTree = "<group>";
++		};
++		5319001F7F7E8935EF14D7FA /* Intents */ = {
++			isa = PBXGroup;
++			children = (
++				81986C09181A4FEE9D55A281 /* CountdownEntity.swift */,
++				AA12CECD4CF4C25862583127 /* OpenDoorIntent.swift */,
++				0EAB93FE40927C4F2A77E2C8 /* PokeCritterIntent.swift */,
++				473E718CA8A9448B5ABC0F8E /* SelectCountdownIntent.swift */,
++			);
++			path = Intents;
++			sourceTree = "<group>";
++		};
++		538052E491C75525F36A7F1D /* Plans */ = {
++			isa = PBXGroup;
++			children = (
++				C43A69CB17819BFD8E3F1104 /* PlanRow.swift */,
++				1066CF1C72BF91CB4FE2C631 /* PlansCover.swift */,
++				AF35E4825BAEF8578D2045C8 /* PlansReason.swift */,
++				8687DDFC13BD231B5440C541 /* PlansScreen.swift */,
++				4C17FBA00F31862E1D7DC864 /* ProBenefits.swift */,
++			);
++			path = Plans;
++			sourceTree = "<group>";
++		};
++		5FA94A69D6B697FA17D14D9A /* Shared */ = {
++			isa = PBXGroup;
++			children = (
++				49854E250FC0FF492F4D1FC3 /* SharedStack.swift */,
++			);
++			path = Shared;
++			sourceTree = "<group>";
++		};
++		6E725ED95FB245A778A4B375 /* Components */ = {
++			isa = PBXGroup;
++			children = (
++				C1FB2A0D5722EB04AE684299 /* ButtonPair.swift */,
++				8BE0F241ED2343F613323B5E /* EmptyHomeView.swift */,
++				DEBAB07531CE2AF2F714D3B4 /* ErrorStateView.swift */,
++				7E11D0FF7EBB99DA4993D844 /* PressableCardStyle.swift */,
++				198D230A8F08D9FF02E1488F /* SkeletonList.swift */,
++			);
++			path = Components;
++			sourceTree = "<group>";
++		};
++		7073C7626D4BDA91697278C1 /* Resources */ = {
++			isa = PBXGroup;
++			children = (
++				15368F716C7C0792D536C348 /* Sounds */,
++				A6EFC233F89357BD7D0A6B04 /* Assets.xcassets */,
++				07DA23C42147AB34E32A506D /* InfoPlist.xcstrings */,
++				EE253CD619FEC085577D5675 /* Localizable.xcstrings */,
++				858CAB9D59B10D3886793769 /* MarketingFixtureTitles.json */,
++			);
++			path = Resources;
++			sourceTree = "<group>";
++		};
++		7A4957FA9608081718FD14C1 /* App */ = {
++			isa = PBXGroup;
++			children = (
++				71F75DF76CABCDCD1E07C3AD /* AppContainer.swift */,
++				1C80FDDD241FDC81DFCDF7AF /* AppRouter.swift */,
++				921478FE30CADB536F5320A0 /* DemoClock.swift */,
++				C8C315FBD2117E02502B341C /* DemoSeed.swift */,
++				5F90321043ABB56D2658C58F /* LaunchRoot.swift */,
++				F2AE6223689FC6F0FA06E314 /* Links.swift */,
++				59B7B4BB8FEA3B6920A81096 /* NativeMarketingMacExport.swift */,
++				7081C4A6ADE8ED6630B4CE8F /* NotificationDelegate.swift */,
++				43D62EECE00AFA6A0DF48A0B /* RootView.swift */,
++				0BD21A6022CACF6A9F05794A /* SoooonApp.swift */,
++			);
++			path = App;
++			sourceTree = "<group>";
++		};
++		8631051E13BA4AF294857B90 /* Packages */ = {
++			isa = PBXGroup;
++			children = (
++				BADA516CB9DB636535369F71 /* SoooonKit */,
++			);
++			name = Packages;
++			sourceTree = "<group>";
++		};
++		868B2EB20CA6F471B6CDE09E /* Screens */ = {
++			isa = PBXGroup;
++			children = (
++				EAD2296CDF09718128EDE3C3 /* Celebrations */,
++				6E725ED95FB245A778A4B375 /* Components */,
++				C37BCF77EEEE84CE5BE9ECB4 /* Detail */,
++				DEB5A8729810FF4E9D63D34D /* Discover */,
++				A42EB34389010735C49F09F7 /* Editor */,
++				3877FA207B8F2D37E9BAC106 /* Home */,
++				D7C373698A24237AE5DC5944 /* Mac */,
++				13BD70EEA2152B54D3FC758D /* Onboarding */,
++				538052E491C75525F36A7F1D /* Plans */,
++				9EC8A52FCE3C39B61E486596 /* Recap */,
++				93DAAFD566EFB76DEB3328B3 /* Settings */,
++				467FF917EA2F112DDB527260 /* Share */,
++				FE7FB56ED794BC4BF1C0961C /* Together */,
++				8838C1AF5B2D12BDBE532703 /* Wardrobe */,
++			);
++			path = Screens;
++			sourceTree = "<group>";
++		};
++		8838C1AF5B2D12BDBE532703 /* Wardrobe */ = {
++			isa = PBXGroup;
++			children = (
++				BFC729D72E94B92853EDCE69 /* CostumeEarnedCard.swift */,
++				FD6D2B0E1BFCA1D1C438E600 /* WardrobeScreen.swift */,
++			);
++			path = Wardrobe;
++			sourceTree = "<group>";
++		};
++		88F35263C5FFD700396C14AB /* Views */ = {
++			isa = PBXGroup;
++			children = (
++				F5E49B1C9D429C4BA9625279 /* CheerBubble.swift */,
++				4FDA59DC1BFE5DD123EED35A /* CountdownWidgetView.swift */,
++				BA0A844E398F1E8F58A7BBE7 /* LargeCountdownView.swift */,
++				E1B22BB1B89DCAC610054123 /* LiveActivityViews.swift */,
++				C5914BAB394EFF49411ABB04 /* LockScreenWidgetView.swift */,
++				BEE0FBF21733D2EE5D9781D2 /* MediumCountdownView.swift */,
++				676C74C5FA36DE7AC5C6C1FD /* PokeableCritter.swift */,
++				7C598AAA0C3B15E820DBA242 /* SmallCountdownView.swift */,
++				3E0E69BF9E4498AE3C5CEDE7 /* UpNextWidgetView.swift */,
++				E2C625C0816D03D338347F6D /* WidgetEmptyView.swift */,
++			);
++			path = Views;
++			sourceTree = "<group>";
++		};
++		93DAAFD566EFB76DEB3328B3 /* Settings */ = {
++			isa = PBXGroup;
++			children = (
++				BCC27FB6F771751598906210 /* InviteNameSection.swift */,
++				627FAC0DBBAB8F172F5BB3EC /* PersonalityPicker.swift */,
++				D070B579B2C44920D8D04384 /* ProRow.swift */,
++				F1C71742AE34874B81E2BB4F /* SettingsScreen.swift */,
++			);
++			path = Settings;
++			sourceTree = "<group>";
++		};
++		9EBD2CA62800909778DFC3CD /* Soooon */ = {
++			isa = PBXGroup;
++			children = (
++				7A4957FA9608081718FD14C1 /* App */,
++				C85ED21F4A6ABE2173537001 /* Feedback */,
++				7073C7626D4BDA91697278C1 /* Resources */,
++				868B2EB20CA6F471B6CDE09E /* Screens */,
++				E86994F8217497521F3F1E77 /* Support */,
++			);
++			path = Soooon;
++			sourceTree = "<group>";
++		};
++		9EC8A52FCE3C39B61E486596 /* Recap */ = {
++			isa = PBXGroup;
++			children = (
++				BEB5DA077352F52E6A560AD6 /* RecapHomeCard.swift */,
++				A39E2375F42E6D446BF87561 /* RecapLauncher.swift */,
++				7D91EB2934E2C48D3105B74A /* RecapPageView.swift */,
++				0B6B1C3710313C803FD5E8A7 /* RecapPresenter.swift */,
++				032033E2F22B63B44085D628 /* RecapScreen.swift */,
++				DFC24696B045386167794ADB /* RecapSettingsRow.swift */,
++				B61431F8919038EFBA4AFE83 /* RecapSharePage.swift */,
++				EE01B62A2A435D24A9AFF558 /* RecapWindow.swift */,
++				8286493446E06BDDBD37B501 /* StoryTicks.swift */,
++				2E4AD58D0361A8993357A876 /* StoryZones.swift */,
++			);
++			path = Recap;
++			sourceTree = "<group>";
++		};
++		A42EB34389010735C49F09F7 /* Editor */ = {
++			isa = PBXGroup;
++			children = (
++				581E31062C17ED433CE887FC /* EditorScreen.swift */,
++				67BACBA6865028607238961C /* EmojiStrip.swift */,
++				C5118E149CB609ADDD8241A1 /* NewCountdownFlow.swift */,
++				2F45232F33C92CA80DEA8322 /* OccasionPicker.swift */,
++				599910C17FD889257321079B /* PhotoSection.swift */,
++			);
++			path = Editor;
++			sourceTree = "<group>";
++		};
++		C37BCF77EEEE84CE5BE9ECB4 /* Detail */ = {
++			isa = PBXGroup;
++			children = (
++				1487C2B9EBE7968E544AE750 /* CalendarLinkLabel.swift */,
++				1B60B7554AE71C7336BC8C33 /* CountdownDetailScreen.swift */,
++				A7A347BD6B374361C47DCEEF /* DoorCardView.swift */,
++				71000D166BF1E7CB71CBBAB3 /* FinalSecondsView.swift */,
++				B623547C1305BB352A577297 /* FunUnitsGrid.swift */,
++				0E75C709B542AC1EF0FFE9F8 /* MilestoneSurpriseCard.swift */,
++				B247F4876EC8D4813D3C5B50 /* Swell.swift */,
++			);
++			path = Detail;
++			sourceTree = "<group>";
++		};
++		C85ED21F4A6ABE2173537001 /* Feedback */ = {
++			isa = PBXGroup;
++			children = (
++				053AE29E118F9868BFC1FDCE /* CritterTapFeedback.swift */,
++				D83ECB6CB2E67215F8E802A3 /* Sound.swift */,
++				6B10DE80F33E14CF4C45E711 /* SoundPlayer.swift */,
++			);
++			path = Feedback;
++			sourceTree = "<group>";
++		};
++		D7C373698A24237AE5DC5944 /* Mac */ = {
++			isa = PBXGroup;
++			children = (
++				4797AB178C85825131773034 /* MenuBarContent.swift */,
++				CE9A847D55E5FA581F79E1D7 /* MenuBarLabel.swift */,
++				2341FDC37BE5717776CAAFE5 /* StoreWindowSize.swift */,
++			);
++			path = Mac;
++			sourceTree = "<group>";
++		};
++		DEB5A8729810FF4E9D63D34D /* Discover */ = {
++			isa = PBXGroup;
++			children = (
++				B15F10CDC4B75C9C4EA52A9A /* BirthdaysScreen.swift */,
++				C3A6C20BADF6B8791E6C7EEA /* CalendarEventsScreen.swift */,
++				EFDCCC1F0C9E80506C543D16 /* CalendarSection.swift */,
++				BBEDDBB06CF14EF2EE234C1A /* DiscoverScreen.swift */,
++				CE62974F8422D16917BF9D85 /* SuggestionRowView.swift */,
++			);
++			path = Discover;
++			sourceTree = "<group>";
++		};
++		E86994F8217497521F3F1E77 /* Support */ = {
++			isa = PBXGroup;
++			children = (
++				D8C0A0238B05795CAF4E5D8D /* Info.plist */,
++				35AA947C8B5B5057280FA1C5 /* Local-macOS.entitlements */,
++				A7B91D306F5D33AB2A9327F1 /* Soooon-iOS.entitlements */,
++				47D328D1E6DF6D3F87B84CFF /* Soooon-macOS.entitlements */,
++			);
++			path = Support;
++			sourceTree = "<group>";
++		};
++		EAD2296CDF09718128EDE3C3 /* Celebrations */ = {
++			isa = PBXGroup;
++			children = (
++				DA78CA3590F1233B1BE3A1D6 /* CelebrationChips.swift */,
++				04C7A41610B9115749854FDD /* CelebrationsScreen.swift */,
++				4D843988820E6BE06FB99B9E /* TraditionLabels.swift */,
++			);
++			path = Celebrations;
++			sourceTree = "<group>";
++		};
++		FE7FB56ED794BC4BF1C0961C /* Together */ = {
++			isa = PBXGroup;
++			children = (
++				C5877E159526948EDE5ED0D3 /* CountingWithLabel.swift */,
++				5A1CA8DEBC8A65DA9C75C580 /* InviteReceiver.swift */,
++				A20E8CF5FBBB472A31D94A29 /* JoinSheet.swift */,
++				AD009FC9E99F59E04F45E2DA /* SystemShare.swift */,
++				AC3CFF58D3137DE124B6CCB1 /* TogetherButton.swift */,
++			);
++			path = Together;
++			sourceTree = "<group>";
++		};
++/* End PBXGroup section */
++
++/* Begin PBXNativeTarget section */
++		6377E7661B1DFE58A4F31568 /* Soooon */ = {
++			isa = PBXNativeTarget;
++			buildConfigurationList = 52C2E8921AC777498ADC49F3 /* Build configuration list for PBXNativeTarget "Soooon" */;
++			buildPhases = (
++				C0FA9493C95E3258B81C36CB /* Sources */,
++				63907A4860FAEAFD3B04BF56 /* Resources */,
++				54ECACC64BF8424F313B9C60 /* Frameworks */,
++				A425B02C0CE5C38F0BC0C3B6 /* Embed Foundation Extensions */,
++			);
++			buildRules = (
++			);
++			dependencies = (
++				6F7DB3A855483B9C3C2749B8 /* PBXTargetDependency */,
++			);
++			name = Soooon;
++			packageProductDependencies = (
++				5952BA2B30DD8F04589B20D7 /* Almanac */,
++				CC32BE3BD7866E6833BA5A2D /* Domain */,
++				E6C29B9D4C438285A233422B /* Words */,
++				813C0D3963E9F9E1D4CD7EF7 /* DataLayer */,
++				1FD5DA354C19456850412F2D /* Presentation */,
++				3E8FA60161D7C59942635FE8 /* DesignSystem */,
++			);
++			productName = Soooon;
++			productReference = 9F01F2D463607452D840DA8A /* Soooon.app */;
++			productType = "com.apple.product-type.application";
++		};
++		CF4886637CA8E23C69227E39 /* SoooonWidgets */ = {
++			isa = PBXNativeTarget;
++			buildConfigurationList = 728D6CAE08E933269BBF439A /* Build configuration list for PBXNativeTarget "SoooonWidgets" */;
++			buildPhases = (
++				97FB7C179F5E66211AE0E1A2 /* Sources */,
++				92C0300AE7264CA3652E8C74 /* Resources */,
++				C3B6CF1CAAD5FFA2A12852EB /* Frameworks */,
++			);
++			buildRules = (
++			);
++			dependencies = (
++			);
++			name = SoooonWidgets;
++			packageProductDependencies = (
++				C961BB88212A66F039F7DCD1 /* Almanac */,
++				FF5A14CCC86E34CB2C4B200F /* Domain */,
++				3ABB02CE182312BF5AC6DFBE /* Words */,
++				55875337825C60170139BC68 /* DataLayer */,
++				654763FA7DD3AB59898C81F8 /* Presentation */,
++				8CFDFF16999D9983CD3AEF1F /* DesignSystem */,
++			);
++			productName = SoooonWidgets;
++			productReference = DDB176F099685030CAA83F1D /* SoooonWidgets.appex */;
++			productType = "com.apple.product-type.app-extension";
++		};
++/* End PBXNativeTarget section */
++
++/* Begin PBXProject section */
++		ADC349FD38D3E3D96C5219FB /* Project object */ = {
++			isa = PBXProject;
++			attributes = {
++				BuildIndependentTargetsInParallel = YES;
++				LastUpgradeCheck = 1430;
++				TargetAttributes = {
++					6377E7661B1DFE58A4F31568 = {
++						DevelopmentTeam = AYZ4DPUAYU;
++						ProvisioningStyle = Automatic;
++					};
++					CF4886637CA8E23C69227E39 = {
++						DevelopmentTeam = AYZ4DPUAYU;
++						ProvisioningStyle = Automatic;
++					};
++				};
++			};
++			buildConfigurationList = D20527DE9577239C59D38C71 /* Build configuration list for PBXProject "Soooon" */;
++			developmentRegion = en;
++			hasScannedForEncodings = 0;
++			knownRegions = (
++				Base,
++				ar,
++				bg,
++				bn,
++				ca,
++				cs,
++				da,
++				de,
++				el,
++				en,
++				es,
++				"es-419",
++				"es-US",
++				fi,
++				fr,
++				"fr-CA",
++				gu,
++				he,
++				hi,
++				hr,
++				hu,
++				id,
++				it,
++				ja,
++				kk,
++				kn,
++				ko,
++				lt,
++				ml,
++				mr,
++				ms,
++				nb,
++				nl,
++				or,
++				pa,
++				pl,
++				"pt-BR",
++				"pt-PT",
++				ro,
++				ru,
++				sk,
++				sl,
++				sv,
++				ta,
++				te,
++				th,
++				tr,
++				uk,
++				ur,
++				vi,
++				"zh-HK",
++				"zh-Hans",
++				"zh-Hant",
++			);
++			mainGroup = 3F1CAF43AC82DF9D83AF758D;
++			minimizedProjectReferenceProxies = 1;
++			packageReferences = (
++				2BAC2F83E643896E5BB8A5A2 /* XCLocalSwiftPackageReference "../SoooonKit" */,
++			);
++			preferredProjectObjectVersion = 77;
++			productRefGroup = 410641FD781B22A22F7C6994 /* Products */;
++			projectDirPath = "";
++			projectRoot = "";
++			targets = (
++				6377E7661B1DFE58A4F31568 /* Soooon */,
++				CF4886637CA8E23C69227E39 /* SoooonWidgets */,
++			);
++		};
++/* End PBXProject section */
++
++/* Begin PBXResourcesBuildPhase section */
++		63907A4860FAEAFD3B04BF56 /* Resources */ = {
++			isa = PBXResourcesBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				6E7A2423E445B8FF63322731 /* Assets.xcassets in Resources */,
++				69DBE0C27D313E66F88AFE00 /* InfoPlist.xcstrings in Resources */,
++				F3F9A0C7BDD8880942F6309B /* Localizable.xcstrings in Resources */,
++				67CD4C9D554912A6DD1296E0 /* MarketingFixtureTitles.json in Resources */,
++				D5C02EA6624D3230FA1A61B8 /* add.m4a in Resources */,
++				DE4883C0E2AB1A5E8534F310 /* boing.m4a in Resources */,
++				FC2FB360E31C96FD932CB5DE /* confetti.m4a in Resources */,
++				3B98407CF7A289807D7E086F /* critterBrrr.m4a in Resources */,
++				C40E5B2B2E03278EB170A445 /* critterCheer.m4a in Resources */,
++				D20A91D76F927B5156C3FF82 /* critterCurious.m4a in Resources */,
++				A1BAA1F9F53ECD6DE01B7E2F /* critterDizzy.m4a in Resources */,
++				DDFF857AA8F22D8E5272E738 /* critterExcited.m4a in Resources */,
++				483BEA0B22C2C0F534626C07 /* critterGasp.m4a in Resources */,
++				CCC50320049BA18A0A43FF1F /* critterGiggle.m4a in Resources */,
++				8F8592F48FD2C0B83AB07ACD /* critterHappy.m4a in Resources */,
++				8F2C80E6BC895509BF1F0C6C /* critterHiccup.m4a in Resources */,
++				F64795552F122EB767E3CE47 /* critterHuff.m4a in Resources */,
++				31733CFC0417396D84D0D2B4 /* critterPanic.m4a in Resources */,
++				AC018A83E031174F380F154E /* critterRaspberry.m4a in Resources */,
++				25DED080B6CECCF23FC47163 /* critterYawn.m4a in Resources */,
++				E45C49FB537436334A8B4F11 /* doorOpen.m4a in Resources */,
++				F153494E00241C7CC4492D52 /* drumroll.m4a in Resources */,
++				34B749ACE45F35D9F84234FB /* notifyBirthday.caf in Resources */,
++				7D1CE13AF6454B7DB1770F9C /* notifyChristmas.caf in Resources */,
++				7350439476B1AE254E2C5617 /* notifyDefault.caf in Resources */,
++				E82BDBF0305B1A0DB9065D9F /* notifyHalloween.caf in Resources */,
++				2BD51197D7D8267114DE82AA /* notifyLove.caf in Resources */,
++				185182CB74110B3414A3740A /* notifyNewYear.caf in Resources */,
++				D1CBBAD1461068D80EC0621B /* notifyToday.caf in Resources */,
++				F9FE62412B36DE87CC7DC158 /* notifyTrip.caf in Resources */,
++				6FD7F2EF6954D88AB7B79F8E /* partyHorn.m4a in Resources */,
++				E885DD69AFA0E93F17158B11 /* pop.m4a in Resources */,
++				74D2966B809FAFA8CCD085BE /* remove.m4a in Resources */,
++				B2F6A5DF6F5D318518DD9CF6 /* reveal.m4a in Resources */,
++				3B8D8E2A18EAF06B83232BA2 /* slideWhistle.m4a in Resources */,
++				4664FADFB60F22DBC39A8301 /* squeak.m4a in Resources */,
++				F7E794A4E391D62FE401E4A5 /* tada.m4a in Resources */,
++				06E4944C2DADC25E73E0468E /* tap.m4a in Resources */,
++				C0FC8ACCB15DA66C59E9F39A /* tick.m4a in Resources */,
++				14FE416A32B6A24DC4E5A865 /* whoosh.m4a in Resources */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++		92C0300AE7264CA3652E8C74 /* Resources */ = {
++			isa = PBXResourcesBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				0E769C9CCE539519148D8FCB /* Localizable.xcstrings in Resources */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++/* End PBXResourcesBuildPhase section */
++
++/* Begin PBXSourcesBuildPhase section */
++		97FB7C179F5E66211AE0E1A2 /* Sources */ = {
++			isa = PBXSourcesBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				9900CC55949DBC54D81BD00C /* CheerBubble.swift in Sources */,
++				AEB70712DDF629C503AB4656 /* CountdownEntity.swift in Sources */,
++				DAB785B685D19A0977D8E11F /* CountdownEntry.swift in Sources */,
++				84254A8D45E8A4C3B17F093A /* CountdownLiveActivity.swift in Sources */,
++				21E10E71E18620A0E9BF4BAE /* CountdownProvider.swift in Sources */,
++				7BCCD9E354C3DBEAE3F34577 /* CountdownWidget.swift in Sources */,
++				71C1FBD442EB0D78E2EF78C6 /* CountdownWidgetView.swift in Sources */,
++				5C3A88D8C9C8D4214CA29013 /* CritterCheer.swift in Sources */,
++				CF1452B7DF56873811053850 /* LargeCountdownView.swift in Sources */,
++				DCD8534E2651447AB44C7B9E /* LiveActivityViews.swift in Sources */,
++				106F15189496A783BA5092F2 /* LockScreenWidget.swift in Sources */,
++				8DE6F67794EBA0FAE6D86E62 /* LockScreenWidgetView.swift in Sources */,
++				5712DA37A94D88297B8E5F6B /* MediumCountdownView.swift in Sources */,
++				63B98C5299C0D604357B8CD1 /* OpenDoorIntent.swift in Sources */,
++				33238268394DEAF17DD78235 /* PokeCritterIntent.swift in Sources */,
++				1B937266154E3E81AD31BDC6 /* PokeableCritter.swift in Sources */,
++				777E74CE723E374990B82BA6 /* SelectCountdownIntent.swift in Sources */,
++				440880133EB8531F9727F730 /* SharedStack.swift in Sources */,
++				B04CCEBA51A28FAD4DAA2D55 /* SmallCountdownView.swift in Sources */,
++				29B3C4055C5B0CA98E5F3D20 /* SoooonWidgetsBundle.swift in Sources */,
++				CE8435683115198D97F908CA /* UpNextProvider.swift in Sources */,
++				72C2DC1ACD0BF5582E6C2EBC /* UpNextWidget.swift in Sources */,
++				666278F6BA8EB379D98482E0 /* UpNextWidgetView.swift in Sources */,
++				E0F3D515B40F82A52831794C /* WidgetEmptyView.swift in Sources */,
++				7C3A24DEA52F30007A978788 /* WidgetPokes.swift in Sources */,
++				D67E73CB254F364F46283693 /* WidgetSamples.swift in Sources */,
++				EF4E7E7964245F06617BB641 /* WidgetSnapshotSource.swift in Sources */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++		C0FA9493C95E3258B81C36CB /* Sources */ = {
++			isa = PBXSourcesBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				462BFC5455D11A158603E1B0 /* AppContainer.swift in Sources */,
++				84EB39796CAA303AF599500B /* AppRouter.swift in Sources */,
++				2D8F070F93BC2F67569072A2 /* BirthdaysScreen.swift in Sources */,
++				6DE2A1C668D1B658F65BEBD5 /* ButtonPair.swift in Sources */,
++				6CFEBA926D045D3A82580D5D /* CalendarEventsScreen.swift in Sources */,
++				5159CEDF66605D5113D4EB82 /* CalendarLinkLabel.swift in Sources */,
++				A2B5EE09B69341E31B7C724A /* CalendarSection.swift in Sources */,
++				7647A135C4B04477AC63BB68 /* CelebrationChips.swift in Sources */,
++				F0321FA71208581C38476A1B /* CelebrationsScreen.swift in Sources */,
++				BA6E54A5E20E5D036A0FEA00 /* CostumeEarnedCard.swift in Sources */,
++				5C0BCFA7E923FF33702213E4 /* CountdownDetailScreen.swift in Sources */,
++				E1C5476D2416C892F2D5B2A6 /* CountingWithLabel.swift in Sources */,
++				E54AF1AC7CBE1FBA51B47AB3 /* CritterTapFeedback.swift in Sources */,
++				DECFEBE4D392C85B23FE1995 /* DemoClock.swift in Sources */,
++				637D17B0A3459EFFBADB532D /* DemoSeed.swift in Sources */,
++				48F45674C6EF580AC4E770CD /* DiscoverScreen.swift in Sources */,
++				04C4361654CFD54AB6345886 /* DoorCardView.swift in Sources */,
++				95583C8D0C83A47C8A048193 /* DragOut.swift in Sources */,
++				C2065C28A40FE30C0FEF0E99 /* EditorScreen.swift in Sources */,
++				A3900492A069B765DE97F5E7 /* EmojiStrip.swift in Sources */,
++				74BA6A569B893B6E78075981 /* EmptyHomeView.swift in Sources */,
++				B98586DE962456D8E6FF24EF /* ErrorStateView.swift in Sources */,
++				EA0944D862F74D70F05783C4 /* FileShareButton.swift in Sources */,
++				A8C082F3030024467F832E78 /* FinalSecondsView.swift in Sources */,
++				C00E7F4887E8D2AB92DA73EC /* FormatChips.swift in Sources */,
++				45B26B34D559B06D3415AEB6 /* FunUnitsGrid.swift in Sources */,
++				7854DB0C7066655592C6BA5B /* HeroCardView.swift in Sources */,
++				3C8E67294349D1CDCAB5BD17 /* HomeScreen.swift in Sources */,
++				4A881855CD62AA6D0A4E1D73 /* InviteNameSection.swift in Sources */,
++				4C023FDADC0892E9177B7789 /* InviteReceiver.swift in Sources */,
++				4AC241C449928488539A6CAD /* JoinSheet.swift in Sources */,
++				C933C28E1E299B1176D61146 /* LaunchRoot.swift in Sources */,
++				5196B3A84E2D31E38DE4424F /* Links.swift in Sources */,
++				3F754BA684963130C99BE63F /* MenuBarContent.swift in Sources */,
++				BC7357D444208AF84A617BF5 /* MenuBarLabel.swift in Sources */,
++				4C6DA879A8622B7E9418BFB9 /* MilestoneSurpriseCard.swift in Sources */,
++				C602E71B42872570355A695A /* NativeMarketingMacExport.swift in Sources */,
++				35D6981A77596D8343B0D630 /* NewCountdownFlow.swift in Sources */,
++				5BECDE5A1648D076F95497F2 /* NotificationDelegate.swift in Sources */,
++				9ED4BDB42793917B566DCC15 /* OccasionPicker.swift in Sources */,
++				1C701CC92F7B21C222D8AC13 /* OnboardingScreen.swift in Sources */,
++				7B24B2047B6CB8240A85DBBF /* PersonalityPicker.swift in Sources */,
++				7D64740424BF053C5715C32F /* PhotoSection.swift in Sources */,
++				1FD7A3CC80CCF2FCAAE2185A /* PlanRow.swift in Sources */,
++				CE876125C797110E887710AD /* PlansCover.swift in Sources */,
++				0A1C3D5D95C7435DF40F0E12 /* PlansReason.swift in Sources */,
++				68086BFB4A821CEF9D78A176 /* PlansScreen.swift in Sources */,
++				1588A54477BACEB5F123559C /* PressableCardStyle.swift in Sources */,
++				CC35B3ABF7120EB797EDCDC6 /* ProBenefits.swift in Sources */,
++				B9A357B9BBBA094860C88206 /* ProRow.swift in Sources */,
++				35BA28AD47C0C9FF019C53DE /* RecapHomeCard.swift in Sources */,
++				ACA35373A7929C4A05428E37 /* RecapLauncher.swift in Sources */,
++				A75FDB09AA0D9B316D9F47BF /* RecapPageView.swift in Sources */,
++				257AB5A6FB64675D7BB808FB /* RecapPresenter.swift in Sources */,
++				F9DB6EBC970379CA8C8BB356 /* RecapScreen.swift in Sources */,
++				496FD4FCD53D39C290725CEE /* RecapSettingsRow.swift in Sources */,
++				5B90DA320B48A210DC96C075 /* RecapSharePage.swift in Sources */,
++				E291959FA1F7CDCF259F7E7B /* RecapWindow.swift in Sources */,
++				EDA49244227CACD5419A048A /* RootView.swift in Sources */,
++				151B154F50909BFCFF296B53 /* SeasonBannerView.swift in Sources */,
++				1C2099A9737063D000112E7A /* SettingsScreen.swift in Sources */,
++				94167D6AC581BCA40518B1E2 /* ShareClipFile.swift in Sources */,
++				CB30203E15472D4EDC7758EE /* ShareClipMaker.swift in Sources */,
++				A3F7FDC15BD347DE2276229F /* ShareImage.swift in Sources */,
++				530AA21BA643AB10AC8103A3 /* ShareOptions.swift in Sources */,
++				43336682732C07958E6B72DE /* ShareSamples.swift in Sources */,
++				7BA6DCF24868CD42723871F6 /* ShareScreen.swift in Sources */,
++				4C7A2C1EEA91C38B47BEF533 /* ShareSendButton.swift in Sources */,
++				923BE10AE4D880CA712F9111 /* SharedStack.swift in Sources */,
++				5F9F91699A1A0DC2D1B105E1 /* SkeletonList.swift in Sources */,
++				6F7C45B799CA7598114B3F70 /* SoooonApp.swift in Sources */,
++				B7454D109DC501BE54E51799 /* Sound.swift in Sources */,
++				3B37B5179FAD02A1318E1EB9 /* SoundPlayer.swift in Sources */,
++				837CBEEFF4EE11B26DE8030F /* StoreWindowSize.swift in Sources */,
++				A06D08108F39B803D0340F91 /* StoryTicks.swift in Sources */,
++				415C7BB4328C78B634AE5C3E /* StoryZones.swift in Sources */,
++				CFB108B95C721BA616F4F151 /* SuggestionRowView.swift in Sources */,
++				2C2E8388A6C7BE2A91D792B3 /* Swell.swift in Sources */,
++				67CCE62B57B7708B8875305B /* SystemShare.swift in Sources */,
++				7571D705DFAE1F5B92A50CAF /* TogetherButton.swift in Sources */,
++				5B948182D241093A2620F4AB /* TraditionLabels.swift in Sources */,
++				17F2052375DE1AC694E2FFDC /* WardrobeScreen.swift in Sources */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++/* End PBXSourcesBuildPhase section */
++
++/* Begin PBXTargetDependency section */
++		6F7DB3A855483B9C3C2749B8 /* PBXTargetDependency */ = {
++			isa = PBXTargetDependency;
++			target = CF4886637CA8E23C69227E39 /* SoooonWidgets */;
++			targetProxy = A9778BBDE984BB33D3B931F9 /* PBXContainerItemProxy */;
++		};
++/* End PBXTargetDependency section */
++
++/* Begin XCBuildConfiguration section */
++		47FEDDE1A0D187E6D7215DA3 /* Debug */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
++				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = "Soooon/Support/Soooon-iOS.entitlements";
++				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Soooon/Support/Soooon-macOS.entitlements";
++				CODE_SIGN_IDENTITY = "iPhone Developer";
++				ENABLE_PREVIEWS = YES;
++				HORSE_API_KEY = pk_5d42x5kzyttasaxwkd89lc21eq4pfr1r;
++				INFOPLIST_FILE = Soooon/Support/Info.plist;
++				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = com.magiclabsolutions.soooon;
++				PRODUCT_NAME = Soooon;
++				SDKROOT = auto;
++				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
++				SUPPORTS_MACCATALYST = NO;
++				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
++				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
++				TARGETED_DEVICE_FAMILY = "1,2";
++			};
++			name = Debug;
++		};
++		549D35B3C1B249859A6DFD62 /* Debug */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_NONNULL = YES;
++				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
++				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_ENABLE_OBJC_WEAK = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				CODE_SIGN_STYLE = Automatic;
++				COPY_PHASE_STRIP = NO;
++				CURRENT_PROJECT_VERSION = 1;
++				DEAD_CODE_STRIPPING = YES;
++				DEBUG_INFORMATION_FORMAT = dwarf;
++				DEVELOPMENT_TEAM = AYZ4DPUAYU;
++				ENABLE_HARDENED_RUNTIME = YES;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_TESTABILITY = YES;
++				ENABLE_USER_SCRIPT_SANDBOXING = YES;
++				GCC_C_LANGUAGE_STANDARD = gnu11;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_PREPROCESSOR_DEFINITIONS = (
++					"$(inherited)",
++					"DEBUG=1",
++				);
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				GENERATE_INFOPLIST_FILE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
++				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
++				MACOSX_DEPLOYMENT_TARGET = 15.0;
++				MARKETING_VERSION = 1.0;
++				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
++				MTL_FAST_MATH = YES;
++				ONLY_ACTIVE_ARCH = YES;
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				SDKROOT = auto;
++				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
++				SWIFT_EMIT_LOC_STRINGS = YES;
++				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
++				SWIFT_STRICT_CONCURRENCY = complete;
++				SWIFT_VERSION = 6.0;
++			};
++			name = Debug;
++		};
++		70673448D4F4CCFB61B93FB1 /* Debug */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = "SoooonWidgets/SoooonWidgets-iOS.entitlements";
++				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "SoooonWidgets/SoooonWidgets-macOS.entitlements";
++				INFOPLIST_FILE = SoooonWidgets/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@executable_path/../../Frameworks",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = com.magiclabsolutions.soooon.widgets;
++				PRODUCT_NAME = SoooonWidgets;
++				SDKROOT = auto;
++				SKIP_INSTALL = YES;
++				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
++				SUPPORTS_MACCATALYST = NO;
++				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
++				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
++				TARGETED_DEVICE_FAMILY = "1,2";
++			};
++			name = Debug;
++		};
++		73D01FE0C3EBEB683AD78611 /* Release */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
++				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
++				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = "Soooon/Support/Soooon-iOS.entitlements";
++				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Soooon/Support/Soooon-macOS.entitlements";
++				CODE_SIGN_IDENTITY = "iPhone Developer";
++				ENABLE_PREVIEWS = YES;
++				HORSE_API_KEY = pk_5d42x5kzyttasaxwkd89lc21eq4pfr1r;
++				INFOPLIST_FILE = Soooon/Support/Info.plist;
++				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = com.magiclabsolutions.soooon;
++				PRODUCT_NAME = Soooon;
++				SDKROOT = auto;
++				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
++				SUPPORTS_MACCATALYST = NO;
++				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
++				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
++				TARGETED_DEVICE_FAMILY = "1,2";
++			};
++			name = Release;
++		};
++		D1E5BE3CCB6385AEA837B4A3 /* Release */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				CLANG_ANALYZER_NONNULL = YES;
++				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
++				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
++				CLANG_CXX_LIBRARY = "libc++";
++				CLANG_ENABLE_MODULES = YES;
++				CLANG_ENABLE_OBJC_ARC = YES;
++				CLANG_ENABLE_OBJC_WEAK = YES;
++				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
++				CLANG_WARN_BOOL_CONVERSION = YES;
++				CLANG_WARN_COMMA = YES;
++				CLANG_WARN_CONSTANT_CONVERSION = YES;
++				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
++				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
++				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
++				CLANG_WARN_EMPTY_BODY = YES;
++				CLANG_WARN_ENUM_CONVERSION = YES;
++				CLANG_WARN_INFINITE_RECURSION = YES;
++				CLANG_WARN_INT_CONVERSION = YES;
++				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
++				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
++				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
++				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
++				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
++				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
++				CLANG_WARN_STRICT_PROTOTYPES = YES;
++				CLANG_WARN_SUSPICIOUS_MOVE = YES;
++				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
++				CLANG_WARN_UNREACHABLE_CODE = YES;
++				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
++				CODE_SIGN_STYLE = Automatic;
++				COPY_PHASE_STRIP = NO;
++				CURRENT_PROJECT_VERSION = 1;
++				DEAD_CODE_STRIPPING = YES;
++				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
++				DEVELOPMENT_TEAM = AYZ4DPUAYU;
++				ENABLE_HARDENED_RUNTIME = YES;
++				ENABLE_NS_ASSERTIONS = NO;
++				ENABLE_STRICT_OBJC_MSGSEND = YES;
++				ENABLE_USER_SCRIPT_SANDBOXING = YES;
++				GCC_C_LANGUAGE_STANDARD = gnu11;
++				GCC_NO_COMMON_BLOCKS = YES;
++				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
++				GCC_WARN_UNDECLARED_SELECTOR = YES;
++				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
++				GCC_WARN_UNUSED_FUNCTION = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				GENERATE_INFOPLIST_FILE = YES;
++				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
++				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
++				MACOSX_DEPLOYMENT_TARGET = 15.0;
++				MARKETING_VERSION = 1.0;
++				MTL_ENABLE_DEBUG_INFO = NO;
++				MTL_FAST_MATH = YES;
++				PRODUCT_NAME = "$(TARGET_NAME)";
++				SDKROOT = auto;
++				SWIFT_COMPILATION_MODE = wholemodule;
++				SWIFT_EMIT_LOC_STRINGS = YES;
++				SWIFT_OPTIMIZATION_LEVEL = "-O";
++				SWIFT_STRICT_CONCURRENCY = complete;
++				SWIFT_VERSION = 6.0;
++			};
++			name = Release;
++		};
++		E2AB23347FDBACD1AA3CA0D0 /* Release */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = "SoooonWidgets/SoooonWidgets-iOS.entitlements";
++				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "SoooonWidgets/SoooonWidgets-macOS.entitlements";
++				INFOPLIST_FILE = SoooonWidgets/Info.plist;
++				LD_RUNPATH_SEARCH_PATHS = (
++					"$(inherited)",
++					"@executable_path/Frameworks",
++					"@executable_path/../../Frameworks",
++				);
++				PRODUCT_BUNDLE_IDENTIFIER = com.magiclabsolutions.soooon.widgets;
++				PRODUCT_NAME = SoooonWidgets;
++				SDKROOT = auto;
++				SKIP_INSTALL = YES;
++				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
++				SUPPORTS_MACCATALYST = NO;
++				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
++				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
++				TARGETED_DEVICE_FAMILY = "1,2";
++			};
++			name = Release;
++		};
++/* End XCBuildConfiguration section */
++
++/* Begin XCConfigurationList section */
++		52C2E8921AC777498ADC49F3 /* Build configuration list for PBXNativeTarget "Soooon" */ = {
++			isa = XCConfigurationList;
++			buildConfigurations = (
++				47FEDDE1A0D187E6D7215DA3 /* Debug */,
++				73D01FE0C3EBEB683AD78611 /* Release */,
++			);
++			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Debug;
++		};
++		728D6CAE08E933269BBF439A /* Build configuration list for PBXNativeTarget "SoooonWidgets" */ = {
++			isa = XCConfigurationList;
++			buildConfigurations = (
++				70673448D4F4CCFB61B93FB1 /* Debug */,
++				E2AB23347FDBACD1AA3CA0D0 /* Release */,
++			);
++			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Debug;
++		};
++		D20527DE9577239C59D38C71 /* Build configuration list for PBXProject "Soooon" */ = {
++			isa = XCConfigurationList;
++			buildConfigurations = (
++				549D35B3C1B249859A6DFD62 /* Debug */,
++				D1E5BE3CCB6385AEA837B4A3 /* Release */,
++			);
++			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Debug;
++		};
++/* End XCConfigurationList section */
++
++/* Begin XCLocalSwiftPackageReference section */
++		2BAC2F83E643896E5BB8A5A2 /* XCLocalSwiftPackageReference "../SoooonKit" */ = {
++			isa = XCLocalSwiftPackageReference;
++			relativePath = ../SoooonKit;
++		};
++/* End XCLocalSwiftPackageReference section */
++
++/* Begin XCSwiftPackageProductDependency section */
++		1FD5DA354C19456850412F2D /* Presentation */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Presentation;
++		};
++		3ABB02CE182312BF5AC6DFBE /* Words */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Words;
++		};
++		3E8FA60161D7C59942635FE8 /* DesignSystem */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = DesignSystem;
++		};
++		55875337825C60170139BC68 /* DataLayer */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = DataLayer;
++		};
++		5952BA2B30DD8F04589B20D7 /* Almanac */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Almanac;
++		};
++		654763FA7DD3AB59898C81F8 /* Presentation */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Presentation;
++		};
++		813C0D3963E9F9E1D4CD7EF7 /* DataLayer */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = DataLayer;
++		};
++		8CFDFF16999D9983CD3AEF1F /* DesignSystem */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = DesignSystem;
++		};
++		C961BB88212A66F039F7DCD1 /* Almanac */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Almanac;
++		};
++		CC32BE3BD7866E6833BA5A2D /* Domain */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Domain;
++		};
++		E6C29B9D4C438285A233422B /* Words */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Words;
++		};
++		FF5A14CCC86E34CB2C4B200F /* Domain */ = {
++			isa = XCSwiftPackageProductDependency;
++			productName = Domain;
++		};
++/* End XCSwiftPackageProductDependency section */
++	};
++	rootObject = ADC349FD38D3E3D96C5219FB /* Project object */;
++}
+--- a/SoooonKit/Package.swift
++++ b/SoooonKit/Package.swift
 @@ -37,13 +37,12 @@
          .library(name: "DataLayer", targets: ["DataLayer"]),
          .library(name: "Presentation", targets: ["Presentation"]),
@@ -30,80 +2076,55 @@
 -        .testTarget(name: "BillingTests", dependencies: ["Billing", "Domain", .product(name: "HorseKitCore", package: "HorseKit")]),
      ]
  )
---- a/app/Soooon/App/AppContainer.swift	2026-10-01 10:33:54
-+++ b/app/Soooon/App/AppContainer.swift	2026-10-02 00:58:05
-@@ -1,5 +1,4 @@
- import Almanac
--import Billing
- import DataLayer
- import Domain
- import Foundation
-@@ -109,10 +108,8 @@
-     /// Where Pro is sold: Horse Revenue when this build has its key; made-up plans in a demo run;
-     /// otherwise nowhere — a build with no key sells nothing, so it locks nothing either.
-     private static func store() -> (any PurchaseUseCases, Bool) {
--        if ProcessInfo.processInfo.environment["SOOOON_DEMO"] == "1" { return (MockPurchaseUseCases(), true) }
--        let key = (Bundle.main.object(forInfoDictionaryKey: "HorseAPIKey") as? String)?.trimmingCharacters(in: .whitespaces) ?? ""
--        guard key.hasPrefix("pk_") else { return (PurchaseUseCasesImpl(store: UnlockedPurchaseRepository()), false) }
--        return (PurchaseUseCasesImpl(store: PurchaseRepositoryImpl(apiKey: key, baseURL: horseURL)), true)
-+        precondition(ProcessInfo.processInfo.environment["SOOOON_DEMO"] == "1", "Capture fixture only")
-+        return (MockPurchaseUseCases(), true)
-     }
- 
-     private static let horseURL = URL(string: "https://tally-api-755619271848.us-central1.run.app")!
---- a/app/Soooon/App/LaunchRoot.swift	2026-09-30 08:57:18
-+++ b/app/Soooon/App/LaunchRoot.swift	2026-10-02 01:11:23
-@@ -1,3 +1,4 @@
-+import Domain
- import DesignSystem
- import Presentation
- import SwiftUI
-@@ -23,7 +24,7 @@
-                 }
-                 .transition(.opacity)
-             case .app:
--                RootView(container: container)
-+                MarketingCaptureRoot(container: container)
-                     .transition(.opacity)
-             }
-         }
-@@ -60,3 +61,28 @@
-         #endif
-     }
- }
+--- a/SoooonKit/Sources/Presentation/Mocks/SampleCountdowns.swift
++++ b/SoooonKit/Sources/Presentation/Mocks/SampleCountdowns.swift
+@@ -5,21 +5,29 @@
+ /// A believable list for previews and screenshots, dated relative to `now` so it never goes
+ /// stale: a birthday in 6 days, Halloween, a trip, Christmas, the weekend.
+ public enum SampleCountdowns {
++    /// Capture-only fictional content, using the same native models as production.
++    public static func fixtureTitle(_ title: String) -> String {
++        let file = ProcessInfo.processInfo.environment["MARKETING_FIXTURE_COPY"].map { URL(fileURLWithPath: $0) } ?? Bundle.main.url(forResource: "MarketingFixtureTitles", withExtension: "json")
++        guard let file, let data = try? Data(contentsOf: file), let labels = try? JSONDecoder().decode([String: [String: String]].self, from: data) else { return title }
++        let locale = (UserDefaults.standard.stringArray(forKey: "AppleLanguages")?.first ?? UserDefaults.standard.string(forKey: "AppleLocale") ?? "en-US").replacingOccurrences(of: "_", with: "-")
++        return labels[locale]?[title] ?? labels[locale.components(separatedBy: "-")[0]]?[title] ?? title
++    }
 +
-+
-+/// Isolated screenshot route: production screens, local sample store only.
-+private struct MarketingCaptureRoot: View {
-+    let container: AppContainer
-+    private var scene: String {
-+        let args = ProcessInfo.processInfo.arguments
-+        return args.firstIndex(of: "-marketing-screen").flatMap { $0 + 1 < args.count ? args[$0 + 1] : nil } ?? "home"
-+    }
-+    @ViewBuilder var body: some View {
-+        switch scene {
-+        case "detail": NavigationStack { CountdownDetailScreen(viewModel: container.detailViewModel(for: CountdownID(string: "5EED0000-0000-0000-0000-000000000001")!), container: container) }
-+        case "calendar": NavigationStack { CalendarEventsScreen(calendar: container.calendarEventsViewModel(), sounds: container.sounds) }
-+        case "personality": OnboardingScreen(viewModel: personality(), sounds: container.sounds, finished: {})
-+        case "holidays": NavigationStack { DiscoverScreen(viewModel: container.discoverViewModel(), calendar: container.calendarEventsViewModel(), celebrations: container.celebrationsViewModel(), sounds: container.sounds) }
-+        case "wardrobe": NavigationStack { WardrobeScreen(wardrobe: container.wardrobe, outfit: nil, sounds: container.sounds) }
-+        default: RootView(container: container)
-+        }
-+    }
-+    private func personality() -> OnboardingViewModel {
-+        let vm = container.onboardingViewModel()
-+        vm.jump(to: .personality)
-+        return vm
-+    }
-+}
---- a/app/project.yml	2026-10-01 10:33:54
-+++ b/app/project.yml	2026-10-02 00:58:05
-@@ -56,8 +56,6 @@
-         product: Presentation
-       - package: SoooonKit
-         product: DesignSystem
--      - package: SoooonKit
--        product: Billing
-       - target: SoooonWidgets
-     info:
-       path: Soooon/Support/Info.plist
+     public static func make(now: Date = Date()) -> [Countdown] {
+         let calendar = LocalCalendar.gregorian()
+         let today = LocalDate(now, in: calendar)
+         let birthday = today.adding(days: 6)
+         let created = now.addingTimeInterval(-86_400 * 40)
+         return [
+-            Countdown(id: id(1), title: "Mom", occasion: .birthday, schedule: .yearly(month: birthday.month, day: birthday.day, time: nil),
++            Countdown(id: id(1), title: fixtureTitle("Mom"), occasion: .birthday, schedule: .yearly(month: birthday.month, day: birthday.day, time: nil),
+                       origin: .birthday(contactID: "sample-mom"), birthYear: today.year - 60, createdAt: created),
+             Countdown(id: id(2), title: "Halloween", titleIsCustom: false, emoji: "🎃", occasion: .halloween,
+                       schedule: .rule(.fixed(month: 10, day: 31)), origin: .holiday(id: "halloween"), notify: .bigOnes, createdAt: created),
+-            Countdown(id: id(3), title: "Lisbon trip", emoji: "✈️", occasion: .trip,
++            Countdown(id: id(3), title: fixtureTitle("Lisbon trip"), emoji: "✈️", occasion: .trip,
+                       schedule: .once(today.adding(days: 23), time: LocalTime(7, 45), timeZoneID: nil), createdAt: created),
+             Countdown(id: id(4), title: "Christmas", titleIsCustom: false, emoji: "🎄", occasion: .christmas,
+                       schedule: .rule(.fixed(month: 12, day: 25)), origin: .holiday(id: "christmas"), notify: .bigOnes, createdAt: created),
+-            Countdown(id: id(5), title: "The weekend", titleIsCustom: false, emoji: "🕶️", occasion: .party,
++            Countdown(id: id(5), title: fixtureTitle("The weekend"), titleIsCustom: false, emoji: "🕶️", occasion: .party,
+                       schedule: .weekly(.friday, time: LocalTime(17, 0)), origin: .smart(.weekend), notify: .bigOnes, createdAt: created),
+         ]
+     }
+@@ -42,13 +50,13 @@
+         return make(now: now) + [
+             Countdown(id: id(6), title: "Tokyo", emoji: "🗼", occasion: .trip, schedule: .once(tokyo, time: nil, timeZoneID: nil),
+                       createdAt: made(412, before: tokyo), isArchived: true),
+-            Countdown(id: id(7), title: "Big concert", emoji: "🎤", occasion: .concert,
++            Countdown(id: id(7), title: fixtureTitle("Big concert"), emoji: "🎤", occasion: .concert,
+                       schedule: .once(concert, time: LocalTime(20, 0), timeZoneID: nil), createdAt: made(96, before: concert), isArchived: true),
+             Countdown(id: id(8), title: "Sam", occasion: .birthday, schedule: .yearly(month: sam.month, day: sam.day, time: nil),
+                       origin: .birthday(contactID: "sample-sam"), createdAt: longAgo),
+-            Countdown(id: id(9), title: "Our anniversary", occasion: .anniversary,
++            Countdown(id: id(9), title: fixtureTitle("Our anniversary"), occasion: .anniversary,
+                       schedule: .yearly(month: anniversary.month, day: anniversary.day, time: nil), createdAt: longAgo),
+-            Countdown(id: id(10), title: "Grandpa", occasion: .birthday, schedule: .yearly(month: grandpa.month, day: grandpa.day, time: nil),
++            Countdown(id: id(10), title: fixtureTitle("Grandpa"), occasion: .birthday, schedule: .yearly(month: grandpa.month, day: grandpa.day, time: nil),
+                       origin: .birthday(contactID: "sample-grandpa"), birthYear: today.year - 80, createdAt: longAgo),
+             Countdown(id: id(11), title: "Valentine's Day", titleIsCustom: false, emoji: "💘", occasion: .valentine,
+                       schedule: .rule(.fixed(month: 2, day: 14)), origin: .holiday(id: "valentines-day"), createdAt: longAgo),

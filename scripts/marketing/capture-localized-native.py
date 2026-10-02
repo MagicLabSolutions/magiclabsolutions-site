@@ -34,6 +34,22 @@ def run(*args, check=True):
 def main():
     slug, platform, simulator = sys.argv[1:4]
     locales = sys.argv[4:] or json.loads((OUT/'languages.json').read_text())[slug]['locales']
+    # A one-shot repair request serializes a fixture correction before the
+    # next queued product, using the same explicitly owned simulator.
+    repair = OUT/'work'/f'soooon-isolate-fixture-{platform}.json'
+    if slug == 'sundust' and repair.exists():
+        request = json.loads(repair.read_text())
+        if request.get('slug') != 'soooon': raise RuntimeError('Unexpected fixture repair request')
+        repair.unlink()
+        for locale in json.loads((OUT/'languages.json').read_text())['soooon']['locales']:
+            folder=OUT/'native/soooon'/locale/platform
+            backup=OUT/'work/soooon-before-locale-reset'/locale/platform
+            backup.mkdir(parents=True,exist_ok=True)
+            for file in folder.glob('native-*.png'):
+                if platform=='iphone' and file.name not in ['native-1.png','native-2.png']: continue
+                if not (backup/file.name).exists(): file.rename(backup/file.name)
+        env=dict(os.environ,MAGICLAB_CAPTURE_APP='/private/tmp/magiclab-localization-capture-apps/Soooon.app')
+        subprocess.run([sys.executable,str(Path(__file__)), 'soooon',platform,simulator],cwd=ROOT,env=env,check=True)
     run('boot', simulator, check=False)
     run('bootstatus', simulator, '-b')
     bundle = {'zuzu':'com.magiclabsolutions.zuzu','soooon':'com.magiclabsolutions.soooon','brainfold':'com.magiclabsolutions.brain.fold','myrenewals':'com.magiclabsolutions.subscriptionmanager',
@@ -72,7 +88,7 @@ def main():
                     with log.open('w') as stream:
                         child_env = dict(os.environ)
                         if slug=='zuzu': child_env['SIMCTL_CHILD_TZ']='Etc/GMT-5'
-                        if slug=='soooon': child_env.update(SIMCTL_CHILD_SOOOON_DEMO='1',SIMCTL_CHILD_SOOOON_NOW='2026-11-12T08:41:00Z',SIMCTL_CHILD_SOOOON_CALENDAR='allowed')
+                        if slug=='soooon': child_env.update(SIMCTL_CHILD_SOOOON_DEMO='1',SIMCTL_CHILD_SOOOON_NOW='2026-11-12T08:41:00Z',SIMCTL_CHILD_SOOOON_CALENDAR='allowed',SIMCTL_CHILD_SOOOON_DEMO_RESET='1')
                         process = subprocess.Popen(['xcrun','simctl','launch','--console-pty',
                             '--terminate-running-process',simulator,bundle,*args], stdout=stream, stderr=subprocess.STDOUT, env=child_env)
                         try:
