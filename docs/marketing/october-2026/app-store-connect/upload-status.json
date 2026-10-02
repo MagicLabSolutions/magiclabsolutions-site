@@ -1,0 +1,1547 @@
+{
+  "generatedAt": "2026-10-02T13:22:20.925Z",
+  "verifiedImages": 2401,
+  "entries": [
+    {
+      "slug": "sundust",
+      "appId": "6791888066",
+      "platform": "IOS",
+      "version": "1.3.0",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "releaseType": "MANUAL",
+      "expectedSets": 100,
+      "verifiedSets": 100,
+      "verifiedImages": 600,
+      "verifiedLocales": 50,
+      "complete": true,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6791888066/distribution/ios/version/inflight",
+      "listingTextToCompleteBeforeReview": [
+        {
+          "locale": "th",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-PT",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hr",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "vi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ml-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "gu-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-CA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-CA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "nl-NL",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-GB",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "el",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ja",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ko",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pl",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-US",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sk",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hant",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ar-SA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ms",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ru",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "he",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-AU",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sv",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "da",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "uk",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ca",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "cs",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hu",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "it",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "tr",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ro",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "no",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "id",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-MX",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "bn-BD",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ur-PK",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "mr-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pa-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "te-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "or-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ta-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "kn-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sl-SI",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "IOS",
+      "version": "1.2.0",
+      "versionId": "1f8e8038-8970-4198-a2b8-1e6cf1d6c28c",
+      "state": "WAITING_FOR_REVIEW",
+      "releaseType": "AFTER_APPROVAL",
+      "expectedSets": 0,
+      "verifiedSets": 0,
+      "verifiedImages": 0,
+      "verifiedLocales": 0,
+      "complete": false,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6802913010/distribution/ios/version/inflight",
+      "listingTextToCompleteBeforeReview": []
+    },
+    {
+      "slug": "groundcontrol",
+      "appId": "6817404452",
+      "platform": "MAC_OS",
+      "version": "1.0",
+      "versionId": "0bde0d17-f8a6-45a9-9d98-2b881254297e",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "releaseType": "AFTER_APPROVAL",
+      "expectedSets": 1,
+      "verifiedSets": 1,
+      "verifiedImages": 3,
+      "verifiedLocales": 1,
+      "complete": true,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6817404452/distribution/macos/version/inflight",
+      "listingTextToCompleteBeforeReview": []
+    },
+    {
+      "slug": "brainfold",
+      "appId": "6760474378",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "releaseType": "MANUAL",
+      "expectedSets": 98,
+      "verifiedSets": 98,
+      "verifiedImages": 588,
+      "verifiedLocales": 49,
+      "complete": true,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6760474378/distribution/ios/version/inflight",
+      "listingTextToCompleteBeforeReview": [
+        {
+          "locale": "te-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "bn-BD",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-PT",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sv",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sk",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ms",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "cs",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hu",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-GB",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ca",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ar-SA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hant",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-US",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ro",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "he",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "vi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "da",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "id",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ru",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "el",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "th",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "uk",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ko",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-CA",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sl-SI",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "mr-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-AU",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pl",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "no",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "nl-NL",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "it",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ja",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-CA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-MX",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "tr",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hr",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "gu-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "or-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "kn-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ta-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ur-PK",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ml-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pa-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "IOS",
+      "version": "1.1.1",
+      "versionId": "45185cb8-5d31-4c32-b8b7-b4a6dfe1aabf",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "releaseType": "MANUAL",
+      "expectedSets": 100,
+      "verifiedSets": 100,
+      "verifiedImages": 400,
+      "verifiedLocales": 50,
+      "complete": true,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6763877209/distribution/ios/version/inflight",
+      "listingTextToCompleteBeforeReview": [
+        {
+          "locale": "sl-SI",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pa-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ur-PK",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "gu-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ml-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "or-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "mr-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ar-SA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-MX",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hant",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "no",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hu",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ko",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-GB",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hr",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "tr",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-US",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-CA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "vi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "th",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "it",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hi",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ms",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "da",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ro",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pl",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "id",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ru",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-AU",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "cs",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "nl-NL",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ja",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "el",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sk",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "he",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-PT",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "uk",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sv",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ca",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "te-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "kn-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ta-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-CA",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "bn-BD",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "poof",
+      "appId": "6816976275",
+      "platform": "MAC_OS",
+      "version": "1.0",
+      "versionId": "6156b152-9e32-4e40-a48b-ace33718caac",
+      "state": "WAITING_FOR_REVIEW",
+      "releaseType": "AFTER_APPROVAL",
+      "expectedSets": 0,
+      "verifiedSets": 0,
+      "verifiedImages": 0,
+      "verifiedLocales": 0,
+      "complete": false,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6816976275/distribution/macos/version/inflight",
+      "listingTextToCompleteBeforeReview": []
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "IOS",
+      "version": "1.2.7",
+      "versionId": "7e41661e-7cc1-4e34-b0fe-c8b4fc1cc07c",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "releaseType": "MANUAL",
+      "expectedSets": 100,
+      "verifiedSets": 100,
+      "verifiedImages": 600,
+      "verifiedLocales": 50,
+      "complete": true,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6752888662/distribution/ios/version/inflight",
+      "listingTextToCompleteBeforeReview": [
+        {
+          "locale": "ms",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-AU",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ro",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-US",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "de-DE",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fi",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ar-SA",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "missing": [
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "da",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-FR",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "tr",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hu",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ta-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-ES",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "el",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ml-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ru",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sk",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-GB",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pa-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hi",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "cs",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "vi",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "id",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "it",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "mr-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "te-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pl",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "no",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "or-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "gu-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "pt-PT",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sl-SI",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "zh-Hant",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "en-CA",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ca",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ur-PK",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "es-MX",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "hr",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "he",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "nl-NL",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ko",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "bn-BD",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "fr-CA",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "uk",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "kn-IN",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "th",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "ja",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        },
+        {
+          "locale": "sv",
+          "missing": [
+            "description",
+            "supportUrl",
+            "whatsNew"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toctoc",
+      "appId": "6817375562",
+      "platform": "IOS",
+      "version": "1.0",
+      "versionId": "9d1fec42-6f5e-43d2-a416-e379c94b2239",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "releaseType": "AFTER_APPROVAL",
+      "expectedSets": 35,
+      "verifiedSets": 35,
+      "verifiedImages": 105,
+      "verifiedLocales": 35,
+      "complete": true,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6817375562/distribution/ios/version/inflight",
+      "listingTextToCompleteBeforeReview": []
+    },
+    {
+      "slug": "toctoc",
+      "appId": "6817375562",
+      "platform": "MAC_OS",
+      "version": "1.0",
+      "versionId": "1df53da8-7175-4c1e-b98f-3cc38ca57915",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "releaseType": "AFTER_APPROVAL",
+      "expectedSets": 35,
+      "verifiedSets": 35,
+      "verifiedImages": 105,
+      "verifiedLocales": 35,
+      "complete": true,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6817375562/distribution/macos/version/inflight",
+      "listingTextToCompleteBeforeReview": []
+    },
+    {
+      "slug": "zuzu",
+      "appId": "6757988505",
+      "platform": "IOS",
+      "version": "2.7.1",
+      "versionId": "156fcb1a-746f-4996-94bd-659f97061f87",
+      "state": "WAITING_FOR_REVIEW",
+      "releaseType": "MANUAL",
+      "expectedSets": 0,
+      "verifiedSets": 0,
+      "verifiedImages": 0,
+      "verifiedLocales": 0,
+      "complete": false,
+      "appStoreConnect": "https://appstoreconnect.apple.com/apps/6757988505/distribution/ios/version/inflight",
+      "listingTextToCompleteBeforeReview": []
+    }
+  ],
+  "retained": [
+    "tumtum",
+    "soooon"
+  ],
+  "noAppleAppRecord": [
+    "hooray"
+  ],
+  "unsupportedListingLocales": [
+    "bg",
+    "kk",
+    "lt"
+  ],
+  "pendingReviewWithdrawal": [
+    "giftly",
+    "poof",
+    "zuzu"
+  ]
+}

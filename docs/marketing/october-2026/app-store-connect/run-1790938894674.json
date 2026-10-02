@@ -1,0 +1,49 @@
+{
+  "finishedAt": "2026-10-02T11:01:34.674Z",
+  "versions": [
+    {
+      "slug": "groundcontrol",
+      "appId": "6817404452",
+      "platform": "MAC_OS",
+      "currentId": "0bde0d17-f8a6-45a9-9d98-2b881254297e",
+      "version": "1.0",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "groundcontrol",
+      "platform": "MAC_OS",
+      "version": "1.0",
+      "versionId": "0bde0d17-f8a6-45a9-9d98-2b881254297e",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "a0815a0b-0e0d-4d7d-a44d-ee0c1cc1dd99",
+      "verifiedAt": "2026-10-02T11:01:34.672Z",
+      "screenshots": [
+        {
+          "id": "6dc00019-6595-8624-8009-a16cae6fd1a2",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/groundcontrol/store-1.png",
+          "md5": "2d5133d44cbcd18ddb9554db94d93b58",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5fc00019-6595-8624-803f-e430a7c57345",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/groundcontrol/store-2.png",
+          "md5": "a1f5c109278cd5215371ebcf9bfb89f3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7800019-6595-8624-8025-6dbd5f334c3d",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/groundcontrol/store-3.png",
+          "md5": "7abf79c5af46f7ad769d475c3a6c0868",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 0
+}

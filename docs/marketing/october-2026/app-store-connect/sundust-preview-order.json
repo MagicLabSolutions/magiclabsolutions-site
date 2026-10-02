@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-02T12:26:27.463Z",
+  "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+  "locale": "en-US",
+  "previewsUnchanged": true,
+  "previewsFirst": true,
+  "orderedPreviewSets": [
+    {
+      "setId": "92b766da-7c0b-4ce0-9ec0-c24f79f1beb7",
+      "type": "IPHONE_67",
+      "previews": [
+        {
+          "id": "070db619-38fd-44b9-81f6-ca126e46c55a",
+          "fileName": "sundust-iphone69.mov",
+          "checksum": "e7baec0c0d360ef4c89d1e32c67e83f3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "setId": "685dcd7f-c3c4-4d01-a115-52961708b911",
+      "type": "IPAD_PRO_3GEN_129",
+      "previews": [
+        {
+          "id": "ea0dd067-dace-48c8-8e90-05b14de21cd1",
+          "fileName": "sundust-ipad13.mov",
+          "checksum": "d4504246d0d83bed97f29323ab4120b0",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "appleRule": "App previews always precede screenshots on iPhone, iPad, Mac, and Apple TV.",
+  "localizationFallback": "The primary preview appears for all storefronts unless a separate localized preview is provided.",
+  "source": "https://developer.apple.com/help/app-store-connect/manage-app-information/upload-app-previews-and-screenshots/"
+}

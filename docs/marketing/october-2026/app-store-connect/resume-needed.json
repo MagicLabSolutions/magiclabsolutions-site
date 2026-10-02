@@ -1,0 +1,18 @@
+{
+  "reason": "Transient connection failure during hourly API throttle",
+  "sets": [
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "it",
+      "type": "APP_IPAD_PRO_3GEN_129"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "ja",
+      "type": "APP_IPAD_PRO_3GEN_129"
+    }
+  ],
+  "resolved": true
+}

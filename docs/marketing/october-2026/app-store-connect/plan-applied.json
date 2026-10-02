@@ -1,0 +1,142 @@
+{
+  "createdAt": "2026-10-02T12:35:00.310Z",
+  "versions": [
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "IOS",
+      "currentId": "7e41661e-7cc1-4e34-b0fe-c8b4fc1cc07c",
+      "version": "1.2.7",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "tasks": [
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "IOS",
+      "version": "1.2.7",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPHONE_67",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-1.png",
+          "fileName": "ml-20261002-app_iphone_67-1-05caddbaec.png",
+          "md5": "05caddbaecd0507acd02e50b03252473",
+          "size": 1297080,
+          "width": 1320,
+          "height": 2868
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-2.png",
+          "fileName": "ml-20261002-app_iphone_67-2-08ec79021e.png",
+          "md5": "08ec79021e22e12d43d11716d99998c7",
+          "size": 695932,
+          "width": 1320,
+          "height": 2868
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-3.png",
+          "fileName": "ml-20261002-app_iphone_67-3-9df33d53cc.png",
+          "md5": "9df33d53cc6bfeba93a588092944885c",
+          "size": 688863,
+          "width": 1320,
+          "height": 2868
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-4.png",
+          "fileName": "ml-20261002-app_iphone_67-4-daf9443a9c.png",
+          "md5": "daf9443a9ce194ad2166e9e14e7a63cb",
+          "size": 733022,
+          "width": 1320,
+          "height": 2868
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-5.png",
+          "fileName": "ml-20261002-app_iphone_67-5-768e8d923e.png",
+          "md5": "768e8d923e9b3c15579d77552d3c1bfc",
+          "size": 687897,
+          "width": 1320,
+          "height": 2868
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-6.png",
+          "fileName": "ml-20261002-app_iphone_67-6-3a89158a79.png",
+          "md5": "3a89158a794b262b501f7e9d14b75397",
+          "size": 751760,
+          "width": 1320,
+          "height": 2868
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "IOS",
+      "version": "1.2.7",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-1.png",
+          "fileName": "ml-20261002-app_ipad_pro_3gen_129-1-21db260b69.png",
+          "md5": "21db260b699ed35161beb459c51c34cc",
+          "size": 1816972,
+          "width": 2064,
+          "height": 2752
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-2.png",
+          "fileName": "ml-20261002-app_ipad_pro_3gen_129-2-d233431c6d.png",
+          "md5": "d233431c6d7c47bca088d27701742e48",
+          "size": 761069,
+          "width": 2064,
+          "height": 2752
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-3.png",
+          "fileName": "ml-20261002-app_ipad_pro_3gen_129-3-c345303344.png",
+          "md5": "c3453033449c08e1c8ba4a98a50086ed",
+          "size": 784575,
+          "width": 2064,
+          "height": 2752
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-4.png",
+          "fileName": "ml-20261002-app_ipad_pro_3gen_129-4-5947847ee3.png",
+          "md5": "5947847ee38ee36f08d2e2cf335a384b",
+          "size": 821186,
+          "width": 2064,
+          "height": 2752
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-5.png",
+          "fileName": "ml-20261002-app_ipad_pro_3gen_129-5-53066c7d41.png",
+          "md5": "53066c7d41e2c0bbde8179c7533f9810",
+          "size": 756340,
+          "width": 2064,
+          "height": 2752
+        },
+        {
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-6.png",
+          "fileName": "ml-20261002-app_ipad_pro_3gen_129-6-25549df485.png",
+          "md5": "25549df4858ab90739541256293f8e65",
+          "size": 816384,
+          "width": 2064,
+          "height": 2752
+        }
+      ]
+    }
+  ],
+  "retained": [
+    "tumtum",
+    "soooon"
+  ],
+  "noAppleRecord": [
+    "hooray"
+  ]
+}

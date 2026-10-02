@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-02T13:23:34.445842+00:00",
+  "expectedGalleries": 469,
+  "verifiedGalleries": 469,
+  "expectedImages": 2401,
+  "verifiedImages": 2401,
+  "allExpectedMappingsAndChecksumsMatch": true,
+  "currentErrors": 0,
+  "historicalErrorsResolved": [
+    {
+      "slug": "myrenewals",
+      "locale": "ar-SA",
+      "type": "APP_IPHONE_67",
+      "initialError": "Read-back mismatch",
+      "resolvedByScopedRetry": true,
+      "verifiedAt": "2026-10-02T12:35:19.400Z"
+    }
+  ],
+  "sundustPreviewFirstEvidence": "sundust-preview-order.json",
+  "pendingReviewWithdrawal": [
+    "giftly",
+    "poof",
+    "zuzu"
+  ]
+}

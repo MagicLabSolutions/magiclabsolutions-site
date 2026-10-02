@@ -1,0 +1,116 @@
+{
+  "finishedAt": "2026-10-02T12:35:19.404Z",
+  "versions": [
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "IOS",
+      "currentId": "7e41661e-7cc1-4e34-b0fe-c8b4fc1cc07c",
+      "version": "1.2.7",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "myrenewals",
+      "platform": "IOS",
+      "version": "1.2.7",
+      "versionId": "7e41661e-7cc1-4e34-b0fe-c8b4fc1cc07c",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPHONE_67",
+      "setId": "111449be-9a04-4b36-9fed-2dd3f7733581",
+      "verifiedAt": "2026-10-02T12:35:19.400Z",
+      "screenshots": [
+        {
+          "id": "38c00019-280e-8756-8023-f298cca02e49",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-1.png",
+          "md5": "05caddbaecd0507acd02e50b03252473",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9ac00019-280e-8756-802e-8cdd2ff33d55",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-2.png",
+          "md5": "08ec79021e22e12d43d11716d99998c7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "42400019-280e-8756-8030-0847c486e047",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-3.png",
+          "md5": "9df33d53cc6bfeba93a588092944885c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "04000019-280e-8756-803a-40276e575473",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-4.png",
+          "md5": "daf9443a9ce194ad2166e9e14e7a63cb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8c00019-280e-8756-803a-284332926f43",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-5.png",
+          "md5": "768e8d923e9b3c15579d77552d3c1bfc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1800019-280e-8756-8031-9c547a6f9d2a",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/store-6.png",
+          "md5": "3a89158a794b262b501f7e9d14b75397",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "IOS",
+      "version": "1.2.7",
+      "versionId": "7e41661e-7cc1-4e34-b0fe-c8b4fc1cc07c",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "a2f032e0-8b7f-435b-b337-98a2cd960ad4",
+      "verifiedAt": "2026-10-02T12:31:49.266Z",
+      "screenshots": [
+        {
+          "id": "f3000019-280e-8756-802f-5fb9e5cf19b8",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-1.png",
+          "md5": "21db260b699ed35161beb459c51c34cc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "37800019-280e-8756-8015-9bcf3be2cbfd",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-2.png",
+          "md5": "d233431c6d7c47bca088d27701742e48",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8e400019-280e-8756-8019-927278f7f1d2",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-3.png",
+          "md5": "c3453033449c08e1c8ba4a98a50086ed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95400019-280e-8756-8002-54e0c8d546ad",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-4.png",
+          "md5": "5947847ee38ee36f08d2e2cf335a384b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "49000019-280e-8756-8009-36368f3564f6",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-5.png",
+          "md5": "53066c7d41e2c0bbde8179c7533f9810",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95400019-280e-8756-803d-59b738f565b6",
+          "file": "docs/marketing/october-2026/localized/exports/ar/myrenewals/ipad-store-6.png",
+          "md5": "25549df4858ab90739541256293f8e65",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 0
+}
