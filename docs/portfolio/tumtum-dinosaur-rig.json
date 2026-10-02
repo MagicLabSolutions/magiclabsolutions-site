@@ -1,0 +1,113 @@
+{
+  "sources": [
+    {
+      "id": "dinosaur.trex",
+      "source": "TumTumKit/Sources/DesignSystem/PaperAssets/dinosaurs/dinosaurs-2.png",
+      "source_sha256": "832b00f39fa9843d964d4cc5a9edf910a92425e52d0d5e05fb8f7080df0be37c",
+      "rect": [
+        4,
+        4,
+        412,
+        295
+      ],
+      "output": "/images/products/tumtum/dinosaur-trex-fb8c0fe0afd7.webp"
+    },
+    {
+      "id": "dinosaur.trex-head-rest",
+      "source": "TumTumKit/Sources/DesignSystem/PaperAssets/dinosaurs/dinosaurs-4.png",
+      "source_sha256": "15125bb118042a3fdbc07c18baba12b13d5f2a1383f0fe1ab0404974eed8d697",
+      "rect": [
+        4,
+        4,
+        424,
+        388
+      ],
+      "output": "/images/products/tumtum/dinosaur-trex-head-rest-878eab74af6e.webp"
+    },
+    {
+      "id": "dinosaur.trex-head-open",
+      "source": "TumTumKit/Sources/DesignSystem/PaperAssets/dinosaurs/dinosaurs-4.png",
+      "source_sha256": "15125bb118042a3fdbc07c18baba12b13d5f2a1383f0fe1ab0404974eed8d697",
+      "rect": [
+        436,
+        4,
+        424,
+        388
+      ],
+      "output": "/images/products/tumtum/dinosaur-trex-head-open-3e1c046266bb.webp"
+    },
+    {
+      "id": "dinosaur.trex-head-wide",
+      "source": "TumTumKit/Sources/DesignSystem/PaperAssets/dinosaurs/dinosaurs-4.png",
+      "source_sha256": "15125bb118042a3fdbc07c18baba12b13d5f2a1383f0fe1ab0404974eed8d697",
+      "rect": [
+        868,
+        4,
+        424,
+        388
+      ],
+      "output": "/images/products/tumtum/dinosaur-trex-head-wide-8db680be55aa.webp"
+    }
+  ],
+  "motion": {
+    "source": "TumTumKit/Sources/Models/AnimalMouthMotion.swift",
+    "source_sha256": "2dd4148d780e1aa63a2041e55d7a47270ecbfe57e956748cf36f51fcf156b20d",
+    "duration": 1800,
+    "keys": [
+      [
+        0,
+        0.12
+      ],
+      [
+        0.16,
+        0.63
+      ],
+      [
+        0.25,
+        1
+      ],
+      [
+        0.34,
+        1
+      ],
+      [
+        0.43,
+        0.48
+      ],
+      [
+        0.53,
+        1
+      ],
+      [
+        0.6,
+        1
+      ],
+      [
+        0.69,
+        0.56
+      ],
+      [
+        0.78,
+        1
+      ],
+      [
+        0.84,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "thresholds": [
+      0.28,
+      0.82
+    ]
+  },
+  "registration": "PaperAnimalHead.frame/mask and dinosaurs-rig.json exclusions; same body and fixed head frame in every state",
+  "static": {
+    "src": "/images/products/tumtum/trex-rest-200477cc5b09.webp",
+    "width": 520,
+    "height": 444
+  }
+}

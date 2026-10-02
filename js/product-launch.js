@@ -3,7 +3,8 @@
   'use strict';
   const page=document.body,reduce=matchMedia('(prefers-reduced-motion: reduce)'),toggle=document.querySelector('[data-motion-toggle]');
   let motionOff=reduce.matches;
-  function motion(){document.documentElement.classList.toggle('l-motion-off',motionOff);page.classList.toggle('l-motion-off',motionOff);toggle.setAttribute('aria-pressed',String(motionOff));toggle.setAttribute('aria-label',toggle.dataset[motionOff?'play':'pause']);toggle.querySelector('span').textContent=toggle.dataset[motionOff?'play':'pause'];toggle.querySelector('path').setAttribute('d',motionOff?'M7 4l13 8-13 8V4Z':'M8 5v14M16 5v14');}
+  const dinosaurReactions=new Set();
+  function motion(){document.documentElement.classList.toggle('l-motion-off',motionOff);page.classList.toggle('l-motion-off',motionOff);toggle.setAttribute('aria-pressed',String(motionOff));toggle.setAttribute('aria-label',toggle.dataset[motionOff?'play':'pause']);toggle.querySelector('span').textContent=toggle.dataset[motionOff?'play':'pause'];toggle.querySelector('path').setAttribute('d',motionOff?'M7 4l13 8-13 8V4Z':'M8 5v14M16 5v14');if(motionOff)dinosaurReactions.forEach(stop=>stop());}
   toggle.addEventListener('click',()=>{motionOff=!motionOff;motion();});reduce.addEventListener('change',e=>{motionOff=e.matches;motion();});motion();
   if('IntersectionObserver' in window){page.classList.add('l-ready');const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target);}}),{rootMargin:'0px 0px 80px 0px',threshold:.08});document.querySelectorAll('[data-reveal]').forEach(el=>observer.observe(el));}
   document.querySelector('[data-name-play]').addEventListener('click',()=>{if(motionOff)return;page.classList.remove('l-name-replay');requestAnimationFrame(()=>page.classList.add('l-name-replay'));setTimeout(()=>page.classList.remove('l-name-replay'),950);});
@@ -68,7 +69,32 @@
     }
     case 'toys': {
       intro(t('A little paper play.','Uma pequena brincadeira de papel.'),t('Tap a paper friend and watch it move. A gentle taste of TumTum’s world.','Toque em um amigo de papel e veja ele se mexer. Um pedacinho tranquilo do mundo do TumTum.'),`<p class="l-demo-caption">${t('Browser illustration using original TumTum assets.','Ilustração no navegador com assets originais do TumTum.')}</p>`,`<div class="l-toy-stage">${data.props.slice(0,2).map((p,i)=>`<button type="button" class="l-toy" aria-label="${t('Move paper friend','Mover amigo de papel')} ${i+1}"><img src="${esc(p.src)}" alt=""></button>`).join('')}</div>`);
-      demo.querySelectorAll('.l-toy').forEach(e=>e.addEventListener('click',()=>{if(motionOff)return;e.classList.remove('is-playing');requestAnimationFrame(()=>e.classList.add('is-playing'));setTimeout(()=>e.classList.remove('is-playing'),1050);}));break;
+      const heroDinosaur=document.querySelector('[data-trex-roar]');
+      if(heroDinosaur&&data.dinosaur){
+        const dinosaur=heroDinosaur.cloneNode(true);dinosaur.className='l-trex l-toy l-toy--trex';
+        dinosaur.querySelector('mask').id='trex-body-demo';dinosaur.querySelector('image[mask]').setAttribute('mask','url(#trex-body-demo)');
+        demo.querySelector('.l-toy').replaceWith(dinosaur);
+        // Same smoothstep keys, discrete registered heads and 1.8s tap as DinoWorld.
+        document.querySelectorAll('[data-trex-roar]').forEach(button=>{
+          const art=button.querySelector('svg');let frame=0,timer=0;
+          const stop=()=>{cancelAnimationFrame(frame);clearTimeout(timer);art.dataset.mouth='rest';button.dataset.roaring='false';};
+          dinosaurReactions.add(stop);
+          button.addEventListener('click',()=>{
+            stop();button.dataset.roaring='true';
+            if(motionOff){art.dataset.mouth='wide';timer=setTimeout(stop,data.dinosaur.duration*.88);return;}
+            const start=performance.now();
+            const draw=now=>{
+              const progress=(now-start)/data.dinosaur.duration;if(progress>=1){stop();return;}
+              const keys=data.dinosaur.keys,index=keys.findIndex((k,i)=>i>0&&progress<=k[0]),a=keys[index-1],b=keys[index];
+              const t=(progress-a[0])/(b[0]-a[0]),eased=t*t*(3-2*t),open=a[1]+(b[1]-a[1])*eased;
+              art.dataset.mouth=open<data.dinosaur.thresholds[0]?'rest':open<data.dinosaur.thresholds[1]?'open':'wide';
+              frame=requestAnimationFrame(draw);
+            };frame=requestAnimationFrame(draw);
+          });
+        });
+        document.addEventListener('visibilitychange',()=>{if(document.hidden)dinosaurReactions.forEach(stop=>stop());});
+      }
+      demo.querySelectorAll('.l-toy:not([data-trex-roar])').forEach(e=>e.addEventListener('click',()=>{if(motionOff)return;e.classList.remove('is-playing');requestAnimationFrame(()=>e.classList.add('is-playing'));setTimeout(()=>e.classList.remove('is-playing'),1050);}));break;
     }
   }
 })();

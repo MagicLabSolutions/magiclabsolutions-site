@@ -1,0 +1,12 @@
+{% assign dino = site.data.tumtum_dinosaur %}
+<button type="button" class="l-trex {{ include.class }}" data-trex-roar aria-label="{{ dino.labels[active_lang] | default: dino.labels.en }}">
+  <svg class="l-trex-art" viewBox="0 0 {{ dino.geometry.width }} {{ dino.geometry.height }}" data-mouth="rest" aria-hidden="true" focusable="false">
+    <defs><mask id="trex-body-{{ include.id }}" maskUnits="userSpaceOnUse" x="0" y="0" width="520" height="444">
+      <rect width="520" height="444" fill="white"/>
+      <polygon points="{% for point in dino.geometry.headMask %}{{ point[0] }},{{ point[1] }} {% endfor %}" fill="black"/>
+      {% for rect in dino.geometry.exclusions %}<rect x="{{ rect[0] }}" y="{{ rect[1] }}" width="{{ rect[2] }}" height="{{ rect[3] }}" fill="black"/>{% endfor %}
+    </mask></defs>
+    <image href="{{ dino.body.src | relative_url }}" x="{{ dino.geometry.body[0] }}" y="{{ dino.geometry.body[1] }}" width="{{ dino.geometry.body[2] }}" height="{{ dino.geometry.body[3] }}" mask="url(#trex-body-{{ include.id }})"/>
+    {% for state in dino.heads %}<image class="l-trex-head" data-head="{{ state[0] }}" href="{{ state[1].src | relative_url }}" x="{{ dino.geometry.head[0] }}" y="{{ dino.geometry.head[1] }}" width="{{ dino.geometry.head[2] }}" height="{{ dino.geometry.head[3] }}"/>{% endfor %}
+  </svg>
+</button>

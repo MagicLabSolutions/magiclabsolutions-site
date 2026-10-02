@@ -71,3 +71,5 @@ products.memories.demo_photos=await Promise.all(photos.map((n,i)=>asset(path.joi
 await fs.writeFile('_data/product_launch.json',JSON.stringify(products,null,2)+'\n');
 await fs.writeFile(path.join(docs,'product-launch-assets.json'),JSON.stringify({created:'2026-10-01',reference:'https://musicaistudio.app/',scope:campaign.products.map(p=>p.slug),policy:'Original native screens in code-composed hardware; complete component crops are CSS masks. No store backgrounds or store captions. Original store exports, TumTum and Soooon collections, and store videos untouched.',records},null,2)+'\n');
 console.log('Prepared native website assets for',Object.keys(products).length,'products; source hashes recorded.');
+// Keep the site's dinosaur registered to the game rather than the legacy atlas cut.
+await import('./prepare-tumtum-dinosaur.mjs');

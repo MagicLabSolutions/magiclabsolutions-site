@@ -32,3 +32,16 @@ html.l-motion-off{scroll-behavior:auto}.l-page[data-product=sundust] .l-floating
 .l-feature-photo{position:absolute;z-index:4;width:40%;left:0;bottom:12%;pointer-events:none;transform:rotate(-3deg);filter:drop-shadow(0 10px 14px #4c32221a)}
 .l-feature-photo img{width:100%;height:auto}
 @media(max-width:780px){.l-page[data-product=memories] .l-feature-component,.l-page[data-product=memories] .l-feature--reverse .l-feature-component{width:56%;left:1%}.l-feature-photo{width:39%;left:0;bottom:15%}}
+
+/* The game's registered T-Rex: fixed body, clean atlas mask, three jaw states. */
+.l-page .l-trex{padding:0;border:0;background:none;color:inherit;pointer-events:auto;cursor:pointer;line-height:0;filter:drop-shadow(0 10px 8px #0002)}
+.l-trex-art{width:100%;height:auto;overflow:visible}
+.l-trex-head{visibility:hidden}
+.l-trex-art[data-mouth=rest] [data-head=rest],.l-trex-art[data-mouth=open] [data-head=open],.l-trex-art[data-mouth=wide] [data-head=wide]{visibility:visible}
+.l-toy-stage .l-toy{min-width:0;flex:0 1 140px}
+.l-demo .l-toy--trex{width:230px;flex-basis:230px}
+.l-demo .l-trex:hover,.l-trex:active{background:none}
+@media(max-width:600px){.l-toy-stage{gap:18px}}
+.l-trex.l-floating:hover,.l-trex.l-floating:focus-visible,.l-trex.l-floating[data-roaring=true]{animation-play-state:paused}
+.l-page[data-product=tumtum] .l-demo-grid>*{min-width:0}
+.l-page[data-product=tumtum] .l-demo-visual{width:100%}

@@ -1,0 +1,137 @@
+{
+  "body": {
+    "src": "/images/products/tumtum/dinosaur-trex-fb8c0fe0afd7.webp",
+    "width": 412,
+    "height": 295
+  },
+  "heads": {
+    "rest": {
+      "src": "/images/products/tumtum/dinosaur-trex-head-rest-878eab74af6e.webp",
+      "width": 424,
+      "height": 388
+    },
+    "open": {
+      "src": "/images/products/tumtum/dinosaur-trex-head-open-3e1c046266bb.webp",
+      "width": 424,
+      "height": 388
+    },
+    "wide": {
+      "src": "/images/products/tumtum/dinosaur-trex-head-wide-8db680be55aa.webp",
+      "width": 424,
+      "height": 388
+    }
+  },
+  "geometry": {
+    "width": 520,
+    "height": 444,
+    "body": [
+      20,
+      70,
+      480,
+      343.68932038834953
+    ],
+    "head": [
+      245.6,
+      39.067961165048544,
+      264,
+      241.37142857142857
+    ],
+    "headMask": [
+      [
+        284,
+        1.2621359223300885
+      ],
+      [
+        596,
+        1.2621359223300885
+      ],
+      [
+        596,
+        207.47572815533982
+      ],
+      [
+        356,
+        207.47572815533982
+      ],
+      [
+        284,
+        128.4271844660194
+      ]
+    ],
+    "exclusions": [
+      [
+        475.5339824,
+        219.1262152815534,
+        48.4660176,
+        68.73786407766991
+      ]
+    ]
+  },
+  "duration": 1800,
+  "keys": [
+    [
+      0,
+      0.12
+    ],
+    [
+      0.16,
+      0.63
+    ],
+    [
+      0.25,
+      1
+    ],
+    [
+      0.34,
+      1
+    ],
+    [
+      0.43,
+      0.48
+    ],
+    [
+      0.53,
+      1
+    ],
+    [
+      0.6,
+      1
+    ],
+    [
+      0.69,
+      0.56
+    ],
+    [
+      0.78,
+      1
+    ],
+    [
+      0.84,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "thresholds": [
+    0.28,
+    0.82
+  ],
+  "labels": {
+    "en": "Make the dinosaur roar",
+    "en-US": "Make the dinosaur roar",
+    "pt-BR": "Fazer o dinossauro rugir",
+    "es": "Haz rugir al dinosaurio",
+    "fr": "Faire rugir le dinosaure",
+    "de": "Den Dinosaurier brüllen lassen",
+    "ja": "恐竜をほえさせる",
+    "ko": "공룡이 포효하게 하기",
+    "zh-Hans": "让恐龙咆哮"
+  },
+  "static": {
+    "src": "/images/products/tumtum/trex-rest-200477cc5b09.webp",
+    "width": 520,
+    "height": 444
+  }
+}
