@@ -4,6 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
 import {materializeComponent} from './native-component-assets.mjs';
+import {memoriesPhotoPlate} from './memories-photo-plate.mjs';
 const root=process.cwd(),out=path.join(root,'images/products'),docs=path.join(root,'docs/portfolio');
 const sharp=createRequire(path.join(process.env.MAGICLAB_NODE_MODULES,'package.json'))('sharp');
 const campaign=JSON.parse(await fs.readFile('docs/marketing/october-2026/campaign.json','utf8'));
@@ -15,9 +16,10 @@ async function asset(source,slug,name,maxWidth=1600){
   const key=file+'|'+maxWidth;if(cache.has(key))return cache.get(key);
   const bytes=await fs.readFile(file),svg=file.endsWith('.svg'),meta=svg?{}:await sharp(bytes).metadata();
   const target=path.join(out,slug,name+(svg?'.svg':'.webp'));await fs.mkdir(path.dirname(target),{recursive:true});
-  if(svg)await fs.writeFile(target,bytes);else await sharp(bytes).resize({width:maxWidth,withoutEnlargement:true}).webp({quality:88,effort:5}).toFile(target);
+  const repaired=slug==='memories'&&name==='screen-2'?await memoriesPhotoPlate(bytes):{buffer:bytes,edit:null};
+  if(svg)await fs.writeFile(target,bytes);else await sharp(repaired.buffer).resize({width:maxWidth,withoutEnlargement:true}).webp({quality:88,effort:5}).toFile(target);
   const data={src:'/'+path.relative(root,target),width:meta.width,height:meta.height};
-  records.push({source:path.relative(root,file),output:data.src,source_sha256:crypto.createHash('sha256').update(bytes).digest('hex'),kind:svg?'existing vector asset':'native pixels or existing brand asset; optimized without content changes'});
+  records.push({source:path.relative(root,file),output:data.src,source_sha256:crypto.createHash('sha256').update(bytes).digest('hex'),kind:svg?'existing vector asset':repaired.edit?'native UI preserved; fictional photograph background edited':'native pixels or existing brand asset; optimized without content changes',...(repaired.edit?{photo_edit:repaired.edit}:{})});
   cache.set(key,data);return data;
 }
 async function frame(f){
@@ -42,6 +44,7 @@ for(const p of campaign.products){
   for(let i=0;i<primary.length;i++){
     const copy=cfg.copy?.[i]||p.panels[i];
     features.push({title:copy[0].replaceAll('\n',' '),description:copy[1].replaceAll('\n',' '),label:p.panels[i][2],device:primary[i],cutout:crops[i]?.[0]?await cutout(crops[i][0],p.slug,'component-'+(i+1)):null});
+    if(i===1&&cfg.web_photo_cutout)features[i].photo_cutout=cfg.web_photo_cutout;
   }
   const fleet=[{label:kind==='mac'?'Mac':kind==='browser'?'Web':'iPhone',device:primary[0]}];
   if(p.ipad_store)fleet.push({label:'iPad',device:await device(p.ipad_store.screens[0],p.ipad_store.frame,'ipad',p.slug,'ipad')});
@@ -59,7 +62,7 @@ for(const p of campaign.products){
     const hardware=landscape?{...f,dimensions:[f.dimensions[1],f.dimensions[0]],screen:[f.dimensions[1]-f.screen[1]-f.screen[3],f.screen[0],f.screen[3],f.screen[2]],rotate:90}:f;
     fleet.push({label:'iPad',device:await device(source,hardware,'ipad',p.slug,'ipad-house')});
   }
-  products[p.slug]={palette:p.palette,demo:demos[p.slug],hero:primary[0],hero_cutout:features.find(x=>x.cutout)?.cutout||null,features,props:props.slice(0,3).map(({source,...visual})=>visual),fleet,platforms:product.platform.split(' · '),legacy_details:['giftly','brainfold','myrenewals','toctoc','poof','tumtum'].includes(p.slug)?p.slug:null};
+  products[p.slug]={palette:p.palette,demo:demos[p.slug],hero:primary[0],hero_cutout:p.slug==='memories'?null:features.find(x=>x.cutout)?.cutout||null,features,props:props.slice(0,3).map(({source,...visual})=>visual),fleet,platforms:product.platform.split(' · '),legacy_details:['giftly','brainfold','myrenewals','toctoc','poof','tumtum'].includes(p.slug)?p.slug:null};
 }
 // Real fictional photo fixtures already approved in the Memories revision.
 const photoDir=path.join(root,'docs/marketing/october-2026/assets/revision-2');

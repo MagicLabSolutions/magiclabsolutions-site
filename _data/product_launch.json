@@ -1396,32 +1396,7 @@
       "kind": "iphone",
       "ratio": 0.49
     },
-    "hero_cutout": {
-      "image": {
-        "src": "/images/products/memories/screen-2.webp",
-        "width": 1320,
-        "height": 2868
-      },
-      "ratio": 0.5607476635514018,
-      "width": 157.14285714285714,
-      "left": -28.57142857142857,
-      "top": -41.922563417890515,
-      "radius": 8.928571428571429,
-      "angle": -2,
-      "rendered": {
-        "src": "/images/native-components/879425733b2e8f13.webp",
-        "width": 840,
-        "height": 1498,
-        "source": "/images/products/memories/screen-2.webp",
-        "source_sha256": "0cda2bbb921942b9dc8e8697d5dcdc22c5290deba1ab686c0316d2c16e02a93f",
-        "rect": {
-          "left": 240,
-          "top": 628,
-          "width": 840,
-          "height": 1498
-        }
-      }
-    },
+    "hero_cutout": null,
     "features": [
       {
         "title": "Little moments. One story.",
@@ -1481,31 +1456,11 @@
           "kind": "iphone",
           "ratio": 0.49
         },
-        "cutout": {
-          "image": {
-            "src": "/images/products/memories/screen-2.webp",
-            "width": 1320,
-            "height": 2868
-          },
-          "ratio": 0.5607476635514018,
-          "width": 157.14285714285714,
-          "left": -28.57142857142857,
-          "top": -41.922563417890515,
-          "radius": 8.928571428571429,
-          "angle": -2,
-          "rendered": {
-            "src": "/images/native-components/879425733b2e8f13.webp",
-            "width": 840,
-            "height": 1498,
-            "source": "/images/products/memories/screen-2.webp",
-            "source_sha256": "0cda2bbb921942b9dc8e8697d5dcdc22c5290deba1ab686c0316d2c16e02a93f",
-            "rect": {
-              "left": 240,
-              "top": 628,
-              "width": 840,
-              "height": 1498
-            }
-          }
+        "cutout": null,
+        "photo_cutout": {
+          "src": "/images/products/memories/cat-cutout-v3.webp",
+          "width": 750,
+          "height": 1000
         }
       },
       {

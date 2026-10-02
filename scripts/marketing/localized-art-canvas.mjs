@@ -1,10 +1,11 @@
-/** Deterministic localization compositor. Native captures are never repainted.
+/** Deterministic localization compositor. Native UI is preserved; explicitly approved fictional photo edits are recorded.
  * Uses system shaping/fallback fonts, real hardware PNGs and approved artwork.
  * Independent of browser automation; output is lossless PNG at store dimensions.
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createRequire} from 'node:module';
+import {memoriesPhotoPlate} from './memories-photo-plate.mjs';
 const require=createRequire(path.join(process.env.MAGICLAB_NODE_MODULES||'/Users/fabio.hoffmann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules','package.json'));
 const {createCanvas,loadImage}=require('@napi-rs/canvas');
 const sharp=require('sharp');
@@ -32,7 +33,7 @@ function text(c,value,{x,y,width,size,minSize,weight=750,color,locale,maxLines=4
  return {bottom:y+lines.length*size*leading,size,lines};
 }
 async function device(c,p,x,y,width){
- const im=await bitmap(p.screens[0]);
+ const im=p.photoPlate?await loadImage((await memoriesPhotoPlate(await fs.readFile(path.join(root,p.screens[0])))).buffer):await bitmap(p.screens[0]);
  if(p.frame){const [fw,fh]=p.frame.dimensions,[sx,sy,sw,sh]=p.frame.screen,s=width/fw;
   c.save();rounded(c,x+sx*s,y+sy*s,sw*s,sh*s,(p.frame.radius||(p.device==='ipad'?42:150))*s);c.clip();c.drawImage(im,x+sx*s,y+sy*s,sw*s,sh*s);c.restore();
   c.drawImage(await bitmap(p.frame.asset),x,y,fw*s,fh*s);return fh*s;
@@ -42,6 +43,7 @@ async function device(c,p,x,y,width){
 }
 async function prop(c,asset,x,y,w,angle=0){const im=await bitmap(asset);c.save();c.translate(x+w/2,y);c.rotate(angle*Math.PI/180);c.drawImage(im,-w/2,0,w,w*im.height/im.width);c.restore()}
 async function cutout(c,record,W,H,social=false){const im=await bitmap(record.source),[l,t,r,b]=record.rect;const width=social?Math.min(W*.87,H*.235*(r-l)/(b-t)):W*record.width,s=width/(r-l),height=(b-t)*s,x=social?W*.065:W*record.left,y=social?H*.9-height:H*record.top,angle=social?-2:record.angle||0;
+ if(record.transparent){c.save();c.translate(x+width/2,y+height/2);c.rotate(angle*Math.PI/180);c.drawImage(im,l,t,r-l,b-t,-width/2,-height/2,width,height);c.restore();return;}
  c.save();c.translate(x+width/2,y+height/2);c.rotate(angle*Math.PI/180);c.shadowColor='#00000033';c.shadowBlur=W*.02;c.shadowOffsetY=W*.013;c.fillStyle='#fff';rounded(c,-width/2,-height/2,width,height,(record.radius||24)*s);c.fill();c.shadowColor='transparent';rounded(c,-width/2,-height/2,width,height,(record.radius||24)*s);c.clip();c.drawImage(im,l,t,r-l,b-t,-width/2,-height/2,width,height);c.restore();
 }
 export async function render(p,index,format,size,output){
@@ -60,8 +62,8 @@ export async function render(p,index,format,size,output){
  if(v.compact_from!=null&&index>=v.compact_from&&!share&&!wideStore)top=description.bottom+W*.045;
  if(!p.frame&&share){left=W*.59;width=W*.43;top=H*.36}
  if(!share&&!hero){for(const item of cfg.props||[]){if(item.panels&&!item.panels.includes(index))continue;const im=await bitmap(item.asset),w=W*item.width,y=item.top!=null?H*item.top:H*(1-(item.bottom||0))-w*im.height/im.width;await prop(c,item.asset,W*item.left,y,w,item.angle||0)}}
- await device(c,{...p,screens:[p.screens[index]]},left,top,width);
- const crops=v.cutouts?.[index]||cfg.cutouts?.[index]||[];
+ await device(c,{...p,screens:[p.screens[index]],photoPlate:p.slug==='memories'&&index===1},left,top,width);
+ const crops=[...(v.cutouts?.[index]||cfg.cutouts?.[index]||[]),...(cfg.photo_cutouts?.[platform]?.[index]||[])];
  for(const record of crops){if(social){if(index%2!==1||(record.rect[2]-record.rect[0])/(record.rect[3]-record.rect[1])<2)continue;await cutout(c,record,W,H,true);break}else if(!share)await cutout(c,record,W,H)}
  if(social){c.fillStyle=p.palette[0];c.fillRect(0,H*.93,W,H*.07);text(c,p.cta,{x:margin,y:H*.946,width:W*.68,size:W*.031,minSize:W*.025,weight:650,color:p.palette[1],locale,maxLines:1});c.font=`${W*.024}px "Avenir Next"`;c.textAlign='right';c.fillText('magiclabsolutions.com',W*.93,H*.965)}
  if(share){c.font='20px "Avenir Next"';c.direction='ltr';c.textAlign='left';c.fillStyle=ink;c.fillText('magiclabsolutions.com',margin,H*.93)}

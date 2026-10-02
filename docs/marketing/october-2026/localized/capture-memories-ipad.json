@@ -1,7 +1,9 @@
 {
   "bundle": "com.magiclabsolutions.memories.marketing",
-  "binary_sha256": "b5bdf0ce64026901353a5b133d87ce20a9a0772a0772322275a7ab8eb708cc49",
+  "binary_sha256": "e5274a39b6db43cc6c1e413d423ae7fef3aa3e2c5c6054228960bebfb3a26de0",
+  "debug_binary_sha256": "5638934069b00498b34c12597f9b0f9bd1cb034e571bff6a0dfc291fa8866516",
   "simulator": "F473F837-B8DD-4CA1-B1AA-BCA9CA477DC0",
+  "capture_timezone": "device default",
   "method": "Existing isolated offline capture binary, real native views, per-locale launch arguments",
   "records": [
     {
@@ -9,7 +11,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ar/ipad/native-1.png",
-      "sha256": "a3e69a9d92c291e90aac04a70d0c8c412382d765f185b856be4c6597f835de0d"
+      "sha256": "1e0682bd923ed28afaee16b45aea4a9df7984c8e6d737d1a82533419c4c66e77"
     },
     {
       "locale": "ar",
@@ -23,7 +25,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ar/ipad/native-3.png",
-      "sha256": "f92a2ff071ea7e7758c27c02daae93a456cba75af77ab01ec7a42208f87b6872"
+      "sha256": "652eb7dce5631b4e998f1610045f3ccbf3c624b90d7f4e545008af418b8885c3"
     },
     {
       "locale": "ar",
@@ -37,7 +39,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/bg/ipad/native-1.png",
-      "sha256": "8f17237a299fb10ff6b5587f4832fd37695e6d890bd22a662e42b32b0e053314"
+      "sha256": "1164f1e265fd691c836456ec14c0f0494fbe9dd6d395ce17238d7d950ea96fb2"
     },
     {
       "locale": "bg",
@@ -51,7 +53,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/bg/ipad/native-3.png",
-      "sha256": "306e03691c0ae81fff1293672387bae47a6d51dc967faa2ca092dee9ec7be83d"
+      "sha256": "69a0855811faff675b3ed42ab7db6cc787f4c0e89317dc37d3bf5a70e112e9f5"
     },
     {
       "locale": "bg",
@@ -65,7 +67,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/bn/ipad/native-1.png",
-      "sha256": "822e953291872cfe1a6a9eb21af506a3d833b2e0af6148e92f1bc44a8a2a7828"
+      "sha256": "1277f685f0296e396c1e34214c186b6c9b5cf787bca7247a3e2b2a4d97e57d1e"
     },
     {
       "locale": "bn",
@@ -79,7 +81,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/bn/ipad/native-3.png",
-      "sha256": "cb36cd5ce07166f994c45db6e0b32562f251f78e739bdd321464759c14d6e62f"
+      "sha256": "7d12a4e5c77098b16ee907c7411fdad43dae5044f7ce1a84526639647f41c4ed"
     },
     {
       "locale": "bn",
@@ -93,7 +95,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ca/ipad/native-1.png",
-      "sha256": "b85b2d169f42a7d76f4cc4586649941ac2a7ff9eb28835a84e41de31bef102a8"
+      "sha256": "ce7732e94aba47411d7ca5f679f86acacfc1631f20130784fc810c6739280a0f"
     },
     {
       "locale": "ca",
@@ -107,7 +109,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ca/ipad/native-3.png",
-      "sha256": "6a36775d990c80eb17ef2e3d000600168417ab5dc7643e4bf3b45bc71980868e"
+      "sha256": "bb188982ffb1f65229cc4db512ff6b860736e730be5c3d48d48ea23de20d8bfc"
     },
     {
       "locale": "ca",
@@ -121,7 +123,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/cs/ipad/native-1.png",
-      "sha256": "37087f433ae0103bd724ccf8c7d3058122e7839eec3cd5d8797f010a1fb778a1"
+      "sha256": "83dae47f8d007bbadb31ffadd1040108f96afc470c1dd50dfabdaecaa5f1f56b"
     },
     {
       "locale": "cs",
@@ -135,7 +137,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/cs/ipad/native-3.png",
-      "sha256": "5dcc876146093f4658906aaad4457236ed4ab3f3ebea55d083f2b3b4c0dd69d5"
+      "sha256": "d1723f545d1114a0563b4914b81afaf84d8a63dd0f605f0ad2e92cbecfea2b54"
     },
     {
       "locale": "cs",
@@ -149,7 +151,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/da/ipad/native-1.png",
-      "sha256": "9dc5ccc5dfc8d106b9fbe970bb4f4239374720b2c3561335d3464e1d4abeb891"
+      "sha256": "78d56bbbdc4eeee60347c4e4ee07bc3a505306fac98f42ea4f4ae354cd75691b"
     },
     {
       "locale": "da",
@@ -163,7 +165,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/da/ipad/native-3.png",
-      "sha256": "c77016fc5e2725071d82e5e408f52d2c4757d199ee0602755bf51551643b5cad"
+      "sha256": "dd5f65ff73a6b08c5520e73b7653c9b2920c98406db32c2efab3ed0042b8a375"
     },
     {
       "locale": "da",
@@ -177,7 +179,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/de/ipad/native-1.png",
-      "sha256": "0a338a6b397e9cd9845b10419ed4a94bef101cb15c19bb9b4f7209a2784e8f97"
+      "sha256": "f81c11ae71c46266da535e4540ab6c581d785cb9b225fa9fc0af45ff42a65600"
     },
     {
       "locale": "de",
@@ -191,7 +193,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/de/ipad/native-3.png",
-      "sha256": "6390ffe2b6e457389e5e3bf76635917aadf9b702ff2d6e9b56682eb62c90277b"
+      "sha256": "de180312aebb9c896e4559e0bf803533f4fea78f849ea53991f01ceb41fa4ae4"
     },
     {
       "locale": "de",
@@ -205,7 +207,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/el/ipad/native-1.png",
-      "sha256": "1cc7c07981db095c0e16f2bb2324b29b0c521aaa81edd307d641058402474f84"
+      "sha256": "a46f8631e44b0ee95e175afe4286b21510f042fe9174e00c09edbf6daa34be8b"
     },
     {
       "locale": "el",
@@ -219,7 +221,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/el/ipad/native-3.png",
-      "sha256": "5d0bf12b8c46be8cc8fefb4ac7fd0a7aa4ac807b385f2488d0c6ed7ce0751a33"
+      "sha256": "004d347dc0c8979740a95d7c24f110a49ba8f46423f6b60e146da13972d0eddd"
     },
     {
       "locale": "el",
@@ -233,7 +235,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/en-AU/ipad/native-1.png",
-      "sha256": "6e2333a74e2b7db70c244268bf76c43de827fc620c9859d25205d49c0f07c5aa"
+      "sha256": "bae98e9bef30f2ef4f9a885d3f35396b7355c5ecd22a4f9a9718f97a283f669b"
     },
     {
       "locale": "en-AU",
@@ -247,7 +249,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/en-AU/ipad/native-3.png",
-      "sha256": "3183ba3575b97da7f8946e882bbe92f68d4a40a98e6e05a4ce3fc79d75d64a7c"
+      "sha256": "6de23f51cc5f8e348f32f47a2e59a4504d3a38fe656b85ec026729db246947ac"
     },
     {
       "locale": "en-AU",
@@ -261,7 +263,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/en-GB/ipad/native-1.png",
-      "sha256": "6e2333a74e2b7db70c244268bf76c43de827fc620c9859d25205d49c0f07c5aa"
+      "sha256": "bae98e9bef30f2ef4f9a885d3f35396b7355c5ecd22a4f9a9718f97a283f669b"
     },
     {
       "locale": "en-GB",
@@ -275,7 +277,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/en-GB/ipad/native-3.png",
-      "sha256": "3183ba3575b97da7f8946e882bbe92f68d4a40a98e6e05a4ce3fc79d75d64a7c"
+      "sha256": "6de23f51cc5f8e348f32f47a2e59a4504d3a38fe656b85ec026729db246947ac"
     },
     {
       "locale": "en-GB",
@@ -289,7 +291,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/en-IN/ipad/native-1.png",
-      "sha256": "6e2333a74e2b7db70c244268bf76c43de827fc620c9859d25205d49c0f07c5aa"
+      "sha256": "bae98e9bef30f2ef4f9a885d3f35396b7355c5ecd22a4f9a9718f97a283f669b"
     },
     {
       "locale": "en-IN",
@@ -303,7 +305,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/en-IN/ipad/native-3.png",
-      "sha256": "3183ba3575b97da7f8946e882bbe92f68d4a40a98e6e05a4ce3fc79d75d64a7c"
+      "sha256": "6de23f51cc5f8e348f32f47a2e59a4504d3a38fe656b85ec026729db246947ac"
     },
     {
       "locale": "en-IN",
@@ -317,7 +319,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/en-US/ipad/native-1.png",
-      "sha256": "4af439b47693e6cf8e2d014221b55111c6c7559a5a9a612ea73b0f069d32e174"
+      "sha256": "c70928c24315b7cfafaa302023ada32f43de646c6f68377d5843aa6eee931a25"
     },
     {
       "locale": "en-US",
@@ -331,7 +333,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/en-US/ipad/native-3.png",
-      "sha256": "22a1551c49f230c67fb0aa080969d09c4d2a89e3f5b2ab0a2d29af03ab2a457d"
+      "sha256": "3f6869dfa1c0d32e1030897918ef91081cc8837b5318f8d2d9b2dd14835ff670"
     },
     {
       "locale": "en-US",
@@ -345,7 +347,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/es/ipad/native-1.png",
-      "sha256": "758ff5d3d71f2aaded1bff0d89f480ee2b871b24f3ad6a1b787ff24155299370"
+      "sha256": "0ccd27eeddb57ec14e82f3d0702c4792edc61c9103d066c3632d73da03a1872f"
     },
     {
       "locale": "es",
@@ -359,7 +361,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/es/ipad/native-3.png",
-      "sha256": "241a27fcaaed96932b415482da68725227304301ca9b0fa9e9f7a598d460f1a2"
+      "sha256": "3088e5afd4623997bced330c38f66fd170a9f486d9b3d4516fc371dfb31d73a7"
     },
     {
       "locale": "es",
@@ -373,7 +375,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/es-419/ipad/native-1.png",
-      "sha256": "758ff5d3d71f2aaded1bff0d89f480ee2b871b24f3ad6a1b787ff24155299370"
+      "sha256": "0ccd27eeddb57ec14e82f3d0702c4792edc61c9103d066c3632d73da03a1872f"
     },
     {
       "locale": "es-419",
@@ -387,7 +389,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/es-419/ipad/native-3.png",
-      "sha256": "e6e7ead4bc5e101a1c211c198f7028d6db2a1b55714f0d992986e92c4d5cfaa8"
+      "sha256": "231a950bd6af8c1340de0f040610d0be469f4486f3f27c0d83dd38126b54da17"
     },
     {
       "locale": "es-419",
@@ -401,7 +403,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/es-US/ipad/native-1.png",
-      "sha256": "d89169d5db12d55c437a4124225a06439084f1c57c3c7a71b107b09151ef8be8"
+      "sha256": "06029e5e65dc67cba984ce87cc942a80fcc3cf971bbd942e364b93199173dbd8"
     },
     {
       "locale": "es-US",
@@ -415,7 +417,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/es-US/ipad/native-3.png",
-      "sha256": "a758338193ce0654303fe6f92aae681fd2c0ec3ecc7d380e2e49b81e9ac585a8"
+      "sha256": "a7c95f9153ca1b76626728eb632ec53f1af88b22d3bb6bf1a2991eb2ba79b85d"
     },
     {
       "locale": "es-US",
@@ -429,7 +431,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/fi/ipad/native-1.png",
-      "sha256": "ad39dac364bef98483cd690ae40ac6a954c0ee230ecfb1be3294639e9fe9c27a"
+      "sha256": "1e55bbfda02063f35ac157e86784d58b1fdb35c9b57e15af21503c5cefde6c63"
     },
     {
       "locale": "fi",
@@ -443,7 +445,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/fi/ipad/native-3.png",
-      "sha256": "48a62b74f55189f56682bc4ddf5d0897c0f1d9d3426af1236279abfc273ff5fb"
+      "sha256": "7cb211806f1bf03e74e95fc6fbabf5966538e347abb7e705adfc2f319fbbeaca"
     },
     {
       "locale": "fi",
@@ -457,7 +459,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/fr/ipad/native-1.png",
-      "sha256": "44ac1f0a79d4c26a387b2ef5396a45b9cb5f8e39a18bb35be454eeb3949164ca"
+      "sha256": "c89e064e65ea8369c98057ea4292f6c4b8f0856784eed6a94ff9f07e33a287e1"
     },
     {
       "locale": "fr",
@@ -471,7 +473,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/fr/ipad/native-3.png",
-      "sha256": "c2248de811228ca95504f8cd870de0243ce482e4a129cfc43b36a37a0653868e"
+      "sha256": "fb4de7d3e5ae45f86657af82213f00afe1f73a337f1c29c54faf4a18abe257bb"
     },
     {
       "locale": "fr",
@@ -485,7 +487,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/fr-CA/ipad/native-1.png",
-      "sha256": "44ac1f0a79d4c26a387b2ef5396a45b9cb5f8e39a18bb35be454eeb3949164ca"
+      "sha256": "c89e064e65ea8369c98057ea4292f6c4b8f0856784eed6a94ff9f07e33a287e1"
     },
     {
       "locale": "fr-CA",
@@ -499,7 +501,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/fr-CA/ipad/native-3.png",
-      "sha256": "f7888a2dc0b47dda37c89c963ad400b36497ae9b488ad23d3d071e209d9c47bd"
+      "sha256": "fc5721134886bef9d43df3dbdfed4601cda071778632963323bbfb8f20c344b1"
     },
     {
       "locale": "fr-CA",
@@ -513,7 +515,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/gu/ipad/native-1.png",
-      "sha256": "19b316b7ff76946a9bed22e70e05e4524af0e1e0173754783987250ac4ba0cdd"
+      "sha256": "6072e3f5cbffb224ed90a98397c761420e6fe016dbfb7bd634316c172c4338c8"
     },
     {
       "locale": "gu",
@@ -527,7 +529,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/gu/ipad/native-3.png",
-      "sha256": "37fc704f0301b7824b1a03f1fec19ffa884e611ced78a609d633f7dde8c864b8"
+      "sha256": "966cf65adc1472e51ff7d72b06d17fa3fc2654d620a30c8c103f8d0546df4bc7"
     },
     {
       "locale": "gu",
@@ -541,7 +543,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/he/ipad/native-1.png",
-      "sha256": "c7fa2e6b785bcd9170c9ce4fb3e5e56606113614f821418ae3aaa31b2f526228"
+      "sha256": "f86289422effe7d62b2eec88be3ee40a706d93ad0c77302a623c2b976e228d19"
     },
     {
       "locale": "he",
@@ -555,7 +557,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/he/ipad/native-3.png",
-      "sha256": "f104ce239412c681f633480c9972c3b785520187fb4acfdd825d6e8b79daa44a"
+      "sha256": "a826d15694e78faabd2575965306058c05588df227974e1977da5f49083911f0"
     },
     {
       "locale": "he",
@@ -569,7 +571,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/hi/ipad/native-1.png",
-      "sha256": "cd52ed3980cc269c6d9bff2295c766e3424c1e6ad11012d26dde0db33f45fb42"
+      "sha256": "efaf304ad4565e7c4acc506bde07d7ca8edb8e31b642100fd2f0a82d9f27229b"
     },
     {
       "locale": "hi",
@@ -583,7 +585,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/hi/ipad/native-3.png",
-      "sha256": "739bd3606c4f10be5cdb0cd7d7db3545bbd5cc448794c249ee75e0f2d820e30d"
+      "sha256": "7176eba75880412d68afa676bed92716b35baa84b12bb04846dc1f3da33c3c90"
     },
     {
       "locale": "hi",
@@ -597,7 +599,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/hr/ipad/native-1.png",
-      "sha256": "a673f59998ef3cfe1fceca075408b55624202860f35c632d5bb73631eff65460"
+      "sha256": "a2d16eeb2be238748a61e719c5b42d2992d8f529fd4c11afe7397b16a5220de8"
     },
     {
       "locale": "hr",
@@ -611,7 +613,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/hr/ipad/native-3.png",
-      "sha256": "9f5f2182645bf0720c4219cc6b77ddc38355694631047ed8227c9fbcd00924ef"
+      "sha256": "49716ebeeccc0f4b941eb5d497679c4a47a31e8df13cab86fcbfd9d144a97ec5"
     },
     {
       "locale": "hr",
@@ -625,7 +627,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/hu/ipad/native-1.png",
-      "sha256": "a841f568abd6f2a43406df4227a249b50abd9d955a1d79be56ea77705c3defe8"
+      "sha256": "63b0c09f38bd826a46afbaafed23eec71e257951c9155a4735abfa0e0602f45f"
     },
     {
       "locale": "hu",
@@ -639,7 +641,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/hu/ipad/native-3.png",
-      "sha256": "5557c268e9cb4f6f7f913c18e694cca8580f5a5fd6d3ea0e71abacbd512ee048"
+      "sha256": "cd2a322537dd15774d70a0213f98badb68a9284d427507719f765b3e2c492176"
     },
     {
       "locale": "hu",
@@ -653,7 +655,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/id/ipad/native-1.png",
-      "sha256": "26db2d1dbab6d4b5f4cdb1ca03f59214af8d5075c7a7bed144aee61cfd2b0115"
+      "sha256": "d8f5bf927588b7fc676e5e5d130ef7f768c70443bbb4b9697012e2a00f889421"
     },
     {
       "locale": "id",
@@ -667,7 +669,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/id/ipad/native-3.png",
-      "sha256": "ff221a36c9c7a992a41edc76406fb9d998df5af6007061f6512a8595ab6db5a4"
+      "sha256": "23f3d148df216342c5760af68b6448575c7b3b446bb4e558d41b3eea392c33b0"
     },
     {
       "locale": "id",
@@ -681,7 +683,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/it/ipad/native-1.png",
-      "sha256": "740ee50f4bb5a1d7b7bb8c91895790addac1102d88f9331c092a8fe99b869a91"
+      "sha256": "e674b955a69d8326d8ada80f8875ae32c5672b38eecdfa38f8bf51ca18ffdbd1"
     },
     {
       "locale": "it",
@@ -695,7 +697,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/it/ipad/native-3.png",
-      "sha256": "160f387350e70abd30bb81606b9d52d4a763eed61b4c2823b5ecccd04d3b6656"
+      "sha256": "9466108f0aa1ba0fddff0cdf4095211744a6d9f6f8e92110462554abf7aed6cd"
     },
     {
       "locale": "it",
@@ -709,7 +711,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ja/ipad/native-1.png",
-      "sha256": "2301f9d1c64994bb1f83dd0f0ffd3c4dc38d30a15335edd04d7f9f1ee36ccc07"
+      "sha256": "a406e6d8038253e31c4962f176c52bd4b4fbda6420adc718903c0c6e58964e2d"
     },
     {
       "locale": "ja",
@@ -723,7 +725,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ja/ipad/native-3.png",
-      "sha256": "5ae43994703e8ed0f8010faf574b0d83b537d1af32db829d655fbea616380eff"
+      "sha256": "a4fd55a344750984d95bd2f4cddd58d99fca2cebfe6249aa4d2054993998d3c7"
     },
     {
       "locale": "ja",
@@ -737,7 +739,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/kk/ipad/native-1.png",
-      "sha256": "1e97ae295e2e567d9cc18c9e41cfb69042ccf7d5b2c1f5983284bee69bb4d6d4"
+      "sha256": "ae302be78b7c65103b0b1351c35e8c7b0f80c4b59f09345da1e8ade6c0071966"
     },
     {
       "locale": "kk",
@@ -751,7 +753,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/kk/ipad/native-3.png",
-      "sha256": "8ae591c52870dc86be068792d6ba238f0942792e72823acf267cec7d89d960a7"
+      "sha256": "c5bd98cdf26de118aa90ceeec0548e2982a7326a844f44ea789667de10aed0bc"
     },
     {
       "locale": "kk",
@@ -765,7 +767,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/kn/ipad/native-1.png",
-      "sha256": "2c521d80154689fa1852375d6d35f8926f63e1ab3ee854d8f360226e27251f74"
+      "sha256": "b2079d9d711592d56bfb6dd472fffc80398c13a34104607ad46eda38a6d2a4b2"
     },
     {
       "locale": "kn",
@@ -779,7 +781,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/kn/ipad/native-3.png",
-      "sha256": "8b63cf12ee1788944c39f0a5596f93890b5c9c33dd2988efdde0e03f9260a022"
+      "sha256": "09d8c4b4f3c5fc61609a3ec4390b3898a80106365fa31e1835aa244b38119d44"
     },
     {
       "locale": "kn",
@@ -793,7 +795,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ko/ipad/native-1.png",
-      "sha256": "4159f99eac2b0baa56b444058b1373472a944bba5b46fb9f5d2f8cf881d71d88"
+      "sha256": "0bf8ba3cbc829e57e2e81d306519814fab6af9f6e426399cdcdd3a96a5df6a7a"
     },
     {
       "locale": "ko",
@@ -807,7 +809,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ko/ipad/native-3.png",
-      "sha256": "2852e35d9956b15288300075faf2f93d83868479088b83b37e64953a74baf2db"
+      "sha256": "efe6c7ddd412d785fc0148eb0d658873a984ffb7c01dd68694d5ca5bccead73c"
     },
     {
       "locale": "ko",
@@ -821,7 +823,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/lt/ipad/native-1.png",
-      "sha256": "cd15be75e9f37a9370b801adf2143993a425a26f8087633baafc86980818687b"
+      "sha256": "689893746fefc67985136b81cd18597be3a1116d60f4ecd5cdaeb84de81289f3"
     },
     {
       "locale": "lt",
@@ -835,7 +837,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/lt/ipad/native-3.png",
-      "sha256": "828b543715eb3b9adc768e6908be4ee98647b3e484d262d94dd88e1174563169"
+      "sha256": "2e5026fefbd7865f4f840722f798053cbde474259ca2a6a12d1cdf10c47775bb"
     },
     {
       "locale": "lt",
@@ -849,7 +851,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ml/ipad/native-1.png",
-      "sha256": "18792e15f85f8fee74baefcfa0cda34c9d9b4d45e40e8f36b56b16433979c8f4"
+      "sha256": "1123e4bb3569707d65a8e1cef92cf758979c9238980c26bad197b7b5c5799eef"
     },
     {
       "locale": "ml",
@@ -863,7 +865,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ml/ipad/native-3.png",
-      "sha256": "e4365bf056d29917d5627b84ae32ecdf96b3c22b01e48d39f6b5af419a74eaee"
+      "sha256": "ef28532f590f6e9d64187728912ec81366ed620a9b0c570089e7d39930f00079"
     },
     {
       "locale": "ml",
@@ -877,7 +879,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/mr/ipad/native-1.png",
-      "sha256": "339f6e2c4ddacaf131d80461233d8217897436bef1f29c2c1ac549cc834fd021"
+      "sha256": "29c2a4d4fd3136777103ac169e71e099cd414117be172b1dbd62855f504676bc"
     },
     {
       "locale": "mr",
@@ -891,7 +893,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/mr/ipad/native-3.png",
-      "sha256": "2e041bcd0ebf9985e5addf035cabc7f58a1a46875314cf24089bfba79d19b090"
+      "sha256": "e4af84b44bcbdabcf952f0c14fb1dd961d66fc01b1649053e3710934a383783b"
     },
     {
       "locale": "mr",
@@ -905,7 +907,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ms/ipad/native-1.png",
-      "sha256": "36425dae4ccff50dc793e9ccd62d46ffe505f8b853fd8c68bcd94ad21bf7bf76"
+      "sha256": "75c46f366bfbb0f48b588946ba07bb4ab16226e66e2ed237c844fff19a071ab4"
     },
     {
       "locale": "ms",
@@ -919,7 +921,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ms/ipad/native-3.png",
-      "sha256": "ff221a36c9c7a992a41edc76406fb9d998df5af6007061f6512a8595ab6db5a4"
+      "sha256": "23f3d148df216342c5760af68b6448575c7b3b446bb4e558d41b3eea392c33b0"
     },
     {
       "locale": "ms",
@@ -933,7 +935,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/nb/ipad/native-1.png",
-      "sha256": "5392ea5fcc69f1b1cc7c409ca637484e87271b1d7e88f2ca798db268b1ea5b96"
+      "sha256": "86d9adb1aa6fb2a866afd2d149163a3e0110e3a4b9ccb3d2e8ca973d9214ca32"
     },
     {
       "locale": "nb",
@@ -947,7 +949,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/nb/ipad/native-3.png",
-      "sha256": "59727d1bb005d63fb55ab357b1de849f5da10da96b99e251144b89b32e33a568"
+      "sha256": "cd30558efa8363f73ec1da80d593dc46e46c384154fe6e092c58b269b698c52b"
     },
     {
       "locale": "nb",
@@ -961,7 +963,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/nl/ipad/native-1.png",
-      "sha256": "28a5e8ad0b345c7e7fd4de164c6e72279bb96195fc47f4aefb753294c243fb75"
+      "sha256": "653ac7fbedb64b75cbe515d0c1e6d664c3a78e8de4d2bdde823035019a5695a6"
     },
     {
       "locale": "nl",
@@ -975,7 +977,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/nl/ipad/native-3.png",
-      "sha256": "ae5d2d37f1edd8b5453f73eb016db14a369016730b8b7e7767400d423cd624ee"
+      "sha256": "7201237f3e7da5add43c751656840d5b9b35703e9d5cf5751e27f9c88b747f55"
     },
     {
       "locale": "nl",
@@ -989,7 +991,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/or/ipad/native-1.png",
-      "sha256": "6e9abd688bfa5f370f616421142c5a9d4e5f17e074bcaa28f4f3b5d8b21c3426"
+      "sha256": "77dc26006d25273607cc5ab14895c05ab46efdd76ba838e658cf95792100c17f"
     },
     {
       "locale": "or",
@@ -1003,7 +1005,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/or/ipad/native-3.png",
-      "sha256": "f5dae708a42c4b022f118906a1dfaea6cdacd9f7f4dc090c5a9d4ae7338ca015"
+      "sha256": "90006d619bba486838d60aafc93d13ba6d9a9aea6bfca91cdb8fc441eda2cacb"
     },
     {
       "locale": "or",
@@ -1017,7 +1019,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/pa/ipad/native-1.png",
-      "sha256": "5c873e8ee11def01e5e130b4d9415951b128397bbb7f07b824a18741e31a0412"
+      "sha256": "c4b2cdc8e7a6edd0800bc616bb7e8b74a228b765b8865dedbd7ef054ab3d2715"
     },
     {
       "locale": "pa",
@@ -1031,7 +1033,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/pa/ipad/native-3.png",
-      "sha256": "731ea52dbdaede34d29a5849fb7d728285266b411fffdc42287351e63ccb5cd0"
+      "sha256": "b855ab29cb961a1f624c46fe2b0e59b73e73c32dc15374d9c4e6090619ff081e"
     },
     {
       "locale": "pa",
@@ -1045,7 +1047,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/pl/ipad/native-1.png",
-      "sha256": "d459e4c8a453697cbb55c0b01f45d0aae49b12c4209bf2007335b14e99aede8a"
+      "sha256": "05f71faefe77c8b3efa3546d162f411433b346e38d05b7fe500790cf3e0695ba"
     },
     {
       "locale": "pl",
@@ -1059,7 +1061,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/pl/ipad/native-3.png",
-      "sha256": "4a814ccba92f44e9b2d661b8f45db89e49da3e4b1eea77604200ffa8c62a9567"
+      "sha256": "27134966d77b38fd7989cf40a11bb4bdfac3d6188dbee1950b3ec67110f22d2f"
     },
     {
       "locale": "pl",
@@ -1073,7 +1075,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/pt-BR/ipad/native-1.png",
-      "sha256": "b66219714a31756c151b516e79fcbb68755b59d433363117482b017f4be3979d"
+      "sha256": "4351d0600bb502af9aac072ac4d971cf05ac6180e013a80bcdeaf5555009f3e1"
     },
     {
       "locale": "pt-BR",
@@ -1087,7 +1089,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/pt-BR/ipad/native-3.png",
-      "sha256": "fb541aab284c92bb41ce9233e5e716ba9c4e62ade0c7ab6e82a0c3bd46696f33"
+      "sha256": "66854e45bf4f1b1b460b98c9d4f4085fe448d3a5616701945859ae5f324ab6b5"
     },
     {
       "locale": "pt-BR",
@@ -1101,7 +1103,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/pt-PT/ipad/native-1.png",
-      "sha256": "ce3d2172152220ffa3e6ad13aa4a4edc24baba47ee01e5d019cf1065cdde9ae2"
+      "sha256": "0f6fb7caaa520d734f2b5aa4ee3d16514bcd6d8d3196d11ea1e03e7d95ed75b1"
     },
     {
       "locale": "pt-PT",
@@ -1115,7 +1117,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/pt-PT/ipad/native-3.png",
-      "sha256": "7c6bf870d7c050173480780ecfb7f43188bfa2a80859ca419a19561bff2343d4"
+      "sha256": "218445f6212df6acfe69f23148076d959136385c8e267f4dd2069f6eb3869a19"
     },
     {
       "locale": "pt-PT",
@@ -1129,7 +1131,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ro/ipad/native-1.png",
-      "sha256": "8d41b5b6e86ed56836df24e40e452bd1399ef2955e18739a38f3f1b88d5a2edf"
+      "sha256": "bd3f24e3eaff061ae3201d4be7915d0f415e1a2de7aa2c4620c7c0a89463ccd8"
     },
     {
       "locale": "ro",
@@ -1143,7 +1145,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ro/ipad/native-3.png",
-      "sha256": "bdec4c2d337ab3b777a98c2a94f0820f115bb6c1ad293645cd746ab1db97b6a7"
+      "sha256": "666e5688ecd41b54b5845f8654d4be709bbb095cc1b6515e92c8ef16e5f1db1e"
     },
     {
       "locale": "ro",
@@ -1157,7 +1159,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ru/ipad/native-1.png",
-      "sha256": "8d98d4a42bc46785117f62fdefca72f7ea6ad18f65aba9172bbfe0566363e2fb"
+      "sha256": "59bbae55fb6d846390c51f576ecec9c03248e5a7bcdd10e8214491c6deaf6b32"
     },
     {
       "locale": "ru",
@@ -1171,7 +1173,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ru/ipad/native-3.png",
-      "sha256": "3a12f4bb6575869bfce3623c2a77a7552451aff3b63cb658d8df91dffdcf245d"
+      "sha256": "baaf3171996d57a90704f99dc3c643f44007acae71c355d0b64253d7ea3a969b"
     },
     {
       "locale": "ru",
@@ -1185,7 +1187,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/sk/ipad/native-1.png",
-      "sha256": "a41e9e9d5e6dd49c4ff3174a54547c7e1bf2fb01adf0a703c1c7a7de5bae9e3f"
+      "sha256": "c00f8ccdf930cbbd9aeee6e861b569206384081652a8f5ee123f93b134fdc3f6"
     },
     {
       "locale": "sk",
@@ -1199,7 +1201,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/sk/ipad/native-3.png",
-      "sha256": "359f3254af73e23de5446f6c2089839ac97897a7df541f69ae83cf41c2cff499"
+      "sha256": "c55eebacd7ecb6ceb299fee895454df694bb1a6bde81586a5f7bf780949ee367"
     },
     {
       "locale": "sk",
@@ -1213,7 +1215,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/sl/ipad/native-1.png",
-      "sha256": "33e604c2aa525b5895bd8c46a6c6957e25110ab277880bd34f68ebf234b9a979"
+      "sha256": "a272a3d441447733a4fcefa3311c54d23b7c0438fc8490b8615ea168f7a045b2"
     },
     {
       "locale": "sl",
@@ -1227,7 +1229,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/sl/ipad/native-3.png",
-      "sha256": "fbd45b70f9b3b4db07d10cbf4aac3d76306548351fc63b9f3a7d8285aa11506a"
+      "sha256": "5c7454d9a8db78f512e66d28da68235b43fc42cfab322fb0ebbbf58cdb51726c"
     },
     {
       "locale": "sl",
@@ -1241,7 +1243,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/sv/ipad/native-1.png",
-      "sha256": "a61c0dc2f9fa8a22932cb26ebe663c0a30055ebad4902233824c0c09edadeb47"
+      "sha256": "22884fdf8886c8df2bc1649bfc4c4d625b835b28b58a904dfa0d8ea907c4ee03"
     },
     {
       "locale": "sv",
@@ -1255,7 +1257,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/sv/ipad/native-3.png",
-      "sha256": "d839cadbf93767f53b977843939db37d9fe205d76f5cc010c308b830efc93ab9"
+      "sha256": "f8e6009fc07fb857ea7bcbde667b1f8eb6a14ba693d22169be5b04a7e533e09d"
     },
     {
       "locale": "sv",
@@ -1269,7 +1271,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ta/ipad/native-1.png",
-      "sha256": "ac6a7f64eb561eb4527c63c47eb3680ffbf15ae579b711b0d12564edbe394c32"
+      "sha256": "bb52a50bea512cefb755ca332a180943ae5675ebf609815a7bfaaf308e1b4508"
     },
     {
       "locale": "ta",
@@ -1283,7 +1285,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ta/ipad/native-3.png",
-      "sha256": "20d88cabb7e7e84b02e1419054af77ba834560ec6a88359e5a8abd33bfc53e3d"
+      "sha256": "a859b66b7457cee2ee05a05c2e2fce769bcd2a5c6c021d71e0a64b8bc39793b2"
     },
     {
       "locale": "ta",
@@ -1297,7 +1299,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/te/ipad/native-1.png",
-      "sha256": "7cb4a0aa7dc06d40b2c5604e88c70eb40e693a1305c1c4c38e8f55c3402eefe1"
+      "sha256": "58c0f7a85b22360114557cd79471b0c71b0aded0611d1356bf03ac31ca6d055c"
     },
     {
       "locale": "te",
@@ -1311,7 +1313,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/te/ipad/native-3.png",
-      "sha256": "fada667f0f90c23e658dc471ad036f99f9e46351286aa882f89898689f5a8180"
+      "sha256": "955367ce933a631542fa252256617e061a9a17c0eef5c008bada1bc9c035a1ab"
     },
     {
       "locale": "te",
@@ -1325,7 +1327,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/th/ipad/native-1.png",
-      "sha256": "92c757c1c23cc08659f1cd92b64fbd2d7fd911e25dfb619e31495e30647c49a9"
+      "sha256": "04cc3d3e97f2970ec91e658e429b049359c0f05001dfc03ae73f26e1087f0f4c"
     },
     {
       "locale": "th",
@@ -1339,7 +1341,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/th/ipad/native-3.png",
-      "sha256": "fe7f7914a435174d8b1b251e33500263712c2fe972f40f5716707e425631b83e"
+      "sha256": "3d6f37c83efbe67be7c66e83b9bc332d60c0e219dcfdeb1d21b3ecff4e6ac271"
     },
     {
       "locale": "th",
@@ -1353,7 +1355,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/tr/ipad/native-1.png",
-      "sha256": "e8237e4360bddbccd7da0253d7cf6f52867e88ccfc4fb29b31636f08bcdbdb0a"
+      "sha256": "fbb6714db012ba805853c8c718644476467495fdce4fd1526eefa34024b527f4"
     },
     {
       "locale": "tr",
@@ -1367,7 +1369,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/tr/ipad/native-3.png",
-      "sha256": "4e0f35169a89387d147d54335b8df70aa14ba8730d698e7026de0b14a4a87155"
+      "sha256": "f0d310ad9ebd085974d3293bfc374dfc6a6b3933916b1393f24469586e592e2c"
     },
     {
       "locale": "tr",
@@ -1381,7 +1383,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/uk/ipad/native-1.png",
-      "sha256": "c1eb88828370961efda0bf4144e3a868b8332e584a9129d66a6b7de03fbf8ee4"
+      "sha256": "6001d9638ed6116887dedf370e81ba7b2885a519c76541d5c21d2d55d5f4f67e"
     },
     {
       "locale": "uk",
@@ -1395,7 +1397,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/uk/ipad/native-3.png",
-      "sha256": "93e15c6f173a938324a1681b23457e9433632b5477469b139f8fc0816cf3a09b"
+      "sha256": "d75cba4805a56b1e8a9ea4c53413d93fb467ea12fb3dfd0fc012057940ae422d"
     },
     {
       "locale": "uk",
@@ -1409,7 +1411,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/ur/ipad/native-1.png",
-      "sha256": "e713e589cc199ef91fa921c64cd9aa849853bc3b3dcd2da7435429491afc038d"
+      "sha256": "364be3328f00a4473783883cd256e03255c1ea2d400a4c4358ae6e10b0cf732d"
     },
     {
       "locale": "ur",
@@ -1423,7 +1425,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/ur/ipad/native-3.png",
-      "sha256": "5650e64fb62e5df7c265e2def3c64293a4e3117f80262335ac0893dba0fd2600"
+      "sha256": "aeacbb9212e5df063fe8d2b61f57df7544386afb1d4d4cb747c03dd001ef5135"
     },
     {
       "locale": "ur",
@@ -1437,7 +1439,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/vi/ipad/native-1.png",
-      "sha256": "11e7952a8c1fb0e3ebc0e7ee8ee427476a86fec4cc5f770ab1b87725d76fe52f"
+      "sha256": "626f637f11f6c761c06ba3c35c6f399c2190cf95fc81f8eaa8298f63f3879eef"
     },
     {
       "locale": "vi",
@@ -1451,7 +1453,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/vi/ipad/native-3.png",
-      "sha256": "2f331c13d47d8b9bab2a7ed0e1220385a9d6132e08e24b4994cf9c05539bfb3f"
+      "sha256": "5cc5f502e1a20304fb7e29e6f3d5cdae4c08e205fe0d731f857db8588528f7c5"
     },
     {
       "locale": "vi",
@@ -1465,7 +1467,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/zh-HK/ipad/native-1.png",
-      "sha256": "bf7993a1cb024d5d3634f6bcf8de38f356ad872e5e1371d695d76c63f6389efb"
+      "sha256": "18d10a55676f78afc93071bfb393860217be010fb73fd2ebd63ecb780e211053"
     },
     {
       "locale": "zh-HK",
@@ -1479,7 +1481,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/zh-HK/ipad/native-3.png",
-      "sha256": "5ad01af5a9710437f8a64ee254c58419ca81299932a212f20ebca5593d742862"
+      "sha256": "f0cacd12711d2d625e9723c9d1cef0a20a96739a5e599e339517fe5af69c5784"
     },
     {
       "locale": "zh-HK",
@@ -1493,7 +1495,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/zh-Hans/ipad/native-1.png",
-      "sha256": "e0167a88eccbb2eaa62d6e201f1e3cc8b77848a3e4ed0c58b753fd9a24785ac7"
+      "sha256": "47fa5ec795046cd9debd7e680298e9d4118728645c4c36b9d74c54369ed3abbe"
     },
     {
       "locale": "zh-Hans",
@@ -1507,7 +1509,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/zh-Hans/ipad/native-3.png",
-      "sha256": "ff7504f9ca07b4aec0a9561fe8d2f9673166525856feedf7cbaad73587afd353"
+      "sha256": "4cdacd9acc63a6ece9ff111da303279e5b0c9e741ef59298bbbfbf03c8fcbe8c"
     },
     {
       "locale": "zh-Hans",
@@ -1521,7 +1523,7 @@
       "platform": "ipad",
       "panel": 1,
       "source": "docs/marketing/october-2026/localized/native/memories/zh-Hant/ipad/native-1.png",
-      "sha256": "ac49bb3b5d3545a7864f86fce4a8fe87387640e49a8960dbfdf55fc8da037e76"
+      "sha256": "4178a1a474d10405f06006ba4b4b3a96bbd6c7fef0aee8894631f82bd359af39"
     },
     {
       "locale": "zh-Hant",
@@ -1535,7 +1537,7 @@
       "platform": "ipad",
       "panel": 3,
       "source": "docs/marketing/october-2026/localized/native/memories/zh-Hant/ipad/native-3.png",
-      "sha256": "b431cf7734626995e7c68d90ba954dd2f0aa6e6938ee409737bd197df00110cd"
+      "sha256": "3b63e2ddcb65c1cb3cae0ce93b36a1fc62f3e17a1c90425de79367cdf8797e67"
     },
     {
       "locale": "zh-Hant",

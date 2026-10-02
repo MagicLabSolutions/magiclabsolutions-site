@@ -1,0 +1,208 @@
+--- a/Memories.xcodeproj/project.pbxproj
++++ b/Memories.xcodeproj/project.pbxproj
+@@ -329,7 +329,7 @@
+ 				0A86C0FB2F9E104500845503 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+ 				0A86C0FE2F9E105800845503 /* XCRemoteSwiftPackageReference "Nuke" */,
+ 				0A86C1072F9E109200845503 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+-				0AB302E62FA8C7A800BD03B1 /* XCLocalSwiftPackageReference "../../AppStoreScreenshotGenerator" */,
++				0AB302E62FA8C7A800BD03B1 /* XCLocalSwiftPackageReference "/Users/fabio.hoffmann/Development/MagicLabSolutions/AppStoreScreenshotGenerator" */,
+ 			);
+ 			preferredProjectObjectVersion = 77;
+ 			productRefGroup = 0A86C0A92F9E0F3D00845503 /* Products */;
+@@ -799,9 +799,9 @@
+ /* End XCConfigurationList section */
+ 
+ /* Begin XCLocalSwiftPackageReference section */
+-		0AB302E62FA8C7A800BD03B1 /* XCLocalSwiftPackageReference "../../AppStoreScreenshotGenerator" */ = {
++		0AB302E62FA8C7A800BD03B1 /* XCLocalSwiftPackageReference "/Users/fabio.hoffmann/Development/MagicLabSolutions/AppStoreScreenshotGenerator" */ = {
+ 			isa = XCLocalSwiftPackageReference;
+-			relativePath = ../../AppStoreScreenshotGenerator;
++			relativePath = /Users/fabio.hoffmann/Development/MagicLabSolutions/AppStoreScreenshotGenerator;
+ 		};
+ /* End XCLocalSwiftPackageReference section */
+ 
+--- a/Memories/Persistence/ScreenshotImageFactory.swift
++++ b/Memories/Persistence/ScreenshotImageFactory.swift
+@@ -1,5 +1,6 @@
+ import UIKit
+ import CoreGraphics
++import ImageIO
+ 
+ /// Generates synthetic "photo" images for App Store screenshots.
+ ///
+@@ -58,56 +59,8 @@
+     /// Cuts the network portion of the seed from "100 sequential
+     /// requests" to "100 parallel requests in one batch."
+     static func prewarmStockCache(for jobs: [(theme: Theme, seed: Int)], size: CGSize = CGSize(width: 1080, height: 1440)) {
+-        // Snapshot the keys we still need to fetch — anything already
+-        // in the cache from a previous prewarm is skipped.
+-        let pending: [(String, URL)] = jobs.compactMap { job in
+-            let cacheKey = "\(job.theme)-\(job.seed)-\(Int(size.width))x\(Int(size.height))"
+-            if stockCache[cacheKey] != nil { return nil }
+-            let urlString = "https://picsum.photos/seed/memories-\(job.theme)-\(job.seed)/\(Int(size.width))/\(Int(size.height))"
+-            guard let url = URL(string: urlString) else { return nil }
+-            return (cacheKey, url)
+-        }
+-        if pending.isEmpty { return }
+-
+-        let semaphore = DispatchSemaphore(value: 0)
+-        let resultsBox = ResultsBox()
+-
+-        // `Task.detached` so the parallel work runs off the main
+-        // actor — otherwise `semaphore.wait()` below would block the
+-        // main thread while the Task is also queued for main, and
+-        // the whole thing deadlocks.
+-        Task.detached {
+-            await withTaskGroup(of: (String, UIImage?).self) { group in
+-                for (cacheKey, url) in pending {
+-                    group.addTask {
+-                        let config = URLSessionConfiguration.ephemeral
+-                        config.timeoutIntervalForRequest = 12
+-                        config.timeoutIntervalForResource = 20
+-                        let session = URLSession(configuration: config)
+-                        do {
+-                            let (data, _) = try await session.data(from: url)
+-                            return (cacheKey, UIImage(data: data))
+-                        } catch {
+-                            return (cacheKey, nil)
+-                        }
+-                    }
+-                }
+-                for await (key, image) in group {
+-                    if let image { await resultsBox.append(key: key, image: image) }
+-                }
+-            }
+-            semaphore.signal()
+-        }
+-
+-        // Up to 30s for the whole batch. Picsum is normally <5s per
+-        // image; parallelism keeps wall time low even for 100+ photos.
+-        _ = semaphore.wait(timeout: .now() + 30)
+-
+-        let results = resultsBox.snapshotSync()
+-        for (key, image) in results {
+-            stockCache[key] = image
+-        }
+-        print("[ScreenshotImageFactory] prewarmed \(results.count)/\(pending.count) stock photos")
++        // All photos are preloaded by the isolated native capture fixture.
++        return
+     }
+ 
+     /// Synchronously fetch a stock photo for the given theme + seed.
+@@ -122,41 +75,15 @@
+     ///   2. The cache + bulk pre-warm in `ScreenshotSeed` mean we
+     ///      pay the network cost once at boot, not per render.
+     private static func downloadStockImage(theme: Theme, seed: Int, size: CGSize) -> UIImage? {
+-        let cacheKey = "\(theme)-\(seed)-\(Int(size.width))x\(Int(size.height))"
+-        if let cached = stockCache[cacheKey] {
+-            return cached
+-        }
+-
+-        let urlString = "https://picsum.photos/seed/memories-\(theme)-\(seed)/\(Int(size.width))/\(Int(size.height))"
+-        guard let url = URL(string: urlString) else { return nil }
+-
+-        let semaphore = DispatchSemaphore(value: 0)
+-        var resultImage: UIImage?
+-
+-        let config = URLSessionConfiguration.ephemeral
+-        config.timeoutIntervalForRequest = 8
+-        config.timeoutIntervalForResource = 15
+-        let session = URLSession(configuration: config)
+-
+-        let task = session.dataTask(with: url) { data, _, _ in
+-            if let data, let image = UIImage(data: data) {
+-                resultImage = image
+-            }
+-            semaphore.signal()
+-        }
+-        task.resume()
+-
+-        // Block the seed thread until the request completes or times
+-        // out. The seed already takes ~25s for procedural generation;
+-        // network adds a few seconds when reachable, drops back to
+-        // procedural after the timeout when not.
+-        _ = semaphore.wait(timeout: .now() + 12)
+-
+-        if let image = resultImage {
+-            stockCache[cacheKey] = image
+-            return image
+-        }
+-        return nil
++        let file = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0]
++            .appendingPathComponent("marketing-stock/\(theme)-\(seed)-1080x1440.jpg")
++        guard let source = CGImageSourceCreateWithURL(file as CFURL, nil),
++              let image = CGImageSourceCreateThumbnailAtIndex(source, 0, [
++                kCGImageSourceCreateThumbnailFromImageAlways: true,
++                kCGImageSourceThumbnailMaxPixelSize: 1000,
++                kCGImageSourceCreateThumbnailWithTransform: true
++              ] as CFDictionary) else { return nil }
++        return UIImage(cgImage: image)
+     }
+ 
+     // MARK: - Procedural fallback (offline / CI)
+--- a/Memories/App/MemoriesApp.swift
++++ b/Memories/App/MemoriesApp.swift
+@@ -79,10 +79,27 @@
+ 
+     var body: some Scene {
+         WindowGroup {
+-            RootView()
++            UniquePhotoCaptureHost()
+                 .environment(\.font, AppFont.body)
+                 .tint(AppColor.roseDeep)
+         }
+         .modelContainer(sharedModelContainer)
+     }
+ }
++
++
++// Isolated marketing host; mounts production views without touching user accounts.
++private struct UniquePhotoCaptureHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++    var body: some View {
++        NavigationStack {
++            if let project = projects.first {
++                if ProcessInfo.processInfo.arguments.contains("highlights") {
++                    MemoryListView(project: project, initialFilter: .builtin(.highlights))
++                } else {
++                    ProjectHomeView(project: project)
++                }
++            }
++        }.preferredColorScheme(.light)
++    }
++}
+--- a/Memories/App/AppDelegate.swift
++++ b/Memories/App/AppDelegate.swift
+@@ -8,6 +8,7 @@
+         _ application: UIApplication,
+         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
+     ) -> Bool {
++        if ScreenshotMode.isActive { return true }
+         // BG task registration must happen synchronously during launch.
+         BackgroundTaskManager.register()
+ 
+--- a/Memories/Features/Home/ProjectHomeView.swift
++++ b/Memories/Features/Home/ProjectHomeView.swift
+@@ -419,7 +419,8 @@
+                             let previewMemories = Array(
+                                 liveMemories
+                                     .filter { period.contains($0.capturedAt) }
+-                                    .sorted { $0.capturedAt > $1.capturedAt }
++                                    // Distinct representative cover photos in the isolated fixture.
++                                    .sorted { $0.capturedAt < $1.capturedAt }
+                                     .prefix(PeriodMemoryMosaic.maxCells)
+                             )
+                             Button {
+@@ -445,8 +446,10 @@
+                     }
+                     .padding(.horizontal, AppSpace.xl)
+                 }
+-                .onAppear {
+-                    proxy.scrollTo(currentPeriod.monthIndex, anchor: .center)
++                .task {
++                    try? await Task.sleep(for: .milliseconds(350))
++                    let offset = ProcessInfo.processInfo.arguments.contains("-marketing-tablet") ? 6 : 2
++                    proxy.scrollTo(max(0, currentPeriod.monthIndex - offset), anchor: .center)
+                 }
+             }
+         }

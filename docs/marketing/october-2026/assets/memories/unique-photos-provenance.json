@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-02",
+  "purpose": "Repair duplicated photos in native Memories mocks and remove room background from cat overlay",
+  "assets": [
+    {
+      "file": "docs/marketing/october-2026/assets/memories/family-garden.png",
+      "sha256": "280e919a1ecc074d881600b8312071afe779620a4606d6e21e197facc6c8e1bd",
+      "method": "Built-in image_gen; fictional photograph",
+      "input": null,
+      "prompt": "A warm candid family memory photo: a grandmother and young girl planting bright flowers together in a sunny backyard, laughing, hands and faces natural, vertical 3:4 smartphone photo, no text, no watermarks, photorealistic, not a collage."
+    },
+    {
+      "file": "docs/marketing/october-2026/assets/memories/pet-puppy.png",
+      "sha256": "0baa43ea7aa4e29e59e760e1f242b59fd178897b2bf5da4c02872c9902aab956",
+      "method": "Built-in image_gen; fictional photograph",
+      "input": null,
+      "prompt": "Candid memory photo of a golden retriever puppy playing with a soft blue ball on the green grass in a family garden, warm afternoon sunlight, detailed eyes and fur, vertical 3:4 smartphone photo, photorealistic, no text, no collage."
+    },
+    {
+      "file": "docs/marketing/october-2026/assets/memories/family-snow.png",
+      "sha256": "2cafb89905b6a2c8c8fc009f36b12a97448fc793b17a8b98e706755c8595007f",
+      "method": "Built-in image_gen; fictional photograph",
+      "input": null,
+      "prompt": "Natural joyful memory photo of a father mother and eight-year-old child building a snowman outdoors on a winter trip, colorful winter clothes, warm affectionate expressions, vertical 3:4 smartphone photo, photorealistic, no text, no collage."
+    },
+    {
+      "file": "docs/marketing/october-2026/assets/memories/family-reading.png",
+      "sha256": "78d0d16620ea7f92fdc5a03559584a1364fa4a9f89d70776100f8c829ed3b749",
+      "method": "Built-in image_gen; fictional photograph",
+      "input": null,
+      "prompt": "An intimate candid family memory: a father reading a picture book with his young daughter on the sofa at home, soft warm window light, relaxed affectionate expressions, recognizable faces, vertical 3:4 smartphone photo, photorealistic, no text, no collage."
+    },
+    {
+      "file": "docs/marketing/october-2026/assets/memories/cat-cutout-v3.png",
+      "sha256": "ccbe93212ab899ec8993944e74f19fe7253be878cdea6ac0af3f408071985bd1",
+      "method": "Built-in image_gen; background extraction preserving the approved cat photo",
+      "input": "docs/marketing/october-2026/assets/revision-2/pet-cat.png",
+      "prompt": "Use case background-extraction. Produce a clean professional photographic cutout of this exact orange cat on genuine transparency. Preserve the whole cat pose and facial appearance. Remove ALL surrounding room, plants, window, sill, blanket. At the silhouette use only natural orange, cream and white fur and thin natural whiskers, with clean softly antialiased alpha. No red or yellow colored fringe, no halo, no graphic strokes or color spill. Keep the subject\u2019s body intact. Transparent background."
+    },
+    {
+      "file": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+      "sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+      "method": "Built-in image_gen; remove cat from fictional photo, preserve empty room background",
+      "input": "docs/marketing/october-2026/assets/revision-2/pet-cat.png",
+      "prompt": "Remove the entire orange cat, paws, head, body and whiskers. Reconstruct the naturally empty white windowsill and occluded room, retaining the original portrait viewpoint, morning light, plants and curtains. No animals or animal shadows, no text, UI or frames."
+    }
+  ]
+}

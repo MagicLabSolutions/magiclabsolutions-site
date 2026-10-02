@@ -10674,7 +10674,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "d3d5db55a660677cc23d527ecf4c776285187e5a82cdc98dcfa7bec6505d7c1c"
+        "source_sha256": "109db861a9f23e2790e9079c04ecef2430158581253635e18228a0b1d977ff09"
       },
       "hero_cutout": null,
       "features": [
@@ -10705,7 +10705,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "d3d5db55a660677cc23d527ecf4c776285187e5a82cdc98dcfa7bec6505d7c1c"
+            "source_sha256": "109db861a9f23e2790e9079c04ecef2430158581253635e18228a0b1d977ff09"
           },
           "cutout": null
         },
@@ -10736,9 +10736,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "21ed551caae7e02c8c47c27b54f0351b42bdbd88fb052c04e7a6befac4ac5a27"
+            "source_sha256": "21ed551caae7e02c8c47c27b54f0351b42bdbd88fb052c04e7a6befac4ac5a27",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 596,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "21ed551caae7e02c8c47c27b54f0351b42bdbd88fb052c04e7a6befac4ac5a27",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.028223547393107416
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "احتفظ بالمفضلات قريبة منك.",
@@ -10767,7 +10786,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "65de2af0cff3882dfbc1ee687bb696c2559c12da708f87e7378f5759a2ff177f"
+            "source_sha256": "c1d4f797e48b3f7439ad4d4b01351aa911c05894e5aa3fa7275a7007e9f8d89c"
           },
           "cutout": null
         },
@@ -10861,7 +10880,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "d3d5db55a660677cc23d527ecf4c776285187e5a82cdc98dcfa7bec6505d7c1c"
+            "source_sha256": "109db861a9f23e2790e9079c04ecef2430158581253635e18228a0b1d977ff09"
           }
         },
         {
@@ -10889,7 +10908,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "a3e69a9d92c291e90aac04a70d0c8c412382d765f185b856be4c6597f835de0d"
+            "source_sha256": "1e0682bd923ed28afaee16b45aea4a9df7984c8e6d737d1a82533419c4c66e77"
           }
         }
       ],
@@ -10978,7 +10997,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "1e207eddbc6c565f6871d0ae04b51f59eeb1cdd438b45e479bc0bb73c8ec3432"
+        "source_sha256": "8af62e5b17ed5bd3ec940f1868a589ff722ea3404d4114c5b2a978824ecf8785"
       },
       "hero_cutout": null,
       "features": [
@@ -11009,7 +11028,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "1e207eddbc6c565f6871d0ae04b51f59eeb1cdd438b45e479bc0bb73c8ec3432"
+            "source_sha256": "8af62e5b17ed5bd3ec940f1868a589ff722ea3404d4114c5b2a978824ecf8785"
           },
           "cutout": null
         },
@@ -11040,9 +11059,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "32fca2236ee5861f21cf9ec6551f8d0ed002eb4cfd4138ebdf75198c18cc3ce9"
+            "source_sha256": "32fca2236ee5861f21cf9ec6551f8d0ed002eb4cfd4138ebdf75198c18cc3ce9",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "32fca2236ee5861f21cf9ec6551f8d0ed002eb4cfd4138ebdf75198c18cc3ce9",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "お気に入りをすぐそばに。",
@@ -11071,7 +11109,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "be19f6e5d0db3c9f188640f914c3d0a00d838726e1812b5ca2c5b42cd5793736"
+            "source_sha256": "a763e38f3a4984c05e9055adb31bf43c34434de0ea07d8aca4981d8d14a268ab"
           },
           "cutout": null
         },
@@ -11165,7 +11203,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "1e207eddbc6c565f6871d0ae04b51f59eeb1cdd438b45e479bc0bb73c8ec3432"
+            "source_sha256": "8af62e5b17ed5bd3ec940f1868a589ff722ea3404d4114c5b2a978824ecf8785"
           }
         },
         {
@@ -11193,7 +11231,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "2301f9d1c64994bb1f83dd0f0ffd3c4dc38d30a15335edd04d7f9f1ee36ccc07"
+            "source_sha256": "a406e6d8038253e31c4962f176c52bd4b4fbda6420adc718903c0c6e58964e2d"
           }
         }
       ],
@@ -11282,7 +11320,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "1ce4caf80dcd99f90619e5fcb56297f28c3e7f0f6f289f3db9e9671d91a85f07"
+        "source_sha256": "a9564e99f7d9e17dc059937f7478d9f4acecdb84b6beb0c2759a88e93dc7b1aa"
       },
       "hero_cutout": null,
       "features": [
@@ -11313,7 +11351,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "1ce4caf80dcd99f90619e5fcb56297f28c3e7f0f6f289f3db9e9671d91a85f07"
+            "source_sha256": "a9564e99f7d9e17dc059937f7478d9f4acecdb84b6beb0c2759a88e93dc7b1aa"
           },
           "cutout": null
         },
@@ -11344,9 +11382,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "248e567d5e4a6affa79133f8fe4a43d3b924c4c5800136de440f7cd6dc374b3f"
+            "source_sha256": "248e567d5e4a6affa79133f8fe4a43d3b924c4c5800136de440f7cd6dc374b3f",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "248e567d5e4a6affa79133f8fe4a43d3b924c4c5800136de440f7cd6dc374b3f",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Mantenha os favoritos por perto.",
@@ -11375,7 +11432,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "07e19f68c48c6f2e98ef39e26b4447fd6900dc784e7b55be9b699139bb7996d7"
+            "source_sha256": "0b4002f18e28f755e3c8c065d07561356a5172c7ecadb786993e298cafeaea83"
           },
           "cutout": null
         },
@@ -11469,7 +11526,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "1ce4caf80dcd99f90619e5fcb56297f28c3e7f0f6f289f3db9e9671d91a85f07"
+            "source_sha256": "a9564e99f7d9e17dc059937f7478d9f4acecdb84b6beb0c2759a88e93dc7b1aa"
           }
         },
         {
@@ -11497,7 +11554,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "b66219714a31756c151b516e79fcbb68755b59d433363117482b017f4be3979d"
+            "source_sha256": "4351d0600bb502af9aac072ac4d971cf05ac6180e013a80bcdeaf5555009f3e1"
           }
         }
       ],
@@ -11586,7 +11643,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "a89024c7cbf87485860af68e6bdf15ae2c65eeb2d86e817a49ebc29279744818"
+        "source_sha256": "897ad6312a7848f0d63a238e18bc9a1a92645ca8e7f1b4f7a60c6d880f75b1e4"
       },
       "hero_cutout": null,
       "features": [
@@ -11617,7 +11674,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a89024c7cbf87485860af68e6bdf15ae2c65eeb2d86e817a49ebc29279744818"
+            "source_sha256": "897ad6312a7848f0d63a238e18bc9a1a92645ca8e7f1b4f7a60c6d880f75b1e4"
           },
           "cutout": null
         },
@@ -11648,9 +11705,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "4d881f101e69aa4c9e3532a6f06792081462e3a42c5f1c007894112bf60f3749"
+            "source_sha256": "4d881f101e69aa4c9e3532a6f06792081462e3a42c5f1c007894112bf60f3749",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "4d881f101e69aa4c9e3532a6f06792081462e3a42c5f1c007894112bf60f3749",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "心爱瞬间，随时回味。",
@@ -11679,7 +11755,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "389307f91ef01db55b1e7548089ddf3df2d33e5c313bc9bd0f64b9202e2f4c09"
+            "source_sha256": "6f04884ab6a2435b9d80cdbf994ce9d04808592dc712202135cb504d38a24f4e"
           },
           "cutout": null
         },
@@ -11773,7 +11849,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a89024c7cbf87485860af68e6bdf15ae2c65eeb2d86e817a49ebc29279744818"
+            "source_sha256": "897ad6312a7848f0d63a238e18bc9a1a92645ca8e7f1b4f7a60c6d880f75b1e4"
           }
         },
         {
@@ -11801,7 +11877,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "e0167a88eccbb2eaa62d6e201f1e3cc8b77848a3e4ed0c58b753fd9a24785ac7"
+            "source_sha256": "47fa5ec795046cd9debd7e680298e9d4118728645c4c36b9d74c54369ed3abbe"
           }
         }
       ],
@@ -11890,7 +11966,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "eec37444e4be2d4f96bc6ea2cd9ce9ea443c54a8d40cdbc315f95353cc1cfe75"
+        "source_sha256": "d7c23ef2be9aff335321fed6629e9a4ce20526af5fc8f725a890d8471300395b"
       },
       "hero_cutout": null,
       "features": [
@@ -11921,7 +11997,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "eec37444e4be2d4f96bc6ea2cd9ce9ea443c54a8d40cdbc315f95353cc1cfe75"
+            "source_sha256": "d7c23ef2be9aff335321fed6629e9a4ce20526af5fc8f725a890d8471300395b"
           },
           "cutout": null
         },
@@ -11952,9 +12028,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "943fb97eeba8008bc0bf08301202d390b0a07c4cb58ce344dbc803ab43ca14a4"
+            "source_sha256": "943fb97eeba8008bc0bf08301202d390b0a07c4cb58ce344dbc803ab43ca14a4",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 581,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "943fb97eeba8008bc0bf08301202d390b0a07c4cb58ce344dbc803ab43ca14a4",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.03065195725659506
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Дръж любимите неща под ръка.",
@@ -11983,7 +12078,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "774ab04ed72f8a269b71f5f8005bd6a0eb37586fe0d95470967eea4f0482500b"
+            "source_sha256": "2b3e08e806ec3886837bc8a2fe786f9b216685823bf2b3cd4d5abc0019db8511"
           },
           "cutout": null
         },
@@ -12077,7 +12172,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "eec37444e4be2d4f96bc6ea2cd9ce9ea443c54a8d40cdbc315f95353cc1cfe75"
+            "source_sha256": "d7c23ef2be9aff335321fed6629e9a4ce20526af5fc8f725a890d8471300395b"
           }
         },
         {
@@ -12105,7 +12200,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "8f17237a299fb10ff6b5587f4832fd37695e6d890bd22a662e42b32b0e053314"
+            "source_sha256": "1164f1e265fd691c836456ec14c0f0494fbe9dd6d395ce17238d7d950ea96fb2"
           }
         }
       ],
@@ -12194,7 +12289,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "e17af0df4c8cf45505e71c7ff2ace4d67d4eb2058761b85476ae94e826f5ba53"
+        "source_sha256": "f1b24f713fd94f31acdbe7198a8cae3eb408952bac5b4fd32f15adbde70f6a56"
       },
       "hero_cutout": null,
       "features": [
@@ -12225,7 +12320,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e17af0df4c8cf45505e71c7ff2ace4d67d4eb2058761b85476ae94e826f5ba53"
+            "source_sha256": "f1b24f713fd94f31acdbe7198a8cae3eb408952bac5b4fd32f15adbde70f6a56"
           },
           "cutout": null
         },
@@ -12256,9 +12351,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "02513104797edc9dc612b9b9689cbd423d1e1b0d116834ddafa2e3b0824fdafd"
+            "source_sha256": "02513104797edc9dc612b9b9689cbd423d1e1b0d116834ddafa2e3b0824fdafd",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 573,
+                "width": 840,
+                "height": 1485
+              },
+              "source_sha256": "02513104797edc9dc612b9b9689cbd423d1e1b0d116834ddafa2e3b0824fdafd",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 9.608788656456362
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "পছন্দের বিষয়গুলো হাতের কাছে রাখুন।",
@@ -12287,7 +12401,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "0a9f2d71f5c19bc5d234a1cbb436d0fa5c9788a274f2d638713461fe27ce0202"
+            "source_sha256": "88436f941e93f7bce4894d52f06ec354a675883d5eacd03d1f04f4b9ab47946d"
           },
           "cutout": null
         },
@@ -12381,7 +12495,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e17af0df4c8cf45505e71c7ff2ace4d67d4eb2058761b85476ae94e826f5ba53"
+            "source_sha256": "f1b24f713fd94f31acdbe7198a8cae3eb408952bac5b4fd32f15adbde70f6a56"
           }
         },
         {
@@ -12409,7 +12523,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "822e953291872cfe1a6a9eb21af506a3d833b2e0af6148e92f1bc44a8a2a7828"
+            "source_sha256": "1277f685f0296e396c1e34214c186b6c9b5cf787bca7247a3e2b2a4d97e57d1e"
           }
         }
       ],
@@ -12498,7 +12612,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "ba7341edbbf887e232c170f5bac5956eda9b7b399669e2d16d023a617c7d2174"
+        "source_sha256": "2f1c15bc0bc7e83ef9ac645e724024178dd6b7a7cc1792559e5883f09ab4b9d3"
       },
       "hero_cutout": null,
       "features": [
@@ -12529,7 +12643,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ba7341edbbf887e232c170f5bac5956eda9b7b399669e2d16d023a617c7d2174"
+            "source_sha256": "2f1c15bc0bc7e83ef9ac645e724024178dd6b7a7cc1792559e5883f09ab4b9d3"
           },
           "cutout": null
         },
@@ -12560,9 +12674,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b9d33193a7a9c2a454714004f72059296e840aac812fae344326c562c50f5d5e"
+            "source_sha256": "b9d33193a7a9c2a454714004f72059296e840aac812fae344326c562c50f5d5e",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "b9d33193a7a9c2a454714004f72059296e840aac812fae344326c562c50f5d5e",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Tingues a mà els teus preferits.",
@@ -12591,7 +12724,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fb83c3eb1b2a1cab5a8cf383ef7878c1fa7a594056eb94bd319e4692646bbf0e"
+            "source_sha256": "48b9fc2ba95ba6e7f219456cc245a51283098431efbb24af0bb8eb9975e60732"
           },
           "cutout": null
         },
@@ -12685,7 +12818,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ba7341edbbf887e232c170f5bac5956eda9b7b399669e2d16d023a617c7d2174"
+            "source_sha256": "2f1c15bc0bc7e83ef9ac645e724024178dd6b7a7cc1792559e5883f09ab4b9d3"
           }
         },
         {
@@ -12713,7 +12846,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "b85b2d169f42a7d76f4cc4586649941ac2a7ff9eb28835a84e41de31bef102a8"
+            "source_sha256": "ce7732e94aba47411d7ca5f679f86acacfc1631f20130784fc810c6739280a0f"
           }
         }
       ],
@@ -12802,7 +12935,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "a365f033e9849af44c016d028a6e7d56024420f436705021d6fe8e42e13fb315"
+        "source_sha256": "e86d66b41bed0c063270bad845b767f6d0fc0e0e20f72d80d0f6515ab920a3cf"
       },
       "hero_cutout": null,
       "features": [
@@ -12833,7 +12966,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a365f033e9849af44c016d028a6e7d56024420f436705021d6fe8e42e13fb315"
+            "source_sha256": "e86d66b41bed0c063270bad845b767f6d0fc0e0e20f72d80d0f6515ab920a3cf"
           },
           "cutout": null
         },
@@ -12864,9 +12997,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f8501c5b4b9d625387eb54885d39d7aad52df582ff856e0e6d83445c679b719b"
+            "source_sha256": "f8501c5b4b9d625387eb54885d39d7aad52df582ff856e0e6d83445c679b719b",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "f8501c5b4b9d625387eb54885d39d7aad52df582ff856e0e6d83445c679b719b",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Mějte oblíbené položky po ruce.",
@@ -12895,7 +13047,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "76e096c5525c5fe96debb363511901fc01bc6d725085399b1300c2e9282a10cf"
+            "source_sha256": "2888aa85733084a19ba1cf16750e135629729f22606ed5f1f99271bcd5ed31aa"
           },
           "cutout": null
         },
@@ -12989,7 +13141,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a365f033e9849af44c016d028a6e7d56024420f436705021d6fe8e42e13fb315"
+            "source_sha256": "e86d66b41bed0c063270bad845b767f6d0fc0e0e20f72d80d0f6515ab920a3cf"
           }
         },
         {
@@ -13017,7 +13169,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "37087f433ae0103bd724ccf8c7d3058122e7839eec3cd5d8797f010a1fb778a1"
+            "source_sha256": "83dae47f8d007bbadb31ffadd1040108f96afc470c1dd50dfabdaecaa5f1f56b"
           }
         }
       ],
@@ -13106,7 +13258,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "a71747801f2fbc22b6ee4e24ddd3a9b4dd773e81411277f72f4da0d44c39ca01"
+        "source_sha256": "05a2e10276edd30460f0feb7db1b0e874ab61bb3d7e608def8ee38ccb257cf80"
       },
       "hero_cutout": null,
       "features": [
@@ -13137,7 +13289,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a71747801f2fbc22b6ee4e24ddd3a9b4dd773e81411277f72f4da0d44c39ca01"
+            "source_sha256": "05a2e10276edd30460f0feb7db1b0e874ab61bb3d7e608def8ee38ccb257cf80"
           },
           "cutout": null
         },
@@ -13168,9 +13320,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "80d36abad9b60db0f7ac1df16e92d11a287748e0ba3528dcc126107c5a45e6e1"
+            "source_sha256": "80d36abad9b60db0f7ac1df16e92d11a287748e0ba3528dcc126107c5a45e6e1",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "80d36abad9b60db0f7ac1df16e92d11a287748e0ba3528dcc126107c5a45e6e1",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Hav favoritterne lige ved hånden.",
@@ -13199,7 +13370,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "1d5ba4b9133a6247c8f81fa47f9d666011a21c4572f1b479a8f8488ab7afd986"
+            "source_sha256": "ead1188a29b667d373fb75422f945568f50b5367ea272c0da675a9c5b8511f6b"
           },
           "cutout": null
         },
@@ -13293,7 +13464,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a71747801f2fbc22b6ee4e24ddd3a9b4dd773e81411277f72f4da0d44c39ca01"
+            "source_sha256": "05a2e10276edd30460f0feb7db1b0e874ab61bb3d7e608def8ee38ccb257cf80"
           }
         },
         {
@@ -13321,7 +13492,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "9dc5ccc5dfc8d106b9fbe970bb4f4239374720b2c3561335d3464e1d4abeb891"
+            "source_sha256": "78d56bbbdc4eeee60347c4e4ee07bc3a505306fac98f42ea4f4ae354cd75691b"
           }
         }
       ],
@@ -13410,7 +13581,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "fe8cf47928a78707b617ed98a2309983ddc5c54c60c93ec8107a109efd816929"
+        "source_sha256": "569a390b1b045edf3644c3e0bf3bbba5b5e83a236e84275f716380191a27111b"
       },
       "hero_cutout": null,
       "features": [
@@ -13441,7 +13612,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fe8cf47928a78707b617ed98a2309983ddc5c54c60c93ec8107a109efd816929"
+            "source_sha256": "569a390b1b045edf3644c3e0bf3bbba5b5e83a236e84275f716380191a27111b"
           },
           "cutout": null
         },
@@ -13472,9 +13643,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "0f9cfcd3e2013713d3278eedd0943291084cd2f3a13ea9ddf107f7d1848ea515"
+            "source_sha256": "0f9cfcd3e2013713d3278eedd0943291084cd2f3a13ea9ddf107f7d1848ea515",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "0f9cfcd3e2013713d3278eedd0943291084cd2f3a13ea9ddf107f7d1848ea515",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Deine Favoriten immer griffbereit.",
@@ -13503,7 +13693,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "28beb6c5ea78c8946e2b1022fb77eb6aacddfa5171535fe70e6f25b2d51cf79f"
+            "source_sha256": "3bdf4fc6b6739c74cf31bfdd0b371c413771e5b97dd8a102caedb58481b6a1ee"
           },
           "cutout": null
         },
@@ -13597,7 +13787,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fe8cf47928a78707b617ed98a2309983ddc5c54c60c93ec8107a109efd816929"
+            "source_sha256": "569a390b1b045edf3644c3e0bf3bbba5b5e83a236e84275f716380191a27111b"
           }
         },
         {
@@ -13625,7 +13815,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "0a338a6b397e9cd9845b10419ed4a94bef101cb15c19bb9b4f7209a2784e8f97"
+            "source_sha256": "f81c11ae71c46266da535e4540ab6c581d785cb9b225fa9fc0af45ff42a65600"
           }
         }
       ],
@@ -13714,7 +13904,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "b251e10c272e626dee6a283e07e63b48cdfd26e757fc936cbbf5e0e8c5de965a"
+        "source_sha256": "7c08922ce508bd632e9214e9400e38b4e7cebc47d0e08edd49da32748a8ec71f"
       },
       "hero_cutout": null,
       "features": [
@@ -13745,7 +13935,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b251e10c272e626dee6a283e07e63b48cdfd26e757fc936cbbf5e0e8c5de965a"
+            "source_sha256": "7c08922ce508bd632e9214e9400e38b4e7cebc47d0e08edd49da32748a8ec71f"
           },
           "cutout": null
         },
@@ -13776,9 +13966,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "4e1f539525716748cbc36a60360eaf75a03351007a8799f3d512bd8a63625ba0"
+            "source_sha256": "4e1f539525716748cbc36a60360eaf75a03351007a8799f3d512bd8a63625ba0",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "4e1f539525716748cbc36a60360eaf75a03351007a8799f3d512bd8a63625ba0",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Κράτα κοντά σου τα αγαπημένα.",
@@ -13807,7 +14016,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "bec9c8d4403962382b5c51e70d745ed45dd10c7563494ecbd24dd170ac0b3ca8"
+            "source_sha256": "3813cd51bb65294edef51c0f835f5993660e6762f6424905aad66641a542612e"
           },
           "cutout": null
         },
@@ -13901,7 +14110,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b251e10c272e626dee6a283e07e63b48cdfd26e757fc936cbbf5e0e8c5de965a"
+            "source_sha256": "7c08922ce508bd632e9214e9400e38b4e7cebc47d0e08edd49da32748a8ec71f"
           }
         },
         {
@@ -13929,7 +14138,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "1cc7c07981db095c0e16f2bb2324b29b0c521aaa81edd307d641058402474f84"
+            "source_sha256": "a46f8631e44b0ee95e175afe4286b21510f042fe9174e00c09edbf6daa34be8b"
           }
         }
       ],
@@ -14018,7 +14227,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "b8450316d3326e4d728bc164114f3b9066b6d8953d74e48c9e7ca13e26db8784"
+        "source_sha256": "9fb2c05dfd71c55b4accc57d509da5b529f9bbc163350ac5dde35e9673cd4579"
       },
       "hero_cutout": null,
       "features": [
@@ -14049,7 +14258,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b8450316d3326e4d728bc164114f3b9066b6d8953d74e48c9e7ca13e26db8784"
+            "source_sha256": "9fb2c05dfd71c55b4accc57d509da5b529f9bbc163350ac5dde35e9673cd4579"
           },
           "cutout": null
         },
@@ -14080,9 +14289,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ea9da02cb242fcd687ec27ddc3ba97f5bfa449fd1296f5e1dc8d1588f9df4ca0"
+            "source_sha256": "ea9da02cb242fcd687ec27ddc3ba97f5bfa449fd1296f5e1dc8d1588f9df4ca0",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "ea9da02cb242fcd687ec27ddc3ba97f5bfa449fd1296f5e1dc8d1588f9df4ca0",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Keep the\nfavorites close.",
@@ -14111,7 +14339,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3963bde861fb25c6b66b8ecdd80cb827823418b55c17b9b082fb1cc6065cb286"
+            "source_sha256": "20cc03f969e47d5b73ff341dfe05dcb5bce4a682605f9d8f871e12dd95460b4a"
           },
           "cutout": null
         },
@@ -14205,7 +14433,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b8450316d3326e4d728bc164114f3b9066b6d8953d74e48c9e7ca13e26db8784"
+            "source_sha256": "9fb2c05dfd71c55b4accc57d509da5b529f9bbc163350ac5dde35e9673cd4579"
           }
         },
         {
@@ -14233,7 +14461,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "6e2333a74e2b7db70c244268bf76c43de827fc620c9859d25205d49c0f07c5aa"
+            "source_sha256": "bae98e9bef30f2ef4f9a885d3f35396b7355c5ecd22a4f9a9718f97a283f669b"
           }
         }
       ],
@@ -14322,7 +14550,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "aeabb68bd0304d4dcbd880bfb712562399fc88e2e379d1278adffb657e622f91"
+        "source_sha256": "ab26565014bd73a7adad1e5d8d7abb253b5b910906e8358d979d001a103e3496"
       },
       "hero_cutout": null,
       "features": [
@@ -14353,7 +14581,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "aeabb68bd0304d4dcbd880bfb712562399fc88e2e379d1278adffb657e622f91"
+            "source_sha256": "ab26565014bd73a7adad1e5d8d7abb253b5b910906e8358d979d001a103e3496"
           },
           "cutout": null
         },
@@ -14384,9 +14612,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "689e04b8241001c9b68641b0bee27106d85e508d19fe7a40cfd3612a434dc240"
+            "source_sha256": "689e04b8241001c9b68641b0bee27106d85e508d19fe7a40cfd3612a434dc240",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "689e04b8241001c9b68641b0bee27106d85e508d19fe7a40cfd3612a434dc240",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Keep the\nfavorites close.",
@@ -14415,7 +14662,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3963bde861fb25c6b66b8ecdd80cb827823418b55c17b9b082fb1cc6065cb286"
+            "source_sha256": "20cc03f969e47d5b73ff341dfe05dcb5bce4a682605f9d8f871e12dd95460b4a"
           },
           "cutout": null
         },
@@ -14509,7 +14756,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "aeabb68bd0304d4dcbd880bfb712562399fc88e2e379d1278adffb657e622f91"
+            "source_sha256": "ab26565014bd73a7adad1e5d8d7abb253b5b910906e8358d979d001a103e3496"
           }
         },
         {
@@ -14537,7 +14784,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "6e2333a74e2b7db70c244268bf76c43de827fc620c9859d25205d49c0f07c5aa"
+            "source_sha256": "bae98e9bef30f2ef4f9a885d3f35396b7355c5ecd22a4f9a9718f97a283f669b"
           }
         }
       ],
@@ -14626,7 +14873,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "b8450316d3326e4d728bc164114f3b9066b6d8953d74e48c9e7ca13e26db8784"
+        "source_sha256": "9fb2c05dfd71c55b4accc57d509da5b529f9bbc163350ac5dde35e9673cd4579"
       },
       "hero_cutout": null,
       "features": [
@@ -14657,7 +14904,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b8450316d3326e4d728bc164114f3b9066b6d8953d74e48c9e7ca13e26db8784"
+            "source_sha256": "9fb2c05dfd71c55b4accc57d509da5b529f9bbc163350ac5dde35e9673cd4579"
           },
           "cutout": null
         },
@@ -14688,9 +14935,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ea9da02cb242fcd687ec27ddc3ba97f5bfa449fd1296f5e1dc8d1588f9df4ca0"
+            "source_sha256": "ea9da02cb242fcd687ec27ddc3ba97f5bfa449fd1296f5e1dc8d1588f9df4ca0",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "ea9da02cb242fcd687ec27ddc3ba97f5bfa449fd1296f5e1dc8d1588f9df4ca0",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Keep the\nfavorites close.",
@@ -14719,7 +14985,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3963bde861fb25c6b66b8ecdd80cb827823418b55c17b9b082fb1cc6065cb286"
+            "source_sha256": "7813582756d781eb3f843d7bc76a7a5e5473aeec107f6dd2e3412740ad6d7c55"
           },
           "cutout": null
         },
@@ -14813,7 +15079,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b8450316d3326e4d728bc164114f3b9066b6d8953d74e48c9e7ca13e26db8784"
+            "source_sha256": "9fb2c05dfd71c55b4accc57d509da5b529f9bbc163350ac5dde35e9673cd4579"
           }
         },
         {
@@ -14841,7 +15107,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "6e2333a74e2b7db70c244268bf76c43de827fc620c9859d25205d49c0f07c5aa"
+            "source_sha256": "bae98e9bef30f2ef4f9a885d3f35396b7355c5ecd22a4f9a9718f97a283f669b"
           }
         }
       ],
@@ -14930,7 +15196,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "640000c76a5b76a05f58ac631dde3bc39a7c2a0986c916a76e84340ded87deda"
+        "source_sha256": "6b0fcb53d580a3838f8b4a34687e7861eee036683bea82798b911be6332e692a"
       },
       "hero_cutout": null,
       "features": [
@@ -14961,7 +15227,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "640000c76a5b76a05f58ac631dde3bc39a7c2a0986c916a76e84340ded87deda"
+            "source_sha256": "6b0fcb53d580a3838f8b4a34687e7861eee036683bea82798b911be6332e692a"
           },
           "cutout": null
         },
@@ -14992,9 +15258,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f2226c921232b6b23f916cad19170e34dfb28b49faf99b2c4051909fa168ed07"
+            "source_sha256": "f2226c921232b6b23f916cad19170e34dfb28b49faf99b2c4051909fa168ed07",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "f2226c921232b6b23f916cad19170e34dfb28b49faf99b2c4051909fa168ed07",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Keep the\nfavorites close.",
@@ -15023,7 +15308,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3e232e0f23a114b5a45d96f3f3b3934ed83c6b7c510999e5147d53989722487a"
+            "source_sha256": "0e9f217c27146a8fb711aad0d07c49074f1b7fd07b4d39f8ee08104d1051b2f1"
           },
           "cutout": null
         },
@@ -15117,7 +15402,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "640000c76a5b76a05f58ac631dde3bc39a7c2a0986c916a76e84340ded87deda"
+            "source_sha256": "6b0fcb53d580a3838f8b4a34687e7861eee036683bea82798b911be6332e692a"
           }
         },
         {
@@ -15145,7 +15430,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "4af439b47693e6cf8e2d014221b55111c6c7559a5a9a612ea73b0f069d32e174"
+            "source_sha256": "c70928c24315b7cfafaa302023ada32f43de646c6f68377d5843aa6eee931a25"
           }
         }
       ],
@@ -15234,7 +15519,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "52192a69644d593ea3922d16e8a9f53fa4758034444afdc0dd1e9387034f5c68"
+        "source_sha256": "2301a1e92e8a2a04dacd8b08f2b6eae6522d78cd09f458fe96b9280e4e7d8b92"
       },
       "hero_cutout": null,
       "features": [
@@ -15265,7 +15550,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "52192a69644d593ea3922d16e8a9f53fa4758034444afdc0dd1e9387034f5c68"
+            "source_sha256": "2301a1e92e8a2a04dacd8b08f2b6eae6522d78cd09f458fe96b9280e4e7d8b92"
           },
           "cutout": null
         },
@@ -15296,9 +15581,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e40b12beda21f786b8d3c86b9f186c318d6966bcef4e08a0e548f38fdb59500b"
+            "source_sha256": "e40b12beda21f786b8d3c86b9f186c318d6966bcef4e08a0e548f38fdb59500b",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "e40b12beda21f786b8d3c86b9f186c318d6966bcef4e08a0e548f38fdb59500b",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Ten a mano tus favoritos.",
@@ -15327,7 +15631,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "1f1b10e81ef9de6853c8c2a52e8573d6c828d75437cca3875d787aeef098722d"
+            "source_sha256": "6712df711bb2a27f68293a74e1e8d5e50085ea0d21c8b49ec3af4e2c71fd6f11"
           },
           "cutout": null
         },
@@ -15421,7 +15725,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "52192a69644d593ea3922d16e8a9f53fa4758034444afdc0dd1e9387034f5c68"
+            "source_sha256": "2301a1e92e8a2a04dacd8b08f2b6eae6522d78cd09f458fe96b9280e4e7d8b92"
           }
         },
         {
@@ -15449,7 +15753,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "758ff5d3d71f2aaded1bff0d89f480ee2b871b24f3ad6a1b787ff24155299370"
+            "source_sha256": "0ccd27eeddb57ec14e82f3d0702c4792edc61c9103d066c3632d73da03a1872f"
           }
         }
       ],
@@ -15538,7 +15842,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "9c099cbbc67723af5c458f90cafa44516ffddeb1b2598ec0ee1afa208117e836"
+        "source_sha256": "2301a1e92e8a2a04dacd8b08f2b6eae6522d78cd09f458fe96b9280e4e7d8b92"
       },
       "hero_cutout": null,
       "features": [
@@ -15569,7 +15873,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "9c099cbbc67723af5c458f90cafa44516ffddeb1b2598ec0ee1afa208117e836"
+            "source_sha256": "2301a1e92e8a2a04dacd8b08f2b6eae6522d78cd09f458fe96b9280e4e7d8b92"
           },
           "cutout": null
         },
@@ -15600,9 +15904,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e40b12beda21f786b8d3c86b9f186c318d6966bcef4e08a0e548f38fdb59500b"
+            "source_sha256": "e40b12beda21f786b8d3c86b9f186c318d6966bcef4e08a0e548f38fdb59500b",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "e40b12beda21f786b8d3c86b9f186c318d6966bcef4e08a0e548f38fdb59500b",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Ten a mano tus favoritos.",
@@ -15631,7 +15954,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a783ff35afd755a57fa544282eb1de4ceff0c66ed8902bf2c97eb15cdeeab381"
+            "source_sha256": "2ad235634f8972a3af628dac0c87cb580ffb50294ae1061928b4801c77f03a5c"
           },
           "cutout": null
         },
@@ -15725,7 +16048,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "9c099cbbc67723af5c458f90cafa44516ffddeb1b2598ec0ee1afa208117e836"
+            "source_sha256": "2301a1e92e8a2a04dacd8b08f2b6eae6522d78cd09f458fe96b9280e4e7d8b92"
           }
         },
         {
@@ -15753,7 +16076,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "758ff5d3d71f2aaded1bff0d89f480ee2b871b24f3ad6a1b787ff24155299370"
+            "source_sha256": "0ccd27eeddb57ec14e82f3d0702c4792edc61c9103d066c3632d73da03a1872f"
           }
         }
       ],
@@ -15842,7 +16165,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "8a1d10ae194d670dae7caaa5cabdb949091717a088da1de897e5f5e4f629abfc"
+        "source_sha256": "b700091d41198265033dc8c2d98955eafaa123548ad31193892bee7398859a9c"
       },
       "hero_cutout": null,
       "features": [
@@ -15873,7 +16196,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8a1d10ae194d670dae7caaa5cabdb949091717a088da1de897e5f5e4f629abfc"
+            "source_sha256": "b700091d41198265033dc8c2d98955eafaa123548ad31193892bee7398859a9c"
           },
           "cutout": null
         },
@@ -15904,9 +16227,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ee746b4c8e285bd7db6013029ca7137ec52f1e92dea691a975a45e2779bb93e3"
+            "source_sha256": "ee746b4c8e285bd7db6013029ca7137ec52f1e92dea691a975a45e2779bb93e3",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "ee746b4c8e285bd7db6013029ca7137ec52f1e92dea691a975a45e2779bb93e3",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Ten a mano tus favoritos.",
@@ -15935,7 +16277,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "785405dfb1abcad0464efd40def72990ca66acfa5f705be8bc158a097db5a495"
+            "source_sha256": "7e9ca20e42dc60938df3daef430301f22afd6ba99b00ff83c7c66813e45081fd"
           },
           "cutout": null
         },
@@ -16029,7 +16371,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8a1d10ae194d670dae7caaa5cabdb949091717a088da1de897e5f5e4f629abfc"
+            "source_sha256": "b700091d41198265033dc8c2d98955eafaa123548ad31193892bee7398859a9c"
           }
         },
         {
@@ -16057,7 +16399,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "d89169d5db12d55c437a4124225a06439084f1c57c3c7a71b107b09151ef8be8"
+            "source_sha256": "06029e5e65dc67cba984ce87cc942a80fcc3cf971bbd942e364b93199173dbd8"
           }
         }
       ],
@@ -16146,7 +16488,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "f6b7f10f349d29418fdb8e5df7665d0ef02c69b9accb8d803e041fa90b80f073"
+        "source_sha256": "650096e7fad4b4d74cca6afb2e4a7e2edd039c3c41aa107df781ed375a28eb04"
       },
       "hero_cutout": null,
       "features": [
@@ -16177,7 +16519,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f6b7f10f349d29418fdb8e5df7665d0ef02c69b9accb8d803e041fa90b80f073"
+            "source_sha256": "650096e7fad4b4d74cca6afb2e4a7e2edd039c3c41aa107df781ed375a28eb04"
           },
           "cutout": null
         },
@@ -16208,9 +16550,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "47aef85a6e39374f644b6d0f88645dc3139a6003c596a44b0053e0438ea4d8f2"
+            "source_sha256": "47aef85a6e39374f644b6d0f88645dc3139a6003c596a44b0053e0438ea4d8f2",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 581,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "47aef85a6e39374f644b6d0f88645dc3139a6003c596a44b0053e0438ea4d8f2",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.03065195725659506
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Pidä suosikit käden ulottuvilla.",
@@ -16239,7 +16600,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5bff5fe59ad9e22aefbeb4bf29bb5df132509e64743a88cb24b9b674d05665a9"
+            "source_sha256": "ab7e7c8b2ca800c8a638e57592b92a21ed3f1989728ef7e8b8fd31ee467823c4"
           },
           "cutout": null
         },
@@ -16333,7 +16694,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f6b7f10f349d29418fdb8e5df7665d0ef02c69b9accb8d803e041fa90b80f073"
+            "source_sha256": "650096e7fad4b4d74cca6afb2e4a7e2edd039c3c41aa107df781ed375a28eb04"
           }
         },
         {
@@ -16361,7 +16722,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "ad39dac364bef98483cd690ae40ac6a954c0ee230ecfb1be3294639e9fe9c27a"
+            "source_sha256": "1e55bbfda02063f35ac157e86784d58b1fdb35c9b57e15af21503c5cefde6c63"
           }
         }
       ],
@@ -16450,7 +16811,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "5965150b8b33af8850806cae7cf3c9b560ea776a8a8c4d7cd4b86a7476ec60dc"
+        "source_sha256": "703956635739f8314d04b18442900a57b4d7acbaa2bc5b72316fdfcc3f40f895"
       },
       "hero_cutout": null,
       "features": [
@@ -16481,7 +16842,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5965150b8b33af8850806cae7cf3c9b560ea776a8a8c4d7cd4b86a7476ec60dc"
+            "source_sha256": "703956635739f8314d04b18442900a57b4d7acbaa2bc5b72316fdfcc3f40f895"
           },
           "cutout": null
         },
@@ -16512,9 +16873,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5df4ec3c1d3c0433d58cb2b6743322893dfd3109458d33897cb8123ae44255d7"
+            "source_sha256": "5df4ec3c1d3c0433d58cb2b6743322893dfd3109458d33897cb8123ae44255d7",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "5df4ec3c1d3c0433d58cb2b6743322893dfd3109458d33897cb8123ae44255d7",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Gardez vos favoris à portée de main.",
@@ -16543,7 +16923,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ebac7451304c5a2492a3efcd8dee224bfb707c413ae0ccb5a2072e0d8029f55f"
+            "source_sha256": "6032a8226735bd2e8f2439a0589b25b1e2245845a9e4362af45478fc35b6f528"
           },
           "cutout": null
         },
@@ -16637,7 +17017,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5965150b8b33af8850806cae7cf3c9b560ea776a8a8c4d7cd4b86a7476ec60dc"
+            "source_sha256": "703956635739f8314d04b18442900a57b4d7acbaa2bc5b72316fdfcc3f40f895"
           }
         },
         {
@@ -16665,7 +17045,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "44ac1f0a79d4c26a387b2ef5396a45b9cb5f8e39a18bb35be454eeb3949164ca"
+            "source_sha256": "c89e064e65ea8369c98057ea4292f6c4b8f0856784eed6a94ff9f07e33a287e1"
           }
         }
       ],
@@ -16754,7 +17134,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "5965150b8b33af8850806cae7cf3c9b560ea776a8a8c4d7cd4b86a7476ec60dc"
+        "source_sha256": "2fcc8b16e01bb1650530ddc2084b5b0ccb3a9adad809a541352a97c1e7e50776"
       },
       "hero_cutout": null,
       "features": [
@@ -16785,7 +17165,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5965150b8b33af8850806cae7cf3c9b560ea776a8a8c4d7cd4b86a7476ec60dc"
+            "source_sha256": "2fcc8b16e01bb1650530ddc2084b5b0ccb3a9adad809a541352a97c1e7e50776"
           },
           "cutout": null
         },
@@ -16816,9 +17196,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5df4ec3c1d3c0433d58cb2b6743322893dfd3109458d33897cb8123ae44255d7"
+            "source_sha256": "5df4ec3c1d3c0433d58cb2b6743322893dfd3109458d33897cb8123ae44255d7",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "5df4ec3c1d3c0433d58cb2b6743322893dfd3109458d33897cb8123ae44255d7",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Gardez vos favoris à portée de main.",
@@ -16847,7 +17246,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "9ae2893964589cc70653942e206abeeaf4f7d248278aed7fc13fc968ce8aea98"
+            "source_sha256": "585ac5651296f95fb507c811423f02c85d0fadd894b6419f7f0ad7df61663217"
           },
           "cutout": null
         },
@@ -16941,7 +17340,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5965150b8b33af8850806cae7cf3c9b560ea776a8a8c4d7cd4b86a7476ec60dc"
+            "source_sha256": "2fcc8b16e01bb1650530ddc2084b5b0ccb3a9adad809a541352a97c1e7e50776"
           }
         },
         {
@@ -16969,7 +17368,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "44ac1f0a79d4c26a387b2ef5396a45b9cb5f8e39a18bb35be454eeb3949164ca"
+            "source_sha256": "c89e064e65ea8369c98057ea4292f6c4b8f0856784eed6a94ff9f07e33a287e1"
           }
         }
       ],
@@ -17058,7 +17457,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "419464106eb274807ac493ca2afe4e3860174b64b7f1b5b945a71e3b9a57c4d5"
+        "source_sha256": "be064a66188650dbf2f92613959768910b36e23ddbf9a45322cfa2f893521e22"
       },
       "hero_cutout": null,
       "features": [
@@ -17089,7 +17488,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "419464106eb274807ac493ca2afe4e3860174b64b7f1b5b945a71e3b9a57c4d5"
+            "source_sha256": "be064a66188650dbf2f92613959768910b36e23ddbf9a45322cfa2f893521e22"
           },
           "cutout": null
         },
@@ -17120,9 +17519,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "9f1c0e853183700d096794ddf34209b307bca10880b5986a367896e452110c76"
+            "source_sha256": "9f1c0e853183700d096794ddf34209b307bca10880b5986a367896e452110c76",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 593,
+                "width": 840,
+                "height": 1493
+              },
+              "source_sha256": "9f1c0e853183700d096794ddf34209b307bca10880b5986a367896e452110c76",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.4858075616209618
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "મનપસંદ વસ્તુઓને નજીક રાખો.",
@@ -17151,7 +17569,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "67ffc4f8b0a63b2641130f47fb0c64bc468388782cf3bfd2329b56f5f0d5be0f"
+            "source_sha256": "5c04bb2dec8749379b9f885ead26131fb323b6e06fb66a0a65d558af65326676"
           },
           "cutout": null
         },
@@ -17245,7 +17663,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "419464106eb274807ac493ca2afe4e3860174b64b7f1b5b945a71e3b9a57c4d5"
+            "source_sha256": "be064a66188650dbf2f92613959768910b36e23ddbf9a45322cfa2f893521e22"
           }
         },
         {
@@ -17273,7 +17691,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "19b316b7ff76946a9bed22e70e05e4524af0e1e0173754783987250ac4ba0cdd"
+            "source_sha256": "6072e3f5cbffb224ed90a98397c761420e6fe016dbfb7bd634316c172c4338c8"
           }
         }
       ],
@@ -17362,7 +17780,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "69f5aad076463df9eacc030dac528e622ba83c3a2871a590984ddad44119f64d"
+        "source_sha256": "fc0a1f5067d6814e4b5065bd8eeab77980cecf8c86c87c4e885fd6a9abb8a61c"
       },
       "hero_cutout": null,
       "features": [
@@ -17393,7 +17811,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "69f5aad076463df9eacc030dac528e622ba83c3a2871a590984ddad44119f64d"
+            "source_sha256": "fc0a1f5067d6814e4b5065bd8eeab77980cecf8c86c87c4e885fd6a9abb8a61c"
           },
           "cutout": null
         },
@@ -17424,9 +17842,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b4eaf298c932ea9b18c9a1084103152a770747a4c4f4057ec6f056781222ea39"
+            "source_sha256": "b4eaf298c932ea9b18c9a1084103152a770747a4c4f4057ec6f056781222ea39",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "b4eaf298c932ea9b18c9a1084103152a770747a4c4f4057ec6f056781222ea39",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "שמרו את המועדפים בהישג יד.",
@@ -17455,7 +17892,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "74a09a020a134b0a6cebe18cee45895d22c403a0a94555085e036a71ad7a06f2"
+            "source_sha256": "14065c6b289e671e35e75fdd3ee76abfecfdfdcc3ec4caf48a417fe22d22c391"
           },
           "cutout": null
         },
@@ -17549,7 +17986,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "69f5aad076463df9eacc030dac528e622ba83c3a2871a590984ddad44119f64d"
+            "source_sha256": "fc0a1f5067d6814e4b5065bd8eeab77980cecf8c86c87c4e885fd6a9abb8a61c"
           }
         },
         {
@@ -17577,7 +18014,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "c7fa2e6b785bcd9170c9ce4fb3e5e56606113614f821418ae3aaa31b2f526228"
+            "source_sha256": "f86289422effe7d62b2eec88be3ee40a706d93ad0c77302a623c2b976e228d19"
           }
         }
       ],
@@ -17666,7 +18103,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "7a5a4eeef9c4b699a27edb193bbc45b433a31c74b63231cd40c850c283a1b84a"
+        "source_sha256": "4a519798c0e6798a64307673ed7da7843be223ca9e50b7e82f70842c063e42f0"
       },
       "hero_cutout": null,
       "features": [
@@ -17697,7 +18134,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "7a5a4eeef9c4b699a27edb193bbc45b433a31c74b63231cd40c850c283a1b84a"
+            "source_sha256": "4a519798c0e6798a64307673ed7da7843be223ca9e50b7e82f70842c063e42f0"
           },
           "cutout": null
         },
@@ -17728,9 +18165,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "adb592f11b83c01fc66d6e4e557c76dad05321e95e4656e0a84700c96cbaae61"
+            "source_sha256": "adb592f11b83c01fc66d6e4e557c76dad05321e95e4656e0a84700c96cbaae61",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 593,
+                "width": 840,
+                "height": 1493
+              },
+              "source_sha256": "adb592f11b83c01fc66d6e4e557c76dad05321e95e4656e0a84700c96cbaae61",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.4858075616209618
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "पसंदीदा चीज़ों को पास रखें।",
@@ -17759,7 +18215,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5c9cda9f15640f0ff532ac3611a93be21408f2d0275b1d3135a3614807363d01"
+            "source_sha256": "05e7c8838df63639e82f868a60ac8fb3b48d40c013a5c1fac25607f21abfefbf"
           },
           "cutout": null
         },
@@ -17853,7 +18309,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "7a5a4eeef9c4b699a27edb193bbc45b433a31c74b63231cd40c850c283a1b84a"
+            "source_sha256": "4a519798c0e6798a64307673ed7da7843be223ca9e50b7e82f70842c063e42f0"
           }
         },
         {
@@ -17881,7 +18337,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "cd52ed3980cc269c6d9bff2295c766e3424c1e6ad11012d26dde0db33f45fb42"
+            "source_sha256": "efaf304ad4565e7c4acc506bde07d7ca8edb8e31b642100fd2f0a82d9f27229b"
           }
         }
       ],
@@ -17970,7 +18426,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "e24430dbdd23b60bb1fa8e6ef448e81b00d86b4459dc09604bb124a33199db58"
+        "source_sha256": "aed7db5a6192908fe46c358172741f7b619c1d466e3813152e5546c22c7c2ee1"
       },
       "hero_cutout": null,
       "features": [
@@ -18001,7 +18457,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e24430dbdd23b60bb1fa8e6ef448e81b00d86b4459dc09604bb124a33199db58"
+            "source_sha256": "aed7db5a6192908fe46c358172741f7b619c1d466e3813152e5546c22c7c2ee1"
           },
           "cutout": null
         },
@@ -18032,9 +18488,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "712d503d59b5267faaa23fcdfb6d0d3b3e3ea14382380822fd532b12ffd1c24a"
+            "source_sha256": "712d503d59b5267faaa23fcdfb6d0d3b3e3ea14382380822fd532b12ffd1c24a",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "712d503d59b5267faaa23fcdfb6d0d3b3e3ea14382380822fd532b12ffd1c24a",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Drži omiljene sadržaje nadohvat ruke.",
@@ -18063,7 +18538,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "945461fb075254d922c03ed939f181aaa9a6ab87485a579b0ddd7c66b880e257"
+            "source_sha256": "4ae99091776b43260038cf102c66c732796016db5350ef9c6d3c71303bd94272"
           },
           "cutout": null
         },
@@ -18157,7 +18632,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e24430dbdd23b60bb1fa8e6ef448e81b00d86b4459dc09604bb124a33199db58"
+            "source_sha256": "aed7db5a6192908fe46c358172741f7b619c1d466e3813152e5546c22c7c2ee1"
           }
         },
         {
@@ -18185,7 +18660,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "a673f59998ef3cfe1fceca075408b55624202860f35c632d5bb73631eff65460"
+            "source_sha256": "a2d16eeb2be238748a61e719c5b42d2992d8f529fd4c11afe7397b16a5220de8"
           }
         }
       ],
@@ -18274,7 +18749,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "10050d4f07d3472e16bc3942a5bb170ab229a49e06de036e1386c0b6c3f2157e"
+        "source_sha256": "3ed5c46228b7fe432deb2fa713f3733a80a0a37a7364b1646e35a604a8e67d57"
       },
       "hero_cutout": null,
       "features": [
@@ -18305,7 +18780,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "10050d4f07d3472e16bc3942a5bb170ab229a49e06de036e1386c0b6c3f2157e"
+            "source_sha256": "3ed5c46228b7fe432deb2fa713f3733a80a0a37a7364b1646e35a604a8e67d57"
           },
           "cutout": null
         },
@@ -18336,9 +18811,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a238ae1986d3dcedf250bed92ec9ec4293e8ac75ba2650254e1e8e24f796dd42"
+            "source_sha256": "a238ae1986d3dcedf250bed92ec9ec4293e8ac75ba2650254e1e8e24f796dd42",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "a238ae1986d3dcedf250bed92ec9ec4293e8ac75ba2650254e1e8e24f796dd42",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Tartsd kéznél a kedvenceket.",
@@ -18367,7 +18861,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "acf8573e12429dc694e74eb5d89b2115b3abaa6e507f53d1a5ec78883c5c3c83"
+            "source_sha256": "46cb98aa1a2bc84b32d0f692c3d144abeee19676f46edbbc782ff1b41ccf1091"
           },
           "cutout": null
         },
@@ -18461,7 +18955,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "10050d4f07d3472e16bc3942a5bb170ab229a49e06de036e1386c0b6c3f2157e"
+            "source_sha256": "3ed5c46228b7fe432deb2fa713f3733a80a0a37a7364b1646e35a604a8e67d57"
           }
         },
         {
@@ -18489,7 +18983,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "a841f568abd6f2a43406df4227a249b50abd9d955a1d79be56ea77705c3defe8"
+            "source_sha256": "63b0c09f38bd826a46afbaafed23eec71e257951c9155a4735abfa0e0602f45f"
           }
         }
       ],
@@ -18578,7 +19072,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "491e37ebc2343f611fcfe05a30fcbcede9aff9310e2754bb9f22616fb51e7e6c"
+        "source_sha256": "f9e37e60eb6aaee1c7ac83157615a211f7bb3964e7ef6e96e0460254ff4d485f"
       },
       "hero_cutout": null,
       "features": [
@@ -18609,7 +19103,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "491e37ebc2343f611fcfe05a30fcbcede9aff9310e2754bb9f22616fb51e7e6c"
+            "source_sha256": "f9e37e60eb6aaee1c7ac83157615a211f7bb3964e7ef6e96e0460254ff4d485f"
           },
           "cutout": null
         },
@@ -18640,9 +19134,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5166bea1209517fe0381ec8728b14905fa3bf5de5d646f77839eaec8b563a5d7"
+            "source_sha256": "5166bea1209517fe0381ec8728b14905fa3bf5de5d646f77839eaec8b563a5d7",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "5166bea1209517fe0381ec8728b14905fa3bf5de5d646f77839eaec8b563a5d7",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Simpan favoritmu agar mudah diakses.",
@@ -18671,7 +19184,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8e2eea9c52461a5a6dc220a76dbf32f1f64e2cfebbc3cecdca6a715b24add6c6"
+            "source_sha256": "b0488b0c07142c4da548e0cf45c9cdc2a56f1a4e5b27d8e92f35e7073d702ede"
           },
           "cutout": null
         },
@@ -18765,7 +19278,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "491e37ebc2343f611fcfe05a30fcbcede9aff9310e2754bb9f22616fb51e7e6c"
+            "source_sha256": "f9e37e60eb6aaee1c7ac83157615a211f7bb3964e7ef6e96e0460254ff4d485f"
           }
         },
         {
@@ -18793,7 +19306,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "26db2d1dbab6d4b5f4cdb1ca03f59214af8d5075c7a7bed144aee61cfd2b0115"
+            "source_sha256": "d8f5bf927588b7fc676e5e5d130ef7f768c70443bbb4b9697012e2a00f889421"
           }
         }
       ],
@@ -18882,7 +19395,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "318e752c76eb79f18e92bc69207cc4f648699ff8d31a9a2d89335b64faf6bdf9"
+        "source_sha256": "02506289fe931bd0fe0bc184d9f516ceddfb1fec734c7ea6766c0d84d1852b96"
       },
       "hero_cutout": null,
       "features": [
@@ -18913,7 +19426,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "318e752c76eb79f18e92bc69207cc4f648699ff8d31a9a2d89335b64faf6bdf9"
+            "source_sha256": "02506289fe931bd0fe0bc184d9f516ceddfb1fec734c7ea6766c0d84d1852b96"
           },
           "cutout": null
         },
@@ -18944,9 +19457,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "88441fe5792c31d8c5baf94635c9085c67343b3103eb2db95bca346b2e3b8b67"
+            "source_sha256": "88441fe5792c31d8c5baf94635c9085c67343b3103eb2db95bca346b2e3b8b67",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "88441fe5792c31d8c5baf94635c9085c67343b3103eb2db95bca346b2e3b8b67",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Tieni a portata di mano i preferiti.",
@@ -18975,7 +19507,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a2da5982a550055d6c3631e15403904529569ccbc3ffecc5ef203e951f70d5eb"
+            "source_sha256": "cc04eaea7e5acd832e354f3a0bd8e360cb6ed9e8de6bde641150a8aa459ce19e"
           },
           "cutout": null
         },
@@ -19069,7 +19601,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "318e752c76eb79f18e92bc69207cc4f648699ff8d31a9a2d89335b64faf6bdf9"
+            "source_sha256": "02506289fe931bd0fe0bc184d9f516ceddfb1fec734c7ea6766c0d84d1852b96"
           }
         },
         {
@@ -19097,7 +19629,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "740ee50f4bb5a1d7b7bb8c91895790addac1102d88f9331c092a8fe99b869a91"
+            "source_sha256": "e674b955a69d8326d8ada80f8875ae32c5672b38eecdfa38f8bf51ca18ffdbd1"
           }
         }
       ],
@@ -19186,7 +19718,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "e535017f63294877fae19b684967a5f06fbc19ee4ee85e8fe20864ead1a382c6"
+        "source_sha256": "605f3f7b1fa3eccb004a3e042fa286a6bcb21d75edc84f4f64f286f22f22ee17"
       },
       "hero_cutout": null,
       "features": [
@@ -19217,7 +19749,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e535017f63294877fae19b684967a5f06fbc19ee4ee85e8fe20864ead1a382c6"
+            "source_sha256": "605f3f7b1fa3eccb004a3e042fa286a6bcb21d75edc84f4f64f286f22f22ee17"
           },
           "cutout": null
         },
@@ -19248,9 +19780,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5afe72ec5b7fd5a4119f6c34203383e0a2bdf40a9e6f117234e2cc069040c105"
+            "source_sha256": "5afe72ec5b7fd5a4119f6c34203383e0a2bdf40a9e6f117234e2cc069040c105",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "5afe72ec5b7fd5a4119f6c34203383e0a2bdf40a9e6f117234e2cc069040c105",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Сүйіктілерін қолжетімді жерде сақтаңыз.",
@@ -19279,7 +19830,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fa8b684107bf978b0b1abc67381ecee0211e1341c066de3ea42f190abc2678e8"
+            "source_sha256": "967deec74a99f70a5771f629b0140e5a9369d780888e754b4656f5b93a1dd659"
           },
           "cutout": null
         },
@@ -19373,7 +19924,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e535017f63294877fae19b684967a5f06fbc19ee4ee85e8fe20864ead1a382c6"
+            "source_sha256": "605f3f7b1fa3eccb004a3e042fa286a6bcb21d75edc84f4f64f286f22f22ee17"
           }
         },
         {
@@ -19401,7 +19952,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "1e97ae295e2e567d9cc18c9e41cfb69042ccf7d5b2c1f5983284bee69bb4d6d4"
+            "source_sha256": "ae302be78b7c65103b0b1351c35e8c7b0f80c4b59f09345da1e8ade6c0071966"
           }
         }
       ],
@@ -19490,7 +20041,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "d2d69e35478351b3e2672c08c474c634ef6da661636dd9c9acbf74294e9fd7b3"
+        "source_sha256": "f90dd9a34c335bc0702274b3e246a94ba495d842a199b790755df4fbc732a6cd"
       },
       "hero_cutout": null,
       "features": [
@@ -19521,7 +20072,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "d2d69e35478351b3e2672c08c474c634ef6da661636dd9c9acbf74294e9fd7b3"
+            "source_sha256": "f90dd9a34c335bc0702274b3e246a94ba495d842a199b790755df4fbc732a6cd"
           },
           "cutout": null
         },
@@ -19552,9 +20103,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8420f46b9e4f126c0065479c2729ca55fff1cf28ff30647b9f214e72811230f2"
+            "source_sha256": "8420f46b9e4f126c0065479c2729ca55fff1cf28ff30647b9f214e72811230f2",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 573,
+                "width": 840,
+                "height": 1345
+              },
+              "source_sha256": "8420f46b9e4f126c0065479c2729ca55fff1cf28ff30647b9f214e72811230f2",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 31.873081449374038
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "ಮೆಚ್ಚಿನವುಗಳನ್ನು ಹತ್ತಿರದಲ್ಲಿರಿಸಿಕೊಳ್ಳಿ.",
@@ -19583,7 +20153,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "136e4254c56b1bea0cbb67738c7937f3b38245125c44df0ed0ca0484a2a63efb"
+            "source_sha256": "f430557252b9d7b8546e118d22cdfb498c776e8a79272d4fb4c6d23c4a8a495a"
           },
           "cutout": null
         },
@@ -19677,7 +20247,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "d2d69e35478351b3e2672c08c474c634ef6da661636dd9c9acbf74294e9fd7b3"
+            "source_sha256": "f90dd9a34c335bc0702274b3e246a94ba495d842a199b790755df4fbc732a6cd"
           }
         },
         {
@@ -19705,7 +20275,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "2c521d80154689fa1852375d6d35f8926f63e1ab3ee854d8f360226e27251f74"
+            "source_sha256": "b2079d9d711592d56bfb6dd472fffc80398c13a34104607ad46eda38a6d2a4b2"
           }
         }
       ],
@@ -19794,7 +20364,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "089f23a53de9f20b96a577cbef1b92a69837a793de3fd418f19b1c406f014e43"
+        "source_sha256": "746acda600e77286d543c053f80ca93956a1f159d61867793bcdd6292543c0f0"
       },
       "hero_cutout": null,
       "features": [
@@ -19825,7 +20395,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "089f23a53de9f20b96a577cbef1b92a69837a793de3fd418f19b1c406f014e43"
+            "source_sha256": "746acda600e77286d543c053f80ca93956a1f159d61867793bcdd6292543c0f0"
           },
           "cutout": null
         },
@@ -19856,9 +20426,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f5b1a4eef9a74c3b2847e3cd46f5f7618e15fbde1dc81b18308254f696c90d95"
+            "source_sha256": "f5b1a4eef9a74c3b2847e3cd46f5f7618e15fbde1dc81b18308254f696c90d95",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "f5b1a4eef9a74c3b2847e3cd46f5f7618e15fbde1dc81b18308254f696c90d95",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "마음에 드는 순간을 가까이에.",
@@ -19887,7 +20476,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "d113635a4f5ed54230f3a564ad46c64f4a01bad48c78c0a6bcbee33e22afd27f"
+            "source_sha256": "008138cf3741db74e930a34aa239a0cdfdb2d1a8448a0d1b466a5abe4ec501bd"
           },
           "cutout": null
         },
@@ -19981,7 +20570,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "089f23a53de9f20b96a577cbef1b92a69837a793de3fd418f19b1c406f014e43"
+            "source_sha256": "746acda600e77286d543c053f80ca93956a1f159d61867793bcdd6292543c0f0"
           }
         },
         {
@@ -20009,7 +20598,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "4159f99eac2b0baa56b444058b1373472a944bba5b46fb9f5d2f8cf881d71d88"
+            "source_sha256": "0bf8ba3cbc829e57e2e81d306519814fab6af9f6e426399cdcdd3a96a5df6a7a"
           }
         }
       ],
@@ -20098,7 +20687,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "0c2639dc46700fd195f55b27bc48f73652423cd117e65384c013b399d8d2db37"
+        "source_sha256": "e6b7d3592465f7c64fc1bfbd120ccd16ea8fe5804cc9e9eee239ab5973048555"
       },
       "hero_cutout": null,
       "features": [
@@ -20129,7 +20718,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "0c2639dc46700fd195f55b27bc48f73652423cd117e65384c013b399d8d2db37"
+            "source_sha256": "e6b7d3592465f7c64fc1bfbd120ccd16ea8fe5804cc9e9eee239ab5973048555"
           },
           "cutout": null
         },
@@ -20160,9 +20749,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e01de821fee9769d8b080becbc78fb82a8ff714f9084e29018711aaa35be6d38"
+            "source_sha256": "e01de821fee9769d8b080becbc78fb82a8ff714f9084e29018711aaa35be6d38",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "e01de821fee9769d8b080becbc78fb82a8ff714f9084e29018711aaa35be6d38",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Laikyk mėgstamiausius po ranka.",
@@ -20191,7 +20799,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "7d87e2b9622d286d50598c5d534fd05cb1bccd50a2a88501cfb832e84d14e8fa"
+            "source_sha256": "c4355e85fad2b190a953108bc86fdc7f3ddc301ed7cf2052cbe40a81e9f58c48"
           },
           "cutout": null
         },
@@ -20285,7 +20893,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "0c2639dc46700fd195f55b27bc48f73652423cd117e65384c013b399d8d2db37"
+            "source_sha256": "e6b7d3592465f7c64fc1bfbd120ccd16ea8fe5804cc9e9eee239ab5973048555"
           }
         },
         {
@@ -20313,7 +20921,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "cd15be75e9f37a9370b801adf2143993a425a26f8087633baafc86980818687b"
+            "source_sha256": "689893746fefc67985136b81cd18597be3a1116d60f4ecd5cdaeb84de81289f3"
           }
         }
       ],
@@ -20402,7 +21010,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "3c60404ef53bc3a6cd0cd91226251073a67d64f657748bbaee643e1fac2189c8"
+        "source_sha256": "de480aa38e25413820269cf6f0134386ea31856ce8a2978ae7b868d4e0094011"
       },
       "hero_cutout": null,
       "features": [
@@ -20433,7 +21041,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3c60404ef53bc3a6cd0cd91226251073a67d64f657748bbaee643e1fac2189c8"
+            "source_sha256": "de480aa38e25413820269cf6f0134386ea31856ce8a2978ae7b868d4e0094011"
           },
           "cutout": null
         },
@@ -20464,9 +21072,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "02ec276396ed5b9253b5463cbde09bc81b734cb90a99c64808112d5fa3271e06"
+            "source_sha256": "02ec276396ed5b9253b5463cbde09bc81b734cb90a99c64808112d5fa3271e06",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 573,
+                "width": 840,
+                "height": 1490
+              },
+              "source_sha256": "02ec276396ed5b9253b5463cbde09bc81b734cb90a99c64808112d5fa3271e06",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 4.52434184358864
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "പ്രിയപ്പെട്ടവ എപ്പോഴും കൂടെക്കരുതുക.",
@@ -20495,7 +21122,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "850c69f2101700aef29b386f0fcc12f9b70ab8374cc6366394c63ccf75aff301"
+            "source_sha256": "dd2bb436580ceee070959414cbe6adeb16d6cef7e0ef18b1e0ef1f0650ab72a0"
           },
           "cutout": null
         },
@@ -20589,7 +21216,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3c60404ef53bc3a6cd0cd91226251073a67d64f657748bbaee643e1fac2189c8"
+            "source_sha256": "de480aa38e25413820269cf6f0134386ea31856ce8a2978ae7b868d4e0094011"
           }
         },
         {
@@ -20617,7 +21244,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "18792e15f85f8fee74baefcfa0cda34c9d9b4d45e40e8f36b56b16433979c8f4"
+            "source_sha256": "1123e4bb3569707d65a8e1cef92cf758979c9238980c26bad197b7b5c5799eef"
           }
         }
       ],
@@ -20706,7 +21333,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "f70f6d3e9db10b467f17a862367605c8839e544adca91732cc31910cf71829dc"
+        "source_sha256": "4964137a1711809a3b2b371a710e4b668a412b54e1961b459c6c523a31483343"
       },
       "hero_cutout": null,
       "features": [
@@ -20737,7 +21364,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f70f6d3e9db10b467f17a862367605c8839e544adca91732cc31910cf71829dc"
+            "source_sha256": "4964137a1711809a3b2b371a710e4b668a412b54e1961b459c6c523a31483343"
           },
           "cutout": null
         },
@@ -20768,9 +21395,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "aabb8f8bf933125838ade4c880a41dc1467915fc5166cf4135801b7a51f8aa5f"
+            "source_sha256": "aabb8f8bf933125838ade4c880a41dc1467915fc5166cf4135801b7a51f8aa5f",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 593,
+                "width": 840,
+                "height": 1493
+              },
+              "source_sha256": "aabb8f8bf933125838ade4c880a41dc1467915fc5166cf4135801b7a51f8aa5f",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.4858075616209618
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "आवडत्या गोष्टी जवळ ठेवा.",
@@ -20799,7 +21445,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "7a6d94a34f26c245bd08cce3ac4b5f12d5d94b205b7ec061f90c7dc759941c8c"
+            "source_sha256": "0ae03a02f13c7e6e24a1af5fd3b05fa23ba462df15b5f8ba7a667d863c6a6908"
           },
           "cutout": null
         },
@@ -20893,7 +21539,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f70f6d3e9db10b467f17a862367605c8839e544adca91732cc31910cf71829dc"
+            "source_sha256": "4964137a1711809a3b2b371a710e4b668a412b54e1961b459c6c523a31483343"
           }
         },
         {
@@ -20921,7 +21567,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "339f6e2c4ddacaf131d80461233d8217897436bef1f29c2c1ac549cc834fd021"
+            "source_sha256": "29c2a4d4fd3136777103ac169e71e099cd414117be172b1dbd62855f504676bc"
           }
         }
       ],
@@ -21010,7 +21656,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "aa1ce77ef0a4a2c400694091f43ee601bec89a80463eb83088403f5c831f044b"
+        "source_sha256": "de61da94f63c2990d3740d95ca7e8a48e4d6d666d5b348c3d5a3a05c506e83b4"
       },
       "hero_cutout": null,
       "features": [
@@ -21041,7 +21687,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "aa1ce77ef0a4a2c400694091f43ee601bec89a80463eb83088403f5c831f044b"
+            "source_sha256": "de61da94f63c2990d3740d95ca7e8a48e4d6d666d5b348c3d5a3a05c506e83b4"
           },
           "cutout": null
         },
@@ -21072,9 +21718,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "dd6eeebc786495848eb0d75c55651cdfe84ce24f1cd1ff8481f6584ce1aba2ae"
+            "source_sha256": "dd6eeebc786495848eb0d75c55651cdfe84ce24f1cd1ff8481f6584ce1aba2ae",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "dd6eeebc786495848eb0d75c55651cdfe84ce24f1cd1ff8481f6584ce1aba2ae",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Simpan kegemaran anda agar mudah dicapai.",
@@ -21103,7 +21768,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8e2eea9c52461a5a6dc220a76dbf32f1f64e2cfebbc3cecdca6a715b24add6c6"
+            "source_sha256": "b0488b0c07142c4da548e0cf45c9cdc2a56f1a4e5b27d8e92f35e7073d702ede"
           },
           "cutout": null
         },
@@ -21197,7 +21862,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "aa1ce77ef0a4a2c400694091f43ee601bec89a80463eb83088403f5c831f044b"
+            "source_sha256": "de61da94f63c2990d3740d95ca7e8a48e4d6d666d5b348c3d5a3a05c506e83b4"
           }
         },
         {
@@ -21225,7 +21890,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "36425dae4ccff50dc793e9ccd62d46ffe505f8b853fd8c68bcd94ad21bf7bf76"
+            "source_sha256": "75c46f366bfbb0f48b588946ba07bb4ab16226e66e2ed237c844fff19a071ab4"
           }
         }
       ],
@@ -21314,7 +21979,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "6c618be353a8501d9bfeb730c8ced74f62b94d666cd8cf12b9411e8533131ce1"
+        "source_sha256": "b413467120b2856415dbb2b3d8d78ed262cc4d520330a2895ca8ca6e11f605f9"
       },
       "hero_cutout": null,
       "features": [
@@ -21345,7 +22010,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "6c618be353a8501d9bfeb730c8ced74f62b94d666cd8cf12b9411e8533131ce1"
+            "source_sha256": "b413467120b2856415dbb2b3d8d78ed262cc4d520330a2895ca8ca6e11f605f9"
           },
           "cutout": null
         },
@@ -21376,9 +22041,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "50c5f96d7c74d1f7a072b47829181700d9aae89b0d2e38bf4ccfb167fbde1c78"
+            "source_sha256": "50c5f96d7c74d1f7a072b47829181700d9aae89b0d2e38bf4ccfb167fbde1c78",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "50c5f96d7c74d1f7a072b47829181700d9aae89b0d2e38bf4ccfb167fbde1c78",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Ha favorittene lett tilgjengelig.",
@@ -21407,7 +22091,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "cbc165f383b010470351e5c1a172d1dab44dae684f2aa4a1575cd24317d79ee0"
+            "source_sha256": "b42d6232fe49b4acadc976d2284993097820cb7deddfdc93617d5ddd21007315"
           },
           "cutout": null
         },
@@ -21501,7 +22185,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "6c618be353a8501d9bfeb730c8ced74f62b94d666cd8cf12b9411e8533131ce1"
+            "source_sha256": "b413467120b2856415dbb2b3d8d78ed262cc4d520330a2895ca8ca6e11f605f9"
           }
         },
         {
@@ -21529,7 +22213,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "5392ea5fcc69f1b1cc7c409ca637484e87271b1d7e88f2ca798db268b1ea5b96"
+            "source_sha256": "86d9adb1aa6fb2a866afd2d149163a3e0110e3a4b9ccb3d2e8ca973d9214ca32"
           }
         }
       ],
@@ -21618,7 +22302,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "bf67e0004cf1b9fc49a1a429a617f470a99599b1e8a07237b2285dbf50c918cf"
+        "source_sha256": "ff2e769ffaa37a0323b67daaf28a87217f0ab9a3d7c9378334912b5d8b5818fc"
       },
       "hero_cutout": null,
       "features": [
@@ -21649,7 +22333,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "bf67e0004cf1b9fc49a1a429a617f470a99599b1e8a07237b2285dbf50c918cf"
+            "source_sha256": "ff2e769ffaa37a0323b67daaf28a87217f0ab9a3d7c9378334912b5d8b5818fc"
           },
           "cutout": null
         },
@@ -21680,9 +22364,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b371d03ecb4b9687eba609b6837866fd76b8f6be954a042227cf740c944d0129"
+            "source_sha256": "b371d03ecb4b9687eba609b6837866fd76b8f6be954a042227cf740c944d0129",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "b371d03ecb4b9687eba609b6837866fd76b8f6be954a042227cf740c944d0129",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Houd je favorieten bij de hand.",
@@ -21711,7 +22414,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "963fd87ae1d44e6d4da19bac03c58ba62e2bbb4f5a21c3270d831a3aa2171cbe"
+            "source_sha256": "f6cf748877b880eac2664b3b9c2d72bce9aa46f0af8421e17a906e42bf452b9c"
           },
           "cutout": null
         },
@@ -21805,7 +22508,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "bf67e0004cf1b9fc49a1a429a617f470a99599b1e8a07237b2285dbf50c918cf"
+            "source_sha256": "ff2e769ffaa37a0323b67daaf28a87217f0ab9a3d7c9378334912b5d8b5818fc"
           }
         },
         {
@@ -21833,7 +22536,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "28a5e8ad0b345c7e7fd4de164c6e72279bb96195fc47f4aefb753294c243fb75"
+            "source_sha256": "653ac7fbedb64b75cbe515d0c1e6d664c3a78e8de4d2bdde823035019a5695a6"
           }
         }
       ],
@@ -21922,7 +22625,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "5e1088b649fd034befd487448dd47a02bf93eec610275b135e58157849bddfe5"
+        "source_sha256": "18c7885e4ab230ae356acec11a00963ad63a81aa4d147e6e326dbbf44a4ab14d"
       },
       "hero_cutout": null,
       "features": [
@@ -21953,7 +22656,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5e1088b649fd034befd487448dd47a02bf93eec610275b135e58157849bddfe5"
+            "source_sha256": "18c7885e4ab230ae356acec11a00963ad63a81aa4d147e6e326dbbf44a4ab14d"
           },
           "cutout": null
         },
@@ -21984,9 +22687,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "56099df0e5e02a8895465483656e2df57a3ba688ca33e7b9a6839e24e53f276a"
+            "source_sha256": "56099df0e5e02a8895465483656e2df57a3ba688ca33e7b9a6839e24e53f276a",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 573,
+                "width": 840,
+                "height": 1399
+              },
+              "source_sha256": "56099df0e5e02a8895465483656e2df57a3ba688ca33e7b9a6839e24e53f276a",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 29.92590557270415
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "ପ୍ରିୟ ଜିନିଷଗୁଡ଼ିକୁ ପାଖରେ ରଖନ୍ତୁ।",
@@ -22015,7 +22737,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8d27ad969d784033254ec234b628234e44d297c43808adc5af9cf8bc916a32f6"
+            "source_sha256": "067681aac27313dca0c422d0ce469c321a8947f987bb27aee01901d26c67b1e9"
           },
           "cutout": null
         },
@@ -22109,7 +22831,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "5e1088b649fd034befd487448dd47a02bf93eec610275b135e58157849bddfe5"
+            "source_sha256": "18c7885e4ab230ae356acec11a00963ad63a81aa4d147e6e326dbbf44a4ab14d"
           }
         },
         {
@@ -22137,7 +22859,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "6e9abd688bfa5f370f616421142c5a9d4e5f17e074bcaa28f4f3b5d8b21c3426"
+            "source_sha256": "77dc26006d25273607cc5ab14895c05ab46efdd76ba838e658cf95792100c17f"
           }
         }
       ],
@@ -22226,7 +22948,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "eba6fa098a4311b100e5adf556240b35d17f18f5873ca63ebd1e46fba7b93181"
+        "source_sha256": "002f037ea9da39acb2c7294cf5194836f35cf4db02170401145eb1289ea6e9f2"
       },
       "hero_cutout": null,
       "features": [
@@ -22257,7 +22979,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "eba6fa098a4311b100e5adf556240b35d17f18f5873ca63ebd1e46fba7b93181"
+            "source_sha256": "002f037ea9da39acb2c7294cf5194836f35cf4db02170401145eb1289ea6e9f2"
           },
           "cutout": null
         },
@@ -22288,9 +23010,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "c03590b8eba448794825e9935dcab1818fc0384ec5ac59fac172fed59cd7b85a"
+            "source_sha256": "c03590b8eba448794825e9935dcab1818fc0384ec5ac59fac172fed59cd7b85a",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 593,
+                "width": 840,
+                "height": 1493
+              },
+              "source_sha256": "c03590b8eba448794825e9935dcab1818fc0384ec5ac59fac172fed59cd7b85a",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.4858075616209618
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "ਮਨਪਸੰਦ ਚੀਜ਼ਾਂ ਨੂੰ ਨੇੜੇ ਰੱਖੋ।",
@@ -22319,7 +23060,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "02aa54e89fd7f6db861ede6a9246690d19d8b4d0d95ff8ebdd40789a289b1f33"
+            "source_sha256": "e7618c1310f8cec12264478be7e63ec59142c9978631e4253f659ae622edf690"
           },
           "cutout": null
         },
@@ -22413,7 +23154,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "eba6fa098a4311b100e5adf556240b35d17f18f5873ca63ebd1e46fba7b93181"
+            "source_sha256": "002f037ea9da39acb2c7294cf5194836f35cf4db02170401145eb1289ea6e9f2"
           }
         },
         {
@@ -22441,7 +23182,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "5c873e8ee11def01e5e130b4d9415951b128397bbb7f07b824a18741e31a0412"
+            "source_sha256": "c4b2cdc8e7a6edd0800bc616bb7e8b74a228b765b8865dedbd7ef054ab3d2715"
           }
         }
       ],
@@ -22530,7 +23271,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "21707ee1629023569cc685bb8fea744640032e57b6b5ae6fcd9cd94d7d08d250"
+        "source_sha256": "c9acfbaf7706a5eb27c27a2cfaa1f91c744fa555d77beaffdfd9a9ecd691d7a0"
       },
       "hero_cutout": null,
       "features": [
@@ -22561,7 +23302,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "21707ee1629023569cc685bb8fea744640032e57b6b5ae6fcd9cd94d7d08d250"
+            "source_sha256": "c9acfbaf7706a5eb27c27a2cfaa1f91c744fa555d77beaffdfd9a9ecd691d7a0"
           },
           "cutout": null
         },
@@ -22592,9 +23333,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ce5c2f599c94544499a86344290c582a0ff1d165f229c1e64359fac223963fe6"
+            "source_sha256": "ce5c2f599c94544499a86344290c582a0ff1d165f229c1e64359fac223963fe6",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "ce5c2f599c94544499a86344290c582a0ff1d165f229c1e64359fac223963fe6",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Miej ulubione momenty pod ręką.",
@@ -22623,7 +23383,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "16b683ba22b2186010d40f184cba11a1f5108d151da64ca2e3be4eed7e4d6a62"
+            "source_sha256": "73ad9a45371e487472cc974020e530b9d219c6d4d793c1e1e3e7fc178b5c5831"
           },
           "cutout": null
         },
@@ -22717,7 +23477,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "21707ee1629023569cc685bb8fea744640032e57b6b5ae6fcd9cd94d7d08d250"
+            "source_sha256": "c9acfbaf7706a5eb27c27a2cfaa1f91c744fa555d77beaffdfd9a9ecd691d7a0"
           }
         },
         {
@@ -22745,7 +23505,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "d459e4c8a453697cbb55c0b01f45d0aae49b12c4209bf2007335b14e99aede8a"
+            "source_sha256": "05f71faefe77c8b3efa3546d162f411433b346e38d05b7fe500790cf3e0695ba"
           }
         }
       ],
@@ -22834,7 +23594,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "f4c44503bcc2cb318411e696c3c1e93a26c2691706f3f0f27959ac9a67f38b1a"
+        "source_sha256": "2987df02bd0dd88b0f9688a9bc559d1c691a7a20ec29c4d6494fd01fe65135b0"
       },
       "hero_cutout": null,
       "features": [
@@ -22865,7 +23625,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f4c44503bcc2cb318411e696c3c1e93a26c2691706f3f0f27959ac9a67f38b1a"
+            "source_sha256": "2987df02bd0dd88b0f9688a9bc559d1c691a7a20ec29c4d6494fd01fe65135b0"
           },
           "cutout": null
         },
@@ -22896,9 +23656,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "d00e3045769b0b2d30e361df413f83182fcf97630335c01ec87674c3452b5885"
+            "source_sha256": "d00e3045769b0b2d30e361df413f83182fcf97630335c01ec87674c3452b5885",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "d00e3045769b0b2d30e361df413f83182fcf97630335c01ec87674c3452b5885",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Mantenha os favoritos por perto.",
@@ -22927,7 +23706,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f35eeb09d98ac25338304250be7d5d50961fd1df2a22a595b2d6212a4f103021"
+            "source_sha256": "b62d6952880174c6bc790cc9e39da1c69fe821a3ea7f89455ab28f8aa9ee85fe"
           },
           "cutout": null
         },
@@ -23021,7 +23800,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "f4c44503bcc2cb318411e696c3c1e93a26c2691706f3f0f27959ac9a67f38b1a"
+            "source_sha256": "2987df02bd0dd88b0f9688a9bc559d1c691a7a20ec29c4d6494fd01fe65135b0"
           }
         },
         {
@@ -23049,7 +23828,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "ce3d2172152220ffa3e6ad13aa4a4edc24baba47ee01e5d019cf1065cdde9ae2"
+            "source_sha256": "0f6fb7caaa520d734f2b5aa4ee3d16514bcd6d8d3196d11ea1e03e7d95ed75b1"
           }
         }
       ],
@@ -23138,7 +23917,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "649dfe3d2a86836d18c1636b17f0b546affcd16e8d8be0d1993b6449cc174df5"
+        "source_sha256": "02ac48c120969b1666d74d6c4054e0b370ae3783d7df58cf6cad5fcbde1b7e06"
       },
       "hero_cutout": null,
       "features": [
@@ -23169,7 +23948,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "649dfe3d2a86836d18c1636b17f0b546affcd16e8d8be0d1993b6449cc174df5"
+            "source_sha256": "02ac48c120969b1666d74d6c4054e0b370ae3783d7df58cf6cad5fcbde1b7e06"
           },
           "cutout": null
         },
@@ -23200,9 +23979,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b1b2930c4fbfaa7fa2557a25d7a02516abb0832ad289051b3860966dd75d65a8"
+            "source_sha256": "b1b2930c4fbfaa7fa2557a25d7a02516abb0832ad289051b3860966dd75d65a8",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "b1b2930c4fbfaa7fa2557a25d7a02516abb0832ad289051b3860966dd75d65a8",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Păstrează aproape elementele preferate.",
@@ -23231,7 +24029,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8fed0029626210531d74523f52ea909ade5fee9e80d7f7bea6d57ddd6dd1fd0e"
+            "source_sha256": "19adf1c24e6ece57f67763946b39edf10f3899d1cd2f533bbe53da2389a7f998"
           },
           "cutout": null
         },
@@ -23325,7 +24123,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "649dfe3d2a86836d18c1636b17f0b546affcd16e8d8be0d1993b6449cc174df5"
+            "source_sha256": "02ac48c120969b1666d74d6c4054e0b370ae3783d7df58cf6cad5fcbde1b7e06"
           }
         },
         {
@@ -23353,7 +24151,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "8d41b5b6e86ed56836df24e40e452bd1399ef2955e18739a38f3f1b88d5a2edf"
+            "source_sha256": "bd3f24e3eaff061ae3201d4be7915d0f415e1a2de7aa2c4620c7c0a89463ccd8"
           }
         }
       ],
@@ -23442,7 +24240,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "b024de950280ea932f86ac2c0c90445fa1c1a53ad7afcf1ae2f0c960910a4d7b"
+        "source_sha256": "067f73dac87263f94453d224adf96c9f47b20b209276bab64a0f6212ee95e032"
       },
       "hero_cutout": null,
       "features": [
@@ -23473,7 +24271,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b024de950280ea932f86ac2c0c90445fa1c1a53ad7afcf1ae2f0c960910a4d7b"
+            "source_sha256": "067f73dac87263f94453d224adf96c9f47b20b209276bab64a0f6212ee95e032"
           },
           "cutout": null
         },
@@ -23504,9 +24302,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "45238a6f50e3b7a0abd8c02233f440dccd092548825634b0e70047294d1df3a6"
+            "source_sha256": "45238a6f50e3b7a0abd8c02233f440dccd092548825634b0e70047294d1df3a6",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "45238a6f50e3b7a0abd8c02233f440dccd092548825634b0e70047294d1df3a6",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Любимые моменты — всегда под рукой.",
@@ -23535,7 +24352,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "6d04fc5d2558d1a948697c178239bba083e9238e45bf78eddbb539037ca34377"
+            "source_sha256": "e2bd10aecec0edd27b50e90dcb4f1435ac858bd25c6167a4ef6c1ce9b51252ed"
           },
           "cutout": null
         },
@@ -23629,7 +24446,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b024de950280ea932f86ac2c0c90445fa1c1a53ad7afcf1ae2f0c960910a4d7b"
+            "source_sha256": "067f73dac87263f94453d224adf96c9f47b20b209276bab64a0f6212ee95e032"
           }
         },
         {
@@ -23657,7 +24474,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "8d98d4a42bc46785117f62fdefca72f7ea6ad18f65aba9172bbfe0566363e2fb"
+            "source_sha256": "59bbae55fb6d846390c51f576ecec9c03248e5a7bcdd10e8214491c6deaf6b32"
           }
         }
       ],
@@ -23746,7 +24563,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "0b9f80dd340afb93ddceead2d7750bb1e6362e94eaf5de9e2cba534797fabe31"
+        "source_sha256": "0dba21701def91ac3c3bcf8741ac0cc3ec247d3cd31c4cbe4b36a4dce57e066b"
       },
       "hero_cutout": null,
       "features": [
@@ -23777,7 +24594,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "0b9f80dd340afb93ddceead2d7750bb1e6362e94eaf5de9e2cba534797fabe31"
+            "source_sha256": "0dba21701def91ac3c3bcf8741ac0cc3ec247d3cd31c4cbe4b36a4dce57e066b"
           },
           "cutout": null
         },
@@ -23808,9 +24625,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "d5b0fcad3b3e4782afc27cdb1005bcd73ceadadcc990bcb36a086a90d08d4ea7"
+            "source_sha256": "d5b0fcad3b3e4782afc27cdb1005bcd73ceadadcc990bcb36a086a90d08d4ea7",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "d5b0fcad3b3e4782afc27cdb1005bcd73ceadadcc990bcb36a086a90d08d4ea7",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Majte obľúbené položky poruke.",
@@ -23839,7 +24675,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "748587d1ad1f91b13a223df0dbdd79be0386e83efe7c753eab700c773859baa2"
+            "source_sha256": "c74aecd0c9e35d0c8226471818bded8f289e094fab03ba0b071eda98fa9b964d"
           },
           "cutout": null
         },
@@ -23933,7 +24769,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "0b9f80dd340afb93ddceead2d7750bb1e6362e94eaf5de9e2cba534797fabe31"
+            "source_sha256": "0dba21701def91ac3c3bcf8741ac0cc3ec247d3cd31c4cbe4b36a4dce57e066b"
           }
         },
         {
@@ -23961,7 +24797,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "a41e9e9d5e6dd49c4ff3174a54547c7e1bf2fb01adf0a703c1c7a7de5bae9e3f"
+            "source_sha256": "c00f8ccdf930cbbd9aeee6e861b569206384081652a8f5ee123f93b134fdc3f6"
           }
         }
       ],
@@ -24050,7 +24886,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "831350d402a2b568152654ba2d5bc9152e9d15932284e0875bb4ab54bbd9cfd7"
+        "source_sha256": "f03c79b492e52521f901a8245d74b585aca912a200181904e924ead7f1005305"
       },
       "hero_cutout": null,
       "features": [
@@ -24081,7 +24917,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "831350d402a2b568152654ba2d5bc9152e9d15932284e0875bb4ab54bbd9cfd7"
+            "source_sha256": "f03c79b492e52521f901a8245d74b585aca912a200181904e924ead7f1005305"
           },
           "cutout": null
         },
@@ -24112,9 +24948,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "2a9c3187596ac4eac0ee3c5f40c1a43e21d8195efd9eb3650fd7de3977f601f7"
+            "source_sha256": "2a9c3187596ac4eac0ee3c5f40c1a43e21d8195efd9eb3650fd7de3977f601f7",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "2a9c3187596ac4eac0ee3c5f40c1a43e21d8195efd9eb3650fd7de3977f601f7",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Naj bodo priljubljene vsebine pri roki.",
@@ -24143,7 +24998,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8fab1709a903f50585192f30c455206da175f8a3b2a8f5a052541031bfc048bf"
+            "source_sha256": "c621eea9852b1f99de30a08b34fdcd27ae779ac65bfac2966d5691885b311ea7"
           },
           "cutout": null
         },
@@ -24237,7 +25092,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "831350d402a2b568152654ba2d5bc9152e9d15932284e0875bb4ab54bbd9cfd7"
+            "source_sha256": "f03c79b492e52521f901a8245d74b585aca912a200181904e924ead7f1005305"
           }
         },
         {
@@ -24265,7 +25120,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "33e604c2aa525b5895bd8c46a6c6957e25110ab277880bd34f68ebf234b9a979"
+            "source_sha256": "a272a3d441447733a4fcefa3311c54d23b7c0438fc8490b8615ea168f7a045b2"
           }
         }
       ],
@@ -24354,7 +25209,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "a2791fe0eda15da2b198687e6174b7795b1fa8a6641124eb3cdb8b7fdb382296"
+        "source_sha256": "e08929257a4a74cbf9d0b30447d7bc2b1dd47a29b1f76d5c77ac3306ef8f0621"
       },
       "hero_cutout": null,
       "features": [
@@ -24385,7 +25240,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a2791fe0eda15da2b198687e6174b7795b1fa8a6641124eb3cdb8b7fdb382296"
+            "source_sha256": "e08929257a4a74cbf9d0b30447d7bc2b1dd47a29b1f76d5c77ac3306ef8f0621"
           },
           "cutout": null
         },
@@ -24416,9 +25271,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fdb4fd381e90f249b17a2732ad41ba34fd5e52ae38c644875116fe7fecf5bed6"
+            "source_sha256": "fdb4fd381e90f249b17a2732ad41ba34fd5e52ae38c644875116fe7fecf5bed6",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "fdb4fd381e90f249b17a2732ad41ba34fd5e52ae38c644875116fe7fecf5bed6",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Ha favoriterna nära.",
@@ -24447,7 +25321,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "354ee097b90bb6765959bcffc6471fc7866e8b8bb5372c986d44f1b783c00248"
+            "source_sha256": "b491b7008b7fa56d7a23e1245bf00e76a844427b9929bec63aa956db06fc3eb1"
           },
           "cutout": null
         },
@@ -24541,7 +25415,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a2791fe0eda15da2b198687e6174b7795b1fa8a6641124eb3cdb8b7fdb382296"
+            "source_sha256": "e08929257a4a74cbf9d0b30447d7bc2b1dd47a29b1f76d5c77ac3306ef8f0621"
           }
         },
         {
@@ -24569,7 +25443,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "a61c0dc2f9fa8a22932cb26ebe663c0a30055ebad4902233824c0c09edadeb47"
+            "source_sha256": "22884fdf8886c8df2bc1649bfc4c4d625b835b28b58a904dfa0d8ea907c4ee03"
           }
         }
       ],
@@ -24658,7 +25532,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "ca7fc26c99181fa2b73e9d9f0ab2cd9f86609b1d38ab9bb5a90a5161dedaeafe"
+        "source_sha256": "5ea889fd3ecebef7589ee2fcae089bb464603282831eb5588b4b516891d21826"
       },
       "hero_cutout": null,
       "features": [
@@ -24689,7 +25563,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ca7fc26c99181fa2b73e9d9f0ab2cd9f86609b1d38ab9bb5a90a5161dedaeafe"
+            "source_sha256": "5ea889fd3ecebef7589ee2fcae089bb464603282831eb5588b4b516891d21826"
           },
           "cutout": null
         },
@@ -24720,9 +25594,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "212212d4a512b278694307abc2bd02ebc8cb6e68684ca725a01dbbc37da6efcd"
+            "source_sha256": "212212d4a512b278694307abc2bd02ebc8cb6e68684ca725a01dbbc37da6efcd",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 573,
+                "width": 840,
+                "height": 1490
+              },
+              "source_sha256": "212212d4a512b278694307abc2bd02ebc8cb6e68684ca725a01dbbc37da6efcd",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 4.52434184358864
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "விருப்பமானவற்றை அருகில் வைத்துக்கொள்ளுங்கள்.",
@@ -24751,7 +25644,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "1fb91e581ea4d4c937a6952f467efd94e777b4b07d8e3d68b2c3959f60b19c88"
+            "source_sha256": "140ea65000c87bbc76fc08de402d93210e689abdc59cf00ef2ffa5111b74bded"
           },
           "cutout": null
         },
@@ -24845,7 +25738,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "ca7fc26c99181fa2b73e9d9f0ab2cd9f86609b1d38ab9bb5a90a5161dedaeafe"
+            "source_sha256": "5ea889fd3ecebef7589ee2fcae089bb464603282831eb5588b4b516891d21826"
           }
         },
         {
@@ -24873,7 +25766,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "ac6a7f64eb561eb4527c63c47eb3680ffbf15ae579b711b0d12564edbe394c32"
+            "source_sha256": "bb52a50bea512cefb755ca332a180943ae5675ebf609815a7bfaaf308e1b4508"
           }
         }
       ],
@@ -24962,7 +25855,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "e8b55d0e3025be6c9cb1ae47c36d8c01da084eb4ffb257635bc03f7de1d0de8a"
+        "source_sha256": "cba26c7058f410d7008400784b4d73ae2892fdeb75276627bfba5bd51ecf7f29"
       },
       "hero_cutout": null,
       "features": [
@@ -24993,7 +25886,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e8b55d0e3025be6c9cb1ae47c36d8c01da084eb4ffb257635bc03f7de1d0de8a"
+            "source_sha256": "cba26c7058f410d7008400784b4d73ae2892fdeb75276627bfba5bd51ecf7f29"
           },
           "cutout": null
         },
@@ -25024,9 +25917,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "13acd8fa692b8a5f000fba2e31a343c051c9dfa8c1d1505c8d41de003b579a2f"
+            "source_sha256": "13acd8fa692b8a5f000fba2e31a343c051c9dfa8c1d1505c8d41de003b579a2f",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 573,
+                "width": 840,
+                "height": 1345
+              },
+              "source_sha256": "13acd8fa692b8a5f000fba2e31a343c051c9dfa8c1d1505c8d41de003b579a2f",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 31.873081449374038
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "మీకు ఇష్టమైన వాటిని దగ్గరగా ఉంచుకోండి.",
@@ -25055,7 +25967,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "700be3557f75939a975ca1d3c97bd48d3f9cbefb57a4f324940a4830fe618222"
+            "source_sha256": "b04fa38ec8cdbebf45403f8775bd2cfe90b5e8346c1451802cccc077ff26c587"
           },
           "cutout": null
         },
@@ -25149,7 +26061,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e8b55d0e3025be6c9cb1ae47c36d8c01da084eb4ffb257635bc03f7de1d0de8a"
+            "source_sha256": "cba26c7058f410d7008400784b4d73ae2892fdeb75276627bfba5bd51ecf7f29"
           }
         },
         {
@@ -25177,7 +26089,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "7cb4a0aa7dc06d40b2c5604e88c70eb40e693a1305c1c4c38e8f55c3402eefe1"
+            "source_sha256": "58c0f7a85b22360114557cd79471b0c71b0aded0611d1356bf03ac31ca6d055c"
           }
         }
       ],
@@ -25266,7 +26178,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "c3d1d617bfeb506f641d0d9aa6e2729557c9f7215413c9356543de13f83db247"
+        "source_sha256": "ff13575449df5a64aa436099a58a24ca964fa4161a855d8d7b706d82d702df60"
       },
       "hero_cutout": null,
       "features": [
@@ -25297,7 +26209,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "c3d1d617bfeb506f641d0d9aa6e2729557c9f7215413c9356543de13f83db247"
+            "source_sha256": "ff13575449df5a64aa436099a58a24ca964fa4161a855d8d7b706d82d702df60"
           },
           "cutout": null
         },
@@ -25328,9 +26240,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "c1ef10e96bc9683ac7f04ea7786d540808e7376dee01b858fb8e93b2fe4adc7b"
+            "source_sha256": "c1ef10e96bc9683ac7f04ea7786d540808e7376dee01b858fb8e93b2fe4adc7b",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 593,
+                "width": 840,
+                "height": 1493
+              },
+              "source_sha256": "c1ef10e96bc9683ac7f04ea7786d540808e7376dee01b858fb8e93b2fe4adc7b",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.4858075616209618
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "เก็บรายการโปรดไว้ใกล้ตัว",
@@ -25359,7 +26290,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b92bb997facd9d0dbede3b2f59bd4795d1f4319652f38604c34a76074ee60ce4"
+            "source_sha256": "e7ae600ebd4d488d438b8220ca32c2aa93ccbd47fae432465dec670d4e0e7336"
           },
           "cutout": null
         },
@@ -25453,7 +26384,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "c3d1d617bfeb506f641d0d9aa6e2729557c9f7215413c9356543de13f83db247"
+            "source_sha256": "ff13575449df5a64aa436099a58a24ca964fa4161a855d8d7b706d82d702df60"
           }
         },
         {
@@ -25481,7 +26412,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "92c757c1c23cc08659f1cd92b64fbd2d7fd911e25dfb619e31495e30647c49a9"
+            "source_sha256": "04cc3d3e97f2970ec91e658e429b049359c0f05001dfc03ae73f26e1087f0f4c"
           }
         }
       ],
@@ -25570,7 +26501,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "fdaf17fb7e6548bd96def27e6b91b93e20991c86ffc00051ddf1c143cd4a656d"
+        "source_sha256": "0381af72854d7f580bc5f66c0edd363b4bdace8751d7f6017b3354bcd8a5b586"
       },
       "hero_cutout": null,
       "features": [
@@ -25601,7 +26532,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fdaf17fb7e6548bd96def27e6b91b93e20991c86ffc00051ddf1c143cd4a656d"
+            "source_sha256": "0381af72854d7f580bc5f66c0edd363b4bdace8751d7f6017b3354bcd8a5b586"
           },
           "cutout": null
         },
@@ -25632,9 +26563,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "201de1f95f8ace5ce74e306a65110108c13a39761a527de9ebf481465f8e694d"
+            "source_sha256": "201de1f95f8ace5ce74e306a65110108c13a39761a527de9ebf481465f8e694d",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "201de1f95f8ace5ce74e306a65110108c13a39761a527de9ebf481465f8e694d",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Favorilerinizi elinizin altında tutun.",
@@ -25663,7 +26613,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "9e60c8909b7eec0dd73dc8a90eadae9bb3f05341b13ed743e063a8d8645d4b68"
+            "source_sha256": "d7eab4b3512d12c47db6d13443c4f66df8e02fdba843a05b096dc3a041aca388"
           },
           "cutout": null
         },
@@ -25757,7 +26707,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fdaf17fb7e6548bd96def27e6b91b93e20991c86ffc00051ddf1c143cd4a656d"
+            "source_sha256": "0381af72854d7f580bc5f66c0edd363b4bdace8751d7f6017b3354bcd8a5b586"
           }
         },
         {
@@ -25785,7 +26735,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "e8237e4360bddbccd7da0253d7cf6f52867e88ccfc4fb29b31636f08bcdbdb0a"
+            "source_sha256": "fbb6714db012ba805853c8c718644476467495fdce4fd1526eefa34024b527f4"
           }
         }
       ],
@@ -25874,7 +26824,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "18ab32e7fe634124f68f91e4d97ad1ef0889a38c4ee12df98b935c2bfa63b510"
+        "source_sha256": "30ef32307e710f82414b07782d25453af97142fb1ab034ee30401f97b047dcdc"
       },
       "hero_cutout": null,
       "features": [
@@ -25905,7 +26855,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "18ab32e7fe634124f68f91e4d97ad1ef0889a38c4ee12df98b935c2bfa63b510"
+            "source_sha256": "30ef32307e710f82414b07782d25453af97142fb1ab034ee30401f97b047dcdc"
           },
           "cutout": null
         },
@@ -25936,9 +26886,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e64c42ecbe5062e4093e8322768c1768620950b4488bd87e90cabe848f908456"
+            "source_sha256": "e64c42ecbe5062e4093e8322768c1768620950b4488bd87e90cabe848f908456",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 605,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "e64c42ecbe5062e4093e8322768c1768620950b4488bd87e90cabe848f908456",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.023914335132647978
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Тримайте улюблене під рукою.",
@@ -25967,7 +26936,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "df25d612612c99fa90f664ce4e69087700fa8bbb130437daef4cff5dacc451d8"
+            "source_sha256": "5cde0afe38d37a86ff9d0733b015731d4c5f4423afab66f0d082589cd4395ab4"
           },
           "cutout": null
         },
@@ -26061,7 +27030,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "18ab32e7fe634124f68f91e4d97ad1ef0889a38c4ee12df98b935c2bfa63b510"
+            "source_sha256": "30ef32307e710f82414b07782d25453af97142fb1ab034ee30401f97b047dcdc"
           }
         },
         {
@@ -26089,7 +27058,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "c1eb88828370961efda0bf4144e3a868b8332e584a9129d66a6b7de03fbf8ee4"
+            "source_sha256": "6001d9638ed6116887dedf370e81ba7b2885a519c76541d5c21d2d55d5f4f67e"
           }
         }
       ],
@@ -26178,7 +27147,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "3484f5d795fe5e71bf4ce45ce360ee66b527a6a4acaa7998121735073443c820"
+        "source_sha256": "780eba6329aae45ba3f93a93fde55ad04743555d422d033c5c90075fba97f4e3"
       },
       "hero_cutout": null,
       "features": [
@@ -26209,7 +27178,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3484f5d795fe5e71bf4ce45ce360ee66b527a6a4acaa7998121735073443c820"
+            "source_sha256": "780eba6329aae45ba3f93a93fde55ad04743555d422d033c5c90075fba97f4e3"
           },
           "cutout": null
         },
@@ -26240,9 +27209,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "8c867bc4185948a00a3e159c78859b114219c7c78097148afb5efc242c03384c"
+            "source_sha256": "8c867bc4185948a00a3e159c78859b114219c7c78097148afb5efc242c03384c",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 590,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "8c867bc4185948a00a3e159c78859b114219c7c78097148afb5efc242c03384c",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0.029978205591020893
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "پسندیدہ چیزوں کو قریب رکھیں۔",
@@ -26271,7 +27259,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "26f80823f9a788394e7e73ba0ec604b51fce4f7958bee902a00edb62698f5cce"
+            "source_sha256": "1d68daf4d46b096aa7cfe6fe09b91002c04440b0afba10651b623281a32e0f7a"
           },
           "cutout": null
         },
@@ -26365,7 +27353,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "3484f5d795fe5e71bf4ce45ce360ee66b527a6a4acaa7998121735073443c820"
+            "source_sha256": "780eba6329aae45ba3f93a93fde55ad04743555d422d033c5c90075fba97f4e3"
           }
         },
         {
@@ -26393,7 +27381,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "e713e589cc199ef91fa921c64cd9aa849853bc3b3dcd2da7435429491afc038d"
+            "source_sha256": "364be3328f00a4473783883cd256e03255c1ea2d400a4c4358ae6e10b0cf732d"
           }
         }
       ],
@@ -26482,7 +27470,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "98607de0cdcdd42f00977b2982794404e282daea4733a1793321384fac5427f4"
+        "source_sha256": "19284a78aac531e5569cb2983724f4d968e268a1e2a164c39699ba51ecdfea0d"
       },
       "hero_cutout": null,
       "features": [
@@ -26513,7 +27501,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "98607de0cdcdd42f00977b2982794404e282daea4733a1793321384fac5427f4"
+            "source_sha256": "19284a78aac531e5569cb2983724f4d968e268a1e2a164c39699ba51ecdfea0d"
           },
           "cutout": null
         },
@@ -26544,9 +27532,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fd903cb669553825c4456981484277b4661cd33d78f59d0699ae9a95ef887167"
+            "source_sha256": "fd903cb669553825c4456981484277b4661cd33d78f59d0699ae9a95ef887167",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 573,
+                "width": 840,
+                "height": 1490
+              },
+              "source_sha256": "fd903cb669553825c4456981484277b4661cd33d78f59d0699ae9a95ef887167",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 4.52434184358864
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "Giữ lại những mục yêu thích.",
@@ -26575,7 +27582,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "9d0692ea0ca1cf2615a17e3de2a9e117c3567a21cfe3fb25ab82baec3550956c"
+            "source_sha256": "1c9e5c6e62def256817735c96bc37080288fb2c7df86e86490dc8284f7d0949c"
           },
           "cutout": null
         },
@@ -26669,7 +27676,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "98607de0cdcdd42f00977b2982794404e282daea4733a1793321384fac5427f4"
+            "source_sha256": "19284a78aac531e5569cb2983724f4d968e268a1e2a164c39699ba51ecdfea0d"
           }
         },
         {
@@ -26697,7 +27704,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "11e7952a8c1fb0e3ebc0e7ee8ee427476a86fec4cc5f770ab1b87725d76fe52f"
+            "source_sha256": "626f637f11f6c761c06ba3c35c6f399c2190cf95fc81f8eaa8298f63f3879eef"
           }
         }
       ],
@@ -26786,7 +27793,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "b201e06ded3f6a2c854305d04bf0c2305be4c25d0e2953b6ebbccdbc69acfa75"
+        "source_sha256": "b826ef6f69d2a9d4d2535416d36007b69c15886abe25de1ec6fece95850f110c"
       },
       "hero_cutout": null,
       "features": [
@@ -26817,7 +27824,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b201e06ded3f6a2c854305d04bf0c2305be4c25d0e2953b6ebbccdbc69acfa75"
+            "source_sha256": "b826ef6f69d2a9d4d2535416d36007b69c15886abe25de1ec6fece95850f110c"
           },
           "cutout": null
         },
@@ -26848,9 +27855,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "e6a09787532314cb1afc640b50e6eb5c6cbc614313eeb0bd6b34c8eb7d18ec95"
+            "source_sha256": "e6a09787532314cb1afc640b50e6eb5c6cbc614313eeb0bd6b34c8eb7d18ec95",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "e6a09787532314cb1afc640b50e6eb5c6cbc614313eeb0bd6b34c8eb7d18ec95",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "珍藏你的最愛。",
@@ -26879,7 +27905,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "fbb5a3cafe1f634c4b6cfc288593ae8d1c8f8d3a69f5b6276e38ad152b06ef7d"
+            "source_sha256": "6fd31205a9b2bf993f3b993800a6792d972867f6d0c64308629ea27405b7ee7b"
           },
           "cutout": null
         },
@@ -26973,7 +27999,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "b201e06ded3f6a2c854305d04bf0c2305be4c25d0e2953b6ebbccdbc69acfa75"
+            "source_sha256": "b826ef6f69d2a9d4d2535416d36007b69c15886abe25de1ec6fece95850f110c"
           }
         },
         {
@@ -27001,7 +28027,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "bf7993a1cb024d5d3634f6bcf8de38f356ad872e5e1371d695d76c63f6389efb"
+            "source_sha256": "18d10a55676f78afc93071bfb393860217be010fb73fd2ebd63ecb780e211053"
           }
         }
       ],
@@ -27090,7 +28116,7 @@
         },
         "kind": "iphone",
         "ratio": 0.49,
-        "source_sha256": "48775952046c999c7f9b41b85f8dc9a609e6bae3cd12a7515fe7d48dac2abb23"
+        "source_sha256": "a22dce150dcfc05d042230c2bda9c182999cf62d795ebadad168d1d59f55130f"
       },
       "hero_cutout": null,
       "features": [
@@ -27121,7 +28147,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "48775952046c999c7f9b41b85f8dc9a609e6bae3cd12a7515fe7d48dac2abb23"
+            "source_sha256": "a22dce150dcfc05d042230c2bda9c182999cf62d795ebadad168d1d59f55130f"
           },
           "cutout": null
         },
@@ -27152,9 +28178,28 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "a8e0c9728b0a5bcaf20a8d2535f68711e7f600c73d906f63932bcae897c817cd"
+            "source_sha256": "a8e0c9728b0a5bcaf20a8d2535f68711e7f600c73d906f63932bcae897c817cd",
+            "photo_edit": {
+              "kind": "fictional sample photo only; cat removed from background behind transparent foreground cutout",
+              "rect": {
+                "left": 240,
+                "top": 629,
+                "width": 840,
+                "height": 1494
+              },
+              "source_sha256": "a8e0c9728b0a5bcaf20a8d2535f68711e7f600c73d906f63932bcae897c817cd",
+              "plate": "docs/marketing/october-2026/assets/memories/cat-room-empty.png",
+              "plate_sha256": "a9c4a0db3ad17b49a5a6d345715c3a612301a50cbe0f152757d8bf359fb3c40c",
+              "ui_outside_photo": "pixel-identical",
+              "reference_rms": 0
+            }
           },
-          "cutout": null
+          "cutout": null,
+          "photo_cutout": {
+            "src": "/images/products/memories/cat-cutout-v3.webp",
+            "width": 750,
+            "height": 1000
+          }
         },
         {
           "title": "珍藏你的最愛。",
@@ -27183,7 +28228,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "af8f7126ec42c68f44c0d279c300198fcc913e793813c44149f908aece0212be"
+            "source_sha256": "ea9bb4ffc35de3d7608acf05d7652fd6d60d2d279229fb36e34dc0b977f616c5"
           },
           "cutout": null
         },
@@ -27277,7 +28322,7 @@
             },
             "kind": "iphone",
             "ratio": 0.49,
-            "source_sha256": "48775952046c999c7f9b41b85f8dc9a609e6bae3cd12a7515fe7d48dac2abb23"
+            "source_sha256": "a22dce150dcfc05d042230c2bda9c182999cf62d795ebadad168d1d59f55130f"
           }
         },
         {
@@ -27305,7 +28350,7 @@
             },
             "kind": "ipad",
             "ratio": 0.7666666666666667,
-            "source_sha256": "ac49bb3b5d3545a7864f86fce4a8fe87387640e49a8960dbfdf55fc8da037e76"
+            "source_sha256": "4178a1a474d10405f06006ba4b4b3a96bbd6c7fef0aee8894631f82bd359af39"
           }
         }
       ],

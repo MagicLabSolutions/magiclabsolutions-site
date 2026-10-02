@@ -30,6 +30,7 @@ for locale,slug,config in routes:
     if not file.is_file():errors.append(label+': missing');continue
     html=file.read_text();page=Page();page.feed(html);count+=1
     if page.products!=[slug] or page.h1!=1 or page.demos!=1 or page.videos:errors.append(label+': incorrect product, heading, demo or video policy')
+    if 'data-enlarge' in html or 'l-lightbox' in html or 'l-device-button' in html:errors.append(label+': screenshot expansion remains enabled')
     if '/Users/' in html:errors.append(label+': local source paths in public markup')
     for image in page.images:
         if '/exports/' in image or '/store-' in image or '/ipad-store-' in image:errors.append(label+': store composition in native page')

@@ -8,6 +8,7 @@ import {createRequire} from 'node:module';
 import {render,root,clearRenderCache} from './localized-art-canvas.mjs';
 import {renderSoooonOriginal} from './soooon-original-art.mjs';
 import {materializeComponent} from './native-component-assets.mjs';
+import {memoriesPhotoPlate} from './memories-photo-plate.mjs';
 const require=createRequire(path.join(process.env.MAGICLAB_NODE_MODULES||'/Users/fabio.hoffmann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules','package.json'));
 const sharp=require('sharp');sharp.cache({memory:24,files:8,items:32});sharp.concurrency(2);
 const base='docs/marketing/october-2026',out=base+'/localized';
@@ -19,6 +20,8 @@ const shared=JSON.parse(await fs.readFile('_data/share_images.json'));
 const localized={},coverage=[],metrics=[];
 const wanted=process.argv.slice(2);
 const localeFilter=(process.env.MAGICLAB_LOCALES||'').split(',').filter(Boolean);
+const panelFilter=(process.env.MAGICLAB_PANELS||'').split(',').filter(Boolean).map(n=>Number(n)-1);
+const selectedPanel=i=>!panelFilter.length||panelFilter.includes(i);
 const reportSuffix=(wanted.length?'-'+wanted.join('-'):'')+(process.env.MAGICLAB_RENDER_REPORT_SUFFIX?'-'+process.env.MAGICLAB_RENDER_REPORT_SUFFIX:'');
 async function exists(file){try{await fs.access(path.join(root,file));return true}catch{return false}}
 function localPath(slug,locale,platform,i){return `/${out}/native/${slug}/${locale}/${platform}/native-${i+1}.png`}
@@ -41,9 +44,10 @@ async function nativeImage(file,slug,locale,platform,index){
  const target=`images/products-localized/${slug}/${locale}/${platform}/native-${index+1}.webp`;
  await fs.mkdir(path.dirname(target),{recursive:true});
  const source=path.join(root,file),buffer=await fs.readFile(source),m=await sharp(buffer).metadata();
- await sharp(buffer).resize({width:platform==='ipad'?1100:platform==='mac'||platform==='browser'?1440:840,withoutEnlargement:true}).webp({quality:84}).toFile(target);
+ const repaired=slug==='memories'&&index===1?await memoriesPhotoPlate(buffer):{buffer,edit:null};
+ await sharp(repaired.buffer).resize({width:platform==='ipad'?1100:platform==='mac'||platform==='browser'?1440:840,withoutEnlargement:true}).webp({quality:84}).toFile(target);
  const resized=await sharp(target).metadata();
- return {image:{src:'/'+target,width:resized.width,height:resized.height},source:file,source_sha256:crypto.createHash('sha256').update(buffer).digest('hex'),dimensions:[m.width,m.height]};
+ return {image:{src:'/'+target,width:resized.width,height:resized.height},source:file,source_sha256:crypto.createHash('sha256').update(buffer).digest('hex'),dimensions:[m.width,m.height],...(repaired.edit?{photo_edit:repaired.edit}:{})};
 }
 async function exportArt(p,index,format,size,file){if(process.env.MAGICLAB_REBUILD!=='1'&&await exists(file))return {locale:p.locale,format,index,method:'reuse existing localized export',source:file};return render(p,index,format,size,file)}
 async function publicArt(file,target,width=660){await fs.mkdir(path.dirname(target),{recursive:true});await sharp(file).resize({width,withoutEnlargement:true}).webp({quality:86}).toFile(target)}
@@ -87,6 +91,7 @@ for(const original of campaign.products){
    const dir=`${out}/exports/${locale}/${slug}`;
    if(!['tumtum','soooon'].includes(slug)){
     for(let i=0;i<variant.panels.length;i++){
+     if(!selectedPanel(i))continue;
      const name=(platform===primary?'store':platform+'-store')+'-'+(i+1),file=`${dir}/${name}.png`;
      const approved=slug==='giftly'?`${base}/giftly-localized/exports/${locale}/${platform==='ipad'?'ipad-':''}store-${i+1}.png`:locale==='en-US'?`${base}/exports/en-US/${slug}/${name}.png`:null;
      if(approved&&await exists(approved)){await fs.mkdir(path.dirname(file),{recursive:true});await fs.copyFile(approved,file);metrics.push({locale,slug,platform,index:i,format:'store',method:'reuse approved original',source:approved});}else metrics.push(await exportArt(variant,i,'store',size,file));
@@ -103,7 +108,7 @@ for(const original of campaign.products){
    }else {const count=copy.original_store?.SLIDES.length||0;if(!count)throw Error('Original Soooon copy is missing');if(process.env.MAGICLAB_REBUILD==='1'||!await exists(dir+'/'+(platform==='ipad'?'ipad-':'')+'store-'+count+'.png'))await renderSoooonOriginal(locale,platform,copy.original_store,dir);for(let i=1;i<=count;i++)await publicArt(dir+'/'+(platform==='ipad'?'ipad-':'')+'store-'+i+'.png',`images/campaign-localized/${slug}/${locale}/${platform==='ipad'?'ipad-':''}store-${i}.webp`);entry.formats[platform+'-store']=count;}
    if(platform===primary){
     const socialNames=['carousel','post'];
-    for(let i=0;i<variant.panels.length;i++)for(const name of socialNames){const file=`${dir}/${name}-${i+1}.png`,size=name==='post'?[1080,1350]:[1080,1920];metrics.push(await exportArt(variant,i,'social',size,file));await publicArt(file,`images/campaign-localized/${slug}/${locale}/${name}-${i+1}.webp`,540)}
+    for(let i=0;i<variant.panels.length;i++)if(selectedPanel(i))for(const name of socialNames){const file=`${dir}/${name}-${i+1}.png`,size=name==='post'?[1080,1350]:[1080,1920];metrics.push(await exportArt(variant,i,'social',size,file));await publicArt(file,`images/campaign-localized/${slug}/${locale}/${name}-${i+1}.webp`,540)}
     entry.formats.social=variant.panels.length*2;
     const shareFile=`${dir}/share.png`;metrics.push(await exportArt(variant,0,'share',[1200,630],shareFile));
     const shareBuffer=await sharp(shareFile).jpeg({quality:92,mozjpeg:true}).toBuffer(),hash=crypto.createHash('sha256').update(shareBuffer).digest('hex').slice(0,12),target=`images/share/${slug}-${locale}-${hash}.jpg`;
@@ -116,10 +121,11 @@ for(const original of campaign.products){
  if((await Promise.all(files.map(exists))).every(Boolean)){if(process.env.MAGICLAB_REBUILD==='1'||!await exists(dir+'/mac-store-5.png'))await renderSoooonOriginal(locale,'mac',copy.original_store,dir);for(let i=1;i<=5;i++)await publicArt(dir+`/mac-store-${i}.png`,`images/campaign-localized/${slug}/${locale}/mac-store-${i}.webp`);entry.formats['mac-store']=5;}else entry.missing.push('mac-original-store');
 }
 const launch=structuredClone(launches[slug]);launch.locale=locale;launch.localized_copy={headline:copy.panels[0][0].replaceAll('\n',' '),description:copy.panels[0][1].replaceAll('\n',' ')};launch.direction=['ar','he','ur'].includes(locale)?'rtl':'ltr';launch.capture_locale=locale;
-   function swap(device,index,platform){const n=natives[platform]?.[index];if(!n)return null;return {...device,image:n.image,source_sha256:n.source_sha256}}
+   function swap(device,index,platform){const n=natives[platform]?.[index];if(!n)return null;return {...device,image:n.image,source_sha256:n.source_sha256,...(n.photo_edit?{photo_edit:n.photo_edit}:{})}}
    async function nativeCrop(index,platform){const card=cardRecords[platform]?.[index]?.[0];if(!card)return null;const normalize=v=>path.resolve(root,'.'+(v.startsWith('/')?v:'/'+v));const source=natives[platform]?.find(n=>normalize(n.source)===normalize(card.source));if(!source)return null;const [l,t,r,b]=card.rect,[w,h]=source.dimensions;if(l<0||t<0||r>w||b>h||r<=l||b<=t)return null;return materializeComponent({image:source.image,ratio:(r-l)/(b-t),width:w/(r-l)*100,left:-l/(r-l)*100,top:-t/(b-t)*100,radius:(card.radius||24)/(r-l)*100,angle:card.angle||0});}
    launch.hero=swap(launch.hero,0,primary);launch.hero_cutout=await nativeCrop(0,primary);
    launch.features=await Promise.all(launch.features.map(async(f,i)=>({...f,title:copy.panels[i][0],description:copy.panels[i][1],label:copy.panels[i][2],device:swap(f.device,i,primary),cutout:await nativeCrop(i,primary)})));
+   if(cfgForPhoto(original))launch.features[1].photo_cutout=cfgForPhoto(original);
    launch.fleet=launch.fleet.flatMap(f=>{const platform=f.device.kind==='iphone'?'iphone':f.device.kind==='ipad'?'ipad':f.device.kind==='android'?'android':f.device.kind==='browser'?'browser':'mac';const d=swap(f.device,0,platform);return d?[{...f,device:d}]:[]});
    localized[slug][locale]=launch;entry.status=entry.missing.length?'partially-captured':'rendered';
   }
@@ -127,6 +133,7 @@ const launch=structuredClone(launches[slug]);launch.locale=locale;launch.localiz
   clearRenderCache();coverage.push(entry);console.log(slug,locale,entry.status,entry.missing.join(','));
  }
 }
+function cfgForPhoto(p){return p.studio_art?.web_photo_cutout||null;}
 // Serialize only the manifest update, so independent render jobs cannot overwrite
 // each other's completed products or language variants.
 const lock='_data/.localized-render.lock';let locked=false;

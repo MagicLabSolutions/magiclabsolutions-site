@@ -1591,22 +1591,7 @@
         "primary": {
           "cutouts": [
             [],
-            [
-              {
-                "source": "/docs/marketing/october-2026/sources/memories/native-2.png",
-                "rect": [
-                  240,
-                  628,
-                  1080,
-                  2126
-                ],
-                "left": 0.035,
-                "top": 0.52,
-                "width": 0.55,
-                "radius": 75,
-                "angle": -2
-              }
-            ],
+            [],
             [],
             [
               {
@@ -1676,22 +1661,7 @@
           ],
           "cutouts": [
             [],
-            [
-              {
-                "source": "/docs/marketing/october-2026/sources/memories/ipad/native-2.png",
-                "rect": [
-                  744,
-                  826,
-                  1310,
-                  1828
-                ],
-                "left": 0.025,
-                "top": 0.505,
-                "width": 0.36,
-                "radius": 45,
-                "angle": -2
-              }
-            ],
+            [],
             [],
             [
               {
@@ -1725,7 +1695,58 @@
             ]
           ]
         },
-        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained",
+        "photo_cutouts": {
+          "primary": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/assets/memories/cat-cutout-v3.png",
+                "rect": [
+                  0,
+                  0,
+                  1086,
+                  1448
+                ],
+                "transparent": true,
+                "left": 0.015,
+                "top": 0.52,
+                "width": 0.52,
+                "radius": 0,
+                "angle": -3
+              }
+            ],
+            [],
+            []
+          ],
+          "ipad": [
+            [],
+            [
+              {
+                "source": "/docs/marketing/october-2026/assets/memories/cat-cutout-v3.png",
+                "rect": [
+                  0,
+                  0,
+                  1086,
+                  1448
+                ],
+                "transparent": true,
+                "left": 0.02,
+                "top": 0.53,
+                "width": 0.34,
+                "radius": 0,
+                "angle": -3
+              }
+            ],
+            [],
+            []
+          ]
+        },
+        "web_photo_cutout": {
+          "src": "/images/products/memories/cat-cutout-v3.webp",
+          "width": 750,
+          "height": 1000
+        }
       },
       "website_layout": "studio-layered",
       "website_editorial": {

@@ -55,6 +55,7 @@ def main():
     bundle = {'zuzu':'com.magiclabsolutions.zuzu','soooon':'com.magiclabsolutions.soooon','brainfold':'com.magiclabsolutions.brain.fold','myrenewals':'com.magiclabsolutions.subscriptionmanager',
               'memories':'com.magiclabsolutions.memories.marketing' if platform=='ipad' else 'com.magiclabsolutions.memories',
               'sundust':'com.magiclabsolutions.sundust'}[slug]
+    bundle = os.environ.get('MAGICLAB_CAPTURE_BUNDLE', bundle)
     import plistlib
     apps = LIBRARY/OLD[platform]/'data/Containers/Bundle/Application'
     app = Path(os.environ['MAGICLAB_CAPTURE_APP']) if os.environ.get('MAGICLAB_CAPTURE_APP') else next(p.parent for p in apps.glob('*/*.app/Info.plist')
@@ -65,8 +66,8 @@ def main():
         '--batteryLevel','100','--wifiMode','active','--wifiBars','3')
     if slug == 'memories':
         old_data = LIBRARY/OLD[platform]/'data/Containers/Data/Application'
-        original = next(p for p in old_data.glob('*/Library/Caches/marketing-stock')
-                        if len(list(p.glob('*'))) > 0)
+        original = Path(os.environ['MAGICLAB_MEMORIES_CACHE']) if os.environ.get('MAGICLAB_MEMORIES_CACHE') else next(
+            p for p in old_data.glob('*/Library/Caches/marketing-stock') if len(list(p.glob('*'))) > 0)
         target = Path(run('get_app_container', simulator, bundle, 'data'))/'Library/Caches/marketing-stock'
         shutil.copytree(original, target, dirs_exist_ok=True)
     records = []
@@ -77,9 +78,16 @@ def main():
             for i, scene in enumerate(SCENES[slug], 1):
                 file = folder/f'native-{i}.png'
                 if not file.exists():
+                    if slug == 'memories' and os.environ.get('MAGICLAB_CLEAR_MEMORIES_FIXTURES') == '1':
+                        if simulator not in ['09BCA0AA-CA30-4EE1-B4BF-BC2A7BD8350D', 'F473F837-B8DD-4CA1-B1AA-BCA9CA477DC0']:
+                            raise RuntimeError('Fixture cleanup is restricted to owned localization simulators')
+                        projects = Path(run('get_app_container', simulator, bundle, 'data'))/'Documents/projects'
+                        if projects.exists(): shutil.rmtree(projects)
                     args = ['-AppleLanguages',f'({locale})','-AppleLocale',locale.replace('-','_')]
                     args += ['-nogc',*scene] if slug=='sundust' else ['-marketing-screen',scene]
-                    if slug=='memories': args += ['-screenshots']
+                    if slug=='memories':
+                        args += ['-screenshots']
+                        if platform=='ipad': args += ['-marketing-tablet']
                     if slug=='zuzu':
                         args += ['-SCREENSHOT_MODE','-com.apple.TipKit.HideAllTips','1','-UIViewAnimationsDisabled','YES']
                         if scene=='pregnancy': args += ['-SCREENSHOT_EXPECTING']
@@ -116,6 +124,7 @@ def main():
             print(slug, platform, locale, 'captured', flush=True)
             (OUT/f'capture-{slug}-{platform}.json').write_text(json.dumps({'bundle':bundle,
                 'binary_sha256':hashlib.sha256((app/app.stem).read_bytes()).hexdigest(),
+                'debug_binary_sha256':hashlib.sha256((app/(app.stem+'.debug.dylib')).read_bytes()).hexdigest() if (app/(app.stem+'.debug.dylib')).exists() else None,
                 'simulator':simulator,'capture_timezone':'Etc/GMT-5 (app process only)' if slug=='zuzu' else 'device default','method':'Existing isolated offline capture binary, real native views, per-locale launch arguments',
                 'records':records}, indent=2)+'\n')
     finally:
