@@ -1,4 +1,6 @@
 {% assign crop = include.crop %}
-<div class="l-component" aria-hidden="true" style="aspect-ratio:{{ crop.ratio }};--component-angle:{{ crop.angle }}deg;border-radius:{{ crop.radius }}% / {{ crop.radius | times: crop.ratio }}%">
-  <img src="{{ crop.image.src | relative_url }}" alt="" loading="lazy" style="width:{{ crop.width }}%;left:{{ crop.left }}%;top:{{ crop.top }}%">
+{% if crop.rendered.src %}
+<div class="l-component" aria-hidden="true" style="--component-angle:{{ crop.angle }}deg;border-radius:{{ crop.radius }}% / {{ crop.radius | times: crop.ratio }}%">
+  <img data-native-component src="{{ crop.rendered.src | relative_url }}" alt="" width="{{ crop.rendered.width }}" height="{{ crop.rendered.height }}" {% if include.hero %}loading="eager"{% else %}loading="lazy"{% endif %}>
 </div>
+{% endif %}

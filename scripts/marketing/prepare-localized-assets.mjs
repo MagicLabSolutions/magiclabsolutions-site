@@ -7,6 +7,7 @@ import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
 import {render,root,clearRenderCache} from './localized-art-canvas.mjs';
 import {renderSoooonOriginal} from './soooon-original-art.mjs';
+import {materializeComponent} from './native-component-assets.mjs';
 const require=createRequire(path.join(process.env.MAGICLAB_NODE_MODULES||'/Users/fabio.hoffmann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules','package.json'));
 const sharp=require('sharp');sharp.cache({memory:24,files:8,items:32});sharp.concurrency(2);
 const base='docs/marketing/october-2026',out=base+'/localized';
@@ -116,9 +117,9 @@ for(const original of campaign.products){
 }
 const launch=structuredClone(launches[slug]);launch.locale=locale;launch.localized_copy={headline:copy.panels[0][0].replaceAll('\n',' '),description:copy.panels[0][1].replaceAll('\n',' ')};launch.direction=['ar','he','ur'].includes(locale)?'rtl':'ltr';launch.capture_locale=locale;
    function swap(device,index,platform){const n=natives[platform]?.[index];if(!n)return null;return {...device,image:n.image,source_sha256:n.source_sha256}}
-   function nativeCrop(index,platform){const card=cardRecords[platform]?.[index]?.[0];if(!card)return null;const normalize=v=>path.resolve(root,'.'+(v.startsWith('/')?v:'/'+v));const source=natives[platform]?.find(n=>normalize(n.source)===normalize(card.source));if(!source)return null;const [l,t,r,b]=card.rect,[w,h]=source.dimensions;if(l<0||t<0||r>w||b>h||r<=l||b<=t)return null;return {image:source.image,ratio:(r-l)/(b-t),width:w/(r-l)*100,left:-l/(r-l)*100,top:-t/(b-t)*100,radius:(card.radius||24)/(r-l)*100,angle:card.angle||0};}
-   launch.hero=swap(launch.hero,0,primary);launch.hero_cutout=nativeCrop(0,primary);
-   launch.features=launch.features.map((f,i)=>({...f,title:copy.panels[i][0],description:copy.panels[i][1],label:copy.panels[i][2],device:swap(f.device,i,primary),cutout:nativeCrop(i,primary)}));
+   async function nativeCrop(index,platform){const card=cardRecords[platform]?.[index]?.[0];if(!card)return null;const normalize=v=>path.resolve(root,'.'+(v.startsWith('/')?v:'/'+v));const source=natives[platform]?.find(n=>normalize(n.source)===normalize(card.source));if(!source)return null;const [l,t,r,b]=card.rect,[w,h]=source.dimensions;if(l<0||t<0||r>w||b>h||r<=l||b<=t)return null;return materializeComponent({image:source.image,ratio:(r-l)/(b-t),width:w/(r-l)*100,left:-l/(r-l)*100,top:-t/(b-t)*100,radius:(card.radius||24)/(r-l)*100,angle:card.angle||0});}
+   launch.hero=swap(launch.hero,0,primary);launch.hero_cutout=await nativeCrop(0,primary);
+   launch.features=await Promise.all(launch.features.map(async(f,i)=>({...f,title:copy.panels[i][0],description:copy.panels[i][1],label:copy.panels[i][2],device:swap(f.device,i,primary),cutout:await nativeCrop(i,primary)})));
    launch.fleet=launch.fleet.flatMap(f=>{const platform=f.device.kind==='iphone'?'iphone':f.device.kind==='ipad'?'ipad':f.device.kind==='android'?'android':f.device.kind==='browser'?'browser':'mac';const d=swap(f.device,0,platform);return d?[{...f,device:d}]:[]});
    localized[slug][locale]=launch;entry.status=entry.missing.length?'partially-captured':'rendered';
   }

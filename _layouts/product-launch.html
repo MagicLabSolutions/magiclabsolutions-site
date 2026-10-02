@@ -45,7 +45,7 @@
       <div class="l-hero-art l-art{% if launch.hero.kind == 'mac' or launch.hero.kind == 'browser' %} l-art--wide{% endif %}" data-tilt>
         <svg class="l-orbits" viewBox="0 0 640 720" aria-hidden="true"><ellipse cx="320" cy="370" rx="285" ry="150" transform="rotate(-24 320 370)"/><ellipse cx="320" cy="370" rx="245" ry="280" transform="rotate(25 320 370)"/><circle cx="560" cy="225" r="7"/></svg>
         <div class="l-hero-device">{% capture hero_alt %}{{ product.name }} — {{ launch.features[0].label }} ({{ capture_lang }}){% endcapture %}{% include launch-device.html device=launch.hero alt=hero_alt hero=true %}</div>
-        {% if launch.hero_cutout %}<div class="l-hero-component">{% include launch-component.html crop=launch.hero_cutout %}</div>{% endif %}
+        {% if launch.hero_cutout.rendered.src %}<div class="l-hero-component">{% include launch-component.html crop=launch.hero_cutout hero=true %}</div>{% endif %}
         {% for prop in launch.props limit:2 %}<div class="l-floating l-floating--{{ forloop.index }}" aria-hidden="true"><img src="{{ prop.src | relative_url }}" alt="" width="{{ prop.width }}" height="{{ prop.height }}"></div>{% endfor %}
         {% if launch.props.size == 0 %}<span class="l-floating l-floating--1 l-token" aria-hidden="true">{{ launch.features[0].label }}</span><span class="l-floating l-floating--2 l-token" aria-hidden="true">{{ launch.features[1].label }}</span>{% endif %}
       </div>
@@ -62,13 +62,14 @@
         <div class="l-feature-copy" lang="{{ capture_lang }}"><p class="l-eyebrow">0{{ forloop.index }} / {{ feature.label }}</p><h3>{{ feature.title }}</h3><p>{{ feature.description }}</p></div>
         <div class="l-feature-art l-art{% if feature.device.kind == 'mac' or feature.device.kind == 'browser' %} l-art--wide{% endif %}" data-tilt>
           <button type="button" class="l-device-button" data-enlarge aria-label="{{ ui.enlarge }} — {{ feature.label | escape }}" data-title="{{ feature.label | escape }}"><div class="l-feature-device">{% capture feature_alt %}{{ product.name }} — {{ feature.label }} ({{ capture_lang }}){% endcapture %}{% include launch-device.html device=feature.device alt=feature_alt %}</div></button>
-          {% if feature.cutout %}<div class="l-feature-component">{% include launch-component.html crop=feature.cutout %}</div>{% endif %}
+          {% if feature.cutout.rendered.src %}<div class="l-feature-component">{% include launch-component.html crop=feature.cutout %}</div>{% endif %}
         </div>
       </article>{% endfor %}
     </section>
     <section class="l-platform-section" id="platforms" aria-labelledby="platform-title" data-reveal><div class="l-wrap">
       <div class="l-section-head"><p class="l-eyebrow">{{ ui.platforms }}</p><h2 id="platform-title">{{ ui.platform_title }}</h2><div class="l-platform-labels">{% for platform in launch.platforms %}<span>{{ platform }}</span>{% endfor %}</div></div>
-      <div class="l-fleet l-fleet--{{ launch.fleet.size }}">{% for item in launch.fleet %}<figure class="l-fleet-device l-fleet-device--{{ item.device.kind }}"><button type="button" class="l-device-button" data-enlarge data-title="{{ item.label }}" aria-label="{{ ui.enlarge }} — {{ item.label }}">{% capture fleet_alt %}{{ product.name }} on {{ item.label }} — {{ capture_lang }}{% endcapture %}{% include launch-device.html device=item.device alt=fleet_alt %}</button><figcaption>{{ item.label }}</figcaption></figure>{% endfor %}</div>
+      {% assign fleet_primary = launch.fleet.first.device.kind %}{% for item in launch.fleet %}{% if item.device.kind == 'ipad' %}{% assign fleet_primary = 'ipad' %}{% endif %}{% endfor %}{% for item in launch.fleet %}{% if item.device.kind == 'mac' or item.device.kind == 'browser' %}{% assign fleet_primary = item.device.kind %}{% endif %}{% endfor %}
+      <div class="l-fleet l-fleet--{{ launch.fleet.size }}{% if launch.fleet.size > 1 %} l-fleet--stacked l-fleet--primary-{{ fleet_primary }}{% endif %}">{% for item in launch.fleet %}<figure class="l-fleet-device l-fleet-device--{{ item.device.kind }}{% if item.device.kind == fleet_primary %} l-fleet-device--primary{% else %} l-fleet-device--corner{% endif %}"><button type="button" class="l-device-button" data-enlarge data-title="{{ item.label }}" aria-label="{{ ui.enlarge }} — {{ item.label }}">{% capture fleet_alt %}{{ product.name }} on {{ item.label }} — {{ capture_lang }}{% endcapture %}{% include launch-device.html device=item.device alt=fleet_alt %}</button><figcaption>{{ item.label }}</figcaption></figure>{% endfor %}</div>
       <div class="l-actions l-actions--center">{% include launch-actions.html %}</div>
     </div></section>
     {% if launch.legacy_details %}<section class="l-practical l-wrap" data-reveal aria-label="{{ ui.practical }}">{% assign details_include = launch.legacy_details | prepend: 'launch-details/' | append: '.html' %}{% include {{ details_include }} %}</section>{% endif %}

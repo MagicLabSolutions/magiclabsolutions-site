@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
+import {materializeComponent} from './native-component-assets.mjs';
 const root=process.cwd(),out=path.join(root,'images/products'),docs=path.join(root,'docs/portfolio');
 const sharp=createRequire(path.join(process.env.MAGICLAB_NODE_MODULES,'package.json'))('sharp');
 const campaign=JSON.parse(await fs.readFile('docs/marketing/october-2026/campaign.json','utf8'));
@@ -31,7 +32,7 @@ async function device(source,f,kind,slug,name){
 async function cutout(c,slug,name){
   const image=await asset(c.source,slug,name),[x,y,x2,y2]=c.rect,w=x2-x,h=y2-y;
   if(x<0||y<0||x2>image.width||y2>image.height)throw Error(slug+' invalid complete component crop');
-  return {image,ratio:w/h,width:image.width/w*100,left:-x/w*100,top:-y/h*100,radius:c.radius/w*100,angle:c.angle||-2};
+  return materializeComponent({image,ratio:w/h,width:image.width/w*100,left:-x/w*100,top:-y/h*100,radius:c.radius/w*100,angle:c.angle||-2});
 }
 const demos={giftly:'gift',brainfold:'flashcard',zuzu:'baby',sundust:'orbit',memories:'memories',myrenewals:'renewals',toctoc:'knock',groundcontrol:'branches',poof:'clean',soooon:'countdown',hooray:'card',tumtum:'toys'};
 for(const p of campaign.products){
