@@ -15,7 +15,7 @@
   {% endif %}
   {% if campaign.gallery.size > 0 %}
   <div class="p-gallery p-campaign-gallery" role="list" aria-label="{{ exp.name }} highlights in English">
-    {% for shot in campaign.gallery %}<figure role="listitem"><button class="p-shot" data-p-image="{{ shot.output | relative_url }}" aria-label="Enlarge — {{ shot.alt | escape }}"><img src="{{ shot.output | relative_url }}" loading="lazy" width="{{ shot.width }}" height="{{ shot.height }}" alt="{{ shot.alt | escape }}"></button><figcaption>{{ shot.caption }}</figcaption></figure>{% endfor %}
+    {% for shot in campaign.gallery %}<figure role="listitem"><div class="p-shot"><img src="{{ shot.output | relative_url }}" loading="lazy" width="{{ shot.width }}" height="{{ shot.height }}" alt="{{ shot.alt | escape }}"></div><figcaption>{{ shot.caption }}</figcaption></figure>{% endfor %}
   </div>
   {% endif %}
 </section>

@@ -10,6 +10,10 @@ module Jekyll
       site.config['product_launch_asset_version'] = Digest::SHA256.hexdigest(
         assets.map { |asset| File.binread(File.join(site.source, asset)) }.join
       )[0, 12]
+      legacy_assets = %w[css/portfolio.css js/portfolio.js css/readability.css css/tumtum-coming-soon.css js/tumtum-gallery.js]
+      site.config['portfolio_asset_version'] = Digest::SHA256.hexdigest(
+        legacy_assets.map { |asset| File.binread(File.join(site.source, asset)) }.join
+      )[0, 12]
       products = site.data.fetch('product_launch', {})
       site.pages.each do |page|
         slug = products.keys.find { |key| page.path == "apps/#{key}/index.html" }

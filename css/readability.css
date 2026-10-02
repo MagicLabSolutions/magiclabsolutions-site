@@ -15,7 +15,7 @@ button,input,select,textarea,a,summary{-webkit-tap-highlight-color:transparent}
 .p-kicker{font-size:14px!important;letter-spacing:1.3px}.p-lede{font-size:20px;line-height:1.65}.p-note{font-size:16px;max-width:48ch}
 .p-button,.p-text-link{font-size:16px;min-height:48px}.p-text-link{display:inline-flex;align-items:center}.p-section-heading p{font-size:17px;line-height:1.65}
 .p-demo-controls p,.p-demo-controls label,.p-demo-output{font-size:17px!important}.p-demo-tag{font-size:13px}.p-value-label{font-size:16px}.p-gallery figcaption{font-size:14px;text-transform:none;letter-spacing:0;max-width:48ch}.p-availability{font-size:16px}
-.p-lightbox button{width:48px;height:48px}.p-lightbox p{font-size:16px}.p-footer p,.p-footer nav{font-size:15px}.p-footer nav a{min-height:44px}
+.p-footer p,.p-footer nav{font-size:15px}.p-footer nav a{min-height:44px}
 .p-gallery{gap:28px;padding-bottom:32px}.p-shot img{height:460px;width:auto;max-width:100%;object-fit:contain}
 .p-campaign-gallery .p-shot img{height:500px}.p-campaign{padding-top:8px}.p-campaign .p-section-heading p{max-width:40ch}
 .p-proof-grid{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);align-items:center;gap:clamp(32px,6vw,80px);padding:32px;border:1px solid #ffffff24;border-radius:28px;background:#171e2c}
@@ -73,4 +73,4 @@ body .ipad-frame:has(img[src*="/framed/"]) .ipad-screen{aspect-ratio:auto!import
 body .ipad-frame:has(img[src*="/framed/"]) .ipad-screen img{height:auto!important;object-fit:contain!important}
 body .ipad-frame-sm:has(img[src*="/framed/"]){width:min(600px,80vw)!important}
 /* Legacy pages reset the native dialog margin; keep enlarged screenshots centered. */
-.p-lightbox{position:fixed!important;inset:0!important;margin:auto!important}
+

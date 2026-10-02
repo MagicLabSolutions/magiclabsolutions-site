@@ -13,8 +13,11 @@ class Page(HTMLParser):
         self.demo_count = 0
         self.capture_tour_count = 0
         self.schema = None
+        self.image_expansion = False
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if any(key in attrs for key in ('data-p-image','data-gallery-image','data-enlarge')) or (tag == 'dialog' and any(c in attrs.get('class','') for c in ('lightbox','gallery-dialog'))):
+            self.image_expansion = True
         if attrs.get('id'):
             self.ids.append(attrs['id'])
         if tag in ('img', 'script', 'source', 'track', 'video') and attrs.get('src'):
@@ -56,6 +59,8 @@ def main():
                 continue
             page = Page()
             page.feed(path.read_text())
+            if page.image_expansion:
+                errors.append(f'{route}: image expansion remains enabled')
             if page.demo_count + page.capture_tour_count != 1:
                 errors.append(f'{route}: expected one demo or real capture tour')
             if len(page.ids) != len(set(page.ids)):

@@ -78,25 +78,13 @@ button:focus-visible,.gallery-rail:focus-visible{outline:3px solid var(--clay);o
 .gallery:has(input[value=iphone]:checked) .gallery-rail[data-device=ipad],.gallery:has(input[value=ipad]:checked) .gallery-rail[data-device=iphone]{display:none}
 .gallery-rail li{min-width:0;scroll-snap-align:start}
 .gallery-rail figure{margin:0;position:relative}
-.gallery-image{cursor:zoom-in;display:block;position:relative;border-radius:14px;overflow:hidden;background:var(--shot-color);box-shadow:0 3px 0 #6c584016,0 10px 20px #6c584012}
+.gallery-image{cursor:default;display:block;position:relative;border-radius:14px;overflow:hidden;background:var(--shot-color);box-shadow:0 3px 0 #6c584016,0 10px 20px #6c584012}
 .gallery-image img{display:block;width:100%;height:auto}
 .gallery-image:focus-visible{outline-offset:5px}
 .gallery-rail figcaption{display:flex;align-items:baseline;gap:.75rem;padding:1rem .25rem 0;font-size:.9375rem;font-weight:800;line-height:1.35}
 .shot-number{font-size:.6875rem;font-variant-numeric:tabular-nums;color:var(--muted);font-weight:400}
-.gallery-dialog{width:min(100% - 2rem,720px);max-height:calc(100dvh - 2rem);padding:0;border:0;border-radius:20px;background:var(--paper) url('/images/tumtum/paper.webp') repeat;color:var(--ink);box-shadow:0 24px 100px #1c282f50;overflow:auto;overscroll-behavior:contain}
-.gallery-dialog::backdrop{background:#23372ee0}
-body:has(.gallery-dialog[open]){overflow:hidden}
-.dialog-header{position:sticky;top:0;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 1.25rem;background:var(--paper);border-bottom:1px solid #3d615220}
-.dialog-header h2{font-size:1.25rem;line-height:1.3;margin:0;letter-spacing:0;overflow-wrap:anywhere}
-.dialog-header form{flex-shrink:0}
-.dialog-close{border:0;border-radius:12px;background:var(--sage);font-size:.9375rem;font-weight:800;min-height:44px;padding:.5rem 1rem}
-.dialog-content{padding:1.25rem}
-.dialog-image{display:block;width:100%;height:auto;border-radius:10px;background:var(--paper)}
-.dialog-content p{font-size:1rem;color:var(--muted);margin:1.25rem 0}
-.dialog-navigation{display:flex;justify-content:space-between;align-items:center;gap:1rem}
-.dialog-original{text-align:center;font-size:.9375rem;min-height:44px;display:flex;align-items:center;justify-content:center}
 @media(max-width:760px){.gallery-heading{align-items:flex-start;flex-direction:column;gap:1.25rem}.gallery-heading h2{max-width:22ch}.gallery-toolbar{align-items:flex-end}.gallery-toolbar p{max-width:28ch}.gallery-position{display:none}.gallery-controls{gap:.5rem}.gallery{padding-top:2.4rem}}
-@media(max-width:600px){.gallery-rail{grid-auto-columns:min(78vw,320px);gap:16px}.gallery-rail[data-device=ipad]{grid-auto-columns:min(84vw,380px)}.gallery-dialog{width:calc(100% - 1rem);max-height:calc(100dvh - 1rem);border-radius:16px}.dialog-header,.dialog-content{padding:1rem}}
+@media(max-width:600px){.gallery-rail{grid-auto-columns:min(78vw,320px);gap:16px}.gallery-rail[data-device=ipad]{grid-auto-columns:min(84vw,380px)}}
 @media(max-width:370px){.gallery{--gallery-gutter:1rem}.gallery-toolbar{flex-wrap:wrap;gap:.75rem}.gallery-toolbar p{max-width:none}}
 @media(prefers-reduced-motion:no-preference){.gallery-rail{scroll-behavior:smooth}.gallery-image{transition:box-shadow .2s}.gallery-image:hover{box-shadow:0 3px 0 #6c584020,0 12px 25px #6c584025}}
 

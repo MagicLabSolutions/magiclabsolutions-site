@@ -146,18 +146,10 @@
   });
   document.querySelectorAll('[data-capture-tour]').forEach(tour=>{
     const image=tour.querySelector('.p-tour-image img');
-    const enlarge=tour.querySelector('[data-p-image]');
     tour.querySelectorAll('[data-tour-image]').forEach(button=>button.addEventListener('click',()=>{
       image.src=button.dataset.tourImage;image.alt=button.dataset.tourAlt;
-      enlarge.dataset.pImage=button.dataset.tourImage;
-      enlarge.setAttribute('aria-label',button.dataset.tourAlt);
       tour.querySelectorAll('[data-tour-image]').forEach(option=>option.setAttribute('aria-pressed',String(option===button)));
     }));
-  });
-  document.querySelectorAll('.p-experience').forEach(section=>{
-    const dialog=section.querySelector('.p-lightbox');
-    section.querySelectorAll('[data-p-image]').forEach(button=>button.addEventListener('click',()=>{const source=button.querySelector('img');dialog.querySelector('img').src=button.dataset.pImage;dialog.querySelector('img').alt=source.alt;dialog.querySelector('p').textContent=source.alt;dialog.showModal();}));
-    dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
   });
   document.querySelectorAll('[data-p-tilt]').forEach(el=>{
     const reset=()=>{el.style.setProperty('--px','0deg');el.style.setProperty('--py','0deg');};
