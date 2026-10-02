@@ -1,0 +1,45 @@
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}{% assign m = t.myrenewals_page %}
+<section class="plans" id="plans">
+        <div class="container">
+            <div class="plans-header scroll-reveal">
+                <div class="section-label">{{ m.plans_label | default: "Plans" }}</div>
+                <h2 class="section-title">{{ m.plans_heading_1 | default: "Simple, transparent" }} <span class="gradient-text">{{ m.plans_heading_2 | default: "pricing" }}</span></h2>
+                <p class="section-subtitle">{{ m.plans_subtitle | default: "Start free and upgrade to Pro when you are ready for the full experience." }}</p>
+            </div>
+            <div class="plans-grid">
+                <!-- Free -->
+                <div class="plan-card scroll-reveal">
+                    <div class="plan-name">{{ m.tier_free | default: "Free" }}</div>
+                    <div class="plan-subtitle">{{ m.tier_free_desc | default: "Get started for free" }}</div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_1 | default: "Track subscriptions (limited count)" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_2 | default: "Smart renewal reminders" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_3 | default: "Basic spending overview" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ m.free_4 | default: "Cancel tracking" }}</li>
+                    </ul>
+                    <a href="#features" class="plan-cta plan-cta--free" target="_blank" rel="noopener">{{ m.free_cta | default: "Get Started" }}</a>
+                </div>
+
+                <!-- Pro -->
+                <div class="plan-card plan-card--pro scroll-reveal">
+                    <span class="plan-badge plan-badge--pro">{{ m.badge_recommended | default: "Recommended" }}</span>
+                    <div class="plan-name">{{ m.tier_pro | default: "Pro" }}</div>
+                    <div class="plan-subtitle">{{ m.tier_pro_desc | default: "Everything, unlimited" }}</div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_1 | default: "Everything in Free" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_2 | default: "Unlimited subscriptions" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_3 | default: "Premium Insights dashboard" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_4 | default: "Category breakdown (donut chart)" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_5 | default: "12-month spending trends" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_6 | default: "Free trials tracker" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_7 | default: "Most/cheapest plans ranking" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_8 | default: "Cloud backup & sync" }}</li>
+                        <li><span class="check check--green">&#10003;</span> {{ m.pro_9 | default: "PDF export" }}</li>
+                    </ul>
+                    <a href="#features" class="plan-cta plan-cta--pro" target="_blank" rel="noopener">{{ m.pro_cta | default: "Upgrade to Pro" }}</a>
+                </div>
+            </div>
+        </div>
+    </section>

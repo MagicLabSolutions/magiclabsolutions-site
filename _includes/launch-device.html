@@ -1,0 +1,10 @@
+{% assign device = include.device %}
+<div class="l-device l-device--{{ device.kind }}{% if device.frame %} l-device--hardware{% endif %}" style="--device-ratio:{{ device.ratio }}" data-native-device="{{ device.kind }}">
+  {% if device.frame %}
+    {% assign fw = device.frame.dimensions[0] | times: 1.0 %}{% assign fh = device.frame.dimensions[1] | times: 1.0 %}
+    <img class="l-screen" src="{{ device.image.src | relative_url }}" width="{{ device.image.width }}" height="{{ device.image.height }}" alt="{{ include.alt | escape }}" {% if include.hero %}fetchpriority="high"{% else %}loading="lazy"{% endif %} style="left:{{ device.frame.screen[0] | divided_by: fw | times: 100 }}%;top:{{ device.frame.screen[1] | divided_by: fh | times: 100 }}%;width:{{ device.frame.screen[2] | divided_by: fw | times: 100 }}%;height:{{ device.frame.screen[3] | divided_by: fh | times: 100 }}%">
+    <img class="l-hardware{% if device.frame.rotate %} l-hardware--rotated{% endif %}" src="{{ device.frame.src | relative_url }}" alt="" aria-hidden="true" width="{{ device.frame.width }}" height="{{ device.frame.height }}">
+  {% else %}
+    <img class="l-screen" src="{{ device.image.src | relative_url }}" width="{{ device.image.width }}" height="{{ device.image.height }}" alt="{{ include.alt | escape }}" {% if include.hero %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>
+  {% endif %}
+</div>

@@ -39,6 +39,9 @@ jobs:
       - name: Validate product portfolio
         run: python3 scripts/check-portfolio.py _site
 
+      - name: Validate native product pages
+        run: python3 scripts/check-product-launch.py _site
+
       - name: Validate TumTum legal pages
         run: python3 scripts/check-tumtum-legal.py _site
 

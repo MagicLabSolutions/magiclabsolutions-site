@@ -1,0 +1,65 @@
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}{% assign b = t.brainfold_page %}
+<section class="plans" id="plans">
+        <div class="container">
+            <div class="plans-header">
+                <div class="section-label">{{ b.plans_label | default: "Plans" }}</div>
+                <h2 class="section-title">{{ b.plans_heading_1 | default: "Choose your" }} <span class="gradient-text">{{ b.plans_heading_2 | default: "study plan" }}</span></h2>
+                <p class="section-subtitle">{{ b.plans_subtitle | default: "Start free and upgrade when you are ready. Every plan includes the full Brainfold study toolkit." }}</p>
+            </div>
+            <div class="plans-grid">
+                <!-- Free -->
+                <div class="plan-card">
+                    <div class="plan-name">{{ b.tier_free | default: "Free" }}</div>
+                    <div class="plan-subtitle">{{ b.tier_free_desc | default: "Get started with the basics" }}</div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_1 | default: "120 free credits" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_2 | default: "Up to 30 scanned pages" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_3 | default: "Up to 3 study packs" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_4 | default: "10 pages per scan" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_5 | default: "Flashcards, quizzes & summaries" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_6 | default: "Battle mode" }}</li>
+                        <li><span class="check check--free">&#10003;</span> {{ b.free_7 | default: "Basic AI tutor" }}</li>
+                    </ul>
+                    <a href="https://apps.apple.com/app/id6760474378" class="plan-cta plan-cta--free" target="_blank" rel="noopener">{{ b.free_cta | default: "Get Started" }}</a>
+                </div>
+
+                <!-- Plus -->
+                <div class="plan-card plan-card--popular">
+                    <span class="plan-badge plan-badge--popular">{{ b.badge_popular | default: "Popular" }}</span>
+                    <div class="plan-name">{{ b.tier_plus | default: "Plus" }}</div>
+                    <div class="plan-subtitle">{{ b.tier_plus_desc | default: "For serious students" }}</div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_1 | default: "950 monthly credits (~380 pages)" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_2 | default: "15 daily credits (~6 pages/day)" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_3 | default: "Unlimited study packs" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_4 | default: "Unlimited pages per scan" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_5 | default: "Full AI tutor access" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_6 | default: "Discounted battle hosting" }}</li>
+                        <li><span class="check check--coral">&#10003;</span> {{ b.plus_7 | default: "Bonus credits on renewal" }}</li>
+                    </ul>
+                    <a href="https://apps.apple.com/app/id6760474378" class="plan-cta plan-cta--popular" target="_blank" rel="noopener">{{ b.plus_cta | default: "Subscribe" }}</a>
+                </div>
+
+                <!-- Premium -->
+                <div class="plan-card plan-card--best">
+                    <span class="plan-badge plan-badge--best">{{ b.badge_value | default: "Best Value" }}</span>
+                    <div class="plan-name">{{ b.tier_premium | default: "Premium" }}</div>
+                    <div class="plan-subtitle">{{ b.tier_premium_desc | default: "Unlimited everything" }}</div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_1 | default: "2,400 monthly credits (~960 pages)" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_2 | default: "30 daily credits (~12 pages/day)" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_3 | default: "Unlimited study packs" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_4 | default: "Unlimited pages per scan" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_5 | default: "Full AI tutor access" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_6 | default: "Free battle hosting" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_7 | default: "Priority support" }}</li>
+                        <li><span class="check check--gold">&#10003;</span> {{ b.premium_8 | default: "Bonus credits on renewal" }}</li>
+                    </ul>
+                    <a href="https://apps.apple.com/app/id6760474378" class="plan-cta plan-cta--best" target="_blank" rel="noopener">{{ b.premium_cta | default: "Subscribe" }}</a>
+                </div>
+            </div>
+        </div>
+    </section>

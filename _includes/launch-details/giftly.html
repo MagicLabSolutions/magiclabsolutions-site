@@ -1,0 +1,27 @@
+{% assign t = site.data.translations[site.active_lang] | default: site.data.translations.en %}{% assign s = t.giftly_page %}
+<section class="section section--tinted" id="privacy">
+        <div class="wrap">
+            <div class="section__head reveal">
+                <h2>{{ s.privacy_heading | default: "Private by construction" }}</h2>
+                <p>{{ s.privacy_sub | default: "Giftly holds a list of the people closest to you. That list belongs to you and stays with you." }}</p>
+            </div>
+            <div class="privacy">
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p1_title | default: "No account" }}</strong>
+                    <span>{{ s.p1_body | default: "Nothing to sign up for" }}</span>
+                </div>
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p2_title | default: "No tracking" }}</strong>
+                    <span>{{ s.p2_body | default: "No analytics on your contacts" }}</span>
+                </div>
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p3_title | default: "Your iCloud" }}</strong>
+                    <span>{{ s.p3_body | default: "Synced in your private database" }}</span>
+                </div>
+                <div class="privacy__item reveal">
+                    <strong>{{ s.p4_title | default: "34 languages" }}</strong>
+                    <span>{{ s.p4_body | default: "Including the gift catalogue" }}</span>
+                </div>
+            </div>
+        </div>
+    </section>

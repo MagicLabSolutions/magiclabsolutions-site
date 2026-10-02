@@ -1,0 +1,6 @@
+{% assign copy = site.data.toctoc_page[site.active_lang] | default: site.data.toctoc_page.en %}
+<section class="pro wrap" aria-labelledby="pro-title">
+      <p class="eyebrow">{{ copy.pro.eyebrow }}</p>
+      <h2 id="pro-title">{{ copy.pro.title }}</h2>
+      <p class="lede">{{ copy.pro.text }}</p>
+    </section>

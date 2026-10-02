@@ -1,0 +1,1 @@
+{% if product.slug == 'sundust' %}<a {% static_href %}href="/sundust-privacy-policy/"{% endstatic_href %}>{{ ui.privacy }}</a>{% else %}<a href="{{ legal.privacy | default: '/privacy-policy/' | relative_url }}">{{ ui.privacy }}</a>{% endif %}

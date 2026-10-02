@@ -1,0 +1,603 @@
+{
+  "created": "2026-10-01",
+  "reference": "https://musicaistudio.app/",
+  "scope": [
+    "hooray",
+    "sundust",
+    "giftly",
+    "groundcontrol",
+    "brainfold",
+    "memories",
+    "poof",
+    "soooon",
+    "myrenewals",
+    "toctoc",
+    "tumtum",
+    "zuzu"
+  ],
+  "policy": "Original native screens in code-composed hardware; complete component crops are CSS masks. No store backgrounds or store captions. Original store exports, TumTum and Soooon collections, and store videos untouched.",
+  "records": [
+    {
+      "source": "docs/marketing/october-2026/sources/hooray/native-3.png",
+      "output": "/images/products/hooray/screen-3.webp",
+      "source_sha256": "771a44d37d779315081a089766aeb7de17e080dc6765feb2a977c957293ead43",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/hooray/native-2.png",
+      "output": "/images/products/hooray/screen-2.webp",
+      "source_sha256": "67acf54d21a0226ec46097d9c660378e074a595cbcd0ec15e3d14a80779e6668",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/hooray/native-4.png",
+      "output": "/images/products/hooray/screen-4.webp",
+      "source_sha256": "f6458d2f7ba0d57251cc5fb99a1b3ca9253c6024535c31176e61f95c5dba2ca8",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/hooray/native-1.png",
+      "output": "/images/products/hooray/screen-1.webp",
+      "source_sha256": "7cc2ccdf3450da8e881f97f24d6552eb72fd312e3ddf1b205753d81cff774336",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/hooray/balloon.svg",
+      "output": "/images/products/hooray/prop-1.svg",
+      "source_sha256": "bae9c798e4331db58184968ddd0f22cf600f6a4de2667a28ddb4d7a858b7723c",
+      "kind": "existing vector asset"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/sundust/screen-2.png",
+      "output": "/images/products/sundust/screen-2.webp",
+      "source_sha256": "227d0c9a44d10c6e7910351945c76592a5d7e8005414a775a47dec79a27d2363",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/sundust/revision-vey.png",
+      "output": "/images/products/sundust/screen-6.webp",
+      "source_sha256": "45c9fc6df4d3ff746be260b84a6ad04385255be9ca655282903a532b1836919d",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/sundust/screen-3.png",
+      "output": "/images/products/sundust/screen-3.webp",
+      "source_sha256": "1b79c5ad269b21634b0190ab1e73582921ade23c4da16ad64607874cc330edef",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/sundust/revision-alien.png",
+      "output": "/images/products/sundust/screen-5.webp",
+      "source_sha256": "d0cb553f8561b8a632c1a9d767626a7a74f48508e1905b04770945c05f5ad2c7",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/sundust/revision-flight.png",
+      "output": "/images/products/sundust/screen-1.webp",
+      "source_sha256": "81d01ee66fc0af716f6002441ce728d34715952ec9c64825bb98634ffdad9aa1",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/sundust/screen-4.png",
+      "output": "/images/products/sundust/screen-4.webp",
+      "source_sha256": "a1c9920e76f3a195896465aef12444d39df90ed8c72c42e1d448a807ba306a58",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/iphone.png",
+      "output": "/images/products/hardware/iphone.webp",
+      "source_sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/iphone.png",
+      "output": "/images/products/hardware/iphone.webp",
+      "source_sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/iphone.png",
+      "output": "/images/products/hardware/iphone.webp",
+      "source_sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/iphone.png",
+      "output": "/images/products/hardware/iphone.webp",
+      "source_sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/iphone.png",
+      "output": "/images/products/hardware/iphone.webp",
+      "source_sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/iphone.png",
+      "output": "/images/products/hardware/iphone.webp",
+      "source_sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/sundust/ipad/revision-flight.png",
+      "output": "/images/products/sundust/ipad.webp",
+      "source_sha256": "b049696e43e9b797f28230d8043495b490e61314da1dc25c4001e44fa41d71b8",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/ipad.png",
+      "output": "/images/products/hardware/ipad.webp",
+      "source_sha256": "0565de2da914c2b289074941c4c1d3ff04d2aad71d2ec27ec67a7876074c4024",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/sundust/planet-cutout.png",
+      "output": "/images/products/sundust/prop-1.webp",
+      "source_sha256": "d5369b3dcc56df3646f6ee4e523877eedcb5f6cd4e4cb690e099f89c71422009",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/giftly/screen-3.png",
+      "output": "/images/products/giftly/screen-3.webp",
+      "source_sha256": "591b4b223e6b508c67bc050ab7e95f1faa873403652cb173dd5fe518d31fe57d",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/giftly/screen-3.png",
+      "output": "/images/products/giftly/screen-4.webp",
+      "source_sha256": "591b4b223e6b508c67bc050ab7e95f1faa873403652cb173dd5fe518d31fe57d",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/giftly/screen-1.png",
+      "output": "/images/products/giftly/screen-1.webp",
+      "source_sha256": "09767fe4238165f06f4e8a5f18649f2e6c8f01a004bb47e2f85691ec9c4aa11b",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/giftly/screen-2.png",
+      "output": "/images/products/giftly/screen-2.webp",
+      "source_sha256": "ca93f28a3733c936a91c994d59277f660336e674317ded30e898c30ff6eefda0",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/giftly/ipad/screen-1.png",
+      "output": "/images/products/giftly/ipad.webp",
+      "source_sha256": "d4deadc806854dda10a5bd8f016ee327e113401fe8c37e0291307fcf114f253c",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/giftly/gift-cutout.png",
+      "output": "/images/products/giftly/gift.webp",
+      "source_sha256": "b35282134f4144183401ddf2fb374aa3081523434cbda0ca0d7ce88d90fadce6",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/groundcontrol/native-2.png",
+      "output": "/images/products/groundcontrol/screen-2.webp",
+      "source_sha256": "9aec63c8d3050eb2844764aa1c42cd67e6259e0c7a9050915bcbf8bb8b415680",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/groundcontrol/native-1.png",
+      "output": "/images/products/groundcontrol/screen-1.webp",
+      "source_sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/groundcontrol/native-3.png",
+      "output": "/images/products/groundcontrol/screen-3.webp",
+      "source_sha256": "7f04635afdbc5267ae48680d786dfbb6094c5661e95c79a2283525227cd1099f",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/brainfold/screen-2.png",
+      "output": "/images/products/brainfold/screen-2.webp",
+      "source_sha256": "0fc55c1163dd582eedaa99a83b9b60181213c368ba87a5a7ff72ce96615dd283",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/brainfold/screen-3.png",
+      "output": "/images/products/brainfold/screen-3.webp",
+      "source_sha256": "37a2e1ac87fc32dcb5457044f2f396557c5d377ae3aadd82a82c775a0356c63c",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/brainfold/screen-4.png",
+      "output": "/images/products/brainfold/screen-4.webp",
+      "source_sha256": "e7cdc20f5a77569e680ee10b66dd38b12bbde6a730e8760cd670a5f05c60146c",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/brainfold/screen-1.png",
+      "output": "/images/products/brainfold/screen-1.webp",
+      "source_sha256": "2d26cd9cf15558c13ab8651a882cf7ce0a6750a75c3d4e8a1133e95e8e6d7155",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/brainfold/screen-6.png",
+      "output": "/images/products/brainfold/screen-6.webp",
+      "source_sha256": "00fe9f461a3d9c2da805add3980e3528591de2905fc502a9f328cb328f44e384",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/brainfold/screen-5.png",
+      "output": "/images/products/brainfold/screen-5.webp",
+      "source_sha256": "2f142c5a896ae8dd1db3386c283f3714ac6d73ebe91522c04464895fef738280",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/brainfold/ipad/screen-1.png",
+      "output": "/images/products/brainfold/ipad.webp",
+      "source_sha256": "079de359582e1e7e80e0208390dad560d14d0c0c04a88d620ec0126626465d6d",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/brainfold/books-cutout.png",
+      "output": "/images/products/brainfold/prop-1.webp",
+      "source_sha256": "d4c716f7b59179ab04339e72202c7ba26834215dcf4c22e288eec359086f4466",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/memories/native-4.png",
+      "output": "/images/products/memories/screen-4.webp",
+      "source_sha256": "63579c2898c865feacc053d4c4a420ec65711861ee2330e12482a584d0d1da93",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/memories/native-2.png",
+      "output": "/images/products/memories/screen-2.webp",
+      "source_sha256": "aa8b93dfc5ae45b03d0a936a0517fd5f957bf920527d40a41ab849a87b0ab293",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/memories/native-1.png",
+      "output": "/images/products/memories/screen-1.webp",
+      "source_sha256": "866edcacb4964a32520451bea9ff97b64930af911f2cf43dabac396991804ad1",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/memories/native-3.png",
+      "output": "/images/products/memories/screen-3.webp",
+      "source_sha256": "0e8c3184f6ac0272f10b8d82569e16f219575ea1cf731229d4b084a1eac58a82",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/memories/ipad/native-1.png",
+      "output": "/images/products/memories/ipad.webp",
+      "source_sha256": "61558b29e286e3b0d71027bf496535c42a493cf56df928d568595e3e6c6a0667",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/memories/photo-cutout.png",
+      "output": "/images/products/memories/prop-1.webp",
+      "source_sha256": "5b3fc39dbceeab6481a13360acfc30956c9c38fdf6f3892507b9e897e803eb53",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/poof/native-1.png",
+      "output": "/images/products/poof/screen-1.webp",
+      "source_sha256": "7fd86e8d8724000f5408d86041879fdc3abdb7a5617c1eaf2692dcd23fecdef4",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/poof/native-2.png",
+      "output": "/images/products/poof/screen-2.webp",
+      "source_sha256": "7a00b2bab9c04b4d6a3cbb1cbcc204089e9fd1e568952553c91b0742023ca21e",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/poof/native-3.png",
+      "output": "/images/products/poof/screen-3.webp",
+      "source_sha256": "8f2f9e248db04dd55b2c5d6726734609720e34b3334656c7c7c4f614942cb250",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/poof/native-4.png",
+      "output": "/images/products/poof/screen-4.webp",
+      "source_sha256": "07945fd77ccb838c685805bde02c3866f7c74bcea77746853d9742a72df5fbd8",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/soooon/native-4.png",
+      "output": "/images/products/soooon/screen-4.webp",
+      "source_sha256": "33384e13328e7b6bd4c6b30559bec26ab4341654d46f1efc5e07551400631434",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/soooon/native-3.png",
+      "output": "/images/products/soooon/screen-3.webp",
+      "source_sha256": "8a704002f67e680f47aefb74b168012ba01c2ce356227f2f309a83a57cfaf627",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/soooon/native-6.png",
+      "output": "/images/products/soooon/screen-6.webp",
+      "source_sha256": "10035ed2a79b56cd779d58e3595e2733d727086fa974ce403e2ba52f5144ca06",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/soooon/native-5.png",
+      "output": "/images/products/soooon/screen-5.webp",
+      "source_sha256": "2d9b538b7ac572e792a8ceea11c9457b37d960343c1c3ea5aab48c0200bfb3e9",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/soooon/native-1.png",
+      "output": "/images/products/soooon/screen-1.webp",
+      "source_sha256": "abc361f7da2c4082243363eaa3491e982bc6eb43573c5f71132772dee2c35539",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/soooon/native-2.png",
+      "output": "/images/products/soooon/screen-2.webp",
+      "source_sha256": "9ecb704b056083ddc190e51d61d90cd0edc402cca7ee7efd0ae0f3bf76386c49",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/soooon/ipad/native-1.png",
+      "output": "/images/products/soooon/ipad.webp",
+      "source_sha256": "b2d2322fc8a15a0360ae45af2e05d8f02827386e841ec4525fd15c1db350ce6d",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/soooon/critter-party-hat.png",
+      "output": "/images/products/soooon/prop-1.webp",
+      "source_sha256": "020611786017fb7c1f665d6f1e63af866f77f385f43e428315ddee026ae8cabc",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/soooon/critter-sunglasses.png",
+      "output": "/images/products/soooon/prop-2.webp",
+      "source_sha256": "60ef1fd9cc4b75a563c6b492d5c39f2f652971fe7cced882f2e50142ff3a66b9",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/myrenewals/native-2.png",
+      "output": "/images/products/myrenewals/screen-2.webp",
+      "source_sha256": "67ec2be1e370ab13794ee65a0f0cf82dbb347d20e8ccce39cc6461c3f19dd4b7",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/myrenewals/native-3.png",
+      "output": "/images/products/myrenewals/screen-3.webp",
+      "source_sha256": "bd79570e24a0ffd2d2614c265dd5d6783f22493c59b4f3ba6b81ce3edd05856f",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/myrenewals/native-4.png",
+      "output": "/images/products/myrenewals/screen-4.webp",
+      "source_sha256": "074b1937e3aac389abd2abb3bf33f1ca6ed5bf437efabe29896c8e50a519b109",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/myrenewals/native-1.png",
+      "output": "/images/products/myrenewals/screen-1.webp",
+      "source_sha256": "33636dec2e8a24d3b1336af69624c77e27ec8577fef608b462caa045042bc7f1",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/myrenewals/native-5.png",
+      "output": "/images/products/myrenewals/screen-5.webp",
+      "source_sha256": "c680a7f616763498fd4c20df8f6898c827ce69b3e105a39d0416a0bb7e9526df",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/myrenewals/native-6.png",
+      "output": "/images/products/myrenewals/screen-6.webp",
+      "source_sha256": "df6e9f57fd28406f5458eda78185e5510ed5b19958b2e244b29ad9097b692381",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/myrenewals/ipad/native-1.png",
+      "output": "/images/products/myrenewals/ipad.webp",
+      "source_sha256": "91e7bf8ff098ebc6561dbc9ffc2d977c0d9d2247455a4c8353758abb3df6d74e",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/toctoc/native-1.png",
+      "output": "/images/products/toctoc/screen-1.webp",
+      "source_sha256": "5771d32982664f99996b3b57ed79c209a4053070f50582a0d4344e3232d7496a",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/toctoc/native-3.png",
+      "output": "/images/products/toctoc/screen-3.webp",
+      "source_sha256": "2b37525195640ddd65862fb9a8606d4801bc8a473634b3bf07a953711ecbcfd7",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/toctoc/native-2.png",
+      "output": "/images/products/toctoc/screen-2.webp",
+      "source_sha256": "898282690c7ed690435255b0a23cbb97a3436d06b8d9f914cb1cb35946eb4992",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "images/toctoc/en/iphone-today.jpg",
+      "output": "/images/products/toctoc/iphone.webp",
+      "source_sha256": "d607d7afd67cf13d41bbabfde47ee1b6e5cd8e134e113d849400b2b55a0761b3",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/tumtum/native-2.png",
+      "output": "/images/products/tumtum/screen-2.webp",
+      "source_sha256": "0b0aa974c40a786788d120d622a2c10da786d5c1db3a1d9a6a13874203ed8f04",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/tumtum/native-4.png",
+      "output": "/images/products/tumtum/screen-4.webp",
+      "source_sha256": "f82f06e416e54d2dd4015423cccd5658c7221414e2801ea14004f4fd5d2b27b4",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/tumtum/native-1.png",
+      "output": "/images/products/tumtum/screen-1.webp",
+      "source_sha256": "7095cf8f913cc41619eb388219d5af34db536750c89ef0419f2f74a5a8521f0b",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/tumtum/native-3.png",
+      "output": "/images/products/tumtum/screen-3.webp",
+      "source_sha256": "6845986b5e4de0460de80848abb9ec37da2dc0103414c40db0fc8146236c72fe",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/tumtum/native-5.png",
+      "output": "/images/products/tumtum/screen-5.webp",
+      "source_sha256": "37f3113d737e983b42dcdf748899d26664609404ea5467ecb8dfcc1bdd941beb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/tumtum/native-6.png",
+      "output": "/images/products/tumtum/screen-6.webp",
+      "source_sha256": "e0bafe03c180284922b82bd951ff7a0b84bf15ea9784946c94286975e908770a",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/tumtum/trex.png",
+      "output": "/images/products/tumtum/prop-1.webp",
+      "source_sha256": "c326cfae3681be070cb1c04d3527242455cc2ead51b99cf633d8c11c37612b72",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/tumtum/clownfish.png",
+      "output": "/images/products/tumtum/prop-2.webp",
+      "source_sha256": "1896dbd7230703a685d55ce305499d21b9a28eea53a900b5f3594d8ab5ca566e",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "../TumTum/Tools/store/captures/ipad/en/house.png",
+      "output": "/images/products/tumtum/ipad-house.webp",
+      "source_sha256": "38166faa5fd8b254270e79d8e7aa2b65fabb738ec185392530eb800505b77bf5",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/creative-native-3.png",
+      "output": "/images/products/zuzu/screen-3.webp",
+      "source_sha256": "579b9e627e335c454dc111d268adf8e278c85f6aaa51a8e476c347473444bcb8",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/creative-native-4.png",
+      "output": "/images/products/zuzu/screen-4.webp",
+      "source_sha256": "fd36ba86f29bd14dc8a992a05fb8fcbf443b133df43a11302b832f557a083708",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/creative-native-5.png",
+      "output": "/images/products/zuzu/screen-5.webp",
+      "source_sha256": "add4e58945f36524ab106abe65cfece14cda8929d4a9e176d45f8770a6c21934",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/creative-native-2.png",
+      "output": "/images/products/zuzu/screen-2.webp",
+      "source_sha256": "15fcab5ad28369e8e41e1d52f50c9a9a18868acafac963d1880c8c820bf97dcf",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/creative-native-1.png",
+      "output": "/images/products/zuzu/screen-1.webp",
+      "source_sha256": "052c33615ac3cab476cc8edb86347b1510e55dec6df00c13c833a6cda4b97363",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/creative-native-6.png",
+      "output": "/images/products/zuzu/screen-6.webp",
+      "source_sha256": "c1757ae99db767dadab908f588b518fdbda475be2f0201143d81f8ddbaa8637c",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/ipad/screen-1.png",
+      "output": "/images/products/zuzu/ipad.webp",
+      "source_sha256": "b82217e5f52a22282016d635bbc2c54559d620fc441bdb8bfacbb31c12e264cb",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/sources/zuzu/android/screen-1.png",
+      "output": "/images/products/zuzu/android.webp",
+      "source_sha256": "50323432c70c946fe90b4d65f455cbf61f4fc3f96155432df246f947f8b5ec38",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/.frames-cache/pixel-9-pro.png",
+      "output": "/images/products/hardware/pixel-9-pro.webp",
+      "source_sha256": "eb88ba682d55ac6b70683d177a19667491ec1394f2d8735925ae15b28a1857d1",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/zuzu-moon.png",
+      "output": "/images/products/zuzu/prop-1.webp",
+      "source_sha256": "9dea2f678aa965617b6e38c8d076431aed0bed90bd268d782cb0f76dce55e4c9",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/zuzu-pacifier.png",
+      "output": "/images/products/zuzu/prop-2.webp",
+      "source_sha256": "d9b5325ae856e2e363d7129de09e7f64f556e091f0c850ffd22aae9bb5a8900f",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/zuzu-blocks.png",
+      "output": "/images/products/zuzu/prop-3.webp",
+      "source_sha256": "ff2d20fbeaf653f5dbffed66d84379fe9e7ed7514c6f613e9838e95524dcf9e0",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/zuzu-socks.png",
+      "output": "/images/products/zuzu/prop-4.webp",
+      "source_sha256": "fdcd52da38f3bf2189db7d764d47b39889e1ebcb7c2fd06b972ae87f1f78a942",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/pet-cat.png",
+      "output": "/images/products/memories/demo-photo-5.webp",
+      "source_sha256": "3de4ac9219c0168cba9e0ad7cfd2a517b04011cfc63088a65b21dad98e306708",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/family-beach.png",
+      "output": "/images/products/memories/demo-photo-1.webp",
+      "source_sha256": "b7a1e0e25a84fb6b60ad5afa3459bc9cdd3791666f8f6d0381f1d8f0b2aefc3c",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/family-baking.png",
+      "output": "/images/products/memories/demo-photo-2.webp",
+      "source_sha256": "9452be0003e56dbee597e5c4360e27587e7546d53acac8ab8ffe3e55b8c70329",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/baby-picnic.png",
+      "output": "/images/products/memories/demo-photo-4.webp",
+      "source_sha256": "220a920a219a14f601c49d3fdb45495bf2667536d0aed80ae44c7660d6df62b7",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/family-birthday.png",
+      "output": "/images/products/memories/demo-photo-3.webp",
+      "source_sha256": "634c8984b13094500ff2fbeaf2e1dd73a507178ab433c62ec4ac6983b0ee60a8",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/pet-garden.png",
+      "output": "/images/products/memories/demo-photo-6.webp",
+      "source_sha256": "89421ce2bd6520031ef530c9d88455948178bb54bcfff1c611f3a6021de15c82",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/travel-lake.png",
+      "output": "/images/products/memories/demo-photo-7.webp",
+      "source_sha256": "da4cba1768608af713210bbf568a1f596b7bfe24389752dafa93e88b14c9066a",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "docs/marketing/october-2026/assets/revision-2/travel-city.png",
+      "output": "/images/products/memories/demo-photo-8.webp",
+      "source_sha256": "65c1c8d15e4a63e54a7126c746afdb47fd2b9a2b6c95d1988408da983b9d0055",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    }
+  ]
+}

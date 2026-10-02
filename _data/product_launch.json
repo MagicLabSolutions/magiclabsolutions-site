@@ -1,0 +1,3113 @@
+{
+  "hooray": {
+    "palette": [
+      "#FFF7EA",
+      "#202E26",
+      "#E66239"
+    ],
+    "demo": "card",
+    "hero": {
+      "image": {
+        "src": "/images/products/hooray/screen-1.webp",
+        "width": 1440,
+        "height": 900
+      },
+      "frame": null,
+      "kind": "browser",
+      "ratio": 1.6
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/hooray/screen-2.webp",
+        "width": 1440,
+        "height": 900
+      },
+      "ratio": 2.4945054945054945,
+      "width": 634.3612334801762,
+      "left": -217.18061674008808,
+      "top": -131.86813186813185,
+      "radius": 5.286343612334802,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Everyone signs.",
+        "description": "One thoughtful group card.",
+        "label": "A group greeting card",
+        "device": {
+          "image": {
+            "src": "/images/products/hooray/screen-1.webp",
+            "width": 1440,
+            "height": 900
+          },
+          "frame": null,
+          "kind": "browser",
+          "ratio": 1.6
+        },
+        "cutout": null
+      },
+      {
+        "title": "Your own words.",
+        "description": "Messages with personality.",
+        "label": "Messages & stickers",
+        "device": {
+          "image": {
+            "src": "/images/products/hooray/screen-2.webp",
+            "width": 1440,
+            "height": 900
+          },
+          "frame": null,
+          "kind": "browser",
+          "ratio": 1.6
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/hooray/screen-2.webp",
+            "width": 1440,
+            "height": 900
+          },
+          "ratio": 2.4945054945054945,
+          "width": 634.3612334801762,
+          "left": -217.18061674008808,
+          "top": -131.86813186813185,
+          "radius": 5.286343612334802,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Open the surprise.",
+        "description": "A card from the whole group.",
+        "label": "The finished card",
+        "device": {
+          "image": {
+            "src": "/images/products/hooray/screen-3.webp",
+            "width": 1440,
+            "height": 900
+          },
+          "frame": null,
+          "kind": "browser",
+          "ratio": 1.6
+        },
+        "cutout": null
+      },
+      {
+        "title": "For your occasion.",
+        "description": "Birthdays, thanks and goodbyes.",
+        "label": "Celebrate together",
+        "device": {
+          "image": {
+            "src": "/images/products/hooray/screen-4.webp",
+            "width": 1440,
+            "height": 900
+          },
+          "frame": null,
+          "kind": "browser",
+          "ratio": 1.6
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/hooray/screen-4.webp",
+            "width": 1440,
+            "height": 900
+          },
+          "ratio": 1.0084388185654007,
+          "width": 602.510460251046,
+          "left": -143.09623430962344,
+          "top": -149.78902953586498,
+          "radius": 6.694560669456067,
+          "angle": -3
+        }
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/hooray/prop-1.svg"
+      }
+    ],
+    "fleet": [
+      {
+        "label": "Web",
+        "device": {
+          "image": {
+            "src": "/images/products/hooray/screen-1.webp",
+            "width": 1440,
+            "height": 900
+          },
+          "frame": null,
+          "kind": "browser",
+          "ratio": 1.6
+        }
+      }
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "legacy_details": null
+  },
+  "sundust": {
+    "palette": [
+      "#09152B",
+      "#F5F0DC",
+      "#85DACE"
+    ],
+    "demo": "orbit",
+    "hero": {
+      "image": {
+        "src": "/images/products/sundust/screen-1.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/sundust/screen-3.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "ratio": 3.1595744680851063,
+      "width": 111.11111111111111,
+      "left": -5.555555555555555,
+      "top": -518.6170212765958,
+      "radius": 3.535353535353535,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Tiny rocket. Big adventure.",
+        "description": "Lift off. Find your next little world.",
+        "label": "Gravity flight",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Step outside.",
+        "description": "Leave the ship. Explore on foot.",
+        "label": "Explore on foot",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Build on your terms.",
+        "description": "Mine resources. Make a place to return to.",
+        "label": "Build outposts",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/sundust/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 3.1595744680851063,
+          "width": 111.11111111111111,
+          "left": -5.555555555555555,
+          "top": -518.6170212765958,
+          "radius": 3.535353535353535,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Gravity is the guide.",
+        "description": "Read the orbits. Choose your next landing.",
+        "label": "Read the orbits",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Expect the unexpected.",
+        "description": "A quiet world. A curious visitor.",
+        "label": "Unexpected visitors",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/screen-5.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Hello, stranger.",
+        "description": "Meet the Vey. Choose what to offer.",
+        "label": "Vey contact",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/sundust/prop-1.webp",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/sundust/ipad.webp",
+            "width": 2064,
+            "height": 2752
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Mac",
+      "Apple TV"
+    ],
+    "legacy_details": null
+  },
+  "giftly": {
+    "palette": [
+      "#F7F4ED",
+      "#262B22",
+      "#1E6B58"
+    ],
+    "demo": "gift",
+    "hero": {
+      "image": {
+        "src": "/images/products/giftly/screen-1.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/giftly/screen-2.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "ratio": 6.185567010309279,
+      "width": 110.00000000000001,
+      "left": -5,
+      "top": -356.1855670103092,
+      "radius": 4,
+      "angle": -3
+    },
+    "features": [
+      {
+        "title": "Give a little more thought.",
+        "description": "Birthdays remembered. Gift ideas saved.",
+        "label": "Birthdays & gift ideas",
+        "device": {
+          "image": {
+            "src": "/images/products/giftly/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "See the next celebration.",
+        "description": "Birthdays and special dates, all in one place.",
+        "label": "Dates that matter",
+        "device": {
+          "image": {
+            "src": "/images/products/giftly/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/giftly/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 6.185567010309279,
+          "width": 110.00000000000001,
+          "left": -5,
+          "top": -356.1855670103092,
+          "radius": 4,
+          "angle": -3
+        }
+      },
+      {
+        "title": "Save the idea. Make their day.",
+        "description": "Keep gift ideas with the person they’re for.",
+        "label": "Ideas, not guesswork",
+        "device": {
+          "image": {
+            "src": "/images/products/giftly/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/giftly/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 1.9047619047619047,
+          "width": 110.00000000000001,
+          "left": -5,
+          "top": -258.25396825396825,
+          "radius": 3.75,
+          "angle": -2
+        }
+      },
+      {
+        "title": "The details make it personal.",
+        "description": "Tastes, sizes and past gifts, ready when you need them.",
+        "label": "The little details",
+        "device": {
+          "image": {
+            "src": "/images/products/giftly/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/giftly/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 4.395604395604396,
+          "width": 110.00000000000001,
+          "left": -5,
+          "top": -479.48717948717945,
+          "radius": 3.75,
+          "angle": 2
+        }
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/giftly/gift.webp",
+        "width": 1312,
+        "height": 1199
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/giftly/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/giftly/ipad.webp",
+            "width": 2064,
+            "height": 2752
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Mac"
+    ],
+    "legacy_details": "giftly"
+  },
+  "groundcontrol": {
+    "palette": [
+      "#0C1422",
+      "#ECF2F9",
+      "#8DC5FC"
+    ],
+    "demo": "branches",
+    "hero": {
+      "image": {
+        "src": "/images/products/groundcontrol/screen-1.webp",
+        "width": 1280,
+        "height": 820
+      },
+      "frame": null,
+      "kind": "mac",
+      "ratio": 1.5609756097560976
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/groundcontrol/screen-2.webp",
+        "width": 1280,
+        "height": 820
+      },
+      "ratio": 3.6519823788546257,
+      "width": 154.40289505428225,
+      "left": -52.5934861278649,
+      "top": -73.12775330396477,
+      "radius": 1.2062726176115801,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Follow the branch.",
+        "description": "Your Git history, in context.",
+        "label": "Branch map",
+        "device": {
+          "image": {
+            "src": "/images/products/groundcontrol/screen-1.webp",
+            "width": 1280,
+            "height": 820
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.5609756097560976
+        },
+        "cutout": null
+      },
+      {
+        "title": "Resolve together.",
+        "description": "Compare both sides of a conflict.",
+        "label": "Conflict resolver",
+        "device": {
+          "image": {
+            "src": "/images/products/groundcontrol/screen-2.webp",
+            "width": 1280,
+            "height": 820
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.5609756097560976
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/groundcontrol/screen-2.webp",
+            "width": 1280,
+            "height": 820
+          },
+          "ratio": 3.6519823788546257,
+          "width": 154.40289505428225,
+          "left": -52.5934861278649,
+          "top": -73.12775330396477,
+          "radius": 1.2062726176115801,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Review changes.",
+        "description": "See your work before the commit.",
+        "label": "Uncommitted changes",
+        "device": {
+          "image": {
+            "src": "/images/products/groundcontrol/screen-3.webp",
+            "width": 1280,
+            "height": 820
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.5609756097560976
+        },
+        "cutout": null
+      }
+    ],
+    "props": [],
+    "fleet": [
+      {
+        "label": "Mac",
+        "device": {
+          "image": {
+            "src": "/images/products/groundcontrol/screen-1.webp",
+            "width": 1280,
+            "height": 820
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.5609756097560976
+        }
+      }
+    ],
+    "platforms": [
+      "Mac"
+    ],
+    "legacy_details": null
+  },
+  "brainfold": {
+    "palette": [
+      "#111A39",
+      "#FFF8F2",
+      "#FF6849"
+    ],
+    "demo": "flashcard",
+    "hero": {
+      "image": {
+        "src": "/images/products/brainfold/screen-1.webp",
+        "width": 660,
+        "height": 1434
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/brainfold/screen-2.webp",
+        "width": 660,
+        "height": 1434
+      },
+      "ratio": 0.9538950715421304,
+      "width": 110.00000000000001,
+      "left": -5,
+      "top": -71.86009538950715,
+      "radius": 4.666666666666667,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Turn your notes. Into practice.",
+        "description": "Flashcards, quizzes and a tutor. Built from your material.",
+        "label": "AI study companion",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/screen-1.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Make time. Make it stick.",
+        "description": "Review flashcards. One question at a time.",
+        "label": "Flashcards that fit your day",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/screen-2.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/brainfold/screen-2.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "ratio": 0.9538950715421304,
+          "width": 110.00000000000001,
+          "left": -5,
+          "top": -71.86009538950715,
+          "radius": 4.666666666666667,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Try what you remember.",
+        "description": "Quizzes from your notes. Feedback as you go.",
+        "label": "Put ideas to the test",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/screen-3.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/brainfold/screen-3.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "ratio": 6.976744186046512,
+          "width": 110.00000000000001,
+          "left": -5,
+          "top": -403.48837209302326,
+          "radius": 3,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Get unstuck. Keep going.",
+        "description": "Ask about your study material. Keep the lesson in view.",
+        "label": "Help in context",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/screen-4.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/brainfold/screen-4.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "ratio": 7.074074074074074,
+          "width": 172.77486910994764,
+          "left": -64.92146596858639,
+          "top": -351.85185185185185,
+          "radius": 4.712041884816754,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Keep the lesson. Close by.",
+        "description": "Rich summaries and key insights. Your material, ready to review.",
+        "label": "Rich summaries",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/screen-5.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Bring a friend. Test your recall.",
+        "description": "Choose your pack. Set up a knowledge battle.",
+        "label": "Battle mode",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/screen-6.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/brainfold/prop-1.webp",
+        "width": 1374,
+        "height": 1145
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/screen-1.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/brainfold/ipad.webp",
+            "width": 1240,
+            "height": 1653
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Mac"
+    ],
+    "legacy_details": "brainfold"
+  },
+  "memories": {
+    "palette": [
+      "#FFF5EC",
+      "#362E29",
+      "#CE704F"
+    ],
+    "demo": "memories",
+    "hero": {
+      "image": {
+        "src": "/images/products/memories/screen-1.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/memories/screen-2.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "ratio": 0.5607476635514018,
+      "width": 157.14285714285714,
+      "left": -28.57142857142857,
+      "top": -41.922563417890515,
+      "radius": 8.928571428571429,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Little moments. One story.",
+        "description": "Everyday photos. Your personal timeline.",
+        "label": "Your personal timeline",
+        "device": {
+          "image": {
+            "src": "/images/products/memories/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Your month. In a film.",
+        "description": "Bring the month’s moments together.",
+        "label": "Monthly film",
+        "device": {
+          "image": {
+            "src": "/images/products/memories/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/memories/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 0.5607476635514018,
+          "width": 157.14285714285714,
+          "left": -28.57142857142857,
+          "top": -41.922563417890515,
+          "radius": 8.928571428571429,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Keep the favorites close.",
+        "description": "Star the memories you want to find again.",
+        "label": "Highlights",
+        "device": {
+          "image": {
+            "src": "/images/products/memories/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Give it a soundtrack.",
+        "description": "Choose the sound that fits your story.",
+        "label": "Soundtrack choices",
+        "device": {
+          "image": {
+            "src": "/images/products/memories/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/memories/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 1.7620481927710843,
+          "width": 225.64102564102564,
+          "left": -10.256410256410255,
+          "top": -325.30120481927713,
+          "radius": 12.82051282051282,
+          "angle": -3
+        }
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/memories/prop-1.webp",
+        "width": 1223,
+        "height": 1286
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/memories/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/memories/ipad.webp",
+            "width": 2064,
+            "height": 2752
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ],
+    "legacy_details": null,
+    "demo_photos": [
+      {
+        "src": "/images/products/memories/demo-photo-1.webp",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/products/memories/demo-photo-2.webp",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/products/memories/demo-photo-3.webp",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/products/memories/demo-photo-4.webp",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/products/memories/demo-photo-5.webp",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/products/memories/demo-photo-6.webp",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/products/memories/demo-photo-7.webp",
+        "width": 1086,
+        "height": 1448
+      },
+      {
+        "src": "/images/products/memories/demo-photo-8.webp",
+        "width": 941,
+        "height": 1672
+      }
+    ]
+  },
+  "poof": {
+    "palette": [
+      "#181123",
+      "#FBF4FF",
+      "#DBADFA"
+    ],
+    "demo": "clean",
+    "hero": {
+      "image": {
+        "src": "/images/products/poof/screen-1.webp",
+        "width": 2560,
+        "height": 1600
+      },
+      "frame": null,
+      "kind": "mac",
+      "ratio": 1.6
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/poof/screen-2.webp",
+        "width": 2560,
+        "height": 1600
+      },
+      "ratio": 7.192982456140351,
+      "width": 156.09756097560975,
+      "left": -44.146341463414636,
+      "top": -365.7894736842105,
+      "radius": 1.4634146341463417,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Make room.",
+        "description": "See what fills your Mac.",
+        "label": "Smart Scan",
+        "device": {
+          "image": {
+            "src": "/images/products/poof/screen-1.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        },
+        "cutout": null
+      },
+      {
+        "title": "Review first.",
+        "description": "Choose the items that go.",
+        "label": "System Junk",
+        "device": {
+          "image": {
+            "src": "/images/products/poof/screen-2.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/poof/screen-2.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "ratio": 7.192982456140351,
+          "width": 156.09756097560975,
+          "left": -44.146341463414636,
+          "top": -365.7894736842105,
+          "radius": 1.4634146341463417,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Apps and data.",
+        "description": "See the space each app keeps.",
+        "label": "Applications",
+        "device": {
+          "image": {
+            "src": "/images/products/poof/screen-3.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        },
+        "cutout": null
+      },
+      {
+        "title": "Build leftovers.",
+        "description": "Keep development clutter in view.",
+        "label": "Developer",
+        "device": {
+          "image": {
+            "src": "/images/products/poof/screen-4.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/poof/screen-4.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "ratio": 4.136363636363637,
+          "width": 156.2881562881563,
+          "left": -43.223443223443226,
+          "top": -82.82828282828282,
+          "radius": 1.465201465201465,
+          "angle": -2
+        }
+      }
+    ],
+    "props": [],
+    "fleet": [
+      {
+        "label": "Mac",
+        "device": {
+          "image": {
+            "src": "/images/products/poof/screen-1.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        }
+      }
+    ],
+    "platforms": [
+      "Mac"
+    ],
+    "legacy_details": "poof"
+  },
+  "soooon": {
+    "palette": [
+      "#F2E8FF",
+      "#2B1B4B",
+      "#7546D3"
+    ],
+    "demo": "countdown",
+    "hero": {
+      "image": {
+        "src": "/images/products/soooon/screen-1.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/soooon/screen-2.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "ratio": 8.283018867924529,
+      "width": 150.34168564920273,
+      "left": -25.28473804100228,
+      "top": -386.79245283018867,
+      "radius": 3.986332574031891,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Big days. Little companion.",
+        "description": "A countdown that gets excited with you.",
+        "label": "Your countdowns",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Make the wait part of it.",
+        "description": "Keep your next special day in view.",
+        "label": "The big day",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/soooon/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 8.283018867924529,
+          "width": 150.34168564920273,
+          "left": -25.28473804100228,
+          "top": -386.79245283018867,
+          "radius": 3.986332574031891,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Your dates belong here.",
+        "description": "Trips, birthdays and celebrations, together.",
+        "label": "Calendar",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Your kind of hype.",
+        "description": "Choose how your companion talks.",
+        "label": "Personality",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/soooon/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 4.595744680851064,
+          "width": 122.22222222222223,
+          "left": -11.11111111111111,
+          "top": -661.7021276595744,
+          "radius": 6.018518518518518,
+          "angle": -2
+        }
+      },
+      {
+        "title": "More to look forward to.",
+        "description": "Explore holidays from your traditions.",
+        "label": "Holidays",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/screen-5.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Dress for the big day.",
+        "description": "Give your companion a little personality.",
+        "label": "Wardrobe",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/soooon/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 0.6938405797101449,
+          "width": 344.6475195822454,
+          "left": -12.532637075718014,
+          "top": -82.97101449275362,
+          "radius": 20.887728459530024,
+          "angle": -3
+        }
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/soooon/prop-1.webp",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/soooon/prop-2.webp",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/soooon/ipad.webp",
+            "width": 2064,
+            "height": 2752
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Mac"
+    ],
+    "legacy_details": null
+  },
+  "myrenewals": {
+    "palette": [
+      "#ECF7FA",
+      "#152B37",
+      "#056B82"
+    ],
+    "demo": "renewals",
+    "hero": {
+      "image": {
+        "src": "/images/products/myrenewals/screen-1.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/myrenewals/screen-2.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "ratio": 4.434782608695652,
+      "width": 107.84313725490196,
+      "left": -3.9215686274509802,
+      "top": -167.3913043478261,
+      "radius": 3.6764705882352944,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Know what renews next.",
+        "description": "Keep recurring costs and dates in view.",
+        "label": "Your overview",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Start with your inbox.",
+        "description": "Review imported plans before adding them.",
+        "label": "Import review",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 4.434782608695652,
+          "width": 107.84313725490196,
+          "left": -3.9215686274509802,
+          "top": -167.3913043478261,
+          "radius": 3.6764705882352944,
+          "angle": -2
+        }
+      },
+      {
+        "title": "See the dates ahead.",
+        "description": "Keep upcoming renewals together.",
+        "label": "Renewal calendar",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Separate work and life.",
+        "description": "Compare recurring costs by profile.",
+        "label": "Personal and company",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 3.238095238095238,
+          "width": 107.84313725490196,
+          "left": -3.9215686274509802,
+          "top": -168.25396825396825,
+          "radius": 3.6764705882352944,
+          "angle": -2
+        }
+      },
+      {
+        "title": "The details stay handy.",
+        "description": "Check dates, payment methods and history.",
+        "label": "Plan details",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-5.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-5.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 5.1,
+          "width": 107.84313725490196,
+          "left": -3.9215686274509802,
+          "top": -417.5,
+          "radius": 3.6764705882352944,
+          "angle": -2
+        }
+      },
+      {
+        "title": "All your plans. One place.",
+        "description": "Review active and cancelled subscriptions.",
+        "label": "Subscription list",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      }
+    ],
+    "props": [],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/myrenewals/ipad.webp",
+            "width": 2064,
+            "height": 2752
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ],
+    "legacy_details": "myrenewals"
+  },
+  "toctoc": {
+    "palette": [
+      "#171D25",
+      "#FFF1E7",
+      "#F99551"
+    ],
+    "demo": "knock",
+    "hero": {
+      "image": {
+        "src": "/images/products/toctoc/screen-1.webp",
+        "width": 2560,
+        "height": 1600
+      },
+      "frame": null,
+      "kind": "mac",
+      "ratio": 1.6
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/toctoc/screen-1.webp",
+        "width": 2560,
+        "height": 1600
+      },
+      "ratio": 2.095726495726496,
+      "width": 208.80913539967372,
+      "left": -54.32300163132137,
+      "top": -97.6068376068376,
+      "radius": 1.957585644371941,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Stay with your work.",
+        "description": "A visible nudge before your call.",
+        "label": "Meeting countdown",
+        "device": {
+          "image": {
+            "src": "/images/products/toctoc/screen-1.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/toctoc/screen-1.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "ratio": 2.095726495726496,
+          "width": 208.80913539967372,
+          "left": -54.32300163132137,
+          "top": -97.6068376068376,
+          "radius": 1.957585644371941,
+          "angle": -2
+        }
+      },
+      {
+        "title": "For busy minds.",
+        "description": "Meeting nudges for ADHD workdays.",
+        "label": "Visible calendar support",
+        "device": {
+          "image": {
+            "src": "/images/products/toctoc/screen-2.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        },
+        "cutout": null
+      },
+      {
+        "title": "Your kind of nudge.",
+        "description": "Choose reminders that stand out.",
+        "label": "Reminder settings",
+        "device": {
+          "image": {
+            "src": "/images/products/toctoc/screen-3.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        },
+        "cutout": null
+      }
+    ],
+    "props": [],
+    "fleet": [
+      {
+        "label": "Mac",
+        "device": {
+          "image": {
+            "src": "/images/products/toctoc/screen-1.webp",
+            "width": 2560,
+            "height": 1600
+          },
+          "frame": null,
+          "kind": "mac",
+          "ratio": 1.6
+        }
+      },
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/toctoc/iphone.webp",
+            "width": 660,
+            "height": 1434
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      }
+    ],
+    "platforms": [
+      "Mac",
+      "iPhone"
+    ],
+    "legacy_details": "toctoc"
+  },
+  "tumtum": {
+    "palette": [
+      "#FFF7E7",
+      "#294B3D",
+      "#607848"
+    ],
+    "demo": "toys",
+    "hero": {
+      "image": {
+        "src": "/images/products/tumtum/screen-1.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/tumtum/screen-3.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "ratio": 5.48,
+      "width": 160.5839416058394,
+      "left": -30.900243309002434,
+      "top": -1733.3333333333333,
+      "radius": 9.732360097323602,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Little hands. Big discoveries.",
+        "description": "A toy room to explore at their own pace.",
+        "label": "The house",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Make a little story.",
+        "description": "Mix, pour and imagine in the kitchen.",
+        "label": "Cooking",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "A world of their own.",
+        "description": "Explore little places and everyday moments.",
+        "label": "The town",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/tumtum/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 5.48,
+          "width": 160.5839416058394,
+          "left": -30.900243309002434,
+          "top": -1733.3333333333333,
+          "radius": 9.732360097323602,
+          "angle": -2
+        }
+      },
+      {
+        "title": "Follow their curiosity.",
+        "description": "Meet dinosaurs in a world of paper toys.",
+        "label": "Dinosaurs",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Dive into discovery.",
+        "description": "See who lives beneath the paper sea.",
+        "label": "Aquarium",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/screen-5.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Set the family rhythm.",
+        "description": "Choose optional play-session limits.",
+        "label": "For grown-ups",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/tumtum/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 9.53448275862069,
+          "width": 119.3490054249548,
+          "left": -9.403254972875226,
+          "top": -629.3103448275862,
+          "radius": 3.616636528028933,
+          "angle": -2
+        }
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/tumtum/prop-1.webp",
+        "width": 412,
+        "height": 295
+      },
+      {
+        "src": "/images/products/tumtum/prop-2.webp",
+        "width": 359,
+        "height": 250
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/tumtum/ipad-house.webp",
+            "width": 2752,
+            "height": 2064
+          },
+          "frame": {
+            "dimensions": [
+              3000,
+              2300
+            ],
+            "screen": [
+              124,
+              118,
+              2752,
+              2064
+            ],
+            "rotate": 90,
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 1.3043478260869565
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ],
+    "legacy_details": "tumtum"
+  },
+  "zuzu": {
+    "palette": [
+      "#FFF3E9",
+      "#40332D",
+      "#AF5937"
+    ],
+    "demo": "baby",
+    "hero": {
+      "image": {
+        "src": "/images/products/zuzu/screen-1.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49
+    },
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/zuzu/screen-2.webp",
+        "width": 1320,
+        "height": 2868
+      },
+      "ratio": 5.666666666666667,
+      "width": 107.84313725490196,
+      "left": -3.9215686274509802,
+      "top": -1033.3333333333335,
+      "radius": 3.431372549019608,
+      "angle": -2
+    },
+    "features": [
+      {
+        "title": "Baby’s day. All together.",
+        "description": "Sleep, feeds and changes. One shared view.",
+        "label": "Everyday baby care",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Plan a gentler bedtime.",
+        "description": "See naps and wake times. Keep the rhythm in view.",
+        "label": "Sleep and wake timing",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/zuzu/screen-2.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 5.666666666666667,
+          "width": 107.84313725490196,
+          "left": -3.9215686274509802,
+          "top": -1033.3333333333335,
+          "radius": 3.431372549019608,
+          "angle": -2
+        }
+      },
+      {
+        "title": "See their daily patterns.",
+        "description": "Explore insights from everyday logs.",
+        "label": "Baby care insights",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/screen-3.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "Watch them grow.",
+        "description": "Track measurements. Keep their story close.",
+        "label": "Growth records",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/zuzu/screen-4.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 1.2644628099173554,
+          "width": 107.84313725490196,
+          "left": -3.9215686274509802,
+          "top": -75.41322314049587,
+          "radius": 5.310457516339869,
+          "angle": 1
+        }
+      },
+      {
+        "title": "Start before the birth.",
+        "description": "Follow the weeks while you wait.",
+        "label": "Pregnancy countdown",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/screen-5.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": null
+      },
+      {
+        "title": "A nap. As it happens.",
+        "description": "Start a nap. Follow its timer.",
+        "label": "Sleep tracking",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        },
+        "cutout": {
+          "image": {
+            "src": "/images/products/zuzu/screen-6.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "ratio": 3.6867469879518073,
+          "width": 107.84313725490196,
+          "left": -3.9215686274509802,
+          "top": -674.698795180723,
+          "radius": 5.310457516339869,
+          "angle": -2
+        }
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/zuzu/prop-1.webp",
+        "width": 1312,
+        "height": 1199
+      },
+      {
+        "src": "/images/products/zuzu/prop-2.webp",
+        "width": 1328,
+        "height": 1184
+      },
+      {
+        "src": "/images/products/zuzu/prop-3.webp",
+        "width": 1247,
+        "height": 1261
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/screen-1.webp",
+            "width": 1320,
+            "height": 2868
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/ipad.webp",
+            "width": 2064,
+            "height": 2752
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667
+        }
+      },
+      {
+        "label": "Android",
+        "device": {
+          "image": {
+            "src": "/images/products/zuzu/android.webp",
+            "width": 1280,
+            "height": 2856
+          },
+          "frame": {
+            "dimensions": [
+              1408,
+              2974
+            ],
+            "screen": [
+              60,
+              61,
+              1280,
+              2856
+            ],
+            "radius": 109,
+            "src": "/images/products/hardware/pixel-9-pro.webp",
+            "width": 1408,
+            "height": 2974
+          },
+          "kind": "android",
+          "ratio": 0.4734364492266308
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Android"
+    ],
+    "legacy_details": null
+  }
+}
