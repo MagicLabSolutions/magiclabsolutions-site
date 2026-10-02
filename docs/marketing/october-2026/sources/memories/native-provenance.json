@@ -3,7 +3,7 @@
   "revision": "76729fc",
   "device": "iPhone 17 Pro Max / iOS 26.5 / portrait 1320x2868",
   "platform_evidence": "Current Xcode target UIDeviceFamily is iPhone-only (1), but the public 1.1.0 Apple lookup reports iosUniversal. iPad compatibility-window captures rejected; fresh capture-only universal build uses actual SwiftUI tablet geometry.",
-  "harness": "Isolated checkout; production views with existing ScreenshotSeed. Native SwiftUI hosts chosen by -marketing-screen. External services bypassed for demo mode; existing stock fixtures cached between captures.",
+  "harness": "Existing isolated capture build re-used; generated photo fixtures replace stock-cache inputs in dedicated marketing simulators. Native production SwiftUI views remain unchanged.",
   "sdk": "Capture-local RevenueCat initializer moved into its struct for current Swift compatibility; patch included. Production repository unchanged.",
   "scenes": [
     "home",
@@ -12,13 +12,13 @@
     "soundtrack"
   ],
   "files": {
-    "native-1.png": "d2f197826b978d68939abdd63584362fb8ef1b03c838e31bba8dc4da49e7222d",
-    "native-3.png": "ad17999a5a39164e5308f7b8d49a0d59ef26a5085fa7ae2d2ebfbc5c23052a88",
-    "native-2.png": "3fdb4fb9ca8965c36a63d94b564888bbb32414556ee0db4ffd847eddbe8fb6ff",
-    "native-4.png": "bf3e47a9482b907026e5ee359e256320e0009955c4e7fd5e0367ef78a22a1e5c",
-    "ipad/native-1.png": "e7953150fedf32fa30cac925953bb73c7e30840f7c2b7ae1e8bda96fbe5dd9c1",
-    "ipad/native-3.png": "521a3d8af1707d412d1ad3108446dd4a0167c4d160fa35f10ecd386dff84fcc9",
-    "ipad/native-2.png": "39cbcdd9c7a61ea480129c56765a02267ca32e3ba3382efdd89712cd70b12543",
+    "native-1.png": "866edcacb4964a32520451bea9ff97b64930af911f2cf43dabac396991804ad1",
+    "native-3.png": "0e8c3184f6ac0272f10b8d82569e16f219575ea1cf731229d4b084a1eac58a82",
+    "native-2.png": "aa8b93dfc5ae45b03d0a936a0517fd5f957bf920527d40a41ab849a87b0ab293",
+    "native-4.png": "63579c2898c865feacc053d4c4a420ec65711861ee2330e12482a584d0d1da93",
+    "ipad/native-1.png": "61558b29e286e3b0d71027bf496535c42a493cf56df928d568595e3e6c6a0667",
+    "ipad/native-3.png": "e90b8c63e9f678dab86e434c2ec814f8ac98f07e8fe6574b6b1f42942fce8843",
+    "ipad/native-2.png": "75885657371426bdbf5fac1f247b70cd04ee55bb63fb4f5fd8d0cebb9106bea8",
     "ipad/native-4.png": "0a03dd843e15f4a6cb3a36bb2b32c9b573c14796e4ae7bc3e032c29699a949cd"
   },
   "film_fixture": "Existing screenshot host stub seeded before production view hydration. Native player displays its built-in static-poster fallback; no generated interface or actual video export is claimed.",
@@ -34,5 +34,7 @@
     "TARGETED_DEVICE_FAMILY": "1,2",
     "PRODUCT_BUNDLE_IDENTIFIER": "com.magiclabsolutions.memories.marketing",
     "reason": "Separate demo build uses native tablet layout and matches public iosUniversal release availability; no app repository changes."
-  }
+  },
+  "photo_fixture_revision": "revision-provenance.json",
+  "photo_source": "Eight original fictional family, pet and travel photos from built-in image_gen. See assets/revision-2/*prompts.json."
 }

@@ -168,7 +168,8 @@
               3
             ]
           }
-        ]
+        ],
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -182,6 +183,12 @@
         ],
         "gallery_id": "studio-highlights",
         "wide": true
+      },
+      "share_preview": {
+        "headline": "Everyone signs.",
+        "description": "One thoughtful group card.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
@@ -190,9 +197,9 @@
       "audience": "Players who enjoy space exploration and sandbox discovery",
       "position": "Your own small space adventure, one landing at a time.",
       "palette": [
-        "#09151B",
-        "#F4E8CD",
-        "#EAC17A"
+        "#09152B",
+        "#F5F0DC",
+        "#85DACE"
       ],
       "device": "phone",
       "voice": "George",
@@ -201,29 +208,34 @@
       "keywords": "rocket,planet,orbit,astronaut,physics,discovery,mining,crafting,adventure,simulation",
       "panels": [
         [
-          "Your next world.",
-          "A little rocket. A universe to explore.",
-          "Fly through space"
+          "Tiny rocket.\nBig adventure.",
+          "Lift off. Find your\nnext little world.",
+          "Gravity flight"
         ],
         [
-          "Step outside.",
-          "Leave the ship. Explore on foot.",
-          "Surface exploration"
+          "Step\noutside.",
+          "Leave the ship.\nExplore on foot.",
+          "Explore on foot"
         ],
         [
-          "Build on your terms.",
-          "Mine resources. Make a place to return to.",
-          "Construction"
+          "Build on\nyour terms.",
+          "Mine resources.\nMake a place to return to.",
+          "Build outposts"
         ],
         [
-          "Gravity is the guide.",
-          "Read the orbits. Choose your next landing.",
-          "Live orbital map"
+          "Gravity is\nthe guide.",
+          "Read the orbits.\nChoose your next landing.",
+          "Read the orbits"
         ],
         [
-          "Follow the signal.",
-          "Keep exploring. See where the story leads.",
-          "The star chart"
+          "Expect the\nunexpected.",
+          "A quiet world.\nA curious visitor.",
+          "Unexpected visitors"
+        ],
+        [
+          "Hello,\nstranger.",
+          "Meet the Vey.\nChoose what to offer.",
+          "Vey contact"
         ]
       ],
       "hooks": [
@@ -267,11 +279,12 @@
       "cta": "Discover Sundust",
       "store_format": "iphone-6.9",
       "screens": [
-        "/docs/marketing/october-2026/sources/sundust/screen-1.png",
+        "/docs/marketing/october-2026/sources/sundust/revision-flight.png",
         "/docs/marketing/october-2026/sources/sundust/screen-2.png",
         "/docs/marketing/october-2026/sources/sundust/screen-3.png",
         "/docs/marketing/october-2026/sources/sundust/screen-4.png",
-        "/docs/marketing/october-2026/sources/sundust/screen-5.png"
+        "/docs/marketing/october-2026/sources/sundust/revision-alien.png",
+        "/docs/marketing/october-2026/sources/sundust/revision-vey.png"
       ],
       "hardware": "iphone",
       "capture_has_device_frame": false,
@@ -288,7 +301,7 @@
           2868
         ]
       },
-      "background": "/docs/marketing/october-2026/lifestyle/sundust.png",
+      "background": "/docs/marketing/october-2026/assets/revision-2/sundust-clean.png",
       "details": [
         null,
         null,
@@ -299,8 +312,8 @@
       "studio_art": {
         "copy": [
           [
-            "Your next\nworld.",
-            "A little rocket.\nA universe to explore."
+            "Tiny rocket.\nBig adventure.",
+            "Lift off. Find your\nnext little world."
           ],
           [
             "Step\noutside.",
@@ -315,8 +328,12 @@
             "Read the orbits.\nChoose your next landing."
           ],
           [
-            "Follow\nthe signal.",
-            "Keep exploring.\nSee where the story leads."
+            "Expect the\nunexpected.",
+            "A quiet world.\nA curious visitor."
+          ],
+          [
+            "Hello,\nstranger.",
+            "Meet the Vey.\nChoose what to offer."
           ]
         ],
         "primary": {
@@ -340,23 +357,10 @@
               }
             ],
             [],
-            [
-              {
-                "source": "/docs/marketing/october-2026/sources/sundust/screen-5.png",
-                "rect": [
-                  60,
-                  1130,
-                  1275,
-                  1830
-                ],
-                "left": 0.025,
-                "top": 0.66,
-                "width": 0.95,
-                "radius": 45,
-                "angle": 1
-              }
-            ]
-          ]
+            [],
+            []
+          ],
+          "compact_from": 0
         },
         "props": [
           {
@@ -377,16 +381,15 @@
             "bottom": 0.01,
             "angle": 8,
             "panels": [
-              2,
-              4
+              2
             ]
           }
         ],
         "ipad": {
           "copy": [
             [
-              "Your next\nworld.",
-              "A little rocket.\nA universe to explore."
+              "Tiny rocket.\nBig adventure.",
+              "Lift off. Find your\nnext little world."
             ],
             [
               "Step\noutside.",
@@ -399,6 +402,14 @@
             [
               "Gravity is\nthe guide.",
               "Read the orbits.\nChoose your next landing."
+            ],
+            [
+              "Expect the\nunexpected.",
+              "A quiet world.\nA curious visitor."
+            ],
+            [
+              "Hello,\nstranger.",
+              "Meet the Vey.\nChoose what to offer."
             ]
           ],
           "cutouts": [
@@ -420,9 +431,14 @@
                 "angle": -2
               }
             ],
+            [],
+            [],
             []
-          ]
-        }
+          ],
+          "compact_from": 0
+        },
+        "game": true,
+        "hero_background": "/docs/marketing/october-2026/assets/revision-2/sundust-clean.png"
       },
       "ipad_store": {
         "hardware": "ipad",
@@ -441,31 +457,43 @@
           ]
         },
         "screens": [
-          "/docs/marketing/october-2026/sources/sundust/ipad/screen-1.png",
+          "/docs/marketing/october-2026/sources/sundust/ipad/revision-flight.png",
           "/docs/marketing/october-2026/sources/sundust/ipad/screen-2.png",
           "/docs/marketing/october-2026/sources/sundust/ipad/screen-3.png",
-          "/docs/marketing/october-2026/sources/sundust/ipad/screen-4.png"
+          "/docs/marketing/october-2026/sources/sundust/ipad/screen-4.png",
+          "/docs/marketing/october-2026/sources/sundust/ipad/revision-alien.png",
+          "/docs/marketing/october-2026/sources/sundust/ipad/revision-vey.png"
         ],
         "panels": [
           [
-            "Your next world.",
-            "A little rocket. A universe to explore.",
-            "Fly through space"
+            "Tiny rocket.\nBig adventure.",
+            "Lift off. Find your\nnext little world.",
+            "Gravity flight"
           ],
           [
-            "Step outside.",
-            "Leave the ship. Explore on foot.",
-            "Surface exploration"
+            "Step\noutside.",
+            "Leave the ship.\nExplore on foot.",
+            "Explore on foot"
           ],
           [
-            "Build on your terms.",
-            "Mine resources. Make a place to return to.",
-            "Construction"
+            "Build on\nyour terms.",
+            "Mine resources.\nMake a place to return to.",
+            "Build outposts"
           ],
           [
-            "Gravity is the guide.",
-            "Read the orbits. Choose your next landing.",
-            "Live orbital map"
+            "Gravity is\nthe guide.",
+            "Read the orbits.\nChoose your next landing.",
+            "Read the orbits"
+          ],
+          [
+            "Expect the\nunexpected.",
+            "A quiet world.\nA curious visitor.",
+            "Unexpected visitors"
+          ],
+          [
+            "Hello,\nstranger.",
+            "Meet the Vey.\nChoose what to offer.",
+            "Vey contact"
           ]
         ],
         "dimensions": [
@@ -484,7 +512,32 @@
           "#EAC17A"
         ],
         "gallery_id": "screenshots"
-      }
+      },
+      "share_preview": {
+        "headline": "Tiny rocket.\nBig adventure.",
+        "description": "Fly. Land. Explore.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
+      },
+      "social_copy": [
+        [
+          "Tiny rocket.\nBig adventure.",
+          "Fly. Land. Explore."
+        ],
+        [
+          "Step\noutside.",
+          "Explore on foot."
+        ],
+        [
+          "Build on\nyour terms.",
+          "Mine. Build. Return."
+        ],
+        [
+          "Gravity is\nthe guide.",
+          "Pick your next orbit."
+        ]
+      ],
+      "social_platform": "ipad"
     },
     {
       "slug": "giftly",
@@ -841,7 +894,13 @@
         "approval": "approved",
         "approved_at": "2026-10-01"
       },
-      "website_layout": "giftly-approved"
+      "website_layout": "giftly-approved",
+      "share_preview": {
+        "headline": "Give a little\nmore thought.",
+        "description": "Birthdays remembered.\nGift ideas saved.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
+      }
     },
     {
       "slug": "groundcontrol",
@@ -965,7 +1024,8 @@
             ],
             []
           ]
-        }
+        },
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -978,6 +1038,12 @@
           "#8DC5FC"
         ],
         "gallery_id": "studio-highlights"
+      },
+      "share_preview": {
+        "headline": "Follow the branch.",
+        "description": "Your Git history, in context.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
@@ -1272,7 +1338,8 @@
             ],
             [],
             []
-          ]
+          ],
+          "compact_from": 1
         },
         "ipad": {
           "copy": [
@@ -1373,7 +1440,8 @@
               5
             ]
           }
-        ]
+        ],
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -1388,6 +1456,12 @@
           "#FF8064"
         ],
         "gallery_id": "screenshots"
+      },
+      "share_preview": {
+        "headline": "Turn your notes.\nInto practice.",
+        "description": "Flashcards, quizzes and a tutor.\nBuilt from your material.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
@@ -1564,7 +1638,8 @@
                 "angle": 3
               }
             ]
-          ]
+          ],
+          "compact_from": 1
         },
         "props": [
           {
@@ -1649,7 +1724,8 @@
               }
             ]
           ]
-        }
+        },
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -1710,6 +1786,12 @@
           2064,
           2752
         ]
+      },
+      "share_preview": {
+        "headline": "Little moments.\nOne story.",
+        "description": "Everyday photos.\nYour personal timeline.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
@@ -1861,7 +1943,8 @@
               }
             ]
           ]
-        }
+        },
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -1874,6 +1957,12 @@
           "#DBADFA"
         ],
         "gallery_id": "studio-highlights"
+      },
+      "share_preview": {
+        "headline": "Make room.",
+        "description": "See what fills your Mac.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
@@ -2264,6 +2353,13 @@
           "#7546D3"
         ],
         "gallery_id": "studio-highlights"
+      },
+      "store_policy": "preserve-current",
+      "share_preview": {
+        "headline": "Big days.\nLittle companion.",
+        "description": "A countdown that gets\nexcited with you.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
@@ -2534,7 +2630,8 @@
               }
             ],
             []
-          ]
+          ],
+          "compact_from": 1
         },
         "ipad": {
           "copy": [
@@ -2616,7 +2713,8 @@
             ],
             []
           ]
-        }
+        },
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -2629,13 +2727,19 @@
           "#056B82"
         ],
         "gallery_id": "screenshots"
+      },
+      "share_preview": {
+        "headline": "Know what\nrenews next.",
+        "description": "Keep recurring costs\nand dates in view.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
       "slug": "toctoc",
       "name": "Toc Toc",
-      "audience": "People who lose track of meetings while focused on Mac",
-      "position": "A meeting reminder designed to get through deep focus.",
+      "audience": "Mac users who want visible meeting reminders, including people with ADHD",
+      "position": "A visible meeting nudge for minds deep in work.",
       "palette": [
         "#171D25",
         "#FFF1E7",
@@ -2645,7 +2749,7 @@
       "voice": "Roger",
       "title": "Toc Toc: Meeting Reminders",
       "subtitle": "A knock before the next call",
-      "keywords": "calendar,alert,alarm,countdown,menubar,focus,join,call,work,schedule,mac",
+      "keywords": "calendar,alert,alarm,countdown,menubar,focus,join,call,work,schedule,mac,adhd",
       "panels": [
         [
           "Time to join.",
@@ -2653,9 +2757,9 @@
           "Meeting countdown"
         ],
         [
-          "Your next call.",
-          "Keep your agenda in the menu bar.",
-          "Menu-bar agenda"
+          "For busy minds.",
+          "Meeting nudges for ADHD workdays.",
+          "Visible calendar support"
         ],
         [
           "Your kind of knock.",
@@ -2664,7 +2768,7 @@
         ]
       ],
       "hooks": [
-        "You were deep in work. The meeting starts now.",
+        "Deep in work? Here is your next call.",
         "The calendar alert was easy to miss.",
         "A little knock before your next call.",
         "Focus on the work. Keep the meeting in view."
@@ -2686,7 +2790,7 @@
         ]
       ],
       "captions": [
-        "For the moments when focus makes the calendar disappear. Meet Toc Toc.",
+        "For the days when focus pulls you in: Toc Toc puts a visible meeting reminder in front of you. A practical calendar companion, including for people with ADHD.",
         "A countdown, a knock, and a way into the call. Explore the project.",
         "Keep the next meeting nearby while you work.",
         "Save this for your next day of back-to-back calls."
@@ -2720,16 +2824,16 @@
       "studio_art": {
         "copy": [
           [
-            "Time to join.",
-            "A visible knock before the call."
+            "Stay with your work.",
+            "A visible nudge before your call."
           ],
           [
-            "Your next call.",
-            "Keep your agenda in the menu bar."
+            "For busy minds.",
+            "Meeting nudges for ADHD workdays."
           ],
           [
-            "Your kind of knock.",
-            "Choose how the reminder appears."
+            "Your kind of nudge.",
+            "Choose reminders that stand out."
           ]
         ],
         "primary": {
@@ -2753,7 +2857,8 @@
             [],
             []
           ]
-        }
+        },
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -2766,7 +2871,31 @@
           "#F99551"
         ],
         "gallery_id": "studio-highlights"
-      }
+      },
+      "share_preview": {
+        "headline": "Deep in work?",
+        "description": "A visible nudge\nbefore your next call.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
+      },
+      "social_copy": [
+        [
+          "Deep in work?",
+          "A visible nudge\nbefore your next call."
+        ],
+        [
+          "Busy mind.\nClear reminders.",
+          "A calendar companion\nfor ADHD workdays."
+        ],
+        [
+          "Your kind\nof nudge.",
+          "Choose how your\nreminder appears."
+        ],
+        [
+          "Time to join.",
+          "One visible reminder.\nYour next call in view."
+        ]
+      ]
     },
     {
       "slug": "tumtum",
@@ -2989,6 +3118,13 @@
           "#607848"
         ],
         "gallery_id": "studio-highlights"
+      },
+      "store_policy": "preserve-current",
+      "share_preview": {
+        "headline": "Little hands.\nBig discoveries.",
+        "description": "A toy room to explore\nat their own pace.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     },
     {
@@ -3013,9 +3149,9 @@
           "Everyday baby care"
         ],
         [
-          "Every little moment.",
-          "Keep the day’s events in order.",
-          "A daily timeline"
+          "Plan a gentler bedtime.",
+          "See naps and wake times. Keep the rhythm in view.",
+          "Sleep and wake timing"
         ],
         [
           "See their daily patterns.",
@@ -3110,9 +3246,9 @@
             "Home Nap"
           ],
           [
-            "Every little moment.",
-            "Follow the day’s events. Keep the details close.",
-            "Timeline Day"
+            "Plan a gentler bedtime.",
+            "See naps and wake times. Keep the rhythm in view.",
+            "Sleep and wake timing"
           ],
           [
             "A little log. A clearer day.",
@@ -3217,9 +3353,9 @@
             "Everyday baby care"
           ],
           [
-            "Every little moment.",
-            "Keep the day’s events in order.",
-            "A daily timeline"
+            "Plan a gentler bedtime.",
+            "See naps and wake times. Keep the rhythm in view.",
+            "Sleep and wake timing"
           ],
           [
             "See their daily patterns.",
@@ -3274,8 +3410,8 @@
             "Sleep, feeds and changes.\nOne shared view."
           ],
           [
-            "Every little\nmoment.",
-            "Keep the day’s events\nin order."
+            "Plan a gentler\nbedtime.",
+            "See naps and wake times.\nKeep the rhythm in view."
           ],
           [
             "See their\ndaily patterns.",
@@ -3302,9 +3438,9 @@
                 "source": "/docs/marketing/october-2026/sources/zuzu/creative-native-2.png",
                 "rect": [
                   48,
-                  550,
+                  2232,
                   1272,
-                  766
+                  2448
                 ],
                 "left": 0.02,
                 "top": 0.62,
@@ -3361,7 +3497,8 @@
                 "angle": -2
               }
             ]
-          ]
+          ],
+          "compact_from": 1
         },
         "ipad": {
           "copy": [
@@ -3370,8 +3507,8 @@
               "Sleep, feeds and changes.\nOne shared view."
             ],
             [
-              "Every little\nmoment.",
-              "Keep the day’s events\nin order."
+              "Plan a gentler\nbedtime.",
+              "See naps and wake times.\nKeep the rhythm in view."
             ],
             [
               "See their\ndaily patterns.",
@@ -3396,16 +3533,30 @@
               {
                 "source": "/docs/marketing/october-2026/sources/zuzu/ipad/screen-2.png",
                 "rect": [
-                  566,
-                  448,
+                  564,
+                  1086,
                   1500,
-                  592
+                  1230
                 ],
                 "left": 0.01,
                 "top": 0.66,
                 "width": 0.93,
                 "radius": 38,
                 "angle": -2
+              },
+              {
+                "source": "/docs/marketing/october-2026/sources/zuzu/ipad/screen-2.png",
+                "rect": [
+                  564,
+                  1566,
+                  1500,
+                  1710
+                ],
+                "left": 0.065,
+                "top": 0.78,
+                "width": 0.93,
+                "radius": 38,
+                "angle": 2
               }
             ],
             [],
@@ -3446,27 +3597,54 @@
         },
         "props": [
           {
-            "asset": "/docs/marketing/october-2026/assets/zuzu/nursery-cutout.png",
-            "width": 0.34,
-            "left": 0.76,
-            "bottom": -0.01,
-            "angle": 8,
+            "asset": "/docs/marketing/october-2026/assets/revision-2/zuzu-moon.png",
             "panels": [
-              1,
-              2,
-              4
-            ]
+              1
+            ],
+            "width": 0.29,
+            "left": 0.77,
+            "bottom": -0.01,
+            "angle": 8
           },
           {
-            "asset": "/docs/marketing/october-2026/assets/zuzu/nursery-cutout.png",
-            "width": 0.3,
-            "left": -0.09,
-            "bottom": -0.02,
-            "angle": -8,
+            "asset": "/docs/marketing/october-2026/assets/revision-2/zuzu-pacifier.png",
             "panels": [
-              3,
+              2
+            ],
+            "width": 0.29,
+            "left": -0.055,
+            "bottom": -0.01,
+            "angle": -8
+          },
+          {
+            "asset": "/docs/marketing/october-2026/assets/revision-2/zuzu-blocks.png",
+            "panels": [
+              3
+            ],
+            "width": 0.29,
+            "left": 0.77,
+            "bottom": -0.01,
+            "angle": 8
+          },
+          {
+            "asset": "/docs/marketing/october-2026/assets/revision-2/zuzu-socks.png",
+            "panels": [
+              4
+            ],
+            "width": 0.29,
+            "left": -0.055,
+            "bottom": -0.01,
+            "angle": -8
+          },
+          {
+            "asset": "/docs/marketing/october-2026/assets/revision-2/zuzu-moon.png",
+            "panels": [
               5
-            ]
+            ],
+            "width": 0.29,
+            "left": 0.77,
+            "bottom": -0.01,
+            "angle": 8
           }
         ],
         "hero_background": "/docs/marketing/october-2026/lifestyle/family.png",
@@ -3477,8 +3655,8 @@
               "Sleep, feeds and changes.\nOne shared view."
             ],
             [
-              "Every little\nmoment.",
-              "Follow the day’s events.\nKeep the details close."
+              "Plan a gentler\nbedtime.",
+              "See naps and wake times.\nKeep the rhythm in view."
             ],
             [
               "A little log.\nA clearer day.",
@@ -3513,20 +3691,6 @@
                 "width": 0.94,
                 "radius": 42,
                 "angle": -2
-              },
-              {
-                "source": "/docs/marketing/october-2026/sources/zuzu/android/screen-2.png",
-                "rect": [
-                  64,
-                  2040,
-                  1216,
-                  2230
-                ],
-                "left": 0.065,
-                "top": 0.77,
-                "width": 0.9,
-                "radius": 42,
-                "angle": 2
               }
             ],
             [
@@ -3577,8 +3741,10 @@
                 "angle": 0
               }
             ]
-          ]
-        }
+          ],
+          "compact_from": 1
+        },
+        "background_treatment": "Quiet paper overlay; original lifestyle hero retained"
       },
       "website_layout": "studio-layered",
       "website_editorial": {
@@ -3593,6 +3759,12 @@
           "#AF5937"
         ],
         "gallery_id": "screenshots"
+      },
+      "share_preview": {
+        "headline": "Baby’s day.\nAll together.",
+        "description": "Sleep, feeds and changes.\nOne shared view.",
+        "locale": "en-US",
+        "publication": "prepared; product website changes paused"
       }
     }
   ]

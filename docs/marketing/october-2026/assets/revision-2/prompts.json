@@ -1,0 +1,37 @@
+{
+  "sundust-clean": {
+    "prompt": "Use case: stylized-concept. Asset type: portrait marketing background for Sundust, a minimalist 2D orbital exploration game. Create a clean playful space scene: deep midnight navy sky, sparse tiny stars, a graceful pale turquoise orbital arc and one softly illuminated peach planet cropped in the lower right. Small geometric rocket far in the lower left, tiny not dominant. Upper two thirds exceptionally quiet uninterrupted dark navy for large separately typeset text and phone. Elegant flat painterly shapes, subtle grain, charming sense of discovery; not photoreal cosmic nebula, no busy constellation grid, no labels, no lettering, no screen or device, no watermark. Portrait.",
+    "original": "/Users/fabio.hoffmann/.codex/generated_images/01a0f7a7-52ba-7c32-b964-dfa22d78d618/exec-0abaff3c-0331-4ccc-8da9-8ac776f88647.png",
+    "target": "docs/marketing/october-2026/assets/revision-2/sundust-clean.png",
+    "sha256": "9f1b9bc37c3b64064050e4656b79c7764a0abda9578d0229ad084cd5ff3685cf",
+    "tool": "built-in image_gen"
+  },
+  "family-beach": {
+    "prompt": "Use case: photorealistic-natural. Asset type: original fictional family memory photo for an app demo album. Candid photograph of two parents and their six-year-old child laughing and building a sandcastle at the beach at golden hour. Natural spontaneous moment, accurate anatomy, realistic skin and everyday casual clothing, intimate smartphone photograph quality, warmly lit, portrait composition suitable for album thumbnails. No devices, no lettering, no watermark. Show recognizable family interaction, not vague landscape or stock office pose.",
+    "original": "/Users/fabio.hoffmann/.codex/generated_images/01a0f7a7-52ba-7c32-b964-dfa22d78d618/exec-c15a31b5-edef-4497-9512-5aaea7ac74cf.png",
+    "target": "docs/marketing/october-2026/assets/revision-2/family-beach.png",
+    "sha256": "b7a1e0e25a84fb6b60ad5afa3459bc9cdd3791666f8f6d0381f1d8f0b2aefc3c",
+    "tool": "built-in image_gen"
+  },
+  "pet-garden": {
+    "prompt": "Use case: photorealistic-natural. Asset type: original fictional pet memory photo for app demo album. Close candid portrait of a friendly golden retriever with a red fabric bandana, sitting beside a child in a sunny garden with daisies. Child smiles softly toward dog, warm everyday family memory, realistic natural fur, accurate hands, informal smartphone photograph, portrait composition. No lettering, no watermark, no interface.",
+    "original": "/Users/fabio.hoffmann/.codex/generated_images/01a0f7a7-52ba-7c32-b964-dfa22d78d618/exec-6190f1c1-78aa-4db6-9bc4-d65839bd12dd.png",
+    "target": "docs/marketing/october-2026/assets/revision-2/pet-garden.png",
+    "sha256": "89421ce2bd6520031ef530c9d88455948178bb54bcfff1c611f3a6021de15c82",
+    "tool": "built-in image_gen"
+  },
+  "travel-lake": {
+    "prompt": "Use case: photorealistic-natural. Asset type: original fictional vacation memory photograph for app demo album. A smiling couple with small hiking backpacks standing beside a vivid turquoise alpine lake, mountain reflections and a tiny wooden jetty. Authentic candid holiday photograph, not fashion editorial, natural expressions and casual clothes, clear meaningful travel location, warm afternoon light, portrait composition, no text, no watermark, no interface.",
+    "original": "/Users/fabio.hoffmann/.codex/generated_images/01a0f7a7-52ba-7c32-b964-dfa22d78d618/exec-e44fbd28-f40b-42bd-8a4f-2aac83e67d8c.png",
+    "target": "docs/marketing/october-2026/assets/revision-2/travel-lake.png",
+    "sha256": "da4cba1768608af713210bbf568a1f596b7bfe24389752dafa93e88b14c9066a",
+    "tool": "built-in image_gen"
+  },
+  "family-baking": {
+    "prompt": "Use case: photorealistic-natural. Asset type: original fictional family memory photograph for app demo album. A grandmother and young girl baking cookies together in a warm lived-in kitchen, laughing while rolling dough. Close meaningful candid moment, realistic anatomy and natural skin, warm window light, family smartphone photograph quality, portrait framing. No text, no watermark, no interface.",
+    "original": "/Users/fabio.hoffmann/.codex/generated_images/01a0f7a7-52ba-7c32-b964-dfa22d78d618/exec-9381eb76-13cf-4bfd-a367-f4ee29b20965.png",
+    "target": "docs/marketing/october-2026/assets/revision-2/family-baking.png",
+    "sha256": "9452be0003e56dbee597e5c4360e27587e7546d53acac8ab8ffe3e55b8c70329",
+    "tool": "built-in image_gen"
+  }
+}

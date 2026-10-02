@@ -1,0 +1,101 @@
+{
+  "repository": "Sundust",
+  "revision": "3567b3ed137af70195fec6e15e020fa9d9176132",
+  "policy": "Existing native -demo scenes never persist saves; Game Center disabled. Store video untouched.",
+  "captures": [
+    {
+      "platform": "iphone",
+      "file": "docs/marketing/october-2026/sources/sundust/revision-flight.png",
+      "arguments": [
+        "-demo",
+        "saturn",
+        "-photo",
+        "-autothrust"
+      ],
+      "delay": 5,
+      "sha256": "81d01ee66fc0af716f6002441ce728d34715952ec9c64825bb98634ffdad9aa1"
+    },
+    {
+      "platform": "iphone",
+      "file": "docs/marketing/october-2026/sources/sundust/revision-planet.png",
+      "arguments": [
+        "-demo",
+        "face",
+        "-world",
+        "io"
+      ],
+      "delay": 2,
+      "sha256": "3f754df521d33c07fde26ed22fb40a8d89fa9b0538658244207d73cddaf8c19a"
+    },
+    {
+      "platform": "iphone",
+      "file": "docs/marketing/october-2026/sources/sundust/revision-alien.png",
+      "arguments": [
+        "-demo",
+        "eva",
+        "-sight",
+        "cow"
+      ],
+      "delay": 2,
+      "sha256": "d0cb553f8561b8a632c1a9d767626a7a74f48508e1905b04770945c05f5ad2c7"
+    },
+    {
+      "platform": "iphone",
+      "file": "docs/marketing/october-2026/sources/sundust/revision-vey.png",
+      "arguments": [
+        "-demo",
+        "veygift",
+        "-photo"
+      ],
+      "delay": 5,
+      "sha256": "45c9fc6df4d3ff746be260b84a6ad04385255be9ca655282903a532b1836919d"
+    },
+    {
+      "platform": "ipad",
+      "file": "docs/marketing/october-2026/sources/sundust/ipad/revision-flight.png",
+      "arguments": [
+        "-demo",
+        "saturn",
+        "-photo",
+        "-autothrust"
+      ],
+      "delay": 5,
+      "sha256": "b049696e43e9b797f28230d8043495b490e61314da1dc25c4001e44fa41d71b8"
+    },
+    {
+      "platform": "ipad",
+      "file": "docs/marketing/october-2026/sources/sundust/ipad/revision-planet.png",
+      "arguments": [
+        "-demo",
+        "face",
+        "-world",
+        "io"
+      ],
+      "delay": 2,
+      "sha256": "64b53121f839a1b77f28d25d2ad8ded260822019f58f300c73a3b0b14cbbe992"
+    },
+    {
+      "platform": "ipad",
+      "file": "docs/marketing/october-2026/sources/sundust/ipad/revision-alien.png",
+      "arguments": [
+        "-demo",
+        "eva",
+        "-sight",
+        "cow"
+      ],
+      "delay": 2,
+      "sha256": "9d6eefca8efa41c6f9f5406a834170c9108e7182633a4a2e534bc44c912cea0f"
+    },
+    {
+      "platform": "ipad",
+      "file": "docs/marketing/october-2026/sources/sundust/ipad/revision-vey.png",
+      "arguments": [
+        "-demo",
+        "veygift",
+        "-photo"
+      ],
+      "delay": 5,
+      "sha256": "c816eb39553517392f38976ef1043f600df0e0725773ac4249f74a07e7a373dd"
+    }
+  ]
+}

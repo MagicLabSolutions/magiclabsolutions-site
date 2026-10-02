@@ -4,6 +4,40 @@ The Giftly pilot was approved on October 1, 2026. Its large native devices, read
 
 Open `index.html` through the source HTTP server on localhost:8766. The review links to strategy, calendars, exports and local per-product ZIPs. `studio-rollout.json` records current counts and publication evidence; individual `*-studio-validation.json` and `*-web-validation.json` files record checks.
 
+## Owner revision pass — October 1, 2026
+
+Product-page changes and multilingual creative are paused for the next owner request.
+This pass uses `scripts/marketing/package-review.py`, which updates only private
+review assets, editable English strings and review ZIPs. It never mutates public
+product data, galleries or Open Graph metadata.
+
+- Keep TumTum and Soooon's current store collections; prior alternate drafts are
+  excluded from the proposed review ZIPs and store-gallery views.
+- Keep Sundust's current store video. Its revised English still set now has six
+  iPhone and six native iPad panels, including real orbital flight, surfaces,
+  unexpected visitors and Vey contact. The backdrop is cleaner original space art.
+- Measure subsequent phone frame placement from actual copy, with a compact gap.
+  Brainfold, Memories, My Renewals and zuzu use this placement. Preserve lifestyle
+  hero breathing room and exact native screen/hardware proportions.
+- Memories uses eight fictional original family, pet and travel photographs in
+  the real native demo. Source prompts, hashes and cache mappings are saved.
+- zuzu's second panel focuses on sleep/wake timing. Native sleep cards are enlarged;
+  moon, pacifier, blocks and knitted socks vary the corner art across its six panels.
+- Toc Toc includes practical meeting/calendar support for ADHD workdays. This is
+  audience positioning, not a treatment or clinical-effectiveness claim. Context:
+  https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know
+- All 48 static posts and 48 carousel slides use a dedicated social layout with
+  large native devices and occasional whole cards over the frame; no side column.
+  Sundust social posts use the real iPad captures to keep flight, terrain and the
+  rocket visible in the shorter social canvas.
+- Twelve English link previews at 1200×630 are prepared in the private exports.
+  `share-preview-proposal.json` records them. They are **not published** while the
+  website stage is paused; existing public link cards remain unchanged.
+
+Open `index.html` through the source preview server on port 8766. Review widths:
+1440, 390 and 320 pixels. The studio's versioned skill includes these refinements.
+
+
 ## Current English artwork
 
 | Product | Primary | Native iPad | Native Android |
