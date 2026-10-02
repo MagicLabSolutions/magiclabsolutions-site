@@ -1,0 +1,543 @@
+{
+  "locale": "da",
+  "direction": "ltr",
+  "source_sha256": "72cf336d6f4ff9acc83fb938f689341eac8b60f3acee18b6f1aa312468b3e816",
+  "products": {
+    "hooray": {
+      "panels": [
+        [
+          "Alle skriver under.",
+          "Et gennemtænkt gruppekort.",
+          "Et gruppekort"
+        ],
+        [
+          "Dine egne ord.",
+          "Hilsner med personlighed.",
+          "Hilsner og klistermærker"
+        ],
+        [
+          "Åbn overraskelsen.",
+          "Et kort fra hele gruppen.",
+          "Det færdige kort"
+        ],
+        [
+          "Til din særlige anledning.",
+          "Fødselsdage, tak og afsked.",
+          "Fejr det sammen"
+        ]
+      ],
+      "cta": "Lav et kort"
+    },
+    "sundust": {
+      "panels": [
+        [
+          "En lille raket.\nEt stort eventyr.",
+          "Let.\nFind din næste lille verden.",
+          "Tyngdekraftsflyvning"
+        ],
+        [
+          "Træd ud af dit rumskib.",
+          "Forlad dit rumskib, og udforsk til fods.",
+          "Udforsk til fods"
+        ],
+        [
+          "Byg på din egen måde.",
+          "Udvind ressourcer, og byg et sted at vende tilbage til.",
+          "Byg forposter"
+        ],
+        [
+          "Tyngdekraften viser vejen.",
+          "Læs banerne.\nVælg din næste landing.",
+          "Læs banerne"
+        ],
+        [
+          "Forvent det uventede.",
+          "En stille verden.\nEn nysgerrig besøgende.",
+          "Uventede besøgende"
+        ],
+        [
+          "Hej, fremmede.",
+          "Mød Vey-folket.\nVælg, hvad du vil tilbyde.",
+          "Kontakt med Vey-folket"
+        ]
+      ],
+      "cta": "Oplev spillet Sundust.",
+      "social_copy": [
+        [
+          "En lille raket.\nEt stort eventyr.",
+          "Flyv dit skib.\nLand.\nUdforsk."
+        ],
+        [
+          "Træd ud af dit rumskib.",
+          "Udforsk til fods."
+        ],
+        [
+          "Byg på din egen måde.",
+          "Udvind ressourcer.\nByg.\nVend tilbage."
+        ],
+        [
+          "Tyngdekraften viser vejen.",
+          "Vælg din næste bane."
+        ]
+      ]
+    },
+    "giftly": {
+      "panels": [
+        [
+          "Giv med\nlidt mere omtanke.",
+          "Fødselsdage husket.\nGaveidéer gemt.",
+          "Fødselsdage og gaveidéer"
+        ],
+        [
+          "Se den næste\nfejring.",
+          "Fødselsdage og særlige datoer,\nsamlet ét sted.",
+          "Datoer, der betyder noget"
+        ],
+        [
+          "Gem idéen.\nGør deres dag god.",
+          "Gem gaveidéer sammen med\nden person, de er til.",
+          "Idéer, ikke gætværk"
+        ],
+        [
+          "Detaljerne gør\ndet personligt.",
+          "Interesser, størrelser og tidligere gaver,\nklar når du skal bruge dem.",
+          "De små detaljer"
+        ]
+      ],
+      "cta": "Oplev Giftly"
+    },
+    "brainfold": {
+      "panels": [
+        [
+          "Gør dine noter til studieøvelser.",
+          "Flashcards, quizzer og en tutor.\nBaseret på dit materiale.",
+          "AI-studiehjælper"
+        ],
+        [
+          "Skab tid til at lære og huske.",
+          "Gennemgå flashcards.\nÉt spørgsmål ad gangen.",
+          "Flashcards, der passer ind i din hverdag"
+        ],
+        [
+          "Test din viden.",
+          "Quizzer baseret på dine noter.\nFeedback undervejs.",
+          "Sæt idéer på prøve"
+        ],
+        [
+          "Forstå lektionen, og kom videre.",
+          "Stil spørgsmål til dit studiemateriale.\nHav lektionen lige ved hånden.",
+          "Hjælp i kontekst"
+        ],
+        [
+          "Hav dit studiemateriale lige ved hånden.",
+          "Detaljerede resuméer og vigtige pointer.\nDit materiale, klar til gennemgang.",
+          "Detaljerede oversigter"
+        ],
+        [
+          "Tag en ven med.\nTest din hukommelse.",
+          "Vælg dit sæt.\nStart en vidensduel.",
+          "Duel-tilstand"
+        ]
+      ],
+      "cta": "Oplev Brainfold"
+    },
+    "memories": {
+      "panels": [
+        [
+          "Små øjeblikke.\nÉn historie.",
+          "Hverdagsbilleder.\nDin personlige tidslinje.",
+          "Din personlige tidslinje"
+        ],
+        [
+          "Din måned.\nSom film.",
+          "Saml månedens øjeblikke.",
+          "Månedsfilm"
+        ],
+        [
+          "Hav favoritterne lige ved hånden.",
+          "Marker de minder, du vil kunne finde igen.",
+          "Højdepunkter"
+        ],
+        [
+          "Tilføj et soundtrack.",
+          "Vælg lyden, der passer til din historie.",
+          "Valg af soundtrack"
+        ]
+      ],
+      "cta": "Oplev appen Memories."
+    },
+    "poof": {
+      "panels": [
+        [
+          "Frigør plads.",
+          "Se, hvad der fylder på din Mac.",
+          "Smart scanning"
+        ],
+        [
+          "Gennemse først.",
+          "Vælg, hvad der skal fjernes.",
+          "Systemskrammel"
+        ],
+        [
+          "Apps og data.",
+          "Se, hvor meget plads hver app optager.",
+          "Programmer"
+        ],
+        [
+          "Ophobede cache-rester.",
+          "Hold øje med udviklerdata.",
+          "Udvikler"
+        ]
+      ],
+      "cta": "Udforsk projektet"
+    },
+    "soooon": {
+      "panels": [
+        [
+          "Store dage.\nLille følgesvend.",
+          "En nedtælling, der glæder sig sammen med dig.",
+          "Dine nedtællinger"
+        ],
+        [
+          "Gør ventetiden til en del af oplevelsen.",
+          "Hold øje med din næste særlige dag.",
+          "Den store dag"
+        ],
+        [
+          "Dine datoer hører til her.",
+          "Rejser, fødselsdage og fester – samlet ét sted.",
+          "Kalender"
+        ],
+        [
+          "Lige noget for dig.",
+          "Vælg, hvordan din ledsager taler.",
+          "Personlighed"
+        ],
+        [
+          "Mere at se frem til.",
+          "Udforsk højtider fra dine traditioner.",
+          "Højtider"
+        ],
+        [
+          "Klæd dig på til den store dag.",
+          "Giv din ledsager lidt personlighed.",
+          "Garderobe"
+        ]
+      ],
+      "cta": "Udforsk projektet",
+      "original_store": {
+        "SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "title": "Tæl ned til alt muligt",
+            "highlight": "alt muligt",
+            "subtitle": "Fødselsdage, rejser og højtider – sammen med en lille fyr, der heller ikke kan vente."
+          },
+          {
+            "name": "02-moods",
+            "palette": "birthday",
+            "title": "Glæden vokser dag for dag",
+            "highlight": "begejstret",
+            "subtitle": null
+          },
+          {
+            "name": "03-share",
+            "palette": "trip",
+            "title": "Del begejstringen",
+            "highlight": "begejstring",
+            "subtitle": "Kort, videoer og GIF'er til din Story eller gruppechatten."
+          },
+          {
+            "name": "04-holidays",
+            "palette": "holiday",
+            "title": "Alle de højtider, du fejrer",
+            "highlight": "dig",
+            "subtitle": "64 steder og 10 traditioner, fra Hanukkah til Holi."
+          },
+          {
+            "name": "05-calendar",
+            "palette": "calendar",
+            "title": "Dine planer, talt ned",
+            "highlight": "nedtælling",
+            "subtitle": "Gør enhver begivenhed i din kalender til en nedtælling."
+          },
+          {
+            "name": "06-wardrobe",
+            "palette": "wardrobe",
+            "title": "Giv din lille fyr tøj på",
+            "highlight": "lille fyr",
+            "subtitle": "Optjen hatte, kroner og solbriller, mens dagene flyver afsted."
+          },
+          {
+            "name": "07-voice",
+            "palette": "voice",
+            "title": "Sød, fjollet eller kæk",
+            "highlight": "kæk",
+            "subtitle": "Vælg, hvordan din lille fyr skal tale til dig."
+          },
+          {
+            "name": "08-private",
+            "palette": "private",
+            "title": "Dine nedtællinger er dine egne",
+            "highlight": "dine egne",
+            "subtitle": "Alt bliver på din enhed."
+          }
+        ],
+        "MAC_SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "capture": "home.png",
+            "side": "right",
+            "title": "Tæl ned til alt muligt",
+            "highlight": "alt muligt",
+            "subtitle": "Fødselsdage, rejser og højtider – sammen med en lille fyr, der heller ikke kan vente.\nLige i din menulinje.",
+            "sticker": "critter-party-hat.png",
+            "bubble": "SOOOON!!!"
+          },
+          {
+            "name": "02-detail",
+            "palette": "birthday",
+            "capture": "detail.png",
+            "side": "left",
+            "title": "Glæden vokser dag for dag",
+            "highlight": "begejstret",
+            "subtitle": "En låge at åbne hver dag, og ventetiden opgjort i nætter, mandage og hjerteslag.",
+            "sticker": "mood-frantic.png",
+            "bubble": "6 DAGE!!!"
+          },
+          {
+            "name": "03-holidays",
+            "palette": "holiday",
+            "capture": "holidays.png",
+            "side": "right",
+            "title": "Alle de højtider, du fejrer",
+            "highlight": "dig",
+            "subtitle": "64 steder og 10 traditioner, fra Hanukkah til Holi.",
+            "sticker": "critter-crown.png"
+          },
+          {
+            "name": "04-calendar",
+            "palette": "calendar",
+            "capture": "calendar.png",
+            "side": "left",
+            "title": "Dine planer, talt ned",
+            "highlight": "nedtælling",
+            "subtitle": "Gør enhver begivenhed i din kalender til en nedtælling.",
+            "sticker": "critter-headphones.png",
+            "bubble": "Coldplay om 26 dage!!"
+          },
+          {
+            "name": "05-wardrobe",
+            "palette": "wardrobe",
+            "capture": "wardrobe.png",
+            "side": "right",
+            "title": "Giv din lille fyr tøj på",
+            "highlight": "lille fyr",
+            "subtitle": "Optjen hatte, kroner og solbriller, mens dagene flyver afsted.",
+            "sticker": "critter-wizard.png"
+          }
+        ],
+        "labels": {
+          "Count down to everything": "Tæl ned til alt muligt",
+          "everything": "alt muligt",
+          "Birthdays, trips, holidays, with a critter that can't wait either.": "Fødselsdage, rejser og højtider – sammen med en lille fyr, der heller ikke kan vente.",
+          "It gets more excited every day": "Glæden vokser dag for dag",
+          "excited": "begejstret",
+          "Share the hype": "Del begejstringen",
+          "hype": "begejstring",
+          "Cards, videos and GIFs for your Story or the group chat.": "Kort, videoer og GIF'er til din Story eller gruppechatten.",
+          "Every holiday you celebrate": "Alle de højtider, du fejrer",
+          "you": "dig",
+          "64 places and 10 traditions, from Hanukkah to Holi.": "64 steder og 10 traditioner, fra Hanukkah til Holi.",
+          "Your plans, counting down": "Dine planer, talt ned",
+          "counting down": "nedtælling",
+          "Turn any event in your Calendar into a countdown.": "Gør enhver begivenhed i din kalender til en nedtælling.",
+          "Dress up your critter": "Giv din lille fyr tøj på",
+          "critter": "lille fyr",
+          "Earn hats, crowns and shades as the days fly by.": "Optjen hatte, kroner og solbriller, mens dagene flyver afsted.",
+          "Wholesome, silly or savage": "Sød, fjollet eller kæk",
+          "savage": "kæk",
+          "Pick how your critter talks to you.": "Vælg, hvordan din lille fyr skal tale til dig.",
+          "Your countdowns stay yours": "Dine nedtællinger er dine egne",
+          "yours": "dine egne",
+          "Everything stays on your device.": "Alt bliver på din enhed.",
+          "Birthdays, trips, holidays, with a critter that can't wait either. Right in your menu bar.": "Fødselsdage, rejser og højtider – sammen med en lille fyr, der heller ikke kan vente.\nLige i din menulinje.",
+          "SOOOON!!!": "SOOOON!!!",
+          "A door to open each day, and the wait in sleeps, Mondays and heartbeats.": "En låge at åbne hver dag, og ventetiden opgjort i nætter, mandage og hjerteslag.",
+          "6 DAYS!!!": "6 DAGE!!!",
+          "Coldplay in 26 days!!": "Coldplay om 26 dage!!",
+          "100 days": "100 dage",
+          "30 days": "30 dage",
+          "1 week": "1 uge",
+          "Tomorrow": "I morgen",
+          "Today!": "I dag!",
+          "Picture": "Billede",
+          "Video": "Video",
+          "GIF": "GIF",
+          "AAAAAAH IT'S ALMOST HERE!": "AAAAAAH, DET ER LIGE OM LIDT!",
+          "No ads": "Ingen reklamer",
+          "No account": "Ingen konto",
+          "No tracking": "Ingen sporing",
+          "Mom": "Mor",
+          "Lisbon trip": "Tur til Lissabon",
+          "The weekend": "Weekenden",
+          "Big concert": "Stor koncert",
+          "Our anniversary": "Vores årsdag",
+          "Grandpa": "Bedstefar"
+        },
+        "provenance": {
+          "method": "existing native Soooon art and actual app language resources; editable marketing translation",
+          "source_locale": "en-US",
+          "locale": "da"
+        }
+      }
+    },
+    "myrenewals": {
+      "panels": [
+        [
+          "Hold styr på kommende fornyelser.",
+          "Hold øje med tilbagevendende udgifter og datoer.",
+          "Dit overblik"
+        ],
+        [
+          "Start med din indbakke.",
+          "Gennemgå importerede abonnementer, før du tilføjer dem.",
+          "Gennemgang af import"
+        ],
+        [
+          "Se de kommende datoer.",
+          "Hold styr på kommende fornyelser ét sted.",
+          "Fornyelseskalender"
+        ],
+        [
+          "Adskil arbejde og fritid.",
+          "Sammenlign løbende udgifter efter profil.",
+          "Privat og erhverv"
+        ],
+        [
+          "Hav detaljerne lige ved hånden.",
+          "Tjek datoer, betalingsmetoder og historik.",
+          "Detaljer om abonnement"
+        ],
+        [
+          "Alle dine abonnementer.\nÉt sted.",
+          "Se aktive og opsagte abonnementer.",
+          "Abonnementsliste"
+        ]
+      ],
+      "cta": "Oplev appen My Renewals."
+    },
+    "toctoc": {
+      "panels": [
+        [
+          "Bliv i arbejdsflowet.",
+          "En synlig påmindelse før dit opkald.",
+          "Nedtælling til møde"
+        ],
+        [
+          "Til en travl hverdag.",
+          "Påmindelser om møder til arbejdsdage med ADHD.",
+          "Synlig kalenderstøtte"
+        ],
+        [
+          "Påmindelser, der passer til dig.",
+          "Vælg påmindelser, der skiller sig ud.",
+          "Indstillinger for påmindelser"
+        ]
+      ],
+      "cta": "Udforsk projektet",
+      "social_copy": [
+        [
+          "Dybt koncentreret om arbejdet?",
+          "En synlig påmindelse før dit næste opkald."
+        ],
+        [
+          "Travl hverdag.\nTydelige påmindelser.",
+          "En kalender-makker til arbejdsdage med ADHD."
+        ],
+        [
+          "Påmindelser, der passer til dig.",
+          "Vælg, hvordan din påmindelse skal vises."
+        ],
+        [
+          "Tid til at deltage.",
+          "Én synlig påmindelse.\nDit næste opkald i sigte."
+        ]
+      ]
+    },
+    "zuzu": {
+      "panels": [
+        [
+          "Barnets dag.\nSamlet ét sted.",
+          "Søvn, måltider og bleskift i én fælles oversigt.",
+          "Daglig pasning af barnet"
+        ],
+        [
+          "Planlæg en roligere puttetid.",
+          "Se lure og vågne perioder.\nHold øje med rytmen.",
+          "Tider for søvn og vågne perioder"
+        ],
+        [
+          "Se barnets daglige mønstre.",
+          "Få indsigt via daglige registreringer.",
+          "Indsigt i barnets hverdag"
+        ],
+        [
+          "Se dem vokse.",
+          "Registrér mål.\nGem barnets historie.",
+          "Vækstregistrering"
+        ],
+        [
+          "Start før fødslen.",
+          "Følg ugerne, mens I venter.",
+          "Nedtælling til fødslen"
+        ],
+        [
+          "En lur.\nMens den står på.",
+          "Start en lur.\nFølg tiden.",
+          "Søvnregistrering"
+        ]
+      ],
+      "cta": "Oplev zuzu",
+      "play_panels": [
+        [
+          "Barnets dag.\nSamlet ét sted.",
+          "Barnets søvn, måltider og bleskift i én fælles oversigt.",
+          "Lur derhjemme"
+        ],
+        [
+          "Planlæg en mere rolig puttetid.",
+          "Se lure og vågne perioder.\nHold øje med rytmen.",
+          "Tider for søvn og vågne perioder"
+        ],
+        [
+          "En lille registrering.\nEt bedre overblik over dagen.",
+          "Lure, måltider og bleskift.\nVælg, hvad du vil registrere.",
+          "Tilføj registrering"
+        ],
+        [
+          "En lur.\nMens den står på.",
+          "Se timeren køre.\nHold øje med luren.",
+          "Søvn og lure"
+        ],
+        [
+          "Skab plads til læring.",
+          "Udforsk Søvnskolen.\nÉt kapitel ad gangen.",
+          "Søvnskolen"
+        ],
+        [
+          "Den første uge.\nDag for dag.",
+          "Find et sted at starte.\nGem minderne fra den første tid.",
+          "Den første uge"
+        ]
+      ]
+    }
+  },
+  "status": "Translated copy; per-image render QA tracked separately",
+  "translation_provenance": {
+    "method": "Public Google Translate UI, source IDs verified; reused approved Giftly wording; manual marketing/brand/acronym edits",
+    "review": "Automated coverage plus visual render review; native-speaker editorial review not independently certified"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "locale": "es-419",
+  "direction": "ltr",
+  "source_sha256": "018e0714757e90d4fa73ee4b3bf37b2c6c1f3949c156478414913e5d914c9c7d",
+  "products": {
+    "hooray": {
+      "panels": [
+        [
+          "Todos firman.",
+          "Una tarjeta grupal llena de cariño.",
+          "Una tarjeta de felicitación grupal"
+        ],
+        [
+          "Tus propias palabras.",
+          "Mensajes con personalidad.",
+          "Mensajes y pegatinas"
+        ],
+        [
+          "Descubre la sorpresa.",
+          "Una tarjeta de todo el grupo.",
+          "La tarjeta terminada"
+        ],
+        [
+          "Para tu ocasión especial.",
+          "Cumpleaños, agradecimientos y despedidas.",
+          "Celebren juntos"
+        ]
+      ],
+      "cta": "Crea una tarjeta"
+    },
+    "sundust": {
+      "panels": [
+        [
+          "Un cohete diminuto.\nUna gran aventura.",
+          "Despega.\nEncuentra tu próximo pequeño mundo.",
+          "Vuelo gravitatorio"
+        ],
+        [
+          "Sal de tu nave espacial.",
+          "Abandona tu nave y explora a pie.",
+          "Explora a pie"
+        ],
+        [
+          "Construye tu propio camino.",
+          "Extrae recursos y construye un lugar al que volver.",
+          "Construye puestos de avanzada"
+        ],
+        [
+          "La gravedad es tu guía.",
+          "Lee las órbitas.\nElige tu próximo aterrizaje.",
+          "Lee las órbitas"
+        ],
+        [
+          "Espera lo inesperado.",
+          "Un mundo tranquilo.\nUn visitante curioso.",
+          "Visitantes inesperados"
+        ],
+        [
+          "Hola, desconocido.",
+          "Conoce a los Vey.\nElige qué ofrecerles.",
+          "Contacto con los Vey"
+        ]
+      ],
+      "cta": "Descubre Sundust, el juego.",
+      "social_copy": [
+        [
+          "Un cohete diminuto.\nUna gran aventura.",
+          "Pilota tu nave.\nAterriza.\nExplora."
+        ],
+        [
+          "Sal de tu nave espacial.",
+          "Explora a pie."
+        ],
+        [
+          "Construye tu propio camino.",
+          "Extrae recursos.\nConstruye.\nRegresa."
+        ],
+        [
+          "La gravedad es tu guía.",
+          "Elige tu próxima órbita."
+        ]
+      ]
+    },
+    "memories": {
+      "panels": [
+        [
+          "Pequeños momentos.\nUna historia.",
+          "Fotos cotidianas.\nTu cronología personal.",
+          "Tu cronología personal"
+        ],
+        [
+          "Tu mes.\nEn una película.",
+          "Reúne los momentos del mes.",
+          "Película mensual"
+        ],
+        [
+          "Ten a mano tus favoritos.",
+          "Marca con una estrella los recuerdos que quieras volver a ver.",
+          "Momentos destacados"
+        ],
+        [
+          "Ponle banda sonora.",
+          "Elige la música que encaje con tu historia.",
+          "Opciones de banda sonora"
+        ]
+      ],
+      "cta": "Descubre Memories, la app."
+    },
+    "poof": {
+      "panels": [
+        [
+          "Libera espacio.",
+          "Mira qué ocupa espacio en tu Mac.",
+          "Análisis inteligente"
+        ],
+        [
+          "Revisa antes de borrar.",
+          "Elige qué eliminar.",
+          "Archivos basura del sistema"
+        ],
+        [
+          "Apps y datos.",
+          "Mira cuánto espacio ocupa cada app.",
+          "Aplicaciones"
+        ],
+        [
+          "Restos de caché acumulados.",
+          "Controla los archivos residuales de desarrollo.",
+          "Desarrollador"
+        ]
+      ],
+      "cta": "Explora el proyecto"
+    },
+    "soooon": {
+      "panels": [
+        [
+          "Grandes días.\nPequeño compañero.",
+          "Una cuenta atrás que se emociona contigo.",
+          "Tus cuentas atrás"
+        ],
+        [
+          "Haz que la espera también sea parte de la experiencia.",
+          "Ten presente tu próximo día especial.",
+          "El gran día"
+        ],
+        [
+          "Tus fechas importantes van aquí.",
+          "Viajes, cumpleaños y celebraciones, todo junto.",
+          "Calendario"
+        ],
+        [
+          "El estilo que te entusiasma.",
+          "Elige cómo habla tu compañero.",
+          "Personalidad"
+        ],
+        [
+          "Más cosas que esperar con ilusión.",
+          "Explora festividades de tus tradiciones.",
+          "Festividades"
+        ],
+        [
+          "Vístete para el gran día.",
+          "Dale un toque de personalidad a tu compañero.",
+          "Guardarropa"
+        ]
+      ],
+      "cta": "Explora el proyecto",
+      "original_store": {
+        "SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "title": "Cuenta atrás para todo",
+            "highlight": "todo",
+            "subtitle": "Cumpleaños, viajes, festividades... y una criaturita que tampoco puede esperar."
+          },
+          {
+            "name": "02-moods",
+            "palette": "birthday",
+            "title": "Se emociona cada día más",
+            "highlight": "emocionado",
+            "subtitle": null
+          },
+          {
+            "name": "03-share",
+            "palette": "trip",
+            "title": "Comparte la emoción",
+            "highlight": "emoción",
+            "subtitle": "Tarjetas, vídeos y GIFs para tus historias o el chat de grupo."
+          },
+          {
+            "name": "04-holidays",
+            "palette": "holiday",
+            "title": "Todas las fiestas que celebres",
+            "highlight": "tú",
+            "subtitle": "64 lugares y 10 tradiciones, desde Hanukkah hasta Holi."
+          },
+          {
+            "name": "05-calendar",
+            "palette": "calendar",
+            "title": "Tus planes, en cuenta atrás",
+            "highlight": "cuenta atrás",
+            "subtitle": "Convierte cualquier evento de tu calendario en una cuenta atrás."
+          },
+          {
+            "name": "06-wardrobe",
+            "palette": "wardrobe",
+            "title": "Viste a tu criaturita",
+            "highlight": "criaturita",
+            "subtitle": "Consigue gorros, coronas y gafas de sol a medida que pasan los días."
+          },
+          {
+            "name": "07-voice",
+            "palette": "voice",
+            "title": "Tierna, divertida o atrevida",
+            "highlight": "atrevida",
+            "subtitle": "Elige cómo te habla tu criaturita."
+          },
+          {
+            "name": "08-private",
+            "palette": "private",
+            "title": "Tus cuentas atrás son solo tuyas",
+            "highlight": "tuyas",
+            "subtitle": "Todo permanece en tu dispositivo."
+          }
+        ],
+        "MAC_SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "capture": "home.png",
+            "side": "right",
+            "title": "Cuenta atrás para todo",
+            "highlight": "todo",
+            "subtitle": "Cumpleaños, viajes, festividades... y una criaturita que tampoco puede esperar.\nDirecto en tu barra de menú.",
+            "sticker": "critter-party-hat.png",
+            "bubble": "SOOOON!!!"
+          },
+          {
+            "name": "02-detail",
+            "palette": "birthday",
+            "capture": "detail.png",
+            "side": "left",
+            "title": "Se emociona cada día más",
+            "highlight": "emocionado",
+            "subtitle": "Una puerta que abrir cada día y la espera medida en noches de sueño, lunes y latidos.",
+            "sticker": "mood-frantic.png",
+            "bubble": "¡¡¡6 DÍAS!!!"
+          },
+          {
+            "name": "03-holidays",
+            "palette": "holiday",
+            "capture": "holidays.png",
+            "side": "right",
+            "title": "Todas las fiestas que celebres",
+            "highlight": "tú",
+            "subtitle": "64 lugares y 10 tradiciones, desde Hanukkah hasta Holi.",
+            "sticker": "critter-crown.png"
+          },
+          {
+            "name": "04-calendar",
+            "palette": "calendar",
+            "capture": "calendar.png",
+            "side": "left",
+            "title": "Tus planes, en cuenta atrás",
+            "highlight": "cuenta atrás",
+            "subtitle": "Convierte cualquier evento de tu calendario en una cuenta atrás.",
+            "sticker": "critter-headphones.png",
+            "bubble": "¡¡Coldplay en 26 días!!"
+          },
+          {
+            "name": "05-wardrobe",
+            "palette": "wardrobe",
+            "capture": "wardrobe.png",
+            "side": "right",
+            "title": "Viste a tu criaturita",
+            "highlight": "criaturita",
+            "subtitle": "Consigue gorros, coronas y gafas de sol a medida que pasan los días.",
+            "sticker": "critter-wizard.png"
+          }
+        ],
+        "labels": {
+          "Count down to everything": "Cuenta atrás para todo",
+          "everything": "todo",
+          "Birthdays, trips, holidays, with a critter that can't wait either.": "Cumpleaños, viajes, festividades... y una criaturita que tampoco puede esperar.",
+          "It gets more excited every day": "Se emociona cada día más",
+          "excited": "emocionado",
+          "Share the hype": "Comparte la emoción",
+          "hype": "emoción",
+          "Cards, videos and GIFs for your Story or the group chat.": "Tarjetas, vídeos y GIFs para tus historias o el chat de grupo.",
+          "Every holiday you celebrate": "Todas las fiestas que celebres",
+          "you": "tú",
+          "64 places and 10 traditions, from Hanukkah to Holi.": "64 lugares y 10 tradiciones, desde Hanukkah hasta Holi.",
+          "Your plans, counting down": "Tus planes, en cuenta atrás",
+          "counting down": "cuenta atrás",
+          "Turn any event in your Calendar into a countdown.": "Convierte cualquier evento de tu calendario en una cuenta atrás.",
+          "Dress up your critter": "Viste a tu criaturita",
+          "critter": "criaturita",
+          "Earn hats, crowns and shades as the days fly by.": "Consigue gorros, coronas y gafas de sol a medida que pasan los días.",
+          "Wholesome, silly or savage": "Tierna, divertida o atrevida",
+          "savage": "atrevida",
+          "Pick how your critter talks to you.": "Elige cómo te habla tu criaturita.",
+          "Your countdowns stay yours": "Tus cuentas atrás son solo tuyas",
+          "yours": "tuyas",
+          "Everything stays on your device.": "Todo permanece en tu dispositivo.",
+          "Birthdays, trips, holidays, with a critter that can't wait either. Right in your menu bar.": "Cumpleaños, viajes, festividades... y una criaturita que tampoco puede esperar.\nDirecto en tu barra de menú.",
+          "SOOOON!!!": "SOOOON!!!",
+          "A door to open each day, and the wait in sleeps, Mondays and heartbeats.": "Una puerta que abrir cada día y la espera medida en noches de sueño, lunes y latidos.",
+          "6 DAYS!!!": "¡¡¡6 DÍAS!!!",
+          "Coldplay in 26 days!!": "¡¡Coldplay en 26 días!!",
+          "100 days": "100 días",
+          "30 days": "30 días",
+          "1 week": "1 semana",
+          "Tomorrow": "Mañana",
+          "Today!": "¡Hoy!",
+          "Picture": "Foto",
+          "Video": "Vídeo",
+          "GIF": "GIF",
+          "AAAAAAH IT'S ALMOST HERE!": "¡AAAAAH, YA FALTA POCO!",
+          "No ads": "Sin anuncios",
+          "No account": "Sin cuenta",
+          "No tracking": "Sin seguimiento",
+          "Mom": "Mamá",
+          "Lisbon trip": "Viaje a Lisboa",
+          "The weekend": "El fin de semana",
+          "Big concert": "Gran concierto",
+          "Our anniversary": "Nuestro aniversario",
+          "Grandpa": "Abuelo"
+        },
+        "provenance": {
+          "method": "existing native Soooon art and actual app language resources; editable marketing translation",
+          "source_locale": "en-US",
+          "locale": "es-419"
+        }
+      }
+    },
+    "myrenewals": {
+      "panels": [
+        [
+          "Consulta las próximas renovaciones.",
+          "Ten a la vista los gastos y fechas recurrentes.",
+          "Tu resumen"
+        ],
+        [
+          "Empieza por tu bandeja de entrada.",
+          "Revisa los planes importados antes de añadirlos.",
+          "Revisión de la importación"
+        ],
+        [
+          "Consulta las próximas fechas.",
+          "Ten a mano las próximas renovaciones.",
+          "Calendario de renovaciones"
+        ],
+        [
+          "Separa el trabajo de la vida personal.",
+          "Compara los gastos recurrentes por perfil.",
+          "Personal y empresa"
+        ],
+        [
+          "Ten los detalles siempre a mano.",
+          "Consulta fechas, métodos de pago e historial.",
+          "Detalles del plan"
+        ],
+        [
+          "Todos tus planes en un solo lugar.",
+          "Revisa las suscripciones activas y canceladas.",
+          "Lista de suscripciones"
+        ]
+      ],
+      "cta": "Descubre My Renewals, la aplicación."
+    },
+    "zuzu": {
+      "panels": [
+        [
+          "El día del bebé.\nTodo en uno.",
+          "Sueño, alimentación y cambios de pañal del bebé en una vista compartida.",
+          "Cuidado diario del bebé"
+        ],
+        [
+          "Planifica una rutina de sueño más tranquila.",
+          "Consulta las siestas y los momentos de vigilia.\nMantén el ritmo a la vista.",
+          "Horarios de sueño y vigilia"
+        ],
+        [
+          "Observa sus patrones diarios.",
+          "Explora información basada en los registros diarios.",
+          "Información sobre el cuidado del bebé"
+        ],
+        [
+          "Míralos crecer.",
+          "Registra sus medidas.\nConserva su historia cerca.",
+          "Registros de crecimiento"
+        ],
+        [
+          "Empieza antes del nacimiento.",
+          "Sigue el paso de las semanas durante la espera.",
+          "Cuenta atrás del embarazo"
+        ],
+        [
+          "Una siesta.\nEn tiempo real.",
+          "Inicia una siesta.\nSigue el temporizador.",
+          "Seguimiento del sueño"
+        ]
+      ],
+      "cta": "Descubre zuzu",
+      "play_panels": [
+        [
+          "El día del bebé.\nTodo en un mismo lugar.",
+          "Sueño, tomas y cambios de pañal del bebé en una vista compartida.",
+          "Siesta en casa"
+        ],
+        [
+          "Planifica una rutina de sueño más tranquila.",
+          "Consulta las siestas y los momentos de vigilia.\nMantén el ritmo a la vista.",
+          "Horarios de sueño y vigilia"
+        ],
+        [
+          "Un pequeño registro.\nUn día más claro.",
+          "Siestas, tomas y cambios.\nElige qué registrar.",
+          "Añadir registro"
+        ],
+        [
+          "Una siesta.\nEn tiempo real.",
+          "Mira el temporizador en marcha.\nMantén la siesta a la vista.",
+          "Sueño y siesta"
+        ],
+        [
+          "Haz espacio para aprender.",
+          "Explora la Escuela del Sueño.\nUn capítulo a la vez.",
+          "Escuela del Sueño"
+        ],
+        [
+          "La primera semana.\nDía a día.",
+          "Encuentra por dónde empezar.\nTen cerca los primeros momentos.",
+          "Primera semana"
+        ]
+      ]
+    }
+  },
+  "status": "Translated copy; per-image render QA tracked separately",
+  "translation_provenance": {
+    "method": "Public Google Translate UI, source IDs verified; reused approved Giftly wording; manual marketing/brand/acronym edits",
+    "review": "Automated coverage plus visual render review; native-speaker editorial review not independently certified"
+  }
+}

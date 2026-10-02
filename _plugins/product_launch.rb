@@ -12,6 +12,21 @@ module Jekyll
         page.data['layout'] = 'product-launch'
         page.data['product'] = slug
       end
+      # Polyglot builds each global language separately. Additional app languages
+      # are generated only in the default-language process, at explicit URLs.
+      return unless site.active_lang == site.default_lang
+      localized = site.data.fetch('product_launch_localized', {})
+      localized.each do |slug, variants|
+        variants.each do |locale, _launch|
+          next if locale == 'en-US' || site.languages.include?(locale)
+          url = "/#{locale}/apps/#{slug}/"
+          page = PageWithoutAFile.new(site, site.source, url.sub(%r{^/}, ''), 'index.html')
+          page.data.merge!('layout' => 'product-launch', 'product' => slug,
+            'product_locale' => locale, 'product_base_url' => "/apps/#{slug}/",
+            'permalink' => url, 'lang' => site.default_lang)
+          site.pages << page
+        end
+      end
     end
   end
 end

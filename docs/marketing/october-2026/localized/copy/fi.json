@@ -1,0 +1,543 @@
+{
+  "locale": "fi",
+  "direction": "ltr",
+  "source_sha256": "72cf336d6f4ff9acc83fb938f689341eac8b60f3acee18b6f1aa312468b3e816",
+  "products": {
+    "hooray": {
+      "panels": [
+        [
+          "Kaikki allekirjoittavat.",
+          "Yksi harkittu ryhmäkortti.",
+          "Ryhmätervehdyskortti"
+        ],
+        [
+          "Omat sanasi.",
+          "Persoonallisia viestejä.",
+          "Viestejä ja tarroja"
+        ],
+        [
+          "Avaa yllätys.",
+          "Kortti koko ryhmältä.",
+          "Valmis kortti"
+        ],
+        [
+          "Tilaisuuteesi sopiva.",
+          "Syntymäpäivät, kiitokset ja hyvästit.",
+          "Juhlistakaa yhdessä"
+        ]
+      ],
+      "cta": "Tee kortti"
+    },
+    "sundust": {
+      "panels": [
+        [
+          "Pieni raketti.\nSuuri seikkailu.",
+          "Lähde matkaan.\nLöydä seuraava pieni maailmasi.",
+          "Painovoimalento"
+        ],
+        [
+          "Astu ulos avaruusaluksestasi.",
+          "Poistu aluksesta ja tutki ympäristöä jalan.",
+          "Tutki jalan"
+        ],
+        [
+          "Rakenna oma polkusi.",
+          "Louhi resursseja ja rakenna paikka, johon palata.",
+          "Rakenna etuvartioita"
+        ],
+        [
+          "Painovoima näyttää suunnan.",
+          "Lue kiertoratoja.\nValitse seuraava laskeutumispaikka.",
+          "Lue kiertoratoja"
+        ],
+        [
+          "Varaudu yllätyksiin.",
+          "Hiljainen maailma.\nUtelias vierailija.",
+          "Odottamattomia vieraita"
+        ],
+        [
+          "Hei, muukalainen.",
+          "Kohtaa Vey-kansa.\nValitse, mitä tarjoat.",
+          "Kontakti Vey-kansaan"
+        ]
+      ],
+      "cta": "Tutustu Sundust-peliin.",
+      "social_copy": [
+        [
+          "Pieni raketti.\nSuuri seikkailu.",
+          "Lennä aluksellasi.\nLaskeudu.\nTutki."
+        ],
+        [
+          "Astu ulos avaruusaluksestasi.",
+          "Tutki jalan."
+        ],
+        [
+          "Rakenna oma polkusi.",
+          "Louhi resursseja.\nRakenna.\nPalaa takaisin."
+        ],
+        [
+          "Painovoima näyttää suunnan.",
+          "Valitse seuraava kiertorata."
+        ]
+      ]
+    },
+    "giftly": {
+      "panels": [
+        [
+          "Anna lahja\najatuksella.",
+          "Syntymäpäivät muistissa.\nLahjaideat tallessa.",
+          "Syntymäpäivät ja lahjaideat"
+        ],
+        [
+          "Seuraava juhla\non tiedossa.",
+          "Syntymäpäivät ja tärkeät päivät\nyhdessä paikassa.",
+          "Tärkeät päivämäärät"
+        ],
+        [
+          "Tallenna idea.\nIlahduta läheistä.",
+          "Pidä lahjaideat\noikean henkilön yhteydessä.",
+          "Ideoita, ei arvailua"
+        ],
+        [
+          "Yksityiskohdat\ntekevät lahjan.",
+          "Mieltymykset, koot ja aiemmat lahjat\nvalmiina, kun tarvitset niitä.",
+          "Pienet yksityiskohdat"
+        ]
+      ],
+      "cta": "Tutustu Giftlyyn"
+    },
+    "brainfold": {
+      "panels": [
+        [
+          "Muuta muistiinpanot harjoitukseksi.",
+          "Muistikortteja, tietovisoja ja tuutori – luotu omasta materiaalistasi.",
+          "Tekoälypohjainen opiskelukumppani"
+        ],
+        [
+          "Varaa aikaa oppimiseen ja kertaamiseen.",
+          "Kertaa muistikortteja.\nYksi kysymys kerrallaan.",
+          "Päivärytmiisi sopivat muistikortit"
+        ],
+        [
+          "Testaa, mitä muistat.",
+          "Tietovisoja muistiinpanoistasi.\nPalautetta heti.",
+          "Testaa ideoita käytännössä"
+        ],
+        [
+          "Ymmärrä oppitunnin sisältö ja jatka eteenpäin.",
+          "Kysy opiskelumateriaalistasi.\nPidä oppitunnin sisältö näkyvillä.",
+          "Apua asiayhteydessä"
+        ],
+        [
+          "Pidä opiskelumateriaali käden ulottuvilla.",
+          "Kattavat yhteenvedot ja keskeiset oivallukset.\nMateriaalisi valmiina kertausta varten.",
+          "Kattavat yhteenvedot"
+        ],
+        [
+          "Kutsu kaveri mukaan.\nTestaa muistiasi.",
+          "Valitse pakka.\nJärjestä tietokilpailu.",
+          "Kaksintaistelutila"
+        ]
+      ],
+      "cta": "Tutustu Brainfoldiin"
+    },
+    "memories": {
+      "panels": [
+        [
+          "Pieniä hetkiä.\nYksi tarina.",
+          "Arkisia kuvia.\nOma aikajanasi.",
+          "Oma aikajanasi"
+        ],
+        [
+          "Kuukautesi.\nElokuvana.",
+          "Kokoa kuukauden hetket yhteen.",
+          "Kuukausielokuva"
+        ],
+        [
+          "Pidä suosikit käden ulottuvilla.",
+          "Merkitse tähdellä muistot, jotka haluat löytää myöhemmin.",
+          "Kohokohdat"
+        ],
+        [
+          "Lisää taustamusiikki.",
+          "Valitse tarinaasi sopiva ääni.",
+          "Musiikkivalinnat"
+        ]
+      ],
+      "cta": "Tutustu Memories-sovellukseen."
+    },
+    "poof": {
+      "panels": [
+        [
+          "Vapauta tilaa.",
+          "Katso, mikä vie tilaa Macillasi.",
+          "Älykäs skannaus"
+        ],
+        [
+          "Tarkista ensin.",
+          "Valitse poistettavat kohteet.",
+          "Järjestelmän turhat tiedostot"
+        ],
+        [
+          "Sovellukset ja tiedot.",
+          "Näe kunkin sovelluksen viemä tila.",
+          "Sovellukset"
+        ],
+        [
+          "Välimuistiin jääneet tiedostot.",
+          "Pidä kehitystyön jäänteet näkyvillä.",
+          "Kehittäjä"
+        ]
+      ],
+      "cta": "Tutustu projektiin"
+    },
+    "soooon": {
+      "panels": [
+        [
+          "Suuret päivät.\nPieni kumppani.",
+          "Lähtölaskenta, joka innostuu kanssasi.",
+          "Omat lähtölaskentasi"
+        ],
+        [
+          "Tee odotuksesta osa kokemusta.",
+          "Pidä seuraava erityinen päiväsi näkyvillä.",
+          "Suuri päivä"
+        ],
+        [
+          "Tärkeät päivämäärät kuuluvat tänne.",
+          "Matkat, syntymäpäivät ja juhlat – kaikki yhdessä paikassa.",
+          "Kalenteri"
+        ],
+        [
+          "Juuri sinulle sopivaa hehkutusta.",
+          "Valitse, miten kumppanisi puhuu.",
+          "Persoona"
+        ],
+        [
+          "Lisää odotettavaa.",
+          "Tutustu omien perinteidesi mukaisiin juhlapäiviin.",
+          "Juhlapäivät"
+        ],
+        [
+          "Pukeudu juhlapäivää varten.",
+          "Anna kumppanillesi hieman persoonallisuutta.",
+          "Vaatekaappi"
+        ]
+      ],
+      "cta": "Tutustu projektiin",
+      "original_store": {
+        "SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "title": "Laske päiviä mihin tahansa",
+            "highlight": "mihin tahansa",
+            "subtitle": "Synttärit, matkat ja juhlapyhät – seurana hahmo, joka ei myöskään malta odottaa."
+          },
+          {
+            "name": "02-moods",
+            "palette": "birthday",
+            "title": "Se innostuu päivä päivältä enemmän",
+            "highlight": "innostunut",
+            "subtitle": null
+          },
+          {
+            "name": "03-share",
+            "palette": "trip",
+            "title": "Jaa innostus",
+            "highlight": "innostus",
+            "subtitle": "Kortteja, videoita ja GIF-kuvia tarinaasi tai ryhmäkeskusteluun."
+          },
+          {
+            "name": "04-holidays",
+            "palette": "holiday",
+            "title": "Kaikki juhlimasi pyhät",
+            "highlight": "sinä",
+            "subtitle": "64 paikkaa ja 10 perinnettä Hanukasta Holiin."
+          },
+          {
+            "name": "05-calendar",
+            "palette": "calendar",
+            "title": "Suunnitelmasi ja lähtölaskenta",
+            "highlight": "lähtölaskenta",
+            "subtitle": "Muuta mikä tahansa kalenteritapahtuma lähtölaskennaksi."
+          },
+          {
+            "name": "06-wardrobe",
+            "palette": "wardrobe",
+            "title": "Pue hahmosi",
+            "highlight": "hahmo",
+            "subtitle": "Ansaitse hattuja, kruunuja ja aurinkolaseja päivien kuluessa."
+          },
+          {
+            "name": "07-voice",
+            "palette": "voice",
+            "title": "Söpöä, hassua tai hurjaa",
+            "highlight": "hurja",
+            "subtitle": "Valitse, miten hahmosi puhuu sinulle."
+          },
+          {
+            "name": "08-private",
+            "palette": "private",
+            "title": "Lähtölaskentasi pysyvät sinun ominasi",
+            "highlight": "sinun",
+            "subtitle": "Kaikki pysyy laitteellasi."
+          }
+        ],
+        "MAC_SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "capture": "home.png",
+            "side": "right",
+            "title": "Laske päiviä mihin tahansa",
+            "highlight": "mihin tahansa",
+            "subtitle": "Synttärit, matkat ja juhlapyhät – seurana hahmo, joka ei myöskään malta odottaa.\nSuoraan valikkopalkissasi.",
+            "sticker": "critter-party-hat.png",
+            "bubble": "SOOOON!!!"
+          },
+          {
+            "name": "02-detail",
+            "palette": "birthday",
+            "capture": "detail.png",
+            "side": "left",
+            "title": "Se innostuu päivä päivältä enemmän",
+            "highlight": "innostunut",
+            "subtitle": "Avaa luukku joka päivä ja seuraa odotusta öinä, maanantaina ja sydämenlyönteinä.",
+            "sticker": "mood-frantic.png",
+            "bubble": "6 PÄIVÄÄ!!!"
+          },
+          {
+            "name": "03-holidays",
+            "palette": "holiday",
+            "capture": "holidays.png",
+            "side": "right",
+            "title": "Kaikki juhlimasi pyhät",
+            "highlight": "sinä",
+            "subtitle": "64 paikkaa ja 10 perinnettä Hanukasta Holiin.",
+            "sticker": "critter-crown.png"
+          },
+          {
+            "name": "04-calendar",
+            "palette": "calendar",
+            "capture": "calendar.png",
+            "side": "left",
+            "title": "Suunnitelmasi ja lähtölaskenta",
+            "highlight": "lähtölaskenta",
+            "subtitle": "Muuta mikä tahansa kalenteritapahtuma lähtölaskennaksi.",
+            "sticker": "critter-headphones.png",
+            "bubble": "Coldplay 26 päivän päästä!!"
+          },
+          {
+            "name": "05-wardrobe",
+            "palette": "wardrobe",
+            "capture": "wardrobe.png",
+            "side": "right",
+            "title": "Pue hahmosi",
+            "highlight": "hahmo",
+            "subtitle": "Ansaitse hattuja, kruunuja ja aurinkolaseja päivien kuluessa.",
+            "sticker": "critter-wizard.png"
+          }
+        ],
+        "labels": {
+          "Count down to everything": "Laske päiviä mihin tahansa",
+          "everything": "mihin tahansa",
+          "Birthdays, trips, holidays, with a critter that can't wait either.": "Synttärit, matkat ja juhlapyhät – seurana hahmo, joka ei myöskään malta odottaa.",
+          "It gets more excited every day": "Se innostuu päivä päivältä enemmän",
+          "excited": "innostunut",
+          "Share the hype": "Jaa innostus",
+          "hype": "innostus",
+          "Cards, videos and GIFs for your Story or the group chat.": "Kortteja, videoita ja GIF-kuvia tarinaasi tai ryhmäkeskusteluun.",
+          "Every holiday you celebrate": "Kaikki juhlimasi pyhät",
+          "you": "sinä",
+          "64 places and 10 traditions, from Hanukkah to Holi.": "64 paikkaa ja 10 perinnettä Hanukasta Holiin.",
+          "Your plans, counting down": "Suunnitelmasi ja lähtölaskenta",
+          "counting down": "lähtölaskenta",
+          "Turn any event in your Calendar into a countdown.": "Muuta mikä tahansa kalenteritapahtuma lähtölaskennaksi.",
+          "Dress up your critter": "Pue hahmosi",
+          "critter": "hahmo",
+          "Earn hats, crowns and shades as the days fly by.": "Ansaitse hattuja, kruunuja ja aurinkolaseja päivien kuluessa.",
+          "Wholesome, silly or savage": "Söpöä, hassua tai hurjaa",
+          "savage": "hurja",
+          "Pick how your critter talks to you.": "Valitse, miten hahmosi puhuu sinulle.",
+          "Your countdowns stay yours": "Lähtölaskentasi pysyvät sinun ominasi",
+          "yours": "sinun",
+          "Everything stays on your device.": "Kaikki pysyy laitteellasi.",
+          "Birthdays, trips, holidays, with a critter that can't wait either. Right in your menu bar.": "Synttärit, matkat ja juhlapyhät – seurana hahmo, joka ei myöskään malta odottaa.\nSuoraan valikkopalkissasi.",
+          "SOOOON!!!": "SOOOON!!!",
+          "A door to open each day, and the wait in sleeps, Mondays and heartbeats.": "Avaa luukku joka päivä ja seuraa odotusta öinä, maanantaina ja sydämenlyönteinä.",
+          "6 DAYS!!!": "6 PÄIVÄÄ!!!",
+          "Coldplay in 26 days!!": "Coldplay 26 päivän päästä!!",
+          "100 days": "100 päivää",
+          "30 days": "30 päivää",
+          "1 week": "1 viikko",
+          "Tomorrow": "Huomenna",
+          "Today!": "Tänään!",
+          "Picture": "Kuva",
+          "Video": "Video",
+          "GIF": "GIF",
+          "AAAAAAH IT'S ALMOST HERE!": "AAAAAAH, SE ON MELKEIN TÄÄLLÄ!",
+          "No ads": "Ei mainoksia",
+          "No account": "Ei käyttäjätiliä",
+          "No tracking": "Ei seurantaa",
+          "Mom": "Äiti",
+          "Lisbon trip": "Lissabonin-matka",
+          "The weekend": "Viikonloppu",
+          "Big concert": "Suuri konsertti",
+          "Our anniversary": "Vuosipäivämme",
+          "Grandpa": "Isoisä"
+        },
+        "provenance": {
+          "method": "existing native Soooon art and actual app language resources; editable marketing translation",
+          "source_locale": "en-US",
+          "locale": "fi"
+        }
+      }
+    },
+    "myrenewals": {
+      "panels": [
+        [
+          "Tiedä, mikä uusiutuu seuraavaksi.",
+          "Pidä toistuvat kulut ja päivämäärät näkyvillä.",
+          "Yleiskatsaus"
+        ],
+        [
+          "Aloita saapuneet-kansiosta.",
+          "Tarkista tuodut tilaukset ennen niiden lisäämistä.",
+          "Tuonnin tarkistus"
+        ],
+        [
+          "Näe tulevat päivämäärät.",
+          "Pidä tulevat uusimiset yhdessä paikassa.",
+          "Uusimiskalenteri"
+        ],
+        [
+          "Erota työ ja vapaa-aika.",
+          "Vertaile toistuvia kuluja profiileittain.",
+          "Henkilökohtainen ja yritys"
+        ],
+        [
+          "Tiedot ovat aina käden ulottuvilla.",
+          "Tarkista päivämäärät, maksutavat ja historia.",
+          "Tilauksen tiedot"
+        ],
+        [
+          "Kaikki tilauksesi.\nYhdessä paikassa.",
+          "Tarkastele aktiivisia ja peruttuja tilauksia.",
+          "Tilausluettelo"
+        ]
+      ],
+      "cta": "Tutustu My Renewals -sovellukseen."
+    },
+    "toctoc": {
+      "panels": [
+        [
+          "Pysy kiinni työssäsi.",
+          "Näkyvä muistutus ennen puhelua.",
+          "Kokouksen lähtölaskenta"
+        ],
+        [
+          "Kiireisille mielille.",
+          "Kokousmuistutukset ADHD-ystävälliseen työpäivään.",
+          "Näkyvä kalenterituki"
+        ],
+        [
+          "Juuri sinulle sopiva muistutus.",
+          "Valitse erottuvat muistutukset.",
+          "Muistutusasetukset"
+        ]
+      ],
+      "cta": "Tutustu projektiin",
+      "social_copy": [
+        [
+          "Syvällä työssä?",
+          "Näkyvä muistutus ennen seuraavaa puhelua."
+        ],
+        [
+          "Kiireinen mieli.\nSelkeät muistutukset.",
+          "Kalenterikumppani ADHD-ystävälliseen työpäivään."
+        ],
+        [
+          "Juuri sinulle sopiva muistutus.",
+          "Valitse, miltä muistutus näyttää."
+        ],
+        [
+          "Aika liittyä mukaan.",
+          "Yksi näkyvä muistutus.\nSeuraava puhelu näkyvissä."
+        ]
+      ]
+    },
+    "zuzu": {
+      "panels": [
+        [
+          "Vauvan päivä.\nKaikki yhdessä.",
+          "Vauvan unet, ruokailut ja vaipanvaihdot samassa näkymässä.",
+          "Vauvan päivittäinen hoito"
+        ],
+        [
+          "Suunnittele rauhallisempi nukkumaanmeno.",
+          "Seuraa päiväunia ja valveillaoloa.\nPidä rytmi näkyvillä.",
+          "Uni- ja valveajat"
+        ],
+        [
+          "Katso päivittäisiä rutiineja.",
+          "Tutki havaintoja arjen merkinnöistä.",
+          "Havaintoja vauvan hoidosta"
+        ],
+        [
+          "Seuraa kasvua.",
+          "Seuraa mittoja.\nPidä tarina lähellä.",
+          "Kasvutiedot"
+        ],
+        [
+          "Aloita jo ennen syntymää.",
+          "Seuraa viikkoja odotusaikana.",
+          "Raskauden ajanlaskenta"
+        ],
+        [
+          "Päiväunet.\nJuuri sillä hetkellä.",
+          "Aloita päiväunet.\nSeuraa ajastinta.",
+          "Unen seuranta"
+        ]
+      ],
+      "cta": "Tutustu zuzuun",
+      "play_panels": [
+        [
+          "Vauvan päivä.\nKaikki yhdessä.",
+          "Vauvan unet, ruokailut ja vaipanvaihdot samassa näkymässä.",
+          "Päiväunet kotona"
+        ],
+        [
+          "Suunnittele lempeämpi nukkumaanmeno.",
+          "Seuraa päiväunia ja valveillaoloaikoja.\nPidä rytmi näkyvillä.",
+          "Uni- ja valveajat"
+        ],
+        [
+          "Pieni merkintä.\nSelkeämpi päivä.",
+          "Päiväunet, ruokailut ja vaipanvaihdot.\nValitse seurattavat asiat.",
+          "Lisää merkintä"
+        ],
+        [
+          "Päiväunet.\nJuuri nyt.",
+          "Seuraa käynnissä olevaa ajastinta.\nPidä päiväunet näkyvillä.",
+          "Päiväunet"
+        ],
+        [
+          "Anna tilaa oppimiselle.",
+          "Tutustu unikouluun.\nLuku kerrallaan.",
+          "Unikoulu"
+        ],
+        [
+          "Ensimmäinen viikko.\nPäivä päivältä.",
+          "Löydä sopiva aloituskohta.\nPidä alkuvaiheen hetket lähellä.",
+          "Ensimmäinen viikko"
+        ]
+      ]
+    }
+  },
+  "status": "Translated copy; per-image render QA tracked separately",
+  "translation_provenance": {
+    "method": "Public Google Translate UI, source IDs verified; reused approved Giftly wording; manual marketing/brand/acronym edits",
+    "review": "Automated coverage plus visual render review; native-speaker editorial review not independently certified"
+  }
+}

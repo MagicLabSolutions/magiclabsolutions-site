@@ -1,30 +1,37 @@
 {% assign product = site.data.portfolio | where: 'slug', page.product | first %}
-{% assign launch = site.data.product_launch[product.slug] %}
+{% assign active_lang = page.product_locale | default: site.active_lang %}
+{% assign app_locale = active_lang %}{% if active_lang == 'en' %}{% assign app_locale = 'en-US' %}{% endif %}
+{% assign launch = site.data.product_launch_localized[product.slug][app_locale] | default: site.data.product_launch[product.slug] %}
+{% assign capture_lang = launch.capture_locale | default: 'en-US' %}
+{% assign product_base_url = page.product_base_url | default: page.url %}
 {% assign pc = product.copy[site.active_lang] | default: product.copy.en %}
-{% assign copy_lang = site.active_lang %}{% unless product.copy[site.active_lang] %}{% assign copy_lang = 'en' %}{% endunless %}
+{% if launch.localized_copy %}{% assign pc = launch.localized_copy %}{% endif %}
+{% assign copy_lang = active_lang %}{% unless product.copy[site.active_lang] or launch.localized_copy %}{% assign copy_lang = 'en' %}{% endunless %}
 {% assign ui = site.data.launch_ui[site.active_lang] | default: site.data.launch_ui.en %}
 {% assign prefix = '' %}{% if site.active_lang != site.default_lang %}{% assign prefix = site.active_lang | prepend: '/' %}{% endif %}
+{% if page.product_locale %}{% assign prefix = '' %}{% endif %}
 {% assign legal = site.data.launch_legal[product.slug] %}
-<!doctype html><html lang="{{ site.active_lang }}"><head>
+<!doctype html><html lang="{{ active_lang }}"{% if launch.direction == 'rtl' %} dir="rtl"{% endif %}><head>
   {% include gtag.html %}
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ product.name }} — {{ pc.headline | escape }} · Magic Lab Solutions</title>
   <meta name="description" content="{{ pc.description | escape }}"><meta name="theme-color" content="{{ launch.palette[0] }}">
   {% if product.noindex %}<meta name="robots" content="noindex,follow">{% endif %}
   <link rel="canonical" {% static_href %}href="{{ site.url }}{{ prefix }}{{ page.url }}"{% endstatic_href %}>
-  {% for lang in site.languages %}{% assign lp = '' %}{% if lang != site.default_lang %}{% assign lp = lang | prepend: '/' %}{% endif %}<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}{{ lp }}{{ page.url }}"{% endstatic_href %}>{% endfor %}
-  <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ site.url }}{{ page.url }}"{% endstatic_href %}>
+  {% for lang in site.languages %}{% assign lp = '' %}{% if lang != site.default_lang %}{% assign lp = lang | prepend: '/' %}{% endif %}<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}{{ lp }}{{ product_base_url }}"{% endstatic_href %}>{% endfor %}
+  {% for variant in site.data.product_launch_localized[product.slug] %}{% assign lang = variant[0] %}{% unless lang == 'en-US' or site.languages contains lang %}<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}/{{ lang }}{{ product_base_url }}"{% endstatic_href %}>{% endunless %}{% endfor %}
+  <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ site.url }}{{ product_base_url }}"{% endstatic_href %}>
   <link rel="icon" href="{{ product.icon | relative_url }}"><link rel="stylesheet" href="{{ '/css/product-launch.css' | relative_url }}">
   <script src="{{ '/js/product-launch.js' | relative_url }}" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"{% if product.category == 'games' %}VideoGame{% else %}SoftwareApplication{% endif %}","name":{{ product.name | jsonify }},"description":{{ pc.description | jsonify }},"image":{{ product.icon | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"author":{"@type":"Organization","name":"Magic Lab Solutions"}{% if product.store_url %},"downloadUrl":{{ product.store_url | jsonify }}{% endif %}}</script>
-  {% include social-meta.html product=page.product %}
+  {% include social-meta.html product=page.product locale=app_locale localized_copy=launch.localized_copy %}
 </head><body class="l-page" data-product="{{ product.slug }}" style="--paper:{{ launch.palette[0] }};--ink:{{ launch.palette[1] }};--accent:{{ launch.palette[2] }}">
   <a class="l-skip" href="#main">{{ ui.skip }}</a>
   <header class="l-header"><div class="l-wrap l-header-inner">
     <a class="l-brand" href="{{ '/' | relative_url }}"><img src="{{ product.icon | relative_url }}" width="42" height="42" alt=""><span>{{ product.name }}</span></a>
     <nav class="l-nav" aria-label="{{ ui.navigation }}"><a href="#experience">{{ ui.try }}</a><a href="#features">{{ ui.features }}</a><a href="#platforms">{{ ui.platforms }}</a><a href="#faq">FAQ</a></nav>
     <div class="l-header-controls"><button class="l-motion" type="button" data-motion-toggle aria-pressed="false" aria-label="{{ ui.pause }}" data-pause="{{ ui.pause }}" data-play="{{ ui.play }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg><span>{{ ui.pause }}</span></button>
-    <details class="l-languages"><summary>{{ site.active_lang }} <span aria-hidden="true">⌄</span></summary><nav aria-label="{{ ui.languages }}">{% for lang in site.languages %}{% assign lp = '' %}{% if lang != site.default_lang %}{% assign lp = lang | prepend: '/' %}{% endif %}<a lang="{{ lang }}" hreflang="{{ lang }}" {% static_href %}href="{{ lp }}{{ page.url }}"{% endstatic_href %}>{% if lang == site.active_lang %}✓ {% endif %}{{ site.data.language_names[lang] }}</a>{% endfor %}</nav></details></div>
+    <details class="l-languages"><summary>{{ active_lang }} <span aria-hidden="true">⌄</span></summary><nav aria-label="{{ ui.languages }}">{% for variant in site.data.product_launch_localized[product.slug] %}{% assign lang = variant[0] %}{% assign lp = lang | prepend: '/' %}{% if lang == 'en-US' %}{% assign lp = '' %}{% endif %}<a lang="{{ lang }}" hreflang="{{ lang }}" {% static_href %}href="{{ lp }}{{ product_base_url }}"{% endstatic_href %}>{% if lang == app_locale %}✓ {% endif %}{{ site.data.product_image_languages[lang] | default: lang }}</a>{% endfor %}</nav></details></div>
   </div></header>
   <main id="main">
     <section class="l-hero l-wrap" aria-labelledby="hero-title">
@@ -37,31 +44,31 @@
       </div>
       <div class="l-hero-art l-art{% if launch.hero.kind == 'mac' or launch.hero.kind == 'browser' %} l-art--wide{% endif %}" data-tilt>
         <svg class="l-orbits" viewBox="0 0 640 720" aria-hidden="true"><ellipse cx="320" cy="370" rx="285" ry="150" transform="rotate(-24 320 370)"/><ellipse cx="320" cy="370" rx="245" ry="280" transform="rotate(25 320 370)"/><circle cx="560" cy="225" r="7"/></svg>
-        <div class="l-hero-device">{% capture hero_alt %}{{ product.name }} — {{ launch.features[0].label }} (English native capture){% endcapture %}{% include launch-device.html device=launch.hero alt=hero_alt hero=true %}</div>
+        <div class="l-hero-device">{% capture hero_alt %}{{ product.name }} — {{ launch.features[0].label }} ({{ capture_lang }}){% endcapture %}{% include launch-device.html device=launch.hero alt=hero_alt hero=true %}</div>
         {% if launch.hero_cutout %}<div class="l-hero-component">{% include launch-component.html crop=launch.hero_cutout %}</div>{% endif %}
         {% for prop in launch.props limit:2 %}<div class="l-floating l-floating--{{ forloop.index }}" aria-hidden="true"><img src="{{ prop.src | relative_url }}" alt="" width="{{ prop.width }}" height="{{ prop.height }}"></div>{% endfor %}
         {% if launch.props.size == 0 %}<span class="l-floating l-floating--1 l-token" aria-hidden="true">{{ launch.features[0].label }}</span><span class="l-floating l-floating--2 l-token" aria-hidden="true">{{ launch.features[1].label }}</span>{% endif %}
       </div>
     </section>
-    <nav class="l-banner" aria-label="{{ ui.features }}" lang="en"><div class="l-wrap l-banner-inner">{% for feature in launch.features %}<a href="#feature-{{ forloop.index }}"><span aria-hidden="true">0{{ forloop.index }}</span>{{ feature.label }}<span aria-hidden="true">↗</span></a>{% endfor %}</div></nav>
+    <nav class="l-banner" aria-label="{{ ui.features }}" lang="{{ capture_lang }}"><div class="l-wrap l-banner-inner">{% for feature in launch.features %}<a href="#feature-{{ forloop.index }}"><span aria-hidden="true">0{{ forloop.index }}</span>{{ feature.label }}<span aria-hidden="true">↗</span></a>{% endfor %}</div></nav>
     <section class="l-wrap l-demo-section" id="experience" aria-labelledby="demo-title" data-reveal>
       <div class="l-section-head"><p class="l-eyebrow">{{ ui.try_here }}</p><h2 id="demo-title">{{ ui.demo_title }}</h2><p>{{ ui.demo_note }}</p></div>
       <div class="l-demo" data-demo="{{ launch.demo }}" data-lang="{% if site.active_lang == 'pt-BR' %}pt-BR{% else %}en{% endif %}" lang="{% if site.active_lang == 'pt-BR' %}pt-BR{% else %}en{% endif %}"><noscript>{{ ui.nojs }}</noscript></div>
       <script type="application/json" id="launch-demo-data">{"props":{{ launch.props | jsonify }},"demo_photos":{{ launch.demo_photos | jsonify }}}</script>
     </section>
     <section class="l-features l-wrap" id="features" aria-labelledby="features-title">
-      <div class="l-section-head" data-reveal><p class="l-eyebrow">{{ ui.inside }}</p><h2 id="features-title">{{ ui.features_title }}</h2><p>{{ ui.screen_note }}</p></div>
+      <div class="l-section-head" data-reveal><p class="l-eyebrow">{{ ui.inside }}</p><h2 id="features-title">{{ ui.features_title }}</h2><p>{% if launch.capture_locale %}{{ product.name }} · {{ launch.capture_locale }}{% else %}{{ ui.screen_note }}{% endif %}</p></div>
       {% for feature in launch.features %}<article class="l-feature{% cycle '', ' l-feature--reverse' %}" id="feature-{{ forloop.index }}" data-reveal>
-        <div class="l-feature-copy" lang="en"><p class="l-eyebrow">0{{ forloop.index }} / {{ feature.label }}</p><h3>{{ feature.title }}</h3><p>{{ feature.description }}</p></div>
+        <div class="l-feature-copy" lang="{{ capture_lang }}"><p class="l-eyebrow">0{{ forloop.index }} / {{ feature.label }}</p><h3>{{ feature.title }}</h3><p>{{ feature.description }}</p></div>
         <div class="l-feature-art l-art{% if feature.device.kind == 'mac' or feature.device.kind == 'browser' %} l-art--wide{% endif %}" data-tilt>
-          <button type="button" class="l-device-button" data-enlarge aria-label="{{ ui.enlarge }} — {{ feature.label | escape }}" data-title="{{ feature.label | escape }}"><div class="l-feature-device">{% capture feature_alt %}{{ product.name }} — {{ feature.label }} (English native capture){% endcapture %}{% include launch-device.html device=feature.device alt=feature_alt %}</div></button>
+          <button type="button" class="l-device-button" data-enlarge aria-label="{{ ui.enlarge }} — {{ feature.label | escape }}" data-title="{{ feature.label | escape }}"><div class="l-feature-device">{% capture feature_alt %}{{ product.name }} — {{ feature.label }} ({{ capture_lang }}){% endcapture %}{% include launch-device.html device=feature.device alt=feature_alt %}</div></button>
           {% if feature.cutout %}<div class="l-feature-component">{% include launch-component.html crop=feature.cutout %}</div>{% endif %}
         </div>
       </article>{% endfor %}
     </section>
     <section class="l-platform-section" id="platforms" aria-labelledby="platform-title" data-reveal><div class="l-wrap">
       <div class="l-section-head"><p class="l-eyebrow">{{ ui.platforms }}</p><h2 id="platform-title">{{ ui.platform_title }}</h2><div class="l-platform-labels">{% for platform in launch.platforms %}<span>{{ platform }}</span>{% endfor %}</div></div>
-      <div class="l-fleet l-fleet--{{ launch.fleet.size }}">{% for item in launch.fleet %}<figure class="l-fleet-device l-fleet-device--{{ item.device.kind }}"><button type="button" class="l-device-button" data-enlarge data-title="{{ item.label }}" aria-label="{{ ui.enlarge }} — {{ item.label }}">{% capture fleet_alt %}{{ product.name }} on {{ item.label }} — English native capture{% endcapture %}{% include launch-device.html device=item.device alt=fleet_alt %}</button><figcaption>{{ item.label }}</figcaption></figure>{% endfor %}</div>
+      <div class="l-fleet l-fleet--{{ launch.fleet.size }}">{% for item in launch.fleet %}<figure class="l-fleet-device l-fleet-device--{{ item.device.kind }}"><button type="button" class="l-device-button" data-enlarge data-title="{{ item.label }}" aria-label="{{ ui.enlarge }} — {{ item.label }}">{% capture fleet_alt %}{{ product.name }} on {{ item.label }} — {{ capture_lang }}{% endcapture %}{% include launch-device.html device=item.device alt=fleet_alt %}</button><figcaption>{{ item.label }}</figcaption></figure>{% endfor %}</div>
       <div class="l-actions l-actions--center">{% include launch-actions.html %}</div>
     </div></section>
     {% if launch.legacy_details %}<section class="l-practical l-wrap" data-reveal aria-label="{{ ui.practical }}">{% assign details_include = launch.legacy_details | prepend: 'launch-details/' | append: '.html' %}{% include {{ details_include }} %}</section>{% endif %}

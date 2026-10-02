@@ -1,0 +1,138 @@
+{
+  "SLIDES": [
+    {
+      "name": "01-home",
+      "palette": "party",
+      "title": "Count down to everything",
+      "highlight": "everything",
+      "subtitle": "Birthdays, trips, holidays, with a critter that can't wait either."
+    },
+    {
+      "name": "02-moods",
+      "palette": "birthday",
+      "title": "It gets more excited every day",
+      "highlight": "excited",
+      "subtitle": null
+    },
+    {
+      "name": "03-share",
+      "palette": "trip",
+      "title": "Share the hype",
+      "highlight": "hype",
+      "subtitle": "Cards, videos and GIFs for your Story or the group chat."
+    },
+    {
+      "name": "04-holidays",
+      "palette": "holiday",
+      "title": "Every holiday you celebrate",
+      "highlight": "you",
+      "subtitle": "64 places and 10 traditions, from Hanukkah to Holi."
+    },
+    {
+      "name": "05-calendar",
+      "palette": "calendar",
+      "title": "Your plans, counting down",
+      "highlight": "counting down",
+      "subtitle": "Turn any event in your Calendar into a countdown."
+    },
+    {
+      "name": "06-wardrobe",
+      "palette": "wardrobe",
+      "title": "Dress up your critter",
+      "highlight": "critter",
+      "subtitle": "Earn hats, crowns and shades as the days fly by."
+    },
+    {
+      "name": "07-voice",
+      "palette": "voice",
+      "title": "Wholesome, silly or savage",
+      "highlight": "savage",
+      "subtitle": "Pick how your critter talks to you."
+    },
+    {
+      "name": "08-private",
+      "palette": "private",
+      "title": "Your countdowns stay yours",
+      "highlight": "yours",
+      "subtitle": "Everything stays on your device."
+    }
+  ],
+  "MAC_SLIDES": [
+    {
+      "name": "01-home",
+      "palette": "party",
+      "capture": "home.png",
+      "side": "right",
+      "title": "Count down to everything",
+      "highlight": "everything",
+      "subtitle": "Birthdays, trips, holidays, with a critter that can't wait either. Right in your menu bar.",
+      "sticker": "critter-party-hat.png",
+      "bubble": "SOOOON!!!"
+    },
+    {
+      "name": "02-detail",
+      "palette": "birthday",
+      "capture": "detail.png",
+      "side": "left",
+      "title": "It gets more excited every day",
+      "highlight": "excited",
+      "subtitle": "A door to open each day, and the wait in sleeps, Mondays and heartbeats.",
+      "sticker": "mood-frantic.png",
+      "bubble": "6 DAYS!!!"
+    },
+    {
+      "name": "03-holidays",
+      "palette": "holiday",
+      "capture": "holidays.png",
+      "side": "right",
+      "title": "Every holiday you celebrate",
+      "highlight": "you",
+      "subtitle": "64 places and 10 traditions, from Hanukkah to Holi.",
+      "sticker": "critter-crown.png"
+    },
+    {
+      "name": "04-calendar",
+      "palette": "calendar",
+      "capture": "calendar.png",
+      "side": "left",
+      "title": "Your plans, counting down",
+      "highlight": "counting down",
+      "subtitle": "Turn any event in your Calendar into a countdown.",
+      "sticker": "critter-headphones.png",
+      "bubble": "Coldplay in 26 days!!"
+    },
+    {
+      "name": "05-wardrobe",
+      "palette": "wardrobe",
+      "capture": "wardrobe.png",
+      "side": "right",
+      "title": "Dress up your critter",
+      "highlight": "critter",
+      "subtitle": "Earn hats, crowns and shades as the days fly by.",
+      "sticker": "critter-wizard.png"
+    }
+  ],
+  "labels": [
+    "SOOOON!!!",
+    "100 days",
+    "30 days",
+    "1 week",
+    "Tomorrow",
+    "Today!",
+    "Picture",
+    "Video",
+    "GIF",
+    "Coldplay in 26 days!!",
+    "AAAAAAH IT'S ALMOST HERE!",
+    "No ads",
+    "No account",
+    "No tracking",
+    "6 DAYS!!!",
+    "Mom",
+    "Lisbon trip",
+    "The weekend",
+    "Big concert",
+    "Our anniversary",
+    "Grandpa"
+  ]
+}

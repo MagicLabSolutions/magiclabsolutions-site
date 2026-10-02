@@ -1,0 +1,543 @@
+{
+  "locale": "tr",
+  "direction": "ltr",
+  "source_sha256": "72cf336d6f4ff9acc83fb938f689341eac8b60f3acee18b6f1aa312468b3e816",
+  "products": {
+    "hooray": {
+      "panels": [
+        [
+          "Herkes imzalar.",
+          "Düşünceli bir grup kartı.",
+          "Bir grup tebrik kartı"
+        ],
+        [
+          "Kendi sözleriniz.",
+          "Kişilik yansıtan mesajlar.",
+          "Mesajlar ve çıkartmalar"
+        ],
+        [
+          "Sürprizi açın.",
+          "Tüm gruptan bir kart.",
+          "Tamamlanmış kart"
+        ],
+        [
+          "Özel gününüz için.",
+          "Doğum günleri, teşekkürler ve vedalar.",
+          "Birlikte kutlayın"
+        ]
+      ],
+      "cta": "Bir kart hazırlayın"
+    },
+    "sundust": {
+      "panels": [
+        [
+          "Küçük bir roket.\nBüyük bir macera.",
+          "Havalanın.\nBir sonraki küçük dünyanızı keşfedin.",
+          "Yerçekimi uçuşu"
+        ],
+        [
+          "Uzay geminizden dışarı çıkın.",
+          "Uzay geminizden inin ve yürüyerek keşfe çıkın.",
+          "Yürüyerek keşfedin"
+        ],
+        [
+          "Kendi yolunuzu çizin.",
+          "Kaynak çıkarın ve geri dönebileceğiniz bir yer inşa edin.",
+          "İleri karakollar kurun"
+        ],
+        [
+          "Rehberiniz yerçekimi olsun.",
+          "Yörüngeleri okuyun.\nBir sonraki iniş noktanızı seçin.",
+          "Yörüngeleri okuyun"
+        ],
+        [
+          "Beklenmedik olana hazırlıklı olun.",
+          "Sessiz bir dünya.\nMeraklı bir ziyaretçi.",
+          "Beklenmedik ziyaretçiler"
+        ],
+        [
+          "Merhaba yabancı.",
+          "Vey ile tanışın.\nNe sunacağınıza karar verin.",
+          "Vey ile iletişim"
+        ]
+      ],
+      "cta": "Sundust oyununu keşfedin.",
+      "social_copy": [
+        [
+          "Küçük bir roket.\nBüyük bir macera.",
+          "Geminizi uçurun.\nİniş yapın.\nKeşfedin."
+        ],
+        [
+          "Uzay geminizden dışarı çıkın.",
+          "Yürüyerek keşfedin."
+        ],
+        [
+          "Kendi yolunuzu çizin.",
+          "Kaynak çıkarın.\nİnşa edin.\nGeri dönün."
+        ],
+        [
+          "Rehberiniz yerçekimi olsun.",
+          "Bir sonraki yörüngenizi seçin."
+        ]
+      ]
+    },
+    "giftly": {
+      "panels": [
+        [
+          "Biraz daha\nözen gösterin.",
+          "Doğum günleri akılda.\nHediye fikirleri kayıtlı.",
+          "Doğum günleri ve hediye fikirleri"
+        ],
+        [
+          "Sıradaki kutlama\ngözünüzün önünde.",
+          "Doğum günleri ve özel tarihler,\nhepsi bir yerde.",
+          "Önemli tarihler"
+        ],
+        [
+          "Fikri kaydedin.\nYüzünü güldürün.",
+          "Hediye fikirlerini\nait oldukları kişiyle saklayın.",
+          "Tahmin yürütmek yerine, net fikirler"
+        ],
+        [
+          "Detaylar hediyeyi\nkişisel kılar.",
+          "Zevkler, bedenler ve geçmiş hediyeler,\nihtiyaç duyduğunuzda elinizin altında.",
+          "Küçük ayrıntılar"
+        ]
+      ],
+      "cta": "Giftly'yi keşfedin"
+    },
+    "brainfold": {
+      "panels": [
+        [
+          "Notlarınızı bir çalışma pratiğine dönüştürün.",
+          "Bilgi kartları, testler ve bir özel eğitmen;\nhepsi kendi materyallerinizden oluşturulur.",
+          "Yapay zeka destekli çalışma arkadaşı"
+        ],
+        [
+          "Öğrenmeye ve hatırlamaya zaman ayırın.",
+          "Bilgi kartlarını gözden geçirin.\nHer seferinde tek bir soru.",
+          "Günlük akışınıza uyum sağlayan bilgi kartları"
+        ],
+        [
+          "Hatırladıklarınızı test edin.",
+          "Notlarınızdan hazırlanan testler.\nİlerledikçe anında geri bildirim.",
+          "Fikirleri test edin"
+        ],
+        [
+          "Dersi anlayın ve ilerlemeye devam edin.",
+          "Çalışma materyallerinizle ilgili sorular sorun.\nDersi göz önünde bulundurun.",
+          "Bağlam içinde yardım"
+        ],
+        [
+          "Çalışma materyallerinizi elinizin altında bulundurun.",
+          "Kapsamlı özetler ve önemli bilgiler.\nMateryalleriniz, incelemeye hazır.",
+          "Kapsamlı özetler"
+        ],
+        [
+          "Bir arkadaşınızı davet edin.\nBilgilerinizi test edin.",
+          "Paketinizi seçin.\nBir bilgi yarışması başlatın.",
+          "Yarışma modu"
+        ]
+      ],
+      "cta": "Brainfold'u keşfedin"
+    },
+    "memories": {
+      "panels": [
+        [
+          "Küçük anlar.\nTek bir hikaye.",
+          "Günlük fotoğraflar.\nKişisel zaman çizelgeniz.",
+          "Kişisel zaman çizelgeniz"
+        ],
+        [
+          "Ayınız.\nBir filmde.",
+          "Ayın anlarını bir araya getirin.",
+          "Aylık film"
+        ],
+        [
+          "Favorilerinizi elinizin altında tutun.",
+          "Tekrar bulmak istediğiniz anıları yıldızlayın.",
+          "Öne çıkanlar"
+        ],
+        [
+          "Bir müzik ekleyin.",
+          "Hikayenize uygun sesi seçin.",
+          "Müzik seçenekleri"
+        ]
+      ],
+      "cta": "Memories uygulamasını keşfedin."
+    },
+    "poof": {
+      "panels": [
+        [
+          "Yer açın.",
+          "Mac'inizde nelerin yer kapladığını görün.",
+          "Akıllı Tarama"
+        ],
+        [
+          "Önce inceleyin.",
+          "Silinecek öğeleri seçin.",
+          "Sistem Gereksiz Dosyaları"
+        ],
+        [
+          "Uygulamalar ve veriler.",
+          "Her bir uygulamanın kapladığı alanı görün.",
+          "Uygulamalar"
+        ],
+        [
+          "Biriken önbellek kalıntıları.",
+          "Geliştirme sürecinden kalan gereksiz dosyaları görün.",
+          "Geliştirici"
+        ]
+      ],
+      "cta": "Projeyi keşfedin"
+    },
+    "soooon": {
+      "panels": [
+        [
+          "Önemli günler.\nKüçük bir yol arkadaşı.",
+          "Sizinle birlikte heyecanlanan bir geri sayım.",
+          "Geri sayımlarınız"
+        ],
+        [
+          "Bekleme sürecini de deneyimin bir parçası yapın.",
+          "Bir sonraki özel gününüzü göz önünde bulundurun.",
+          "Büyük gün"
+        ],
+        [
+          "Önemli tarihleriniz burada.",
+          "Geziler, doğum günleri ve kutlamalar; hepsi bir arada.",
+          "Takvim"
+        ],
+        [
+          "Tam size göre bir heyecan.",
+          "Yardımcınızın konuşma tarzını seçin.",
+          "Kişilik"
+        ],
+        [
+          "Heyecanla bekleyecek daha çok şey.",
+          "Kendi geleneklerinizdeki özel günleri keşfedin.",
+          "Özel günler"
+        ],
+        [
+          "Büyük güne hazırlanın.",
+          "Yardımcınıza biraz kişilik katın.",
+          "Gardırop"
+        ]
+      ],
+      "cta": "Projeyi keşfedin",
+      "original_store": {
+        "SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "title": "Her şey için geri sayım yapın",
+            "highlight": "her şey",
+            "subtitle": "Doğum günleri, seyahatler, tatiller; üstelik bekleyemeyen sevimli bir dost eşliğinde."
+          },
+          {
+            "name": "02-moods",
+            "palette": "birthday",
+            "title": "Her geçen gün heyecan artıyor",
+            "highlight": "heyecanlı",
+            "subtitle": null
+          },
+          {
+            "name": "03-share",
+            "palette": "trip",
+            "title": "Heyecanı paylaşın",
+            "highlight": "heyecan",
+            "subtitle": "Hikayeniz veya grup sohbetiniz için kartlar, videolar ve GIF'ler."
+          },
+          {
+            "name": "04-holidays",
+            "palette": "holiday",
+            "title": "Kutladığınız her tatil",
+            "highlight": "siz",
+            "subtitle": "Hanuka'dan Holi'ye; 64 yer ve 10 gelenek."
+          },
+          {
+            "name": "05-calendar",
+            "palette": "calendar",
+            "title": "Planlarınız, geri sayımınız",
+            "highlight": "geri sayım",
+            "subtitle": "Takviminizdeki herhangi bir etkinliği geri sayıma dönüştürün."
+          },
+          {
+            "name": "06-wardrobe",
+            "palette": "wardrobe",
+            "title": "Sevimli dostunuzu süsleyin",
+            "highlight": "sevimli dost",
+            "subtitle": "Günler akıp giderken şapkalar, taçlar ve güneş gözlükleri kazanın."
+          },
+          {
+            "name": "07-voice",
+            "palette": "voice",
+            "title": "İç ısıtan, eğlenceli veya biraz sivri dilli",
+            "highlight": "sivri dilli",
+            "subtitle": "Sevimli dostunuzun sizinle nasıl konuşacağını seçin."
+          },
+          {
+            "name": "08-private",
+            "palette": "private",
+            "title": "Geri sayımlarınız size özel kalır",
+            "highlight": "size özel",
+            "subtitle": "Her şey cihazınızda kalır."
+          }
+        ],
+        "MAC_SLIDES": [
+          {
+            "name": "01-home",
+            "palette": "party",
+            "capture": "home.png",
+            "side": "right",
+            "title": "Her şey için geri sayım yapın",
+            "highlight": "her şey",
+            "subtitle": "Doğum günleri, seyahatler, tatiller; üstelik bekleyemeyen sevimli bir dost eşliğinde. Tam menü çubuğunuzda.",
+            "sticker": "critter-party-hat.png",
+            "bubble": "SOOOON!!!"
+          },
+          {
+            "name": "02-detail",
+            "palette": "birthday",
+            "capture": "detail.png",
+            "side": "left",
+            "title": "Her geçen gün heyecan artıyor",
+            "highlight": "heyecanlı",
+            "subtitle": "Her gün açılacak bir kapı ve uyku, Pazartesi ve kalp atışı cinsinden bekleyiş.",
+            "sticker": "mood-frantic.png",
+            "bubble": "6 GÜN!!!"
+          },
+          {
+            "name": "03-holidays",
+            "palette": "holiday",
+            "capture": "holidays.png",
+            "side": "right",
+            "title": "Kutladığınız her tatil",
+            "highlight": "siz",
+            "subtitle": "Hanuka'dan Holi'ye; 64 yer ve 10 gelenek.",
+            "sticker": "critter-crown.png"
+          },
+          {
+            "name": "04-calendar",
+            "palette": "calendar",
+            "capture": "calendar.png",
+            "side": "left",
+            "title": "Planlarınız, geri sayımınız",
+            "highlight": "geri sayım",
+            "subtitle": "Takviminizdeki herhangi bir etkinliği geri sayıma dönüştürün.",
+            "sticker": "critter-headphones.png",
+            "bubble": "26 gün sonra Coldplay!!"
+          },
+          {
+            "name": "05-wardrobe",
+            "palette": "wardrobe",
+            "capture": "wardrobe.png",
+            "side": "right",
+            "title": "Sevimli dostunuzu süsleyin",
+            "highlight": "sevimli dost",
+            "subtitle": "Günler akıp giderken şapkalar, taçlar ve güneş gözlükleri kazanın.",
+            "sticker": "critter-wizard.png"
+          }
+        ],
+        "labels": {
+          "Count down to everything": "Her şey için geri sayım yapın",
+          "everything": "her şey",
+          "Birthdays, trips, holidays, with a critter that can't wait either.": "Doğum günleri, seyahatler, tatiller; üstelik bekleyemeyen sevimli bir dost eşliğinde.",
+          "It gets more excited every day": "Her geçen gün heyecan artıyor",
+          "excited": "heyecanlı",
+          "Share the hype": "Heyecanı paylaşın",
+          "hype": "heyecan",
+          "Cards, videos and GIFs for your Story or the group chat.": "Hikayeniz veya grup sohbetiniz için kartlar, videolar ve GIF'ler.",
+          "Every holiday you celebrate": "Kutladığınız her tatil",
+          "you": "siz",
+          "64 places and 10 traditions, from Hanukkah to Holi.": "Hanuka'dan Holi'ye; 64 yer ve 10 gelenek.",
+          "Your plans, counting down": "Planlarınız, geri sayımınız",
+          "counting down": "geri sayım",
+          "Turn any event in your Calendar into a countdown.": "Takviminizdeki herhangi bir etkinliği geri sayıma dönüştürün.",
+          "Dress up your critter": "Sevimli dostunuzu süsleyin",
+          "critter": "sevimli dost",
+          "Earn hats, crowns and shades as the days fly by.": "Günler akıp giderken şapkalar, taçlar ve güneş gözlükleri kazanın.",
+          "Wholesome, silly or savage": "İç ısıtan, eğlenceli veya biraz sivri dilli",
+          "savage": "sivri dilli",
+          "Pick how your critter talks to you.": "Sevimli dostunuzun sizinle nasıl konuşacağını seçin.",
+          "Your countdowns stay yours": "Geri sayımlarınız size özel kalır",
+          "yours": "size özel",
+          "Everything stays on your device.": "Her şey cihazınızda kalır.",
+          "Birthdays, trips, holidays, with a critter that can't wait either. Right in your menu bar.": "Doğum günleri, seyahatler, tatiller; üstelik bekleyemeyen sevimli bir dost eşliğinde. Tam menü çubuğunuzda.",
+          "SOOOON!!!": "SOOOON!!!",
+          "A door to open each day, and the wait in sleeps, Mondays and heartbeats.": "Her gün açılacak bir kapı ve uyku, Pazartesi ve kalp atışı cinsinden bekleyiş.",
+          "6 DAYS!!!": "6 GÜN!!!",
+          "Coldplay in 26 days!!": "26 gün sonra Coldplay!!",
+          "100 days": "100 gün",
+          "30 days": "30 gün",
+          "1 week": "1 hafta",
+          "Tomorrow": "Yarın",
+          "Today!": "Bugün!",
+          "Picture": "Resim",
+          "Video": "Video",
+          "GIF": "GIF",
+          "AAAAAAH IT'S ALMOST HERE!": "AAAAAAH, NEREDEYSE GELDİ!",
+          "No ads": "Reklam yok",
+          "No account": "Hesap gerektirmez",
+          "No tracking": "İzleme yok",
+          "Mom": "Annem",
+          "Lisbon trip": "Lizbon gezisi",
+          "The weekend": "Hafta sonu",
+          "Big concert": "Büyük konser",
+          "Our anniversary": "Yıldönümümüz",
+          "Grandpa": "Büyükbabam\nstar_border"
+        },
+        "provenance": {
+          "method": "existing native Soooon art and actual app language resources; editable marketing translation",
+          "source_locale": "en-US",
+          "locale": "tr"
+        }
+      }
+    },
+    "myrenewals": {
+      "panels": [
+        [
+          "Sırada neyin yenileneceğini bilin.",
+          "Düzenli ödemeleri ve tarihleri ​​takip edin.",
+          "Genel bakış"
+        ],
+        [
+          "Gelen kutunuzla başlayın.",
+          "İçe aktarılan planları eklemeden önce gözden geçirin.",
+          "İçe aktarım incelemesi"
+        ],
+        [
+          "İlerideki tarihleri ​​görün.",
+          "Yaklaşan yenilemeleri bir arada tutun.",
+          "Yenileme takvimi"
+        ],
+        [
+          "İş ve özel hayatı ayırın.",
+          "Düzenli ödemeleri profillere göre karşılaştırın.",
+          "Kişisel ve şirket"
+        ],
+        [
+          "Ayrıntılar elinizin altında.",
+          "Tarihleri, ödeme yöntemlerini ve geçmişi kontrol edin.",
+          "Plan ayrıntıları"
+        ],
+        [
+          "Tüm planlarınız.\nTek bir yerde.",
+          "Aktif ve iptal edilmiş abonelikleri inceleyin.",
+          "Abonelik listesi"
+        ]
+      ],
+      "cta": "My Renewals uygulamasını keşfedin."
+    },
+    "toctoc": {
+      "panels": [
+        [
+          "İşinize odaklanın.",
+          "Görüşmenizden önce görünür bir hatırlatma.",
+          "Toplantı geri sayımı"
+        ],
+        [
+          "Meşgul zihinler için.",
+          "DEHB'li bireylerin iş günleri için toplantı hatırlatmaları.",
+          "Görünür takvim desteği"
+        ],
+        [
+          "Tam size göre bir hatırlatma.",
+          "Dikkat çeken hatırlatmaları seçin.",
+          "Hatırlatma ayarları"
+        ]
+      ],
+      "cta": "Projeyi keşfedin",
+      "social_copy": [
+        [
+          "İşe iyice daldınız mı?",
+          "Bir sonraki görüşmenizden önce görünür bir hatırlatma."
+        ],
+        [
+          "Meşgul zihin.\nNet hatırlatmalar.",
+          "DEHB'li bireylerin iş günleri için bir takvim arkadaşı."
+        ],
+        [
+          "Tam size göre bir hatırlatma.",
+          "Hatırlatmanızın nasıl görüneceğini seçin."
+        ],
+        [
+          "Katılma zamanı.",
+          "Tek bir görünür hatırlatma.\nBir sonraki görüşmeniz gözünüzün önünde."
+        ]
+      ]
+    },
+    "zuzu": {
+      "panels": [
+        [
+          "Bebeğin günü.\nHepsi bir arada.",
+          "Bebek uykusu, beslenme ve alt değiştirme işlemleri tek bir ortak görünümde.",
+          "Günlük bebek bakımı"
+        ],
+        [
+          "Daha sakin bir uyku vakti planlayın.",
+          "Şekerlemeleri ve uyanık kalma sürelerini görün.\nDüzeni takip edin.",
+          "Uyku ve uyanıklık zamanlaması"
+        ],
+        [
+          "Günlük rutinlerini görün.",
+          "Günlük kayıtlardan elde edilen içgörüleri keşfedin.",
+          "Bebek bakımıyla ilgili içgörüler"
+        ],
+        [
+          "Büyümelerine tanık olun.",
+          "Ölçümleri takip edin.\nHikayelerini yakından izleyin.",
+          "Büyüme kayıtları"
+        ],
+        [
+          "Doğumdan önce başlayın.",
+          "Bekleyiş sürecinde haftaları takip edin.",
+          "Hamilelik geri sayımı"
+        ],
+        [
+          "Şekerleme.\nTam o anda.",
+          "Şekerlemeyi başlatın.\nZamanlayıcısını takip edin.",
+          "Uyku takibi"
+        ]
+      ],
+      "cta": "zuzu'yu keşfedin",
+      "play_panels": [
+        [
+          "Bebeğin günü.\nHepsi bir arada.",
+          "Bebek uykusu, beslenme ve alt değiştirme işlemleri tek bir ortak görünümde.",
+          "Evde Şekerleme"
+        ],
+        [
+          "Daha sakin bir uyku vakti planlayın.",
+          "Şekerlemeleri ve uyanık kalma sürelerini görün.\nDüzeni takip edin.",
+          "Uyku ve uyanıklık zamanlaması"
+        ],
+        [
+          "Küçük bir kayıt.\nDaha net bir gün.",
+          "Şekerlemeler, beslenmeler ve alt değişimleri.\nNeyi takip edeceğinizi seçin.",
+          "Kayıt Ekle"
+        ],
+        [
+          "Şekerleme.\nTam o anda.",
+          "İşleyen zamanlayıcıyı görün.\nŞekerlemeyi takipte kalın.",
+          "Uyku/Şekerleme"
+        ],
+        [
+          "Öğrenmeye yer açın.",
+          "Sleep School'u keşfedin.\nHer seferinde bir bölüm.",
+          "Sleep School"
+        ],
+        [
+          "İlk hafta.\nGünbegün.",
+          "Başlangıç ​​için bir nokta belirleyin.\nİlk anları yanı başınızda tutun.",
+          "İlk Hafta"
+        ]
+      ]
+    }
+  },
+  "status": "Translated copy; per-image render QA tracked separately",
+  "translation_provenance": {
+    "method": "Public Google Translate UI, source IDs verified; reused approved Giftly wording; manual marketing/brand/acronym edits",
+    "review": "Automated coverage plus visual render review; native-speaker editorial review not independently certified"
+  }
+}

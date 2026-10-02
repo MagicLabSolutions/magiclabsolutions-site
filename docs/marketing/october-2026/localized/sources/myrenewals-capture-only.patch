@@ -1,0 +1,506 @@
+--- a/SubscriptionManager/AppDelegate.swift	2026-09-03 22:13:23
++++ b/SubscriptionManager/AppDelegate.swift	2026-10-02 00:52:07
+@@ -6,12 +6,21 @@
+ //
+ 
+ import UIKit
++import FirebaseCore
+ import UserNotifications
+ import GoogleSignIn
+ 
+ @main
+ class AppDelegate: UIResponder, UIApplicationDelegate {
+     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") {
++            let options = FirebaseOptions(googleAppID: "1:000000000000:ios:0000000000000000000000", gcmSenderID: "000000000000")
++            options.apiKey = "AIza00000000000000000000000000000000000"
++            options.projectID = "offline-marketing-fixtures"
++            FirebaseApp.configure(options: options)
++            FirebaseApp.app()?.isDataCollectionDefaultEnabled = false
++            return true
++        }
+         LibraryManager.start(with: application, and: launchOptions)
+         UNUserNotificationCenter.current().delegate = self
+ 
+--- a/SubscriptionManager/Library/Core/Managers/Firebase/FirebaseManager+Analytics.swift	2026-07-21 14:45:37
++++ b/SubscriptionManager/Library/Core/Managers/Firebase/FirebaseManager+Analytics.swift	2026-10-02 00:52:07
+@@ -10,6 +10,7 @@
+ 
+ extension FirebaseManager {
+     static func track(_ event: AnalyticsEvent, params: [AnalyticsParameter: Any]? = nil) {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return }
+         var parameters: [String: Any] = [:]
+         params?.forEach({ key, value in
+             parameters[key.rawValue] = value
+@@ -19,6 +20,7 @@
+     }
+     
+     static func track(_ event: String, params: [String: Any]? = nil) {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return }
+         Analytics.logEvent(event, parameters: params)
+     }
+ }
+--- a/SubscriptionManager/Library/Core/Managers/Firebase/SessionManager.swift	2026-09-10 10:17:41
++++ b/SubscriptionManager/Library/Core/Managers/Firebase/SessionManager.swift	2026-10-02 00:52:07
+@@ -16,7 +16,7 @@
+     
+     static let shared = SessionManager()
+     
+-    @Published var user: User? = Auth.auth().currentUser
++    @Published var user: User? = ProcessInfo.processInfo.arguments.contains("-marketing-screen") ? nil : Auth.auth().currentUser
+     @Published var isSigningIn: Bool = false
+     @Published var signInError: String?
+     
+--- a/SubscriptionManager/Library/Core/MobileMagicData/Managers/NotificationPreferencesRepository.swift	2026-07-21 14:45:37
++++ b/SubscriptionManager/Library/Core/MobileMagicData/Managers/NotificationPreferencesRepository.swift	2026-10-02 00:52:07
+@@ -12,6 +12,7 @@
+ 
+     func fetch() async -> NotificationPreferences {
+         let localValue = local.load() ?? .default
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return localValue }
+ 
+         Task { @MainActor in
+             await Self.syncGate.runOnce { @MainActor in
+--- a/SubscriptionManager/Modules/Home/HomeViewModel.swift	2026-09-10 10:17:41
++++ b/SubscriptionManager/Modules/Home/HomeViewModel.swift	2026-10-02 00:52:07
+@@ -53,6 +53,7 @@
+     
+     @MainActor
+     func load() async {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return }
+         isLoading = true
+         FirebaseManager.track("home_open")
+         let allItems = await repository.fetchAll()
+--- a/SubscriptionManager/Modules/Plans/Plans/PlansViewModel.swift	2026-09-10 10:17:41
++++ b/SubscriptionManager/Modules/Plans/Plans/PlansViewModel.swift	2026-10-02 00:52:07
+@@ -35,6 +35,7 @@
+     
+     @MainActor
+     func load() async {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return }
+         isLoading = true
+         
+         FirebaseManager.track("subscriptions_open")
+--- a/SubscriptionManager/Modules/Renewals/RenewalsViewModel.swift	2026-09-10 10:17:41
++++ b/SubscriptionManager/Modules/Renewals/RenewalsViewModel.swift	2026-10-02 00:52:07
+@@ -40,6 +40,7 @@
+ 
+     @MainActor
+     func loadInitial() async {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return }
+         isLoading = true
+         loadedMonthStarts = []
+         groupedDays = []
+--- a/SubscriptionManager/SceneDelegate.swift	2026-09-03 22:13:23
++++ b/SubscriptionManager/SceneDelegate.swift	2026-10-02 00:52:07
+@@ -6,6 +6,7 @@
+ //
+ 
+ import UIKit
++import SwiftUI
+ import GoogleSignIn
+ 
+ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+@@ -28,6 +29,25 @@
+ 
+     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+ 
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen"), let ws = scene as? UIWindowScene {
++            let args = ProcessInfo.processInfo.arguments
++            let index = args.firstIndex(of: "-marketing-screen")!
++            let name = args[index + 1]
++            let view: AnyView
++            switch name {
++            case "home": view = AnyView(MarketingCaptures.homeView())
++            case "import": view = AnyView(MarketingCaptures.importView())
++            case "renewals": view = AnyView(MarketingCaptures.renewalsView())
++            case "profiles": view = AnyView(MarketingCaptures.profilesView())
++            case "detail": view = AnyView(MarketingCaptures.detailView())
++            case "plans": view = AnyView(MarketingCaptures.plansView())
++            default: preconditionFailure("Unknown capture")
++            }
++            window = UIWindow(windowScene: ws)
++            window?.rootViewController = UIHostingController(rootView: view.environment(\.locale, Locale(identifier: UserDefaults.standard.string(forKey: "AppleLocale") ?? Locale.current.identifier)))
++            window?.makeKeyAndVisible()
++            return
++        }
+         guard let ws = (scene as? UIWindowScene) else { return }
+         initiateWindow(with: ws)
+ 
+@@ -157,6 +177,7 @@
+ 
+     // MARK: - Foreground updates
+     func sceneWillEnterForeground(_ scene: UIScene) {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return }
+         // Sync from Firebase when app becomes active (notification sent after sync completes)
+         syncSubscriptions()
+         
+@@ -176,6 +197,7 @@
+     }
+ 
+     func sceneDidBecomeActive(_ scene: UIScene) {
++        if ProcessInfo.processInfo.arguments.contains("-marketing-screen") { return }
+         // Clear badge when app becomes active
+         UIApplication.shared.applicationIconBadgeNumber = 0
+ 
+@@ -254,5 +276,360 @@
+             try? await Task.sleep(nanoseconds: 100_000_000) // 0.1s
+             attempts += 1
+         }
++    }
++}
++
++@MainActor enum MarketingCaptures {
++    // MARK: - View Builders
++
++    @MainActor
++    static func homeView() -> some View {
++        UserDefaultFlags.didDismissImportAnnouncementCard = true
++        let vm = HomeViewModel()
++        vm.isLoading = false
++        vm.subscriptions = MockData.allSubscriptions
++        vm.upcoming = MockData.allActive
++        vm.activeIncludingGrace = MockData.allActive
++        vm.upcomingRenewals = MockData.allActive
++        vm.cancelled = [MockData.disneyPlus]
++        vm.categoryTotals = MockData.categoryTotals
++        vm.currentMonthTotal = ["USD": 105.52]
++        vm.nextRenewalDays = 3
++        vm.nextRenewalsCount = 2
++        vm.currentMonthTitle = Date().formatted(.dateTime.month(.wide).locale(Locale(identifier: UserDefaults.standard.string(forKey: "AppleLocale") ?? Locale.current.identifier)))
++        vm.top3Expensive = Array(MockData.allActive.prefix(5))
++        vm.top3Cheapest = Array(MockData.allActive.suffix(5))
++
++        return HomeContentView()
++            .environmentObject(vm)
++    }
++
++    @MainActor
++    static func plansView() -> some View {
++        let vm = PlansViewModel()
++        vm.isLoading = false
++        vm.upcoming = MockData.allActive
++        vm.cancelled = [MockData.disneyPlus]
++        vm.cancelledButActive = []
++
++        return PlansContentView()
++            .environmentObject(vm)
++    }
++
++    @MainActor
++    static func detailView() -> some View {
++        let vm = PlanDetailViewModel(subscription: MockData.netflix)
++
++        return PlanDetailContentView()
++            .environmentObject(vm)
++    }
++
++    /// The import entry screen. 1.2.5 shipped screenshot import as the headline feature
++    /// and the store listing never showed it once.
++    @MainActor
++    /// The review screen rather than the import entry screen: what sells this feature is
++    /// the result — a list the app found for you — not a screen with a button on it.
++    static func importView() -> some View {
++        ImportEmailReviewContentView()
++            .environmentObject(ImportEmailViewModel(preloadedResults: MockData.parsedSubscriptions))
++    }
++
++    /// Home scoped to "All Profiles" so the by-profile breakdown card is visible — that
++    /// card is the feature, not the switcher.
++    @MainActor
++    static func profilesView() -> some View {
++        UserDefaultFlags.didDismissImportAnnouncementCard = true
++        let vm = HomeViewModel()
++        vm.isLoading = false
++        vm.subscriptions = MockData.allSubscriptions
++        vm.upcoming = MockData.allActive
++        vm.activeIncludingGrace = MockData.allActive
++        vm.upcomingRenewals = MockData.allActive
++        vm.categoryTotals = MockData.categoryTotals
++        vm.currentMonthTotal = ["USD": 105.52]
++        vm.currentMonthTitle = Date().formatted(.dateTime.month(.wide).locale(Locale(identifier: UserDefaults.standard.string(forKey: "AppleLocale") ?? Locale.current.identifier)))
++        vm.nextRenewalDays = 3
++        vm.nextRenewalsCount = 2
++        vm.profileTotals = MockData.profileTotals
++
++        return HomeContentView()
++            .environmentObject(vm)
+     }
++
++    @MainActor
++    static func renewalsView() -> some View {
++        let vm = RenewalsViewModel()
++        vm.isLoading = false
++        vm.hasSubscriptions = true
++        vm.groupedDays = [
++            (day: Date(), subscriptions: [MockData.netflix, MockData.spotify]),
++            (day: Date(timeIntervalSinceNow: 3 * 86400), subscriptions: [MockData.chatGPT]),
++            (day: Date(timeIntervalSinceNow: 7 * 86400), subscriptions: [MockData.iCloud]),
++            (day: Date(timeIntervalSinceNow: 14 * 86400), subscriptions: [MockData.youtube, MockData.gym]),
++        ]
++
++        return RenewalsContentView()
++            .environmentObject(vm)
++    }
+ }
++
++import Foundation
++
++
++/// Provides realistic mock data for App Store screenshot generation.
++enum MockData {
++
++    // MARK: - Subscriptions
++
++    static let netflix = Subscription(
++        id: "mock-netflix",
++        name: "Netflix",
++        currency: "USD",
++        category: .entertainment,
++        paymentMethod: "Visa •••• 4242",
++        billingPlatform: .apple,
++        notes: "Family plan",
++        createdAt: Date(timeIntervalSinceNow: -180 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: nil,
++        status: .active,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -180 * 86400),
++                price: 15.99,
++                cycle: .monthly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: [
++            NotificationAlert(daysBefore: 1, isFreeTrial: false),
++        ]
++    )
++
++    static let spotify = Subscription(
++        id: "mock-spotify",
++        name: "Spotify",
++        currency: "USD",
++        category: .entertainment,
++        paymentMethod: nil,
++        billingPlatform: .direct,
++        notes: nil,
++        createdAt: Date(timeIntervalSinceNow: -90 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: nil,
++        status: .active,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -90 * 86400),
++                price: 10.99,
++                cycle: .monthly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: [
++            NotificationAlert(daysBefore: 0, isFreeTrial: false),
++        ]
++    )
++
++    static let chatGPT = Subscription(
++        id: "mock-chatgpt",
++        name: "ChatGPT Plus",
++        currency: "USD",
++        category: .productivity,
++        paymentMethod: "Mastercard •••• 1234",
++        billingPlatform: .apple,
++        notes: nil,
++        createdAt: Date(timeIntervalSinceNow: -120 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: nil,
++        status: .active,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -120 * 86400),
++                price: 19.99,
++                cycle: .monthly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: [
++            NotificationAlert(daysBefore: 3, isFreeTrial: false, hour: 9, minute: 0),
++        ]
++    )
++
++    static let iCloud = Subscription(
++        id: "mock-icloud",
++        name: "iCloud+",
++        currency: "USD",
++        category: .utilities,
++        paymentMethod: nil,
++        billingPlatform: .apple,
++        notes: "2TB plan",
++        createdAt: Date(timeIntervalSinceNow: -365 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: nil,
++        status: .active,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -365 * 86400),
++                price: 9.99,
++                cycle: .monthly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: []
++    )
++
++    static let youtube = Subscription(
++        id: "mock-youtube",
++        name: "YouTube Premium",
++        currency: "USD",
++        category: .entertainment,
++        paymentMethod: nil,
++        billingPlatform: .apple,
++        notes: nil,
++        createdAt: Date(timeIntervalSinceNow: -200 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: nil,
++        status: .active,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -200 * 86400),
++                price: 13.99,
++                cycle: .monthly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: []
++    )
++
++    static let adobe = Subscription(
++        id: "mock-adobe",
++        name: "Adobe Creative Cloud",
++        currency: "USD",
++        category: .productivity,
++        paymentMethod: "Visa •••• 4242",
++        billingPlatform: .direct,
++        notes: "Photography plan",
++        createdAt: Date(timeIntervalSinceNow: -300 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: nil,
++        status: .active,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -300 * 86400),
++                price: 54.99,
++                cycle: .yearly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: [
++            NotificationAlert(daysBefore: 7, isFreeTrial: false),
++        ]
++    )
++
++    static let gym = Subscription(
++        id: "mock-gym",
++        name: "Gym Membership",
++        currency: "USD",
++        category: .health,
++        paymentMethod: nil,
++        billingPlatform: .direct,
++        notes: nil,
++        createdAt: Date(timeIntervalSinceNow: -60 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: nil,
++        status: .active,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -60 * 86400),
++                price: 29.99,
++                cycle: .monthly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: []
++    )
++
++    static let disneyPlus = Subscription(
++        id: "mock-disney",
++        name: "Disney+",
++        currency: "USD",
++        category: .entertainment,
++        paymentMethod: nil,
++        billingPlatform: .apple,
++        notes: nil,
++        createdAt: Date(timeIntervalSinceNow: -365 * 86400),
++        freeTrialEndDate: nil,
++        cancelledAt: Date(timeIntervalSinceNow: -30 * 86400),
++        status: .cancelled,
++        planChanges: [
++            PlanChange(
++                date: Date(timeIntervalSinceNow: -365 * 86400),
++                price: 7.99,
++                cycle: .monthly,
++                notes: nil,
++                customIntervalValue: nil,
++                customIntervalUnit: nil
++            ),
++        ],
++        alerts: []
++    )
++
++    // MARK: - Collections
++
++    static let allActive: [Subscription] = [
++        netflix, spotify, chatGPT, iCloud, youtube, adobe, gym,
++    ]
++
++    static let allSubscriptions: [Subscription] = [
++        netflix, spotify, chatGPT, iCloud, youtube, adobe, gym, disneyPlus,
++    ]
++
++    // MARK: - Category Totals
++
++    static let categoryTotals: [CategoryTotal] = [
++        CategoryTotal(category: .entertainment, total: 40.97, currency: "USD"),
++        CategoryTotal(category: .productivity, total: 24.57, currency: "USD"),
++        CategoryTotal(category: .utilities, total: 9.99, currency: "USD"),
++        CategoryTotal(category: .health, total: 29.99, currency: "USD"),
++    ]
++
++    /// Two wallets with a clear split, so the breakdown card reads instantly in a
++    /// screenshot rather than needing to be studied.
++    static let personalProfile = Profile(id: Profile.defaultId, name: "Personal", colorIndex: 1, symbolName: "person")
++    static let companyProfile = Profile(id: "company", name: "Company", colorIndex: 2, symbolName: "briefcase")
++
++    /// Built by decoding, because ParsedSubscription only has a decoder — its custom
++    /// init(from:) suppresses the memberwise one.
++    static let parsedSubscriptions: [ParsedSubscription] = {
++        let json = """
++        [
++          {"id":"p1","name":"Netflix Premium","price":15.99,"currency":"USD","renewalCycle":"monthly","category":"entertainment","confidence":0.95},
++          {"id":"p2","name":"Spotify Family","price":10.99,"currency":"USD","renewalCycle":"monthly","category":"entertainment","confidence":0.93},
++          {"id":"p3","name":"Adobe Creative Cloud","price":54.99,"currency":"USD","renewalCycle":"yearly","category":"productivity","confidence":0.9},
++          {"id":"p4","name":"iCloud+","price":9.99,"currency":"USD","renewalCycle":"monthly","category":"utilities","confidence":0.92},
++          {"id":"p5","name":"Notion Plus","price":8.00,"currency":"USD","renewalCycle":"monthly","category":"productivity","confidence":0.88}
++        ]
++        """
++        return (try? JSONDecoder().decode([ParsedSubscription].self, from: Data(json.utf8))) ?? []
++    }()
++
++    static let profileTotals: [ProfileTotal] = [
++        ProfileTotal(profile: personalProfile, totalsByCurrency: ["USD": 64.54], count: 6),
++        ProfileTotal(profile: companyProfile, totalsByCurrency: ["USD": 40.98], count: 3),
++    ]
++}

@@ -1,0 +1,141 @@
+--- a/src/lib/format.ts	2026-09-30 08:57:34
++++ b/src/lib/format.ts	2026-10-02 01:24:23
+@@ -1,5 +1,5 @@
+ import type { Card } from './types';
+-import { t } from './i18n';
++import { t, getLocale } from './i18n';
+ 
+ /**
+  * The absolute delivery instant. Prefer the server's `deliverAtUtc` (a real
+@@ -36,8 +36,8 @@
+   if (isNaN(d.getTime())) return `${card.date} ${card.time}`;
+   return t(
+     '%@ at %@',
+-    d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+-    d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }),
++    d.toLocaleDateString(getLocale(), { month: 'short', day: 'numeric' }),
++    d.toLocaleTimeString(getLocale(), { hour: 'numeric', minute: '2-digit' }),
+   );
+ }
+ 
+@@ -46,9 +46,9 @@
+   const d = deliveryDate(card);
+   if (isNaN(d.getTime())) return `${card.date} ${card.time}`;
+   return (
+-    d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) +
++    d.toLocaleDateString(getLocale(), { month: 'short', day: 'numeric' }) +
+     ', ' +
+-    d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
++    d.toLocaleTimeString(getLocale(), { hour: 'numeric', minute: '2-digit' })
+   );
+ }
+ 
+@@ -56,7 +56,7 @@
+ export function fmtDeliveredDate(card: Card): string {
+   const d = deliveryDate(card);
+   if (isNaN(d.getTime())) return card.date;
+-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
++  return d.toLocaleDateString(getLocale(), { month: 'short', day: 'numeric' });
+ }
+ 
+ export function daysUntilDelivery(card: Card): number {
+--- a/src/lib/store.ts	2026-09-30 08:57:34
++++ b/src/lib/store.ts	2026-10-02 01:22:18
+@@ -2,7 +2,7 @@
+ import type { Card, CardItem, Occasion } from './types';
+ import { SLOTS, SLOTS_PER_PAGE } from './types';
+ import { api, apiEnabled, deliverAtUtc, ownerToken, ApiError } from './api';
+-import { getLocale } from './i18n';
++import { getLocale, t } from './i18n';
+ import type { ItemPatch } from './api';
+ 
+ const STORAGE_KEY = 'hooray.cards.v1';
+@@ -24,8 +24,8 @@
+       occasion: 'birthday',
+       toName: 'Maya',
+       toEmail: 'maya@example.com',
+-      fromName: 'the whole crew',
+-      date: '2026-09-03',
++      fromName: t('all of us'),
++      date: '2026-11-10',
+       time: '09:00',
+       status: 'collecting',
+       pages: [
+@@ -33,7 +33,7 @@
+           {
+             id: 's1',
+             type: 'message',
+-            text: 'Happy birthday, Maya! Cake first, meetings never.',
++            text: t('Happy birthday, Maya!'),
+             author: 'Sam',
+             font: 0,
+             color: '#2B2320',
+@@ -43,17 +43,17 @@
+           {
+             id: 's3',
+             type: 'message',
+-            text: '27 looks GREAT on you. Celebrate big!',
++            text: t('Hip hip hooray!'),
+             author: 'Priya',
+             font: 1,
+             color: '#D8402E',
+             slot: 2,
+           },
+-          { id: 's4', type: 'gif', label: 'confetti GIF', slot: 3 },
++          { id: 's4', type: 'sticker', label: 'cake slice sticker', slot: 3 },
+           {
+             id: 's5',
+             type: 'message',
+-            text: 'Best desk neighbor ever. Have the happiest day.',
++            text: t("You're the best"),
+             author: 'Jordan',
+             font: 2,
+             color: '#00897B',
+@@ -134,12 +134,13 @@
+ function load(): Card[] {
+   if (apiEnabled) return []; // server is the source of truth
+   try {
+-    const raw = localStorage.getItem(STORAGE_KEY);
++    const raw = null;
+     if (raw) return JSON.parse(raw) as Card[];
+   } catch {
+     /* fall through to seed */
+   }
+   const seeded = seedCards();
++  localStorage.setItem('hooray.joined.maya-b3f9', '1');
+   try {
+     localStorage.setItem(STORAGE_KEY, JSON.stringify(seeded));
+   } catch {
+--- a/src/main.tsx	2026-09-30 08:57:34
++++ b/src/main.tsx	2026-10-02 01:21:53
+@@ -1,15 +1,16 @@
+ import { StrictMode } from 'react';
+ import { createRoot } from 'react-dom/client';
+ import { BrowserRouter } from 'react-router-dom';
+-import App from './App';
++
+ import { initAnalytics } from './lib/analytics';
+ import { initLocale } from './lib/i18n';
+ import './styles/global.css';
+ 
+-initAnalytics();
++// Fixture capture: no analytics or server connection.
+ 
+ // load the active locale dictionary before the first render (no English flash)
+-void initLocale().finally(() => {
++void initLocale().finally(async () => {
++  const {default:App} = await import('./App');
+   createRoot(document.getElementById('root')!).render(
+     <StrictMode>
+       <BrowserRouter>
+--- a/src/routes/Editor.tsx	2026-09-30 08:57:34
++++ b/src/routes/Editor.tsx	2026-10-02 01:24:23
+@@ -456,7 +456,7 @@
+         <div className="ed-topbar-left">
+           <Logo size={22} />
+           <div className="ed-card-title">
+-            {t("%1$@'s %2$@ card", card.toName || t('Someone'), occ.label.toLowerCase())}
++            {t("%1$@'s %2$@ card", card.toName || t('Someone'), t(occ.label.charAt(0).toUpperCase()+occ.label.slice(1)).toLocaleLowerCase())}
+           </div>
+           <div className="ed-signed-chip">{t('%@ signed', signerCount(card))}</div>
+         </div>

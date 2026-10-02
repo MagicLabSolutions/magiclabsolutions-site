@@ -1,0 +1,231 @@
+--- a/PoofKit/Package.swift	2026-09-30 08:57:29
++++ b/PoofKit/Package.swift	2026-10-02 00:38:32
+@@ -23,7 +23,6 @@
+     products: [
+         .library(name: "Domain", targets: ["Domain"]),
+         .library(name: "Disk", targets: ["Disk"]),
+-        .library(name: "Billing", targets: ["Billing"]),
+         .library(name: "Presentation", targets: ["Presentation"]),
+         .library(name: "DesignSystem", targets: ["DesignSystem"]),
+         .executable(name: "poof-scan", targets: ["poof-scan"]),
+@@ -31,12 +30,11 @@
+     // Horse Revenue's SDK, from the Tally repository beside this one (~/Development/Tally), the
+     // way every MagicLab app links it.
+     dependencies: [
+-        .package(path: "../../../Tally/sdk/ios/HorseKit"),
++        
+     ],
+     targets: [
+         .target(name: "Domain"),
+         .target(name: "Disk", dependencies: ["Domain"]),
+-        .target(name: "Billing", dependencies: ["Domain", .product(name: "HorseKit", package: "HorseKit")]),
+         .target(name: "Presentation", dependencies: ["Domain"]),
+         .target(name: "DesignSystem"),
+ 
+@@ -47,7 +45,6 @@
+         // The safety claims live here: they are about what really happens to files on a disk.
+         .testTarget(name: "DiskTests", dependencies: ["Domain", "Disk"]),
+         .testTarget(name: "PresentationTests", dependencies: ["Presentation", "Domain"]),
+-        .testTarget(name: "BillingTests", dependencies: ["Billing", "Domain", .product(name: "HorseKit", package: "HorseKit")]),
+         .testTarget(name: "DesignSystemTests", dependencies: ["DesignSystem"]),
+     ]
+ )
+--- a/app/Poof/AppContainer.swift	2026-09-30 08:57:29
++++ b/app/Poof/AppContainer.swift	2026-10-02 00:38:32
+@@ -1,7 +1,6 @@
+ import Foundation
+ import Domain
+ import Disk
+-import Billing
+ import Presentation
+ 
+ /// The composition root: the one place that builds the real objects, and the only one that
+@@ -18,63 +17,9 @@
+     let asksForReviews: Bool
+ 
+     static func live() -> AppContainer {
++        precondition(ProcessInfo.processInfo.arguments.contains("-demo"), "Capture build must use fixtures")
+         Preferences.register()
+-        #if DEBUG
+-        if ProcessInfo.processInfo.arguments.contains("-demo") { return demo() }
+-        #endif
+-        let fixture = debugHome
+-        // A fixture keeps its own defaults, so a test run never touches the real app's grant or totals.
+-        let suite = fixture == nil ? nil : "poof.fixture"
+-        let accessRepository = AccessRepositoryImpl(home: fixture ?? RealHome.path, suiteName: suite)
+-        #if DEBUG
+-        AccessProbe.runIfAsked(accessRepository)
+-        #endif
+-        let home = accessRepository.home
+-        // Pointed at a fixture, the apps the uninstaller may move are the fixture's too: a debug
+-        // run must not be able to reach a real app.
+-        let systemApplications = fixture.map { Paths.join($0, "System Applications") } ?? ApplicationRules.systemFolder
+-        let files = FileSystemRepositoryImpl(home: home, applications: systemApplications)
+-        let history = HistoryRepositoryImpl(suiteName: suite)
+-        let catalog = Catalog(rules: Catalog.standard.rules
+-            .map { $0.id == .applications ? ApplicationRules.all(systemFolder: systemApplications)[0] : $0 }
+-            .filter { !debugSkipped.contains($0.id) })
+-        let access = AccessUseCasesImpl(repository: accessRepository)
+-        let apps = AppDirectoryRepositoryImpl()
+-        let space = SpaceUseCasesImpl(files: files, history: history, home: home)
+-        // Pointed at a fixture, a debug build must not be able to reach a real simulator.
+-        let simulators: any SimulatorRepository = fixture == nil ? SimulatorRepositoryImpl() : UntrackedSimulators()
+-        let pro = proViewModel(sandboxed: accessRepository.isSandboxed, suite: suite)
+-        let session = ScanSession(
+-            scan: ScanUseCasesImpl(files: files, apps: apps, simulators: simulators, catalog: catalog, home: home),
+-            clean: CleanUseCasesImpl(
+-                files: files, simulators: simulators, apps: apps, history: history, catalog: catalog, home: home
+-            ),
+-            access: access, space: space, gate: pro, catalog: catalog
+-        )
+-
+-        let opener = WindowOpener()
+-        // The menu bar's estimate walks on its own quiet queue, at utility priority — and only
+-        // the rules a scan ticks for you, which is all an estimate counts: never a person's
+-        // own folders, in the background.
+-        let quietFiles = FileSystemRepositoryImpl(home: home, background: true, applications: systemApplications)
+-        let estimating = catalog.selectingByDefault
+-        let monitor = SpaceMonitor(
+-            space: space,
+-            scan: ScanUseCasesImpl(files: quietFiles, apps: apps, simulators: simulators, catalog: estimating, home: home),
+-            access: access,
+-            // A fixture run must not put real notifications on the owner's screen.
+-            notifier: fixture == nil ? SystemNotifier(opener: opener) : MockNotifier(),
+-            repository: MonitorRepositoryImpl(suiteName: suite),
+-            catalog: estimating
+-        )
+-        monitor.notifies = UserDefaults.standard.bool(forKey: Preferences.notifies)
+-        // Watching belongs to the menu bar item: it starts with it and stops with it.
+-        if UserDefaults.standard.bool(forKey: Preferences.menuBar) { monitor.start() }
+-        return AppContainer(
+-            access: AccessViewModel(useCases: access), session: session, monitor: monitor, pro: pro,
+-            loginItem: LoginItemRepositoryImpl(), opener: opener,
+-            asksForReviews: accessRepository.isSandboxed && !debugLocked && fixture == nil
+-        )
++        return demo()
+     }
+ 
+     /// Poof Pro. The App Store edition sells it through Horse Revenue; the Direct edition cannot
+@@ -82,18 +27,7 @@
+     /// is for access. A debug `-locked` run gives the Direct edition a pretend store instead, so
+     /// the paywall can be driven against a fixture home.
+     private static func proViewModel(sandboxed: Bool, suite: String?) -> ProViewModel {
+-        let pro: ProViewModel
+-        if debugLocked {
+-            pro = ProViewModel(useCases: MockPurchaseUseCases(pause: .milliseconds(900)))
+-        } else if sandboxed {
+-            let store = PurchaseRepositoryImpl(apiKey: horseKey, baseURL: horseURL)
+-            pro = ProViewModel(useCases: PurchaseUseCasesImpl(store: store, allowance: AllowanceRepositoryImpl(suiteName: suite)))
+-        } else {
+-            let store = UnlockedPurchaseRepository()
+-            pro = ProViewModel(useCases: PurchaseUseCasesImpl(store: store, allowance: AllowanceRepositoryImpl(suiteName: suite)), forSale: false)
+-        }
+-        Task { await pro.start() }
+-        return pro
++        ProViewModel(useCases: MockPurchaseUseCases())
+     }
+ 
+     /// Horse Revenue's publishable SDK key for Poof — made to ship inside the app, like a
+--- a/app/Poof/Debug/ScreenshotScript.swift	2026-09-30 08:57:29
++++ b/app/Poof/Debug/ScreenshotScript.swift	2026-10-02 00:38:32
+@@ -78,6 +78,13 @@
+         default:
+             try? await Task.sleep(for: .seconds(1))
+         }
++        if state != "menubar", let path = UserDefaults.standard.string(forKey: "marketingOut"), let window = NSApp.windows.first(where: { $0.isVisible && $0.canBecomeMain }), let view = window.contentView {
++            let size = view.bounds.size
++            let rep = NSBitmapImageRep(bitmapDataPlanes: nil, pixelsWide: Int(size.width * 2), pixelsHigh: Int(size.height * 2), bitsPerSample: 8, samplesPerPixel: 4, hasAlpha: true, isPlanar: false, colorSpaceName: .deviceRGB, bytesPerRow: 0, bitsPerPixel: 0)!
++            rep.size = size
++            view.cacheDisplay(in: view.bounds, to: rep)
++            if let data = rep.representation(using: .png, properties: [:]) { try? data.write(to: URL(fileURLWithPath: path)) }
++        }
+         print("SCREEN READY")
+         fflush(stdout)
+     }
+--- a/app/Poof/PoofApp.swift	2026-09-30 08:57:29
++++ b/app/Poof/PoofApp.swift	2026-10-02 01:19:00
+@@ -1,5 +1,7 @@
+ import SwiftUI
+ import Domain
++import AppKit
++import Presentation
+ import DesignSystem
+ 
+ @main
+@@ -9,6 +11,36 @@
+ 
+     init() {
+         SoundPlayer.shared.preload()
++        if ProcessInfo.processInfo.arguments.contains("-native-export") {
++            Task { @MainActor in
++                let container = AppContainer.live()
++                await container.access.refresh()
++                await container.session.refresh()
++                await container.pro.start()
++                await container.session.scan().value
++                if UserDefaults.standard.string(forKey: "screen") == "apps", let item = container.session.items(in: .applications).first(where: {$0.hold == nil}) { container.session.toggle(item) }
++                try? await Task.sleep(for: .milliseconds(1200))
++                let scene = UserDefaults.standard.string(forKey: "screen") ?? "results"
++                let root = NativeMarketingExport(container: container, scene: scene)
++                    .environment(container.pro)
++                    .environment(\.locale, Locale(identifier: UserDefaults.standard.string(forKey: "AppleLocale") ?? "en_US"))
++                    .environment(\.colorScheme, .dark).tint(Palette.glow)
++                let host = NSHostingView(rootView: root)
++                let window = NSWindow(contentRect: NSRect(x:0,y:0,width:1280,height:800), styleMask:[.borderless], backing:.buffered,defer:false)
++                window.contentView = host
++                host.frame = NSRect(x:0,y:0,width:1280,height:800)
++                host.layoutSubtreeIfNeeded()
++                window.displayIfNeeded()
++                try? await Task.sleep(for: .milliseconds(700))
++                let rep = NSBitmapImageRep(bitmapDataPlanes:nil,pixelsWide:2560,pixelsHigh:1600,bitsPerSample:8,samplesPerPixel:4,hasAlpha:true,isPlanar:false,colorSpaceName:.deviceRGB,bytesPerRow:0,bitsPerPixel:0)!
++                rep.size = CGSize(width:1280,height:800)
++                host.cacheDisplay(in: host.bounds, to: rep)
++                let path = UserDefaults.standard.string(forKey: "marketingOut")!
++                if let data = rep.representation(using:.png,properties:[:]) { try? data.write(to: URL(fileURLWithPath:path)) }
++                print("NATIVE EXPORT READY"); fflush(stdout)
++                exit(0)
++            }
++        }
+     }
+     @AppStorage(Preferences.menuBar) private var menuBarPreference = true
+     /// The menu bar item's own switch. Bound straight to `@AppStorage`, `isInserted` created an
+@@ -75,3 +107,28 @@
+         }
+     }
+ }
++
++// Offscreen export of the app's actual view components with its existing mock disk.
++private struct NativeMarketingExport: View {
++    let container: AppContainer
++    let scene: String
++    private var destination: Destination { switch scene {
++        case "junk": .group(.systemJunk)
++        case "developer": .group(.developer)
++        case "apps": .group(.applications)
++        default: .smartScan
++    }}
++    var body: some View {
++        ZStack {
++            NightSky()
++            HStack(spacing:0) {
++                Sidebar(session:container.session,destination:.constant(destination),showPlans:{})
++                Rectangle().fill(Palette.cardStroke).frame(width:1)
++                Group {
++                    if case let .group(group) = destination { GroupScreen(group:group,session:container.session,access:container.access) }
++                    else { SmartScanScreen(session:container.session) {_ in} }
++                }.frame(maxWidth:.infinity,maxHeight:.infinity)
++            }
++        }.frame(width:1280,height:800)
++    }
++}
+--- a/app/project.yml	2026-09-30 08:57:29
++++ b/app/project.yml	2026-10-02 00:38:32
+@@ -59,8 +59,6 @@
+       - package: PoofKit
+         product: Disk
+       - package: PoofKit
+-        product: Billing
+-      - package: PoofKit
+         product: Presentation
+       - package: PoofKit
+         product: DesignSystem

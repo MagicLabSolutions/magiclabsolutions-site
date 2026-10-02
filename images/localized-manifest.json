@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{"coverage":{{ site.data.localized_image_coverage | jsonify }},"shares":{{ site.data.share_images.products | jsonify }},"names":{{ site.data.product_image_languages | jsonify }}}

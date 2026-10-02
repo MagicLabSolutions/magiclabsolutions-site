@@ -12,3 +12,7 @@ __pycache__/
 
 # Official standalone device artwork is kept in a private local cache.
 docs/marketing/october-2026/.frames-cache/
+
+# Full-resolution localized captures and store packages stay local; web assets and manifests are versioned.
+docs/marketing/october-2026/localized/native/
+docs/marketing/october-2026/localized/exports/

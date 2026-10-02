@@ -1,0 +1,2277 @@
+{
+  "bundle": "com.magiclabsolutions.zuzu",
+  "binary_sha256": "0e6ea65df09c845c527ff781206cffd8fbd680a713c630efd37a4335ed87e9ae",
+  "simulator": "F473F837-B8DD-4CA1-B1AA-BCA9CA477DC0",
+  "capture_timezone": "Etc/GMT-5 (app process only)",
+  "method": "Existing isolated offline capture binary, real native views, per-locale launch arguments",
+  "records": [
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ar/ipad/native-1.png",
+      "sha256": "e9425b6e1361f84a7043c97d11ecd227f42068fab3042071d28cf8220a2a02e6"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ar/ipad/native-2.png",
+      "sha256": "1b6717dc4af2eaf00a233d4de25f617dd9a4fbc9d77d0576aa5a05c9f5e12abd"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ar/ipad/native-3.png",
+      "sha256": "107f719e7ed6006c08796fd5a66670599b475019bddff2397bff7b425ac7080a"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ar/ipad/native-4.png",
+      "sha256": "5d75a38c2b0f2884e6ae34d5eabaeca427632077d6393a1d8f591f09412eb4d3"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ar/ipad/native-5.png",
+      "sha256": "56ce562edb5e77cbd162bfe1bc409e8680de25f90a69511af6b10c1c64351823"
+    },
+    {
+      "locale": "ar",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ar/ipad/native-6.png",
+      "sha256": "4fd8092c55a1548efe281e54e9362a1aeab79e679563f0d590ab875e65695af3"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bg/ipad/native-1.png",
+      "sha256": "e63269f740277225a36f47f2e0e5598ab0572060cfb4ccbe36f3858b6b3d77f5"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bg/ipad/native-2.png",
+      "sha256": "d84f78ad017382acc6c52756f834076919f9e55253e0e5a6210ca74bc86175e8"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bg/ipad/native-3.png",
+      "sha256": "a6647a851b07022f80205f6697909b97c608e6070ae36ca9854664e1b37b5576"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bg/ipad/native-4.png",
+      "sha256": "4041bdc21a9727af8ef96efd122b8ef77c144ac585443c70d6cf0544f8ee64af"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bg/ipad/native-5.png",
+      "sha256": "8ca5f54f437fb9ade12d965f7aaeac94b63ebb24386b9076cdd7b030fd0582fb"
+    },
+    {
+      "locale": "bg",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bg/ipad/native-6.png",
+      "sha256": "38774d3dc375b6777fa43a1cb7989442168e81260688810d3636c11f5634bf67"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bn/ipad/native-1.png",
+      "sha256": "4d9b2ceff8730b6363d1665778027138d7cc2e054fbd76c79c2fa54ad8d592be"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bn/ipad/native-2.png",
+      "sha256": "328eba29ebe4a9c3df07075ab4068dfd0091bdcf7c9e9f9a482c52f436470f73"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bn/ipad/native-3.png",
+      "sha256": "1cb98065601ff792c334c6b30cb253f817dfa4056eb5d80c117d77549119b81c"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bn/ipad/native-4.png",
+      "sha256": "959233a4ae8e80141bcdbe8a61d10611f17d4a8b137be562ccc8c380dcd3170c"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bn/ipad/native-5.png",
+      "sha256": "fc4a16d3448bc4c5ef161c4cd7b3e72d0736ad8078007068f3d1ffd6d1e2c1cd"
+    },
+    {
+      "locale": "bn",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/bn/ipad/native-6.png",
+      "sha256": "a89cfdf5dcaf71e5cf3ea5d309eb21be8ebfb2629363dec789ec996ab98b2588"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ca/ipad/native-1.png",
+      "sha256": "fe5ab8079c1a121c4ad2ba31706525703818ce73c9e99f6ca763d1d683960d68"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ca/ipad/native-2.png",
+      "sha256": "0e32ff4b6d1858468a660bc75c09ad0a991535a739cfa6954e484159e4801881"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ca/ipad/native-3.png",
+      "sha256": "b20ece19eba2b2205cd18d06c261ad62669596fb926a71809a1534eca8a9875a"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ca/ipad/native-4.png",
+      "sha256": "c90c5a75f5bd49fbd97b52150f6881b74f8caf47d50edd286846e2343c6d9ced"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ca/ipad/native-5.png",
+      "sha256": "898cf5333a05a585a9948f04664dd92e838fbfcf06f3fc002884079c17db109c"
+    },
+    {
+      "locale": "ca",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ca/ipad/native-6.png",
+      "sha256": "31eb714b044c95d7fd55731b61e2a557e1bfceabb595d7e1541034d2112fc1ef"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/cs/ipad/native-1.png",
+      "sha256": "f76df554f249cc51ceee6505cf3a1526f6f7042917e64e37ddc43ac97067db7c"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/cs/ipad/native-2.png",
+      "sha256": "85bcf55b06f1e27305b5d57b05a9c1f9a9a5c5707752fd35c1b206d4823b0772"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/cs/ipad/native-3.png",
+      "sha256": "3e8af796f4d7b7c58d8103f8820fa617548a88e457bd9170695c773951f85a40"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/cs/ipad/native-4.png",
+      "sha256": "07fbb78ce81fa3673a88f4c0d590e2bc0a5b8797d2f52e514255d36d71f87961"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/cs/ipad/native-5.png",
+      "sha256": "7164d88f7d056984ce286a0eb0963ab8b79dcb94277b8374f0e132ce8db0349e"
+    },
+    {
+      "locale": "cs",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/cs/ipad/native-6.png",
+      "sha256": "5d370ba08ff21da55e669876f74c6e006675829dc1574f57b220d338a14e2704"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/da/ipad/native-1.png",
+      "sha256": "2fc8ca9353106fa07629440f7b8e57a0f2a1702f213fb5090a981a4faaaa989a"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/da/ipad/native-2.png",
+      "sha256": "4620695f790def55f4627e26fd17bd4ca434368717def89e29690640bb6a569f"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/da/ipad/native-3.png",
+      "sha256": "7085019d5379a7b411790b210c40b425dd89dc3c48a7703517fb1bef7af3d313"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/da/ipad/native-4.png",
+      "sha256": "c953aa58291b9890a939dac4a3df011a23f85a1b7717bc8cc7d31681207bb414"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/da/ipad/native-5.png",
+      "sha256": "7a4523cc3bd1ea3a066652ff52f08c87cdbad8c8016d46da8966f1294b1dc058"
+    },
+    {
+      "locale": "da",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/da/ipad/native-6.png",
+      "sha256": "de8f4b8397574cdf6aa7fdaa2bfa1ba3e2003181528849a72cb66c4d503efc6b"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/de/ipad/native-1.png",
+      "sha256": "405b0507b7a8b2b795507f550bb58f7d74ad71780bc3ca215ed2e42c702e3f20"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/de/ipad/native-2.png",
+      "sha256": "6cac6e2cce63d984aec0a42eb3b43f44a3b893f288ea0c5c69fafc13ce852cf7"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/de/ipad/native-3.png",
+      "sha256": "1b379eba60b6e47b847d7b3d3a66118c331274a25c0b62624b2d49aa4d53e53f"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/de/ipad/native-4.png",
+      "sha256": "fde4a623d017ac51b4f64b6a11b0fdc67a274e5d2ee874306c21139ad3679189"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/de/ipad/native-5.png",
+      "sha256": "d99fc8afc2d1ca8e9be36d3d6f62392c8433b4f46b286be0d39867d5763bb698"
+    },
+    {
+      "locale": "de",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/de/ipad/native-6.png",
+      "sha256": "de46054aaad93a3d203abcaefe4e22e940b1c54a04af61da44d3579412c09b4e"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/el/ipad/native-1.png",
+      "sha256": "02ab8a8c9ebfb1953c87eb3039c43f5ec57bd5c5490fffdfa58c14a3728ec397"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/el/ipad/native-2.png",
+      "sha256": "7252938da9ae9dab6c3e95d17f4e90205a41291f76dcc71b36f499c58ce810d1"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/el/ipad/native-3.png",
+      "sha256": "e5883dad228bdc98bf6dc38517004a772cc9d7f1c48d720a54f6ff0253c28126"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/el/ipad/native-4.png",
+      "sha256": "e4250cf2e5c8f57c08d3633338952c720ee4370129eb7b4c0fc1749f7a1cd925"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/el/ipad/native-5.png",
+      "sha256": "55ed5d9bb93c6059b07fc98e36a5c5e8c65275a34cafd2c62008f905e88def63"
+    },
+    {
+      "locale": "el",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/el/ipad/native-6.png",
+      "sha256": "76643b60749d77bceeaf5620de2b9b2b0636f84f166dc60d68af7e6e3b6e364c"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/ipad/native-1.png",
+      "sha256": "fcec11e3b25bc066f886c252cf4898d11514f2d92309dff9f0027301d4430775"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/ipad/native-2.png",
+      "sha256": "8f2a420bf65919efd8e718777640f1386be77001dffe0a740102f964cb52a4f2"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/ipad/native-3.png",
+      "sha256": "eb5ae28b893924f6591b2a68b3151877fb413ba8bb301359f2273748d337634b"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/ipad/native-4.png",
+      "sha256": "b3b39cbfd3a3320b0d11d295f95ecab191daf0b94f43abd3f12037361b59b0fb"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/ipad/native-5.png",
+      "sha256": "950cea5cd064540200b1f87101a2398bf4fdfc2a6389873777da0876b4a435bc"
+    },
+    {
+      "locale": "en-AU",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-AU/ipad/native-6.png",
+      "sha256": "d4109c29f4643aa8eb0755d8d05679d682b300e5045fa8887e7fe42f8de62a6f"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/ipad/native-1.png",
+      "sha256": "68ac127e69b6f919979923f9d044573b74c0e393870b56f857423181fa7459c0"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/ipad/native-2.png",
+      "sha256": "184b3f0775605d47af25d13fa0ad1bc726f0bd5407f8f5f9d31eac297ef7cba1"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/ipad/native-3.png",
+      "sha256": "258150234e0ebf289823765f7df08a48c75779a5487d278ea32fc1e5126c6d54"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/ipad/native-4.png",
+      "sha256": "dc7eacbe3f6d6832b8e88317533893cd0419643d982e81125272fd841abfb81b"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/ipad/native-5.png",
+      "sha256": "29fef2772dd9150679b9f612d38df92856b9889ca6ecacbb5e1c935f468f6555"
+    },
+    {
+      "locale": "en-GB",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-GB/ipad/native-6.png",
+      "sha256": "7f2b5792b3c9977c5bd08d2bfcdfba63633383b6ad494f9d85ed233ec7ce220b"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/ipad/native-1.png",
+      "sha256": "7334490f1385694931c90775bb0f823debcfdfe3c42c8a302c387f522bf9929d"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/ipad/native-2.png",
+      "sha256": "c376beabef0090fd2e0180dbedc5bf8480e2ab1481c1200f47c9b76191c18774"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/ipad/native-3.png",
+      "sha256": "6156771fe1835cd37db687efbb43edd96cae4df304be51f37bc0ea8be71f08cd"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/ipad/native-4.png",
+      "sha256": "b3b39cbfd3a3320b0d11d295f95ecab191daf0b94f43abd3f12037361b59b0fb"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/ipad/native-5.png",
+      "sha256": "feb47913c12dd61470b64799c10d548e50e0777b45cae54f7a728179af2e6169"
+    },
+    {
+      "locale": "en-IN",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-IN/ipad/native-6.png",
+      "sha256": "7597b45079bbb6bec36a84f6ee7e4e7645a429bf74f76b09a590dbc8d3beeffa"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/ipad/native-1.png",
+      "sha256": "c7a5735fb016a00d4f4ab4da406a2bcd91aabbf6a3b23d7a3877a92f2799dab7"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/ipad/native-2.png",
+      "sha256": "c84d804d40e705cd383d242263e3d1236ffda32761e79b241f72e1bcf385e3ce"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/ipad/native-3.png",
+      "sha256": "daed0fae7293ce492e1a16f70eb41c4971c7eba8b75e0a4aa1c5fd1d85ceae09"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/ipad/native-4.png",
+      "sha256": "186a72c11755355e4385a7a0f2c440f48a40a6f076621d4972fa80460ffc3095"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/ipad/native-5.png",
+      "sha256": "faa88074fcd9891eaae09734d86e7df77b28ed4b083471fd580248d9933e310d"
+    },
+    {
+      "locale": "en-US",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/en-US/ipad/native-6.png",
+      "sha256": "1a2975c88b8efb99d986fa00cf921cc465e22616129c418bee3f852bb4272fa1"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es/ipad/native-1.png",
+      "sha256": "7b1a71d7e0126f559967d7ea8fbb1122ae98a3126934c7acd73b20e878bc0fa7"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es/ipad/native-2.png",
+      "sha256": "321d0db7f4b358ceef737a72953db535ea275e06753e6afb3779d55a42f39080"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es/ipad/native-3.png",
+      "sha256": "1cd5425eaea344c463056aa1aa59ca26779f08d2546aed6a90e6f07a381d04d9"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es/ipad/native-4.png",
+      "sha256": "1b56a7e3792148f3d426fa7de038342c39752a4269e78c989d459e26d2452514"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es/ipad/native-5.png",
+      "sha256": "8ab2e2eab9eb5d93dfe55ed8fcd78074a56e53d1bc979ed27a548a2206a817e0"
+    },
+    {
+      "locale": "es",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es/ipad/native-6.png",
+      "sha256": "05450b0dfdf1a6fcff627a320a121c1147473820059a07d47f6e57de68fb4fb4"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/ipad/native-1.png",
+      "sha256": "195766e2c0c14972b1b10ec24a7cb42bde4171de337a435a2adcd2645b7938a1"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/ipad/native-2.png",
+      "sha256": "9d97d64031d08f6b49a3df524156aa06f9a20e294e94e3dfb44eed9a1389d5a3"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/ipad/native-3.png",
+      "sha256": "d39cef9e1df4f69cb5622ab4cbfe6feeee668eda1f8fc09ddfdc1ccfa3797442"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/ipad/native-4.png",
+      "sha256": "b12687840d80b8c60f50b8b889a9eb39b7366c6c6b883bde0a77f2f76f78ca05"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/ipad/native-5.png",
+      "sha256": "7dfd448cf1d682323672d7b0f5311937082f624ba9cf2e72deabfd088b16f635"
+    },
+    {
+      "locale": "es-419",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-419/ipad/native-6.png",
+      "sha256": "8d798daa7ce554e234a292bdae483e1cbfe492c7e3e329d5fe5447d9ec3be413"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/ipad/native-1.png",
+      "sha256": "f0035a4af81f086da93c36a9b528b1dac0c4e4d0f654c2175b9eada20445e7de"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/ipad/native-2.png",
+      "sha256": "e3ca915cb9e968be36782d17a46ed1e866747756cd0ccce3c34c6c83395edc26"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/ipad/native-3.png",
+      "sha256": "bb79f1b01f25dbcb82d4befc81c2d619b8b1e7919fe8a1de9d896407ec716c58"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/ipad/native-4.png",
+      "sha256": "19426948f96ac549ef5d4641507a0d4e19f25ca5c51468e228560df74d9a828b"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/ipad/native-5.png",
+      "sha256": "326c08ab1321ca5ec83523a07a5f6e792c81dc4ff4e3bf24119254d33ecb08af"
+    },
+    {
+      "locale": "es-US",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/es-US/ipad/native-6.png",
+      "sha256": "d0ecd29e23fe80d7c4863e0b4faba638f7af0448b2a98be29c0a0308358b63f4"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fi/ipad/native-1.png",
+      "sha256": "f7db452fc54e2a9fd9b5a4aa1684da97ae6ca1d91056904f61bda6adb266a386"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fi/ipad/native-2.png",
+      "sha256": "9918edff1187c6e833c6d13fa59c2542e8457840853c1f044477cf72c280ed41"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fi/ipad/native-3.png",
+      "sha256": "5f92fc6b288249b6350e44dbf438693e72c1ba441fb941dc49f4416d82e2ee97"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fi/ipad/native-4.png",
+      "sha256": "2645e58497989cc6d6818fa33215e58ab866718d0457d7dd3cd85ddb39a98da7"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fi/ipad/native-5.png",
+      "sha256": "33602763825f64d5292a4420dcb6600d9494e00870863ea351bd8482b57a4264"
+    },
+    {
+      "locale": "fi",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fi/ipad/native-6.png",
+      "sha256": "4e75ca3dfdc6907798e6b9689cae12491e1e03bc81d5eb425926f01dae3cabf0"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr/ipad/native-1.png",
+      "sha256": "c40cc35b36c5ee182a30b5590ad7642a58487d86af7c8a942d1bf0b315f86f5f"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr/ipad/native-2.png",
+      "sha256": "164ba8c618c17d56f9df016754460df6db24dda268caf44136ab09abcfa4e27b"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr/ipad/native-3.png",
+      "sha256": "97c93f9ca7cd669eda1a6eb2bf3fc98f25fe9e8a6214403693c6a99c3806371f"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr/ipad/native-4.png",
+      "sha256": "801b1ce689cac060c8499a17720d3cc2686ae288962abae0d80eb0dd8e5c6f83"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr/ipad/native-5.png",
+      "sha256": "5cf38c35f4a66cf14945c7283a5a04aca700ca192693a54f257e7bd323b58343"
+    },
+    {
+      "locale": "fr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr/ipad/native-6.png",
+      "sha256": "ae8724267b2cd6ba31af9a2283b30f077d9ed9231772b70ebfc60eca2317e597"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/ipad/native-1.png",
+      "sha256": "36d158c7c3273067cc592274ee4933c6d214c4d5d7beebfb280a886969ef4428"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/ipad/native-2.png",
+      "sha256": "69642a278c276b5c1d823d05cadb6a6b493849b448b7f29b8124b73262ccecd8"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/ipad/native-3.png",
+      "sha256": "67e6a3080a1a03df235a1d1b6a9c00838d623f9ea9396312965af891942b95ea"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/ipad/native-4.png",
+      "sha256": "d4dbc0c3a3a1b4eb7c8897a31fadaf91775745a2c223659f5fbfca9afdc5aef8"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/ipad/native-5.png",
+      "sha256": "be7fe9659f7308124a3d7dfec7fe2f2bf9a8835e6aab28c8b00ed99683569c25"
+    },
+    {
+      "locale": "fr-CA",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/fr-CA/ipad/native-6.png",
+      "sha256": "d6da161939997f259595520d68cec1013ce91d7275b0d9f1abdf803fcfae78c1"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/gu/ipad/native-1.png",
+      "sha256": "1876f54f4e399afe639d22848199b95bc3e217aa6a0a1962a3ec332342a6fe69"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/gu/ipad/native-2.png",
+      "sha256": "2ade20990553d8fa3ff3fd9f2675566689780f6c02bbd7e3fac09462be4ac17f"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/gu/ipad/native-3.png",
+      "sha256": "45582a20104dcd8e4dab7b42acfaeb4127e3dcf23c6718e20f744a07859c3f4c"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/gu/ipad/native-4.png",
+      "sha256": "5b68f2069926e1daa9a419bd6150f63c5190d1b9dbe2f87dfa157ce9b4eee66f"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/gu/ipad/native-5.png",
+      "sha256": "8a5bdf4d6a44fb580fba6604cb6ecc79f6b51a8fb696bb918faff27cd54b7cca"
+    },
+    {
+      "locale": "gu",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/gu/ipad/native-6.png",
+      "sha256": "fac7f00fdc388f4b760137980da01e8827dab6ada312d77a267c89d69f4f1065"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/he/ipad/native-1.png",
+      "sha256": "624df7d4934af62fcacc512d97074a85e03198d26e93e0c406f27fd30cb0d14c"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/he/ipad/native-2.png",
+      "sha256": "5125a7536ebf978f6b950bf9310b8acbb9ec6e45d23055eea807d04603eb8559"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/he/ipad/native-3.png",
+      "sha256": "422819dc6de5aa4d91009f9e4f202eff68911c84072b5cd7de9441e78d0b2a3a"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/he/ipad/native-4.png",
+      "sha256": "bc67000c9bf6b0f4b55a6d72fbdf092ec9a6542ed138333be6af1726df6de8cb"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/he/ipad/native-5.png",
+      "sha256": "4109632d4e4b13cf6ab498b3e250680f93dc19a542fce2ebd114ae1a5339766a"
+    },
+    {
+      "locale": "he",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/he/ipad/native-6.png",
+      "sha256": "400640f4a2d20d413fbfec97132f014fa238992d62207bc458bf93d541b3cb79"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hi/ipad/native-1.png",
+      "sha256": "be255f211ab1ebb3e558a662b21983ea8d4884635aac60c1bd104fa1347fb17b"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hi/ipad/native-2.png",
+      "sha256": "1bdebb86c920803d974ec180c3cbeb4e6d7c8fee6ed1de4d791f8679783f4a36"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hi/ipad/native-3.png",
+      "sha256": "8ff5b329a587e7702f9aef66b9e7a44e726791473cdd365fbac59cc4683a025d"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hi/ipad/native-4.png",
+      "sha256": "323f3f2aa1424605d46ea4245789061c71e4489f29f6b3bf8001062040b2d63d"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hi/ipad/native-5.png",
+      "sha256": "e05a84a6f3b5b0d0a7d52cbef67b4e7182ae1d22640b670114fcf916ba845385"
+    },
+    {
+      "locale": "hi",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hi/ipad/native-6.png",
+      "sha256": "6148b362571f7a21ffc9eec60d4bd19b974995110bd20d8facfdf04f9a113596"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hr/ipad/native-1.png",
+      "sha256": "c0d8dfd95f1d4e79e889635d66cf09c3d7724cf8aa96045d55f0207376b9df6b"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hr/ipad/native-2.png",
+      "sha256": "ce4787a49be4b46537d40522836fe7e3fb4a6ac182d8c9b4a889963732856abb"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hr/ipad/native-3.png",
+      "sha256": "ae59de87d0dd55054caf197fbe5a2169cab90c78ede8d586072b452adf29d234"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hr/ipad/native-4.png",
+      "sha256": "a2b768f04af11311bef569e34ec6499352f905667af07968aa8433f14ea84b65"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hr/ipad/native-5.png",
+      "sha256": "14a313e76c421ad315e18e9c9224776259645a29d350e924f0b0f52018189b6d"
+    },
+    {
+      "locale": "hr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hr/ipad/native-6.png",
+      "sha256": "dd51b926c2ca7fd979f9141f8e96b38d27f5ccee65ecf9be67dd273e06bce968"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hu/ipad/native-1.png",
+      "sha256": "c68067b61e010b7a89cd281c84251475eb034c4ca24422774f48e151d0959b92"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hu/ipad/native-2.png",
+      "sha256": "97994eea7160a971a4d632c1aa493e81a29312dabafe1a4a4ed0ea3b27e7ca66"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hu/ipad/native-3.png",
+      "sha256": "3ad7fa5e0d15ad2a607927b2a5421ac11335b3abc94cc2ec30d59f9941124ca3"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hu/ipad/native-4.png",
+      "sha256": "c41298cefade5dc0220b8e87f9aea9b60fcb4a0b74bfd7c251242f9d217398ee"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hu/ipad/native-5.png",
+      "sha256": "3bd3e9e1219887c9906f30faeb5616ad4d6d7bf63be6cfaa291f3862dc1967ae"
+    },
+    {
+      "locale": "hu",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/hu/ipad/native-6.png",
+      "sha256": "644784e073d13b50c19cfbb0085a6e81c4dd6cd41d36c1368ad86884d21aaebc"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/id/ipad/native-1.png",
+      "sha256": "d9c067422c168ed10c00200cbfc0f1e32b7f203502a62c61a864572ecccd7bb4"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/id/ipad/native-2.png",
+      "sha256": "ce2aae68cc7fb61eea64247b9d6df205ec6bb72cdee1e2b7f03c5371ebc5f7a2"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/id/ipad/native-3.png",
+      "sha256": "94b8b17dc7ec2d690559aaddfbe9b0d22566e9752beb90da9b1463ad3577958d"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/id/ipad/native-4.png",
+      "sha256": "070dfcb79fbffdb325930439061791e5d9baca10bf5a9d8ce9c78017bb3c3363"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/id/ipad/native-5.png",
+      "sha256": "4903667f81a28c582ea0579c33b4b2fb2d64433ba3a7bd5883eb035765e64c92"
+    },
+    {
+      "locale": "id",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/id/ipad/native-6.png",
+      "sha256": "bd7502e2e8f336f2f234109e5d2f5b1555eaaf2ab335b029f8b29084bb0b7972"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/it/ipad/native-1.png",
+      "sha256": "c59866768ca097ecd04d8cb8fa2535df459a6385d078c34d57d09c19fcc411aa"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/it/ipad/native-2.png",
+      "sha256": "9cf4b2f3d9245c220efe3ceff9d3dbbedd097534e2cbfe419f4745460f1ee9e4"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/it/ipad/native-3.png",
+      "sha256": "d1ac93ef971e54080fe7181ca9a1bdd63c591960ebef12f8730c9ed55fdbc71d"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/it/ipad/native-4.png",
+      "sha256": "25e652cc6050e3abf58d4ab29b1e103250ddd6b9f7f7cf8e275013506c4bd0b0"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/it/ipad/native-5.png",
+      "sha256": "a3dc47d2e4f75cb262a72c51912e0881757e2058a17c9068891cc307271d9ed0"
+    },
+    {
+      "locale": "it",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/it/ipad/native-6.png",
+      "sha256": "06cbf049857e232dcbe98051f4568a781df67450f9aa19fdf4c343051cfc11b7"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ja/ipad/native-1.png",
+      "sha256": "3db25c5c56a5e49780721842d320a4fcf2246d787c950e20b9b52b74b2f7ff02"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ja/ipad/native-2.png",
+      "sha256": "8d3591294920e7c3e3fe39fe5632bb73b24782624b0a05e7205bba6a753207f9"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ja/ipad/native-3.png",
+      "sha256": "56ebada200014651878f5401963949c9af46dfd9536635255887db19210dcb3d"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ja/ipad/native-4.png",
+      "sha256": "415171e93fa382d64065b74078eb6567948713191e3e7869bc64ce5e1dc3c0b5"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ja/ipad/native-5.png",
+      "sha256": "eeb5ddc8c16e8d1a7b4be621e5d9da49e6550a7cb18eaf14e3323ed3f8834fb4"
+    },
+    {
+      "locale": "ja",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ja/ipad/native-6.png",
+      "sha256": "02632b3e847ae2743f89f970a90956d78de00db133f2521d747cbafd1287f45a"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kk/ipad/native-1.png",
+      "sha256": "9cc792f85044a2d8c9d4ddb45270795a2e9ad27eeb88d45173b57910fdbfb898"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kk/ipad/native-2.png",
+      "sha256": "23284879d0698b718fa00c99c1039aa8440a2d0d785738524d414d8fd07452f6"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kk/ipad/native-3.png",
+      "sha256": "347ef52909ef7d8e6a64333bf267dfad77cc203249f2e70ded2993a2452b69b1"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kk/ipad/native-4.png",
+      "sha256": "f61801cd91e23d023eab664fa40c1db287982660c36037ba73bb98f9331228e8"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kk/ipad/native-5.png",
+      "sha256": "ba542763a5a8afe97fcc099cc119b5f324c40a2938490e721e07252934250cd7"
+    },
+    {
+      "locale": "kk",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kk/ipad/native-6.png",
+      "sha256": "78e91eaf06c6a9e29d4d0846c310be94d6df12221c35f15fd0aad8dc160977b5"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kn/ipad/native-1.png",
+      "sha256": "6d5917a17f24341738b0ac37fbcbb9ffc598e8ccc4bb64b13929060fe4b7c04c"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kn/ipad/native-2.png",
+      "sha256": "9a89d6889cf3f6c9b97f155fc5526fc4db833964ddfce7de1e896f406329dab2"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kn/ipad/native-3.png",
+      "sha256": "42b693645cdd92ff3efd960883df2b7101e7fc9dd37ea650228632513f840834"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kn/ipad/native-4.png",
+      "sha256": "f32501114b166b46a278b52a09774f1e0343138e306cc36553982cac1121bb2e"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kn/ipad/native-5.png",
+      "sha256": "3425c33204ecf5f0854ee5ca7cc9fe0d2e7fd0ed8ecba26f73486e17faaa676a"
+    },
+    {
+      "locale": "kn",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/kn/ipad/native-6.png",
+      "sha256": "73fcc325f133cbf5ea137aa890038e89cd50317cd6254a8be2bcdc0b431ffc37"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ko/ipad/native-1.png",
+      "sha256": "3bc09bc6e9d648bae5cf858a4c7e0dbd53f181a8c3b0ed506ae84299aa5e9c6a"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ko/ipad/native-2.png",
+      "sha256": "d0f6b8811455a0561a27625358ee568c7eab35e79a5de2fa98e6e336be2b03eb"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ko/ipad/native-3.png",
+      "sha256": "c9f2ff5d4eed81cd7cacf9a90e1dc58816d982dd4e06ce7e6344a95631309651"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ko/ipad/native-4.png",
+      "sha256": "86b8a8afe15763b41176f55ed1e24639b4a04c082fe3984e2e9d3a7fac81eb32"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ko/ipad/native-5.png",
+      "sha256": "70df286bc9f7f219c3dfa891f822e65f7f2e349e0153815e62965abf154c1eb7"
+    },
+    {
+      "locale": "ko",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ko/ipad/native-6.png",
+      "sha256": "c5bff5ed13765af4e4edb57abb18feea20c25d65b183c8ea15f776db5a377406"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/lt/ipad/native-1.png",
+      "sha256": "322cbf0d3cc8771340a240b61857d84770b4ddff1b610402dc02d1ab90866358"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/lt/ipad/native-2.png",
+      "sha256": "c5297791bf67443833b25f75250e5e4a6aee2b71a762d152bf9f0d857c4fe07d"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/lt/ipad/native-3.png",
+      "sha256": "9da93e3cf229113d8b04be4c1f3d9ae851965d4a62deff2e7c901ed1a34b03da"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/lt/ipad/native-4.png",
+      "sha256": "4d8b00a2623fff0967891264c4f7a996da0a685ad9f67291dc682401a4ccd9fa"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/lt/ipad/native-5.png",
+      "sha256": "d950d813bba4733c437654f0021c60192eb3ea7435b92064f75adde1f942c735"
+    },
+    {
+      "locale": "lt",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/lt/ipad/native-6.png",
+      "sha256": "19be84b27d2ef50483527b56598aec24a65809854acac797a0d36c35da4cf758"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ml/ipad/native-1.png",
+      "sha256": "2ba6bd550aa22340bc2e3a1095cbb6d5ebd2cf507a93b4fc59b539fce1543d36"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ml/ipad/native-2.png",
+      "sha256": "56a236e367d145558fc9ac725f772ca5728cd8b4f4ee451fde42e29ebc000b87"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ml/ipad/native-3.png",
+      "sha256": "815eb222a0069dac5b9cd24400b6ba68695e89c7b0896222374460f7c68a70c2"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ml/ipad/native-4.png",
+      "sha256": "61dc413aa72ee0b90302f89a3c62cfd503dd75bec241de79d3e9002fca3a10a4"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ml/ipad/native-5.png",
+      "sha256": "90eb60a0a40d3c993c5bc3b15068d3ef025a9203c883efc1b486b3684b585c90"
+    },
+    {
+      "locale": "ml",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ml/ipad/native-6.png",
+      "sha256": "e5595b6fe48bc9025abea9e91f3f08108044e7352633c3fa20ef9590aa76c820"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/mr/ipad/native-1.png",
+      "sha256": "0ef634c8433c2e213450534485887751327b7027389a83184aae139d63d9bdc1"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/mr/ipad/native-2.png",
+      "sha256": "8ebce06174fe453d1ef8afb1cac0ef0077e3dd122991d4b2775e9c77169e383d"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/mr/ipad/native-3.png",
+      "sha256": "3734f2e4ae853a7a954abb2bad02854e3a68e0a2d9b6f4972af7e375193774b4"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/mr/ipad/native-4.png",
+      "sha256": "df437b2e2850b8af69c1788728c7206ab24d8da9513af4501ab9ca6b0a026968"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/mr/ipad/native-5.png",
+      "sha256": "213903b204b8246cf71e2a3360ac287a8fdd30970404866daefd14478aae1820"
+    },
+    {
+      "locale": "mr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/mr/ipad/native-6.png",
+      "sha256": "9ebaa4872022de36a31997c219bb1749dff9707efe12e12cb745d3a5354ba8d4"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ms/ipad/native-1.png",
+      "sha256": "4e3b03132027e65d376136f698a2cfc4c84dece8f570e408a51593485eee29fd"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ms/ipad/native-2.png",
+      "sha256": "97aad5ec55263b46599aeae0f559febefd48f6342da91b56ecae0ed48835d905"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ms/ipad/native-3.png",
+      "sha256": "6b9db9b2ca12ad84c033e4922cbb0ce49ecadcfb1a7973df6797e6527be59d31"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ms/ipad/native-4.png",
+      "sha256": "1d1f3a3975b6cc045985d59594b6e5daf4081f1deaf12689758d825405b056a2"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ms/ipad/native-5.png",
+      "sha256": "e2d8fcf1e7ba312320d5f35856618bcccf02b3d7d50147b1bbfdb9d86c120008"
+    },
+    {
+      "locale": "ms",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ms/ipad/native-6.png",
+      "sha256": "5b18bd5e40e9ef59d7216f0722bbf0464fb2c50b3ca02c74ceeb14bdd3a11c32"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nb/ipad/native-1.png",
+      "sha256": "2bb3f3d7132cc493350df2638915761cee799e3e4f52a7e1cec73be9189a8eca"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nb/ipad/native-2.png",
+      "sha256": "9dd49ae13605e5367375804e2be5e37e0a1fa2deb1397eaf503a9caad729a6bc"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nb/ipad/native-3.png",
+      "sha256": "bab3cdc52001f52807b4b4cc11791c6dbd2bf0fe8ef6387ce9cf7fc1b1b16355"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nb/ipad/native-4.png",
+      "sha256": "42830fda6f8469251a1ed0e0d7684f5f68bd85b1bb1b0441b3ad1101d9283aa5"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nb/ipad/native-5.png",
+      "sha256": "a5883a1447fa44cec6894cb41daf7486fbacde8cf195c3be48e9482eaf3db4fd"
+    },
+    {
+      "locale": "nb",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nb/ipad/native-6.png",
+      "sha256": "3d6915d07d2e9cfcc4eaa9545706be204cdb657f6a91c4b308de853cee781a36"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nl/ipad/native-1.png",
+      "sha256": "3fb8f5b6276aef929fb72a552c1f13de9830c631173942fece259587a1a7207a"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nl/ipad/native-2.png",
+      "sha256": "c6373e4950eca6b2688be3ffe52da6bd3ee83038386edb36c729125515cde7d8"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nl/ipad/native-3.png",
+      "sha256": "05d7dcf80ed28dd5318da31dd73d44826ed04aeaee23f4bf90d71b1b5bbbf96e"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nl/ipad/native-4.png",
+      "sha256": "cdd6429bc4a771f6e15c6a07f40716d931737830fc2ebd8b44629a1863a0110a"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nl/ipad/native-5.png",
+      "sha256": "8a017cf1dcbba80a9d328e6a4393551d53dc547e080eaee2c547ebd2703d858d"
+    },
+    {
+      "locale": "nl",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/nl/ipad/native-6.png",
+      "sha256": "a85f45e48b48c2251e40715318c382765f3afabd5ff85ab2cec504e51c6a8b23"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/or/ipad/native-1.png",
+      "sha256": "b1ad78a9b1adf9bdbbb284bc68cc6f6f4c9a00d51d1fc9492f70f295b0a6ec05"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/or/ipad/native-2.png",
+      "sha256": "816af83b0a7f83c4ac75acb69c83aa47287b91f62532dd8cff841ad1b6f71a5f"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/or/ipad/native-3.png",
+      "sha256": "96b12755c9532572b088b6dddf00c6c220f944c4255e1936163c982ba1eeed57"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/or/ipad/native-4.png",
+      "sha256": "c74d4418a09d72064fbf07a159a8e105412ce0d80d8c2c33b4f7e440b65d6331"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/or/ipad/native-5.png",
+      "sha256": "e3ae111b9ad00f3b5717d92be1b49a9c05d74c8e634ed53d2436d938ee6020a0"
+    },
+    {
+      "locale": "or",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/or/ipad/native-6.png",
+      "sha256": "dff25b0c72bedd0589118aa8de4884319d64cd6675db3882313110e94a5e9f50"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pa/ipad/native-1.png",
+      "sha256": "380086f04066504c9bd2690a79cb33cf18d1427aa1224d8cc8e4e100432e7efd"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pa/ipad/native-2.png",
+      "sha256": "22174b971db6f8078a60b82920eb78f269b2ad5ba3f147b40abcfde29280ca5e"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pa/ipad/native-3.png",
+      "sha256": "47cf1bcb6bf1280d00ada4a8255662879041ec8df7d0df77f83484f15b78d9f6"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pa/ipad/native-4.png",
+      "sha256": "a952712537f0d27ed47ebef9659b3afa45c1d64a28a0ca19cdf1965275f78863"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pa/ipad/native-5.png",
+      "sha256": "1c25391c983dcfbb6979be267c1cb27a61b29807cf2c57c93546320d3c675634"
+    },
+    {
+      "locale": "pa",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pa/ipad/native-6.png",
+      "sha256": "d8dee9c969ae055f1cefcbda52f5c8073d4021482a7a519660f1a1245695a841"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pl/ipad/native-1.png",
+      "sha256": "aa09ff078f8f774a4d2f86ff74f40355c47e0e371deca5e97ce6d36ccea7a9bc"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pl/ipad/native-2.png",
+      "sha256": "616553503c64f00515b98ac1669620e7e519a63b97a40e4eb2157db4ef19c471"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pl/ipad/native-3.png",
+      "sha256": "f71cf18d9a178d83cd54d43b1689fb12190b80047e135d3a3f11a1ef080fe744"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pl/ipad/native-4.png",
+      "sha256": "bd05f95edb30ae2dcc911ecd76dcafb33670b48895e4e3e79c0cd2d35ebab3e2"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pl/ipad/native-5.png",
+      "sha256": "96c1e0cc8aa7523325e7c208e68c7b8e6f118ba4f40d792d0c808f80102fef9e"
+    },
+    {
+      "locale": "pl",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pl/ipad/native-6.png",
+      "sha256": "c6e66f7ada3b19231b8ef090ae7cb5eac717feaf96884f8ffa2574a64f68491f"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/ipad/native-1.png",
+      "sha256": "8fc0c8f118c183c6a8bb86d476a0888e64b7822331e02258f37f687da52a9d04"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/ipad/native-2.png",
+      "sha256": "ac01e302255e4c39597cdd83229c0f9cc0e5ab476ad565542f7a42349f8ce4df"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/ipad/native-3.png",
+      "sha256": "cb49d2f31043e716040cc5a7b084740a89e4972799c458b16c6d22dc358b7360"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/ipad/native-4.png",
+      "sha256": "ac98402805d4a201ae43a4a80e542631cc6475640a961cb67bc10d23753223fe"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/ipad/native-5.png",
+      "sha256": "12a3529353a1311613a5517fb71848c229f5da2f38a83b97421da9b60771252b"
+    },
+    {
+      "locale": "pt-BR",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-BR/ipad/native-6.png",
+      "sha256": "e334f69aee11ede3d1b9241673943059c3b076983292857c4472152cd5e2beb8"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/ipad/native-1.png",
+      "sha256": "cfacbaeade5627a42f7be3ce2b7550d8a164a71c7d1fdbc5f07cc8ea15b2d872"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/ipad/native-2.png",
+      "sha256": "d72ebcd173e45432d7df236d2c14b1f49b1e3c849722318a1fe29ff649000616"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/ipad/native-3.png",
+      "sha256": "dd5e1b0d4f325ddb691e8035c8f771e26bb97ff1760b7f60bd8e981e64601616"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/ipad/native-4.png",
+      "sha256": "7ac4341b180eb09ca4c5d188fa1a1d6cc11edf23a32a3cd82a99fe5d404f2201"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/ipad/native-5.png",
+      "sha256": "83e638e4091527ba7a439ccf8d253126a5738b4c624607212715bc4b27bf815b"
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/pt-PT/ipad/native-6.png",
+      "sha256": "0d54f3d1d2e204e3bc8509b8e8302c4d95aed868a486d9263c0af3ec03b62783"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ro/ipad/native-1.png",
+      "sha256": "925756e58caf7024d31643a80a0db7b8dcbb0b3cc1d336aac8d432a1ccef7371"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ro/ipad/native-2.png",
+      "sha256": "2987499d0f7b9cd71191d7913d4f73ac5806be6f9553da45756ba59af4ef0e32"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ro/ipad/native-3.png",
+      "sha256": "27bbcebea9b923e14d859d935bd032a50a4ac14ff261daafdf46e83da4d41735"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ro/ipad/native-4.png",
+      "sha256": "f7bb714a3b92805b5601a312a0381d38487bf8be494cf121f3548605f412432a"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ro/ipad/native-5.png",
+      "sha256": "3fc7f4e0f76c23360fbf5cf148345ed247b2c5c5d2298b66e654b3b5a6b3a6eb"
+    },
+    {
+      "locale": "ro",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ro/ipad/native-6.png",
+      "sha256": "d7311b85dd53c43a70b5381f1609caa13143e7165443e05ecfe42875060f3d3a"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ru/ipad/native-1.png",
+      "sha256": "f49a915acea5f99452d9c6689828c228463b88766c64203e56efd1d39f2f7678"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ru/ipad/native-2.png",
+      "sha256": "5319794a45978d65f7e2bf43d2fd8f8c91376b25f7c1737f6991f482227ad013"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ru/ipad/native-3.png",
+      "sha256": "e296a76083142bb0befc707afa3a97f3989a36b2be35e27f12c9caa2b61eb620"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ru/ipad/native-4.png",
+      "sha256": "a7fd6dcdd1c57986e817f5e45303e5e37d4326560d6e192c0c89ad21ad689078"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ru/ipad/native-5.png",
+      "sha256": "e967e84d13340224323ab01807ff8a2a3dc77a69ccb4b54c82f52ce4b2f59bc9"
+    },
+    {
+      "locale": "ru",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ru/ipad/native-6.png",
+      "sha256": "d7634aeeee380588f80477112c5b326337301b25cf43d15bd004fe27115b655e"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sk/ipad/native-1.png",
+      "sha256": "93f4ee339c83d32bcee2941fe7a42c797d917d618b13d1b6a72d5c8b986266c9"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sk/ipad/native-2.png",
+      "sha256": "5dc6b7078226bf8c51f599104775a11ba93f7e2bb333e02ca3e756050e77f7d0"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sk/ipad/native-3.png",
+      "sha256": "7b513a65aaa17b9569a51fb43aaf25ad3dfc26c52e002a0678e014074ad1f314"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sk/ipad/native-4.png",
+      "sha256": "fca065c74276930adecaf5c161f7996e05ae2b208a1a57fdbdc3233207517ead"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sk/ipad/native-5.png",
+      "sha256": "6922a545bebe89f62fda7ad6a94e2fa9ff87cc5e4fab4eb9863eadc80ceb51b9"
+    },
+    {
+      "locale": "sk",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sk/ipad/native-6.png",
+      "sha256": "07bce1d4d4feac9869af8b8098a613894fddd390db159c33f8d818a1567a5713"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sl/ipad/native-1.png",
+      "sha256": "a3eed8901a730eaf49e539e5d5b9a56a8cffd80d608b3a85617ac1f7c6d56b6a"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sl/ipad/native-2.png",
+      "sha256": "ca0712c1429cbf86a4e8c22337d3cc299d5bf2afdd44693697f5e1b0c02e477a"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sl/ipad/native-3.png",
+      "sha256": "3ee8f637fbf6077e3e5640186db6b4d8aee716512db082b063b88823ec32f20b"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sl/ipad/native-4.png",
+      "sha256": "64047cffcdcf56c6ca598ac95c0edd680b7a5a36afe30735d523abf745700378"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sl/ipad/native-5.png",
+      "sha256": "668dd3793e60f28011cbecc6d19d3707b9af282d27da8b68ec2a5b4fc3b3a014"
+    },
+    {
+      "locale": "sl",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sl/ipad/native-6.png",
+      "sha256": "6e4222daaccfcd4d7a4b5e079d46ce93ceca37aca02f9004b641651f22783f67"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sv/ipad/native-1.png",
+      "sha256": "682194d2c0cf1dac33623a91cf69cd0f077af8edfe8f37c355d3109b98f97f63"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sv/ipad/native-2.png",
+      "sha256": "c58ea7599f1edc8c43722fc231919ff5d13ac704d314bc37dd3423d0427cb700"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sv/ipad/native-3.png",
+      "sha256": "12b07cf9098a4558fd9e533ade1fefeafd3529f52355ccc45f30de6127a2eea7"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sv/ipad/native-4.png",
+      "sha256": "e22ef4ea1760f766db9e07b2288b486667e25e7e09ec459477e69ed6a086b7d2"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sv/ipad/native-5.png",
+      "sha256": "db350391571a6c5be0013acd20f96d03e8539d95813601570c2395be457b92ee"
+    },
+    {
+      "locale": "sv",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/sv/ipad/native-6.png",
+      "sha256": "03bc6c96006bf964ac10a096ef10bd0e2f10f43492ed53e3cf4d7e22459846b5"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ta/ipad/native-1.png",
+      "sha256": "38b0f5769fb26ad948d70299aeecc95a253c5572086af2193c1b39e6599a27f5"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ta/ipad/native-2.png",
+      "sha256": "1566de98f8945230d0aef5eb3c64d8f9ba476cccd11e4d5d1dc91d064454847a"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ta/ipad/native-3.png",
+      "sha256": "180475f34408277ca208ee2522068749cf47287865e236f80c846d58dbc00f30"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ta/ipad/native-4.png",
+      "sha256": "9562f1b8e1529258ca3c99f820d0145b0ac58818bae6ed4cca210104751cb5ec"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ta/ipad/native-5.png",
+      "sha256": "b61a7f0817bfe83dcdd347e6304614fa1d976d3664b9a2aa1675c7ba3f86059d"
+    },
+    {
+      "locale": "ta",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ta/ipad/native-6.png",
+      "sha256": "713428386f27b53040d7951e80a0ee5c7c46a0fce88c6fd5d413376cb4070855"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/te/ipad/native-1.png",
+      "sha256": "e21e443f387d1ef32a47b86861deead7d71a3dd70a724aa3d40b0b13cd6a6c9e"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/te/ipad/native-2.png",
+      "sha256": "c0d63a145473d490416d5c73f00b9ea4dc2a13f63015e00be97b55dc65c7c3bb"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/te/ipad/native-3.png",
+      "sha256": "b93c10150c64ccccb4493aa884d2453642f01f34b314f80cf56291232208b5d4"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/te/ipad/native-4.png",
+      "sha256": "53862a154d3130668445ab889cd17e1f422256ee59b21a07e3723dac04a50f12"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/te/ipad/native-5.png",
+      "sha256": "76e3edc4bede9171b5f89c9855d0dc49cbb6224976518db68684372a1f808810"
+    },
+    {
+      "locale": "te",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/te/ipad/native-6.png",
+      "sha256": "2379c3542dc87d66be845ed916f97a39f54c7516c8a88238d604c44a4fd761a8"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/th/ipad/native-1.png",
+      "sha256": "a9218be5d69b9e94525a2b0f4547b85b3c2201f7731b918dbf28fa073754715c"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/th/ipad/native-2.png",
+      "sha256": "0ecd91ae2b3862f8aec057cab410b38eceb293f898e901ff24abd9c46a91b28e"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/th/ipad/native-3.png",
+      "sha256": "a30f7e4cf693ef717677cf8b6fda4a8b56aa3c70ee1cd9e87071d96b6a96b50f"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/th/ipad/native-4.png",
+      "sha256": "9fef5c45b0d40fb56bd329f2ec21f37027bb37d091521ebc4c0e2d0b7af7c9f0"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/th/ipad/native-5.png",
+      "sha256": "3188a479b31d14494ce26b71dac435b49f8aee9dc177d92955957550b3a30a97"
+    },
+    {
+      "locale": "th",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/th/ipad/native-6.png",
+      "sha256": "b1245ad2c380b7dcad596f003e3310f6e0be6eea90d2c85120daa8ea8e868022"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/tr/ipad/native-1.png",
+      "sha256": "03d4ef56f9c0dd1fdb52c3a9a5df7bd554f05d62fe71e54fe98c8698064a0fcd"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/tr/ipad/native-2.png",
+      "sha256": "d8c3fb165c20fe27e594e0effa3bdc454c37a7cdcfb84e2bf68cae7e1c595f9f"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/tr/ipad/native-3.png",
+      "sha256": "1dcb2fa4745622aeef0851f8d2dff665c339b21b271113551709e568e7cbc90b"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/tr/ipad/native-4.png",
+      "sha256": "cac89ee3ad4883ac8bb4009623b888f2d0ba5d8d0977c0c94279d8172260af00"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/tr/ipad/native-5.png",
+      "sha256": "72af6c3ad19e203ba2d7111ac521768b9018e5370007d325aaccd00f7d9b2bf9"
+    },
+    {
+      "locale": "tr",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/tr/ipad/native-6.png",
+      "sha256": "716fe4b93c91372e2176a80b6637351f2f34f6330f66e821e6bbdec14a9de325"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/uk/ipad/native-1.png",
+      "sha256": "b8841793e628e3c07f777ccc3b67661c9cb2af9e532c10dbddcb015782d2fe8d"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/uk/ipad/native-2.png",
+      "sha256": "34b98b08be223cd0a50533231fcbce1386b1d6193a086c11f137a4fefaee17fb"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/uk/ipad/native-3.png",
+      "sha256": "52517a872fa32d2027ac573dc12af882ba030b87c6aac4115413c4772f65b824"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/uk/ipad/native-4.png",
+      "sha256": "e75ff706f976ca8290de435326edb059c1b56503d47f9df0731664fa00bed3ba"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/uk/ipad/native-5.png",
+      "sha256": "57a34dc0583ef0e6563e0d651c6d2481b256f64be43a603e3d2da558f626df11"
+    },
+    {
+      "locale": "uk",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/uk/ipad/native-6.png",
+      "sha256": "dc622e9a7fbfc380fb1b15c19a18dea8fdb3de746766e218aa361be131048fc4"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ur/ipad/native-1.png",
+      "sha256": "12c250ac3db3419534a21570dcfef450c384f33fb9798df3755eb90f65e7d919"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ur/ipad/native-2.png",
+      "sha256": "1f5b2c0b1de2bc1eac34e00c84f5381e95a2d5585fa5e321e096d2f791af74f0"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ur/ipad/native-3.png",
+      "sha256": "142fe4943dea634b87fd24872e39f7a4fba53f1dd36139176102fd969db36306"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ur/ipad/native-4.png",
+      "sha256": "b019afef4453823c51efc61de8b335ac5c34da9d6061ed86b2d3147bd76e6613"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ur/ipad/native-5.png",
+      "sha256": "f5bbcfe021dcbaf375efe9067915c2e0df4b6b3a9d89cf38540dec2cc811f510"
+    },
+    {
+      "locale": "ur",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/ur/ipad/native-6.png",
+      "sha256": "c458efc9c3989529be70dd9f4477e579e789f43333ff66f063a19509ce51ea72"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/vi/ipad/native-1.png",
+      "sha256": "6d8998bbc3e3d2f8fd744aa99fb73afdf6ca81eca98511344098ab33e068f845"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/vi/ipad/native-2.png",
+      "sha256": "edf087b26dc8efca1f3ce037523f5dc4d9be0185cb49396607649e999f16f1f9"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/vi/ipad/native-3.png",
+      "sha256": "6c9be2f8f13cb8d64d8010e25030c204a5926201b932ede0f173947c78e40c0e"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/vi/ipad/native-4.png",
+      "sha256": "862c3203cf75a834d3597eee25467e632baf07464ec4d382b20088d60ec6eef7"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/vi/ipad/native-5.png",
+      "sha256": "63bb0a120ef12448e505d69a6226a1f47aa0dec652622a34bd11c5d8874885c0"
+    },
+    {
+      "locale": "vi",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/vi/ipad/native-6.png",
+      "sha256": "7f13d31076bca6d58f32faebf66c1d79dc5b4d1d35d1f003cc4a28f4f308b2b2"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/ipad/native-1.png",
+      "sha256": "234e1a32616882e21303ac2b9f050574f1171baf4ee4207f7ddc306b121a3568"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/ipad/native-2.png",
+      "sha256": "dc8efe14fd5c393a46ff83c82ab198a6f5cbd21df0fe38be6bc5bb2528bdd4b7"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/ipad/native-3.png",
+      "sha256": "5915f2a8fac3f7b0515b007368c7049dae6c393a54a679bdabea1be625315c94"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/ipad/native-4.png",
+      "sha256": "73dcbd3d349e1434b5d876cf2b60115dfd0d45fdef5e2f7b2281916a1051e14b"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/ipad/native-5.png",
+      "sha256": "b65e274fc151798cf6d5a7a11f9db28413945706829a4e3fb37a9af8293b3f29"
+    },
+    {
+      "locale": "zh-HK",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-HK/ipad/native-6.png",
+      "sha256": "578924f4ab4888e29588f41388fb3287f5d3b40b39dd88c801054bb15ecc6094"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 1,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/ipad/native-1.png",
+      "sha256": "7326909061fb507e99ff12d58e62edd51a16d9fbeb286c7c1ed6ac4cb8ac2a78"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 2,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/ipad/native-2.png",
+      "sha256": "d6a411670ea32488a932158a312876a53fc903166c6ac636e5c5d7a91426a362"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 3,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/ipad/native-3.png",
+      "sha256": "82b1bfe5bd359563f56d16a7d36e9307cb93db9ee570efb1d93e64c5b4b73779"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 4,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/ipad/native-4.png",
+      "sha256": "2385c13bd14c93c590a495cab0bf493182a247a119836a8cc64a5e8e217648ea"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 5,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/ipad/native-5.png",
+      "sha256": "79b204b14d1383058639e9952ba8050a93bc4c749433e29825c4a760d528758f"
+    },
+    {
+      "locale": "zh-Hans",
+      "platform": "ipad",
+      "panel": 6,
+      "source": "docs/marketing/october-2026/localized/native/zuzu/zh-Hans/ipad/native-6.png",
+      "sha256": "a10080de202972ce3d3a79a079b2c3b813f55deaadcd71dacca3b851d28aa32f"
+    }
+  ]
+}

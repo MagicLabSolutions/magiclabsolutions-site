@@ -1,3 +1,4 @@
+{% assign social_language = include.locale | default: site.active_lang %}
 {% assign social_card = site.data.share_images.home[site.active_lang] | default: site.data.share_images.home.en %}
 {% assign social_title = page.title | append: ' · Magic Lab Solutions' %}
 {% assign social_description = page.description %}
@@ -5,9 +6,10 @@
   {% assign social_product = site.data.portfolio | where: 'slug', include.product | first %}
   {% assign social_copy = social_product.copy[site.active_lang] | default: social_product.copy.en %}
   {% assign social_variants = site.data.share_images.products[include.product] %}
-  {% assign social_card = social_variants[site.active_lang] | default: social_variants.en %}
+  {% assign social_card = social_variants[social_language] | default: social_variants.en %}
   {% assign social_title = social_product.name | append: ' — ' | append: social_copy.headline %}
   {% assign social_description = social_copy.description %}
+  {% if include.localized_copy %}{% assign social_title = social_product.name | append: ' — ' | append: include.localized_copy.headline %}{% assign social_description = include.localized_copy.description %}{% endif %}
 {% elsif include.home %}
   {% assign social_home = site.data.home_page[site.active_lang] | default: site.data.home_page.en %}
   {% assign social_title = 'Magic Lab Solutions — ' | append: social_home.title_first | append: ' ' | append: social_home.title_second %}
@@ -21,7 +23,8 @@
   {% assign social_custom = true %}
 {% else %}{% assign social_custom = false %}{% endif %}
 {% assign social_prefix = '' %}{% if site.active_lang != site.default_lang %}{% assign social_prefix = site.active_lang | prepend: '/' %}{% endif %}
-{% capture social_locale %}{% case site.active_lang %}{% when 'en' %}en_US{% when 'pt-BR' %}pt_BR{% when 'de' %}de_DE{% when 'es' %}es_ES{% when 'fr' %}fr_FR{% when 'ja' %}ja_JP{% when 'ko' %}ko_KR{% when 'zh-Hans' %}zh_CN{% endcase %}{% endcapture %}
+{% if page.product_locale %}{% assign social_prefix = '' %}{% endif %}
+{% capture social_locale %}{% case social_language %}{% when 'en' %}en_US{% when 'en-US' %}en_US{% when 'pt-BR' %}pt_BR{% when 'de' %}de_DE{% when 'es' %}es_ES{% when 'fr' %}fr_FR{% when 'ja' %}ja_JP{% when 'ko' %}ko_KR{% when 'zh-Hans' %}zh_CN{% when 'zh-Hant' %}zh_TW{% else %}{{ social_language | replace: '-', '_' }}{% endcase %}{% endcapture %}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Magic Lab Solutions">
 <meta property="og:locale" content="{{ social_locale | strip }}">

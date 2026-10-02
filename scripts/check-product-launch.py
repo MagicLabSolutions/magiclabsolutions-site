@@ -20,7 +20,7 @@ class Page(HTMLParser):
 
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser();parser.add_argument('build',type=Path);build=parser.parse_args().build
-launch=json.loads((root/'_data/product_launch.json').read_text());catalog=json.loads((root/'_data/portfolio.json').read_text());errors=[];count=0
+launch=json.loads((root/'_data/product_launch.json').read_text());localized=json.loads((root/'_data/product_launch_localized.json').read_text());catalog=json.loads((root/'_data/portfolio.json').read_text());errors=[];count=0
 for locale in ['','pt-BR','de','es','fr','ja','ko','zh-Hans']:
     for slug,config in launch.items():
         file=build/locale/'apps'/slug/'index.html';label=str(file.relative_to(build))
@@ -40,7 +40,8 @@ for locale in ['','pt-BR','de','es','fr','ja','ko','zh-Hans']:
             if not target.is_file() and not (target/'index.html').is_file():errors.append(label+': missing '+link)
         product=next(p for p in catalog if p['slug']==slug)
         if product['status']!='released' and any(urlsplit(u).netloc in ['apps.apple.com','play.google.com'] for u in page.links):errors.append(label+': unreleased download promise')
-        for feature in config['features']:
+        page_config=localized.get(slug,{}).get(locale or 'en-US',config)
+        for feature in page_config['features']:
             if feature['device']['image']['src'] not in page.images:errors.append(label+': missing native feature capture')
 for slug,config in launch.items():
     for item in config['fleet']:
