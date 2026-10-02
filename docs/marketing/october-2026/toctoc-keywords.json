@@ -1,0 +1,749 @@
+{
+  "updated": "2026-10-01",
+  "status": "local metadata prepared; not uploaded",
+  "policy": "Use regional ADHD terms as discovery keywords for meeting reminders. No treatment claims or search-volume assumptions. Keep the project validator’s conservative 100 UTF-8 byte budget. English artwork approval and product-page pause are unchanged.",
+  "locales": {
+    "en-US": {
+      "language": "English",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [
+        "en-GB",
+        "en-AU",
+        "en-CA"
+      ],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/en-US/keywords.txt",
+          "keywords": "reminder,calendar,zoom,teams,meet,notification,fullscreen,adhd,alarm,menubar,countdown,join,call",
+          "utf8_bytes": 96
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/en-US/keywords.txt",
+          "keywords": "reminder,calendar,zoom,teams,meet,notification,alarm,adhd,countdown,join,call,silent,focus,agenda",
+          "utf8_bytes": 97
+        }
+      },
+      "terminology_source": "https://www.nimh.nih.gov/health/publications/attention-deficit-hyperactivity-disorder-what-you-need-to-know"
+    },
+    "pt-BR": {
+      "language": "Portuguese (Brazil)",
+      "terms": [
+        "tdah"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/pt-BR/keywords.txt",
+          "keywords": "lembrete,calendário,zoom,meet,teams,tdah,alarme,agenda,contagem,chamada,notificação,compromisso",
+          "utf8_bytes": 98
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/pt-BR/keywords.txt",
+          "keywords": "lembrete,calendário,zoom,meet,teams,tdah,alarme,agenda,contagem,chamada,notificação,compromisso",
+          "utf8_bytes": 98
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "es-ES": {
+      "language": "Spanish",
+      "terms": [
+        "tdah"
+      ],
+      "store_copies": [
+        "es-MX"
+      ],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/es-ES/keywords.txt",
+          "keywords": "recordatorio,calendario,alerta,zoom,meet,teams,tdah,alarma,agenda,llamada,notificación,cita,webex",
+          "utf8_bytes": 98
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/es-ES/keywords.txt",
+          "keywords": "recordatorio,calendario,alerta,zoom,meet,teams,tdah,alarma,agenda,llamada,notificación,cita,webex",
+          "utf8_bytes": 98
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "fr-FR": {
+      "language": "French",
+      "terms": [
+        "tdah"
+      ],
+      "store_copies": [
+        "fr-CA"
+      ],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/fr-FR/keywords.txt",
+          "keywords": "rappel,calendrier,agenda,alarme,zoom,meet,teams,tdah,concentration,compte à rebours,visio,rdv,appel",
+          "utf8_bytes": 100
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/fr-FR/keywords.txt",
+          "keywords": "rappel,calendrier,agenda,alarme,zoom,meet,teams,tdah,concentration,silence,notification,visio,appel",
+          "utf8_bytes": 99
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "de-DE": {
+      "language": "German",
+      "terms": [
+        "adhs"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/de-DE/keywords.txt",
+          "keywords": "termin,kalender,besprechung,alarm,zoom,meet,teams,adhs,fokus,menüleiste,countdown,wecker,videocall",
+          "utf8_bytes": 99
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/de-DE/keywords.txt",
+          "keywords": "termin,kalender,besprechung,wecker,alarm,zoom,meet,teams,adhs,fokus,stummmodus,countdown,videocall",
+          "utf8_bytes": 98
+        }
+      },
+      "terminology_source": "https://gesund.bund.de/adhs"
+    },
+    "it": {
+      "language": "Italian",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/it/keywords.txt",
+          "keywords": "promemoria,calendario,agenda,allarme,zoom,meet,teams,adhd,concentrazione,videochiamata,meeting,focus",
+          "utf8_bytes": 100
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/it/keywords.txt",
+          "keywords": "promemoria,calendario,agenda,sveglia,allarme,zoom,meet,teams,adhd,silenzioso,videochiamata,meeting",
+          "utf8_bytes": 98
+        }
+      },
+      "terminology_source": "https://www.epicentro.iss.it/deficit-attenzione/registro"
+    },
+    "nl-NL": {
+      "language": "Dutch",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/nl-NL/keywords.txt",
+          "keywords": "herinnering,agenda,meeting,afspraak,zoom,meet,teams,adhd,focus,menubalk,aftellen,melding,videobellen",
+          "utf8_bytes": 100
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/nl-NL/keywords.txt",
+          "keywords": "herinnering,agenda,meeting,afspraak,wekker,zoom,meet,teams,adhd,focus,stille,melding,videobellen",
+          "utf8_bytes": 96
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "pt-PT": {
+      "language": "Portuguese (Portugal)",
+      "terms": [
+        "phda"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/pt-PT/keywords.txt",
+          "keywords": "lembrete,calendário,agenda,alarme,zoom,meet,teams,phda,foco,contagem,chamada,videochamada,aviso",
+          "utf8_bytes": 96
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/pt-PT/keywords.txt",
+          "keywords": "lembrete,calendário,agenda,alarme,zoom,meet,teams,phda,foco,concentração,notificação,chamada",
+          "utf8_bytes": 97
+        }
+      },
+      "terminology_source": "https://rihuc.huc.min-saude.pt/bitstreams/c546838b-e1ec-4917-b82a-cdca7bedbf48/download"
+    },
+    "sv": {
+      "language": "Swedish",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/sv/keywords.txt",
+          "keywords": "påminnelse,kalender,zoom,meet,teams,adhd,fokus,larm,nedräkning,menyrad,videomöte,notis,schema",
+          "utf8_bytes": 96
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/sv/keywords.txt",
+          "keywords": "påminnelse,kalender,alarm,zoom,meet,teams,adhd,fokus,tyst,nedräkning,videomöte,notis,schema",
+          "utf8_bytes": 94
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "da": {
+      "language": "Danish",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/da/keywords.txt",
+          "keywords": "påmindelse,kalender,zoom,meet,teams,adhd,fokus,alarm,nedtælling,menulinje,videomøde,notifikation",
+          "utf8_bytes": 99
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/da/keywords.txt",
+          "keywords": "påmindelse,kalender,alarm,zoom,meet,teams,adhd,fokus,lydløs,nedtælling,videomøde,notifikation",
+          "utf8_bytes": 97
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "no": {
+      "language": "Norwegian Bokmål",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/no/keywords.txt",
+          "keywords": "påminnelse,kalender,zoom,meet,teams,adhd,fokus,alarm,nedtelling,menylinje,videomøte,varsel,agenda",
+          "utf8_bytes": 99
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/no/keywords.txt",
+          "keywords": "påminnelse,kalender,alarm,zoom,meet,teams,adhd,fokus,lydløs,nedtelling,videomøte,varsel,agenda",
+          "utf8_bytes": 97
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "fi": {
+      "language": "Finnish",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/fi/keywords.txt",
+          "keywords": "muistutus,kalenteri,palaveri,zoom,meet,teams,adhd,hälytys,ilmoitus,lähtölaskenta,etäpalaveri",
+          "utf8_bytes": 96
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/fi/keywords.txt",
+          "keywords": "muistutus,kalenteri,palaveri,hälytys,herätys,zoom,meet,teams,adhd,ilmoitus,hiljainen,etäpalaveri",
+          "utf8_bytes": 99
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "pl": {
+      "language": "Polish",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/pl/keywords.txt",
+          "keywords": "przypomnienie,kalendarz,zoom,meet,teams,adhd,skupienie,alarm,odliczanie,wideorozmowa,terminarz",
+          "utf8_bytes": 94
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/pl/keywords.txt",
+          "keywords": "przypomnienie,kalendarz,alarm,budzik,zoom,meet,teams,adhd,powiadomienie,skupienie,terminarz",
+          "utf8_bytes": 91
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "ru": {
+      "language": "Russian",
+      "terms": [
+        "сдвг"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/ru/keywords.txt",
+          "keywords": "zoom,teams,meet,совещание,календарь,будильник,сдвг,звонок",
+          "utf8_bytes": 94
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/ru/keywords.txt",
+          "keywords": "будильник,календарь,совещание,сдвг,звонок,zoom,teams,meet",
+          "utf8_bytes": 94
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "uk": {
+      "language": "Ukrainian",
+      "terms": [
+        "рдуг",
+        "сдуг"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/uk/keywords.txt",
+          "keywords": "рдуг,сдуг,zoom,teams,meet,календар,будильник,фокус,таймер",
+          "utf8_bytes": 93,
+          "removed_to_fit": [
+            "дзвінок"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/uk/keywords.txt",
+          "keywords": "рдуг,сдуг,будильник,календар,сповіщення,дзвінок,zoom,teams",
+          "utf8_bytes": 100,
+          "removed_to_fit": [
+            "meet"
+          ]
+        }
+      },
+      "terminology_source": "https://moz.gov.ua/uk/giperaktivnist-norovlivij-beshketnik-chi-ditina-jaka-potrebue-dopomogi"
+    },
+    "cs": {
+      "language": "Czech",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/cs/keywords.txt",
+          "keywords": "připomínka,kalendář,zoom,teams,meet,adhd,hovor,budík,odpočet,meeting,videohovor,soustředění",
+          "utf8_bytes": 100
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/cs/keywords.txt",
+          "keywords": "budík,připomínka,kalendář,oznámení,odpočet,soustředění,adhd,hovor,zoom,teams,meet",
+          "utf8_bytes": 92
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "hu": {
+      "language": "Hungarian",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/hu/keywords.txt",
+          "keywords": "naptár,értekezlet,értesítés,zoom,teams,meet,adhd,hívás,ébresztő,fókusz,videohívás",
+          "utf8_bytes": 93
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/hu/keywords.txt",
+          "keywords": "ébresztő,naptár,értekezlet,értesítés,fókusz,adhd,hívás,videohívás,zoom,teams,meet",
+          "utf8_bytes": 93
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "ro": {
+      "language": "Romanian",
+      "terms": [
+        "adhd"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/ro/keywords.txt",
+          "keywords": "memento,reminder,calendar,alarmă,zoom,teams,meet,adhd,apel,agendă,focus,notificare,numărătoare",
+          "utf8_bytes": 98
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/ro/keywords.txt",
+          "keywords": "alarmă,memento,reminder,calendar,agendă,notificare,apel,focus,adhd,numărătoare,zoom,teams,meet",
+          "utf8_bytes": 98
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "el": {
+      "language": "Greek",
+      "terms": [
+        "ΔΕΠΥ"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/el/keywords.txt",
+          "keywords": "ημερολόγιο,ειδοποίηση,ΔΕΠΥ,κλήση,zoom,meet,teams,meeting,reminder",
+          "utf8_bytes": 94
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/el/keywords.txt",
+          "keywords": "ξυπνητήρι,ημερολόγιο,ειδοποίηση,ΔΕΠΥ,κλήση,zoom,meet,teams",
+          "utf8_bytes": 96
+        }
+      },
+      "terminology_note": "Existing localized keyword retained."
+    },
+    "tr": {
+      "language": "Turkish",
+      "terms": [
+        "dehb"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/tr/keywords.txt",
+          "keywords": "takvim,uyarı,alarm,zoom,meet,teams,dehb,odak,bildirim,randevu,ajanda,görüşme,geri sayım",
+          "utf8_bytes": 92
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/tr/keywords.txt",
+          "keywords": "alarm,takvim,bildirim,uyarı,odak,dehb,randevu,ajanda,görüşme,geri sayım,zoom,meet,teams",
+          "utf8_bytes": 92
+        }
+      },
+      "terminology_source": "https://atakumsm.saglik.gov.tr/TR-327928/dikkat-eksikligi-hiperaktivite-bozuklugu.html"
+    },
+    "ar-SA": {
+      "language": "Arabic",
+      "terms": [
+        "adhd",
+        "فرط الحركة",
+        "تشتت الانتباه"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/ar-SA/keywords.txt",
+          "keywords": "adhd,فرط الحركة,تشتت الانتباه,تذكير,منبه,تقويم,مواعيد,zoom",
+          "utf8_bytes": 99,
+          "removed_to_fit": [
+            "إشعارات",
+            "مكالمة",
+            "تركيز",
+            "teams",
+            "meet"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/ar-SA/keywords.txt",
+          "keywords": "adhd,فرط الحركة,تشتت الانتباه,منبه,تذكير,تقويم,مواعيد",
+          "utf8_bytes": 94,
+          "removed_to_fit": [
+            "teams",
+            "meet",
+            "zoom",
+            "مكالمة",
+            "إشعارات",
+            "تركيز"
+          ]
+        }
+      },
+      "terminology_source": "https://www.moh.gov.sa/healthawareness/educationalcontent/babyhealth/pages/002.aspx"
+    },
+    "he": {
+      "language": "Hebrew",
+      "terms": [
+        "adhd",
+        "הפרעת קשב"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/he/keywords.txt",
+          "keywords": "adhd,הפרעת קשב,תזכורת,יומן,התראה,זום,zoom,meet,teams,קשב,ריכוז",
+          "utf8_bytes": 96,
+          "removed_to_fit": [
+            "מעורר",
+            "שיחה"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/he/keywords.txt",
+          "keywords": "adhd,הפרעת קשב,יומן,שעון,מעורר,התראה,זום,zoom,teams,meet,קשב",
+          "utf8_bytes": 92,
+          "removed_to_fit": [
+            "צלצול",
+            "שיחה",
+            "ריכוז"
+          ]
+        }
+      },
+      "terminology_source": "https://me.health.gov.il/mental-health/information-and-updates/adhd/children/about/"
+    },
+    "hi": {
+      "language": "Hindi",
+      "terms": [
+        "adhd",
+        "एडीएचडी"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/hi/keywords.txt",
+          "keywords": "adhd,एडीएचडी,कैलेंडर,अलर्ट,अलार्म,zoom,meet,teams",
+          "utf8_bytes": 99,
+          "removed_to_fit": [
+            "call",
+            "reminder",
+            "meeting"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/hi/keywords.txt",
+          "keywords": "adhd,एडीएचडी,कैलेंडर,अलार्म,अलर्ट,सूचना",
+          "utf8_bytes": 99,
+          "removed_to_fit": [
+            "call",
+            "teams",
+            "meet",
+            "zoom"
+          ]
+        }
+      },
+      "terminology_source": "https://www.chp.gov.hk/files/pdf/understanding_attention_deficit_hyper_activity_disorder_hindi.pdf",
+      "transliteration_source": "https://www.medtalks.in/articles/adhd-meaning-in-hindi"
+    },
+    "ja": {
+      "language": "Japanese",
+      "terms": [
+        "adhd",
+        "注意欠如多動症"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/ja/keywords.txt",
+          "keywords": "adhd,注意欠如多動症,通知,カレンダー,予定,アラーム,zoom,teams,meet,web会議",
+          "utf8_bytes": 95,
+          "removed_to_fit": [
+            "全画面",
+            "集中",
+            "遅刻"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/ja/keywords.txt",
+          "keywords": "adhd,注意欠如多動症,通知,カレンダー,予定,アラーム,zoom,teams,meet,遅刻,集中",
+          "utf8_bytes": 99,
+          "removed_to_fit": [
+            "目覚まし",
+            "消音"
+          ]
+        }
+      },
+      "terminology_source": "https://www.mhlw.go.jp/content/10701000/001500923.pdf"
+    },
+    "ko": {
+      "language": "Korean",
+      "terms": [
+        "adhd",
+        "주의력결핍과잉행동장애"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/ko/keywords.txt",
+          "keywords": "adhd,주의력결핍과잉행동장애,리마인더,캘린더,일정,알람,화상회의,zoom,teams",
+          "utf8_bytes": 99,
+          "removed_to_fit": [
+            "팀즈",
+            "줌",
+            "메뉴바",
+            "집중",
+            "meet"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/ko/keywords.txt",
+          "keywords": "adhd,주의력결핍과잉행동장애,리마인더,캘린더,일정,알람,화상,zoom,teams,meet",
+          "utf8_bytes": 98,
+          "removed_to_fit": [
+            "통화",
+            "팀즈",
+            "줌",
+            "무음",
+            "집중"
+          ]
+        }
+      },
+      "terminology_source": "https://www.ncmh.go.kr/ncmh/board/commonView.do?menu_cd=04_01_00_03&no=620"
+    },
+    "zh-Hans": {
+      "language": "Chinese (Simplified)",
+      "terms": [
+        "adhd",
+        "多动症",
+        "注意缺陷多动障碍"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/zh-Hans/keywords.txt",
+          "keywords": "adhd,多动症,注意缺陷多动障碍,日历,通知,闹钟,倒计时,视频会议,zoom,teams,meet",
+          "utf8_bytes": 99,
+          "removed_to_fit": [
+            "弹窗",
+            "全屏",
+            "菜单栏",
+            "专注"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/zh-Hans/keywords.txt",
+          "keywords": "adhd,多动症,注意缺陷多动障碍,日历,通知,闹钟,闹铃,倒计时,视频,zoom,teams,meet",
+          "utf8_bytes": 100,
+          "removed_to_fit": [
+            "勿扰",
+            "铃声",
+            "静音",
+            "专注"
+          ]
+        }
+      },
+      "terminology_source": "https://www.nhc.gov.cn/cms-search/downFiles/9944cdd142574ea59c541d552fe345a9.pdf"
+    },
+    "zh-Hant": {
+      "language": "Chinese (Traditional)",
+      "terms": [
+        "adhd",
+        "過動症",
+        "注意力不足過動症"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/zh-Hant/keywords.txt",
+          "keywords": "adhd,過動症,注意力不足過動症,行事曆,日曆,通知,鬧鐘,倒數計時,視訊會議",
+          "utf8_bytes": 96,
+          "removed_to_fit": [
+            "全螢幕",
+            "專注",
+            "meet",
+            "teams",
+            "zoom"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/zh-Hant/keywords.txt",
+          "keywords": "adhd,過動症,注意力不足過動症,行事曆,日曆,通知,鬧鐘,倒數計時,視訊,zoom",
+          "utf8_bytes": 95,
+          "removed_to_fit": [
+            "勿擾",
+            "鈴聲",
+            "靜音",
+            "專注",
+            "meet",
+            "teams"
+          ]
+        }
+      },
+      "terminology_source": "https://dep.mohw.gov.tw/DOMHAOH/fp-4911-76241-107.html"
+    },
+    "id": {
+      "language": "Indonesian",
+      "terms": [
+        "adhd",
+        "gpph"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/id/keywords.txt",
+          "keywords": "adhd,gpph,meeting,reminder,kalender,jadwal,alarm,zoom,meet,teams,fokus,notifikasi,hitung mundur",
+          "utf8_bytes": 95,
+          "removed_to_fit": [
+            "agenda"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/id/keywords.txt",
+          "keywords": "adhd,gpph,kalender,jadwal,alarm,zoom,meet,teams,fokus,notifikasi,hening,hitung mundur,agenda",
+          "utf8_bytes": 92,
+          "removed_to_fit": [
+            "panggilan"
+          ]
+        }
+      },
+      "terminology_source": "https://keslan.kemkes.go.id/view_artikel/1917/jangan-ambil-hak-anak-anak-meski-mereka-terlahir-berbeda"
+    },
+    "th": {
+      "language": "Thai",
+      "terms": [
+        "adhd",
+        "สมาธิสั้น"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/th/keywords.txt",
+          "keywords": "adhd,สมาธิสั้น,zoom,meet,teams,meeting,reminder,ปฏิทิน",
+          "utf8_bytes": 84,
+          "removed_to_fit": [
+            "alarm",
+            "ปลุก",
+            "นัดหมาย"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/th/keywords.txt",
+          "keywords": "adhd,สมาธิสั้น,zoom,meet,teams,alarm,ปฏิทิน,นัดหมาย",
+          "utf8_bytes": 95,
+          "removed_to_fit": [
+            "นาฬิกา",
+            "ปลุก"
+          ]
+        }
+      },
+      "terminology_source": "https://dmh-elibrary.org/items/show/266"
+    },
+    "vi": {
+      "language": "Vietnamese",
+      "terms": [
+        "adhd",
+        "tăng động",
+        "giảm chú ý"
+      ],
+      "store_copies": [],
+      "listings": {
+        "macos": {
+          "path": "docs/app-store/metadata/vi/keywords.txt",
+          "keywords": "adhd,tăng động,giảm chú ý,meeting,reminder,zoom,meet,teams,báo thức,đếm ngược",
+          "utf8_bytes": 94,
+          "removed_to_fit": [
+            "việc",
+            "nhở",
+            "hẹn",
+            "thông báo"
+          ]
+        },
+        "ios": {
+          "path": "docs/app-store/metadata-ios/vi/keywords.txt",
+          "keywords": "adhd,tăng động,giảm chú ý,zoom,meet,teams,báo thức,đếm ngược,thông báo,hẹn",
+          "utf8_bytes": 95,
+          "removed_to_fit": [
+            "gọi",
+            "im lặng",
+            "việc",
+            "nhở"
+          ]
+        }
+      },
+      "terminology_source": "https://www.chp.gov.hk/en/static/107945.html"
+    }
+  }
+}

@@ -26,6 +26,12 @@ product data, galleries or Open Graph metadata.
 - Toc Toc includes practical meeting/calendar support for ADHD workdays. This is
   audience positioning, not a treatment or clinical-effectiveness claim. Context:
   https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know
+  Its keywords use regional terminology in both native listings: TDAH in Brazil,
+  PHDA in Portugal, ADHD in English, ADHS in German and native terms elsewhere.
+  `toctoc-keywords.json` records the 30 source locales, five reused store locales,
+  terminology sources and the conservative 100 UTF-8 byte checks. The Toc Toc
+  review ZIP includes 70 platform/locale keyword files. Metadata localization is
+  explicitly requested; multilingual artwork and public page changes remain paused.
 - All 48 static posts and 48 carousel slides use a dedicated social layout with
   large native devices and occasional whole cards over the frame; no side column.
   Sundust social posts use the real iPad captures to keep flight, terrain and the
