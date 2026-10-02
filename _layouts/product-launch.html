@@ -21,8 +21,8 @@
   {% for lang in site.languages %}{% assign lp = '' %}{% if lang != site.default_lang %}{% assign lp = lang | prepend: '/' %}{% endif %}<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}{{ lp }}{{ product_base_url }}"{% endstatic_href %}>{% endfor %}
   {% for variant in site.data.product_launch_localized[product.slug] %}{% assign lang = variant[0] %}{% unless lang == 'en-US' or site.languages contains lang %}<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}/{{ lang }}{{ product_base_url }}"{% endstatic_href %}>{% endunless %}{% endfor %}
   <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ site.url }}{{ product_base_url }}"{% endstatic_href %}>
-  <link rel="icon" href="{{ product.icon | relative_url }}"><link rel="stylesheet" href="{{ '/css/product-launch.css' | relative_url }}">
-  <script src="{{ '/js/product-launch.js' | relative_url }}" defer></script>
+  <link rel="icon" href="{{ product.icon | relative_url }}"><link rel="stylesheet" href="{{ '/css/product-launch.css' | relative_url }}?v={{ site.product_launch_asset_version }}">
+  <script src="{{ '/js/product-launch.js' | relative_url }}?v={{ site.product_launch_asset_version }}" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"{% if product.category == 'games' %}VideoGame{% else %}SoftwareApplication{% endif %}","name":{{ product.name | jsonify }},"description":{{ pc.description | jsonify }},"image":{{ product.icon | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"author":{"@type":"Organization","name":"Magic Lab Solutions"}{% if product.store_url %},"downloadUrl":{{ product.store_url | jsonify }}{% endif %}}</script>
   {% include social-meta.html product=page.product locale=app_locale localized_copy=launch.localized_copy %}
 </head><body class="l-page" data-product="{{ product.slug }}" style="--paper:{{ launch.palette[0] }};--ink:{{ launch.palette[1] }};--accent:{{ launch.palette[2] }}">

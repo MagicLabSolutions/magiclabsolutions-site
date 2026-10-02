@@ -1,10 +1,15 @@
 # Keep existing source pages and concurrent localized work intact. Legal/support routes
 # retain their own layouts; only the twelve requested product landing pages use this one.
+require 'digest'
 module Jekyll
   class ProductLaunch < Generator
     safe true
     priority :low
     def generate(site)
+      assets = %w[css/product-launch.css js/product-launch.js]
+      site.config['product_launch_asset_version'] = Digest::SHA256.hexdigest(
+        assets.map { |asset| File.binread(File.join(site.source, asset)) }.join
+      )[0, 12]
       products = site.data.fetch('product_launch', {})
       site.pages.each do |page|
         slug = products.keys.find { |key| page.path == "apps/#{key}/index.html" }
