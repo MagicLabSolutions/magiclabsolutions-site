@@ -15,7 +15,7 @@ English copy:
 >
 > Scan a page or import a PDF. / AI builds your study deck.
 
-The isolated book-scanning photo was generated and refined with the built-in `image_gen` tool. Exact initial/refinement prompts and original output path are preserved in `provenance.json`. A measured SVG silhouette mask removes the generated peripheral haze in the layout; the image keeps its original pixels and ivory contour. The PDF file illustration is editorial artwork, not a claimed native interface control.
+The isolated book-scanning photo was generated and refined with the built-in `image_gen` tool. It shows a modern school mathematics textbook with colorful diagrams, numbered practice exercises and teaching-tip boxes. Exact prompts and original output paths are preserved in `provenance.json` and `schoolbook-edit.json`. A measured SVG silhouette mask removes the generated peripheral haze in the layout; the image keeps its original pixels and ivory contour. The PDF file illustration is editorial artwork, not a claimed native interface control.
 
 The iPhone frame is the existing original Apple PNG, with its measured 1320 × 2868 opening. The flashcard pixels and complete rounded component are from the existing real English app capture; no UI or device hardware was generated or altered. `validation.json` records source hashes, screenshot dimensions, card crop, copy metrics and frame geometry.
 

@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-09T12:16:50.325Z",
+  "checkedAt": "2026-10-09T12:23:29.451Z",
   "approval": "pending",
   "dimensions": [
     1320,
     2868
   ],
   "file": "docs/marketing/october-2026/brainfold-import-pilot/exports/en-US/store-2-pilot.png",
-  "sha256": "ea085d708ac604db3089ae987d319e3b19d8ed43a623146615d24ad4538ef890",
+  "sha256": "b996c78dde2b2a808db6a84d1e185a88a7e9dd9724f6adf8d78022536cb49466",
   "sources": {
     "screen": {
       "file": "../sources/brainfold/screen-2.png",
@@ -17,8 +17,8 @@
       "sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb"
     },
     "photo": {
-      "file": "assets/scan-book-sticker-v1.png",
-      "sha256": "d1dd80763b7cc00dc84872677be127b7be1f095102e9e1f9a2f5f9448af0d49e"
+      "file": "assets/scan-schoolbook-sticker-v2.png",
+      "sha256": "09a75de804739aeee12797a54c61be0ad3ede456e187da739ecd0ef42e9d8c60"
     }
   },
   "photoTreatment": "Original AI photo with ivory contour; SVG silhouette clipping removes peripheral ambient haze in the layout. Native screenshot/hardware untouched.",

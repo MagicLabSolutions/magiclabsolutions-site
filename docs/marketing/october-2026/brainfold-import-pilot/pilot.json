@@ -9,7 +9,7 @@
   "icon": "../../../../images/portfolio/brainfold/icon.webp",
   "frame": {"asset": "../.frames-cache/iphone.png", "dimensions": [1470, 3000], "screen": [75, 66, 1320, 2868]},
   "flashcard": {"rect": [30, 452, 630, 1081], "left": 320, "top": 1830, "width": 924, "radius": 28, "angle": -2},
-  "photo": {"asset": "assets/scan-book-sticker-v1.png", "left": -12, "top": 1160, "width": 980},
+  "photo": {"asset": "assets/scan-schoolbook-sticker-v2.png", "subject": "Modern school mathematics textbook with diagrams and numbered exercises", "left": -12, "top": 1160, "width": 980},
   "pdf": {"left": 1000, "top": 1380, "width": 240},
   "claimEvidence": ["Brainfold/Features/Scan/CameraScanView.swift", "Brainfold/Features/Scan/PDFImportView.swift", "Brainfold/Core/Services/ScanService.swift"],
   "platformRollout": "Await English image approval before iOS translations, native macOS collection or App Store upload. Insert at position 2 without discarding approved flashcard panel."
