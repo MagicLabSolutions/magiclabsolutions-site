@@ -48,10 +48,12 @@ const selected=argv.find(a=>a.startsWith('--apps='))?.slice(7).split(',');
 const targetVersion=argv.find(a=>a.startsWith('--version='))?.slice(10);
 if(targetVersion&&selected?.length!==1)throw new Error('--version requires exactly one app in --apps');
 const localeFilter=argv.find(a=>a.startsWith('--locales='))?.slice(10).split(',');
+const platformFilter=argv.find(a=>a.startsWith('--platforms='))?.slice(12).split(',');
+if(platformFilter?.some(p=>!['IOS','MAC_OS'].includes(p)))throw new Error('--platforms accepts IOS and/or MAC_OS');
 const limit=Number(argv.find(a=>a.startsWith('--concurrency='))?.slice(14)||3);
 const locales={ 'ar-SA':['ar'],'bn-BD':['bn'],ca:['ca'],'zh-Hans':['zh-Hans'],'zh-Hant':['zh-Hant','zh-HK'],hr:['hr'],cs:['cs'],da:['da'],'nl-NL':['nl'],'en-AU':['en-AU','en-US'],'en-CA':['en-US'],'en-GB':['en-GB','en-US'],'en-US':['en-US'],fi:['fi'],'fr-FR':['fr'],'fr-CA':['fr-CA','fr'],'de-DE':['de'],el:['el'],'gu-IN':['gu'],he:['he'],hi:['hi'],hu:['hu'],id:['id'],it:['it'],ja:['ja'],'kn-IN':['kn'],ko:['ko'],ms:['ms'],'ml-IN':['ml'],'mr-IN':['mr'],no:['nb'],'or-IN':['or'],pl:['pl'],'pt-BR':['pt-BR'],'pt-PT':['pt-PT'],'pa-IN':['pa'],ro:['ro'],ru:['ru'],sk:['sk'],'sl-SI':['sl','sl-SI'],'es-MX':['es-419','es'],'es-ES':['es'],sv:['sv'],'ta-IN':['ta'],'te-IN':['te'],th:['th'],tr:['tr'],uk:['uk'],'ur-PK':['ur'],vi:['vi']};
 const specs={APP_IPHONE_67:{prefix:'store',size:[1320,2868]},APP_IPAD_PRO_3GEN_129:{prefix:'ipad-store',size:[2064,2752]},APP_DESKTOP:{prefix:'store',size:[2880,1800]}};
-const configurations={groundcontrol:['MAC_OS'],sundust:['IOS'],brainfold:['IOS'],memories:['IOS'],myrenewals:['IOS'],toctoc:['IOS','MAC_OS'],giftly:['IOS'],zuzu:['IOS'],poof:['MAC_OS']};
+const configurations={groundcontrol:['MAC_OS'],sundust:['IOS'],brainfold:['IOS'],memories:['IOS'],myrenewals:['IOS'],toctoc:['IOS','MAC_OS'],giftly:['IOS','MAC_OS'],zuzu:['IOS'],poof:['MAC_OS']};
 const inventory=await read(path.join(inventoryAudit,'inventory-before.json'));
 const languages=await read(path.join(root,'docs/marketing/october-2026/localized/languages.json'));
 const tasks=[],versions=[],excluded=[];
@@ -59,6 +61,7 @@ for(const [slug,platforms] of Object.entries(configurations)) {
  if(selected&&!selected.includes(slug))continue;
  const record=inventory.records.find(r=>r.slug===slug);
  for(const platform of platforms) {
+  if(platformFilter&&!platformFilter.includes(platform))continue;
   const liveVersions=await all(`/v1/apps/${record.appId}/appStoreVersions?filter[platform]=${platform}&limit=200`);
   const current=targetVersion?liveVersions.find(v=>v.attributes.versionString===targetVersion):liveVersions[0];
   if(!current)throw new Error(`${slug} missing ${platform} version ${targetVersion||''}`);
@@ -73,9 +76,10 @@ for(const [slug,platforms] of Object.entries(configurations)) {
    // GroundControl is English-only; regional English reuse is for translated portfolios.
    if(slug==='groundcontrol'&&locale!=='en-US')continue;
    const source=[locale,...candidates].find(l=>languages[slug].locales.includes(l));if(!source)continue;
-   const folder=path.join(root,'docs/marketing/october-2026/localized/exports',source,slug);
+   const giftlyMac=slug==='giftly'&&platform==='MAC_OS';
+   const folder=giftlyMac?path.join(root,'docs/marketing/october-2026/giftly-macos/exports',source):path.join(root,'docs/marketing/october-2026/localized/exports',source,slug);
    for(const type of types) {
-    const spec=specs[type],prefix=slug==='toctoc'&&type==='APP_IPHONE_67'?'iphone-store':spec.prefix;
+    const spec=specs[type],prefix=giftlyMac?'mac-store':slug==='toctoc'&&type==='APP_IPHONE_67'?'iphone-store':spec.prefix;
     const names=(await fs.readdir(folder)).filter(n=>new RegExp(`^${prefix}-(\\d+)\\.png$`).test(n)).sort((a,b)=>Number(a.match(/(\d+)\.png$/)[1])-Number(b.match(/(\d+)\.png$/)[1]));
     if(!names.length||names.length>10)throw new Error(`${slug} ${source} ${type}: invalid count`);
     const files=[];

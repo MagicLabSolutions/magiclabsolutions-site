@@ -1,0 +1,1701 @@
+{
+  "createdAt": "2026-10-09T01:29:05.381Z",
+  "versions": [
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "currentId": "a3b1f51a-32f0-4113-bb27-abb594bb66e2",
+      "version": "1.2.1",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "tasks": [
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ar/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-c48d3f1eee.png",
+          "md5": "c48d3f1eee5c0e814abc8fb7f81f4357",
+          "size": 2105944,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ar/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-1ca7d4a8af.png",
+          "md5": "1ca7d4a8afbd54dd4637cb9e8105e325",
+          "size": 1597020,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ar/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-21ac828900.png",
+          "md5": "21ac828900505d1812df08d60134b41c",
+          "size": 1512028,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ar/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-aa4a69bffb.png",
+          "md5": "aa4a69bffbf22a2c327cc8b28283ce9b",
+          "size": 1692100,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ca/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-02c8d0019c.png",
+          "md5": "02c8d0019c6fe64831cc4bfc3eeaff37",
+          "size": 2150986,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ca/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-8f35eb56f1.png",
+          "md5": "8f35eb56f1b2e7534514b3feadcfd387",
+          "size": 1713516,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ca/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6912ec4439.png",
+          "md5": "6912ec4439982972379b2682d9741c69",
+          "size": 1630673,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ca/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-dbeec21bf0.png",
+          "md5": "dbeec21bf091bee2ba1a2706b80ad993",
+          "size": 1762108,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hans/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-ae89b2e6dc.png",
+          "md5": "ae89b2e6dc6923b5a097982200eac732",
+          "size": 2129198,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hans/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-8f00ed984c.png",
+          "md5": "8f00ed984c70aab0d73c54767bd23896",
+          "size": 1653475,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hans/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-c209ed893d.png",
+          "md5": "c209ed893df170c9217eda6d1633b9f8",
+          "size": 1602509,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hans/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-0746f4a05f.png",
+          "md5": "0746f4a05ffb5eebed3a3c21e78f7d94",
+          "size": 1758653,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hant/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-fc9c458330.png",
+          "md5": "fc9c4583301623b7e4d6db390c274d09",
+          "size": 2131393,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hant/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-16f319531a.png",
+          "md5": "16f319531afa6a47c1ce63f482fdb7af",
+          "size": 1660040,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hant/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-13fefb303c.png",
+          "md5": "13fefb303c116bb2bb11007b398638b3",
+          "size": 1622306,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/zh-Hant/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-572aec77ef.png",
+          "md5": "572aec77efb8541626aacde97142ddc0",
+          "size": 1771070,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-63e07d41a6.png",
+          "md5": "63e07d41a6dcf726e035c043a66bff41",
+          "size": 2145275,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-c145a48055.png",
+          "md5": "c145a480556395b316ff1f04e3a0d1f8",
+          "size": 1699757,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-bfaea21167.png",
+          "md5": "bfaea21167d708cfbf8f09cebc0a87b1",
+          "size": 1588092,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-da3e7a1eb4.png",
+          "md5": "da3e7a1eb4c7146f7e06eb033bdc02b6",
+          "size": 1766181,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/cs/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-65f2ca85d2.png",
+          "md5": "65f2ca85d25daa0f1b4d14f6fa379833",
+          "size": 2147391,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/cs/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-49aeda9225.png",
+          "md5": "49aeda9225e30c99b0029f688ff90dbe",
+          "size": 1709447,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/cs/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-4779107072.png",
+          "md5": "47791070724ce79c3c40c5a62123e97c",
+          "size": 1598838,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/cs/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-8db5cc54f1.png",
+          "md5": "8db5cc54f1ff3b74ac32092c694202e7",
+          "size": 1764682,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/da/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-72c6c015f9.png",
+          "md5": "72c6c015f9329485b6e74b4ce6f7c6f1",
+          "size": 2146454,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/da/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-243acf63a4.png",
+          "md5": "243acf63a402c46236c6f85e1613c9ea",
+          "size": 1709906,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/da/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-1c0b102b11.png",
+          "md5": "1c0b102b11c3f424c7506d9c15a11211",
+          "size": 1606696,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/da/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-3e599910c4.png",
+          "md5": "3e599910c410d679aa8a12a940a968b6",
+          "size": 1754352,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9e5c4b228f.png",
+          "md5": "9e5c4b228fdc4cf73c746087fe95d0a8",
+          "size": 2188802,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a9b939705c.png",
+          "md5": "a9b939705cf0f45734680979783643c8",
+          "size": 1740238,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-14e3ab6c53.png",
+          "md5": "14e3ab6c53db1c9926921c4f5f2fb588",
+          "size": 1628114,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-fac1816fe1.png",
+          "md5": "fac1816fe1446b764c7910426aa58db5",
+          "size": 1782203,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "en-AU",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-69f966cc90.png",
+          "md5": "69f966cc90d4e4a71ee0e33d38c470e3",
+          "size": 2128889,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-53f2e11f7b.png",
+          "md5": "53f2e11f7b8c547ae62f13423b511760",
+          "size": 1671495,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ef364b12df.png",
+          "md5": "ef364b12df71dd8ff1d3d756ea1c112f",
+          "size": 1588561,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-abd86899b2.png",
+          "md5": "abd86899b27f163c3874fb6bf3fdd743",
+          "size": 1747516,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-69f966cc90.png",
+          "md5": "69f966cc90d4e4a71ee0e33d38c470e3",
+          "size": 2128889,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-53f2e11f7b.png",
+          "md5": "53f2e11f7b8c547ae62f13423b511760",
+          "size": 1671495,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ef364b12df.png",
+          "md5": "ef364b12df71dd8ff1d3d756ea1c112f",
+          "size": 1588561,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-abd86899b2.png",
+          "md5": "abd86899b27f163c3874fb6bf3fdd743",
+          "size": 1747516,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "en-GB",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-69f966cc90.png",
+          "md5": "69f966cc90d4e4a71ee0e33d38c470e3",
+          "size": 2128889,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-53f2e11f7b.png",
+          "md5": "53f2e11f7b8c547ae62f13423b511760",
+          "size": 1671495,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ef364b12df.png",
+          "md5": "ef364b12df71dd8ff1d3d756ea1c112f",
+          "size": 1588561,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-abd86899b2.png",
+          "md5": "abd86899b27f163c3874fb6bf3fdd743",
+          "size": 1747516,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-69f966cc90.png",
+          "md5": "69f966cc90d4e4a71ee0e33d38c470e3",
+          "size": 2128889,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-53f2e11f7b.png",
+          "md5": "53f2e11f7b8c547ae62f13423b511760",
+          "size": 1671495,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ef364b12df.png",
+          "md5": "ef364b12df71dd8ff1d3d756ea1c112f",
+          "size": 1588561,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-abd86899b2.png",
+          "md5": "abd86899b27f163c3874fb6bf3fdd743",
+          "size": 1747516,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e8b0db92be.png",
+          "md5": "e8b0db92bef522e4e14958699cc0b372",
+          "size": 2203121,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-df74a44517.png",
+          "md5": "df74a44517b2fa0b163a0ef900505dda",
+          "size": 1760717,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-cd537ff00a.png",
+          "md5": "cd537ff00a0581a0d62de7dba3419b9a",
+          "size": 1620392,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-41c1ce48b9.png",
+          "md5": "41c1ce48b92dc9ce1eaf4ec19dedc5bd",
+          "size": 1779917,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-4ae78c92dd.png",
+          "md5": "4ae78c92dd868bd1852959cfea5d2802",
+          "size": 2168812,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a7d273c518.png",
+          "md5": "a7d273c518fb016c665297e88521b2e4",
+          "size": 1741398,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-08384d83bf.png",
+          "md5": "08384d83bf067921a2799c6f5ab1e364",
+          "size": 1631493,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-cbdd260237.png",
+          "md5": "cbdd2602379f54fa42df3403c13bb441",
+          "size": 1761949,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "fr-CA",
+      "sourceLocale": "fr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-4ae78c92dd.png",
+          "md5": "4ae78c92dd868bd1852959cfea5d2802",
+          "size": 2168812,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a7d273c518.png",
+          "md5": "a7d273c518fb016c665297e88521b2e4",
+          "size": 1741398,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-08384d83bf.png",
+          "md5": "08384d83bf067921a2799c6f5ab1e364",
+          "size": 1631493,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/fr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-cbdd260237.png",
+          "md5": "cbdd2602379f54fa42df3403c13bb441",
+          "size": 1761949,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/de/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a58fa40112.png",
+          "md5": "a58fa401129ca4fa3bbca6ace7301479",
+          "size": 2168389,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/de/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-1cc7c584b3.png",
+          "md5": "1cc7c584b3a26cf80a48dcf832d4cd21",
+          "size": 1737318,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/de/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-cc185d14bd.png",
+          "md5": "cc185d14bd4918f8392d22e6f947a3be",
+          "size": 1632165,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/de/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-8f5790ce7b.png",
+          "md5": "8f5790ce7b357e958ada3429c6b553b0",
+          "size": 1766828,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/el/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-01f42fdcfe.png",
+          "md5": "01f42fdcfeb5f05eff7585ad09951662",
+          "size": 2196997,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/el/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-0160a48f24.png",
+          "md5": "0160a48f2435d0799a09fc0453f01da1",
+          "size": 1758769,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/el/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-3f9e96f53b.png",
+          "md5": "3f9e96f53b12e35337a867f8e49b75b1",
+          "size": 1678681,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/el/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-005d317473.png",
+          "md5": "005d31747335a7fda5b18b54589bf2a6",
+          "size": 1789538,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/he/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-2e2b72416b.png",
+          "md5": "2e2b72416bd91a868706b5cd7bc607c2",
+          "size": 2105388,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/he/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-fa808737ef.png",
+          "md5": "fa808737efc20b9f73d3596132f8b66d",
+          "size": 1610348,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/he/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-b14c005560.png",
+          "md5": "b14c005560216c4c30175951fc4bf2dd",
+          "size": 1532047,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/he/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-947f329c6f.png",
+          "md5": "947f329c6f7301dc85757f85b426e5a6",
+          "size": 1713226,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-65112093a4.png",
+          "md5": "65112093a413c86747e3f35175d30837",
+          "size": 2187180,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-cc16f6fbeb.png",
+          "md5": "cc16f6fbebd6e936f5e9208aa84b8ba3",
+          "size": 1701581,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6262fa0e52.png",
+          "md5": "6262fa0e52e1be7ba723701f6373a5a4",
+          "size": 1570168,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-10b0e9fd0b.png",
+          "md5": "10b0e9fd0b026f4d2545fe15ab0ec471",
+          "size": 1782721,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hu/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-1b867fa819.png",
+          "md5": "1b867fa819b5a9bc1b079471bd31ccdd",
+          "size": 2175992,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hu/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-9c5391dfad.png",
+          "md5": "9c5391dfadc87d0242a3c507decf821c",
+          "size": 1752755,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hu/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-272bf656b1.png",
+          "md5": "272bf656b13974bacfce283cf19b48b5",
+          "size": 1645789,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/hu/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-0a8fb30db5.png",
+          "md5": "0a8fb30db56a6e5d76664b84ee075c0f",
+          "size": 1791240,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/id/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8bebbcf72e.png",
+          "md5": "8bebbcf72ecf82fedea10763b2fc8c1f",
+          "size": 2138769,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/id/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-11e41252be.png",
+          "md5": "11e41252bea1c7f7c1fc76080c7aaddc",
+          "size": 1714322,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/id/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ef48615afd.png",
+          "md5": "ef48615afdac0bcf5065ff8b81b47a57",
+          "size": 1595279,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/id/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-e7e3a63356.png",
+          "md5": "e7e3a63356364dd15acb6cf2ea5fc9dd",
+          "size": 1738583,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/it/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-0ae0b21397.png",
+          "md5": "0ae0b2139766283e164261dba6bc2303",
+          "size": 2165519,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/it/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-da7f1bb086.png",
+          "md5": "da7f1bb086063b3c5b13f8c4b27eccb1",
+          "size": 1727405,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/it/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-8ec5f3f911.png",
+          "md5": "8ec5f3f911f45a41def84a0fdf4f1bed",
+          "size": 1619602,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/it/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-b291ae269d.png",
+          "md5": "b291ae269d47439f23fcc8363a3492a3",
+          "size": 1759949,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ja/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-7c48d1ba84.png",
+          "md5": "7c48d1ba84294068ab56ce2f7deb0cc0",
+          "size": 2172216,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ja/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-2a27e3ee2c.png",
+          "md5": "2a27e3ee2cd1ce81fceb5ee2a0d5070d",
+          "size": 1705609,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ja/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6e99f04949.png",
+          "md5": "6e99f0494978fcc94565402730b4ce33",
+          "size": 1611803,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ja/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-5dacf28d96.png",
+          "md5": "5dacf28d9656647014745be2489acd12",
+          "size": 1769119,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ko/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-5f6cb36844.png",
+          "md5": "5f6cb3684485aee9ca2edb96447b629a",
+          "size": 2110518,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ko/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-f13a695eaa.png",
+          "md5": "f13a695eaab07f07ca011509cff85013",
+          "size": 1629641,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ko/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-11a042f681.png",
+          "md5": "11a042f68132f2f6b8d9b640cee20c53",
+          "size": 1538188,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ko/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-7a85e541ea.png",
+          "md5": "7a85e541eadb986b6bea9dc65e13801e",
+          "size": 1719489,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ms/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a8fcebc133.png",
+          "md5": "a8fcebc133418626881e5bdc401003c7",
+          "size": 2157489,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ms/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-f4951e8c28.png",
+          "md5": "f4951e8c282a6cd6b9ed75d94ba60214",
+          "size": 1721490,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ms/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6aab37b3e5.png",
+          "md5": "6aab37b3e5697394ccd168cfa664a3bc",
+          "size": 1602198,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ms/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-beb23195f0.png",
+          "md5": "beb23195f0dcac7158b1e34723449a22",
+          "size": 1742285,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nb/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-436f136d05.png",
+          "md5": "436f136d05fa50d30a3e6a8949b89f18",
+          "size": 2148917,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nb/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-35c1ce17db.png",
+          "md5": "35c1ce17db5ea09c5a6223222515a5d3",
+          "size": 1701792,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nb/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-78ca4346dd.png",
+          "md5": "78ca4346dda0e8a95f6567f85fd420bb",
+          "size": 1588911,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/nb/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-361baae309.png",
+          "md5": "361baae309860efd9512dc9cf66cec73",
+          "size": 1760776,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e7b2395ef4.png",
+          "md5": "e7b2395ef4f8281ffcffa607d00ae651",
+          "size": 2170743,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-cda985faff.png",
+          "md5": "cda985faffa3e2fd558d1752f20100f8",
+          "size": 1718270,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-1b97915e9b.png",
+          "md5": "1b97915e9bd58df3ee30ade421fb21d2",
+          "size": 1610506,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-a731023cf6.png",
+          "md5": "a731023cf6d5b978f4a393b8b18674e7",
+          "size": 1790456,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-BR/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-2d0c66f369.png",
+          "md5": "2d0c66f36981aa8b9fe04109753709c1",
+          "size": 2161046,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-BR/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-ba8f49bef0.png",
+          "md5": "ba8f49bef090efa440ae49a4f8ad589d",
+          "size": 1719450,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-BR/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6bae7b81d7.png",
+          "md5": "6bae7b81d7578028ede50c079fd83533",
+          "size": 1673535,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-BR/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-8e40f48800.png",
+          "md5": "8e40f48800a2f83104dd340c599ea68f",
+          "size": 1788351,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-PT/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-5c1cac3d4b.png",
+          "md5": "5c1cac3d4b38aea974e1b09959853fb4",
+          "size": 2177555,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-PT/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-7b61e82e4b.png",
+          "md5": "7b61e82e4bc308148bd809b0cc98134d",
+          "size": 1740704,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-PT/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-2c5cf8ea88.png",
+          "md5": "2c5cf8ea887dd77ee2f4e48b116880bf",
+          "size": 1685031,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/pt-PT/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-af1643161c.png",
+          "md5": "af1643161ca0e37d41060da92fcf3b8e",
+          "size": 1785030,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ro/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a9b3d4d95b.png",
+          "md5": "a9b3d4d95b03ee4b89e91c0840acbd21",
+          "size": 2154340,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ro/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-b6c4a91ac4.png",
+          "md5": "b6c4a91ac4f457d2bbe1099a6ea7174b",
+          "size": 1714594,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ro/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-2e704cc03e.png",
+          "md5": "2e704cc03ef27461eb82f363a5a134ea",
+          "size": 1599736,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ro/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-01c0f083cc.png",
+          "md5": "01c0f083ccec3fd2e900a83b631d9d42",
+          "size": 1752812,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ru/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-ea724aa14b.png",
+          "md5": "ea724aa14b373032f98443b0abc7226d",
+          "size": 2218890,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ru/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-ae932c65d8.png",
+          "md5": "ae932c65d8fb0a8f0fe9c3093d4015cf",
+          "size": 1770507,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ru/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-625f3fda73.png",
+          "md5": "625f3fda739f6f5ef16645e2067b15cd",
+          "size": 1633916,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/ru/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-68907561a2.png",
+          "md5": "68907561a2bbdca1f35a6ed4d0409881",
+          "size": 1789085,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sk/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-34495a9e1d.png",
+          "md5": "34495a9e1d9cb0a4d2e2bf92a21d0c9e",
+          "size": 2162303,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sk/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-844da32434.png",
+          "md5": "844da32434d294a09e987f551596606c",
+          "size": 1724124,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sk/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6b7e1dd2e7.png",
+          "md5": "6b7e1dd2e7b3a64605af3df59a5186cf",
+          "size": 1609149,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sk/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-47998e5abc.png",
+          "md5": "47998e5abc55b645dab6172b7c67d076",
+          "size": 1778615,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "es-MX",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-13e0d14603.png",
+          "md5": "13e0d1460394619689cb42fdb2cdd245",
+          "size": 2160991,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-95b97526f5.png",
+          "md5": "95b97526f58c4126b3e5e3a60930bc94",
+          "size": 1715469,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-559cdbf061.png",
+          "md5": "559cdbf061e8c24bd4346dfc7a3c5e78",
+          "size": 1631995,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d89960d33f.png",
+          "md5": "d89960d33f417b42ba70beadb70386a5",
+          "size": 1779828,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-13e0d14603.png",
+          "md5": "13e0d1460394619689cb42fdb2cdd245",
+          "size": 2160991,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-95b97526f5.png",
+          "md5": "95b97526f58c4126b3e5e3a60930bc94",
+          "size": 1715469,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-559cdbf061.png",
+          "md5": "559cdbf061e8c24bd4346dfc7a3c5e78",
+          "size": 1631995,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/es/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d89960d33f.png",
+          "md5": "d89960d33f417b42ba70beadb70386a5",
+          "size": 1779828,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sv/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-89e2e443de.png",
+          "md5": "89e2e443deac115a2cd4960a6eb37720",
+          "size": 2154743,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sv/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-52a9a9e86f.png",
+          "md5": "52a9a9e86f87cd6e9309fad8d3faae59",
+          "size": 1714730,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sv/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-dc83b48ff8.png",
+          "md5": "dc83b48ff847a42bf275af3444fe514e",
+          "size": 1597658,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/sv/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-48c13b537c.png",
+          "md5": "48c13b537c3d8b46482993ef58bdbb9d",
+          "size": 1762076,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "th",
+      "sourceLocale": "th",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/th/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-90d863f93a.png",
+          "md5": "90d863f93a018c320aa159dc29731a06",
+          "size": 2224687,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/th/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-708d5ed413.png",
+          "md5": "708d5ed4139579bfd68536f9007ed663",
+          "size": 1721139,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/th/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-22df1acc41.png",
+          "md5": "22df1acc4183c31d1ad9d3ba8217defb",
+          "size": 1631333,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/th/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-dc3a78f4c9.png",
+          "md5": "dc3a78f4c9fbbd0e3263699d365a6f2f",
+          "size": 1806986,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/tr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-69682dd7a5.png",
+          "md5": "69682dd7a53ad114e8cad4d803635f8f",
+          "size": 2166096,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/tr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-e1cddac17c.png",
+          "md5": "e1cddac17c5163d6efe1d20965b6d3ae",
+          "size": 1725177,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/tr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-efe80162e9.png",
+          "md5": "efe80162e9c01c74747c83aa74aa4753",
+          "size": 1578369,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/tr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-328c861774.png",
+          "md5": "328c86177407d79c0751647625e6fc45",
+          "size": 1763651,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/uk/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-54ad894db6.png",
+          "md5": "54ad894db6225366d9ba6dbb0776c5b6",
+          "size": 2227970,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/uk/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-69402bee06.png",
+          "md5": "69402bee0670d19094dd4b7ebaab41f4",
+          "size": 1793102,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/uk/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-9f0f2a642b.png",
+          "md5": "9f0f2a642bb135851261192f714d307c",
+          "size": 1651773,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/uk/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-7814a89bf3.png",
+          "md5": "7814a89bf371176cfbc2603b5c429e92",
+          "size": 1781450,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "giftly",
+      "appId": "6802913010",
+      "platform": "MAC_OS",
+      "version": "1.2.1",
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/vi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a5e5ce5426.png",
+          "md5": "a5e5ce5426e070077afcdca56cc5af04",
+          "size": 2646623,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/vi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-7803c5f47e.png",
+          "md5": "7803c5f47e4a235f58e7b234d4a79fe1",
+          "size": 1724767,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/vi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-e1eb4286a2.png",
+          "md5": "e1eb4286a20a195e94d6a1d09c1866fc",
+          "size": 1625111,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/giftly-macos/exports/vi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-bda7bc983f.png",
+          "md5": "bda7bc983f9a40d83138c8001664053d",
+          "size": 1792299,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    }
+  ],
+  "retained": [
+    "tumtum",
+    "soooon"
+  ],
+  "noAppleRecord": [
+    "hooray"
+  ]
+}

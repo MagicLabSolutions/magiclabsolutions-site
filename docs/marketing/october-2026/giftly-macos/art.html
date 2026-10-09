@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Giftly — native Mac artwork</title><style>
+*{box-sizing:border-box}html,body{margin:0}body{font-family:-apple-system,BlinkMacSystemFont,'Avenir Next',sans-serif}
+.art{position:relative;width:2880px;height:1800px;overflow:hidden;isolation:isolate;background:#f7f4ed;color:#183f35}
+.scene,.veil{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:50% 30%}.veil{z-index:-1;background:linear-gradient(180deg,#f7f4edfa,#f7f4edd9 48%,#f7f4ed75)}
+.brand{position:absolute;left:130px;top:65px;display:flex;align-items:center;gap:26px;font-size:70px;font-weight:650}.brand img{width:88px;height:88px;border-radius:24%}
+.copy{position:absolute;left:130px;right:130px;top:202px;text-align:center;z-index:6}
+h1{font-size:238px;font-weight:760;line-height:1.04;letter-spacing:-.045em;margin:0;text-wrap:balance}.description{font-size:120px;line-height:1.25;margin:32px 0 0;text-wrap:balance;font-weight:450}
+.window{position:absolute;left:100px;width:2680px;z-index:1;overflow:hidden;border-radius:36px;border:3px solid #ffffffb8;box-shadow:0 40px 85px #0d251f45;transform:rotate(-1deg);transform-origin:50% 0;background:#f7f4ed}
+.chrome{height:70px;background:#f1eee7;display:flex;align-items:center;justify-content:center;color:#645e52;font-size:28px;font-weight:600;border-bottom:2px solid #d9d4ca}.traffic{position:absolute;left:25px;top:24px;display:flex;gap:15px}.traffic i{width:23px;height:23px;border-radius:50%;background:#ff5f57;border:1px solid #d14b46}.traffic i:nth-child(2){background:#febc2e;border-color:#d39a27}.traffic i:nth-child(3){background:#28c840;border-color:#22a535}
+.native{width:100%;height:auto;display:block}.cutout{position:absolute;z-index:4;overflow:hidden;border-radius:48px;box-shadow:0 28px 65px #14392b38;outline:8px solid #fffdf6;transform:rotate(var(--angle));background:#fffdf8}.cutout img{position:absolute;max-width:none;display:block}
+.prop{position:absolute;z-index:5;object-fit:contain;width:510px;bottom:-155px;right:-100px;transform:rotate(12deg);pointer-events:none}
+[data-panel="0"]{color:white}[data-panel="0"] .veil{background:linear-gradient(180deg,#15241fe8,#15241fa8 38%,#15241f33)}[data-panel="0"] .scene{background-position:50% 32%}[data-panel="0"] .prop{display:none}
+[data-panel="1"] .window{transform:rotate(1deg)}[data-panel="2"] .veil{background:linear-gradient(135deg,#f7f4edf5,#f7f4eddf)}[data-panel="3"] .scene{background-position:20% 60%}[data-panel="3"] .veil{background:linear-gradient(135deg,#edf0e8f9,#f7f4eddc)}
+[dir="rtl"] h1{letter-spacing:0;font-weight:700}[lang="hi"] h1,[lang="th"] h1{letter-spacing:0;line-height:1.18}
+</style><main class="art" id="art"><div class="scene"></div><div class="veil"></div><div class="brand"><img src="/images/portfolio/giftly/icon.webp">Giftly</div><div class="copy"><h1></h1><p class="description"></p></div><div class="window"><div class="chrome"><span class="traffic"><i></i><i></i><i></i></span>Giftly</div><img class="native"></div><div id="cutouts"></div><img class="prop" src="/docs/marketing/october-2026/assets/giftly/gift-cutout.png"></main>
+<script>
+window.renderMac=async({locale,panel,copy,crops})=>{
+ const art=document.querySelector('.art'),rtl=['ar','he'].includes(locale);
+ document.documentElement.lang=locale;art.dir=rtl?'rtl':'ltr';art.dataset.panel=panel;
+ document.querySelector('.scene').style.backgroundImage='url(/docs/marketing/october-2026/lifestyle/celebration.png)';
+ document.querySelector('h1').textContent=copy[0];document.querySelector('.description').textContent=copy[1];
+ const screen=['today','upcoming','people','calendar'][panel];document.querySelector('.native').src=`native/${locale}/${screen}.png`;
+ document.querySelector('#cutouts').replaceChildren();await document.fonts.ready;
+ await Promise.all([...document.images].map(i=>i.decode()));
+ const box=document.querySelector('.copy').getBoundingClientRect();
+ const top=Math.ceil(box.bottom+80);document.querySelector('.window').style.top=top+'px';
+ for(const c of crops){
+  const div=document.createElement('div');div.className='cutout';
+  const [x,y,w,h]=c.rect,scale=c.width/w;
+  Object.assign(div.style,{left:(rtl?2880-c.left-c.width:c.left)+'px',top:c.top+'px',width:c.width+'px',height:h*scale+'px','--angle':(rtl?-c.angle:c.angle)+'deg'});
+  const img=document.createElement('img');img.src=`native/${locale}/${screen}.png`;
+  Object.assign(img.style,{left:-x*scale+'px',top:-y*scale+'px',width:2560*scale+'px',height:1600*scale+'px'});
+  div.append(img);document.querySelector('#cutouts').append(div);await img.decode();
+ }
+ return {windowTop:top,headlineSize:parseFloat(getComputedStyle(document.querySelector('h1')).fontSize),descriptionSize:120,copyBottom:box.bottom,
+  copyFits:box.bottom<1000&&document.querySelector('h1').scrollWidth<=box.width&&document.querySelector('.description').scrollWidth<=box.width,
+  cutouts:[...document.querySelectorAll('.cutout')].map(el=>{const r=el.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};})};
+};
+</script></html>
