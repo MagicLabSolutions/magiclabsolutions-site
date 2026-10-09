@@ -18,3 +18,14 @@ No required listing text fields were missing in the final read.
 See `delivered-galleries.json` for each processed image and `upload-status.json`
 for the final checks. Original images and sanitized metadata remain in the
 ignored local `work/backups/` folder.
+
+## Planned keywords
+
+The saved campaign keyword plan is English-only. Its exact 85-character list was
+applied to en-US, en-GB, en-AU and en-CA on version 1.2.1 and read back from Apple:
+
+`anniversary,reminder,occasion,wishlist,present,people,calendar,planner,holiday,family`
+
+The other 35 localizations kept their existing translated keywords. Every other
+listing field and the version attributes remained unchanged. See
+`keywords-before.json` and `keywords-verification.json` for the before/after audit.
