@@ -34,7 +34,9 @@ async function all(url) {
  return rows;
 }
 const sharp=createRequire(process.env.ASC_IMAGE_RUNTIME || path.join(homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json'))('sharp');
-const audit=path.join(root,'docs/marketing/october-2026/app-store-connect');
+const inventoryAudit=path.join(root,'docs/marketing/october-2026/app-store-connect');
+const auditOption=process.argv.find(a=>a.startsWith('--audit-dir='))?.slice(12);
+const audit=auditOption?path.resolve(root,auditOption):inventoryAudit;
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 const save=async(p,v)=>{await fs.mkdir(path.dirname(p),{recursive:true});await fs.writeFile(p,JSON.stringify(v,null,2)+'\n');};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
@@ -43,20 +45,24 @@ const state=v=>v.attributes.appVersionState??v.attributes.appStoreState;
 const argv=process.argv.slice(2),apply=argv.includes('--apply');
 const resumeVerified=argv.includes('--resume-verified');
 const selected=argv.find(a=>a.startsWith('--apps='))?.slice(7).split(',');
+const targetVersion=argv.find(a=>a.startsWith('--version='))?.slice(10);
+if(targetVersion&&selected?.length!==1)throw new Error('--version requires exactly one app in --apps');
 const localeFilter=argv.find(a=>a.startsWith('--locales='))?.slice(10).split(',');
 const limit=Number(argv.find(a=>a.startsWith('--concurrency='))?.slice(14)||3);
 const locales={ 'ar-SA':['ar'],'bn-BD':['bn'],ca:['ca'],'zh-Hans':['zh-Hans'],'zh-Hant':['zh-Hant','zh-HK'],hr:['hr'],cs:['cs'],da:['da'],'nl-NL':['nl'],'en-AU':['en-AU','en-US'],'en-CA':['en-US'],'en-GB':['en-GB','en-US'],'en-US':['en-US'],fi:['fi'],'fr-FR':['fr'],'fr-CA':['fr-CA','fr'],'de-DE':['de'],el:['el'],'gu-IN':['gu'],he:['he'],hi:['hi'],hu:['hu'],id:['id'],it:['it'],ja:['ja'],'kn-IN':['kn'],ko:['ko'],ms:['ms'],'ml-IN':['ml'],'mr-IN':['mr'],no:['nb'],'or-IN':['or'],pl:['pl'],'pt-BR':['pt-BR'],'pt-PT':['pt-PT'],'pa-IN':['pa'],ro:['ro'],ru:['ru'],sk:['sk'],'sl-SI':['sl','sl-SI'],'es-MX':['es-419','es'],'es-ES':['es'],sv:['sv'],'ta-IN':['ta'],'te-IN':['te'],th:['th'],tr:['tr'],uk:['uk'],'ur-PK':['ur'],vi:['vi']};
 const specs={APP_IPHONE_67:{prefix:'store',size:[1320,2868]},APP_IPAD_PRO_3GEN_129:{prefix:'ipad-store',size:[2064,2752]},APP_DESKTOP:{prefix:'store',size:[2880,1800]}};
 const configurations={groundcontrol:['MAC_OS'],sundust:['IOS'],brainfold:['IOS'],memories:['IOS'],myrenewals:['IOS'],toctoc:['IOS','MAC_OS'],giftly:['IOS'],zuzu:['IOS'],poof:['MAC_OS']};
-const inventory=await read(path.join(audit,'inventory-before.json'));
+const inventory=await read(path.join(inventoryAudit,'inventory-before.json'));
 const languages=await read(path.join(root,'docs/marketing/october-2026/localized/languages.json'));
 const tasks=[],versions=[],excluded=[];
 for(const [slug,platforms] of Object.entries(configurations)) {
  if(selected&&!selected.includes(slug))continue;
  const record=inventory.records.find(r=>r.slug===slug);
  for(const platform of platforms) {
-  const current=(await all(`/v1/apps/${record.appId}/appStoreVersions?filter[platform]=${platform}&limit=200`))[0];
-  if(!current)throw new Error(`${slug} missing ${platform} version`);
+  const liveVersions=await all(`/v1/apps/${record.appId}/appStoreVersions?filter[platform]=${platform}&limit=200`);
+  const current=targetVersion?liveVersions.find(v=>v.attributes.versionString===targetVersion):liveVersions[0];
+  if(!current)throw new Error(`${slug} missing ${platform} version ${targetVersion||''}`);
+  if(targetVersion&&!editable.has(state(current)))throw new Error(`${slug} ${targetVersion} is not editable (${state(current)})`);
   let version=current,create=null;
   if(state(current)==='READY_FOR_DISTRIBUTION') {const parts=current.attributes.versionString.split('.').map(Number);parts[parts.length-1]++;create=parts.join('.');}
   else if(!editable.has(state(current))) {excluded.push({slug,platform,version:current.attributes.versionString,state:state(current),reason:'Review withdrawal requires separate authorization'});continue;}

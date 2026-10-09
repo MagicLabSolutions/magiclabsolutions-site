@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-09T00:52:47.904Z",
+  "app": "Giftly",
+  "appId": "6802913010",
+  "version": "1.2.1",
+  "versionId": "46d8bacc-ec2e-43f6-90f0-0c023edeb140",
+  "state": "PREPARE_FOR_SUBMISSION",
+  "verifiedImages": 312,
+  "verifiedSets": 78,
+  "listingLocales": 39,
+  "sourceLanguages": 34,
+  "complete": true,
+  "unchanged": [
+    {
+      "version": "1.2.1",
+      "build": "2f4b4600-11fb-4793-ad68-13cce4862012",
+      "releaseType": "AFTER_APPROVAL",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "previewsUnchanged": true
+    },
+    {
+      "version": "1.2.0",
+      "build": "f4e47564-aeae-4787-8fdf-3561618b28ef",
+      "releaseType": "AFTER_APPROVAL",
+      "state": "READY_FOR_DISTRIBUTION",
+      "previewsUnchanged": true,
+      "publishedGalleryIdsUnchanged": true
+    }
+  ],
+  "listingTextToCompleteBeforeReview": [],
+  "appStoreConnect": "https://appstoreconnect.apple.com/apps/6802913010/distribution/ios/version/inflight"
+}

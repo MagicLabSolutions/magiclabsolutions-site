@@ -1,0 +1,28 @@
+{
+  "appId": "6802913010",
+  "name": "Giftly: Gift Ideas & Reminders",
+  "bundleId": "com.magiclabsolutions.giftly",
+  "versions": [
+    {
+      "id": "46d8bacc-ec2e-43f6-90f0-0c023edeb140",
+      "version": "1.2.1",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "platform": "IOS",
+      "releaseType": "AFTER_APPROVAL"
+    },
+    {
+      "id": "1f8e8038-8970-4198-a2b8-1e6cf1d6c28c",
+      "version": "1.2.0",
+      "state": "READY_FOR_DISTRIBUTION",
+      "platform": "IOS",
+      "releaseType": "AFTER_APPROVAL"
+    },
+    {
+      "id": "9a3162e7-0827-4fed-a59f-4b3309f4632d",
+      "version": "1.0.0",
+      "state": "READY_FOR_DISTRIBUTION",
+      "platform": "IOS",
+      "releaseType": "AFTER_APPROVAL"
+    }
+  ]
+}

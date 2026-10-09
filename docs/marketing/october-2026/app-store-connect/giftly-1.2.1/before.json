@@ -1,0 +1,1166 @@
+{
+  "checkedAt": "2026-10-09T00:29:01.332Z",
+  "independentGalleryIds": true,
+  "versions": [
+    {
+      "id": "46d8bacc-ec2e-43f6-90f0-0c023edeb140",
+      "version": "1.2.1",
+      "state": "PREPARE_FOR_SUBMISSION",
+      "platform": "IOS",
+      "releaseType": "AFTER_APPROVAL",
+      "build": "2f4b4600-11fb-4793-ad68-13cce4862012",
+      "localizations": [
+        {
+          "id": "23baf0c4-ac46-4d60-bde9-c6ad935b1b7b",
+          "locale": "en-AU",
+          "screenshotSets": [
+            {
+              "id": "5da64134-40dc-4bf7-bba0-291139c779bf",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "482b3ea5-3fb5-4cdb-bf93-5f2595697b6b",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "eeda6d47-fe51-4295-9d5c-f7f565b5c7ed",
+          "locale": "sk",
+          "screenshotSets": [
+            {
+              "id": "e8686079-db39-402e-a5ec-8cef2be74373",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "05f9dc4a-ce39-4698-a418-2b69e21a19d7",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "69cfbda0-3ba3-4c88-8896-f26796d1e87b",
+          "locale": "nl-NL",
+          "screenshotSets": [
+            {
+              "id": "6666f093-2538-45b8-9484-862edf68f4ae",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "828795c2-e7fc-40bf-ba4c-eb7c6bb4bcf9",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "23c7df8b-25cb-41e3-85e7-f97090698a0f",
+          "locale": "he",
+          "screenshotSets": [
+            {
+              "id": "99f50ca7-12ff-48e9-a473-222059d6d459",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "be47504a-4507-4883-85dd-3148c164d1b6",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "92be45ad-317e-4f7c-9ebe-1016c74917ee",
+          "locale": "en-US",
+          "screenshotSets": [
+            {
+              "id": "d180438e-dabb-4cf7-8fab-a75ebd864a0e",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "48d4857f-7ba6-421f-9034-4da4b5cc0c74",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "00f488b0-2cb1-4fa5-970b-d58be6be0261",
+          "locale": "es-MX",
+          "screenshotSets": [
+            {
+              "id": "1025811b-2e0e-4c75-b88a-39b02c43243b",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "f320d3ed-d744-4748-9b27-cce8ecc6761c",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "eeb8b492-6660-4548-b1a0-38570bfb08ea",
+          "locale": "pl",
+          "screenshotSets": [
+            {
+              "id": "ff80cb66-2c14-4e9b-90e3-f916078437fd",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "c1797880-84fe-44e5-b6d0-b51ee414d2c1",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "cc52a4db-e836-4b1e-b2f1-fe5d9ff6bd10",
+          "locale": "pt-BR",
+          "screenshotSets": [
+            {
+              "id": "30e8398d-d63e-4b70-8866-311fea38e68d",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "293de8eb-389f-42e4-b999-328ce2e46f0e",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "0994bd34-d7b6-4e1e-bb85-10bc405b8372",
+          "locale": "no",
+          "screenshotSets": [
+            {
+              "id": "75180220-a59c-4294-bc2d-6f0b0504f744",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "ac607ce7-a8c6-49b5-af5d-81fd3d47f201",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "a63972c0-d7da-48c0-9150-67ff6a872cff",
+          "locale": "it",
+          "screenshotSets": [
+            {
+              "id": "e75ea529-1685-4a20-a787-a770115d4f55",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "5622b6bd-2ee4-4aa5-ae04-dcc55fb42283",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "3f8ffc25-b57b-424c-8595-ea82d4b2f4a5",
+          "locale": "en-GB",
+          "screenshotSets": [
+            {
+              "id": "56f8bb95-14e1-4e6a-ac64-647600ffa245",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "4f12966f-4e93-4d09-ae17-68f26859fd3c",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "49b05768-81d5-46f5-b98f-d342055a30cf",
+          "locale": "tr",
+          "screenshotSets": [
+            {
+              "id": "745ba286-b47b-4e07-b612-2b907614c29c",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "0d2820bf-56fa-4340-a0ea-a45637cad2a6",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "ce83e21c-cf11-462b-887f-054ba60fbc75",
+          "locale": "id",
+          "screenshotSets": [
+            {
+              "id": "ffabad5e-53d6-46ff-b600-14192b23bec7",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "de409301-b5b0-42e8-89a5-ca97cd4562e6",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "52737bdc-ed49-41bc-b54f-f5b6b35e185e",
+          "locale": "ar-SA",
+          "screenshotSets": [
+            {
+              "id": "7816b84d-4cbb-4944-8a71-15c0cd10330f",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "521d1bdf-5b59-4c78-98ff-95110354e81a",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "0e4bb4c3-7318-403d-93d7-58f42fc3431f",
+          "locale": "pt-PT",
+          "screenshotSets": [
+            {
+              "id": "7efb69d2-61f2-42f7-b5d9-b5806568ce9b",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "7f5afb82-d8c7-4601-9923-acd9e7292eb3",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "d9a17d79-4e10-4f25-881a-b55c3cffded7",
+          "locale": "uk",
+          "screenshotSets": [
+            {
+              "id": "7cf0dcc1-2e8b-4b28-ab41-62666f7f521a",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "bef8d102-6918-4ec2-b21a-45927a7452b4",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "70803198-db01-48f8-be94-f5562e813f11",
+          "locale": "zh-Hant",
+          "screenshotSets": [
+            {
+              "id": "03353a20-9b86-408f-bae1-78af6f304f43",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "6521856c-fe47-4025-8f13-df616e242a5a",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "f83bcc30-507e-499b-9172-e1d7614ef3ea",
+          "locale": "ko",
+          "screenshotSets": [
+            {
+              "id": "164bc1ba-cebf-41de-875d-bd3568735ccc",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "15247f5e-61e5-47e8-8748-5e5bf652b55c",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "de621690-1382-4dda-a009-3b94d11a848c",
+          "locale": "vi",
+          "screenshotSets": [
+            {
+              "id": "8cff8cac-6cc0-493f-8515-8703955fdbe8",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "67931890-3d7b-463a-bb73-2b464bc2bc93",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "8870194c-fafd-476c-84c0-14c8aeccb9a0",
+          "locale": "fi",
+          "screenshotSets": [
+            {
+              "id": "f64cf4f2-2719-4a0e-bc3e-2e4a970216ac",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "ea9566a8-1da7-4bc0-8ecb-e4fb172f457f",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "1a29318c-0303-41de-8488-07700fa641db",
+          "locale": "sv",
+          "screenshotSets": [
+            {
+              "id": "84a1233a-4deb-4793-abbc-2a0d61006733",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "7a82270c-5e2c-4be5-a708-510f43eb13c2",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "3b95eac3-eddf-4610-b45d-d45b72a4cc8b",
+          "locale": "es-ES",
+          "screenshotSets": [
+            {
+              "id": "76c9f7e8-78ea-49f2-a1f2-8b2b971fac36",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "0f92af3a-8820-42ac-90f6-36a392eea29f",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "07fa1575-1dfd-4b28-8c48-c56c59b0821c",
+          "locale": "de-DE",
+          "screenshotSets": [
+            {
+              "id": "87201c20-1c5a-4cb8-9174-9c0cbe2b7e16",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "25fe9cdd-3097-4042-940b-169f15a522b0",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "0b02db7f-957e-497e-993a-d9fbecf74921",
+          "locale": "ro",
+          "screenshotSets": [
+            {
+              "id": "6f7b4443-adbd-44b3-9641-137bdf299a0b",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "676bc5f0-8efa-4385-8bc4-8f60ce6e3482",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "7a3970ef-dbf1-4c5e-968a-d4337b0e0e03",
+          "locale": "cs",
+          "screenshotSets": [
+            {
+              "id": "deb46148-9abf-4c0f-8f76-b9e35170deb2",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "da4964b8-eb63-4094-87eb-36ca8162c8b1",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "6a2cb6b0-f208-4b33-9fbf-f5cc09673813",
+          "locale": "ja",
+          "screenshotSets": [
+            {
+              "id": "12262a6d-c9c6-47b1-9365-df9221f51575",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "1263e435-2735-419c-9013-fe641d340244",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "a6399444-0c58-4652-9b79-132815a38b00",
+          "locale": "th",
+          "screenshotSets": [
+            {
+              "id": "c91f47cc-0900-4a3b-a405-384bfd22d615",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "03d8d140-fe0b-4c40-ade2-4cd3d7b93c14",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "2938af20-f79a-4a01-99bf-58c7514fd1fc",
+          "locale": "fr-CA",
+          "screenshotSets": [
+            {
+              "id": "c334554e-47db-4fbf-84e9-16bdac8e2a88",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "39fcf488-4e27-4119-a3f9-91abd36f75e9",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "e8680542-aa51-467b-881d-b59fe03715b0",
+          "locale": "hu",
+          "screenshotSets": [
+            {
+              "id": "181309b2-dcc2-4cbf-8e55-7e01bba8dff7",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "54ce71c0-1052-4ce2-9d7c-5d807f41e2eb",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "9f44765a-518a-4c25-9964-6d1c11e41039",
+          "locale": "zh-Hans",
+          "screenshotSets": [
+            {
+              "id": "73064f76-492c-41fd-bdbd-219f7d5d0ba2",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "107d5653-dc37-4bfa-be10-66585b035f06",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "ac5a6dff-2a3d-4fb9-b149-c31ff9418ed8",
+          "locale": "ru",
+          "screenshotSets": [
+            {
+              "id": "5b6dc043-3edf-4786-a552-ea44d5c4b9ef",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "12755a4b-94c7-4281-9665-22580b349c6b",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "f6952ef3-832b-4562-a513-6d72e83c21ec",
+          "locale": "ca",
+          "screenshotSets": [
+            {
+              "id": "9731c559-9250-4d96-88dc-b3f0209d6337",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "169892f4-5f30-43ae-aedc-b20d71cce17e",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "c097e6a9-028d-49c1-9a0e-d11ea480b104",
+          "locale": "el",
+          "screenshotSets": [
+            {
+              "id": "98eabbd8-2d0c-40a0-930f-a0134bae844b",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "2b697651-bcb3-4147-95ea-926b3a6379ae",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "603db142-b5cc-4723-af88-8ff13093a176",
+          "locale": "hi",
+          "screenshotSets": [
+            {
+              "id": "cf229246-cac0-4db1-be81-d278e57e4c93",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "b36a7868-4012-4edc-acfa-d8023451d0ba",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "afe2b273-b70c-4939-9753-82a138eb41fb",
+          "locale": "hr",
+          "screenshotSets": [
+            {
+              "id": "f200753e-08eb-4058-8509-9124f6835214",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "7ca3601c-d28f-4a59-a330-5a1a46cee0a9",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "daf34b39-3ab7-42bc-931b-8adf03bfcb9a",
+          "locale": "da",
+          "screenshotSets": [
+            {
+              "id": "c198bb0c-41ee-414d-bab9-b747f1e78f97",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "69251be0-bf73-4af8-9b24-321d2aceb947",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "78b278bd-3a84-4d6b-8ac8-44846e18350f",
+          "locale": "fr-FR",
+          "screenshotSets": [
+            {
+              "id": "14508ede-1862-43f9-b53d-b6c8df0be4f8",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "1d9a876d-e94b-4e47-9a97-5d0348c2f298",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "b551205e-fd1a-44ef-af32-f31aa3f639ca",
+          "locale": "ms",
+          "screenshotSets": [
+            {
+              "id": "b23027f2-0f7b-4d41-a130-f64ee05109c4",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "93f2dced-68a0-41e2-90dd-07f54946fec2",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        }
+      ]
+    },
+    {
+      "id": "1f8e8038-8970-4198-a2b8-1e6cf1d6c28c",
+      "version": "1.2.0",
+      "state": "READY_FOR_DISTRIBUTION",
+      "platform": "IOS",
+      "releaseType": "AFTER_APPROVAL",
+      "build": "f4e47564-aeae-4787-8fdf-3561618b28ef",
+      "localizations": [
+        {
+          "id": "279fe628-1119-4c0e-98cd-5f4aa40b89bc",
+          "locale": "he",
+          "screenshotSets": [
+            {
+              "id": "ae68c9bc-cee5-4021-976c-5221aa3a3c20",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "731a9884-7e5a-47bd-b6d6-07d894bed780",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "68e3afa0-d28e-45ca-8f67-efaea5860cf8",
+          "locale": "es-ES",
+          "screenshotSets": [
+            {
+              "id": "e47b1d2d-a832-45b0-b4a7-b17d5c63dc16",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "79923f5f-a9a0-434d-817c-5ab9ab3ce647",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "ac769f11-9822-4f76-8e77-47ec09d276af",
+          "locale": "hr",
+          "screenshotSets": [
+            {
+              "id": "8aa914c9-7b67-4392-829b-8b6439bae55f",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "16586ea9-e48f-4578-a890-5d74e4c42edb",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "40c8da78-084b-4a5c-ac12-62351ca28c78",
+          "locale": "ca",
+          "screenshotSets": [
+            {
+              "id": "a0ef90de-c3cb-4e11-af9e-80cb5fbf1006",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "11bdff00-50b8-469d-ac26-3294ebad6b79",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "2f51f83e-d4ce-4d03-83d7-9ea77c74a5fb",
+          "locale": "fr-CA",
+          "screenshotSets": [
+            {
+              "id": "11fb89bd-7e4c-48fa-bc53-fe6d08a56a7c",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "32f12120-7fa6-42a2-bbd6-a8d46bb7f711",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "4dd3e49e-b810-4c9c-82db-5e5e39552f59",
+          "locale": "nl-NL",
+          "screenshotSets": [
+            {
+              "id": "e732ed6b-21c5-4dd2-a9be-ffe7e5cf1063",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "6cfda73e-b935-4a4a-984a-bb85007321ab",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "f2cb52fd-2a30-482d-8363-f385df40e8ac",
+          "locale": "de-DE",
+          "screenshotSets": [
+            {
+              "id": "1cb3adb2-0d8b-4de3-96cf-ebf1d08832f5",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "0b06be20-33cd-4059-9551-07198e292cee",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "98778fa9-2267-450a-95e9-25f47c0ad4e0",
+          "locale": "ja",
+          "screenshotSets": [
+            {
+              "id": "30fac4b4-d037-45e7-b80c-a71ea04fd7e2",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "4e62a2b4-fe8d-4c71-b506-d5032d43034e",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "a41e03f0-e6f3-45a2-9682-98338d17142f",
+          "locale": "pt-PT",
+          "screenshotSets": [
+            {
+              "id": "515333b5-e209-4ad0-bb81-bd24d448a75f",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "2a4e39a8-88af-4b0a-8e89-26a5aec00487",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "9280a61e-19d7-43f4-8041-303bc805fbd8",
+          "locale": "tr",
+          "screenshotSets": [
+            {
+              "id": "9b4220ab-4fa8-430c-a40c-a57bb7746bf3",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "3808b25e-8830-4218-aa0d-4e79f6f15a2e",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "eb0097ed-f2ae-495f-a92c-05dfec0bed76",
+          "locale": "hu",
+          "screenshotSets": [
+            {
+              "id": "e60a4ff7-3a7e-42cf-a6d8-01ac0b8ee437",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "4f1b1ae7-ad50-4bdd-a52f-62d053113c4e",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "7b645483-bda3-41c8-9dae-4fd5f459bbc6",
+          "locale": "ko",
+          "screenshotSets": [
+            {
+              "id": "d2334ab6-d9a3-4e99-9941-6c4a012267e9",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "f74981f0-0f16-40ae-913c-ad1e34911bc8",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "814dbecb-0d71-4228-8c23-9a19bbe0b31b",
+          "locale": "ar-SA",
+          "screenshotSets": [
+            {
+              "id": "83704775-95cb-42ac-ab62-a356b8b6a947",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "e2771b49-2577-435e-9dd6-fd5da845dda2",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "312709b5-99c9-472e-b527-2eaa0c441ffc",
+          "locale": "it",
+          "screenshotSets": [
+            {
+              "id": "44a3274e-4d0d-4076-85f4-81d05985491b",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "5fdf2fb8-539f-413e-a65b-376bb4c616ae",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "8484a9c9-1bc8-48ef-a06f-643173c7eb2f",
+          "locale": "es-MX",
+          "screenshotSets": [
+            {
+              "id": "36436e85-87f7-49ec-8bb9-156080d528bd",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "fbe670dd-7f2a-4199-b6b9-7472bbc98546",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "c0173f30-4d61-4a98-8010-2128ce7f1da2",
+          "locale": "sv",
+          "screenshotSets": [
+            {
+              "id": "e5db991b-2054-4ba9-ab94-66e3d8617a3b",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "0451fc3d-cdb5-4043-a534-2cf2d4ce48df",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "9e357454-ccdd-434f-9632-fc410dd870d9",
+          "locale": "da",
+          "screenshotSets": [
+            {
+              "id": "7064e97d-512f-4c24-9be7-42255b141e23",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "271384e2-82c2-48b9-bc35-a5ce246d374b",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "3239d436-ef14-4fe1-b60a-083312b49be3",
+          "locale": "pt-BR",
+          "screenshotSets": [
+            {
+              "id": "c5da6b76-36d4-4880-a400-8acbd6fdac61",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "dc62b435-f955-467a-836d-efb4f367ee3c",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "5be70c33-b7ac-43e6-87ac-08d280ca0e62",
+          "locale": "uk",
+          "screenshotSets": [
+            {
+              "id": "56805446-2d55-4f2e-857f-e26881422f0c",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "ac8ee475-c7e5-45a9-9add-88ef6031135b",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "33e845bb-8676-41f8-8694-3d18f0acf039",
+          "locale": "en-AU",
+          "screenshotSets": [
+            {
+              "id": "d6a0faeb-7dbd-49c5-badc-7fad1a0cdbe0",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "dd9339e1-975f-4b61-b8fc-a36674a244ac",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "a00d0acf-e1ba-4c22-ab94-8fc1149d7931",
+          "locale": "ru",
+          "screenshotSets": [
+            {
+              "id": "67bbd928-e2e1-4e66-ab02-3f05a9ce2b9d",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "c4ec84cf-7ec3-4153-ae74-0bc5bcd101c8",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "f4249859-b18d-4a6c-8743-75e94b12b328",
+          "locale": "zh-Hant",
+          "screenshotSets": [
+            {
+              "id": "6578ff6d-9dff-46e1-b2a0-3ea64df77c7b",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "59ab344e-0acc-40cf-b5d1-c238f82e9b9b",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "802e86bd-213d-4b65-8a5e-f210cfc40d36",
+          "locale": "id",
+          "screenshotSets": [
+            {
+              "id": "747d5e5e-def8-47a7-a6aa-30568e93cfc5",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "0b83da42-95b6-49b7-b869-14e0910d0b98",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "6f020c57-72e9-4aa7-8fce-1c16067c39e8",
+          "locale": "th",
+          "screenshotSets": [
+            {
+              "id": "5dac6de7-5168-426c-98f0-ca4980e15600",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "66a7e07f-9995-4e59-af19-3c70e3499bda",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "a82e21f1-6ea0-47db-b4b2-4c32607476f5",
+          "locale": "fr-FR",
+          "screenshotSets": [
+            {
+              "id": "24b8d237-aa1d-4b14-8f04-82f3fe35082a",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "82670c9e-193f-4d28-914a-ab1384eed44c",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "47902c06-e097-4cc2-883f-7d2cffdbc794",
+          "locale": "vi",
+          "screenshotSets": [
+            {
+              "id": "a723fc45-df7e-4942-8451-403180500220",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "08a95c14-48b4-4732-a0a7-50f981c5ff6f",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "bd310c09-2b7f-4053-a420-12fbc3ed7170",
+          "locale": "sk",
+          "screenshotSets": [
+            {
+              "id": "9990946d-216b-4cc9-9d6a-25ece0598e88",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "f9a54813-8448-496a-ac32-46c5315b2497",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "ff6194bf-e8cf-4ac2-b0ec-06adbcc4a917",
+          "locale": "en-US",
+          "screenshotSets": [
+            {
+              "id": "d33fb93e-d8e9-4805-87ac-9acb510fcd57",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "150e56e1-c0c2-4fb0-a3ef-5a237ae8e8b5",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "0aaae934-db16-4954-8e75-094cb930c47e",
+          "locale": "pl",
+          "screenshotSets": [
+            {
+              "id": "0e48f490-7c85-4118-b50c-ff1b45a0f1e8",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "b09e1d0c-f6f0-472c-9b6b-1fc9590ae22f",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "055753cb-2af6-4da5-8080-cbef650eeb40",
+          "locale": "no",
+          "screenshotSets": [
+            {
+              "id": "94496823-4216-468d-aaac-50cf70e8edfc",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "e6ece795-dbbf-4b64-9163-62e5e38344e3",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "0fec53e7-d532-40fa-8919-8c94ef075428",
+          "locale": "el",
+          "screenshotSets": [
+            {
+              "id": "2137411e-a1d1-42fe-b104-f4d94d847ff1",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "8184e8c2-29c8-4e02-b150-ae257ccb943d",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "69ba1dae-9943-4685-ad70-1c62738cf290",
+          "locale": "zh-Hans",
+          "screenshotSets": [
+            {
+              "id": "964638f5-08fa-4aea-a819-6726a8c484cf",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "82a17d7a-92d5-4a4f-a840-804731df86d6",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "9720d009-c9b4-43f7-8ac9-c25625c05e6d",
+          "locale": "hi",
+          "screenshotSets": [
+            {
+              "id": "0571dd01-c755-4828-b5a6-d9eee8a4262e",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "5c17ca72-d2f4-4f81-95cb-4ac9424a1556",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "ab9996db-8d27-411e-9577-270c86d7f5ce",
+          "locale": "ms",
+          "screenshotSets": [
+            {
+              "id": "b1ae5dbd-f87a-43f4-8bea-4e24cf55da88",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "10b1f552-b793-4dcd-90b9-5f8ed18b1b62",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "2f8b8d5a-de92-4a8d-a638-6cb58192ed15",
+          "locale": "en-GB",
+          "screenshotSets": [
+            {
+              "id": "e42aa56b-8d46-4cfe-8008-45be475d9a25",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "a69e8fbe-b735-4dc3-b42b-5ef21325abd4",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "bdfa4898-32bd-436d-a3d3-128802d00db0",
+          "locale": "fi",
+          "screenshotSets": [
+            {
+              "id": "ea21b05c-fc32-49d7-acc3-2a352339987a",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "e5d9dea7-070c-4ba1-9dc0-6f073053356a",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "baef98ca-756b-4ba6-a648-890f5f93875c",
+          "locale": "ro",
+          "screenshotSets": [
+            {
+              "id": "6dc4fc23-d0ad-4e35-b8ec-ba3112e49b01",
+              "type": "APP_IPHONE_67"
+            },
+            {
+              "id": "937f1fa4-30e2-4ae6-9589-4b23ed3a1a5d",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            }
+          ],
+          "previewSets": []
+        },
+        {
+          "id": "ec66ff19-12d5-48a0-a37b-0734b8c30faf",
+          "locale": "cs",
+          "screenshotSets": [
+            {
+              "id": "a9ee0412-a8be-4e21-944e-b05e633cd323",
+              "type": "APP_IPAD_PRO_3GEN_129"
+            },
+            {
+              "id": "c80d669e-9e06-481a-bd65-8bb9f66125c6",
+              "type": "APP_IPHONE_67"
+            }
+          ],
+          "previewSets": []
+        }
+      ]
+    }
+  ]
+}
