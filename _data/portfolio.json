@@ -264,9 +264,10 @@
     "slug": "poof",
     "name": "Poof",
     "category": "apps",
-    "status": "unverified",
+    "status": "released",
     "color": "#CAA5FF",
     "platform": "Mac",
+    "store_url": "https://apps.apple.com/app/poof-disk-cleaner/id6816976275",
     "demo": "clean",
     "repositories": [
       "Poof"
@@ -300,7 +301,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-09",
     "copy": {
       "pt-BR": {
         "headline": "Abra espaço. E respire.",
@@ -322,8 +323,14 @@
       }
     },
     "availability_note": {
-      "pt-BR": "A disponibilidade pública está em confirmação. Conheça o projeto enquanto isso.",
-      "en": "Public availability is being confirmed. Explore the project in the meantime."
+      "pt-BR": "Na Mac App Store em 175 países e 47 idiomas, para macOS 14 Sonoma ou posterior. Baixar e analisar é grátis; a limpeza faz parte do Poof Pro.",
+      "en": "On the Mac App Store in 175 countries and 47 languages, for macOS 14 Sonoma or later. Free to download and scan; cleaning comes with Poof Pro.",
+      "de": "Im Mac App Store in 175 Ländern und 47 Sprachen, für macOS 14 Sonoma oder neuer. Laden und Scannen sind kostenlos; Bereinigen gehört zu Poof Pro.",
+      "es": "En la Mac App Store en 175 países y 47 idiomas, para macOS 14 Sonoma o posterior. Descargar y analizar es gratis; la limpieza forma parte de Poof Pro.",
+      "fr": "Sur le Mac App Store dans 175 pays et 47 langues, pour macOS 14 Sonoma ou ultérieur. Le téléchargement et l’analyse sont gratuits ; le nettoyage fait partie de Poof Pro.",
+      "ja": "Mac App Storeで175の国と地域、47言語に対応。macOS 14 Sonoma以降。ダウンロードとスキャンは無料、クリーンアップはPoof Proで。",
+      "ko": "Mac App Store에서 175개 국가, 47개 언어로 제공됩니다. macOS 14 Sonoma 이상. 다운로드와 스캔은 무료이며, 정리는 Poof Pro에 포함됩니다.",
+      "zh-Hans": "已在 Mac App Store 上架，覆盖 175 个国家和地区、47 种语言，适用于 macOS 14 Sonoma 或更高版本。下载和扫描免费；清理功能包含在 Poof Pro 中。"
     },
     "marketing_locale": "en-US",
     "marketing_updated_at": "2026-10-01"
