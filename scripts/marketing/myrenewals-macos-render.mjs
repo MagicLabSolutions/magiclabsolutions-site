@@ -1,0 +1,30 @@
+/** Native desktop production with per-language whole-card geometry and readable copy. */
+import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {createRequire} from 'node:module';import {fileURLToPath,pathToFileURL} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'),base=path.join(root,'docs/marketing/october-2026'),out=path.join(base,'myrenewals-macos-1.2.7');
+const req=createRequire(path.join(process.env.HOME,'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json')),sharp=req('sharp'),{chromium}=req('playwright');
+const read=async p=>JSON.parse(await fs.readFile(p,'utf8')),langs=(await read(path.join(base,'localized/languages.json'))).myrenewals.locales,selection=process.argv.find(a=>a.startsWith('--locales='))?.slice(10).split(',')||langs,asset=p=>pathToFileURL(path.resolve(root,p)).href;
+const preflight=process.argv.includes('--preflight');
+const frame={...(await read(path.join(out,'mac-frame.json'))),asset:asset(path.join(base,'.frames-cache/macbook-pro-m5-16-black.png'))};
+const short=(await read(path.join(out,'native-short-headlines.json'))).locales;
+function nativeString(key,locale){const v=short[locale]?.[key];assert(v,`Missing ${key} ${locale}`);return v;}
+async function cards(file){const {data,info}=await sharp(file).resize({width:600,kernel:'nearest'}).removeAlpha().raw().toBuffer({resolveWithObject:true}),W=info.width,H=info.height,C=info.channels,mask=new Uint8Array(W*H),queue=new Int32Array(W*H),found=[];
+ for(let i=0;i<mask.length;i++){const p=[data[i*C],data[i*C+1],data[i*C+2]];mask[i]=Math.min(...p)>220&&Math.max(...p)<253&&Math.max(...p)-Math.min(...p)<18;}
+ for(let start=0;start<mask.length;start++){if(!mask[start])continue;let first=0,last=1,minX=W,minY=H,maxX=0,maxY=0;queue[0]=start;mask[start]=0;while(first<last){const id=queue[first++],x=id%W,y=Math.floor(id/W);minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);for(const n of [x?id-1:-1,x<W-1?id+1:-1,y?id-W:-1,y<H-1?id+W:-1])if(n>=0&&mask[n]){mask[n]=0;queue[last++]=n;}}const w=maxX-minX+1,h=maxY-minY+1;if(w>W*.5&&h>H*.07&&h<H*.45&&last/(w*h)>.75)found.push({rect:[minX*4,minY*4,(maxX+1)*4,(maxY+1)*4],pixels:last});}
+ return found.sort((a,b)=>a.rect[1]-b.rect[1]);}
+const browser=await chromium.launch({headless:true,channel:'chrome'}),page=await browser.newPage({viewport:{width:2880,height:1800}});
+try{for(const locale of selection){const folder=path.join(out,'exports',locale);await fs.mkdir(folder,{recursive:true});const panels=(await read(path.join(out,'copy.json'))).locales[locale].panels,records=[];
+ for(let number=1;number<=6;number++){const capture=path.join(out,'native',preflight?'en-US':locale,`native-${number}.png`);let rect=null;
+  if(!preflight&&[2,4,5].includes(number)){const found=await cards(capture);assert(found.length,`No complete card ${locale} ${number}`);rect=found[number===2?1:number===5?1:0]?.rect;if(rect)rect=[Math.max(0,rect[0]-16),rect[1],Math.min(2400,rect[2]+4),rect[3]];assert(rect,`Missing feature card ${locale} ${number}`);}
+  const c={locale,number,direction:['ar','he','ur'].includes(locale)?'rtl':'ltr',headline:panels[number-1][0],description:panels[number-1][1],capture:asset(capture),rect,frame,icon:asset('images/portfolio/myrenewals/icon.webp'),background:asset(path.join(base,'lifestyle/myrenewals.png'))};
+  await page.goto(pathToFileURL(path.join(out,'art.html')).href);let metrics=await page.evaluate(c=>window.render(c),c);
+  if(metrics.copy.bottom>1700||metrics.copyOverflow){c.wide=true;metrics=await page.evaluate(c=>window.render(c),c);}
+  if(c.wide&&metrics.copy.bottom>1250){c.description=panels[number-1][2];c.shortDescription=true;metrics=await page.evaluate(c=>window.render(c),c);}
+  if(c.wide&&metrics.copy.bottom>1250){c.headline=nativeString(['Upcoming','Review Results','Renewals','By profile','Subscription','Subscriptions'][number-1],locale);c.description=panels[number-1][1];c.shortNativeHeadline=true;metrics=await page.evaluate(c=>window.render(c),c);if(metrics.copy.bottom>1250){c.description=panels[number-1][2];c.shortDescription=true;metrics=await page.evaluate(c=>window.render(c),c);}}
+  assert(metrics.copy.bottom<=(c.wide?1250:1700),`Shorten ${locale} panel ${number}: ${metrics.copy.bottom}`);assert(!metrics.copyOverflow,`Copy word overflow ${locale} panel ${number}`);assert.deepEqual(metrics.source,[2400,1552]);if(metrics.card){assert(c.wide?metrics.card.y>metrics.copy.bottom+40:metrics.card.x>metrics.copy.right,`Card overlaps copy ${locale} ${number}`);assert(metrics.card.y>220&&metrics.card.bottom<=1800);}
+  if(preflight){records.push({number,copy:{headline:c.headline,description:c.description},metrics,typeLayoutOnly:true,sourceNativeLocale:'en-US'});continue;}
+  const file=path.join(folder,`mac-store-${number}.png`),bytes=await page.locator('#art').screenshot();await sharp(bytes).removeAlpha().png({compressionLevel:9}).toFile(file);const encoded=await fs.readFile(file),meta=await sharp(encoded).metadata();assert(!meta.hasAlpha&&meta.width===2880&&meta.height===1800);
+  const preview=path.join(out,'previews',locale);await fs.mkdir(preview,{recursive:true});await sharp(encoded).resize({width:780}).jpeg({quality:92}).toFile(path.join(preview,`mac-store-${number}.jpg`));
+  records.push({number,file:path.relative(root,file),sha256:createHash('sha256').update(encoded).digest('hex'),md5:createHash('md5').update(encoded).digest('hex'),size:encoded.length,capture:path.relative(root,capture),rect,copy:{headline:c.headline,description:c.description,shortNativeHeadline:!!c.shortNativeHeadline,shortDescription:!!c.shortDescription},metrics});
+ }
+ const target=path.join(out,preflight?'type-layout':'validation',locale+'.json');await fs.mkdir(path.dirname(target),{recursive:true});await fs.writeFile(target,JSON.stringify({checkedAt:new Date().toISOString(),locale,images:records},null,2)+'\n');console.log('RENDERED',locale);}
+}finally{await browser.close();}

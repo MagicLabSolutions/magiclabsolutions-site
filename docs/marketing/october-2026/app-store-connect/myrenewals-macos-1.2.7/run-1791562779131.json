@@ -1,0 +1,2468 @@
+{
+  "finishedAt": "2026-10-09T16:19:39.131Z",
+  "versions": [
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "currentId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "version": "1.2.7",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_DESKTOP",
+      "setId": "133852f7-382b-4575-8cb0-0114a28c74f2",
+      "verifiedAt": "2026-10-09T16:10:13.958Z",
+      "screenshots": [
+        {
+          "id": "ca000019-280e-8756-800e-6af2871d150d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-1.png",
+          "md5": "1c702383e87ee33f0a0fce96c27b9e1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "78800019-280e-8756-8002-c048ea6c7d8c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-2.png",
+          "md5": "496c0f07c43afca552d65e23cfe063eb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58400019-280e-8756-8012-920c063672ab",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-3.png",
+          "md5": "10f65e7c0ff41c20408b87555fb3b736",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "acc00019-280e-8756-801e-0ba9e48d5997",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-4.png",
+          "md5": "7f62be29bfadb501a2930a06492c2c97",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1d800019-280e-8756-8017-3e12c3a66992",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-5.png",
+          "md5": "9a8451341c2e1ee8865409ae955e0f4a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "55000019-280e-8756-8030-09b09d8a16b0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-6.png",
+          "md5": "105fbc6b5a8ff4152e3d51e0774fa0d0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_DESKTOP",
+      "setId": "043422bf-cfab-4a07-905d-bfac69653d1f",
+      "verifiedAt": "2026-10-09T16:10:14.269Z",
+      "screenshots": [
+        {
+          "id": "59c00019-280e-8756-8030-b4fdd115d2e9",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-1.png",
+          "md5": "e5102c0872a2ebbfd98cc4166b669991",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6b400019-280e-8756-8033-c13b59dcb5d5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-2.png",
+          "md5": "977c02be397d36c202856a9f74109d84",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "81800019-280e-8756-8035-816e98788ac6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-3.png",
+          "md5": "8fa5ddea39161f79858d6fb028833e97",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38800019-280e-8756-8002-54eef3aed78c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-4.png",
+          "md5": "567d53f7cec2adbdfc40784739603f3b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3dc00019-280e-8756-8037-6ea9eec7cacc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-5.png",
+          "md5": "563479cf6af9ad145af2e0343d202c15",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0c400019-280e-8756-802d-0fe29c950e68",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-6.png",
+          "md5": "36f629ec53669e8077ae6871befc13c3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_DESKTOP",
+      "setId": "977ec101-5eab-4051-90dd-d7db65f33cd7",
+      "verifiedAt": "2026-10-09T16:10:34.619Z",
+      "screenshots": [
+        {
+          "id": "40c00019-280e-8756-8017-eccd20cd1017",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-1.png",
+          "md5": "2a1f931a70c80662d38f1be7624b37f7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "14c00019-280e-8756-802c-c43b561e7a58",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-2.png",
+          "md5": "06cca0939b460d172239668738f0c471",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9e400019-280e-8756-801c-cadc6ec43ccc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-3.png",
+          "md5": "10bc0865c3df00239db731d287b2b74e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "84400019-280e-8756-8004-37972932b37e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-4.png",
+          "md5": "f759364455375861df1db3893121fc96",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7c000019-280e-8756-8012-130490e59028",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-5.png",
+          "md5": "d4ade63c81d3ab2d398fe4fbd4c594d9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "db000019-280e-8756-8038-e6acbc1d7b8a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-6.png",
+          "md5": "b7f1d255fcf69a124777fe60fdfdffcd",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_DESKTOP",
+      "setId": "20c1f4e6-82a7-4993-a8ff-5dcc2957fced",
+      "verifiedAt": "2026-10-09T16:11:16.092Z",
+      "screenshots": [
+        {
+          "id": "45000019-280e-8756-8021-05875a4f1871",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-1.png",
+          "md5": "f08ddcce844a0aefd3ec6b54229303b2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2ec00019-280e-8756-8016-b9f3b5f06f16",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-2.png",
+          "md5": "7cace156d36ef843571e0e6846c141e3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82800019-280e-8756-8002-de0ad84d4c7f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-3.png",
+          "md5": "98288ea60ef30efb6f788c7817ea0b87",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "be400019-280e-8756-801d-77f2a4d140d1",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-4.png",
+          "md5": "25a53e2937d7d7650ec959a8b34244aa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ce400019-280e-8756-801d-e2835e053919",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-5.png",
+          "md5": "a0104da27c3eebca80cc175232a2f672",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "22800019-280e-8756-8018-bef4f3b416c3",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-6.png",
+          "md5": "960aa7b18e3206d6bf3c208800722f70",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_DESKTOP",
+      "setId": "083954c2-072e-4f1c-97f5-56cddab605e4",
+      "verifiedAt": "2026-10-09T16:11:19.934Z",
+      "screenshots": [
+        {
+          "id": "b9c00019-280e-8756-803a-f6cdd1734151",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-1.png",
+          "md5": "de78d82c21ef12ee0933cb8c486473a2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9c00019-280e-8756-8038-8c9a958abc19",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-2.png",
+          "md5": "3ad4bc5c5f3bdf9faf224944b0ed2a3a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1f800019-280e-8756-803f-cd5bb22c907d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-3.png",
+          "md5": "32f48f38174d5d9d36e66fb5a91d481d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "67400019-280e-8756-8027-6177f7375332",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-4.png",
+          "md5": "80ed639bb70bf246415e4750e910dd58",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07000019-280e-8756-801c-44191a08fe6f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-5.png",
+          "md5": "8848fb852b6edf0c2c8afbc8834c9f31",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4d400019-280e-8756-8008-0b7ce5c8fcc7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-6.png",
+          "md5": "fac20e8b0231004ef1b404fa8df66e62",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_DESKTOP",
+      "setId": "361e2732-54fb-4afc-b4fa-ace0ff502bf0",
+      "verifiedAt": "2026-10-09T16:11:20.222Z",
+      "screenshots": [
+        {
+          "id": "a2400019-280e-8756-8012-3b28bc4b61e0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-1.png",
+          "md5": "c9700b9ab39838ead6aeed47d926c32f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7f000019-280e-8756-8038-bd8fc4af4834",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-2.png",
+          "md5": "687ab50018627442ea4bd64a825f9159",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69400019-280e-8756-803b-174233d4f815",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-3.png",
+          "md5": "623364c257489afd70bd87f689324dd4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8000019-280e-8756-8003-b8a98a3d3522",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-4.png",
+          "md5": "b9ccc2689ea9a0a1b06afcedcac7dbf6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3400019-280e-8756-800d-66a44fcc6dd5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-5.png",
+          "md5": "54f06b6186cf178b98f7dbeec3cda9ed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c8800019-280e-8756-8037-2b877e63fe3c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-6.png",
+          "md5": "c92b5e1242b5b7b64eb7f48b797ebe5e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_DESKTOP",
+      "setId": "70ea16a4-f94c-4f87-8115-8bd7ed940181",
+      "verifiedAt": "2026-10-09T16:11:21.651Z",
+      "screenshots": [
+        {
+          "id": "51c00019-280e-8756-801b-1202c46ac2ba",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-1.png",
+          "md5": "f11afbb131bc0f0aeb83b557a4e52fed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8b400019-280e-8756-8020-f2b6ce96da70",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-2.png",
+          "md5": "e4127cda9f6be0e8f9f6df4a219e3e4b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b800019-280e-8756-802a-c98de3970a74",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-3.png",
+          "md5": "65400311439ce36c4436de741120441a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e3800019-280e-8756-802f-5e33723ade98",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-4.png",
+          "md5": "ba8d7ebd5370e9b4ee93cc16c02e7c5c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c6800019-280e-8756-802b-808284d28197",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-5.png",
+          "md5": "9421d27e610ff556d72cce112a334db4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac000019-280e-8756-8027-88f6b9aac6f3",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-6.png",
+          "md5": "3809aa8f020e9a74f9884e5ed7a89d03",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_DESKTOP",
+      "setId": "6c15fbbd-c442-4ad6-a2ef-7deffaa98876",
+      "verifiedAt": "2026-10-09T16:11:24.212Z",
+      "screenshots": [
+        {
+          "id": "93000019-280e-8756-8039-da02d10e1d9f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-1.png",
+          "md5": "29a13dba6995c3ba80113f2bb55ecb5d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "73c00019-280e-8756-803b-bc1f54a403e6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-2.png",
+          "md5": "5640307ae7f2b419898255d7c220bb2d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cdc00019-280e-8756-8022-af0989f33da3",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-3.png",
+          "md5": "430307e57df5ab11d982b3450f8a54e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ebc00019-280e-8756-8020-52a2c36e8abf",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-4.png",
+          "md5": "8b1b932dc1d2134b3ddfe9ac098b7c66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75400019-280e-8756-800c-345714e79a8d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-5.png",
+          "md5": "260646fe53804da4908d04575613c432",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0d800019-280e-8756-8012-15499a2f3e5c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-6.png",
+          "md5": "cb7c3962ac4523ffc76f7f80655f3fd4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_DESKTOP",
+      "setId": "9f87971c-db4c-4af9-a115-95604e71b0d6",
+      "verifiedAt": "2026-10-09T16:11:24.225Z",
+      "screenshots": [
+        {
+          "id": "7f800019-280e-8756-8022-1e0433ea08fc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-1.png",
+          "md5": "4c6a97a3c3ffe6a1818d6bca78ba736a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69400019-280e-8756-8001-30dd40bb6bc2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-2.png",
+          "md5": "a6ea00a57feb7161aa24b9c46bc6fb3d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66800019-280e-8756-8002-07b16a672dbd",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-3.png",
+          "md5": "bff118c8b46647779b9a34a4a86af133",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "56800019-280e-8756-802c-793da7dda55c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-4.png",
+          "md5": "df3c61440ae58f10603f5809a4db6784",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9bc00019-280e-8756-802d-cf247ce08363",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-5.png",
+          "md5": "5f0f36d0455d696e9785b56b8ca2d86f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15800019-280e-8756-8031-3ae7cdd0e052",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-6.png",
+          "md5": "647163ef7cbedc79ac3a29fc79d858c0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_DESKTOP",
+      "setId": "f4b3b632-8944-4187-846b-525d31700a9c",
+      "verifiedAt": "2026-10-09T16:12:08.156Z",
+      "screenshots": [
+        {
+          "id": "19400019-280e-8756-800b-a485245b27ac",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-1.png",
+          "md5": "aadc16758349f92c3143a0155914d541",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1c00019-280e-8756-800b-a9b0478f3796",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-2.png",
+          "md5": "42e97032f82c9374736d110849304f39",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1c400019-280e-8756-8019-5793b201be90",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-3.png",
+          "md5": "2222627741584cccc1dcb1663382a786",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "21800019-280e-8756-803a-fd4f2de78e82",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-4.png",
+          "md5": "eef91ecf9c0f3897be2f6c3a8a6b16fd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e6c00019-280e-8756-8020-33fd1fe4c902",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-5.png",
+          "md5": "e56189da41fdddeae01b168c33f4a761",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cf800019-280e-8756-8018-06dd82d288af",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-6.png",
+          "md5": "7443f3447e6fd56ffe05c1964cba89ec",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_DESKTOP",
+      "setId": "5876d438-76ce-4dae-b0d7-4eb90453d3c5",
+      "verifiedAt": "2026-10-09T16:12:17.941Z",
+      "screenshots": [
+        {
+          "id": "48000019-280e-8756-802a-e0e497ac6713",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-1.png",
+          "md5": "8d71e413c709fec317c993b2d051df42",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fbc00019-280e-8756-8009-378b897674d8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-2.png",
+          "md5": "c22c0a40ab61c839fe0aac10536d5de1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a4800019-280e-8756-803c-711e04afe17a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-3.png",
+          "md5": "087022f1779cbfb296a346a52db4f608",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b6800019-280e-8756-8010-21c70cf50849",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-4.png",
+          "md5": "50543780c9cacdfc57d4f8f1252bbf49",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96000019-280e-8756-8028-be70b0a2e2e3",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-5.png",
+          "md5": "7f27c59a7628166f58910f3f8464b750",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ba800019-280e-8756-8032-17409b1714e7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-6.png",
+          "md5": "fa469d0b6034a280adda49ee3c573eac",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "9ceb58c3-348e-4e2a-bc8d-9ff33e00e895",
+      "verifiedAt": "2026-10-09T16:12:18.918Z",
+      "screenshots": [
+        {
+          "id": "2b000019-280e-8756-8014-f2daa5ab6498",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-1.png",
+          "md5": "fa597e93614ecfd53ae36ca6264e938e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "65c00019-280e-8756-8025-b1991361d64d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-2.png",
+          "md5": "36098e05a86b211d1a8392022a39e7a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01000019-280e-8756-8036-2e7b5771bdc3",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-3.png",
+          "md5": "f97ab0a6e5e246b1f9deb4ad57638468",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1f400019-280e-8756-8015-dd6f566da591",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-4.png",
+          "md5": "1e5d458fec57c8c02bfa31df3eded2e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0f000019-280e-8756-8024-052177425386",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-5.png",
+          "md5": "f5bcde116177ae457de61f961b8e0302",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6b000019-280e-8756-802a-647b320cdf00",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-6.png",
+          "md5": "114c3c35a56e8a5e2d336bf8a40123f2",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_DESKTOP",
+      "setId": "75cff270-c91f-44b1-b54c-7ec7a1037762",
+      "verifiedAt": "2026-10-09T16:12:37.113Z",
+      "screenshots": [
+        {
+          "id": "41c00019-280e-8756-8014-65bb6a7c3a59",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-1.png",
+          "md5": "5a1e98b35129d2e8e2b1abe1f2a694db",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27000019-280e-8756-8020-4efd3440cf11",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-2.png",
+          "md5": "0dfec99b956eb24280c166c1644eb235",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1d400019-280e-8756-801d-f9825186b25c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-3.png",
+          "md5": "6dcb12409154805a266b472a55c4e253",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4ec00019-280e-8756-8036-d0c25a8b78d9",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-4.png",
+          "md5": "57b1d2afbabfc7822d3b2b688cd7b686",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4c00019-280e-8756-8001-8aed38e22da7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-5.png",
+          "md5": "760de1a4dca74982c002c889fad15da5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "04400019-280e-8756-8001-b725e4b538e2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-6.png",
+          "md5": "e42cc2c28492fcf2e871e0b61042f4be",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_DESKTOP",
+      "setId": "d969c2c6-9943-4ae7-be29-07f2c57c0021",
+      "verifiedAt": "2026-10-09T16:12:46.244Z",
+      "screenshots": [
+        {
+          "id": "4f800019-280e-8756-800d-5a54bb9a85cd",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-1.png",
+          "md5": "9403184c24faea13ed0e2a915e2f1d7f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10000019-280e-8756-8018-c79e6d2ea112",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-2.png",
+          "md5": "43c38e1cae239b1278dfd9672feef483",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6ec00019-280e-8756-8018-9367c50766f0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-3.png",
+          "md5": "9f4af3e466a0f224a03e14cb8daba1c2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99400019-280e-8756-8009-3f6ae837eaa6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-4.png",
+          "md5": "d98ba5e50976e6143f5b270244b0bf1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "da000019-280e-8756-8013-be49ded2a210",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-5.png",
+          "md5": "72f2cabc5e3b8c9e4288edd75c523c79",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "af400019-280e-8756-802e-84be2899b179",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-6.png",
+          "md5": "c2a1e5988aeeaa8253af756cb28fae57",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "b69284c6-2510-4a2e-9325-8fc6513c4697",
+      "verifiedAt": "2026-10-09T16:12:55.250Z",
+      "screenshots": [
+        {
+          "id": "c6000019-280e-8756-8035-4cf6b4a5bf2d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-1.png",
+          "md5": "fa597e93614ecfd53ae36ca6264e938e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8f800019-280e-8756-8026-87fc71c11ac5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-2.png",
+          "md5": "36098e05a86b211d1a8392022a39e7a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05400019-280e-8756-802e-2e818a0924c8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-3.png",
+          "md5": "f97ab0a6e5e246b1f9deb4ad57638468",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3f400019-280e-8756-800c-c3ff97b2b551",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-4.png",
+          "md5": "1e5d458fec57c8c02bfa31df3eded2e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3b800019-280e-8756-803d-7c6a5213366b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-5.png",
+          "md5": "f5bcde116177ae457de61f961b8e0302",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d5800019-280e-8756-8033-4f8ac808bd64",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-6.png",
+          "md5": "114c3c35a56e8a5e2d336bf8a40123f2",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_DESKTOP",
+      "setId": "815f5f93-bb11-4c1b-8f94-df4de4719b45",
+      "verifiedAt": "2026-10-09T16:13:04.893Z",
+      "screenshots": [
+        {
+          "id": "d4000019-280e-8756-802c-dfce2762b474",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-1.png",
+          "md5": "6ea3999aa458691341cffaa9840efdd5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "de800019-280e-8756-8038-af5a5e7f32f8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-2.png",
+          "md5": "787ee4e8a930d0feca548dc8741874b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07400019-280e-8756-8025-8c5c99db7ea8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-3.png",
+          "md5": "eb28a40a651db58c230307b22f6d40d3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eb800019-280e-8756-8005-1cf3559b97d2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-4.png",
+          "md5": "bf8d87cfccc380878753c71312df066c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3c800019-280e-8756-803a-53d9d12fe6db",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-5.png",
+          "md5": "af73ebb610e4a5beb13dcbe61bef57f0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "48000019-280e-8756-8025-2e2e93dc92b9",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-6.png",
+          "md5": "4d18c5042073a7446df3d527d0400235",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_DESKTOP",
+      "setId": "9f8dfc85-c3a7-4eb4-bf30-afcde7f21b3a",
+      "verifiedAt": "2026-10-09T16:13:24.674Z",
+      "screenshots": [
+        {
+          "id": "51c00019-280e-8756-8027-2fe87ad8b545",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-1.png",
+          "md5": "3e5de57f6bac094893c3889cfe7e9386",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7d800019-280e-8756-802c-a65e51f4d70a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-2.png",
+          "md5": "5c53d1d82c6011a7bda22927e4eacee9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2fc00019-280e-8756-800a-67ab1bb28d36",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-3.png",
+          "md5": "ea00115b09fc78f03492f65bbeaec6ef",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7b000019-280e-8756-8001-8976b8ce543c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-4.png",
+          "md5": "c768db8aa78972f3586053b1a351c476",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "81400019-280e-8756-800c-f9d361ff99d2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-5.png",
+          "md5": "74cbd8b38bfc0b6356c1f371ead30408",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "67800019-280e-8756-8003-c684b5ffea38",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-6.png",
+          "md5": "5979d94b52071c5acd8ec61491d316b3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_DESKTOP",
+      "setId": "78a8f4e7-4581-4b39-92cc-2e2f3c975787",
+      "verifiedAt": "2026-10-09T16:13:28.987Z",
+      "screenshots": [
+        {
+          "id": "cb800019-280e-8756-8025-369234ae1b99",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-1.png",
+          "md5": "e766cbada7165a4102c3de0704d8e273",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5c00019-280e-8756-801f-e1a00199a2db",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-2.png",
+          "md5": "aecac97ec0eaa1049602c57d217dc210",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9e800019-280e-8756-801f-330e91260951",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-3.png",
+          "md5": "e799f8ce35788c1fa011c0e03e5348a4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9f400019-280e-8756-800a-9bcc4b0ab102",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-4.png",
+          "md5": "606265612d22c2f61c5cd3104950e076",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2800019-280e-8756-801a-7d6caf89c382",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-5.png",
+          "md5": "5bae5c913aeb99e9c9ced6b858ec8841",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac000019-280e-8756-802f-673253d697e2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-6.png",
+          "md5": "6013681d64050f17d09126932778a074",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_DESKTOP",
+      "setId": "62bc3e28-d773-498d-bfe9-325465d9c0b0",
+      "verifiedAt": "2026-10-09T16:14:03.635Z",
+      "screenshots": [
+        {
+          "id": "5b800019-280e-8756-8017-a8608331551d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-1.png",
+          "md5": "07fb97e1030bbc85eedd75884446260c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "45c00019-280e-8756-8012-ab6a1bff8362",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-2.png",
+          "md5": "dff753104f661ffc5ceee70152d3441f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f5800019-280e-8756-802f-5295535cdae0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-3.png",
+          "md5": "4f4921549b388635b624adcdec2cceed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cb000019-280e-8756-8030-002c91122de5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-4.png",
+          "md5": "0951789756a71ab0596d5e105704e283",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d8400019-280e-8756-8035-89bdc1f77f96",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-5.png",
+          "md5": "1f44099638ebf9d4d815a1d0856ab25b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a0400019-280e-8756-8035-5db5b296633d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-6.png",
+          "md5": "e4dd9405d676281da1e62fa985f3378b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_DESKTOP",
+      "setId": "c8cd610f-c6d7-4cd5-b654-b1eb6fa0796b",
+      "verifiedAt": "2026-10-09T16:14:04.667Z",
+      "screenshots": [
+        {
+          "id": "27c00019-280e-8756-800d-dcfd12ea5d48",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-1.png",
+          "md5": "76fcf4d8818f67343e7186514578a4a2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28c00019-280e-8756-8032-b50fca9f3103",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-2.png",
+          "md5": "33586ccb569e3343516b04bf0a979119",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7e400019-280e-8756-800a-5f273607de7c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-3.png",
+          "md5": "8793e09690c86101d3ba3e6e2b560d43",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2000019-280e-8756-8032-df33d6497869",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-4.png",
+          "md5": "a354e119d17ce932b15c4b0f6483cfd6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4a000019-280e-8756-803a-3d1f594dc80c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-5.png",
+          "md5": "b88132d6f433877f474d1bb2d0657c3a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "57000019-280e-8756-8003-cc702786cf38",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-6.png",
+          "md5": "1326123b47b7cf97a82ae5276538019a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_DESKTOP",
+      "setId": "86179e01-5ebd-4bd5-9c55-f245ff26d6b5",
+      "verifiedAt": "2026-10-09T16:14:23.400Z",
+      "screenshots": [
+        {
+          "id": "7c800019-280e-8756-800a-63ca7ebe6eb8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-1.png",
+          "md5": "dece1d27f6f0fd475e5550142897e397",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "94c00019-280e-8756-803a-2b06ceb9b9c6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-2.png",
+          "md5": "f01fdb5379e59b2882cf3fef840a4505",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59800019-280e-8756-8029-e1ea72ba46d4",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-3.png",
+          "md5": "84536b46e59080bb7663bc9ff93102b1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0a400019-280e-8756-801a-5084437acc24",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-4.png",
+          "md5": "cd3eea150680bbbc11a9dcf5d995d6f7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76400019-280e-8756-8017-a1c43cf47108",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-5.png",
+          "md5": "63c328459e3fae3b84665ddaa2b60833",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a2000019-280e-8756-801d-f8dccc479b2b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-6.png",
+          "md5": "572a553f0320527ac23d856d98932999",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_DESKTOP",
+      "setId": "076a73ca-1372-4874-a369-dfa193324ee3",
+      "verifiedAt": "2026-10-09T16:14:26.983Z",
+      "screenshots": [
+        {
+          "id": "b0400019-280e-8756-8028-b55447ee78a2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-1.png",
+          "md5": "3654eaebab21281d384fb00e7f3643b4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9800019-280e-8756-8035-3fe7508d7e74",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-2.png",
+          "md5": "8e3186c09a6cf34d1633c19ccbb4a3ca",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43400019-280e-8756-801a-a17b205841d2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-3.png",
+          "md5": "1db9d0230fca44df54f5b0d943a64b64",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cac00019-280e-8756-8006-c0c45aa68c6e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-4.png",
+          "md5": "a07f16f1a2af36a2a9b2119d4ab9b703",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dec00019-280e-8756-8038-6690a74f551c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-5.png",
+          "md5": "f6ef7532eee0892eadfc76e0a96e25e8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8a000019-280e-8756-8030-ee52e3dc6960",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-6.png",
+          "md5": "0c620686fbeeaa4f83936fe6d1956cf3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_DESKTOP",
+      "setId": "1187ca95-af84-4d52-9f03-d85423b732e3",
+      "verifiedAt": "2026-10-09T16:14:48.389Z",
+      "screenshots": [
+        {
+          "id": "cb400019-280e-8756-800f-f0d86a0f4135",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-1.png",
+          "md5": "5c9e039dab143c68a63ed72cbdb1e907",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ec400019-280e-8756-8024-2e78852d378e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-2.png",
+          "md5": "2138ad495825b512552b489dbfe40ad8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "af000019-280e-8756-8007-71807b1d78a6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-3.png",
+          "md5": "bab3054d612a85a039f4a4b3757af9ec",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e1c00019-280e-8756-8003-6df0d68acf19",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-4.png",
+          "md5": "520e64694a46b5a829a2f0782fba9ee2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa000019-280e-8756-8003-e7ba746cfc01",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-5.png",
+          "md5": "332a63af9007d2eab71d399b31924891",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a1800019-280e-8756-800e-c0bbc8a66f34",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-6.png",
+          "md5": "3719232d12387908359c949032de1ca5",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_DESKTOP",
+      "setId": "ce989577-a3ed-4edf-a1e6-7053d287409f",
+      "verifiedAt": "2026-10-09T16:15:45.710Z",
+      "screenshots": [
+        {
+          "id": "34800019-280e-8756-803a-bbc323f24d74",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-1.png",
+          "md5": "cd9fa491827603dfb7fc81f1797fabe7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0c000019-280e-8756-801e-35352f6e0b28",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-2.png",
+          "md5": "daebb6559e8eaa73ebf50680c85eb52f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6400019-280e-8756-8006-14f9304a3d4a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-3.png",
+          "md5": "90e68e8b4072486131de964d535a480b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51000019-280e-8756-801f-24bd94dd9be2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-4.png",
+          "md5": "3d3c86af82af2b252f9c48eb89e0d2b4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "73400019-280e-8756-801e-392f45b777a8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-5.png",
+          "md5": "7f82f43c643d12050fe0fcf3af3a882f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2d400019-280e-8756-8005-d3bcb3e8c4b1",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-6.png",
+          "md5": "dd4985cb85434153c97e877bc6bc1bdd",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_DESKTOP",
+      "setId": "37b53fa0-20b5-45ea-975a-ee77708b6bda",
+      "verifiedAt": "2026-10-09T16:15:46.591Z",
+      "screenshots": [
+        {
+          "id": "3bc00019-280e-8756-8032-ac348dd28ef1",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-1.png",
+          "md5": "fd72ab937e3f2d856f93d606761c1b0c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ff400019-280e-8756-8019-4c035712c7d0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-2.png",
+          "md5": "767601eb6deaaa773060c9e5a04b254a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11400019-280e-8756-802f-4d56ef0f115c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-3.png",
+          "md5": "c20f2e15ef24162498eefdc9377f2bfb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7800019-280e-8756-802f-6d0b9df98681",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-4.png",
+          "md5": "0354bee5c40d2db5e95009d2eeebcf2f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80000019-280e-8756-8016-afc65884b04b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-5.png",
+          "md5": "9cce6c99554d22a3b0bc67416de422f1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1400019-280e-8756-8025-f9560fce60f9",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-6.png",
+          "md5": "541169256875b0999e6826d6edd20163",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ml-IN",
+      "sourceLocale": "ml",
+      "type": "APP_DESKTOP",
+      "setId": "77e28a44-7b25-41ee-927f-110a0bce6ac0",
+      "verifiedAt": "2026-10-09T16:15:46.606Z",
+      "screenshots": [
+        {
+          "id": "a9400019-280e-8756-8023-a07e545e2ad9",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-1.png",
+          "md5": "e04f2598c9b536b405fde3a15414e9ea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "32c00019-280e-8756-801e-c162ce0ed83d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-2.png",
+          "md5": "b6ff44380b420d57cbb63c274ad4a0b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2fc00019-280e-8756-8034-4b4757e83d4b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-3.png",
+          "md5": "77526a4293fb21d308ad7111b7ae8363",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "24c00019-280e-8756-8027-5ee7b3947b33",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-4.png",
+          "md5": "fac2eb231c714b49edf8288810efdb64",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62400019-280e-8756-8015-df34d3df6f9c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-5.png",
+          "md5": "14dd8afd9fa9d3a0a3a05fa7989cf5d7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d8000019-280e-8756-8002-ae3a71cb833c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-6.png",
+          "md5": "3697970cc195810c66a226874fc3fe91",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_DESKTOP",
+      "setId": "9e6c7cf4-c675-45b9-8872-70ec3c36d69f",
+      "verifiedAt": "2026-10-09T16:15:46.930Z",
+      "screenshots": [
+        {
+          "id": "ce400019-280e-8756-8018-e509dadc395d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-1.png",
+          "md5": "9dae64d31b2045898800089beac8aa11",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9400019-280e-8756-8003-76503ed3b1bb",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-2.png",
+          "md5": "86cce2af90efa8d382548bccbb37a53c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6e800019-280e-8756-8014-68aa083e0bbd",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-3.png",
+          "md5": "2f12f58173e7e4fb7953f75b47128838",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bb000019-280e-8756-803c-b93911314cf2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-4.png",
+          "md5": "1515cee175b5ac1a94f3ac7b39b336e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "22800019-280e-8756-8039-6a9dc2eafb03",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-5.png",
+          "md5": "3d4bc5fc26cf162e7ea36779c9c4c1f5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2cc00019-280e-8756-802c-b29ebf56a9b4",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-6.png",
+          "md5": "82bc267562feff4b1be3e9356202d245",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_DESKTOP",
+      "setId": "1d5ab6c4-c425-4de5-b333-16acb816f3d6",
+      "verifiedAt": "2026-10-09T16:16:03.354Z",
+      "screenshots": [
+        {
+          "id": "9f000019-280e-8756-8014-6f6cb37dfad7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-1.png",
+          "md5": "b09e5e15d2978bce11dfda76fe0c9969",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3f800019-280e-8756-8004-69dbc70ed2bb",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-2.png",
+          "md5": "efc93baafca275385cae3d9c70f45aad",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5b400019-280e-8756-802b-fa7c1e5a86c2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-3.png",
+          "md5": "886050438a8b52ad5c93c61f36ad4880",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c0c00019-280e-8756-8016-dd08c3ec8639",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-4.png",
+          "md5": "b23cd347f2675a4df4c38e439d7099e0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "90000019-280e-8756-8005-d9f0838252e1",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-5.png",
+          "md5": "75a918d948f14e76f4b3212a37fe4121",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "94400019-280e-8756-8021-d8b69ae8439a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-6.png",
+          "md5": "4e8f48e728e5691fac2a9b7cb8dd8944",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_DESKTOP",
+      "setId": "8e39e64e-28a9-48bd-a9f1-5f0c3f287f46",
+      "verifiedAt": "2026-10-09T16:16:03.368Z",
+      "screenshots": [
+        {
+          "id": "dc800019-280e-8756-8032-37ce5156efb6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-1.png",
+          "md5": "7b7bf9582e3a31c65c9bc17024853b91",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11400019-280e-8756-8038-a7da2de9571c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-2.png",
+          "md5": "17e62ccb20ea6796da70c9f6a88eec0e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8c00019-280e-8756-8018-526ecec9ac89",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-3.png",
+          "md5": "e1b280a627bda8240f49e9c81c06a989",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "87c00019-280e-8756-803e-dbaa99a6ea89",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-4.png",
+          "md5": "25032eb4e63745a4f4c1f577406939be",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9bc00019-280e-8756-803c-dabbf01ef0b2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-5.png",
+          "md5": "ccdb5d5a15a0f9a0b172f90d077b8e8e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "37800019-280e-8756-8003-b9f00e562c5e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-6.png",
+          "md5": "3acf97518ca1c7533178a9a1fc4020ab",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_DESKTOP",
+      "setId": "8fbbd96f-c8de-4615-965e-d45fc66e3f55",
+      "verifiedAt": "2026-10-09T16:16:51.795Z",
+      "screenshots": [
+        {
+          "id": "68000019-280e-8756-8036-482d293f5e2b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-1.png",
+          "md5": "f2b61a7a5fd89b1726bcbd3ae7af488e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "57c00019-280e-8756-8035-ec3faf96589d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-2.png",
+          "md5": "80560a15e6506a88265ec715a289b94d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69c00019-280e-8756-8031-01955b5a0d85",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-3.png",
+          "md5": "deeb0e77d56753b57b49cba2e9961822",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50800019-280e-8756-803a-f6cb42e897e9",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-4.png",
+          "md5": "74ab71d89bee17d2034134e9447e49eb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "33c00019-280e-8756-8028-34cdec400774",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-5.png",
+          "md5": "9b43e4f346db1297fefc6d1ae9f1be8c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5000019-280e-8756-8007-d71b9ab21ef5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-6.png",
+          "md5": "98f1cf51f2c81ce55b8e5c4e61feac92",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_DESKTOP",
+      "setId": "c37fad17-653d-43d8-bd94-c429a59373d1",
+      "verifiedAt": "2026-10-09T16:16:53.182Z",
+      "screenshots": [
+        {
+          "id": "2d400019-280e-8756-801f-73383cc4c6c0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-1.png",
+          "md5": "6721f00d58496deeb823cb9f44f520ed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "37000019-280e-8756-8026-43eecd15d779",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-2.png",
+          "md5": "ab63eb6f9f79352e8c24ec0abd6f58be",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "db800019-280e-8756-8011-08a25036ae47",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-3.png",
+          "md5": "5e8e4de14c61342a4ee563d424deed28",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3f800019-280e-8756-802f-323e1eb17d69",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-4.png",
+          "md5": "4e1f90e9521f230298cdfa65a57b5b20",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "64800019-280e-8756-800d-119159aca597",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-5.png",
+          "md5": "cf4858e260b5bb226bd59f30df5f11fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6e000019-280e-8756-8009-00ac669c42c0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-6.png",
+          "md5": "e8b448fbb9746d42e64a44ba0272becf",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_DESKTOP",
+      "setId": "8603079c-8a3e-407a-87f2-18791b1c4595",
+      "verifiedAt": "2026-10-09T16:16:53.499Z",
+      "screenshots": [
+        {
+          "id": "4c400019-280e-8756-801d-52a527234124",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-1.png",
+          "md5": "b8a158d0237e75a2b0933c60c698e251",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3400019-280e-8756-800d-eebd31be2884",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-2.png",
+          "md5": "41836ee7a7d22150a5a4a7b88e0b5884",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1c000019-280e-8756-8012-36f030d02211",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-3.png",
+          "md5": "61d84a10620aa9f60386fad12fc2dfd9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8a400019-280e-8756-801e-9971b543020c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-4.png",
+          "md5": "f05ab0235e9ee07f6d56572faab0714e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99c00019-280e-8756-8029-e3a9638ce48e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-5.png",
+          "md5": "00aa7f1e4e22eb23e4885667d961346d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2a400019-280e-8756-801e-16caa09c3ea7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-6.png",
+          "md5": "455283b97a5b96b28258db8f03636f3d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_DESKTOP",
+      "setId": "f76e1aa8-cd86-4d99-9379-76ab3d4f2ef4",
+      "verifiedAt": "2026-10-09T16:17:15.033Z",
+      "screenshots": [
+        {
+          "id": "e9800019-280e-8756-801c-6973c267eb1a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-1.png",
+          "md5": "5b48e7b3de1352faea21e9895213442d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39400019-280e-8756-8025-e747f951d214",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-2.png",
+          "md5": "6679ee0267398fe600cba27dc945a8fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e9400019-280e-8756-8007-3d9caed5a7c2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-3.png",
+          "md5": "b52e8c2a40398ec16e377c72105c7523",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17c00019-280e-8756-802b-3968c5c17054",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-4.png",
+          "md5": "634c1f24f7afa79001cfd74c6f0fd2a2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "04800019-280e-8756-8039-db436739b5ec",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-5.png",
+          "md5": "d5e73e4e0675e1498e8afbb379c44229",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8bc00019-280e-8756-801f-b167d1cf85e4",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-6.png",
+          "md5": "c45c7e45db8cc4129a71156cebc11089",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_DESKTOP",
+      "setId": "492dd2a3-a2c9-4335-882d-61277afba4b6",
+      "verifiedAt": "2026-10-09T16:17:23.349Z",
+      "screenshots": [
+        {
+          "id": "abc00019-280e-8756-8019-d6b9c1b5e5d0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-1.png",
+          "md5": "fe66a467ea610d56309839bc0f127f94",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "61800019-280e-8756-8018-b7a1201819b7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-2.png",
+          "md5": "a6f9d7b5b9308c8a8d68b4f0d7cc7d97",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69c00019-280e-8756-8024-acccb76c93fe",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-3.png",
+          "md5": "ade7bc9c8ff3915aa9fdd6138d1a042a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "00400019-280e-8756-8016-3de26e208a2b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-4.png",
+          "md5": "1f33d5353a04325de0a905b17dcc1fea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2800019-280e-8756-8033-873f4a67ffc5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-5.png",
+          "md5": "a7cf72cb3d9d10c087fcc978328dbdd5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6bc00019-280e-8756-8011-20076dc66a99",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-6.png",
+          "md5": "c15b138e28930815608f1d1ff8fd11d6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_DESKTOP",
+      "setId": "4bc5db31-b79c-47fb-91b4-db2dc133941a",
+      "verifiedAt": "2026-10-09T16:17:24.416Z",
+      "screenshots": [
+        {
+          "id": "0e800019-280e-8756-8009-484def705a1c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-1.png",
+          "md5": "8a4fe3a4792474b351db5d803555bf8e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "65400019-280e-8756-8001-23c17bbb67d1",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-2.png",
+          "md5": "39f0dca71862cb7774a771e2a70c05d8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4ec00019-280e-8756-8021-db2029036adc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-3.png",
+          "md5": "dfdc4575f52d626c777ac1473d028bbe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2000019-280e-8756-801f-66fca9448ca4",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-4.png",
+          "md5": "29ea9841059d98c95c1093551566b232",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5e000019-280e-8756-800f-5cec4c2db226",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-5.png",
+          "md5": "ba3a658e406585156bd479b157d6544f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f7000019-280e-8756-8031-00e26f37adbb",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-6.png",
+          "md5": "219691005d5fb3cbf7488e0f1c7290a4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_DESKTOP",
+      "setId": "05a240a2-6de6-4dfd-8a01-007870923096",
+      "verifiedAt": "2026-10-09T16:17:49.530Z",
+      "screenshots": [
+        {
+          "id": "b2c00019-280e-8756-8001-2d2c884cc8e8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-1.png",
+          "md5": "cedc865fe321d785f2dbd18d3cd2ba62",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5a400019-280e-8756-800f-aea581e63f90",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-2.png",
+          "md5": "cfa69876302414747402ca86031dca78",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20400019-280e-8756-800f-61bd3d7f52f0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-3.png",
+          "md5": "70cc8997689d798a4037b278f68f9e72",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "02000019-280e-8756-803d-c020bd2d0324",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-4.png",
+          "md5": "dbc33be2633f6733ad6a162f32f6bb94",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "72800019-280e-8756-8002-822f599ff6c8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-5.png",
+          "md5": "22a73c3da1dadef914b933d5a908752b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ae000019-280e-8756-8030-8ecf207dbd0f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-6.png",
+          "md5": "d0f46107cc8f87bc10fa56d660216a57",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_DESKTOP",
+      "setId": "694c5905-82ce-4b2a-b620-7c8239683bb6",
+      "verifiedAt": "2026-10-09T16:17:57.604Z",
+      "screenshots": [
+        {
+          "id": "0fc00019-280e-8756-802e-85a0ae073b65",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-1.png",
+          "md5": "8881f2b38a2f897ec46b6c0310d64d9d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f0c00019-280e-8756-801f-0f66c9beb2e7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-2.png",
+          "md5": "2eff7fe509b24825883a43b675268247",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dd400019-280e-8756-8003-a63b7209c484",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-3.png",
+          "md5": "af4ae212e5f34609b09fa5185f45431e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "67800019-280e-8756-8022-d0197fd512d8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-4.png",
+          "md5": "b2eecfe0e2902884386d1a186d53a2b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8800019-280e-8756-8004-616ebd53ad4f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-5.png",
+          "md5": "5372dcd9bc20fc742c432876b370c367",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ba400019-280e-8756-801b-54b782083699",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-6.png",
+          "md5": "b50b1f521c2e5cb3926c0133827ab1b7",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_DESKTOP",
+      "setId": "062ec056-7365-4453-9319-61d356ce923f",
+      "verifiedAt": "2026-10-09T16:18:12.512Z",
+      "screenshots": [
+        {
+          "id": "7a800019-280e-8756-800b-e4e37ab28aaf",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-1.png",
+          "md5": "b040887c4e386f5fec97bcaaf265ebeb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7c00019-280e-8756-802d-0290126579d5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-2.png",
+          "md5": "8d2d28f2e8900d0da6cb356d62dd12b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a8c00019-280e-8756-803e-fb1b4a0c4bbc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-3.png",
+          "md5": "6562e2cc5c3fead102cc313ff86772ef",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d0c00019-280e-8756-800b-a2c53ef5f90b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-4.png",
+          "md5": "16732fa297352eb7529f29563d7cf3ad",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "52c00019-280e-8756-8016-eb820bee4ff3",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-5.png",
+          "md5": "39f9a0084f526ef498b8288116f01cfc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b4400019-280e-8756-803e-6e4434dd4112",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-6.png",
+          "md5": "83b2f7f21cd6a48aad90a84dfc6aa6df",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "es-MX",
+      "sourceLocale": "es-419",
+      "type": "APP_DESKTOP",
+      "setId": "b5fc574c-93ea-46b2-9cfa-b2d7c2af028b",
+      "verifiedAt": "2026-10-09T16:18:15.664Z",
+      "screenshots": [
+        {
+          "id": "53400019-280e-8756-8020-8546b17ad445",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-1.png",
+          "md5": "e4b2fed444548572e1c7322e86988127",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7ec00019-280e-8756-802c-f43ddb5a9f16",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-2.png",
+          "md5": "c77463cdd33743a8278bf731b4f6f3b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69800019-280e-8756-8001-7832ba702425",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-3.png",
+          "md5": "ef9f820c5ec9468e60d6e2a89a63d1b3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43000019-280e-8756-8000-80474dd0a3d6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-4.png",
+          "md5": "27527a4c500d87f9f25fc338a90cb90c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01400019-280e-8756-8033-abeb621c008f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-5.png",
+          "md5": "8f256dcb36aa90977c59bd766c4b3770",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4fc00019-280e-8756-8007-10209d710f0f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-6.png",
+          "md5": "17ef98285e0ac8ba698459537ae63c4a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_DESKTOP",
+      "setId": "7950caff-0cdc-4308-94e7-72c5aa7b66b6",
+      "verifiedAt": "2026-10-09T16:18:21.177Z",
+      "screenshots": [
+        {
+          "id": "84c00019-280e-8756-8032-b28f23b3354a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-1.png",
+          "md5": "1e2523cff1992e5b5c20abcf28e8a3ff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20c00019-280e-8756-8025-917a70d9164d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-2.png",
+          "md5": "fb4de190bfd44f80b56fa347f8caee39",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a4c00019-280e-8756-8020-222de54d3562",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-3.png",
+          "md5": "6abd62924fc05d3d9e647bf27319cd53",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62400019-280e-8756-8002-08281474ba51",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-4.png",
+          "md5": "9d31c90e5f0de64cbd03a6225c2bd46c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "61800019-280e-8756-801c-a413290c1c9e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-5.png",
+          "md5": "5ef95ad1016288de134e4e04dd090603",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76c00019-280e-8756-801d-60f5693ae3fc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-6.png",
+          "md5": "0aa3fdc1dbb0f2806764bb1b106078c5",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_DESKTOP",
+      "setId": "d74a48fd-3a07-459b-8632-f4c32b9c7a3a",
+      "verifiedAt": "2026-10-09T16:18:22.577Z",
+      "screenshots": [
+        {
+          "id": "64c00019-280e-8756-8034-9848f6946023",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-1.png",
+          "md5": "f51dcaa41d3ad5ab4718b630b9d0885d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9b000019-280e-8756-803e-2541f7ea6505",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-2.png",
+          "md5": "a4b9ebf54e3f49f4c90c7cb8c28d50e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8e800019-280e-8756-803d-cff7ead6ed7b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-3.png",
+          "md5": "306361ab6c6ede624f02ee1a465c8fb2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7dc00019-280e-8756-803e-dd05a5c11286",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-4.png",
+          "md5": "11f82aaf1a4eef40a34445091a746c7c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c0800019-280e-8756-803e-1bebc570821a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-5.png",
+          "md5": "b5e07386ba20e0418813672f1be487b8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b2c00019-280e-8756-801f-7d4979e05b4c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-6.png",
+          "md5": "17608516d5d5144998af4d632f0da5e0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_DESKTOP",
+      "setId": "f6f50daf-4212-4d95-8ed6-18c5236a7fbc",
+      "verifiedAt": "2026-10-09T16:18:50.958Z",
+      "screenshots": [
+        {
+          "id": "ad800019-280e-8756-8004-8e97ec4a3654",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-1.png",
+          "md5": "8e41d91ac6a078790fa49b3d8b35185a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a3000019-280e-8756-802e-9c2d788380c0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-2.png",
+          "md5": "2d993a5557ed0cbcf451a077b120d1a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "93000019-280e-8756-800e-48d06294b7a8",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-3.png",
+          "md5": "c50dd4bab7f5bea140e80c698c050b90",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58000019-280e-8756-803c-4323606eba1e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-4.png",
+          "md5": "37f13660560af3cfc86c1d716af6ae6e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "90400019-280e-8756-803e-d2cc60dcf644",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-5.png",
+          "md5": "9b464c543af6a75cafa7a669fc45ec11",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "55000019-280e-8756-8033-b5b41de6ce98",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-6.png",
+          "md5": "cd6baa2550de882db0e377a2ffdcd6b7",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "setId": "0087e193-7d36-4e5c-b775-c782f24b85a0",
+      "verifiedAt": "2026-10-09T16:18:59.248Z",
+      "screenshots": [
+        {
+          "id": "2d000019-280e-8756-802c-567235e0df07",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-1.png",
+          "md5": "9af92bf7931117ba22b6555d40c7a16e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "77400019-280e-8756-803b-e69579ea216a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-2.png",
+          "md5": "35b90b4cfa5d5899bc29febf49123453",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6dc00019-280e-8756-800d-b84cb4c07ac4",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-3.png",
+          "md5": "790f511efb8beeb96dd02cfb0ea69388",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4cc00019-280e-8756-800b-6f27be58d98b",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-4.png",
+          "md5": "73380797530ed3a8205325a5b1e01a69",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9400019-280e-8756-8000-8be1d469d3dc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-5.png",
+          "md5": "0e0fdbb55711969226421398b38ff391",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4f800019-280e-8756-8036-aa897cd106a6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-6.png",
+          "md5": "f0a6aa9765cac48ce7bb86718cfd9f60",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "th",
+      "sourceLocale": "th",
+      "type": "APP_DESKTOP",
+      "setId": "81e5ffcc-8ef4-4ad1-8155-7c8b5a2ce30a",
+      "verifiedAt": "2026-10-09T16:19:09.763Z",
+      "screenshots": [
+        {
+          "id": "0c400019-280e-8756-8014-09f96299c40e",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-1.png",
+          "md5": "c1c5b22ba86562525c38e6614099ba75",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01800019-280e-8756-801c-8caf32bc6b5a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-2.png",
+          "md5": "a4e71d8316c988fd1da9785324aef79e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80800019-280e-8756-8006-ccad9cf19a6d",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-3.png",
+          "md5": "cbb384f937c0da612bd3bfcb2feddd6e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75800019-280e-8756-8030-bc0631e406ad",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-4.png",
+          "md5": "64f4c22cafb27edadd7fb89ca6d8299e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d1000019-280e-8756-8017-2337051e10de",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-5.png",
+          "md5": "034b99cd2aaec683d5f4ddd5625508ce",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6bc00019-280e-8756-8027-af9e44546261",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-6.png",
+          "md5": "80c1ffeb20af0bbf1a923c06f5539f24",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ta-IN",
+      "sourceLocale": "ta",
+      "type": "APP_DESKTOP",
+      "setId": "54db9850-54c9-4094-a7ba-2103f20f341b",
+      "verifiedAt": "2026-10-09T16:19:18.389Z",
+      "screenshots": [
+        {
+          "id": "da000019-280e-8756-8033-776018d96f9a",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-1.png",
+          "md5": "b9f1352352663a7733d04cb9446f8a43",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa400019-280e-8756-802d-03d478601fa5",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-2.png",
+          "md5": "d4723f94efeaed3eca38554458b57048",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9c00019-280e-8756-8020-f4fdb05b030f",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-3.png",
+          "md5": "d48d930ab7e767497a310cbe7d592819",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17400019-280e-8756-803f-3ef4d5ff5b76",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-4.png",
+          "md5": "f7544d8508026a9e06dbbe2c802e5c9e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1b800019-280e-8756-8024-26893a433037",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-5.png",
+          "md5": "2beed59a13e48dd020dbf378780ebb09",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f0400019-280e-8756-802b-03fd1aa7eae6",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-6.png",
+          "md5": "f7c1c7159a749252194279c2f504c9b5",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "type": "APP_DESKTOP",
+      "setId": "df03cad5-ad40-41fb-b303-63c76b8ce3c3",
+      "verifiedAt": "2026-10-09T16:19:34.139Z",
+      "screenshots": [
+        {
+          "id": "d8000019-280e-8756-8000-6d6f6999c329",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-1.png",
+          "md5": "fe1b7455e7b0ca9f64ba821b933e07b6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3a000019-280e-8756-801c-85c26687ece0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-2.png",
+          "md5": "4b0ac0d440cee12255942e16f636ea60",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aac00019-280e-8756-8025-1299a23d6b55",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-3.png",
+          "md5": "ebbdaf8ea62b4e25d8a2c1b24c80f967",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a1800019-280e-8756-800b-2b07c7e4c290",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-4.png",
+          "md5": "9e378d4c60432f44f3e59ab6a6c002e2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ef400019-280e-8756-8028-3b47b7dad523",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-5.png",
+          "md5": "dd83e58cf2f91a6d1a19645b81446e14",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "14c00019-280e-8756-802c-d388c3db5eab",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-6.png",
+          "md5": "1a81017c48de6a61a1950c6486a6ab92",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "type": "APP_DESKTOP",
+      "setId": "2dba3c43-d79c-41af-94ff-053510205792",
+      "verifiedAt": "2026-10-09T16:19:35.665Z",
+      "screenshots": [
+        {
+          "id": "18800019-280e-8756-8026-874ef2b93ee7",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-1.png",
+          "md5": "9f4ac1294d93f0bebaeb691145c9cb86",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ee000019-280e-8756-8013-8c88429732d0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-2.png",
+          "md5": "2c4e7d28adfced7ebff5f8253f5dab1a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96800019-280e-8756-803d-acceafd4e2bc",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-3.png",
+          "md5": "8bc73c028cb54bcf3687695bdcf65183",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0c000019-280e-8756-800a-0631d9249214",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-4.png",
+          "md5": "689639c35ed89c099ab42e5deed6452b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ae000019-280e-8756-800a-808f34911567",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-5.png",
+          "md5": "5f67c165b48c3d8f4acb209015aaaa50",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c7400019-280e-8756-802f-3df4da5d5370",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-6.png",
+          "md5": "8630b7edcb839786b8675f6dfbd62d4c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "te-IN",
+      "sourceLocale": "te",
+      "type": "APP_DESKTOP",
+      "setId": "9f0882db-5cc9-480b-83e2-e10724af4172",
+      "verifiedAt": "2026-10-09T16:19:35.978Z",
+      "screenshots": [
+        {
+          "id": "65800019-280e-8756-8024-b5974a746627",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-1.png",
+          "md5": "ecb3ca7c9324391341060727520c72be",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9e000019-280e-8756-8028-5f606ce648d0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-2.png",
+          "md5": "a189589578258ea5f7620d1b8f83701d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38000019-280e-8756-803b-826f35141471",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-3.png",
+          "md5": "7f6ec8b2e14e42d184051ecb06462a19",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17000019-280e-8756-8003-32d71871bb78",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-4.png",
+          "md5": "42139091c7d822387b9b350a4fdc7366",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97400019-280e-8756-8005-56064c1a52cd",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-5.png",
+          "md5": "ffcdde55e76f78c9f10a3b20c4a3e873",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e6c00019-280e-8756-801c-617a6f2647b3",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-6.png",
+          "md5": "1ee7295d6fdefeea8f1c93c1541fd40c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "ur-PK",
+      "sourceLocale": "ur",
+      "type": "APP_DESKTOP",
+      "setId": "ae1743de-5bb2-414b-9503-0554686a4cce",
+      "verifiedAt": "2026-10-09T16:19:37.021Z",
+      "screenshots": [
+        {
+          "id": "5e000019-280e-8756-800e-9e2384c49b15",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-1.png",
+          "md5": "a7b2fd0d7eaba435c0b0c1d3dde91104",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d1c00019-280e-8756-8018-4ba5aefc5f84",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-2.png",
+          "md5": "e427c3fb5c51fc4c8ef5cb76cc6cc3c4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39000019-280e-8756-8014-235bf138dffd",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-3.png",
+          "md5": "9ec90924bbf7543f24919a465c5b6b5a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43400019-280e-8756-803a-4a773e90c235",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-4.png",
+          "md5": "9e9d28957e1713287b849fed028c3030",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8d800019-280e-8756-8015-4660c39f0a65",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-5.png",
+          "md5": "13e087355475cbb77e703766ee074287",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dd400019-280e-8756-8029-ef64f989c9b2",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-6.png",
+          "md5": "a038946b8a161764b772f13057c2674b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "versionId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "type": "APP_DESKTOP",
+      "setId": "36d8a369-c7b1-40a3-9a42-724676ee6042",
+      "verifiedAt": "2026-10-09T16:19:39.130Z",
+      "screenshots": [
+        {
+          "id": "90800019-280e-8756-800d-afafa6191d7c",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-1.png",
+          "md5": "c8ab3ac79536137e308fea563a628bfc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d8c00019-280e-8756-8015-ea7dd8e5b5e0",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-2.png",
+          "md5": "8f09c713686a49289f9e51532076b55c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "14c00019-280e-8756-803c-63f06bd5e1bd",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-3.png",
+          "md5": "271ddd8c4ebfa35bacaf335d3b51cefd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d1c00019-280e-8756-803f-9a5f68ede040",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-4.png",
+          "md5": "c6af8f81169df741945557ddfc176700",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82c00019-280e-8756-8007-c4846e3bb871",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-5.png",
+          "md5": "0b1bd14395376f4e1e7a50df64be7521",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ebc00019-280e-8756-800c-59ca261e2068",
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-6.png",
+          "md5": "aae3da84c2904a0a35ab25c4a6b3953d",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 0
+}

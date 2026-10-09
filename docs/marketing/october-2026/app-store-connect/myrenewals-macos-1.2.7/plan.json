@@ -1,0 +1,2974 @@
+{
+  "createdAt": "2026-10-09T16:05:15.960Z",
+  "versions": [
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "currentId": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+      "version": "1.2.7",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "tasks": [
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-2a1f931a70.png",
+          "md5": "2a1f931a70c80662d38f1be7624b37f7",
+          "size": 1920409,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-06cca0939b.png",
+          "md5": "06cca0939b460d172239668738f0c471",
+          "size": 1793844,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-10bc0865c3.png",
+          "md5": "10bc0865c3df00239db731d287b2b74e",
+          "size": 1855287,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-f759364455.png",
+          "md5": "f759364455375861df1db3893121fc96",
+          "size": 1998172,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-d4ade63c81.png",
+          "md5": "d4ade63c81d3ab2d398fe4fbd4c594d9",
+          "size": 1735358,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ar/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-b7f1d255fc.png",
+          "md5": "b7f1d255fcf69a124777fe60fdfdffcd",
+          "size": 1898342,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-c9700b9ab3.png",
+          "md5": "c9700b9ab39838ead6aeed47d926c32f",
+          "size": 2150425,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-687ab50018.png",
+          "md5": "687ab50018627442ea4bd64a825f9159",
+          "size": 1816093,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-623364c257.png",
+          "md5": "623364c257489afd70bd87f689324dd4",
+          "size": 1876475,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-b9ccc2689e.png",
+          "md5": "b9ccc2689ea9a0a1b06afcedcac7dbf6",
+          "size": 2323648,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-54f06b6186.png",
+          "md5": "54f06b6186cf178b98f7dbeec3cda9ed",
+          "size": 1747787,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/bn/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-c92b5e1242.png",
+          "md5": "c92b5e1242b5b7b64eb7f48b797ebe5e",
+          "size": 1926959,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-1c702383e8.png",
+          "md5": "1c702383e87ee33f0a0fce96c27b9e1b",
+          "size": 2277742,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-496c0f07c4.png",
+          "md5": "496c0f07c43afca552d65e23cfe063eb",
+          "size": 2286711,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-10f65e7c0f.png",
+          "md5": "10f65e7c0ff41c20408b87555fb3b736",
+          "size": 1722966,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-7f62be29bf.png",
+          "md5": "7f62be29bfadb501a2930a06492c2c97",
+          "size": 2017141,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-9a8451341c.png",
+          "md5": "9a8451341c2e1ee8865409ae955e0f4a",
+          "size": 2088919,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ca/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-105fbc6b5a.png",
+          "md5": "105fbc6b5a8ff4152e3d51e0774fa0d0",
+          "size": 1931794,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-4c6a97a3c3.png",
+          "md5": "4c6a97a3c3ffe6a1818d6bca78ba736a",
+          "size": 1918650,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a6ea00a57f.png",
+          "md5": "a6ea00a57feb7161aa24b9c46bc6fb3d",
+          "size": 1781767,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-bff118c8b4.png",
+          "md5": "bff118c8b46647779b9a34a4a86af133",
+          "size": 1693834,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-df3c61440a.png",
+          "md5": "df3c61440ae58f10603f5809a4db6784",
+          "size": 1975677,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-5f0f36d045.png",
+          "md5": "5f0f36d0455d696e9785b56b8ca2d86f",
+          "size": 1739698,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hans/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-647163ef7c.png",
+          "md5": "647163ef7cbedc79ac3a29fc79d858c0",
+          "size": 1900652,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e5102c0872.png",
+          "md5": "e5102c0872a2ebbfd98cc4166b669991",
+          "size": 1933881,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-977c02be39.png",
+          "md5": "977c02be397d36c202856a9f74109d84",
+          "size": 1790471,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-8fa5ddea39.png",
+          "md5": "8fa5ddea39161f79858d6fb028833e97",
+          "size": 1681965,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-567d53f7ce.png",
+          "md5": "567d53f7cec2adbdfc40784739603f3b",
+          "size": 1986600,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-563479cf6a.png",
+          "md5": "563479cf6af9ad145af2e0343d202c15",
+          "size": 1752771,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/zh-Hant/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-36f629ec53.png",
+          "md5": "36f629ec53669e8077ae6871befc13c3",
+          "size": 1896641,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-29a13dba69.png",
+          "md5": "29a13dba6995c3ba80113f2bb55ecb5d",
+          "size": 1952215,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-5640307ae7.png",
+          "md5": "5640307ae7f2b419898255d7c220bb2d",
+          "size": 2279185,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-430307e57d.png",
+          "md5": "430307e57df5ab11d982b3450f8a54e6",
+          "size": 1730035,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-8b1b932dc1.png",
+          "md5": "8b1b932dc1d2134b3ddfe9ac098b7c66",
+          "size": 2023671,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-260646fe53.png",
+          "md5": "260646fe53804da4908d04575613c432",
+          "size": 1760317,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-cb7c3962ac.png",
+          "md5": "cb7c3962ac4523ffc76f7f80655f3fd4",
+          "size": 1944002,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-f08ddcce84.png",
+          "md5": "f08ddcce844a0aefd3ec6b54229303b2",
+          "size": 2306783,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-7cace156d3.png",
+          "md5": "7cace156d36ef843571e0e6846c141e3",
+          "size": 2281840,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-98288ea60e.png",
+          "md5": "98288ea60ef30efb6f788c7817ea0b87",
+          "size": 2289289,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-25a53e2937.png",
+          "md5": "25a53e2937d7d7650ec959a8b34244aa",
+          "size": 2030391,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-a0104da27c.png",
+          "md5": "a0104da27c3eebca80cc175232a2f672",
+          "size": 2092282,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/cs/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-960aa7b18e.png",
+          "md5": "960aa7b18e3206d6bf3c208800722f70",
+          "size": 1953442,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-de78d82c21.png",
+          "md5": "de78d82c21ef12ee0933cb8c486473a2",
+          "size": 1955541,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-3ad4bc5c5f.png",
+          "md5": "3ad4bc5c5f3bdf9faf224944b0ed2a3a",
+          "size": 1806226,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-32f48f3817.png",
+          "md5": "32f48f38174d5d9d36e66fb5a91d481d",
+          "size": 1719071,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-80ed639bb7.png",
+          "md5": "80ed639bb70bf246415e4750e910dd58",
+          "size": 2018888,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-8848fb852b.png",
+          "md5": "8848fb852b6edf0c2c8afbc8834c9f31",
+          "size": 2087934,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/da/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-fac20e8b02.png",
+          "md5": "fac20e8b0231004ef1b404fa8df66e62",
+          "size": 2192400,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-f11afbb131.png",
+          "md5": "f11afbb131bc0f0aeb83b557a4e52fed",
+          "size": 2214864,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-e4127cda9f.png",
+          "md5": "e4127cda9f6be0e8f9f6df4a219e3e4b",
+          "size": 1827110,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6540031143.png",
+          "md5": "65400311439ce36c4436de741120441a",
+          "size": 1722018,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-ba8d7ebd53.png",
+          "md5": "ba8d7ebd5370e9b4ee93cc16c02e7c5c",
+          "size": 2364796,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-9421d27e61.png",
+          "md5": "9421d27e610ff556d72cce112a334db4",
+          "size": 1778728,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nl/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3809aa8f02.png",
+          "md5": "3809aa8f020e9a74f9884e5ed7a89d03",
+          "size": 2242456,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-aadc167583.png",
+          "md5": "aadc16758349f92c3143a0155914d541",
+          "size": 1947876,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-42e97032f8.png",
+          "md5": "42e97032f82c9374736d110849304f39",
+          "size": 1807938,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-2222627741.png",
+          "md5": "2222627741584cccc1dcb1663382a786",
+          "size": 1707722,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-eef91ecf9c.png",
+          "md5": "eef91ecf9c0f3897be2f6c3a8a6b16fd",
+          "size": 2013299,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-e56189da41.png",
+          "md5": "e56189da41fdddeae01b168c33f4a761",
+          "size": 1756379,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-AU/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-7443f3447e.png",
+          "md5": "7443f3447e6fd56ffe05c1964cba89ec",
+          "size": 1938693,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-fa597e9361.png",
+          "md5": "fa597e93614ecfd53ae36ca6264e938e",
+          "size": 1936447,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-36098e05a8.png",
+          "md5": "36098e05a86b211d1a8392022a39e7a6",
+          "size": 1802978,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-f97ab0a6e5.png",
+          "md5": "f97ab0a6e5e246b1f9deb4ad57638468",
+          "size": 1704408,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-1e5d458fec.png",
+          "md5": "1e5d458fec57c8c02bfa31df3eded2e6",
+          "size": 1996440,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-f5bcde1161.png",
+          "md5": "f5bcde116177ae457de61f961b8e0302",
+          "size": 1754687,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-114c3c35a5.png",
+          "md5": "114c3c35a56e8a5e2d336bf8a40123f2",
+          "size": 1924057,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8d71e413c7.png",
+          "md5": "8d71e413c709fec317c993b2d051df42",
+          "size": 1971253,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-c22c0a40ab.png",
+          "md5": "c22c0a40ab61c839fe0aac10536d5de1",
+          "size": 1807868,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-087022f177.png",
+          "md5": "087022f1779cbfb296a346a52db4f608",
+          "size": 1708266,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-50543780c9.png",
+          "md5": "50543780c9cacdfc57d4f8f1252bbf49",
+          "size": 2036736,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-7f27c59a76.png",
+          "md5": "7f27c59a7628166f58910f3f8464b750",
+          "size": 1756379,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-GB/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-fa469d0b60.png",
+          "md5": "fa469d0b6034a280adda49ee3c573eac",
+          "size": 1969329,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-fa597e9361.png",
+          "md5": "fa597e93614ecfd53ae36ca6264e938e",
+          "size": 1936447,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-36098e05a8.png",
+          "md5": "36098e05a86b211d1a8392022a39e7a6",
+          "size": 1802978,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-f97ab0a6e5.png",
+          "md5": "f97ab0a6e5e246b1f9deb4ad57638468",
+          "size": 1704408,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-1e5d458fec.png",
+          "md5": "1e5d458fec57c8c02bfa31df3eded2e6",
+          "size": 1996440,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-f5bcde1161.png",
+          "md5": "f5bcde116177ae457de61f961b8e0302",
+          "size": 1754687,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/en-US/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-114c3c35a5.png",
+          "md5": "114c3c35a56e8a5e2d336bf8a40123f2",
+          "size": 1924057,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9403184c24.png",
+          "md5": "9403184c24faea13ed0e2a915e2f1d7f",
+          "size": 2214203,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-43c38e1cae.png",
+          "md5": "43c38e1cae239b1278dfd9672feef483",
+          "size": 1803880,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-9f4af3e466.png",
+          "md5": "9f4af3e466a0f224a03e14cb8daba1c2",
+          "size": 1924738,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d98ba5e509.png",
+          "md5": "d98ba5e50976e6143f5b270244b0bf1b",
+          "size": 2012557,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-72f2cabc5e.png",
+          "md5": "72f2cabc5e3b8c9e4288edd75c523c79",
+          "size": 1771940,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fi/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-c2a1e5988a.png",
+          "md5": "c2a1e5988aeeaa8253af756cb28fae57",
+          "size": 1958687,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-5a1e98b351.png",
+          "md5": "5a1e98b35129d2e8e2b1abe1f2a694db",
+          "size": 2305012,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-0dfec99b95.png",
+          "md5": "0dfec99b956eb24280c166c1644eb235",
+          "size": 2343711,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6dcb124091.png",
+          "md5": "6dcb12409154805a266b472a55c4e253",
+          "size": 1727217,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-57b1d2afba.png",
+          "md5": "57b1d2afbabfc7822d3b2b688cd7b686",
+          "size": 2460133,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-760de1a4dc.png",
+          "md5": "760de1a4dca74982c002c889fad15da5",
+          "size": 2138697,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-e42cc2c284.png",
+          "md5": "e42cc2c28492fcf2e871e0b61042f4be",
+          "size": 2217173,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-6ea3999aa4.png",
+          "md5": "6ea3999aa458691341cffaa9840efdd5",
+          "size": 2305104,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-787ee4e8a9.png",
+          "md5": "787ee4e8a930d0feca548dc8741874b0",
+          "size": 2343875,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-eb28a40a65.png",
+          "md5": "eb28a40a651db58c230307b22f6d40d3",
+          "size": 1727241,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-bf8d87cfcc.png",
+          "md5": "bf8d87cfccc380878753c71312df066c",
+          "size": 2460370,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-af73ebb610.png",
+          "md5": "af73ebb610e4a5beb13dcbe61bef57f0",
+          "size": 2138397,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/fr-CA/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-4d18c50420.png",
+          "md5": "4d18c5042073a7446df3d527d0400235",
+          "size": 2219384,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-3e5de57f6b.png",
+          "md5": "3e5de57f6bac094893c3889cfe7e9386",
+          "size": 2209582,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-5c53d1d82c.png",
+          "md5": "5c53d1d82c6011a7bda22927e4eacee9",
+          "size": 2347738,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ea00115b09.png",
+          "md5": "ea00115b09fc78f03492f65bbeaec6ef",
+          "size": 2051876,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-c768db8aa7.png",
+          "md5": "c768db8aa78972f3586053b1a351c476",
+          "size": 2343475,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-74cbd8b38b.png",
+          "md5": "74cbd8b38bfc0b6356c1f371ead30408",
+          "size": 1777994,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/de/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-5979d94b52.png",
+          "md5": "5979d94b52071c5acd8ec61491d316b3",
+          "size": 1939387,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e766cbada7.png",
+          "md5": "e766cbada7165a4102c3de0704d8e273",
+          "size": 2284834,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-aecac97ec0.png",
+          "md5": "aecac97ec0eaa1049602c57d217dc210",
+          "size": 2353742,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-e799f8ce35.png",
+          "md5": "e799f8ce35788c1fa011c0e03e5348a4",
+          "size": 2093623,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-606265612d.png",
+          "md5": "606265612d22c2f61c5cd3104950e076",
+          "size": 2442167,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-5bae5c913a.png",
+          "md5": "5bae5c913aeb99e9c9ced6b858ec8841",
+          "size": 2133082,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/el/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-6013681d64.png",
+          "md5": "6013681d64050f17d09126932778a074",
+          "size": 2210763,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-7b7bf9582e.png",
+          "md5": "7b7bf9582e3a31c65c9bc17024853b91",
+          "size": 1934817,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-17e62ccb20.png",
+          "md5": "17e62ccb20ea6796da70c9f6a88eec0e",
+          "size": 1807248,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-e1b280a627.png",
+          "md5": "e1b280a627bda8240f49e9c81c06a989",
+          "size": 1876040,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-25032eb4e6.png",
+          "md5": "25032eb4e63745a4f4c1f577406939be",
+          "size": 2011014,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-ccdb5d5a15.png",
+          "md5": "ccdb5d5a15a0f9a0b172f90d077b8e8e",
+          "size": 1766500,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/gu/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3acf97518c.png",
+          "md5": "3acf97518ca1c7533178a9a1fc4020ab",
+          "size": 2204271,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-76fcf4d881.png",
+          "md5": "76fcf4d8818f67343e7186514578a4a2",
+          "size": 1897232,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-33586ccb56.png",
+          "md5": "33586ccb569e3343516b04bf0a979119",
+          "size": 1746145,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-8793e09690.png",
+          "md5": "8793e09690c86101d3ba3e6e2b560d43",
+          "size": 1668815,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-a354e119d1.png",
+          "md5": "a354e119d17ce932b15c4b0f6483cfd6",
+          "size": 1940257,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-b88132d6f4.png",
+          "md5": "b88132d6f433877f474d1bb2d0657c3a",
+          "size": 1713675,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/he/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-1326123b47.png",
+          "md5": "1326123b47b7cf97a82ae5276538019a",
+          "size": 2178070,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-07fb97e103.png",
+          "md5": "07fb97e1030bbc85eedd75884446260c",
+          "size": 1918649,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-dff753104f.png",
+          "md5": "dff753104f661ffc5ceee70152d3441f",
+          "size": 1794212,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-4f4921549b.png",
+          "md5": "4f4921549b388635b624adcdec2cceed",
+          "size": 1855538,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-0951789756.png",
+          "md5": "0951789756a71ab0596d5e105704e283",
+          "size": 1999320,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-1f44099638.png",
+          "md5": "1f44099638ebf9d4d815a1d0856ab25b",
+          "size": 1740595,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hi/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-e4dd9405d6.png",
+          "md5": "e4dd9405d676281da1e62fa985f3378b",
+          "size": 1913979,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-b09e5e15d2.png",
+          "md5": "b09e5e15d2978bce11dfda76fe0c9969",
+          "size": 2280965,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-efc93baafc.png",
+          "md5": "efc93baafca275385cae3d9c70f45aad",
+          "size": 2344012,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-886050438a.png",
+          "md5": "886050438a8b52ad5c93c61f36ad4880",
+          "size": 1724808,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-b23cd347f2.png",
+          "md5": "b23cd347f2675a4df4c38e439d7099e0",
+          "size": 2426640,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-75a918d948.png",
+          "md5": "75a918d948f14e76f4b3212a37fe4121",
+          "size": 2134590,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/hu/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-4e8f48e728.png",
+          "md5": "4e8f48e728e5691fac2a9b7cb8dd8944",
+          "size": 1927931,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-dece1d27f6.png",
+          "md5": "dece1d27f6f0fd475e5550142897e397",
+          "size": 2187755,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-f01fdb5379.png",
+          "md5": "f01fdb5379e59b2882cf3fef840a4505",
+          "size": 2341333,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-84536b46e5.png",
+          "md5": "84536b46e59080bb7663bc9ff93102b1",
+          "size": 2002565,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-cd3eea1506.png",
+          "md5": "cd3eea150680bbbc11a9dcf5d995d6f7",
+          "size": 2033834,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-63c328459e.png",
+          "md5": "63c328459e3fae3b84665ddaa2b60833",
+          "size": 1780720,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/id/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-572a553f03.png",
+          "md5": "572a553f0320527ac23d856d98932999",
+          "size": 1947775,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-3654eaebab.png",
+          "md5": "3654eaebab21281d384fb00e7f3643b4",
+          "size": 1950479,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-8e3186c09a.png",
+          "md5": "8e3186c09a6cf34d1633c19ccbb4a3ca",
+          "size": 1811389,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-1db9d0230f.png",
+          "md5": "1db9d0230fca44df54f5b0d943a64b64",
+          "size": 1712079,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-a07f16f1a2.png",
+          "md5": "a07f16f1a2af36a2a9b2119d4ab9b703",
+          "size": 2015190,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-f6ef7532ee.png",
+          "md5": "f6ef7532eee0892eadfc76e0a96e25e8",
+          "size": 2089415,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/it/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-0c620686fb.png",
+          "md5": "0c620686fbeeaa4f83936fe6d1956cf3",
+          "size": 2219715,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9dae64d31b.png",
+          "md5": "9dae64d31b2045898800089beac8aa11",
+          "size": 1949987,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-86cce2af90.png",
+          "md5": "86cce2af90efa8d382548bccbb37a53c",
+          "size": 1810824,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-2f12f58173.png",
+          "md5": "2f12f58173e7e4fb7953f75b47128838",
+          "size": 1719001,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-1515cee175.png",
+          "md5": "1515cee175b5ac1a94f3ac7b39b336e7",
+          "size": 2019813,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-3d4bc5fc26.png",
+          "md5": "3d4bc5fc26cf162e7ea36779c9c4c1f5",
+          "size": 1773951,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ja/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-82bc267562.png",
+          "md5": "82bc267562feff4b1be3e9356202d245",
+          "size": 2318754,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-5c9e039dab.png",
+          "md5": "5c9e039dab143c68a63ed72cbdb1e907",
+          "size": 2244193,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-2138ad4958.png",
+          "md5": "2138ad495825b512552b489dbfe40ad8",
+          "size": 2369110,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-bab3054d61.png",
+          "md5": "bab3054d612a85a039f4a4b3757af9ec",
+          "size": 2160714,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-520e64694a.png",
+          "md5": "520e64694a46b5a829a2f0782fba9ee2",
+          "size": 2414710,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-332a63af90.png",
+          "md5": "332a63af9007d2eab71d399b31924891",
+          "size": 2139428,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/kn/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3719232d12.png",
+          "md5": "3719232d12387908359c949032de1ca5",
+          "size": 2300238,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-fd72ab937e.png",
+          "md5": "fd72ab937e3f2d856f93d606761c1b0c",
+          "size": 1913346,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-767601eb6d.png",
+          "md5": "767601eb6deaaa773060c9e5a04b254a",
+          "size": 1766376,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-c20f2e15ef.png",
+          "md5": "c20f2e15ef24162498eefdc9377f2bfb",
+          "size": 1686454,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-0354bee5c4.png",
+          "md5": "0354bee5c40d2db5e95009d2eeebcf2f",
+          "size": 1964752,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-9cce6c9955.png",
+          "md5": "9cce6c99554d22a3b0bc67416de422f1",
+          "size": 1733566,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ko/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-5411692568.png",
+          "md5": "541169256875b0999e6826d6edd20163",
+          "size": 1878657,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-cd9fa49182.png",
+          "md5": "cd9fa491827603dfb7fc81f1797fabe7",
+          "size": 2283490,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-daebb6559e.png",
+          "md5": "daebb6559e8eaa73ebf50680c85eb52f",
+          "size": 2270687,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-90e68e8b40.png",
+          "md5": "90e68e8b4072486131de964d535a480b",
+          "size": 2215994,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-3d3c86af82.png",
+          "md5": "3d3c86af82af2b252f9c48eb89e0d2b4",
+          "size": 2333452,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-7f82f43c64.png",
+          "md5": "7f82f43c643d12050fe0fcf3af3a882f",
+          "size": 2096918,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ms/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-dd4985cb85.png",
+          "md5": "dd4985cb85434153c97e877bc6bc1bdd",
+          "size": 1950872,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ml-IN",
+      "sourceLocale": "ml",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e04f2598c9.png",
+          "md5": "e04f2598c9b536b405fde3a15414e9ea",
+          "size": 2321662,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-b6ff44380b.png",
+          "md5": "b6ff44380b420d57cbb63c274ad4a0b0",
+          "size": 2415205,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-77526a4293.png",
+          "md5": "77526a4293fb21d308ad7111b7ae8363",
+          "size": 2310129,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-fac2eb231c.png",
+          "md5": "fac2eb231c714b49edf8288810efdb64",
+          "size": 2491499,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-14dd8afd9f.png",
+          "md5": "14dd8afd9fa9d3a0a3a05fa7989cf5d7",
+          "size": 2146710,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ml/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3697970cc1.png",
+          "md5": "3697970cc195810c66a226874fc3fe91",
+          "size": 2313103,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-f2b61a7a5f.png",
+          "md5": "f2b61a7a5fd89b1726bcbd3ae7af488e",
+          "size": 1904099,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-80560a15e6.png",
+          "md5": "80560a15e6506a88265ec715a289b94d",
+          "size": 2243129,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-deeb0e77d5.png",
+          "md5": "deeb0e77d56753b57b49cba2e9961822",
+          "size": 1857169,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-74ab71d89b.png",
+          "md5": "74ab71d89bee17d2034134e9447e49eb",
+          "size": 2327460,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-9b43e4f346.png",
+          "md5": "9b43e4f346db1297fefc6d1ae9f1be8c",
+          "size": 1740597,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/mr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-98f1cf51f2.png",
+          "md5": "98f1cf51f2c81ce55b8e5c4e61feac92",
+          "size": 1895614,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8a4fe3a479.png",
+          "md5": "8a4fe3a4792474b351db5d803555bf8e",
+          "size": 2230839,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-39f0dca718.png",
+          "md5": "39f0dca71862cb7774a771e2a70c05d8",
+          "size": 1819202,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-dfdc4575f5.png",
+          "md5": "dfdc4575f52d626c777ac1473d028bbe",
+          "size": 1719671,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-29ea984105.png",
+          "md5": "29ea9841059d98c95c1093551566b232",
+          "size": 2020385,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-ba3a658e40.png",
+          "md5": "ba3a658e406585156bd479b157d6544f",
+          "size": 2082673,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/nb/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-219691005d.png",
+          "md5": "219691005d5fb3cbf7488e0f1c7290a4",
+          "size": 2220739,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-b8a158d023.png",
+          "md5": "b8a158d0237e75a2b0933c60c698e251",
+          "size": 2291226,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-41836ee7a7.png",
+          "md5": "41836ee7a7d22150a5a4a7b88e0b5884",
+          "size": 2384504,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-61d84a1062.png",
+          "md5": "61d84a10620aa9f60386fad12fc2dfd9",
+          "size": 2182534,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-f05ab0235e.png",
+          "md5": "f05ab0235e9ee07f6d56572faab0714e",
+          "size": 2418580,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-00aa7f1e4e.png",
+          "md5": "00aa7f1e4e22eb23e4885667d961346d",
+          "size": 2114932,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/or/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-455283b97a.png",
+          "md5": "455283b97a5b96b28258db8f03636f3d",
+          "size": 2221168,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-6721f00d58.png",
+          "md5": "6721f00d58496deeb823cb9f44f520ed",
+          "size": 1968682,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-ab63eb6f9f.png",
+          "md5": "ab63eb6f9f79352e8c24ec0abd6f58be",
+          "size": 1815684,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-5e8e4de14c.png",
+          "md5": "5e8e4de14c61342a4ee563d424deed28",
+          "size": 2082653,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-4e1f90e952.png",
+          "md5": "4e1f90e9521f230298cdfa65a57b5b20",
+          "size": 2358661,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-cf4858e260.png",
+          "md5": "cf4858e260b5bb226bd59f30df5f11fe",
+          "size": 1783958,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pl/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-e8b448fbb9.png",
+          "md5": "e8b448fbb9746d42e64a44ba0272becf",
+          "size": 2231457,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-5b48e7b3de.png",
+          "md5": "5b48e7b3de1352faea21e9895213442d",
+          "size": 1946157,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-6679ee0267.png",
+          "md5": "6679ee0267398fe600cba27dc945a8fe",
+          "size": 2287230,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-b52e8c2a40.png",
+          "md5": "b52e8c2a40398ec16e377c72105c7523",
+          "size": 1732237,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-634c1f24f7.png",
+          "md5": "634c1f24f7afa79001cfd74c6f0fd2a2",
+          "size": 2011193,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-d5e73e4e06.png",
+          "md5": "d5e73e4e0675e1498e8afbb379c44229",
+          "size": 2100625,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-BR/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-c45c7e45db.png",
+          "md5": "c45c7e45db8cc4129a71156cebc11089",
+          "size": 1930799,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-fe66a467ea.png",
+          "md5": "fe66a467ea610d56309839bc0f127f94",
+          "size": 1953199,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a6f9d7b5b9.png",
+          "md5": "a6f9d7b5b9308c8a8d68b4f0d7cc7d97",
+          "size": 2287681,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ade7bc9c8f.png",
+          "md5": "ade7bc9c8ff3915aa9fdd6138d1a042a",
+          "size": 1726072,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-1f33d5353a.png",
+          "md5": "1f33d5353a04325de0a905b17dcc1fea",
+          "size": 2017724,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-a7cf72cb3d.png",
+          "md5": "a7cf72cb3d9d10c087fcc978328dbdd5",
+          "size": 1786412,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pt-PT/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-c15b138e28.png",
+          "md5": "c15b138e28930815608f1d1ff8fd11d6",
+          "size": 2206913,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-cedc865fe3.png",
+          "md5": "cedc865fe321d785f2dbd18d3cd2ba62",
+          "size": 2159423,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-cfa6987630.png",
+          "md5": "cfa69876302414747402ca86031dca78",
+          "size": 1790745,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-70cc899768.png",
+          "md5": "70cc8997689d798a4037b278f68f9e72",
+          "size": 1850462,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-dbc33be263.png",
+          "md5": "dbc33be2633f6733ad6a162f32f6bb94",
+          "size": 2009756,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-22a73c3da1.png",
+          "md5": "22a73c3da1dadef914b933d5a908752b",
+          "size": 1741416,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/pa/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-d0f46107cc.png",
+          "md5": "d0f46107cc8f87bc10fa56d660216a57",
+          "size": 2243240,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-f51dcaa41d.png",
+          "md5": "f51dcaa41d3ad5ab4718b630b9d0885d",
+          "size": 2219467,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a4b9ebf54e.png",
+          "md5": "a4b9ebf54e3f49f4c90c7cb8c28d50e7",
+          "size": 1804931,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-306361ab6c.png",
+          "md5": "306361ab6c6ede624f02ee1a465c8fb2",
+          "size": 1715369,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-11f82aaf1a.png",
+          "md5": "11f82aaf1a4eef40a34445091a746c7c",
+          "size": 2332963,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-b5e07386ba.png",
+          "md5": "b5e07386ba20e0418813672f1be487b8",
+          "size": 1763148,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ro/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-17608516d5.png",
+          "md5": "17608516d5d5144998af4d632f0da5e0",
+          "size": 1921612,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8881f2b38a.png",
+          "md5": "8881f2b38a2f897ec46b6c0310d64d9d",
+          "size": 2294083,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-2eff7fe509.png",
+          "md5": "2eff7fe509b24825883a43b675268247",
+          "size": 1808156,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-af4ae212e5.png",
+          "md5": "af4ae212e5f34609b09fa5185f45431e",
+          "size": 2082554,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-b2eecfe0e2.png",
+          "md5": "b2eecfe0e2902884386d1a186d53a2b0",
+          "size": 2333553,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-5372dcd9bc.png",
+          "md5": "5372dcd9bc20fc742c432876b370c367",
+          "size": 2076021,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ru/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-b50b1f521c.png",
+          "md5": "b50b1f521c2e5cb3926c0133827ab1b7",
+          "size": 2279738,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-b040887c4e.png",
+          "md5": "b040887c4e386f5fec97bcaaf265ebeb",
+          "size": 2203598,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-8d2d28f2e8.png",
+          "md5": "8d2d28f2e8900d0da6cb356d62dd12b9",
+          "size": 1809123,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6562e2cc5c.png",
+          "md5": "6562e2cc5c3fead102cc313ff86772ef",
+          "size": 2225352,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-16732fa297.png",
+          "md5": "16732fa297352eb7529f29563d7cf3ad",
+          "size": 2032617,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-39f9a0084f.png",
+          "md5": "39f9a0084f526ef498b8288116f01cfc",
+          "size": 2091683,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sk/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-83b2f7f21c.png",
+          "md5": "83b2f7f21cd6a48aad90a84dfc6aa6df",
+          "size": 1952511,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-1e2523cff1.png",
+          "md5": "1e2523cff1992e5b5c20abcf28e8a3ff",
+          "size": 2164065,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-fb4de190bf.png",
+          "md5": "fb4de190bfd44f80b56fa347f8caee39",
+          "size": 1798608,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6abd62924f.png",
+          "md5": "6abd62924fc05d3d9e647bf27319cd53",
+          "size": 1729123,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-9d31c90e5f.png",
+          "md5": "9d31c90e5f0de64cbd03a6225c2bd46c",
+          "size": 2006737,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-5ef95ad101.png",
+          "md5": "5ef95ad1016288de134e4e04dd090603",
+          "size": 2090337,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sl/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-0aa3fdc1db.png",
+          "md5": "0aa3fdc1dbb0f2806764bb1b106078c5",
+          "size": 1938574,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "es-MX",
+      "sourceLocale": "es-419",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e4b2fed444.png",
+          "md5": "e4b2fed444548572e1c7322e86988127",
+          "size": 2220695,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-c77463cdd3.png",
+          "md5": "c77463cdd33743a8278bf731b4f6f3b0",
+          "size": 2281199,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ef9f820c5e.png",
+          "md5": "ef9f820c5ec9468e60d6e2a89a63d1b3",
+          "size": 1729015,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-27527a4c50.png",
+          "md5": "27527a4c500d87f9f25fc338a90cb90c",
+          "size": 2025700,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-8f256dcb36.png",
+          "md5": "8f256dcb36aa90977c59bd766c4b3770",
+          "size": 2091260,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es-419/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-17ef98285e.png",
+          "md5": "17ef98285e0ac8ba698459537ae63c4a",
+          "size": 1942496,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9af92bf793.png",
+          "md5": "9af92bf7931117ba22b6555d40c7a16e",
+          "size": 2218888,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-35b90b4cfa.png",
+          "md5": "35b90b4cfa5d5899bc29febf49123453",
+          "size": 2281593,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-790f511efb.png",
+          "md5": "790f511efb8beeb96dd02cfb0ea69388",
+          "size": 1729316,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-7338079753.png",
+          "md5": "73380797530ed3a8205325a5b1e01a69",
+          "size": 2026810,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-0e0fdbb557.png",
+          "md5": "0e0fdbb55711969226421398b38ff391",
+          "size": 2091611,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/es/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-f0a6aa9765.png",
+          "md5": "f0a6aa9765cac48ce7bb86718cfd9f60",
+          "size": 1948039,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8e41d91ac6.png",
+          "md5": "8e41d91ac6a078790fa49b3d8b35185a",
+          "size": 1952065,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-2d993a5557.png",
+          "md5": "2d993a5557ed0cbcf451a077b120d1a6",
+          "size": 1816751,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-c50dd4bab7.png",
+          "md5": "c50dd4bab7f5bea140e80c698c050b90",
+          "size": 1716745,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-37f1366056.png",
+          "md5": "37f13660560af3cfc86c1d716af6ae6e",
+          "size": 2022074,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-9b464c543a.png",
+          "md5": "9b464c543af6a75cafa7a669fc45ec11",
+          "size": 1765009,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/sv/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-cd6baa2550.png",
+          "md5": "cd6baa2550de882db0e377a2ffdcd6b7",
+          "size": 1945895,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ta-IN",
+      "sourceLocale": "ta",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-b9f1352352.png",
+          "md5": "b9f1352352663a7733d04cb9446f8a43",
+          "size": 2197774,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-d4723f94ef.png",
+          "md5": "d4723f94efeaed3eca38554458b57048",
+          "size": 2350632,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-d48d930ab7.png",
+          "md5": "d48d930ab7e767497a310cbe7d592819",
+          "size": 2253236,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-f7544d8508.png",
+          "md5": "f7544d8508026a9e06dbbe2c802e5c9e",
+          "size": 2319485,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-2beed59a13.png",
+          "md5": "2beed59a13e48dd020dbf378780ebb09",
+          "size": 2098362,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ta/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-f7c1c7159a.png",
+          "md5": "f7c1c7159a749252194279c2f504c9b5",
+          "size": 2294872,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "te-IN",
+      "sourceLocale": "te",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-ecb3ca7c93.png",
+          "md5": "ecb3ca7c9324391341060727520c72be",
+          "size": 2260931,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a189589578.png",
+          "md5": "a189589578258ea5f7620d1b8f83701d",
+          "size": 2381884,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-7f6ec8b2e1.png",
+          "md5": "7f6ec8b2e14e42d184051ecb06462a19",
+          "size": 1890617,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-42139091c7.png",
+          "md5": "42139091c7d822387b9b350a4fdc7366",
+          "size": 2328160,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-ffcdde55e7.png",
+          "md5": "ffcdde55e76f78c9f10a3b20c4a3e873",
+          "size": 2088678,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/te/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-1ee7295d6f.png",
+          "md5": "1ee7295d6fdefeea8f1c93c1541fd40c",
+          "size": 1951951,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "th",
+      "sourceLocale": "th",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-c1c5b22ba8.png",
+          "md5": "c1c5b22ba86562525c38e6614099ba75",
+          "size": 1974955,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a4e71d8316.png",
+          "md5": "a4e71d8316c988fd1da9785324aef79e",
+          "size": 1849830,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-cbb384f937.png",
+          "md5": "cbb384f937c0da612bd3bfcb2feddd6e",
+          "size": 1897031,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-64f4c22caf.png",
+          "md5": "64f4c22cafb27edadd7fb89ca6d8299e",
+          "size": 2059726,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-034b99cd2a.png",
+          "md5": "034b99cd2aaec683d5f4ddd5625508ce",
+          "size": 1796550,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/th/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-80c1ffeb20.png",
+          "md5": "80c1ffeb20af0bbf1a923c06f5539f24",
+          "size": 1987942,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9f4ac1294d.png",
+          "md5": "9f4ac1294d93f0bebaeb691145c9cb86",
+          "size": 2199068,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-2c4e7d28ad.png",
+          "md5": "2c4e7d28adfced7ebff5f8253f5dab1a",
+          "size": 1788733,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-8bc73c028c.png",
+          "md5": "8bc73c028cb54bcf3687695bdcf65183",
+          "size": 1689676,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-689639c35e.png",
+          "md5": "689639c35ed89c099ab42e5deed6452b",
+          "size": 1995540,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-5f67c165b4.png",
+          "md5": "5f67c165b48c3d8f4acb209015aaaa50",
+          "size": 1756833,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/tr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-8630b7edcb.png",
+          "md5": "8630b7edcb839786b8675f6dfbd62d4c",
+          "size": 1904509,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-fe1b7455e7.png",
+          "md5": "fe1b7455e7b0ca9f64ba821b933e07b6",
+          "size": 2292937,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-4b0ac0d440.png",
+          "md5": "4b0ac0d440cee12255942e16f636ea60",
+          "size": 2326655,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ebbdaf8ea6.png",
+          "md5": "ebbdaf8ea62b4e25d8a2c1b24c80f967",
+          "size": 2221841,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-9e378d4c60.png",
+          "md5": "9e378d4c60432f44f3e59ab6a6c002e2",
+          "size": 2033225,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-dd83e58cf2.png",
+          "md5": "dd83e58cf2f91a6d1a19645b81446e14",
+          "size": 1768116,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/uk/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-1a81017c48.png",
+          "md5": "1a81017c48de6a61a1950c6486a6ab92",
+          "size": 1951015,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "ur-PK",
+      "sourceLocale": "ur",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a7b2fd0d7e.png",
+          "md5": "a7b2fd0d7eaba435c0b0c1d3dde91104",
+          "size": 2138533,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-e427c3fb5c.png",
+          "md5": "e427c3fb5c51fc4c8ef5cb76cc6cc3c4",
+          "size": 2356583,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-9ec90924bb.png",
+          "md5": "9ec90924bbf7543f24919a465c5b6b5a",
+          "size": 1851123,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-9e9d28957e.png",
+          "md5": "9e9d28957e1713287b849fed028c3030",
+          "size": 1963272,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-13e0873554.png",
+          "md5": "13e087355475cbb77e703766ee074287",
+          "size": 2038416,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/ur/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-a038946b8a.png",
+          "md5": "a038946b8a161764b772f13057c2674b",
+          "size": 1860486,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "appId": "6752888662",
+      "platform": "MAC_OS",
+      "version": "1.2.7",
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-c8ab3ac795.png",
+          "md5": "c8ab3ac79536137e308fea563a628bfc",
+          "size": 2217956,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-8f09c71368.png",
+          "md5": "8f09c713686a49289f9e51532076b55c",
+          "size": 1821932,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-271ddd8c4e.png",
+          "md5": "271ddd8c4ebfa35bacaf335d3b51cefd",
+          "size": 1896396,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-c6af8f8116.png",
+          "md5": "c6af8f81169df741945557ddfc176700",
+          "size": 2036953,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-0b1bd14395.png",
+          "md5": "0b1bd14395376f4e1e7a50df64be7521",
+          "size": 2129501,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/myrenewals-macos-1.2.7/exports/vi/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-aae3da84c2.png",
+          "md5": "aae3da84c2904a0a35ab25c4a6b3953d",
+          "size": 2211242,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    }
+  ],
+  "retained": [
+    "tumtum",
+    "soooon"
+  ],
+  "noAppleRecord": [
+    "hooray"
+  ]
+}
