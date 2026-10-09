@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-10-09T12:16:50.325Z",
+  "approval": "pending",
+  "dimensions": [
+    1320,
+    2868
+  ],
+  "file": "docs/marketing/october-2026/brainfold-import-pilot/exports/en-US/store-2-pilot.png",
+  "sha256": "ea085d708ac604db3089ae987d319e3b19d8ed43a623146615d24ad4538ef890",
+  "sources": {
+    "screen": {
+      "file": "../sources/brainfold/screen-2.png",
+      "sha256": "0fc55c1163dd582eedaa99a83b9b60181213c368ba87a5a7ff72ce96615dd283"
+    },
+    "hardware": {
+      "file": "../.frames-cache/iphone.png",
+      "sha256": "013eb36a7dd1944d96e2d60791bb01a8e5ad27718774c8c42306972ce7b4b1cb"
+    },
+    "photo": {
+      "file": "assets/scan-book-sticker-v1.png",
+      "sha256": "d1dd80763b7cc00dc84872677be127b7be1f095102e9e1f9a2f5f9448af0d49e"
+    }
+  },
+  "photoTreatment": "Original AI photo with ivory contour; SVG silhouette clipping removes peripheral ambient haze in the layout. Native screenshot/hardware untouched.",
+  "metrics": {
+    "copy": {
+      "x": 92,
+      "y": 340,
+      "width": 1136,
+      "height": 530.53125,
+      "top": 340,
+      "right": 1228,
+      "bottom": 870.53125,
+      "left": 92
+    },
+    "headline": {
+      "x": 92,
+      "y": 340,
+      "width": 1136,
+      "height": 301.03125,
+      "top": 340,
+      "right": 1228,
+      "bottom": 641.03125,
+      "left": 92
+    },
+    "description": {
+      "x": 92,
+      "y": 699.03125,
+      "width": 1136,
+      "height": 171.5,
+      "top": 699.03125,
+      "right": 1228,
+      "bottom": 870.53125,
+      "left": 92
+    },
+    "device": {
+      "x": 106,
+      "y": 943.125,
+      "width": 1108,
+      "height": 2261.21875,
+      "top": 943.125,
+      "right": 1214,
+      "bottom": 3204.34375,
+      "left": 106
+    },
+    "card": {
+      "x": 303.3786315917969,
+      "y": 1814.1715087890625,
+      "width": 957.24267578125,
+      "height": 1000.3133544921875,
+      "top": 1814.1715087890625,
+      "right": 1260.6213073730469,
+      "bottom": 2814.48486328125,
+      "left": 303.3786315917969
+    },
+    "photo": {
+      "x": -12,
+      "y": 1160,
+      "width": 980,
+      "height": 653.328125,
+      "top": 1160,
+      "right": 968,
+      "bottom": 1813.328125,
+      "left": -12
+    },
+    "pdf": {
+      "x": 979.5960083007812,
+      "y": 1364.8076171875,
+      "width": 280.80804443359375,
+      "height": 340.384765625,
+      "top": 1364.8076171875,
+      "right": 1260.404052734375,
+      "bottom": 1705.1923828125,
+      "left": 979.5960083007812
+    },
+    "fonts": {
+      "headline": 142,
+      "description": 64
+    },
+    "nativeSize": [
+      660,
+      1434
+    ],
+    "frame": {
+      "asset": "../.frames-cache/iphone.png",
+      "dimensions": [
+        1470,
+        3000
+      ],
+      "screen": [
+        75,
+        66,
+        1320,
+        2868
+      ]
+    },
+    "cutoutRect": [
+      30,
+      452,
+      630,
+      1081
+    ]
+  }
+}
