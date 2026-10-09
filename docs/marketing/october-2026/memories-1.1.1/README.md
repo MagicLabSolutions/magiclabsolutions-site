@@ -18,6 +18,12 @@ Readability checked at 390px (headlines 42px, descriptions 19.5px) and 320px (he
 
 The two task-owned simulator instances were removed after capture verification. Recreate them and update `capture-devices.json` to recapture. Retained native images and masters stay in the local directories listed in the manifests.
 
+## Completed App Store delivery — October 9, 2026
+
+Fresh App Store Connect read-back confirmed all 100 galleries (50 listing locales, iPhone and iPad) with six COMPLETE screenshots each: 600 total, including 200 appended images. The original 400 screenshot IDs, file checksums and first-four positions are preserved. Builds, metadata/keywords, previews, release settings and all three published versions are unchanged. Version 1.1.1 remains PREPARE_FOR_SUBMISSION; no App Review submission or binary release was performed.
+
+Delivery evidence is retained in `../app-store-connect/memories-1.1.1/delivery-status.json`, `delivered-galleries.json`, and the before/after snapshots. Masters stay frozen at the package-manifest hashes.
+
 ## Existing listing metadata (outside this image-only task)
 
 The initial 1.1.1 draft already lacks descriptions/support URLs in 12 listing locales (sl-SI, pa-IN, ur-PK, mr-IN, te-IN, gu-IN, kn-IN, ta-IN, ml-IN, en-CA, bn-BD, or-IN), and release notes in all 50 locales. Preserve those fields during screenshot delivery; fill them before a later App Review submission. Keywords remain unchanged.

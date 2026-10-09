@@ -1,0 +1,393 @@
+{
+  "checkedAt": "2026-10-09T15:02:05.431Z",
+  "appId": "6763877209",
+  "version": "1.1.1",
+  "galleries": 100,
+  "images": 600,
+  "preservedImages": 400,
+  "addedImages": 200,
+  "listingLocales": 50,
+  "deviceGalleryTypes": [
+    "APP_IPHONE_67",
+    "APP_IPAD_PRO_3GEN_129"
+  ],
+  "allStates": "COMPLETE",
+  "buildsPreviewsPublishedMetadataReleasePreserved": true,
+  "missingListingFields": [
+    {
+      "platform": "IOS",
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ar-SA",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "es-MX",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "zh-Hant",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "no",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "fr-FR",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "hu",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ko",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "de-DE",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "en-GB",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "fi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "hr",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "tr",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "en-US",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "fr-CA",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "pt-BR",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "vi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "th",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "it",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "hi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ms",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "da",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ro",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "pl",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "id",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ru",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "en-AU",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "cs",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "nl-NL",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ja",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "el",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "sk",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "he",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "pt-PT",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "uk",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "sv",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "es-ES",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "zh-Hans",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "ca",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "IOS",
+      "locale": "en-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    }
+  ],
+  "submittedForReview": false
+}

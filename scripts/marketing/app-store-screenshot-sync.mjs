@@ -44,6 +44,8 @@ const editable=new Set(['PREPARE_FOR_SUBMISSION','INVALID_BINARY','REJECTED','ME
 const state=v=>v.attributes.appVersionState??v.attributes.appStoreState;
 const argv=process.argv.slice(2),apply=argv.includes('--apply');
 const resumeVerified=argv.includes('--resume-verified');
+// A committed upload with the exact master checksum can continue processing on resume.
+const reuseUploaded=argv.includes('--reuse-uploaded');
 const selected=argv.find(a=>a.startsWith('--apps='))?.slice(7).split(',');
 const targetVersion=argv.find(a=>a.startsWith('--version='))?.slice(10);
 const mastersOption=argv.find(a=>a.startsWith('--masters-dir='))?.slice(14);
@@ -159,13 +161,13 @@ async function sync(task) {
  const sets=await localeSetReads.get(locId);let set=sets.find(s=>s.attributes.screenshotDisplayType===task.type),created=false;
  if(!set){set=(await api('/v1/appScreenshotSets','POST',{data:{type:'appScreenshotSets',attributes:{screenshotDisplayType:task.type},relationships:{appStoreVersionLocalization:{data:{type:'appStoreVersionLocalizations',id:locId}}}}})).data;created=true;sets.push(set);}
  let shots=created?[]:await all(`/v1/appScreenshotSets/${set.id}/appScreenshots?limit=200`);
- const kept=new Set(),order=task.files.map(f=>{const s=shots.find(s=>!kept.has(s.id)&&s.attributes.fileName===f.fileName&&s.attributes.sourceFileChecksum===f.md5&&s.attributes.assetDeliveryState?.state==='COMPLETE');if(s)kept.add(s.id);return s?.id||null;});
+ const kept=new Set(),order=task.files.map(f=>{const s=shots.find(s=>!kept.has(s.id)&&s.attributes.fileName===f.fileName&&s.attributes.sourceFileChecksum===f.md5&&(s.attributes.assetDeliveryState?.state==='COMPLETE'||(reuseUploaded&&s.attributes.assetDeliveryState?.state==='UPLOAD_COMPLETE')));if(s)kept.add(s.id);return s?.id||null;});
  const extra=shots.filter(s=>!kept.has(s.id));
  if(extra.length){await backup(set,shots,task);for(const s of extra)await removeScreenshot(s.id);}
  const missing=task.files.map((f,i)=>({f,i})).filter(({i})=>!order[i]);let uploadCursor=0;
  await Promise.all(Array.from({length:Math.min(3,missing.length)},async()=>{while(uploadCursor<missing.length){const {f,i}=missing[uploadCursor++];order[i]=await upload(set,f);}}));
  // Process the gallery as a batch: avoid busy polling each image while others wait.
- if(missing.length) {
+ if(missing.length||shots.some(s=>kept.has(s.id)&&s.attributes.assetDeliveryState?.state!=='COMPLETE')) {
   await pause(8000);let complete=false;
   for(let i=0;i<60;i++) {
    const processing=await all(`/v1/appScreenshotSets/${set.id}/appScreenshots?limit=200`);
