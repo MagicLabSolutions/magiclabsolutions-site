@@ -1,0 +1,1285 @@
+{
+  "finishedAt": "2026-10-09T02:17:25.412Z",
+  "versions": [
+    {
+      "slug": "zuzu",
+      "appId": "6757988505",
+      "platform": "IOS",
+      "currentId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "version": "2.8.0",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_IPHONE_67",
+      "setId": "fdf7b711-1def-434b-a67e-59e5c5c9d74b",
+      "verifiedAt": "2026-10-09T02:10:49.136Z",
+      "screenshots": [
+        {
+          "id": "a7800019-2ceb-8899-8025-711393e057ce",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/store-1.png",
+          "md5": "52be9b565cef668a05e4b8e6a78552f7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a3400019-2ceb-8899-8033-acb542355b6a",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/store-2.png",
+          "md5": "0242884fb1c219aa0b945f6bea185845",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76800019-2ceb-8899-8021-30345bcc40bf",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/store-3.png",
+          "md5": "f9ee9d1350215cf5e8c3ac3f9d1bea0a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2c00019-2ceb-8899-8031-0e675c15b1ca",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/store-4.png",
+          "md5": "22b4220fabf2b9b2db604c55b98ec931",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "16400019-2ceb-8899-8020-25f63d142840",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/store-5.png",
+          "md5": "1798b00aae326e0e3c59799981f6b004",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75000019-2ceb-8899-803e-08f8c21596c7",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/store-6.png",
+          "md5": "03aa1e0a8cdaa332058a383f118136e4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPHONE_67",
+      "setId": "c1c71b88-b132-48ee-b58e-af73540e30b8",
+      "verifiedAt": "2026-10-09T02:11:00.861Z",
+      "screenshots": [
+        {
+          "id": "75c00019-2ceb-8899-8028-177fef55070e",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/store-1.png",
+          "md5": "e41e7507d16b3c8bcf91358270c38fe3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09400019-2ceb-8899-8033-ec505fe96942",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/store-2.png",
+          "md5": "a1621bc5cbcae7e41d6ff45625ec2e7d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "adc00019-2ceb-8899-8016-4727d9c17969",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/store-3.png",
+          "md5": "253ed3f30b144256a6d8741a225fcc66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4cc00019-2ceb-8899-8014-564960eb9d6e",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/store-4.png",
+          "md5": "82c363e9b6ebaf9d7b4b7d907db42d9a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "40c00019-2ceb-8899-800c-2fa83f94bee7",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/store-5.png",
+          "md5": "ec8a2202474a3d912f992d58ac1933bf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "33400019-2ceb-8899-8039-2b1d242e89de",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/store-6.png",
+          "md5": "9a8fb1fa51f0d33f52610909ca9bb806",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "c01fc71e-cbce-40c9-89a6-e61dabde05cc",
+      "verifiedAt": "2026-10-09T02:11:05.527Z",
+      "screenshots": [
+        {
+          "id": "27c00019-2ceb-8899-8019-47dc47455606",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/ipad-store-1.png",
+          "md5": "eba98d818878ca39a547721fdeff343f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69400019-2ceb-8899-8031-ab88aaaab46b",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/ipad-store-2.png",
+          "md5": "6695fef4d8c8b513de9e63011afd8172",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "93400019-2ceb-8899-8005-a906e381cf35",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/ipad-store-3.png",
+          "md5": "b0d6165eabd924c709cea08346c0cf63",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "42400019-2ceb-8899-8039-90d11212f2cc",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/ipad-store-4.png",
+          "md5": "0a4752da42a1805b4cc2b7e546b92d22",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac400019-2ceb-8899-8038-6e914b541835",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/ipad-store-5.png",
+          "md5": "034fd691096249107291459adab433c6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d1c00019-2ceb-8899-8034-e2d758624b09",
+          "file": "docs/marketing/october-2026/localized/exports/ar/zuzu/ipad-store-6.png",
+          "md5": "72813894a3b4c4327b04b16d8af9684a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "ca0ecba9-339a-4dd2-8fa1-164a0ffb338b",
+      "verifiedAt": "2026-10-09T02:11:14.177Z",
+      "screenshots": [
+        {
+          "id": "96800019-2ceb-8899-8028-38393976ca7c",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/ipad-store-1.png",
+          "md5": "2570605b5113b14c970ba2ff641479bf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e2000019-2ceb-8899-801a-944f1cb9e108",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/ipad-store-2.png",
+          "md5": "f0eeb3aa5e62a7fb1cc20b5946082675",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8800019-2ceb-8899-8039-a5869cd3e61f",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/ipad-store-3.png",
+          "md5": "623dcb2d0f4b4434a5b3b5277c0f70c0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "53400019-2ceb-8899-8027-e8ca21a6831f",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/ipad-store-4.png",
+          "md5": "2efaaaf29fa1c710c1137fef444816f9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fec00019-2ceb-8899-8025-be2e1bb74429",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/ipad-store-5.png",
+          "md5": "d5d11c27804c79075965d0fd4c3768cf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cb400019-2ceb-8899-8031-3ae97e107392",
+          "file": "docs/marketing/october-2026/localized/exports/bn/zuzu/ipad-store-6.png",
+          "md5": "33d49f950cf44b7964a5a182682c903a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_IPHONE_67",
+      "setId": "58ab1d57-8d6d-4018-adec-c44914af25ef",
+      "verifiedAt": "2026-10-09T02:11:34.203Z",
+      "screenshots": [
+        {
+          "id": "e2400019-2ceb-8899-8000-562c5d778f98",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/store-1.png",
+          "md5": "5e68824507e49b3fd57a1e1d257cfeae",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7c000019-2ceb-8899-8001-d770f8ddd773",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/store-2.png",
+          "md5": "10668e69f7f423070a1aff20fd8ba294",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b3800019-2ceb-8899-800f-fd9a2a5d478f",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/store-3.png",
+          "md5": "d218fcf14d3fb4f8676a5a870f377d81",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "53800019-2ceb-8899-8015-cc60f2c72d1e",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/store-4.png",
+          "md5": "3fe171e319aec6ae95a8db90cbd532e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9cc00019-2ceb-8899-8025-51d601ae845d",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/store-5.png",
+          "md5": "118427b466caebc728c9e3ccd85985dd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "df800019-2ceb-8899-802c-54da788040a4",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/store-6.png",
+          "md5": "2a989ef4110c075051c6ab7d42d16fb6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "36cfd848-95ba-4c87-b3db-1a9a0a6ae6fd",
+      "verifiedAt": "2026-10-09T02:11:44.424Z",
+      "screenshots": [
+        {
+          "id": "1bc00019-2ceb-8899-800c-fc10f686a626",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/ipad-store-1.png",
+          "md5": "10fd7a8c7084d59b35cb0060f1ebc8cf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "33000019-2ceb-8899-8028-614f367e7146",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/ipad-store-2.png",
+          "md5": "5f281a61fd7eda364910d5f7997bcaea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f5400019-2ceb-8899-8029-35b00f386b81",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/ipad-store-3.png",
+          "md5": "5df2700c1094635071dffb9090a9a216",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eec00019-2ceb-8899-8008-2473f5e9744f",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/ipad-store-4.png",
+          "md5": "b5171c9c30c67996e080bb6bc41700b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5a000019-2ceb-8899-8004-dc0417c8208d",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/ipad-store-5.png",
+          "md5": "dc84b545a727a33f6ff4440e0f03ba42",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3d400019-2ceb-8899-8011-91f18297d3e6",
+          "file": "docs/marketing/october-2026/localized/exports/ca/zuzu/ipad-store-6.png",
+          "md5": "0f445e8ba3eb9fbe489fb0ec7c8c9232",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_IPHONE_67",
+      "setId": "76c5b1a6-a45e-4893-bb8e-9beb618431fa",
+      "verifiedAt": "2026-10-09T02:11:56.964Z",
+      "screenshots": [
+        {
+          "id": "b5800019-2ceb-8899-8013-16e100a56026",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/store-1.png",
+          "md5": "9385ae810232d3ca1c1a14622ffc5bf7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60c00019-2ceb-8899-800f-692fd0a443fa",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/store-2.png",
+          "md5": "e493381e8dcff7721387a9ab752a7ced",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59800019-2ceb-8899-8036-883ec8c9c0a4",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/store-3.png",
+          "md5": "e513310c778d91a6fe64c18e2caac080",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "77c00019-2ceb-8899-800d-323d0bfc9974",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/store-4.png",
+          "md5": "802e4346bcaf8e1570510b1ea037db38",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "31400019-2ceb-8899-802f-ff849c94f0d1",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/store-5.png",
+          "md5": "e3cdf6409e4aa1aaa4b232979f069453",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a7800019-2ceb-8899-8003-549466428453",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/store-6.png",
+          "md5": "a8de885fe03ed189f3892023e060ae35",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "21915000-9291-4fda-b7f0-32cef5cdf550",
+      "verifiedAt": "2026-10-09T02:12:12.523Z",
+      "screenshots": [
+        {
+          "id": "45800019-2ceb-8899-8005-c8873a4f696e",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/ipad-store-1.png",
+          "md5": "d09d24504d9b36ad4393bbb81c83f092",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3d400019-2ceb-8899-8027-0d05b5cb1460",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/ipad-store-2.png",
+          "md5": "8cc0a52ecc0f5d59a2c9791d91090799",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0c00019-2ceb-8899-8032-5943a1cdf3ca",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/ipad-store-3.png",
+          "md5": "fb31a22399139bb27bbf7028ce234ebe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c0000019-2ceb-8899-802f-5ebabfbdb17e",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/ipad-store-4.png",
+          "md5": "574d24a39efb7d7ecebd5b08688bf020",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "41800019-2ceb-8899-802d-fb298b4e2b29",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/ipad-store-5.png",
+          "md5": "0fdd58f79e259c378d83f39672f2f5ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "56800019-2ceb-8899-800d-15d13dd6a45f",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hans/zuzu/ipad-store-6.png",
+          "md5": "64608d74a6ec31832af9d2b35a5d8c83",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_IPHONE_67",
+      "setId": "b6ccc2be-0734-4329-8643-d41cb5f2c6eb",
+      "verifiedAt": "2026-10-09T02:12:24.165Z",
+      "screenshots": [
+        {
+          "id": "9bc00019-2ceb-8899-802d-06a22d135903",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/store-1.png",
+          "md5": "c78affb48a9dd4e901acbb706967bb98",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "55400019-2ceb-8899-8027-61156affdf7f",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/store-2.png",
+          "md5": "9389f2f886d4de24bed5109b2939ef7f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8dc00019-2ceb-8899-8020-b077703554c3",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/store-3.png",
+          "md5": "e98ffce89b561d3f5277bc16fb4aacb6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51000019-2ceb-8899-8020-2b424ff429bb",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/store-4.png",
+          "md5": "856eeecef7df6ed378f12f1eee4b22b2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1e400019-2ceb-8899-8018-5d57b198b7c9",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/store-5.png",
+          "md5": "e8e9c580ba534e0173ceb9fad78a71c6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17000019-2ceb-8899-8021-99f79c954e62",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/store-6.png",
+          "md5": "e0c030604a153ab7bbb1f4e8b1a81c5a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "5c68adb7-f280-44e9-b921-84a0698b55c0",
+      "verifiedAt": "2026-10-09T02:12:37.289Z",
+      "screenshots": [
+        {
+          "id": "a7c00019-2ceb-8899-800f-fcff582695d4",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/ipad-store-1.png",
+          "md5": "06a1d5e44b5596a2933f685ad7f55817",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5f400019-2ceb-8899-8019-124492f207ef",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/ipad-store-2.png",
+          "md5": "bd52a014696bc27ceba2f03aae7db0ea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39400019-2ceb-8899-8009-29fe0f114d1c",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/ipad-store-3.png",
+          "md5": "d4dda438cd23b007d0d8a5f076f7d97d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d400019-2ceb-8899-800b-4204befdc5aa",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/ipad-store-4.png",
+          "md5": "d09a4bdd278774a04cd87437ecf3317d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1c000019-2ceb-8899-8001-5164b4303739",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/ipad-store-5.png",
+          "md5": "77f0336ed5abd1bff43ef2252b731f52",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7e400019-2ceb-8899-8029-11d209377a8f",
+          "file": "docs/marketing/october-2026/localized/exports/zh-Hant/zuzu/ipad-store-6.png",
+          "md5": "173e0d3045540cca581f823d7e6a8e15",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_IPHONE_67",
+      "setId": "289f38dd-82fc-41ed-b4e2-95e69c0ca83f",
+      "verifiedAt": "2026-10-09T02:12:46.193Z",
+      "screenshots": [
+        {
+          "id": "cfc00019-2ceb-8899-800c-7d3a63a8ec69",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/store-1.png",
+          "md5": "df67ac9df49e4ee7895bf1d71bf61df0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7b800019-2ceb-8899-8025-525f0316f586",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/store-2.png",
+          "md5": "4818f97ccf35ceb200f4cd238377791a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20000019-2ceb-8899-8012-2bd5026326c9",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/store-3.png",
+          "md5": "9add6cc5980e7eb1bf52a8d65dba151e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "12400019-2ceb-8899-8037-8c4ab5997691",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/store-4.png",
+          "md5": "a391d9bc121117659d0106e7ec54dc3e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35400019-2ceb-8899-801a-a7cdda832673",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/store-5.png",
+          "md5": "2ab18e310ae50317de1de7435218178e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ca400019-2ceb-8899-8009-410c1c36a26b",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/store-6.png",
+          "md5": "c42d920d5f1ad89413e7d006aeb2fcf3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "13683d30-8b06-4059-b16b-a8931ec1fbc2",
+      "verifiedAt": "2026-10-09T02:13:05.310Z",
+      "screenshots": [
+        {
+          "id": "02000019-2ceb-8899-803f-d7edc0c421ad",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/ipad-store-1.png",
+          "md5": "f543793e8fabb831b8237b54f30692c1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80000019-2ceb-8899-8032-d5d24fb72bbb",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/ipad-store-2.png",
+          "md5": "d27a879f9ba7dbdc37e51f4f99605626",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5e000019-2ceb-8899-802a-38f964f9a6eb",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/ipad-store-3.png",
+          "md5": "22fd2647ee975f6600d9aa75fe3ee030",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38000019-2ceb-8899-8037-2a1341771aa6",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/ipad-store-4.png",
+          "md5": "b53cd80cae382896b6723276fd49571b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b2000019-2ceb-8899-8000-4b14d1abc35e",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/ipad-store-5.png",
+          "md5": "67a46092af0612ec4f091a84a95e8c9d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2e000019-2ceb-8899-8033-62a904df97db",
+          "file": "docs/marketing/october-2026/localized/exports/hr/zuzu/ipad-store-6.png",
+          "md5": "db0de3491e70799d7060427015eca88b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_IPHONE_67",
+      "setId": "81494f62-4eb3-47b3-9394-c8855c3da409",
+      "verifiedAt": "2026-10-09T02:13:16.432Z",
+      "screenshots": [
+        {
+          "id": "71c00019-2ceb-8899-8024-c6057d7287a5",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/store-1.png",
+          "md5": "4a629f75c90d203cc9bb84da28c93135",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "56000019-2ceb-8899-802c-1c94632eadea",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/store-2.png",
+          "md5": "09de4db5a10f3e73a634daf79fbbb066",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7ac00019-2ceb-8899-8016-ae05b2b33a1b",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/store-3.png",
+          "md5": "bf64ae5b618df836442c94799b565174",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1b400019-2ceb-8899-802e-c91bb317cead",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/store-4.png",
+          "md5": "fbfd004c260c17eef6693070198641e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70c00019-2ceb-8899-8019-4b4127d83098",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/store-5.png",
+          "md5": "923ead59903b6f3a01121ff5b94e45e9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76c00019-2ceb-8899-8017-91a196557642",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/store-6.png",
+          "md5": "6a2ff4abdf64a446b4e224c7baa64490",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "4a465033-c820-4e66-87b0-8cd85c865751",
+      "verifiedAt": "2026-10-09T02:13:30.990Z",
+      "screenshots": [
+        {
+          "id": "06400019-2ceb-8899-8032-3a1e74428506",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/ipad-store-1.png",
+          "md5": "ee227df4634c1466cc4d718117ba0f99",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ee800019-2ceb-8899-800e-27d38956e69d",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/ipad-store-2.png",
+          "md5": "8f67e46150c0a9d8334860f21cf454da",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1c400019-2ceb-8899-8031-177c826b8c35",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/ipad-store-3.png",
+          "md5": "c863557233ff4d19540160c19458fd28",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9b800019-2ceb-8899-8012-9c458b9f18e2",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/ipad-store-4.png",
+          "md5": "950a331bd98c2ffcf7411004a7a2af29",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "08c00019-2ceb-8899-802a-372ad280f848",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/ipad-store-5.png",
+          "md5": "fe235a3b5362551a69db0aecf4337108",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "89800019-2ceb-8899-802a-7d147b9584bd",
+          "file": "docs/marketing/october-2026/localized/exports/cs/zuzu/ipad-store-6.png",
+          "md5": "aedf743b9cbd8c7375aa6fb845626187",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_IPHONE_67",
+      "setId": "29023bd4-2841-40bc-bd34-7b4ec9cd6fa0",
+      "verifiedAt": "2026-10-09T02:13:45.064Z",
+      "screenshots": [
+        {
+          "id": "55400019-2ceb-8899-803a-11bd2cb87d3d",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/store-1.png",
+          "md5": "e043658639af3cfcc42e184aa637a3da",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3c400019-2ceb-8899-801b-3fd935c76799",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/store-2.png",
+          "md5": "1e38dfe4c99e7514281abeb784b63a94",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "61800019-2ceb-8899-803d-9200136fffab",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/store-3.png",
+          "md5": "2916d604faf7fc636840cfae04ba028a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fd000019-2ceb-8899-801c-b712e8b7f60f",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/store-4.png",
+          "md5": "2a919491787378258a1c108267cb4e0b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dec00019-2ceb-8899-8010-493bb0bcffda",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/store-5.png",
+          "md5": "f4553ab644d6d5d69da13ea429766d85",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f4400019-2ceb-8899-8016-a508d15c3171",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/store-6.png",
+          "md5": "2a27c21fb8879abf2267124ae8f45a99",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "8997bff8-9d6c-4cdd-8791-ccc5dd1ab12e",
+      "verifiedAt": "2026-10-09T02:13:58.146Z",
+      "screenshots": [
+        {
+          "id": "c5000019-2ceb-8899-8033-bfed5f493e8a",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/ipad-store-1.png",
+          "md5": "b575c0244596afbb4ca4f8c2bb2e3525",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ea400019-2ceb-8899-8023-eeca8fe3a602",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/ipad-store-2.png",
+          "md5": "fade301f1dd7c3f53fddad796ef06fe8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e5000019-2ceb-8899-803d-f1b60d2a6277",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/ipad-store-3.png",
+          "md5": "e40c85557db8878afd22b55918a00f73",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97c00019-2ceb-8899-8009-8da2a60e7005",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/ipad-store-4.png",
+          "md5": "29ae9b7fb45e6d3cd878412173b22b4d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "32000019-2ceb-8899-803f-c2f99d770260",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/ipad-store-5.png",
+          "md5": "ccb19851eac16a20a21e09701f868811",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c4c00019-2ceb-8899-801c-57d7a7b169f0",
+          "file": "docs/marketing/october-2026/localized/exports/da/zuzu/ipad-store-6.png",
+          "md5": "bc7ec8f0454c2483e873fdaf96e49a64",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_IPHONE_67",
+      "setId": "527bcfc3-8387-427d-a929-115ae2e01139",
+      "verifiedAt": "2026-10-09T02:14:07.787Z",
+      "screenshots": [
+        {
+          "id": "ff400019-2ceb-8899-8012-11ac87474890",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/store-1.png",
+          "md5": "7d6a563c0d1a47a0c74f80ba2b830194",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "22800019-2ceb-8899-8033-3567d3e907bf",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/store-2.png",
+          "md5": "f58502ed5f20f0a55f837a0dbb5bce31",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9a800019-2ceb-8899-8026-856ed6d8ce59",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/store-3.png",
+          "md5": "4db7304826d35cbbcddc51ad16393fe9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8c00019-2ceb-8899-8010-c506201c430d",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/store-4.png",
+          "md5": "41e3cc6f74b8a089b2ccd8e88cc0b7b2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "79400019-2ceb-8899-802d-3759f1422717",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/store-5.png",
+          "md5": "a3fcd5b64f22eed0dab038262103fabd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bd000019-2ceb-8899-8021-df81751c7011",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/store-6.png",
+          "md5": "4df2c74dc927f5ba822965c2a75970fe",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "aa014e4f-1bcc-4999-af13-82d0c3c26f3a",
+      "verifiedAt": "2026-10-09T02:14:26.962Z",
+      "screenshots": [
+        {
+          "id": "9c400019-2ceb-8899-8015-4679c4f44bbc",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/ipad-store-1.png",
+          "md5": "33bfa2a3bf47854b71325399ba0809f6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "61400019-2ceb-8899-803c-793295de1454",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/ipad-store-2.png",
+          "md5": "2d50dfac75c04031467900b6ae59d1aa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e6400019-2ceb-8899-8013-5accc80c2ef9",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/ipad-store-3.png",
+          "md5": "adfc2f9dafaf8ff684aa2b0e627152ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8400019-2ceb-8899-8011-55e0c5b9df32",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/ipad-store-4.png",
+          "md5": "c7c4da91ba9642c18928600df602f13d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b3400019-2ceb-8899-800d-62dab15a20eb",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/ipad-store-5.png",
+          "md5": "9006e8515d11316b641afa7c1f232842",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9400019-2ceb-8899-8032-941c27d7fda7",
+          "file": "docs/marketing/october-2026/localized/exports/nl/zuzu/ipad-store-6.png",
+          "md5": "09fdc778fed6b8f4ed9908588ca69f7b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_IPHONE_67",
+      "setId": "075275d1-69f1-48e9-a139-cddfc9cb6096",
+      "verifiedAt": "2026-10-09T02:14:47.325Z",
+      "screenshots": [
+        {
+          "id": "05400019-2ceb-8899-8010-e61d78128b68",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/store-1.png",
+          "md5": "64d3f6fef57f2a09c8c0557404d63329",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e3400019-2ceb-8899-8023-d6ed2753b192",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/store-2.png",
+          "md5": "b8c1319ded52213f23869fc8a2311598",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0e400019-2ceb-8899-8021-24e98f084eaa",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/store-3.png",
+          "md5": "6599039504f74271eb4aaf266c4c01ff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "06c00019-2ceb-8899-802d-cde747ebf4a0",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/store-4.png",
+          "md5": "82d4d0e0c50390ac97fca2858e0d306d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "df000019-2ceb-8899-8039-4bf882b08d52",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/store-5.png",
+          "md5": "88555963ac7e1532ab031623ad5898f9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "32c00019-2ceb-8899-8016-7c33b9a91b87",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/store-6.png",
+          "md5": "c02388fa69e30a39c2344962aca26c11",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "b052e384-8af4-4ad0-a37f-25a0b6f1a1bb",
+      "verifiedAt": "2026-10-09T02:15:00.494Z",
+      "screenshots": [
+        {
+          "id": "7f800019-2ceb-8899-801a-fbda0a3d19d5",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/ipad-store-1.png",
+          "md5": "9024f99ae6988fc9e87ab70730e471d2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "03400019-2ceb-8899-8011-92d429c026a9",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/ipad-store-2.png",
+          "md5": "96b8653098680560633783fcb9f3354f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "12000019-2ceb-8899-800b-3931e4fb9876",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/ipad-store-3.png",
+          "md5": "c2d7dc94e20778da28085ba0a73486b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7c00019-2ceb-8899-802e-5f97f475c49b",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/ipad-store-4.png",
+          "md5": "1b3a409386495be94f5fe8a88fc2560d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7c400019-2ceb-8899-8007-a0840a3c336b",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/ipad-store-5.png",
+          "md5": "2a5c8804ea0b19b7806aa86e79067471",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0c400019-2ceb-8899-8037-e2512f440ac8",
+          "file": "docs/marketing/october-2026/localized/exports/en-AU/zuzu/ipad-store-6.png",
+          "md5": "4c77f5be230f66babea04d15b2cbb609",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_IPHONE_67",
+      "setId": "c4c299dc-9bc5-49c0-8e78-c4a82115cf90",
+      "verifiedAt": "2026-10-09T02:15:00.506Z",
+      "screenshots": [
+        {
+          "id": "12c00019-2ceb-8899-8039-b6ec4c4294b0",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-1.png",
+          "md5": "d6c35c13bd3dc62273cdb6c918037ee8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63000019-2ceb-8899-800b-5faf633615a5",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-2.png",
+          "md5": "3eef39b901581c9ef5f1b3ad5eade215",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cd000019-2ceb-8899-8033-1b77bb184aa8",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-3.png",
+          "md5": "7c2cd4ae61f21733a959ca1464726924",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5d800019-2ceb-8899-8025-47483aeef213",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-4.png",
+          "md5": "470c0debd78deb556302e9feeff595dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28000019-2ceb-8899-8008-9e661de433de",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-5.png",
+          "md5": "202b5215ce8b05132cc060d53327962d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1000019-2ceb-8899-8012-cab55944ebea",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-6.png",
+          "md5": "984f0d221b032de27d2c08f929f30024",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "70db4789-3e8f-466b-88a7-e3fa2d5af035",
+      "verifiedAt": "2026-10-09T02:15:10.544Z",
+      "screenshots": [
+        {
+          "id": "cd400019-2ceb-8899-8029-7c961ec40ff9",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/ipad-store-1.png",
+          "md5": "ac0b21d43bea1316e731cd4151e96a8c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8fc00019-2ceb-8899-802a-60f27f187356",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/ipad-store-2.png",
+          "md5": "8945477100c7019788f7230f47422231",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3ec00019-2ceb-8899-802d-964937157e50",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/ipad-store-3.png",
+          "md5": "de0c5d7095b0f61ae7d9b2efb03cb93d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "13800019-2ceb-8899-8015-13cc6556b0de",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/ipad-store-4.png",
+          "md5": "7c1914aeb97a19ffee9cbe9caff07f98",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d6000019-2ceb-8899-8020-b0ca43c11fde",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/ipad-store-5.png",
+          "md5": "6fb2f6b61dc58f42cb2892aab2de74d0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "32000019-2ceb-8899-8013-caae4e89372e",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/ipad-store-6.png",
+          "md5": "b842f5c07405ce1e1d79ba9e72e424f0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_IPHONE_67",
+      "setId": "47c3c144-e6a8-493b-9c33-24ac094ec89f",
+      "verifiedAt": "2026-10-09T02:15:45.318Z",
+      "screenshots": [
+        {
+          "id": "b4000019-2ceb-8899-8012-73ab14c99e85",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/store-1.png",
+          "md5": "f1c821d27049d6cff99310b23370899b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82000019-2ceb-8899-8013-feb656f5f38d",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/store-2.png",
+          "md5": "6e80da12aec3c4247dfdbecff68e0378",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "57800019-2ceb-8899-802e-64477a74ee30",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/store-3.png",
+          "md5": "be2e9f8f51c80f2981aa77b930d49bc6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c4000019-2ceb-8899-800e-d2cbf0b1b023",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/store-4.png",
+          "md5": "ea54dbda9ab194072ec3b5bc7aaa573a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "19c00019-2ceb-8899-8016-c8b3978a30e5",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/store-5.png",
+          "md5": "b4cf72995e78a418d35cca9daeed4de8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60400019-2ceb-8899-8033-e471a31a9aec",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/store-6.png",
+          "md5": "a4e2ad08554696eb91dc3f428935dfe0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "edb0aa9e-d08a-40a0-a97a-83e74009c8cd",
+      "verifiedAt": "2026-10-09T02:15:49.852Z",
+      "screenshots": [
+        {
+          "id": "9a400019-2ceb-8899-8007-26196409d766",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/ipad-store-1.png",
+          "md5": "a3e48e48976c55ec9f14627820d91ca2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9c400019-2ceb-8899-8021-95be8fd008c5",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/ipad-store-2.png",
+          "md5": "9bcb258eb5cce69587237aa962876b18",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9ec00019-2ceb-8899-8036-bc3b558c9a9a",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/ipad-store-3.png",
+          "md5": "3c3d880811e365b7e0d0d29dc770eb1a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83400019-2ceb-8899-8010-50bd4e15d9aa",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/ipad-store-4.png",
+          "md5": "fcc9635980daebdbcd90a616e7812d72",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fc800019-2ceb-8899-8008-18c549e48ed5",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/ipad-store-5.png",
+          "md5": "0ae50ca5c8f1e14c62822fd1f50a638f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c4400019-2ceb-8899-802c-fc39d781cfd6",
+          "file": "docs/marketing/october-2026/localized/exports/en-GB/zuzu/ipad-store-6.png",
+          "md5": "6357a2f4b3b6dc0117e4ae035a5c66f6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_IPHONE_67",
+      "setId": "55f06027-4d85-4b4d-9142-9697928664ef",
+      "verifiedAt": "2026-10-09T02:15:58.529Z",
+      "screenshots": [
+        {
+          "id": "e6400019-2ceb-8899-8017-3fd32b78352c",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-1.png",
+          "md5": "d6c35c13bd3dc62273cdb6c918037ee8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4b400019-2ceb-8899-8026-1f1913797670",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-2.png",
+          "md5": "3eef39b901581c9ef5f1b3ad5eade215",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5000019-2ceb-8899-8024-259c2c7eb471",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-3.png",
+          "md5": "7c2cd4ae61f21733a959ca1464726924",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fcc00019-2ceb-8899-8024-67a3ca3223be",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-4.png",
+          "md5": "470c0debd78deb556302e9feeff595dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3d000019-2ceb-8899-801d-b4097f8dc4d3",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-5.png",
+          "md5": "202b5215ce8b05132cc060d53327962d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7a000019-2ceb-8899-8003-7e4906c57f90",
+          "file": "docs/marketing/october-2026/localized/exports/en-US/zuzu/store-6.png",
+          "md5": "984f0d221b032de27d2c08f929f30024",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "locale": "fi",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "error": "fetch failed"
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "locale": "en-US",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "locale": "fi",
+      "type": "APP_IPHONE_67",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "locale": "fr-FR",
+      "type": "APP_IPHONE_67",
+      "error": "fetch failed"
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "locale": "fr-FR",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "error": "fetch failed"
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "locale": "fr-CA",
+      "type": "APP_IPHONE_67",
+      "error": "fetch failed"
+    }
+  ],
+  "unprocessed": 69
+}

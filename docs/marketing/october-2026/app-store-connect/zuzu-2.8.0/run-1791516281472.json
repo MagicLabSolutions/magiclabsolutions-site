@@ -1,0 +1,116 @@
+{
+  "finishedAt": "2026-10-09T03:24:41.472Z",
+  "versions": [
+    {
+      "slug": "zuzu",
+      "appId": "6757988505",
+      "platform": "IOS",
+      "currentId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "version": "2.8.0",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "376e7a1b-4681-4a67-91ea-31cd1b825e77",
+      "verifiedAt": "2026-10-09T02:52:01.596Z",
+      "screenshots": [
+        {
+          "id": "7b800019-2ceb-8899-8036-b41e91253c77",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/ipad-store-1.png",
+          "md5": "76cd87f7e0b200c23b4d776663d4472d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f0c00019-2ceb-8899-8000-5551fdc32ec7",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/ipad-store-2.png",
+          "md5": "24c160c7cc114b696939c5c337bca237",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7e000019-2ceb-8899-803b-40b6efb01461",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/ipad-store-3.png",
+          "md5": "510f40f6229f99e3b6b735e251014391",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18c00019-2ceb-8899-8038-de423e4e827a",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/ipad-store-4.png",
+          "md5": "161dee9fc1415fa594ecc796f43e7cd3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac800019-2ceb-8899-8013-d0393aebc35c",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/ipad-store-5.png",
+          "md5": "55c8662dfee96a522e68734db864603a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e3400019-2ceb-8899-8012-9d19abaa9914",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/ipad-store-6.png",
+          "md5": "f159fc1a86288d647e6b71541e5793ae",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_IPHONE_67",
+      "setId": "1a741648-2c5c-4845-b3d3-c131ad897d64",
+      "verifiedAt": "2026-10-09T03:24:41.469Z",
+      "screenshots": [
+        {
+          "id": "78c00019-2ceb-8899-8011-04c4e109686f",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/store-1.png",
+          "md5": "03f1b29ed3ef7e1853a0e4993785924e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ba800019-2ceb-8899-803d-cabaad5166f4",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/store-2.png",
+          "md5": "b16cb55c050d27bdea757038e35077ef",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96400019-2ceb-8899-8003-6d70f90183d1",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/store-3.png",
+          "md5": "6c539d6bcd331cc7c40d12e405ab23a1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bd400019-2ceb-8899-8003-d6667da2efd7",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/store-4.png",
+          "md5": "3f614fa08ebdbb2d39838862b4f801ae",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63400019-2ceb-8899-802d-1220a02a4956",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/store-5.png",
+          "md5": "2f5fd6d2ace248f99d1fb91e13d6437c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1400019-2ceb-8899-8021-61ab023d20be",
+          "file": "docs/marketing/october-2026/localized/exports/kn/zuzu/store-6.png",
+          "md5": "4b690f5d2239693a6da7b378c6da8a0d",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 0
+}

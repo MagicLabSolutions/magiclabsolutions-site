@@ -1,0 +1,564 @@
+{
+  "checkedAt": "2026-10-09T02:27:07.537Z",
+  "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+  "records": [
+    {
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "keywords": "حديث الولادة,رضاعة,حليب,حفاض,نمو,عائلة,رعاية,سجل",
+      "bytes": 88,
+      "characters": 48,
+      "omittedTerms": [],
+      "id": "9aebf6e6-e402-47a7-8083-bec08eb695f7",
+      "before": "حساب الحمل,تقلصات,مولود,رضاعة,حليب,ضوضاء بيضاء,حفاضات,نمو",
+      "after": "حديث الولادة,رضاعة,حليب,حفاض,نمو,عائلة,رعاية,سجل"
+    },
+    {
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "keywords": "নবজাতক,স্তন্যপান,দুধ,ডায়াপার,বৃদ্ধি,পরিবার,যত্ন,ডায়েরি",
+      "bytes": 154,
+      "characters": 56,
+      "omittedTerms": [],
+      "id": "414cad5a-88c7-4484-ade8-1aeb31b1241b",
+      "before": null,
+      "after": "নবজাতক,স্তন্যপান,দুধ,ডায়াপার,বৃদ্ধি,পরিবার,যত্ন,ডায়েরি"
+    },
+    {
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "keywords": "nadó,lactància,biberó,fórmula,bolquer,creixement,fites,família,cuidador,registre",
+      "bytes": 85,
+      "characters": 80,
+      "omittedTerms": [],
+      "id": "691cc70f-0398-44c8-8aed-e682ffa6c9ac",
+      "before": "data part,contraccions,nounat,lactància,biberó,formulació,sons blancs,bolquer,fites",
+      "after": "nadó,lactància,biberó,fórmula,bolquer,creixement,fites,família,cuidador,registre"
+    },
+    {
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "keywords": "新生儿,母乳,哺乳,奶瓶,配方奶,尿布,成长,里程碑,家庭,照护,记录",
+      "bytes": 85,
+      "characters": 35,
+      "omittedTerms": [],
+      "id": "ea7e4ec4-aea0-4aad-a093-adb115b46d68",
+      "before": "预产期,宫缩,新生儿,母乳喂养,奶粉,白噪音,尿布,成长里程碑",
+      "after": "新生儿,母乳,哺乳,奶瓶,配方奶,尿布,成长,里程碑,家庭,照护,记录"
+    },
+    {
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "keywords": "新生兒,母乳,哺乳,奶瓶,配方奶,尿布,成長,里程碑,家庭,照護,紀錄",
+      "bytes": 85,
+      "characters": 35,
+      "omittedTerms": [],
+      "id": "b438c22f-8062-442e-9cee-5fe882f0bfd3",
+      "before": "預產期,宮縮,新生兒,母乳,哺乳,奶瓶,配方奶,白噪音,尿布,成長里程碑",
+      "after": "新生兒,母乳,哺乳,奶瓶,配方奶,尿布,成長,里程碑,家庭,照護,紀錄"
+    },
+    {
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "keywords": "novorođenče,dojenje,hranjenje,bočica,formula,pelena,rast,prekretnica,obitelj,skrbnik,dnevnik",
+      "bytes": 95,
+      "characters": 92,
+      "omittedTerms": [],
+      "id": "03c5465a-7f25-4736-8c16-fd010e43f8fe",
+      "before": "trudnoća,kontrakcije,novorođenče,dojenje,bočica,formula,buka,pelene,razvoj",
+      "after": "novorođenče,dojenje,hranjenje,bočica,formula,pelena,rast,prekretnica,obitelj,skrbnik,dnevnik"
+    },
+    {
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "keywords": "novorozenec,kojení,krmení,lahvička,mléko,plena,růst,milníky,rodina,péče,záznam",
+      "bytes": 87,
+      "characters": 78,
+      "omittedTerms": [],
+      "id": "2084b378-09d8-4433-8f41-687c0059ec43",
+      "before": "termín porodu,kontrakce,novorozenec,kojení,lahvička,umělá výživa,bílý šum,plenky,milníky",
+      "after": "novorozenec,kojení,krmení,lahvička,mléko,plena,růst,milníky,rodina,péče,záznam"
+    },
+    {
+      "locale": "da",
+      "sourceLocale": "da",
+      "keywords": "nyfødt,amning,flaske,modermælkserstatning,ble,vækst,milepæl,familie,omsorg,log",
+      "bytes": 82,
+      "characters": 78,
+      "omittedTerms": [],
+      "id": "173967e5-6d60-415a-bb29-0a90d1840188",
+      "before": "termin,veer,nyfødt,amme,flaske,modermælkserstatning,hvid støj,ble,milepæl",
+      "after": "nyfødt,amning,flaske,modermælkserstatning,ble,vækst,milepæl,familie,omsorg,log"
+    },
+    {
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "keywords": "pasgeboren,borstvoeding,voeden,fles,flesvoeding,luier,groei,mijlpaal,familie,verzorger,logboek",
+      "bytes": 94,
+      "characters": 94,
+      "omittedTerms": [],
+      "id": "a1aab384-71e8-4c38-b1be-886c9f21ce70",
+      "before": "uitgerekende datum,weeën,pasgeboren,borstvoeding,flesvoeding,formule,ruis,luier,mijlpaal",
+      "after": "pasgeboren,borstvoeding,voeden,fles,flesvoeding,luier,groei,mijlpaal,familie,verzorger,logboek"
+    },
+    {
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "keywords": "newborn,breastfeeding,nursing,bottle,formula,nappy,growth,milestone,family,caregiver,log",
+      "bytes": 88,
+      "characters": 88,
+      "omittedTerms": [],
+      "id": "90e31d1b-17ea-4e0f-87d9-7619c10448bf",
+      "before": "due date,contraction,newborn,breastfeeding,nursing,bottle,formula,white noise,diaper,milestone",
+      "after": "newborn,breastfeeding,nursing,bottle,formula,nappy,growth,milestone,family,caregiver,log"
+    },
+    {
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "keywords": "newborn,breastfeeding,nursing,bottle,formula,diaper,growth,milestone,family,caregiver,log",
+      "bytes": 89,
+      "characters": 89,
+      "omittedTerms": [],
+      "id": "042f54ad-ee1b-4cc5-a36c-29f963381a4b",
+      "before": null,
+      "after": "newborn,breastfeeding,nursing,bottle,formula,diaper,growth,milestone,family,caregiver,log"
+    },
+    {
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "keywords": "newborn,breastfeeding,nursing,bottle,formula,nappy,growth,milestone,family,caregiver,log",
+      "bytes": 88,
+      "characters": 88,
+      "omittedTerms": [],
+      "id": "85d9b2b8-b5d1-4fd3-bc44-dfc2417b769c",
+      "before": "due date,contraction,newborn,breastfeeding,nursing,bottle,formula,white noise,diaper,milestone",
+      "after": "newborn,breastfeeding,nursing,bottle,formula,nappy,growth,milestone,family,caregiver,log"
+    },
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "keywords": "newborn,breastfeeding,nursing,bottle,formula,diaper,growth,milestone,family,caregiver,log",
+      "bytes": 89,
+      "characters": 89,
+      "omittedTerms": [],
+      "id": "d75b17bf-c008-412d-bdc9-ba9131054067",
+      "before": "due date,contraction,newborn,breastfeeding,nursing,bottle,formula,white noise,diaper,milestone",
+      "after": "newborn,breastfeeding,nursing,bottle,formula,diaper,growth,milestone,family,caregiver,log"
+    },
+    {
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "keywords": "vastasyntynyt,imetys,ruokinta,tuttipullo,korvike,vaippa,kasvu,kehitys,perhe,hoitaja,päiväkirja",
+      "bytes": 96,
+      "characters": 94,
+      "omittedTerms": [],
+      "id": "96bbd6ff-4ba6-4ede-9595-ead03f3e6fb3",
+      "before": "laskettu aika,supistukset,vastasyntynyt,imetys,pullo,korvike,valkoinen kohina,vaippa,virstanpylväs",
+      "after": "vastasyntynyt,imetys,ruokinta,tuttipullo,korvike,vaippa,kasvu,kehitys,perhe,hoitaja,päiväkirja"
+    },
+    {
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "keywords": "nouveau-né,allaitement,biberon,lait,couche,croissance,étapes,famille,soins,journal",
+      "bytes": 84,
+      "characters": 82,
+      "omittedTerms": [],
+      "id": "d1aae0a1-b40c-47bc-87ff-46623bdc2a19",
+      "before": "date d'accouchement,contractions,nouveau-né,allaitement,biberon,bruit blanc,couche,étape",
+      "after": "nouveau-né,allaitement,biberon,lait,couche,croissance,étapes,famille,soins,journal"
+    },
+    {
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "keywords": "nouveau-né,allaitement,biberon,lait,couche,croissance,étapes,famille,soins,journal",
+      "bytes": 84,
+      "characters": 82,
+      "omittedTerms": [],
+      "id": "c2f1b80a-a1f9-4f2e-bfd3-f8d7b7a43416",
+      "before": "date d'accouchement,contractions,nouveau-né,allaitement,biberon,bruit blanc,couche,étapes",
+      "after": "nouveau-né,allaitement,biberon,lait,couche,croissance,étapes,famille,soins,journal"
+    },
+    {
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "keywords": "neugeboren,stillen,füttern,flasche,milchnahrung,windel,wachstum,meilenstein,familie,pflege,tagebuch",
+      "bytes": 100,
+      "characters": 99,
+      "omittedTerms": [],
+      "id": "d2f8bab0-b09b-48ed-930a-d452b402a000",
+      "before": "geburtstermin,kontraktionen,neugeborenes,stillen,flasche,formel,weißes rauschen,windel,meilenstein",
+      "after": "neugeboren,stillen,füttern,flasche,milchnahrung,windel,wachstum,meilenstein,familie,pflege,tagebuch"
+    },
+    {
+      "locale": "el",
+      "sourceLocale": "el",
+      "keywords": "νεογέννητο,θηλασμός,μπιμπερό,γάλα,πάνα,ανάπτυξη,ορόσημα,οικογένεια,φροντίδα,ημερολόγιο",
+      "bytes": 163,
+      "characters": 86,
+      "omittedTerms": [],
+      "id": "7dfc128c-6617-4cf4-97a9-6f4aae004aec",
+      "before": "ημερομηνία τοκετού,συσπάσεις,νεογέννητο,θηλασμός,μπουκάλι,φόρμουλα,λευκός θόρυβος,πάνα,ορόσημο",
+      "after": "νεογέννητο,θηλασμός,μπιμπερό,γάλα,πάνα,ανάπτυξη,ορόσημα,οικογένεια,φροντίδα,ημερολόγιο"
+    },
+    {
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "keywords": "નવજાત,સ્તનપાન,દૂધ,ડાયપર,વિકાસ,પરિવાર,સંભાળ,નોંધ",
+      "bytes": 127,
+      "characters": 47,
+      "omittedTerms": [],
+      "id": "bbb41644-c581-4061-a8e6-35c764521447",
+      "before": null,
+      "after": "નવજાત,સ્તનપાન,દૂધ,ડાયપર,વિકાસ,પરિવાર,સંભાળ,નોંધ"
+    },
+    {
+      "locale": "he",
+      "sourceLocale": "he",
+      "keywords": "יילוד,הנקה,האכלה,בקבוק,תמ״ל,חיתול,גדילה,התפתחות,משפחה,מטפל,יומן",
+      "bytes": 116,
+      "characters": 63,
+      "omittedTerms": [],
+      "id": "add1f94e-9261-4b27-a070-87c16db5a214",
+      "before": "תאריך לידה,צירים,תינוק,הנקה,בקבוק,פורמולה,רעש לבן,חיתול,אבני דרך",
+      "after": "יילוד,הנקה,האכלה,בקבוק,תמ״ל,חיתול,גדילה,התפתחות,משפחה,מטפל,יומן"
+    },
+    {
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "keywords": "नवजात,स्तनपान,दूध,डायपर,विकास,परिवार,देखभाल,डायरी",
+      "bytes": 133,
+      "characters": 49,
+      "omittedTerms": [],
+      "id": "28e0c80c-dbb7-43f4-a08b-d9fbf97a69f0",
+      "before": "गर्भावस्था,नवजात,स्तनपान,बोतल,फॉर्मूला,सफेद शोर,डायपर,मील का पत्थर",
+      "after": "नवजात,स्तनपान,दूध,डायपर,विकास,परिवार,देखभाल,डायरी"
+    },
+    {
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "keywords": "újszülött,szoptatás,etetés,cumisüveg,tápszer,pelenka,növekedés,mérföldkő,család,gondozás,napló",
+      "bytes": 109,
+      "characters": 94,
+      "omittedTerms": [],
+      "id": "bb8628d0-bb54-46ee-a9fb-75251ad23340",
+      "before": "szülés,várandósság,újszülött,szoptatás,cumisüveg,tápszer,fehér zaj,pelenka,mérföldkő",
+      "after": "újszülött,szoptatás,etetés,cumisüveg,tápszer,pelenka,növekedés,mérföldkő,család,gondozás,napló"
+    },
+    {
+      "locale": "id",
+      "sourceLocale": "id",
+      "keywords": "bayi baru lahir,menyusui,asi,botol,susu formula,popok,pertumbuhan,tumbuh kembang,keluarga,pengasuh",
+      "bytes": 98,
+      "characters": 98,
+      "omittedTerms": [
+        "catatan"
+      ],
+      "id": "2b81d0df-f421-4654-a383-09967df684fa",
+      "before": "tanggal lahir,kontraksi,baru lahir,menyusui,botol,susu formula,suara putih,popok,pertumbuhan",
+      "after": "bayi baru lahir,menyusui,asi,botol,susu formula,popok,pertumbuhan,tumbuh kembang,keluarga,pengasuh"
+    },
+    {
+      "locale": "it",
+      "sourceLocale": "it",
+      "keywords": "neonato,allattamento,biberon,latte artificiale,pannolino,crescita,tappe,famiglia,cura,diario",
+      "bytes": 92,
+      "characters": 92,
+      "omittedTerms": [],
+      "id": "30c79b31-b5fc-4c0a-b4c5-66e87e973f0d",
+      "before": "data parto,contrazioni,neonato,allattamento,biberon,latte artificiale,rumore bianco,pannolino",
+      "after": "neonato,allattamento,biberon,latte artificiale,pannolino,crescita,tappe,famiglia,cura,diario"
+    },
+    {
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "keywords": "新生児,母乳,授乳,哺乳瓶,ミルク,おむつ,成長,発達,家族,育児,記録",
+      "bytes": 88,
+      "characters": 36,
+      "omittedTerms": [],
+      "id": "b34820dc-3d74-402c-bd07-5924c5c349b7",
+      "before": "妊娠アプリ,陣痛計,新生児,授乳,哺乳瓶,粉ミルク,ホワイトノイズ,おむつ,成長記録",
+      "after": "新生児,母乳,授乳,哺乳瓶,ミルク,おむつ,成長,発達,家族,育児,記録"
+    },
+    {
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "keywords": "ನವಜಾತ,ಸ್ತನ್ಯಪಾನ,ಹಾಲು,ಡೈಪರ್,ಬೆಳವಣಿಗೆ,ಕುಟುಂಬ,ಆರೈಕೆ,ದಿನಚರಿ",
+      "bytes": 151,
+      "characters": 55,
+      "omittedTerms": [],
+      "id": "fb748b9d-f57d-4e20-b6e9-1630ca255115",
+      "before": null,
+      "after": "ನವಜಾತ,ಸ್ತನ್ಯಪಾನ,ಹಾಲು,ಡೈಪರ್,ಬೆಳವಣಿಗೆ,ಕುಟುಂಬ,ಆರೈಕೆ,ದಿನಚರಿ"
+    },
+    {
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "keywords": "신생아,모유,수유,젖병,분유,기저귀,성장,발달,가족,육아,기록",
+      "bytes": 82,
+      "characters": 34,
+      "omittedTerms": [],
+      "id": "491c82dc-bd04-4faa-8327-54a031334b59",
+      "before": "출산일,진통,신생아,모유수유,분유,백색소음,기저귀,성장발달",
+      "after": "신생아,모유,수유,젖병,분유,기저귀,성장,발달,가족,육아,기록"
+    },
+    {
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "keywords": "bayi baru lahir,penyusuan,botol,susu formula,lampin,pertumbuhan,perkembangan,keluarga,penjaga",
+      "bytes": 93,
+      "characters": 93,
+      "omittedTerms": [
+        "catatan"
+      ],
+      "id": "938a9d2f-aae0-487d-b1bf-4e776cfbb724",
+      "before": "tarikh bersalin,kontraksi,baru lahir,menyusu,susu botol,bunyi putih,lampin,perkembangan",
+      "after": "bayi baru lahir,penyusuan,botol,susu formula,lampin,pertumbuhan,perkembangan,keluarga,penjaga"
+    },
+    {
+      "locale": "ml-IN",
+      "sourceLocale": "ml",
+      "keywords": "നവജാത,മുലയൂട്ടൽ,പാൽ,ഡയപ്പർ,വളർച്ച,കുടുംബം,പരിചരണം,ഡയറി",
+      "bytes": 148,
+      "characters": 54,
+      "omittedTerms": [],
+      "id": "c9539139-7ee1-4609-95f3-4e2500b92032",
+      "before": null,
+      "after": "നവജാത,മുലയൂട്ടൽ,പാൽ,ഡയപ്പർ,വളർച്ച,കുടുംബം,പരിചരണം,ഡയറി"
+    },
+    {
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "keywords": "नवजात,स्तनपान,दूध,डायपर,वाढ,कुटुंब,काळजी,नोंद",
+      "bytes": 121,
+      "characters": 45,
+      "omittedTerms": [],
+      "id": "84eadf4c-5469-4d90-b4f9-e8f02d4a2afc",
+      "before": null,
+      "after": "नवजात,स्तनपान,दूध,डायपर,वाढ,कुटुंब,काळजी,नोंद"
+    },
+    {
+      "locale": "no",
+      "sourceLocale": "nb",
+      "keywords": "nyfødt,amming,flaske,morsmelkerstatning,bleie,vekst,milepæl,familie,omsorg,logg",
+      "bytes": 81,
+      "characters": 79,
+      "omittedTerms": [],
+      "id": "af3928a3-52e5-4521-a189-683c33ddc3be",
+      "before": "termin,fødsel,nyfødt,amming,flaske,melkeerstatning,hvit støy,bleie,milepæl",
+      "after": "nyfødt,amming,flaske,morsmelkerstatning,bleie,vekst,milepæl,familie,omsorg,logg"
+    },
+    {
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "keywords": "ନବଜାତ,ସ୍ତନ୍ୟପାନ,କ୍ଷୀର,ଡାଏପର,ବୃଦ୍ଧି,ପରିବାର,ଯତ୍ନ,ଡାଏରୀ",
+      "bytes": 142,
+      "characters": 52,
+      "omittedTerms": [],
+      "id": "c07ea1e9-4119-4b65-9fec-64355113b86e",
+      "before": null,
+      "after": "ନବଜାତ,ସ୍ତନ୍ୟପାନ,କ୍ଷୀର,ଡାଏପର,ବୃଦ୍ଧି,ପରିବାର,ଯତ୍ନ,ଡାଏରୀ"
+    },
+    {
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "keywords": "noworodek,karmienie,piersią,butelka,mleko,pielucha,wzrost,rozwój,rodzina,opiekun,dziennik",
+      "bytes": 91,
+      "characters": 89,
+      "omittedTerms": [],
+      "id": "428e5d97-b4b4-4775-91a5-afbdb36dbd71",
+      "before": "termin porodu,skurcze,noworodek,karmienie piersią,smoczek,mleko,biały szum,pielucha,milowe",
+      "after": "noworodek,karmienie,piersią,butelka,mleko,pielucha,wzrost,rozwój,rodzina,opiekun,dziennik"
+    },
+    {
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "keywords": "recém-nascido,amamentação,mamada,mamadeira,fórmula,fralda,crescimento,marco,família,cuidador,diário",
+      "bytes": 105,
+      "characters": 99,
+      "omittedTerms": [],
+      "id": "c8b64944-64a3-4b40-b572-2313d7a059f1",
+      "before": "data de parto,contração,recém-nascido,amamentação,mamadeira,fórmula,ruído branco,fralda,marco",
+      "after": "recém-nascido,amamentação,mamada,mamadeira,fórmula,fralda,crescimento,marco,família,cuidador,diário"
+    },
+    {
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "keywords": "recém-nascido,amamentação,mamada,biberão,fórmula,fralda,crescimento,marco,família,cuidador,diário",
+      "bytes": 104,
+      "characters": 97,
+      "omittedTerms": [],
+      "id": "34047986-0ad5-462f-8554-4b9ae3829b81",
+      "before": "data parto,contrações,recém-nascido,amamentação,biberão,fórmula,ruído branco,fralda,marcos",
+      "after": "recém-nascido,amamentação,mamada,biberão,fórmula,fralda,crescimento,marco,família,cuidador,diário"
+    },
+    {
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "keywords": "ਨਵਜਾਤ,ਛਾਤੀ ਦਾ ਦੁੱਧ,ਦੁੱਧ,ਡਾਇਪਰ,ਵਿਕਾਸ,ਪਰਿਵਾਰ,ਦੇਖਭਾਲ,ਡਾਇਰੀ",
+      "bytes": 147,
+      "characters": 55,
+      "omittedTerms": [],
+      "id": "0ac0fe71-aacb-4506-9481-63d007d6f66e",
+      "before": null,
+      "after": "ਨਵਜਾਤ,ਛਾਤੀ ਦਾ ਦੁੱਧ,ਦੁੱਧ,ਡਾਇਪਰ,ਵਿਕਾਸ,ਪਰਿਵਾਰ,ਦੇਖਭਾਲ,ਡਾਇਰੀ"
+    },
+    {
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "keywords": "nou-născut,alăptare,hrănire,biberon,lapte,scutec,creștere,dezvoltare,familie,îngrijire,jurnal",
+      "bytes": 98,
+      "characters": 93,
+      "omittedTerms": [],
+      "id": "3e2234d9-5c09-45f5-9e60-4aa04759b1c5",
+      "before": "data nașterii,contracții,nou-născut,alăptare,biberon,formulă,zgomot alb,scutec,dezvoltare",
+      "after": "nou-născut,alăptare,hrănire,biberon,lapte,scutec,creștere,dezvoltare,familie,îngrijire,jurnal"
+    },
+    {
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "keywords": "новорождённый,грудное вскармливание,кормление,бутылочка,смесь,подгузник,рост,развитие,семья,уход",
+      "bytes": 182,
+      "characters": 96,
+      "omittedTerms": [
+        "дневник"
+      ],
+      "id": "b6bc0135-b7db-47d6-9d7c-4f7a836acba0",
+      "before": "беременность,схватки,новорожденный,грудное вскармливание,бутылочка,смесь,подгузник,развитие",
+      "after": "новорождённый,грудное вскармливание,кормление,бутылочка,смесь,подгузник,рост,развитие,семья,уход"
+    },
+    {
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "keywords": "novorodenec,dojčenie,kŕmenie,fľaša,mlieko,plienka,rast,míľniky,rodina,starostlivosť,denník",
+      "bytes": 98,
+      "characters": 90,
+      "omittedTerms": [],
+      "id": "125e4a49-b158-48c9-85af-5c7e1420632c",
+      "before": "termín pôrodu,kontrakcie,novorodenec,dojčenie,fľaša,umelé mlieko,biely šum,plienka,míľniky",
+      "after": "novorodenec,dojčenie,kŕmenie,fľaša,mlieko,plienka,rast,míľniky,rodina,starostlivosť,denník"
+    },
+    {
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "keywords": "novorojenček,dojenje,hranjenje,steklenička,mleko,plenica,rast,mejniki,družina,nega,dnevnik",
+      "bytes": 93,
+      "characters": 90,
+      "omittedTerms": [],
+      "id": "9860be04-aef2-4b38-9410-2fcab0da6b28",
+      "before": null,
+      "after": "novorojenček,dojenje,hranjenje,steklenička,mleko,plenica,rast,mejniki,družina,nega,dnevnik"
+    },
+    {
+      "locale": "es-MX",
+      "sourceLocale": "es-419",
+      "keywords": "recién nacido,lactancia,biberón,fórmula,pañal,crecimiento,hitos,familia,cuidador,registro",
+      "bytes": 93,
+      "characters": 89,
+      "omittedTerms": [],
+      "id": "bcce2855-7e06-4bf5-afe4-08e9700c5462",
+      "before": "fecha parto,contracciones,recién nacido,lactancia,biberón,fórmula,ruido blanco,pañal,hitos",
+      "after": "recién nacido,lactancia,biberón,fórmula,pañal,crecimiento,hitos,familia,cuidador,registro"
+    },
+    {
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "keywords": "recién nacido,lactancia,biberón,fórmula,pañal,crecimiento,hitos,familia,cuidador,registro",
+      "bytes": 93,
+      "characters": 89,
+      "omittedTerms": [],
+      "id": "735d9574-acec-4235-8b16-6081c2b8e4a4",
+      "before": "fecha parto,contracciones,recién nacido,lactancia,biberón,fórmula,ruido blanco,pañal,hitos",
+      "after": "recién nacido,lactancia,biberón,fórmula,pañal,crecimiento,hitos,familia,cuidador,registro"
+    },
+    {
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "keywords": "nyfödd,amning,flaska,ersättning,blöja,tillväxt,milstolpe,familj,omsorg,dagbok",
+      "bytes": 81,
+      "characters": 77,
+      "omittedTerms": [],
+      "id": "953209e1-51e7-4fc0-9122-f1585a0f22c8",
+      "before": "gravid,förlossning,nyfödd,amning,flaska,bröstmjölk,vit brus,blöja,milstolpe",
+      "after": "nyfödd,amning,flaska,ersättning,blöja,tillväxt,milstolpe,familj,omsorg,dagbok"
+    },
+    {
+      "locale": "ta-IN",
+      "sourceLocale": "ta",
+      "keywords": "புதிதாய் பிறந்த,தாய்ப்பால்,பால்,டயப்பர்,வளர்ச்சி,குடும்பம்,பராமரிப்பு,பதிவு",
+      "bytes": 209,
+      "characters": 75,
+      "omittedTerms": [],
+      "id": "4dd5c717-12df-45cb-aa65-0db18c068c0b",
+      "before": null,
+      "after": "புதிதாய் பிறந்த,தாய்ப்பால்,பால்,டயப்பர்,வளர்ச்சி,குடும்பம்,பராமரிப்பு,பதிவு"
+    },
+    {
+      "locale": "te-IN",
+      "sourceLocale": "te",
+      "keywords": "నవజాత,తల్లిపాలు,పాలు,డైపర్,ఎదుగుదల,కుటుంబం,సంరక్షణ,డైరీ",
+      "bytes": 151,
+      "characters": 55,
+      "omittedTerms": [],
+      "id": "fd97dc47-cff7-4b86-aa26-bfcb09be0250",
+      "before": null,
+      "after": "నవజాత,తల్లిపాలు,పాలు,డైపర్,ఎదుగుదల,కుటుంబం,సంరక్షణ,డైరీ"
+    },
+    {
+      "locale": "th",
+      "sourceLocale": "th",
+      "keywords": "ทารกแรกเกิด,นมแม่,ให้นม,ขวดนม,นมผง,ผ้าอ้อม,เติบโต,พัฒนาการ,ครอบครัว,ดูแล,บันทึก",
+      "bytes": 217,
+      "characters": 79,
+      "omittedTerms": [],
+      "id": "78ba5e33-6cf3-41af-a022-33e8628845cf",
+      "before": "ตั้งครรภ์,คลอดลูก,ทารก,ให้นม,ขวดนม,สูตรนม,เสียงกล่อม,ผ้าอ้อม,พัฒนาการ",
+      "after": "ทารกแรกเกิด,นมแม่,ให้นม,ขวดนม,นมผง,ผ้าอ้อม,เติบโต,พัฒนาการ,ครอบครัว,ดูแล,บันทึก"
+    },
+    {
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "keywords": "yenidoğan,emzirme,beslenme,biberon,mama,bez,büyüme,gelişim,aile,bakıcı,günlük",
+      "bytes": 85,
+      "characters": 77,
+      "omittedTerms": [],
+      "id": "d38e3855-292a-4e1a-8846-f533baa02c6c",
+      "before": "doğum tarihi,kasılma,yenidoğan,emzirme,biberon,mama,beyaz gürültü,bez,ilk adım",
+      "after": "yenidoğan,emzirme,beslenme,biberon,mama,bez,büyüme,gelişim,aile,bakıcı,günlük"
+    },
+    {
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "keywords": "новонароджений,грудне вигодовування,годування,пляшечка,суміш,підгузок,ріст,розвиток,сім'я,догляд",
+      "bytes": 181,
+      "characters": 96,
+      "omittedTerms": [
+        "щоденник"
+      ],
+      "id": "3adeb026-2e90-47bd-8e9a-d2bad930520d",
+      "before": "вагітність,пологи,новонароджений,грудне вигодовування,пляшка,суміш,білий шум,підгузки,розвиток",
+      "after": "новонароджений,грудне вигодовування,годування,пляшечка,суміш,підгузок,ріст,розвиток,сім'я,догляд"
+    },
+    {
+      "locale": "ur-PK",
+      "sourceLocale": "ur",
+      "keywords": "نومولود,دودھ پلانا,دودھ,بوتل,ڈائپر,نشوونما,خاندان,نگہداشت,ڈائری",
+      "bytes": 117,
+      "characters": 63,
+      "omittedTerms": [],
+      "id": "bdec6c7a-69a3-49f7-a247-273ff14c5577",
+      "before": null,
+      "after": "نومولود,دودھ پلانا,دودھ,بوتل,ڈائپر,نشوونما,خاندان,نگہداشت,ڈائری"
+    },
+    {
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "keywords": "sơ sinh,bú mẹ,cho bú,bình sữa,sữa công thức,tã,tăng trưởng,cột mốc,gia đình,chăm sóc,nhật ký",
+      "bytes": 121,
+      "characters": 92,
+      "omittedTerms": [],
+      "id": "b0353e4c-2700-42ed-9079-f7dd3db3d588",
+      "before": "ngày dự sinh,chuyển dạ,trẻ sơ sinh,cho con bú,sữa công thức,tiếng ồn trắng,tã,cột mốc",
+      "after": "sơ sinh,bú mẹ,cho bú,bình sữa,sữa công thức,tã,tăng trưởng,cột mốc,gia đình,chăm sóc,nhật ký"
+    }
+  ]
+}

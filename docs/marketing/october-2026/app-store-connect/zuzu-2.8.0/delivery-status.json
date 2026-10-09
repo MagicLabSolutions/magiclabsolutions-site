@@ -1,0 +1,339 @@
+{
+  "checkedAt": "2026-10-09T03:26:00.624Z",
+  "app": "zuzu",
+  "version": "2.8.0",
+  "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+  "state": "PREPARE_FOR_SUBMISSION",
+  "galleries": 100,
+  "images": 600,
+  "locales": 50,
+  "allStates": "COMPLETE",
+  "publishedBuildReleasePreviewsAndWatchPreserved": true,
+  "missingListingFields": [
+    {
+      "locale": "en-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ru",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "fi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "nl-NL",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "uk",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "zh-Hant",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "tr",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "fr-FR",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "th",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "el",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "es-ES",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "pt-PT",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ar-SA",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "sv",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "hu",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ms",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ro",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "cs",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "da",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ca",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "de-DE",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "sk",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "hr",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "fr-CA",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "hi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ko",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "ja",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "pl",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "en-US",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "id",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "en-AU",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "es-MX",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "zh-Hans",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "no",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "he",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "vi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "locale": "it",
+      "fields": [
+        "whatsNew"
+      ]
+    }
+  ],
+  "submittedForReview": false
+}
