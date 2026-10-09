@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:24:47.633Z",
+  "locale": "th",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/store-2.png",
+      "sha256": "aacccce6eb87bc1ea18a39305bb58eb43b9106867385fb82f2bfc68d9f1498e0",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/th/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 536.21875,
+          "top": 340,
+          "right": 1228,
+          "bottom": 876.21875,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 948.8125,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 948.8125,
+          "right": 1214,
+          "bottom": 3210.03125,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1160,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1160,
+          "right": 968,
+          "bottom": 1813.328125,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/ipad-store-2.png",
+      "sha256": "f518f4a41d2f0632845930f69d4a2c75a0c23cc6dbdf472f10e3c0e9ae44e48a",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/th/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 791.59375,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1066.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1180.109375,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1180.109375,
+          "right": 1957,
+          "bottom": 3593.140625,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1310,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1310,
+          "right": 1500,
+          "bottom": 2323.328125,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/mac-store-1.png",
+      "sha256": "8abc20154e6d9def360fe548725d39f3c4b75eb622994f46a342180f5702e77f",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/th/native-1.png",
+      "copy": {
+        "headline": "เปลี่ยนบันทึกของคุณให้เป็นแบบฝึกหัดทบทวนบทเรียน",
+        "description": "แฟลชการ์ด แบบทดสอบ และติวเตอร์ส่วนตัวที่สร้างจากเนื้อหาของคุณ",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/mac-store-2.png",
+      "sha256": "a0e9869f5627ff7091aabbb0663792bbc9c3789be16ce57e53883463faf25610",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/th/native-2.png",
+      "copy": {
+        "headline": "หนังสือและ PDF\nเป็นแฟลชการ์ด",
+        "description": "นำเข้าหน้าหนังสือหรือ PDF\nAI สร้างชุดบัตรคำให้คุณ",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/mac-store-3.png",
+      "sha256": "35f92f4e3b9a8abdfe90566c92cee9d1af66e3bb30635acae7e8f9ef551ae27e",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/th/native-2.png",
+      "copy": {
+        "headline": "จัดเวลาเพื่อเรียนรู้และจดจำ",
+        "description": "ทบทวนด้วยแฟลชการ์ด ทีละคำถาม",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 465.296875,
+          "top": 215,
+          "right": 2740,
+          "bottom": 680.296875,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 770.296875,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 770.296875,
+          "right": 2740,
+          "bottom": 2503.625,
+          "left": 140
+        },
+        "card": {
+          "x": 1657.91845703125,
+          "y": 979.4595336914062,
+          "width": 1124.1630859375,
+          "height": 749.5184936523438,
+          "top": 979.4595336914062,
+          "right": 2782.08154296875,
+          "bottom": 1728.97802734375,
+          "left": 1657.91845703125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/mac-store-4.png",
+      "sha256": "c6abcc9609c16c4128df3644e8a33846c2455a0a4ec1ccd67d3c6c6e98d43f6d",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/th/native-3.png",
+      "copy": {
+        "headline": "ทดสอบความจำของคุณ",
+        "description": "แบบทดสอบจากบันทึกของคุณ\nพร้อมรับคำแนะนำทันทีระหว่างทำ",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/mac-store-5.png",
+      "sha256": "cfca0a84452954d72963b88feb40ac493a971242477f41da4198083cebb93901",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/th/native-4.png",
+      "copy": {
+        "headline": "ทำความเข้าใจบทเรียนและก้าวต่อไปข้างหน้า",
+        "description": "สอบถามเกี่ยวกับเนื้อหาการเรียน\nพร้อมดูบทเรียนควบคู่กันไป",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.3050537109375,
+          "y": 1213.88037109375,
+          "width": 1505.3900146484375,
+          "height": 232.8642578125,
+          "top": 1213.88037109375,
+          "right": 2772.695068359375,
+          "bottom": 1446.74462890625,
+          "left": 1267.3050537109375
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/mac-store-6.png",
+      "sha256": "1887f65cd950a6b4777f514bc08b8222c6af7c485e216e8b6b5b4dcac360fd8f",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/th/native-5.png",
+      "copy": {
+        "headline": "เก็บสื่อการเรียนของคุณไว้ใกล้มือ",
+        "description": "สรุปเนื้อหาที่ครบถ้วนและประเด็นสำคัญ\nพร้อมให้คุณทบทวนได้ทันที",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/th/mac-store-7.png",
+      "sha256": "4f2e9440fdf8f2bffd1f585323805cef597aca2b3be803dc713129eaf840a14d",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/th/native-6.png",
+      "copy": {
+        "headline": "ชวนเพื่อนมาร่วมสนุก\nแล้วทดสอบความจำของคุณ",
+        "description": "เลือกชุดคำถาม\nแล้วเริ่มประลองความรู้กันเลย",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

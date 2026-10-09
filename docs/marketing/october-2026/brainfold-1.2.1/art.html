@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Brainfold — Books & PDFs, Localized delivery masters</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#111a39}body{font-family:-apple-system,BlinkMacSystemFont,'Avenir Next',sans-serif}
+.art{position:relative;width:1320px;height:2868px;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 4% 83%,#ff684920,transparent 53%),linear-gradient(160deg,#111a39,#121c3d 60%,#202139);color:#fff8f2}
+.paper{position:absolute;width:1000px;height:950px;left:-400px;bottom:-160px;transform:rotate(-16deg);background:#ff684910;border:2px solid #ffb4a21a;border-radius:50px}
+.brand{position:absolute;left:92px;top:110px;display:flex;gap:24px;align-items:center;font-size:52px;font-weight:650}.brand img{width:82px;height:82px;border-radius:22%}
+.copy{position:absolute;left:92px;right:92px;top:340px;z-index:5}h1{margin:0;font-size:142px;font-weight:760;letter-spacing:-6.2px;line-height:1.06;white-space:pre-line}.description{margin:58px 0 0;font-size:64px;font-weight:450;line-height:1.34;letter-spacing:-1px;white-space:pre-line}
+.device{position:absolute;left:106px;width:1108px;height:2261.22px}.capture,.hardware{position:absolute;display:block}.capture{left:5.10204%;top:2.2%;width:89.79592%;height:95.6%;object-fit:contain;border-radius:113px}.hardware{inset:0;width:100%;height:100%;z-index:2}
+.photo{position:absolute;z-index:3;filter:drop-shadow(0 20px 30px #080d2580)}.photo svg{display:block;width:100%;height:auto}
+.pdf{position:absolute;z-index:4;transform:rotate(8deg);filter:drop-shadow(0 18px 25px #0005)}.pdf svg{display:block;width:100%}
+.flow{position:absolute;left:910px;top:1680px;width:175px;height:160px;z-index:4}
+.card{position:absolute;overflow:hidden;z-index:4;isolation:isolate;filter:drop-shadow(0 20px 30px #0005);outline:4px solid #fff8f2;transform:rotate(-2deg)}.card img{position:absolute;display:block;max-width:none}
+</style></head><body><main class="art" id="art"><div class="paper"></div>
+<div class="brand"><img id="icon" alt=""><span>Brainfold</span></div>
+<div class="copy"><h1 id="headline"></h1><p class="description" id="description"></p></div>
+<div class="device"><img id="screen" class="capture" alt="Brainfold flashcard interface"><img id="hardware" class="hardware" alt="iPhone hardware"></div>
+<div class="photo" id="photo">
+<svg viewBox="0 0 1536 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI-created photograph of a book being scanned">
+<defs><clipPath id="subject"><path d="M 16 958 Q 6 963 16 979 Q 23 988 48 986 L 1164 970 Q 1194 969 1194 941 L 1085 456 Q 1098 476 1141 490 Q 1178 511 1221 518 Q 1280 524 1316 540 Q 1357 555 1404 606 L 1536 711 L 1536 399 Q 1480 377 1440 346 Q 1408 323 1387 295 Q 1364 261 1342 224 Q 1294 158 1243 126 Q 1213 103 1176 102 Q 1152 79 1111 76 L 1043 80 Q 1017 80 1002 110 L 833 32 Q 800 18 771 38 L 701 102 Q 681 121 683 154 Q 683 168 703 181 L 907 306 Q 903 319 915 337 Q 926 350 948 360 L 885 352 Q 803 339 746 343 Q 634 347 576 386 Q 551 366 519 360 Q 462 348 409 346 Q 300 349 159 362 Q 140 360 133 376 L 109 387 Q 94 391 92 410 Z"/></clipPath></defs>
+<image id="photo-image" width="1536" height="1024" clip-path="url(#subject)"/>
+</svg></div>
+<div class="pdf" id="pdf"><svg viewBox="0 0 240 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PDF file illustration"><path d="M25 5H160L232 77V283Q232 305 210 305H25Q5 305 5 283V27Q5 5 25 5Z" fill="#fff8f2"/><path d="M160 5V59Q160 77 179 77H232" fill="#efcebf"/><rect x="-8" y="140" width="247" height="103" rx="18" fill="#ff6849"/><text x="114" y="213" text-anchor="middle" fill="#fff8f2" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="75" font-weight="750">PDF</text><path d="M39 99H141M39 115H168M39 267H129" stroke="#111a3933" stroke-width="7" stroke-linecap="round"/></svg></div>
+<svg class="flow" viewBox="0 0 175 160" aria-hidden="true"><path d="M24 12C156 3 135 100 80 125M73 91L80 132L121 125" fill="none" stroke="#ffb7a1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div class="card" id="card"><img id="card-image" alt="Complete native Brainfold flashcard"></div>
+</main><script>
+window.render=async function(c){
+ const art=document.querySelector('#art'),copy=document.querySelector('.copy'),device=document.querySelector('.device'),photo=document.querySelector('#photo'),pdf=document.querySelector('#pdf'),card=document.querySelector('#card'),flow=document.querySelector('.flow');
+ art.style.width=c.width+'px';art.style.height=c.height+'px';art.setAttribute('lang',c.locale);
+ document.querySelector('#icon').src=c.icon;document.querySelector('#headline').textContent=c.headline;document.querySelector('#description').textContent=c.description;copy.dir=c.direction;
+ const mac=c.format==='mac',ipad=c.format==='ipad';
+ const preset=mac?{left:140,top:215,right:140,head:240,minHead:236,desc:118,minDesc:116,brandTop:80,brandFont:56,brandIcon:86,descriptionMargin:48}:ipad?{left:140,top:275,right:140,head:210,minHead:200,desc:100,minDesc:96,brandTop:85,brandFont:66,brandIcon:108,descriptionMargin:70}:{left:92,top:340,right:92,head:142,minHead:128,desc:64,minDesc:64,brandTop:110,brandFont:52,brandIcon:82,descriptionMargin:58};
+ Object.assign(copy.style,{left:preset.left+'px',right:preset.right+'px',top:preset.top+'px'});
+ const brand=document.querySelector('.brand');Object.assign(brand.style,{left:preset.left+'px',top:preset.brandTop+'px',fontSize:preset.brandFont+'px'});Object.assign(document.querySelector('#icon').style,{width:preset.brandIcon+'px',height:preset.brandIcon+'px'});
+ const h=document.querySelector('h1'),d=document.querySelector('.description');Object.assign(h.style,{fontSize:preset.head+'px',letterSpacing:c.direction==='rtl'?'0':(mac?-5:ipad?-5:-4)+'px',lineHeight:'1.08',overflowWrap:'anywhere',hyphens:'auto'});Object.assign(d.style,{fontSize:preset.desc+'px',lineHeight:'1.34',letterSpacing:'0',marginTop:preset.descriptionMargin+'px'});
+ document.querySelector('#screen').src=c.capture;document.querySelector('#hardware').src=c.frame.asset;document.querySelector('#card-image').src=c.capture;document.querySelector('#photo-image').setAttribute('href',c.photo);
+ await Promise.all([...document.images].map(im=>im.decode()));await document.fonts.ready;
+ const maxHead=mac?800:ipad?790:490,maxCopy=mac?1330:ipad?1510:1220;
+ while(h.getBoundingClientRect().height>maxHead&&parseFloat(h.style.fontSize)>preset.minHead)h.style.fontSize=(parseFloat(h.style.fontSize)-2)+'px';
+ while(copy.getBoundingClientRect().bottom>maxCopy&&parseFloat(d.style.fontSize)>preset.minDesc)d.style.fontSize=(parseFloat(d.style.fontSize)-2)+'px';
+ const bottom=copy.getBoundingClientRect().bottom;
+ const fw=c.frame.dimensions[0],fh=c.frame.dimensions[1],[sx,sy,sw,sh]=c.frame.screen;
+ const dw=mac?2600:ipad?1850:1108,dx=mac?140:ipad?107:106,dy=mac?bottom+90:bottom+c.width*.055;
+ Object.assign(device.style,{left:dx+'px',top:dy+'px',width:dw+'px',height:dw*fh/fw+'px'});
+ Object.assign(document.querySelector('#screen').style,{left:sx/fw*100+'%',top:sy/fh*100+'%',width:sw/fw*100+'%',height:sh/fh*100+'%',borderRadius:(mac?18:ipad?42:130)*dw/fw+'px',objectFit:'contain',background:'#fafaf9'});
+ photo.style.display=c.import?'block':'none';pdf.style.display=c.import?'block':'none';flow.style.display=c.import?'block':'none';card.style.display=c.rect?'block':'none';
+ if(c.rect){const [l,t,r,b]=c.rect,im=document.querySelector('#card-image');let cw=mac?Math.min(c.import||c.number===3?1100:1500,(c.height-bottom-190)*(r-l)/(b-t)):ipad?1450:924,scale=cw/(r-l),ch=(b-t)*scale;
+  const cx=mac?c.width-110-cw:ipad?475:320;
+  let cy=mac?Math.min(c.height-ch-90,Math.max(bottom+100,1240)):Math.min(c.height-ch-90,Math.max(dy+730,1830));
+  if(cy<bottom+60&&!mac){cw*=.88;scale=cw/(r-l);ch=(b-t)*scale;cy=Math.min(c.height-ch-90,Math.max(dy+730,1830));}
+  Object.assign(card.style,{left:cx+'px',top:cy+'px',width:cw+'px',height:ch+'px',borderRadius:c.radius*scale+'px',transform:'rotate(-2deg)'});Object.assign(im.style,{width:im.naturalWidth*scale+'px',height:im.naturalHeight*scale+'px',left:-l*scale+'px',top:-t*scale+'px'});
+ }
+ Object.assign(photo.style,{left:(mac?-10:ipad?-20:-12)+'px',top:(mac?Math.max(bottom+115,1220):Math.max(bottom+190,ipad?1310:1160))+'px',width:(mac?1400:ipad?1520:980)+'px'});
+ Object.assign(pdf.style,{left:(mac?1470:ipad?1710:1000)+'px',top:(mac?bottom+125:Math.max(bottom+410,ipad?1510:1380))+'px',width:(mac?240:ipad?310:240)+'px'});
+ Object.assign(flow.style,{left:(mac?1695:ipad?1530:910)+'px',top:(mac?bottom+370:Math.max(bottom+650,ipad?1820:1680))+'px'});
+ const bounds=q=>document.querySelector(q).getBoundingClientRect().toJSON();
+ return {copy:bounds('.copy'),device:bounds('.device'),card:c.rect?bounds('.card'):null,photo:c.import?bounds('.photo'):null,fonts:{headline:parseFloat(h.style.fontSize),description:parseFloat(d.style.fontSize)},sourceDimensions:[document.querySelector('#screen').naturalWidth,document.querySelector('#screen').naturalHeight],openingAspect:sw/sh,copyOverflow:copy.scrollWidth>copy.clientWidth};
+};
+</script></body></html>

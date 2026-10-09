@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:20:57.743Z",
+  "locale": "kk",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/store-2.png",
+      "sha256": "a2aeda36aa910bf952622f73fd89d7bd03a22935a68529c7f5ecb87942ce3121",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/kk/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 762.34375,
+          "top": 340,
+          "right": 1228,
+          "bottom": 1102.34375,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 1174.9375,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 1174.9375,
+          "right": 1214,
+          "bottom": 3436.15625,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1292.34375,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1292.34375,
+          "right": 968,
+          "bottom": 1945.671875,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 138,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/ipad-store-2.png",
+      "sha256": "0f268d6ffffd4a928e6478ba703526826d577d3b88761ed7626b75f223dbb87b",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/kk/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 1018.390625,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1293.390625,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1406.90625,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1406.90625,
+          "right": 1957,
+          "bottom": 3819.9375,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1483.390625,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1483.390625,
+          "right": 1500,
+          "bottom": 2496.71875,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/mac-store-1.png",
+      "sha256": "24c405cbf6fae7c5b137eb230dbb69b270e60b10fd75ba434b65c9fa179bb92d",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/kk/native-1.png",
+      "copy": {
+        "headline": "Жасанды интеллект көмегімен оқу",
+        "description": "Материалдарыңыздан жасалған\nкарталар, викториналар және репетитор.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/mac-store-2.png",
+      "sha256": "64ce0d677d563404919be3d3edb760455713f47f7886eaa4bfd8a8b41cf392a8",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/kk/native-2.png",
+      "copy": {
+        "headline": "Кітаптар мен PDF.\nОқу карточкаларына.",
+        "description": "Беттерді не PDF импорттаңыз.\nЖИ оқу карточкаларын жасайды.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/mac-store-3.png",
+      "sha256": "b89c739959e2f903e2872c37b1f0a60cfb6ff0625aa8cda27a6a3f33714fc03c",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/kk/native-2.png",
+      "copy": {
+        "headline": "Күн тәртібіңізге сай келетін флешкарталар",
+        "description": "Флешкарталарды қарап шығыңыз.\nБір уақытта бір сұрақ.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/mac-store-4.png",
+      "sha256": "28989ae4d67dec425bb893af1a6354db3afad1b19166f180c3cefef4ff50947f",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/kk/native-3.png",
+      "copy": {
+        "headline": "Есте сақтағаныңызды тексеріңіз.",
+        "description": "Жазбаларыңызға негізделген викториналар.\nОрындау барысында кері байланыс.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/mac-store-5.png",
+      "sha256": "8fbe0e358226fe944dd9b30a75eda841bc1eb47770b37abfd3f5039777f63fab",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/kk/native-4.png",
+      "copy": {
+        "headline": "Сабақты түсініп, алға жылжыңыз.",
+        "description": "Оқу материалы туралы сұраңыз.\nСабақты назарда ұстаңыз.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.5059814453125,
+          "y": 1213.8768310546875,
+          "width": 1504.9881591796875,
+          "height": 221.355712890625,
+          "top": 1213.8768310546875,
+          "right": 2772.494140625,
+          "bottom": 1435.2325439453125,
+          "left": 1267.5059814453125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/mac-store-6.png",
+      "sha256": "6b537cfcdd1513a0642e388e67c08387aae244e1f9590037ece5830805985e13",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/kk/native-5.png",
+      "copy": {
+        "headline": "Толыққанды түйіндемелер",
+        "description": "Толыққанды түйіндемелер мен маңызды тұжырымдар.\nМатериалдарыңыз қайта қарауға дайын.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 1040.703125,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1255.703125,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1345.703125,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1345.703125,
+          "right": 2740,
+          "bottom": 3079.03125,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/kk/mac-store-7.png",
+      "sha256": "59d9b6aa577aee21f53a6828ab05ffd34bc040443030a9f4f924ac6b3ba201d7",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/kk/native-6.png",
+      "copy": {
+        "headline": "Сайыс режимі",
+        "description": "Топтаманы таңдаңыз.\nБілім сайысын ұйымдастырыңыз.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

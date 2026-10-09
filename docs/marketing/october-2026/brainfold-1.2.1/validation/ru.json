@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:24:02.688Z",
+  "locale": "ru",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-2.png",
+      "sha256": "24be6b7751935ed41d22e1430e05a573d4a1b6b3e7c3a271df9135e7f0937e2f",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/ru/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 775.328125,
+          "top": 340,
+          "right": 1228,
+          "bottom": 1115.328125,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 1187.921875,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 1187.921875,
+          "right": 1214,
+          "bottom": 3449.140625,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1305.328125,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1305.328125,
+          "right": 968,
+          "bottom": 1958.65625,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-2.png",
+      "sha256": "5893a3391e64b687e904ded9d1a1b509701e31cbeabb0f892f5c8a8c023eb79f",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/ru/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 1152.390625,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1427.390625,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1540.90625,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1540.90625,
+          "right": 1957,
+          "bottom": 3953.9375,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1617.390625,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1617.390625,
+          "right": 1500,
+          "bottom": 2630.71875,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/mac-store-1.png",
+      "sha256": "cf5baa8b14145407ec7e7fbe859d3947868af0c0b04e0344509a7f56339f5a48",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ru/native-1.png",
+      "copy": {
+        "headline": "Превратите заметки в учебную практику.",
+        "description": "Карточки, тесты и виртуальный репетитор — на основе ваших материалов.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/mac-store-2.png",
+      "sha256": "82a16509989c89a2ca95882164fbcdd97002eb2696c38e58d92bab3cbed1a0c6",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ru/native-2.png",
+      "copy": {
+        "headline": "Книги и PDF.\nВ учебные карточки.",
+        "description": "Импортируйте страницы или PDF.\nИИ создаст карточки для учёбы.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/mac-store-3.png",
+      "sha256": "c16b8de64035fbfe1e553297ee582a4b398668420a0819efb2d4b4623e52501b",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ru/native-2.png",
+      "copy": {
+        "headline": "Карточки",
+        "description": "Повторяйте материал по карточкам.\nПо одному вопросу за раз.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": {
+          "x": 1657.91845703125,
+          "y": 979.4595336914062,
+          "width": 1124.1630859375,
+          "height": 749.5184936523438,
+          "top": 979.4595336914062,
+          "right": 2782.08154296875,
+          "bottom": 1728.97802734375,
+          "left": 1657.91845703125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/mac-store-4.png",
+      "sha256": "cdb1fc48c93af9a174a320a3a9b558740889e09407f6cf8a9a021e1e420deeb6",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ru/native-3.png",
+      "copy": {
+        "headline": "Проверьте свои знания.",
+        "description": "Тесты по вашим заметкам.\nМгновенная обратная связь.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/mac-store-5.png",
+      "sha256": "0004703cef78675365dbb59d8db6e727dff109382eeb319bda3916b98b1c6697",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ru/native-4.png",
+      "copy": {
+        "headline": "Разберитесь в теме и двигайтесь дальше.",
+        "description": "Задавайте вопросы по учебным материалам.\nДержите урок в поле зрения.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1266.956787109375,
+          "y": 1213.886474609375,
+          "width": 1506.08642578125,
+          "height": 252.80517578125,
+          "top": 1213.886474609375,
+          "right": 2773.043212890625,
+          "bottom": 1466.691650390625,
+          "left": 1266.956787109375
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/mac-store-6.png",
+      "sha256": "52067d39fb81981361d29c1e69d6f7fcc3f9208f79f12eec550f02c248e95671",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ru/native-5.png",
+      "copy": {
+        "headline": "Учебные материалы всегда под рукой.",
+        "description": "Подробные сводки и ключевые выводы.\nВаши материалы готовы к повторению.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/mac-store-7.png",
+      "sha256": "02252f9e44583d23db2400d554d5739c86a7ab22e144d073c8db6b25781f03f6",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ru/native-6.png",
+      "copy": {
+        "headline": "Режим битвы",
+        "description": "Выберите набор.\nУстройте битву знаний.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "checkedAt": "2026-10-09T13:24:32.445Z",
+  "locale": "en-US",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "preservedApprovedEnglishPilot": true
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-2.png",
+      "sha256": "4f41ca76107bd21f862e6629443db6489c20fb3467a680f08a89e4aec344bb34",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/en-US/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 791.59375,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1066.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1180.109375,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1180.109375,
+          "right": 1957,
+          "bottom": 3593.140625,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1310,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1310,
+          "right": 1500,
+          "bottom": 2323.328125,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/mac-store-1.png",
+      "sha256": "7c3c147335ff10561edbd19bd6f65560b40eeaf1998e6e4d160dac1698967e9a",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/en-US/native-1.png",
+      "copy": {
+        "headline": "Turn your notes.\nInto practice.",
+        "description": "Flashcards, quizzes and a tutor.\nBuilt from your material.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/mac-store-2.png",
+      "sha256": "f10fc2960934a7b007e05d7e9db33d8b07fd69cfac866992237e0631e8f1412c",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/en-US/native-2.png",
+      "copy": {
+        "headline": "Books & PDFs.\nInto flashcards.",
+        "description": "Import pages or a PDF.\nAI builds your study deck.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/mac-store-3.png",
+      "sha256": "dc37cbe774f5d28fdb4dc32f57796a34aff6e908e7ed6a485f9eb40837fd7132",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/en-US/native-2.png",
+      "copy": {
+        "headline": "Make time.\nMake it stick.",
+        "description": "Review flashcards.\nOne question at a time.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/mac-store-4.png",
+      "sha256": "67ce3d20c152465612601448aeb3f3b289390f7ede47db413f7ed049a97040bc",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/en-US/native-3.png",
+      "copy": {
+        "headline": "Try what\nyou remember.",
+        "description": "Quizzes from your notes.\nFeedback as you go.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/mac-store-5.png",
+      "sha256": "a0f9fa5e73cfa29e50908911db63215fe2359dbbc9b8e4a0e56f324de4d83eb2",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/en-US/native-4.png",
+      "copy": {
+        "headline": "Get unstuck.\nKeep going.",
+        "description": "Ask about your study material.\nKeep the lesson in view.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.75732421875,
+          "y": 1213.87255859375,
+          "width": 1504.4853515625,
+          "height": 206.9580078125,
+          "top": 1213.87255859375,
+          "right": 2772.24267578125,
+          "bottom": 1420.83056640625,
+          "left": 1267.75732421875
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/mac-store-6.png",
+      "sha256": "db007f634d1a41401347244a244b1c1588b455ae855ca48e19e77dfeef7efcf5",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/en-US/native-5.png",
+      "copy": {
+        "headline": "Keep the lesson.\nClose by.",
+        "description": "Rich summaries and key insights.\nYour material, ready to review.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/mac-store-7.png",
+      "sha256": "c5d795669bb7f3d537bf715084743d172d29e3bfdf9df3a07697588fdaddc848",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/en-US/native-6.png",
+      "copy": {
+        "headline": "Bring a friend.\nTest your recall.",
+        "description": "Choose your pack.\nSet up a knowledge battle.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

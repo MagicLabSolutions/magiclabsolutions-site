@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:25:00.908Z",
+  "locale": "uk",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/store-2.png",
+      "sha256": "795d139182e0880b1cc360b5fd2de9e2cf76252aac573aaeefefb8eacfaeb866",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/uk/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 689.578125,
+          "top": 340,
+          "right": 1228,
+          "bottom": 1029.578125,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 1102.171875,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 1102.171875,
+          "right": 1214,
+          "bottom": 3363.390625,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1219.578125,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1219.578125,
+          "right": 968,
+          "bottom": 1872.90625,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/ipad-store-2.png",
+      "sha256": "4bc4dd7c61e1e1fa1b9ae01fdfe93d95580fb117f40c753cc5618570cd303b83",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/uk/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 1018.390625,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1293.390625,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1406.90625,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1406.90625,
+          "right": 1957,
+          "bottom": 3819.9375,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1483.390625,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1483.390625,
+          "right": 1500,
+          "bottom": 2496.71875,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/mac-store-1.png",
+      "sha256": "8ab087675d4eadc156c8a467795a2fe7a61fac5939ab1186a1d34c3656dadae4",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/uk/native-1.png",
+      "copy": {
+        "headline": "Навчання",
+        "description": "Картки, вікторини та репетитор.\nСтворено на основі ваших матеріалів.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/mac-store-2.png",
+      "sha256": "bb1babe9fb5c1369ae77eeead563db71947e74c0187e5e79b0c38587e6a5ae22",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/uk/native-2.png",
+      "copy": {
+        "headline": "Книги та PDF.\nУ навчальні картки.",
+        "description": "Імпортуйте сторінки або PDF.\nШІ створить картки для навчання.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/mac-store-3.png",
+      "sha256": "e47f01bb8c5ebed2ba9b79dded007b80a7594675cd4413e39b3a747f10fd1148",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/uk/native-2.png",
+      "copy": {
+        "headline": "Картки",
+        "description": "Повторюйте матеріал за допомогою карток.\nПо одному питанню за раз.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": {
+          "x": 1657.91845703125,
+          "y": 979.4595336914062,
+          "width": 1124.1630859375,
+          "height": 749.5184936523438,
+          "top": 979.4595336914062,
+          "right": 2782.08154296875,
+          "bottom": 1728.97802734375,
+          "left": 1657.91845703125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/mac-store-4.png",
+      "sha256": "33b87a1681d89d4d5f3273df354a6aab9932adeb01aa68f5c65e60fa51ee0f8e",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/uk/native-3.png",
+      "copy": {
+        "headline": "Перевіряйте свої знання.",
+        "description": "Вікторини на основі ваших нотаток.\nМиттєвий зворотний зв’язок.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/mac-store-5.png",
+      "sha256": "27d98e6d113a08878fd3b57523129a6e08cdbac93c4a1cd60bc95e9009228f19",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/uk/native-4.png",
+      "copy": {
+        "headline": "Розумійте матеріал і рухайтеся далі.",
+        "description": "Ставте запитання щодо навчальних матеріалів.\nТримайте урок у полі зору.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.271728515625,
+          "y": 1213.8809814453125,
+          "width": 1505.45654296875,
+          "height": 234.769287109375,
+          "top": 1213.8809814453125,
+          "right": 2772.728271484375,
+          "bottom": 1448.6502685546875,
+          "left": 1267.271728515625
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/mac-store-6.png",
+      "sha256": "07ef5dff7d0d7d4bee3aa6ff11074f862d8bfb7769983e674da2ccadc30bf415",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/uk/native-5.png",
+      "copy": {
+        "headline": "Тримайте навчальні матеріали під рукою.",
+        "description": "Детальні резюме та ключові тези.\nВаші матеріали, готові до повторення.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/uk/mac-store-7.png",
+      "sha256": "9ed04e3efe8ab36a2ee97268eadf543a3e1800f940f8d478a5952e3f57a175bd",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/uk/native-6.png",
+      "copy": {
+        "headline": "Запросіть друга.\nПеревірте свої знання.",
+        "description": "Оберіть набір.\nВлаштуйте інтелектуальний двобій.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

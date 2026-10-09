@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:24:19.437Z",
+  "locale": "lt",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/store-2.png",
+      "sha256": "97495d317a0a0118f53891c3a477f45ceead14a017c995c90ca1dc3546f9abe2",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/lt/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 689.578125,
+          "top": 340,
+          "right": 1228,
+          "bottom": 1029.578125,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 1102.171875,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 1102.171875,
+          "right": 1214,
+          "bottom": 3363.390625,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1219.578125,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1219.578125,
+          "right": 968,
+          "bottom": 1872.90625,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/ipad-store-2.png",
+      "sha256": "cd9a458d9d62d40771f315dd4d4a55323c012fb58d1ecfcd7772f1d10bd681dd",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/lt/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 1018.390625,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1293.390625,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1406.90625,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1406.90625,
+          "right": 1957,
+          "bottom": 3819.9375,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1483.390625,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1483.390625,
+          "right": 1500,
+          "bottom": 2496.71875,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/mac-store-1.png",
+      "sha256": "339b5701d3bf3f5ecaabe2fd089ead7fbdbdb4ab5941fc8e1964774f68390512",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/lt/native-1.png",
+      "copy": {
+        "headline": "Paverskite užrašus mokymosi praktika.",
+        "description": "Kortelės, viktorinos ir mokytojas – sukurti iš jūsų medžiagos.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/mac-store-2.png",
+      "sha256": "cde492b45030b51e1026aeef21d30d0ec5a3b200f6583267e799eba1f9c9c643",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/lt/native-2.png",
+      "copy": {
+        "headline": "Knygos ir PDF.\nĮ mokymosi korteles.",
+        "description": "Importuok puslapius arba PDF.\nDI sukuria tavo mokymosi korteles.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/mac-store-3.png",
+      "sha256": "f3843829065a24cd127068dd0945816f6d50e3ff347f38c56675dcf4eb41f21a",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/lt/native-2.png",
+      "copy": {
+        "headline": "Skirkite laiko mokymuisi ir įsiminimui.",
+        "description": "Peržiūrėkite korteles.\nPo vieną klausimą vienu metu.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/mac-store-4.png",
+      "sha256": "736f8dd6bf4b941a6e352507f0df7c0c1d8deec349a57264a145bf49be400d96",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/lt/native-3.png",
+      "copy": {
+        "headline": "Pasitikrinkite žinias.",
+        "description": "Viktorinos pagal jūsų užrašus.\nGrįžtamasis ryšys realiuoju laiku.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/mac-store-5.png",
+      "sha256": "513777bc163920b48be9b0f78ef59cb2e09cb46baecf8b6238d394428e98bf2f",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/lt/native-4.png",
+      "copy": {
+        "headline": "Supraskite pamoką ir judėkite toliau.",
+        "description": "Klauskite apie mokymosi medžiagą.\nPamoka visada prieš akis.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.016845703125,
+          "y": 1213.8853759765625,
+          "width": 1505.96630859375,
+          "height": 249.369873046875,
+          "top": 1213.8853759765625,
+          "right": 2772.983154296875,
+          "bottom": 1463.2552490234375,
+          "left": 1267.016845703125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/mac-store-6.png",
+      "sha256": "c609ff1d02e481daa764e7eb15284590c247bd2fcb0602e69f4718d1f290b108",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/lt/native-5.png",
+      "copy": {
+        "headline": "Laikykite mokymosi medžiagą po ranka.",
+        "description": "Išsamios santraukos ir pagrindinės įžvalgos.\nJūsų medžiaga – paruošta peržiūrai.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/lt/mac-store-7.png",
+      "sha256": "e02374fa5f4da45f5fb33ed95cd533fb2b7127d29703ae27a309cfee2d446913",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/lt/native-6.png",
+      "copy": {
+        "headline": "Pakviesk draugą.\nPasitikrink atmintį.",
+        "description": "Pasirink rinkinį.\nSurengk žinių dvikovą.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

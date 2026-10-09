@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:19:56.309Z",
+  "locale": "bn",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-2.png",
+      "sha256": "c051f142b2865d55b561297ceaeeef11b79db8c3c48d80502cae622a513dce59",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/bn/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 536.21875,
+          "top": 340,
+          "right": 1228,
+          "bottom": 876.21875,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 948.8125,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 948.8125,
+          "right": 1214,
+          "bottom": 3210.03125,
+          "left": 106
+        },
+        "card": {
+          "x": 303.34918212890625,
+          "y": 1791.8126220703125,
+          "width": 957.3015747070312,
+          "height": 1001.9998779296875,
+          "top": 1791.8126220703125,
+          "right": 1260.6507568359375,
+          "bottom": 2793.8125,
+          "left": 303.34918212890625
+        },
+        "photo": {
+          "x": -12,
+          "y": 1160,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1160,
+          "right": 968,
+          "bottom": 1813.328125,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-2.png",
+      "sha256": "bb4da136fa7e2c795cd9e55eb412bee933dfc7080100107d9e5a81ff9f50ea96",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/bn/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 791.59375,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1066.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1180.109375,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1180.109375,
+          "right": 1957,
+          "bottom": 3593.140625,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1310,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1310,
+          "right": 1500,
+          "bottom": 2323.328125,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/mac-store-1.png",
+      "sha256": "620a8c1aa7bccea2b6af58e6fcc4e046ae62fabcef059893bc408b5b8ecacd32",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/bn/native-1.png",
+      "copy": {
+        "headline": "AI স্টাডি কম্প্যানিয়ন (পড়াশোনায় সহায়তাকারী AI)",
+        "description": "ফ্ল্যাশকার্ড, কুইজ এবং একজন টিউটর—সবই আপনার নিজস্ব উপকরণ থেকে তৈরি।",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 1136.4375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1351.4375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1441.4375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1441.4375,
+          "right": 2740,
+          "bottom": 3174.765625,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 116
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/mac-store-2.png",
+      "sha256": "9840ebd9f70eb9dda84f8b12bdf8075cc9257d786d3ebc3daab7cb6e979b3120",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/bn/native-2.png",
+      "copy": {
+        "headline": "বই ও PDF।\nপড়ার ফ্ল্যাশকার্ডে।",
+        "description": "পাতা বা PDF আনুন।\nAI আপনার ফ্ল্যাশকার্ড তৈরি করে।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/mac-store-3.png",
+      "sha256": "55e230ed3b0bae2238b766831df8f54796eafdae7d57b39e87976320e6d0e2eb",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/bn/native-2.png",
+      "copy": {
+        "headline": "শেখা ও মনে রাখার জন্য সময় বের করুন।",
+        "description": "ফ্ল্যাশকার্ডগুলো পর্যালোচনা করুন।\nএকবারে একটি করে প্রশ্ন।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/mac-store-4.png",
+      "sha256": "fbe8b0ec652785e8673dbbf2be0203a65bfe99edb2b3e80c1f799b2fdbeefbb5",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/bn/native-3.png",
+      "copy": {
+        "headline": "আপনার মনে থাকা বিষয়গুলো যাচাই করুন।",
+        "description": "আপনার নোট থেকে কুইজ।\nসাথে সাথেই ফিডব্যাক বা মতামত।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/mac-store-5.png",
+      "sha256": "3b0c2489f886ac3938f706dd68b3be16ee9f3e9db1ded1f8931c6ed4ab277e86",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/bn/native-4.png",
+      "copy": {
+        "headline": "পাঠটি বুঝুন এবং এগিয়ে যান।",
+        "description": "আপনার পড়ার বিষয়বস্তু সম্পর্কে প্রশ্ন করুন।\nপাঠটি চোখের সামনে রাখুন।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.09375,
+          "y": 1213.884033203125,
+          "width": 1505.8125,
+          "height": 244.96630859375,
+          "top": 1213.884033203125,
+          "right": 2772.90625,
+          "bottom": 1458.850341796875,
+          "left": 1267.09375
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/mac-store-6.png",
+      "sha256": "d6909316124204da76beae350541af210a0b26737d674f98dce5c72f2fca901e",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/bn/native-5.png",
+      "copy": {
+        "headline": "আপনার পড়ার উপকরণ হাতের কাছেই রাখুন।",
+        "description": "বিস্তারিত সারাংশ এবং মূল বিষয়গুলো।\nপর্যালোচনার জন্য প্রস্তুত আপনার নিজস্ব উপকরণ।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/mac-store-7.png",
+      "sha256": "079bb17536719059e18cb51edc92e693af0995794f6277531f33b762937a4254",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/bn/native-6.png",
+      "copy": {
+        "headline": "ব্যাটল মোড",
+        "description": "আপনার প্যাকটি বেছে নিন।\nজ্ঞানের লড়াই শুরু করুন।",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

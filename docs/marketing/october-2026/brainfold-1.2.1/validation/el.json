@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:24:03.288Z",
+  "locale": "el",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-2.png",
+      "sha256": "a4264055b67502bc6c9adf749c4c774d655b73332fed373932d201b2a9462a83",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/el/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 689.578125,
+          "top": 340,
+          "right": 1228,
+          "bottom": 1029.578125,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 1102.171875,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 1102.171875,
+          "right": 1214,
+          "bottom": 3363.390625,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1219.578125,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1219.578125,
+          "right": 968,
+          "bottom": 1872.90625,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-2.png",
+      "sha256": "e3303d3775f2bc6ff660dace9e2247255ec203612c9e65a63a98064aafca95ff",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/el/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 1018.390625,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1293.390625,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1406.90625,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1406.90625,
+          "right": 1957,
+          "bottom": 3819.9375,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1483.390625,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1483.390625,
+          "right": 1500,
+          "bottom": 2496.71875,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/mac-store-1.png",
+      "sha256": "4a7946f15df5bb5344137088eb1b1c989f75103282a29022ab9d6cac21a886fb",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/el/native-1.png",
+      "copy": {
+        "headline": "Μελέτη",
+        "description": "Κάρτες μνήμης (flashcards), κουίζ και προσωπικός βοηθός μελέτης.\nΔημιουργημένα από το υλικό σας.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 781.515625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 996.515625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1086.515625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1086.515625,
+          "right": 2740,
+          "bottom": 2819.84375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/mac-store-2.png",
+      "sha256": "b90bdbdd4f5c914244fc7629d190063e5eaa1176b1cdcc648db14ea573cd4368",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/el/native-2.png",
+      "copy": {
+        "headline": "Βιβλία και PDF.\nΣε κάρτες μελέτης.",
+        "description": "Εισήγαγε σελίδες ή PDF.\nΗ AI δημιουργεί τις κάρτες σου.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/mac-store-3.png",
+      "sha256": "31f05073ab28baac959fd8c020149007cc25b39cff32416a9e7b7c0940a96055",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/el/native-2.png",
+      "copy": {
+        "headline": "Κάρτες μελέτης",
+        "description": "Ελέγξτε τις κάρτες μνήμης.\nΜία ερώτηση τη φορά.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": {
+          "x": 1657.91845703125,
+          "y": 979.4595336914062,
+          "width": 1124.1630859375,
+          "height": 749.5184936523438,
+          "top": 979.4595336914062,
+          "right": 2782.08154296875,
+          "bottom": 1728.97802734375,
+          "left": 1657.91845703125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/mac-store-4.png",
+      "sha256": "e5c6c04a6a30bcdbd07ff1070db6029762735a988b6909e3d5a52868a5ebca0c",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/el/native-3.png",
+      "copy": {
+        "headline": "Ελέγξτε τι θυμάστε.",
+        "description": "Κουίζ βασισμένα στις σημειώσεις σας.\nΆμεση ανατροφοδότηση.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/mac-store-5.png",
+      "sha256": "b7eb87349799924f7271ab98a18dfb3b438d9dbd259fb22d1bc1b6dba2fd8f7c",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/el/native-4.png",
+      "copy": {
+        "headline": "Κατανοήστε το μάθημα και συνεχίστε.",
+        "description": "Κάντε ερωτήσεις για το υλικό μελέτης σας.\nΈχετε το μάθημα πάντα μπροστά σας.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.969482421875,
+          "y": 1213.8687744140625,
+          "width": 1504.06103515625,
+          "height": 194.809326171875,
+          "top": 1213.8687744140625,
+          "right": 2772.030517578125,
+          "bottom": 1408.6781005859375,
+          "left": 1267.969482421875
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/mac-store-6.png",
+      "sha256": "deded4f3345993108a9ace0ceeb2c106a28b8dfbba22c3ad30596cd31e4187a6",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/el/native-5.png",
+      "copy": {
+        "headline": "Περίληψη",
+        "description": "Πλούσιες περιλήψεις και βασικά σημεία.\nΤο υλικό σας, έτοιμο για επανάληψη.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/mac-store-7.png",
+      "sha256": "406b46aa2e75e4fdbfa87d24737b5fa4d16d9772109b989e69895f71009115d0",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/el/native-6.png",
+      "copy": {
+        "headline": "Φέρε έναν φίλο.\nΈλεγξε τη μνήμη σου.",
+        "description": "Διάλεξε το πακέτο σου.\nΟργάνωσε μια μάχη γνώσεων.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

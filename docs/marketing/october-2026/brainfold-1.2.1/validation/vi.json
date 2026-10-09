@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:25:13.452Z",
+  "locale": "vi",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/store-2.png",
+      "sha256": "24e2e55053dea196197a56e39dbd0c19c67164dd94a8ade661743fb9488baf3d",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/vi/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 536.21875,
+          "top": 340,
+          "right": 1228,
+          "bottom": 876.21875,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 948.8125,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 948.8125,
+          "right": 1214,
+          "bottom": 3210.03125,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1160,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1160,
+          "right": 968,
+          "bottom": 1813.328125,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/ipad-store-2.png",
+      "sha256": "61ba8de7fee8c626c51b5ad50660d2d32930696ab7ed04ea3f7ccaf8473ba811",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/vi/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 791.59375,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1066.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1180.109375,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1180.109375,
+          "right": 1957,
+          "bottom": 3593.140625,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1310,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1310,
+          "right": 1500,
+          "bottom": 2323.328125,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/mac-store-1.png",
+      "sha256": "8542c4cc7a2f3877a2e3189262e396f6a9e0f538711c18f525ea76696b7e62fe",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/vi/native-1.png",
+      "copy": {
+        "headline": "Biến ghi chú thành bài tập ôn luyện.",
+        "description": "Thẻ ghi nhớ (flashcard), bài trắc nghiệm và gia sư ảo.\nĐược tạo từ tài liệu của bạn.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/mac-store-2.png",
+      "sha256": "225b83a0c3ebf084c522df5a3f1bc83744fcf7b84f4e2eb4596f7f76ce875724",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/vi/native-2.png",
+      "copy": {
+        "headline": "Sách và PDF.\nThành thẻ ghi nhớ.",
+        "description": "Nhập các trang hoặc PDF.\nAI tạo bộ thẻ học cho bạn.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/mac-store-3.png",
+      "sha256": "5a453e9b7c6d7354e1d34c44f75ec42bf913d861f695806dacbb22b49f9f47e4",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/vi/native-2.png",
+      "copy": {
+        "headline": "Dành thời gian để học và ghi nhớ.",
+        "description": "Ôn tập thẻ ghi nhớ.\nMỗi lần một câu hỏi.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/mac-store-4.png",
+      "sha256": "cc621be4764eeec754f72463d990264feef68ea978ba65be9a5a5fb6de3afced",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/vi/native-3.png",
+      "copy": {
+        "headline": "Kiểm tra những gì bạn đã nhớ.",
+        "description": "Bài trắc nghiệm từ ghi chú của bạn.\nNhận phản hồi ngay trong quá trình làm bài.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/mac-store-5.png",
+      "sha256": "2d1e077dc1e0f27df7a5d0ab29c785850a80038ec04746a22ab45e9ba1fd403f",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/vi/native-4.png",
+      "copy": {
+        "headline": "Hiểu bài học và tiếp tục tiến bước.",
+        "description": "Đặt câu hỏi về tài liệu học tập.\nLuôn nắm bắt nội dung bài học.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.8282470703125,
+          "y": 1213.8712158203125,
+          "width": 1504.3436279296875,
+          "height": 202.898193359375,
+          "top": 1213.8712158203125,
+          "right": 2772.171875,
+          "bottom": 1416.7694091796875,
+          "left": 1267.8282470703125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/mac-store-6.png",
+      "sha256": "86219115f821cf43d1a39765875719ad54405f139ff14dee237ab37bfa6f9ec8",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/vi/native-5.png",
+      "copy": {
+        "headline": "Luôn để tài liệu học tập ngay tầm tay.",
+        "description": "Tóm tắt chi tiết và những điểm mấu chốt.\nTài liệu của bạn, sẵn sàng để ôn tập.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/vi/mac-store-7.png",
+      "sha256": "9ee63af1041665b2708ddbe7065028d74d80ccb6974d193ed13c51ebeb53adaf",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/vi/native-6.png",
+      "copy": {
+        "headline": "Chế độ đấu",
+        "description": "Chọn bộ câu hỏi.\nThiết lập một cuộc đấu kiến ​​thức.",
+        "compactHeadline": true
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

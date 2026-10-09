@@ -1,0 +1,21 @@
+{
+  "sourceRepository": "Brainfold",
+  "revision": "57808716e4c56bc662a35000116f37081d2cef7d",
+  "platform": "Mac Catalyst",
+  "captureBundleId": "com.magiclabsolutions.brain.fold.marketing.mac.capture",
+  "build": "Xcode 27, Catalyst Debug, ad hoc isolated marketing app; production checkout unchanged",
+  "privacy": "Built-in screenshot fixtures, Firebase network and analytics disabled; mock session initialized without reading an existing Firebase user; native hierarchy rasterized without desktop screen capture",
+  "canvas": [
+    2400,
+    1508
+  ],
+  "releaseVersion": "1.2.1",
+  "panels": [
+    "PackDetailView",
+    "FlashcardsView",
+    "QuizView",
+    "TutorView",
+    "SummaryView",
+    "BattleSetupView"
+  ]
+}

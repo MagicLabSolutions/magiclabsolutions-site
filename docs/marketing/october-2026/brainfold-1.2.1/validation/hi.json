@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:19:45.528Z",
+  "locale": "hi",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-2.png",
+      "sha256": "66ab58b1d89dee835ea7f3d1c079a095c6b674b1b51cbb4e24f182dc5568fbf9",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/hi/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 536.21875,
+          "top": 340,
+          "right": 1228,
+          "bottom": 876.21875,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 948.8125,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 948.8125,
+          "right": 1214,
+          "bottom": 3210.03125,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1160,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1160,
+          "right": 968,
+          "bottom": 1813.328125,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-2.png",
+      "sha256": "b2966cae87df170920d15b554620a9d666fda20a051304de39299bc74ccb377a",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/hi/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 791.59375,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1066.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1180.109375,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1180.109375,
+          "right": 1957,
+          "bottom": 3593.140625,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1310,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1310,
+          "right": 1500,
+          "bottom": 2323.328125,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/mac-store-1.png",
+      "sha256": "ae7231b08f651a252f4b04d161cb60bd6ada87691fc895aa60536caa6ed7710f",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/hi/native-1.png",
+      "copy": {
+        "headline": "अपने नोट्स को स्टडी प्रैक्टिस में बदलें।",
+        "description": "फ़्लैशकार्ड, क्विज़ और एक ट्यूटर।\nआपके मटीरियल से बने।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/mac-store-2.png",
+      "sha256": "4b5c81bc04b05753c269132e300dec61b5ff542618c410721c41f95b5caa76b0",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/hi/native-2.png",
+      "copy": {
+        "headline": "किताबें और PDF।\nफ़्लैशकार्ड में।",
+        "description": "पेज या PDF आयात करें।\nAI आपके पढ़ाई के कार्ड बनाता है।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/mac-store-3.png",
+      "sha256": "f55c006d91b56490a0b3b5c4ffa99c79ed38a4d3c4c10582740d34c58bd3da9a",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/hi/native-2.png",
+      "copy": {
+        "headline": "सीखने और याद रखने के लिए समय निकालें।",
+        "description": "फ़्लैशकार्ड की समीक्षा करें।\nएक बार में एक सवाल।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/mac-store-4.png",
+      "sha256": "a3c853af126065107db4937ceebc3fd6b4458f364dbcdcae8a341a1a36f960aa",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/hi/native-3.png",
+      "copy": {
+        "headline": "जांचें कि आपको क्या याद है।",
+        "description": "आपके नोट्स से क्विज़।\nसाथ-साथ फ़ीडबैक।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/mac-store-5.png",
+      "sha256": "b919b95835c31d3d7887c6bb0a8dac592ea87c61e3261577e9918da365d71949",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/hi/native-4.png",
+      "copy": {
+        "headline": "लेसन को समझें और आगे बढ़ें।",
+        "description": "अपने स्टडी मटीरियल के बारे में पूछें।\nलेसन को ध्यान में रखें।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.491455078125,
+          "y": 1213.877197265625,
+          "width": 1505.01708984375,
+          "height": 222.18310546875,
+          "top": 1213.877197265625,
+          "right": 2772.508544921875,
+          "bottom": 1436.060302734375,
+          "left": 1267.491455078125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/mac-store-6.png",
+      "sha256": "25c568610ac663bf4a2be4561a72af293421561f9f79cd44ee62d6f9a026d222",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/hi/native-5.png",
+      "copy": {
+        "headline": "अपना स्टडी मटीरियल पास रखें।",
+        "description": "बेहतरीन समरी और मुख्य बातें।\nआपका मटीरियल, समीक्षा के लिए तैयार।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/mac-store-7.png",
+      "sha256": "79ced5239163d9427e1bc309898911d6287ab7616feecafff94a20e9204026c5",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/hi/native-6.png",
+      "copy": {
+        "headline": "दोस्त को साथ लाएँ।\nअपनी याददाश्त परखें।",
+        "description": "अपना पैक चुनें।\nनॉलेज बैटल शुरू करें।",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

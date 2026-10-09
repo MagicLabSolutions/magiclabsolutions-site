@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:20:45.270Z",
+  "locale": "ja",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-2.png",
+      "sha256": "f07f337bc170626ced55ec07570146582969c2be714fc413d0ac10c4f05a469e",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/ja/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 621.96875,
+          "top": 340,
+          "right": 1228,
+          "bottom": 961.96875,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 1034.5625,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 1034.5625,
+          "right": 1214,
+          "bottom": 3295.78125,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1160,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1160,
+          "right": 968,
+          "bottom": 1813.328125,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-2.png",
+      "sha256": "f0973ab373b5fdacc8a79b348ad1f1512f8ab3f2061c2498d20d0c430313b057",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/ja/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 925.59375,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1200.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1314.109375,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1314.109375,
+          "right": 1957,
+          "bottom": 3727.140625,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1390.59375,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1390.59375,
+          "right": 1500,
+          "bottom": 2403.921875,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/mac-store-1.png",
+      "sha256": "aa56d828a41c95a2f417983e773c85ec893c391fc8452f55719fc1e10f0bda25",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ja/native-1.png",
+      "copy": {
+        "headline": "ノートを学習・練習用コンテンツに変換",
+        "description": "自分の教材から生成されるフラッシュカード、クイズ、チューター機能",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/mac-store-2.png",
+      "sha256": "c52b168c747a7c186b11db529175a393acfa84b31d7dba80a751d9b0937f66ce",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ja/native-2.png",
+      "copy": {
+        "headline": "本やPDFから。\n暗記カードへ。",
+        "description": "ページやPDFを読み込み。\nAIが学習カードを作成します。",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/mac-store-3.png",
+      "sha256": "012d45cde412ae2a8aed3030fd11892be8ead56aff93c6b6ceaed117f21d0e1e",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ja/native-2.png",
+      "copy": {
+        "headline": "学び、記憶するための時間を確保",
+        "description": "フラッシュカードで復習。\n1問ずつ着実に",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/mac-store-4.png",
+      "sha256": "3ff668f767d54eefce15526fb826c2928ad7c5f33d582f7075eda5f65ec1cd83",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ja/native-3.png",
+      "copy": {
+        "headline": "記憶の定着度をテスト",
+        "description": "ノートに基づくクイズ。\nその場でフィードバック",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/mac-store-5.png",
+      "sha256": "befe5e754583df4b27a2dd51be78bac28572df20c1e5607d93286af0061dee0c",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ja/native-4.png",
+      "copy": {
+        "headline": "レッスンを理解し、学習を継続",
+        "description": "教材について質問。\nレッスン内容を常に確認",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.131103515625,
+          "y": 1213.8834228515625,
+          "width": 1505.73779296875,
+          "height": 242.826904296875,
+          "top": 1213.8834228515625,
+          "right": 2772.868896484375,
+          "bottom": 1456.7103271484375,
+          "left": 1267.131103515625
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/mac-store-6.png",
+      "sha256": "bd365e88e9975c289f2a65a49c1e7b3110d194a68b9a0db35234d4df5968f9c0",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ja/native-5.png",
+      "copy": {
+        "headline": "教材をいつでも手元に",
+        "description": "充実した要約と重要なポイント。\n復習に最適な教材データ",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/mac-store-7.png",
+      "sha256": "eefda5298050736422325d45ee472293d0147fb6b5c73a699df474cbcbd5fa59",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ja/native-6.png",
+      "copy": {
+        "headline": "友達を誘って、記憶力を試そう。",
+        "description": "パックを選んで、知識バトルを開始。",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 724.484375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 939.484375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1029.484375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1029.484375,
+          "right": 2740,
+          "bottom": 2762.8125,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "checkedAt": "2026-10-09T13:20:44.727Z",
+  "locale": "de",
+  "images": [
+    {
+      "format": "iphone",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-2.png",
+      "sha256": "a10e9fba72aed60ded4ce7bc94a950178d124ce5dbe9340be49b771c3229ec3d",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/de/iphone/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 92,
+          "y": 340,
+          "width": 1136,
+          "height": 621.96875,
+          "top": 340,
+          "right": 1228,
+          "bottom": 961.96875,
+          "left": 92
+        },
+        "device": {
+          "x": 106,
+          "y": 1034.5625,
+          "width": 1108,
+          "height": 2261.21875,
+          "top": 1034.5625,
+          "right": 1214,
+          "bottom": 3295.78125,
+          "left": 106
+        },
+        "card": {
+          "x": 303.5108642578125,
+          "y": 1801.075439453125,
+          "width": 956.978271484375,
+          "height": 992.73974609375,
+          "top": 1801.075439453125,
+          "right": 1260.4891357421875,
+          "bottom": 2793.815185546875,
+          "left": 303.5108642578125
+        },
+        "photo": {
+          "x": -12,
+          "y": 1160,
+          "width": 980,
+          "height": 653.328125,
+          "top": 1160,
+          "right": 968,
+          "bottom": 1813.328125,
+          "left": -12
+        },
+        "fonts": {
+          "headline": 142,
+          "description": 64
+        },
+        "sourceDimensions": [
+          1320,
+          2868
+        ],
+        "openingAspect": 0.4602510460251046,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "ipad",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-2.png",
+      "sha256": "40f3e4fe756c1479bf6d17a00f2ed29b38eb94c93a54f7525d3f30837031a3b5",
+      "capture": "docs/marketing/october-2026/localized/native/brainfold/de/ipad/native-2.png",
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 275,
+          "width": 1784,
+          "height": 925.59375,
+          "top": 275,
+          "right": 1924,
+          "bottom": 1200.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 107,
+          "y": 1314.109375,
+          "width": 1850,
+          "height": 2413.03125,
+          "top": 1314.109375,
+          "right": 1957,
+          "bottom": 3727.140625,
+          "left": 107
+        },
+        "card": {
+          "x": 460.1987609863281,
+          "y": 1763.4171142578125,
+          "width": 1479.6025390625,
+          "height": 923.6033935546875,
+          "top": 1763.4171142578125,
+          "right": 1939.8013000488281,
+          "bottom": 2687.0205078125,
+          "left": 460.1987609863281
+        },
+        "photo": {
+          "x": -20,
+          "y": 1390.59375,
+          "width": 1520,
+          "height": 1013.328125,
+          "top": 1390.59375,
+          "right": 1500,
+          "bottom": 2403.921875,
+          "left": -20
+        },
+        "fonts": {
+          "headline": 210,
+          "description": 100
+        },
+        "sourceDimensions": [
+          2064,
+          2752
+        ],
+        "openingAspect": 0.75,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/mac-store-1.png",
+      "sha256": "a89c5ba5e334e6231252e4c6fa360fe39554abe4c161c03754cbcc5f929a440f",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/de/native-1.png",
+      "copy": {
+        "headline": "Verwandeln Sie Ihre Notizen in Lernmaterial.",
+        "description": "Karteikarten, Quizze und ein Tutor – basierend auf Ihren Unterlagen.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/mac-store-2.png",
+      "sha256": "6956cf843861f227d9c518fec5c2da104bf313da022088b229869536ccb82d91",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/de/native-2.png",
+      "copy": {
+        "headline": "Bücher & PDFs.\nZu Lernkarten.",
+        "description": "Importiere Seiten oder ein PDF.\nKI erstellt deine Lernkarten.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": {
+          "x": -10,
+          "y": 1220,
+          "width": 1400,
+          "height": 933.328125,
+          "top": 1220,
+          "right": 1390,
+          "bottom": 2153.328125,
+          "left": -10
+        },
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/mac-store-3.png",
+      "sha256": "242074a9a20cd3b71b9ab2e9e07334020f3db4fb802e086412c19285ea767aba",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/de/native-2.png",
+      "copy": {
+        "headline": "Zeit zum Lernen und Einprägen finden.",
+        "description": "Karteikarten durchgehen.\nEine Frage nach der anderen.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1969.1593017578125,
+          "y": 1183.927490234375,
+          "width": 809.5252685546875,
+          "height": 539.73876953125,
+          "top": 1183.927490234375,
+          "right": 2778.6845703125,
+          "bottom": 1723.666259765625,
+          "left": 1969.1593017578125
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/mac-store-4.png",
+      "sha256": "39790989194a5df4b0b0e5d3ea711189607ba57ae10b1203d2e0ada62377aab7",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/de/native-3.png",
+      "copy": {
+        "headline": "Ihr Wissen testen.",
+        "description": "Quizze aus Ihren Notizen.\nDirektes Feedback.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 623.40625,
+          "top": 215,
+          "right": 2740,
+          "bottom": 838.40625,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 928.40625,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 928.40625,
+          "right": 2740,
+          "bottom": 2661.734375,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/mac-store-5.png",
+      "sha256": "07acb3fd339802163e79954b3567c67a4a4d581a4a716dbb099386b5aaaeb21b",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/de/native-4.png",
+      "copy": {
+        "headline": "Den Lernstoff verstehen und weitermachen.",
+        "description": "Fragen zu Ihren Lerninhalten stellen.\nDen Lernstoff im Blick behalten.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": {
+          "x": 1267.9168701171875,
+          "y": 1213.8697509765625,
+          "width": 1504.1663818359375,
+          "height": 197.822998046875,
+          "top": 1213.8697509765625,
+          "right": 2772.083251953125,
+          "bottom": 1411.6927490234375,
+          "left": 1267.9168701171875
+        },
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/mac-store-6.png",
+      "sha256": "9ed363eb3b6fbe65e4d132f3dec3783bbbf7fc4a0945b3e151c4f5e13f941ed4",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/de/native-5.png",
+      "copy": {
+        "headline": "Lernmaterial immer griffbereit haben.",
+        "description": "Ausführliche Zusammenfassungen und wichtige Erkenntnisse.\nIhre Unterlagen – bereit zur Wiederholung.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 1040.703125,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1255.703125,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1345.703125,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1345.703125,
+          "right": 2740,
+          "bottom": 3079.03125,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/mac-store-7.png",
+      "sha256": "1d4b0192e88f0b25312944264bee910f00fad1a4e66a93cac2da243432c556a0",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/de/native-6.png",
+      "copy": {
+        "headline": "Bring einen Freund mit.\nTeste dein Gedächtnis.",
+        "description": "Wähle dein Paket.\nStarte ein Wissensduell.",
+        "compactHeadline": false
+      },
+      "metrics": {
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 882.59375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1097.59375,
+          "left": 140
+        },
+        "device": {
+          "x": 140,
+          "y": 1187.59375,
+          "width": 2600,
+          "height": 1733.328125,
+          "top": 1187.59375,
+          "right": 2740,
+          "bottom": 2920.921875,
+          "left": 140
+        },
+        "card": null,
+        "photo": null,
+        "fonts": {
+          "headline": 240,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "copyOverflow": false
+      }
+    }
+  ]
+}

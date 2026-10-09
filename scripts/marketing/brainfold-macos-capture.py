@@ -1,0 +1,20 @@
+"""Capture only a caller-specified isolated Catalyst build, with bundled sample data."""
+import argparse, hashlib, json, os, subprocess
+from pathlib import Path
+p=argparse.ArgumentParser();p.add_argument('--binary',required=True);p.add_argument('--locales');args=p.parse_args()
+root=Path(__file__).resolve().parents[2];output=root/'docs/marketing/october-2026/brainfold-1.2.1';binary=Path(args.binary).resolve()
+assert '/brainfold-macos-marketing-' in str(binary), 'Use the isolated capture build only'
+locales=json.loads((root/'docs/marketing/october-2026/localized/languages.json').read_text())['brainfold']['locales']
+if args.locales:locales=args.locales.split(',')
+for i,locale in enumerate(locales):
+ destination=output/'native'/locale;destination.mkdir(parents=True,exist_ok=True);record=destination/'provenance.json'
+ if record.exists() and all((destination/f'native-{j}.png').exists() for j in range(1,7)):
+  print('CACHED',locale,flush=True);continue
+ command=[str(binary),'-SCREENSHOT_MODE','-UIViewAnimationsDisabled','YES','-marketing-out',str(destination),'-AppleLanguages',f'({locale})','-AppleLocale',locale.replace('-','_'),'-NSQuitAlwaysKeepsWindows','NO']
+ with (destination/'capture.log').open('w') as log:
+  r=subprocess.run(command,env={**os.environ,'DISABLE_ANIMATIONS':'1'},stdout=log,stderr=subprocess.STDOUT,timeout=80)
+ assert r.returncode==0,(locale,r.returncode)
+ captures=[l for l in (destination/'capture.log').read_text().splitlines() if l.startswith('CAPTURE ')]
+ assert len(captures)==6 and all('2400x1508' in l for l in captures),(locale,captures)
+ record.write_text(json.dumps({'source':'Native Mac Catalyst UIKit hierarchy, 1200 × 754 pt, 2x; no desktop or personal app data captured','locale':locale,'binarySha256':hashlib.sha256(binary.read_bytes()).hexdigest(),'captures':captures,'images':{f'native-{j}.png':hashlib.sha256((destination/f'native-{j}.png').read_bytes()).hexdigest() for j in range(1,7)}},ensure_ascii=False,indent=2)+'\n')
+ print('CAPTURED',locale,f'{i+1}/{len(locales)}',flush=True)

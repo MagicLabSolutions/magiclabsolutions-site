@@ -1,0 +1,155 @@
+--- a/Brainfold/Core/Managers/LibraryManager.swift
++++ b/Brainfold/Core/Managers/LibraryManager.swift
+@@ -2,0 +3 @@
++import FirebaseFirestore
+@@ -15,0 +17,7 @@
++        if MockDataProvider.isScreenshotMode {
++            UserDefaultFlags.didShowPackDetailOnboarding = true
++            Firestore.firestore().disableNetwork()
++            RemoteConfigManager.start()
++            Task { @MainActor in SessionManager.shared.startListening() }
++            return
++        }
+--- a/Brainfold/Core/Managers/SessionManager.swift
++++ b/Brainfold/Core/Managers/SessionManager.swift
+@@ -104 +104 @@
+-        firebaseUser = Auth.auth().currentUser
++        firebaseUser = MockDataProvider.isScreenshotMode ? nil : Auth.auth().currentUser
+--- a/Brainfold/App/BrainfoldApp.swift
++++ b/Brainfold/App/BrainfoldApp.swift
+@@ -54 +54 @@
+-            ContentView()
++            MarketingCaptureRoot()
+--- a/Brainfold/Info.plist
++++ b/Brainfold/Info.plist
+@@ -33,0 +34,6 @@
++	<key>FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED</key>
++	<true/>
++	<key>FirebaseAutomaticScreenReportingEnabled</key>
++	<false/>
++	<key>FirebaseCrashlyticsCollectionEnabled</key>
++	<false/>
+@@ -39,0 +46,4 @@
++	<key>NSCameraUsageDescription</key>
++	<string>Brainfold needs camera access to scan textbook pages</string>
++	<key>NSPhotoLibraryUsageDescription</key>
++	<string>Brainfold needs photo library access to import images</string>
+@@ -50,4 +59,0 @@
+-	<key>NSCameraUsageDescription</key>
+-	<string>Brainfold needs camera access to scan textbook pages</string>
+-	<key>NSPhotoLibraryUsageDescription</key>
+-	<string>Brainfold needs photo library access to import images</string>
+--- a/project.yml
++++ b/project.yml
+@@ -27,5 +26,0 @@
+-  AppStoreScreenshotGenerator:
+-    path: ../AppStoreScreenshotGenerator
+-  AppScreenshotKit:
+-    url: https://github.com/shitamori1272/AppScreenshotKit.git
+-    from: 0.2.0
+@@ -53 +48 @@
+-        PRODUCT_BUNDLE_IDENTIFIER: com.magiclabsolutions.brain.fold
++        PRODUCT_BUNDLE_IDENTIFIER: com.magiclabsolutions.brain.fold.marketing.mac.capture
+@@ -85,2 +79,0 @@
+-      - package: AppStoreScreenshotGenerator
+-        product: AppStoreScreenshotGenerator
+@@ -89,99 +81,0 @@
+-    postBuildScripts:
+-      - name: Upload dSYMs to Crashlytics
+-        basedOnDependencyAnalysis: false
+-        script: |
+-          "${BUILD_DIR%Build/*}SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run"
+-        inputFiles:
+-          - ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}
+-          - ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}
+-          - ${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist
+-          - $(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist
+-          - $(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)
+-
+-  BrainfoldUITests:
+-    type: bundle.ui-testing
+-    platform: iOS
+-    sources:
+-      - path: BrainfoldUITests
+-        excludes:
+-          - "**/.DS_Store"
+-    settings:
+-      base:
+-        PRODUCT_BUNDLE_IDENTIFIER: com.magiclabsolutions.brain.fold.uitests
+-        GENERATE_INFOPLIST_FILE: "YES"
+-        TEST_HOST: ""
+-        TEST_TARGET_NAME: Brainfold
+-    dependencies:
+-      - target: Brainfold
+-
+-  BrainfoldScreenshots:
+-    type: bundle.unit-test
+-    platform: iOS
+-    sources:
+-      - path: BrainfoldScreenshots
+-        excludes:
+-          - "**/.DS_Store"
+-    resources:
+-      - path: BrainfoldScreenshots/Localizable.xcstrings
+-    settings:
+-      base:
+-        PRODUCT_BUNDLE_IDENTIFIER: com.magiclabsolutions.brain.fold.screenshots
+-        GENERATE_INFOPLIST_FILE: "YES"
+-    dependencies:
+-      - package: AppStoreScreenshotGenerator
+-        product: AppStoreScreenshotGenerator
+-      - package: AppStoreScreenshotGenerator
+-        product: AppStoreScreenshotGeneratorTestSupport
+-      - package: AppScreenshotKit
+-        product: AppScreenshotKit
+-      - package: AppScreenshotKit
+-        product: AppScreenshotKitTestTools
+-    postBuildScripts:
+-      - name: Fix Bezel Path
+-        basedOnDependencyAnalysis: false
+-        script: |
+-          BUNDLE="${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.xctest/AppScreenshotKit_AppScreenshotKitTestTools.bundle"
+-          CACHE="${HOME}/Library/Caches/com.shitamori1272.AppScreenshotKit/AppleDesignResource/Bezels"
+-          DEST="${BUNDLE}/AppleDesignResource/Bezels"
+-          if [ -d "${CACHE}" ]; then
+-            rm -rf "${DEST}"
+-            mkdir -p "${DEST}"
+-            cp -R "${CACHE}/" "${DEST}/"
+-            echo "Bezels copied to ${DEST}"
+-            # iPad Pro bezel naming fix:
+-            # AppScreenshotKit rawValue = "iPad Pro 13 - M4" (no inch mark)
+-            # Cache filename           = "iPad Pro 13\" - M4 - ..." (has inch mark after size)
+-            # Copy with the name the library expects so BezelImageLoader finds it.
+-            SKETCH="${DEST}/Apple-Sketch-Library-Product-Bezels"
+-            for ORIENT in Portrait Landscape; do
+-              for COLOR in "Space Gray" Silver; do
+-                SRC="${SKETCH}/iPad Pro 13\" - M4 - ${COLOR} - ${ORIENT}.png"
+-                DST="${DEST}/iPad Pro 13 - M4 - ${COLOR} - ${ORIENT}.png"
+-                [ -f "${SRC}" ] && cp "${SRC}" "${DST}" && echo "Copied iPad Pro 13 ${COLOR} ${ORIENT}"
+-                SRC="${SKETCH}/iPad Pro 11\" - M4 - ${COLOR} - ${ORIENT}.png"
+-                DST="${DEST}/iPad Pro 11 - M4 - ${COLOR} - ${ORIENT}.png"
+-                [ -f "${SRC}" ] && cp "${SRC}" "${DST}" && echo "Copied iPad Pro 11 ${COLOR} ${ORIENT}"
+-              done
+-            done
+-          else
+-            echo "Warning: Bezel cache not found at ${CACHE}"
+-          fi
+-          exit 0
+-
+-schemes:
+-  Brainfold:
+-    build:
+-      targets:
+-        Brainfold: all
+-        BrainfoldUITests: [test]
+-        BrainfoldScreenshots: [test]
+-    run:
+-      config: Debug
+-    test:
+-      config: Debug
+-      # Both capture targets must be in the scheme or -only-testing cannot see them.
+-      targets:
+-        - BrainfoldUITests
+-        - BrainfoldScreenshots
+-    archive:
+-      config: Release

@@ -1,0 +1,4412 @@
+{
+  "finishedAt": "2026-10-09T13:08:04.185Z",
+  "versions": [
+    {
+      "slug": "brainfold",
+      "appId": "6760474378",
+      "platform": "IOS",
+      "currentId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "version": "1.2.1",
+      "create": null,
+      "state": "REJECTED"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "95dea023-336f-4451-9481-50c77a102dc0",
+      "verifiedAt": "2026-10-09T12:59:17.799Z",
+      "screenshots": [
+        {
+          "id": "14800019-2f4a-870a-802c-e351086bc653",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/ipad-store-1.png",
+          "md5": "06405137ce2bae395b3ff435afdb9b95",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86800019-2f4a-870a-800c-42508759f79d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/ipad-store-2.png",
+          "md5": "ef5e32bea1e9440679a8402f2880486d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1fc00019-2f4a-870a-8001-f32f96c322eb",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/ipad-store-3.png",
+          "md5": "574682207c67db07df525bda4c3a67f6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7800019-2f4a-870a-8008-23a27f429bff",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/ipad-store-4.png",
+          "md5": "3e968bb1b3bcb37e7cb14cad7a06cce7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fe000019-2f4a-870a-801c-8c7e153911bf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/ipad-store-5.png",
+          "md5": "60bcb562691ecefbcd821ecc540ada18",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ce800019-2f4a-870a-8016-a1927ccc66fe",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/ipad-store-6.png",
+          "md5": "3f89f67678daab58005a8b474dbac35b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "06c00019-2f4a-870a-8001-ccc5a9cdb751",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/ipad-store-7.png",
+          "md5": "c0616d9faf64c475d897a31990a8c746",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_IPHONE_67",
+      "setId": "d3b8c2e0-6f64-4477-9f3e-37f02ecdf508",
+      "verifiedAt": "2026-10-09T12:59:18.384Z",
+      "screenshots": [
+        {
+          "id": "b7800019-2f4a-870a-801f-94649ff10bc9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/store-1.png",
+          "md5": "9cb109ecdd4574ceeda403a59edbaa52",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c6c00019-2f4a-870a-8005-bd6b95484f79",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/store-2.png",
+          "md5": "d2af6863fa0290024633170a4ca88eb1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9800019-2f4a-870a-8010-9dcbfb04b69c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/store-3.png",
+          "md5": "ae817595cddf4ee62eb1feb0afdeed24",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "37400019-2f4a-870a-800d-fbbb1d514b22",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/store-4.png",
+          "md5": "6807810a808ebce9a88addb66f6947cd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8c00019-2f4a-870a-8017-33931b4805a0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/store-5.png",
+          "md5": "7795f5aaaed63c2c4556849b9a7d0d66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6e000019-2f4a-870a-8005-524a5ee96952",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/store-6.png",
+          "md5": "25b9912dc620e63d54bb2e516e8d4169",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b400019-2f4a-870a-803b-d226bd82dc3b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ar/store-7.png",
+          "md5": "9ea1d97089942d0ae8f4ffee457b00db",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_IPHONE_67",
+      "setId": "60032e49-6108-4076-8aec-89bcce028f63",
+      "verifiedAt": "2026-10-09T12:59:19.592Z",
+      "screenshots": [
+        {
+          "id": "1bc00019-2f4a-870a-803c-4acfe91f39f5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-1.png",
+          "md5": "f0ac333fc826af5726b1d4500ed41631",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5b800019-2f4a-870a-8032-6f65f7c9ef94",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-2.png",
+          "md5": "1867ac64f9c862b22ed538afe3df5828",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "89800019-2f4a-870a-8039-aacb23f2e7e4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-3.png",
+          "md5": "68637c3e3f264a3b26da5b47d9a40d15",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05000019-2f4a-870a-802c-23237bc36aac",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-4.png",
+          "md5": "3e072f9aed73378930d42d5df9289237",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "46c00019-2f4a-870a-803c-00da3c1c7e78",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-5.png",
+          "md5": "b35a990742871284fd95f0661ad797d1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92400019-2f4a-870a-800b-c56816a32b91",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-6.png",
+          "md5": "a453949ffbd254016a84f5cf7256344f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43400019-2f4a-870a-8000-371ccb13d522",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/store-7.png",
+          "md5": "e9aea4e70820851043e440e1664a3ae4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "42c74516-a330-43bd-a480-be1a0389f489",
+      "verifiedAt": "2026-10-09T12:59:31.192Z",
+      "screenshots": [
+        {
+          "id": "09c00019-2f4a-870a-8018-2be83a04a355",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-1.png",
+          "md5": "e7195ded9bf57caeb7f0fa5c84050fd3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "36000019-2f4a-870a-8014-7699653c15fe",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-2.png",
+          "md5": "da6fc4af8a7bf0fdd8ecd8fedc42514e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6d400019-2f4a-870a-801c-f66edb51c027",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-3.png",
+          "md5": "e42d86fa57013972bafff3488b9734c5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3fc00019-2f4a-870a-8005-a665cec2e736",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-4.png",
+          "md5": "67ca94815b9bcd1ce77d210810f6affa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "54400019-2f4a-870a-8015-74e97eb1fdad",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-5.png",
+          "md5": "8a00fff7a72e8db3a7bcb9935f25d147",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "37000019-2f4a-870a-8017-4e0228272805",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-6.png",
+          "md5": "4b61b0b79b0ffc3fbe8b44664e59ffbb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e2400019-2f4a-870a-8010-e7d2a9385ba0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/bn/ipad-store-7.png",
+          "md5": "5bb02f25a9179ee07f236a251c313ef4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "49e4aa37-16bc-4da1-b3d4-ac90b64efa21",
+      "verifiedAt": "2026-10-09T12:59:32.087Z",
+      "screenshots": [
+        {
+          "id": "15800019-2f4a-870a-8009-cf56959945f7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/ipad-store-1.png",
+          "md5": "345d3a3b3d1b212f276b0e843fcba0ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62800019-2f4a-870a-8034-1fd583a8e1b9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/ipad-store-2.png",
+          "md5": "7f5a640ea3f584ee867e108156621e7e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "98c00019-2f4a-870a-802b-6aef1c708a0f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/ipad-store-3.png",
+          "md5": "bea5ce2b62e1b33d688dc2be614bfe86",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38400019-2f4a-870a-8006-fe469cecd822",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/ipad-store-4.png",
+          "md5": "711da296f5c9712dac5157456d8c6088",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59800019-2f4a-870a-802a-9e39d7f15df1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/ipad-store-5.png",
+          "md5": "46be9ef574cf7e47b745d15cddcc9128",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1e800019-2f4a-870a-8005-2fd34fc8b562",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/ipad-store-6.png",
+          "md5": "e7441ae1f84d2683bc1f241ed55b7cbd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27000019-2f4a-870a-803e-fa150353d007",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/ipad-store-7.png",
+          "md5": "40b362fa68c0800d566b202bcf3bc330",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_IPHONE_67",
+      "setId": "d707c6fa-7856-4c88-b7b1-339c6e3abc28",
+      "verifiedAt": "2026-10-09T12:59:33.297Z",
+      "screenshots": [
+        {
+          "id": "2b800019-2f4a-870a-802c-4ad664c92e2a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/store-1.png",
+          "md5": "5c05345203655043ac6d583a83d27c26",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "88400019-2f4a-870a-8039-f18e7b3e7d86",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/store-2.png",
+          "md5": "a73326cf5fdc20d1b21b5e6aa94c8171",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5000019-2f4a-870a-801f-e1857ba3ac91",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/store-3.png",
+          "md5": "5b217794fb657449d8afcba6d5119858",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60000019-2f4a-870a-8022-9ef502d6e215",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/store-4.png",
+          "md5": "994b289b31bfc9eb95901b36a29399dd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96c00019-2f4a-870a-803f-5eb91e6143c5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/store-5.png",
+          "md5": "2a8fcc6006e6f683ece6fb238f5bf209",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11800019-2f4a-870a-8023-228c0e07bbc4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/store-6.png",
+          "md5": "5216c9725ebdb80efc3ff8483bcd0cfa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fac00019-2f4a-870a-8002-ed3e7ca70ed9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ca/store-7.png",
+          "md5": "5f95d1da70a4147a13283405066a574a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-HK",
+      "type": "APP_IPHONE_67",
+      "setId": "22251fb1-64aa-4f76-8250-88000975b4c7",
+      "verifiedAt": "2026-10-09T12:59:45.192Z",
+      "screenshots": [
+        {
+          "id": "69c00019-2f4a-870a-8000-a1cc60ecd189",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/store-1.png",
+          "md5": "47230fc7a0c37bdbd1044977791312bd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0400019-2f4a-870a-801b-4f3d4afad827",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/store-2.png",
+          "md5": "f13dd68febabd23f66fdcf7a79c4014c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6dc00019-2f4a-870a-802f-0be639f5785a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/store-3.png",
+          "md5": "cde0e88840d8e2c2d9db360a595c8a64",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39400019-2f4a-870a-8007-7f22ee9af20c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/store-4.png",
+          "md5": "3cf5922eae1f3667c861d7e743781851",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a0000019-2f4a-870a-803c-028d1c6b2976",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/store-5.png",
+          "md5": "905869edeef23c00eae12a02f2944be0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cf800019-2f4a-870a-8020-dac65b315835",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/store-6.png",
+          "md5": "a2d270d6c7b19908269ea5feea58bc67",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "19000019-2f4a-870a-8035-a3c4d890aded",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/store-7.png",
+          "md5": "4dfc73f72c7f043a8f54e7a33b9a2e65",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_IPHONE_67",
+      "setId": "d76ee610-c12b-4050-9eab-8b9097c2d93d",
+      "verifiedAt": "2026-10-09T12:59:46.099Z",
+      "screenshots": [
+        {
+          "id": "79c00019-2f4a-870a-802b-4d81fe8d982b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/store-1.png",
+          "md5": "327f6804644173ebff005186bcaa1d49",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1a000019-2f4a-870a-802b-1777304c9867",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/store-2.png",
+          "md5": "c42fd7e3d64d3934d3ae119b518f8c71",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6e800019-2f4a-870a-8010-25219fc8e785",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/store-3.png",
+          "md5": "34f2879402578c439e5850adf5a695c2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7d400019-2f4a-870a-8010-b74ef39bde99",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/store-4.png",
+          "md5": "ebdb52c74b3c3a297be75e1cdd15a8ee",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "21000019-2f4a-870a-803f-1bb6d611161f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/store-5.png",
+          "md5": "56fd19630c2338adc4d232b54ca8521a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ec400019-2f4a-870a-8002-354d45501a73",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/store-6.png",
+          "md5": "696bab885eb71ce62e276e1d0c8608d7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01800019-2f4a-870a-8037-08e5652beff3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/store-7.png",
+          "md5": "4143243485869d3a1bb608db6ea77770",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-HK",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "37c03c71-9725-4215-aaa1-8eadb7f94a28",
+      "verifiedAt": "2026-10-09T12:59:47.079Z",
+      "screenshots": [
+        {
+          "id": "91c00019-2f4a-870a-803d-fe8f606e2fe7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/ipad-store-1.png",
+          "md5": "3317dc29295c9fb530b1cf8f547d1532",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7800019-2f4a-870a-803e-35149bb28e67",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/ipad-store-2.png",
+          "md5": "7bd3da33f2efe07452267e40f10f08b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e3c00019-2f4a-870a-802d-a18bb6fe51e5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/ipad-store-3.png",
+          "md5": "a62d80533e04d8a739a2db79eef97d43",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7a800019-2f4a-870a-801b-6b2d1ef06f2b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/ipad-store-4.png",
+          "md5": "d9e10988d60ac7ebb6afe44e8722e116",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b2c00019-2f4a-870a-8018-8abee884b089",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/ipad-store-5.png",
+          "md5": "e81d8267ce42c24e3de93195ceb970dd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6d800019-2f4a-870a-8027-a62bb8cad6fc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/ipad-store-6.png",
+          "md5": "a514a1b329ef38651730fdfbfb8c28f6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1d000019-2f4a-870a-803f-3a2da57be890",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/zh-HK/ipad-store-7.png",
+          "md5": "690629b819aa8f0a928e6ad898da9d11",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "13e7aacb-e4b9-4423-9f46-dba2da273d74",
+      "verifiedAt": "2026-10-09T12:59:59.750Z",
+      "screenshots": [
+        {
+          "id": "95000019-2f4a-870a-801b-10f18091ae2f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/ipad-store-1.png",
+          "md5": "dfa04771ee94e65bbc1baa45cadc3e9b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11000019-2f4a-870a-801e-ed04cb068a81",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/ipad-store-2.png",
+          "md5": "0b9d79edf8cd679d5f0e7e6df390c943",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "44c00019-2f4a-870a-801a-6b7da1057082",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/ipad-store-3.png",
+          "md5": "a39839430c36366562773cc49cc21dfd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "68400019-2f4a-870a-8015-78497043e559",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/ipad-store-4.png",
+          "md5": "accabf585a225d3ec77651d0420eb123",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58400019-2f4a-870a-8001-fef9948f31ea",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/ipad-store-5.png",
+          "md5": "2e2eabb5335c93d352d5e321cacd077f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51c00019-2f4a-870a-8003-712a5998a6db",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/ipad-store-6.png",
+          "md5": "c7a51ef9cc292bea250116fd5775a62f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4dc00019-2f4a-870a-8003-c330e04e2f7f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hr/ipad-store-7.png",
+          "md5": "3d676304ceaafd44632317a899489f1b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_IPHONE_67",
+      "setId": "61251873-dde2-4694-ab5f-5f4e7bc0dd68",
+      "verifiedAt": "2026-10-09T13:00:00.123Z",
+      "screenshots": [
+        {
+          "id": "d8c00019-2f4a-870a-8016-3411c875d205",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/store-1.png",
+          "md5": "33801122098a6a9fcd45e1e3adf9474d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "53c00019-2f4a-870a-8035-890a548000aa",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/store-2.png",
+          "md5": "932b06c469c46c8853fd7d55b8169e66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bf400019-2f4a-870a-803e-48285f8cc5e4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/store-3.png",
+          "md5": "5bb9a475d182eb20d0475adc185b11f8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38400019-2f4a-870a-8011-40371dfa227c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/store-4.png",
+          "md5": "618901d62a8a7768f29a1785f1c458dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76c00019-2f4a-870a-8000-6b0a496e355c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/store-5.png",
+          "md5": "f2eaaba6a792cde2db680659568565f5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39400019-2f4a-870a-803c-f6a5fba5abfa",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/store-6.png",
+          "md5": "ce1066015edad4400882bb4b7af53b29",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ae400019-2f4a-870a-8036-c425a0b63df9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/store-7.png",
+          "md5": "b32796967bc5d95bfcc8e35e9d8b258f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "b026e880-ffc9-4e0a-bd46-18f7c61cb791",
+      "verifiedAt": "2026-10-09T13:00:01.253Z",
+      "screenshots": [
+        {
+          "id": "a6800019-2f4a-870a-8024-18a52738eea7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/ipad-store-1.png",
+          "md5": "fb0c2d90440faa8c70288e0ec4024a43",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "13400019-2f4a-870a-8024-115185e4b731",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/ipad-store-2.png",
+          "md5": "756f12795856f73a0e2db443f914bedc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "42000019-2f4a-870a-800a-467b35ba6b39",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/ipad-store-3.png",
+          "md5": "18cf3876bba6baa4d220e3095139c04a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4c000019-2f4a-870a-8029-efb498ff1f62",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/ipad-store-4.png",
+          "md5": "5f5cdcc5f84be52c7b9ee7859210d15f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "29800019-2f4a-870a-800a-17c04b8ce691",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/ipad-store-5.png",
+          "md5": "a4cb79c7cec0dc6127ce6bb584005421",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8400019-2f4a-870a-801f-0a0d7afc5991",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/ipad-store-6.png",
+          "md5": "1262a1bf4d290959fc60f71bdd924eec",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a2800019-2f4a-870a-802b-59e3b477385a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/cs/ipad-store-7.png",
+          "md5": "5265382c54a51e922f74e3ff74e6b82a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "4fcc7d6e-e7e5-4a4b-8593-dad97132b5cd",
+      "verifiedAt": "2026-10-09T13:00:16.149Z",
+      "screenshots": [
+        {
+          "id": "64c00019-2f4a-870a-802b-813897849a8b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/ipad-store-1.png",
+          "md5": "3505944ced093da31cd2fb414b0f6e90",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "41000019-2f4a-870a-801a-4b57491d4eb3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/ipad-store-2.png",
+          "md5": "5443a5d64caaa8f4b0007aeb4ea3feb5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17400019-2f4a-870a-801a-a3bda86f9f4e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/ipad-store-3.png",
+          "md5": "9739449b4414d899ee4e591e8e7c33c6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11c00019-2f4a-870a-801f-08312c2f572c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/ipad-store-4.png",
+          "md5": "f76cf5fea9f07dda5f300ffa8417d39e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "24000019-2f4a-870a-801c-348742d8cd42",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/ipad-store-5.png",
+          "md5": "6a11821e41bfa015ed6b5189bf0de384",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "db400019-2f4a-870a-802b-68f34c8d57c7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/ipad-store-6.png",
+          "md5": "ccef54b2db61b16075310c1b442bd9af",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bfc00019-2f4a-870a-800c-58cdf41e114f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/ipad-store-7.png",
+          "md5": "37bf0dc935b52d35c9214873a7651a4d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_IPHONE_67",
+      "setId": "fbff3555-f60b-42b3-a91f-9aa6de54bd7c",
+      "verifiedAt": "2026-10-09T13:00:18.022Z",
+      "screenshots": [
+        {
+          "id": "8b800019-2f4a-870a-8028-9650bfa34ad4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/store-1.png",
+          "md5": "bb39610fa749463cd1de0fb0da41a6d1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b9c00019-2f4a-870a-802b-5602ddaaa6a5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/store-2.png",
+          "md5": "b2174d05beb99cafc440a143f91f5f97",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50000019-2f4a-870a-8029-fd5fe07e3a3d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/store-3.png",
+          "md5": "8ae2b777e4ad52870e2d1efb328a6b78",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "47c00019-2f4a-870a-801b-0d76e10b2a16",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/store-4.png",
+          "md5": "7e409bb935f3d419f9b9c09e233166e0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "84c00019-2f4a-870a-801e-60e46c8fa881",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/store-5.png",
+          "md5": "eca6640b46c838d6550d0a057dea98f0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0a000019-2f4a-870a-8038-7c0b19ad0b6e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/store-6.png",
+          "md5": "5b7eb4ffcf53d0f1b7b00a67cb34c996",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ff000019-2f4a-870a-802c-7728bc583a24",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/da/store-7.png",
+          "md5": "d222bc842e3f06d154842cca2f41ed4f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_IPHONE_67",
+      "setId": "2f22e76c-7140-4461-a627-3d095156525c",
+      "verifiedAt": "2026-10-09T13:00:19.880Z",
+      "screenshots": [
+        {
+          "id": "20800019-2f4a-870a-8020-0be4e9990627",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/store-1.png",
+          "md5": "063b60858ca8b661073e65e4c40b1e38",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01000019-2f4a-870a-8011-29ddf7e2df30",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/store-2.png",
+          "md5": "1de1e9091fba4c46029783d930abac4e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ad800019-2f4a-870a-8007-962b8f853b5f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/store-3.png",
+          "md5": "12a83b1b14d7b4176e0630069dab4d5b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "77400019-2f4a-870a-803f-17d5a3a0f4cd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/store-4.png",
+          "md5": "aca7bbebe82b5ea75032e8dc5f0cfd1f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0d000019-2f4a-870a-803e-b25ec1f5fab6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/store-5.png",
+          "md5": "e5f90a76b9dcf60af21a6459eb7d38e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3b400019-2f4a-870a-8013-6990974e0f1e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/store-6.png",
+          "md5": "26ab496a2cecb2a6b0cbd7bc01ec59d8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2000019-2f4a-870a-8023-ac977673756f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/store-7.png",
+          "md5": "1b95fb06b01a1c92642f9bfcffb43eea",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "9203e9ae-1f4e-44a2-b0ee-ea3104b8ea29",
+      "verifiedAt": "2026-10-09T13:00:31.603Z",
+      "screenshots": [
+        {
+          "id": "e7400019-2f4a-870a-8020-58419d3d348c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/ipad-store-1.png",
+          "md5": "f1028267fc91262f37a88f4e5b4517a4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "de000019-2f4a-870a-8010-e5e0392035e0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/ipad-store-2.png",
+          "md5": "81e1b6b1a2a934ad85f62da865bd5c14",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07400019-2f4a-870a-8039-f59303eacf0c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/ipad-store-3.png",
+          "md5": "a0106edd7cc47c1f38e22e12f1a2ae7a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8400019-2f4a-870a-8015-536df237641e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/ipad-store-4.png",
+          "md5": "7460ae31cb77587818eae00292198a2d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1800019-2f4a-870a-802c-bdc02aa80152",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/ipad-store-5.png",
+          "md5": "e77f61f4a16cd0dc1095d22edff49d94",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38400019-2f4a-870a-801f-bbac47c0df58",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/ipad-store-6.png",
+          "md5": "ff0624b64b34094263cbe08a57606f79",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66400019-2f4a-870a-803e-81f4fc0a7466",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nl/ipad-store-7.png",
+          "md5": "d95ecd9e032f1658796af4bb3b075ef4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_IPHONE_67",
+      "setId": "9dd9edae-ee96-4d59-afa0-09c4d4c85a36",
+      "verifiedAt": "2026-10-09T13:00:33.707Z",
+      "screenshots": [
+        {
+          "id": "a2400019-2f4a-870a-8008-3450d92eb9d2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/store-1.png",
+          "md5": "6d4acad03cbf47409526ef89924d6ab2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4400019-2f4a-870a-802f-92b0df0fc311",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/store-2.png",
+          "md5": "98cb557445a48b30376c359d05aafd60",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "56400019-2f4a-870a-800b-c224f9a60475",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/store-3.png",
+          "md5": "7a2927c08fb905d42927e8c220272022",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4800019-2f4a-870a-8028-2be21014fd2c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/store-4.png",
+          "md5": "1a33facebe0dcdfdd3859324e4d8c76c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e1800019-2f4a-870a-801c-5fb3b0fe2ace",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/store-5.png",
+          "md5": "09ca2519ce75d4084b9c33d5996f2441",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7c00019-2f4a-870a-803f-e6787cf217f4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/store-6.png",
+          "md5": "0e6603f11b9673fb4b581478301948e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "40400019-2f4a-870a-803d-8eea0f316b1b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/store-7.png",
+          "md5": "764112782f0824972b0939484d89bd1e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "6ab973ce-68ca-42fa-b50e-3019f9baae9b",
+      "verifiedAt": "2026-10-09T13:00:34.757Z",
+      "screenshots": [
+        {
+          "id": "bf800019-2f4a-870a-803b-7419932ec96e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/ipad-store-1.png",
+          "md5": "bdae149e829e6e0cc1c5c8c90e44ab28",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d9400019-2f4a-870a-800b-7b890a46d749",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/ipad-store-2.png",
+          "md5": "aa71016509f304a4ae6fab4ab8ef58d0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59800019-2f4a-870a-803a-85ce7be2fa52",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/ipad-store-3.png",
+          "md5": "9a0430a2ec92a266b6340866c81deacb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8000019-2f4a-870a-8039-216d1b889b07",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/ipad-store-4.png",
+          "md5": "74e742228e762196c62d808248487413",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "72000019-2f4a-870a-801a-56eaaa59a7b2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/ipad-store-5.png",
+          "md5": "2debae3bd87cdf7daaceb1f62088dfad",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4f800019-2f4a-870a-8014-1e67514219d3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/ipad-store-6.png",
+          "md5": "de1c8634c9d1981ff7972d6576534e35",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "74800019-2f4a-870a-800e-2b425a134aa2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-AU/ipad-store-7.png",
+          "md5": "84e44ea987b487463fefba43729ef73a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_IPHONE_67",
+      "setId": "48b6576b-a647-4798-9fdd-ccd160b3c1a0",
+      "verifiedAt": "2026-10-09T13:00:46.669Z",
+      "screenshots": [
+        {
+          "id": "ac000019-2f4a-870a-803b-00f3acf1d54c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-1.png",
+          "md5": "14cdd6e8b96682561b153f974e75e9e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c6800019-2f4a-870a-801a-4b5e2d73ba94",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-2.png",
+          "md5": "46726a892cdf9132ca6241e0132ba665",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5fc00019-2f4a-870a-8005-ffa52e01756b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-3.png",
+          "md5": "de48ff2a59a248d6a2951519c11b4d4b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09800019-2f4a-870a-8031-e0e3cbde4034",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-4.png",
+          "md5": "d29de5f3f82c241bade5d0310c7e9d1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "08000019-2f4a-870a-800b-1c9ef3e44147",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-5.png",
+          "md5": "82d8f1ac3e4ae021a724e2d68e38403d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6d400019-2f4a-870a-803e-d80748e42fdc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-6.png",
+          "md5": "27674edfe9da1f8bab795bacacf6da23",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9800019-2f4a-870a-8003-a4211418455b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-7.png",
+          "md5": "8ca1832a115a1d02f9922549a5474fcd",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "4d3e1c05-48f8-453e-a17e-a18e0e8d389b",
+      "verifiedAt": "2026-10-09T13:00:48.130Z",
+      "screenshots": [
+        {
+          "id": "de400019-2f4a-870a-8010-5623cc66cfd7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-1.png",
+          "md5": "2ca7f514093d21d33437a537646288fa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "77400019-2f4a-870a-8007-64fd16fac905",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-2.png",
+          "md5": "9abbb2f638af69be06f86c42aba27b32",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9400019-2f4a-870a-8013-a77dd79f1078",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-3.png",
+          "md5": "2af752f840e034c3b2311526b21cca1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7c00019-2f4a-870a-8029-41796f655947",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-4.png",
+          "md5": "75413b0b250c183beb83178a7027f5cf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d800019-2f4a-870a-8037-fce9865f84a5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-5.png",
+          "md5": "e74a9c15d1ac2f3781b04c014012c59b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10c00019-2f4a-870a-8013-bc936cf93884",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-6.png",
+          "md5": "de1c8634c9d1981ff7972d6576534e35",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c4000019-2f4a-870a-8038-3f9ae8268683",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-7.png",
+          "md5": "1890edd8c5a741950b96bde198fe6b1b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_IPHONE_67",
+      "setId": "1ecf0cf6-435b-4f7e-b4eb-edbac25f45ad",
+      "verifiedAt": "2026-10-09T13:00:49.262Z",
+      "screenshots": [
+        {
+          "id": "cd000019-2f4a-870a-8036-c77435c10713",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/store-1.png",
+          "md5": "b854d814e691ef5bd8df04ce116dcb5a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "74000019-2f4a-870a-8034-8276f93b24a2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/store-2.png",
+          "md5": "573e2e503740a82c61855b7011837fca",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10000019-2f4a-870a-8017-7f5c97f1bb19",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/store-3.png",
+          "md5": "01ed42bea3c6a5179e86c5d907172905",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "edc00019-2f4a-870a-803c-d0ccc7bcb551",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/store-4.png",
+          "md5": "ef0aac0ae851bc34f734d31d78754e97",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dbc00019-2f4a-870a-8026-a90935a6d31e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/store-5.png",
+          "md5": "09ca2519ce75d4084b9c33d5996f2441",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e5800019-2f4a-870a-802d-0703c2ec27c8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/store-6.png",
+          "md5": "0e6603f11b9673fb4b581478301948e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "14000019-2f4a-870a-8000-7ad6853b720d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/store-7.png",
+          "md5": "5ef661e3670dbd61324ccaffb41624b0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "44fa2e89-1cb1-43a0-b43b-68721a6373b6",
+      "verifiedAt": "2026-10-09T13:01:01.580Z",
+      "screenshots": [
+        {
+          "id": "a6800019-2f4a-870a-8020-4389749e3422",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/ipad-store-1.png",
+          "md5": "1d7d8376687b61d6d71f39931dac0688",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9400019-2f4a-870a-8035-d1378ecd96a3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/ipad-store-2.png",
+          "md5": "b44317b10f4378d5611e48d4834e375a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b3c00019-2f4a-870a-8003-2fa7b03a0097",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/ipad-store-3.png",
+          "md5": "ad76aeadc511d9f60e9ebbc648797898",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8800019-2f4a-870a-8013-5953f0590e63",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/ipad-store-4.png",
+          "md5": "74e742228e762196c62d808248487413",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83000019-2f4a-870a-800c-155a7fd98146",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/ipad-store-5.png",
+          "md5": "2debae3bd87cdf7daaceb1f62088dfad",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8ec00019-2f4a-870a-8024-d18a1cdce4e1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/ipad-store-6.png",
+          "md5": "de1c8634c9d1981ff7972d6576534e35",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eb400019-2f4a-870a-8019-234976f59f28",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-GB/ipad-store-7.png",
+          "md5": "7e01eeb4bea6bbbfc49e1123ff541754",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_IPHONE_67",
+      "setId": "490d9068-ae6c-4aa0-9023-652ae91af62a",
+      "verifiedAt": "2026-10-09T13:01:02.528Z",
+      "screenshots": [
+        {
+          "id": "bc400019-2f4a-870a-800f-a6621f7fd090",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-1.png",
+          "md5": "14cdd6e8b96682561b153f974e75e9e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8fc00019-2f4a-870a-8022-783c765b2009",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-2.png",
+          "md5": "46726a892cdf9132ca6241e0132ba665",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "34400019-2f4a-870a-802e-ed4d3073ba70",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-3.png",
+          "md5": "de48ff2a59a248d6a2951519c11b4d4b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95400019-2f4a-870a-800f-5dfbcb4d328c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-4.png",
+          "md5": "d29de5f3f82c241bade5d0310c7e9d1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "08000019-2f4a-870a-8015-89db6c144517",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-5.png",
+          "md5": "82d8f1ac3e4ae021a724e2d68e38403d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85000019-2f4a-870a-800e-f2b9f5abf61c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-6.png",
+          "md5": "27674edfe9da1f8bab795bacacf6da23",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01800019-2f4a-870a-800c-68797137291b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/store-7.png",
+          "md5": "8ca1832a115a1d02f9922549a5474fcd",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "a45677f0-0f12-4418-b7db-6b44da2479d6",
+      "verifiedAt": "2026-10-09T13:01:04.769Z",
+      "screenshots": [
+        {
+          "id": "fa400019-2f4a-870a-8034-af6c245f1af8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-1.png",
+          "md5": "2ca7f514093d21d33437a537646288fa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b1800019-2f4a-870a-803e-7320cb19e44e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-2.png",
+          "md5": "9abbb2f638af69be06f86c42aba27b32",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5d800019-2f4a-870a-8009-03652c024440",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-3.png",
+          "md5": "2af752f840e034c3b2311526b21cca1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43800019-2f4a-870a-8015-054a3ddd1875",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-4.png",
+          "md5": "75413b0b250c183beb83178a7027f5cf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2000019-2f4a-870a-8033-3500662fd1d7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-5.png",
+          "md5": "e74a9c15d1ac2f3781b04c014012c59b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f0000019-2f4a-870a-803d-83c9d7001fc9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-6.png",
+          "md5": "de1c8634c9d1981ff7972d6576534e35",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3000019-2f4a-870a-8032-e58a3eee5ffd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/en-US/ipad-store-7.png",
+          "md5": "1890edd8c5a741950b96bde198fe6b1b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "f7aacb46-a204-4355-9d1a-20d8ee63346c",
+      "verifiedAt": "2026-10-09T13:01:18.242Z",
+      "screenshots": [
+        {
+          "id": "6d400019-2f4a-870a-8003-7e13266b4e72",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fi/ipad-store-1.png",
+          "md5": "ab9183026600bfc2fda2202e199351e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01000019-2f4a-870a-8039-39a934bd679e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fi/ipad-store-2.png",
+          "md5": "b9f6f58d5c781acf4ddf5c220c5f3a69",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2ec00019-2f4a-870a-803b-21ca5bba70b1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fi/ipad-store-3.png",
+          "md5": "d4a731cdceb2202e71940e54add4ce6f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "24c00019-2f4a-870a-8031-53ac7173afa8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fi/ipad-store-4.png",
+          "md5": "dda50e55f74dfeb15ea666ae4c3d85e5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "14400019-2f4a-870a-8017-3188ac87f4cd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fi/ipad-store-5.png",
+          "md5": "4fcfb74e027f64f71b9c5c80845a7efd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10000019-2f4a-870a-800c-b7b6be159dac",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fi/ipad-store-6.png",
+          "md5": "7500a605a6517c225a46a3e3182efe70",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92000019-2f4a-870a-8030-576f284adbad",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fi/ipad-store-7.png",
+          "md5": "f85496b62b8bce338689f78d56f9c862",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_IPHONE_67",
+      "setId": "ba44e4c2-0e09-4cf3-9a48-5ca4131fb58f",
+      "verifiedAt": "2026-10-09T13:01:19.562Z",
+      "screenshots": [
+        {
+          "id": "e9400019-2f4a-870a-801b-014244251e1e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/store-1.png",
+          "md5": "04bd7c3b19aaa3b72b04a37534fe332d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "49400019-2f4a-870a-800d-d328b7108acf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/store-2.png",
+          "md5": "5a17a0e160cbbfd1db0458c52bdc7c48",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7bc00019-2f4a-870a-801e-5f32093aaf89",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/store-3.png",
+          "md5": "226e69332615c9259a0d3f683d88c7e3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43400019-2f4a-870a-8036-609404bd43fe",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/store-4.png",
+          "md5": "2fc0017664b828080efd74c5e367ef95",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ae000019-2f4a-870a-802e-13bde004be2c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/store-5.png",
+          "md5": "d705558da12d3f4b1491701458300262",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa000019-2f4a-870a-801a-040ea4580d25",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/store-6.png",
+          "md5": "1a1f94296657f625767436ea8047deaa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8400019-2f4a-870a-801f-7f46ce1880c9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/store-7.png",
+          "md5": "9b66d071eddb823e0c63ebbc3821af7f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "2f515403-7046-4d1d-bc00-aacf299536dd",
+      "verifiedAt": "2026-10-09T13:01:32.697Z",
+      "screenshots": [
+        {
+          "id": "1f000019-2f4a-870a-8029-1e356db4c978",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/ipad-store-1.png",
+          "md5": "4a94f15d4c5ed4fb1f1f11b72843fc8e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69c00019-2f4a-870a-803f-e11fb7e9c3f4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/ipad-store-2.png",
+          "md5": "e24989437c150e6054489fe32c42fa00",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20c00019-2f4a-870a-802a-1b3a28f41271",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/ipad-store-3.png",
+          "md5": "6c9c9cbdad5d1b2eff5ccd24fb470b9b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0f400019-2f4a-870a-8030-132391003be1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/ipad-store-4.png",
+          "md5": "93bcda6b44a678523a2458252b312598",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3a800019-2f4a-870a-803f-34050ea720e2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/ipad-store-5.png",
+          "md5": "7f87d7863656eeed34313faed464a617",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75000019-2f4a-870a-800b-555de64d8266",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/ipad-store-6.png",
+          "md5": "1d182619addfd04929565a30998e5e8c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50800019-2f4a-870a-8003-446ce515122f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr/ipad-store-7.png",
+          "md5": "b32fa8c3cfa01430c03af0f6b4aada4c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_IPHONE_67",
+      "setId": "d4ddb86a-e5fc-4ca5-8996-55e9626c07d7",
+      "verifiedAt": "2026-10-09T13:01:33.034Z",
+      "screenshots": [
+        {
+          "id": "cdc00019-2f4a-870a-8011-83fbc04f5d9c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/store-1.png",
+          "md5": "ff99f050b8a2d362c59e0d68263fda95",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b400019-2f4a-870a-803e-a11fa43b41ec",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/store-2.png",
+          "md5": "17e846831010441409b145594805e7c2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62800019-2f4a-870a-8005-c8ba123c317e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/store-3.png",
+          "md5": "993095f5fec61be0cbb886f79b343b5b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "de400019-2f4a-870a-803a-46e915bcb319",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/store-4.png",
+          "md5": "7b8c367a09066c8d6dce115e07ec5347",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5c00019-2f4a-870a-803e-0ded8c2b4d50",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/store-5.png",
+          "md5": "caf0ef0396d930386fe0e92f29648218",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "81800019-2f4a-870a-8001-67bc86e50668",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/store-6.png",
+          "md5": "ea55e92b8d19324119822b07e9fcbbd9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60000019-2f4a-870a-8037-e4c7d986681c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/store-7.png",
+          "md5": "f469ba291554e2b65aef0b56e17ad2b4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "a0eae3e2-a9ae-4531-af67-fadbdee1aa72",
+      "verifiedAt": "2026-10-09T13:01:45.580Z",
+      "screenshots": [
+        {
+          "id": "54c00019-2f4a-870a-8016-0336f665ecfd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/ipad-store-1.png",
+          "md5": "9c6e6ade04194b6b433510dc3d72637b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3bc00019-2f4a-870a-8021-5590bc80dda3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/ipad-store-2.png",
+          "md5": "da81f59af3b21a04c4e2dd58de12de99",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "67400019-2f4a-870a-8016-8d41f49df1b3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/ipad-store-3.png",
+          "md5": "ce87d59436b9eefd4dd950c78e2349f1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11400019-2f4a-870a-8032-96f730761082",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/ipad-store-4.png",
+          "md5": "565af630667351f6b4bfec5144b64f99",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "22000019-2f4a-870a-803d-0250a97712fd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/ipad-store-5.png",
+          "md5": "7f87d7863656eeed34313faed464a617",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05800019-2f4a-870a-802a-7e764c8f3a43",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/ipad-store-6.png",
+          "md5": "9ab0b0b6118748a782ac6b80ff0c87ee",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "26c00019-2f4a-870a-8030-fcb931b03c3e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/fr-CA/ipad-store-7.png",
+          "md5": "143133f34e83f653998fcd92cda02beb",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_IPHONE_67",
+      "setId": "0c5b7743-93e2-4c66-a2a2-b3e53bd7212d",
+      "verifiedAt": "2026-10-09T13:01:46.970Z",
+      "screenshots": [
+        {
+          "id": "2e800019-2f4a-870a-8035-4b6cb4d5e44c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-1.png",
+          "md5": "2264fdb4d55c190a2091967cdb1dce4c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "af400019-2f4a-870a-8033-fa1aa3f0d1a9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-2.png",
+          "md5": "da253074a3ca5e50bfb03301b14668bb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5b400019-2f4a-870a-8001-26b533a147f2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-3.png",
+          "md5": "92dfdddc2593afbe5efb2a935a74d417",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "55800019-2f4a-870a-802c-0b651fd0819b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-4.png",
+          "md5": "d5f53da26630cd14741c738c428c1675",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "33000019-2f4a-870a-8003-93cf2acb9693",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-5.png",
+          "md5": "83a3940e23e1b1c75cd0f23b9355cd8f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac400019-2f4a-870a-803b-da7b1c714458",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-6.png",
+          "md5": "186ab307c0675bbbb2e81c7530d7dc2b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a8400019-2f4a-870a-8025-a6c5f580e9aa",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/store-7.png",
+          "md5": "ddcfed246bee0a4afd243ad1df9e67a8",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "8b53686f-b120-4ab9-9617-7b1856d855f3",
+      "verifiedAt": "2026-10-09T13:01:59.600Z",
+      "screenshots": [
+        {
+          "id": "f9800019-2f4a-870a-8022-30d636c495bc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-1.png",
+          "md5": "3fceb2b6abd9dc0eeedc403f02d5b716",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "98c00019-2f4a-870a-8012-1da610daa257",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-2.png",
+          "md5": "f37108f4840aeb644a57c7cfd6a7b6f2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b4400019-2f4a-870a-802f-479b3d88d033",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-3.png",
+          "md5": "0a5be591dedf912c0afd517be490eea9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "87400019-2f4a-870a-8002-1f74cf8413c0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-4.png",
+          "md5": "c1e6b039ed7c41f501c581e41ccda52e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "45400019-2f4a-870a-8006-4da80f5c757c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-5.png",
+          "md5": "56f36f693bc120df45772cdc7ae6d439",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d6400019-2f4a-870a-8005-d2fdccf4d11a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-6.png",
+          "md5": "c4b0937d4080b016d719d08af6a75409",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f4000019-2f4a-870a-801e-6516931bd144",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/de/ipad-store-7.png",
+          "md5": "9ef62a10d0695d0f64d677899a1da4f5",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_IPHONE_67",
+      "setId": "f2c249d8-ddf9-4d12-a33a-5a1e182705f1",
+      "verifiedAt": "2026-10-09T13:02:00.500Z",
+      "screenshots": [
+        {
+          "id": "f5400019-2f4a-870a-8016-bbc6f4b512cf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-1.png",
+          "md5": "a4893ffd44b74366dbcf7ff8857dc50a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86000019-2f4a-870a-802e-2c3682d2224e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-2.png",
+          "md5": "c05cfa830fd55126bd7d53a9c49738ae",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e2800019-2f4a-870a-8037-c1a0a1d8ca0b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-3.png",
+          "md5": "53f9b3754bbc7b0a266e3016437e86e8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ffc00019-2f4a-870a-800b-317ec48587f6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-4.png",
+          "md5": "d30d3b66cda983cc2ed3d3d1037b90ff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "adc00019-2f4a-870a-8025-55e2f5b827ff",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-5.png",
+          "md5": "b677c111ae4ef7c688fa52f452ae2e52",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9400019-2f4a-870a-802e-179f69383e32",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-6.png",
+          "md5": "40de26d3fb3eeaa20663182491104ce0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2e000019-2f4a-870a-8001-f319909c88ee",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/store-7.png",
+          "md5": "3a4951d43c9f59cb2a5c40add5fccf25",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "dc58eef5-6b5a-4dd3-8b0c-ca12a4d9df4f",
+      "verifiedAt": "2026-10-09T13:02:12.495Z",
+      "screenshots": [
+        {
+          "id": "19c00019-2f4a-870a-800c-0b45aa7ca820",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-1.png",
+          "md5": "b3ec00bf3df10435e686b0f9572bd110",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9ec00019-2f4a-870a-8030-3d1b9f9cc2dd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-2.png",
+          "md5": "a1ffa41978dca8f86f854d9b74d88876",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "14000019-2f4a-870a-800e-3d5a54f46edc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-3.png",
+          "md5": "6a7db4258e585396a536823c1e6c342d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76c00019-2f4a-870a-8016-5359a17035bc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-4.png",
+          "md5": "68c87578805a2205834644e110c4df1c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bac00019-2f4a-870a-8032-d23a83769c3f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-5.png",
+          "md5": "1ea33b1d93044788d8011acce8c91adc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "06400019-2f4a-870a-8001-49ef0c81350d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-6.png",
+          "md5": "4017a0ebdc400751e1eb41e31591ec67",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10c00019-2f4a-870a-8004-db43dda2ea70",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/el/ipad-store-7.png",
+          "md5": "72513ca3c2824ae0fb728b4382ceb256",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_IPHONE_67",
+      "setId": "c3aa2b95-5b5e-4462-b309-9f4678462dca",
+      "verifiedAt": "2026-10-09T13:02:13.796Z",
+      "screenshots": [
+        {
+          "id": "cd000019-2f4a-870a-801a-034731b35fb9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/store-1.png",
+          "md5": "633f69d789600d917fe2036c04cadaf6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aec00019-2f4a-870a-8000-3969ead613a8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/store-2.png",
+          "md5": "21e9e9544aaddb68e3c16fcea90f7416",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8bc00019-2f4a-870a-800c-9e44c5388e81",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/store-3.png",
+          "md5": "f2b8d07027fd76f57eb5d888786aed84",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cec00019-2f4a-870a-8024-382ee8996a45",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/store-4.png",
+          "md5": "35f8a752ef1701946325960e2b811913",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5a000019-2f4a-870a-802e-e23a1addba47",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/store-5.png",
+          "md5": "4cbf4137717a769019b28a8cf4268d24",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f4c00019-2f4a-870a-801e-6207b4148a67",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/store-6.png",
+          "md5": "bbf64a3fbfee678890f4ed94f2bad2ab",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bec00019-2f4a-870a-800a-9624cac0636a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/store-7.png",
+          "md5": "a0304505126432e4488d017ee45cdcd1",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "3638bc6a-2fbe-49c3-9467-7bc124db2bb9",
+      "verifiedAt": "2026-10-09T13:02:26.503Z",
+      "screenshots": [
+        {
+          "id": "39400019-2f4a-870a-803c-21fb28b4453e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/ipad-store-1.png",
+          "md5": "1821f38e526fe1d5f9ba6fbeb958b505",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ea000019-2f4a-870a-8032-b00a1983b6ab",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/ipad-store-2.png",
+          "md5": "79fb6de4989c8c3f7dbc4bb7fb791643",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39c00019-2f4a-870a-8011-99667c29326f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/ipad-store-3.png",
+          "md5": "0b3fba33be97a696e15ae39028892071",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5c00019-2f4a-870a-801e-4ef44121e540",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/ipad-store-4.png",
+          "md5": "d4712c946667c4b1f969ff2b5985479b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11c00019-2f4a-870a-802b-16c7f48d951d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/ipad-store-5.png",
+          "md5": "6a4974e1a848ca55db3f52cedb920178",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2b400019-2f4a-870a-8014-ef42cf77fd7e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/ipad-store-6.png",
+          "md5": "bfdedeaad22835fd647ca3f6db979144",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "03000019-2f4a-870a-803c-baf66fa279ac",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/gu/ipad-store-7.png",
+          "md5": "8d46bcdc52a4f065faee11c65879388e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_IPHONE_67",
+      "setId": "aa14aff9-f631-4fe3-ac5c-940fc2ea0509",
+      "verifiedAt": "2026-10-09T13:02:27.521Z",
+      "screenshots": [
+        {
+          "id": "36800019-2f4a-870a-8000-b5e4d125599d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/store-1.png",
+          "md5": "4c8ce518fa5bb9e041ebfe973322b57b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cdc00019-2f4a-870a-803e-2f6f806f63b5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/store-2.png",
+          "md5": "cd5fd85129c3cb589fbf70dca953ee3e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ed000019-2f4a-870a-800e-2aaed83a97ee",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/store-3.png",
+          "md5": "dccbda535816fee643fa8c85f321e60c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3cc00019-2f4a-870a-8016-afe4cf65ab73",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/store-4.png",
+          "md5": "b90d663e3ab6e2c2f413f970035ec700",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5d000019-2f4a-870a-803e-d425b6592560",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/store-5.png",
+          "md5": "a496dcfe563a333d15a9f9a002df2921",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b800019-2f4a-870a-8005-19074d5f56ed",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/store-6.png",
+          "md5": "6fd19fa445d51d0fe72ca06375617da1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dec00019-2f4a-870a-801b-87d4a21b9d99",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/store-7.png",
+          "md5": "554e255e3a3e73ea7ceaacd1b408322f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "c85b0bf3-b6e7-40a1-98aa-d0107d61451d",
+      "verifiedAt": "2026-10-09T13:02:39.833Z",
+      "screenshots": [
+        {
+          "id": "39000019-2f4a-870a-8037-3322e4db2593",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/ipad-store-1.png",
+          "md5": "069a13a24cedad5aaf598be421fc1c57",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4b000019-2f4a-870a-8033-db3dfad5e739",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/ipad-store-2.png",
+          "md5": "15b0066fe36ccb9868a7eb51af3ea243",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92800019-2f4a-870a-8030-6e3eb84c05ef",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/ipad-store-3.png",
+          "md5": "3d287dc08059b67ec66c5c7f4a76c393",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3e800019-2f4a-870a-801e-e5935a3da2cf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/ipad-store-4.png",
+          "md5": "654f2258c7e6b2f55f91e57f031abf63",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1c00019-2f4a-870a-803a-9f2f6f9bfa7c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/ipad-store-5.png",
+          "md5": "9e62cf067cbddfb3491b55f4b9931a4f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0c800019-2f4a-870a-8034-c53737f832a3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/ipad-store-6.png",
+          "md5": "a6a3ad7f289166ec3c7642ec0ca7e3d6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa400019-2f4a-870a-800c-a68f25a2a470",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/he/ipad-store-7.png",
+          "md5": "a05dbd393e28015dc897d166f44f88f3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_IPHONE_67",
+      "setId": "4d40d85f-ef88-4ba8-8d46-acf6019f6c65",
+      "verifiedAt": "2026-10-09T13:02:41.017Z",
+      "screenshots": [
+        {
+          "id": "abc00019-2f4a-870a-803a-add1db101485",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-1.png",
+          "md5": "821048ac6a75d85300f2309625aae3e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8000019-2f4a-870a-801c-d647255a8906",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-2.png",
+          "md5": "db60f59921d8c63910e4c368f6f48b99",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15000019-2f4a-870a-8002-8e8d5005c9f5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-3.png",
+          "md5": "ba4b50e9fbeb71b46ef1c6549a0fcf6a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38400019-2f4a-870a-8005-96e471d4f864",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-4.png",
+          "md5": "7135ee5bf9f7e4258b9d0093d0cb9396",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9f000019-2f4a-870a-8017-cf2753249699",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-5.png",
+          "md5": "962d2c67cece723a6c3b0a290cdc3530",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac000019-2f4a-870a-8031-b6065b8910dc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-6.png",
+          "md5": "d7826e80bb9ec31e9516b1f945bfdcd9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82c00019-2f4a-870a-801d-dc486fa4c63c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/store-7.png",
+          "md5": "44447614997d672ac1df6d8c668b6c9f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "c77f5255-ce0a-42ad-8709-c17f3bbca513",
+      "verifiedAt": "2026-10-09T13:02:53.613Z",
+      "screenshots": [
+        {
+          "id": "96c00019-2f4a-870a-8007-8a9b41273e60",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-1.png",
+          "md5": "d4be07eeb90bbf8b862c6b777d7ca97d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "16800019-2f4a-870a-8002-739756a20466",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-2.png",
+          "md5": "a3e2feda20724b8929197af705904d0e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5c00019-2f4a-870a-803b-06e55c56a0b4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-3.png",
+          "md5": "e072c59444010e1b09261dd30cb7ff78",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28000019-2f4a-870a-8016-6ccac1434fc5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-4.png",
+          "md5": "25032436343ad9057cb842fa5e3f9d74",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a9800019-2f4a-870a-8008-d082078667f4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-5.png",
+          "md5": "6295d8e7aa89156d9cde391922404463",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac000019-2f4a-870a-8021-0232e441543a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-6.png",
+          "md5": "6471c6eb247420b0f9f6f5e1cee45314",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43000019-2f4a-870a-8014-bbc6192d8794",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hi/ipad-store-7.png",
+          "md5": "f65aff02100f6747c9efdd47a721760e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_IPHONE_67",
+      "setId": "8ca1a83b-ba70-4237-adb4-37aa1a9c9234",
+      "verifiedAt": "2026-10-09T13:02:54.566Z",
+      "screenshots": [
+        {
+          "id": "b1c00019-2f4a-870a-802f-a9ed22ba848b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/store-1.png",
+          "md5": "4e91ba7fd273805f0b1921eb6d308251",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ccc00019-2f4a-870a-8025-05ae0e2101e2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/store-2.png",
+          "md5": "5a950f7f63f1dabd3ca918629d999398",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "93400019-2f4a-870a-801d-4006f33a6ca1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/store-3.png",
+          "md5": "db65f2a1338e4894d0e3b794d7b317b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "78000019-2f4a-870a-8035-92c4a9135733",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/store-4.png",
+          "md5": "06801353ba014d737ea34458f2e1a6b4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01000019-2f4a-870a-8012-c0d947c1e35e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/store-5.png",
+          "md5": "efb4189928464739bbab9e2d16c1aa19",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5cc00019-2f4a-870a-801a-8ee481ce4bf4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/store-6.png",
+          "md5": "21afe76792ee73328eeb23bc839d3f81",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8c00019-2f4a-870a-802c-1e5b98227776",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/store-7.png",
+          "md5": "a8712f58038313a8cd6bdadaa5dd5ef0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "88cd9419-1260-4258-aac7-638c45c65097",
+      "verifiedAt": "2026-10-09T13:03:07.005Z",
+      "screenshots": [
+        {
+          "id": "49800019-2f4a-870a-8030-26805c3e04b4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/ipad-store-1.png",
+          "md5": "4537edcd958e0be1c3cc7b5e8db79401",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2c800019-2f4a-870a-8002-054f349ab2a7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/ipad-store-2.png",
+          "md5": "c1d8d1d11231584454d400f380d5703e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0c00019-2f4a-870a-8012-b586aa326423",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/ipad-store-3.png",
+          "md5": "f30f51c7f1269a1310ac7c2148d76037",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cf400019-2f4a-870a-8006-35f88d4094a1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/ipad-store-4.png",
+          "md5": "24bda00b5aa7224bb2280915d4c9603b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70000019-2f4a-870a-803f-4294536135dd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/ipad-store-5.png",
+          "md5": "8151e525569b862728fbdc66c591dd76",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "81c00019-2f4a-870a-801a-bc01b9ad5081",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/ipad-store-6.png",
+          "md5": "1f262a091c19784597bffc17ebc8dfdc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2f400019-2f4a-870a-803d-48dddccd841c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/hu/ipad-store-7.png",
+          "md5": "3e6092bf7c53bb225fec4b549b559c63",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_IPHONE_67",
+      "setId": "8945cfa6-444c-4c3c-98da-ae19487ebcd7",
+      "verifiedAt": "2026-10-09T13:03:08.325Z",
+      "screenshots": [
+        {
+          "id": "61400019-2f4a-870a-802f-f5552f8b3d91",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/store-1.png",
+          "md5": "83ebe72bbf95468e60dc7e2fad9e259d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8c00019-2f4a-870a-803a-7bc177b30097",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/store-2.png",
+          "md5": "fb81a017417b091b0ff639eb08a3bdac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2e000019-2f4a-870a-8019-8855c554de3e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/store-3.png",
+          "md5": "b43509770d473fab9e1e2b75099da189",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8800019-2f4a-870a-803d-5306afa3ed67",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/store-4.png",
+          "md5": "1500e9782917bc8d859832ef741d4f23",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d5800019-2f4a-870a-8001-3574cb701f9a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/store-5.png",
+          "md5": "67577b93e29036a07d00806f7177b4ea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4c400019-2f4a-870a-800b-b549f4b32352",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/store-6.png",
+          "md5": "018783e481f9365883a6b4d2bdad0c45",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35000019-2f4a-870a-802c-87765d385a4c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/store-7.png",
+          "md5": "6ca22ccfda35efe5d8a8891b6854a62e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "a2409e7f-0b79-4455-977c-6c14d06f1a7b",
+      "verifiedAt": "2026-10-09T13:03:24.577Z",
+      "screenshots": [
+        {
+          "id": "90800019-2f4a-870a-801f-5d8ce61be5ac",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/ipad-store-1.png",
+          "md5": "8f6690c771f786d8a7bb760e7522bb5e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "adc00019-2f4a-870a-8003-0a857a9efe66",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/ipad-store-2.png",
+          "md5": "c8dde35410d96738f8a3532922a8f39a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2c00019-2f4a-870a-800e-16d1f9d9e46a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/ipad-store-3.png",
+          "md5": "347aa65f0daf26363d8d7f3a2b8723af",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27800019-2f4a-870a-8037-548c944da529",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/ipad-store-4.png",
+          "md5": "0034fddbcb4db62a6b7fda2556f0b15c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ec000019-2f4a-870a-8005-aae054fdf861",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/ipad-store-5.png",
+          "md5": "77f3f7e3ff55764e45a1ed873f275641",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9f400019-2f4a-870a-800c-65b2f008d0dc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/ipad-store-6.png",
+          "md5": "73f1f22596aaec2e91b5ffbac6c72aa1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "24800019-2f4a-870a-801c-8eac1f8fef4c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/id/ipad-store-7.png",
+          "md5": "5e9a649690c9b017323396f6f0b87a74",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_IPHONE_67",
+      "setId": "8ca10c38-c273-4e34-8509-1f911713d9a6",
+      "verifiedAt": "2026-10-09T13:03:24.897Z",
+      "screenshots": [
+        {
+          "id": "29c00019-2f4a-870a-8037-b970d72f2333",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/store-1.png",
+          "md5": "61b35108979c9e47f80ec280571f0a09",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1ac00019-2f4a-870a-801c-625868f20000",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/store-2.png",
+          "md5": "5f2802e29cc0943eb5cadc8f8c20417c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "00400019-2f4a-870a-8002-d112db556fc6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/store-3.png",
+          "md5": "5e48c79d87fa5da9c9f47a4bcb019b2a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2dc00019-2f4a-870a-8015-9b503896f34f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/store-4.png",
+          "md5": "c7fea6c31582062c2be5816cceb70658",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58400019-2f4a-870a-8016-9fa6ad2c760e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/store-5.png",
+          "md5": "5f37753ef59f5815b66b4d7dff84aae0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "55000019-2f4a-870a-801d-3fb1c58f2ca1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/store-6.png",
+          "md5": "8f320f7a3025942f19b2617725aefc29",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cd400019-2f4a-870a-8027-e9179549713d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/store-7.png",
+          "md5": "4f4404642287365b130297104d34dd78",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "0fabac91-d872-48ce-b2c2-2a6256d4b5d7",
+      "verifiedAt": "2026-10-09T13:03:37.585Z",
+      "screenshots": [
+        {
+          "id": "8a000019-2f4a-870a-8031-4f4314efc3cc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/ipad-store-1.png",
+          "md5": "b2059cf0379c41fee406f2a910695290",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28c00019-2f4a-870a-801a-95efdb168188",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/ipad-store-2.png",
+          "md5": "af9c104042b749034110f3082cbff343",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96c00019-2f4a-870a-800a-5f3160ee8374",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/ipad-store-3.png",
+          "md5": "ee592aacbc67110c6bf1d01f5932089a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11000019-2f4a-870a-8002-7a9d3da867f5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/ipad-store-4.png",
+          "md5": "08663cdf9122cc741e2f4c2816830c04",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5dc00019-2f4a-870a-8013-46be456f0094",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/ipad-store-5.png",
+          "md5": "d8e27b9d10604dbfee1294726f83f29a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2c00019-2f4a-870a-801d-47d02169494f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/ipad-store-6.png",
+          "md5": "d28824bad3988c1b1905a5b8feb0053e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c3c00019-2f4a-870a-802b-dc25bde157eb",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/it/ipad-store-7.png",
+          "md5": "91e095d85efd41ce7c0df71c072d6bcb",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_IPHONE_67",
+      "setId": "22c63a1a-cb27-4519-a4d0-a034a0613c29",
+      "verifiedAt": "2026-10-09T13:03:38.862Z",
+      "screenshots": [
+        {
+          "id": "a4800019-2f4a-870a-8031-681b3e2f79b8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-1.png",
+          "md5": "d497e91b3ab1aeb905c36336d1a15e9e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "68000019-2f4a-870a-8038-11c115609680",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-2.png",
+          "md5": "40095209dc3cefb6c4409ee37343535e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "02c00019-2f4a-870a-803a-51a624913cfa",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-3.png",
+          "md5": "2a748209af59bdedab87182f0069e356",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28c00019-2f4a-870a-8013-c4017f5a3ef7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-4.png",
+          "md5": "e6a57b028f6ddb12404304762815798a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3a800019-2f4a-870a-8001-50724d8018e5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-5.png",
+          "md5": "dcc99b7334629dbae49495dc7c30c8fa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1ac00019-2f4a-870a-8009-da64d05f0357",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-6.png",
+          "md5": "4ef63dfa95f3d3f907396dce12e5ce09",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7800019-2f4a-870a-8026-13bb6d3c4054",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/store-7.png",
+          "md5": "50659760430a1734753f826c7e091038",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "kn-IN",
+      "type": "APP_IPHONE_67",
+      "error": "Master changed after plan"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "kn-IN",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "error": "Master changed after plan"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "c921d1d5-a3b3-4eb7-b98f-3a2dee457c04",
+      "verifiedAt": "2026-10-09T13:03:50.923Z",
+      "screenshots": [
+        {
+          "id": "10c00019-2f4a-870a-8004-8e19f16cb0a6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-1.png",
+          "md5": "a00a4ffea4578e42189fe38bb68e146f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85400019-2f4a-870a-800b-4e75f78a7f67",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-2.png",
+          "md5": "cd2e19bb76ab0956983bd7306fe11cd3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8800019-2f4a-870a-800b-50bda040d118",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-3.png",
+          "md5": "07b2f246d3148080a2f886e6f60e81f5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "00800019-2f4a-870a-8007-0c33c369c25a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-4.png",
+          "md5": "121ad4930eb650dc3869af3a41958e52",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "be400019-2f4a-870a-803f-bccde103560b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-5.png",
+          "md5": "84400f4470afb8c8072b1a45a11981b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95000019-2f4a-870a-8030-4ce2ccf05f2f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-6.png",
+          "md5": "21df41984868ac2d75b9826e96e89164",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18400019-2f4a-870a-802b-3dd6d7ed0945",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ja/ipad-store-7.png",
+          "md5": "4f677558f299274d8b63c91e8f9cdcad",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_IPHONE_67",
+      "setId": "53c34b90-048a-4697-beb6-4c314c7196d2",
+      "verifiedAt": "2026-10-09T13:03:53.514Z",
+      "screenshots": [
+        {
+          "id": "d2000019-2f4a-870a-801a-6f2e8e8d1936",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/store-1.png",
+          "md5": "361644adbc424da2980201105dd969b8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a7000019-2f4a-870a-8023-5b0d8a781059",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/store-2.png",
+          "md5": "2aa24d37434352d6ac38a451b7b73a5e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6a400019-2f4a-870a-803a-2e8f5f93a186",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/store-3.png",
+          "md5": "0bfdcab544601543e627e7af6c54da97",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b9c00019-2f4a-870a-8006-330ae443bbbb",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/store-4.png",
+          "md5": "ed39c3abc04d0fde95e2845bb088babf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28400019-2f4a-870a-8013-c160560b8d08",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/store-5.png",
+          "md5": "647f072229f8e6674535a124ce213ec0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9c00019-2f4a-870a-8028-e33820bab6ea",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/store-6.png",
+          "md5": "27ad5b46b4c260958f9681dd6b2ecf88",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "74000019-2f4a-870a-803e-110f1f4c8fcf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/store-7.png",
+          "md5": "212209d5615ba36b6509c0d8e239d2a2",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "a642f3f7-ac78-4979-9427-142016210964",
+      "verifiedAt": "2026-10-09T13:04:04.373Z",
+      "screenshots": [
+        {
+          "id": "ce000019-2f4a-870a-8016-59b15eb49ab7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/ipad-store-1.png",
+          "md5": "89a97ecddac647ee26230c92610f5f2f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6fc00019-2f4a-870a-8033-d322d84ec6ca",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/ipad-store-2.png",
+          "md5": "f00faa6804b3532da96f56a9b0b11550",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7c800019-2f4a-870a-8021-a42a724656ae",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/ipad-store-3.png",
+          "md5": "babff2ef8f2614736296e7242d44c09e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ff400019-2f4a-870a-802b-faa48bf1e3af",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/ipad-store-4.png",
+          "md5": "1d00d664277b9d89e6e67a7142916534",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bb800019-2f4a-870a-801e-1d29180a155f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/ipad-store-5.png",
+          "md5": "8e90b0ebfbfa6b9c1b8d2e50d2d90213",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5a400019-2f4a-870a-802d-9b4602083b51",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/ipad-store-6.png",
+          "md5": "4b9f870dd7405ea3eb39691061eebad5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9c000019-2f4a-870a-802f-6562b2958d40",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ko/ipad-store-7.png",
+          "md5": "e518ad091757fb6edd4fe67c46127d3d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_IPHONE_67",
+      "setId": "ee38b776-06f1-4a0a-8fb3-db7cb00c8254",
+      "verifiedAt": "2026-10-09T13:04:06.467Z",
+      "screenshots": [
+        {
+          "id": "d2400019-2f4a-870a-8025-7044c0c47af1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/store-1.png",
+          "md5": "bcb2f7c9e48c73fdf933141dade60d22",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c3c00019-2f4a-870a-803d-fea9e0e7e81d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/store-2.png",
+          "md5": "d4fe209ec4725c72693db3d613a57049",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "db400019-2f4a-870a-8038-e85287e7128b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/store-3.png",
+          "md5": "fe22e31f4d098dba4f461315494c2a70",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2c800019-2f4a-870a-8034-ef8c3ecb4d3c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/store-4.png",
+          "md5": "5f10915bad41bb8bdf25a5145c04e622",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07c00019-2f4a-870a-8014-b6ea3279a309",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/store-5.png",
+          "md5": "0d5a479e51d11e2119e79dbb23e467ba",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96000019-2f4a-870a-801f-c4addf3bedbd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/store-6.png",
+          "md5": "233d844a6f362d28d8492b284631b4ad",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "06400019-2f4a-870a-802a-74af3d2e996c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/store-7.png",
+          "md5": "c642f3bd417733ee02b8715fa05a9e3f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "ml-IN",
+      "type": "APP_IPHONE_67",
+      "error": "Master changed after plan"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "ml-IN",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "error": "Master changed after plan"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "c7297112-798f-4705-a5aa-b9bfdcbcc2d3",
+      "verifiedAt": "2026-10-09T13:04:17.151Z",
+      "screenshots": [
+        {
+          "id": "f4400019-2f4a-870a-8030-df8ec7d7d780",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/ipad-store-1.png",
+          "md5": "e092c6b4042585cabbc93c1553983d4e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac800019-2f4a-870a-8013-6ac2f10a7a06",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/ipad-store-2.png",
+          "md5": "7ef3cac626d2c69168aad58a17311dd6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cc000019-2f4a-870a-8008-404fefd7ebeb",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/ipad-store-3.png",
+          "md5": "6976a1edeeccd5ba0fa0d84625c2a56f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9800019-2f4a-870a-8004-b0fd9c4b135b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/ipad-store-4.png",
+          "md5": "3deaf016da1aa0e805a72a9d5845e6c6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c8c00019-2f4a-870a-803b-6fc1e7d26f20",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/ipad-store-5.png",
+          "md5": "27d6d429ee98aa8c86032e7142297d90",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a8c00019-2f4a-870a-803a-4710030cc9bf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/ipad-store-6.png",
+          "md5": "b016e99066bd467b7ef7ad52fdcf5471",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "22400019-2f4a-870a-8000-6fb3ebd22ea3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ms/ipad-store-7.png",
+          "md5": "bafdf28395cf997c2605672b041a1f81",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_IPHONE_67",
+      "setId": "332e8fd0-f77f-4317-a331-abb41d53d173",
+      "verifiedAt": "2026-10-09T13:04:19.873Z",
+      "screenshots": [
+        {
+          "id": "ed400019-2f4a-870a-8029-f6133aa8f871",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/store-1.png",
+          "md5": "bddd6aed6c8ec276e6841ec3e38b90ab",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8000019-2f4a-870a-803c-289a903bd0f7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/store-2.png",
+          "md5": "be7a32f3eacb182a0a39fc7d3f6cb1a2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ffc00019-2f4a-870a-8004-2e9155e41c5d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/store-3.png",
+          "md5": "46a4a02cb34c7e82ef36f696aceef1a4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3a400019-2f4a-870a-8014-6e69c177faac",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/store-4.png",
+          "md5": "65ce142d6fbb1c7cdc034b4267231506",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c0400019-2f4a-870a-8027-31c43fdf1d00",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/store-5.png",
+          "md5": "eea927613143fb1e76daf4a4616f28ed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "df400019-2f4a-870a-8019-ed31d4a6c8af",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/store-6.png",
+          "md5": "7e66caa4a4d6e3091478fb4be28d8272",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27800019-2f4a-870a-8012-9b01dfff222a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/store-7.png",
+          "md5": "3b16193f530a40ab6d7645c150dbbd67",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "571130b6-6d6d-4f87-8d78-6b9aea535adb",
+      "verifiedAt": "2026-10-09T13:04:30.692Z",
+      "screenshots": [
+        {
+          "id": "34000019-2f4a-870a-803e-0f0ff75cc2c5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/ipad-store-1.png",
+          "md5": "1aa7d696fedce3c816d13c1f0da3e8d9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "71c00019-2f4a-870a-8006-a70b96f1d531",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/ipad-store-2.png",
+          "md5": "fba3630767458324435bca659c887540",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "54400019-2f4a-870a-802a-3dce1c586dc8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/ipad-store-3.png",
+          "md5": "c46b6ac800698cadba900f6e8300e303",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "29800019-2f4a-870a-8034-aec1d3bf43f9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/ipad-store-4.png",
+          "md5": "e362e4973352be196e91f11ff0f6b5b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95000019-2f4a-870a-801b-6a75fe04f1d6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/ipad-store-5.png",
+          "md5": "18b05ba098280b9c74e01509feef016b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66800019-2f4a-870a-803f-02cf0145d02b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/ipad-store-6.png",
+          "md5": "afd5554f6c9e72e5e199316579e71b3b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a6000019-2f4a-870a-802a-d02194f6457e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/mr/ipad-store-7.png",
+          "md5": "4bc64d88b8a27c7d891a7594360791bc",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_IPHONE_67",
+      "setId": "53352164-08f0-466a-952b-604c24ef1675",
+      "verifiedAt": "2026-10-09T13:04:32.505Z",
+      "screenshots": [
+        {
+          "id": "b9400019-2f4a-870a-803b-75a148327af4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/store-1.png",
+          "md5": "f0b032f6aa059035061c5a23a8b5078b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9b400019-2f4a-870a-8022-5ee062982700",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/store-2.png",
+          "md5": "54d396e54a13bf7296b6e001586e679b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5dc00019-2f4a-870a-8020-7d83aeb821c1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/store-3.png",
+          "md5": "b3fcac4a4b457efec06fe077b367b461",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c6c00019-2f4a-870a-802b-98daf9dfe252",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/store-4.png",
+          "md5": "a06d663c352e6e76d04b0fc76beeb8c3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1bc00019-2f4a-870a-8004-6d2743f78202",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/store-5.png",
+          "md5": "6b51757c8ab3b5f1a64d3bc7b4b80002",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28c00019-2f4a-870a-8012-614154e6de88",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/store-6.png",
+          "md5": "89fe4fb6cb31e5bc05ea811cc87675ba",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b0400019-2f4a-870a-8028-67e24fc0b361",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/store-7.png",
+          "md5": "569cad9f7101a93302dc606b88dd2e83",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "183890e7-e8b9-4064-8bf8-2f6f321c03ad",
+      "verifiedAt": "2026-10-09T13:04:43.888Z",
+      "screenshots": [
+        {
+          "id": "a7800019-2f4a-870a-801a-653d7d7211bd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/ipad-store-1.png",
+          "md5": "b152fd737037424f2f3217b9a27d960c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70000019-2f4a-870a-8006-3579c7aa7e22",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/ipad-store-2.png",
+          "md5": "6abe6da647bc7470c21da26c34f23e35",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8f400019-2f4a-870a-8020-3dfa62bc00c0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/ipad-store-3.png",
+          "md5": "eba9b1d6be14facd2f16613e461d68c7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38800019-2f4a-870a-801d-7ed25f03355e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/ipad-store-4.png",
+          "md5": "35a462b83fba469474a116b8d2958946",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dfc00019-2f4a-870a-802c-f1c129905585",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/ipad-store-5.png",
+          "md5": "19143759ff783bf94a0000eef3ac5907",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9c000019-2f4a-870a-803e-bd492653c0ce",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/ipad-store-6.png",
+          "md5": "8e4126151de1ec90f4a5c4ec2b473405",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9ec00019-2f4a-870a-8037-78d01313ecd9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/nb/ipad-store-7.png",
+          "md5": "8a8035ce803cbcf2177749d5d20dbb61",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_IPHONE_67",
+      "setId": "4faea0e2-e507-4639-abf4-3ecf6f9df20d",
+      "verifiedAt": "2026-10-09T13:04:45.759Z",
+      "screenshots": [
+        {
+          "id": "84800019-2f4a-870a-803a-3164ddb15fad",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/store-1.png",
+          "md5": "b6a2aa01bbb93604bf15e88f999e274c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09400019-2f4a-870a-8002-2b52634ec686",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/store-2.png",
+          "md5": "b2159f3707cd63213bff83ebc849b344",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80800019-2f4a-870a-8035-01a18bf797f2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/store-3.png",
+          "md5": "6ba08a113b972ddd9a1fc40602c1ae49",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bb800019-2f4a-870a-8016-b4ce882b642e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/store-4.png",
+          "md5": "d2ad15762727398e61d8f2df9f5e9215",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "84c00019-2f4a-870a-8018-261bf59c7a3a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/store-5.png",
+          "md5": "f686a4464d77b5331e46e321ef01adf2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "53400019-2f4a-870a-8007-7da121e2306d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/store-6.png",
+          "md5": "5b306c5bc6322381bc3acd0d7429ab7c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7e000019-2f4a-870a-8031-996109c24453",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/store-7.png",
+          "md5": "0abc02129b61fc1411092ea5cd0cf295",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "08f8b4ab-dab4-4f19-bbb6-6a22709a096b",
+      "verifiedAt": "2026-10-09T13:04:57.529Z",
+      "screenshots": [
+        {
+          "id": "28400019-2f4a-870a-8034-6be697d788ec",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/ipad-store-1.png",
+          "md5": "688f213fcc27454c887c43cc012bc82e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7400019-2f4a-870a-8003-715e6dbd9b74",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/ipad-store-2.png",
+          "md5": "75637af65968f342208a915de7abe2c5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5800019-2f4a-870a-803b-4be5bc85d101",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/ipad-store-3.png",
+          "md5": "5656be9d53a6a352f9cb2607b076e336",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7000019-2f4a-870a-8001-958923405010",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/ipad-store-4.png",
+          "md5": "af27f93abddc7ae156979335b4387392",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "48800019-2f4a-870a-802b-5cee6d1cc859",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/ipad-store-5.png",
+          "md5": "08d8ba2e843d8ac12d03126a1d43bcd8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8a400019-2f4a-870a-800a-1c7b8708e5e2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/ipad-store-6.png",
+          "md5": "d6d4532b35840e73adea222e720be734",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "26c00019-2f4a-870a-803b-2e016aa96726",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/or/ipad-store-7.png",
+          "md5": "cf74dd61ca69f4cdc63620cf61ed9d91",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_IPHONE_67",
+      "setId": "8a33d76e-64dd-4ca7-923b-3c04756441a7",
+      "verifiedAt": "2026-10-09T13:04:58.483Z",
+      "screenshots": [
+        {
+          "id": "cd400019-2f4a-870a-8029-a7b83a5a353c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/store-1.png",
+          "md5": "8dcaefa2e3d187ac734df695ea5b2e23",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0800019-2f4a-870a-801d-782ce042a906",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/store-2.png",
+          "md5": "10e6b2feb12396f8a7cdfe2ab3203137",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35400019-2f4a-870a-803e-659e45c79551",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/store-3.png",
+          "md5": "e6aa7c9afd265a331a9de9bc1d243b95",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c6c00019-2f4a-870a-8027-4013cd549cfd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/store-4.png",
+          "md5": "0daafa1babc856b5965ccaa6efcc0519",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "78800019-2f4a-870a-8024-37b51a8b9e1a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/store-5.png",
+          "md5": "6433b4f52227df0fe4fee27d292fe410",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4ec00019-2f4a-870a-801d-9f49f83b01bf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/store-6.png",
+          "md5": "3a11285e313474d0e6d6b31e56393ce2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0f800019-2f4a-870a-8036-f40643adb8e8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/store-7.png",
+          "md5": "d1515cb8478f97a8f1cea2330898babf",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "67d62a3b-63c7-462e-ac47-b9a60ece35a4",
+      "verifiedAt": "2026-10-09T13:05:10.464Z",
+      "screenshots": [
+        {
+          "id": "55800019-2f4a-870a-8024-cf56eb7a6d9b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/ipad-store-1.png",
+          "md5": "c02751044db6b585dc9ee1292115cb88",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35400019-2f4a-870a-803b-fb9681fe40b6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/ipad-store-2.png",
+          "md5": "d619f0d1dd42eb8853673e45f7505374",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6f800019-2f4a-870a-8031-efc61d05bd34",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/ipad-store-3.png",
+          "md5": "3cd282b8c75dfd932516814c45e70d4e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ec800019-2f4a-870a-802d-fca73fc9875f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/ipad-store-4.png",
+          "md5": "f95739bc9b231075b7f5799ff9fd499b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8000019-2f4a-870a-803c-69bda490a49e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/ipad-store-5.png",
+          "md5": "66b8149ea371e20c435f7a029620c70e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18400019-2f4a-870a-8017-1ac825761ecc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/ipad-store-6.png",
+          "md5": "87dce8b64ffacb93ce325fb89d46bca5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "81000019-2f4a-870a-802b-cb96cc357449",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pl/ipad-store-7.png",
+          "md5": "a61195abf9ff5e7b6109905724d5815f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_IPHONE_67",
+      "setId": "57001901-51c8-4229-9820-56ece78b8076",
+      "verifiedAt": "2026-10-09T13:05:11.655Z",
+      "screenshots": [
+        {
+          "id": "01800019-2f4a-870a-8024-5a549cdab858",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/store-1.png",
+          "md5": "fbdc044b4040895f34313d1c80aa027b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4b400019-2f4a-870a-8021-55682a1c7460",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/store-2.png",
+          "md5": "0f5081bf0eb35073ee4995c69c432645",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dbc00019-2f4a-870a-800c-b47a20c3a708",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/store-3.png",
+          "md5": "4aa20a952f354c82eea85e619a3bdad3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "29c00019-2f4a-870a-8005-063d7b8d0704",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/store-4.png",
+          "md5": "b659995b720e0281198840bdab4b4295",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa400019-2f4a-870a-801e-0137c74ad8db",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/store-5.png",
+          "md5": "35ea37ecd202ed1aa96ecd245dd4cf08",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "08000019-2f4a-870a-8035-8198159ef327",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/store-6.png",
+          "md5": "3f0530483cefbfcd6f72818ae3a357c0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11800019-2f4a-870a-800b-c2f4bfdb8be5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/store-7.png",
+          "md5": "95179d5eeb409870e43b9e299856f5e0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "6f66c9ca-ab7c-4c3e-8119-c7877997b023",
+      "verifiedAt": "2026-10-09T13:05:24.122Z",
+      "screenshots": [
+        {
+          "id": "fa400019-2f4a-870a-8011-1f7a6d4910a1",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/ipad-store-1.png",
+          "md5": "b727fc1eed5a03117c5d5f31667971f8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b1c00019-2f4a-870a-803c-1d341f44f6bd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/ipad-store-2.png",
+          "md5": "b8f82005e944c61450046dd7febb5ca0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39000019-2f4a-870a-8004-c9da6717c59d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/ipad-store-3.png",
+          "md5": "b7e690b070c56eac3c5fbe32472b90cf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4c00019-2f4a-870a-8022-3717461b0682",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/ipad-store-4.png",
+          "md5": "e42dee644a431436364cc8643ee8a262",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab000019-2f4a-870a-800b-a1d15187141e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/ipad-store-5.png",
+          "md5": "affb9ced75c662da446bd16ef4179d4e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9400019-2f4a-870a-8024-11c5465bf994",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/ipad-store-6.png",
+          "md5": "a70c793b49cc80c808892da18c6bbcc4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "88800019-2f4a-870a-8011-433f36a5c207",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-BR/ipad-store-7.png",
+          "md5": "03f7db82ef1df0b441b8bb8a22146013",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_IPHONE_67",
+      "setId": "9848e7ff-22cc-427f-a750-17d6033722ef",
+      "verifiedAt": "2026-10-09T13:05:25.279Z",
+      "screenshots": [
+        {
+          "id": "36000019-2f4a-870a-800b-abf844b4b69f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/store-1.png",
+          "md5": "45f7d15b25bca2f2015fba24415f2118",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2400019-2f4a-870a-8026-3e19c9ae3da6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/store-2.png",
+          "md5": "cbefd215d1af2e7c0c3093d65c4e8ccf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0f400019-2f4a-870a-801a-b95bb76ca17f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/store-3.png",
+          "md5": "d6190badd259e0a2a8f33c16272215d6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2c00019-2f4a-870a-8034-ea11cff5b54e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/store-4.png",
+          "md5": "e7826d702d9501c71840ecd9e8275711",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86000019-2f4a-870a-8037-c4e18d58d625",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/store-5.png",
+          "md5": "4cfe216dbd3e444179dcc3256eb72ffe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70400019-2f4a-870a-8027-63ae805b07fe",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/store-6.png",
+          "md5": "0386c31497cf45155d81cbb03cde65a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96c00019-2f4a-870a-802a-531ddfc10baf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/store-7.png",
+          "md5": "c5f770f20d7256fd07c393783ab84c49",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "0d769531-e955-4339-90f4-fce5bf9fc181",
+      "verifiedAt": "2026-10-09T13:05:37.165Z",
+      "screenshots": [
+        {
+          "id": "94c00019-2f4a-870a-8002-6cbe75a54d7a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/ipad-store-1.png",
+          "md5": "050eea421fde9bf2220023c41c1a5e30",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ef000019-2f4a-870a-8033-83fc33f6545e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/ipad-store-2.png",
+          "md5": "28f6aa1abb0f9bba4437ba4101db97f4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15800019-2f4a-870a-8012-00046f01ec6e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/ipad-store-3.png",
+          "md5": "9b9d783c40aba969eb3cbc980a2c5363",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0d000019-2f4a-870a-801a-2ad6562387f2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/ipad-store-4.png",
+          "md5": "509f06901fd46c840282edcf4f93d9bf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "af400019-2f4a-870a-802e-985727c54b1e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/ipad-store-5.png",
+          "md5": "31c698e16c7b3b30bf468f3ad5361b19",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "da000019-2f4a-870a-8025-f041dc399c49",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/ipad-store-6.png",
+          "md5": "6ebc5de36a8d839de5a62b3c3f474a5c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa800019-2f4a-870a-8007-55450c877c1f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pt-PT/ipad-store-7.png",
+          "md5": "baab3f8565db8c2d0daa256383e11097",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_IPHONE_67",
+      "setId": "f806ead7-f2b4-4f86-abcb-e540149bd18b",
+      "verifiedAt": "2026-10-09T13:05:39.068Z",
+      "screenshots": [
+        {
+          "id": "39400019-2f4a-870a-803f-01deb93938cd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/store-1.png",
+          "md5": "9e0c041d00aa5aae82e798d97b5c33c0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62000019-2f4a-870a-802b-609650ca7467",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/store-2.png",
+          "md5": "f949d2fc0e64c1beeb5e9d0804e7df1a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2b400019-2f4a-870a-8011-9580c6860a5f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/store-3.png",
+          "md5": "eca3c61f6ecafb47387ee4a277f1e44c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96c00019-2f4a-870a-8002-2e94a25964f3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/store-4.png",
+          "md5": "f2286b11cec4e0ef9060b268b011ce56",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0bc00019-2f4a-870a-8006-b067157671cb",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/store-5.png",
+          "md5": "5e204f6130d12ef028a6399433f97278",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dec00019-2f4a-870a-801f-59918c2e103f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/store-6.png",
+          "md5": "07a7796017b6489066c792fcd78353fd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b6000019-2f4a-870a-8012-177040826e32",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/store-7.png",
+          "md5": "f4b51e22deb8c1bfe48b183ac4bd754b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "45cde6e7-5deb-4b84-8b48-4a5a8f0d0bf5",
+      "verifiedAt": "2026-10-09T13:05:51.251Z",
+      "screenshots": [
+        {
+          "id": "b1c00019-2f4a-870a-8028-5c2b4232eff8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/ipad-store-1.png",
+          "md5": "7b760c87c100b445c09a38e676855d4c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6800019-2f4a-870a-8004-9ddd1e73bfbb",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/ipad-store-2.png",
+          "md5": "f76222c3d711238a44c11a3c4a5c4786",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "efc00019-2f4a-870a-8018-97c97931bd05",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/ipad-store-3.png",
+          "md5": "ef45ea7293aaef2bdf79b692573ec7e5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1e400019-2f4a-870a-8038-53d57398f942",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/ipad-store-4.png",
+          "md5": "499a75dc085260483d42b177a3c0df7f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eac00019-2f4a-870a-8015-5f3475a5cf37",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/ipad-store-5.png",
+          "md5": "8b2653733677a708e58d066ba497938e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8800019-2f4a-870a-8033-4712cc1f6d7e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/ipad-store-6.png",
+          "md5": "da122b7c8628b8d08f47a87625b1a3ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4c000019-2f4a-870a-8007-a4602adb5f77",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/pa/ipad-store-7.png",
+          "md5": "65a402e1c42f02af4033304aac821c69",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_IPHONE_67",
+      "setId": "773fa1b1-a50f-46f4-ac15-f53c69f26b37",
+      "verifiedAt": "2026-10-09T13:05:52.046Z",
+      "screenshots": [
+        {
+          "id": "fb400019-2f4a-870a-8026-ec0c0856932c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/store-1.png",
+          "md5": "8357e816bac33f8aa9337c1746331cbe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "47000019-2f4a-870a-802e-a50249db35eb",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/store-2.png",
+          "md5": "d24fc44aa32a63f588ef40284d21c93f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85400019-2f4a-870a-8012-da571658117b",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/store-3.png",
+          "md5": "809a555e3210960452c3477b990fa13a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83000019-2f4a-870a-800f-e4174121c25d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/store-4.png",
+          "md5": "44667dba01eed1713b688a1d403f1a73",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "00000019-2f4a-870a-801d-f31e2e67ccf9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/store-5.png",
+          "md5": "da44871fd4467b70ec0a224d2d6e1424",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6ec00019-2f4a-870a-800a-af52533b1063",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/store-6.png",
+          "md5": "282ce99c4607592d71222f14bd691619",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fcc00019-2f4a-870a-800b-4e927a7e522c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/store-7.png",
+          "md5": "2baaf6f9210f39e4c707cf3eb07b44b1",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "f4e83cf1-9323-4d8d-9fee-d0344fd9a153",
+      "verifiedAt": "2026-10-09T13:06:04.285Z",
+      "screenshots": [
+        {
+          "id": "89c00019-2f4a-870a-8039-13bda118a538",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/ipad-store-1.png",
+          "md5": "69d766f77b0d4ce6fb3c455d4887a660",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bc000019-2f4a-870a-8022-29dc5e1b66ef",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/ipad-store-2.png",
+          "md5": "7ec5318adb8781a3dd59e9a4c9ca4ad3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85000019-2f4a-870a-8035-74ea9862a890",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/ipad-store-3.png",
+          "md5": "aa4b06cfd3faa2eff9653de1c4579098",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eb800019-2f4a-870a-800f-bc4f18cd01f9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/ipad-store-4.png",
+          "md5": "ddc389af72131931cc8379e24d072084",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dec00019-2f4a-870a-802b-db2f4996b1cf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/ipad-store-5.png",
+          "md5": "74d6db579c2bdc475810b69c9706e7e5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "45c00019-2f4a-870a-8035-5695c9323706",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/ipad-store-6.png",
+          "md5": "ed8d724adebf19bea100bbe18d00b327",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5b400019-2f4a-870a-8039-e856784949dd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ro/ipad-store-7.png",
+          "md5": "ec897bdea8b5c4e13155ccc271934f26",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_IPHONE_67",
+      "setId": "c1363240-9e19-4b40-92aa-6bd4e352790a",
+      "verifiedAt": "2026-10-09T13:06:05.474Z",
+      "screenshots": [
+        {
+          "id": "7ec00019-2f4a-870a-8003-692084c79536",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-1.png",
+          "md5": "6dae2d3a5c79566751c9774fcda345ec",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85000019-2f4a-870a-8001-9df47910bf97",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-2.png",
+          "md5": "43fecb308d2e8b9053e2d14787d54854",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "53800019-2f4a-870a-800d-14366e1ca01a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-3.png",
+          "md5": "1d9bf629cad6bf2b6c31349f7edad0f3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a0800019-2f4a-870a-802a-65221ab6ebaf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-4.png",
+          "md5": "11abbf814336bcd5361ac07bb011fd39",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bec00019-2f4a-870a-803a-c5aab99edc04",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-5.png",
+          "md5": "38f41076d804a6eb285bd8dab3422e4f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eb000019-2f4a-870a-8010-63172d9d9346",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-6.png",
+          "md5": "c3765424c3d298f7ba2766e7bb4bbf30",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6e400019-2f4a-870a-8011-cb9adc962eee",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/store-7.png",
+          "md5": "ca93beaf232beb5b980aefa46679f181",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_IPHONE_67",
+      "setId": "69664ded-23d2-4b71-9459-29d2b87fecdf",
+      "verifiedAt": "2026-10-09T13:06:18.707Z",
+      "screenshots": [
+        {
+          "id": "b6000019-2f4a-870a-8037-be563e778671",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/store-1.png",
+          "md5": "80b14bfe4992ff334bdded69d6f46327",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aa000019-2f4a-870a-8031-df4120c5fff2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/store-2.png",
+          "md5": "67641ded503269cd31fcc41089bb3815",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58400019-2f4a-870a-8017-c2b7117b1c2a",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/store-3.png",
+          "md5": "cbce9abb2f2fd3b4db59c9cd4868b9ee",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b0800019-2f4a-870a-8038-8b1e69170249",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/store-4.png",
+          "md5": "fdf28920bf6fb344b941f0d90ced9e73",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2d000019-2f4a-870a-8027-cbe21bb44395",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/store-5.png",
+          "md5": "31c20989a36900509ea89e1da7390041",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63400019-2f4a-870a-8027-4abb4c456718",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/store-6.png",
+          "md5": "f369bae2fcbbe85e1e70b262b9eb2bf0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8ec00019-2f4a-870a-8005-bac3c263bfab",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/store-7.png",
+          "md5": "2c60bf84375d13117d49ce3e3f16181f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "fi",
+      "type": "APP_IPHONE_67",
+      "error": "Screenshot processing timeout; rerun to resume"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_IPHONE_67",
+      "setId": "ac730be4-df85-48ec-9dc3-b2bc52041104",
+      "verifiedAt": "2026-10-09T13:07:23.670Z",
+      "screenshots": [
+        {
+          "id": "51c00019-2f4a-870a-8036-90ca8c3c93f2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/store-1.png",
+          "md5": "7f12bcff0107fe878857a8cec024d2d4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5400019-2f4a-870a-8029-5f94cdbfc751",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/store-2.png",
+          "md5": "0e50103ff50964a90088886a32a12a6a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7400019-2f4a-870a-8034-8ee1a8278d53",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/store-3.png",
+          "md5": "f79ef2163ac45b0abe18959cae4df412",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6d400019-2f4a-870a-802d-aa679be6ebac",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/store-4.png",
+          "md5": "c67a11ef5d67369b7e4d7b2d66b20c3c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f7000019-2f4a-870a-803c-e2ff09e45797",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/store-5.png",
+          "md5": "8019588a5285def4b82a45b5b3da4b46",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51c00019-2f4a-870a-803c-bd80f7861b1d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/store-6.png",
+          "md5": "25340228e94370aa79e343096060c658",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69c00019-2f4a-870a-803f-208ee4f9b519",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/store-7.png",
+          "md5": "acea529ea731a0b3744492ae1e07be94",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "3096b5e5-6880-4217-9bb8-83ed0e0bb9f8",
+      "verifiedAt": "2026-10-09T13:07:24.572Z",
+      "screenshots": [
+        {
+          "id": "ae400019-2f4a-870a-8029-568867bbddcc",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/ipad-store-1.png",
+          "md5": "7770c57f37e554e5c88952a0ab008ca4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70800019-2f4a-870a-8035-a0705cbe0111",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/ipad-store-2.png",
+          "md5": "bb975dbdd86b3cecb9b4b7d01c573553",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5d800019-2f4a-870a-8035-6c68ae9e69d0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/ipad-store-3.png",
+          "md5": "f030846a3b5382f767d01ded7b8d037d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2400019-2f4a-870a-800f-bbec61aabe68",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/ipad-store-4.png",
+          "md5": "39a9080cbb49eb09867a6ee896d695fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c5c00019-2f4a-870a-8003-8fae1f324cd0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/ipad-store-5.png",
+          "md5": "93cad7095057d7f42420471cf7e1ff2e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96000019-2f4a-870a-8034-1b549213869f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/ipad-store-6.png",
+          "md5": "d75492b19dedd9bb423e836cb22b578a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "da400019-2f4a-870a-8005-8acab5e442cf",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sk/ipad-store-7.png",
+          "md5": "1cc9995b524d9fed916d9e7a2da3e5ca",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "5f5f8158-4d74-447d-8a97-b6dfc0f72e3f",
+      "verifiedAt": "2026-10-09T13:07:26.964Z",
+      "screenshots": [
+        {
+          "id": "f9c00019-2f4a-870a-8003-1e0fa5f1c983",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-1.png",
+          "md5": "63e5a7da38e0a0dfd0b8cdeb33d4c476",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80800019-2f4a-870a-8032-eac9f1431fd4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-2.png",
+          "md5": "72e3a4b08ca7ef4d6a4e571003f6830c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "77800019-2f4a-870a-8003-cd70864b89a9",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-3.png",
+          "md5": "fca1bf4af4d50517cca5b21ab62f72f4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8800019-2f4a-870a-8020-3bba12b54dc0",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-4.png",
+          "md5": "d46fb59ee05a180a7c0248232e981b80",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5c00019-2f4a-870a-8016-4e607d4b3b9f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-5.png",
+          "md5": "75968d4fbbc20bf553e3cb90a5a68432",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "30000019-2f4a-870a-8030-1508cccac9b6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-6.png",
+          "md5": "8ed152743ce1a306c14ff7d1002a58a5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8a000019-2f4a-870a-8038-37eaf4943a82",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/ru/ipad-store-7.png",
+          "md5": "56a1f1280ea914be3b46f07b4242e677",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "84e7a2a5-a3f1-45b8-9b3e-aadcc27bb90a",
+      "verifiedAt": "2026-10-09T13:07:36.970Z",
+      "screenshots": [
+        {
+          "id": "3e800019-2f4a-870a-8012-d460d9f05535",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/ipad-store-1.png",
+          "md5": "58d104f0e9a9f9e351e573cb0658077a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "19400019-2f4a-870a-8004-4db6f94a3a9f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/ipad-store-2.png",
+          "md5": "5be90cdba974af534885000621cb0064",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11800019-2f4a-870a-8016-b1f6a621a75e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/ipad-store-3.png",
+          "md5": "6dd5b61cfdadef8f9bb032bfe34f9710",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "52000019-2f4a-870a-8032-d8710eb6c3a4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/ipad-store-4.png",
+          "md5": "3e956fe871d21e649c1f46798ce3415f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99000019-2f4a-870a-8004-84c93d227986",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/ipad-store-5.png",
+          "md5": "d05281bef18b2cb027c4e572fddc5ec1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "71000019-2f4a-870a-8039-d3a842714757",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/ipad-store-6.png",
+          "md5": "c6366498d1221c9952779aee4c2f25dd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bf000019-2f4a-870a-8031-e31d9ab8d89d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sl/ipad-store-7.png",
+          "md5": "56938b785947c2165a741de58425fdca",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "es-MX",
+      "sourceLocale": "es",
+      "type": "APP_IPHONE_67",
+      "setId": "fc95d276-bfac-4c42-bc03-9c901b245e8b",
+      "verifiedAt": "2026-10-09T13:07:38.163Z",
+      "screenshots": [
+        {
+          "id": "71400019-2f4a-870a-801b-faf0e40186fd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-1.png",
+          "md5": "b74f2134050992229c1f42fc697ae2e0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2400019-2f4a-870a-8017-45f4088d0473",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-2.png",
+          "md5": "794440658350710699caaed29c880998",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2c00019-2f4a-870a-8022-e70726066fc4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-3.png",
+          "md5": "45dc5c5aa102577371374d770bd3487a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2c00019-2f4a-870a-8009-c3445bf79937",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-4.png",
+          "md5": "8b2f2cdb598b7a42dff0e3184045d1b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7d800019-2f4a-870a-800e-8c84201de508",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-5.png",
+          "md5": "b02b71b0c5313dc4258812d54bfd43ea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20400019-2f4a-870a-801f-aaabe085357e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-6.png",
+          "md5": "a316cdf44b78af4423745bf382be70b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cfc00019-2f4a-870a-8021-b765327aaacd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-7.png",
+          "md5": "1ef7b86b59ba6967839df520266dcccc",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "es-MX",
+      "sourceLocale": "es",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "f3254ac8-1f4c-4abb-8f0a-ff25932e491e",
+      "verifiedAt": "2026-10-09T13:07:40.173Z",
+      "screenshots": [
+        {
+          "id": "07800019-2f4a-870a-8023-7f196783588e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-1.png",
+          "md5": "b5676bd44b7bc74d5c7e6af8fd5bd076",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8e800019-2f4a-870a-803b-8bb79bdceca5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-2.png",
+          "md5": "80702449b80af3fa9e484cabbe49c43e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7400019-2f4a-870a-800a-8b4478124281",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-3.png",
+          "md5": "0b5a73fe8b195aabcdbc2afdff710625",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15000019-2f4a-870a-803a-0c0d51349313",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-4.png",
+          "md5": "829f3fb79d2786f7e65b451ef9c2890a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "98000019-2f4a-870a-8037-f093c5c0a5e7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-5.png",
+          "md5": "974931e3457d660b1e9a06736debaba7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c0000019-2f4a-870a-8034-51dc628b9b5c",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-6.png",
+          "md5": "0beb1a8a42b58b25ac7a965d5e2ce3ed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0e800019-2f4a-870a-8024-f5f814978797",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-7.png",
+          "md5": "af724de67705663709745f72e28adfc2",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_IPHONE_67",
+      "setId": "6286d0b7-4777-47d6-9e69-4a6e567de253",
+      "verifiedAt": "2026-10-09T13:07:50.607Z",
+      "screenshots": [
+        {
+          "id": "71800019-2f4a-870a-802a-fb8481ca4f63",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-1.png",
+          "md5": "b74f2134050992229c1f42fc697ae2e0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "78800019-2f4a-870a-8003-8ae1135283c7",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-2.png",
+          "md5": "794440658350710699caaed29c880998",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35400019-2f4a-870a-8016-2bfbb4463f57",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-3.png",
+          "md5": "45dc5c5aa102577371374d770bd3487a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9a400019-2f4a-870a-8017-e4505f564407",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-4.png",
+          "md5": "8b2f2cdb598b7a42dff0e3184045d1b0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5800019-2f4a-870a-8000-0afc33754a08",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-5.png",
+          "md5": "b02b71b0c5313dc4258812d54bfd43ea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3b800019-2f4a-870a-8026-2c98c745668f",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-6.png",
+          "md5": "a316cdf44b78af4423745bf382be70b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97c00019-2f4a-870a-8010-b7f1f530555d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/store-7.png",
+          "md5": "1ef7b86b59ba6967839df520266dcccc",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "85cd5501-9074-42e5-95c8-86c025809935",
+      "verifiedAt": "2026-10-09T13:07:52.626Z",
+      "screenshots": [
+        {
+          "id": "ba800019-2f4a-870a-8039-4bc649e25249",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-1.png",
+          "md5": "b5676bd44b7bc74d5c7e6af8fd5bd076",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d0000019-2f4a-870a-8020-998d0d4abec8",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-2.png",
+          "md5": "80702449b80af3fa9e484cabbe49c43e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b000019-2f4a-870a-8031-9a215b90ba0e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-3.png",
+          "md5": "0b5a73fe8b195aabcdbc2afdff710625",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c1000019-2f4a-870a-8002-37ebd8b719d6",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-4.png",
+          "md5": "829f3fb79d2786f7e65b451ef9c2890a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aa400019-2f4a-870a-803b-f756bf75a7e5",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-5.png",
+          "md5": "974931e3457d660b1e9a06736debaba7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7ec00019-2f4a-870a-8004-21c796a0b01e",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-6.png",
+          "md5": "0beb1a8a42b58b25ac7a965d5e2ce3ed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cc800019-2f4a-870a-8037-d35789eda713",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/es/ipad-store-7.png",
+          "md5": "af724de67705663709745f72e28adfc2",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_IPHONE_67",
+      "setId": "f1177de7-cfc2-436a-9a79-a64590da0c93",
+      "verifiedAt": "2026-10-09T13:07:53.207Z",
+      "screenshots": [
+        {
+          "id": "90000019-2f4a-870a-802b-9eb410db2a68",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/store-1.png",
+          "md5": "2589b2e9afab0646fe1ed1a29293248c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5e000019-2f4a-870a-8017-01baf154e74d",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/store-2.png",
+          "md5": "347d19ed18b3ae46c3487ae9dbfd9b1f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "48800019-2f4a-870a-801a-8a5ee89ebb58",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/store-3.png",
+          "md5": "304d91cc7fca903061783770e26ee8d8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75000019-2f4a-870a-8001-f3fa968bc727",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/store-4.png",
+          "md5": "01bc846e3e18cffe7115dbdf861c6317",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "48400019-2f4a-870a-800b-409b1fa9c1e4",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/store-5.png",
+          "md5": "43af6eb6633ff9248c2ba4698cd25fc4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35800019-2f4a-870a-8037-5d112f3eeebd",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/store-6.png",
+          "md5": "ea3aa208b014ebad04019ad4ffc65cc9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "48400019-2f4a-870a-8021-4f88aed467d3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/store-7.png",
+          "md5": "b642bee560c62330b52f819465d9181e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "ta-IN",
+      "type": "APP_IPHONE_67",
+      "error": "Master changed after plan"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "locale": "ta-IN",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "error": "Master changed after plan"
+    },
+    {
+      "slug": "brainfold",
+      "platform": "IOS",
+      "version": "1.2.1",
+      "versionId": "29d60e0d-9178-46c0-b53d-ae6a3ccedb68",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "5a62386a-8041-47a2-b92b-f98c6cb5a0f4",
+      "verifiedAt": "2026-10-09T13:08:04.183Z",
+      "screenshots": [
+        {
+          "id": "fe400019-2f4a-870a-8018-360255b47e94",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/ipad-store-1.png",
+          "md5": "0f706b613a0bec39e44707d3650f19f4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62400019-2f4a-870a-800b-a8efc6762677",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/ipad-store-2.png",
+          "md5": "250c20a126c2bfb385533864739e5f34",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d0c00019-2f4a-870a-801b-f68365fdc715",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/ipad-store-3.png",
+          "md5": "72b1256907fc7503b6dd7e4a54c11e3b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86000019-2f4a-870a-8018-d7aa08cd1ae3",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/ipad-store-4.png",
+          "md5": "3ddc093d23abe36f74219977d21915e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d9400019-2f4a-870a-8026-7db1f6b7a960",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/ipad-store-5.png",
+          "md5": "c09cb286e180d9c880c091ed70cb8812",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c0400019-2f4a-870a-8034-7bd7d067fc98",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/ipad-store-6.png",
+          "md5": "2ff267b0feb5070e9e5e4a50a8b38709",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10000019-2f4a-870a-802f-3f8089b7abe2",
+          "file": "docs/marketing/october-2026/brainfold-1.2.1/exports/sv/ipad-store-7.png",
+          "md5": "738db1b0ddb75c9e08674b491e8c150f",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 12
+}

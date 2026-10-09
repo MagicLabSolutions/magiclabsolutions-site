@@ -1,0 +1,386 @@
+{
+  "checkedAt": "2026-10-09T13:54:56.424Z",
+  "appId": "6760474378",
+  "version": "1.2.1",
+  "galleries": 147,
+  "images": 1029,
+  "allStates": "COMPLETE",
+  "buildsPreviewsPublishedMetadataReleasePreserved": true,
+  "missingListingFields": [
+    {
+      "platform": "MAC_OS",
+      "locale": "de-DE",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "en-GB",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "pt-BR",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "tr",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "sv",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ca",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "vi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "id",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "zh-Hans",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "fr-FR",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "sk",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "th",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ru",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "he",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "es-ES",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ro",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "pt-PT",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "nl-NL",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ja",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "fi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "en-AU",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "hi",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ko",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "uk",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "el",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "en-US",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "no",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "hu",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "da",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "fr-CA",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "hr",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "es-MX",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "pl",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ms",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "it",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "en-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "cs",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ar-SA",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "zh-Hant",
+      "fields": [
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    },
+    {
+      "platform": "MAC_OS",
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "whatsNew"
+      ]
+    }
+  ],
+  "submittedForReview": false
+}
