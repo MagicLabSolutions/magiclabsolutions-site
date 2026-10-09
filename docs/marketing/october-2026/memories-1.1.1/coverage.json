@@ -1,0 +1,234 @@
+{
+  "sourceAppLocales": 55,
+  "appleListingLocales": 50,
+  "nativeCaptures": 220,
+  "exportedMasters": 660,
+  "appleGalleries": 100,
+  "finalScreenshotsPlanned": 600,
+  "screenshotsAddedPlanned": 200,
+  "mapping": [
+    {
+      "listingLocale": "ar-SA",
+      "sourceLocale": "ar"
+    },
+    {
+      "listingLocale": "bn-BD",
+      "sourceLocale": "bn"
+    },
+    {
+      "listingLocale": "ca",
+      "sourceLocale": "ca"
+    },
+    {
+      "listingLocale": "zh-Hans",
+      "sourceLocale": "zh-Hans"
+    },
+    {
+      "listingLocale": "zh-Hant",
+      "sourceLocale": "zh-Hant"
+    },
+    {
+      "listingLocale": "hr",
+      "sourceLocale": "hr"
+    },
+    {
+      "listingLocale": "cs",
+      "sourceLocale": "cs"
+    },
+    {
+      "listingLocale": "da",
+      "sourceLocale": "da"
+    },
+    {
+      "listingLocale": "nl-NL",
+      "sourceLocale": "nl"
+    },
+    {
+      "listingLocale": "en-AU",
+      "sourceLocale": "en-AU"
+    },
+    {
+      "listingLocale": "en-CA",
+      "sourceLocale": "en-US"
+    },
+    {
+      "listingLocale": "en-GB",
+      "sourceLocale": "en-GB"
+    },
+    {
+      "listingLocale": "en-US",
+      "sourceLocale": "en-US"
+    },
+    {
+      "listingLocale": "fi",
+      "sourceLocale": "fi"
+    },
+    {
+      "listingLocale": "fr-FR",
+      "sourceLocale": "fr"
+    },
+    {
+      "listingLocale": "fr-CA",
+      "sourceLocale": "fr-CA"
+    },
+    {
+      "listingLocale": "de-DE",
+      "sourceLocale": "de"
+    },
+    {
+      "listingLocale": "el",
+      "sourceLocale": "el"
+    },
+    {
+      "listingLocale": "gu-IN",
+      "sourceLocale": "gu"
+    },
+    {
+      "listingLocale": "he",
+      "sourceLocale": "he"
+    },
+    {
+      "listingLocale": "hi",
+      "sourceLocale": "hi"
+    },
+    {
+      "listingLocale": "hu",
+      "sourceLocale": "hu"
+    },
+    {
+      "listingLocale": "id",
+      "sourceLocale": "id"
+    },
+    {
+      "listingLocale": "it",
+      "sourceLocale": "it"
+    },
+    {
+      "listingLocale": "ja",
+      "sourceLocale": "ja"
+    },
+    {
+      "listingLocale": "kn-IN",
+      "sourceLocale": "kn"
+    },
+    {
+      "listingLocale": "ko",
+      "sourceLocale": "ko"
+    },
+    {
+      "listingLocale": "ms",
+      "sourceLocale": "ms"
+    },
+    {
+      "listingLocale": "ml-IN",
+      "sourceLocale": "ml"
+    },
+    {
+      "listingLocale": "mr-IN",
+      "sourceLocale": "mr"
+    },
+    {
+      "listingLocale": "no",
+      "sourceLocale": "nb"
+    },
+    {
+      "listingLocale": "or-IN",
+      "sourceLocale": "or"
+    },
+    {
+      "listingLocale": "pl",
+      "sourceLocale": "pl"
+    },
+    {
+      "listingLocale": "pt-BR",
+      "sourceLocale": "pt-BR"
+    },
+    {
+      "listingLocale": "pt-PT",
+      "sourceLocale": "pt-PT"
+    },
+    {
+      "listingLocale": "pa-IN",
+      "sourceLocale": "pa"
+    },
+    {
+      "listingLocale": "ro",
+      "sourceLocale": "ro"
+    },
+    {
+      "listingLocale": "ru",
+      "sourceLocale": "ru"
+    },
+    {
+      "listingLocale": "sk",
+      "sourceLocale": "sk"
+    },
+    {
+      "listingLocale": "sl-SI",
+      "sourceLocale": "sl"
+    },
+    {
+      "listingLocale": "es-MX",
+      "sourceLocale": "es-419"
+    },
+    {
+      "listingLocale": "es-ES",
+      "sourceLocale": "es"
+    },
+    {
+      "listingLocale": "sv",
+      "sourceLocale": "sv"
+    },
+    {
+      "listingLocale": "ta-IN",
+      "sourceLocale": "ta"
+    },
+    {
+      "listingLocale": "te-IN",
+      "sourceLocale": "te"
+    },
+    {
+      "listingLocale": "th",
+      "sourceLocale": "th"
+    },
+    {
+      "listingLocale": "tr",
+      "sourceLocale": "tr"
+    },
+    {
+      "listingLocale": "uk",
+      "sourceLocale": "uk"
+    },
+    {
+      "listingLocale": "ur-PK",
+      "sourceLocale": "ur"
+    },
+    {
+      "listingLocale": "vi",
+      "sourceLocale": "vi"
+    }
+  ],
+  "notAppleListingLocales": [
+    "bg",
+    "en-IN",
+    "es-US",
+    "kk",
+    "lt",
+    "zh-HK"
+  ],
+  "qa": {
+    "allRasterDimensionsRGBChecksums": true,
+    "originalMastersPreserved": true,
+    "nativeSourcesVerified": true,
+    "allCopyFitsAtOriginalFontSize": true,
+    "visualSamples": [
+      "en-US",
+      "ar",
+      "bg",
+      "bn",
+      "he",
+      "ja"
+    ],
+    "storeSpecifications": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/"
+  }
+}

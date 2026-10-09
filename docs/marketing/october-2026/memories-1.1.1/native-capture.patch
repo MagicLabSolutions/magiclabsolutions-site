@@ -1,0 +1,438 @@
+--- a/Memories.xcodeproj/project.pbxproj
++++ b/Memories.xcodeproj/project.pbxproj
+@@ -459,7 +459,7 @@
+ 				SWIFT_EMIT_LOC_STRINGS = YES;
+ 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+ 				SWIFT_VERSION = 5.0;
+-				TARGETED_DEVICE_FAMILY = 1;
++				TARGETED_DEVICE_FAMILY = "1,2";
+ 			};
+ 			name = Debug;
+ 		};
+@@ -497,7 +497,7 @@
+ 				SWIFT_EMIT_LOC_STRINGS = YES;
+ 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+ 				SWIFT_VERSION = 5.0;
+-				TARGETED_DEVICE_FAMILY = 1;
++				TARGETED_DEVICE_FAMILY = "1,2";
+ 			};
+ 			name = Release;
+ 		};
+@@ -801,7 +801,7 @@
+ /* Begin XCLocalSwiftPackageReference section */
+ 		0AB302E62FA8C7A800BD03B1 /* XCLocalSwiftPackageReference "../../AppStoreScreenshotGenerator" */ = {
+ 			isa = XCLocalSwiftPackageReference;
+-			relativePath = ../../AppStoreScreenshotGenerator;
++			relativePath = /Users/fabio.hoffmann/Development/MagicLabSolutions/AppStoreScreenshotGenerator;
+ 		};
+ /* End XCLocalSwiftPackageReference section */
+ 
+--- a/Memories/App/AppDelegate.swift
++++ b/Memories/App/AppDelegate.swift
+@@ -8,6 +8,7 @@
+         _ application: UIApplication,
+         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
+     ) -> Bool {
++        if ScreenshotMode.isActive { return true }
+         // BG task registration must happen synchronously during launch.
+         BackgroundTaskManager.register()
+ 
+--- a/Memories/App/RootView.swift
++++ b/Memories/App/RootView.swift
+@@ -18,7 +18,9 @@
+ 
+     var body: some View {
+         Group {
+-            if prefs.hasCompletedOnboarding {
++            if ScreenshotMode.isActive {
++                MarketingCaptureView()
++            } else if prefs.hasCompletedOnboarding {
+                 AppShell()
+             } else {
+                 OnboardingView()
+@@ -33,3 +35,279 @@
+         .preferredColorScheme(.light)
+     }
+ }
++
++import SwiftUI
++import SwiftData
++
++
++/// Lightweight wrappers around the real app screens, each of which
++/// pulls the right piece of seeded state out of the in-memory model
++/// container before mounting the screen the screenshot wants to show.
++///
++/// Each host:
++///   - opens its own `@Query` against the model container,
++///   - picks the active demo project (Léo by default),
++///   - mounts the production screen at the precise initial state we
++///     want captured — no nav clicks, no waiting for animations, no
++///     fragile UI scripting.
++///
++/// If a screen needs a state that the seed alone can't produce (e.g.
++/// the soundtrack picker open inside the tool sheet), the host
++/// constructs that state directly with the same APIs the app uses, so
++/// the captured frame is still the *real* view, not a screenshot
++/// stand-in.
++
++// MARK: - Project home
++
++struct ProjectHomeScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++
++    var body: some View {
++        NavigationStack {
++            if let project = activeProject {
++                ProjectHomeView(project: project)
++            } else {
++                placeholder
++            }
++        }
++    }
++
++    private var activeProject: Project? {
++        // Prefer the explicitly-active project (the seed sets Léo); fall
++        // back to the first one in case the seeded state isn't ready
++        // yet on first render.
++        if let activeID = ProjectManager.shared.activeProjectID,
++           let project = projects.first(where: { $0.id == activeID }) {
++            return project
++        }
++        return projects.first
++    }
++
++    private var placeholder: some View {
++        ZStack { AppColor.cream.ignoresSafeArea() }
++    }
++}
++
++// MARK: - Memory list (highlights)
++
++struct MemoryListScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++
++    var body: some View {
++        NavigationStack {
++            if let project = projects.first {
++                // Open the list with the highlights filter applied so the
++                // screen leads with starred memories — that's what the
++                // marketing line ("Star the moments that matter") promises.
++                MemoryListView(
++                    project: project,
++                    initialFilter: .builtin(.highlights)
++                )
++            } else {
++                ZStack { AppColor.cream.ignoresSafeArea() }
++            }
++        }
++    }
++}
++
++// MARK: - Compilation preview
++
++struct CompilationScreenshotHost: View {
++    @State private var fixtureReady = false
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++    @Environment(\.modelContext) private var modelContext
++
++    var body: some View {
++        if let project = projects.first {
++            // Pick the most recent month of the active project — most
++            // populated with memories, makes the "9 photos · 0 videos"
++            // line on the film card render with real numbers instead
++            // of zeros.
++            let period = PersonalPeriod.current(
++                projectID: project.id,
++                referenceDate: project.referenceDate
++            )
++            // Inject a fake `Compilation` row into the project so
++            // `CompilationView` lands on its `.completed` ready state
++            // rather than the empty "Build this month's film?" CTA.
++            // The compilation's `localFileName` points at a file that
++            // doesn't exist — that's intentional. `CompilationView`
++            // detects screenshot mode and renders a static poster
++            // image (the first memory's thumbnail) instead of trying
++            // to wire `AVPlayer` to the missing file.
++            Group {
++                if fixtureReady {
++                    CompilationView(project: project, period: period)
++                        .id("\(project.id.uuidString)-\(period.monthIndex)")
++                } else {
++                    Color.clear.task {
++                        Self.ensureCompilation(for: project, period: period, context: modelContext)
++                        try? modelContext.save()
++                        fixtureReady = true
++                    }
++                }
++            }
++        } else {
++            ZStack { AppColor.cream.ignoresSafeArea() }
++        }
++    }
++
++    @MainActor
++    private static func ensureCompilation(
++        for project: Project,
++        period: PersonalPeriod,
++        context: ModelContext
++    ) {
++        // Don't double-insert if a previous render already added one.
++        let existing = (project.compilations ?? []).first { c in
++            c.periodStart == period.startDate && c.periodEnd == period.endDate
++        }
++        if existing != nil { return }
++
++        let compilation = Compilation(
++            type: .monthly,
++            periodStart: period.startDate,
++            periodEnd: period.endDate,
++            aspectRatio: .portrait_9_16,
++            audioChoice: .silent
++        )
++        // `localFileName` set to a stable string so the view enters its
++        // ready state. The actual `.mp4` doesn't exist; the screenshot
++        // poster fallback in `CompilationView.playerSurface` handles
++        // the "video missing" case explicitly for screenshot mode.
++        compilation.localFileName = "screenshot-poster.mp4"
++        compilation.memoryCount = (project.memories ?? [])
++            .filter { period.contains($0.capturedAt) && $0.deletedAt == nil }
++            .count
++        compilation.durationSeconds = 28
++        context.insert(compilation)
++        project.compilations?.append(compilation)
++    }
++}
++
++// MARK: - Soundtrack picker
++
++/// The CompilationToolSheet is normally surfaced as a `.sheet` from
++/// inside `CompilationView`. For the screenshot we render it directly
++/// (no sheet wrapper) so the canvas is the picker itself.
++struct CompilationToolSheetScreenshotHost: View {
++    let activeTool: CompilationTool
++
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++    @State private var aspect: AspectRatio = .portrait_9_16
++    @State private var audio: AudioChoice = .random
++    @State private var muted: Bool = false
++    @State private var filter: CompilationFilter = .none
++    @State private var titleText: String = ""
++    @State private var titleSubtitle: String = ""
++    @State private var titleStyle: CompilationTitleStyle = .none
++    @State private var titleColorHex: String = CompilationTitle.defaultColorHex
++    @State private var titlePosition: CompilationTitlePosition = .center
++    @State private var titleSize: CompilationTitleSize = .medium
++    @State private var speed: CompilationSpeed = .normal
++    @State private var transition: CompilationTransition = .smooth
++
++    var body: some View {
++        if let project = projects.first {
++            let period = PersonalPeriod.current(
++                projectID: project.id,
++                referenceDate: project.referenceDate
++            )
++            // The first memory's media URL stands in for the filter-preview
++            // and title-preview backgrounds — same path the real sheet
++            // takes when it's launched from `CompilationView`.
++            let firstMedia: URL? = (project.memories ?? [])
++                .sorted { $0.capturedAt < $1.capturedAt }
++                .first
++                .map { FileStore.shared.mediaURL(projectID: project.id, fileName: $0.localFileName) }
++            CompilationToolSheet(
++                tool: activeTool,
++                aspectRatio: $aspect,
++                audioChoice: $audio,
++                mutesOriginalAudio: $muted,
++                filter: $filter,
++                filterPreviewURL: firstMedia,
++                titleText: $titleText,
++                titleSubtitle: $titleSubtitle,
++                titleStyle: $titleStyle,
++                titleColorHex: $titleColorHex,
++                titlePosition: $titlePosition,
++                titleSize: $titleSize,
++                titlePreviewBackgroundURL: firstMedia,
++                playbackSpeed: $speed,
++                compilationVideoURL: nil,
++                compilationBaseSpeed: 1.0,
++                transition: $transition,
++                isPlus: true,
++                onApply: {},
++                onLockedTap: {}
++            )
++            // Project context for `@Query`-based subviews.
++            .id(project.id)
++            // Period is unused here but suppresses unused-variable warnings.
++            .onAppear { _ = period }
++        } else {
++            ZStack { AppColor.cream.ignoresSafeArea() }
++        }
++    }
++}
++
++
++struct MarketingCaptureView: View {
++    var body: some View {
++        let args = ProcessInfo.processInfo.arguments
++        let index = args.firstIndex(of: "-marketing-screen").flatMap { $0 + 1 < args.count ? args[$0 + 1] : nil } ?? "home"
++        Group {
++            switch index {
++            case "year": CompilationRevealScreenshotHost()
++            case "projects": ProjectSwitcherScreenshotHost()
++            case "highlights": MemoryListScreenshotHost()
++            case "film": CompilationScreenshotHost()
++            case "soundtrack": CompilationToolSheetScreenshotHost(activeTool: .soundtrack)
++            default: ProjectHomeScreenshotHost()
++            }
++        }
++    }
++}
++
++struct CompilationRevealScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++
++    var body: some View {
++        if let project = projects.first {
++            // The reveal view is normally driven by `RevealCenter` after
++            // a notification tap. We synthesise a `PendingReveal` for
++            // the most recent year of the project so the view renders
++            // its celebratory state without needing the notification
++            // pipeline to be live.
++            CompilationRevealView(reveal: Self.makePendingReveal(for: project))
++        } else {
++            ZStack { AppColor.cream.ignoresSafeArea() }
++        }
++    }
++
++    private static func makePendingReveal(for project: Project) -> RevealCenter.PendingReveal {
++        let calendar = Calendar.current
++        let yearStart = project.referenceDate
++        let yearEnd = calendar.date(byAdding: .year, value: 1, to: yearStart) ?? yearStart
++        // Month index 11 marks the close of the first 12-month cycle —
++        // the trigger condition `AutoSuggestEngine` uses for year
++        // summaries, which is what this reveal wants to celebrate.
++        return RevealCenter.PendingReveal(
++            id: UUID(),
++            projectID: project.id,
++            monthIndex: 11,
++            periodStart: yearStart,
++            periodEnd: yearEnd
++        )
++    }
++}
++
++// MARK: - Project switcher
++
++struct ProjectSwitcherScreenshotHost: View {
++    var body: some View {
++        ProjectSwitcherSheet()
++    }
++}
++
+--- a/Memories/Persistence/ScreenshotSeed.swift
++++ b/Memories/Persistence/ScreenshotSeed.swift
+@@ -86,13 +86,13 @@
+         // months from today, the travel project spans ~6, the
+         // anniversary one is recent.
+         let now = Date()
+-        let leoBirthday = calendar.date(byAdding: .month, value: -11, to: now) ?? now
++        let leoBirthday = calendar.date(byAdding: .month, value: -12, to: now) ?? now
+         let travelStart = calendar.date(byAdding: .month, value: -6, to: now) ?? now
+         let anniversaryStart = calendar.date(byAdding: .month, value: -1, to: now) ?? now
+ 
+         let leo = Project(name: "Léo", kind: .child, referenceDate: leoBirthday)
+-        let travel = Project(name: "Around the World", kind: .yearInLife, referenceDate: travelStart)
+-        let anniversary = Project(name: "Our Anniversary", kind: .together, referenceDate: anniversaryStart)
++        let travel = Project(name: "2026", kind: .yearInLife, referenceDate: travelStart)
++        let anniversary = Project(name: "Léo & Mia", kind: .together, referenceDate: anniversaryStart)
+ 
+         for project in [leo, travel, anniversary] {
+             context.insert(project)
+@@ -113,11 +113,21 @@
+         // one batched task group. If the network is unavailable, the
+         // cache stays empty and `renderPhoto` falls back to the
+         // procedural compositions.
+-        ScreenshotImageFactory.prewarmStockCache(for: allStockJobs())
++        let args = ProcessInfo.processInfo.arguments
++        let scene = args.firstIndex(of: "-marketing-screen").flatMap { $0 + 1 < args.count ? args[$0 + 1] : nil }
++        if scene == "projects" { return }
++        if scene != "year" { ScreenshotImageFactory.prewarmStockCache(for: allStockJobs()) }
+ 
+         populateChild(leo, calendar: calendar, context: context)
+         populateTravel(travel, calendar: calendar, context: context)
+         populateAnniversary(anniversary, calendar: calendar, context: context)
++        let end = calendar.date(byAdding: .year, value: 1, to: leo.referenceDate)!
++        let film = Compilation(type: .yearly, periodStart: leo.referenceDate, periodEnd: end, aspectRatio: .portrait_9_16, audioChoice: .silent)
++        film.localFileName = "fictional-demo-year.mp4"
++        film.memoryCount = leo.memories?.count ?? 144
++        film.durationSeconds = 180
++        context.insert(film)
++        leo.compilations?.append(film)
+     }
+ 
+     /// Mirror of every `(theme, seed)` pair used by `populateChild`,
+@@ -252,6 +262,17 @@
+         seed: Int,
+         capturedAt: Date
+     ) -> MemoryItem {
++        // Offline yearly reveal reads the separate demo film poster, while its
++        // real 144-memory model rows use unique existing cache JPEG fixtures.
++        if let data = try? Data(contentsOf: FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0].appendingPathComponent("marketing-stock/\(theme)-\(seed)-1080x1440.jpg")),
++           let image = UIImage(data: data) {
++            let memory = MemoryItem(localFileName: "", mediaType: .photo, capturedAt: capturedAt,
++                width: Int(image.size.width), height: Int(image.size.height), fileSizeBytes: Int64(data.count))
++            memory.localFileName = "\(memory.id.uuidString).jpg"
++            try? data.write(to: FileStore.shared.mediaURL(projectID: project.id, fileName: memory.localFileName))
++            try? data.write(to: FileStore.shared.thumbnailURL(projectID: project.id, memoryID: memory.id))
++            return memory
++        }
+         // Render full-size + thumbnail. The full-size image is what the
+         // detail/player views read; the `_thumb.jpg` sidecar is what
+         // the photo grid pulls (mirrors what the real importer writes).
+--- a/Memories/Persistence/ScreenshotImageFactory.swift
++++ b/Memories/Persistence/ScreenshotImageFactory.swift
+@@ -58,6 +58,12 @@
+     /// Cuts the network portion of the seed from "100 sequential
+     /// requests" to "100 parallel requests in one batch."
+     static func prewarmStockCache(for jobs: [(theme: Theme, seed: Int)], size: CGSize = CGSize(width: 1080, height: 1440)) {
++        let cacheDirectory = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0].appendingPathComponent("marketing-stock", isDirectory: true)
++        try? FileManager.default.createDirectory(at: cacheDirectory, withIntermediateDirectories: true)
++        for job in jobs {
++            let key = "\(job.theme)-\(job.seed)-\(Int(size.width))x\(Int(size.height))"
++            if let image = UIImage(contentsOfFile: cacheDirectory.appendingPathComponent(key + ".jpg").path) { stockCache[key] = image }
++        }
+         // Snapshot the keys we still need to fetch — anything already
+         // in the cache from a previous prewarm is skipped.
+         let pending: [(String, URL)] = jobs.compactMap { job in
+@@ -106,6 +112,7 @@
+         let results = resultsBox.snapshotSync()
+         for (key, image) in results {
+             stockCache[key] = image
++            try? image.jpegData(compressionQuality: 0.9)?.write(to: cacheDirectory.appendingPathComponent(key + ".jpg"))
+         }
+         print("[ScreenshotImageFactory] prewarmed \(results.count)/\(pending.count) stock photos")
+     }
+@@ -126,6 +133,8 @@
+         if let cached = stockCache[cacheKey] {
+             return cached
+         }
++
++        if let full = stockCache.first(where: { $0.key.hasPrefix("\(theme)-\(seed)-") })?.value { return full }
+ 
+         let urlString = "https://picsum.photos/seed/memories-\(theme)-\(seed)/\(Int(size.width))/\(Int(size.height))"
+         guard let url = URL(string: urlString) else { return nil }
+--- a/Memories/Features/Notifications/CompilationRevealView.swift
++++ b/Memories/Features/Notifications/CompilationRevealView.swift
+@@ -143,6 +143,11 @@
+                 startPoint: .topLeading,
+                 endPoint: .bottomTrailing
+             )
++            if ScreenshotMode.isActive,
++               let url = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first?.appendingPathComponent("marketing-stock/birthday-film.jpg"),
++               let photo = UIImage(contentsOfFile: url.path) {
++                Image(uiImage: photo).resizable().scaledToFill().frame(width: 220, height: 280).clipped()
++            }
+             Image(systemName: "play.fill")
+                 .font(.system(size: 32, weight: .bold))
+                 .foregroundStyle(.white)
