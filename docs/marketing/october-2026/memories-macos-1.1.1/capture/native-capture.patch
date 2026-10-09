@@ -1,0 +1,646 @@
+--- a/Memories.xcodeproj/project.pbxproj
++++ b/Memories.xcodeproj/project.pbxproj
+@@ -959,7 +959,7 @@
+ /* Begin XCLocalSwiftPackageReference section */
+ 		0AB302E62FA8C7A800BD03B1 /* XCLocalSwiftPackageReference "../../AppStoreScreenshotGenerator" */ = {
+ 			isa = XCLocalSwiftPackageReference;
+-			relativePath = ../../AppStoreScreenshotGenerator;
++			relativePath = /Users/fabio.hoffmann/Development/MagicLabSolutions/AppStoreScreenshotGenerator;
+ 		};
+ 		0A86C0FB2F9E104500845503 /* XCRemoteSwiftPackageReference "HorseKit" */ = {
+ 			isa = XCRemoteSwiftPackageReference;
+--- a/Memories/App/AppDelegate.swift
++++ b/Memories/App/AppDelegate.swift
+@@ -8,6 +8,14 @@
+         _ application: UIApplication,
+         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
+     ) -> Bool {
++        if ScreenshotMode.isActive {
++            let options = FirebaseOptions(googleAppID: "1:1234567890:ios:abcdef0123456789abcdef", gcmSenderID: "1234567890")
++            options.projectID = "marketing-capture"
++            options.apiKey = "AIzaSyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
++            FirebaseApp.configure(options: options)
++            FirebaseApp.app()?.isDataCollectionDefaultEnabled = false
++            return true
++        }
+         // BG task registration must happen synchronously during launch.
+         BackgroundTaskManager.register()
+ 
+--- a/Memories/App/MemoriesApp.swift
++++ b/Memories/App/MemoriesApp.swift
+@@ -61,7 +61,7 @@
+ 
+     var body: some Scene {
+         WindowGroup {
+-            RootView()
++            MarketingMacRoot()
+                 .environment(\.font, AppFont.body)
+                 .tint(AppColor.accent)
+                 .onOpenURL { AppRouter.shared.handle(url: $0) }
+@@ -72,6 +72,7 @@
+         // `initial: true`: on some iOS versions the scene is already
+         // active at launch, so a plain onChange never fires for it.
+         .onChange(of: scenePhase, initial: true) { _, phase in
++            guard !ScreenshotMode.isActive else { return }
+             switch phase {
+             case .active:
+                 AppLifecycle.didBecomeActive()
+--- a/Memories/Features/Home/ProjectHomeView.swift
++++ b/Memories/Features/Home/ProjectHomeView.swift
+@@ -491,7 +491,7 @@
+                             let previewMemories = Array(
+                                 liveMemories
+                                     .filter { period.contains($0.capturedAt) }
+-                                    .sorted { $0.capturedAt > $1.capturedAt }
++                                    .sorted { $0.capturedAt < $1.capturedAt }
+                                     .prefix(PeriodMemoryMosaic.maxCells)
+                             )
+                             Button {
+@@ -505,7 +505,7 @@
+                                     projectKind: project.kind,
+                                     isCurrent: period.monthIndex == currentPeriod.monthIndex,
+                                     isFuture: isFuture,
+-                                    compilation: compilation,
++                                    compilation: nil, // Capture fixture: distinct month mosaics, separate film posters.
+                                     projectID: project.id,
+                                     previewMemories: previewMemories
+                                 )
+@@ -518,7 +518,7 @@
+                     .padding(.horizontal, shelfInset)
+                 }
+                 .onAppear {
+-                    proxy.scrollTo(shelfAnchorIndex, anchor: .center)
++                    proxy.scrollTo(max(0, shelfAnchorIndex - 2), anchor: .center)
+                 }
+             }
+         }
+--- a/Memories/Persistence/FileStore.swift
++++ b/Memories/Persistence/FileStore.swift
+@@ -34,7 +34,7 @@
+     private var fileManager: FileManager { FileManager.default }
+ 
+     /// The App Group shared with the widget, which also holds the SwiftData store.
+-    static let appGroupID = "group.com.magiclabsolutions.memories"
++    static let appGroupID = "group.com.magiclabsolutions.memories.marketingcapture"
+ 
+     /// Root of the App Group container; `nil` without the entitlement.
+     private static let groupContainerURL: URL? =
+@@ -52,6 +52,11 @@
+     /// Where projects live: beside the database in the App Group container
+     /// (Documents only if the App Group is unavailable).
+     var projectsRoot: URL {
++        if ScreenshotMode.isActive {
++            let args = CommandLine.arguments
++            let i = args.firstIndex(of: "-marketing-out")!
++            return URL(fileURLWithPath: args[i + 1]).appendingPathComponent("fixture/projects", isDirectory: true)
++        }
+         guard let group = Self.groupContainerURL else { return legacyProjectsRoot }
+         return group
+             .appendingPathComponent("Library/Application Support", isDirectory: true)
+--- a/Memories/Persistence/ScreenshotImageFactory.swift
++++ b/Memories/Persistence/ScreenshotImageFactory.swift
+@@ -1,5 +1,6 @@
+ import UIKit
+ import CoreGraphics
++import ImageIO
+ 
+ /// Generates synthetic "photo" images for App Store screenshots.
+ ///
+@@ -58,55 +59,8 @@
+     /// Cuts the network portion of the seed from "100 sequential
+     /// requests" to "100 parallel requests in one batch."
+     static func prewarmStockCache(for jobs: [(theme: Theme, seed: Int)], size: CGSize = CGSize(width: 1080, height: 1440)) {
+-        // Snapshot the keys we still need to fetch — anything already
+-        // in the cache from a previous prewarm is skipped.
+-        let pending: [(String, URL)] = jobs.compactMap { job in
+-            let cacheKey = "\(job.theme)-\(job.seed)-\(Int(size.width))x\(Int(size.height))"
+-            if stockCache[cacheKey] != nil { return nil }
+-            guard let url = stockURL(theme: job.theme, seed: job.seed, size: size) else { return nil }
+-            return (cacheKey, url)
+-        }
+-        if pending.isEmpty { return }
+-
+-        let semaphore = DispatchSemaphore(value: 0)
+-        let resultsBox = ResultsBox()
+-
+-        // `Task.detached` so the parallel work runs off the main
+-        // actor — otherwise `semaphore.wait()` below would block the
+-        // main thread while the Task is also queued for main, and
+-        // the whole thing deadlocks.
+-        Task.detached {
+-            await withTaskGroup(of: (String, UIImage?).self) { group in
+-                for (cacheKey, url) in pending {
+-                    group.addTask {
+-                        let config = URLSessionConfiguration.ephemeral
+-                        config.timeoutIntervalForRequest = 12
+-                        config.timeoutIntervalForResource = 20
+-                        let session = URLSession(configuration: config)
+-                        do {
+-                            let (data, _) = try await session.data(from: url)
+-                            return (cacheKey, UIImage(data: data))
+-                        } catch {
+-                            return (cacheKey, nil)
+-                        }
+-                    }
+-                }
+-                for await (key, image) in group {
+-                    if let image { await resultsBox.append(key: key, image: image) }
+-                }
+-            }
+-            semaphore.signal()
+-        }
+-
+-        // Up to 30s for the whole batch. Picsum is normally <5s per
+-        // image; parallelism keeps wall time low even for 100+ photos.
+-        _ = semaphore.wait(timeout: .now() + 30)
+-
+-        let results = resultsBox.snapshotSync()
+-        for (key, image) in results {
+-            stockCache[key] = image
+-        }
+-        print("[ScreenshotImageFactory] prewarmed \(results.count)/\(pending.count) stock photos")
++        // Capture-only fixtures are already present; no network.
++        return
+     }
+ 
+     // MARK: - Curated photo catalog
+@@ -167,40 +121,16 @@
+     ///   2. The cache + bulk pre-warm in `ScreenshotSeed` mean we
+     ///      pay the network cost once at boot, not per render.
+     private static func downloadStockImage(theme: Theme, seed: Int, size: CGSize) -> UIImage? {
+-        let cacheKey = "\(theme)-\(seed)-\(Int(size.width))x\(Int(size.height))"
+-        if let cached = stockCache[cacheKey] {
+-            return cached
+-        }
+-
+-        guard let url = stockURL(theme: theme, seed: seed, size: size) else { return nil }
+-
+-        let semaphore = DispatchSemaphore(value: 0)
+-        var resultImage: UIImage?
+-
+-        let config = URLSessionConfiguration.ephemeral
+-        config.timeoutIntervalForRequest = 8
+-        config.timeoutIntervalForResource = 15
+-        let session = URLSession(configuration: config)
+-
+-        let task = session.dataTask(with: url) { data, _, _ in
+-            if let data, let image = UIImage(data: data) {
+-                resultImage = image
+-            }
+-            semaphore.signal()
+-        }
+-        task.resume()
+-
+-        // Block the seed thread until the request completes or times
+-        // out. The seed already takes ~25s for procedural generation;
+-        // network adds a few seconds when reachable, drops back to
+-        // procedural after the timeout when not.
+-        _ = semaphore.wait(timeout: .now() + 12)
+-
+-        if let image = resultImage {
+-            stockCache[cacheKey] = image
+-            return image
+-        }
+-        return nil
++        let args = CommandLine.arguments
++        let index = args.firstIndex(of: "-marketing-stock")!
++        let file = URL(fileURLWithPath: args[index + 1]).appendingPathComponent("\(theme)-\(seed)-1080x1440.jpg")
++        guard let source = CGImageSourceCreateWithURL(file as CFURL, nil),
++              let image = CGImageSourceCreateThumbnailAtIndex(source, 0, [
++                kCGImageSourceCreateThumbnailFromImageAlways: true,
++                kCGImageSourceThumbnailMaxPixelSize: 1000,
++                kCGImageSourceCreateThumbnailWithTransform: true
++              ] as CFDictionary) else { fatalError("Missing isolated stock fixture: \(file.lastPathComponent)") }
++        return UIImage(cgImage: image)
+     }
+ 
+     // MARK: - Procedural fallback (offline / CI)
+--- a/Memories/Persistence/ScreenshotSeed.swift
++++ b/Memories/Persistence/ScreenshotSeed.swift
+@@ -102,8 +102,8 @@
+         let anniversaryStart = calendar.date(byAdding: .month, value: -1, to: now) ?? now
+ 
+         let leo = Project(name: "Léo", kind: .child, referenceDate: leoBirthday)
+-        let travel = Project(name: "Around the World", kind: .yearInLife, referenceDate: travelStart)
+-        let anniversary = Project(name: "Our Anniversary", kind: .together, referenceDate: anniversaryStart)
++        let travel = Project(name: "2026", kind: .yearInLife, referenceDate: travelStart)
++        let anniversary = Project(name: "Léo & Mia", kind: .together, referenceDate: anniversaryStart)
+ 
+         for project in [leo, travel, anniversary] {
+             context.insert(project)
+@@ -168,6 +168,11 @@
+             compilation.durationSeconds = 28
+             context.insert(compilation)
+             project.compilations?.append(compilation)
++            let args = CommandLine.arguments
++            let stock = URL(fileURLWithPath: args[args.firstIndex(of: "-marketing-stock")! + 1])
++                .appendingPathComponent("child-\(monthIndex * 100 + 20)-1080x1440.jpg")
++            let thumb = FileStore.shared.compilationThumbnailURL(projectID: project.id, compilationID: compilation.id)
++            try? FileManager.default.copyItem(at: stock, to: thumb)
+         }
+ 
+         // Year-summary compilation matching the reveal screenshot's
+@@ -193,6 +198,9 @@
+         yearly.durationSeconds = 90
+         context.insert(yearly)
+         project.compilations?.append(yearly)
++        let poster = URL(fileURLWithPath: CommandLine.arguments[CommandLine.arguments.firstIndex(of: "-marketing-birthday")! + 1])
++        let thumb = FileStore.shared.compilationThumbnailURL(projectID: project.id, compilationID: yearly.id)
++        try? FileManager.default.copyItem(at: poster, to: thumb)
+     }
+ 
+     /// Mirror of every `(theme, seed)` pair used by `populateChild`,
+--- a/Memories/Shared/WidgetSnapshotWriter.swift
++++ b/Memories/Shared/WidgetSnapshotWriter.swift
+@@ -26,7 +26,7 @@
+         var memoryID: UUID?
+     }
+ 
+-    static let appGroupID = "group.com.magiclabsolutions.memories"
++    static let appGroupID = "group.com.magiclabsolutions.memories.marketingcapture"
+ 
+     private static let imageFileName = "flashback.jpg"
+     private static let jsonFileName = "flashback.json"
+--- /dev/null
++++ b/Memories/App/MarketingMacRoot.swift
+@@ -0,0 +1,380 @@
++import SwiftUI
++import SwiftData
++import UIKit
++
++/// Lightweight wrappers around the real app screens, each of which
++/// pulls the right piece of seeded state out of the in-memory model
++/// container before mounting the screen the screenshot wants to show.
++///
++/// Each host:
++///   - opens its own `@Query` against the model container,
++///   - picks the active demo project (Léo by default),
++///   - mounts the production screen at the precise initial state we
++///     want captured — no nav clicks, no waiting for animations, no
++///     fragile UI scripting.
++///
++/// If a screen needs a state that the seed alone can't produce (e.g.
++/// the soundtrack picker open inside the tool sheet), the host
++/// constructs that state directly with the same APIs the app uses, so
++/// the captured frame is still the *real* view, not a screenshot
++/// stand-in.
++
++// MARK: - Project home
++
++struct ProjectHomeScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++
++    var body: some View {
++        NavigationStack {
++            if let project = activeProject {
++                ProjectHomeView(project: project)
++            } else {
++                placeholder
++            }
++        }
++    }
++
++    private var activeProject: Project? {
++        // Prefer the explicitly-active project (the seed sets Léo); fall
++        // back to the first one in case the seeded state isn't ready
++        // yet on first render.
++        if let activeID = ProjectManager.shared.activeProjectID,
++           let project = projects.first(where: { $0.id == activeID }) {
++            return project
++        }
++        return projects.first
++    }
++
++    private var placeholder: some View {
++        ZStack { AppColor.background.ignoresSafeArea() }
++    }
++}
++
++// MARK: - Memory list (highlights)
++
++struct MemoryListScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++
++    var body: some View {
++        NavigationStack {
++            if let project = projects.first {
++                // Open the list with the highlights filter applied so the
++                // screen leads with starred memories — that's what the
++                // marketing line ("Star the moments that matter") promises.
++                MemoryListView(
++                    project: project,
++                    initialFilter: .builtin(.highlights)
++                )
++                // The offscreen renderer paints the inline nav title
++                // white and drops the toolbar buttons on the iOS 27
++                // runtime (the pinned light scheme no longer helps), so
++                // the bar is left out — the "Highlights" chip already
++                // names the screen.
++                .toolbar(.hidden, for: .navigationBar)
++            } else {
++                ZStack { AppColor.background.ignoresSafeArea() }
++            }
++        }
++    }
++}
++
++// MARK: - Compilation preview
++
++struct CompilationScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++    @Environment(\.modelContext) private var modelContext
++
++    var body: some View {
++        if let project = projects.first {
++            // Pick the most recent month of the active project — most
++            // populated with memories, makes the "9 photos · 0 videos"
++            // line on the film card render with real numbers instead
++            // of zeros.
++            let period = PersonalPeriod.current(
++                projectID: project.id,
++                referenceDate: project.referenceDate
++            )
++            // Inject a fake `Compilation` row into the project so
++            // `CompilationView` lands on its `.completed` ready state
++            // rather than the empty "Build this month's film?" CTA.
++            // The compilation's `localFileName` points at a file that
++            // doesn't exist — that's intentional. `CompilationView`
++            // detects screenshot mode and renders a static poster
++            // image (the first memory's thumbnail) instead of trying
++            // to wire `AVPlayer` to the missing file.
++            CompilationView(project: project, period: period)
++                .id("\(project.id.uuidString)-\(period.monthIndex)")
++                .onAppear {
++                    Self.ensureCompilation(
++                        for: project,
++                        period: period,
++                        context: modelContext
++                    )
++                }
++        } else {
++            ZStack { AppColor.background.ignoresSafeArea() }
++        }
++    }
++
++    @MainActor
++    private static func ensureCompilation(
++        for project: Project,
++        period: PersonalPeriod,
++        context: ModelContext
++    ) {
++        // Don't double-insert if a previous render already added one.
++        let existing = (project.compilations ?? []).first { c in
++            c.periodStart == period.startDate && c.periodEnd == period.endDate
++        }
++        if existing != nil { return }
++
++        let compilation = Compilation(
++            type: .monthly,
++            periodStart: period.startDate,
++            periodEnd: period.endDate,
++            aspectRatio: .portrait_9_16,
++            audioChoice: .silent
++        )
++        // `localFileName` set to a stable string so the view enters its
++        // ready state. The actual `.mp4` doesn't exist; the screenshot
++        // poster fallback in `CompilationView.playerSurface` handles
++        // the "video missing" case explicitly for screenshot mode.
++        compilation.localFileName = "screenshot-poster.mp4"
++        compilation.memoryCount = (project.memories ?? [])
++            .filter { period.contains($0.capturedAt) && $0.deletedAt == nil }
++            .count
++        compilation.durationSeconds = 28
++        context.insert(compilation)
++        project.compilations?.append(compilation)
++    }
++}
++
++// MARK: - Soundtrack picker
++
++/// The CompilationToolSheet is normally surfaced as a `.sheet` from
++/// inside `CompilationView`. For the screenshot we render it directly
++/// (no sheet wrapper) so the canvas is the picker itself.
++struct CompilationToolSheetScreenshotHost: View {
++    let activeTool: CompilationTool
++
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++    @State private var aspect: AspectRatio = .portrait_9_16
++    @State private var audio: AudioChoice = .random
++    @State private var muted: Bool = false
++    @State private var filter: CompilationFilter = .none
++    @State private var titleText: String = ""
++    @State private var titleSubtitle: String = ""
++    @State private var titleStyle: CompilationTitleStyle = .none
++    @State private var titleColorHex: String = CompilationTitle.defaultColorHex
++    @State private var titlePosition: CompilationTitlePosition = .center
++    @State private var titleSize: CompilationTitleSize = .medium
++    @State private var speed: CompilationSpeed = .normal
++    @State private var transition: CompilationTransition = .smooth
++
++    var body: some View {
++        if let project = projects.first {
++            let period = PersonalPeriod.current(
++                projectID: project.id,
++                referenceDate: project.referenceDate
++            )
++            // The first memory's media URL stands in for the filter-preview
++            // and title-preview backgrounds — same path the real sheet
++            // takes when it's launched from `CompilationView`.
++            let firstMedia: URL? = (project.memories ?? [])
++                .sorted { $0.capturedAt < $1.capturedAt }
++                .first
++                .map { FileStore.shared.mediaURL(projectID: project.id, fileName: $0.localFileName) }
++            CompilationToolSheet(
++                tool: activeTool,
++                aspectRatio: $aspect,
++                audioChoice: $audio,
++                mutesOriginalAudio: $muted,
++                filter: $filter,
++                filterPreviewURL: firstMedia,
++                titleText: $titleText,
++                titleSubtitle: $titleSubtitle,
++                titleStyle: $titleStyle,
++                titleColorHex: $titleColorHex,
++                titlePosition: $titlePosition,
++                titleSize: $titleSize,
++                titlePreviewBackgroundURL: firstMedia,
++                playbackSpeed: $speed,
++                compilationVideoURL: nil,
++                compilationBaseSpeed: 1.0,
++                transition: $transition,
++                isPlus: true,
++                onApply: {},
++                onLockedTap: {}
++            )
++            // Project context for `@Query`-based subviews.
++            .id(project.id)
++            // Period is unused here but suppresses unused-variable warnings.
++            .onAppear { _ = period }
++        } else {
++            ZStack { AppColor.background.ignoresSafeArea() }
++        }
++    }
++}
++
++// MARK: - Year-summary reveal
++
++struct CompilationRevealScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++
++    var body: some View {
++        if let project = projects.first {
++            // The reveal view is normally driven by `RevealCenter` after
++            // a notification tap. We synthesise a `PendingReveal` for
++            // the most recent year of the project so the view renders
++            // its celebratory state without needing the notification
++            // pipeline to be live.
++            CompilationRevealView(reveal: Self.makePendingReveal(for: project))
++        } else {
++            ZStack { AppColor.background.ignoresSafeArea() }
++        }
++    }
++
++    private static func makePendingReveal(for project: Project) -> RevealCenter.PendingReveal {
++        let calendar = Calendar.current
++        let yearStart = project.referenceDate
++        let yearEnd = calendar.date(byAdding: .year, value: 1, to: yearStart) ?? yearStart
++        // Month index 11 marks the close of the first 12-month cycle —
++        // the trigger condition `AutoSuggestEngine` uses for year
++        // summaries, which is what this reveal wants to celebrate.
++        return RevealCenter.PendingReveal(
++            id: UUID(),
++            projectID: project.id,
++            monthIndex: 11,
++            periodStart: yearStart,
++            periodEnd: yearEnd,
++            isYear: true
++        )
++    }
++}
++
++// MARK: - Films list
++
++struct FilmsScreenshotHost: View {
++    @Query(sort: \Project.createdAt, order: .forward) private var projects: [Project]
++
++    var body: some View {
++        if let project = projects.first {
++            // The seed populates 12 monthly compilations on Léo's
++            // project, so `FilmsView` renders a populated grid of
++            // film thumbnails. Each compilation shows the procedural
++            // poster image inside its tile (same fallback as
++            // `CompilationView` uses).
++            NavigationStack {
++                FilmsView(project: project)
++            }
++        } else {
++            ZStack { AppColor.background.ignoresSafeArea() }
++        }
++    }
++}
++
++// MARK: - Project switcher
++
++struct ProjectSwitcherScreenshotHost: View {
++    var body: some View {
++        ProjectSwitcherSheet()
++    }
++}
++
++// MARK: - Paywall
++
++struct PaywallScreenshotHost: View {
++    var body: some View {
++        // The main paywall page; the screenshot copy is identical to the
++        // onboarding one.
++        PaywallView()
++    }
++}
++
++struct MarketingMacRoot: View {
++    @State private var scene = "home"
++    var body: some View {
++        Group {
++            switch scene {
++            case "film": CompilationScreenshotHost()
++            case "highlights": MemoryListScreenshotHost()
++            case "soundtrack": CompilationToolSheetScreenshotHost(activeTool: .soundtrack)
++            case "year": CompilationRevealScreenshotHost()
++            case "projects": ProjectSwitcherScreenshotHost()
++            default: ProjectHomeScreenshotHost()
++            }
++        }
++        .id(scene)
++        .environment(\.locale, Locale(identifier: UserDefaults.standard.string(forKey: "AppleLocale") ?? Locale.current.identifier))
++        .preferredColorScheme(.light)
++        .background(CatalystCaptureDriver(scene: $scene).frame(width: 0, height: 0))
++    }
++}
++private struct CatalystCaptureDriver: UIViewRepresentable {
++    // MARK: - Properties
++    @Binding var scene: String
++
++    // MARK: - Public Methods
++    /// Creates the native hook after the production view has entered its window.
++    func makeUIView(context: Context) -> UIView {
++        let view = UIView(frame: .zero)
++        context.coordinator.begin(view: view, scene: $scene)
++        return view
++    }
++
++    /// Keeps capture independent of SwiftUI's layout updates.
++    func updateUIView(_ uiView: UIView, context: Context) {}
++
++    /// Maintains the six-screen capture sequence.
++    func makeCoordinator() -> Coordinator { Coordinator() }
++
++    // MARK: - Coordinator
++    final class Coordinator {
++        // MARK: - Properties
++        private let scenes = ["home", "film", "highlights", "soundtrack", "year", "projects"]
++        private var index = 0
++
++        // MARK: - Public Methods
++        /// Runs only when explicit capture destination and screenshot-mode flags are supplied.
++        func begin(view: UIView, scene: Binding<String>) {
++            let args = CommandLine.arguments
++            guard args.contains("-marketing-screen"), let i = args.firstIndex(of: "-marketing-out"), i + 1 < args.count else { return }
++            let target = args[i + 1]
++            DispatchQueue.main.async {
++                if let window = view.window {
++                    window.bounds.size = CGSize(width: 1200, height: 776)
++                    window.rootViewController?.view.frame = window.bounds
++                }
++            }
++            DispatchQueue.main.asyncAfter(deadline: .now() + 3) { self.capture(view: view, scene: scene, target: target) }
++        }
++
++        // MARK: - Private Methods
++        /// Writes a 2x native UIKit/Catalyst capture and advances to the next real screen.
++        private func capture(view: UIView, scene: Binding<String>, target: String) {
++            guard let window = view.window, let root = window.rootViewController?.view else {
++                print("CAPTURE_ERROR no native window")
++                exit(2)
++            }
++            // Use a native layout canvas matching the original MacBook display.
++            window.bounds.size = CGSize(width: 1200, height: 776)
++            root.frame = window.bounds
++            root.layoutIfNeeded()
++            let format = UIGraphicsImageRendererFormat()
++            format.scale = 2
++            format.opaque = true
++            let image = UIGraphicsImageRenderer(size: root.bounds.size, format: format).image { _ in
++                root.drawHierarchy(in: root.bounds, afterScreenUpdates: true)
++            }
++            let file = URL(fileURLWithPath: target).appendingPathComponent("native-\(index + 1).png")
++            do { try image.pngData()!.write(to: file) }
++            catch { print("CAPTURE_ERROR \(error)"); exit(3) }
++            print("CAPTURE \(scenes[index]) \(Int(image.size.width * image.scale))x\(Int(image.size.height * image.scale)) locale=\(Bundle.main.preferredLocalizations.joined(separator: ","))")
++            fflush(stdout)
++            index += 1
++            if index == scenes.count { exit(0) }
++            scene.wrappedValue = scenes[index]
++            DispatchQueue.main.asyncAfter(deadline: .now() + 1.8) { self.capture(view: view, scene: scene, target: target) }
++        }
++    }
++}

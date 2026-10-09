@@ -1,0 +1,2974 @@
+{
+  "createdAt": "2026-10-09T18:51:44.491Z",
+  "versions": [
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "currentId": "a6fe63eb-2741-48f8-a016-2529684eab01",
+      "version": "1.1.1",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "tasks": [
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ar/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-55795d171f.png",
+          "md5": "55795d171f350dded7f7e189aaa6a81e",
+          "size": 4449558,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ar/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-c06398e291.png",
+          "md5": "c06398e2918c8fcfc983c58ece9a37ab",
+          "size": 4640663,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ar/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-f0ff2243b9.png",
+          "md5": "f0ff2243b90fac5cea4fe1f4c6428b50",
+          "size": 3566904,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ar/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-762f968d83.png",
+          "md5": "762f968d8368775d4e3a831f060037f6",
+          "size": 2413248,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ar/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-7a0b9f8e39.png",
+          "md5": "7a0b9f8e39a4f64da4df462e7fbfd04c",
+          "size": 3413245,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ar/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-131b374704.png",
+          "md5": "131b3747045a151663a314c03b891568",
+          "size": 2485511,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/bn/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-311bf0e98b.png",
+          "md5": "311bf0e98b946a5474e595a67da9f3d9",
+          "size": 4460997,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/bn/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-47b8c738a4.png",
+          "md5": "47b8c738a4fe2e81cfe2bf3ffa50bd73",
+          "size": 4566586,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/bn/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-bda9f9ee8f.png",
+          "md5": "bda9f9ee8f7a16a39b190018781a54f1",
+          "size": 3098306,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/bn/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-74f8a59009.png",
+          "md5": "74f8a590093eeff2f5c560898459dafc",
+          "size": 2869834,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/bn/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-108e07ef01.png",
+          "md5": "108e07ef01b1d88ed7723ba264262190",
+          "size": 3397797,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/bn/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-903cf5854a.png",
+          "md5": "903cf5854a545e5188501ca0f118131f",
+          "size": 2530185,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ca/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-be7718129c.png",
+          "md5": "be7718129c761b17b1b8d924282c6b7a",
+          "size": 3915025,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ca/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-688e70758f.png",
+          "md5": "688e70758ff0b2ee3d03a4bc425f3d78",
+          "size": 4644632,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ca/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-42c3a9dbc4.png",
+          "md5": "42c3a9dbc48ad6d5a2991a164bd79a90",
+          "size": 3173471,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ca/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d5d851e573.png",
+          "md5": "d5d851e5732f7029f40ca474bd3828a7",
+          "size": 2491073,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ca/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-1342df3011.png",
+          "md5": "1342df301199429872fd62b1e4f600b1",
+          "size": 3821000,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ca/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-9fc5ab4c0f.png",
+          "md5": "9fc5ab4c0f995fbfff3d491c933f2ab6",
+          "size": 2701934,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hans/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-802328a12a.png",
+          "md5": "802328a12af679792c27680a8bf02fd6",
+          "size": 4471746,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hans/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-961a731634.png",
+          "md5": "961a731634be025f246b09cc227ad220",
+          "size": 4693492,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hans/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-7488f2094b.png",
+          "md5": "7488f2094b830406e9c22e339a2b773a",
+          "size": 3882243,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hans/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-f9ccc95700.png",
+          "md5": "f9ccc95700cf8951d8b0102ecbdc56da",
+          "size": 2428895,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hans/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-e0c886627a.png",
+          "md5": "e0c886627a42e12244ff00a27edd76fc",
+          "size": 3400741,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hans/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3fe7e8edfb.png",
+          "md5": "3fe7e8edfb3d964617be1f7fd0ccd721",
+          "size": 2512360,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hant/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8c1d804fb9.png",
+          "md5": "8c1d804fb91f8b197796bfe0b3828cac",
+          "size": 4470357,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hant/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-207d2fbd05.png",
+          "md5": "207d2fbd057c7e3e713a7f5765c57852",
+          "size": 4692225,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hant/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-21840b495a.png",
+          "md5": "21840b495add3fb02ff03f65861d9a50",
+          "size": 3887921,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hant/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-f4d86dd0f7.png",
+          "md5": "f4d86dd0f7b0c05bab4b8e464a18c813",
+          "size": 2436769,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hant/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-f672d6b94f.png",
+          "md5": "f672d6b94f4b5bc89c1813a4036b7145",
+          "size": 3400747,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/zh-Hant/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-2575baaee2.png",
+          "md5": "2575baaee218aa8a6b6683916bcaf21d",
+          "size": 2511017,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8daa74d5da.png",
+          "md5": "8daa74d5da5cbdd3dba3edec5900068c",
+          "size": 4346698,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-fc45e2f285.png",
+          "md5": "fc45e2f2857c74118c7e494177a7c3b7",
+          "size": 4654071,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6fa45c657d.png",
+          "md5": "6fa45c657df6df87d42a9bdd215546d7",
+          "size": 3160826,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d8dc7d2736.png",
+          "md5": "d8dc7d2736517f4343ef6c191fa1d8d1",
+          "size": 2480295,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-a7e31740c6.png",
+          "md5": "a7e31740c6dd462ff0ae65af304d7752",
+          "size": 3419578,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-ad160541a6.png",
+          "md5": "ad160541a64b5abc12f391f6350591f7",
+          "size": 3087893,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/cs/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-3975648938.png",
+          "md5": "3975648938614dfbd0acce2ce817fde2",
+          "size": 4383428,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/cs/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-fa5b1a1e21.png",
+          "md5": "fa5b1a1e21fcb5dc04e4bc32d2398fcc",
+          "size": 4658107,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/cs/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-94d1dccae4.png",
+          "md5": "94d1dccae45e7b9efc6fed3bae602028",
+          "size": 3178794,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/cs/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-4ad67a7564.png",
+          "md5": "4ad67a75648023fd9be2c7ef946493f1",
+          "size": 2906589,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/cs/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-e3724bd3ce.png",
+          "md5": "e3724bd3cebe468daadc198aa4b1495f",
+          "size": 3418608,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/cs/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-5ceda5e9c6.png",
+          "md5": "5ceda5e9c626f87710cbea29aa47831a",
+          "size": 3008708,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/da/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-623e297052.png",
+          "md5": "623e29705253d1696770f7c5941b2593",
+          "size": 4638265,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/da/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-7f33434325.png",
+          "md5": "7f334343254e913f2db2803f8cf3e254",
+          "size": 4644119,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/da/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ebcba1abd0.png",
+          "md5": "ebcba1abd0e95d0117bb2b481ad35dca",
+          "size": 3554404,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/da/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-847233f181.png",
+          "md5": "847233f181484d38bb0bcabd716468ff",
+          "size": 2704169,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/da/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-2131b1ff04.png",
+          "md5": "2131b1ff047ac71924f24938b2e1b8a8",
+          "size": 3414817,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/da/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3443efb455.png",
+          "md5": "3443efb4555760d31a31b1d6cc2bc46d",
+          "size": 2541272,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8cc3168486.png",
+          "md5": "8cc31684869f9d769d3bc81c0b5dbdde",
+          "size": 4438850,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-722274d851.png",
+          "md5": "722274d851888f073b789363f9cc34d9",
+          "size": 4654785,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-4b4eb54dce.png",
+          "md5": "4b4eb54dce2fa7f4dc94f7b1501498c3",
+          "size": 3174527,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-0a5a009427.png",
+          "md5": "0a5a009427bb74f1579c5f861dd110e7",
+          "size": 2704774,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nl/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-5ce0e2833b.png",
+          "md5": "5ce0e2833b119276d2181c01bf980499",
+          "size": 3424120,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nl/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-0d2ecc13ae.png",
+          "md5": "0d2ecc13ae08b2a760090e22749ce454",
+          "size": 2537325,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-AU/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8bfba1aa3c.png",
+          "md5": "8bfba1aa3cda5d5e3918790a33db320b",
+          "size": 4639372,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-AU/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-117c29c760.png",
+          "md5": "117c29c7601f4bc17f6daa8697ccf266",
+          "size": 4678353,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-AU/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-a689412c01.png",
+          "md5": "a689412c012fa117d96f8731d48724bd",
+          "size": 3890666,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-AU/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-16e730164c.png",
+          "md5": "16e730164c791e875bf8ab4a04735b89",
+          "size": 2704253,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-AU/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-bf0f774381.png",
+          "md5": "bf0f774381dcf761244d5cda6e4865c6",
+          "size": 3421770,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-AU/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-f71f8e7d65.png",
+          "md5": "f71f8e7d656f4b1c0bca07307b17186a",
+          "size": 2554336,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-243b1f4c4c.png",
+          "md5": "243b1f4c4caafd8df112c2068f66a798",
+          "size": 4639686,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-debe957720.png",
+          "md5": "debe957720bd21a190c384b1f0630d90",
+          "size": 4678957,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-1e1e713295.png",
+          "md5": "1e1e71329550e18b397e730b75b0da6e",
+          "size": 3890840,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-580daecc38.png",
+          "md5": "580daecc382f8421fd10b42c3458919d",
+          "size": 2704259,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-47b80ebfa0.png",
+          "md5": "47b80ebfa0104f955796ac45e842e279",
+          "size": 3421769,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-ac7a90492d.png",
+          "md5": "ac7a90492d038576ef1b41361059f54f",
+          "size": 2554323,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-GB/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-3b6f01307f.png",
+          "md5": "3b6f01307f0989c9af371944b572264a",
+          "size": 4639399,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-GB/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-9e6714b8e7.png",
+          "md5": "9e6714b8e7cdcc8422622f282f97e021",
+          "size": 4678935,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-GB/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-3e50969ec4.png",
+          "md5": "3e50969ec4f8289e9c78a35e0a812608",
+          "size": 3890637,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-GB/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-c2b34d2b54.png",
+          "md5": "c2b34d2b5488c2f522a184857c892b29",
+          "size": 2704249,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-GB/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-9a4c613efa.png",
+          "md5": "9a4c613efab544671632e8700a11631b",
+          "size": 3421769,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-GB/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-6c2a04c1f6.png",
+          "md5": "6c2a04c1f64ba7da5475a2fe9fccfaa3",
+          "size": 2554337,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-243b1f4c4c.png",
+          "md5": "243b1f4c4caafd8df112c2068f66a798",
+          "size": 4639686,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-debe957720.png",
+          "md5": "debe957720bd21a190c384b1f0630d90",
+          "size": 4678957,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-1e1e713295.png",
+          "md5": "1e1e71329550e18b397e730b75b0da6e",
+          "size": 3890840,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-580daecc38.png",
+          "md5": "580daecc382f8421fd10b42c3458919d",
+          "size": 2704259,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-47b80ebfa0.png",
+          "md5": "47b80ebfa0104f955796ac45e842e279",
+          "size": 3421769,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/en-US/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-ac7a90492d.png",
+          "md5": "ac7a90492d038576ef1b41361059f54f",
+          "size": 2554323,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9fe02719d9.png",
+          "md5": "9fe02719d9747c45653410864dd9c2e0",
+          "size": 4522943,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a666129c01.png",
+          "md5": "a666129c01396c503b990b76263d21a4",
+          "size": 4963016,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-7c229fdba2.png",
+          "md5": "7c229fdba2a8cafe354af5ed8e84d47c",
+          "size": 3173528,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d4b0016c02.png",
+          "md5": "d4b0016c02c26d4b8d8b78962ff55c2e",
+          "size": 2734607,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fi/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-523a1fa512.png",
+          "md5": "523a1fa51254cccc8708b646ede62bf0",
+          "size": 3798458,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fi/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-065df2c68f.png",
+          "md5": "065df2c68f0495d45e9c35b966b21afb",
+          "size": 3002365,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-fe9ac3c313.png",
+          "md5": "fe9ac3c313aacd7ba36d69b4055a2303",
+          "size": 4434567,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-9eee5d7a0b.png",
+          "md5": "9eee5d7a0bcd9d004c607512b61a404c",
+          "size": 4650646,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-65fd1e4d62.png",
+          "md5": "65fd1e4d62dd8d91788d092539ba0622",
+          "size": 3554756,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-fdcffe33e4.png",
+          "md5": "fdcffe33e413728732eac6489c9064a5",
+          "size": 2807101,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-f4d0b874ef.png",
+          "md5": "f4d0b874ef6f6e76d7f11f88e640fb04",
+          "size": 3418727,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-681966c526.png",
+          "md5": "681966c5262171e07586984153958cb4",
+          "size": 3073834,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr-CA/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-8baf69b209.png",
+          "md5": "8baf69b20994eb3d178494f26f19344a",
+          "size": 4434559,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr-CA/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-c02452f901.png",
+          "md5": "c02452f9018db7571a071a4a14ab9cb6",
+          "size": 4650681,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr-CA/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-65a9ab4da4.png",
+          "md5": "65a9ab4da425976baa79d476c8b01231",
+          "size": 3552895,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr-CA/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-15df8f2cd4.png",
+          "md5": "15df8f2cd4fb5a9627bc41f73927b266",
+          "size": 2807075,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr-CA/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-2e1cfa3d33.png",
+          "md5": "2e1cfa3d33cbbcba144d0872c03bec72",
+          "size": 3417356,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/fr-CA/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-8450172f57.png",
+          "md5": "8450172f57ab1b5a5ebd193e9ecf30c8",
+          "size": 3073840,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/de/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-2d56304457.png",
+          "md5": "2d56304457bce94602d2a4ed33bf3105",
+          "size": 4410636,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/de/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-af8384e568.png",
+          "md5": "af8384e5685c301e57e96ec76bbb3cbf",
+          "size": 4654308,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/de/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-7121ef3e7a.png",
+          "md5": "7121ef3e7a18ca49011ec336e871b4f6",
+          "size": 3159117,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/de/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-4b57a7ddac.png",
+          "md5": "4b57a7ddac5accd5073d0799c67cf13d",
+          "size": 2892645,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/de/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-a347b75202.png",
+          "md5": "a347b75202547f09e0ce99a30bdd7929",
+          "size": 3423804,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/de/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-0664e7c9ed.png",
+          "md5": "0664e7c9ed71e84313313331efdc49f3",
+          "size": 2753895,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/el/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e73bfb693d.png",
+          "md5": "e73bfb693d63e6d77a14aff4a738d685",
+          "size": 4413059,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/el/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-51c830b4b0.png",
+          "md5": "51c830b4b049235c0d807da7bb373309",
+          "size": 4663488,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/el/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ee7928eec6.png",
+          "md5": "ee7928eec64e464709c60ccadababda1",
+          "size": 3194399,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/el/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-feb81155ec.png",
+          "md5": "feb81155ec8d3f478e4c04a64d5be0be",
+          "size": 2921232,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/el/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-7ff3eb58c9.png",
+          "md5": "7ff3eb58c9549b933e53de671d75acd6",
+          "size": 3833144,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/el/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-5422b49257.png",
+          "md5": "5422b492573b93caa091e6acbb45cae1",
+          "size": 3072514,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/gu/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a64df9f965.png",
+          "md5": "a64df9f9650910b35c13a5a73aa9d08a",
+          "size": 4484390,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/gu/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-3769dca3d9.png",
+          "md5": "3769dca3d931ef27922476b2a1a7f3d7",
+          "size": 4615632,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/gu/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-d3462c4179.png",
+          "md5": "d3462c4179f846f89184bdebe05ab8ba",
+          "size": 3534501,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/gu/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d7f0b27729.png",
+          "md5": "d7f0b27729f2157bf1bc5c0bf5e324c0",
+          "size": 2433668,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/gu/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-1d1ff7d2c9.png",
+          "md5": "1d1ff7d2c9c656bdd7d7759480127bf8",
+          "size": 3408331,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/gu/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-94226512c6.png",
+          "md5": "94226512c63d1963ef900091f3de79fb",
+          "size": 2519079,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/he/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9f9b9ec759.png",
+          "md5": "9f9b9ec7599cb224b650b94f9f1831e8",
+          "size": 4436491,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/he/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-aaec05452e.png",
+          "md5": "aaec05452e6d5221b8e9a664bcc63566",
+          "size": 4614886,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/he/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-c8072c34c7.png",
+          "md5": "c8072c34c7285d3486d3af588790b143",
+          "size": 3540466,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/he/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-74eaa38bbe.png",
+          "md5": "74eaa38bbef2e7fb54472362942c0f6b",
+          "size": 2406003,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/he/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-159bbe2def.png",
+          "md5": "159bbe2deff64c5b815d577eb08364e3",
+          "size": 3795010,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/he/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3b7972b915.png",
+          "md5": "3b7972b9156ca9abe06bbef5892d8432",
+          "size": 2957757,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-83627d3575.png",
+          "md5": "83627d3575d50557c53a530452d8717f",
+          "size": 4460058,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-8134304395.png",
+          "md5": "8134304395110f9d47bd0cd782cebd84",
+          "size": 4599439,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-3290e4ea7b.png",
+          "md5": "3290e4ea7b082ec19469af0639683545",
+          "size": 3878381,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-3d85fbbfc1.png",
+          "md5": "3d85fbbfc1dc5dab3a5625a0aa95f6a0",
+          "size": 2426563,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hi/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-cdac1a6da5.png",
+          "md5": "cdac1a6da56fa94cdbd393aca82d88b5",
+          "size": 3401292,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hi/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-29ee773805.png",
+          "md5": "29ee77380558ae40d857f013c9711391",
+          "size": 2514532,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hu/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-01b4e61458.png",
+          "md5": "01b4e61458d71f26a3b0607e9739082e",
+          "size": 4433166,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hu/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-015b8b2c5e.png",
+          "md5": "015b8b2c5e306c8522b597e35f12799d",
+          "size": 4647552,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hu/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-471cd0a50e.png",
+          "md5": "471cd0a50e9ee0de9e1f3e6e3d97b25e",
+          "size": 3182854,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hu/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-587f1f4303.png",
+          "md5": "587f1f43038186623bf2694c6a03c801",
+          "size": 2920226,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hu/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-9ce24de156.png",
+          "md5": "9ce24de156aac395250a9a57d9836a68",
+          "size": 3418970,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/hu/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-1cdc7a8c4c.png",
+          "md5": "1cdc7a8c4cbd307490ac3a7dc26cc788",
+          "size": 3063811,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/id/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-6ac059d327.png",
+          "md5": "6ac059d327cc69f3a39c42806d2338da",
+          "size": 4469012,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/id/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-c8b78f997e.png",
+          "md5": "c8b78f997e9c0cbd9b1ad1598daf9ee6",
+          "size": 4644225,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/id/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-630f2d5b16.png",
+          "md5": "630f2d5b1648bf4e95edc7831f16526f",
+          "size": 3528641,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/id/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-fc935836b0.png",
+          "md5": "fc935836b08eb5c5be402e4701565047",
+          "size": 2699551,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/id/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-10028f0da0.png",
+          "md5": "10028f0da07bdfba84846f7b0539a030",
+          "size": 3419248,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/id/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-23e828c5c6.png",
+          "md5": "23e828c5c6edfe4db72a6c2847aff8de",
+          "size": 2937236,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/it/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-183203dd11.png",
+          "md5": "183203dd11cd400f34274a1bae2dfc97",
+          "size": 4415591,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/it/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a3b5c68b47.png",
+          "md5": "a3b5c68b472ad3eab12868f5401b5d6d",
+          "size": 4636868,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/it/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-0288b545fd.png",
+          "md5": "0288b545fd6a94899b98fd48a853769e",
+          "size": 3165585,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/it/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-7c9986175b.png",
+          "md5": "7c9986175bddc47492ffe71e976b6242",
+          "size": 2891220,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/it/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-348e248813.png",
+          "md5": "348e24881359e939c226b4246af1eb6d",
+          "size": 3425711,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/it/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-3a029b169f.png",
+          "md5": "3a029b169fe0b8b006f41cca0c1cd97d",
+          "size": 2543642,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ja/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-b3186180d1.png",
+          "md5": "b3186180d19c2b692ff00abe5ca2c44c",
+          "size": 4496255,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ja/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-0f1712ade9.png",
+          "md5": "0f1712ade9802309747f9137dbc1dfc8",
+          "size": 4314260,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ja/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-981ae171a2.png",
+          "md5": "981ae171a2612ee7070bdef0e5156129",
+          "size": 3914469,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ja/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-e4477b3cf0.png",
+          "md5": "e4477b3cf0e1071946b8a3172d6a7679",
+          "size": 2944539,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ja/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-708ccc83cf.png",
+          "md5": "708ccc83cfb31a42f11b43ed5ad8111c",
+          "size": 3425999,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ja/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-1261cc119e.png",
+          "md5": "1261cc119e85e3da09b0b27cdc036914",
+          "size": 3131716,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/kn/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-4a50fe0f16.png",
+          "md5": "4a50fe0f1613f949f71d531394d82c46",
+          "size": 4426957,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/kn/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-7a8e843aa5.png",
+          "md5": "7a8e843aa58cc8675ce68c2ec9f2561f",
+          "size": 4117069,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/kn/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-74495ec714.png",
+          "md5": "74495ec7140f72be3a5f2657b890c56e",
+          "size": 3105983,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/kn/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-9d3d941c88.png",
+          "md5": "9d3d941c88d6a7b825019b626aba6a86",
+          "size": 3025357,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/kn/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-70296ad374.png",
+          "md5": "70296ad374e6aa428807415d7847162b",
+          "size": 3816725,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/kn/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-9f965bc010.png",
+          "md5": "9f965bc010ecff9c3d8ab0a29b508a19",
+          "size": 3024074,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ko/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-6c85feb9a9.png",
+          "md5": "6c85feb9a94d6aa2a975d4afb943dbe7",
+          "size": 4460518,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ko/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-8f1d12c5f8.png",
+          "md5": "8f1d12c5f86588ff774bce130da9ae28",
+          "size": 4659757,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ko/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-c79464e4a4.png",
+          "md5": "c79464e4a48e4ed0bd884f1a5b552dee",
+          "size": 3856560,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ko/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-dd95b251ff.png",
+          "md5": "dd95b251ffce086d424f0c864015391d",
+          "size": 2416814,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ko/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-aaf411e727.png",
+          "md5": "aaf411e7279900916c50d2cfd31f959b",
+          "size": 3402363,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ko/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-003214b041.png",
+          "md5": "003214b041b53b0b91d43208984b7bdb",
+          "size": 2513498,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ms/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-b9c95261e8.png",
+          "md5": "b9c95261e884a3058b9884b1b31a2d33",
+          "size": 4485512,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ms/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-488cc5a107.png",
+          "md5": "488cc5a107073236ab50b40c9e74c276",
+          "size": 4266116,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ms/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-d7ae79e7d8.png",
+          "md5": "d7ae79e7d87b9840a5c17ae4b65c8499",
+          "size": 3132511,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ms/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-abbbed8055.png",
+          "md5": "abbbed80551422ff95dee35d8abb4eb9",
+          "size": 2699774,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ms/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-27faadd5c2.png",
+          "md5": "27faadd5c21511e48f4514a26a8b121f",
+          "size": 3412370,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ms/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-bbb6839614.png",
+          "md5": "bbb6839614c361dc1ebf229617b90ebd",
+          "size": 2937931,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ml-IN",
+      "sourceLocale": "ml",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ml/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-f657962d14.png",
+          "md5": "f657962d1428fd20d435f486ea17f563",
+          "size": 4465832,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ml/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-04442e95c6.png",
+          "md5": "04442e95c6e82568453781650548b13d",
+          "size": 4299707,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ml/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-f139cd3d92.png",
+          "md5": "f139cd3d923f3c05f9669b25721aef92",
+          "size": 3218124,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ml/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-1750256f21.png",
+          "md5": "1750256f21615fee188f237074d546ad",
+          "size": 3113388,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ml/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-c57a96b995.png",
+          "md5": "c57a96b995ad4000863aaaa75f5abe78",
+          "size": 3855026,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ml/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-9a74457474.png",
+          "md5": "9a74457474a751b3e7eb7941871d9d04",
+          "size": 2989821,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/mr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-6737cf54ff.png",
+          "md5": "6737cf54ff11f34e583376870bef1def",
+          "size": 4491269,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/mr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-191fa5f421.png",
+          "md5": "191fa5f42140eb61b719eb1deaea79f7",
+          "size": 4594904,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/mr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-40b9fa0d49.png",
+          "md5": "40b9fa0d49779095d98883d38a37cbf4",
+          "size": 3870994,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/mr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-2b30319fbf.png",
+          "md5": "2b30319fbf8201b34f5d7b482db74114",
+          "size": 2419790,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/mr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-dcfcd56c6b.png",
+          "md5": "dcfcd56c6b47d1d37b7b7f7a22f8d4ab",
+          "size": 3403172,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/mr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-fcbdc0ed71.png",
+          "md5": "fcbdc0ed71677d7ed97f5e55977d4ad2",
+          "size": 2507908,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nb/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-7038c8dfff.png",
+          "md5": "7038c8dfff287dc956dcfd9a45ac35c2",
+          "size": 4490712,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nb/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-2f513b9bba.png",
+          "md5": "2f513b9bbac40e5408dfbb30335cfd09",
+          "size": 4656377,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nb/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-c37682a61b.png",
+          "md5": "c37682a61b6440e52714bfba7ddfe705",
+          "size": 3551557,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nb/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-d0a1c71656.png",
+          "md5": "d0a1c7165663ff8c4aeb9220ba99b290",
+          "size": 2452476,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nb/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-09ff562a8b.png",
+          "md5": "09ff562a8ba39d70f4ae8c3a85bee25e",
+          "size": 3415162,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/nb/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-c32ea0d732.png",
+          "md5": "c32ea0d73229f3d5b3bb254118c2e9c2",
+          "size": 2541818,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/or/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-e1f052133e.png",
+          "md5": "e1f052133ed69bb1e45004c378e11a3a",
+          "size": 4367387,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/or/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-5d34997ab6.png",
+          "md5": "5d34997ab652f30f199e5f3215364ca1",
+          "size": 4190572,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/or/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-5b4988baf6.png",
+          "md5": "5b4988baf6ad1b3b8d0c26a6680f114c",
+          "size": 3177945,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/or/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-e71ad15d1c.png",
+          "md5": "e71ad15d1cd92b0ce58cb9238ebdfde2",
+          "size": 2852140,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/or/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-19da5285a8.png",
+          "md5": "19da5285a87b039e0e99d9a7cf6bbda6",
+          "size": 3829311,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/or/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-80e1b83a12.png",
+          "md5": "80e1b83a1255bafd7e8e585f59d13d26",
+          "size": 2958429,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-92e362596b.png",
+          "md5": "92e362596b668c1543007da318dab3f3",
+          "size": 4434559,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-96f95f91d7.png",
+          "md5": "96f95f91d7900b5c8fa3b5fdf4ede12c",
+          "size": 4301833,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-646c9789dd.png",
+          "md5": "646c9789dd4d2b7339e1d6a0cee4fc6c",
+          "size": 3171077,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-b18924e75c.png",
+          "md5": "b18924e75cf4a12f8cdd98404e539e41",
+          "size": 2928508,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pl/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-f61aa14b90.png",
+          "md5": "f61aa14b90940098f72c8b10ca4cb25b",
+          "size": 3415977,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pl/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-5bf580507e.png",
+          "md5": "5bf580507e54889893dd481c51ebec9e",
+          "size": 3070817,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-BR/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-0e3bb19932.png",
+          "md5": "0e3bb199326e5cbe26eea5ab8b808fb1",
+          "size": 4404861,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-BR/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-737c297282.png",
+          "md5": "737c29728294db6cab2670edf424f010",
+          "size": 4653853,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-BR/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-0a983f321c.png",
+          "md5": "0a983f321c7891c5fad08963522da2e5",
+          "size": 3178838,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-BR/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-140b814860.png",
+          "md5": "140b8148602802dcf82c7b508ddc0f9f",
+          "size": 2485998,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-BR/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-444c14cc2c.png",
+          "md5": "444c14cc2c1c802c6433474c7e67fe1e",
+          "size": 3430638,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-BR/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-352851f455.png",
+          "md5": "352851f4559b8bec40489e7d82112741",
+          "size": 2993868,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-PT/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-cc78f76d93.png",
+          "md5": "cc78f76d93b4f2f2ad8b30d4839bdc80",
+          "size": 4406370,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-PT/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-ba39bd90c4.png",
+          "md5": "ba39bd90c4d3afa9e8cdde56f4c00d7f",
+          "size": 4652486,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-PT/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-7b3af40211.png",
+          "md5": "7b3af402114012ebc34800a1fb423d40",
+          "size": 3177116,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-PT/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-cdeba62d50.png",
+          "md5": "cdeba62d50d325bb9ecb21ad5826124b",
+          "size": 2491395,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-PT/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-ec57ba2509.png",
+          "md5": "ec57ba2509621594f5660c69475d41e7",
+          "size": 3420429,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pt-PT/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-b5c9525b3f.png",
+          "md5": "b5c9525b3f0aa8ded13c81f2f8d2d991",
+          "size": 2546392,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pa/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-46dc375904.png",
+          "md5": "46dc3759048de607c80b1d959539aadc",
+          "size": 4457075,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pa/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-b137d17fa7.png",
+          "md5": "b137d17fa7c13cd6a22563ef845672ab",
+          "size": 4588645,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pa/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-1a74b7ebd5.png",
+          "md5": "1a74b7ebd5ac62a83cce14d9294f94be",
+          "size": 3883810,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pa/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-53fc89a441.png",
+          "md5": "53fc89a441d46fe52170540126ca5299",
+          "size": 2413527,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pa/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-688ff4241d.png",
+          "md5": "688ff4241ddcc16168b3e95d571dbb14",
+          "size": 3398926,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/pa/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-ee8b362017.png",
+          "md5": "ee8b36201748941218ab17647ed56f4e",
+          "size": 2516417,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ro/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-35c5c25dbb.png",
+          "md5": "35c5c25dbbdfb3f21df5734a7c218493",
+          "size": 4380436,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ro/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-a5f03b122b.png",
+          "md5": "a5f03b122b13b505e057e48c1260ad98",
+          "size": 4634711,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ro/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-1b90911a94.png",
+          "md5": "1b90911a9491ac7bd6ac72c153e66cb5",
+          "size": 3159057,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ro/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-6edfde43cf.png",
+          "md5": "6edfde43cffeaecdd27030b3e7f42af4",
+          "size": 2498761,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ro/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-d8c6a6639b.png",
+          "md5": "d8c6a6639b63e16c71fc06284d516f58",
+          "size": 3815465,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ro/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-b9e9a39d87.png",
+          "md5": "b9e9a39d87ffbb71dd5be3052072e403",
+          "size": 3093360,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ru/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-ab0a04876a.png",
+          "md5": "ab0a04876a9d0c0c62906a2b0028292f",
+          "size": 4396054,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ru/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-addc2a5acc.png",
+          "md5": "addc2a5acc66a964178d8dc6cb7271a5",
+          "size": 4636869,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ru/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-f0160d036f.png",
+          "md5": "f0160d036f29e3f24e283ad0b78bc455",
+          "size": 3146954,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ru/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-f9de2acf4f.png",
+          "md5": "f9de2acf4f61e20645e81cc4225ac54c",
+          "size": 2742821,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ru/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-92a7282124.png",
+          "md5": "92a72821241dda6f5ebb5e66e6322e47",
+          "size": 3807180,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ru/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-04d7eff150.png",
+          "md5": "04d7eff150e07e0990ea0a5394090c27",
+          "size": 2983359,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sk/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-498f9668bd.png",
+          "md5": "498f9668bdf7212a39a6c781e765ddde",
+          "size": 4387901,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sk/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-fde53ed508.png",
+          "md5": "fde53ed5087abd91bb007896279541eb",
+          "size": 4663789,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sk/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-ae659ad787.png",
+          "md5": "ae659ad787824f66b371b061fd84587b",
+          "size": 3174508,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sk/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-3a19fb08ec.png",
+          "md5": "3a19fb08eca19ec30871b60cff9043fd",
+          "size": 2490489,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sk/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-684d9c83e3.png",
+          "md5": "684d9c83e35f3d3f96a8cf9309ca13e9",
+          "size": 3421934,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sk/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-6129cda398.png",
+          "md5": "6129cda398113c274ea3f488ca1a5fef",
+          "size": 3006305,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sl/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a131f7dbd7.png",
+          "md5": "a131f7dbd7def7bcacef076be2064169",
+          "size": 4436784,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sl/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-14e226a9e1.png",
+          "md5": "14e226a9e19da3c63d01d1466e359f4c",
+          "size": 4647790,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sl/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-48481a3bc7.png",
+          "md5": "48481a3bc7642b3a5fadd380c55691d1",
+          "size": 3536316,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sl/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-fa6496451e.png",
+          "md5": "fa6496451e68ae0f90c2eabd44803435",
+          "size": 2474282,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sl/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-4825dbc0de.png",
+          "md5": "4825dbc0de4154d0be1100f5f56d480f",
+          "size": 3432222,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sl/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-5d4a7eac89.png",
+          "md5": "5d4a7eac89dca3b773376f97daaf77ae",
+          "size": 3078633,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "es-MX",
+      "sourceLocale": "es-419",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es-419/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-860d6c5bf8.png",
+          "md5": "860d6c5bf87f6967b5585926c6953182",
+          "size": 4414552,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es-419/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-d9b7f32a71.png",
+          "md5": "d9b7f32a7102208468bbece3cc6acdaf",
+          "size": 4644032,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es-419/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-6b09ae9ac9.png",
+          "md5": "6b09ae9ac9a31af74017f6a7d9abedeb",
+          "size": 3899241,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es-419/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-ac261031a0.png",
+          "md5": "ac261031a0f60c94465680855810dbb9",
+          "size": 2485309,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es-419/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-80eea3c1aa.png",
+          "md5": "80eea3c1aa875779a074147b743626c9",
+          "size": 3829032,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es-419/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-0ad1b9057a.png",
+          "md5": "0ad1b9057a0ab33c190a1fd79c39d444",
+          "size": 2983629,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-eb4de24956.png",
+          "md5": "eb4de2495697ace5aae41fac565085ce",
+          "size": 4414534,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-209a8e6e69.png",
+          "md5": "209a8e6e699617db6d44f6ed542eb2b7",
+          "size": 4644036,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-9f03dbd9a9.png",
+          "md5": "9f03dbd9a9e1b5adf9c4b5a66d55ce26",
+          "size": 3899244,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-062f500fc8.png",
+          "md5": "062f500fc88befe913cb75bb6b739121",
+          "size": 2485136,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-c4f152dad6.png",
+          "md5": "c4f152dad64a50f3a4c501cf5d2d290e",
+          "size": 3825075,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/es/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-2e05ea6bbc.png",
+          "md5": "2e05ea6bbc1a9c9a6b4108a13ed8425b",
+          "size": 2534294,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sv/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-a8228b7fab.png",
+          "md5": "a8228b7fab53c73d989ab93058e9899a",
+          "size": 4429648,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sv/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-ab67e28f32.png",
+          "md5": "ab67e28f3275c3d8690ed481b0282957",
+          "size": 4643280,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sv/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-90d9dd84d3.png",
+          "md5": "90d9dd84d32dd924a2342e13185236f7",
+          "size": 3930219,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sv/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-bcb2f91e76.png",
+          "md5": "bcb2f91e76bdcf26d61b4148abf64571",
+          "size": 2689583,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sv/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-8deddc7ac4.png",
+          "md5": "8deddc7ac44cabd0e84d8bd4f148da98",
+          "size": 3419497,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/sv/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-2c0dc58336.png",
+          "md5": "2c0dc583367067eba0ad8a64beaa7f08",
+          "size": 2758996,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ta-IN",
+      "sourceLocale": "ta",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ta/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-aef5fd3f5a.png",
+          "md5": "aef5fd3f5ae9820255fe6aafc198ba30",
+          "size": 4369866,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ta/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-606304407c.png",
+          "md5": "606304407c0d53370f9b430a39c5d09e",
+          "size": 4226314,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ta/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-dcee8c13d7.png",
+          "md5": "dcee8c13d73fe101979da31fcbe1827a",
+          "size": 3858640,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ta/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-78131d216d.png",
+          "md5": "78131d216d4a568a4ee046001733dcac",
+          "size": 3025733,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ta/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-daf7b98e2e.png",
+          "md5": "daf7b98e2e9d7b0f4f747c3eb2efdf92",
+          "size": 3807292,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ta/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-234eac60b5.png",
+          "md5": "234eac60b5b47cf7cae4c609b71998c5",
+          "size": 2894406,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "te-IN",
+      "sourceLocale": "te",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/te/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-41e73761ff.png",
+          "md5": "41e73761ff86ca58568638e32504a715",
+          "size": 4441994,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/te/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-ac651574b5.png",
+          "md5": "ac651574b53d88cd5e8a65c19a5481e8",
+          "size": 4496865,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/te/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-247814da92.png",
+          "md5": "247814da92cfb739fc9fb185070b9721",
+          "size": 3092902,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/te/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-ccb919a056.png",
+          "md5": "ccb919a05677db202c8e182b8057478b",
+          "size": 2850834,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/te/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-8cc343ec93.png",
+          "md5": "8cc343ec9388821b371819fea6c4bad4",
+          "size": 3459198,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/te/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-f2952f044c.png",
+          "md5": "f2952f044c529fb11224635656e60204",
+          "size": 2597897,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "th",
+      "sourceLocale": "th",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/th/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-21daad7687.png",
+          "md5": "21daad7687aa2858bdd9b715a3f07088",
+          "size": 4463431,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/th/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-9cf4bd2722.png",
+          "md5": "9cf4bd2722d2f5796b111dba5978734a",
+          "size": 4287531,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/th/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-37eafa5823.png",
+          "md5": "37eafa5823a638037a7bba53b0fe586a",
+          "size": 3934508,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/th/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-13566f97e7.png",
+          "md5": "13566f97e7cc78edef8a15111fbd3b68",
+          "size": 2482459,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/th/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-e7b3134717.png",
+          "md5": "e7b31347178a84e9354e138e0f29089e",
+          "size": 3457685,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/th/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-0c9cd4736c.png",
+          "md5": "0c9cd4736ca1b8f8b4c3a017ae3b2458",
+          "size": 2559673,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/tr/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-c8ff67a4a9.png",
+          "md5": "c8ff67a4a94a6373b2804addd1d63532",
+          "size": 4436220,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/tr/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-20f9dc3689.png",
+          "md5": "20f9dc368934b1983b0283f838a97fe1",
+          "size": 4643688,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/tr/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-349e0352b9.png",
+          "md5": "349e0352b94e100cf84b8343e22efb5b",
+          "size": 3542881,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/tr/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-5f6b31b961.png",
+          "md5": "5f6b31b96182478cde3722c8068c2bc6",
+          "size": 2452466,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/tr/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-5a32cffa9e.png",
+          "md5": "5a32cffa9e2aed692d4697f4c9aecf67",
+          "size": 3415768,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/tr/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-d266eb9af4.png",
+          "md5": "d266eb9af404ef6b35e9539536ea75df",
+          "size": 2762582,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/uk/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-22ccd97949.png",
+          "md5": "22ccd9794937d54e604a03aed58653a2",
+          "size": 4427139,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/uk/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-5dd19c506a.png",
+          "md5": "5dd19c506ac2b83754b7c70af09cefc4",
+          "size": 4639019,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/uk/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-cf4ade6ef4.png",
+          "md5": "cf4ade6ef433617fe4df9b26aad4562c",
+          "size": 3173650,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/uk/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-f8e970e3e5.png",
+          "md5": "f8e970e3e5ba16b7988992a58e6b9c1a",
+          "size": 2905775,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/uk/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-692f75db47.png",
+          "md5": "692f75db47b7c9e90a81167287ea1f17",
+          "size": 3810084,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/uk/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-688b4a796c.png",
+          "md5": "688b4a796c2779b68584b12197e1cf1e",
+          "size": 3059332,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "ur-PK",
+      "sourceLocale": "ur",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ur/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-2c50d1a38c.png",
+          "md5": "2c50d1a38c6a3e2cf1112229b3a3fc62",
+          "size": 4422827,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ur/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-0f69bfb823.png",
+          "md5": "0f69bfb8234716c679b07696dfb714e5",
+          "size": 4241153,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ur/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-f118329ac9.png",
+          "md5": "f118329ac926c06cfe0788635f7369d8",
+          "size": 3521429,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ur/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-ce51d0cf04.png",
+          "md5": "ce51d0cf04d6f46b536431c98e6132a7",
+          "size": 2370627,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ur/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-a18eeed06c.png",
+          "md5": "a18eeed06cdf0763378c44450a11e456",
+          "size": 3406794,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/ur/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-2b758601f4.png",
+          "md5": "2b758601f4ad9b9c6b4b9d83a9b0970c",
+          "size": 2516616,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "slug": "memories",
+      "appId": "6763877209",
+      "platform": "MAC_OS",
+      "version": "1.1.1",
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "type": "APP_DESKTOP",
+      "files": [
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/vi/mac-store-1.png",
+          "fileName": "ml-20261002-app_desktop-1-9234ebcc84.png",
+          "md5": "9234ebcc84d6562c2ed694e1480bb3f4",
+          "size": 4329756,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/vi/mac-store-2.png",
+          "fileName": "ml-20261002-app_desktop-2-e225522c9e.png",
+          "md5": "e225522c9e0bab623937c28c80e54e2c",
+          "size": 4241766,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/vi/mac-store-3.png",
+          "fileName": "ml-20261002-app_desktop-3-dbf662224d.png",
+          "md5": "dbf662224dc30d39c19347e5f07ac65c",
+          "size": 3560654,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/vi/mac-store-4.png",
+          "fileName": "ml-20261002-app_desktop-4-5ad1e3cff3.png",
+          "md5": "5ad1e3cff3a15b417df7b89a79294b73",
+          "size": 2473127,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/vi/mac-store-5.png",
+          "fileName": "ml-20261002-app_desktop-5-4afc6fc1ca.png",
+          "md5": "4afc6fc1cae7046d9af2ae39de053fae",
+          "size": 3815313,
+          "width": 2880,
+          "height": 1800
+        },
+        {
+          "file": "docs/marketing/october-2026/memories-macos-1.1.1/exports/vi/mac-store-6.png",
+          "fileName": "ml-20261002-app_desktop-6-1dbb194639.png",
+          "md5": "1dbb194639ac1eb6095a2e21a5b02d5d",
+          "size": 3093071,
+          "width": 2880,
+          "height": 1800
+        }
+      ]
+    }
+  ],
+  "retained": [
+    "tumtum",
+    "soooon"
+  ],
+  "noAppleRecord": [
+    "hooray"
+  ]
+}
