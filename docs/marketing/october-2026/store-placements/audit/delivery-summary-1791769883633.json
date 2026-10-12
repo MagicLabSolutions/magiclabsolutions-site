@@ -1,0 +1,604 @@
+[
+  {
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "bf7c992acae42b950402178046691293398e78c1cf1ebd641861348699180d60",
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/en-US/header.png",
+    "imageId": "29400019-4d3f-8cc2-800e-ee512e696bfe",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+    "version": "1.3.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-CA",
+        "id": "7b000019-4d3f-8cc2-8f25-223f60fc5189",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-US",
+        "id": "22c00019-4d3f-8cc2-8f0f-44a2ce0f06e5",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:47:24.923Z"
+  },
+  {
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "cf63e511e62816982ac5576a1c0141325dce6e1c0fbd27cf5671b9e090529406",
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/en-US/search-results.png",
+    "imageId": "43c00019-4d3f-8cc2-8031-c7a208fc8f9a",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+    "version": "1.3.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-CA",
+        "id": "ca800019-4d3f-8cc2-8f23-16e21fcd8f20",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-US",
+        "id": "54400019-4d3f-8cc2-8f1b-22125db57be3",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:47:34.710Z"
+  },
+  {
+    "slug": "giftly",
+    "appId": "6802913010",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "47752f602142f97e826a7ea3ba8becf5f7b5c312bd8169dd74fadd4d7a315127",
+    "file": "docs/marketing/october-2026/store-placements/exports/giftly/en-US/header.png",
+    "imageId": "0dc00019-57c3-86f2-800f-4c0586e64f4c",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:47:45.722Z"
+  },
+  {
+    "slug": "giftly",
+    "appId": "6802913010",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "b7a8c5fb011fd00afca2517b98cdf6b58e91d85661111a1c15df0aa20d69f36f",
+    "file": "docs/marketing/october-2026/store-placements/exports/giftly/en-US/search-results.png",
+    "imageId": "8cc00019-57c3-86f2-8038-245938b56429",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:47:52.354Z"
+  },
+  {
+    "slug": "groundcontrol",
+    "appId": "6817404452",
+    "platform": "MAC_OS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "b07a9d6552f7d5128a9c61125b2c7ed67d28dbc2b411bc873d6dca20d4e7bb58",
+    "file": "docs/marketing/october-2026/store-placements/exports/groundcontrol/en-US/header.png",
+    "imageId": "84000019-6595-8624-8013-6ae7b16bc2b4",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:47:59.684Z"
+  },
+  {
+    "slug": "groundcontrol",
+    "appId": "6817404452",
+    "platform": "MAC_OS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "00d8fa31e797000a2bb9a1a2fc92696cdc31f5ac4ff157f861c7c23fbf5dbb81",
+    "file": "docs/marketing/october-2026/store-placements/exports/groundcontrol/en-US/search-results.png",
+    "imageId": "9b800019-6595-8624-801b-99c1f15688cd",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:48:06.509Z"
+  },
+  {
+    "slug": "brainfold",
+    "appId": "6760474378",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "6fc16aa17e433250deafc77df4a1bf0dc6538b384e333a07f3dd6c2d0c49f19a",
+    "file": "docs/marketing/october-2026/store-placements/exports/brainfold/en-US/header.png",
+    "imageId": "fbc00019-2f4a-870a-800c-7866b88c437d",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "3cf79b5c-f5e3-45f6-8bcb-188a5df02623",
+    "version": "1.3.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-CA",
+        "id": "68400019-2f4a-870a-8f26-810fe0012edf",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-US",
+        "id": "fb400019-2f4a-870a-8f25-cfebd08b3dbb",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:48:28.343Z"
+  },
+  {
+    "slug": "brainfold",
+    "appId": "6760474378",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "88005a20e7f38ecdd5057116518265b23c44668679acb7f8dccf63953d40b24e",
+    "file": "docs/marketing/october-2026/store-placements/exports/brainfold/en-US/search-results.png",
+    "imageId": "e5c00019-2f4a-870a-802f-9c6afa55440a",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "3cf79b5c-f5e3-45f6-8bcb-188a5df02623",
+    "version": "1.3.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-CA",
+        "id": "24000019-2f4a-870a-8f09-870b56616b82",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-US",
+        "id": "7e400019-2f4a-870a-8f35-fd5f2028314b",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:48:38.124Z"
+  },
+  {
+    "slug": "memories",
+    "appId": "6763877209",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "745e7a58cfff287b3e32b0aa2bd7429dc5b0998bf2fa1dbe37416d1458223764",
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/en-US/header.png",
+    "imageId": "dd400019-3289-8359-8039-38ded3368c01",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "e45d15b0-5125-4c22-9e12-ec88955a0111",
+    "version": "1.2.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "2b400019-3289-8359-8f3c-7514112d62c4",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-CA",
+        "id": "efc00019-3289-8359-8f03-0bc387224f31",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:48:59.463Z"
+  },
+  {
+    "slug": "memories",
+    "appId": "6763877209",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "3ae44572a3e95b856e697e08ecd1e5ddc143ee5bde11c159caff59bf9781d2b2",
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/en-US/search-results.png",
+    "imageId": "7b000019-3289-8359-8030-807a7926dcc3",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "e45d15b0-5125-4c22-9e12-ec88955a0111",
+    "version": "1.2.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "ca400019-3289-8359-8f2f-346d5dc2a353",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-CA",
+        "id": "75400019-3289-8359-8f0f-7dd4cfc1a9e4",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:49:10.381Z"
+  },
+  {
+    "slug": "poof",
+    "appId": "6816976275",
+    "platform": "MAC_OS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "cfb6b0a194a4979e2d87c5d46fda973ba60f35fe1163c377cff76b50d1dbee78",
+    "file": "docs/marketing/october-2026/store-placements/exports/poof/en-US/header.png",
+    "imageId": "a8400019-652c-8d93-8017-c45a91689a9f",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+    "version": "1.2.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "3e000019-652c-8d93-8f27-d19d81aad603",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:49:22.161Z"
+  },
+  {
+    "slug": "poof",
+    "appId": "6816976275",
+    "platform": "MAC_OS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "d43b2f79804152d90b72358ae1a0dcbc0372f8aa84ece44640614453a98b386a",
+    "file": "docs/marketing/october-2026/store-placements/exports/poof/en-US/search-results.png",
+    "imageId": "c8400019-652c-8d93-8027-cc3cf9ad28a9",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+    "version": "1.2.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "55400019-652c-8d93-8f12-2d288d61c497",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:49:30.342Z"
+  },
+  {
+    "slug": "soooon",
+    "appId": "6817391844",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "ad00c2fae311b7ca0e26861ab3cc2d7d8935b1490f6a067f9f7ed2cbadcba5e1",
+    "file": "docs/marketing/october-2026/store-placements/exports/soooon/en-US/header.png",
+    "imageId": "6fc00019-6592-84e4-802b-de6c39fd5f70",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+    "version": "1.1.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "dd000019-6592-84e4-8f3c-18e73606ff17",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-CA",
+        "id": "1dc00019-6592-84e4-8f1a-933a7c720ef3",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:49:44.479Z"
+  },
+  {
+    "slug": "soooon",
+    "appId": "6817391844",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "dd7e73e33e17621a4fa83ec523d843ac2feded5115a5e33b02ce2b3a6b9bd5bc",
+    "file": "docs/marketing/october-2026/store-placements/exports/soooon/en-US/search-results.png",
+    "imageId": "76800019-6592-84e4-8021-e89a64a1f174",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+    "version": "1.1.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "29c00019-6592-84e4-8f27-ecb471ce2266",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-CA",
+        "id": "6e000019-6592-84e4-8f0f-08c99f5b0244",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:49:53.544Z"
+  },
+  {
+    "slug": "myrenewals",
+    "appId": "6752888662",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "1491dd293633c4835dd84cb5b03089012c2f33f28e30807c63803bf1d15712d3",
+    "file": "docs/marketing/october-2026/store-placements/exports/myrenewals/en-US/header.png",
+    "imageId": "e2400019-280e-8756-800c-3c4bc27ba3ae",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:50:03.231Z"
+  },
+  {
+    "slug": "myrenewals",
+    "appId": "6752888662",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "64fe359b81243fc8def03f91b59c969e145801c2187121f394496d02d210c579",
+    "file": "docs/marketing/october-2026/store-placements/exports/myrenewals/en-US/search-results.png",
+    "imageId": "01800019-280e-8756-8000-fd0f3645c933",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:50:09.890Z"
+  },
+  {
+    "slug": "toctoc",
+    "appId": "6817375562",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "704394834f8155dffb1139d76ed0b3edcc96ad4e33be65bf49adc6e515e2ba28",
+    "file": "docs/marketing/october-2026/store-placements/exports/toctoc/en-US/header.png",
+    "imageId": "5dc00019-658e-854a-8026-cf13c33d06d0",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:50:17.990Z"
+  },
+  {
+    "slug": "toctoc",
+    "appId": "6817375562",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "4bc65bebf589d0f1798e6f59ca4ed189ce1dd5724942c611dc0da49e13e016ce",
+    "file": "docs/marketing/october-2026/store-placements/exports/toctoc/en-US/search-results.png",
+    "imageId": "39400019-658e-854a-8013-9b8d34308c68",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": null,
+    "version": null,
+    "versionState": "WAITING_FOR_REVIEW",
+    "placements": [],
+    "reason": "Current version is in review; uploaded to asset library without withdrawing review",
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:50:24.753Z"
+  },
+  {
+    "slug": "tumtum",
+    "appId": "6808820820",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "a72017900aa15d09fd2b2899a8f0163bfb3a86bb04a6e464fe3fd3e0afad58b3",
+    "file": "docs/marketing/october-2026/store-placements/exports/tumtum/en-US/header.png",
+    "imageId": "0c800019-5d65-8c54-8035-2d8be2e82300",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+    "version": "1.1.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "37c00019-5d65-8c54-8f19-50371ce52705",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:50:34.358Z"
+  },
+  {
+    "slug": "tumtum",
+    "appId": "6808820820",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "148ea2224fbbb6b31d4adbb4c3c0181f946e3f03c021f517a60d46d8e6a418ff",
+    "file": "docs/marketing/october-2026/store-placements/exports/tumtum/en-US/search-results.png",
+    "imageId": "71000019-5d65-8c54-802b-22133fac0911",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+    "version": "1.1.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "93400019-5d65-8c54-8f0b-31a3b1aa174e",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:50:46.582Z"
+  },
+  {
+    "slug": "zuzu",
+    "appId": "6757988505",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "b47e63c89cc4667f1edd7cb3fce9c703a9ffb41c3d8e8ea826c7be9cd3379018",
+    "file": "docs/marketing/october-2026/store-placements/exports/zuzu/en-US/header.png",
+    "imageId": "9d800019-2ceb-8899-8022-53df089490f7",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+    "version": "2.8.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-CA",
+        "id": "18400019-2ceb-8899-8f2f-e06b283368fa",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-US",
+        "id": "a5800019-2ceb-8899-8f17-74f593028f02",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:51:01.586Z"
+  },
+  {
+    "slug": "zuzu",
+    "appId": "6757988505",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "55091587cc6b70ff44cbb429fdf119b0e18615984dfc14ccc9d7bcac9c8aa13d",
+    "file": "docs/marketing/october-2026/store-placements/exports/zuzu/en-US/search-results.png",
+    "imageId": "aa000019-2ceb-8899-803e-c600ae837a20",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+    "version": "2.8.0",
+    "versionState": "PREPARE_FOR_SUBMISSION",
+    "placements": [
+      {
+        "locale": "en-CA",
+        "id": "75000019-2ceb-8899-8f31-890d729cd82d",
+        "state": "ACTIVE"
+      },
+      {
+        "locale": "en-US",
+        "id": "40400019-2ceb-8899-8f02-93142f39cadb",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:51:11.416Z"
+  },
+  {
+    "slug": "kinfold",
+    "appId": "6785646082",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "header",
+    "sha256": "1b2798b0f7991984f34752459f6e12814dfdb94f205a7fcc52a855d963b17ea5",
+    "file": "docs/marketing/october-2026/store-placements/exports/kinfold/en-US/header.png",
+    "imageId": "0c400019-474b-8e02-8002-7b0e151102e0",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "1eb43b80-e0b7-4d96-bd32-47a42a8c5fed",
+    "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+    "version": "1.2",
+    "versionState": "DEVELOPER_REJECTED",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "40000019-474b-8e02-8f39-60f57bf4666d",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:51:15.105Z"
+  },
+  {
+    "slug": "kinfold",
+    "appId": "6785646082",
+    "platform": "IOS",
+    "locale": "en-US",
+    "placement": "search-results",
+    "sha256": "ceac67ab1f375adb8bdfd01e5e1579c730222f3a0caefed4b9cc90346fd18c40",
+    "file": "docs/marketing/october-2026/store-placements/exports/kinfold/en-US/search-results.png",
+    "imageId": "bbc00019-474b-8e02-800a-fd64c8faceb7",
+    "imageState": "PREPARE_FOR_SUBMISSION",
+    "specId": "d2ffa3b7-6c55-5cdf-8512-229d92791333",
+    "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+    "version": "1.2",
+    "versionState": "DEVELOPER_REJECTED",
+    "placements": [
+      {
+        "locale": "en-US",
+        "id": "3d800019-474b-8e02-8f1f-3773f36eabc0",
+        "state": "ACTIVE"
+      }
+    ],
+    "reason": null,
+    "verified": true,
+    "verifiedAt": "2026-10-12T01:51:23.633Z"
+  }
+]

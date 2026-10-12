@@ -1,0 +1,23 @@
+{
+  "createdAt": "2026-10-12T01:50:45.170Z",
+  "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+  "locale": "en-US",
+  "placements": [
+    {
+      "type": "appAssetLibraryPlacements",
+      "id": "16800019-5d65-8c54-8f37-c0de6bf5dcb6",
+      "attributes": {
+        "mediaType": "IMAGE",
+        "placementType": "APP_STORE_SEARCH_RESULTS_ASSET",
+        "placementGroup": "DEFAULT_PROFILE",
+        "createdDate": "2026-10-10T12:35:35.48779Z",
+        "lastModifiedDate": "2026-10-10T12:35:48.92001Z",
+        "state": "ACTIVE",
+        "stateDetails": null
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/16800019-5d65-8c54-8f37-c0de6bf5dcb6"
+      }
+    }
+  ]
+}

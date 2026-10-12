@@ -1,0 +1,2367 @@
+{
+  "ar": {
+    "locale": "ar",
+    "direction": "rtl",
+    "copySource": "ar",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "عائلتك. جاهزة للانطلاق.",
+        "description": "الوثائق والمواعيد والرحلات في مكان خاص واحد.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "التفاصيل بنقرة واحدة.",
+        "description": "انسخ التواريخ بالتنسيق المطلوب دون إعادة كتابتها.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "كل رحلة. خطة واضحة.",
+        "description": "الرحلات الجوية والإقامة والوثائق معًا.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "جهّز حقائب الجميع.",
+        "description": "قائمة تناسب عائلتك ووجهتك.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "العائلة على نفس الموعد.",
+        "description": "المواعيد وتجديد الوثائق في جدول واضح.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "اعثر عليه. وواصل يومك.",
+        "description": "ابحث عن وثائق عائلتك ورحلاتها ومواعيدها.",
+        "highlight": true
+      }
+    ]
+  },
+  "bg": {
+    "locale": "bg",
+    "direction": "ltr",
+    "copySource": "bg",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Семейството е готово.",
+        "description": "Документи, дати и пътувания на едно лично място.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Детайли с едно докосване.",
+        "description": "Копирайте датите в нужния формат без преписване.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Всяко пътуване. Ясен план.",
+        "description": "Полети, нощувки и документи заедно.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Багаж за всички.",
+        "description": "Списък според семейството и дестинацията.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Един семеен график.",
+        "description": "Срещи и подновявания в ясен календар.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Намерете. Продължете.",
+        "description": "Търсете семейни документи, пътувания и събития.",
+        "highlight": true
+      }
+    ]
+  },
+  "bn": {
+    "locale": "bn",
+    "direction": "ltr",
+    "copySource": "bn",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "পরিবার প্রস্তুত। এবার চলুন।",
+        "description": "নথি, তারিখ ও ভ্রমণ এক ব্যক্তিগত জায়গায়।",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "এক ট্যাপেই সব তথ্য।",
+        "description": "দরকারি বিন্যাসে তারিখ কপি করুন। আবার লিখতে হবে না।",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "প্রতি ভ্রমণে স্পষ্ট পরিকল্পনা।",
+        "description": "ফ্লাইট, থাকার জায়গা ও নথি একসঙ্গে।",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "সবার ব্যাগ গুছিয়ে নিন।",
+        "description": "পরিবার ও গন্তব্য অনুযায়ী তালিকা।",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "পরিবারের এক সময়সূচি।",
+        "description": "অ্যাপয়েন্টমেন্ট ও নবায়ন এক পরিষ্কার সূচিতে।",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "খুঁজে নিন। এগিয়ে চলুন।",
+        "description": "পরিবারের নথি, ভ্রমণ ও অনুষ্ঠান এক জায়গায় খুঁজুন।",
+        "highlight": true
+      }
+    ]
+  },
+  "ca": {
+    "locale": "ca",
+    "direction": "ltr",
+    "copySource": "ca",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "La família, a punt.",
+        "description": "Documents, dates i viatges en un espai privat.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detalls amb un toc.",
+        "description": "Copia les dates en el format que necessites.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Cada viatge, un pla clar.",
+        "description": "Vols, allotjaments i documents, junts.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Fes les maletes de tothom.",
+        "description": "Una llista per a la família i la destinació.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Una agenda familiar.",
+        "description": "Cites i renovacions en una agenda clara.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Troba-ho i continua.",
+        "description": "Cerca documents, viatges i esdeveniments familiars.",
+        "highlight": true
+      }
+    ]
+  },
+  "cs": {
+    "locale": "cs",
+    "direction": "ltr",
+    "copySource": "cs",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Rodina připravená vyrazit.",
+        "description": "Doklady, termíny a cesty na jednom soukromém místě.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Údaje jedním klepnutím.",
+        "description": "Kopírujte data v potřebném formátu bez přepisování.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Každá cesta má plán.",
+        "description": "Lety, ubytování a doklady pohromadě.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Zabalte pro všechny.",
+        "description": "Seznam podle rodiny a cílové destinace.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Jeden rodinný rozvrh.",
+        "description": "Schůzky a obnovy dokladů v přehledném kalendáři.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Najděte a pokračujte.",
+        "description": "Hledejte rodinné doklady, cesty a události.",
+        "highlight": true
+      }
+    ]
+  },
+  "da": {
+    "locale": "da",
+    "direction": "ltr",
+    "copySource": "da",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Familien er klar til at tage afsted.",
+        "description": "Dokumenter, datoer og rejser ét privat sted.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detaljer med ét tryk.",
+        "description": "Kopiér datoer i det format, du har brug for.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Hver rejse. Én klar plan.",
+        "description": "Fly, overnatninger og dokumenter samlet.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pak til hele familien.",
+        "description": "En liste tilpasset familien og destinationen.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Én fælles familieplan.",
+        "description": "Aftaler og fornyelser i en overskuelig kalender.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Find det. Kom videre.",
+        "description": "Søg i familiens dokumenter, rejser og begivenheder.",
+        "highlight": true
+      }
+    ]
+  },
+  "de": {
+    "locale": "de",
+    "direction": "ltr",
+    "copySource": "de",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Die Familie. Bereit für die Reise.",
+        "description": "Dokumente, Termine und Reisen an einem privaten Ort.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Details mit einem Tippen.",
+        "description": "Daten im passenden Format kopieren statt abtippen.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Jede Reise. Ein klarer Plan.",
+        "description": "Flüge, Unterkünfte und Dokumente zusammen.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Für alle packen. Weniger vergessen.",
+        "description": "Eine Liste passend zu Familie und Reiseziel.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Ein gemeinsamer Familienplan.",
+        "description": "Termine und Verlängerungen in einer klaren Übersicht.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Finden. Weiter geht’s.",
+        "description": "Familiendokumente, Reisen und Termine an einem Ort suchen.",
+        "highlight": true
+      }
+    ]
+  },
+  "el": {
+    "locale": "el",
+    "direction": "ltr",
+    "copySource": "el",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Η οικογένεια έτοιμη να φύγει.",
+        "description": "Έγγραφα, ημερομηνίες και ταξίδια σε έναν ιδιωτικό χώρο.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Στοιχεία με ένα άγγιγμα.",
+        "description": "Αντιγράψτε ημερομηνίες στη μορφή που χρειάζεστε.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Κάθε ταξίδι. Ένα σαφές σχέδιο.",
+        "description": "Πτήσεις, διαμονή και έγγραφα μαζί.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Ετοιμάστε βαλίτσες για όλους.",
+        "description": "Μια λίστα για την οικογένεια και τον προορισμό.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Ένα οικογενειακό πρόγραμμα.",
+        "description": "Ραντεβού και ανανεώσεις σε ένα σαφές ημερολόγιο.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Βρείτε το. Συνεχίστε.",
+        "description": "Αναζητήστε οικογενειακά έγγραφα, ταξίδια και εκδηλώσεις.",
+        "highlight": true
+      }
+    ]
+  },
+  "en-US": {
+    "locale": "en-US",
+    "direction": "ltr",
+    "copySource": "en-US",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Your family.\nReady to go.",
+        "description": "Documents, dates and trips.\nOne private place.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Details ready.\nIn a tap.",
+        "description": "Copy dates in the format\nyou need. Skip the typing.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Every trip.\nOne clear plan.",
+        "description": "Flights, stays and documents.\nTogether for the journey.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pack for everyone.\nForget less.",
+        "description": "A checklist shaped around\nyour family and destination.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Keep the family\non the same page.",
+        "description": "Appointments and renewals.\nOne clear agenda.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Find it.\nGet on with it.",
+        "description": "Search your family’s documents,\ntrips and events in one place.",
+        "highlight": true
+      }
+    ]
+  },
+  "en-AU": {
+    "locale": "en-AU",
+    "direction": "ltr",
+    "copySource": "en-US",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Your family.\nReady to go.",
+        "description": "Documents, dates and trips.\nOne private place.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Details ready.\nIn a tap.",
+        "description": "Copy dates in the format\nyou need. Skip the typing.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Every trip.\nOne clear plan.",
+        "description": "Flights, stays and documents.\nTogether for the journey.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pack for everyone.\nForget less.",
+        "description": "A checklist shaped around\nyour family and destination.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Keep the family\non the same page.",
+        "description": "Appointments and renewals.\nOne clear agenda.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Find it.\nGet on with it.",
+        "description": "Search your family’s documents,\ntrips and events in one place.",
+        "highlight": true
+      }
+    ]
+  },
+  "en-GB": {
+    "locale": "en-GB",
+    "direction": "ltr",
+    "copySource": "en-US",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Your family.\nReady to go.",
+        "description": "Documents, dates and trips.\nOne private place.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Details ready.\nIn a tap.",
+        "description": "Copy dates in the format\nyou need. Skip the typing.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Every trip.\nOne clear plan.",
+        "description": "Flights, stays and documents.\nTogether for the journey.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pack for everyone.\nForget less.",
+        "description": "A checklist shaped around\nyour family and destination.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Keep the family\non the same page.",
+        "description": "Appointments and renewals.\nOne clear agenda.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Find it.\nGet on with it.",
+        "description": "Search your family’s documents,\ntrips and events in one place.",
+        "highlight": true
+      }
+    ]
+  },
+  "en-IN": {
+    "locale": "en-IN",
+    "direction": "ltr",
+    "copySource": "en-US",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Your family.\nReady to go.",
+        "description": "Documents, dates and trips.\nOne private place.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Details ready.\nIn a tap.",
+        "description": "Copy dates in the format\nyou need. Skip the typing.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Every trip.\nOne clear plan.",
+        "description": "Flights, stays and documents.\nTogether for the journey.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pack for everyone.\nForget less.",
+        "description": "A checklist shaped around\nyour family and destination.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Keep the family\non the same page.",
+        "description": "Appointments and renewals.\nOne clear agenda.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Find it.\nGet on with it.",
+        "description": "Search your family’s documents,\ntrips and events in one place.",
+        "highlight": true
+      }
+    ]
+  },
+  "es": {
+    "locale": "es",
+    "direction": "ltr",
+    "copySource": "es",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Tu familia, lista para salir.",
+        "description": "Documentos, fechas y viajes en un lugar privado.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Los detalles, con un toque.",
+        "description": "Copia fechas en el formato que necesitas, sin escribirlas.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Cada viaje. Un plan claro.",
+        "description": "Vuelos, alojamientos y documentos, juntos.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Haz las maletas para todos.",
+        "description": "Una lista para tu familia y tu destino.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Una agenda para la familia.",
+        "description": "Citas y renovaciones en una agenda clara.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Encuéntralo y sigue.",
+        "description": "Busca documentos, viajes y eventos de tu familia.",
+        "highlight": true
+      }
+    ]
+  },
+  "es-419": {
+    "locale": "es-419",
+    "direction": "ltr",
+    "copySource": "es",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Tu familia, lista para salir.",
+        "description": "Documentos, fechas y viajes en un lugar privado.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Los detalles, con un toque.",
+        "description": "Copia fechas en el formato que necesitas, sin escribirlas.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Cada viaje. Un plan claro.",
+        "description": "Vuelos, alojamientos y documentos, juntos.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Haz las maletas para todos.",
+        "description": "Una lista para tu familia y tu destino.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Una agenda para la familia.",
+        "description": "Citas y renovaciones en una agenda clara.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Encuéntralo y sigue.",
+        "description": "Busca documentos, viajes y eventos de tu familia.",
+        "highlight": true
+      }
+    ]
+  },
+  "es-US": {
+    "locale": "es-US",
+    "direction": "ltr",
+    "copySource": "es",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Tu familia, lista para salir.",
+        "description": "Documentos, fechas y viajes en un lugar privado.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Los detalles, con un toque.",
+        "description": "Copia fechas en el formato que necesitas, sin escribirlas.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Cada viaje. Un plan claro.",
+        "description": "Vuelos, alojamientos y documentos, juntos.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Haz las maletas para todos.",
+        "description": "Una lista para tu familia y tu destino.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Una agenda para la familia.",
+        "description": "Citas y renovaciones en una agenda clara.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Encuéntralo y sigue.",
+        "description": "Busca documentos, viajes y eventos de tu familia.",
+        "highlight": true
+      }
+    ]
+  },
+  "fi": {
+    "locale": "fi",
+    "direction": "ltr",
+    "copySource": "fi",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Perhe valmiina lähtöön.",
+        "description": "Asiakirjat, päivämäärät ja matkat yhdessä yksityisessä paikassa.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Tiedot yhdellä napautuksella.",
+        "description": "Kopioi päivämäärät haluamassasi muodossa.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Joka matkalle selkeä suunnitelma.",
+        "description": "Lennot, majoitukset ja asiakirjat yhdessä.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pakkaa koko perheelle.",
+        "description": "Lista perheen ja matkakohteen mukaan.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Perheen yhteinen aikataulu.",
+        "description": "Tapaamiset ja uusimiset selkeässä kalenterissa.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Löydä ja jatka päivää.",
+        "description": "Hae perheen asiakirjoja, matkoja ja tapahtumia.",
+        "highlight": true
+      }
+    ]
+  },
+  "fr": {
+    "locale": "fr",
+    "direction": "ltr",
+    "copySource": "fr",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "La famille, prête à partir.",
+        "description": "Documents, dates et voyages dans un espace privé.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Les détails, en un geste.",
+        "description": "Copiez les dates au bon format, sans les retaper.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Chaque voyage. Un plan clair.",
+        "description": "Vols, hébergements et documents réunis.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Préparez les valises de tous.",
+        "description": "Une liste adaptée à la famille et à la destination.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Un agenda pour toute la famille.",
+        "description": "Rendez-vous et renouvellements dans un agenda clair.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Trouvez. Puis avancez.",
+        "description": "Cherchez documents, voyages et événements familiaux.",
+        "highlight": true
+      }
+    ]
+  },
+  "fr-CA": {
+    "locale": "fr-CA",
+    "direction": "ltr",
+    "copySource": "fr",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "La famille, prête à partir.",
+        "description": "Documents, dates et voyages dans un espace privé.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Les détails, en un geste.",
+        "description": "Copiez les dates au bon format, sans les retaper.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Chaque voyage. Un plan clair.",
+        "description": "Vols, hébergements et documents réunis.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Préparez les valises de tous.",
+        "description": "Une liste adaptée à la famille et à la destination.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Un agenda pour toute la famille.",
+        "description": "Rendez-vous et renouvellements dans un agenda clair.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Trouvez. Puis avancez.",
+        "description": "Cherchez documents, voyages et événements familiaux.",
+        "highlight": true
+      }
+    ]
+  },
+  "gu": {
+    "locale": "gu",
+    "direction": "ltr",
+    "copySource": "gu",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "પરિવાર તૈયાર. હવે નીકળો.",
+        "description": "દસ્તાવેજો, તારીખો અને પ્રવાસ એક ખાનગી જગ્યાએ.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "એક ટૅપમાં વિગતો.",
+        "description": "જરૂરી ફોર્મેટમાં તારીખો કૉપી કરો, ફરી લખ્યા વિના.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "દરેક પ્રવાસ. સ્પષ્ટ યોજના.",
+        "description": "ફ્લાઇટ, રહેવાની જગ્યા અને દસ્તાવેજો એકસાથે.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "બધા માટે બૅગ તૈયાર કરો.",
+        "description": "પરિવાર અને સ્થળ મુજબની યાદી.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "પરિવારનું એક સમયપત્રક.",
+        "description": "મુલાકાતો અને નવીનીકરણ માટે સ્પષ્ટ કેલેન્ડર.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "શોધો. આગળ વધો.",
+        "description": "પરિવારના દસ્તાવેજો, પ્રવાસ અને પ્રસંગો એક જગ્યાએ શોધો.",
+        "highlight": true
+      }
+    ]
+  },
+  "he": {
+    "locale": "he",
+    "direction": "rtl",
+    "copySource": "he",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "המשפחה מוכנה לצאת.",
+        "description": "מסמכים, תאריכים ונסיעות במקום פרטי אחד.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "פרטים בנגיעה אחת.",
+        "description": "העתיקו תאריכים בפורמט הדרוש, בלי להקליד מחדש.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "כל נסיעה. תוכנית ברורה.",
+        "description": "טיסות, לינה ומסמכים יחד.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "אורזים לכל המשפחה.",
+        "description": "רשימה שמתאימה למשפחה וליעד.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "לוח זמנים משפחתי אחד.",
+        "description": "פגישות וחידושים ביומן ברור.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "מצאו. המשיכו הלאה.",
+        "description": "חפשו מסמכים, נסיעות ואירועים של המשפחה.",
+        "highlight": true
+      }
+    ]
+  },
+  "hi": {
+    "locale": "hi",
+    "direction": "ltr",
+    "copySource": "hi",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "परिवार तैयार। चलें अब।",
+        "description": "दस्तावेज़, तारीखें और यात्राएँ एक निजी जगह पर।",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "एक टैप में सारी जानकारी।",
+        "description": "तारीखें ज़रूरी फ़ॉर्मैट में कॉपी करें, फिर से लिखे बिना।",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "हर यात्रा। एक साफ़ योजना।",
+        "description": "उड़ानें, ठहरने की जगह और दस्तावेज़ साथ में।",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "सबके लिए सामान पैक करें।",
+        "description": "परिवार और मंज़िल के मुताबिक सूची।",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "परिवार की एक समयसारिणी।",
+        "description": "अपॉइंटमेंट और नवीनीकरण एक साफ़ कैलेंडर में।",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "ढूँढें। आगे बढ़ें।",
+        "description": "परिवार के दस्तावेज़, यात्राएँ और कार्यक्रम एक जगह खोजें।",
+        "highlight": true
+      }
+    ]
+  },
+  "hr": {
+    "locale": "hr",
+    "direction": "ltr",
+    "copySource": "hr",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Obitelj spremna za put.",
+        "description": "Dokumenti, datumi i putovanja na jednom privatnom mjestu.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detalji jednim dodirom.",
+        "description": "Kopirajte datume u potrebnom formatu bez prepisivanja.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Svako putovanje. Jasan plan.",
+        "description": "Letovi, smještaj i dokumenti zajedno.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Spakirajte za sve.",
+        "description": "Popis prilagođen obitelji i odredištu.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Jedan obiteljski raspored.",
+        "description": "Sastanci i obnove u preglednom kalendaru.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Pronađite. Nastavite.",
+        "description": "Pretražite obiteljske dokumente, putovanja i događaje.",
+        "highlight": true
+      }
+    ]
+  },
+  "hu": {
+    "locale": "hu",
+    "direction": "ltr",
+    "copySource": "hu",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "A család indulásra készen.",
+        "description": "Iratok, időpontok és utazások egy privát helyen.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Adatok egy koppintással.",
+        "description": "Dátumok másolása a kívánt formátumban, újragépelés nélkül.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Minden út. Egy világos terv.",
+        "description": "Repülőjáratok, szállások és iratok együtt.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Csomagoljon mindenkinek.",
+        "description": "Lista a család és az úti cél igényeihez.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Egy közös családi naptár.",
+        "description": "Találkozók és megújítások egy átlátható naptárban.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Találja meg. Haladjon tovább.",
+        "description": "Keressen a család iratai, utazásai és eseményei között.",
+        "highlight": true
+      }
+    ]
+  },
+  "id": {
+    "locale": "id",
+    "direction": "ltr",
+    "copySource": "id",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Keluarga siap berangkat.",
+        "description": "Dokumen, tanggal, dan perjalanan di satu tempat pribadi.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detail dalam satu ketukan.",
+        "description": "Salin tanggal dalam format yang dibutuhkan tanpa mengetik ulang.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Setiap perjalanan. Rencana jelas.",
+        "description": "Penerbangan, penginapan, dan dokumen bersama.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Berkemas untuk semua.",
+        "description": "Daftar sesuai keluarga dan tujuan Anda.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Satu agenda keluarga.",
+        "description": "Janji temu dan perpanjangan dalam agenda yang jelas.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Temukan. Lanjutkan hari.",
+        "description": "Cari dokumen, perjalanan, dan acara keluarga di satu tempat.",
+        "highlight": true
+      }
+    ]
+  },
+  "it": {
+    "locale": "it",
+    "direction": "ltr",
+    "copySource": "it",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "La famiglia è pronta a partire.",
+        "description": "Documenti, date e viaggi in uno spazio privato.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "I dettagli con un tocco.",
+        "description": "Copia le date nel formato che serve, senza riscriverle.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Ogni viaggio. Un piano chiaro.",
+        "description": "Voli, soggiorni e documenti insieme.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Prepara le valigie per tutti.",
+        "description": "Una lista per la famiglia e la destinazione.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Un’agenda per la famiglia.",
+        "description": "Appuntamenti e rinnovi in un calendario chiaro.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Trova. E vai avanti.",
+        "description": "Cerca documenti, viaggi ed eventi della famiglia.",
+        "highlight": true
+      }
+    ]
+  },
+  "ja": {
+    "locale": "ja",
+    "direction": "ltr",
+    "copySource": "ja",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "家族の準備、これひとつ。",
+        "description": "書類、予定、旅行をひとつのプライベートな場所に。",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "必要な情報をワンタップ。",
+        "description": "日付を必要な形式でコピー。入力し直す手間を省けます。",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "旅の計画を、わかりやすく。",
+        "description": "フライト、宿泊先、書類をまとめて管理。",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "家族みんなの荷物を準備。",
+        "description": "家族と行き先に合った持ち物リスト。",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "家族の予定をひとつに。",
+        "description": "予約や更新予定を見やすいカレンダーで。",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "見つけたら、次のことへ。",
+        "description": "家族の書類、旅行、イベントをまとめて検索。",
+        "highlight": true
+      }
+    ]
+  },
+  "kk": {
+    "locale": "kk",
+    "direction": "ltr",
+    "copySource": "kk",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Отбасы сапарға дайын.",
+        "description": "Құжаттар, күндер мен сапарлар бір жеке орында.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Мәліметтер бір түртумен.",
+        "description": "Күндерді қажетті пішімде қайта термей көшіріңіз.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Әр сапар. Нақты жоспар.",
+        "description": "Рейстер, тұратын орындар мен құжаттар бірге.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Барлығына жүк жинаңыз.",
+        "description": "Отбасы мен баратын жерге сай тізім.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Отбасының ортақ кестесі.",
+        "description": "Кездесулер мен жаңартулар бір анық күнтізбеде.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Табыңыз. Әрі қарай жалғастырыңыз.",
+        "description": "Отбасы құжаттарын, сапарларын және оқиғаларын іздеңіз.",
+        "highlight": true
+      }
+    ]
+  },
+  "kn": {
+    "locale": "kn",
+    "direction": "ltr",
+    "copySource": "kn",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "ಕುಟುಂಬ ಸಿದ್ಧ. ಹೊರಡೋಣ.",
+        "description": "ದಾಖಲೆಗಳು, ದಿನಾಂಕಗಳು ಮತ್ತು ಪ್ರಯಾಣಗಳು ಒಂದೇ ಖಾಸಗಿ ಸ್ಥಳದಲ್ಲಿ.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "ಒಂದೇ ಟ್ಯಾಪ್‌ನಲ್ಲಿ ವಿವರಗಳು.",
+        "description": "ದಿನಾಂಕಗಳನ್ನು ಬೇಕಾದ ಸ್ವರೂಪದಲ್ಲಿ ನಕಲಿಸಿ, ಮತ್ತೆ ಬರೆಯದೆ.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "ಪ್ರತಿ ಪ್ರಯಾಣಕ್ಕೂ ಸ್ಪಷ್ಟ ಯೋಜನೆ.",
+        "description": "ವಿಮಾನಗಳು, ವಸತಿ ಮತ್ತು ದಾಖಲೆಗಳು ಒಟ್ಟಿಗೆ.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "ಎಲ್ಲರ ಸಾಮಾನು ಸಿದ್ಧಪಡಿಸಿ.",
+        "description": "ಕುಟುಂಬ ಮತ್ತು ಗಮ್ಯಸ್ಥಾನಕ್ಕೆ ತಕ್ಕ ಪಟ್ಟಿ.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "ಕುಟುಂಬಕ್ಕೆ ಒಂದೇ ವೇಳಾಪಟ್ಟಿ.",
+        "description": "ಭೇಟಿಗಳು ಮತ್ತು ನವೀಕರಣಗಳು ಒಂದೇ ಸ್ಪಷ್ಟ ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "ಹುಡುಕಿ. ಮುಂದೆ ಸಾಗಿರಿ.",
+        "description": "ಕುಟುಂಬದ ದಾಖಲೆಗಳು, ಪ್ರಯಾಣಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಹುಡುಕಿ.",
+        "highlight": true
+      }
+    ]
+  },
+  "ko": {
+    "locale": "ko",
+    "direction": "ltr",
+    "copySource": "ko",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "우리 가족, 떠날 준비 완료.",
+        "description": "서류, 일정, 여행을 하나의 개인 공간에.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "필요한 정보, 한 번의 탭으로.",
+        "description": "날짜를 원하는 형식으로 복사하고 다시 입력하는 수고를 줄이세요.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "모든 여행, 한눈에 보는 계획.",
+        "description": "항공편, 숙소, 서류를 함께 관리하세요.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "온 가족의 짐을 준비하세요.",
+        "description": "가족과 목적지에 맞는 준비물 목록.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "가족 일정을 한곳에.",
+        "description": "약속과 갱신 일정을 보기 쉬운 캘린더로.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "찾고, 일상을 이어가세요.",
+        "description": "가족의 서류, 여행, 이벤트를 한곳에서 검색하세요.",
+        "highlight": true
+      }
+    ]
+  },
+  "lt": {
+    "locale": "lt",
+    "direction": "ltr",
+    "copySource": "lt",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Šeima pasiruošusi kelionei.",
+        "description": "Dokumentai, datos ir kelionės vienoje privačioje vietoje.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Duomenys vienu bakstelėjimu.",
+        "description": "Kopijuokite datas reikiamu formatu, neperrašydami.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Kiekviena kelionė. Aiškus planas.",
+        "description": "Skrydžiai, nakvynės ir dokumentai kartu.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Sukraukite daiktus visiems.",
+        "description": "Sąrašas pagal šeimą ir kelionės tikslą.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Vienas šeimos tvarkaraštis.",
+        "description": "Susitikimai ir atnaujinimai aiškiame kalendoriuje.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Raskite ir tęskite.",
+        "description": "Ieškokite šeimos dokumentų, kelionių ir įvykių.",
+        "highlight": true
+      }
+    ]
+  },
+  "ml": {
+    "locale": "ml",
+    "direction": "ltr",
+    "copySource": "ml",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "കുടുംബം തയ്യാറാണ്. പുറപ്പെടാം.",
+        "description": "രേഖകൾ, തീയതികൾ, യാത്രകൾ ഒരൊറ്റ സ്വകാര്യ ഇടത്തിൽ.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "ഒറ്റ ടാപ്പിൽ വിവരങ്ങൾ.",
+        "description": "വീണ്ടും എഴുതാതെ ആവശ്യമായ രീതിയിൽ തീയതികൾ പകർത്തൂ.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "ഓരോ യാത്രയ്ക്കും വ്യക്തമായ പദ്ധതി.",
+        "description": "വിമാനങ്ങൾ, താമസം, രേഖകൾ ഒരുമിച്ച്.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "എല്ലാവരുടെയും ബാഗുകൾ ഒരുക്കൂ.",
+        "description": "കുടുംബത്തിനും ലക്ഷ്യസ്ഥാനത്തിനും ചേരുന്ന പട്ടിക.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "കുടുംബത്തിന് ഒരൊറ്റ സമയക്രമം.",
+        "description": "അപ്പോയിന്റ്മെന്റുകളും പുതുക്കലുകളും വ്യക്തമായ കലണ്ടറിൽ.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "കണ്ടെത്തൂ. മുന്നോട്ട് പോകൂ.",
+        "description": "കുടുംബത്തിന്റെ രേഖകളും യാത്രകളും പരിപാടികളും ഒരിടത്ത് തിരയൂ.",
+        "highlight": true
+      }
+    ]
+  },
+  "mr": {
+    "locale": "mr",
+    "direction": "ltr",
+    "copySource": "mr",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "कुटुंब तयार. चला निघूया.",
+        "description": "कागदपत्रे, तारखा आणि प्रवास एका खाजगी ठिकाणी.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "एका टॅपमध्ये तपशील.",
+        "description": "पुन्हा न लिहिता तारखा हव्या त्या स्वरूपात कॉपी करा.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "प्रत्येक प्रवास. स्पष्ट योजना.",
+        "description": "विमानप्रवास, मुक्काम आणि कागदपत्रे एकत्र.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "सर्वांचे सामान तयार करा.",
+        "description": "कुटुंब आणि ठिकाणानुसार यादी.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "कुटुंबाचे एक वेळापत्रक.",
+        "description": "भेटी आणि नूतनीकरण एका स्पष्ट कॅलेंडरमध्ये.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "शोधा. पुढे चला.",
+        "description": "कुटुंबाची कागदपत्रे, प्रवास आणि कार्यक्रम एकाच ठिकाणी शोधा.",
+        "highlight": true
+      }
+    ]
+  },
+  "ms": {
+    "locale": "ms",
+    "direction": "ltr",
+    "copySource": "ms",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Keluarga sedia berangkat.",
+        "description": "Dokumen, tarikh dan perjalanan di satu ruang peribadi.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Butiran dengan satu ketikan.",
+        "description": "Salin tarikh dalam format yang diperlukan tanpa menaip semula.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Setiap perjalanan. Pelan jelas.",
+        "description": "Penerbangan, penginapan dan dokumen bersama.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Kemas beg untuk semua.",
+        "description": "Senarai mengikut keluarga dan destinasi.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Satu jadual keluarga.",
+        "description": "Janji temu dan pembaharuan dalam kalendar jelas.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Cari. Teruskan hari.",
+        "description": "Cari dokumen, perjalanan dan acara keluarga di satu tempat.",
+        "highlight": true
+      }
+    ]
+  },
+  "nb": {
+    "locale": "nb",
+    "direction": "ltr",
+    "copySource": "nb",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Familien er klar for tur.",
+        "description": "Dokumenter, datoer og reiser på ett privat sted.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detaljer med ett trykk.",
+        "description": "Kopier datoer i formatet du trenger, uten å skrive på nytt.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Hver reise. En tydelig plan.",
+        "description": "Fly, overnatting og dokumenter samlet.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pakk for hele familien.",
+        "description": "En liste tilpasset familien og reisemålet.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Én felles familieplan.",
+        "description": "Avtaler og fornyelser i en oversiktlig kalender.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Finn det. Kom deg videre.",
+        "description": "Søk i familiens dokumenter, reiser og hendelser.",
+        "highlight": true
+      }
+    ]
+  },
+  "nl": {
+    "locale": "nl",
+    "direction": "ltr",
+    "copySource": "nl",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Je gezin, klaar om te gaan.",
+        "description": "Documenten, datums en reizen op één privéplek.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Details met één tik.",
+        "description": "Kopieer datums in het juiste formaat zonder overtypen.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Elke reis. Een helder plan.",
+        "description": "Vluchten, verblijven en documenten bij elkaar.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Pak voor het hele gezin.",
+        "description": "Een lijst voor je gezin en bestemming.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Eén agenda voor je gezin.",
+        "description": "Afspraken en verlengingen in een helder overzicht.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Vind het. Ga verder.",
+        "description": "Zoek gezinsdocumenten, reizen en gebeurtenissen op één plek.",
+        "highlight": true
+      }
+    ]
+  },
+  "or": {
+    "locale": "or",
+    "direction": "ltr",
+    "copySource": "or",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "ପରିବାର ପ୍ରସ୍ତୁତ। ଏବେ ଚାଲନ୍ତୁ।",
+        "description": "ଦଲିଲ, ତାରିଖ ଓ ଯାତ୍ରା ଏକ ବ୍ୟକ୍ତିଗତ ସ୍ଥାନରେ।",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "ଗୋଟିଏ ଟ୍ୟାପ୍‌ରେ ବିବରଣୀ।",
+        "description": "ପୁଣି ନଲେଖି ଆବଶ୍ୟକ ରୂପରେ ତାରିଖ କପି କରନ୍ତୁ।",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "ପ୍ରତି ଯାତ୍ରା। ସ୍ପଷ୍ଟ ଯୋଜନା।",
+        "description": "ବିମାନ, ରହଣି ଓ ଦଲିଲ ଏକାଠି।",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "ସମସ୍ତଙ୍କ ପାଇଁ ବ୍ୟାଗ୍ ସଜାନ୍ତୁ।",
+        "description": "ପରିବାର ଓ ଗନ୍ତବ୍ୟ ଅନୁଯାୟୀ ତାଲିକା।",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "ପରିବାରର ଏକ ସମୟସୂଚୀ।",
+        "description": "ସାକ୍ଷାତ ଓ ନବୀକରଣ ଏକ ସ୍ପଷ୍ଟ କ୍ୟାଲେଣ୍ଡରରେ।",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "ଖୋଜନ୍ତୁ। ଆଗକୁ ବଢ଼ନ୍ତୁ।",
+        "description": "ପରିବାରର ଦଲିଲ, ଯାତ୍ରା ଓ କାର୍ଯ୍ୟକ୍ରମ ଖୋଜନ୍ତୁ।",
+        "highlight": true
+      }
+    ]
+  },
+  "pa": {
+    "locale": "pa",
+    "direction": "ltr",
+    "copySource": "pa",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "ਪਰਿਵਾਰ ਤਿਆਰ। ਹੁਣ ਚੱਲੋ।",
+        "description": "ਦਸਤਾਵੇਜ਼, ਤਾਰੀਖਾਂ ਅਤੇ ਯਾਤਰਾਵਾਂ ਇੱਕ ਨਿੱਜੀ ਥਾਂ ’ਤੇ।",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "ਇੱਕ ਟੈਪ ਵਿੱਚ ਵੇਰਵੇ।",
+        "description": "ਤਾਰੀਖਾਂ ਲੋੜੀਂਦੇ ਫਾਰਮੈਟ ਵਿੱਚ ਕਾਪੀ ਕਰੋ, ਮੁੜ ਲਿਖੇ ਬਿਨਾਂ।",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "ਹਰ ਯਾਤਰਾ। ਇੱਕ ਸਾਫ਼ ਯੋਜਨਾ।",
+        "description": "ਉਡਾਣਾਂ, ਰਿਹਾਇਸ਼ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਇਕੱਠੇ।",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "ਸਾਰਿਆਂ ਲਈ ਬੈਗ ਤਿਆਰ ਕਰੋ।",
+        "description": "ਪਰਿਵਾਰ ਅਤੇ ਮੰਜ਼ਿਲ ਅਨੁਸਾਰ ਸੂਚੀ।",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "ਪਰਿਵਾਰ ਦੀ ਇੱਕ ਸਮਾਂ-ਸਾਰਣੀ।",
+        "description": "ਮੁਲਾਕਾਤਾਂ ਅਤੇ ਨਵੀਨੀਕਰਨ ਇੱਕ ਸਾਫ਼ ਕੈਲੰਡਰ ਵਿੱਚ।",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "ਲੱਭੋ। ਅੱਗੇ ਵਧੋ।",
+        "description": "ਪਰਿਵਾਰ ਦੇ ਦਸਤਾਵੇਜ਼, ਯਾਤਰਾਵਾਂ ਅਤੇ ਸਮਾਗਮ ਲੱਭੋ।",
+        "highlight": true
+      }
+    ]
+  },
+  "pl": {
+    "locale": "pl",
+    "direction": "ltr",
+    "copySource": "pl",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Rodzina gotowa do drogi.",
+        "description": "Dokumenty, terminy i podróże w jednym prywatnym miejscu.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Szczegóły jednym stuknięciem.",
+        "description": "Kopiuj daty w potrzebnym formacie bez przepisywania.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Każda podróż. Jasny plan.",
+        "description": "Loty, noclegi i dokumenty razem.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Spakuj całą rodzinę.",
+        "description": "Lista dopasowana do rodziny i celu podróży.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Jeden rodzinny kalendarz.",
+        "description": "Spotkania i odnowienia w przejrzystym planie.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Znajdź. Działaj dalej.",
+        "description": "Wyszukuj rodzinne dokumenty, podróże i wydarzenia.",
+        "highlight": true
+      }
+    ]
+  },
+  "pt-BR": {
+    "locale": "pt-BR",
+    "direction": "ltr",
+    "copySource": "pt-BR",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Sua família. Pronta para partir.",
+        "description": "Documentos, datas e viagens em um só lugar privado.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detalhes prontos. Em um toque.",
+        "description": "Copie datas no formato que precisa, sem digitar de novo.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Toda viagem. Um plano claro.",
+        "description": "Voos, hospedagens e documentos juntos na jornada.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Faça as malas de todos.",
+        "description": "Uma lista para sua família e seu destino.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "A família na mesma agenda.",
+        "description": "Compromissos e renovações em uma agenda clara.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Encontre. Siga seu dia.",
+        "description": "Busque documentos, viagens e eventos da família em um lugar.",
+        "highlight": true
+      }
+    ]
+  },
+  "pt-PT": {
+    "locale": "pt-PT",
+    "direction": "ltr",
+    "copySource": "pt-PT",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "A família, pronta para partir.",
+        "description": "Documentos, datas e viagens num só espaço privado.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Os detalhes, com um toque.",
+        "description": "Copie datas no formato de que precisa, sem as reescrever.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Cada viagem. Um plano claro.",
+        "description": "Voos, alojamentos e documentos juntos.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Prepare as malas de todos.",
+        "description": "Uma lista para a família e o destino.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Uma agenda para a família.",
+        "description": "Compromissos e renovações numa agenda clara.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Encontre. Continue o dia.",
+        "description": "Pesquise documentos, viagens e eventos da família num só lugar.",
+        "highlight": true
+      }
+    ]
+  },
+  "ro": {
+    "locale": "ro",
+    "direction": "ltr",
+    "copySource": "ro",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Familia, gata de plecare.",
+        "description": "Documente, date și călătorii într-un loc privat.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detalii cu o atingere.",
+        "description": "Copiați datele în formatul necesar fără să le rescrieți.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Fiecare călătorie. Un plan clar.",
+        "description": "Zboruri, cazare și documente împreună.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Faceți bagajele pentru toți.",
+        "description": "O listă pentru familie și destinație.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Un singur program de familie.",
+        "description": "Întâlniri și reînnoiri într-un calendar clar.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Găsiți. Continuați.",
+        "description": "Căutați documentele, călătoriile și evenimentele familiei.",
+        "highlight": true
+      }
+    ]
+  },
+  "ru": {
+    "locale": "ru",
+    "direction": "ltr",
+    "copySource": "ru",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Семья готова к поездке.",
+        "description": "Документы, даты и поездки в одном личном пространстве.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Данные одним касанием.",
+        "description": "Копируйте даты в нужном формате без повторного ввода.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Каждая поездка. Ясный план.",
+        "description": "Рейсы, жильё и документы вместе.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Соберите вещи для всех.",
+        "description": "Список с учётом семьи и места поездки.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Единый семейный календарь.",
+        "description": "Встречи и продления в понятном расписании.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Найдите. Двигайтесь дальше.",
+        "description": "Ищите документы, поездки и события семьи в одном месте.",
+        "highlight": true
+      }
+    ]
+  },
+  "sk": {
+    "locale": "sk",
+    "direction": "ltr",
+    "copySource": "sk",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Rodina pripravená vyraziť.",
+        "description": "Doklady, termíny a cesty na jednom súkromnom mieste.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Údaje jedným ťuknutím.",
+        "description": "Kopírujte dátumy v potrebnom formáte bez prepisovania.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Každá cesta. Jasný plán.",
+        "description": "Lety, ubytovanie a doklady spolu.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Zbaľte veci pre všetkých.",
+        "description": "Zoznam podľa rodiny a cieľa cesty.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Jeden rodinný rozvrh.",
+        "description": "Stretnutia a obnovy v prehľadnom kalendári.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Nájdite. Pokračujte.",
+        "description": "Hľadajte rodinné doklady, cesty a udalosti.",
+        "highlight": true
+      }
+    ]
+  },
+  "sl": {
+    "locale": "sl",
+    "direction": "ltr",
+    "copySource": "sl",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Družina pripravljena na pot.",
+        "description": "Dokumenti, datumi in potovanja na enem zasebnem mestu.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Podatki z enim dotikom.",
+        "description": "Kopirajte datume v potrebni obliki brez prepisovanja.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Vsako potovanje. Jasen načrt.",
+        "description": "Leti, nastanitve in dokumenti skupaj.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Spakirajte za vse.",
+        "description": "Seznam za družino in cilj potovanja.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "En družinski urnik.",
+        "description": "Sestanki in podaljšanja v preglednem koledarju.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Poiščite. Nadaljujte.",
+        "description": "Iščite družinske dokumente, potovanja in dogodke.",
+        "highlight": true
+      }
+    ]
+  },
+  "sv": {
+    "locale": "sv",
+    "direction": "ltr",
+    "copySource": "sv",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Familjen är redo att åka.",
+        "description": "Dokument, datum och resor på en privat plats.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Detaljer med ett tryck.",
+        "description": "Kopiera datum i rätt format utan att skriva om.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Varje resa. En tydlig plan.",
+        "description": "Flyg, boende och dokument samlade.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Packa för hela familjen.",
+        "description": "En lista för familjen och resmålet.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Ett gemensamt familjeschema.",
+        "description": "Möten och förnyelser i en tydlig kalender.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Hitta det. Gå vidare.",
+        "description": "Sök bland familjens dokument, resor och händelser.",
+        "highlight": true
+      }
+    ]
+  },
+  "ta": {
+    "locale": "ta",
+    "direction": "ltr",
+    "copySource": "ta",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "குடும்பம் தயார். புறப்படலாம்.",
+        "description": "ஆவணங்கள், தேதிகள், பயணங்கள் ஒரே தனிப்பட்ட இடத்தில்.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "ஒரே தட்டலில் விவரங்கள்.",
+        "description": "மீண்டும் எழுதாமல் தேவையான வடிவில் தேதிகளை நகலெடுங்கள்.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "பயணம். ஒரே திட்டம்.",
+        "description": "விமானங்கள், தங்குமிடம், ஆவணங்கள் ஒரே இடத்தில்.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "அனைவருக்கும் பைகளைத் தயார் செய்யுங்கள்.",
+        "description": "குடும்பம் மற்றும் இலக்குக்கு ஏற்ற பட்டியல்.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "குடும்பத்துக்கு ஒரே அட்டவணை.",
+        "description": "சந்திப்புகள் மற்றும் புதுப்பிப்புகள் தெளிவான நாள்காட்டியில்.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "தேடுங்கள்.\nதொடருங்கள்.",
+        "description": "குடும்பத்தின் ஆவணங்கள், பயணங்கள், நிகழ்வுகளைத் தேடுங்கள்.",
+        "highlight": true
+      }
+    ]
+  },
+  "te": {
+    "locale": "te",
+    "direction": "ltr",
+    "copySource": "te",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "కుటుంబం సిద్ధం. ఇక బయలుదేరండి.",
+        "description": "పత్రాలు, తేదీలు, ప్రయాణాలు ఒకే వ్యక్తిగత చోట.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "ఒక్క ట్యాప్‌లో వివరాలు.",
+        "description": "మళ్లీ రాయకుండా తేదీలను కావలసిన ఆకృతిలో కాపీ చేయండి.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "ప్రతి ప్రయాణానికి స్పష్టమైన ప్రణాళిక.",
+        "description": "విమానాలు, బస, పత్రాలు అన్నీ కలిపి.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "అందరి కోసం బ్యాగులు సిద్ధం చేయండి.",
+        "description": "కుటుంబం, గమ్యస్థానానికి తగిన జాబితా.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "కుటుంబానికి ఒకే షెడ్యూల్.",
+        "description": "అపాయింట్‌మెంట్లు, పునరుద్ధరణలు స్పష్టమైన క్యాలెండర్‌లో.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "కనుగొనండి. ముందుకు సాగండి.",
+        "description": "కుటుంబ పత్రాలు, ప్రయాణాలు, కార్యక్రమాలను వెతకండి.",
+        "highlight": true
+      }
+    ]
+  },
+  "th": {
+    "locale": "th",
+    "direction": "ltr",
+    "copySource": "th",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "ครอบครัวพร้อมออกเดินทาง",
+        "description": "เอกสาร วันที่ และทริปในพื้นที่ส่วนตัวแห่งเดียว",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "รายละเอียดพร้อมในหนึ่งแตะ",
+        "description": "คัดลอกวันที่ในรูปแบบที่ต้องการ ไม่ต้องพิมพ์ใหม่",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "ทุกทริป มีแผนชัดเจน",
+        "description": "เที่ยวบิน ที่พัก และเอกสารอยู่ด้วยกัน",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "จัดกระเป๋าให้ทุกคน",
+        "description": "รายการที่เหมาะกับครอบครัวและจุดหมาย",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "ตารางเดียวสำหรับครอบครัว",
+        "description": "นัดหมายและการต่ออายุในปฏิทินที่ชัดเจน",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "หาเจอ แล้วไปต่อ",
+        "description": "ค้นหาเอกสาร ทริป และกิจกรรมครอบครัวในที่เดียว",
+        "highlight": true
+      }
+    ]
+  },
+  "tr": {
+    "locale": "tr",
+    "direction": "ltr",
+    "copySource": "tr",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Aileniz yola hazır.",
+        "description": "Belgeler, tarihler ve seyahatler tek bir özel yerde.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Ayrıntılar tek dokunuşla.",
+        "description": "Tarihleri gereken biçimde kopyalayın, yeniden yazmayın.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Her seyahat. Net bir plan.",
+        "description": "Uçuşlar, konaklamalar ve belgeler bir arada.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Herkes için valiz hazırlayın.",
+        "description": "Ailenize ve varış noktasına uygun bir liste.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Ailenin ortak takvimi.",
+        "description": "Randevular ve yenilemeler açık bir takvimde.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Bulun. Gününüze devam edin.",
+        "description": "Aile belgeleri, seyahatler ve etkinlikler tek yerde aranır.",
+        "highlight": true
+      }
+    ]
+  },
+  "uk": {
+    "locale": "uk",
+    "direction": "ltr",
+    "copySource": "uk",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Родина готова до подорожі.",
+        "description": "Документи, дати й подорожі в одному приватному місці.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Дані одним дотиком.",
+        "description": "Копіюйте дати в потрібному форматі без повторного введення.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Кожна подорож. Чіткий план.",
+        "description": "Рейси, житло та документи разом.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Зберіть речі для всіх.",
+        "description": "Список для родини й місця призначення.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Спільний родинний розклад.",
+        "description": "Зустрічі та поновлення в зрозумілому календарі.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Знайдіть. Рухайтеся далі.",
+        "description": "Шукайте документи, подорожі та події родини в одному місці.",
+        "highlight": true
+      }
+    ]
+  },
+  "ur": {
+    "locale": "ur",
+    "direction": "rtl",
+    "copySource": "ur",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "خاندان تیار۔ اب چلیں۔",
+        "description": "دستاویزات، تاریخیں اور سفر ایک نجی جگہ پر۔",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "ایک ٹیپ میں تفصیلات۔",
+        "description": "تاریخیں مطلوبہ انداز میں نقل کریں، دوبارہ لکھے بغیر۔",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "ہر سفر۔ واضح منصوبہ۔",
+        "description": "پروازیں، قیام اور دستاویزات ایک ساتھ۔",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "سب کے لیے سامان تیار کریں۔",
+        "description": "خاندان اور منزل کے مطابق فہرست۔",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "خاندان کا ایک شیڈول۔",
+        "description": "ملاقاتیں اور تجدید ایک واضح کیلنڈر میں۔",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "تلاش کریں۔ آگے بڑھیں۔",
+        "description": "خاندان کی دستاویزات، سفر اور تقریبات ایک جگہ تلاش کریں۔",
+        "highlight": true
+      }
+    ]
+  },
+  "vi": {
+    "locale": "vi",
+    "direction": "ltr",
+    "copySource": "vi",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "Gia đình sẵn sàng lên đường.",
+        "description": "Giấy tờ, ngày tháng và chuyến đi trong một nơi riêng tư.",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "Chi tiết chỉ một chạm.",
+        "description": "Sao chép ngày theo định dạng cần dùng, không phải nhập lại.",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "Mỗi chuyến đi. Một kế hoạch rõ.",
+        "description": "Chuyến bay, chỗ ở và giấy tờ cùng một nơi.",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "Chuẩn bị hành lý cho cả nhà.",
+        "description": "Danh sách theo gia đình và điểm đến.",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "Một lịch chung cho gia đình.",
+        "description": "Lịch hẹn và gia hạn trong lịch rõ ràng.",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "Tìm thấy. Tiếp tục ngày.",
+        "description": "Tìm giấy tờ, chuyến đi và sự kiện gia đình cùng một nơi.",
+        "highlight": true
+      }
+    ]
+  },
+  "zh-HK": {
+    "locale": "zh-HK",
+    "direction": "ltr",
+    "copySource": "zh-Hant",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "全家準備好，即刻出發。",
+        "description": "證件、日期和旅行，集中在一個私密空間。",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "所需資訊，輕點即得。",
+        "description": "按需要的格式複製日期，無需重新輸入。",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "每次旅行，清晰規劃。",
+        "description": "航班、住宿和證件，一起管理。",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "為全家準備行李。",
+        "description": "根據家人和目的地整理物品清單。",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "全家行程，一目了然。",
+        "description": "預約和續期，在清楚的日曆中查看。",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "輕鬆找到，繼續生活。",
+        "description": "在一個地方搜尋全家的證件、旅行和活動。",
+        "highlight": true
+      }
+    ]
+  },
+  "zh-Hans": {
+    "locale": "zh-Hans",
+    "direction": "ltr",
+    "copySource": "zh-Hans",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "全家准备好，即刻出发。",
+        "description": "证件、日期和旅行，集中在一个私密空间。",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "所需信息，轻点即得。",
+        "description": "按需要的格式复制日期，无需重新输入。",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "每次旅行，清晰规划。",
+        "description": "航班、住宿和证件，一起管理。",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "为全家准备行李。",
+        "description": "根据家人和目的地整理物品清单。",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "全家日程，一目了然。",
+        "description": "预约和续期，在清晰的日历中查看。",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "轻松找到，继续生活。",
+        "description": "在一个地方搜索全家的证件、旅行和活动。",
+        "highlight": true
+      }
+    ]
+  },
+  "zh-Hant": {
+    "locale": "zh-Hant",
+    "direction": "ltr",
+    "copySource": "zh-Hant",
+    "panels": [
+      {
+        "key": "vault",
+        "headline": "全家準備好，即刻出發。",
+        "description": "證件、日期和旅行，集中在一個私密空間。",
+        "highlight": false
+      },
+      {
+        "key": "document",
+        "headline": "所需資訊，輕點即得。",
+        "description": "按需要的格式複製日期，無需重新輸入。",
+        "highlight": true
+      },
+      {
+        "key": "trip",
+        "headline": "每次旅行，清晰規劃。",
+        "description": "航班、住宿和證件，一起管理。",
+        "highlight": false
+      },
+      {
+        "key": "packing",
+        "headline": "為全家準備行李。",
+        "description": "根據家人和目的地整理物品清單。",
+        "highlight": true
+      },
+      {
+        "key": "schedule",
+        "headline": "全家行程，一目了然。",
+        "description": "預約和續期，在清楚的日曆中查看。",
+        "highlight": false
+      },
+      {
+        "key": "search",
+        "headline": "輕鬆找到，繼續生活。",
+        "description": "在一個地方搜尋全家的證件、旅行和活動。",
+        "highlight": true
+      }
+    ]
+  }
+}

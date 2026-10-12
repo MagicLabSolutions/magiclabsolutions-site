@@ -1,0 +1,232 @@
+{
+  "finishedAt": "2026-10-12T01:49:15.386Z",
+  "versions": [
+    {
+      "slug": "kinfold",
+      "appId": "6785646082",
+      "platform": "IOS",
+      "currentId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "version": "1.2",
+      "create": null,
+      "state": "DEVELOPER_REJECTED"
+    },
+    {
+      "slug": "kinfold",
+      "appId": "6785646082",
+      "platform": "MAC_OS",
+      "currentId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "version": "1.2",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "slug": "kinfold",
+      "appId": "6785646082",
+      "platform": "VISION_OS",
+      "currentId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "version": "1.2",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "kinfold",
+      "platform": "IOS",
+      "version": "1.2",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_IPHONE_67",
+      "setId": "d29bc3a7-1af9-4830-8286-64a4cb5249bb",
+      "verifiedAt": "2026-10-12T01:48:32.784Z",
+      "screenshots": [
+        {
+          "id": "f1c00019-474b-8e02-8027-a9857c8340cf",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/store-1.png",
+          "md5": "143477add5165b7b491b243696103680",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6a800019-474b-8e02-8004-47c71f00cce0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/store-2.png",
+          "md5": "75eb805371ccf046d1c4d22e766292c7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c3c00019-474b-8e02-801d-511971dcce6e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/store-3.png",
+          "md5": "6c03aa3805db1bd774d71e07acec2f46",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a0400019-474b-8e02-8023-ebe642fac786",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/store-4.png",
+          "md5": "4a6b5d93fd552978c9dd59ea86048860",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63c00019-474b-8e02-8011-f41109a6b369",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/store-5.png",
+          "md5": "e20ba1bc7a7bab006cde316c4dac74c7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10000019-474b-8e02-8023-878624c4e2a0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/store-6.png",
+          "md5": "5bb39d4ae01858505ab2b62273f4ac8b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "IOS",
+      "version": "1.2",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_IPAD_PRO_3GEN_129",
+      "setId": "269e7b93-f30b-4936-9c20-9713b9dd8fe5",
+      "verifiedAt": "2026-10-12T01:48:39.129Z",
+      "screenshots": [
+        {
+          "id": "24c00019-474b-8e02-8024-77cffa881f9c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/ipad-store-1.png",
+          "md5": "fe42e6e747d94b5a933b6ab4951fe09a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "84c00019-474b-8e02-8023-5dde57847c37",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/ipad-store-2.png",
+          "md5": "ccef25a1c6858281146c12bc2643e7c2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85000019-474b-8e02-8026-a5620398c010",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/ipad-store-3.png",
+          "md5": "692b4ebf698d91cf72a5cd2f95352112",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05400019-474b-8e02-8023-1a422def5897",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/ipad-store-4.png",
+          "md5": "bee6fbf769282c136c9026622ce7e39c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "64000019-474b-8e02-803b-843b65167cab",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/ipad-store-5.png",
+          "md5": "e5efe4390b1cc6208eeca3d5c21ba4a5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4000019-474b-8e02-802f-7b6041c26bce",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/ipad-store-6.png",
+          "md5": "b7c469cf784cb1dcd9be8e70ec8b9cc3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "62cbc7cf-0155-4a87-8bca-3461815907aa",
+      "verifiedAt": "2026-10-12T01:49:06.694Z",
+      "screenshots": [
+        {
+          "id": "77800019-474b-8e02-8025-2def7387d15b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-1.png",
+          "md5": "d13f62f60075ea109f1cf7f859f3244d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28000019-474b-8e02-802f-6689c720eeef",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-2.png",
+          "md5": "ce786f55d240281127c5fa90488438aa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c7400019-474b-8e02-803c-009ca736b5e8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-3.png",
+          "md5": "69ad1356ccbb46da45c507008e078d6f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10000019-474b-8e02-800c-6cbd2251128b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-4.png",
+          "md5": "ef4f81e601dc99cb3a45589b2575ebcb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82000019-474b-8e02-8032-451a98bd275c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-5.png",
+          "md5": "defacee349542c340f3da0a02468f054",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bd000019-474b-8e02-8019-3f2a514f6d9a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-6.png",
+          "md5": "ce71bf3a29f0ea9617bc701368680655",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "d5d3dbb7-4c46-4b1e-a389-8e1f8998b824",
+      "verifiedAt": "2026-10-12T01:49:15.385Z",
+      "screenshots": [
+        {
+          "id": "65000019-474b-8e02-8020-52ec06b18c3a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-1.png",
+          "md5": "221180bcd9a925d3c695b06e0e820aa1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6cc00019-474b-8e02-801d-6164ecf92435",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-2.png",
+          "md5": "f21bdd8176db06a608bac69b3bf00739",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e2000019-474b-8e02-8002-bfc44e41cc33",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-3.png",
+          "md5": "aa5941b07dbd61f6f54ecda85985bf8e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d000019-474b-8e02-8022-48b3b1142085",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-4.png",
+          "md5": "7089b8772b87a05b7b6bb545a78be421",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1c400019-474b-8e02-8021-b6721193b90f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-5.png",
+          "md5": "191dc1d25a10e2161540d107dd08b8b4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97400019-474b-8e02-8018-7e5c28b43685",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-6.png",
+          "md5": "5b8e2a228d2bf6278f76f4920045d56e",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 0
+}

@@ -1,0 +1,23 @@
+diff --git a/FamilyVault/DesignSystem/Theme/Layout.swift b/FamilyVault/DesignSystem/Theme/Layout.swift
+index 66e41bf1..a6c11823 100644
+--- a/FamilyVault/DesignSystem/Theme/Layout.swift
++++ b/FamilyVault/DesignSystem/Theme/Layout.swift
+@@ -73,7 +73,17 @@ struct AdaptiveTwoColumn<Leading: View, Trailing: View>: View {
+                 ScrollView { leading().padding(Spacing.xl) }
+                     .frame(maxWidth: leadingMaxWidth)
+                 Divider()
+-                ScrollView { trailing().padding(Spacing.xl) }
++                ScrollViewReader { captureProxy in
++                    ScrollView { trailing().padding(Spacing.xl) }
++                        .task {
++                            #if DEBUG
++                            if let anchor = ProcessInfo.processInfo.environment["FV_DEBUG_SCROLL"] {
++                                try? await Task.sleep(for: .milliseconds(3500))
++                                captureProxy.scrollTo(anchor, anchor: .top)
++                            }
++                            #endif
++                        }
++                }
+                     .frame(maxWidth: trailingMaxWidth)
+                 Spacer(minLength: 0)
+             }

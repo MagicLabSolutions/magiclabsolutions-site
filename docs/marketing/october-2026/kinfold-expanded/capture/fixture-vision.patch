@@ -1,0 +1,127 @@
+--- a/FamilyVault/App/FamilyVaultApp.swift
++++ b/FamilyVault/App/FamilyVaultApp.swift
+@@ -21,5 +21,6 @@
+             RootView()
+         }
+         .modelContainer(PersistenceController.shared.container)
++        .defaultSize(width: 1300, height: 1000)
+     }
+ }
+--- a/FamilyVault/Features/Vault/VaultView.swift
++++ b/FamilyVault/Features/Vault/VaultView.swift
+@@ -400,7 +400,7 @@
+     private func applyDebugHooks() {
+         #if DEBUG
+         let env = ProcessInfo.processInfo.environment
+-        if navigationPath.isEmpty, env["FV_DEBUG_OPEN_FIRST_DOC"] == "1", let first = documents.first {
++        if navigationPath.isEmpty, env["FV_DEBUG_OPEN_FIRST_DOC"] == "1", let first = documents.first(where: { $0.owner?.name == "Lucas" && $0.type == .passport && $0.flag == "🇩🇪" }) {
+             navigationPath = [first]
+         }
+         if env["FV_DEBUG_FAMILY"] == "1" { showingFamily = true }
+--- a/FamilyVault/Services/SampleData.swift
++++ b/FamilyVault/Services/SampleData.swift
+@@ -38,7 +38,7 @@
+             let expirySeed = fields.first(where: \.isExpiry)
+             let document = VaultDocument(
+                 type: type,
+-                title: title,
++                title: (Bundle.main.preferredLocalizations.first?.hasPrefix("en") == true ? title : type.displayName),
+                 flag: flag,
+                 owner: owner,
+                 mrzLine1: mrz?.0,
+@@ -122,7 +122,7 @@
+                         .init("Type", .text, "Niederlassungserlaubnis"),
+                         .init("Holder", .text, "Fernanda Costa Bauer"),
+                         .init("Date of Birth", .date, "1991-09-23"),
+-                        .init("Valid Until", .date, "2026-09-30", isExpiry: true),
++                        .init("Valid Until", .date, "2026-11-30", isExpiry: true),
+                         .init("Authority", .text, "Ausländerbehörde Düsseldorf"),
+                      ])
+ 
+@@ -154,35 +154,35 @@
+                    time: String? = nil, location: String? = nil, note: String? = nil,
+                    recurrence: Recurrence? = nil, mirror: Bool = false, linked: VaultDocument? = nil) {
+             let calendarEvent = CalendarEvent(
+-                title: title, category: category, owner: owner, date: date(iso),
++                title: (Bundle.main.preferredLocalizations.first?.hasPrefix("en") == true ? title : category.label), category: category, owner: owner, date: date(iso),
+                 timeMinutes: minutes(time), location: location, note: note,
+                 recurrence: recurrence, mirrorToCalendar: mirror, linkedDocument: linked
+             )
+             context.insert(calendarEvent)
+         }
+ 
+-        event("Babyschwimmen", .activity, owner: liv, "2026-06-27", time: "10:30",
++        event("Baby swim class", .activity, owner: liv, "2026-10-27", time: "10:30",
+               location: "Bäder Düsseldorf", recurrence: .weekly, mirror: true)
+-        event("Kinderarzt — U6", .appointment, owner: liv, "2026-06-30", time: "15:00",
++        event("Pediatric check-up", .appointment, owner: liv, "2026-10-30", time: "15:00",
+               location: "Praxis Dr. Lange", note: "Impfpass (vaccination booklet) mitbringen.", mirror: true)
+-        event("Babyschwimmen", .activity, owner: liv, "2026-07-01", time: "10:00",
++        event("Baby swim class", .activity, owner: liv, "2026-11-01", time: "10:00",
+               location: "Bäder Düsseldorf", recurrence: .weekly)
+-        event("Zahnarzt", .appointment, owner: lucas, "2026-07-02", time: "08:30",
++        event("Dentist appointment", .appointment, owner: lucas, "2026-11-02", time: "08:30",
+               location: "Praxis Carlstadt")
+-        event("Kita Eingewöhnung", .activity, owner: liv, "2026-07-03", time: "09:00",
++        event("First days at preschool", .activity, owner: liv, "2026-11-03", time: "09:00",
+               location: "Kita Sonnenschein", note: "Fernanda bleibt die erste Stunde.")
+-        event("Liv-Abholung · Fernanda", .logistics, owner: fernanda, "2026-07-06", time: "16:00", recurrence: .weekly)
+-        event("Ausländerbehörde — Verlängerung", .appointment, owner: fernanda, "2026-07-08", time: "09:30",
++        event("Pick up Liv · Fernanda", .logistics, owner: fernanda, "2026-11-06", time: "16:00", recurrence: .weekly)
++        event("Residence permit appointment", .appointment, owner: fernanda, "2026-11-08", time: "09:30",
+               location: "Ausländerbehörde Düsseldorf", note: "Antrag auf Verlängerung des Aufenthaltstitels.",
+               mirror: true, linked: fernRes)
+-        event("Sommerferien beginnen (NRW)", .school, owner: nil, "2026-07-13")
+-        event("Kita Schließtag", .logistics, owner: nil, "2026-07-17")
++        event("School break begins", .school, owner: nil, "2026-11-13")
++        event("Preschool closed", .logistics, owner: nil, "2026-11-17")
+ 
+         // MARK: Trips
+         let brazil = Trip(
+-            name: "Brazil — Family Visit", destination: "São Paulo · Florianópolis", flag: "🇧🇷",
+-            startDate: date("2026-07-24"), endDate: date("2026-08-10"),
+-            climate: "Summer · 22–30°C · humid, some rain",
++            name: "🇧🇷 São Paulo · Florianópolis", destination: "São Paulo · Florianópolis", flag: "🇧🇷",
++            startDate: date("2026-11-24"), endDate: date("2026-12-10"),
++            climate: "22–30°C",
+             travelerKeys: ["lucas", "fernanda", "liv"],
+             suggestedPackKeys: ["summer", "beach", "family"],
+             // A trip mid-pack: shared + the adults' items done, the baby's diaper bag still to go.
+@@ -198,31 +198,31 @@
+             return Calendar.current.date(bySettingHour: m / 60, minute: m % 60, second: 0, of: day) ?? day
+         }
+         let outbound = Flight(airline: "Lufthansa", flightNumber: "LH506", departureAirport: "DUS", arrivalAirport: "GRU",
+-                              departure: flightTime("2026-07-24", "21:55"), arrival: flightTime("2026-07-25", "05:40"),
++                              departure: flightTime("2026-11-24", "21:55"), arrival: flightTime("2026-11-25", "05:40"),
+                               confirmation: "LH-7K2Q9P", seat: "14C")
+         outbound.trip = brazil
+         let inbound = Flight(airline: "Lufthansa", flightNumber: "LH507", departureAirport: "GRU", arrivalAirport: "DUS",
+-                             departure: flightTime("2026-08-10", "13:20"), arrival: flightTime("2026-08-11", "06:05"),
++                             departure: flightTime("2026-12-10", "13:20"), arrival: flightTime("2026-12-11", "06:05"),
+                              confirmation: "LH-7K2Q9P", seat: "14C")
+         inbound.trip = brazil
+ 
+         let fasano = Stay(kind: "hotel", name: "Hotel Fasano", city: "São Paulo",
+                           address: "Rua Vittório Fasano 88, Jardins, São Paulo",
+-                          checkIn: date("2026-07-24"), checkOut: date("2026-07-28"),
++                          checkIn: date("2026-11-24"), checkOut: date("2026-11-28"),
+                           confirmation: "FAS-8842190", wifiName: "Fasano_Guest",
+                           wifiPassword: "boanoite26", phone: "+55 11 3896-4000")
+         fasano.trip = brazil
+         let joaquina = Stay(kind: "airbnb", name: "Casa na Praia da Joaquina", city: "Florianópolis",
+                             address: "Rua da Joaquina 1200, Florianópolis",
+-                            checkIn: date("2026-07-28"), checkOut: date("2026-08-10"),
++                            checkIn: date("2026-11-28"), checkOut: date("2026-12-10"),
+                             confirmation: "HM4QJ8KAB", wifiName: "CasaJoaquina",
+                             wifiPassword: "praia1234", host: "Mariana")
+         joaquina.trip = brazil
+ 
+         let alps = Trip(
+-            name: "Alps — Ski Week", destination: "Sölden, Austria", flag: "🏔️",
++            name: "🏔️ Sölden", destination: "Sölden, Austria", flag: "🏔️",
+             startDate: date("2025-12-20"), endDate: date("2025-12-28"),
+-            climate: "Winter · −8 to 2°C · snow",
++            climate: "−8–2°C",
+             travelerKeys: ["lucas", "fernanda", "liv"],
+             suggestedPackKeys: ["winter", "city"]
+         )

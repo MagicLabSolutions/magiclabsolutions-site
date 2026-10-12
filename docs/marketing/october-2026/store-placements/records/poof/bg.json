@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "poof",
+    "locale": "bg",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/poof/bg/header.png",
+    "sha256": "27af2547c18a05b4d0bcaf7f0de99660ea58547968bb088a0d2602b0ff0050a2",
+    "capture": "images/products-localized/poof/bg/mac/native-1.webp",
+    "captureSha256": "f80fee670cdeca2e73425d5edde82c06f168016a63172f5b2d11feb65d949dfe",
+    "headline": "Освободи място.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI"
+  },
+  {
+    "slug": "poof",
+    "locale": "bg",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/poof/bg/search-results.png",
+    "sha256": "662061e221d20a6e55cc8d7bc02ae11aecbff1cb88710e498515fab95b5162ae",
+    "capture": "images/products-localized/poof/bg/mac/native-1.webp",
+    "captureSha256": "f80fee670cdeca2e73425d5edde82c06f168016a63172f5b2d11feb65d949dfe",
+    "headline": "Освободи място.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI"
+  }
+]
