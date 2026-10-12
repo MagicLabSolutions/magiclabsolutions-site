@@ -1,0 +1,28 @@
+{
+  "slug": "zuzu",
+  "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+  "version": "2.8.0",
+  "platform": "IOS",
+  "locale": "gu-IN",
+  "sourceLocale": "gu",
+  "createdLocalization": false,
+  "metadataMissing": [
+    "description",
+    "supportUrl"
+  ],
+  "placements": [
+    {
+      "id": "04000019-2ceb-8899-8f1a-2f996c213fae",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "2c400019-2ceb-8899-801f-c1f5d9a5766f",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "ad800019-2ceb-8899-8f06-c416dda31a07",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "21400019-2ceb-8899-803e-b397c0543dd7",
+      "state": "ACTIVE"
+    }
+  ],
+  "verifiedAt": "2026-10-12T04:00:24.180Z"
+}

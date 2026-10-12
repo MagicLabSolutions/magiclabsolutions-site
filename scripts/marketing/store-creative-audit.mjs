@@ -32,7 +32,8 @@ const creative=[];
 for(const r of c.records) {
  const delivered=await read(path.join(base,'store-placements/audit/delivery',r.slug,r.locale+'-'+r.placement+'.json'));
  assert(delivered.verified&&delivered.sha256===r.sha256,'Missing current creative: '+r.slug+' '+r.locale+' '+r.placement);
- creative.push({...delivered,bytes:(await fs.stat(path.join(root,r.file))).size});
+ const bytes=await fs.readFile(path.join(root,r.file));
+ creative.push({...delivered,bytes:bytes.length,dimensions:[bytes.readUInt32BE(16),bytes.readUInt32BE(20)]});
 }
 const checkpoints=path.join(base,'kinfold-expanded/audit/upload/work/results');
 const masterHashes=new Map(k.records.map(x=>[x.file,x.sha256]));
@@ -56,13 +57,17 @@ for(const slug of c.apps) {
  for(const item of items) {
   const image=libraries.get(slug).get(item.imageId);assert(image,'Missing image '+item.imageId);
   assert.equal(image.attributes.fileName,`ml-${slug}-${item.locale}-${item.placement}-${item.sha256.slice(0,14)}.png`);
-  assert.equal(image.attributes.fileSize,item.bytes);assert.equal(image.attributes.specId,item.specId);
+  assert.equal(image.attributes.fileSize,item.bytes);
+  const expectedSpec=item.placement==='header'?'1eb43b80-e0b7-4d96-bd32-47a42a8c5fed':'d2ffa3b7-6c55-5cdf-8512-229d92791333';
+  assert.equal(image.attributes.specId,expectedSpec);
+  if(item.specId)assert.equal(image.attributes.specId,item.specId);
+  assert.deepEqual([image.attributes.imageAsset.width,image.attributes.imageAsset.height],item.dimensions);
   assert(['COMPLETE','PREPARE_FOR_SUBMISSION','READY_FOR_REVIEW','WAITING_FOR_REVIEW','IN_REVIEW','APPROVED','ACCEPTED'].includes(image.attributes.state));
   creativeReadback.push({slug,locale:item.locale,placement:item.placement,imageId:image.id,state:image.attributes.state,sha256:item.sha256,specId:image.attributes.specId,versionId:item.versionId});
  }
  console.log('AUDITED LIBRARY',slug,items.length);
 }
-for(const item of variants.images){const image=libraries.get('kinfold').get(item.imageId);assert(image);assert.equal(image.attributes.category,'APP_SCREENSHOTS_AND_PREVIEWS');assert.equal(image.attributes.fileName,item.fileName);assert.equal(image.attributes.fileSize,(await fs.stat(path.join(root,item.file))).size);assert(['COMPLETE','PREPARE_FOR_SUBMISSION','READY_FOR_REVIEW','WAITING_FOR_REVIEW','IN_REVIEW','APPROVED','ACCEPTED'].includes(image.attributes.state));assert.equal(image.attributes.specId,item.specId)}
+for(const item of variants.images){const image=libraries.get('kinfold').get(item.imageId);assert(image);const bytes=await fs.readFile(path.join(root,item.file));assert.equal(image.attributes.category,'APP_SCREENSHOTS_AND_PREVIEWS');assert.equal(image.attributes.fileName,item.fileName);assert.equal(image.attributes.fileSize,bytes.length);assert.deepEqual([image.attributes.imageAsset.width,image.attributes.imageAsset.height],[bytes.readUInt32BE(16),bytes.readUInt32BE(20)]);assert(['COMPLETE','PREPARE_FOR_SUBMISSION','READY_FOR_REVIEW','WAITING_FOR_REVIEW','IN_REVIEW','APPROVED','ACCEPTED'].includes(image.attributes.state));assert.equal(image.attributes.specId,item.specId)}
 const nativeReadback=[];
 for(const r of galleries) {
  if(!versions.has(r.versionId))versions.set(r.versionId,(await api('/v1/appStoreVersions/'+r.versionId)).data);

@@ -1,0 +1,29 @@
+{
+  "slug": "kinfold",
+  "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+  "version": "1.2",
+  "platform": "IOS",
+  "locale": "kn-IN",
+  "sourceLocale": "kn",
+  "createdLocalization": false,
+  "metadataMissing": [
+    "description",
+    "supportUrl",
+    "keywords"
+  ],
+  "placements": [
+    {
+      "id": "bcc00019-474b-8e02-8f0c-d07cdf77294e",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "30c00019-474b-8e02-802c-ac3c6bbd5fd5",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "88000019-474b-8e02-8f2c-0fdd48c2fa7a",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "29400019-474b-8e02-803b-43732738d8c6",
+      "state": "ACTIVE"
+    }
+  ],
+  "verifiedAt": "2026-10-12T04:11:37.224Z"
+}

@@ -1,0 +1,1224 @@
+{
+  "verifiedAt": "2026-10-12T04:31:49.590Z",
+  "readOnly": true,
+  "kinfold": {
+    "masters": 1320,
+    "nativeLanguages": 55,
+    "appleListingLocales": 50,
+    "galleries": 200,
+    "uploadedGalleryImages": 1200,
+    "additionalLibraryVariants": 144,
+    "allNativeMastersRepresented": 1320
+  },
+  "creative": {
+    "apps": [
+      "brainfold",
+      "giftly",
+      "groundcontrol",
+      "kinfold",
+      "memories",
+      "myrenewals",
+      "poof",
+      "soooon",
+      "sundust",
+      "toctoc",
+      "tumtum",
+      "zuzu"
+    ],
+    "masters": 1008,
+    "libraryImages": 1008,
+    "linkedPlacements": 724,
+    "libraryOnlyApps": [
+      "giftly",
+      "groundcontrol",
+      "myrenewals",
+      "toctoc"
+    ]
+  },
+  "versionStates": [
+    {
+      "id": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "platform": "IOS",
+      "version": "1.2",
+      "state": "DEVELOPER_REJECTED"
+    },
+    {
+      "id": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "3cf79b5c-f5e3-45f6-8bcb-188a5df02623",
+      "platform": "IOS",
+      "version": "1.3.0",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "e45d15b0-5125-4c22-9e12-ec88955a0111",
+      "platform": "IOS",
+      "version": "1.2.0",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "platform": "MAC_OS",
+      "version": "1.2.0",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "platform": "IOS",
+      "version": "1.1.0",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "platform": "IOS",
+      "version": "1.3.0",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+      "platform": "IOS",
+      "version": "1.1.0",
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "id": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "platform": "IOS",
+      "version": "2.8.0",
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "libraryOnlyVersions": [
+    {
+      "slug": "giftly",
+      "versions": [
+        {
+          "id": "46d8bacc-ec2e-43f6-90f0-0c023edeb140",
+          "platform": "IOS",
+          "version": "1.2.1",
+          "state": "WAITING_FOR_REVIEW"
+        },
+        {
+          "id": "a3b1f51a-32f0-4113-bb27-abb594bb66e2",
+          "platform": "MAC_OS",
+          "version": "1.2.1",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "3163b644-f3f7-4294-9b6f-cf0334ab60d7",
+          "platform": "MAC_OS",
+          "version": "1.2.0",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "137bdc47-7be2-466a-9c30-b2a6e67d0349",
+          "platform": "MAC_OS",
+          "version": "1.0.0",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "1f8e8038-8970-4198-a2b8-1e6cf1d6c28c",
+          "platform": "IOS",
+          "version": "1.2.0",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "9a3162e7-0827-4fed-a59f-4b3309f4632d",
+          "platform": "IOS",
+          "version": "1.0.0",
+          "state": "READY_FOR_DISTRIBUTION"
+        }
+      ]
+    },
+    {
+      "slug": "groundcontrol",
+      "versions": [
+        {
+          "id": "0bde0d17-f8a6-45a9-9d98-2b881254297e",
+          "platform": "MAC_OS",
+          "version": "1.0",
+          "state": "WAITING_FOR_REVIEW"
+        }
+      ]
+    },
+    {
+      "slug": "myrenewals",
+      "versions": [
+        {
+          "id": "7e41661e-7cc1-4e34-b0fe-c8b4fc1cc07c",
+          "platform": "IOS",
+          "version": "1.2.7",
+          "state": "WAITING_FOR_REVIEW"
+        },
+        {
+          "id": "8fdeed78-9fe9-4282-9f09-9ebc17ca79cd",
+          "platform": "MAC_OS",
+          "version": "1.2.7",
+          "state": "IN_REVIEW"
+        },
+        {
+          "id": "c62c85b7-085d-496a-9872-1566f3402eb9",
+          "platform": "MAC_OS",
+          "version": "1.2.6",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "76e0fba7-3971-42e0-af38-f5b7dbcd075a",
+          "platform": "MAC_OS",
+          "version": "1.2.3",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "6d4a151e-fe98-4f5b-ab06-149232dc6c0c",
+          "platform": "MAC_OS",
+          "version": "1.2.2",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "0ee788ec-3280-4999-9295-b7e6b07568ea",
+          "platform": "MAC_OS",
+          "version": "1.2.1",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "3b2a8dca-226b-47fc-a48a-a6a128369948",
+          "platform": "MAC_OS",
+          "version": "1.2.0",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "4c0b5ed2-1032-4e21-b891-db7cedbb2f53",
+          "platform": "MAC_OS",
+          "version": "1.1",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "ceea6daa-ef6a-4a5d-ad60-1d1aec007564",
+          "platform": "IOS",
+          "version": "1.2.6",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "c81cc4e7-47bc-4589-8e23-65c30ea742e4",
+          "platform": "IOS",
+          "version": "1.2.5",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "b8c8419d-c77b-4bf1-8b04-23fddce5573d",
+          "platform": "IOS",
+          "version": "1.2.3",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "33645bd7-12ee-46de-ad93-d502089d9d7d",
+          "platform": "IOS",
+          "version": "1.2.2",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "a1d82983-a3ed-4a49-9f97-f9bd4545b9b6",
+          "platform": "IOS",
+          "version": "1.2.0",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "f0b69beb-efee-4734-8e9b-5d12feec2912",
+          "platform": "IOS",
+          "version": "1.1",
+          "state": "READY_FOR_DISTRIBUTION"
+        },
+        {
+          "id": "a73e6b3f-fe19-413f-87e6-a4951fe3cef0",
+          "platform": "IOS",
+          "version": "1.0",
+          "state": "READY_FOR_DISTRIBUTION"
+        }
+      ]
+    },
+    {
+      "slug": "toctoc",
+      "versions": [
+        {
+          "id": "1df53da8-7175-4c1e-b98f-3cc38ca57915",
+          "platform": "MAC_OS",
+          "version": "1.0",
+          "state": "WAITING_FOR_REVIEW"
+        },
+        {
+          "id": "9d1fec42-6f5e-43d2-a416-e379c94b2239",
+          "platform": "IOS",
+          "version": "1.0",
+          "state": "WAITING_FOR_REVIEW"
+        }
+      ]
+    }
+  ],
+  "metadataMissing": [
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "en-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "en-GB",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "versionId": "f9e510f2-18e0-49de-9c59-009368e652e5",
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ar-SA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ca",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "cs",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "da",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "el",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "en-AU",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "en-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "en-GB",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "es-MX",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "fi",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "fr-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "he",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "hi",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "hr",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "hu",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "id",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "it",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ms",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "nl-NL",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "no",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "pl",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "pt-PT",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ro",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ru",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "sk",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "sv",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "th",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "tr",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "uk",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "vi",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "poof",
+      "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+      "locale": "zh-Hant",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "soooon",
+      "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "sundust",
+      "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "tumtum",
+      "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+      "locale": "en-AU",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "tumtum",
+      "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+      "locale": "en-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "tumtum",
+      "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+      "locale": "en-GB",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "tumtum",
+      "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+      "locale": "es-MX",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "tumtum",
+      "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+      "locale": "fr-CA",
+      "fields": [
+        "description",
+        "supportUrl",
+        "keywords"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "bn-BD",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "en-CA",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "gu-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "kn-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "ml-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "mr-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "or-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "pa-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "sl-SI",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "ta-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "te-IN",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    },
+    {
+      "slug": "zuzu",
+      "versionId": "3e870d6a-74cc-4c56-aa16-f480816344f8",
+      "locale": "ur-PK",
+      "fields": [
+        "description",
+        "supportUrl"
+      ]
+    }
+  ],
+  "sundustPreviewsRetained": [
+    {
+      "setId": "92b766da-7c0b-4ce0-9ec0-c24f79f1beb7",
+      "type": "IPHONE_67",
+      "previews": [
+        {
+          "id": "070db619-38fd-44b9-81f6-ca126e46c55a",
+          "fileName": "sundust-iphone69.mov",
+          "checksum": "e7baec0c0d360ef4c89d1e32c67e83f3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "setId": "685dcd7f-c3c4-4d01-a115-52961708b911",
+      "type": "IPAD_PRO_3GEN_129",
+      "previews": [
+        {
+          "id": "ea0dd067-dace-48c8-8e90-05b14de21cd1",
+          "fileName": "sundust-ipad13.mov",
+          "checksum": "d4504246d0d83bed97f29323ab4120b0",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "reviewSubmitted": false,
+  "binarySubmitted": false
+}

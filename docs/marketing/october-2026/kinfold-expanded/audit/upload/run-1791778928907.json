@@ -1,0 +1,4927 @@
+{
+  "finishedAt": "2026-10-12T04:22:08.907Z",
+  "versions": [
+    {
+      "slug": "kinfold",
+      "appId": "6785646082",
+      "platform": "MAC_OS",
+      "currentId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "version": "1.2",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    },
+    {
+      "slug": "kinfold",
+      "appId": "6785646082",
+      "platform": "VISION_OS",
+      "currentId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "version": "1.2",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_DESKTOP",
+      "setId": "b999a8a4-365c-444f-9b20-00d97b55932f",
+      "verifiedAt": "2026-10-12T03:04:11.079Z",
+      "screenshots": [
+        {
+          "id": "c7000019-474b-8e02-8014-b7c54422d461",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/mac-store-1.png",
+          "md5": "98ba5c2522515721a5df82997a5d7046",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70800019-474b-8e02-8000-d18c0c8fe158",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/mac-store-2.png",
+          "md5": "88cc409d5bcdf58fd601f8dfa1e96af1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8bc00019-474b-8e02-803c-f7586b1860bc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/mac-store-3.png",
+          "md5": "13ac51ae43d89a71fa4f98f840cf30fc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b4c00019-474b-8e02-801e-ec6c7948b0f3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/mac-store-4.png",
+          "md5": "7feb606d4da72693d79ae41c71505ec8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5d000019-474b-8e02-8014-f8077fe1b2c3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/mac-store-5.png",
+          "md5": "0be517b0f3906b9c1063b63ed16aa614",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bb400019-474b-8e02-8034-ad20a7170610",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/mac-store-6.png",
+          "md5": "4cf5b0f5694d7b9641bb5d1f2cb4fcfa",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_DESKTOP",
+      "setId": "936573eb-4ad0-4257-b5c3-b5e1674f6469",
+      "verifiedAt": "2026-10-12T03:02:05.885Z",
+      "screenshots": [
+        {
+          "id": "63400019-474b-8e02-8024-7ed37995d635",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/mac-store-1.png",
+          "md5": "3d8391fd810cff8cdb584ce821dea943",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "84400019-474b-8e02-801a-e0777e3f4942",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/mac-store-2.png",
+          "md5": "acc115cdb24bddcbb3f3e4c61ea92cd5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "31800019-474b-8e02-8021-26bbd526ca71",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/mac-store-3.png",
+          "md5": "e2886af2b621c647fb3627bf6fefdad6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7c400019-474b-8e02-8004-afc93f1f97ac",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/mac-store-4.png",
+          "md5": "a5cc3c9e5c30bb863b3f59d5a80aa68a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70c00019-474b-8e02-8037-cf6702cc7844",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/mac-store-5.png",
+          "md5": "dcf678fb014b270e2015f8094bd43b7c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7e000019-474b-8e02-801b-f06539e85b2f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/mac-store-6.png",
+          "md5": "65216e74020c1116db73baad4b959e12",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_DESKTOP",
+      "setId": "257eae44-e2a1-4053-9a06-fa08eaee91cb",
+      "verifiedAt": "2026-10-12T03:02:47.642Z",
+      "screenshots": [
+        {
+          "id": "31000019-474b-8e02-8003-bd20222ec9f3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/mac-store-1.png",
+          "md5": "d1ecd28d6d19bd56884536c2b20c9234",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2ec00019-474b-8e02-800a-a615cb72b329",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/mac-store-2.png",
+          "md5": "71973a0de0b295824a81995e1cdb0fd2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "25800019-474b-8e02-802e-c92ce941ef50",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/mac-store-3.png",
+          "md5": "f53bd269540f70ba71dad9d25680e56a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5cc00019-474b-8e02-8000-22546b51547f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/mac-store-4.png",
+          "md5": "af093166296c8832725834834b76c94a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b3000019-474b-8e02-8033-99cf9b359e68",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/mac-store-5.png",
+          "md5": "575453f1365f7933d06846b489671ab8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2800019-474b-8e02-8019-d0ca4bb89195",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/mac-store-6.png",
+          "md5": "b29246643dc5c57eefee69ff957dcb0e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_DESKTOP",
+      "setId": "bf168a49-fa2f-4f0b-aa2d-a163c3fda8cf",
+      "verifiedAt": "2026-10-12T03:03:08.549Z",
+      "screenshots": [
+        {
+          "id": "6e400019-474b-8e02-8010-9614d38a0b1c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/mac-store-1.png",
+          "md5": "80554752c8e44e0ae96a0028d173ebb8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6b400019-474b-8e02-8001-dd72e61bd3a0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/mac-store-2.png",
+          "md5": "4b9a68e4777a7b32b962863ce3a19b38",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "88800019-474b-8e02-8011-affdc3ea43e3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/mac-store-3.png",
+          "md5": "c3bcdcf6d15d6359bb512bdcf79c30ea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5d000019-474b-8e02-8034-c92be8a0f5b8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/mac-store-4.png",
+          "md5": "41be79a9ff793441a0b8ce9365f38629",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92c00019-474b-8e02-8026-9a1d6208e9ba",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/mac-store-5.png",
+          "md5": "b24fe49e33c16f10376cddf25f57180c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d9000019-474b-8e02-8013-3cc25fe9f2c2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/mac-store-6.png",
+          "md5": "c95a16938f70ebd7a4700c7505c1a19f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_DESKTOP",
+      "setId": "c102ed75-a370-4567-be41-52c4fe42f3a3",
+      "verifiedAt": "2026-10-12T03:02:26.861Z",
+      "screenshots": [
+        {
+          "id": "f5000019-474b-8e02-801b-ac2a85c011d1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/mac-store-1.png",
+          "md5": "9341e2d86a6685cc50bcceafce326ab9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66c00019-474b-8e02-8023-5731a3837dbe",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/mac-store-2.png",
+          "md5": "f63781b69daec5955749001a19db1a96",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "81800019-474b-8e02-800e-276174f63214",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/mac-store-3.png",
+          "md5": "b1f0f81ad20f76055c42c8a56a83fe2a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4d800019-474b-8e02-8012-faaca173305b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/mac-store-4.png",
+          "md5": "2293f94aa0530f7dab11bd41ca8f72a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2400019-474b-8e02-8022-0639212c8208",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/mac-store-5.png",
+          "md5": "51117016cd5329d53b178a06a863391a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20800019-474b-8e02-8019-c146050d07a5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/mac-store-6.png",
+          "md5": "8d90fc0801adc9ded3dee38a43ae7280",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_DESKTOP",
+      "setId": "7608c867-e203-4bb2-ada7-d53be2a6c820",
+      "verifiedAt": "2026-10-12T03:03:29.478Z",
+      "screenshots": [
+        {
+          "id": "0e800019-474b-8e02-8026-1c7340450417",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/mac-store-1.png",
+          "md5": "34e60a385ce833226abb89c4837450b5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b6800019-474b-8e02-8024-f09e4f4a5c5e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/mac-store-2.png",
+          "md5": "b80b84ce469bafe1c77b9874ffdac48c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28000019-474b-8e02-8022-b27e233e3c38",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/mac-store-3.png",
+          "md5": "ba549bb24dc099e9c01222865336b668",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9000019-474b-8e02-802c-48553b5719ca",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/mac-store-4.png",
+          "md5": "fc8a10fbc52a6f787fa721891faf181d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "06000019-474b-8e02-8002-58960a15fe63",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/mac-store-5.png",
+          "md5": "5146f3ccb36878ea0510ad299670f507",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92800019-474b-8e02-8028-323d8caa1b19",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/mac-store-6.png",
+          "md5": "ef30b766799aaa7e98286a83b55892ec",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_DESKTOP",
+      "setId": "e02300dd-6bbc-440f-9338-f3ce2f513302",
+      "verifiedAt": "2026-10-12T03:03:50.589Z",
+      "screenshots": [
+        {
+          "id": "fa800019-474b-8e02-802f-5516366033a6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/mac-store-1.png",
+          "md5": "298e7ef5c114df80abf132509aea57bb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "68800019-474b-8e02-8038-f81ce88fa121",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/mac-store-2.png",
+          "md5": "b0aaa7ab6e079827585ae04131166adf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "13400019-474b-8e02-8037-1dcaa07017aa",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/mac-store-3.png",
+          "md5": "0bbfb94ea4a9a71d67644297ed88d255",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "36c00019-474b-8e02-8022-35e4edfefb33",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/mac-store-4.png",
+          "md5": "0eb881e6353120e8037fb9d740e6c214",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0800019-474b-8e02-8021-e9df6d742938",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/mac-store-5.png",
+          "md5": "f32bc5052c8d4be330c13f335fb95318",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "68400019-474b-8e02-802f-2ffc9740e7e7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/mac-store-6.png",
+          "md5": "da96a6b3054bd279d2f53a4e5f73abef",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_DESKTOP",
+      "setId": "264c6b6b-34f6-4e5a-9c8f-f8da55d4ffd9",
+      "verifiedAt": "2026-10-12T03:07:11.736Z",
+      "screenshots": [
+        {
+          "id": "85800019-474b-8e02-801d-93e100feb08e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/mac-store-1.png",
+          "md5": "32bc3527a4169b541aad80610a31d598",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "00000019-474b-8e02-802c-2c792cfb16e1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/mac-store-2.png",
+          "md5": "478e5f0d42be1917d0acb13454a5c1a8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7bc00019-474b-8e02-800a-6f9eb8b9a049",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/mac-store-3.png",
+          "md5": "4568a1ca8176f850908d1c61a0665eaf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2c00019-474b-8e02-800d-761c985230fe",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/mac-store-4.png",
+          "md5": "e6dde85f5ada80fd5912b5d4c04f8d28",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0ec00019-474b-8e02-800b-f1240fcb913b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/mac-store-5.png",
+          "md5": "f4426171044ad4c7d6b47784aecc5fe1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7c00019-474b-8e02-8034-60ca6435b541",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/mac-store-6.png",
+          "md5": "f5873a6c7fb8cd9092a8b49677fedeb6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_DESKTOP",
+      "setId": "253e6732-151e-4547-8bfb-95889f5324e1",
+      "verifiedAt": "2026-10-12T03:07:15.051Z",
+      "screenshots": [
+        {
+          "id": "4dc00019-474b-8e02-8017-cf1cb4a3e27f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/mac-store-1.png",
+          "md5": "ae1040a43d0a52a7ea57e8d830bb7317",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "73800019-474b-8e02-800a-c900d966299f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/mac-store-2.png",
+          "md5": "5650ed39b3698f443d4d14e3463fc1bc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "25400019-474b-8e02-8015-e994683cbd51",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/mac-store-3.png",
+          "md5": "55a7cc11aacc81d63f3dd55445d42890",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "57000019-474b-8e02-8036-39110d87ee8f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/mac-store-4.png",
+          "md5": "fa6bba2f8a53258e03cdd82d7f033de5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9400019-474b-8e02-8016-99b4a0216c3e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/mac-store-5.png",
+          "md5": "c522db028ece4e3c426216ac409130ce",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fe400019-474b-8e02-8007-e8cb3da4476a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/mac-store-6.png",
+          "md5": "888e45d0cc76fc755ba5e108e532bb8e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_DESKTOP",
+      "setId": "894812a3-ae17-4a31-b81b-fdf7ef5d76a3",
+      "verifiedAt": "2026-10-12T04:00:40.070Z",
+      "screenshots": [
+        {
+          "id": "2e400019-474b-8e02-8033-04f03c7b3a37",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/mac-store-1.png",
+          "md5": "78ce87910e8c4310f8366d6702a8483a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66000019-474b-8e02-8022-9cfb3d342d01",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/mac-store-2.png",
+          "md5": "9dbb1b19b72802580a9cc1886f39f667",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "67c00019-474b-8e02-802c-16c250948b59",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/mac-store-3.png",
+          "md5": "34c8f466d40f2f6a37793fdc6bfb4cef",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9fc00019-474b-8e02-8027-fc8da9a6c857",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/mac-store-4.png",
+          "md5": "9f10a598cbcc23e83def7c1b1c2996ce",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9a400019-474b-8e02-8003-f7dc21cc3ce9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/mac-store-5.png",
+          "md5": "76e557f0dafd49d1cb576085a804cc80",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63000019-474b-8e02-801e-753c99a48ed4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/mac-store-6.png",
+          "md5": "0cfd2bf1f8164e0f1475c6605b61d68b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "8d9a66d3-f478-44b1-ba92-c9ab47bf16ca",
+      "verifiedAt": "2026-10-12T04:00:40.912Z",
+      "screenshots": [
+        {
+          "id": "b3000019-474b-8e02-8015-d32ad74fb4e1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-1.png",
+          "md5": "d13f62f60075ea109f1cf7f859f3244d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ea800019-474b-8e02-8031-4a0b108ddd6a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-2.png",
+          "md5": "ce786f55d240281127c5fa90488438aa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "84400019-474b-8e02-8012-527defc18cb1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-3.png",
+          "md5": "69ad1356ccbb46da45c507008e078d6f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "77400019-474b-8e02-8013-a43731c7e3dd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-4.png",
+          "md5": "16f72c30e0ce3b9669446451cb33db9e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aa000019-474b-8e02-803e-d531f18db32a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-5.png",
+          "md5": "5d175273e46beabb3412d3b3e47f2b79",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1800019-474b-8e02-8009-dd3360bb75bf",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-6.png",
+          "md5": "77a75dea4b332c021d0b65e28a83a959",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_DESKTOP",
+      "setId": "e7e5a6ac-952a-4362-a4ae-5158ab910476",
+      "verifiedAt": "2026-10-12T04:01:12.410Z",
+      "screenshots": [
+        {
+          "id": "dd800019-474b-8e02-802c-d0734fa53a83",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/mac-store-1.png",
+          "md5": "78ce87910e8c4310f8366d6702a8483a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "30c00019-474b-8e02-8009-81d0890d595c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/mac-store-2.png",
+          "md5": "9dbb1b19b72802580a9cc1886f39f667",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "93c00019-474b-8e02-8024-c1b8630c97c8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/mac-store-3.png",
+          "md5": "4ef95c9f209e32cc3f7db2e4496019e4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c7400019-474b-8e02-8036-884c76371f64",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/mac-store-4.png",
+          "md5": "b226de1f6231efb21a360939816364cb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17000019-474b-8e02-8026-6cbd65eb730d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/mac-store-5.png",
+          "md5": "76e557f0dafd49d1cb576085a804cc80",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d0800019-474b-8e02-8002-eb116c081c23",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/mac-store-6.png",
+          "md5": "0cfd2bf1f8164e0f1475c6605b61d68b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_DESKTOP",
+      "setId": "b815cedd-e69f-49f3-a30a-a74443e13afd",
+      "verifiedAt": "2026-10-12T03:09:43.304Z",
+      "screenshots": [
+        {
+          "id": "9d000019-474b-8e02-8006-ec8335151022",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/mac-store-1.png",
+          "md5": "326fb2add157e90296342a2dd3e42110",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1a000019-474b-8e02-800d-5a78d93874db",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/mac-store-2.png",
+          "md5": "b18cdec06764f65bfdfcdc2ad5a209b1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3dc00019-474b-8e02-8024-d68dd2efce90",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/mac-store-3.png",
+          "md5": "9b3494f7d7609e158c9f00988a8c4322",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8c00019-474b-8e02-8008-94ab0320127a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/mac-store-4.png",
+          "md5": "4c6cf6acaa703cd0d5a5d8b17d197beb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "41c00019-474b-8e02-800c-94fdbcd82fc5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/mac-store-5.png",
+          "md5": "177e45748bbd9ef4a34cd48d80b75f0a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "23000019-474b-8e02-8038-86a57acfeefb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/mac-store-6.png",
+          "md5": "6bba2f4e681b397a637227581b2e8a78",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_DESKTOP",
+      "setId": "9852f135-1f1d-49bd-a125-df8b0d2a86ee",
+      "verifiedAt": "2026-10-12T03:09:55.410Z",
+      "screenshots": [
+        {
+          "id": "ef000019-474b-8e02-801b-0e9355e165f3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/mac-store-1.png",
+          "md5": "c5750e77076150c22262417e2cec2990",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c8c00019-474b-8e02-800a-a928472941bb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/mac-store-2.png",
+          "md5": "a59bce7b3e329b295a7cad5af3fd9518",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eb400019-474b-8e02-800e-feb10332f285",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/mac-store-3.png",
+          "md5": "21f197e4c8917f0c58081c7de4d41e73",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97000019-474b-8e02-803e-c5e3726f576f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/mac-store-4.png",
+          "md5": "38d7d2b205563c2b60b6e9eb79b5b580",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2c00019-474b-8e02-800e-b8d78bd691ba",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/mac-store-5.png",
+          "md5": "3a176338dd0aa714295e8a463d20deb2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bfc00019-474b-8e02-8021-b460dd67d4b0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/mac-store-6.png",
+          "md5": "6cff23b25d2445108e6fedc80e002a2e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_DESKTOP",
+      "setId": "f5a4af84-936c-42b2-801b-c0d25182dfe2",
+      "verifiedAt": "2026-10-12T03:10:47.918Z",
+      "screenshots": [
+        {
+          "id": "f0800019-474b-8e02-8039-7761a080306f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/mac-store-1.png",
+          "md5": "62f2419f51259eab9723caea6d1a2c47",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "90c00019-474b-8e02-8012-f63f80b5cdb7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/mac-store-2.png",
+          "md5": "5164e3ae90104c5541847c75c5e9552d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9800019-474b-8e02-8026-95186c90ef8b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/mac-store-3.png",
+          "md5": "b47277eae3f408a00be893a731f0fa90",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09000019-474b-8e02-8037-49b3e2a7ce94",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/mac-store-4.png",
+          "md5": "8941d8c13e56f30271e86ba0b446b1ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01800019-474b-8e02-8004-a4f9f90371d7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/mac-store-5.png",
+          "md5": "3a176338dd0aa714295e8a463d20deb2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75000019-474b-8e02-8010-cf83fb4047b8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/mac-store-6.png",
+          "md5": "d4a0948d0486846f4f968ade100313ff",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_DESKTOP",
+      "setId": "1d7f3afb-c481-4e75-a075-85256999b7d6",
+      "verifiedAt": "2026-10-12T03:10:16.469Z",
+      "screenshots": [
+        {
+          "id": "8e400019-474b-8e02-8037-0809291b7414",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/mac-store-1.png",
+          "md5": "b44865823adcc3e4e8a8badd404b09fd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6bc00019-474b-8e02-803f-3afb2667d4f7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/mac-store-2.png",
+          "md5": "c6a444303fe67a09659d1aceb70f757b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4b400019-474b-8e02-8033-2fb8f70a4484",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/mac-store-3.png",
+          "md5": "4aa0842adde63c2bafacdbfcfdfc4ba7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59c00019-474b-8e02-8037-f4b43c710bbd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/mac-store-4.png",
+          "md5": "b24b2085043de47f7c0b3d54f710513d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09000019-474b-8e02-802d-7ea59fdad14f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/mac-store-5.png",
+          "md5": "6e5ba0ca2456e31011acfe72b070e834",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "25400019-474b-8e02-803a-7461b844dc1b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/mac-store-6.png",
+          "md5": "63657825f9cd0d67592f60a946121dc9",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_DESKTOP",
+      "setId": "bd2107a5-1e80-4a06-b2fb-c2b435e163ce",
+      "verifiedAt": "2026-10-12T03:10:36.956Z",
+      "screenshots": [
+        {
+          "id": "b3c00019-474b-8e02-8032-b215896eab75",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/mac-store-1.png",
+          "md5": "d7d23c79886b57c986399dc26c9f6f9c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8c00019-474b-8e02-8031-5fc3396a5fe0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/mac-store-2.png",
+          "md5": "2ab146637550ae7db507bea679f51e7a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0ec00019-474b-8e02-801b-9759c5ecf5f2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/mac-store-3.png",
+          "md5": "616ffa7176c025d11786579b58a03960",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6bc00019-474b-8e02-801e-c1572d73b2b7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/mac-store-4.png",
+          "md5": "d76128c5fdf945d11ecb6d5e7ee968b2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0400019-474b-8e02-801a-6a45dd101840",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/mac-store-5.png",
+          "md5": "bc6190aed49657dd4c40e7b6d59dbdea",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a3800019-474b-8e02-802d-780acd5ce6b4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/mac-store-6.png",
+          "md5": "49449c3e7847a414b48f9d73ac9f5011",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_DESKTOP",
+      "setId": "4fb8c8cf-83cb-454d-a851-8f8e00f2731b",
+      "verifiedAt": "2026-10-12T04:01:13.506Z",
+      "screenshots": [
+        {
+          "id": "41000019-474b-8e02-8010-f80bd9e3babf",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/mac-store-1.png",
+          "md5": "522aef823e844f005ba3b34e663de74a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "39000019-474b-8e02-8036-36e16987f8d1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/mac-store-2.png",
+          "md5": "513791e6fa89d2323afc897b46193397",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b2c00019-474b-8e02-8017-2d8a7eb7c7ed",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/mac-store-3.png",
+          "md5": "f316976c35dd4bb20dd26f1e8ae0dda0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8c400019-474b-8e02-800f-5e594a8986b7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/mac-store-4.png",
+          "md5": "4568e4dc79086a29bb81eda0e6a820fd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d5c00019-474b-8e02-8010-dbf3ebbe111a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/mac-store-5.png",
+          "md5": "fa228d6ec3176be86104c6babe830010",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99800019-474b-8e02-8009-fb473c95441d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/mac-store-6.png",
+          "md5": "fcf118afde4bcaa99ce3c99912fa189f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_DESKTOP",
+      "setId": "9df6000e-b132-4608-a52d-63e1674f05f3",
+      "verifiedAt": "2026-10-12T03:12:21.671Z",
+      "screenshots": [
+        {
+          "id": "84000019-474b-8e02-8000-2b9088495ca5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/mac-store-1.png",
+          "md5": "82417c6a62222c7b1df0f7cbebf1f06d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "70400019-474b-8e02-8031-feec24c32af8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/mac-store-2.png",
+          "md5": "df91599860908956aa729db67b61d31b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51c00019-474b-8e02-803a-3858655c090d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/mac-store-3.png",
+          "md5": "5aed8ad3fae7beaa21f83fb0bbb43272",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5b400019-474b-8e02-8025-dea6c6c7e49b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/mac-store-4.png",
+          "md5": "90b752b149b5f8e3b595a07fd14b8b1a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6ec00019-474b-8e02-8024-acfe1ae2d807",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/mac-store-5.png",
+          "md5": "c9eca08f4a62db83a2a0d264dfcdacdf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4e400019-474b-8e02-801e-557ff91719f2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/mac-store-6.png",
+          "md5": "3ec64b745a0d55868d28d8e032c3226d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_DESKTOP",
+      "setId": "6a4bf8aa-7fd2-43c4-8703-3ffafbac98c1",
+      "verifiedAt": "2026-10-12T04:01:41.040Z",
+      "screenshots": [
+        {
+          "id": "ebc00019-474b-8e02-8017-c46e000cbe28",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/mac-store-1.png",
+          "md5": "f3f58478d40bcefdb02d767709efd823",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cd000019-474b-8e02-8010-51540f9f1d60",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/mac-store-2.png",
+          "md5": "55582a5bc1c4d677d2d00597419f788d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b9400019-474b-8e02-8025-ce7f1c73e436",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/mac-store-3.png",
+          "md5": "5af0002c72c7c19568c189205f6ceb23",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5000019-474b-8e02-8026-6e2bfd9d3a6c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/mac-store-4.png",
+          "md5": "455c9455bd49eaabc828e63c04e48c66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "87400019-474b-8e02-8027-3fea1aa6f3f1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/mac-store-5.png",
+          "md5": "098a3c759513c19a69bc77acbf12522c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0e400019-474b-8e02-8027-15fd93b1d9e4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/mac-store-6.png",
+          "md5": "ac1c294c684286bc195e62968e1dfa1e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "62cbc7cf-0155-4a87-8bca-3461815907aa",
+      "verifiedAt": "2026-10-12T04:01:51.270Z",
+      "screenshots": [
+        {
+          "id": "77800019-474b-8e02-8025-2def7387d15b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-1.png",
+          "md5": "d13f62f60075ea109f1cf7f859f3244d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28000019-474b-8e02-802f-6689c720eeef",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-2.png",
+          "md5": "ce786f55d240281127c5fa90488438aa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c7400019-474b-8e02-803c-009ca736b5e8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-3.png",
+          "md5": "69ad1356ccbb46da45c507008e078d6f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5e800019-474b-8e02-802d-efb979d8f7aa",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-4.png",
+          "md5": "16f72c30e0ce3b9669446451cb33db9e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a6800019-474b-8e02-800f-35ab8081bf4d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-5.png",
+          "md5": "5d175273e46beabb3412d3b3e47f2b79",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "52400019-474b-8e02-8014-773a853abd96",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/mac-store-6.png",
+          "md5": "77a75dea4b332c021d0b65e28a83a959",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_DESKTOP",
+      "setId": "ab0d0ef9-9744-4d76-a633-18b2b89dcf31",
+      "verifiedAt": "2026-10-12T04:02:09.549Z",
+      "screenshots": [
+        {
+          "id": "65800019-474b-8e02-802f-8b30b4029a26",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/mac-store-1.png",
+          "md5": "4b9d4add823c24f3b832e49e4f26b057",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8d400019-474b-8e02-802f-b2e0a4df427e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/mac-store-2.png",
+          "md5": "5df9e266c048a46408eb8c8f367801ca",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3e800019-474b-8e02-801b-09026b06350d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/mac-store-3.png",
+          "md5": "e83e620f538c273279b9e5db58f26219",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51400019-474b-8e02-8030-be32e59db9b0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/mac-store-4.png",
+          "md5": "6669092897c28b1f19e491f3fb40b707",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1d800019-474b-8e02-8031-88d8d2700cc7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/mac-store-5.png",
+          "md5": "363cfebe6f7f0bdba28fa87cf39f5ed5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bb800019-474b-8e02-8016-d5a616bc5cc4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/mac-store-6.png",
+          "md5": "4b62c5080eac7b50e59489a507af9f7f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_DESKTOP",
+      "setId": "30439577-75af-479a-9ff3-3085c8048f4c",
+      "verifiedAt": "2026-10-12T04:02:20.979Z",
+      "screenshots": [
+        {
+          "id": "6b400019-474b-8e02-8021-f9b796e89b50",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/mac-store-1.png",
+          "md5": "ac4da4dbff2b588b532e2132ad4e7ee1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8f400019-474b-8e02-800b-7445d541381f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/mac-store-2.png",
+          "md5": "f7a073733059b7710028cde3f960ba26",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15c00019-474b-8e02-8001-b4b1cf7a9393",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/mac-store-3.png",
+          "md5": "1e37811d6195fac2c771351b13877c58",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2e800019-474b-8e02-8002-4959e32f66dc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/mac-store-4.png",
+          "md5": "c9b9bfc1f0c03e74bb1a8038b926f098",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7000019-474b-8e02-8021-09f99f1a47f9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/mac-store-5.png",
+          "md5": "71b29024c4749bc8a661a8bd2078af6c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82c00019-474b-8e02-801e-3e2178c93d94",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/mac-store-6.png",
+          "md5": "2d2a9574de2045f5c6e07ceba694e0db",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_DESKTOP",
+      "setId": "edc6dd91-9085-416c-9b78-80647f2f7d76",
+      "verifiedAt": "2026-10-12T04:02:38.031Z",
+      "screenshots": [
+        {
+          "id": "44400019-474b-8e02-8025-4f3f01c365a5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/mac-store-1.png",
+          "md5": "ceba5ec35dbeee4b1b58c59f9057f053",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51c00019-474b-8e02-8019-0549a9b12b69",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/mac-store-2.png",
+          "md5": "0bb3d1b4a9212bad3b591fea0286cf04",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6b000019-474b-8e02-8010-9a85b16b990b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/mac-store-3.png",
+          "md5": "777e545dfb27806925640ae3f8ed1477",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a0800019-474b-8e02-8027-a8d95d3d1776",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/mac-store-4.png",
+          "md5": "16e58bf45ae4e1449a57592793987bca",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8c00019-474b-8e02-8021-4f2676fb019a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/mac-store-5.png",
+          "md5": "e1d22f398f4cb285f29a10299ceb64ae",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a8c00019-474b-8e02-8006-be7a0730bee7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/mac-store-6.png",
+          "md5": "7d486c9d2023038687afc0acb47db706",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_DESKTOP",
+      "setId": "03cfc3c5-54ac-4736-adcd-506ccd865c47",
+      "verifiedAt": "2026-10-12T04:02:49.478Z",
+      "screenshots": [
+        {
+          "id": "cb400019-474b-8e02-8030-b84ca4b2fc78",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/mac-store-1.png",
+          "md5": "ea07cc397b3ca428bdd46c900293f795",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63c00019-474b-8e02-803d-6069369a67a1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/mac-store-2.png",
+          "md5": "34d3ff254aa8ecfc0dc6368f38434898",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab400019-474b-8e02-8015-dc3fe42ce9f0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/mac-store-3.png",
+          "md5": "376560740c266f20cc82103c944c14b6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4b400019-474b-8e02-802a-33b26bf9afd6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/mac-store-4.png",
+          "md5": "3626830f9eec0dbe871b8350f178310c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fe400019-474b-8e02-8023-1e853bdc9e11",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/mac-store-5.png",
+          "md5": "109fee62997fc063de13c1e63a53ddba",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0dc00019-474b-8e02-8024-4cec2f779655",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/mac-store-6.png",
+          "md5": "d20cf106b829c9d84d5cdba8b2f238f1",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_DESKTOP",
+      "setId": "86b01f83-d5be-4d61-a695-574f89183f4b",
+      "verifiedAt": "2026-10-12T04:03:06.553Z",
+      "screenshots": [
+        {
+          "id": "28c00019-474b-8e02-8014-d0827642aa42",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/mac-store-1.png",
+          "md5": "6dc252c9afd492dab600782cef8ece73",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8c400019-474b-8e02-800f-089cb9a92076",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/mac-store-2.png",
+          "md5": "8b49ee10ec42775fa5446f1d81cd8236",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "db000019-474b-8e02-8027-b73450c18034",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/mac-store-3.png",
+          "md5": "77826fa3a9a5d4a5977a818129cd5d19",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b0800019-474b-8e02-801f-8219a34981f1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/mac-store-4.png",
+          "md5": "8217a33b9ab4189fbc206f7157f8e37f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5b800019-474b-8e02-802f-2da5617c6f1d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/mac-store-5.png",
+          "md5": "ab24952d4c0780e19ab64cf7e4fd77df",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18c00019-474b-8e02-8002-63752c833675",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/mac-store-6.png",
+          "md5": "fd6d9e03df99cbe04a9779f566d7d3c3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_DESKTOP",
+      "setId": "501556ab-f3ca-4849-8441-46cb0c1d26d1",
+      "verifiedAt": "2026-10-12T04:03:34.303Z",
+      "screenshots": [
+        {
+          "id": "b4400019-474b-8e02-8039-e841c586a3e6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/mac-store-1.png",
+          "md5": "446d965eb8919fe53fcc686dc85b3473",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6c00019-474b-8e02-8018-c0ec15d81b9d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/mac-store-2.png",
+          "md5": "d02b4c0b37e883296f80162f3f04c299",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "eec00019-474b-8e02-8002-080133f43a61",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/mac-store-3.png",
+          "md5": "59a6d8b704b07fd4225fc5512436bf19",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2b000019-474b-8e02-800b-4cdfa245a908",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/mac-store-4.png",
+          "md5": "6dda25875e7866b39dec5b1158eb1bb1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c6000019-474b-8e02-8009-d077db030425",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/mac-store-5.png",
+          "md5": "66447733a03edbcb67e91d6d2f237bbf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11800019-474b-8e02-800e-fbd5b858b0ee",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/mac-store-6.png",
+          "md5": "932517a4525da266de14df4ffc9371f8",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_DESKTOP",
+      "setId": "f671bc4c-09a9-4ec0-af4e-feb4ec7affcf",
+      "verifiedAt": "2026-10-12T04:03:47.954Z",
+      "screenshots": [
+        {
+          "id": "b1000019-474b-8e02-803c-1c0e4506ec58",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/mac-store-1.png",
+          "md5": "ca5e9b34f7dba6349d28be6ec82bc805",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2e800019-474b-8e02-8038-b18879518f6d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/mac-store-2.png",
+          "md5": "2e370ef5768f37827a3110b72ddb469e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9a400019-474b-8e02-803d-e658124b132b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/mac-store-3.png",
+          "md5": "858a62aecea2d0dc50506e04edc235eb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c1400019-474b-8e02-800f-2a029375f142",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/mac-store-4.png",
+          "md5": "03224c963bdb57518e158489432415d8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5400019-474b-8e02-801b-9d5b7fcc87e3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/mac-store-5.png",
+          "md5": "61e56558482ec666c6207855afab3e8e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1f000019-474b-8e02-8018-40e1d3fbc9aa",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/mac-store-6.png",
+          "md5": "9c026dab77941648eba8044907db2838",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ml-IN",
+      "sourceLocale": "ml",
+      "type": "APP_DESKTOP",
+      "setId": "75643c7c-7f38-433c-acc2-187b94445b50",
+      "verifiedAt": "2026-10-12T04:04:01.900Z",
+      "screenshots": [
+        {
+          "id": "a7400019-474b-8e02-803e-b9670342aa7f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/mac-store-1.png",
+          "md5": "d4dc21de9932b5fca188700b35e11233",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8f400019-474b-8e02-801f-34e8c2e64e00",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/mac-store-2.png",
+          "md5": "091b4ebb5231b6ce99c34a6a2620c279",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "34800019-474b-8e02-802f-3036fe290b32",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/mac-store-3.png",
+          "md5": "7a20fd7ad2d0b8f88b14f545bec8594a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ddc00019-474b-8e02-8022-3f2e259d5222",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/mac-store-4.png",
+          "md5": "a91ef25840e143e8864166cf34559ea6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "da800019-474b-8e02-802f-6e4fc8c6218e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/mac-store-5.png",
+          "md5": "879ee8279e8f14c7a5f6eb8a2cc10435",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17000019-474b-8e02-8004-d0fded035b7b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/mac-store-6.png",
+          "md5": "6c2a81fc8c7b2fd156056d6f08efb4d3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_DESKTOP",
+      "setId": "6c55a472-ff67-4bfa-ba7c-67911f5c4818",
+      "verifiedAt": "2026-10-12T04:04:15.863Z",
+      "screenshots": [
+        {
+          "id": "74400019-474b-8e02-8026-7da3eaa9eade",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/mac-store-1.png",
+          "md5": "31753a0917b419775bccd7af19d15b44",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a4800019-474b-8e02-8016-37fed67e4968",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/mac-store-2.png",
+          "md5": "b9ca8eae32f90248775a604cba136a94",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92000019-474b-8e02-8023-01f1ac67f0dd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/mac-store-3.png",
+          "md5": "f35624624cbe3b34c451e18749c59ded",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d9800019-474b-8e02-8033-fdd36757df6d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/mac-store-4.png",
+          "md5": "a190536bb715c89f96cfd4362d43628d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43800019-474b-8e02-8038-d37a515620b0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/mac-store-5.png",
+          "md5": "226fbb2b94fd3ce6a1fedfa5f036c86a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ee000019-474b-8e02-803d-756816e16039",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/mac-store-6.png",
+          "md5": "13a35b5066f364711c399e7ca3c1aa2b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_DESKTOP",
+      "setId": "d59f3379-b6eb-472b-8df6-069b68f0cb51",
+      "verifiedAt": "2026-10-12T04:04:29.643Z",
+      "screenshots": [
+        {
+          "id": "cd000019-474b-8e02-8016-bf69badd083a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/mac-store-1.png",
+          "md5": "a059631ab9c06b0f51820d47ab56cf0c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8800019-474b-8e02-802c-07097d511c42",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/mac-store-2.png",
+          "md5": "66b06670758c70774212486425ca05fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d5c00019-474b-8e02-8037-bd6f0c8a7fcb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/mac-store-3.png",
+          "md5": "a195745b2aa5a592a5fa2a4f323dfc17",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6b800019-474b-8e02-8036-a15dcee76fdf",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/mac-store-4.png",
+          "md5": "dd02247b6be1169770bab64f5c501d51",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9b000019-474b-8e02-8009-0c4a328a116e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/mac-store-5.png",
+          "md5": "86bc9f8b988c89221b686a88c7053ddb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1a000019-474b-8e02-800f-5792e962bd01",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/mac-store-6.png",
+          "md5": "5222e6d0d8b3825010f263070136f783",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_DESKTOP",
+      "setId": "663f3dc3-3058-43de-b40e-88b3c5f41547",
+      "verifiedAt": "2026-10-12T04:04:43.252Z",
+      "screenshots": [
+        {
+          "id": "89400019-474b-8e02-802a-a72979e752ee",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/mac-store-1.png",
+          "md5": "b19279e2401f4b4ee23466cf692b1ab7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83c00019-474b-8e02-8034-d1dcdf41f8e5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/mac-store-2.png",
+          "md5": "c85b87ff53e14ad9689c31ef2e34b86c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bcc00019-474b-8e02-8010-4fb23841bae0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/mac-store-3.png",
+          "md5": "f01e5a23d013b7f6078612f3beb90362",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66c00019-474b-8e02-8008-ab4d3c30e960",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/mac-store-4.png",
+          "md5": "622cd2cfcfd0478574c2b1b0069754e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18400019-474b-8e02-8016-cd8b3f659970",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/mac-store-5.png",
+          "md5": "968bf4ac4d80317ddbc6bcbfc17dc060",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20800019-474b-8e02-803c-00b12edad7d8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/mac-store-6.png",
+          "md5": "113f05ed51b819baf2b7f6393679ea56",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_DESKTOP",
+      "setId": "fceba1c1-76f2-4e4c-b4c3-da2162d05c1a",
+      "verifiedAt": "2026-10-12T04:04:57.207Z",
+      "screenshots": [
+        {
+          "id": "f9c00019-474b-8e02-803a-9ac1952169a3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/mac-store-1.png",
+          "md5": "f2e45446dc56d4846c1e11e8e9d24527",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1400019-474b-8e02-8010-e9770c5e44bb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/mac-store-2.png",
+          "md5": "a4c658bf3956ef0f5db1f01c8b5955c3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09800019-474b-8e02-8013-8ad264f9d544",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/mac-store-3.png",
+          "md5": "343bddd7f9c5c8c1c705831b9f935f49",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b3400019-474b-8e02-8008-51d9789d2df7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/mac-store-4.png",
+          "md5": "b21d7e9b2f3f4fd464bfba370b838751",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b400019-474b-8e02-8027-cbe991e4263d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/mac-store-5.png",
+          "md5": "5b73eb8dda7bcfaf7a11b064f366ec42",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aec00019-474b-8e02-801b-deb16a5fd5c4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/mac-store-6.png",
+          "md5": "5c83e1c20f4c67e5e5b66f64550e27a2",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_DESKTOP",
+      "setId": "859b7b09-6f0b-42d4-9830-7ed2dacd4095",
+      "verifiedAt": "2026-10-12T04:05:11.707Z",
+      "screenshots": [
+        {
+          "id": "33c00019-474b-8e02-801e-7eaaec9d63e5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/mac-store-1.png",
+          "md5": "6b8e43dc534f06236bbaf4be81d4108b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58800019-474b-8e02-8008-bf0000d6b21c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/mac-store-2.png",
+          "md5": "c8d660e81552e92a930f05387a34b451",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "25800019-474b-8e02-800d-e76bcde6990d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/mac-store-3.png",
+          "md5": "9bae7697a2bd05695851acb6c32f060d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58c00019-474b-8e02-8000-4a9c0befc255",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/mac-store-4.png",
+          "md5": "4d441f3f17bcfd2fe412acad545ce1af",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1c800019-474b-8e02-802b-a5b4641128c6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/mac-store-5.png",
+          "md5": "b13c2b34b038fac14014573d1297717f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "61000019-474b-8e02-801c-e5c4a882db6a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/mac-store-6.png",
+          "md5": "af9678aeb3d3b77dbc6ded5e93328001",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_DESKTOP",
+      "setId": "fd766e15-0e74-4ca6-989b-cec56faf1623",
+      "verifiedAt": "2026-10-12T04:05:25.957Z",
+      "screenshots": [
+        {
+          "id": "72400019-474b-8e02-800f-7e3af5fec854",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/mac-store-1.png",
+          "md5": "a3b03a7df6425dc25d75ccfe97853fb5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "91800019-474b-8e02-8004-bc716b25ea6a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/mac-store-2.png",
+          "md5": "ddd96834c8842a747a3cec938d9fa60d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1ec00019-474b-8e02-802d-8a557a0e0eea",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/mac-store-3.png",
+          "md5": "9593c17558f068eb9d71b7248abd715e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4c400019-474b-8e02-8017-2f17b00af386",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/mac-store-4.png",
+          "md5": "98f0e8d1267fb35ddcfacfb2df44cdf8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92c00019-474b-8e02-8024-bce47b9c3634",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/mac-store-5.png",
+          "md5": "b2b341deccb8c5da8c20c576ef3a16af",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7f000019-474b-8e02-8038-09cd1f5aea1a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/mac-store-6.png",
+          "md5": "83f64fd7e2ce8ad57b1517855895cfbf",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_DESKTOP",
+      "setId": "28d987af-18cd-4b4f-b5e6-fb3b1d49ead8",
+      "verifiedAt": "2026-10-12T04:05:39.256Z",
+      "screenshots": [
+        {
+          "id": "63800019-474b-8e02-8006-f9928007a425",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/mac-store-1.png",
+          "md5": "5f606250dda70c1f81663f1829e8a6e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7800019-474b-8e02-8027-12dfcf1f9338",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/mac-store-2.png",
+          "md5": "c709729eec66adf38031ce9425f66125",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "de800019-474b-8e02-800f-a42a8b299005",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/mac-store-3.png",
+          "md5": "dc5eacf8fece0d7fa39916eeed03a6ce",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cdc00019-474b-8e02-8006-c508433867f3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/mac-store-4.png",
+          "md5": "4cbdc93598ac9920cab75fd9a1976230",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "19c00019-474b-8e02-8024-450fd0803104",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/mac-store-5.png",
+          "md5": "f2c6d8d75ced1ebf7f79cc10ea3a6796",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0dc00019-474b-8e02-8005-6cf2653d5159",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/mac-store-6.png",
+          "md5": "c9c09b01f7712299a86f3ec06184c61d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_DESKTOP",
+      "setId": "7401eaf2-d5f6-4156-9ab2-e3525b1ba2f7",
+      "verifiedAt": "2026-10-12T04:05:54.058Z",
+      "screenshots": [
+        {
+          "id": "e3c00019-474b-8e02-8031-c4cbaf4a5d4a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/mac-store-1.png",
+          "md5": "4fccc9de208e4e092f48533de763fc59",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3c800019-474b-8e02-8034-d48cd72e538e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/mac-store-2.png",
+          "md5": "30bfb92d5cbac8053a97c079195dcdbc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05800019-474b-8e02-800a-2b1fefd5227c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/mac-store-3.png",
+          "md5": "bc5660870543fc4f1751b8773ad54955",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dc400019-474b-8e02-8023-d711e423269e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/mac-store-4.png",
+          "md5": "5bc91e31e6d7232709a62984248a9d59",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a9c00019-474b-8e02-8031-54bc7689288b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/mac-store-5.png",
+          "md5": "f87caa666e2f9cbdbc4bfc1da8f5fd1c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35800019-474b-8e02-801d-aa22f33b6b37",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/mac-store-6.png",
+          "md5": "d3c881eae4d4987d34eac3ecba6efffa",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_DESKTOP",
+      "setId": "9125b5bf-c093-4083-a605-3029ab9bb544",
+      "verifiedAt": "2026-10-12T04:06:06.923Z",
+      "screenshots": [
+        {
+          "id": "f1400019-474b-8e02-803e-72b832db398d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/mac-store-1.png",
+          "md5": "98e00d405adb4addcc29360a9e49e280",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95c00019-474b-8e02-800f-1153213d729e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/mac-store-2.png",
+          "md5": "4518c84f8a7b19de1bc3b84a451939b1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27c00019-474b-8e02-8023-8edb9ffbf786",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/mac-store-3.png",
+          "md5": "79a05d41ad11ffa4012fac6fe82ddc0c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4d800019-474b-8e02-8021-117ed679d4ff",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/mac-store-4.png",
+          "md5": "8e2b915274a7cc5620d91620b538ca2b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7b400019-474b-8e02-802f-dd3b98694523",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/mac-store-5.png",
+          "md5": "c70b1a1df53dfce80c1efc330ac39365",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27400019-474b-8e02-800a-36a4928ed21f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/mac-store-6.png",
+          "md5": "72c366b5e126724e95b0e5d2f75071a0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_DESKTOP",
+      "setId": "361aff18-6622-4fd3-ab5a-dff91951b74b",
+      "verifiedAt": "2026-10-12T04:06:21.895Z",
+      "screenshots": [
+        {
+          "id": "c1000019-474b-8e02-802b-38ba2f3e9812",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/mac-store-1.png",
+          "md5": "962d494f6d85d059208e2bea44601259",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a3400019-474b-8e02-801f-fe6f501bc561",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/mac-store-2.png",
+          "md5": "42a8c3288364898eb9b13cd77185dbb4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "93c00019-474b-8e02-803a-a6e224b69ff1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/mac-store-3.png",
+          "md5": "8b78b5f2375aca92a0a6ea0d529c9f40",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b0000019-474b-8e02-801a-4f51f2a4ba4e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/mac-store-4.png",
+          "md5": "b8823b42b0ab53ca2252327f29856273",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dc000019-474b-8e02-8008-622eca773d52",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/mac-store-5.png",
+          "md5": "4fa70d8969d038913ccc526fd75f5985",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3800019-474b-8e02-8006-c533b715e67b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/mac-store-6.png",
+          "md5": "4a323eeb67f213023b8f475974f26c6d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_DESKTOP",
+      "setId": "a589c16d-af29-42c9-8a54-88f1a4e9e3ca",
+      "verifiedAt": "2026-10-12T04:06:35.285Z",
+      "screenshots": [
+        {
+          "id": "cdc00019-474b-8e02-8024-a03ad532e683",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/mac-store-1.png",
+          "md5": "3c1f8a8223829fe6297d25e580da4e52",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bf800019-474b-8e02-8037-76de62915b5e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/mac-store-2.png",
+          "md5": "4dbb9cb084f643a47033ef1000892488",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17000019-474b-8e02-801e-643d6aeab299",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/mac-store-3.png",
+          "md5": "d1c69a31ed4bb9523ac1bd3afc3c7971",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50c00019-474b-8e02-8018-97636b65eb88",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/mac-store-4.png",
+          "md5": "801112b249b3075d44c6863e5092a29b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09000019-474b-8e02-800c-be95d31c7dc2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/mac-store-5.png",
+          "md5": "e2550cf9aed578fca1d207088a8f2ee2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "71000019-474b-8e02-8029-68d543abba4c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/mac-store-6.png",
+          "md5": "e8710184c0be45f0870881e34b685b51",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "es-MX",
+      "sourceLocale": "es-419",
+      "type": "APP_DESKTOP",
+      "setId": "3e70e727-c948-4a96-82f2-db1d47bbc8b0",
+      "verifiedAt": "2026-10-12T04:06:49.187Z",
+      "screenshots": [
+        {
+          "id": "23400019-474b-8e02-802a-195edcfe93a7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/mac-store-1.png",
+          "md5": "aecfec4ade5c56a67d1ed1b33a13d723",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "89c00019-474b-8e02-8000-a800ca21ef4d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/mac-store-2.png",
+          "md5": "0efff0553b0eacc8e627701fcc5b574f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5d000019-474b-8e02-8026-2d21e6f1705f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/mac-store-3.png",
+          "md5": "32f9f94a5e3a208665b018958cbc8e0f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2a800019-474b-8e02-8026-6a1572071f0e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/mac-store-4.png",
+          "md5": "c40eb0dfe52c236e05f3f839a99f05ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa800019-474b-8e02-803f-fbcd908d8a7c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/mac-store-5.png",
+          "md5": "cef074299d09b5c0a340cb26cf92896a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3b800019-474b-8e02-8016-8d19b41ca583",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/mac-store-6.png",
+          "md5": "dc725a24941b08538adc25d3d0363c6d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "setId": "8ecb5c8a-b51a-42e2-9fef-53fce2cf0a66",
+      "verifiedAt": "2026-10-12T04:07:02.941Z",
+      "screenshots": [
+        {
+          "id": "72800019-474b-8e02-8031-8204fa79da27",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/mac-store-1.png",
+          "md5": "238940d6438293e1038331ef4ee4fa66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "87c00019-474b-8e02-8029-935784f14607",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/mac-store-2.png",
+          "md5": "1c257cc9af4eda9b8433630e23483d14",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "88c00019-474b-8e02-8026-b7b141ddb913",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/mac-store-3.png",
+          "md5": "b34f9db025e59abe9d673667fc3c54be",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ae800019-474b-8e02-8030-0cd3353665b9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/mac-store-4.png",
+          "md5": "7ebc4860de441d3fb112bacd297d6540",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76c00019-474b-8e02-8032-b8966bc0fc88",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/mac-store-5.png",
+          "md5": "04aee44ef6eb176508cbc24a8bd752bd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4c00019-474b-8e02-8012-0d68266d7eb5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/mac-store-6.png",
+          "md5": "5bb0e8fad33b8da1d208ee446030eee8",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_DESKTOP",
+      "setId": "af08e9a3-7b23-4300-8486-6e014d1314aa",
+      "verifiedAt": "2026-10-12T04:07:16.970Z",
+      "screenshots": [
+        {
+          "id": "00000019-474b-8e02-802c-388b02bcde4a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/mac-store-1.png",
+          "md5": "0c7cde0451c1c30b06ca7f3b76531b23",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "de000019-474b-8e02-8008-7ff8924c0084",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/mac-store-2.png",
+          "md5": "9f926842e9fe5b18c5d4f0fb341f6601",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86c00019-474b-8e02-800e-f7e1b2fa747b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/mac-store-3.png",
+          "md5": "e4037b2d51712d9f1e18c1dcdcc41de9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "90000019-474b-8e02-8014-49be133a61b7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/mac-store-4.png",
+          "md5": "09ae145adbfb9fb0852fadeff54da557",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bcc00019-474b-8e02-800d-4b5a98db0d65",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/mac-store-5.png",
+          "md5": "eff6883d5e7d93b1825a306c5a564943",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e1c00019-474b-8e02-8037-4eebbb5df8a0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/mac-store-6.png",
+          "md5": "96ae9ac26b2d428240d7e2308d6fe200",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ta-IN",
+      "sourceLocale": "ta",
+      "type": "APP_DESKTOP",
+      "setId": "4ed2474b-6f7d-4a81-884c-6461e62efb9a",
+      "verifiedAt": "2026-10-12T04:07:30.487Z",
+      "screenshots": [
+        {
+          "id": "70000019-474b-8e02-8039-47df885ce995",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/mac-store-1.png",
+          "md5": "ef69e07430d2ee00362f125e7a0f8ef9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9800019-474b-8e02-8000-c05974b354ab",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/mac-store-2.png",
+          "md5": "00fc4f3424d5ded7bcac07ca25618a09",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "db800019-474b-8e02-8032-08de88bc3320",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/mac-store-3.png",
+          "md5": "adb8ee242277729b452ef5b1d6dc9f72",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "03800019-474b-8e02-800d-6435b608fc87",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/mac-store-4.png",
+          "md5": "bf80af9ec9dac06752de3a7b8f728177",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a1000019-474b-8e02-802c-fa5c93793d19",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/mac-store-5.png",
+          "md5": "d0dea802824b91a7e65ef2d41c587b65",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "57c00019-474b-8e02-800e-4030654c369b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/mac-store-6.png",
+          "md5": "5e830af999ddde9d81d898694ed13d85",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "te-IN",
+      "sourceLocale": "te",
+      "type": "APP_DESKTOP",
+      "setId": "67951a6c-66fd-4afb-ad20-ec0564a2e934",
+      "verifiedAt": "2026-10-12T04:07:44.699Z",
+      "screenshots": [
+        {
+          "id": "97800019-474b-8e02-8012-6a35b6e2364a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/mac-store-1.png",
+          "md5": "cd3ff5f52af1bae669ce0eb30cb60ae8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6a400019-474b-8e02-8003-d8d0c3d96605",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/mac-store-2.png",
+          "md5": "a1921988764e5beb5f08f43dc94e0c84",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "91400019-474b-8e02-8013-50c25991aa35",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/mac-store-3.png",
+          "md5": "385a375967c370e24c1a9e1ad3b1f0bd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8800019-474b-8e02-8022-e66a2f71ab15",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/mac-store-4.png",
+          "md5": "5fc4ca02ebd417ab9f20cf77534a0e08",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ca000019-474b-8e02-801c-2160ef34ffcf",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/mac-store-5.png",
+          "md5": "113c4bfdda5275a2c37a2e37c6ab8ab0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50000019-474b-8e02-8010-ea3a89d41f37",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/mac-store-6.png",
+          "md5": "b0379539f33e5b9afe005a8bc2d784a4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "th",
+      "sourceLocale": "th",
+      "type": "APP_DESKTOP",
+      "setId": "69fe0b46-a14c-42fc-a96c-12f98cefcd05",
+      "verifiedAt": "2026-10-12T04:07:57.776Z",
+      "screenshots": [
+        {
+          "id": "ebc00019-474b-8e02-802c-d93820676000",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/mac-store-1.png",
+          "md5": "a19165afca5348e0e49b4b02eb01a399",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fb400019-474b-8e02-8034-de928a0d46c9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/mac-store-2.png",
+          "md5": "23074bc91b9744db4ea954269049d3a9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4dc00019-474b-8e02-8020-3d0c53572eda",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/mac-store-3.png",
+          "md5": "68eb2bc12fcd886dc5cced386a4c2a88",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fb000019-474b-8e02-8019-102c827d1f5c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/mac-store-4.png",
+          "md5": "4f7e404df3248b7ebbe8424f28d9b3d9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "33800019-474b-8e02-8005-3bfdf780b769",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/mac-store-5.png",
+          "md5": "2a9424ad8f60daf60c6cdfec759808dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aa800019-474b-8e02-8006-f1d3df75c82d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/mac-store-6.png",
+          "md5": "c5001b29d4351e864ccb0fe1e4efc243",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "type": "APP_DESKTOP",
+      "setId": "7b5a62f1-b791-48d1-b886-3a716b47c8fb",
+      "verifiedAt": "2026-10-12T04:08:11.949Z",
+      "screenshots": [
+        {
+          "id": "0a400019-474b-8e02-8037-d63fe3f5f60f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/mac-store-1.png",
+          "md5": "af86daed20d6590161417d0dc4ba823b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b4000019-474b-8e02-8018-150137bb676c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/mac-store-2.png",
+          "md5": "23d0900b95f41834c9401cf7dd36e760",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fac00019-474b-8e02-8028-c8f0debc06cf",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/mac-store-3.png",
+          "md5": "9d41d50198f2e4759e57b5fedea94633",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0800019-474b-8e02-8010-f60d2de30256",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/mac-store-4.png",
+          "md5": "b89aed047225970d747908f618d6ea0e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0d800019-474b-8e02-8010-24f9021cefba",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/mac-store-5.png",
+          "md5": "f554dab5ae836d1d53ff532ad910533a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8e800019-474b-8e02-8014-6ee537340407",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/mac-store-6.png",
+          "md5": "551dd9884f2bbe53613205dac7154db9",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "type": "APP_DESKTOP",
+      "setId": "89494333-73da-4fc8-b890-c48154851f4b",
+      "verifiedAt": "2026-10-12T04:08:24.812Z",
+      "screenshots": [
+        {
+          "id": "1fc00019-474b-8e02-800b-9c0e641c0d09",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/mac-store-1.png",
+          "md5": "15b1ec6e721493e75dc54eb88695ff8b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cf400019-474b-8e02-8023-1dc64b02d681",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/mac-store-2.png",
+          "md5": "69cead63d9e7d6a744f8b48d080049ce",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a6800019-474b-8e02-8016-4570cab06c2d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/mac-store-3.png",
+          "md5": "cc7c79758f5d9146a5dcc360e0ee00a2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa000019-474b-8e02-803d-753d51d68659",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/mac-store-4.png",
+          "md5": "cd9b80fbb78c04b05570403e0a6ed6fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab000019-474b-8e02-802a-af4d6b6ebe8c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/mac-store-5.png",
+          "md5": "3fdaac294e6ebe7a56ec0f9f84d76b7a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f7400019-474b-8e02-801e-3fb489b62255",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/mac-store-6.png",
+          "md5": "b1a80ad4756637f9975405d44be6b08d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "ur-PK",
+      "sourceLocale": "ur",
+      "type": "APP_DESKTOP",
+      "setId": "bac861de-03e9-4990-a80a-9bd3e45932b8",
+      "verifiedAt": "2026-10-12T04:08:39.805Z",
+      "screenshots": [
+        {
+          "id": "e4800019-474b-8e02-803e-7748ea91b7dc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/mac-store-1.png",
+          "md5": "c2f17910c3f9e923cfb84d26665011fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "52c00019-474b-8e02-8014-40b6d7454bc0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/mac-store-2.png",
+          "md5": "253280953fe56c2d5fba37f963587747",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c1000019-474b-8e02-8029-4262f8f9034e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/mac-store-3.png",
+          "md5": "0d3dd2b05cde508f66eceabbcdd1aabd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a1c00019-474b-8e02-8020-004388997d4a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/mac-store-4.png",
+          "md5": "86255841857f932b86b9a197b10c6cef",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "48c00019-474b-8e02-8024-0755ebd0b6e5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/mac-store-5.png",
+          "md5": "4cb0eab3b3d423a7bc2ad0485f6f904e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fd000019-474b-8e02-8028-0844ac9d273d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/mac-store-6.png",
+          "md5": "2113a7820cc183ec19c1c4d727ecb1a1",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "MAC_OS",
+      "version": "1.2",
+      "versionId": "1d6303e3-5beb-4fd1-ab9b-73db219e67d3",
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "type": "APP_DESKTOP",
+      "setId": "0a28fb95-f203-4c53-a6b5-7f4bdbd31a24",
+      "verifiedAt": "2026-10-12T04:08:52.641Z",
+      "screenshots": [
+        {
+          "id": "ca800019-474b-8e02-8003-75bf460c7d68",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/mac-store-1.png",
+          "md5": "e9d593ba524a36c7d246d30ffa95e41f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83c00019-474b-8e02-8019-47a946627e55",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/mac-store-2.png",
+          "md5": "a8c3a4085bd444b9b95dfeb50a214225",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4d400019-474b-8e02-8020-5e0244b957c1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/mac-store-3.png",
+          "md5": "868a3d8292ebdca8c5b2967b8ee48414",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dfc00019-474b-8e02-8021-d12de8ee603e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/mac-store-4.png",
+          "md5": "3cf1658d3a3cb177ee7ccfbf4b7d1404",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "df000019-474b-8e02-8023-8415e33e3216",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/mac-store-5.png",
+          "md5": "7f759adc05cf87233c3df36bfc23784d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5c00019-474b-8e02-8008-20e5ff509e12",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/mac-store-6.png",
+          "md5": "40c6e2eae66bd62c30d6ffdb993012bc",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "73a7df25-df4c-405b-930c-160e4e87fb53",
+      "verifiedAt": "2026-10-12T04:09:07.900Z",
+      "screenshots": [
+        {
+          "id": "40400019-474b-8e02-8018-669655de21b4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/vision-store-1.png",
+          "md5": "4be3c5ed4f321e699220ee9ddff00944",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3ec00019-474b-8e02-8022-9115df23c3b6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/vision-store-2.png",
+          "md5": "7cd0380ef7297a9a4ecfc4f9a99585c7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fb400019-474b-8e02-802a-b9b2549616c3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/vision-store-3.png",
+          "md5": "7e353a21b84c8a28f421fb25c77a6394",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "36800019-474b-8e02-8030-a1d0b2ff1d04",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/vision-store-4.png",
+          "md5": "7168a02abbc1788ca6efc9b246a2119f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2000019-474b-8e02-8011-bb3cb7f752d4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/vision-store-5.png",
+          "md5": "7701b9947953f8a8807d8bf16aa87475",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dd800019-474b-8e02-8036-32ee0b25e3fb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ar/vision-store-6.png",
+          "md5": "353cf558c0deaf0cf8646fcd7bda325f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "8ab192b3-c004-4eb8-a2a4-ff52ee04417a",
+      "verifiedAt": "2026-10-12T04:09:20.550Z",
+      "screenshots": [
+        {
+          "id": "a0800019-474b-8e02-8037-3640f323820b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/vision-store-1.png",
+          "md5": "c2d9df83cd6577009d215be737131238",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c5c00019-474b-8e02-8018-6fbdad05da6e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/vision-store-2.png",
+          "md5": "fabc503af2ac64548afd78cfa0cc533c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d3000019-474b-8e02-8028-3929375be7b6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/vision-store-3.png",
+          "md5": "6842564c6529bd1b74aed4e134729ea2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2f800019-474b-8e02-802f-cd9f8090d3e3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/vision-store-4.png",
+          "md5": "6455ec146b862a11afe186fdc65440c4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a0c00019-474b-8e02-8019-377d64abc37f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/vision-store-5.png",
+          "md5": "8ab031741765869443693331e8086fc4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80800019-474b-8e02-8004-27f5d6720b3e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/bn/vision-store-6.png",
+          "md5": "1947accae6f77af4147641e539a4f39a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "73d8e841-01b1-42d2-8016-31c6fca9d244",
+      "verifiedAt": "2026-10-12T04:09:35.068Z",
+      "screenshots": [
+        {
+          "id": "c2c00019-474b-8e02-803d-7e149baf02f9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/vision-store-1.png",
+          "md5": "a4186996b986f769e9adb1c3b2e05233",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9b400019-474b-8e02-8004-157807680055",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/vision-store-2.png",
+          "md5": "edcecd7e4c14f99a9d08ffa1e9fddd6e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1a400019-474b-8e02-802e-ad6387060509",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/vision-store-3.png",
+          "md5": "08ba7a737069867141d7f3ed96e3a016",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f4000019-474b-8e02-8003-22009d605330",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/vision-store-4.png",
+          "md5": "88a5d0876135e34547800f56b1d2024e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d6c00019-474b-8e02-8038-8321589afce1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/vision-store-5.png",
+          "md5": "1e729d4e4b437c7fd8cb5ce6d172a3db",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1e800019-474b-8e02-8013-e319bd0aa232",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ca/vision-store-6.png",
+          "md5": "21d9beb27682ef68a3ea33fdfbdc43d8",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "3cc5aefb-b606-45c3-9233-08835111a3e6",
+      "verifiedAt": "2026-10-12T04:09:48.326Z",
+      "screenshots": [
+        {
+          "id": "47000019-474b-8e02-802f-5b14b82f5746",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/vision-store-1.png",
+          "md5": "8da606c3cbf906c6a4ebae72f538924f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7d400019-474b-8e02-8035-8c706e3a43cc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/vision-store-2.png",
+          "md5": "004b30e02333eab39b96233cfb8f257a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3800019-474b-8e02-803f-4ab3fbbe62f5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/vision-store-3.png",
+          "md5": "d82bf0f753953ca7cd84924bcb158183",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "abc00019-474b-8e02-8003-184a86a90644",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/vision-store-4.png",
+          "md5": "e727b2b48d7a48ca303c9098bda9bdb6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "93000019-474b-8e02-8020-e596e507d63f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/vision-store-5.png",
+          "md5": "0802ac495144c31de231a91527e5e836",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3c800019-474b-8e02-8038-5b53627f2ff4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hans/vision-store-6.png",
+          "md5": "a963619bcde39012ed31ef9404e6e26d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "5c9ee951-d786-48a7-864c-c67bbaafb308",
+      "verifiedAt": "2026-10-12T04:10:02.432Z",
+      "screenshots": [
+        {
+          "id": "3b000019-474b-8e02-8000-8759ab5caf67",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/vision-store-1.png",
+          "md5": "1cce93ee2d8cb7defa45967d2ebe8e8f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aa800019-474b-8e02-802e-a367bc465ec4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/vision-store-2.png",
+          "md5": "4d8458b0806f3c4d629ddcae228d8f2f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38800019-474b-8e02-800f-6916887050df",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/vision-store-3.png",
+          "md5": "76b62333451a7e6ebf7e14059959e623",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43800019-474b-8e02-800e-9302e451c94b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/vision-store-4.png",
+          "md5": "64ebc1c168f0806d7fc8a899e690acff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e9400019-474b-8e02-8034-93dee82f4dd1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/vision-store-5.png",
+          "md5": "d58746f70eaa9e96d87f62ccc89e6671",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab000019-474b-8e02-8006-0718e4256bd8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/zh-Hant/vision-store-6.png",
+          "md5": "f3a28df087c78b476162456ed90e6dc7",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "654694f8-e1d6-49cc-99cd-907d2ed5bd8a",
+      "verifiedAt": "2026-10-12T04:10:15.972Z",
+      "screenshots": [
+        {
+          "id": "35c00019-474b-8e02-800e-1ec88ad7ab26",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/vision-store-1.png",
+          "md5": "934d71f820d30a3ff59ea9de8eb78978",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62800019-474b-8e02-8030-e2fa68913d87",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/vision-store-2.png",
+          "md5": "1dcdb2d4b97a3a216472572e2c4f0fdf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d000019-474b-8e02-8019-e0e1ecc524b0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/vision-store-3.png",
+          "md5": "3501fc590f371d3a353cb47eec03a938",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3c000019-474b-8e02-8008-a97f0051ece3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/vision-store-4.png",
+          "md5": "b6a8804f3f86fcb107603287c55f3f6c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b8000019-474b-8e02-8019-4b260efe8388",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/vision-store-5.png",
+          "md5": "1919a4368012598fb685b38fed9ff137",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d9400019-474b-8e02-8014-5aeef09dfdb5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hr/vision-store-6.png",
+          "md5": "2aacc8be199e9f90e0cbeef1a1d5c441",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "dd952583-f6ec-4f56-8905-30a7831b4cc0",
+      "verifiedAt": "2026-10-12T04:10:44.309Z",
+      "screenshots": [
+        {
+          "id": "9d800019-474b-8e02-8008-623f12c92509",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/vision-store-1.png",
+          "md5": "6cded9a1e9aa10303ea7e72f84496876",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66000019-474b-8e02-8030-5f9569c70c31",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/vision-store-2.png",
+          "md5": "b511e137f5bffb77e6bdce90a3f13426",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bec00019-474b-8e02-800c-281af62783e7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/vision-store-3.png",
+          "md5": "316eec9a1fee985aafbf483df8b67f8c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ef000019-474b-8e02-803e-d52579325e9c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/vision-store-4.png",
+          "md5": "b0a173d1c51d01e96c50712cd75f1114",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ba000019-474b-8e02-802b-a8a94cad8dd0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/vision-store-5.png",
+          "md5": "f0e2ff13e694d147a5a278304d830e33",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "88800019-474b-8e02-8032-b8020e8d34fd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/da/vision-store-6.png",
+          "md5": "e035987781f82d8ee439e3ca0c451ee0",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "341e889a-a53f-4893-90aa-6854fc9d09eb",
+      "verifiedAt": "2026-10-12T04:11:12.176Z",
+      "screenshots": [
+        {
+          "id": "4b800019-474b-8e02-8011-a8ef439cbc16",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/vision-store-1.png",
+          "md5": "14d6b5d9f4afb3e0f50db83a82911dde",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d9400019-474b-8e02-800a-5084d322e9bd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/vision-store-2.png",
+          "md5": "5692a1c1aeb5c275e0ddb6ab50441dff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1000019-474b-8e02-803e-f81ca602d3d3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/vision-store-3.png",
+          "md5": "6b6d08161261999a4bc0ca642db84e3a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f0800019-474b-8e02-8033-92fdda15e2ab",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/vision-store-4.png",
+          "md5": "322b30191d79342cd46758283099a132",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7cc00019-474b-8e02-801d-567d6cabca9e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/vision-store-5.png",
+          "md5": "9ac7b01f495e006182797c9d6920e4da",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "af800019-474b-8e02-8013-b05225e46b6b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nl/vision-store-6.png",
+          "md5": "cbff5cacfe000d51b35de881aaf6a207",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "b8a9e095-149f-4788-bf9c-03584975a49c",
+      "verifiedAt": "2026-10-12T04:11:32.143Z",
+      "screenshots": [
+        {
+          "id": "19000019-474b-8e02-801b-13f5af45bf41",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/vision-store-1.png",
+          "md5": "952f9f2404b31fb55aec2bba87a4e0bd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "adc00019-474b-8e02-8010-676b09244246",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/vision-store-2.png",
+          "md5": "a789b967281952ef497ee13a8091afe3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a4800019-474b-8e02-8004-d1729881111b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/vision-store-3.png",
+          "md5": "cc9b82ef02aaeacc4c5b634b9beba408",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aa000019-474b-8e02-802c-cd7e00962c7a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/vision-store-4.png",
+          "md5": "8693c1fc9724ad8377daa73e4b318aa9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9800019-474b-8e02-8036-a06602cd74c4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/vision-store-5.png",
+          "md5": "6c506248d96dd1e6d452c9fcd7e16f1f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07400019-474b-8e02-800b-5a038d47d9a9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/cs/vision-store-6.png",
+          "md5": "cf876ac5f0d92f2881c9c985abc5d94d",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "37011889-e24f-4543-ae17-5b318b717d46",
+      "verifiedAt": "2026-10-12T04:11:42.186Z",
+      "screenshots": [
+        {
+          "id": "da400019-474b-8e02-803d-e12c08af1f7b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/vision-store-1.png",
+          "md5": "221180bcd9a925d3c695b06e0e820aa1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d4400019-474b-8e02-8009-c34f323a4873",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/vision-store-2.png",
+          "md5": "f21bdd8176db06a608bac69b3bf00739",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80000019-474b-8e02-8018-c00f5a84f6b0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/vision-store-3.png",
+          "md5": "0cbaf202c4f9a3d9eff5165315698ab3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ccc00019-474b-8e02-800c-0464fe89d86c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/vision-store-4.png",
+          "md5": "93f6b192d030c8c005a580a6a8fc61e8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18400019-474b-8e02-802f-b170f12391eb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/vision-store-5.png",
+          "md5": "f9c6545fda80813ae5426736c013e0e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07000019-474b-8e02-8026-f9c5e15b8a00",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-AU/vision-store-6.png",
+          "md5": "5b8e2a228d2bf6278f76f4920045d56e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "8c6576b1-e76f-4a6a-a590-3a02b046d3f4",
+      "verifiedAt": "2026-10-12T04:12:00.025Z",
+      "screenshots": [
+        {
+          "id": "39c00019-474b-8e02-802e-345dffd7c38b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-1.png",
+          "md5": "221180bcd9a925d3c695b06e0e820aa1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76800019-474b-8e02-8008-4e94d4250488",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-2.png",
+          "md5": "f21bdd8176db06a608bac69b3bf00739",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15800019-474b-8e02-8001-daa316188f06",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-3.png",
+          "md5": "aa5941b07dbd61f6f54ecda85985bf8e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d4400019-474b-8e02-8039-fcc87bbb4b1b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-4.png",
+          "md5": "2e881e3b51c55a8918a9089db8b3e587",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d1400019-474b-8e02-801f-ea64f7a473a6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-5.png",
+          "md5": "f9c6545fda80813ae5426736c013e0e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "55400019-474b-8e02-8035-4e30abb948a8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-6.png",
+          "md5": "5b8e2a228d2bf6278f76f4920045d56e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "42b7b10b-cb02-469b-b0e8-fe765329cde8",
+      "verifiedAt": "2026-10-12T04:12:11.574Z",
+      "screenshots": [
+        {
+          "id": "a1c00019-474b-8e02-8033-72c4389c57da",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/vision-store-1.png",
+          "md5": "221180bcd9a925d3c695b06e0e820aa1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8e400019-474b-8e02-8038-a7678bbf3e0c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/vision-store-2.png",
+          "md5": "f21bdd8176db06a608bac69b3bf00739",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "25800019-474b-8e02-803f-6d8a0155aac8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/vision-store-3.png",
+          "md5": "30648f9b4ca66a58372c79ce521f22d8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "24c00019-474b-8e02-8016-4fde5761d5c5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/vision-store-4.png",
+          "md5": "7a3d8763de2998a028d76870b6611790",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "12000019-474b-8e02-8014-363d2b603a38",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/vision-store-5.png",
+          "md5": "f9c6545fda80813ae5426736c013e0e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d3400019-474b-8e02-8027-07746f6548a0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-GB/vision-store-6.png",
+          "md5": "5b8e2a228d2bf6278f76f4920045d56e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "d5d3dbb7-4c46-4b1e-a389-8e1f8998b824",
+      "verifiedAt": "2026-10-12T04:12:23.310Z",
+      "screenshots": [
+        {
+          "id": "65000019-474b-8e02-8020-52ec06b18c3a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-1.png",
+          "md5": "221180bcd9a925d3c695b06e0e820aa1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6cc00019-474b-8e02-801d-6164ecf92435",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-2.png",
+          "md5": "f21bdd8176db06a608bac69b3bf00739",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e2000019-474b-8e02-8002-bfc44e41cc33",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-3.png",
+          "md5": "aa5941b07dbd61f6f54ecda85985bf8e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "49000019-474b-8e02-8010-8aaf28c48a1d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-4.png",
+          "md5": "2e881e3b51c55a8918a9089db8b3e587",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7c00019-474b-8e02-8015-916e34c23ef5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-5.png",
+          "md5": "f9c6545fda80813ae5426736c013e0e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97400019-474b-8e02-8018-7e5c28b43685",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/en-US/vision-store-6.png",
+          "md5": "5b8e2a228d2bf6278f76f4920045d56e",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "b9ca0cc4-e9af-46b7-8132-9374363956e4",
+      "verifiedAt": "2026-10-12T04:12:40.364Z",
+      "screenshots": [
+        {
+          "id": "e0000019-474b-8e02-8034-c7b3e7de5e14",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/vision-store-1.png",
+          "md5": "bf5334926c955e9cc151edb18d5bc527",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0e800019-474b-8e02-801c-a919c0dd9f4f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/vision-store-2.png",
+          "md5": "49678b96cb062c358d173a62c985755d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5f400019-474b-8e02-802b-dbe5ef228074",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/vision-store-3.png",
+          "md5": "c7e73e1161d674d2f96e640e68786bc1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2000019-474b-8e02-8027-51e0eae66431",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/vision-store-4.png",
+          "md5": "be49cd7caa1db1568ef4ea49fda582b6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3f800019-474b-8e02-8029-1b32c0a2ab57",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/vision-store-5.png",
+          "md5": "a7e89a5f393a5849cfdbbcc646845693",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b3800019-474b-8e02-8023-623ce4a4b822",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fi/vision-store-6.png",
+          "md5": "cd143683134ff5984ec78475ef973664",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "9cffc827-3cf1-4e9b-86fb-8f0806999a72",
+      "verifiedAt": "2026-10-12T04:12:51.566Z",
+      "screenshots": [
+        {
+          "id": "2b400019-474b-8e02-8008-c4e0902242b8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/vision-store-1.png",
+          "md5": "c0f8f579c63e8e608cd14566aff04c99",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "98400019-474b-8e02-800d-e42f3d45edc2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/vision-store-2.png",
+          "md5": "2f04a52a4e5f7fc6443faee0d40284a0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2000019-474b-8e02-802c-28d277edb90e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/vision-store-3.png",
+          "md5": "e2f857b33a976d68a5470c7286c9600d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d0000019-474b-8e02-8039-b5b76cf63527",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/vision-store-4.png",
+          "md5": "53e928c1828a3a9b62798d46e35e43a4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8ec00019-474b-8e02-8020-afb27b66c04d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/vision-store-5.png",
+          "md5": "335fc5ecb3f1cfe0dc0d410983e5c499",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60400019-474b-8e02-802f-128334353190",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr/vision-store-6.png",
+          "md5": "ee54a3c19e91bc11231dfffbb725e601",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "ba064f46-47ce-4d0f-89be-546ffac9785d",
+      "verifiedAt": "2026-10-12T04:13:08.573Z",
+      "screenshots": [
+        {
+          "id": "30c00019-474b-8e02-8033-8cd1a67ffe0c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/vision-store-1.png",
+          "md5": "f1eaf6dcdbc94b9969a0d93884d67b1f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15400019-474b-8e02-8003-b9226867a368",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/vision-store-2.png",
+          "md5": "459dc3397c161877c253ef04a69d6141",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11800019-474b-8e02-802a-147f72584b5a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/vision-store-3.png",
+          "md5": "908a5c2891af0920959ae5d39cb2eb6b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7000019-474b-8e02-8019-51ae55459904",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/vision-store-4.png",
+          "md5": "c4cafb3c204a3aa20ebabef7a920a3d1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ecc00019-474b-8e02-8002-e29620f59062",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/vision-store-5.png",
+          "md5": "ac1a46e289e822138c85133e99c8061c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "23400019-474b-8e02-801c-24dd899b4482",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/fr-CA/vision-store-6.png",
+          "md5": "1b342a2b39b85916529e158558c5b5f9",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "f4494432-661b-4f30-b24b-58aaf071967a",
+      "verifiedAt": "2026-10-12T04:13:19.762Z",
+      "screenshots": [
+        {
+          "id": "26400019-474b-8e02-8017-afb88a4ad5d8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/vision-store-1.png",
+          "md5": "f77f720b9d223e0b43b15eead7586a18",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "76800019-474b-8e02-800d-952a63eb7226",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/vision-store-2.png",
+          "md5": "53dd95fa192c3cac4fe9bd2839b352a5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "21800019-474b-8e02-8000-59902ef36f8e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/vision-store-3.png",
+          "md5": "14facf6737f72772d409c6af9f2ce197",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f9400019-474b-8e02-8018-d3cbb8108873",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/vision-store-4.png",
+          "md5": "7b8b96ccbc52960963616552ca35296e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0c800019-474b-8e02-801b-4ea299ce5750",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/vision-store-5.png",
+          "md5": "96ee169d55e6afe9f6b7c6785dde59f7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "48c00019-474b-8e02-8035-306ffec0998e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/de/vision-store-6.png",
+          "md5": "c4eb854c4cefbb169a475fca163375de",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "bda4fab6-4fb3-47c0-8848-c2351daf0a4a",
+      "verifiedAt": "2026-10-12T04:13:36.862Z",
+      "screenshots": [
+        {
+          "id": "7c000019-474b-8e02-800c-ab2d3c545804",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/vision-store-1.png",
+          "md5": "94d2df6b09d838862a0e02f370a238bc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4c00019-474b-8e02-8001-4ef20d01037e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/vision-store-2.png",
+          "md5": "8d21bb1eb43d6f7105fe5e643c8b11ae",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1b000019-474b-8e02-8028-aa7403960340",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/vision-store-3.png",
+          "md5": "023ba7d135075cc29fbe3acce0e9fabb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cf800019-474b-8e02-8013-4bc5aa38b27b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/vision-store-4.png",
+          "md5": "08ebcaf0aac23939aaea4c602b8e2fcf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b2400019-474b-8e02-8017-74e7c5337e6d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/vision-store-5.png",
+          "md5": "35a94c7593308acdd2a52810219e7e4b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "31400019-474b-8e02-8021-1ad783911a6b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/el/vision-store-6.png",
+          "md5": "292671894eafc38f6b512f7210215ade",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "129087e6-b13e-4c7f-b7b9-d6539f365d60",
+      "verifiedAt": "2026-10-12T04:13:50.167Z",
+      "screenshots": [
+        {
+          "id": "38000019-474b-8e02-801e-c8abd194d45e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/vision-store-1.png",
+          "md5": "69fea81d89da453fa17fec4a13ef77c2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e5400019-474b-8e02-8029-0ac909224a72",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/vision-store-2.png",
+          "md5": "e8bf857490998d90d0c98f174df43c4f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "32800019-474b-8e02-8016-279a7314df8f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/vision-store-3.png",
+          "md5": "5c356e6af69b18f75c43fd6b71b14a12",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5dc00019-474b-8e02-8019-5356a18cdc92",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/vision-store-4.png",
+          "md5": "d01959d6bd3973c5b589cbc9edbf5cb0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bdc00019-474b-8e02-8039-d4747b9cbb47",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/vision-store-5.png",
+          "md5": "5a33d81cb7505108d03cda37160f4a66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05400019-474b-8e02-8035-9ba8db40d888",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/gu/vision-store-6.png",
+          "md5": "6ed1129c9323196b2ca34fb00353d3ce",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "9ba7756f-159d-4702-8849-843ac312749f",
+      "verifiedAt": "2026-10-12T04:14:05.488Z",
+      "screenshots": [
+        {
+          "id": "0e400019-474b-8e02-8033-bce47bfcb438",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/vision-store-1.png",
+          "md5": "92b517470a905b86d8a50b5b07ebcf01",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b400019-474b-8e02-8022-11fa4af77001",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/vision-store-2.png",
+          "md5": "b8b85f64aa57904275a153040efaca9f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60000019-474b-8e02-8024-321b0686a127",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/vision-store-3.png",
+          "md5": "8a839b1bb9a4d51281f7159fa0a3c770",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8ac00019-474b-8e02-8001-b656847bc10a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/vision-store-4.png",
+          "md5": "0678a11f04c29bac19079f9a3ef02032",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a9c00019-474b-8e02-8037-6162c9c8a628",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/vision-store-5.png",
+          "md5": "8d5e42400a12a23ddb44813d888e404b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0a000019-474b-8e02-8025-45f873766bd4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/he/vision-store-6.png",
+          "md5": "3313caafea47d6d2e2b87b7cb06ab4d1",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "15c09292-00c1-4b66-aa93-c83b7aa59062",
+      "verifiedAt": "2026-10-12T04:14:18.040Z",
+      "screenshots": [
+        {
+          "id": "e3400019-474b-8e02-8011-3f56f6494e70",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/vision-store-1.png",
+          "md5": "863cb45b254115b88fe4897d660a9769",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10800019-474b-8e02-8011-2d570cffbac4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/vision-store-2.png",
+          "md5": "dd7935678ced7748b9df0eb654aa37dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3800019-474b-8e02-8003-34d4db895edf",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/vision-store-3.png",
+          "md5": "cddd6346cdd8e5cd340b7fed6cc25a24",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f1c00019-474b-8e02-8007-53ab17ef504b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/vision-store-4.png",
+          "md5": "505db740fd5dd77f8c89459744fdd116",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8a000019-474b-8e02-8028-6242b0dd5a93",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/vision-store-5.png",
+          "md5": "267a12109c8de72571ed7e57204a95a8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2fc00019-474b-8e02-8016-fa35926cdefa",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hi/vision-store-6.png",
+          "md5": "6c9a32a6da08ac2381f1a228dfaf5e68",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "8a36754d-7e55-4480-a856-d125fbe8556e",
+      "verifiedAt": "2026-10-12T04:14:33.240Z",
+      "screenshots": [
+        {
+          "id": "48c00019-474b-8e02-8009-e2b773b1fefd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/vision-store-1.png",
+          "md5": "fbccd10256d0d4dbf1b0d26986fb8268",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9a800019-474b-8e02-8016-093e1ebf4f96",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/vision-store-2.png",
+          "md5": "25a0133ce297e515b0539b4636878b25",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99800019-474b-8e02-800e-ee586dfaff5d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/vision-store-3.png",
+          "md5": "bc9ba4917b00dc2942714c7145d1f29f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05c00019-474b-8e02-8032-b3020ac687d0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/vision-store-4.png",
+          "md5": "ee31ce13c950d0977eb2fc8c007cb9e2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "de000019-474b-8e02-802c-6c9befe14e43",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/vision-store-5.png",
+          "md5": "db2fd48cce37e5dc72f5ded3673d4822",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99400019-474b-8e02-803a-7c22030f5f65",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/hu/vision-store-6.png",
+          "md5": "1a58219dcc248ac738b9995c9ee46026",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "28d0dc9e-dd3e-4d3c-8736-5ebe14d7e610",
+      "verifiedAt": "2026-10-12T04:14:45.629Z",
+      "screenshots": [
+        {
+          "id": "2c000019-474b-8e02-8002-a6a7e8a088d6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/vision-store-1.png",
+          "md5": "9b16ee7e4b136cddb996fe2724cd164a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50c00019-474b-8e02-8001-bd21dfa84ce1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/vision-store-2.png",
+          "md5": "e9ebd3dc3ef8f8b4a781b79075165902",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bb000019-474b-8e02-8012-557a781da50c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/vision-store-3.png",
+          "md5": "43a3a41e43813b2e0942399696356585",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15c00019-474b-8e02-803e-10895cb91b83",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/vision-store-4.png",
+          "md5": "c44821f5193d765b3b8bb88fcc4a1451",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8400019-474b-8e02-8030-2eedbeb100f9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/vision-store-5.png",
+          "md5": "38a8a451f272e8053495077825287fb5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aec00019-474b-8e02-800c-830cb24f1665",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/id/vision-store-6.png",
+          "md5": "4e81cb8aa1e6a684b6638bce9429fc99",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "2f464a5b-e7a4-417d-aa3d-963271620695",
+      "verifiedAt": "2026-10-12T04:15:00.592Z",
+      "screenshots": [
+        {
+          "id": "8f800019-474b-8e02-8020-345a6cfd31da",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/vision-store-1.png",
+          "md5": "68ebd6780f93d1e4757e35acce2415b5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9bc00019-474b-8e02-8000-561c9ebc076c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/vision-store-2.png",
+          "md5": "513a1cff2198615d6d076daf5c0c378b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dd400019-474b-8e02-802f-d276ea526dea",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/vision-store-3.png",
+          "md5": "a40836add015b2d520652dd7af45f4eb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e2400019-474b-8e02-8006-04f9c0e5821e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/vision-store-4.png",
+          "md5": "e475b023f38bcc05ec6b9eb6e975f19b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3b000019-474b-8e02-8009-fecabcbd3e4d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/vision-store-5.png",
+          "md5": "88c7158ab992515ee055f14f84271840",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fec00019-474b-8e02-8027-f815bfdf60c5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/it/vision-store-6.png",
+          "md5": "35f0c9cde30df599ab27e2e82a4d40a8",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "c18db759-219d-45ce-8f18-bc7edd23e25e",
+      "verifiedAt": "2026-10-12T04:15:13.089Z",
+      "screenshots": [
+        {
+          "id": "16000019-474b-8e02-8016-f06bfef75e64",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/vision-store-1.png",
+          "md5": "f7d14fbfe0e243c7c0dc8e4901e1a362",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2400019-474b-8e02-8016-7bd43ce0c739",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/vision-store-2.png",
+          "md5": "db92e2c206bcb4db41c1854f072ebbee",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "47400019-474b-8e02-8026-54d136a93bc2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/vision-store-3.png",
+          "md5": "7321406de728a87a40bce350ed4ad07e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15000019-474b-8e02-801b-9eae1d42def2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/vision-store-4.png",
+          "md5": "3c5cb41cbe32ffd169147d4683567b0f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a7000019-474b-8e02-8018-56c7d3fe71dc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/vision-store-5.png",
+          "md5": "0934c827b49846fa4848841069fb6f0e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8c800019-474b-8e02-8025-e424ba45e891",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ja/vision-store-6.png",
+          "md5": "7abef8273d766e72d355f5779c795b3c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "e488d74f-ae24-4755-9e8f-f2c4a8e0ec53",
+      "verifiedAt": "2026-10-12T04:15:28.256Z",
+      "screenshots": [
+        {
+          "id": "e3c00019-474b-8e02-802d-c1cdb491d83e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/vision-store-1.png",
+          "md5": "7a6be0eee057731aa0b9c5250fdd44a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "02800019-474b-8e02-802f-174ce33a3e6b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/vision-store-2.png",
+          "md5": "8e78bfb591f5a6e12afcbb285112f5fd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2a800019-474b-8e02-8036-3578dce0f415",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/vision-store-3.png",
+          "md5": "6ff9beb054804109d05aec71e7583b17",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18400019-474b-8e02-8014-a916f351c6b1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/vision-store-4.png",
+          "md5": "bba4e9fa5423671d81b5cb9fbffaa18a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "14800019-474b-8e02-8019-8ec5847f576c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/vision-store-5.png",
+          "md5": "975393e4aca7a9dd2e4f799e67130228",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "73c00019-474b-8e02-8026-657f00e3a954",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/kn/vision-store-6.png",
+          "md5": "b63c4753ff1e6653104a9b067dadcd1f",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "10e13b0e-174c-44ef-a239-898a5357289f",
+      "verifiedAt": "2026-10-12T04:15:40.576Z",
+      "screenshots": [
+        {
+          "id": "89400019-474b-8e02-8020-f1cd78ef406d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/vision-store-1.png",
+          "md5": "65a1aa9f645528d7744e64626ae3fa53",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59800019-474b-8e02-803a-cb794dd194e3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/vision-store-2.png",
+          "md5": "bfbc14b929489fbf0259199d821eb7fd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "31800019-474b-8e02-8023-cbece0bc869e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/vision-store-3.png",
+          "md5": "9aee4a6959988fecf9e3f9b3c44846d5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6f400019-474b-8e02-8009-5446bccb4bfb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/vision-store-4.png",
+          "md5": "627246bf1b44e85dc5038f24d8630684",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d2800019-474b-8e02-801d-6b6bffe0850e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/vision-store-5.png",
+          "md5": "1f43d30c86b597fd9bb4b16c0bc673ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86800019-474b-8e02-8034-8d5cc41a02cb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ko/vision-store-6.png",
+          "md5": "3aded8fde50a4a261240989747587478",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "e4088ff4-a992-49a3-871a-9cec1efc66bb",
+      "verifiedAt": "2026-10-12T04:15:55.844Z",
+      "screenshots": [
+        {
+          "id": "13800019-474b-8e02-8037-9188362c19fa",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/vision-store-1.png",
+          "md5": "1562f88876c286582a0d862a28a1511e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e5c00019-474b-8e02-802e-0dba77fc2cfc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/vision-store-2.png",
+          "md5": "d03c2a6e7877e22504c610a306ed4ac8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "45000019-474b-8e02-8030-561cb6f5bd2a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/vision-store-3.png",
+          "md5": "4a247bcc94ae7845a8a03036c6eca632",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63800019-474b-8e02-8031-fabcfa2444c5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/vision-store-4.png",
+          "md5": "1f6e5383733360a90d5d0600a533f3df",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01000019-474b-8e02-8021-565e69424323",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/vision-store-5.png",
+          "md5": "d8c3251e1c23ff99785585d8db640523",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "72c00019-474b-8e02-800d-0bc247c37966",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ms/vision-store-6.png",
+          "md5": "353af99f786002fbedce8e2bf0699878",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ml-IN",
+      "sourceLocale": "ml",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "074105f6-696a-44e5-9988-e6dcf2bd4464",
+      "verifiedAt": "2026-10-12T04:16:09.438Z",
+      "screenshots": [
+        {
+          "id": "47800019-474b-8e02-801a-ed821070673b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/vision-store-1.png",
+          "md5": "84d68b0b8c3581027dfdfdc855408bb2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "91000019-474b-8e02-800b-20c61fd6015e",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/vision-store-2.png",
+          "md5": "2063fed9478cb68d1133c6a6954fd9ff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c6800019-474b-8e02-802d-13b8e89369f2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/vision-store-3.png",
+          "md5": "40dc0417f69e5f29c62b4959b5e066e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4bc00019-474b-8e02-800f-9317ee1596a4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/vision-store-4.png",
+          "md5": "9000c4128651513840ca0d57794538ae",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0c400019-474b-8e02-8021-4526bc12b651",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/vision-store-5.png",
+          "md5": "2efc475108a829345017f9e2b73c031c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "efc00019-474b-8e02-8033-23ff87b6fa3f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ml/vision-store-6.png",
+          "md5": "ce08edb52682c0c3eaf606599cf503d6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "eb5c6453-37b5-4596-a22e-969fa874d73b",
+      "verifiedAt": "2026-10-12T04:16:24.918Z",
+      "screenshots": [
+        {
+          "id": "16800019-474b-8e02-8016-7aba29db9fb1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/vision-store-1.png",
+          "md5": "42d24c4b1a2a88bd7dbd4d0db9419586",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a2000019-474b-8e02-8023-2b1e50baf32c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/vision-store-2.png",
+          "md5": "cc5486bb9a4d6611c701e9c9459dfe9a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2800019-474b-8e02-803b-2500df8eb545",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/vision-store-3.png",
+          "md5": "ea0732e2979e32f2a6642c79b7acfc90",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d1400019-474b-8e02-803f-545e00d0a65a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/vision-store-4.png",
+          "md5": "fd13b0258f0d36caa6977058fce4434d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d1800019-474b-8e02-800e-3e4efcc661c5",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/vision-store-5.png",
+          "md5": "6c08c34359a222f99f4fe406cb4de652",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8800019-474b-8e02-801e-93b629db9839",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/mr/vision-store-6.png",
+          "md5": "761e06dfdc58935a727c7fc3039d2d04",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "b6600376-0407-4caa-98ac-a68c273f0f5b",
+      "verifiedAt": "2026-10-12T04:16:38.120Z",
+      "screenshots": [
+        {
+          "id": "d6000019-474b-8e02-8016-c34a2b53b0dc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/vision-store-1.png",
+          "md5": "75c2ab0fb4b48cc10424e86493cfc4d8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7ac00019-474b-8e02-803a-84885cd955d1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/vision-store-2.png",
+          "md5": "06bbb5d1c00460bd1cb35626dcf3be89",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38000019-474b-8e02-803c-51e752d58616",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/vision-store-3.png",
+          "md5": "8a3a78f4353b21177e462a97f07055fa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fb000019-474b-8e02-801e-cadca8f505fb",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/vision-store-4.png",
+          "md5": "96faf12b87178b4852841b23cbab514a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4f400019-474b-8e02-8030-21b463984c5d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/vision-store-5.png",
+          "md5": "091c5a3fcf3f644809a13614cc1b89d4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38c00019-474b-8e02-8000-388a20bec517",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/nb/vision-store-6.png",
+          "md5": "359edf209c6e16cd48a359cb78d723c6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "85904625-a444-4c14-9572-7600d7f77ced",
+      "verifiedAt": "2026-10-12T04:16:52.476Z",
+      "screenshots": [
+        {
+          "id": "2b000019-474b-8e02-8013-7a80986e46af",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/vision-store-1.png",
+          "md5": "cb0c76bfae241769bac371177db03411",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "45800019-474b-8e02-801a-affc9ef56c92",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/vision-store-2.png",
+          "md5": "e06bf9768dcaddf5103f63d3fffede49",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "24000019-474b-8e02-8000-ee273ac0230f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/vision-store-3.png",
+          "md5": "32e8c77a3cd5b9f2baebba46c926628a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "02c00019-474b-8e02-8004-52c6ed879d10",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/vision-store-4.png",
+          "md5": "f22d90c8489bc8542b2d7186e7a45e24",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1dc00019-474b-8e02-800b-01aaf305f5ce",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/vision-store-5.png",
+          "md5": "c44703b0c541df26405a7cb1ff7a05ad",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5800019-474b-8e02-8011-40d9e25a5e59",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/or/vision-store-6.png",
+          "md5": "1831e797b82f02295cce495fb299445c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "5ce9b5f7-2360-4f90-909b-c54dcc8fac4f",
+      "verifiedAt": "2026-10-12T04:17:05.729Z",
+      "screenshots": [
+        {
+          "id": "49400019-474b-8e02-8001-11fc2d803619",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/vision-store-1.png",
+          "md5": "b3c6068e72886852f50a4d882c549d06",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bd800019-474b-8e02-803d-7f0d54a60b06",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/vision-store-2.png",
+          "md5": "f975999722589f44b0068bc1f1d7c4b3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fec00019-474b-8e02-801a-9332e1e3009c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/vision-store-3.png",
+          "md5": "5a6f1a41db42eb2502f33bdd7b05f286",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ac800019-474b-8e02-8023-5fac8e6ba12c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/vision-store-4.png",
+          "md5": "4ccf6b8806d2b85ef4a6975f7e390c44",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7d000019-474b-8e02-8025-2042d1077198",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/vision-store-5.png",
+          "md5": "7b66ac70866a3c6458c8df1c94acd7a3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "00000019-474b-8e02-8010-1644ed6c2bf3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pl/vision-store-6.png",
+          "md5": "83279d6c9ce6b2ce9679f39096af41e6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "34629884-ad02-4be4-be8c-1a7bfc8f4bbb",
+      "verifiedAt": "2026-10-12T04:17:20.195Z",
+      "screenshots": [
+        {
+          "id": "b4400019-474b-8e02-800f-856c9f6fe38c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/vision-store-1.png",
+          "md5": "309581c38bab6a7ca1abd3d239a941af",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3c00019-474b-8e02-8013-74b9763b5c7a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/vision-store-2.png",
+          "md5": "272cae350e5c9b1f04e50a0a4e2c81fd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a8000019-474b-8e02-8006-eddfbd7adbea",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/vision-store-3.png",
+          "md5": "8ad31500ef08792d982aa22b87a67d8d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f4000019-474b-8e02-8018-d0ec68f7665c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/vision-store-4.png",
+          "md5": "ae1395b93062831b70f79fe197079728",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85c00019-474b-8e02-8030-98dc94bd1116",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/vision-store-5.png",
+          "md5": "4a5f82df7098a385e4de72b95dd4d6cf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2ac00019-474b-8e02-8007-17b55c335680",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-BR/vision-store-6.png",
+          "md5": "c3d105366a3ec57cd09d14b72edbef1b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "e30a5b12-836a-4a51-92c2-c81f3907ec30",
+      "verifiedAt": "2026-10-12T04:17:33.518Z",
+      "screenshots": [
+        {
+          "id": "11c00019-474b-8e02-8029-116370d782d3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/vision-store-1.png",
+          "md5": "b23f830924aa01b46f584e9784490a67",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a2000019-474b-8e02-8010-286674b0112f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/vision-store-2.png",
+          "md5": "ed64cdec5b06f2e337702099f8cc15d3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab000019-474b-8e02-802f-97f6ad0e5058",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/vision-store-3.png",
+          "md5": "86c5492608b709e40b130de278487254",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c4000019-474b-8e02-8019-a9eeec350e33",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/vision-store-4.png",
+          "md5": "573ca0b498cea5ecc26ccf19973dd2ec",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "13000019-474b-8e02-8031-cbd43dd81dee",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/vision-store-5.png",
+          "md5": "0fc6d9b51b47f36564f5bc44cf980122",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "90000019-474b-8e02-8018-a0177b2cdcec",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pt-PT/vision-store-6.png",
+          "md5": "f9c29bc1b9a3e8a4836efade4666554a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "1fb3bdee-0dfd-4373-ae96-9e2ac6ce7359",
+      "verifiedAt": "2026-10-12T04:17:47.756Z",
+      "screenshots": [
+        {
+          "id": "10400019-474b-8e02-8014-4505673e805b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/vision-store-1.png",
+          "md5": "2fe5745739bee7166cb8f6fcd22c8db9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20c00019-474b-8e02-8011-f02ba0305379",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/vision-store-2.png",
+          "md5": "b5a9ab60a49c1f122954f83cdc8eb8bb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dd400019-474b-8e02-800b-6c60fa7115b2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/vision-store-3.png",
+          "md5": "b7093854ab752d16ea0ede6fbe382c91",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "68000019-474b-8e02-801a-639ea8c7f565",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/vision-store-4.png",
+          "md5": "41db9dfb5e573a8ae71a2d5416d5d92e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2c00019-474b-8e02-8020-0b6f8f32663f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/vision-store-5.png",
+          "md5": "ba11ac852a961ded988ff6b622339eb7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "17000019-474b-8e02-800c-fe1baef390df",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/pa/vision-store-6.png",
+          "md5": "b0e13d20b082ca5f7fb28e42c13cfa15",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "e31ca90e-4cd0-403f-bd2a-c32fa1171d1b",
+      "verifiedAt": "2026-10-12T04:18:01.062Z",
+      "screenshots": [
+        {
+          "id": "db000019-474b-8e02-8022-c62aaa09a912",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/vision-store-1.png",
+          "md5": "affc49425d08fe193b8827085f023154",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d4800019-474b-8e02-8018-e8a77f75462b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/vision-store-2.png",
+          "md5": "117b74915b7c71cb5ab5971a8c025f54",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "91c00019-474b-8e02-803c-641636555bd3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/vision-store-3.png",
+          "md5": "ca48f96d27b879584e0d018a667be061",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6a800019-474b-8e02-8023-be58a44bd007",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/vision-store-4.png",
+          "md5": "f179d609ff6cc212d411e5b301e69cc2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a4800019-474b-8e02-803b-0abb1409af46",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/vision-store-5.png",
+          "md5": "0da2af4d16db1af5f4e08f988159d654",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2ec00019-474b-8e02-8017-b6166fdad665",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ro/vision-store-6.png",
+          "md5": "5a91c226767dd8af21405ef2df1f9436",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "f7dc9246-10e2-4d3a-9a12-984f836b365e",
+      "verifiedAt": "2026-10-12T04:18:14.416Z",
+      "screenshots": [
+        {
+          "id": "60800019-474b-8e02-8027-fc0054e86f80",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/vision-store-1.png",
+          "md5": "a43305e55bde48967364f89da3199c8b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6c000019-474b-8e02-8031-c5e7e0cf60ce",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/vision-store-2.png",
+          "md5": "a4b1b114f1d4d008a1b0fa7fc823abd4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "29800019-474b-8e02-802d-1247d23b1fd6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/vision-store-3.png",
+          "md5": "ccc9c45851167582c88fc5e4e1b943ff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9a800019-474b-8e02-8019-f42fa7d251f8",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/vision-store-4.png",
+          "md5": "999ac7186f4875da274e222045962e21",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "03000019-474b-8e02-8024-b82e842c326c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/vision-store-5.png",
+          "md5": "453e7a61774e9f66587d5cc4bcc48d5c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ee400019-474b-8e02-800a-d79fa349fa4b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ru/vision-store-6.png",
+          "md5": "1ea617c2fbf9391c9e1bd8c1c7fe9a93",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "fa048dfa-be50-472d-9abc-a14b8e574afa",
+      "verifiedAt": "2026-10-12T04:18:29.204Z",
+      "screenshots": [
+        {
+          "id": "90400019-474b-8e02-8021-3e2aa5c5645c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/vision-store-1.png",
+          "md5": "553a78b0b53c16b72e32041c3499e9b8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "88c00019-474b-8e02-8020-7f98c0cc2398",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/vision-store-2.png",
+          "md5": "22f63bef582b50f894364d024422e937",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8a800019-474b-8e02-8021-8a7a4e40835c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/vision-store-3.png",
+          "md5": "52205d1d3385c23e373821b9bb0e873e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69400019-474b-8e02-803d-bf027651027b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/vision-store-4.png",
+          "md5": "184738c4a56d41ccf8787b0eaa70bb4b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c7400019-474b-8e02-8020-6cf8de4ffe50",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/vision-store-5.png",
+          "md5": "7b0075477ad0797bb12a29923d005582",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cb400019-474b-8e02-8019-869a235e5923",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sk/vision-store-6.png",
+          "md5": "9d9be97bd2c695cdaada02b7d383cdbb",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "e02dfe92-6325-45ae-b9c2-66d5ddbda5fd",
+      "verifiedAt": "2026-10-12T04:18:42.168Z",
+      "screenshots": [
+        {
+          "id": "80000019-474b-8e02-8000-c395597f67f0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/vision-store-1.png",
+          "md5": "6ca4ed50ced9c4bac8465a171a18208e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4c00019-474b-8e02-8039-63ebf3e0b398",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/vision-store-2.png",
+          "md5": "13eb0c923279b05b4d2de052db0d01c9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6e400019-474b-8e02-801f-397e3ff88f08",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/vision-store-3.png",
+          "md5": "b745c0e438d3c9292c59935edd646fd9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3fc00019-474b-8e02-802d-526e8d2a8ced",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/vision-store-4.png",
+          "md5": "e2b68657a040199bf10727792f46488c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6400019-474b-8e02-800c-35223c4a20a2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/vision-store-5.png",
+          "md5": "4fefd547dd82032c6695edc912c28e64",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e4400019-474b-8e02-801d-3bc1b2d8ab2c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sl/vision-store-6.png",
+          "md5": "5d3e7ed63b7fddd17a402d7d2ac57c87",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "es-MX",
+      "sourceLocale": "es-419",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "fb042ce7-0189-481b-8caa-b99fcf8c8624",
+      "verifiedAt": "2026-10-12T04:18:56.847Z",
+      "screenshots": [
+        {
+          "id": "81000019-474b-8e02-801c-ef572d9112df",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/vision-store-1.png",
+          "md5": "040e40d5e4a8a3b080f3e99a7e458b60",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83400019-474b-8e02-8022-9393ed3e961d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/vision-store-2.png",
+          "md5": "62fe2f4861f50c108a41b4f0a95facbd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1d400019-474b-8e02-802e-a41a48beeed9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/vision-store-3.png",
+          "md5": "b62168cb3a013a1d276d7a93e18551f8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "00800019-474b-8e02-801b-b4ba0aef8b39",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/vision-store-4.png",
+          "md5": "7f1129a2a327da399d8887124540930a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab000019-474b-8e02-8011-ffe7f9408531",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/vision-store-5.png",
+          "md5": "e295895fe8a3ebca48e895a61a7a3931",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69800019-474b-8e02-802d-73b18d2b5e40",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es-419/vision-store-6.png",
+          "md5": "e0a44292ffa16d4a84746b02206f65ec",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "194277d3-4799-4b81-9628-2df408668698",
+      "verifiedAt": "2026-10-12T04:19:09.407Z",
+      "screenshots": [
+        {
+          "id": "9e400019-474b-8e02-8033-9fd27b4ed21f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/vision-store-1.png",
+          "md5": "e0afa26303fbd968bd2254349e10824e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "67400019-474b-8e02-8032-e4fdce1580b6",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/vision-store-2.png",
+          "md5": "dec485b7801547ffda12daf6d99c8786",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "23800019-474b-8e02-8004-45c20e50fe14",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/vision-store-3.png",
+          "md5": "0db50ebb772e2b9a997ad98365a9afbc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e6c00019-474b-8e02-8003-8656db1c70de",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/vision-store-4.png",
+          "md5": "c25bfdf626167da9c49763e8ade75f7b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a3000019-474b-8e02-8008-bdc1f01d71ec",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/vision-store-5.png",
+          "md5": "3e24b13c9e4635c433aa423ddf50233a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f4800019-474b-8e02-8033-fc7365ef8a6a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/es/vision-store-6.png",
+          "md5": "54201886f496e6c56163acac24045b51",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "a08d55c5-8958-4a28-b475-62f9843ce62b",
+      "verifiedAt": "2026-10-12T04:19:24.561Z",
+      "screenshots": [
+        {
+          "id": "d9000019-474b-8e02-8014-9690089d08de",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/vision-store-1.png",
+          "md5": "da91dd02c0e30b7efc865a30f63746cd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95400019-474b-8e02-8019-6f2ca75dc861",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/vision-store-2.png",
+          "md5": "2eb723b27ee9678dcd7438dc42c1b13d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8cc00019-474b-8e02-800e-4a09c0cbcb06",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/vision-store-3.png",
+          "md5": "d69c28a769807e7415c45d6bab0c6f6c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "68800019-474b-8e02-800e-6af1c418968f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/vision-store-4.png",
+          "md5": "40d638eb688fc59274342fa94c41cc5e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c4c00019-474b-8e02-8001-d4c96bd6096c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/vision-store-5.png",
+          "md5": "ca0666264c91f4182bb069f7e43038e5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99c00019-474b-8e02-802e-e682c7a71856",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/sv/vision-store-6.png",
+          "md5": "ab55412e9f2c5f85f421921c4a58f056",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ta-IN",
+      "sourceLocale": "ta",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "ba0d1c68-19cf-42a9-ab9f-188f2f0cd088",
+      "verifiedAt": "2026-10-12T04:19:37.598Z",
+      "screenshots": [
+        {
+          "id": "b8400019-474b-8e02-803d-80c5989e6f3c",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/vision-store-1.png",
+          "md5": "6e35c427d28f9f39734f5abfc64f0eb6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96400019-474b-8e02-8012-0f6b8737286a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/vision-store-2.png",
+          "md5": "8836f63dccefd38adfb20d9edc2d9c8b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "de800019-474b-8e02-802e-c8c7bcc974b7",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/vision-store-3.png",
+          "md5": "697d36628bf418e270c4b77362034f4d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b9000019-474b-8e02-801b-59d5cc407a66",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/vision-store-4.png",
+          "md5": "6d607166dfcdea5c4c1e1cab1a622185",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99c00019-474b-8e02-8024-30c873282eb9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/vision-store-5.png",
+          "md5": "95e6d81cd7d6f054dbbb6de0910894d5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "54c00019-474b-8e02-8009-2a117e870960",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ta/vision-store-6.png",
+          "md5": "bf44a9b67a16e94501649f42af74a2b1",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "te-IN",
+      "sourceLocale": "te",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "acc49e05-a428-4057-9218-b9aa2b114a49",
+      "verifiedAt": "2026-10-12T04:19:52.274Z",
+      "screenshots": [
+        {
+          "id": "71c00019-474b-8e02-801a-2f2f73066818",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/vision-store-1.png",
+          "md5": "2ade1f9b1b7e87d7e29495999cc4d82a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2f400019-474b-8e02-801d-9d6c441a28a4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/vision-store-2.png",
+          "md5": "5ef07226f449338085f393602d4050b2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "74800019-474b-8e02-8039-91f97fbc0f0f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/vision-store-3.png",
+          "md5": "680aba237af903582706f007638d331d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d3400019-474b-8e02-803c-f438d0a73cd1",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/vision-store-4.png",
+          "md5": "65d69e4623a0c649d4a2aefbd610dba3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5c00019-474b-8e02-801d-6fbb0cc6926d",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/vision-store-5.png",
+          "md5": "533598f10a20266e515c5fc3318c1b21",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2000019-474b-8e02-8002-8ee1a93ab8c2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/te/vision-store-6.png",
+          "md5": "b013bb482641b32b8b220d811da451ee",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "dfa2ac29-ad9f-481d-97d0-633f2dadc1f9",
+      "verifiedAt": "2026-10-12T04:20:21.075Z",
+      "screenshots": [
+        {
+          "id": "1bc00019-474b-8e02-803c-0c371da311fd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/vision-store-1.png",
+          "md5": "36ba69b74c65ac48db9643c7b89fa333",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69000019-474b-8e02-8027-6c0e2e2335c3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/vision-store-2.png",
+          "md5": "856ff5ea9500cc991930e924941bcf3b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8000019-474b-8e02-801f-cb23742fd10f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/vision-store-3.png",
+          "md5": "0f7650906afe90e014b8fd6d054550a0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82c00019-474b-8e02-803f-b3556a62e138",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/vision-store-4.png",
+          "md5": "e7490bc417a5db0f254aeb3969fe9c9a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27400019-474b-8e02-8033-8884c6b8fd71",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/vision-store-5.png",
+          "md5": "f113f686bb9e6a59b5e2ba19e119b5a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c1c00019-474b-8e02-8028-e1f747c4fd0a",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/tr/vision-store-6.png",
+          "md5": "f3598110f175566baf85d6e65fe3e35c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "b34324a9-6d84-4dd3-bd07-fdd8cffc6705",
+      "verifiedAt": "2026-10-12T04:20:49.757Z",
+      "screenshots": [
+        {
+          "id": "31400019-474b-8e02-8026-70e97f9481ce",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/vision-store-1.png",
+          "md5": "dd3e644039f9904607a6ff8c451d672d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "af800019-474b-8e02-800e-05cef1f0d3dd",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/vision-store-2.png",
+          "md5": "60f05abcfc26a0e43a2eac151cead0b7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1dc00019-474b-8e02-802a-1e9d47d9bab3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/vision-store-3.png",
+          "md5": "b70be97cc07758d696bfc595361bf093",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "57c00019-474b-8e02-8019-9f56ff4a5a12",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/vision-store-4.png",
+          "md5": "cf37be257e0f7980c7811fe4a8145109",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "22400019-474b-8e02-8014-cda3156b50be",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/vision-store-5.png",
+          "md5": "48b44d32274a8fb2c6fa16595ac591f8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63000019-474b-8e02-801f-b36092f3ae33",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/uk/vision-store-6.png",
+          "md5": "ababae2cb04de0fd62ee945afef74294",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "th",
+      "sourceLocale": "th",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "aa9d6839-09c9-4dc0-8540-008e6ab245a3",
+      "verifiedAt": "2026-10-12T04:21:39.833Z",
+      "screenshots": [
+        {
+          "id": "fcc00019-474b-8e02-8026-5d2c6eca9ac0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/vision-store-1.png",
+          "md5": "584675d27488871ede0728d511d034b8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2b000019-474b-8e02-8039-0c16f0fbbcd4",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/vision-store-2.png",
+          "md5": "c78d82e7ce5faacea6256a04e241f234",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7000019-474b-8e02-801e-ae54ad97a367",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/vision-store-3.png",
+          "md5": "aa5a0368b522ef08546cf47747a74295",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "af800019-474b-8e02-8011-d3756c747d81",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/vision-store-4.png",
+          "md5": "57531d04d3d0da15af280d8b2a508fec",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab000019-474b-8e02-803d-ddf922895c87",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/vision-store-5.png",
+          "md5": "40fc367b8f1ac26597a90d09e3147113",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "89400019-474b-8e02-8033-5d35af704ab2",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/th/vision-store-6.png",
+          "md5": "93d9668d47798e6e924a306220d3004a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "ur-PK",
+      "sourceLocale": "ur",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "50d5a611-118e-4d74-9a98-42617f991be4",
+      "verifiedAt": "2026-10-12T04:21:49.155Z",
+      "screenshots": [
+        {
+          "id": "87c00019-474b-8e02-8027-709e0211ac78",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/vision-store-1.png",
+          "md5": "70f73e79e917659fbc52caccb1a26b48",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a5c00019-474b-8e02-8007-68a98ffd2ff3",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/vision-store-2.png",
+          "md5": "a81de75cabf3fec4bc77d7f28518a671",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "49400019-474b-8e02-803e-21e2647a5174",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/vision-store-3.png",
+          "md5": "c0f77b8900e3af59a094de17123a5367",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8400019-474b-8e02-802c-28b943a9fdf9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/vision-store-4.png",
+          "md5": "986feec4a2408adf1bc3b2398785b798",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "54c00019-474b-8e02-8026-a83f9d042906",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/vision-store-5.png",
+          "md5": "a10fe5e94a0f63fae1734fcc90bd16cc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95400019-474b-8e02-803d-40b587224ec9",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/ur/vision-store-6.png",
+          "md5": "3e3d2b546322475bc51511aafe13327a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "kinfold",
+      "platform": "VISION_OS",
+      "version": "1.2",
+      "versionId": "6efa8dbb-a921-4341-9f18-d7f4269db89d",
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "type": "APP_APPLE_VISION_PRO",
+      "setId": "8fe7535a-aea5-4425-9336-a2aa756f0f97",
+      "verifiedAt": "2026-10-12T04:22:08.906Z",
+      "screenshots": [
+        {
+          "id": "66000019-474b-8e02-802b-c6c2c96d9843",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/vision-store-1.png",
+          "md5": "03325d0c0c8d36e51352278ab14367d6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7c00019-474b-8e02-8021-adaca15ef9b0",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/vision-store-2.png",
+          "md5": "6c0ab54b4990d2cc52f8218e42003836",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9c800019-474b-8e02-8008-162796120b23",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/vision-store-3.png",
+          "md5": "fbaf9932b10212887f5cb7f0ab079079",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "45400019-474b-8e02-8015-22063d8fde9f",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/vision-store-4.png",
+          "md5": "c136a690b6f28f6e526fc3fd1f0899ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "91800019-474b-8e02-8007-9f58e8248c8b",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/vision-store-5.png",
+          "md5": "9b2ae13bd63b06c5d85a49138dd4560d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "52800019-474b-8e02-8017-6340fedd77dc",
+          "file": "docs/marketing/october-2026/kinfold-expanded/exports/vi/vision-store-6.png",
+          "md5": "5fee53abbc96c48357ffcef484ab3228",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 0
+}
