@@ -51,31 +51,39 @@ def main():
                 'og:image:width', 'og:image:height', 'og:image:type',
                 'twitter:card', 'twitter:title', 'twitter:description',
                 'twitter:image', 'twitter:image:alt')
+    native = json.loads((source / '_data/product_launch_localized.json').read_text())
+    all_routes = []
     for locale in manifest['home']:
         prefix = '' if locale == 'en' else f'{locale}/'
         routes = [(f'/{prefix}', manifest['home'][locale])]
         for slug, variants in manifest['products'].items():
             routes.append((f'/{prefix}apps/{slug}/', variants.get(locale, variants['en'])))
-        for route, card in routes:
-            metadata = Metadata()
-            metadata.feed((build / route.lstrip('/') / 'index.html').read_text())
-            values = metadata.values
-            for key in required:
-                assert len(values[key]) == 1 and values[key][0].strip(), f'{route}: missing/duplicate {key}'
-            for key in ('og:url', 'og:image', 'twitter:image'):
-                url = urlsplit(values[key][0])
-                assert url.scheme == 'https' and url.netloc, f'{route}: non-HTTPS {key}'
-            assert urlsplit(values['og:url'][0]).path == route, f'{route}: incorrect localized URL'
-            assert urlsplit(values['og:image'][0]).path == card['image'], f'{route}: incorrect image'
-            assert values['og:image'] == values['twitter:image'], f'{route}: inconsistent images'
-            assert values['twitter:card'] == ['summary_large_image'], route
-            assert values['og:image:width'] == ['1200'] and values['og:image:height'] == ['630'], route
-            assert values['og:image:type'] == ['image/jpeg'], route
-            asset = build / card['image'].lstrip('/')
-            if asset not in checked:
-                assert jpeg_size(asset) == (1200, 630), f'{asset}: wrong dimensions'
-                checked.add(asset)
-            count += 1
+        all_routes.extend(routes)
+    for slug, variants in native.items():
+        for locale in variants:
+            if locale == 'en-US' or locale in manifest['home']:
+                continue
+            all_routes.append((f'/{locale}/apps/{slug}/', manifest['products'][slug][locale]))
+    for route, card in all_routes:
+        metadata = Metadata()
+        metadata.feed((build / route.lstrip('/') / 'index.html').read_text())
+        values = metadata.values
+        for key in required:
+            assert len(values[key]) == 1 and values[key][0].strip(), f'{route}: missing/duplicate {key}'
+        for key in ('og:url', 'og:image', 'twitter:image'):
+            url = urlsplit(values[key][0])
+            assert url.scheme == 'https' and url.netloc, f'{route}: non-HTTPS {key}'
+        assert urlsplit(values['og:url'][0]).path == route, f'{route}: incorrect localized URL'
+        assert urlsplit(values['og:image'][0]).path == card['image'], f'{route}: incorrect image'
+        assert values['og:image'] == values['twitter:image'], f'{route}: inconsistent images'
+        assert values['twitter:card'] == ['summary_large_image'], route
+        assert values['og:image:width'] == ['1200'] and values['og:image:height'] == ['630'], route
+        assert values['og:image:type'] == ['image/jpeg'], route
+        asset = build / card['image'].lstrip('/')
+        if asset not in checked:
+            assert jpeg_size(asset) == (1200, 630), f'{asset}: wrong dimensions'
+            checked.add(asset)
+        count += 1
     print(f'PASS: {count} localized share previews; {len(checked)} JPEG cards at 1200×630.')
 
 

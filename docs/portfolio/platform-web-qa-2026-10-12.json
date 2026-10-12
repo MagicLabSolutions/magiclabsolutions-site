@@ -1,0 +1,900 @@
+{
+  "checkedAt": "2026-10-12T05:08:36.300Z",
+  "origin": "http://127.0.0.1:8785",
+  "cases": [
+    {
+      "slug": "hooray",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "browser",
+          "width": 340.09375
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "hooray",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "browser",
+          "width": 760
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "sundust",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 129.6996612548828
+        },
+        {
+          "kind": "ipad",
+          "width": 236.7112579345703
+        }
+      ],
+      "galleries": 1,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "sundust",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 254.4779052734375
+        },
+        {
+          "kind": "ipad",
+          "width": 521.055419921875
+        }
+      ],
+      "galleries": 1,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "giftly",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "giftly",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 203.103271484375
+        },
+        {
+          "kind": "ipad",
+          "width": 324.6739501953125
+        },
+        {
+          "kind": "mac",
+          "width": 731.063232421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "groundcontrol",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "mac",
+          "width": 214.796875
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "groundcontrol",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "mac",
+          "width": 760
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "brainfold",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "brainfold",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 203.103271484375
+        },
+        {
+          "kind": "ipad",
+          "width": 324.6739501953125
+        },
+        {
+          "kind": "mac",
+          "width": 731.063232421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "memories",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "memories",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 203.103271484375
+        },
+        {
+          "kind": "ipad",
+          "width": 324.6739501953125
+        },
+        {
+          "kind": "mac",
+          "width": 731.063232421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "poof",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "mac",
+          "width": 214.796875
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "poof",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "mac",
+          "width": 760
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "soooon",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "soooon",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 203.103271484375
+        },
+        {
+          "kind": "ipad",
+          "width": 324.6739501953125
+        },
+        {
+          "kind": "mac",
+          "width": 731.063232421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "myrenewals",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "myrenewals",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 203.103271484375
+        },
+        {
+          "kind": "ipad",
+          "width": 324.6739501953125
+        },
+        {
+          "kind": "mac",
+          "width": 731.063232421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "toctoc",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "mac",
+          "width": 321.2334289550781
+        },
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "toctoc",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "mac",
+          "width": 730.5552978515625
+        },
+        {
+          "kind": "iphone",
+          "width": 203.103271484375
+        }
+      ],
+      "galleries": 0,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "tumtum",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 129.6996612548828
+        },
+        {
+          "kind": "ipad",
+          "width": 228.6554718017578
+        }
+      ],
+      "galleries": 1,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "tumtum",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 254.4779052734375
+        },
+        {
+          "kind": "ipad",
+          "width": 503.2173767089844
+        }
+      ],
+      "galleries": 1,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "zuzu",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 129.6996612548828
+        },
+        {
+          "kind": "ipad",
+          "width": 236.7112579345703
+        },
+        {
+          "kind": "android",
+          "width": 109.38043212890625
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "zuzu",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 254.4779052734375
+        },
+        {
+          "kind": "ipad",
+          "width": 521.055419921875
+        },
+        {
+          "kind": "android",
+          "width": 220.79388427734375
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "kinfold",
+      "width": 390,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 286.9623107910156
+        },
+        {
+          "kind": "vision",
+          "width": 158.28665161132812
+        }
+      ],
+      "galleries": 3,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "kinfold",
+      "width": 1440,
+      "locale": "en",
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 203.103271484375
+        },
+        {
+          "kind": "ipad",
+          "width": 324.6739501953125
+        },
+        {
+          "kind": "mac",
+          "width": 653.998291015625
+        },
+        {
+          "kind": "vision",
+          "width": 360.08642578125
+        }
+      ],
+      "galleries": 3,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "kinfold",
+      "locale": "ar",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 286.9623107910156
+        },
+        {
+          "kind": "vision",
+          "width": 158.28665161132812
+        }
+      ],
+      "galleries": 3,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "kinfold",
+      "locale": "pt-BR",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 286.9623107910156
+        },
+        {
+          "kind": "vision",
+          "width": 158.28665161132812
+        }
+      ],
+      "galleries": 3,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "brainfold",
+      "locale": "ar",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "brainfold",
+      "locale": "pt-BR",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "memories",
+      "locale": "ar",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "memories",
+      "locale": "pt-BR",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "myrenewals",
+      "locale": "ar",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "myrenewals",
+      "locale": "pt-BR",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "giftly",
+      "locale": "ar",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "giftly",
+      "locale": "pt-BR",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "soooon",
+      "locale": "ar",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    },
+    {
+      "slug": "soooon",
+      "locale": "pt-BR",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "videos": 0,
+      "fleet": [
+        {
+          "kind": "iphone",
+          "width": 90.81207275390625
+        },
+        {
+          "kind": "ipad",
+          "width": 143.18161010742188
+        },
+        {
+          "kind": "mac",
+          "width": 320.60125732421875
+        }
+      ],
+      "galleries": 2,
+      "expand": 0,
+      "jsErrors": []
+    }
+  ]
+}

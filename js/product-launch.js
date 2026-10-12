@@ -9,12 +9,25 @@
   if('IntersectionObserver' in window){page.classList.add('l-ready');const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target);}}),{rootMargin:'0px 0px 80px 0px',threshold:.08});document.querySelectorAll('[data-reveal]').forEach(el=>observer.observe(el));}
   document.querySelector('[data-name-play]').addEventListener('click',()=>{if(motionOff)return;page.classList.remove('l-name-replay');requestAnimationFrame(()=>page.classList.add('l-name-replay'));setTimeout(()=>page.classList.remove('l-name-replay'),950);});
   if(matchMedia('(hover:hover) and (pointer:fine)').matches)document.querySelectorAll('[data-tilt]').forEach(el=>{el.addEventListener('pointermove',e=>{if(motionOff)return;const r=el.getBoundingClientRect();el.style.setProperty('--tilt-x',((.5-(e.clientY-r.top)/r.height)*4)+'deg');el.style.setProperty('--tilt-y',(((e.clientX-r.left)/r.width-.5)*5)+'deg');});el.addEventListener('pointerleave',()=>{el.style.setProperty('--tilt-x','0deg');el.style.setProperty('--tilt-y','0deg');});});
+  document.querySelectorAll('[data-platform-gallery]').forEach(section=>{
+    const track=section.querySelector('.l-gallery-track'),back=section.querySelector('[data-gallery-back]'),forward=section.querySelector('[data-gallery-forward]');
+    const rtl=getComputedStyle(track).direction==='rtl';back.textContent=rtl?'→':'←';forward.textContent=rtl?'←':'→';
+    const update=()=>{const position=Math.abs(track.scrollLeft);back.disabled=position<=1;forward.disabled=position+track.clientWidth>=track.scrollWidth-2;};
+    const move=direction=>track.scrollBy({left:direction*(rtl?-1:1)*(track.querySelector('figure').getBoundingClientRect().width+24),behavior:motionOff?'instant':'smooth'});
+    back.addEventListener('click',()=>move(-1));forward.addEventListener('click',()=>move(1));track.addEventListener('scroll',update,{passive:true});new ResizeObserver(update).observe(track);update();
+  });
   const demo=document.querySelector('[data-demo]'),data=JSON.parse(document.getElementById('launch-demo-data').textContent),pt=demo.dataset.lang==='pt-BR',t=(en,br)=>pt?br:en;
   const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const intro=(title,body,controls,visual)=>{demo.innerHTML=`<div class="l-demo-grid"><div><h3>${title}</h3><p>${body}</p>${controls}</div><div class="l-demo-visual">${visual}</div></div>`;};
   const buttons=(labels)=>`<div class="l-demo-buttons">${labels.map((label,i)=>`<button type="button" data-action="${i}">${label}</button>`).join('')}</div>`;
   const on=(selector,fn,event='click')=>demo.querySelector(selector).addEventListener(event,fn);
   switch(demo.dataset.demo){
+    case 'family': {
+      intro(t('A date, in the format you need.','Uma data, no formato que você precisa.'),t('Try a fictional passport expiry date. Switch formats without retyping it.','Experimente uma data de validade fictícia. Troque de formato sem digitar novamente.'),`<label class="l-demo-label">${t('Passport expiry','Validade do passaporte')}<input type="date" data-family-date value="2028-04-15"></label>${buttons([t('Local format','Formato local'),'ISO 8601'])}`,`<div class="l-mini-card"><span>${t('Mia · Sample passport','Mia · Passaporte de exemplo')}</span><strong data-family-output aria-live="polite">04/15/2028</strong></div>`);
+      let format=0;const input=demo.querySelector('[data-family-date]'),output=demo.querySelector('[data-family-output]');
+      const update=()=>{if(!input.value){output.textContent=t('Choose a date','Escolha uma data');return;}const date=new Date(input.value+'T12:00:00');output.textContent=format===1?input.value:date.toLocaleDateString(pt?'pt-BR':'en-US');};
+      input.addEventListener('input',update);demo.querySelectorAll('[data-action]').forEach(button=>button.addEventListener('click',()=>{format=Number(button.dataset.action);update();}));update();break;
+    }
     case 'gift': {
       const ideas=[['A weekend sketchbook','Um caderno de desenhos'],['A coffee tasting kit','Um kit de degustação de café'],['A trail picnic set','Um kit de piquenique']];
       intro(t('Make it about them.','Pense em quem vai receber.'),t('Choose an interest. Turn a small clue into a thoughtful gift idea.','Escolha um interesse e transforme uma pequena pista em uma ideia de presente.'),`<label for="gift-interest">${t('Their favorite thing','O que a pessoa gosta')}</label><select id="gift-interest"><option>${t('Art & creativity','Arte e criatividade')}</option><option>${t('Coffee rituals','Rituais de café')}</option><option>${t('The great outdoors','Passeios ao ar livre')}</option></select>${buttons([t('Save this idea','Salvar esta ideia')])}`,`<span class="l-demo-symbol" aria-hidden="true">✳</span><p>${t('An idea for someone special','Uma ideia para alguém especial')}</p><h4 data-gift-title></h4><p class="l-result" role="status"></p><p class="l-demo-caption">${t('Example gift ideas, not live AI recommendations.','Ideias de exemplo, não recomendações de IA ao vivo.')}</p>`);

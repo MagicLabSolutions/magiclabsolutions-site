@@ -53,6 +53,10 @@ for locale,slug,config in routes:
         if not (build/rendered['src'].lstrip('/')).is_file():errors.append(label+': missing component asset')
         if rendered.get('width',0)<1 or rendered.get('height',0)<1 or not rendered.get('source_sha256'):errors.append(label+': unverified component geometry')
     if len(page_config['fleet'])>1 and 'l-fleet--stacked' not in html:errors.append(label+': multi-device platform stage is not combined')
+    for gallery in page_config.get('platform_galleries',[]):
+        if 'gallery-'+gallery['kind'] not in page.ids:errors.append(label+': missing platform gallery '+gallery['kind'])
+        for item in gallery['items']:
+            if item['device']['image']['src'] not in page.images:errors.append(label+': missing platform capture '+item['device']['image']['src'])
     for feature in page_config['features']:
         if feature['device']['image']['src'] not in page.images:errors.append(label+': missing native feature capture')
 for slug,config in launch.items():

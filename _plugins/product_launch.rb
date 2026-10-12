@@ -1,5 +1,5 @@
 # Keep existing source pages and concurrent localized work intact. Legal/support routes
-# retain their own layouts; only the twelve requested product landing pages use this one.
+# retain their own layouts; the requested product landing pages use this one.
 require 'digest'
 module Jekyll
   class ProductLaunch < Generator

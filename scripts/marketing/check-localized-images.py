@@ -3,7 +3,7 @@ import argparse,json,pathlib,re,struct,runpy
 from html.parser import HTMLParser
 from urllib.parse import urlsplit
 ROOT=pathlib.Path(__file__).resolve().parents[2];BASE=ROOT/'docs/marketing/october-2026/localized'
-parser=argparse.ArgumentParser();parser.add_argument('--partial',action='store_true');parser.add_argument('--build',type=pathlib.Path);args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--partial',action='store_true');parser.add_argument('--build',type=pathlib.Path);parser.add_argument('--masters-root',type=pathlib.Path,default=ROOT);args=parser.parse_args()
 jpeg_size=runpy.run_path(str(ROOT/'scripts/check-social-previews.py'))['jpeg_size']
 launches=json.loads((ROOT/'_data/product_launch_localized.json').read_text())
 inventory=json.loads((BASE/'languages.json').read_text());coverage=json.loads((ROOT/'_data/localized_image_coverage.json').read_text());lookup={(x['slug'],x['locale']):x for x in coverage};shares=json.loads((ROOT/'_data/share_images.json').read_text())['products'];errors=[];checked=0
@@ -28,7 +28,7 @@ for slug,p in inventory.items():
    primary='mac' if slug in ['poof','toctoc','groundcontrol'] else 'browser' if slug=='hooray' else 'iphone'
    prefix='store' if platform[:-6]==primary else platform[:-6]+'-store'
    for i in range(1,n+1):
-    full=BASE/'exports'/locale/slug/f'{prefix}-{i}.png';thumb=ROOT/'images/campaign-localized'/slug/locale/f'{prefix}-{i}.webp'
+    full=args.masters_root/'docs/marketing/october-2026/localized/exports'/locale/slug/f'{prefix}-{i}.png';thumb=ROOT/'images/campaign-localized'/slug/locale/f'{prefix}-{i}.webp'
     if not full.exists() or not thumb.exists():errors.append(f'{slug}/{locale}: missing {prefix}-{i}')
     else:
      with full.open('rb') as image:png=image.read(33)

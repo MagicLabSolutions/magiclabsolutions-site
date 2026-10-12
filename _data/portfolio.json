@@ -47,7 +47,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "A reunião chama. Você chega.",
@@ -123,13 +123,14 @@
       }
     },
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": []
   },
   {
     "slug": "soooon",
     "name": "Soooon",
     "category": "apps",
-    "status": "development",
+    "status": "released",
     "color": "#F9AA65",
     "platform": "iPhone · iPad · Mac",
     "demo": "countdown",
@@ -154,7 +155,7 @@
       "date"
     ],
     "screenshots": [],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "A espera também pode ser boa.",
@@ -176,7 +177,18 @@
       }
     },
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.0"
+      },
+      {
+        "platform": "IOS",
+        "version": "1.0"
+      }
+    ],
+    "store_url": "https://apps.apple.com/app/id6817391844"
   },
   {
     "slug": "groundcontrol",
@@ -236,7 +248,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Todos os seus repositórios. Uma missão.",
@@ -258,7 +270,8 @@
       }
     },
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": []
   },
   {
     "slug": "poof",
@@ -267,7 +280,7 @@
     "status": "released",
     "color": "#CAA5FF",
     "platform": "Mac",
-    "store_url": "https://apps.apple.com/app/poof-disk-cleaner/id6816976275",
+    "store_url": "https://apps.apple.com/app/id6816976275",
     "demo": "clean",
     "repositories": [
       "Poof"
@@ -301,7 +314,7 @@
         }
       }
     ],
-    "checked_at": "2026-10-09",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Abra espaço. E respire.",
@@ -322,18 +335,14 @@
         ]
       }
     },
-    "availability_note": {
-      "pt-BR": "Na Mac App Store em 175 países e 47 idiomas, para macOS 14 Sonoma ou posterior. Baixar e analisar é grátis; a limpeza faz parte do Poof Pro.",
-      "en": "On the Mac App Store in 175 countries and 47 languages, for macOS 14 Sonoma or later. Free to download and scan; cleaning comes with Poof Pro.",
-      "de": "Im Mac App Store in 175 Ländern und 47 Sprachen, für macOS 14 Sonoma oder neuer. Laden und Scannen sind kostenlos; Bereinigen gehört zu Poof Pro.",
-      "es": "En la Mac App Store en 175 países y 47 idiomas, para macOS 14 Sonoma o posterior. Descargar y analizar es gratis; la limpieza forma parte de Poof Pro.",
-      "fr": "Sur le Mac App Store dans 175 pays et 47 langues, pour macOS 14 Sonoma ou ultérieur. Le téléchargement et l’analyse sont gratuits ; le nettoyage fait partie de Poof Pro.",
-      "ja": "Mac App Storeで175の国と地域、47言語に対応。macOS 14 Sonoma以降。ダウンロードとスキャンは無料、クリーンアップはPoof Proで。",
-      "ko": "Mac App Store에서 175개 국가, 47개 언어로 제공됩니다. macOS 14 Sonoma 이상. 다운로드와 스캔은 무료이며, 정리는 Poof Pro에 포함됩니다.",
-      "zh-Hans": "已在 Mac App Store 上架，覆盖 175 个国家和地区、47 种语言，适用于 macOS 14 Sonoma 或更高版本。下载和扫描免费；清理功能包含在 Poof Pro 中。"
-    },
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.1"
+      }
+    ]
   },
   {
     "slug": "hooray",
@@ -461,7 +470,7 @@
     "category": "apps",
     "status": "released",
     "color": "#F4B9CD",
-    "platform": "iPhone · iPad",
+    "platform": "iPhone · iPad · Mac",
     "demo": "timeline",
     "repositories": [
       "Memories"
@@ -512,7 +521,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Eles crescem. A história fica.",
@@ -533,11 +542,27 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/memories-v%C3%ADdeo-de-mesvers%C3%A1rio/id6763877209",
+    "store_url": "https://apps.apple.com/app/id6763877209",
     "version": "1.1.0",
     "evidence": "https://itunes.apple.com/lookup?bundleId=com.magiclabsolutions.memories&country=br",
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "IOS",
+        "version": "1.1.1"
+      }
+    ],
+    "availability_note": {
+      "en": "Mac preview is in App Review. iPhone and iPad are available now.",
+      "pt-BR": "A versão para Mac está em revisão na App Store. iPhone e iPad já estão disponíveis.",
+      "de": "Die Mac-Version wird im App Store geprüft. iPhone und iPad sind bereits verfügbar.",
+      "es": "La versión para Mac está en revisión en el App Store. iPhone y iPad ya están disponibles.",
+      "fr": "La version Mac est en cours de validation sur l’App Store. iPhone et iPad sont déjà disponibles.",
+      "ja": "Mac版はApp Storeで審査中です。iPhone・iPad版は公開されています。",
+      "ko": "Mac 버전은 App Store 심사 중입니다. iPhone과 iPad 버전은 현재 사용할 수 있습니다。",
+      "zh-Hans": "Mac 版本正在 App Store 审核中。iPhone 和 iPad 版本现已上线。"
+    }
   },
   {
     "slug": "casecraft",
@@ -619,7 +644,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Mais tempo para cuidar.",
@@ -641,7 +666,8 @@
       }
     },
     "web_url": "https://abrigodonaneusa.com.br",
-    "evidence": "https://abrigodonaneusa.com.br — public website verified 2026-09-30; staff app has restricted distribution"
+    "evidence": "https://abrigodonaneusa.com.br — public website verified 2026-09-30; staff app has restricted distribution",
+    "release_platforms": []
   },
   {
     "slug": "pauta",
@@ -689,7 +715,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Sua vida merece uma boa pauta.",
@@ -718,7 +744,8 @@
           "Small next steps"
         ]
       }
-    }
+    },
+    "release_platforms": []
   },
   {
     "slug": "brainfold",
@@ -769,7 +796,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Aprender. Lembrar. Conectar.",
@@ -844,11 +871,21 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/brainfold-flashcards-com-ia/id6760474378",
+    "store_url": "https://apps.apple.com/app/id6760474378",
     "version": "1.2.0",
     "evidence": "https://itunes.apple.com/lookup?id=6760474378&country=br",
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.2.1"
+      },
+      {
+        "platform": "IOS",
+        "version": "1.2.1"
+      }
+    ]
   },
   {
     "slug": "starwake",
@@ -856,7 +893,7 @@
     "category": "games",
     "status": "development",
     "color": "#86C5D8",
-    "platform": "Plataformas Apple",
+    "platform": "iPhone · iPad · Mac · Apple TV",
     "demo": "space",
     "repositories": [
       "Starwake"
@@ -868,7 +905,7 @@
       "jogo planetas"
     ],
     "screenshots": [],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "O silêncio também é um sinal.",
@@ -900,7 +937,8 @@
         "output": "/images/portfolio/starwake/art-2.webp",
         "kind": "in-game-illustration"
       }
-    ]
+    ],
+    "release_platforms": []
   },
   {
     "slug": "murmur",
@@ -948,7 +986,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Uma mensagem muda tudo.",
@@ -968,7 +1006,8 @@
           "Discover other paths"
         ]
       }
-    }
+    },
+    "release_platforms": []
   },
   {
     "slug": "zuzu",
@@ -1028,7 +1067,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "O dia do bebê. Em boas mãos.",
@@ -1103,12 +1142,18 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/zuzu-rastreador-beb%C3%AA-sono/id6757988505",
+    "store_url": "https://apps.apple.com/app/id6757988505",
     "version": "2.6.0",
     "evidence": "https://itunes.apple.com/lookup?id=6757988505&country=br",
     "play_url": "https://play.google.com/store/apps/details?id=com.magiclabsolutions.zuzu",
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "IOS",
+        "version": "2.7.1"
+      }
+    ]
   },
   {
     "slug": "hortulus",
@@ -1313,7 +1358,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Pequenas mãos. Grandes descobertas.",
@@ -1388,11 +1433,17 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/tumtum-brinquedos-infantis/id6808820820",
+    "store_url": "https://apps.apple.com/app/id6808820820",
     "version": "1.0",
     "evidence": "https://itunes.apple.com/lookup?id=6808820820&country=br",
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "IOS",
+        "version": "1.0.2"
+      }
+    ]
   },
   {
     "slug": "giftly",
@@ -1450,7 +1501,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "O presente certo começa com uma ideia.",
@@ -1525,11 +1576,21 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/giftly-presentes-e-lembretes/id6802913010",
+    "store_url": "https://apps.apple.com/app/id6802913010",
     "version": "1.0.0",
     "evidence": "https://itunes.apple.com/lookup?id=6802913010&country=br",
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.2.1"
+      },
+      {
+        "platform": "IOS",
+        "version": "1.2.0"
+      }
+    ]
   },
   {
     "slug": "sundust",
@@ -1569,7 +1630,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Um universo para descobrir.",
@@ -1644,11 +1705,25 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/sundust/id6791888066",
+    "store_url": "https://apps.apple.com/app/id6791888066",
     "version": "1.2.2",
     "evidence": "https://itunes.apple.com/lookup?id=6791888066&country=br",
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.2.2"
+      },
+      {
+        "platform": "IOS",
+        "version": "1.2.2"
+      },
+      {
+        "platform": "TV_OS",
+        "version": "1.2.2"
+      }
+    ]
   },
   {
     "slug": "kinfold",
@@ -1687,7 +1762,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "A família pronta para ir.",
@@ -1762,9 +1837,24 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/kinfold/id6785646082",
+    "store_url": "https://apps.apple.com/app/id6785646082",
     "version": "1.0.1",
-    "evidence": "https://itunes.apple.com/lookup?id=6785646082&country=br"
+    "evidence": "https://itunes.apple.com/lookup?id=6785646082&country=br",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.0.2"
+      },
+      {
+        "platform": "IOS",
+        "version": "1.0.1"
+      },
+      {
+        "platform": "VISION_OS",
+        "version": "1.0.2"
+      }
+    ],
+    "marketing_updated_at": "2026-10-12"
   },
   {
     "slug": "myrenewals",
@@ -1772,7 +1862,7 @@
     "category": "apps",
     "status": "released",
     "color": "#96D9AA",
-    "platform": "iPhone · iPad",
+    "platform": "iPhone · iPad · Mac",
     "demo": "subscriptions",
     "repositories": [
       "SubscriptionManager"
@@ -1814,7 +1904,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Assinaturas sem surpresas.",
@@ -1893,7 +1983,17 @@
     "version": "1.2.6",
     "evidence": "https://itunes.apple.com/lookup?id=6752888662&country=br",
     "marketing_locale": "en-US",
-    "marketing_updated_at": "2026-10-01"
+    "marketing_updated_at": "2026-10-12",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.2.6"
+      },
+      {
+        "platform": "IOS",
+        "version": "1.2.6"
+      }
+    ]
   },
   {
     "slug": "qramen",
@@ -1921,7 +2021,7 @@
         }
       }
     ],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-10-12",
     "copy": {
       "pt-BR": {
         "headline": "Uma conexão. Um quadradinho.",
@@ -1996,8 +2096,14 @@
         ]
       }
     },
-    "store_url": "https://apps.apple.com/br/app/qramen-criador-de-qr-code/id6444232316",
+    "store_url": "https://apps.apple.com/app/id6444232316",
     "version": "1.2.0",
-    "evidence": "https://itunes.apple.com/lookup?id=6444232316&country=br"
+    "evidence": "https://itunes.apple.com/lookup?id=6444232316&country=br",
+    "release_platforms": [
+      {
+        "platform": "IOS",
+        "version": "1.2.0"
+      }
+    ]
   }
 ]

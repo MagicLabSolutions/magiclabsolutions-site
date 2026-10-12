@@ -25,7 +25,7 @@
   <script src="{{ '/js/product-launch.js' | relative_url }}?v={{ site.product_launch_asset_version }}" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"{% if product.category == 'games' %}VideoGame{% else %}SoftwareApplication{% endif %}","name":{{ product.name | jsonify }},"description":{{ pc.description | jsonify }},"image":{{ product.icon | absolute_url | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"author":{"@type":"Organization","name":"Magic Lab Solutions"}{% if product.store_url %},"downloadUrl":{{ product.store_url | jsonify }}{% endif %}}</script>
   {% include social-meta.html product=page.product locale=app_locale localized_copy=launch.localized_copy %}
-</head><body class="l-page" data-product="{{ product.slug }}" style="--paper:{{ launch.palette[0] }};--ink:{{ launch.palette[1] }};--accent:{{ launch.palette[2] }}">
+</head><body lang="{{ site.active_lang }}" class="l-page" data-product="{{ product.slug }}" style="--paper:{{ launch.palette[0] }};--ink:{{ launch.palette[1] }};--accent:{{ launch.palette[2] }}">
   <a class="l-skip" href="#main">{{ ui.skip }}</a>
   <header class="l-header"><div class="l-wrap l-header-inner">
     <a class="l-brand" href="{{ '/' | relative_url }}"><img src="{{ product.icon | relative_url }}" width="42" height="42" alt=""><span>{{ product.name }}</span></a>
@@ -42,7 +42,7 @@
         <div class="l-actions" lang="{{ site.active_lang }}">{% include launch-actions.html secondary=true %}</div>
         {% if product.availability_note %}<p class="l-note">{{ product.availability_note[site.active_lang] | default: product.availability_note.en }}</p>{% endif %}
       </div>
-      <div class="l-hero-art l-art{% if launch.hero.kind == 'mac' or launch.hero.kind == 'browser' %} l-art--wide{% endif %}" data-tilt>
+      <div class="l-hero-art l-art{% if launch.hero.kind == 'mac' or launch.hero.kind == 'browser' or launch.hero.kind == 'vision' %} l-art--wide{% endif %}" data-tilt>
         <svg class="l-orbits" viewBox="0 0 640 720" aria-hidden="true"><ellipse cx="320" cy="370" rx="285" ry="150" transform="rotate(-24 320 370)"/><ellipse cx="320" cy="370" rx="245" ry="280" transform="rotate(25 320 370)"/><circle cx="560" cy="225" r="7"/></svg>
         <div class="l-hero-device">{% capture hero_alt %}{{ product.name }} — {{ launch.features[0].label }} ({{ capture_lang }}){% endcapture %}{% include launch-device.html device=launch.hero alt=hero_alt hero=true %}</div>
         {% if launch.hero_cutout.rendered.src %}<div class="l-hero-component">{% include launch-component.html crop=launch.hero_cutout hero=true %}</div>{% endif %}
@@ -60,7 +60,7 @@
       <div class="l-section-head" data-reveal><p class="l-eyebrow">{{ ui.inside }}</p><h2 id="features-title">{{ ui.features_title }}</h2><p>{% if launch.capture_locale %}{{ product.name }} · {{ launch.capture_locale }}{% else %}{{ ui.screen_note }}{% endif %}</p></div>
       {% for feature in launch.features %}<article class="l-feature{% cycle '', ' l-feature--reverse' %}" id="feature-{{ forloop.index }}" data-reveal>
         <div class="l-feature-copy" lang="{{ capture_lang }}"><p class="l-eyebrow">0{{ forloop.index }} / {{ feature.label }}</p><h3>{{ feature.title }}</h3><p>{{ feature.description }}</p></div>
-        <div class="l-feature-art l-art{% if feature.device.kind == 'mac' or feature.device.kind == 'browser' %} l-art--wide{% endif %}" data-tilt>
+        <div class="l-feature-art l-art{% if feature.device.kind == 'mac' or feature.device.kind == 'browser' or feature.device.kind == 'vision' %} l-art--wide{% endif %}" data-tilt>
           <div class="l-device-stage"><div class="l-feature-device">{% capture feature_alt %}{{ product.name }} — {{ feature.label }} ({{ capture_lang }}){% endcapture %}{% include launch-device.html device=feature.device alt=feature_alt %}</div></div>
           {% if feature.cutout.rendered.src %}<div class="l-feature-component">{% include launch-component.html crop=feature.cutout %}</div>{% endif %}
           {% if feature.photo_cutout.src %}<div class="l-feature-photo" aria-hidden="true"><img src="{{ feature.photo_cutout.src | relative_url }}" alt="" width="{{ feature.photo_cutout.width }}" height="{{ feature.photo_cutout.height }}" loading="lazy"></div>{% endif %}
@@ -72,6 +72,18 @@
       {% assign fleet_primary = launch.fleet.first.device.kind %}{% for item in launch.fleet %}{% if item.device.kind == 'ipad' %}{% assign fleet_primary = 'ipad' %}{% endif %}{% endfor %}{% for item in launch.fleet %}{% if item.device.kind == 'mac' or item.device.kind == 'browser' %}{% assign fleet_primary = item.device.kind %}{% endif %}{% endfor %}
       <div class="l-fleet l-fleet--{{ launch.fleet.size }}{% if launch.fleet.size > 1 %} l-fleet--stacked l-fleet--primary-{{ fleet_primary }}{% endif %}">{% for item in launch.fleet %}<figure class="l-fleet-device l-fleet-device--{{ item.device.kind }}{% if item.device.kind == fleet_primary %} l-fleet-device--primary{% else %} l-fleet-device--corner{% endif %}"><div class="l-device-stage">{% capture fleet_alt %}{{ product.name }} on {{ item.label }} — {{ capture_lang }}{% endcapture %}{% include launch-device.html device=item.device alt=fleet_alt %}</div><figcaption>{{ item.label }}</figcaption></figure>{% endfor %}</div>
       <div class="l-actions l-actions--center">{% include launch-actions.html %}</div>
+      {% for gallery in launch.platform_galleries %}
+      <section class="l-platform-gallery" data-platform-gallery aria-labelledby="gallery-{{ gallery.kind }}" data-reveal>
+        <div class="l-gallery-heading"><div><h3 id="gallery-{{ gallery.kind }}">{{ ui.explore_on | replace: 'PLATFORM', gallery.label }}</h3>{% if gallery.preview %}<p class="l-note">{{ ui.platform_preview }}</p>{% endif %}</div>
+          <div class="l-gallery-controls"><button type="button" data-gallery-back aria-label="{{ ui.previous }}">←</button><button type="button" data-gallery-forward aria-label="{{ ui.next }}">→</button></div>
+        </div>
+        <div class="l-gallery-track" tabindex="0" aria-label="{{ product.name }} — {{ gallery.label }}">
+          {% for item in gallery.items %}<figure class="l-gallery-card l-gallery-card--{{ gallery.kind }}">
+            <div class="l-gallery-art">{% capture gallery_alt %}{{ product.name }} — {{ item.label }} · {{ gallery.label }} ({{ capture_lang }}){% endcapture %}{% include launch-device.html device=item.device alt=gallery_alt %}{% if item.photo_cutout.src %}<img class="l-gallery-prop" src="{{ item.photo_cutout.src | relative_url }}" alt="" width="{{ item.photo_cutout.width }}" height="{{ item.photo_cutout.height }}" loading="lazy">{% endif %}</div>
+            <figcaption lang="{{ capture_lang }}"><h4>{{ item.title }}</h4><p>{{ item.description }}</p></figcaption>
+          </figure>{% endfor %}
+        </div>
+      </section>{% endfor %}
     </div></section>
     {% if launch.legacy_details %}<section class="l-practical l-wrap" data-reveal aria-label="{{ ui.practical }}">{% assign details_include = launch.legacy_details | prepend: 'launch-details/' | append: '.html' %}{% include {{ details_include }} %}</section>{% endif %}
     <section class="l-faq l-wrap" id="faq" aria-labelledby="faq-title" data-reveal><div class="l-section-head"><p class="l-eyebrow">FAQ</p><h2 id="faq-title">{{ ui.faq_title }}</h2></div>

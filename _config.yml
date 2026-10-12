@@ -90,6 +90,8 @@ exclude:
   - scripts
   - README.md
   - ROADMAP.md
+  # Paused website walkthroughs remain in source for the later video revision.
+  - "images/campaign/**/*.mp4"
 
 # Product videos are paused until the owner approves the revised cuts.
 product_videos_enabled: false
