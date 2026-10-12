@@ -11,6 +11,11 @@ lang-ref: 404
     if (match) {
       location.replace('/zuzu/invite/?code=' + encodeURIComponent(match[1].toUpperCase()));
     }
+    // A Zuzu access code with the app not installed: /zuzu/redeem/CODE.
+    var redeem = location.pathname.match(/\/zuzu\/redeem\/([A-Za-z0-9-]+)\/?$/i);
+    if (redeem) {
+      location.replace('/zuzu/redeem/?code=' + encodeURIComponent(redeem[1].toUpperCase()));
+    }
   })();
 </script>
 
