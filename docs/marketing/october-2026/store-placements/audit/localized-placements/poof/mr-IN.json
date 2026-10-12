@@ -1,0 +1,29 @@
+{
+  "slug": "poof",
+  "versionId": "9fd15e9c-2902-4770-9d02-835e1ec84ef3",
+  "version": "1.2.0",
+  "platform": "MAC_OS",
+  "locale": "mr-IN",
+  "sourceLocale": "mr",
+  "createdLocalization": true,
+  "metadataMissing": [
+    "description",
+    "supportUrl",
+    "keywords"
+  ],
+  "placements": [
+    {
+      "id": "5bc00019-652c-8d93-8f0d-30f3c5de269e",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "54800019-652c-8d93-803f-b7647cc3f3e9",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "da400019-652c-8d93-8f2a-d6a8950f116f",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "29000019-652c-8d93-802f-928107c8ab11",
+      "state": "ACTIVE"
+    }
+  ],
+  "verifiedAt": "2026-10-12T03:01:16.465Z"
+}

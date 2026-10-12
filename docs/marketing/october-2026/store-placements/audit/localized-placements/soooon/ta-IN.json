@@ -1,0 +1,29 @@
+{
+  "slug": "soooon",
+  "versionId": "750f86e5-550a-484d-9da0-d512c61e8d7f",
+  "version": "1.1.0",
+  "platform": "IOS",
+  "locale": "ta-IN",
+  "sourceLocale": "ta",
+  "createdLocalization": true,
+  "metadataMissing": [
+    "description",
+    "supportUrl",
+    "keywords"
+  ],
+  "placements": [
+    {
+      "id": "cbc00019-6592-84e4-8f15-840f30d44749",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "73c00019-6592-84e4-801f-60129427233c",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "a3800019-6592-84e4-8f19-44a9df482853",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "eec00019-6592-84e4-8022-292c29376a73",
+      "state": "ACTIVE"
+    }
+  ],
+  "verifiedAt": "2026-10-12T03:02:42.310Z"
+}

@@ -11,7 +11,9 @@ and authorized all supported languages, macOS, visionOS and App Store uploads.
 - Apple currently offers 50 corresponding listing locale slots, including regional
   English reuse. The delivery target is 200 galleries / 1,200 screenshots.
 - Native Bulgarian, Kazakh and Lithuanian have no corresponding Apple listing
-  slots. Native regional variants and Apple regional reuse are recorded explicitly.
+  slots. Six native languages/variants without distinct listing slots contribute
+  144 additional library images. Together with the galleries, all 1,320 native
+  masters are represented in Apple. Canadian English reuses US English.
 - Original English phone/tablet masters are retained byte for byte. Other languages
   use the shipped native UI catalog and authored marketing translations.
 - Panels 2, 4 and 6 use enlarged real interface details on phone/tablet. The other
@@ -47,6 +49,9 @@ device assets already recorded by the pilot and `mac-frame.json`.
 Apply the appropriate `capture/fixture-*.patch` to an isolated copy of the source
 commit; use the debug marketing bundle and the task-owned simulator/device IDs
 in the provenance file. Build before running `kinfold-expanded-capture.py`.
+The renderer's Mac binary guard pins the build inspected for this campaign. For
+a rebuild, inspect its English native captures first, then update that guard to
+the rebuilt debug-library SHA recorded in the capture provenance.
 Apply the Vision packing patch after its fixture patch and run
 `kinfold-vision-packing.py` for the dedicated packing captures. Never apply these
 fixtures to a production app or customer data store.
@@ -54,7 +59,9 @@ fixtures to a production app or customer data store.
 `scripts/marketing/kinfold-expanded-render.mjs` renders from `copy.json`, actual
 native pixels, the approved background and documented frame openings. It rejects
 text overflow, excessive phone/tablet copy height and invalid highlighted-card
-bounds. `store-creative-review.mjs` checks every master hash, generates contact
+bounds. Targeted corrections use `--panels=5 --force` and keep the other records
+and image files intact. Desktop English schedule copy uses the complete short
+benefit “One family schedule.” `store-creative-review.mjs` checks every master hash, generates contact
 sheets and builds the local review catalogue. `index.html` supports all 55
 languages and four platforms. The website's Jekyll configuration excludes this
 private campaign package from the public site.
@@ -73,3 +80,9 @@ All other apps, app previews, build selection and review submission are outside
 its mutation scope. `store-creative-audit.mjs` performs a fresh read-only final
 audit and rejects incomplete delivery before contacting Apple. Final evidence
 is saved outside ignored `work/` folders. Uploading to a draft is not a release.
+
+`kinfold-library-sync.mjs` independently uploads the six unmapped native
+language/region variants as `APP_SCREENSHOTS_AND_PREVIEWS`, without creating
+unsupported listing locales or submitting them for review. Hash-based filenames
+and reference names make these reservations resumable. Apple processing is
+polled at a moderate interval, and retries honor its `Retry-After` header.

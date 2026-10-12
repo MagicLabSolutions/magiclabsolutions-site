@@ -1,0 +1,23 @@
+/** Upload native-language variants with no distinct Apple listing slot. No placements or review. */
+import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';import {fileURLToPath} from 'node:url';
+import {api as raw,useAccount} from './asc-current-account.mjs';useAccount('MagicLabSolutions');
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'),base=path.join(root,'docs/marketing/october-2026/kinfold-expanded');
+const appId='6785646082',unmapped=['bg','en-IN','es-US','kk','lt','zh-HK'];
+const read=async f=>JSON.parse(await fs.readFile(f,'utf8')),save=async(f,d)=>{await fs.mkdir(path.dirname(f),{recursive:true});await fs.writeFile(f,JSON.stringify(d,null,2)+'\n')},pause=ms=>new Promise(r=>setTimeout(r,ms));let cooling;
+async function api(...a){const start=Date.now();let failures=0;for(;;)try{return await raw(...a)}catch(e){if(!e.status&&(a[1]||'GET')==='GET'&&failures++<4){await pause(5000);continue}if(e.status!==429||Date.now()-start>90*60*1000)throw e;if(!cooling){console.log('Kinfold library waiting for Apple allowance');cooling=pause(Math.max(60000,e.retryAfterMs||0)).finally(()=>cooling=null)}await cooling}}
+async function all(url){const result=[];do{const r=await api(url);result.push(...r.data);url=r.links?.next?new URL(r.links.next).pathname+new URL(r.links.next).search:null}while(url);return result}
+const validation=await read(path.join(base,'validation.json')),records=validation.records.filter(x=>unmapped.includes(x.locale));assert.equal(records.length,144);
+const library=await all('/v1/appAssetLibraries/'+appId+'/images?limit=200'),results=[];let cursor=0;
+await Promise.all(Array.from({length:2},async()=>{while(cursor<records.length){const r=records[cursor++],checkpoint=path.join(base,'audit/library-variants',r.locale+'-'+r.platform+'-'+r.number+'.json');let previous;try{previous=await read(checkpoint)}catch(e){if(e.code!=='ENOENT')throw e}if(previous?.verified&&previous.sha256===r.sha256){results.push(previous);continue}
+ const bytes=await fs.readFile(path.join(root,r.file));assert.equal(createHash('sha256').update(bytes).digest('hex'),r.sha256);
+ const fileName=`ml-kinfold-${r.locale}-${r.platform}-${r.number}-${r.sha256.slice(0,14)}.png`;
+ let image=library.find(x=>x.attributes.fileName===fileName&&x.attributes.fileSize===bytes.length);
+ if(!image){image=(await api('/v1/appAssetLibraryImages','POST',{data:{type:'appAssetLibraryImages',attributes:{category:'APP_SCREENSHOTS_AND_PREVIEWS',fileName,fileSize:bytes.length,referenceName:`Kinfold · ${r.locale} · ${r.platform} · ${r.number} · ${r.sha256.slice(0,14)}`},relationships:{assetLibrary:{data:{type:'appAssetLibraries',id:appId}}}}})).data;library.push(image)}
+ if(image.attributes.state==='AWAITING_UPLOAD'){for(const op of image.attributes.uploadOperations){const headers=Object.fromEntries((op.requestHeaders||[]).map(x=>[x.name,x.value]));let done=false;for(let i=0;i<3;i++)try{const res=await fetch(op.url,{method:op.method,headers,body:bytes.subarray(op.offset,op.offset+op.length),signal:AbortSignal.timeout(90000)});if(res.ok){done=true;break}}catch{}assert(done,'Native variant byte upload failed')}image=(await api('/v1/appAssetLibraryImages/'+image.id,'PATCH',{data:{type:'appAssetLibraryImages',id:image.id,attributes:{uploaded:true}}})).data}
+ for(let i=0;['AWAITING_UPLOAD','UPLOAD_COMPLETE'].includes(image.attributes.state)&&i<60;i++){await pause(15000);image=(await api('/v1/appAssetLibraryImages/'+image.id)).data}
+ assert(['COMPLETE','PREPARE_FOR_SUBMISSION','READY_FOR_REVIEW','WAITING_FOR_REVIEW','IN_REVIEW','APPROVED','ACCEPTED'].includes(image.attributes.state),'Native variant processing '+image.attributes.state);
+ assert.equal(image.attributes.category,'APP_SCREENSHOTS_AND_PREVIEWS');const dimensions=image.attributes.imageAsset;assert(dimensions);assert.deepEqual([dimensions.width,dimensions.height],r.metrics.sourceSize);
+ const result={locale:r.locale,platform:r.platform,number:r.number,file:r.file,sha256:r.sha256,fileName,imageId:image.id,imageState:image.attributes.state,specId:image.attributes.specId,category:image.attributes.category,reason:'Native variant has no distinct Apple listing locale; retained in independent asset library',verified:true,verifiedAt:new Date().toISOString()};await save(checkpoint,result);results.push(result);console.log('VERIFIED NATIVE LIBRARY',r.locale,r.platform,r.number);
+}}));
+await save(path.join(base,'audit/library-variants-summary.json'),{finishedAt:new Date().toISOString(),nativeVariants:unmapped,images:results});console.log('Finished',results.length,'native library variants');

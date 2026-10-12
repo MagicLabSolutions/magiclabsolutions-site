@@ -23,7 +23,7 @@ async function api(...args) {
    if(Date.now()-rateLimitedSince>90*60*1000)throw new Error('Apple rate limit persisted for 90 minutes; checkpoints are preserved for a later scoped retry.');
    // A 429 explicitly rejects the operation: unlike an unknown POST timeout,
    // retrying this response cannot duplicate a created resource.
-   if(!cooldown){console.log('RATE_LIMIT Apple rejected the request; waiting 60 seconds before retrying.');cooldown=new Promise(resolve=>setTimeout(resolve,60000)).finally(()=>{cooldown=null;});}
+   if(!cooldown){console.log('RATE_LIMIT Apple rejected the request; respecting its retry window.');cooldown=new Promise(resolve=>setTimeout(resolve,Math.max(60000,error.retryAfterMs||0))).finally(()=>{cooldown=null;});}
    await cooldown;
   }
  }
@@ -169,13 +169,13 @@ async function sync(task) {
  await Promise.all(Array.from({length:Math.min(3,missing.length)},async()=>{while(uploadCursor<missing.length){const {f,i}=missing[uploadCursor++];order[i]=await upload(set,f);}}));
  // Process the gallery as a batch: avoid busy polling each image while others wait.
  if(missing.length||shots.some(s=>kept.has(s.id)&&s.attributes.assetDeliveryState?.state!=='COMPLETE')) {
-  await pause(8000);let complete=false;
-  for(let i=0;i<60;i++) {
+  await pause(15000);let complete=false;
+  for(let i=0;i<40;i++) {
    const processing=await all(`/v1/appScreenshotSets/${set.id}/appScreenshots?limit=200`);
    const failed=processing.find(s=>s.attributes.assetDeliveryState?.state==='FAILED');
    if(failed)throw new Error(`Processing failed: ${JSON.stringify(failed.attributes.assetDeliveryState.errors)}`);
    if(order.every(id=>processing.some(s=>s.id===id&&s.attributes.assetDeliveryState?.state==='COMPLETE'))){complete=true;break;}
-   await pause(5000);
+   await pause(15000);
   }
   if(!complete)throw new Error('Screenshot processing timeout; rerun to resume');
  }

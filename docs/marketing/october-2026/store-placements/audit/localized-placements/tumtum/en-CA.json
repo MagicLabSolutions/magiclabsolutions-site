@@ -1,0 +1,29 @@
+{
+  "slug": "tumtum",
+  "versionId": "3533fcdb-d8b1-42db-88d6-c9bf1ffd7c46",
+  "version": "1.1.0",
+  "platform": "IOS",
+  "locale": "en-CA",
+  "sourceLocale": "en-US",
+  "createdLocalization": true,
+  "metadataMissing": [
+    "description",
+    "supportUrl",
+    "keywords"
+  ],
+  "placements": [
+    {
+      "id": "a7800019-5d65-8c54-8f15-60fdf5014536",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "0c800019-5d65-8c54-8035-2d8be2e82300",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "a7c00019-5d65-8c54-8f2c-04e3025766ac",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "71000019-5d65-8c54-802b-22133fac0911",
+      "state": "ACTIVE"
+    }
+  ],
+  "verifiedAt": "2026-10-12T03:06:18.167Z"
+}

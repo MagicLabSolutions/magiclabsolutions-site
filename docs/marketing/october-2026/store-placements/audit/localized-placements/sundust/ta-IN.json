@@ -1,0 +1,29 @@
+{
+  "slug": "sundust",
+  "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+  "version": "1.3.0",
+  "platform": "IOS",
+  "locale": "ta-IN",
+  "sourceLocale": "ta",
+  "createdLocalization": false,
+  "metadataMissing": [
+    "description",
+    "supportUrl",
+    "keywords"
+  ],
+  "placements": [
+    {
+      "id": "46000019-4d3f-8cc2-8f3d-71e8c53eb0a3",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "df800019-4d3f-8cc2-8006-d77307400686",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "74000019-4d3f-8cc2-8f38-f2fc469265c0",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "04800019-4d3f-8cc2-801b-ae8c765805ff",
+      "state": "ACTIVE"
+    }
+  ],
+  "verifiedAt": "2026-10-12T03:03:11.614Z"
+}
