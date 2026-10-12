@@ -1,0 +1,41 @@
+{
+  "locale": "en-US",
+  "panels": [
+    {
+      "key": "vault",
+      "headline": "Your family.\nReady to go.",
+      "description": "Documents, dates and trips.\nOne private place.",
+      "highlight": false
+    },
+    {
+      "key": "document",
+      "headline": "Details ready.\nIn a tap.",
+      "description": "Copy dates in the format\nyou need. Skip the typing.",
+      "highlight": true
+    },
+    {
+      "key": "trip",
+      "headline": "Every trip.\nOne clear plan.",
+      "description": "Flights, stays and documents.\nTogether for the journey.",
+      "highlight": false
+    },
+    {
+      "key": "packing",
+      "headline": "Pack for everyone.\nForget less.",
+      "description": "A checklist shaped around\nyour family and destination.",
+      "highlight": true
+    },
+    {
+      "key": "schedule",
+      "headline": "Keep the family\non the same page.",
+      "description": "Appointments and renewals.\nOne clear agenda.",
+      "highlight": false
+    },
+    {
+      "key": "search",
+      "headline": "Find it.\nGet on with it.",
+      "description": "Search your family’s documents,\ntrips and events in one place.",
+      "highlight": true
+    }
+  ]
+}

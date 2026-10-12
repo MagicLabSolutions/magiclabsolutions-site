@@ -1,0 +1,144 @@
+{
+  "iphone": {
+    "2": [
+      {
+        "source": "aux-smartcopy",
+        "rect": [
+          82,
+          1659,
+          1238,
+          1859
+        ],
+        "width": 0.92,
+        "x": 0.035,
+        "y": 0.89,
+        "radius": 36,
+        "rotation": -2
+      },
+      {
+        "source": "aux-smartcopy",
+        "rect": [
+          82,
+          2326,
+          1238,
+          2522
+        ],
+        "width": 0.87,
+        "x": 0.1,
+        "y": 1.12,
+        "radius": 36,
+        "rotation": 2
+      }
+    ],
+    "4": [
+      {
+        "source": "4-packing",
+        "rect": [
+          60,
+          779,
+          1260,
+          1840
+        ],
+        "width": 0.9,
+        "x": 0.055,
+        "y": 0.58,
+        "radius": 36,
+        "rotation": -1.5
+      }
+    ],
+    "6": [
+      {
+        "source": "6-search",
+        "rect": [
+          60,
+          1256,
+          1260,
+          1464
+        ],
+        "width": 0.92,
+        "x": 0.035,
+        "y": 0.64,
+        "radius": 36,
+        "rotation": -2
+      },
+      {
+        "source": "6-search",
+        "rect": [
+          60,
+          1848,
+          1260,
+          2024
+        ],
+        "width": 0.86,
+        "x": 0.1,
+        "y": 0.88,
+        "radius": 36,
+        "rotation": 2
+      }
+    ]
+  },
+  "ipad": {
+    "2": [
+      {
+        "source": "aux-smartcopy",
+        "rect": [
+          492,
+          1542,
+          1572,
+          1708
+        ],
+        "width": 0.86,
+        "x": 0.04,
+        "y": 0.39,
+        "radius": 26,
+        "rotation": -2
+      },
+      {
+        "source": "aux-smartcopy",
+        "rect": [
+          492,
+          1724,
+          1572,
+          1890
+        ],
+        "width": 0.82,
+        "x": 0.12,
+        "y": 0.55,
+        "radius": 26,
+        "rotation": 2
+      }
+    ],
+    "4": [
+      {
+        "source": "4-packing",
+        "rect": [
+          1072,
+          578,
+          2024,
+          1287
+        ],
+        "width": 0.64,
+        "x": 0.32,
+        "y": 0.23,
+        "radius": 28,
+        "rotation": -1.5
+      }
+    ],
+    "6": [
+      {
+        "source": "6-search",
+        "rect": [
+          1548,
+          64,
+          2044,
+          152
+        ],
+        "width": 0.82,
+        "x": 0.09,
+        "y": 0.49,
+        "radius": 44,
+        "rotation": -2
+      }
+    ]
+  }
+}

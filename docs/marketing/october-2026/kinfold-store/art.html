@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Kinfold · Store master</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Avenir Next',sans-serif}
+#art{position:relative;overflow:hidden;isolation:isolate;background:#f3f0e9;color:#242145}
+.photo,.veil,.route{position:absolute;inset:0}.photo{background-size:cover;background-position:center;opacity:.25}
+.hero .photo{background-size:100% auto;background-repeat:no-repeat;opacity:1;mask-image:linear-gradient(180deg,transparent 0%,#000 13%,#000 67%,transparent 100%)}
+.veil{background:linear-gradient(180deg,#f3f0e9 0%,#f3f0e9f2 30%,#f3f0e9bf 62%,#e3e4f2c7 100%)}
+.hero{background:#202b41!important;color:#fffaf1!important}.hero .veil{background:linear-gradient(180deg,#16182fd9 0%,#171a35a8 21%,#18263710 42%,#171c3020 62%,#171c306a 100%)}
+.night{background:#282544!important;color:#fffaf1!important}.night .photo{opacity:.27}.night .veil{background:linear-gradient(180deg,#282544 0%,#282544ef 31%,#28254465 72%,#282544a0 100%)}
+.brand{position:absolute;display:flex;align-items:center;font-weight:700;gap:.32em}.brand img{border-radius:23%}
+.copy{position:absolute;z-index:6}h1{margin:0;font-weight:760;line-height:1.04;letter-spacing:-.037em;white-space:pre-line}.desc{margin:0;line-height:1.29;white-space:pre-line;font-weight:450}
+.device{position:absolute;filter:drop-shadow(0 30px 36px #13132644)}.screen,.hardware{position:absolute;display:block}.hardware{inset:0;width:100%;height:100%;z-index:2}.screen{object-fit:contain;background:#000}
+.detail{position:absolute;z-index:4;overflow:hidden;background:#29292b;box-shadow:0 25px 55px #17192e55;border:3px solid #fff7;outline:3px solid #fff9;border-radius:30px}.detail img{position:absolute;max-width:none}
+.route{pointer-events:none;opacity:.24}.route path{fill:none;stroke:#7776bc;stroke-width:3;stroke-dasharray:10 14}.route circle{fill:#b7b2e8}
+</style></head><body>
+<main id="art"><div class="photo"></div><div class="veil"></div><svg class="route" viewBox="0 0 390 847" preserveAspectRatio="none"><path d="M-10 387C108 342 319 522 358 636S230 770 420 807"/><circle cx="358" cy="636" r="7"/></svg><div class="brand"><img id="icon"><span>Kinfold</span></div><div class="copy"><h1></h1><p class="desc"></p></div><div class="device"><img class="screen"><img class="hardware"></div><div id="details"></div></main>
+<script>
+window.render=async c=>{
+ const q=s=>document.querySelector(s),W=c.width,H=c.height,pad=c.platform==='ipad',hero=c.number===1;
+ q('#art').className=hero?'hero':c.number===3?'night':'';Object.assign(q('#art').style,{width:W+'px',height:H+'px'});
+ q('.photo').style.backgroundImage=`url("${c.background}")`;q('.photo').style.backgroundPosition=hero?'center top':`${c.number%2?'70%':'20%'} center`;
+ Object.assign(q('.photo').style,{top:hero?(pad?0:W*.15)+'px':'0',height:hero?W*1448/1086+'px':'100%'});
+ q('.route').style.display=hero?'none':'block';q('#icon').src=c.icon;q('.screen').src=c.capture;q('.hardware').src=c.frame.asset;
+ const left=W*.07;Object.assign(q('.brand').style,{left:left+'px',top:W*(pad?.055:.085)+'px',fontSize:W*.044+'px'});Object.assign(q('#icon').style,{width:W*.064+'px',height:W*.064+'px'});
+ q('h1').textContent=c.headline;q('.desc').textContent=c.description;
+ Object.assign(q('.copy').style,{left:left+'px',right:left+'px',top:W*(pad?.16:.24)+'px'});
+ Object.assign(q('h1').style,{fontSize:W*.108+'px'});Object.assign(q('.desc').style,{fontSize:W*.05+'px',marginTop:W*.032+'px'});
+ await Promise.all([...document.images].map(i=>i.decode()));await document.fonts.ready;
+ const bottom=q('.copy').getBoundingClientRect().bottom,fw=c.frame.dimensions[0],fh=c.frame.dimensions[1],dw=W*(pad?.91:.865),dx=(W-dw)/2,dy=hero?Math.max(bottom+W*.05,W*(pad?.755:.96)):bottom+W*.052;
+ Object.assign(q('.device').style,{left:dx+'px',top:dy+'px',width:dw+'px',height:dw*fh/fw+'px'});
+ const[sx,sy,sw,sh]=c.frame.screen;
+ Object.assign(q('.screen').style,{left:sx/fw*100+'%',top:sy/fh*100+'%',width:sw/fw*100+'%',height:sh/fh*100+'%',borderRadius:(pad?42:110)*dw/fw+'px'});
+ q('#details').replaceChildren();let details=[];
+ for(const [index,detail] of c.details.entries()){
+   const[l,t,r,b]=detail.rect,el=document.createElement('div'),img=document.createElement('img');el.className='detail';el.append(img);q('#details').append(el);img.src=detail.source;
+   await img.decode();const cw=W*detail.width,scale=cw/(r-l),ch=(b-t)*scale,cx=W*detail.x,cy=dy+W*detail.y;
+   Object.assign(el.style,{left:cx+'px',top:cy+'px',width:cw+'px',height:ch+'px',borderRadius:(detail.radius||28)*scale+'px',transform:`rotate(${detail.rotation||0}deg)`});
+   Object.assign(img.style,{width:img.naturalWidth*scale+'px',height:img.naturalHeight*scale+'px',left:-l*scale+'px',top:-t*scale+'px'});
+   details.push({index,...el.getBoundingClientRect().toJSON(),sourceSize:[img.naturalWidth,img.naturalHeight],rect:detail.rect,scale});
+ }
+ return{copy:q('.copy').getBoundingClientRect().toJSON(),device:q('.device').getBoundingClientRect().toJSON(),details,fonts:{headline:W*.108,description:W*.05},sourceSize:[q('.screen').naturalWidth,q('.screen').naturalHeight],overflow:q('.copy').scrollWidth>q('.copy').clientWidth};
+};
+</script></body></html>

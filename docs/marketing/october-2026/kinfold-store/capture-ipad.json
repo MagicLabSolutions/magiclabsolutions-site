@@ -1,0 +1,107 @@
+{
+  "sourceCommit": "57a9c8b1b7dabae56ba71cb873160c863d4b8d64",
+  "platform": "ipad",
+  "simulator": "3E17B79B-75F5-4575-9A84-9AF8A5CAE794",
+  "runtime": "iOS 26.5",
+  "locale": "en-US",
+  "contentSize": "extra-extra-extra-large",
+  "bundleIdentifier": "com.magiclabsolutions.FamilyVault.marketingcapture",
+  "isolation": "Task-owned simulator and bundle; in-memory SwiftData, fictional sample data",
+  "binary": {
+    "FamilyVault": "b8d7965ee7a8ca0ade3c0be7a82cfb85c4ab22f6a7dab24d36e9831d9a3b9b2d",
+    "FamilyVault.debug.dylib": "e73b0bc7bcb8a3f6d90a52b7008d122b5431e3e2115caf97336fd91563765d0e"
+  },
+  "records": [
+    {
+      "view": "1-vault",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/ipad/1-vault.png",
+      "sha256": "e7967ac4ff1a26ebfc7c1808fef0e76ad41430a85bb32ee1b44b86d5147d3647",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "vault"
+      }
+    },
+    {
+      "view": "2-document",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/ipad/2-document.png",
+      "sha256": "91e8e7ce3a9da262e726408b4a1b5d1d2c133ede635110b966356ee6a5311135",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "vault",
+        "FV_DEBUG_OPEN_FIRST_DOC": "1"
+      }
+    },
+    {
+      "view": "3-trip",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/ipad/3-trip.png",
+      "sha256": "6ee1dbe38fefa28b15157f653be7fa0168865c08458936fd60a1d75cd3472ee8",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "trips",
+        "FV_DEBUG_OPEN_TRIP": "1"
+      }
+    },
+    {
+      "view": "4-packing",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/ipad/4-packing.png",
+      "sha256": "39eee6e37e12c07fcda8220849176f1f01e07329d8511ea02700ad17195cfa33",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "trips",
+        "FV_DEBUG_OPEN_TRIP": "1",
+        "FV_DEBUG_SCROLL": "packing"
+      }
+    },
+    {
+      "view": "5-schedule",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/ipad/5-schedule.png",
+      "sha256": "dea620ba7291fac20e21cd9dd1aee62f31878e73d7b054e10905a5c782c24449",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "schedule"
+      }
+    },
+    {
+      "view": "6-search",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/ipad/6-search.png",
+      "sha256": "3d5731b8a6c83eff86cc86c03ada930d6c3eec0ae3a3a0e7506770a009a06240",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "search",
+        "FV_DEBUG_SEARCH": "passport"
+      }
+    },
+    {
+      "view": "aux-smartcopy",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/ipad/aux-smartcopy.png",
+      "sha256": "a86686f20815d7f166308bae0d0d1175bacc80615d9f9f70ed0728ad08120c95",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "vault",
+        "FV_DEBUG_OPEN_FIRST_DOC": "1",
+        "FV_DEBUG_SMARTCOPY": "1"
+      }
+    }
+  ]
+}

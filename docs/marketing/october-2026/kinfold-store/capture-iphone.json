@@ -1,0 +1,107 @@
+{
+  "sourceCommit": "57a9c8b1b7dabae56ba71cb873160c863d4b8d64",
+  "platform": "iphone",
+  "simulator": "EDB927B4-19EC-431F-B9DE-DAA29851A14D",
+  "runtime": "iOS 26.5",
+  "locale": "en-US",
+  "bundleIdentifier": "com.magiclabsolutions.FamilyVault.marketingcapture",
+  "isolation": "Task-owned simulator and bundle; in-memory SwiftData, fictional sample data",
+  "binary": {
+    "FamilyVault": "b8d7965ee7a8ca0ade3c0be7a82cfb85c4ab22f6a7dab24d36e9831d9a3b9b2d",
+    "FamilyVault.debug.dylib": "e73b0bc7bcb8a3f6d90a52b7008d122b5431e3e2115caf97336fd91563765d0e"
+  },
+  "records": [
+    {
+      "view": "1-vault",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/iphone/1-vault.png",
+      "sha256": "2116b4b01a6d6dc30399e2f975867127f5dbb84b896b86bcf5e446ee18c65beb",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "vault"
+      }
+    },
+    {
+      "view": "2-document",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/iphone/2-document.png",
+      "sha256": "5c00a0f28e84eb839de7778250770121d3116ce4cdecf92eedcbb3aa34c20a04",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "vault",
+        "FV_DEBUG_OPEN_FIRST_DOC": "1"
+      }
+    },
+    {
+      "view": "3-trip",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/iphone/3-trip.png",
+      "sha256": "0f85d5e352701785e4de3d5da7f94019d7490c2b3ecb947fa0d94edac435fc46",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "trips",
+        "FV_DEBUG_OPEN_TRIP": "1"
+      }
+    },
+    {
+      "view": "4-packing",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/iphone/4-packing.png",
+      "sha256": "5b10a137f8de38398751b004c45701706245df883a7310294810f7ae89e73e67",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "trips",
+        "FV_DEBUG_OPEN_TRIP": "1",
+        "FV_DEBUG_SCROLL": "packing"
+      }
+    },
+    {
+      "view": "5-schedule",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/iphone/5-schedule.png",
+      "sha256": "deabc585140a25a8632027976588b9989d3a7375bdd5a9d2692e01f5a5dfa96d",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "schedule"
+      }
+    },
+    {
+      "view": "6-search",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/iphone/6-search.png",
+      "sha256": "5ba068508bcafd3eeee804c6b83d5048eeb378426521a034e585dde21ae83ff5",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "search",
+        "FV_DEBUG_SEARCH": "passport"
+      }
+    },
+    {
+      "view": "aux-smartcopy",
+      "file": "docs/marketing/october-2026/kinfold-store/native/en-US/iphone/aux-smartcopy.png",
+      "sha256": "751831ae02a69db3be6f67da70029389e05081df20a1c51b094783df0c8484ac",
+      "launchEnvironment": {
+        "FV_DEBUG_INMEMORY": "1",
+        "FV_DEBUG_SEED": "1",
+        "FV_DEBUG_SKIP_ONBOARDING": "1",
+        "XCTestConfigurationFilePath": "/tmp/kinfold-marketing-capture",
+        "FV_DEBUG_TAB": "vault",
+        "FV_DEBUG_OPEN_FIRST_DOC": "1",
+        "FV_DEBUG_SMARTCOPY": "1"
+      }
+    }
+  ],
+  "contentSize": "large"
+}
