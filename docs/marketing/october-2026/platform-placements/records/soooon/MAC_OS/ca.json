@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "soooon",
+    "locale": "ca",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/soooon/ca/header.png",
+    "sha256": "c1467e54e5480207d72284abfef8706bf78e1b20081885d6b9a9a60d64f804fe",
+    "capture": "images/products-localized/soooon/ca/iphone/native-1.webp",
+    "captureSha256": "13c7c153f0b92132c26311026a62ecf8cf87208a74ef08d05654919b4cad5c59",
+    "headline": "Dies importants.\nUn petit company.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "sourceLocale": "ca",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "soooon",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "locale": "ca",
+    "sourceLocale": "ca",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/soooon/MAC_OS/ca/search-results.png",
+    "sha256": "d480d12e1cc37a9b9f54acd350468494141ab8d5fd2a510bf205c4b2bd2e29c9",
+    "headline": "Dies importants.\nUn petit company.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1720.078125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2104.078125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.865624999999994
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        960
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/soooon/ca/mac/native-1.webp",
+    "captureSha256": "c84a4f6a2bbf9f82afa9805ac8654dcc50bac00b05d910040ece3917e1783a17"
+  }
+]

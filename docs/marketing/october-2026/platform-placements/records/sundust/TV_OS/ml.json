@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "ml",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/ml/header.png",
+    "sha256": "d23c6b40e7545881e4263fc36577383fe17c2b9c8292dba86fd41044ac076f8c",
+    "capture": "images/products-localized/sundust/ml/iphone/native-1.webp",
+    "captureSha256": "1eaeaa1c280e81d7f47232e93b0a3cf8b4a483aabe205c9a6757a28920044057",
+    "headline": "ഒരു ചെറിയ റോക്കറ്റ്.\nവലിയൊരു സാഹസികത.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "sourceLocale": "ml",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "locale": "ml",
+    "sourceLocale": "ml",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/TV_OS/ml/search-results.png",
+    "sha256": "f1310367140038983c969e7d4683d7f550039314635cc6a3bf56f8e42b03d405",
+    "headline": "ഒരു ചെറിയ റോക്കറ്റ്.\nവലിയൊരു സാഹസികത.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1703.140625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2087.140625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.459374999999994
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": "images/products-localized/sundust/ml/iphone/native-1.webp",
+    "captureSha256": "1eaeaa1c280e81d7f47232e93b0a3cf8b4a483aabe205c9a6757a28920044057"
+  }
+]

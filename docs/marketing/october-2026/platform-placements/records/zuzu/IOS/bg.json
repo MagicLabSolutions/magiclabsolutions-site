@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "zuzu",
+    "locale": "bg",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/zuzu/bg/header.png",
+    "sha256": "0fb76da89235a14410dc13c579150097256bc54fdca7c10a54b43c4ea04135e4",
+    "capture": "images/products-localized/zuzu/bg/iphone/native-1.webp",
+    "captureSha256": "c7c464487ddda950e11ee5d6fd6a9f8ab34b6ac78ca8dcf05b08b21d87207b19",
+    "headline": "Денят на бебето.\nВсичко на едно място.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6757988505",
+    "platform": "IOS",
+    "sourceLocale": "bg",
+    "reusedApproved": true
+  },
+  {
+    "slug": "zuzu",
+    "locale": "bg",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/zuzu/bg/search-results.png",
+    "sha256": "a25f1475ef5b5b9bf6d5356560179f72ae9c44220db7cc08ddc41da04ac1abf6",
+    "capture": "images/products-localized/zuzu/bg/iphone/native-1.webp",
+    "captureSha256": "c7c464487ddda950e11ee5d6fd6a9f8ab34b6ac78ca8dcf05b08b21d87207b19",
+    "headline": "Денят на бебето.\nВсичко на едно място.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6757988505",
+    "platform": "IOS",
+    "sourceLocale": "bg",
+    "reusedApproved": true
+  }
+]

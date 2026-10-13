@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "giftly",
+    "locale": "zh-Hans",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/giftly/zh-Hans/header.png",
+    "sha256": "c314bca1788971615fefbb9499946d712209582a05a3bf0560ced7e2c0a1e70a",
+    "capture": "images/products-localized/giftly/zh-Hans/iphone/native-1.webp",
+    "captureSha256": "1cce663c2d6e493d57a8b03545a1cfbe8f3de91d66832bd34dd36aab3a6014f1",
+    "headline": "多一份心意，\n多一份惊喜。",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6802913010",
+    "platform": "MAC_OS",
+    "sourceLocale": "zh-Hans",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "giftly",
+    "appId": "6802913010",
+    "platform": "MAC_OS",
+    "locale": "zh-Hans",
+    "sourceLocale": "zh-Hans",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/giftly/MAC_OS/zh-Hans/search-results.png",
+    "sha256": "61cdbd1af489ccca03cbefa07fd94b059c7d32ab03ddeaf58c59f64eb5b11b6c",
+    "headline": "多一份心意，\n多一份惊喜。",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/giftly/zh-Hans/mac/native-1.webp",
+    "captureSha256": "ea667c9ba0d4ce481f22dbc5f1d2a9347e25af8a0fee476b20e32f30820ef6d2"
+  }
+]

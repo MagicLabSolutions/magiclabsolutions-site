@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "memories",
+    "locale": "th",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/th/header.png",
+    "sha256": "db6b8afc80f85f603c1df24a5ff8618f19c3b7185321fa6ef697e06dc736865c",
+    "capture": "images/products-localized/memories/th/iphone/native-1.webp",
+    "captureSha256": "dc5bc3ae9b04dc9d69c15758b0d94866be6641240b7c58c8f0d3e26378ebe848",
+    "headline": "ช่วงเวลาเล็กๆ\nร้อยเรียงเป็นเรื่องราวเดียว",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6763877209",
+    "platform": "MAC_OS",
+    "sourceLocale": "th",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "memories",
+    "appId": "6763877209",
+    "platform": "MAC_OS",
+    "locale": "th",
+    "sourceLocale": "th",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/memories/MAC_OS/th/search-results.png",
+    "sha256": "3b034cd5be92e80ea0a21b9d76bc321124d462124db3e204c2924bab6c1b0487",
+    "headline": "ช่วงเวลาเล็กๆ\nร้อยเรียงเป็นเรื่องราวเดียว",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        931
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/memories/th/mac/native-1.webp",
+    "captureSha256": "9700b72c8b8ec49e3f5d4592b7180327eb8c7808b8fdf585e52f03eb0083e563"
+  }
+]

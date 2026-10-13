@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "fr-CA",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/fr-CA/header.png",
+    "sha256": "e89a2e15bab20dc6256b5ff28535bc658059badfa3b393fad413a20c74a91046",
+    "capture": "images/products-localized/sundust/fr-CA/iphone/native-1.webp",
+    "captureSha256": "90202e147618a6168b75d92f026b724ef5cface8f49d15952ea64559494f0b6f",
+    "headline": "Une petite fusée.\nUne grande aventure.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "fr-CA",
+    "reusedApproved": true
+  },
+  {
+    "slug": "sundust",
+    "locale": "fr-CA",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/fr-CA/search-results.png",
+    "sha256": "7d8b5d8f7b87d75dfb22f6b7f9e6388e1f1e3ea021f660a3b3975e04fd3364f0",
+    "capture": "images/products-localized/sundust/fr-CA/iphone/native-1.webp",
+    "captureSha256": "90202e147618a6168b75d92f026b724ef5cface8f49d15952ea64559494f0b6f",
+    "headline": "Une petite fusée.\nUne grande aventure.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "fr-CA",
+    "reusedApproved": true
+  }
+]

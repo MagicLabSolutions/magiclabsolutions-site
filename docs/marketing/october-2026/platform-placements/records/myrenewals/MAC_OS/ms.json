@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "myrenewals",
+    "locale": "ms",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/myrenewals/ms/header.png",
+    "sha256": "5949123d8099d7b0c67665f6d4416924c9197a5548f3055e231a96333c9b3c72",
+    "capture": "images/products-localized/myrenewals/ms/iphone/native-1.webp",
+    "captureSha256": "654113fa19e90d6ebcac5fbf54d48632f1e7fba8b2386d093a75b76d54a1b34b",
+    "headline": "Ketahui perkara yang akan diperbaharui seterusnya.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 74.0625,
+        "width": 2611.1875,
+        "height": 1455.203125,
+        "top": 74.0625,
+        "right": 2860.78125,
+        "bottom": 1529.265625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 26.52
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "sourceLocale": "ms",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "myrenewals",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "locale": "ms",
+    "sourceLocale": "ms",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/myrenewals/MAC_OS/ms/search-results.png",
+    "sha256": "df2abe78aa153901cf609e135ae6578e1b647825ff172e15c95762862005e918",
+    "headline": "Ketahui perkara yang akan diperbaharui seterusnya.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.453125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.453125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 27.584374999999998
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        931
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/myrenewals/ms/mac/native-1.webp",
+    "captureSha256": "3a474b62c1bfecaca8779735f1e6b7628825ebba8ebbb24cdac0db72c7349919"
+  }
+]

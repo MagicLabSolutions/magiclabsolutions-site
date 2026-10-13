@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "ro",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/ro/header.png",
+    "sha256": "03967dbf87cdc713e562db7f975ab55b7877e9575b6dc4d14af49207240709ab",
+    "capture": "images/products-localized/sundust/ro/iphone/native-1.webp",
+    "captureSha256": "6a478856ed5af6f52cbb07232b4ff56c7758f17151e3fdb435778e3b3e56eb13",
+    "headline": "O rachetă mică.\nO aventură mare.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1317.078125,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1448.75,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 30.948125000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "sourceLocale": "ro",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "locale": "ro",
+    "sourceLocale": "ro",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/TV_OS/ro/search-results.png",
+    "sha256": "3476e2df84cdcf100605ecd9c34fadcb4512f72e6a2a45cb235ae6ae10151dd3",
+    "headline": "O rachetă mică.\nO aventură mare.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": "images/products-localized/sundust/ro/iphone/native-1.webp",
+    "captureSha256": "6a478856ed5af6f52cbb07232b4ff56c7758f17151e3fdb435778e3b3e56eb13"
+  }
+]

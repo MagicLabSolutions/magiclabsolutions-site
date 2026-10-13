@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "myrenewals",
+    "locale": "zh-Hant",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/myrenewals/zh-Hant/header.png",
+    "sha256": "396c9c1a121b0d5f212c9a17a555fb8fa6e5052f1f782d868f062d63869316a1",
+    "capture": "images/products-localized/myrenewals/zh-Hant/iphone/native-1.webp",
+    "captureSha256": "274c02f2e9c5230194c2558af5f43b66d7dced9546a67131ef30ac2f2cd5a3d5",
+    "headline": "了解哪些物品即將續約。",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "sourceLocale": "zh-Hant",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "myrenewals",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "locale": "zh-Hant",
+    "sourceLocale": "zh-Hant",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/myrenewals/MAC_OS/zh-Hant/search-results.png",
+    "sha256": "64edbfca8450ccdb072f03965bc3179555f2f9a165fb46ca11a2912347ef79a5",
+    "headline": "了解哪些物品即將續約。",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        931
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/myrenewals/zh-Hant/mac/native-1.webp",
+    "captureSha256": "7f8ed8ff8619574958db9cf0f2f964ceb323a11b05dbbba74cc26637b70397a9"
+  }
+]

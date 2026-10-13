@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "tumtum",
+    "locale": "es",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/tumtum/es/header.png",
+    "sha256": "714e4f7d1ccfbcf7a04e1a67589c4144e7def306b8c250e101335b525fb5176c",
+    "capture": "images/products-localized/tumtum/es/iphone/native-1.webp",
+    "captureSha256": "b43b2479d9ec723a49390eba15db79104b71e3a5951633ded1af3f2fdb7ff34b",
+    "headline": "Manitas pequeñas.\nGrandes descubrimientos.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6808820820",
+    "platform": "IOS",
+    "sourceLocale": "es",
+    "reusedApproved": true
+  },
+  {
+    "slug": "tumtum",
+    "locale": "es",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/tumtum/es/search-results.png",
+    "sha256": "ed6775393f9125d05bf74b4a6356e3207a056688f56bc5aedc9ba96e795c28c3",
+    "capture": "images/products-localized/tumtum/es/iphone/native-1.webp",
+    "captureSha256": "b43b2479d9ec723a49390eba15db79104b71e3a5951633ded1af3f2fdb7ff34b",
+    "headline": "Manitas pequeñas.\nGrandes descubrimientos.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6808820820",
+    "platform": "IOS",
+    "sourceLocale": "es",
+    "reusedApproved": true
+  }
+]

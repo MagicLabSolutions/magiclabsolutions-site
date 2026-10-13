@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "kinfold",
+    "locale": "ms",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/kinfold/ms/header.png",
+    "sha256": "11921b509b61cf0be6ffc8f6f46b6b704616a3ef3d609aaa32b428e6ef2a5bec",
+    "capture": "docs/marketing/october-2026/kinfold-expanded/native/ms/iphone/1-vault.png",
+    "captureSha256": "2ba2557b5b13bfac0fd135df094952fb455007010f5d838ae06678eadb32cc9d",
+    "headline": "Keluarga sedia berangkat.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        1320,
+        2868
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6785646082",
+    "platform": "MAC_OS",
+    "sourceLocale": "ms",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "kinfold",
+    "appId": "6785646082",
+    "platform": "MAC_OS",
+    "locale": "ms",
+    "sourceLocale": "ms",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/kinfold/MAC_OS/ms/search-results.png",
+    "sha256": "a7a2914cdd10e4977878cd197d0866bb32ff83a48c7e0c813aabdde8af198fa3",
+    "headline": "Keluarga sedia berangkat.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1434.3125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1818.3125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.69375
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/kinfold/ms/mac/native-1.webp",
+    "captureSha256": "b76c1c14f068c67e8606bfa64d478214189dc22082018e0d9c06d15946c2b00a"
+  }
+]

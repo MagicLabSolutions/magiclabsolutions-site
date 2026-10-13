@@ -1,0 +1,1025 @@
+[
+  {
+    "appId": "6799490838",
+    "name": "Starwake: Dark Forest",
+    "bundleId": "com.magiclabsolutions.starwake",
+    "versions": [
+      {
+        "id": "8905d070-9ac6-4f30-9c8f-3bc80e9f7e5d",
+        "platform": "MAC_OS",
+        "version": "1.0",
+        "state": "PREPARE_FOR_SUBMISSION",
+        "locales": [
+          {
+            "id": "591f999e-f96b-4694-81f5-eb9ea6ebd4bb",
+            "locale": "en-US",
+            "placements": [
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "14400019-547f-8f16-8f14-5f5d6c10619f"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "6d000019-547f-8f16-8f35-03468c81396c"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "04800019-547f-8f16-8f12-145c8b40ad2e"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "a2800019-547f-8f16-8f3c-550cd0edf660"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "e0400019-547f-8f16-8f36-387afc9d2080"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "f9c00019-547f-8f16-8f21-4bae0d27e76b"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "d2400019-547f-8f16-8f05-a8d065ba2fee"
+              }
+            ],
+            "creative": []
+          }
+        ]
+      },
+      {
+        "id": "c25747f4-12e0-401c-9381-95f6ce3f66f7",
+        "platform": "IOS",
+        "version": "1.0",
+        "state": "PREPARE_FOR_SUBMISSION",
+        "locales": [
+          {
+            "id": "8586df73-9ddb-4928-9dad-5785fb98d4d5",
+            "locale": "en-US",
+            "placements": [
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "77800019-547f-8f16-8f21-9f2d6c0b07e0"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "4e400019-547f-8f16-8f3c-72e7c576eae1"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "90c00019-547f-8f16-8f22-0576bad59d9e"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "3f800019-547f-8f16-8f25-27e32b1c6547"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "7cc00019-547f-8f16-8f0c-0e051fb77e74"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "3f000019-547f-8f16-8f04-a672ff1168fd"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "f9000019-547f-8f16-8f3f-04a4849dff44"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "b4400019-547f-8f16-8f07-eb360708851a"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "98400019-547f-8f16-8f17-0e0a1cfadff2"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "a8c00019-547f-8f16-8f2e-745a7f578e69"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "ed800019-547f-8f16-8f2d-1976d85eea7d"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "1f000019-547f-8f16-8f31-6dadbec02f97"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "f9400019-547f-8f16-8f00-0cadd825b11a"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "30400019-547f-8f16-8f25-6ae2fcdbe56c"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "ac800019-547f-8f16-8f0e-bcfcdd9a2a51"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "d7400019-547f-8f16-8f0e-3427bc586d76"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "c0800019-547f-8f16-8f20-ed4c494e6a42"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "a8c00019-547f-8f16-8f30-f8d38cc9cbb2"
+              }
+            ],
+            "creative": []
+          }
+        ]
+      },
+      {
+        "id": "468c1dff-6b75-41b9-bffe-bd2d431da697",
+        "platform": "TV_OS",
+        "version": "1.0",
+        "state": "PREPARE_FOR_SUBMISSION",
+        "locales": [
+          {
+            "id": "696f2a11-7823-40b1-ac7f-08ebdb02776c",
+            "locale": "en-US",
+            "placements": [
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "e9400019-547f-8f16-8f16-904d12bbaf2a"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "64800019-547f-8f16-8f19-f96786c28007"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "2e800019-547f-8f16-8f29-75900d7416ee"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "22400019-547f-8f16-8f0a-6c444a8b836d"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "e3800019-547f-8f16-8f23-f6ae7b8c43bb"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "ef400019-547f-8f16-8f25-00e9059c21c1"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "1b000019-547f-8f16-8f32-fea8a85dc91f"
+              }
+            ],
+            "creative": []
+          }
+        ]
+      }
+    ],
+    "infoLocalizations": [
+      {
+        "locale": "en-US",
+        "name": "Starwake: Dark Forest",
+        "subtitle": "Survey a galaxy that listens"
+      }
+    ]
+  },
+  {
+    "appId": "6801711330",
+    "name": "Abrigo Dona Neusa",
+    "bundleId": "com.magiclabsolutions.donaneusa",
+    "versions": [
+      {
+        "id": "ec5f5b07-6667-49e5-8bd7-757abb2076ed",
+        "platform": "MAC_OS",
+        "version": "1.2.0",
+        "state": "WAITING_FOR_REVIEW",
+        "locales": [
+          {
+            "id": "b3e27714-76b3-4e29-af58-386db57b66ec",
+            "locale": "pt-BR",
+            "placements": [
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "f0400019-569e-80e2-8f3f-de3de2505d88"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "67c00019-569e-80e2-8f2d-ea4676921b7d"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "65c00019-569e-80e2-8f2f-10cb0e739525"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "e7c00019-569e-80e2-8f23-47f66cb0fdae"
+              }
+            ],
+            "creative": []
+          }
+        ]
+      },
+      {
+        "id": "7ca3553d-f195-4d51-889b-82fb64df2a31",
+        "platform": "IOS",
+        "version": "1.2.0",
+        "state": "WAITING_FOR_REVIEW",
+        "locales": [
+          {
+            "id": "7ddf3ae2-f3f3-4aa1-a0bd-033c66374d7d",
+            "locale": "pt-BR",
+            "placements": [
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "f4c00019-569e-80e2-8f11-56893f5842f7"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "9d000019-569e-80e2-8f12-e2d09b60ee8c"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "c1c00019-569e-80e2-8f01-b467ff854447"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "10400019-569e-80e2-8f37-c731ac8680d7"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "7e400019-569e-80e2-8f3b-36860f6ac4e3"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "2fc00019-569e-80e2-8f12-22442c9a30fc"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "d8000019-569e-80e2-8f10-054b92601289"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "cb400019-569e-80e2-8f01-eb9d4caf4370"
+              }
+            ],
+            "creative": []
+          }
+        ]
+      }
+    ],
+    "infoLocalizations": [
+      {
+        "locale": "pt-BR",
+        "name": "Abrigo Dona Neusa",
+        "subtitle": "Gestão do abrigo de animais"
+      }
+    ]
+  },
+  {
+    "appId": "6444232316",
+    "name": "QRamen - QR Code Maker & Scan",
+    "bundleId": "com.qramen.app.QRamen",
+    "versions": [
+      {
+        "id": "317b933a-c489-4c30-982a-b42a59917cce",
+        "platform": "IOS",
+        "version": "1.3.0",
+        "state": "READY_FOR_DISTRIBUTION",
+        "locales": [
+          {
+            "id": "16b08525-a16d-4fe2-80f9-6351f9f1cea2",
+            "locale": "sl-SI",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "3ce70d7a-c6aa-4110-a657-1183e9f0ccda",
+            "locale": "zh-Hans",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "b17566f8-1f24-4ee8-8493-b1a0e600f325",
+            "locale": "mr-IN",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "2891f8cc-15ba-4f30-b65a-eb59a6a0f215",
+            "locale": "fi",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "79260a3d-52bb-4468-b9aa-cc6fad191e5f",
+            "locale": "hi",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "44d5837e-8740-4d12-b511-7df9d8c4d42c",
+            "locale": "fr-FR",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "4f265f1d-b104-4b77-9d7b-16410ec332e9",
+            "locale": "sk",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "1ed73564-9942-469e-b7cb-b92f462142e0",
+            "locale": "or-IN",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "2cbe64b3-7f9d-4b76-ad68-32e3e0de0288",
+            "locale": "en-AU",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "99c0af46-a916-4fe4-bf69-e8b5c0a3a773",
+            "locale": "da",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "67b1c239-2e33-49d3-a2c3-01d3e4a2b08f",
+            "locale": "de-DE",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "7852dd2a-f352-4042-a0fb-e4325600e25f",
+            "locale": "tr",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "eee5997b-8af8-4f4f-9b42-2efa2d8a2c23",
+            "locale": "it",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "eb488e3c-023e-4d79-9cc3-176bf945a007",
+            "locale": "uk",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "8b33ef57-00d6-4c25-b94d-be236586cbb0",
+            "locale": "ko",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "0532330e-d933-4320-97c4-352851660faf",
+            "locale": "ca",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "5e78dd6a-aa9a-467a-8574-df2749098352",
+            "locale": "ml-IN",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "4449c0eb-7a11-480f-8dd8-00f1627e5c50",
+            "locale": "en-CA",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "5c372cba-240d-4523-9c3e-b383ea17c2c4",
+            "locale": "bn-BD",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "7a1288f4-be12-4805-b7dd-8aa52467d518",
+            "locale": "es-ES",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "9db1a847-a851-4ba2-a1e2-4549b055f48b",
+            "locale": "ar-SA",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "d32c07e3-931e-4f5d-a7bd-9c5efe2bcdee",
+            "locale": "en-US",
+            "placements": [
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "51c00018-01b2-8e7c-8f34-5c837073b1cb"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "c3c00018-01b2-8e7c-8f1a-2369d0947e4d"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "c9c00018-01b2-8e7c-8f23-5f87189f03a0"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "a2000018-01b2-8e7c-8f0d-23023a2d8d00"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "96800018-01b2-8e7c-8f09-bc45d0ce2312"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "7d400018-01b2-8e7c-8f0b-d7d662dd9071"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "6e000018-01b2-8e7c-8f26-685b3de4161e"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "4f000018-01b2-8e7c-8f1c-9bb16a1f63b0"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "3ac00018-01b2-8e7c-8f16-31a3f5549ae0"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "27400018-01b2-8e7c-8f01-71178ad0ab51"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "12c00018-01b2-8e7c-8f39-fd9d64a0f085"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "10c00018-01b2-8e7c-8f10-c3afbcec135c"
+              }
+            ],
+            "creative": [
+              {
+                "id": "51c00018-01b2-8e7c-8f34-5c837073b1cb",
+                "type": "APP_STORE_SEARCH_RESULTS_ASSET"
+              },
+              {
+                "id": "c3c00018-01b2-8e7c-8f1a-2369d0947e4d",
+                "type": "PRODUCT_PAGE_HEADER_ASSET"
+              }
+            ]
+          },
+          {
+            "id": "b3b7577d-6c36-4268-a84e-0bf4b0fd53de",
+            "locale": "zh-Hant",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "4fe4ac42-6b7f-41c4-b697-4219140d48c7",
+            "locale": "ja",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "f1ad42cf-112c-4d94-9980-2a831112fdbe",
+            "locale": "hu",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "14abd13f-d9b5-4780-aa88-d7074417c193",
+            "locale": "hr",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "179f733f-79b1-4689-85cc-72ee71043723",
+            "locale": "ro",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "42954f2f-6db5-42e3-a486-8f27d798769c",
+            "locale": "id",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "d7df3cf3-bde5-4396-9b2c-e91a11c9d798",
+            "locale": "th",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "a7c52e02-156d-46cc-a192-efa470bcafdc",
+            "locale": "pl",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "f77a17f4-a8bc-4652-8876-d835e0345250",
+            "locale": "no",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "43e0a70f-89dc-4d74-846d-1d159b077daa",
+            "locale": "cs",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "07c9bef4-9080-44eb-bdf8-cc5aba7eba78",
+            "locale": "he",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "c6aa74d0-4f9d-4ca5-ab09-0171cb9b5272",
+            "locale": "ms",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "87118751-f648-4bf2-8055-6a7dff7a1c4b",
+            "locale": "fr-CA",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "a2394e26-2de7-4763-a2b6-6e034f64d0d4",
+            "locale": "ur-PK",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "1cbdb212-0f6f-46e4-b006-250367923b9c",
+            "locale": "ta-IN",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "705d8c4e-9750-4207-9fdc-c24f58f478c8",
+            "locale": "sv",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "cc037051-46fd-42fc-a6e1-d4ec386aef30",
+            "locale": "pt-PT",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "695a6573-9f50-4e30-8e0a-5d7034982f09",
+            "locale": "te-IN",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "1beb0a10-9a9a-46cb-9b82-94a46c0169d6",
+            "locale": "gu-IN",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "524669ff-d1ce-4881-b765-40f607e44119",
+            "locale": "es-MX",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "6582d4e9-851b-4bfe-ac9b-f44724ed5d81",
+            "locale": "nl-NL",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "a130e020-2518-49f5-acad-f1ee6a77d34e",
+            "locale": "ru",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "b3ac45a5-2ad1-45a3-89b0-af296857c6b2",
+            "locale": "pt-BR",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "0679a9ee-9a36-49e8-aecf-31350c0b042e",
+            "locale": "en-GB",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "5b0b7129-373d-467c-80ec-3cccb5a04040",
+            "locale": "vi",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "02d7b255-b6e3-4cc2-8e78-188b550a9d33",
+            "locale": "pa-IN",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "cc4c6736-7092-4976-b602-03922ac7e816",
+            "locale": "el",
+            "placements": [],
+            "creative": []
+          },
+          {
+            "id": "9bc3da24-884b-4405-8312-56e12d32ecb7",
+            "locale": "kn-IN",
+            "placements": [],
+            "creative": []
+          }
+        ]
+      }
+    ],
+    "infoLocalizations": [
+      {
+        "locale": "sv",
+        "name": "QRamen - Skapa & skanna QR",
+        "subtitle": "WiFi, vCard & sociala koder"
+      },
+      {
+        "locale": "es-MX",
+        "name": "QRamen - Escáner y Crear QR",
+        "subtitle": "Generador WiFi, vCard y redes"
+      },
+      {
+        "locale": "te-IN",
+        "name": "QRamen - QR మేకర్ & స్కానర్",
+        "subtitle": "వైఫై, vCard & సోషల్ కోడ్"
+      },
+      {
+        "locale": "ru",
+        "name": "QRamen - QR сканер и генератор",
+        "subtitle": "WiFi, vCard, ссылки и соцсети"
+      },
+      {
+        "locale": "hi",
+        "name": "QRamen - QR कोड मेकर व स्कैन",
+        "subtitle": "WiFi, संपर्क व सोशल कोड बनाएं"
+      },
+      {
+        "locale": "fr-CA",
+        "name": "QRamen - Code QR & Scanner",
+        "subtitle": "Créer QR WiFi, vCarte, social"
+      },
+      {
+        "locale": "pt-PT",
+        "name": "QRamen - Criar e Ler QR",
+        "subtitle": "WiFi, vCard e redes sociais"
+      },
+      {
+        "locale": "ca",
+        "name": "QRamen - Crea i escaneja QR",
+        "subtitle": "WiFi, vCard i xarxes socials"
+      },
+      {
+        "locale": "vi",
+        "name": "QRamen - Tạo & Quét Mã QR",
+        "subtitle": "Tạo mã WiFi, danh thiếp, MXH"
+      },
+      {
+        "locale": "ml-IN",
+        "name": "QRamen: QR കോഡ് മേക്കർ & സ്കാൻ",
+        "subtitle": "വൈഫൈ, vCard & സോഷ്യൽ ജനറേറ്റർ"
+      },
+      {
+        "locale": "tr",
+        "name": "QRamen - QR Kod Oluştur & Tara",
+        "subtitle": "WiFi, kartvizit & sosyal kod"
+      },
+      {
+        "locale": "gu-IN",
+        "name": "QRamen - QR કોડ મેકર & સ્કૅન",
+        "subtitle": "WiFi, vCard અને સોશિયલ કોડ"
+      },
+      {
+        "locale": "fi",
+        "name": "QRamen - QR-koodit & skanneri",
+        "subtitle": "Luo WiFi-, vCard- & some-koodi"
+      },
+      {
+        "locale": "el",
+        "name": "QRamen: Δημιουργία & Σάρωση QR",
+        "subtitle": "Σαρωτής & κωδικοί WiFi, vCard"
+      },
+      {
+        "locale": "ko",
+        "name": "QRamen - QR코드 생성·스캔",
+        "subtitle": "와이파이·명함·SNS 코드 손쉽게 제작"
+      },
+      {
+        "locale": "en-GB",
+        "name": "QRamen - QR Code Maker & Scan",
+        "subtitle": "Wi-Fi, vCard & Link Creator"
+      },
+      {
+        "locale": "th",
+        "name": "QRamen - สร้าง&สแกน QR",
+        "subtitle": "สร้าง QR ไวไฟ นามบัตร โซเชียล"
+      },
+      {
+        "locale": "zh-Hans",
+        "name": "QRamen - 二维码生成与扫描",
+        "subtitle": "WiFi名片社交码，轻松定制管理"
+      },
+      {
+        "locale": "nl-NL",
+        "name": "QRamen - QR-code Maker & Scan",
+        "subtitle": "WiFi, vCard & sociaal maken"
+      },
+      {
+        "locale": "mr-IN",
+        "name": "QRamen - QR कोड मेकर",
+        "subtitle": "वायफाय, vCard व सोशल क्रिएटर"
+      },
+      {
+        "locale": "no",
+        "name": "QRamen - QR-kode skanner",
+        "subtitle": "WiFi, vCard og sosiale koder"
+      },
+      {
+        "locale": "id",
+        "name": "QRamen - Buat & Scan Kode QR",
+        "subtitle": "Pembuat WiFi, vCard & Sosial"
+      },
+      {
+        "locale": "ar-SA",
+        "name": "QRamen - صانع وماسح رموز QR",
+        "subtitle": "رموز واي فاي وروابط وسوشيال"
+      },
+      {
+        "locale": "or-IN",
+        "name": "QRamen - QR କୋଡ୍ ମେକର",
+        "subtitle": "WiFi, vCard ଓ ସୋସିଆଲ କୋଡ୍"
+      },
+      {
+        "locale": "da",
+        "name": "QRamen - Scan & Lav QR-kode",
+        "subtitle": "WiFi, vCard & sociale koder"
+      },
+      {
+        "locale": "pa-IN",
+        "name": "QRamen - QR ਕੋਡ ਬਣਾਓ ਤੇ ਸਕੈਨ",
+        "subtitle": "WiFi, vCard ਤੇ ਸੋਸ਼ਲ ਕੋਡ ਬਣਾਓ"
+      },
+      {
+        "locale": "kn-IN",
+        "name": "QRamen: QR ಕೋಡ್ ಮೇಕರ್ ಸ್ಕ್ಯಾನ್",
+        "subtitle": "WiFi, vCard, ಸೋಶಿಯಲ್ ಕ್ರಿಯೇಟರ್"
+      },
+      {
+        "locale": "sl-SI",
+        "name": "QRamen - QR koda & skener",
+        "subtitle": "WiFi, vizitka, meni & povezava"
+      },
+      {
+        "locale": "en-AU",
+        "name": "QRamen - QR Code Maker & Scan",
+        "subtitle": "Scan, Make & Organise Codes"
+      },
+      {
+        "locale": "sk",
+        "name": "QRamen - QR kód a skener",
+        "subtitle": "Generátor WiFi, vizitiek, menu"
+      },
+      {
+        "locale": "bn-BD",
+        "name": "QRamen - QR মেকার ও স্ক্যান",
+        "subtitle": "WiFi, vCard, সোশ্যাল কোড বানান"
+      },
+      {
+        "locale": "en-US",
+        "name": "QRamen - QR Code Maker & Scan",
+        "subtitle": "WiFi, vCard & Social Creator"
+      },
+      {
+        "locale": "he",
+        "name": "QRamen - יוצר וסורק QR",
+        "subtitle": "WiFi, כרטיס ביקור וסושיאל"
+      },
+      {
+        "locale": "pl",
+        "name": "QRamen - Kod QR i Skaner",
+        "subtitle": "WiFi, wizytówka i kontakt"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "QRamen - Criador de QR Code",
+        "subtitle": "Wi-Fi, vCard, link e contato"
+      },
+      {
+        "locale": "fr-FR",
+        "name": "QRamen - QR Code & Scanner",
+        "subtitle": "Créez WiFi, vCard & réseaux"
+      },
+      {
+        "locale": "ta-IN",
+        "name": "QRamen - QR குறியீடு உருவாக்கி",
+        "subtitle": "WiFi, vCard & சமூக இணைப்பு"
+      },
+      {
+        "locale": "en-CA",
+        "name": "QRamen - QR Code Maker & Scan",
+        "subtitle": "Wi-Fi, vCard & Social Creator"
+      },
+      {
+        "locale": "ms",
+        "name": "QRamen - Buat & Imbas Kod QR",
+        "subtitle": "Pencipta WiFi, vCard & Sosial"
+      },
+      {
+        "locale": "ja",
+        "name": "QRamen QRコード作成&読取",
+        "subtitle": "WiFi・連絡先・SNSを一瞬でQR化"
+      },
+      {
+        "locale": "es-ES",
+        "name": "QRamen - Crear y Escanear QR",
+        "subtitle": "WiFi, vCard y redes sociales"
+      },
+      {
+        "locale": "zh-Hant",
+        "name": "QRamen - QR碼製作與掃描",
+        "subtitle": "WiFi、名片、社群碼一鍵生成與整理"
+      },
+      {
+        "locale": "ur-PK",
+        "name": "QRamen - کیو آر میکر و اسکینر",
+        "subtitle": "وائی فائی، وی کارڈ و سوشل کوڈ"
+      },
+      {
+        "locale": "hu",
+        "name": "QRamen - QR kód készítő",
+        "subtitle": "WiFi, névjegy és link szkenner"
+      },
+      {
+        "locale": "uk",
+        "name": "QRamen — QR-сканер, генератор",
+        "subtitle": "Wi-Fi, vCard, соцмережі, меню"
+      },
+      {
+        "locale": "ro",
+        "name": "QRamen - Cod QR & Scaner",
+        "subtitle": "Generator WiFi, contact & link"
+      },
+      {
+        "locale": "de-DE",
+        "name": "QRamen QR-Code Scanner+Maker",
+        "subtitle": "WLAN, vCard & Social erstellen"
+      },
+      {
+        "locale": "it",
+        "name": "QRamen - Crea & Scansiona QR",
+        "subtitle": "WiFi, vCard e QR per i social"
+      },
+      {
+        "locale": "hr",
+        "name": "QRamen - QR generator i skener",
+        "subtitle": "WiFi, vizitka, link i meni"
+      },
+      {
+        "locale": "cs",
+        "name": "QRamen - QR skener a tvorba",
+        "subtitle": "WiFi, vizitka i sociální sítě"
+      }
+    ]
+  },
+  {
+    "appId": "6770582531",
+    "name": "Murmur: Interactive Stories",
+    "bundleId": "com.magiclabsolutions.murmur",
+    "versions": [
+      {
+        "id": "751fe15d-2252-4170-8ae5-aafb23fd3d5a",
+        "platform": "IOS",
+        "version": "1.0",
+        "state": "PREPARE_FOR_SUBMISSION",
+        "locales": [
+          {
+            "id": "6ccd950b-1d53-4c46-9415-5c795a017ab6",
+            "locale": "en-US",
+            "placements": [
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "db400019-38ee-8403-8f04-4a5e876ff4cf"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "67000019-38ee-8403-8f32-7d93a10c5faf"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "0d400019-38ee-8403-8f12-3d6c58b0dac3"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "76000019-38ee-8403-8f0f-293662b28267"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "96400019-38ee-8403-8f1c-218da307a13b"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "1c000019-38ee-8403-8f15-b0494508c470"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "18400019-38ee-8403-8f37-332e3d3776eb"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "2e400019-38ee-8403-8f06-466875b82049"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "93800019-38ee-8403-8f1b-7a2e9a2aacb0"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "f8400019-38ee-8403-8f1d-d28634d21472"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "33c00019-38ee-8403-8f25-80210df0e7d0"
+              },
+              {
+                "type": "appAssetLibraryPlacements",
+                "id": "84c00019-38ee-8403-8f3f-b0796ac2bc8c"
+              }
+            ],
+            "creative": []
+          }
+        ]
+      }
+    ],
+    "infoLocalizations": [
+      {
+        "locale": "en-US",
+        "name": "Murmur: Interactive Stories",
+        "subtitle": "Text adventures you answer"
+      }
+    ]
+  },
+  {
+    "appId": "6808441363",
+    "name": "Pauta: Daily Task Planner",
+    "bundleId": "com.magiclabsolutions.pauta",
+    "versions": [
+      {
+        "id": "e37328c6-dafb-4fe1-8bd8-344e32122842",
+        "platform": "MAC_OS",
+        "version": "1.0",
+        "state": "PREPARE_FOR_SUBMISSION",
+        "locales": [
+          {
+            "id": "05540125-5c9f-4bda-8a4b-4336340d1c7a",
+            "locale": "en-US",
+            "placements": [],
+            "creative": []
+          }
+        ]
+      },
+      {
+        "id": "7f06d15b-454b-40d8-832a-af157ef8ac90",
+        "platform": "IOS",
+        "version": "1.0",
+        "state": "PREPARE_FOR_SUBMISSION",
+        "locales": [
+          {
+            "id": "aeca70df-6be9-40c7-a387-e5bed703e277",
+            "locale": "en-US",
+            "placements": [],
+            "creative": []
+          }
+        ]
+      }
+    ],
+    "infoLocalizations": [
+      {
+        "locale": "en-US",
+        "name": "Pauta: Daily Task Planner",
+        "subtitle": null
+      }
+    ]
+  }
+]

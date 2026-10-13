@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "fi",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/fi/header.png",
+    "sha256": "112788571b983739e73a1e667c35c4eae786e18791858c8751af928369990fd3",
+    "capture": "images/products-localized/sundust/fi/iphone/native-1.webp",
+    "captureSha256": "8f77fd73e674b35adef82c2ea8c286d69d702713deae516b951a9ef685696799",
+    "headline": "Pieni raketti.\nSuuri seikkailu.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "fi",
+    "reusedApproved": true
+  },
+  {
+    "slug": "sundust",
+    "locale": "fi",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/fi/search-results.png",
+    "sha256": "5d7974b2311d1c3160da89dfee7f74051143b5743849e69e2855b764d115b222",
+    "capture": "images/products-localized/sundust/fi/iphone/native-1.webp",
+    "captureSha256": "8f77fd73e674b35adef82c2ea8c286d69d702713deae516b951a9ef685696799",
+    "headline": "Pieni raketti.\nSuuri seikkailu.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "fi",
+    "reusedApproved": true
+  }
+]

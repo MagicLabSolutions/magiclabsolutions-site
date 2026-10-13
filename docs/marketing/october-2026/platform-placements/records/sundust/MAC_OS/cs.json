@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "cs",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/cs/header.png",
+    "sha256": "42f6932b84294fed97cd49f9e88d1d474dc4d222bca11d347c36e1edb22526b5",
+    "capture": "images/products-localized/sundust/cs/iphone/native-1.webp",
+    "captureSha256": "6ff75959d4c303ac2c082d47e0a4e5aa98e5a9dcf948659b0e1d7e8376dcb440",
+    "headline": "Malá raketa.\nVelké dobrodružství.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1215.3125,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1346.984375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 27.698125000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "MAC_OS",
+    "sourceLocale": "cs",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "MAC_OS",
+    "locale": "cs",
+    "sourceLocale": "cs",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/MAC_OS/cs/search-results.png",
+    "sha256": "628fc5ed5c10433dd6948ff5a51aa90361da9d79416f703d2af2f0845d479007",
+    "headline": "Malá raketa.\nVelká výprava.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        512,
+        512
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": null,
+    "captureSha256": null
+  }
+]

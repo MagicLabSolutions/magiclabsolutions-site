@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "en-AU",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/en-AU/header.png",
+    "sha256": "bf7c992acae42b950402178046691293398e78c1cf1ebd641861348699180d60",
+    "capture": "images/products-localized/sundust/en-AU/iphone/native-1.webp",
+    "captureSha256": "bd350b15ea80f1640d482ebb6b57c09319f0f679182a1f802b3f833dfbe363f9",
+    "headline": "Tiny rocket.\nBig adventure.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "sourceLocale": "en-AU",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "locale": "en-AU",
+    "sourceLocale": "en-AU",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/TV_OS/en-AU/search-results.png",
+    "sha256": "7bd74616f3adc39ec142f4ebf7cd130a9e5cdf86132f26b998a12823a9644303",
+    "headline": "Tiny rocket.\nBig adventure.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": "images/products-localized/sundust/en-AU/iphone/native-1.webp",
+    "captureSha256": "bd350b15ea80f1640d482ebb6b57c09319f0f679182a1f802b3f833dfbe363f9"
+  }
+]

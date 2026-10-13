@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "brainfold",
+    "locale": "or",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/brainfold/or/header.png",
+    "sha256": "bfe1dd261502e5be5889ad1bd6c3d2bb44c17503a4f203617682822a5d4c7915",
+    "capture": "images/products-localized/brainfold/or/iphone/native-1.webp",
+    "captureSha256": "2e2d3eb1001ee6cbbffe09817edef17b12d22499664acbff6034d0e7e0719b5e",
+    "headline": "ଆପଣଙ୍କ ନୋଟ୍‌କୁ ଅଧ୍ୟୟନ ଅଭ୍ୟାସରେ ପରିଣତ କରନ୍ତୁ।",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1285.25,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1416.921875,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 29.932500000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6760474378",
+    "platform": "MAC_OS",
+    "sourceLocale": "or",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "brainfold",
+    "appId": "6760474378",
+    "platform": "MAC_OS",
+    "locale": "or",
+    "sourceLocale": "or",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/or/search-results.png",
+    "sha256": "2f62ee35245da30aeaec06484139ee3ffa8add7b4bdd83a7c1d1231e2d01db8f",
+    "headline": "ଆପଣଙ୍କ ନୋଟ୍‌କୁ ଅଧ୍ୟୟନ ଅଭ୍ୟାସରେ ପରିଣତ କରନ୍ତୁ।",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1737.015625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2121.015625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 33.271874999999994
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        905
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/brainfold/or/mac/native-1.webp",
+    "captureSha256": "e96151d1a8255150cd2d1318a344db18a219c83da11f322c612f858c8bf03bfe"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "myrenewals",
+    "locale": "tr",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/myrenewals/tr/header.png",
+    "sha256": "7b8452b0555bc55093199f5acd478419aeadf618250bbc2201f43fb0a258c785",
+    "capture": "images/products-localized/myrenewals/tr/iphone/native-1.webp",
+    "captureSha256": "3e3ac88d70566a3aed07eb8432625f375c377b2c51e7d36d1097738057b35e0f",
+    "headline": "Sırada neyin yenileneceğini bilin.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "sourceLocale": "tr",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "myrenewals",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "locale": "tr",
+    "sourceLocale": "tr",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/myrenewals/MAC_OS/tr/search-results.png",
+    "sha256": "b5df9f91e9a08020d18a83c1f45d7898fe811e81138027dc36c5a6f78cb2c2f0",
+    "headline": "Sırada neyin yenileneceğini bilin.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 115.1875,
+        "width": 2380.796875,
+        "height": 1178.421875,
+        "top": 115.1875,
+        "right": 2630.390625,
+        "bottom": 1293.609375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 26.52
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        931
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/myrenewals/tr/mac/native-1.webp",
+    "captureSha256": "f9eb39a2e6ae3290e229719cc33100a976f55af32e6814fbb48274263b0fd271"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "ta",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/ta/header.png",
+    "sha256": "1d6e94fde92056926151b78ae36d4c3625fdb1e693ab29a59ca41b2e6cc9f36f",
+    "capture": "images/products-localized/sundust/ta/iphone/native-1.webp",
+    "captureSha256": "f6dd9172ba29491b5306a418579a702e5e979f3ca0d463c01bcd1a6cb602dc91",
+    "headline": "ஒரு சிறிய ராக்கெட்.\nஒரு பெரிய சாகசம்.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "sourceLocale": "ta",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "locale": "ta",
+    "sourceLocale": "ta",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/TV_OS/ta/search-results.png",
+    "sha256": "6812a2e7fcb29b7232373349a2db8faf8531401521135b7c6439b1916a614985",
+    "headline": "ஒரு சிறிய ராக்கெட்.\nஒரு பெரிய சாகசம்.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": "images/products-localized/sundust/ta/iphone/native-1.webp",
+    "captureSha256": "f6dd9172ba29491b5306a418579a702e5e979f3ca0d463c01bcd1a6cb602dc91"
+  }
+]

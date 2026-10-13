@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "kinfold",
+    "locale": "ko",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/kinfold/ko/header.png",
+    "sha256": "5d46305d46b0b1f3c3cf996324eb07e046a9fafbb4eb819e560acf9ecfa0973b",
+    "capture": "docs/marketing/october-2026/kinfold-expanded/native/ko/iphone/1-vault.png",
+    "captureSha256": "4dda7041b9c3680c2792f7ad7334d30d0c35bd067647fac534f4656be3cc10d4",
+    "headline": "우리 가족, 떠날 준비 완료.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        1320,
+        2868
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6785646082",
+    "platform": "VISION_OS",
+    "sourceLocale": "ko",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "kinfold",
+    "appId": "6785646082",
+    "platform": "VISION_OS",
+    "locale": "ko",
+    "sourceLocale": "ko",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/kinfold/VISION_OS/ko/search-results.png",
+    "sha256": "3caba23e47eec7907f6467bc093f70ae3a23cdf36f22ad7315abb778b144eb10",
+    "headline": "우리 가족, 떠날 준비 완료.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        1091
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/kinfold/ko/vision/native-1.webp",
+    "captureSha256": "e20382faaacdbea6290875ff12f1580a4a17fdcf5cf702ebc5cb62c36d53a434"
+  }
+]

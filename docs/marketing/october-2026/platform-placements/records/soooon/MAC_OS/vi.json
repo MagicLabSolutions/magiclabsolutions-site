@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "soooon",
+    "locale": "vi",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/soooon/vi/header.png",
+    "sha256": "d2dcfdc81b27e932ae18d2233a3c803e55bfc6cddc5e13ac1dc0bac32d78081b",
+    "capture": "images/products-localized/soooon/vi/iphone/native-1.webp",
+    "captureSha256": "dc7bcbda6b578fc648bc10036872dac4f850f51764ceab754bc7871eb1004249",
+    "headline": "Những ngày trọng đại.\nNgười bạn đồng hành nhỏ bé.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "sourceLocale": "vi",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "soooon",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "locale": "vi",
+    "sourceLocale": "vi",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/soooon/MAC_OS/vi/search-results.png",
+    "sha256": "f3035c5ec58a8799f153ff9302030f7acf8c7425089dac6bf988cf9000487d26",
+    "headline": "Những ngày trọng đại.\nNgười bạn đồng hành nhỏ bé.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.453125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.453125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 27.584374999999998
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        960
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/soooon/vi/mac/native-1.webp",
+    "captureSha256": "cf6d3e5c82107c1b06b1f2f7a622e70cb1539df5a45e3a9beec52136ec3dcd03"
+  }
+]

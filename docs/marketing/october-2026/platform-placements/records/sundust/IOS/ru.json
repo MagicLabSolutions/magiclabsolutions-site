@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "ru",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/ru/header.png",
+    "sha256": "8f5b70baa94ac53a32b886e2e26ae8ed4aabbcde1db819e62963f346a2108e87",
+    "capture": "images/products-localized/sundust/ru/iphone/native-1.webp",
+    "captureSha256": "b0f8ce6722dcf5e0d7b49a5f62097dbb79b4e41258e74eead09d9848b022ae53",
+    "headline": "Крошечная ракета.\nБольшое приключение.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "ru",
+    "reusedApproved": true
+  },
+  {
+    "slug": "sundust",
+    "locale": "ru",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/ru/search-results.png",
+    "sha256": "ae4bf2b65c0b8c1b60d5a75de2f55976e5f5e5b7b315fd180203bc073e7490d6",
+    "capture": "images/products-localized/sundust/ru/iphone/native-1.webp",
+    "captureSha256": "b0f8ce6722dcf5e0d7b49a5f62097dbb79b4e41258e74eead09d9848b022ae53",
+    "headline": "Крошечная ракета.\nБольшое приключение.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "ru",
+    "reusedApproved": true
+  }
+]

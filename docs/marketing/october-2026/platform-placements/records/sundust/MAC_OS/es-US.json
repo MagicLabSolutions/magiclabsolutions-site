@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "es-US",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/es-US/header.png",
+    "sha256": "5ff063b026ba12263277819a5e64d71cd3c2bdfd5c6a6f9ec488723971e7de2b",
+    "capture": "images/products-localized/sundust/es-US/iphone/native-1.webp",
+    "captureSha256": "8a85c77d14113c47307a3d8f3d1f8a40a7ad9c2892c5707a09c34915cadb461e",
+    "headline": "Un cohete diminuto.\nUna gran aventura.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "MAC_OS",
+    "sourceLocale": "es-US",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "MAC_OS",
+    "locale": "es-US",
+    "sourceLocale": "es-US",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/MAC_OS/es-US/search-results.png",
+    "sha256": "b1d660eb197b3406ca16012c03bee4b428de8ea97937e7ffd42c16ed71258ce2",
+    "headline": "Un cohete diminuto.\nUna gran aventura.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        512,
+        512
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": null,
+    "captureSha256": null
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "pl",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/pl/header.png",
+    "sha256": "db622a5e0f3fbec023d99b92bf2bd6ab092ea316685d906997312c69705fec41",
+    "capture": "images/products-localized/sundust/pl/iphone/native-1.webp",
+    "captureSha256": "bbd92032d33a756c3dcc1ffb3a4ddbae41aceae56fb17cf189dcfbdc427d986f",
+    "headline": "Mała rakieta.\nWielka przygoda.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "MAC_OS",
+    "sourceLocale": "pl",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "MAC_OS",
+    "locale": "pl",
+    "sourceLocale": "pl",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/MAC_OS/pl/search-results.png",
+    "sha256": "c76dbf6cf8ed28b9bc6172f15f563f88fc761c3d32f90f0c27b9a76c844a5f0a",
+    "headline": "Mała rakieta.\nWielka przygoda.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        512,
+        512
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": null,
+    "captureSha256": null
+  }
+]

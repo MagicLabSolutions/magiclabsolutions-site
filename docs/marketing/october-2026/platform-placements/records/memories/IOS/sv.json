@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "memories",
+    "locale": "sv",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/sv/header.png",
+    "sha256": "c669122145a84d8f7044646adfd5c503ab91a05526abc763c98b8ecd041bd5c5",
+    "capture": "images/products-localized/memories/sv/iphone/native-1.webp",
+    "captureSha256": "5773088adfdc1616e8d3f3fab59ac5549814db700b915a948ba07f0163e6cfef",
+    "headline": "Små ögonblick.\nEn berättelse.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6763877209",
+    "platform": "IOS",
+    "sourceLocale": "sv",
+    "reusedApproved": true
+  },
+  {
+    "slug": "memories",
+    "locale": "sv",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/sv/search-results.png",
+    "sha256": "d50a32a7bd64e1a027eb206841696a3839dd3994399e9587bd8ac0155d54196f",
+    "capture": "images/products-localized/memories/sv/iphone/native-1.webp",
+    "captureSha256": "5773088adfdc1616e8d3f3fab59ac5549814db700b915a948ba07f0163e6cfef",
+    "headline": "Små ögonblick.\nEn berättelse.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6763877209",
+    "platform": "IOS",
+    "sourceLocale": "sv",
+    "reusedApproved": true
+  }
+]

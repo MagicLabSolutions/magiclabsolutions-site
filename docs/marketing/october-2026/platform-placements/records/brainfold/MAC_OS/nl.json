@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "brainfold",
+    "locale": "nl",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/brainfold/nl/header.png",
+    "sha256": "a599b79ab650b1766637d6fd3ac250956ece9e9a2f052cceb8a7d04ba069f9c9",
+    "capture": "images/products-localized/brainfold/nl/iphone/native-1.webp",
+    "captureSha256": "39df6fd8f681459741d5b92e606ec7ecba2673d047d1b9f78cb50ebff20d42d1",
+    "headline": "Zet je aantekeningen om in oefenmateriaal.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 74.0625,
+        "width": 2611.1875,
+        "height": 1178.421875,
+        "top": 74.0625,
+        "right": 2860.78125,
+        "bottom": 1252.484375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 26.52
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6760474378",
+    "platform": "MAC_OS",
+    "sourceLocale": "nl",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "brainfold",
+    "appId": "6760474378",
+    "platform": "MAC_OS",
+    "locale": "nl",
+    "sourceLocale": "nl",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/nl/search-results.png",
+    "sha256": "fb5c11ed54a6ed9d09d513a6145fdaf9d56eee92776d5e279736bfbc730803ef",
+    "headline": "Zet je aantekeningen om in oefenmateriaal.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 115.1875,
+        "width": 2380.796875,
+        "height": 1455.203125,
+        "top": 115.1875,
+        "right": 2630.390625,
+        "bottom": 1570.390625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 26.52
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        905
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/brainfold/nl/mac/native-1.webp",
+    "captureSha256": "b330484f4307e7f2642974f001518aa61db96a41885aa4e99547fe4d71036d54"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "soooon",
+    "locale": "pt-BR",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/soooon/pt-BR/header.png",
+    "sha256": "c2d85948770ae5107ce3df706cd011b2fed3b4e88361595ecf630db95756bfa4",
+    "capture": "images/products-localized/soooon/pt-BR/iphone/native-1.webp",
+    "captureSha256": "248a1e20c45f1648204a08ccef3cc7fadce5ec5ed405a4d53219c5287319704c",
+    "headline": "Grandes dias.\nPequeno companheiro.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "sourceLocale": "pt-BR",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "soooon",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "locale": "pt-BR",
+    "sourceLocale": "pt-BR",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/soooon/MAC_OS/pt-BR/search-results.png",
+    "sha256": "1c47cde0793e69f6303bc1f89422908aab9c51194a3a8a8e29bc540a1a81c6fb",
+    "headline": "Grandes dias.\nPequeno companheiro.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1211.703125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1595.703125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 27.584374999999998
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        960
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/soooon/pt-BR/mac/native-1.webp",
+    "captureSha256": "196670e8a7d79be4d003a5b8a048fe125c8d07f9a72196db82dd5a7af6c7b4c4"
+  }
+]

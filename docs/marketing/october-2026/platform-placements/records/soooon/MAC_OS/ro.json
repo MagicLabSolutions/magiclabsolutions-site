@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "soooon",
+    "locale": "ro",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/soooon/ro/header.png",
+    "sha256": "5d4cb4a65ead80659fcd9028d8ce719b4b67e8e7a9cfa4d9815c54220b7b94e6",
+    "capture": "images/products-localized/soooon/ro/iphone/native-1.webp",
+    "captureSha256": "4f4662c3c2553ad95cc009b8c8ce3c0a17956d605a2b199a39ee673e0649ba13",
+    "headline": "Zile importante.\nUn mic companion.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "sourceLocale": "ro",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "soooon",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "locale": "ro",
+    "sourceLocale": "ro",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/soooon/MAC_OS/ro/search-results.png",
+    "sha256": "b8ce323e13b38c5043ce9f2417a3d2566a8fb091c51291532ffcaf3199105dda",
+    "headline": "Zile importante.\nUn mic companion.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1694.640625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2078.640625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.256249999999994
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        960
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/soooon/ro/mac/native-1.webp",
+    "captureSha256": "5acc3f4d108c9875cab15d6fc523f292c76b9996f4b5ec0daba600bc5c24a3c8"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "memories",
+    "locale": "kk",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/kk/header.png",
+    "sha256": "c7f8c730171f9b62b90b2a72139f2b5f70f315b2dedac7068bdd9dc1ef26784b",
+    "capture": "images/products-localized/memories/kk/iphone/native-1.webp",
+    "captureSha256": "9abb14085f2ea5f6b967fef0d39b59eb93f04f8bc59cffaafecf4ceed23a8386",
+    "headline": "Шағын сәттер.\nБіртұтас оқиға.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6763877209",
+    "platform": "MAC_OS",
+    "sourceLocale": "kk",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "memories",
+    "appId": "6763877209",
+    "platform": "MAC_OS",
+    "locale": "kk",
+    "sourceLocale": "kk",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/memories/MAC_OS/kk/search-results.png",
+    "sha256": "fa6f6861f209285a44414a3822e8f73c97ea90050823c95a791794db2b5e4672",
+    "headline": "Шағын сәттер.\nБіртұтас оқиға.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1787.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2171.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.490625
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        931
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/memories/kk/mac/native-1.webp",
+    "captureSha256": "dc3eb71343f5f7792140b29fb1b2b006cfbd26d970a6b918970971d38c62df6e"
+  }
+]

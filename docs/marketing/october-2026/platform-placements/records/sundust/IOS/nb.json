@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "nb",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/nb/header.png",
+    "sha256": "a9073c4e521ee8f363a88dd155d3d17cc271fd659929920ebcc587b6653ebad5",
+    "capture": "images/products-localized/sundust/nb/iphone/native-1.webp",
+    "captureSha256": "5cb032931eab520da7df69919a56914ada901d14fd92ed0072f3515f231cfb2e",
+    "headline": "En liten rakett.\nEt stort eventyr.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "nb",
+    "reusedApproved": true
+  },
+  {
+    "slug": "sundust",
+    "locale": "nb",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/nb/search-results.png",
+    "sha256": "8d087180a0f4e943111a91440c6e68511d2ffb0eb330318e9258985dd7614466",
+    "capture": "images/products-localized/sundust/nb/iphone/native-1.webp",
+    "captureSha256": "5cb032931eab520da7df69919a56914ada901d14fd92ed0072f3515f231cfb2e",
+    "headline": "En liten rakett.\nEt stort eventyr.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "IOS",
+    "sourceLocale": "nb",
+    "reusedApproved": true
+  }
+]

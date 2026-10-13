@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "zuzu",
+    "locale": "ro",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/zuzu/ro/header.png",
+    "sha256": "870c3eaccefde7cf326d86d5ef0b3de476d292fc5399fb01cfee7ca68a16e48f",
+    "capture": "images/products-localized/zuzu/ro/iphone/native-1.webp",
+    "captureSha256": "5653b11e2d97ec8b2702b0642b909a4b0de6f841c6297c3d3a9e3c2135c9f99b",
+    "headline": "Ziua bebelușului.\nTotul într-un singur loc.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6757988505",
+    "platform": "IOS",
+    "sourceLocale": "ro",
+    "reusedApproved": true
+  },
+  {
+    "slug": "zuzu",
+    "locale": "ro",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/zuzu/ro/search-results.png",
+    "sha256": "a4176a214072f4b359328ba4c3e8a0bbaea6bc837fdb588731ba5c2eec79c1d2",
+    "capture": "images/products-localized/zuzu/ro/iphone/native-1.webp",
+    "captureSha256": "5653b11e2d97ec8b2702b0642b909a4b0de6f841c6297c3d3a9e3c2135c9f99b",
+    "headline": "Ziua bebelușului.\nTotul într-un singur loc.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6757988505",
+    "platform": "IOS",
+    "sourceLocale": "ro",
+    "reusedApproved": true
+  }
+]

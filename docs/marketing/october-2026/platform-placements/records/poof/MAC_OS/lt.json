@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "poof",
+    "locale": "lt",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/poof/lt/header.png",
+    "sha256": "b5c8244762b9bab4caf96480fb29b8168e9f4ceaace090a40051b333e9edeac4",
+    "capture": "images/products-localized/poof/lt/mac/native-1.webp",
+    "captureSha256": "a3c181d0971102c538f974ed24916151d296ceb42a7cac834e7fd6503974b9ee",
+    "headline": "Atlaisvink vietos.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6816976275",
+    "platform": "MAC_OS",
+    "sourceLocale": "lt",
+    "reusedApproved": true
+  },
+  {
+    "slug": "poof",
+    "locale": "lt",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/poof/lt/search-results.png",
+    "sha256": "c9d5668e36c85833b4a4ab3e5ee4cf9b93fdde2fd92dc016b0c0fa572090fccf",
+    "capture": "images/products-localized/poof/lt/mac/native-1.webp",
+    "captureSha256": "a3c181d0971102c538f974ed24916151d296ceb42a7cac834e7fd6503974b9ee",
+    "headline": "Atlaisvink vietos.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1080.734375,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1464.734375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6816976275",
+    "platform": "MAC_OS",
+    "sourceLocale": "lt",
+    "reusedApproved": true
+  }
+]

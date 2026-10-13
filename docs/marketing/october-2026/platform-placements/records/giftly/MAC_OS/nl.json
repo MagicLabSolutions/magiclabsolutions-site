@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "giftly",
+    "locale": "nl",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/giftly/nl/header.png",
+    "sha256": "2986c24d43f08772acf2bf6091764f111d850a1644b02c0352f8ebe3f94cdc01",
+    "capture": "images/products-localized/giftly/nl/iphone/native-1.webp",
+    "captureSha256": "c4a757fcd1d6b9ccc6a2de3a8a53a90c58c1e7c58a43481393a3419d537219a9",
+    "headline": "Geef met\nmeer aandacht.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6802913010",
+    "platform": "MAC_OS",
+    "sourceLocale": "nl",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "giftly",
+    "appId": "6802913010",
+    "platform": "MAC_OS",
+    "locale": "nl",
+    "sourceLocale": "nl",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/giftly/MAC_OS/nl/search-results.png",
+    "sha256": "dcd52746c510fdceb71a77e87cc1386eb0a19f63f0bf7386d5ccefc1c60ed2ab",
+    "headline": "Geef met\nmeer aandacht.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/giftly/nl/mac/native-1.webp",
+    "captureSha256": "8c4368218ca8c1fc8184f86da65e855385cfd8a626208d4c86f2a334c2a64c7d"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "renderVersion": 3,
+    "slug": "starwake",
+    "appId": "6799490838",
+    "platform": "TV_OS",
+    "locale": "en-US",
+    "sourceLocale": "en-US",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/platform-placements/exports/starwake/TV_OS/en-US/header.png",
+    "sha256": "92d92f2a75a0f97421bfa405daa3ed83e8cb6ef70aa5687e40e36b56135eeaef",
+    "headline": "Survey a galaxy that listens",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1361.5625,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1493.234375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        512,
+        512
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": null,
+    "captureSha256": null
+  },
+  {
+    "renderVersion": 3,
+    "slug": "starwake",
+    "appId": "6799490838",
+    "platform": "TV_OS",
+    "locale": "en-US",
+    "sourceLocale": "en-US",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/starwake/TV_OS/en-US/search-results.png",
+    "sha256": "957b23ed23d878fb13f7e1b7737e1ea0d25638f09361651f43e07d0416053993",
+    "headline": "Survey a galaxy that listens",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1440.6875,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1824.6875,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.896875
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        512,
+        512
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": null,
+    "captureSha256": null
+  }
+]

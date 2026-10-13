@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "soooon",
+    "locale": "it",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/soooon/it/header.png",
+    "sha256": "c8fcc9cb48f30ae5007c7761d71cea87d59bcc2f2c5aefba0e26f703a05ac19e",
+    "capture": "images/products-localized/soooon/it/iphone/native-1.webp",
+    "captureSha256": "b7fd8d5a9abc8d83e4a1a3eb6450b01d39120376bdac9061f9a0317717b41599",
+    "headline": "Grandi giornate.\nUn piccolo compagno.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "sourceLocale": "it",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "soooon",
+    "appId": "6817391844",
+    "platform": "MAC_OS",
+    "locale": "it",
+    "sourceLocale": "it",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/soooon/MAC_OS/it/search-results.png",
+    "sha256": "3457cc13e951bf746304718d9e5353d8cdb5d8f7708b2480e1de36c882b65a3d",
+    "headline": "Grandi giornate.\nUn piccolo compagno.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1770.953125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2154.953125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 34.084374999999994
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        960
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/soooon/it/mac/native-1.webp",
+    "captureSha256": "6d87f93fd8e2fcf9a7a17c40e0e4f3c23ead2b17bf64bae8641edd9d085217c3"
+  }
+]

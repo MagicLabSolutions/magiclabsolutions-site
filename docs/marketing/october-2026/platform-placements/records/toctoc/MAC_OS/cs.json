@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "toctoc",
+    "locale": "cs",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/toctoc/cs/header.png",
+    "sha256": "992c774c8503fe3e3a42719273ab1ddd0a8a7698a47a8ccf2d3b2dfb996806d2",
+    "capture": "images/products-localized/toctoc/cs/iphone/native-1.webp",
+    "captureSha256": "695510c03e019b4c40075ad1bc8d46e661e1c634c0d72e3d339cd785807fd8e2",
+    "headline": "Soustřeďte se na práci.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6817375562",
+    "platform": "MAC_OS",
+    "sourceLocale": "cs",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "toctoc",
+    "appId": "6817375562",
+    "platform": "MAC_OS",
+    "locale": "cs",
+    "sourceLocale": "cs",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/toctoc/MAC_OS/cs/search-results.png",
+    "sha256": "1f7b0688edc77623a1ad302d59d0092c158764b62a753e26221f9b6716532319",
+    "headline": "Soustřeďte se na práci.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        900
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/toctoc/cs/mac/native-1.webp",
+    "captureSha256": "aba959e81d00783e9da9b3c1106d2e1523e6f7cdee2e149c64f9e0d5e4d5af0f"
+  }
+]

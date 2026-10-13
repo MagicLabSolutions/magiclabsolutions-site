@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "sundust",
+    "locale": "id",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/sundust/id/header.png",
+    "sha256": "ef1f9928a41f6d350087a5047ac5613e3c17415b852237b78a10e94d6de42d4a",
+    "capture": "images/products-localized/sundust/id/iphone/native-1.webp",
+    "captureSha256": "445ccce002d77607d876e4fcf0d379a688c2a9f9051a0a94475acf3cf08e640a",
+    "headline": "Roket mungil.\nPetualangan besar.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1266.171875,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1397.84375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 29.323125000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "sourceLocale": "id",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "sundust",
+    "appId": "6791888066",
+    "platform": "TV_OS",
+    "locale": "id",
+    "sourceLocale": "id",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/sundust/TV_OS/id/search-results.png",
+    "sha256": "3a7d6a967f95c778f175c378b6894f207006370bc75fa5ac457ee9ce5dffe1b7",
+    "headline": "Roket mungil.\nPetualangan besar.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1626.828125,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 2010.828125,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 30.631249999999998
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Approved product brand artwork; platform-neutral, no simulated native interface",
+    "capture": "images/products-localized/sundust/id/iphone/native-1.webp",
+    "captureSha256": "445ccce002d77607d876e4fcf0d379a688c2a9f9051a0a94475acf3cf08e640a"
+  }
+]

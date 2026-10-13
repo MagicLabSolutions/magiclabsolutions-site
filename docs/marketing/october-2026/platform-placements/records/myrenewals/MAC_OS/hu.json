@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "myrenewals",
+    "locale": "hu",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/myrenewals/hu/header.png",
+    "sha256": "4753b5c5ef18d42aed46c7781c8e795f75a98bccc951af252cea885e1c05dbcf",
+    "capture": "images/products-localized/myrenewals/hu/iphone/native-1.webp",
+    "captureSha256": "edae51b725636f88a5ea86f8a3d87c724a7569f41d9aa98318818b44893aa0a9",
+    "headline": "Kövesd a következő megújulásokat.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1178.421875,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1310.09375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 26.52
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "sourceLocale": "hu",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "myrenewals",
+    "appId": "6752888662",
+    "platform": "MAC_OS",
+    "locale": "hu",
+    "sourceLocale": "hu",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/myrenewals/MAC_OS/hu/search-results.png",
+    "sha256": "a2be29c20a88a9fe1e8993c48f6a8a6aa51130068a01a64c507a9bf4f711fb0a",
+    "headline": "Kövesd a következő megújulásokat.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 115.1875,
+        "width": 2380.796875,
+        "height": 1178.421875,
+        "top": 115.1875,
+        "right": 2630.390625,
+        "bottom": 1293.609375,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 26.52
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        931
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/myrenewals/hu/mac/native-1.webp",
+    "captureSha256": "b94531bfaf0f277756d6e4358d32ee5fad14140d170308a3c8629037c740eeae"
+  }
+]

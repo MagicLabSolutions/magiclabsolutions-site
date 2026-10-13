@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "kinfold",
+    "locale": "zh-Hant",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/kinfold/zh-Hant/header.png",
+    "sha256": "55cbc1d067a3d84cb23d1c25498fd420523ad2e6c9e2458527b7d86527786eeb",
+    "capture": "docs/marketing/october-2026/kinfold-expanded/native/zh-Hant/iphone/1-vault.png",
+    "captureSha256": "f1b6b97471ed460c88d52e48ac367ba292eb0ee2a7c6cfd57729168558f52dfd",
+    "headline": "全家準備好，即刻出發。",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        1320,
+        2868
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6785646082",
+    "platform": "VISION_OS",
+    "sourceLocale": "zh-Hant",
+    "reusedApproved": true
+  },
+  {
+    "renderVersion": 3,
+    "slug": "kinfold",
+    "appId": "6785646082",
+    "platform": "VISION_OS",
+    "locale": "zh-Hant",
+    "sourceLocale": "zh-Hant",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/platform-placements/exports/kinfold/VISION_OS/zh-Hant/search-results.png",
+    "sha256": "c0583ec4d767b1e7fd73305c4a33c2e88e4fcefc1fdb2be1bb7a09a5c69aa3bf",
+    "headline": "全家準備好，即刻出發。",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        1440,
+        1091
+      ],
+      "overflow": false
+    },
+    "source": "Verified native platform capture and approved brand artwork",
+    "capture": "images/products-localized/kinfold/zh-Hant/vision/native-1.webp",
+    "captureSha256": "3c2b06c0bd374a8d9e438cfb7a66da8bb310c7ccd9e39053394a468ca666056d"
+  }
+]

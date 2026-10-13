@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "memories",
+    "locale": "ko",
+    "placement": "header",
+    "width": 3840,
+    "height": 1646,
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/ko/header.png",
+    "sha256": "c5393a74d40a425ebe1fcadf1428f0e0ea8747abc7de39d5e16d4b8ce4fe3803",
+    "capture": "images/products-localized/memories/ko/iphone/native-1.webp",
+    "captureSha256": "79d52ed423c01e972692b78025cfc705f3b32db3914d762948219cc7333447d6",
+    "headline": "소소한 순간, 하나의 이야기.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 131.671875,
+        "width": 2035.1875,
+        "height": 1023.734375,
+        "top": 131.671875,
+        "right": 2284.78125,
+        "bottom": 1155.40625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 32.370000000000005
+      },
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6763877209",
+    "platform": "IOS",
+    "sourceLocale": "ko",
+    "reusedApproved": true
+  },
+  {
+    "slug": "memories",
+    "locale": "ko",
+    "placement": "search-results",
+    "width": 3840,
+    "height": 2560,
+    "file": "docs/marketing/october-2026/store-placements/exports/memories/ko/search-results.png",
+    "sha256": "b5738fd2c2770dd7ab87f977964bd463fc6a02def426300e9bdfac67d7304fab",
+    "capture": "images/products-localized/memories/ko/iphone/native-1.webp",
+    "captureSha256": "79d52ed423c01e972692b78025cfc705f3b32db3914d762948219cc7333447d6",
+    "headline": "소소한 순간, 하나의 이야기.",
+    "metrics": {
+      "copy": {
+        "x": 249.59375,
+        "y": 384,
+        "width": 1881.59375,
+        "height": 1447.0625,
+        "top": 384,
+        "right": 2131.1875,
+        "bottom": 1831.0625,
+        "left": 249.59375
+      },
+      "fonts": {
+        "headline": 35.1
+      },
+      "dimensions": [
+        3840,
+        2560
+      ],
+      "captureSize": [
+        840,
+        1825
+      ],
+      "overflow": false
+    },
+    "source": "Existing approved brand art and traceable localized native UI",
+    "appId": "6763877209",
+    "platform": "IOS",
+    "sourceLocale": "ko",
+    "reusedApproved": true
+  }
+]
