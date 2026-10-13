@@ -1,0 +1,30 @@
+{
+  "versionId": "6f6d36e6-2393-4a73-8b61-c7eb5d11b63a",
+  "locale": "fr-FR",
+  "placements": [
+    {
+      "type": "appAssetLibraryPlacements",
+      "id": "eec00019-4d3f-8cc2-8f2c-95594fc2b2cf",
+      "attributes": {
+        "createdDate": "2026-10-12T01:58:17.732419Z",
+        "lastModifiedDate": "2026-10-12T01:58:17.732419Z",
+        "placementType": "PRODUCT_PAGE_HEADER_ASSET",
+        "mediaType": "IMAGE",
+        "placementGroup": "DEFAULT_PROFILE",
+        "state": "ACTIVE",
+        "stateDetails": null
+      },
+      "relationships": {
+        "image": {
+          "data": {
+            "type": "appAssetLibraryImages",
+            "id": "01400019-4d3f-8cc2-8038-5f76e9a9f879"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryPlacements/eec00019-4d3f-8cc2-8f2c-95594fc2b2cf"
+      }
+    }
+  ]
+}

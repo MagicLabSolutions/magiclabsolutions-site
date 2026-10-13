@@ -1,0 +1,29 @@
+{
+  "slug": "starwake",
+  "appId": "6799490838",
+  "platform": "TV_OS",
+  "versionId": "468c1dff-6b75-41b9-bffe-bd2d431da697",
+  "version": "1.0",
+  "versionState": "PREPARE_FOR_SUBMISSION",
+  "libraryImages": 2,
+  "placements": [
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "de400019-547f-8f16-8f19-13052aeedb15",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "28400019-547f-8f16-8005-bc6e9759993a",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "d5000019-547f-8f16-8f0e-208fb8123666",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "54c00019-547f-8f16-802a-248bef3f48b7",
+      "state": "ACTIVE"
+    }
+  ],
+  "libraryOnly": false,
+  "reason": null
+}

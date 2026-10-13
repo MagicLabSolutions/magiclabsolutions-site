@@ -1,0 +1,573 @@
+{
+  "slug": "toctoc",
+  "appId": "6817375562",
+  "platform": "IOS",
+  "versionId": "b479898b-25c6-4a79-af04-1308cc62f20f",
+  "version": "1.1.0",
+  "versionState": "PREPARE_FOR_SUBMISSION",
+  "libraryImages": 60,
+  "placements": [
+    {
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "id": "e2800019-658e-854a-8f03-bd83acc8e621",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "fac00019-658e-854a-803b-d902d2f34702",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "id": "3ec00019-658e-854a-8f2c-c43ee75a3b4b",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "ee800019-658e-854a-8002-162a5b45990a",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "id": "a2c00019-658e-854a-8f1a-d49f1b4cff3f",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "51c00019-658e-854a-803e-549fe101ba98",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "zh-Hans",
+      "sourceLocale": "zh-Hans",
+      "id": "fec00019-658e-854a-8f1d-3986b8ec7064",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "7f000019-658e-854a-8033-d8372e354a55",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "id": "6d400019-658e-854a-8f3a-69b56a0b6431",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "51400019-658e-854a-8007-fb48a55cd66d",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-Hant",
+      "id": "2d400019-658e-854a-8f09-1513f42f1051",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "f6800019-658e-854a-8004-2191b885797d",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "id": "47c00019-658e-854a-8f1d-eee52ca32fd7",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "a7c00019-658e-854a-8024-2082318e4816",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "id": "e9400019-658e-854a-8f23-5ee6b7c6563a",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "39400019-658e-854a-8014-f1812427b606",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "da",
+      "sourceLocale": "da",
+      "id": "17400019-658e-854a-8f0c-be2db47a262e",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "6cc00019-658e-854a-800f-014244611dab",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "da",
+      "sourceLocale": "da",
+      "id": "24400019-658e-854a-8f2d-a9d8fd673d74",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "bec00019-658e-854a-8001-d2ce05384df1",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "id": "d4000019-658e-854a-8f38-b84e455edf5a",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "b5800019-658e-854a-800e-1f971d6284da",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "id": "6bc00019-658e-854a-8f35-9c0b553852b9",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "13800019-658e-854a-800f-4d4fec98a530",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-AU",
+      "sourceLocale": "en-US",
+      "id": "eb800019-658e-854a-8f23-e83a58b0ac6f",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "7f000019-658e-854a-801e-0d97ee754f43",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-AU",
+      "sourceLocale": "en-US",
+      "id": "02400019-658e-854a-8f0e-c6a7d8b5f2ec",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "02c00019-658e-854a-8002-819c5964c8fc",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "id": "66800019-658e-854a-8f06-6baa89045c33",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "7f000019-658e-854a-801e-0d97ee754f43",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "id": "d4000019-658e-854a-8f2c-b5f32f076f08",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "02c00019-658e-854a-8002-819c5964c8fc",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-GB",
+      "sourceLocale": "en-US",
+      "id": "e1800019-658e-854a-8f0e-4d9ee7857628",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "7f000019-658e-854a-801e-0d97ee754f43",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-GB",
+      "sourceLocale": "en-US",
+      "id": "c9400019-658e-854a-8f23-e7cbce566218",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "02c00019-658e-854a-8002-819c5964c8fc",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "d3c00019-658e-854a-8f0b-b3a5167b3d4c",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "7f000019-658e-854a-801e-0d97ee754f43",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "17000019-658e-854a-8f0f-55c7775e57e9",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "02c00019-658e-854a-8002-819c5964c8fc",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "id": "25c00019-658e-854a-8f3f-3536ab53663a",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "ca000019-658e-854a-802b-99c08b5824dc",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "id": "77000019-658e-854a-8f0f-b09649f35663",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "c6c00019-658e-854a-8006-99ace74a1fdf",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "id": "b0000019-658e-854a-8f01-07a5eb1d26c4",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "cac00019-658e-854a-800f-ffc2b03bf6fe",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "id": "51400019-658e-854a-8f04-dbbe9ed4c514",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "8d800019-658e-854a-8012-e035cea62729",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "fr-CA",
+      "sourceLocale": "fr",
+      "id": "77800019-658e-854a-8f34-84a70d6b16b9",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "cac00019-658e-854a-800f-ffc2b03bf6fe",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "fr-CA",
+      "sourceLocale": "fr",
+      "id": "1f800019-658e-854a-8f18-7064a3006e69",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "8d800019-658e-854a-8012-e035cea62729",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "id": "44000019-658e-854a-8f28-1c7e6f355607",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "4b800019-658e-854a-801a-837c98e36dbb",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "id": "30000019-658e-854a-8f0c-70e971ce49c7",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "3fc00019-658e-854a-8029-dcdc44995467",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "el",
+      "sourceLocale": "el",
+      "id": "f0800019-658e-854a-8f01-ae942f3a26ba",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "69800019-658e-854a-8017-15e4b71c7a7e",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "el",
+      "sourceLocale": "el",
+      "id": "17400019-658e-854a-8f15-808ab2ec3908",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "0cc00019-658e-854a-802d-ab761b9a9f4e",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "he",
+      "sourceLocale": "he",
+      "id": "64000019-658e-854a-8f3f-be0740843483",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "07000019-658e-854a-800e-cf514c8531e0",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "he",
+      "sourceLocale": "he",
+      "id": "d2400019-658e-854a-8f26-5bb3cc6b3cbb",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "49400019-658e-854a-8005-2c0fb3f8b113",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "id": "1d800019-658e-854a-8f02-8e387dbb3aee",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "0cc00019-658e-854a-800b-4766926d60b3",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "id": "07800019-658e-854a-8f2f-07f466ca2c42",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "6b800019-658e-854a-8017-cd1bd828b86a",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "id": "82000019-658e-854a-8f06-edde7b77f442",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "7f000019-658e-854a-8031-05c1d148375b",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "id": "78000019-658e-854a-8f33-b5de6ea2816a",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "16400019-658e-854a-8015-72b26a8e5fe8",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "id",
+      "sourceLocale": "id",
+      "id": "73800019-658e-854a-8f1e-8fd0621b1f3b",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "fac00019-658e-854a-8001-266cf7312e02",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "id",
+      "sourceLocale": "id",
+      "id": "f0800019-658e-854a-8f1d-ed05dc8da4b3",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "6f800019-658e-854a-803c-ca22d506db09",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "it",
+      "sourceLocale": "it",
+      "id": "4c000019-658e-854a-8f31-de7434adaff8",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "c2000019-658e-854a-802a-132fdf7f7548",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "it",
+      "sourceLocale": "it",
+      "id": "a3000019-658e-854a-8f3e-47c7a9c1b85c",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "9a400019-658e-854a-8020-1a41a3940763",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "id": "c5c00019-658e-854a-8f24-11d71f7815e1",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "d4c00019-658e-854a-8004-eddb43646f66",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "id": "85400019-658e-854a-8f38-6bc964a08b80",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "ef000019-658e-854a-803e-21bd1b46f50d",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "id": "f2400019-658e-854a-8f14-cc769f9c1855",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "dac00019-658e-854a-801e-1e3a69a008cd",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "id": "7dc00019-658e-854a-8f35-a24864726881",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "66000019-658e-854a-8029-67e28dc88d39",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "no",
+      "sourceLocale": "nb",
+      "id": "49c00019-658e-854a-8f0f-8f494f2a471d",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "f1800019-658e-854a-802e-bee0db67c905",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "no",
+      "sourceLocale": "nb",
+      "id": "78800019-658e-854a-8f1b-acd102951e94",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "9e800019-658e-854a-8006-75cfe2ad00e1",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "id": "a6400019-658e-854a-8f21-e8031cb1167c",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "e3800019-658e-854a-801b-6f5e2f2b2318",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "id": "92400019-658e-854a-8f27-fc9b56a9039b",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "b6800019-658e-854a-802f-27d57cc3b489",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "id": "09800019-658e-854a-8f33-8d9fbf2caaeb",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "25000019-658e-854a-8033-8177f207b26d",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "id": "2ec00019-658e-854a-8f3a-df82eedade2c",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "b1000019-658e-854a-8031-2c81e873bc70",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "id": "b5000019-658e-854a-8f25-9a46c40ddae5",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "85000019-658e-854a-8025-a5edfe60953e",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "id": "3cc00019-658e-854a-8f0e-05b91ddb9628",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "a2800019-658e-854a-8037-57764f7296c4",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "id": "d5c00019-658e-854a-8f2b-6ed11c730741",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "0f000019-658e-854a-800d-636993063175",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "id": "efc00019-658e-854a-8f24-fdbb98d46118",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "d1000019-658e-854a-8029-4d920186c31a",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "id": "ae000019-658e-854a-8f16-784ffbe2ce7e",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "d8c00019-658e-854a-8027-1bb05d839b65",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "id": "8bc00019-658e-854a-8f3a-36492f87f388",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "6ac00019-658e-854a-800a-dc96b72f3e32",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "es-MX",
+      "sourceLocale": "es",
+      "id": "15400019-658e-854a-8f08-8f2208f699fe",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "9bc00019-658e-854a-802a-a0809a9e27e3",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "es-MX",
+      "sourceLocale": "es",
+      "id": "3e000019-658e-854a-8f1f-d9e8f6f28a04",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "37c00019-658e-854a-8012-c101e6a6e9e0",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "id": "45400019-658e-854a-8f25-3b16290707b1",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "9bc00019-658e-854a-802a-a0809a9e27e3",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "id": "44c00019-658e-854a-8f38-e3738d911247",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "37c00019-658e-854a-8012-c101e6a6e9e0",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "id": "04400019-658e-854a-8f10-3d17ddaaf41d",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "6b000019-658e-854a-803e-f34400d2cd05",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "id": "a2800019-658e-854a-8f36-695b16033e24",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "bd800019-658e-854a-803f-45b7ffc6c53d",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "th",
+      "sourceLocale": "th",
+      "id": "37c00019-658e-854a-8f11-7133ce81276a",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "c5800019-658e-854a-801f-e354e363cc87",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "th",
+      "sourceLocale": "th",
+      "id": "7d800019-658e-854a-8f30-9a1b57f5941e",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "05400019-658e-854a-803b-4a8d4d3c9ba6",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "id": "86c00019-658e-854a-8f3d-f017e2fd79f1",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "1dc00019-658e-854a-801c-ecc2d4e28fc7",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "id": "6e400019-658e-854a-8f26-739295a59d76",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "0d800019-658e-854a-800e-4a50ac5664c9",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "id": "e7800019-658e-854a-8f0d-934092bef0fe",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "db400019-658e-854a-801c-80d535ac1acf",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "id": "19800019-658e-854a-8f30-695f00522e52",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "3f000019-658e-854a-8000-ba20a0a46912",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "id": "03c00019-658e-854a-8f20-86b7445723fa",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "ad800019-658e-854a-8009-23def7d64315",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "id": "e9400019-658e-854a-8f38-3b10c9c64606",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "23000019-658e-854a-800d-2e26706d6888",
+      "state": "ACTIVE"
+    }
+  ],
+  "libraryOnly": false,
+  "reason": null
+}

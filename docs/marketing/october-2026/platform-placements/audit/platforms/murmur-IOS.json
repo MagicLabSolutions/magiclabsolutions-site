@@ -1,0 +1,29 @@
+{
+  "slug": "murmur",
+  "appId": "6770582531",
+  "platform": "IOS",
+  "versionId": "751fe15d-2252-4170-8ae5-aafb23fd3d5a",
+  "version": "1.0",
+  "versionState": "PREPARE_FOR_SUBMISSION",
+  "libraryImages": 2,
+  "placements": [
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "e5800019-38ee-8403-8f34-a67ac9b85335",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "0e800019-38ee-8403-8005-2a2eec69929d",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "16000019-38ee-8403-8f33-38dc410cf02d",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "2f800019-38ee-8403-8008-427fd663e6a8",
+      "state": "ACTIVE"
+    }
+  ],
+  "libraryOnly": false,
+  "reason": null
+}

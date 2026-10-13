@@ -1,0 +1,29 @@
+{
+  "slug": "starwake",
+  "appId": "6799490838",
+  "platform": "MAC_OS",
+  "versionId": "8905d070-9ac6-4f30-9c8f-3bc80e9f7e5d",
+  "version": "1.0",
+  "versionState": "PREPARE_FOR_SUBMISSION",
+  "libraryImages": 2,
+  "placements": [
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "e4000019-547f-8f16-8f08-b134bd6cd940",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "de800019-547f-8f16-8001-e5e2a190a408",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "33400019-547f-8f16-8f3c-3e2f872dbd72",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "a2000019-547f-8f16-8017-502344f18831",
+      "state": "ACTIVE"
+    }
+  ],
+  "libraryOnly": false,
+  "reason": null
+}

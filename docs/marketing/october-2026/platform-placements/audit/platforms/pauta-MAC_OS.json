@@ -1,0 +1,29 @@
+{
+  "slug": "pauta",
+  "appId": "6808441363",
+  "platform": "MAC_OS",
+  "versionId": "e37328c6-dafb-4fe1-8bd8-344e32122842",
+  "version": "1.0",
+  "versionState": "PREPARE_FOR_SUBMISSION",
+  "libraryImages": 2,
+  "placements": [
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "19400019-5d09-8213-8f34-290dd43922cb",
+      "type": "PRODUCT_PAGE_HEADER_ASSET",
+      "imageId": "0a400019-5d09-8213-800d-9fe8cd21f926",
+      "state": "ACTIVE"
+    },
+    {
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "id": "df400019-5d09-8213-8f34-77d26f0bc747",
+      "type": "APP_STORE_SEARCH_RESULTS_ASSET",
+      "imageId": "07c00019-5d09-8213-8027-931eb9987c6b",
+      "state": "ACTIVE"
+    }
+  ],
+  "libraryOnly": false,
+  "reason": null
+}
