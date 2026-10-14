@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,17 +51,27 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/fr/search-results.png",
-    "sha256": "91c5fd51891aae5159f1c62e7f7111d00c8bb419be08c7e17898d1eb8bbd1abc",
+    "sha256": "135f06f052725cb3dfcc0fe4dc2c5fd92232476821a09bd9606854667b7ecd2e",
     "headline": "Transformez vos notes en exercices d'apprentissage.",
     "metrics": {
+      "device": {
+        "x": 979.375,
+        "y": 1259.765625,
+        "width": 1881.21875,
+        "height": 1254.140625,
+        "top": 1259.765625,
+        "right": 2860.59375,
+        "bottom": 2513.90625,
+        "left": 979.375
+      },
       "copy": {
         "x": 249.59375,
-        "y": 115.1875,
-        "width": 2380.796875,
-        "height": 1178.421875,
-        "top": 115.1875,
-        "right": 2630.390625,
-        "bottom": 1293.609375,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 1112.578125,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 1202.171875,
         "left": 249.59375
       },
       "fonts": {

@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,21 +51,31 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/el/search-results.png",
-    "sha256": "2a7ad457fd01d48c77f7c16b6c1f20dddafb8c73662d58c0b18d2b7475b4adf2",
+    "sha256": "b9d990cf6bbd583c2f863010f8fa405063111f42afdc570da1ada959d0aa7967",
     "headline": "Μετατρέψτε τις σημειώσεις σας σε άσκηση μελέτης.",
     "metrics": {
+      "device": {
+        "x": 771.796875,
+        "y": 982.984375,
+        "width": 2296.390625,
+        "height": 1530.921875,
+        "top": 982.984375,
+        "right": 3068.1875,
+        "bottom": 2513.90625,
+        "left": 771.796875
+      },
       "copy": {
         "x": 249.59375,
-        "y": 384,
-        "width": 1881.59375,
-        "height": 1525.015625,
-        "top": 384,
-        "right": 2131.1875,
-        "bottom": 1909.015625,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 835.796875,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 925.390625,
         "left": 249.59375
       },
       "fonts": {
-        "headline": 28.193749999999998
+        "headline": 26.52
       },
       "dimensions": [
         3840,

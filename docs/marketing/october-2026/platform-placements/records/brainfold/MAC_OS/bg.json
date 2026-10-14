@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,21 +51,31 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/bg/search-results.png",
-    "sha256": "722b77c6a6cd936b4cc837e75b9dffa64685450641ae28c76ee84c7cea4ea9b3",
+    "sha256": "519c3ed2bf5e6ab4a06492bab962b9c4fa478796fd160a005e4e2b8f4360ae64",
     "headline": "Превърнете записките си в упражнения за учене.",
     "metrics": {
+      "device": {
+        "x": 771.796875,
+        "y": 982.984375,
+        "width": 2296.390625,
+        "height": 1530.921875,
+        "top": 982.984375,
+        "right": 3068.1875,
+        "bottom": 2513.90625,
+        "left": 771.796875
+      },
       "copy": {
         "x": 249.59375,
-        "y": 384,
-        "width": 1881.59375,
-        "height": 1533.515625,
-        "top": 384,
-        "right": 2131.1875,
-        "bottom": 1917.515625,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 835.796875,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 925.390625,
         "left": 249.59375
       },
       "fonts": {
-        "headline": 28.396874999999998
+        "headline": 26.52
       },
       "dimensions": [
         3840,

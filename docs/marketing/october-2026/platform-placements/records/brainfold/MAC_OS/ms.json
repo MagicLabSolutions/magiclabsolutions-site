@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,17 +51,27 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/ms/search-results.png",
-    "sha256": "4aaf12f2905b61002387b7ca8ded9c8a2c09285d0c9444d52f1a54c9a840774c",
+    "sha256": "cd25e7288b2774fa94248c23f4689b58829bd1b2b747c642cf85f60c98c3235a",
     "headline": "Tukar nota anda menjadi latihan pembelajaran.",
     "metrics": {
+      "device": {
+        "x": 771.796875,
+        "y": 982.984375,
+        "width": 2296.390625,
+        "height": 1530.921875,
+        "top": 982.984375,
+        "right": 3068.1875,
+        "bottom": 2513.90625,
+        "left": 771.796875
+      },
       "copy": {
         "x": 249.59375,
-        "y": 115.1875,
-        "width": 2380.796875,
-        "height": 1178.421875,
-        "top": 115.1875,
-        "right": 2630.390625,
-        "bottom": 1293.609375,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 835.796875,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 925.390625,
         "left": 249.59375
       },
       "fonts": {

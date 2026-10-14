@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,21 +51,31 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/or/search-results.png",
-    "sha256": "2f62ee35245da30aeaec06484139ee3ffa8add7b4bdd83a7c1d1231e2d01db8f",
+    "sha256": "c50b0143279149e0426d347554c735dbc0962d58ca9815cab1ab5b460dea7a63",
     "headline": "ଆପଣଙ୍କ ନୋଟ୍‌କୁ ଅଧ୍ୟୟନ ଅଭ୍ୟାସରେ ପରିଣତ କରନ୍ତୁ।",
     "metrics": {
+      "device": {
+        "x": 771.796875,
+        "y": 982.984375,
+        "width": 2296.390625,
+        "height": 1530.921875,
+        "top": 982.984375,
+        "right": 3068.1875,
+        "bottom": 2513.90625,
+        "left": 771.796875
+      },
       "copy": {
         "x": 249.59375,
-        "y": 384,
-        "width": 1881.59375,
-        "height": 1737.015625,
-        "top": 384,
-        "right": 2131.1875,
-        "bottom": 2121.015625,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 835.796875,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 925.390625,
         "left": 249.59375
       },
       "fonts": {
-        "headline": 33.271874999999994
+        "headline": 26.52
       },
       "dimensions": [
         3840,

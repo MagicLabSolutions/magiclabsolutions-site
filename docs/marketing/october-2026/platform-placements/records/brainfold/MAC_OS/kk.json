@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,17 +51,27 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/kk/search-results.png",
-    "sha256": "963bd4fdd693963fe5560727f1630a2574ad027637f9a00d93af33733e4df3c3",
+    "sha256": "38675800519365303c6a7b86c0b6e74605d545f30e0c7017a343be62f5bb1d3a",
     "headline": "Жазбаларыңызды оқу жаттығуына айналдырыңыз.",
     "metrics": {
+      "device": {
+        "x": 979.375,
+        "y": 1259.765625,
+        "width": 1881.21875,
+        "height": 1254.140625,
+        "top": 1259.765625,
+        "right": 2860.59375,
+        "bottom": 2513.90625,
+        "left": 979.375
+      },
       "copy": {
         "x": 249.59375,
-        "y": 115.1875,
-        "width": 2380.796875,
-        "height": 1178.421875,
-        "top": 115.1875,
-        "right": 2630.390625,
-        "bottom": 1293.609375,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 1112.578125,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 1202.171875,
         "left": 249.59375
       },
       "fonts": {

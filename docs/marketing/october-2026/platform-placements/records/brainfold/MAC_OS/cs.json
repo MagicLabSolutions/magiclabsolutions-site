@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,21 +51,31 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/cs/search-results.png",
-    "sha256": "f6bbd73aa91ba721eb703326560ae577a8563a6ed66bc80b8b21314579262c85",
+    "sha256": "02d33fd4241ec393c16fe10257874fbb93455a5d6c31c45cc6628f06bd98d50e",
     "headline": "Proměňte poznámky v procvičování.",
     "metrics": {
+      "device": {
+        "x": 771.796875,
+        "y": 982.984375,
+        "width": 2296.390625,
+        "height": 1530.921875,
+        "top": 982.984375,
+        "right": 3068.1875,
+        "bottom": 2513.90625,
+        "left": 771.796875
+      },
       "copy": {
         "x": 249.59375,
-        "y": 384,
-        "width": 1881.59375,
-        "height": 1230.78125,
-        "top": 384,
-        "right": 2131.1875,
-        "bottom": 1614.78125,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 835.796875,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 925.390625,
         "left": 249.59375
       },
       "fonts": {
-        "headline": 28.193749999999998
+        "headline": 26.52
       },
       "dimensions": [
         3840,

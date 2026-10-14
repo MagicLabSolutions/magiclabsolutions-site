@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,21 +51,31 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/sl/search-results.png",
-    "sha256": "6e35b3b1eab8c95cb632e99a52f3d88d643635c1b4eec81f91d00262ecd17d52",
+    "sha256": "a5ae4fa42b722fd310a3eebab775c65c1fdc5bc0cb2fe9dbcee513bf613ddf51",
     "headline": "Spremenite zapiske v vajo za učenje.",
     "metrics": {
+      "device": {
+        "x": 771.796875,
+        "y": 982.984375,
+        "width": 2296.390625,
+        "height": 1530.921875,
+        "top": 982.984375,
+        "right": 3068.1875,
+        "bottom": 2513.90625,
+        "left": 771.796875
+      },
       "copy": {
         "x": 249.59375,
-        "y": 384,
-        "width": 1881.59375,
-        "height": 1728.578125,
-        "top": 384,
-        "right": 2131.1875,
-        "bottom": 2112.578125,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 835.796875,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 925.390625,
         "left": 249.59375
       },
       "fonts": {
-        "headline": 33.068749999999994
+        "headline": 26.52
       },
       "dimensions": [
         3840,

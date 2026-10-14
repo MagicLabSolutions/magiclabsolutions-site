@@ -1,0 +1,2200 @@
+{
+  "checkedAt": "2026-10-14T01:36:23.979Z",
+  "version": {
+    "type": "appStoreVersions",
+    "id": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+    "attributes": {
+      "platform": "MAC_OS",
+      "versionString": "1.3.0",
+      "appStoreState": "PREPARE_FOR_SUBMISSION",
+      "appVersionState": "PREPARE_FOR_SUBMISSION",
+      "copyright": "2025 Magic Lab Solutions",
+      "reviewType": "APP_STORE",
+      "releaseType": "MANUAL",
+      "earliestReleaseDate": null,
+      "usesIdfa": null,
+      "downloadable": true,
+      "createdDate": "2026-10-13T13:31:23-07:00"
+    },
+    "relationships": {
+      "appStoreVersionLocalizations": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/appStoreVersionLocalizations",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/appStoreVersionLocalizations"
+        }
+      },
+      "build": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/build",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/build"
+        }
+      },
+      "appStoreVersionPhasedRelease": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/appStoreVersionPhasedRelease",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/appStoreVersionPhasedRelease"
+        }
+      },
+      "gameCenterAppVersion": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/gameCenterAppVersion",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/gameCenterAppVersion"
+        }
+      },
+      "routingAppCoverage": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/routingAppCoverage",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/routingAppCoverage"
+        }
+      },
+      "appStoreReviewDetail": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/appStoreReviewDetail",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/appStoreReviewDetail"
+        }
+      },
+      "appStoreVersionSubmission": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/appStoreVersionSubmission",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/appStoreVersionSubmission"
+        }
+      },
+      "appClipDefaultExperience": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/appClipDefaultExperience",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/appClipDefaultExperience"
+        }
+      },
+      "appStoreVersionExperiments": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/appStoreVersionExperiments",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/appStoreVersionExperiments"
+        }
+      },
+      "appStoreVersionExperimentsV2": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/appStoreVersionExperimentsV2",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/appStoreVersionExperimentsV2"
+        }
+      },
+      "customerReviews": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/customerReviews",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/customerReviews"
+        }
+      },
+      "alternativeDistributionPackage": {
+        "links": {
+          "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/relationships/alternativeDistributionPackage",
+          "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849/alternativeDistributionPackage"
+        }
+      }
+    },
+    "links": {
+      "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849"
+    }
+  },
+  "build": null,
+  "localizations": [
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "043507a2-be84-437b-8afd-c79cdbd67fb9",
+      "attributes": {
+        "description": "कोणतेही पाठ्यपुस्तक संवादी अभ्यासात बदला. Brainfold AI वापरून तुमच्या अभ्यासक्रमातून परीक्षेत यश मिळवण्यासाठी लागणारे सर्व काही तयार करते.\n\nस्कॅन करा आणि तयार करा\nकोणत्याही पानाचा फोटो घ्या, PDF अपलोड करा किंवा मजकूर पेस्ट करा. Brainfold लगेच फ्लॅशकार्ड, क्विझ आणि सविस्तर सारांशासह संपूर्ण स्टडी पॅक तयार करते.\n\nAI ट्यूटर\nएखादी संकल्पना अडली आहे? तुमच्या AI ट्यूटरला विचारा. त्याला तुमचे अभ्यास साहित्य नीट माहीत असते आणि तो टप्प्याटप्प्याने समजावतो.\n\nस्मार्ट फ्लॅशकार्ड आणि क्विझ\nआपोआप तयार झालेल्या फ्लॅशकार्डने अभ्यास करा किंवा बहुपर्यायी क्विझने स्वतःला तपासा. चूक झाली तर थेट ट्यूटरकडे जाऊन स्पष्टीकरण मिळवा.\n\nमित्रांशी सामना\nवर्गमित्रांना रिअल-टाइम क्विझ बॅटलचे आव्हान द्या आणि पाहा कोण पोडियमवर पोहोचतो.\n\nसगळ्या डिव्हाइसवर\niPhone, iPad आणि Mac वर चालते. तुमचे स्टडी पॅक सर्व डिव्हाइसवर सिंक होतात.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "mr-IN",
+        "keywords": "फ्लॅशकार्ड,अभ्यास,क्विझ,परीक्षा,स्कॅन,नोट्स,ट्यूटर,सारांश,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/043507a2-be84-437b-8afd-c79cdbd67fb9"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "08d951b5-195b-492f-ac2a-fd85e08d27a8",
+      "attributes": {
+        "description": "הפכו כל ספר לימוד לשיעור לימוד אינטראקטיבי. בריינפולד משתמשת בבינה מלאכותית כדי להפוך את חומר הלימוד שלכם לכל מה שאתם צריכים כדי להצליח בבחינות שלכם.\n\nסרוק וצר\nצלמו תמונה של כל עמוד, העלו קובץ PDF או הדבקו טקסט. בריינפולד מייצרת באופן מיידי חבילת לימוד מלאה עם כרטיסיות, חידונים וסיכומים עשירים - הכל מותאם לחומר שלכם.\n\nמדריך בינה מלאכותית\nתקועים על מושג? שאלו את מדריך הבינה המלאכותית האישי שלכם. הוא מכיר את חומר הלימוד שלכם לעומק ומסביר דברים שלב אחר שלב. קבלו אתגרים עם בעיות תרגול כדי לבחון את הבנתכם.\n\nכרטיסיות וחידונים חכמים\nלמדו עם כרטיסיות שנוצרו אוטומטית או בחנו את עצמכם עם חידונים רב-ברירתיים. כשאתם טועים במשהו, קפצו ישר למורה לקבלת הסבר.\n\nהתחרו עם חבריכם\nאתגרו את חבריכם לכיתה לקרבות חידונים בזמן אמת. התחרו ראש בראש על אותו חומר לימוד וראו מי נוחת על הפודיום.\n\nסיכומים עשירים\nקבל סיכומים מאורגנים ומובנים עם מושגים מרכזיים, נוסחאות והסברים - מושלם לסקירה מהירה לפני מבחן.\n\nזמין בכל מקום\nעובד באייפון, אייפד ו-Mac. חבילות הלימוד שלך מסתנכרנות בכל המכשירים שלך.\n\nBrainfold תומך ביותר מ-50 שפות כך שתוכל ללמוד בשפת האם שלך.\n\nמדיניות פרטיות: https://magiclabsolutions.com/privacy-policy/\nתנאי שימוש (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "he",
+        "keywords": "כרטיסיות,לימודים,סיכום,מבחן,חידון,הערות,בגרות,פסיכומטרי,חזרה,מורה פרטי,ai",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/08d951b5-195b-492f-ac2a-fd85e08d27a8"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "e8587aad-b490-4886-92d7-079603a318ba",
+      "attributes": {
+        "description": "Transformez n'importe quel manuel en une session d'étude interactive. Brainfold utilise l'IA pour transformer vos supports de cours en tout ce dont vous avez besoin pour réussir vos examens.\n\nNUMÉRISER ET CRÉER\nPrenez une photo d'une page, importez un PDF ou collez du texte. Brainfold génère instantanément un pack d'étude complet avec des fiches de révision, des quiz et des résumés détaillés, le tout adapté à vos supports.\n\nTUTEUR IA\nVous bloquez sur une notion ? Demandez à votre tuteur IA personnel. Il connaît vos supports de cours sur le bout des doigts et vous explique les notions étape par étape. Relevez le défi avec des exercices pour tester votre compréhension.\n\nFICHES DE RÉVISION ET QUIZ INTELLIGENTS\nÉtudiez avec des fiches de révision générées automatiquement ou testez vos connaissances avec des quiz à choix multiples. En cas d'erreur, accédez directement à l'explication du tuteur.\n\nAFFRONTER VOS AMIS\nDéfiez vos camarades de classe lors de quiz en temps réel. Affrontez-vous en duel sur les mêmes supports de cours et découvrez qui sera le meilleur.\n\nRÉSUMÉS COMPLETS\n\nBénéficiez de résumés organisés et structurés, mettant en évidence les concepts clés, les formules et les points importants : idéal pour une révision rapide avant un examen.\n\nDISPONIBLE PARTOUT\n\nCompatible avec iPhone, iPad et Mac. Vos fiches d’étude se synchronisent sur tous vos appareils.\n\nBrainfold prend en charge plus de 50 langues pour vous permettre d’étudier dans votre langue maternelle.\n\nPolitique de confidentialité: https://magiclabsolutions.com/privacy-policy/\nConditions d'utilisation (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "fr-CA",
+        "keywords": "fiches de révision,flashcards,résumé,examen,quiz,cégep,secondaire,réviser,tuteur,ia,notes",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e8587aad-b490-4886-92d7-079603a318ba"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "75160cd8-3b84-4214-8eb9-50814f8b5be7",
+      "attributes": {
+        "description": "Convierte cualquier libro de texto en una sesión de estudio interactiva. Brainfold usa IA para transformar tu material de curso en todo lo que necesitas para aprobar tus exámenes.\n\nESCANEAR Y CREAR\nToma una foto de cualquier página, sube un PDF o pega texto. Brainfold genera al instante un paquete de estudio completo con tarjetas didácticas, cuestionarios y resúmenes detallados, todo adaptado a tu material.\n\nTUTOR DE IA\n¿Te atascas en un concepto? Consulta con tu tutor personal de IA. Conoce tu material de estudio a la perfección y te lo explica paso a paso. Ponte a prueba con ejercicios de práctica para poner a prueba tu comprensión.\n\nTARJETAS DIDÁCTICAS Y CUESTIONARIOS INTELIGENTES\nEstudia con tarjetas didácticas generadas automáticamente o ponte a prueba con cuestionarios de opción múltiple. Si te equivocas en algo, contacta directamente con el tutor para obtener una explicación.\n\nCOMPITE CON TUS AMIGOS\nReta a tus compañeros a batallas de cuestionarios en tiempo real. Compite cara a cara con el mismo material de estudio y descubre quién llega al podio.\n\nRESÚMENES COMPLETOS\nObtén resúmenes organizados y estructurados con conceptos clave, fórmulas y referencias, perfectos para un repaso rápido antes de un examen.\n\nDISPONIBLE EN TODAS PARTES\nCompatible con iPhone, iPad y Mac. Tus paquetes de estudio se sincronizan en todos tus dispositivos.\n\nBrainfold admite más de 50 idiomas para que puedas estudiar en tu lengua materna.\n\nPolítica de Privacidad: https://magiclabsolutions.com/privacy-policy/\nTérminos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "es-ES",
+        "keywords": "flashcards,estudiar,resumen,examen,quiz,apuntes,oposiciones,selectividad,repaso,tutor,ia,tarjetas",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/75160cd8-3b84-4214-8eb9-50814f8b5be7"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "9c6e1cab-a55a-4279-89a9-0dc63e53119f",
+      "attributes": {
+        "description": "將任何教科書變成互動式學習課程。 Brainfold 利用人工智慧技術，將您的課程資料轉化為您考試所需的一切。\n\n掃描並創建\n\n拍攝任何頁面的照片、上傳 PDF 檔案或貼上文字。 Brainfold 會立即產生完整的學習包，其中包含記憶卡、測驗和豐富的總結——所有內容均根據您的學習資料量身定制。\n\nAI 導師\n\n遇到概念卡住了？請諮詢您的專屬 AI 導師。它對您的學習資料瞭如指掌，並會一步一步地為您講解。透過練習題挑戰自我，檢驗您的理解程度。\n\n智慧記憶卡和測驗\n\n使用自動產生的記憶卡進行學習，或透過多項選擇題測驗來測試自己。如果答錯了，可以直接聯絡導師尋求解答。\n\n與好友一決高下\n\n向同學發起即時測驗挑戰。在相同的學習資料上展開正面較量，看看誰能最終勝出。\n\n內容豐富的概要\n\n取得條理清晰、結構化的概要，包含關鍵概念、公式和重點標註－考前快速複習的理想之選。\n\n隨時隨地可用\n\n適用於 iPhone、iPad 和 Mac。您的學習包可在所有裝置間同步。\n\nBrainfold 支援 50 多種語言，讓您可以用母語學習。\n\n隱私權政策: https://magiclabsolutions.com/privacy-policy/\n使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "zh-Hant",
+        "keywords": "記憶卡,學習,重點整理,考試,測驗,筆記,複習,學測,會考,家教,ai,閃卡,背單字,刷題",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9c6e1cab-a55a-4279-89a9-0dc63e53119f"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "719428fc-63e0-4fcf-bb5e-5398a5901c75",
+      "attributes": {
+        "description": "Turn any textbook into an interactive study session. Brainfold uses AI to transform your course material into everything you need to ace your exams.\n\nSCAN & CREATE\nTake a photo of any page, upload a PDF, or paste text. Brainfold instantly generates a complete study pack with flashcards, quizzes, and rich summaries — all tailored to your material.\n\nAI TUTOR\nStuck on a concept? Ask your personal AI tutor. It knows your study material inside out and explains things step by step. Get challenged with practice problems to test your understanding.\n\nSMART FLASHCARDS & QUIZZES\nStudy with auto-generated flashcards or test yourself with multiple-choice quizzes. When you get something wrong, jump straight to the tutor for an explanation.\n\nBATTLE YOUR FRIENDS\nChallenge classmates to real-time quiz battles. Compete head-to-head on the same study material and see who lands on the podium.\n\nRICH SUMMARIES\nGet organized, structured summaries with key concepts, formulas, and callouts — perfect for quick review before an exam.\n\nAVAILABLE EVERYWHERE\nWorks on iPhone, iPad, and Mac. Your study packs sync across all your devices.\n\nBrainfold supports 50+ languages so you can study in your native language.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "en-CA",
+        "keywords": "flashcards,study,ai,quiz,scan,notes,exam,tutor,spaced repetition,summary,test prep,studying,cards",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/719428fc-63e0-4fcf-bb5e-5398a5901c75"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80",
+      "attributes": {
+        "description": "Turn any textbook into an interactive study session. Brainfold uses AI to transform your course material into everything you need to ace your exams.\n\nSCAN & CREATE\nTake a photo of any page, upload a PDF, or paste text. Brainfold instantly generates a complete study pack with flashcards, quizzes, and rich summaries — all tailored to your material.\n\nAI TUTOR\nStuck on a concept? Ask your personal AI tutor. It knows your study material inside out and explains things step by step. Get challenged with practice problems to test your understanding.\n\nSMART FLASHCARDS & QUIZZES\nStudy with auto-generated flashcards or test yourself with multiple-choice quizzes. When you get something wrong, jump straight to the tutor for an explanation.\n\nBATTLE YOUR FRIENDS\nChallenge classmates to real-time quiz battles. Compete head-to-head on the same study material and see who lands on the podium.\n\nRICH SUMMARIES\nGet organized, structured summaries with key concepts, formulas, and callouts — perfect for quick review before an exam.\n\nAVAILABLE EVERYWHERE\nWorks on iPhone, iPad, and Mac. Your study packs sync across all your devices.\n\nBrainfold supports 50+ languages so you can study in your native language.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "en-US",
+        "keywords": "flashcards,study,ai,quiz,scan,notes,exam,tutor,spaced repetition,summary,test prep,studying,cards",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9f5d0a91-ea13-4fbb-8bd7-9d1faca42f80"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "f127461e-e12f-4098-b40d-b413732a0ab6",
+      "attributes": {
+        "description": "Converteix qualsevol llibre de text en una sessió d'estudi interactiva. Brainfold utilitza la IA per transformar el material del teu curs en tot el que necessites per superar els teus exàmens.\n\nESCANEA I CREA\nFes una foto de qualsevol pàgina, penja un PDF o enganxa text. Brainfold genera instantàniament un paquet d'estudi complet amb flashcards, qüestionaris i resums enriquits, tot adaptat al teu material.\n\nTUTOR D'IA\nEt quedes encallat amb un concepte? Pregunta al teu tutor personal d'IA. Coneix el teu material d'estudi a fons i explica les coses pas a pas. Repta't amb problemes de pràctica per posar a prova la teva comprensió.\n\nFLASHCARDS I QÜESTIONARIS INTEL·LIGENTS\nEstudies amb flashcards generades automàticament o posa't a prova amb qüestionaris de resposta múltiple. Quan t'equivoquis en alguna cosa, demana directament al tutor que t'expliqui.\n\nCOMBAT ELS TEUS AMICS\nDesafia els teus companys de classe a batalles de qüestionaris en temps real. Competeix cara a cara amb el mateix material d'estudi i mira qui puja al podi.\n\nRESUMS INTENSOS\nObtén resums organitzats i estructurats amb conceptes clau, fórmules i explicacions, perfectes per a un repàs ràpid abans d'un examen.\n\nDISPONIBLE A TOT ARREU\nFunciona amb iPhone, iPad i Mac. Els teus paquets d'estudi es sincronitzen en tots els teus dispositius.\n\nBrainfold admet més de 50 idiomes perquè puguis estudiar en la teva llengua materna.\n\nPolítica de privadesa: https://magiclabsolutions.com/privacy-policy/\nCondicions d'ús (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ca",
+        "keywords": "flashcards,estudiar,resum,examen,quiz,apunts,repàs,tutor,ia,targetes,selectivitat,universitat",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f127461e-e12f-4098-b40d-b413732a0ab6"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "e677abe1-7326-40d5-82d9-7e5a2df0e0b1",
+      "attributes": {
+        "description": "ఏ పాఠ్యపుస్తకాన్నైనా ఇంటరాక్టివ్ చదువుగా మార్చండి. Brainfold AI తో మీ కోర్సు మెటీరియల్‌ను పరీక్షల్లో గెలవడానికి కావాల్సిన ప్రతిదానిగా మారుస్తుంది.\n\nస్కాన్ చేసి సృష్టించండి\nఏ పేజీనైనా ఫోటో తీయండి, PDF అప్‌లోడ్ చేయండి లేదా టెక్స్ట్ పేస్ట్ చేయండి. Brainfold వెంటనే ఫ్లాష్‌కార్డ్‌లు, క్విజ్‌లు, వివరమైన సారాంశాలతో పూర్తి స్టడీ ప్యాక్‌ను తయారు చేస్తుంది.\n\nAI ట్యూటర్\nఏదైనా అర్థం కాలేదా? మీ AI ట్యూటర్‌ను అడగండి. అది మీ చదువు మెటీరియల్‌ను బాగా తెలుసుకుని దశలవారీగా వివరిస్తుంది.\n\nస్మార్ట్ ఫ్లాష్‌కార్డ్‌లు & క్విజ్‌లు\nఆటోమేటిక్‌గా తయారైన ఫ్లాష్‌కార్డ్‌లతో చదవండి లేదా బహుళ ఎంపిక క్విజ్‌లతో మిమ్మల్ని మీరు పరీక్షించుకోండి. తప్పైతే నేరుగా ట్యూటర్ దగ్గరకు వెళ్లి వివరణ పొందండి.\n\nస్నేహితులతో పోటీ\nతోటి విద్యార్థులను రియల్-టైమ్ క్విజ్ బ్యాటిల్‌కు సవాలు చేసి, ఎవరు పోడియం ఎక్కుతారో చూడండి.\n\nఅన్ని పరికరాల్లో\niPhone, iPad, Mac లో పనిచేస్తుంది. మీ స్టడీ ప్యాక్‌లు అన్ని పరికరాల్లో సింక్ అవుతాయి.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "te-IN",
+        "keywords": "ఫ్లాష్‌కార్డ్,చదువు,క్విజ్,పరీక్ష,స్కాన్,నోట్స్,ట్యూటర్,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e677abe1-7326-40d5-82d9-7e5a2df0e0b1"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "62709fee-c1fd-4988-8531-6f90cdb57963",
+      "attributes": {
+        "description": "Transforme qualquer livro didático em uma sessão de estudos interativa. O Brainfold usa IA para transformar seu material de estudo em tudo o que você precisa para arrasar nas provas.\n\nDIGITALIZAR E CRIAR\nTire uma foto de qualquer página, carregue um PDF ou cole um texto. O Brainfold gera instantaneamente um pacote de estudos completo com flashcards, quizzes e resumos detalhados — tudo personalizado para o seu material.\n\nTUTOR DE IA\nEstá com dificuldades em algum conceito? Pergunte ao seu tutor pessoal de IA. Ele conhece seu material de estudo como a palma da mão e explica tudo passo a passo. Desafie-se com exercícios práticos para testar sua compreensão.\n\nFLASHCARDS E QUIZZES INTELIGENTES\nEstude com flashcards gerados automaticamente ou teste seus conhecimentos com quizzes de múltipla escolha. Se errar alguma coisa, consulte o tutor para obter uma explicação.\n\nBATALHE COM SEUS AMIGOS\nDesafie seus colegas para batalhas de quizzes em tempo real. Compita frente a frente com o mesmo material de estudo e veja quem chega ao pódio.\n\nRESUMOS COMPLETOS\nObtenha resumos organizados e estruturados com conceitos-chave, fórmulas e destaques — perfeitos para uma revisão rápida antes de uma prova.\n\nDISPONÍVEL EM TODOS OS LUGARES\nFunciona no iPhone, iPad e Mac. Seus pacotes de estudo são sincronizados em todos os seus dispositivos.\n\nO Brainfold é compatível com mais de 50 idiomas para que você possa estudar em seu idioma nativo.\n\nPolítica de Privacidade: https://magiclabsolutions.com/privacy-policy/\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "pt-BR",
+        "keywords": "enem,vestibular,concurso,flashcards,resumo,prova,estudar,quiz,simulado,revisão,tutor,ia,oab",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/62709fee-c1fd-4988-8531-6f90cdb57963"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "77e39700-0386-4fb9-bef9-f53f4caebf94",
+      "attributes": {
+        "description": "ಯಾವುದೇ ಪಠ್ಯಪುಸ್ತಕವನ್ನು ಸಂವಾದಾತ್ಮಕ ಅಧ್ಯಯನವಾಗಿ ಬದಲಿಸಿ. Brainfold AI ಬಳಸಿ ನಿಮ್ಮ ಕೋರ್ಸ್ ವಿಷಯವನ್ನು ಪರೀಕ್ಷೆಯಲ್ಲಿ ಗೆಲ್ಲಲು ಬೇಕಾದ ಎಲ್ಲವನ್ನಾಗಿ ಮಾಡುತ್ತದೆ.\n\nಸ್ಕ್ಯಾನ್ ಮಾಡಿ, ರಚಿಸಿ\nಯಾವುದೇ ಪುಟದ ಫೋಟೋ ತೆಗೆಯಿರಿ, PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಅಥವಾ ಪಠ್ಯವನ್ನು ಅಂಟಿಸಿ. Brainfold ತಕ್ಷಣ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳು, ಕ್ವಿಜ್‌ಗಳು ಮತ್ತು ವಿವರವಾದ ಸಾರಾಂಶಗಳಿರುವ ಸಂಪೂರ್ಣ ಸ್ಟಡಿ ಪ್ಯಾಕ್ ರಚಿಸುತ್ತದೆ.\n\nAI ಟ್ಯೂಟರ್\nಯಾವುದಾದರೂ ವಿಷಯ ಅರ್ಥವಾಗುತ್ತಿಲ್ಲವೇ? ನಿಮ್ಮ AI ಟ್ಯೂಟರ್‌ನನ್ನು ಕೇಳಿ. ಅದು ನಿಮ್ಮ ಅಧ್ಯಯನ ಸಾಮಗ್ರಿಯನ್ನು ಚೆನ್ನಾಗಿ ತಿಳಿದಿದ್ದು ಹಂತ ಹಂತವಾಗಿ ವಿವರಿಸುತ್ತದೆ.\n\nಸ್ಮಾರ್ಟ್ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳು ಮತ್ತು ಕ್ವಿಜ್‌ಗಳು\nಸ್ವಯಂ ರಚಿತ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳಿಂದ ಓದಿ ಅಥವಾ ಬಹು ಆಯ್ಕೆ ಕ್ವಿಜ್‌ಗಳಿಂದ ನಿಮ್ಮನ್ನು ಪರೀಕ್ಷಿಸಿಕೊಳ್ಳಿ. ತಪ್ಪಾದರೆ ನೇರವಾಗಿ ಟ್ಯೂಟರ್ ಬಳಿ ಹೋಗಿ ವಿವರಣೆ ಪಡೆಯಿರಿ.\n\nಸ್ನೇಹಿತರೊಂದಿಗೆ ಸ್ಪರ್ಧೆ\nಸಹಪಾಠಿಗಳನ್ನು ರಿಯಲ್-ಟೈಮ್ ಕ್ವಿಜ್ ಬ್ಯಾಟಲ್‌ಗೆ ಸವಾಲು ಹಾಕಿ ಮತ್ತು ಯಾರು ವೇದಿಕೆ ಏರುತ್ತಾರೆ ನೋಡಿ.\n\nಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ\niPhone, iPad ಮತ್ತು Mac ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ನಿಮ್ಮ ಸ್ಟಡಿ ಪ್ಯಾಕ್‌ಗಳು ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ಸಿಂಕ್ ಆಗುತ್ತವೆ.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "kn-IN",
+        "keywords": "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್,ಅಧ್ಯಯನ,ಕ್ವಿಜ್,ಪರೀಕ್ಷೆ,ಸ್ಕ್ಯಾನ್,ಟಿಪ್ಪಣಿ,ಟ್ಯೂಟರ್,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77e39700-0386-4fb9-bef9-f53f4caebf94"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "33f2cad4-8262-4dbc-9482-67204e7bd790",
+      "attributes": {
+        "description": "Перетворіть будь-який підручник на інтерактивне навчальне заняття. Brainfold використовує ШІ для перетворення вашого навчального матеріалу на все необхідне для успішного складання іспитів.\n\nСКАНУВАТИ ТА СТВОРЮВАТИ\nСфотографуйте будь-яку сторінку, завантажте PDF або вставте текст. Brainfold миттєво створює повний навчальний пакет із флешкартками, тестами та детальними конспектами — все адаптовано до вашого матеріалу.\n\nШІ-РЕПЕТИТОР\nНе розумієте концепцію? Запитайте свого персонального ШІ-репетитора. Він досконально знає ваш навчальний матеріал і пояснює все крок за кроком. Отримуйте практичні завдання для перевірки розуміння.\n\nРОЗУМНІ ФЛЕШКАРТКИ ТА ТЕСТИ\nНавчайтесь за допомогою автоматично створених флешкарток або перевіряйте себе тестами з вибором відповіді. Якщо відповідь неправильна — перейдіть до репетитора за поясненням.\n\nЗМАГАННЯ З ДРУЗЯМИ\nКидайте виклик однокласникам у вікторинах у реальному часі. Змагайтесь один на один за тим самим навчальним матеріалом і побачте, хто опиниться на подіумі.\n\nДЕТАЛЬНІ КОНСПЕКТИ\nОтримуйте організовані, структуровані конспекти з ключовими поняттями, формулами та примітками — ідеально для швидкого повторення перед іспитом.\n\nДОСТУПНО СКРІЗЬ\nПрацює на iPhone, iPad та Mac. Ваші навчальні пакети синхронізуються на всіх пристроях.\n\nBrainfold підтримує понад 50 мов, тому ви можете навчатися рідною мовою.\n\nПолітика конфіденційності: https://magiclabsolutions.com/privacy-policy/\nУмови використання (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "uk",
+        "keywords": "картки,навчання,конспект,іспит,тест,нотатки,повторення,зно,нмт,репетитор,ші,шпаргалка",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/33f2cad4-8262-4dbc-9482-67204e7bd790"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "974163b8-b4fd-4fec-9897-4161700b9b2f",
+      "attributes": {
+        "description": "Ubah mana-mana buku teks menjadi sesi belajar interaktif. Brainfold menggunakan AI untuk menukar bahan kursus anda kepada segala yang anda perlukan untuk cemerlang dalam peperiksaan.\n\nIMBAS & CIPTA\nAmbil gambar mana-mana halaman, muat naik PDF, atau tampal teks. Brainfold serta-merta menjana pek belajar lengkap dengan kad imbasan, kuiz, dan ringkasan terperinci — semuanya disesuaikan dengan bahan anda.\n\nTUTOR AI\nTersekat dengan sesuatu konsep? Tanya tutor AI peribadi anda. Ia mengetahui bahan belajar anda dengan mendalam dan menerangkan langkah demi langkah. Dapatkan soalan latihan untuk menguji kefahaman anda.\n\nKAD IMBASAN & KUIZ PINTAR\nBelajar dengan kad imbasan yang dijana automatik atau uji diri anda dengan kuiz aneka pilihan. Apabila anda salah, terus ke tutor untuk penjelasan.\n\nLAWAN RAKAN ANDA\nCabar rakan sekelas dalam pertandingan kuiz masa nyata. Bersaing satu lawan satu dengan bahan belajar yang sama dan lihat siapa yang naik ke podium.\n\nRINGKASAN TERPERINCI\nDapatkan ringkasan tersusun dan berstruktur dengan konsep utama, formula, dan nota penting — sesuai untuk ulang kaji pantas sebelum peperiksaan.\n\nTERSEDIA DI MANA-MANA\nBerfungsi di iPhone, iPad, dan Mac. Pek belajar anda disegerakkan merentas semua peranti anda.\n\nBrainfold menyokong 50+ bahasa supaya anda boleh belajar dalam bahasa ibunda anda.\n\nDasar Privasi: https://magiclabsolutions.com/privacy-policy/\nTerma Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ms",
+        "keywords": "kad imbas,belajar,ringkasan,peperiksaan,kuiz,nota,ulangkaji,spm,stpm,tutor,ai,flashcard",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/974163b8-b4fd-4fec-9897-4161700b9b2f"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "a1958d82-50c8-478b-8518-3385c5fbc382",
+      "attributes": {
+        "description": "કોઈ પણ પાઠ્યપુસ્તકને ઇન્ટરેક્ટિવ અભ્યાસમાં ફેરવો. Brainfold AIની મદદથી તમારા અભ્યાસક્રમને પરીક્ષામાં સારું કરવા માટે જરૂરી બધું બનાવી આપે છે.\n\nસ્કેન કરો અને બનાવો\nકોઈ પણ પાનાનો ફોટો લો, PDF અપલોડ કરો અથવા લખાણ પેસ્ટ કરો. Brainfold તરત જ ફ્લેશકાર્ડ, ક્વિઝ અને વિગતવાર સારાંશ સાથે આખો સ્ટડી પેક બનાવે છે.\n\nAI ટ્યુટર\nકોઈ ખ્યાલમાં અટવાયા છો? તમારા AI ટ્યુટરને પૂછો. તે તમારી અભ્યાસ સામગ્રી સારી રીતે જાણે છે અને પગલે પગલે સમજાવે છે.\n\nસ્માર્ટ ફ્લેશકાર્ડ અને ક્વિઝ\nઆપોઆપ બનેલા ફ્લેશકાર્ડથી અભ્યાસ કરો અથવા બહુવિકલ્પી ક્વિઝથી પોતાને ચકાસો. ભૂલ થાય તો સીધા ટ્યુટર પાસે જઈને સમજૂતી મેળવો.\n\nમિત્રો સાથે મુકાબલો\nસહપાઠીઓને રિયલ-ટાઇમ ક્વિઝ બેટલમાં પડકાર આપો અને જુઓ કોણ પોડિયમ પર પહોંચે છે.\n\nદરેક ડિવાઇસ પર\niPhone, iPad અને Mac પર ચાલે છે. તમારા સ્ટડી પેક બધા ડિવાઇસ પર સિંક થાય છે.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "gu-IN",
+        "keywords": "ફ્લેશકાર્ડ,અભ્યાસ,ક્વિઝ,પરીક્ષા,સ્કેન,નોંધ,ટ્યુટર,સારાંશ,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/a1958d82-50c8-478b-8518-3385c5fbc382"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c",
+      "attributes": {
+        "description": "Forvandl enhver lærebog til en interaktiv studiesession. Brainfold bruger AI til at forvandle dit kursusmateriale til alt, hvad du behøver for at bestå dine eksamener med succes.\n\nSCAN & SKAB\nTag et billede af en hvilken som helst side, upload en PDF, eller indsæt tekst. Brainfold genererer øjeblikkeligt en komplet studiepakke med flashcards, quizzer og omfattende resuméer - alt sammen skræddersyet til dit materiale.\n\nAI-VEJLERE\nSidder du fast i et koncept? Spørg din personlige AI-vejleder. Den kender dit studiemateriale ud og ind og forklarer tingene trin for trin. Bliv udfordret med øvelsesopgaver for at teste din forståelse.\n\nSMARTE FLASHCARDS & QUIZZER\nLær med automatisk genererede flashcards, eller test dig selv med multiple-choice-quizzer. Når du tager fejl i noget, kan du gå direkte til vejlederen for at få en forklaring.\n\nKÆMP MOD DINE VENNER\nUdfordr klassekammerater til quizkampe i realtid. Konkurrer head-to-head om det samme studiemateriale, og se, hvem der lander på podiet.\n\nRIGE OPSUMMERINGER\nFå organiserede, strukturerede opsummeringer med nøglebegreber, formler og forklaringer – perfekt til hurtig gennemgang før en eksamen.\n\nTILGÆNGELIG OVERALT\nVirker på iPhone, iPad og Mac. Dine studiepakker synkroniseres på tværs af alle dine enheder.\n\nBrainfold understøtter over 50 sprog, så du kan studere på dit modersmål.\n\nPrivatlivspolitik: https://magiclabsolutions.com/privacy-policy/\nBrugsbetingelser (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "da",
+        "keywords": "flashcards,studie,noter,resume,eksamen,quiz,lektier,repetition,studiekort,ai,gymnasium",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/16c61d6c-4b1f-4c40-9caa-d2bb1f52b57c"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "0d0f2736-2d1d-43dd-89d9-4fe08bdf722a",
+      "attributes": {
+        "description": "Превратите любой учебник в интерактивный учебный материал. Brainfold использует ИИ, чтобы преобразовать ваши учебные материалы во все необходимое для успешной сдачи экзаменов.\n\nСКАНИРУЙТЕ И СОЗДАВАЙТЕ\nСфотографируйте любую страницу, загрузите PDF-файл или вставьте текст. Brainfold мгновенно сгенерирует полный учебный пакет с карточками, викторинами и подробными резюме — все это адаптировано к вашему материалу.\n\nРЕПЕТИТОР НА ОСНОВЕ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА\nЗастряли на каком-то понятии? Обратитесь к своему личному репетитору на основе ИИ. Он досконально знает ваш учебный материал и объясняет все шаг за шагом. Попробуйте решить практические задачи, чтобы проверить свое понимание.\n\nУМНЫЕ КАРТОЧКИ И ВИКТОРИНЫ\nУчитесь с помощью автоматически сгенерированных карточек или проверяйте себя с помощью викторин с несколькими вариантами ответов. Если вы допустили ошибку, сразу же обратитесь к репетитору за объяснением.\n\nСРАЖАЙТЕСЬ С ДРУЗЬЯМИ\nБросьте вызов одноклассникам в викторинах в реальном времени. Соревнуйтесь друг с другом, используя одни и те же учебные материалы, и узнайте, кто займет призовое место.\n\nПОДРОБНЫЕ КОНСПЕКТЫ\nПолучайте структурированные конспекты с ключевыми понятиями, формулами и выносками — идеально подходят для быстрого повторения перед экзаменом.\n\nДОСТУПНО ВЕЗДЕ\nРаботает на iPhone, iPad и Mac. Ваши учебные материалы синхронизируются на всех ваших устройствах.\n\nBrainfold поддерживает более 50 языков, поэтому вы можете учиться на своем родном языке.\n\nПолитика конфиденциальности: https://magiclabsolutions.com/privacy-policy/\nУсловия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ru",
+        "keywords": "карточки,учеба,конспект,экзамен,тест,заметки,повторение,егэ,огэ,репетитор,ии,шпаргалка",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0d0f2736-2d1d-43dd-89d9-4fe08bdf722a"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "e5016e2d-4724-4374-9292-7bad6321cf6b",
+      "attributes": {
+        "description": "Pretvorite bilo koji udžbenik u interaktivnu sesiju učenja. Brainfold koristi umjetnu inteligenciju kako bi transformirao vaš nastavni materijal u sve što vam je potrebno za uspješno polaganje ispita.\n\nSKENIRAJ I KREIRAJ\nFotografirajte bilo koju stranicu, prenesite PDF ili zalijepite tekst. Brainfold trenutno generira cjeloviti paket za učenje s karticama, kvizovima i bogatim sažecima - sve prilagođeno vašem gradivu.\n\nUMJETNI TUTOR\nZaglavili ste na nekom konceptu? Pitajte svog osobnog UM tutora. On poznaje vaš nastavni materijal iznutra i objašnjava stvari korak po korak. Izazovite se praktičnim zadacima kako biste testirali svoje razumijevanje.\n\nPAMETNE KARTICE I KVIZOVI\nUčite s automatski generiranim karticama ili se testirajte kvizovima s višestrukim izborom. Kada nešto pogriješite, odmah se obratite tutoru za objašnjenje.\n\nBORITE SE S PRIJATELJIMA\nIzazovite kolege iz razreda na kviz bitke u stvarnom vremenu. Natječite se izravno na istom studijskom materijalu i vidite tko će se naći na postolju.\n\nBOGATI SAŽETCI\nDobijte organizirane, strukturirane sažetke s ključnim konceptima, formulama i opisima — savršeno za brzi pregled prije ispita.\n\nDOSTUPNO SVUGDJE\nRadi na iPhoneu, iPadu i Macu. Vaši paketi za učenje sinkroniziraju se na svim vašim uređajima.\n\nBrainfold podržava više od 50 jezika tako da možete učiti na svom materinjem jeziku.\n\nPravila privatnosti: https://magiclabsolutions.com/privacy-policy/\nUvjeti korištenja (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "hr",
+        "keywords": "kartice za učenje,studij,sažetak,ispit,kviz,bilješke,ponavljanje,matura,instrukcije,ai",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/e5016e2d-4724-4374-9292-7bad6321cf6b"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "8e008ab1-dd1b-4155-a79b-c768063ac974",
+      "attributes": {
+        "description": "Herhangi bir ders kitabını etkileşimli bir çalışma seansına dönüştürün. Brainfold, yapay zekayı kullanarak ders materyalinizi sınavlarınızda başarılı olmanız için gereken her şeye dönüştürür.\n\n**TARAYIN VE OLUŞTURUN**\nHerhangi bir sayfanın fotoğrafını çekin, bir PDF yükleyin veya metin yapıştırın. Brainfold, anında bilgi kartları, testler ve zengin özetler içeren eksiksiz bir çalışma paketi oluşturur; bunların hepsi materyalinize özel olarak hazırlanmıştır.\n\n**YAPAY ZEKÂ ÖĞRETMENİ**\nBir kavramda takıldınız mı? Kişisel yapay zekâ öğretmeninizden yardım isteyin. Çalışma materyalinizi baştan sona bilir ve her şeyi adım adım açıklar. Anlayışınızı test etmek için alıştırma sorularıyla kendinizi sınayın.\n\n**AKILLI BİLGİ KARTLARI VE TESTLER**\nOtomatik olarak oluşturulan bilgi kartlarıyla çalışın veya çoktan seçmeli testlerle kendinizi sınayın. Bir şeyi yanlış yaptığınızda, açıklama için doğrudan öğretmene gidin.\n\n**ARKADAŞLARINIZLA YARIŞIN**\nSınıf arkadaşlarınızla gerçek zamanlı test savaşlarına katılın. Aynı çalışma materyali üzerinde kafa kafaya yarışın ve kimin podyuma çıkacağını görün.\n\nDERİN ÖZETLER\nAnahtar kavramlar, formüller ve açıklamalar içeren, düzenli ve yapılandırılmış özetler edinin — sınav öncesi hızlı tekrar için mükemmel.\n\nHER YERDE KULLANILABİLİR\niPhone, iPad ve Mac'te çalışır. Çalışma paketleriniz tüm cihazlarınız arasında senkronize edilir.\n\nBrainfold 50'den fazla dili destekler, böylece ana dilinizde çalışabilirsiniz.\n\nGizlilik Politikası: https://magiclabsolutions.com/privacy-policy/\nKullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "tr",
+        "keywords": "bilgi kartı,ders çalışma,özet,sınav,quiz,not,tekrar,yks,kpss,özel ders,ai,flashcard",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8e008ab1-dd1b-4155-a79b-c768063ac974"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "cf667e31-8dc5-4d57-a897-3321f1ece6ee",
+      "attributes": {
+        "description": "Turn any textbook into an interactive study session. Brainfold uses AI to transform your course material into everything you need to ace your exams.\n\nSCAN & CREATE\nTake a photo of any page, upload a PDF, or paste text. Brainfold instantly generates a complete study pack with flashcards, quizzes, and rich summaries — all tailored to your material.\n\nAI TUTOR\nStuck on a concept? Ask your personal AI tutor. It knows your study material inside out and explains things step by step. Get challenged with practice problems to test your understanding.\n\nSMART FLASHCARDS & QUIZZES\nStudy with auto-generated flashcards or test yourself with multiple-choice quizzes. When you get something wrong, jump straight to the tutor for an explanation.\n\nBATTLE YOUR FRIENDS\nChallenge classmates to real-time quiz battles. Compete head-to-head on the same study material and see who lands on the podium.\n\nRICH SUMMARIES\nGet organized, structured summaries with key concepts, formulas, and callouts — perfect for quick review before an exam.\n\nAVAILABLE EVERYWHERE\nWorks on iPhone, iPad, and Mac. Your study packs sync across all your devices.\n\nBrainfold supports 50+ languages so you can study in your native language.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "en-GB",
+        "keywords": "flashcards,study,ai,quiz,scan,notes,exam,tutor,revision,gcse,a level,summary,spaced repetition",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/cf667e31-8dc5-4d57-a897-3321f1ece6ee"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "1daada72-bb4d-43ee-9932-7e2e3d06c03c",
+      "attributes": {
+        "description": "ഏത് പാഠപുസ്തകവും ഇന്ററാക്ടീവ് പഠനമാക്കൂ. Brainfold AI ഉപയോഗിച്ച് നിങ്ങളുടെ കോഴ്സ് മെറ്റീരിയൽ പരീക്ഷയിൽ മികച്ചതാകാൻ വേണ്ടതെല്ലാമാക്കി മാറ്റുന്നു.\n\nസ്കാൻ ചെയ്യൂ, സൃഷ്ടിക്കൂ\nഏത് പേജിന്റെയും ഫോട്ടോ എടുക്കൂ, PDF അപ്‌ലോഡ് ചെയ്യൂ അല്ലെങ്കിൽ ടെക്സ്റ്റ് പേസ്റ്റ് ചെയ്യൂ. Brainfold ഉടൻ ഫ്ലാഷ്‌കാർഡുകളും ക്വിസുകളും വിശദമായ സംഗ്രഹങ്ങളുമുള്ള ഒരു പൂർണ്ണ സ്റ്റഡി പാക്ക് ഉണ്ടാക്കുന്നു.\n\nAI ട്യൂട്ടർ\nഒരു ആശയത്തിൽ കുടുങ്ങിയോ? നിങ്ങളുടെ AI ട്യൂട്ടറോട് ചോദിക്കൂ. അതിന് നിങ്ങളുടെ പഠന സാമഗ്രി നന്നായി അറിയാം, ഘട്ടം ഘട്ടമായി വിശദീകരിക്കും.\n\nസ്മാർട്ട് ഫ്ലാഷ്‌കാർഡുകളും ക്വിസുകളും\nസ്വയം നിർമ്മിച്ച ഫ്ലാഷ്‌കാർഡുകളിൽ പഠിക്കൂ, അല്ലെങ്കിൽ മൾട്ടിപ്പിൾ ചോയ്സ് ക്വിസുകളിൽ സ്വയം പരീക്ഷിക്കൂ. തെറ്റിയാൽ നേരെ ട്യൂട്ടറുടെ അടുത്ത് പോയി വിശദീകരണം നേടൂ.\n\nകൂട്ടുകാരുമായി മത്സരം\nസഹപാഠികളെ തത്സമയ ക്വിസ് ബാറ്റിലിലേക്ക് വെല്ലുവിളിക്കൂ, ആരാണ് പോഡിയത്തിൽ എത്തുന്നതെന്ന് കാണൂ.\n\nഎല്ലാ ഉപകരണങ്ങളിലും\niPhone, iPad, Mac എന്നിവയിൽ പ്രവർത്തിക്കുന്നു. നിങ്ങളുടെ സ്റ്റഡി പാക്കുകൾ എല്ലാ ഉപകരണങ്ങളിലും സിങ്ക് ആകും.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ml-IN",
+        "keywords": "ഫ്ലാഷ്‌കാർഡ്,പഠനം,ക്വിസ്,പരീക്ഷ,സ്കാൻ,കുറിപ്പ്,ട്യൂട്ടർ,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/1daada72-bb4d-43ee-9932-7e2e3d06c03c"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "b3b97b2a-f8d0-459c-b250-96a814168714",
+      "attributes": {
+        "description": "Változtass bármilyen tankönyvet interaktív tanulási alkalmivá. A Braifold mesterséges intelligencia segítségével alakítja át a tananyagodat mindenné, amire szükséged van a vizsgáid sikeres teljesítéséhez.\n\n\nSZKENNELÉS ÉS LÉTREHOZÁS\nKészíts fotót bármelyik oldalról, tölts fel PDF-et, vagy illeszd be a szöveget. A Braifold azonnal létrehoz egy teljes tanulmányi csomagot flash kártyákkal, kvízekkel és gazdag összefoglalókkal – mindezt az anyagodhoz igazítva.\n\n\nMI ALAPÍTOTT OKTATÓ\nElakadtál egy koncepcióban? Kérdezd meg személyes MI oktatódat. Ismeri a tanulmányi anyagodat kívülről-belülről, és lépésről lépésre elmagyarázza a dolgokat. Gyakorló feladatokkal tesztelheted a megértésedet.\n\n\nOKOS KÁRTYÁK ÉS KVÍZEK\nTanulj automatikusan generált flash kártyákkal, vagy teszteld magad feleletválasztós kvízekkel. Ha valamiben hibázol, ugorj egyenesen az oktatóhoz magyarázatért.\n\n\nCSATÁZZ A BARÁTAIDDAL\nHívd ki osztálytársaidat valós idejű kvízcsatákra. Versenyezz fej-fej mellett ugyanazon a tanulmányi anyagon, és nézd meg, ki kerül a dobogóra.\n\n\nBŐSÉGES ÖSSZEFOGLALÓK\nSzervezett, strukturált összefoglalókat kaphatsz kulcsfogalmakkal, képletekkel és megjegyzésekkel – tökéletesek a vizsga előtti gyors áttekintéshez.\n\nMINDENHOL ELÉRHETŐ\niPhone-on, iPaden és Macen is működik. Tanulási csomagjaid szinkronizálódnak az összes eszközödön.\n\nA Brainfold több mint 50 nyelvet támogat, így anyanyelveden tanulhatsz.\n\nAdatvédelmi irányelvek: https://magiclabsolutions.com/privacy-policy/\nFelhasználási feltételek (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "hu",
+        "keywords": "tanulókártya,tanulás,összefoglaló,vizsga,kvíz,jegyzet,ismétlés,érettségi,korrepetálás,ai",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/b3b97b2a-f8d0-459c-b250-96a814168714"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "311b89c9-c4ca-46d3-a998-db2c57534c64",
+      "attributes": {
+        "description": "எந்தப் பாடப்புத்தகத்தையும் ஊடாடும் படிப்பாக மாற்றுங்கள். Brainfold AI மூலம் உங்கள் பாடப்பொருளைத் தேர்வில் வெற்றிபெறத் தேவையான அனைத்தாகவும் மாற்றுகிறது.\n\nஸ்கேன் செய்து உருவாக்குங்கள்\nஎந்தப் பக்கத்தையும் புகைப்படம் எடுங்கள், PDF பதிவேற்றுங்கள் அல்லது உரையை ஒட்டுங்கள். Brainfold உடனே ஃபிளாஷ்கார்டுகள், வினாடி வினாக்கள், விரிவான சுருக்கங்களுடன் முழு படிப்புத் தொகுப்பை உருவாக்குகிறது.\n\nAI ஆசிரியர்\nஏதாவது புரியவில்லையா? உங்கள் AI ஆசிரியரிடம் கேளுங்கள். அது உங்கள் பாடப்பொருளை நன்கு அறிந்து படிப்படியாக விளக்கும்.\n\nஸ்மார்ட் ஃபிளாஷ்கார்டுகள் & வினாடி வினா\nதானாக உருவான ஃபிளாஷ்கார்டுகளில் படியுங்கள் அல்லது பல தேர்வு வினாடி வினாக்களில் உங்களைச் சோதியுங்கள். தவறினால் நேரடியாக ஆசிரியரிடம் சென்று விளக்கம் பெறுங்கள்.\n\nநண்பர்களுடன் போட்டி\nவகுப்புத் தோழர்களை நேரலை வினாடி வினா போட்டிக்கு அழைத்து யார் மேடை ஏறுகிறார்கள் எனப் பாருங்கள்.\n\nஎல்லா சாதனங்களிலும்\niPhone, iPad, Mac-இல் இயங்கும். உங்கள் படிப்புத் தொகுப்புகள் எல்லா சாதனங்களிலும் ஒத்திசைக்கப்படும்.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ta-IN",
+        "keywords": "ஃபிளாஷ்கார்டு,படிப்பு,வினாடி வினா,தேர்வு,ஸ்கேன்,குறிப்பு,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/311b89c9-c4ca-46d3-a998-db2c57534c64"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "0885cab1-9df1-497f-9617-2e977f2f9537",
+      "attributes": {
+        "description": "Turn any textbook into an interactive study session. Brainfold uses AI to transform your course material into everything you need to ace your exams.\n\nSCAN & CREATE\nTake a photo of any page, upload a PDF, or paste text. Brainfold instantly generates a complete study pack with flashcards, quizzes, and rich summaries — all tailored to your material.\n\nAI TUTOR\nStuck on a concept? Ask your personal AI tutor. It knows your study material inside out and explains things step by step. Get challenged with practice problems to test your understanding.\n\nSMART FLASHCARDS & QUIZZES\nStudy with auto-generated flashcards or test yourself with multiple-choice quizzes. When you get something wrong, jump straight to the tutor for an explanation.\n\nBATTLE YOUR FRIENDS\nChallenge classmates to real-time quiz battles. Compete head-to-head on the same study material and see who lands on the podium.\n\nRICH SUMMARIES\nGet organized, structured summaries with key concepts, formulas, and callouts — perfect for quick review before an exam.\n\nAVAILABLE EVERYWHERE\nWorks on iPhone, iPad, and Mac. Your study packs sync across all your devices.\n\nBrainfold supports 50+ languages so you can study in your native language.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "en-AU",
+        "keywords": "flashcards,study,ai,quiz,scan,notes,exam,tutor,revision,hsc,atar,summary,spaced repetition",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/0885cab1-9df1-497f-9617-2e977f2f9537"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "904aee39-2ad1-47b3-9e68-aa425cc0fd9d",
+      "attributes": {
+        "description": "ਕਿਸੇ ਵੀ ਪਾਠ-ਪੁਸਤਕ ਨੂੰ ਇੰਟਰੈਕਟਿਵ ਪੜ੍ਹਾਈ ਵਿੱਚ ਬਦਲੋ। Brainfold AI ਨਾਲ ਤੁਹਾਡੀ ਕੋਰਸ ਸਮੱਗਰੀ ਨੂੰ ਇਮਤਿਹਾਨ ਵਿੱਚ ਵਧੀਆ ਕਰਨ ਲਈ ਲੋੜੀਂਦੀ ਹਰ ਚੀਜ਼ ਵਿੱਚ ਬਦਲ ਦਿੰਦਾ ਹੈ।\n\nਸਕੈਨ ਕਰੋ ਅਤੇ ਬਣਾਓ\nਕਿਸੇ ਵੀ ਪੰਨੇ ਦੀ ਫੋਟੋ ਲਓ, PDF ਅੱਪਲੋਡ ਕਰੋ ਜਾਂ ਟੈਕਸਟ ਪੇਸਟ ਕਰੋ। Brainfold ਤੁਰੰਤ ਫਲੈਸ਼ਕਾਰਡ, ਕੁਇਜ਼ ਅਤੇ ਵਿਸਥਾਰ ਵਾਲੇ ਸਾਰਾਂਸ਼ ਨਾਲ ਪੂਰਾ ਸਟੱਡੀ ਪੈਕ ਬਣਾਉਂਦਾ ਹੈ।\n\nAI ਟਿਊਟਰ\nਕਿਸੇ ਧਾਰਨਾ 'ਤੇ ਅਟਕ ਗਏ ਹੋ? ਆਪਣੇ AI ਟਿਊਟਰ ਨੂੰ ਪੁੱਛੋ। ਉਸਨੂੰ ਤੁਹਾਡੀ ਪੜ੍ਹਾਈ ਦੀ ਸਮੱਗਰੀ ਚੰਗੀ ਤਰ੍ਹਾਂ ਪਤਾ ਹੈ ਅਤੇ ਉਹ ਕਦਮ-ਦਰ-ਕਦਮ ਸਮਝਾਉਂਦਾ ਹੈ।\n\nਸਮਾਰਟ ਫਲੈਸ਼ਕਾਰਡ ਅਤੇ ਕੁਇਜ਼\nਆਪਣੇ-ਆਪ ਬਣੇ ਫਲੈਸ਼ਕਾਰਡਾਂ ਨਾਲ ਪੜ੍ਹੋ ਜਾਂ ਬਹੁ-ਵਿਕਲਪੀ ਕੁਇਜ਼ ਨਾਲ ਆਪਣੇ ਆਪ ਨੂੰ ਪਰਖੋ। ਗਲਤੀ ਹੋਵੇ ਤਾਂ ਸਿੱਧੇ ਟਿਊਟਰ ਕੋਲ ਜਾ ਕੇ ਵਿਆਖਿਆ ਲਓ।\n\nਦੋਸਤਾਂ ਨਾਲ ਮੁਕਾਬਲਾ\nਸਹਿਪਾਠੀਆਂ ਨੂੰ ਰੀਅਲ-ਟਾਈਮ ਕੁਇਜ਼ ਬੈਟਲ ਦੀ ਚੁਣੌਤੀ ਦਿਓ ਅਤੇ ਦੇਖੋ ਕੌਣ ਪੋਡੀਅਮ 'ਤੇ ਪਹੁੰਚਦਾ ਹੈ।\n\nਹਰ ਡਿਵਾਈਸ 'ਤੇ\niPhone, iPad ਅਤੇ Mac 'ਤੇ ਚੱਲਦਾ ਹੈ। ਤੁਹਾਡੇ ਸਟੱਡੀ ਪੈਕ ਸਾਰੀਆਂ ਡਿਵਾਈਸਾਂ 'ਤੇ ਸਿੰਕ ਹੁੰਦੇ ਹਨ।\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "pa-IN",
+        "keywords": "ਫਲੈਸ਼ਕਾਰਡ,ਪੜ੍ਹਾਈ,ਕੁਇਜ਼,ਇਮਤਿਹਾਨ,ਸਕੈਨ,ਨੋਟਸ,ਟਿਊਟਰ,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/904aee39-2ad1-47b3-9e68-aa425cc0fd9d"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "65915438-10c2-42ff-a135-3a8629060735",
+      "attributes": {
+        "description": "Verwandle jedes Lehrbuch in eine interaktive Lerneinheit. Brainfold nutzt KI, um dein Kursmaterial in alles zu verwandeln, was du für deine Prüfungen brauchst.\n\nSCANNEN & ERSTELLEN\nFotografiere eine beliebige Seite, lade ein PDF hoch oder füge Text ein. Brainfold generiert sofort ein komplettes Lernpaket mit Karteikarten, Quizfragen und ausführlichen Zusammenfassungen – alles individuell auf dein Material zugeschnitten.\n\nKI-TUTOR\nDu kommst bei einem Thema nicht weiter? Frag deinen persönlichen KI-Tutor. Er kennt dein Lernmaterial in- und auswendig und erklärt dir alles Schritt für Schritt. Teste dein Verständnis mit Übungsaufgaben.\n\nINTELLIGENTE LERNKARTEN & QUIZFRAGEN\nLerne mit automatisch generierten Karteikarten oder teste dich mit Multiple-Choice-Quizzen. Wenn du etwas falsch beantwortest, erhältst du direkt eine Erklärung vom Tutor.\n\nWETTE GEGEN DEINE FREUNDE\nFordere deine Kommilitonen zu Quizduellen in Echtzeit heraus. Tretet im direkten Vergleich mit euren Freunden an und seht, wer gewinnt.\n\nAusführliche Zusammenfassungen\nErhalten Sie übersichtliche, strukturierte Zusammenfassungen mit Schlüsselkonzepten, Formeln und Hervorhebungen – ideal zur schnellen Wiederholung vor der Prüfung.\n\nÜberall verfügbar\nFunktioniert auf iPhone, iPad und Mac. Ihre Lernpakete werden auf all Ihren Geräten synchronisiert.\n\nBrainfold unterstützt über 50 Sprachen, damit Sie in Ihrer Muttersprache lernen können.\n\nDatenschutzrichtlinie: https://magiclabsolutions.com/privacy-policy/\nNutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "de-DE",
+        "keywords": "karteikarten,lernen,zusammenfassung,klausur,quiz,notizen,abitur,nachhilfe,ki,prüfung,lernkarten",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/65915438-10c2-42ff-a135-3a8629060735"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "4a128679-70ca-4ca0-9aba-74e5fda846e4",
+      "attributes": {
+        "description": "Verander elk leerboek in een interactieve studiesessie. Brainfold gebruikt AI om je lesmateriaal om te zetten in alles wat je nodig hebt om je examens met vlag en wimpel te halen.\n\nSCANNEN & CREËREN\nMaak een foto van een pagina, upload een pdf of plak tekst. Brainfold genereert direct een compleet studiepakket met flashcards, quizzen en uitgebreide samenvattingen – allemaal afgestemd op jouw lesmateriaal.\n\nAI-TUTOR\nKom je een concept niet tegen? Vraag het aan je persoonlijke AI-tutor. Deze kent je lesmateriaal door en door en legt alles stap voor stap uit. Test je kennis met oefenopgaven.\n\nSLIMME FLASHCARDS & QUIZZEN\nStudeer met automatisch gegenereerde flashcards of test je kennis met meerkeuzequizzen. Als je iets fout hebt, kun je direct de tutor om uitleg vragen.\n\nNEEM HET OP TEGEN JE VRIENDEN\nDaag klasgenoten uit voor quizzen in realtime. Neem het tegen elkaar op met hetzelfde lesmateriaal en kijk wie er op het podium staat.\n\nUITGEBREIDE SAMENVATTINGEN\nKrijg overzichtelijke, gestructureerde samenvattingen met kernbegrippen, formules en toelichtingen – perfect voor een snelle herhaling voor een examen.\n\nOVERAL BESCHIKBAAR\nWerkt op iPhone, iPad en Mac. Je studiepakketten worden gesynchroniseerd op al je apparaten.\n\nBrainfold ondersteunt meer dan 50 talen, zodat je in je moedertaal kunt studeren.\n\nPrivacybeleid: https://magiclabsolutions.com/privacy-policy/\nGebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "nl-NL",
+        "keywords": "flashcards,leren,samenvatting,tentamen,quiz,aantekeningen,examen,bijles,ai,studeren,toets",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4a128679-70ca-4ca0-9aba-74e5fda846e4"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "808474ff-319a-4928-ad35-abfae71066f5",
+      "attributes": {
+        "description": "どんな教科書でも、インタラクティブな学習セッションに変えられます。BrainfoldはAIを活用して、コース教材を試験対策に必要なあらゆるものに変換します。\n\nスキャン＆作成\n任意のページを写真に撮ったり、PDFをアップロードしたり、テキストを貼り付けたりするだけで、Brainfoldはフラッシュカード、クイズ、豊富な要約を含む、あなたの教材に合わせた完全な学習パックを瞬時に生成します。\n\nAIチューター\n理解が進まない時は、パーソナルAIチューターに質問してみましょう。AIチューターはあなたの教材を隅々まで理解し、ステップバイステップで解説してくれます。練習問題で理解度をチェックすることもできます。\n\nスマートフラッシュカード＆クイズ\n自動生成されたフラッシュカードで学習したり、多肢選択式クイズで自分の力を試したりできます。間違えた場合は、すぐにチューターに解説を依頼できます。\n\n友達と対戦\nクラスメイトとリアルタイムクイズバトルに挑戦。同じ教材で直接対戦し、誰が表彰台に上がるか競い合いましょう。\n\n充実した要約\n主要概念、公式、吹き出しなど、整理された構造化された要約を入手できます。試験前の簡単な復習に最適です。\n\nどこでも利用可能\niPhone、iPad、Macでご利用いただけます。学習パックはすべてのデバイス間で同期されます。\n\nBrainfoldは50以上の言語に対応しているので、母国語で学習できます。\n\nプライバシーポリシー: https://magiclabsolutions.com/privacy-policy/\n利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ja",
+        "keywords": "単語帳,暗記,勉強,要約,テスト,クイズ,ノート,復習,受験,大学,家庭教師,ai,フラッシュカード,暗記カード",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/808474ff-319a-4928-ad35-abfae71066f5"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "8fc26f54-0ebf-4a24-b5bb-43650b9865b0",
+      "attributes": {
+        "description": "어떤 교과서든 인터랙티브 학습 자료로 바꿔보세요. 브레인폴드는 AI를 활용하여 학습 자료를 시험 만점을 위한 완벽한 학습 도구로 변환해 줍니다.\n\n스캔 & 생성\n페이지 사진을 찍거나, PDF 파일을 업로드하거나, 텍스트를 붙여넣기만 하면 됩니다. 브레인폴드는 플래시 카드, 퀴즈, 풍부한 요약 정보가 포함된 맞춤형 학습 자료를 즉시 생성해 줍니다.\n\nAI 튜터\n이해하기 어려운 개념이 있나요? 개인 AI 튜터에게 질문하세요. AI 튜터는 학습 자료를 완벽하게 이해하고 단계별로 설명해 줍니다. 이해도를 점검할 수 있는 연습 문제도 풀어보세요.\n\n스마트 플래시 카드 & 퀴즈\n자동 생성된 플래시 카드로 학습하거나 객관식 퀴즈로 실력을 점검해 보세요. 오답이 있을 경우 바로 튜터에게 설명을 요청할 수 있습니다.\n\n친구와 퀴즈 대결\n친구들과 실시간 퀴즈 대결을 펼쳐보세요. 같은 학습 자료를 가지고 치열한 경쟁을 벌이고 누가 승리하는지 확인해 보세요.\n\n핵심 요약\n핵심 개념, 공식, 주요 내용을 정리한 체계적인 요약본을 통해 시험 전 빠른 복습에 활용하세요.\n\n어디에서든 사용 가능\niPhone, iPad, Mac에서 모두 사용 가능하며, 학습 자료는 모든 기기에서 동기화됩니다.\n\nBrainfold는 50개 이상의 언어를 지원하여 모국어로 학습할 수 있습니다.\n\n개인정보 처리방침: https://magiclabsolutions.com/privacy-policy/\n이용약관 (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ko",
+        "keywords": "암기카드,공부,요약,시험,퀴즈,노트,복습,수능,내신,과외,플래시카드,단어장,ai,튜터",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/8fc26f54-0ebf-4a24-b5bb-43650b9865b0"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "3232a09f-9070-4e84-8fc2-17e25d579267",
+      "attributes": {
+        "description": "เปลี่ยนตำราเรียนใดๆ ให้เป็นการเรียนรู้แบบโต้ตอบ Brainfold ใช้ AI ในการแปลงเนื้อหาการเรียนของคุณให้เป็นทุกสิ่งที่คุณต้องการเพื่อทำข้อสอบให้ได้คะแนนดีเยี่ยม\n\nสแกนและสร้าง\nถ่ายรูปหน้าใดก็ได้ อัปโหลดไฟล์ PDF หรือวางข้อความ Brainfold จะสร้างชุดการเรียนรู้ที่สมบูรณ์แบบพร้อมแฟลชการ์ด แบบทดสอบ และบทสรุปที่ครบถ้วนในทันที ซึ่งปรับแต่งให้เหมาะกับเนื้อหาของคุณ\n\nติวเตอร์ AI\nติดขัดกับแนวคิดใดแนวคิดหนึ่งใช่ไหม ถามติวเตอร์ AI ส่วนตัวของคุณได้เลย มันรู้จักเนื้อหาการเรียนของคุณเป็นอย่างดีและจะอธิบายสิ่งต่างๆ ทีละขั้นตอน รับความท้าทายด้วยแบบฝึกหัดเพื่อทดสอบความเข้าใจของคุณ\n\nแฟลชการ์ดและแบบทดสอบอัจฉริยะ\nเรียนรู้ด้วยแฟลชการ์ดที่สร้างขึ้นโดยอัตโนมัติ หรือทดสอบตัวเองด้วยแบบทดสอบแบบเลือกตอบ เมื่อคุณทำผิด ให้ไปที่ติวเตอร์เพื่อขอคำอธิบายได้ทันที\n\nแข่งขันกับเพื่อนของคุณ\nท้าทายเพื่อนร่วมชั้นเรียนในการแข่งขันตอบคำถามแบบเรียลไทม์ แข่งขันกันแบบตัวต่อตัวในเนื้อหาการเรียนเดียวกันและดูว่าใครจะได้ขึ้นแท่นรับรางวัล\n\nสรุปเนื้อหาอย่างครบถ้วน\nรับสรุปเนื้อหาที่จัดระเบียบและมีโครงสร้าง พร้อมด้วยแนวคิดหลัก สูตร และคำอธิบายเพิ่มเติม เหมาะสำหรับการทบทวนอย่างรวดเร็วก่อนสอบ\n\nใช้งานได้ทุกที่\nใช้งานได้บน iPhone, iPad และ Mac ชุดการเรียนของคุณจะซิงค์ข้อมูลระหว่างอุปกรณ์ทั้งหมดของคุณ\n\nBrainfold รองรับมากกว่า 50 ภาษา คุณจึงสามารถเรียนในภาษาแม่ของคุณได้\n\nนโยบายความเป็นส่วนตัว: https://magiclabsolutions.com/privacy-policy/\nข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "th",
+        "keywords": "แฟลชการ์ด,อ่านหนังสือ,สรุป,สอบ,ควิซ,โน้ต,ทบทวน,tgat,กวดวิชา,ai,ติวเตอร์",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/3232a09f-9070-4e84-8fc2-17e25d579267"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "5b57368f-97dc-40b9-9970-d6de120d1112",
+      "attributes": {
+        "description": "Convierte cualquier libro de texto en una sesión de estudio interactiva. Brainfold usa IA para transformar tu material de curso en todo lo que necesitas para aprobar tus exámenes.\n\nESCANEAR Y CREAR\nToma una foto de cualquier página, sube un PDF o pega texto. Brainfold genera al instante un paquete de estudio completo con tarjetas didácticas, cuestionarios y resúmenes detallados, todo adaptado a tu material.\n\nTUTOR DE IA\n¿Te atascas en un concepto? Consulta con tu tutor personal de IA. Conoce tu material de estudio a la perfección y te lo explica paso a paso. Ponte a prueba con ejercicios de práctica para poner a prueba tu comprensión.\n\nTARJETAS DIDÁCTICAS Y CUESTIONARIOS INTELIGENTES\nEstudia con tarjetas didácticas generadas automáticamente o ponte a prueba con cuestionarios de opción múltiple. Si te equivocas en algo, contacta directamente con el tutor para obtener una explicación.\n\nCOMPITE CON TUS AMIGOS\nReta a tus compañeros a batallas de cuestionarios en tiempo real. Compite cara a cara con el mismo material de estudio y descubre quién llega al podio.\n\nRESÚMENES COMPLETOS\nObtén resúmenes organizados y estructurados con conceptos clave, fórmulas y referencias, perfectos para un repaso rápido antes de un examen.\n\nDISPONIBLE EN TODAS PARTES\nCompatible con iPhone, iPad y Mac. Tus paquetes de estudio se sincronizan en todos tus dispositivos.\n\nBrainfold admite más de 50 idiomas para que puedas estudiar en tu lengua materna.\n\nPolítica de Privacidad: https://magiclabsolutions.com/privacy-policy/\nTérminos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "es-MX",
+        "keywords": "flashcards,estudiar,resumen,examen,quiz,apuntes,tareas,repaso,tutor,ia,tarjetas,unam,prepa",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/5b57368f-97dc-40b9-9970-d6de120d1112"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "658f1727-0dcb-47f7-9dbc-20ec6d286135",
+      "attributes": {
+        "description": "Biến bất kỳ sách giáo khoa nào thành một buổi học tương tác. Brainfold sử dụng trí tuệ nhân tạo (AI) để chuyển đổi tài liệu học tập của bạn thành mọi thứ bạn cần để đạt điểm cao trong các kỳ thi.\n\nQUÉT & TẠO\nChụp ảnh bất kỳ trang nào, tải lên tệp PDF hoặc dán văn bản. Brainfold ngay lập tức tạo ra một bộ tài liệu học tập hoàn chỉnh với thẻ ghi nhớ, bài kiểm tra và tóm tắt chi tiết — tất cả đều được tùy chỉnh theo tài liệu của bạn.\n\nGIÁO VIÊN AI\nBị mắc kẹt ở một khái niệm nào đó? Hãy hỏi gia sư AI cá nhân của bạn. Nó hiểu rõ tài liệu học tập của bạn và giải thích mọi thứ từng bước một. Thử thách bản thân với các bài tập thực hành để kiểm tra sự hiểu biết của bạn.\n\nTHẺ GHI NHỚ & BÀI KIỂM TRA THÔNG MINH\nHọc tập với thẻ ghi nhớ được tạo tự động hoặc tự kiểm tra kiến thức với các bài kiểm tra trắc nghiệm. Khi bạn trả lời sai, hãy chuyển thẳng đến gia sư để được giải thích.\n\nTHỬ THÁCH VỚI BẠN BÈ\nThách đấu bạn bè trong các trận đấu trắc nghiệm thời gian thực. Cạnh tranh trực tiếp với cùng một tài liệu học tập và xem ai sẽ giành chiến thắng.\n\nTÓM TẮT CHI TIẾT\nNhận các bản tóm tắt có cấu trúc, được sắp xếp khoa học với các khái niệm chính, công thức và điểm nhấn — hoàn hảo để ôn tập nhanh trước kỳ thi.\n\nCÓ SẴN MỌI NƠI\nHoạt động trên iPhone, iPad và Mac. Gói học tập của bạn được đồng bộ hóa trên tất cả các thiết bị.\n\nBrainfold hỗ trợ hơn 50 ngôn ngữ để bạn có thể học bằng ngôn ngữ mẹ đẻ của mình.\n\nChính sách bảo mật: https://magiclabsolutions.com/privacy-policy/\nĐiều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "vi",
+        "keywords": "flashcard,học tập,tóm tắt,thi,quiz,ghi chú,ôn tập,thpt,đại học,gia sư,ai,trắc nghiệm",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/658f1727-0dcb-47f7-9dbc-20ec6d286135"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "4ad0ac41-e05d-450a-9f75-6504b09a4f2b",
+      "attributes": {
+        "description": "Zamień dowolny podręcznik w interaktywną sesję nauki. Brainfold wykorzystuje sztuczną inteligencję, aby przekształcić Twój materiał w wszystko, czego potrzebujesz, aby zdać egzaminy celująco.\n\nSKANUJ I TWÓRZ\nZrób zdjęcie dowolnej strony, prześlij plik PDF lub wklej tekst. Brainfold natychmiast wygeneruje kompletny pakiet do nauki z fiszkami, quizami i bogatymi streszczeniami — wszystko dopasowane do Twojego materiału.\n\nKOLEGENT SZTUCZNEJ INTELIGENCJI\nUtknąłeś na jakimś pomyśle? Zapytaj swojego osobistego korepetytora SI. Zna Twój materiał do nauki od podszewki i wyjaśnia wszystko krok po kroku. Rozwiąż zadania praktyczne, aby sprawdzić swoje zrozumienie.\n\nINTELIGENTNE FISZKI I QUIZY\nUcz się z automatycznie generowanymi fiszkami lub sprawdź się w quizach wielokrotnego wyboru. Jeśli popełnisz błąd, skontaktuj się z korepetytorem po wyjaśnienie.\n\nWALCZ Z PRZYJACIÓŁMI\nRzuć wyzwanie kolegom z klasy w bitwach quizowych w czasie rzeczywistym. Rywalizuj z tym samym materiałem do nauki i zobacz, kto znajdzie się na podium.\n\nBOGATE PODSUMOWANIA\nUzyskaj uporządkowane, ustrukturyzowane podsumowania z kluczowymi pojęciami, wzorami i objaśnieniami — idealne do szybkiego powtórzenia przed egzaminem.\n\nDOSTĘPNE WSZĘDZIE\nDziała na iPhonie, iPadzie i komputerze Mac. Twoje pakiety do nauki synchronizują się na wszystkich Twoich urządzeniach.\n\nBrainfold obsługuje ponad 50 języków, dzięki czemu możesz uczyć się w swoim ojczystym języku.\n\nPolityka prywatności: https://magiclabsolutions.com/privacy-policy/\nWarunki użytkowania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "pl",
+        "keywords": "fiszki,nauka,streszczenie,egzamin,quiz,notatki,powtórka,matura,korepetycje,ai,studia,sesja",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/4ad0ac41-e05d-450a-9f75-6504b09a4f2b"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "ba824f51-9b3f-4d32-8683-88e789ddb824",
+      "attributes": {
+        "description": "যেকোনো পাঠ্যবইকে বানিয়ে ফেলুন ইন্টারঅ্যাকটিভ পড়ার সেশন। Brainfold AI দিয়ে আপনার কোর্সের বিষয়বস্তুকে পরীক্ষায় ভালো করার জন্য দরকারি সবকিছুতে বদলে দেয়।\n\nস্ক্যান করুন ও তৈরি করুন\nযেকোনো পৃষ্ঠার ছবি তুলুন, একটি PDF আপলোড করুন বা লেখা পেস্ট করুন। Brainfold সঙ্গে সঙ্গে ফ্ল্যাশকার্ড, কুইজ আর বিস্তারিত সারাংশসহ পুরো একটি স্টাডি প্যাক তৈরি করে।\n\nAI টিউটর\nকোনো ধারণায় আটকে গেছেন? আপনার নিজের AI টিউটরকে জিজ্ঞেস করুন। সে আপনার পড়ার বিষয় ভালোভাবে জানে এবং ধাপে ধাপে বুঝিয়ে দেয়।\n\nস্মার্ট ফ্ল্যাশকার্ড ও কুইজ\nনিজে থেকে তৈরি ফ্ল্যাশকার্ডে পড়ুন বা বহুনির্বাচনী কুইজে নিজেকে যাচাই করুন। ভুল হলে সরাসরি টিউটরের কাছে গিয়ে ব্যাখ্যা নিন।\n\nবন্ধুদের সঙ্গে লড়াই\nসহপাঠীদের রিয়েল-টাইম কুইজ ব্যাটলে চ্যালেঞ্জ করুন এবং দেখুন কে পোডিয়ামে ওঠে।\n\nসব ডিভাইসে\niPhone, iPad ও Mac-এ চলে। আপনার স্টাডি প্যাক সব ডিভাইসে সিঙ্ক হয়।\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "bn-BD",
+        "keywords": "ফ্ল্যাশকার্ড,পড়াশোনা,কুইজ,পরীক্ষা,স্ক্যান,নোট,টিউটর,সারাংশ,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ba824f51-9b3f-4d32-8683-88e789ddb824"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "468758f0-32cf-445f-96cd-c5d8e194a237",
+      "attributes": {
+        "description": "کسی بھی درسی کتاب کو انٹرایکٹو مطالعے میں بدلیں۔ Brainfold AI کی مدد سے آپ کے کورس کے مواد کو امتحان میں کامیابی کے لیے درکار ہر چیز میں بدل دیتا ہے۔\n\nاسکین کریں اور بنائیں\nکسی بھی صفحے کی تصویر لیں، PDF اپ لوڈ کریں یا متن پیسٹ کریں۔ Brainfold فوراً فلیش کارڈز، کوئز اور تفصیلی خلاصوں کے ساتھ پورا اسٹڈی پیک تیار کر دیتا ہے۔\n\nAI ٹیوٹر\nکسی تصور پر اٹک گئے؟ اپنے AI ٹیوٹر سے پوچھیں۔ وہ آپ کے مطالعے کے مواد کو اچھی طرح جانتا ہے اور قدم بہ قدم سمجھاتا ہے۔\n\nاسمارٹ فلیش کارڈز اور کوئز\nخودکار بنے فلیش کارڈز سے پڑھیں یا کثیر الانتخابی کوئز سے خود کو جانچیں۔ غلطی ہو تو سیدھا ٹیوٹر کے پاس جا کر وضاحت لیں۔\n\nدوستوں سے مقابلہ\nہم جماعتوں کو ریئل ٹائم کوئز بیٹل کا چیلنج دیں اور دیکھیں کون پوڈیم تک پہنچتا ہے۔\n\nہر ڈیوائس پر\niPhone، iPad اور Mac پر چلتا ہے۔ آپ کے اسٹڈی پیک تمام ڈیوائسز پر سنک ہوتے ہیں۔\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ur-PK",
+        "keywords": "فلیش کارڈز,مطالعہ,کوئز,امتحان,اسکین,نوٹس,ٹیوٹر,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/468758f0-32cf-445f-96cd-c5d8e194a237"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "ebe5c569-4d35-469d-afbf-a8d737d8f8a6",
+      "attributes": {
+        "description": "Μετατρέψτε οποιοδήποτε εγχειρίδιο σε μια διαδραστική συνεδρία μελέτης. Το Brainfold χρησιμοποιεί την Τεχνητή Νοημοσύνη για να μετατρέψει την ύλη του μαθήματός σας σε όλα όσα χρειάζεστε για να περάσετε με επιτυχία τις εξετάσεις σας.\n\nΣΑΡΩΣΗ & ΔΗΜΙΟΥΡΓΙΑ\nΤραβήξτε μια φωτογραφία οποιασδήποτε σελίδας, ανεβάστε ένα PDF ή επικολλήστε κείμενο. Το Brainfold δημιουργεί άμεσα ένα πλήρες πακέτο μελέτης με κάρτες διδασκαλίας, κουίζ και πλούσιες περιλήψεις — όλα προσαρμοσμένα στην ύλη σας.\n\nΔΙΔΑΣΚΩΝ ΤΕΧΝΗΣ ΤΕΧΝΗΣ\nΚολληθήκατε σε μια ιδέα; Ρωτήστε τον προσωπικό σας καθηγητή ΤΕΧΝΗΣ. Γνωρίζει την ύλη μελέτης σας από την αρχή μέχρι το τέλος και εξηγεί τα πράγματα βήμα προς βήμα. Δώστε εξετάσεις με προβλήματα εξάσκησης για να ελέγξετε την κατανόησή σας.\n\nΕΞΥΠΝΕΣ ΚΑΡΤΕΣ ΜΕΤΑΔΟΣΗΣ & ΚΟΥΙΖ\nΜελετήστε με αυτόματα δημιουργημένες κάρτες διδασκαλίας ή δοκιμάστε τον εαυτό σας με κουίζ πολλαπλών επιλογών. Όταν κάνετε κάτι λάθος, πηγαίνετε κατευθείαν στον καθηγητή για μια εξήγηση.\n\nΑΝΤΙΜΕΤΩΠΙΣΤΕ ΤΟΥΣ ΦΙΛΟΥΣ ΣΑΣ\nΠροκαλέστε συμμαθητές σε μάχες κουίζ σε πραγματικό χρόνο. Ανταγωνιστείτε πρόσωπο με πρόσωπο στην ίδια ύλη μελέτης και δείτε ποιος θα ανέβει στο βάθρο.\n\nΠΛΟΥΣΙΕΣ ΠΕΡΙΛΗΨΕΙΣ\nΛάβετε οργανωμένες, δομημένες περιλήψεις με βασικές έννοιες, τύπους και επεξηγήσεις — ιδανικές για γρήγορη ανασκόπηση πριν από μια εξέταση.\n\nΔΙΑΘΕΣΙΜΟ ΠΑΝΤΟΥ\nΛειτουργεί σε iPhone, iPad και Mac. Τα πακέτα μελέτης σας συγχρονίζονται σε όλες τις συσκευές σας.\n\nΤο Brainfold υποστηρίζει 50+ γλώσσες, ώστε να μπορείτε να μελετάτε στη μητρική σας γλώσσα.\n\nΠολιτική Απορρήτου: https://magiclabsolutions.com/privacy-policy/\nΌροι Χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "el",
+        "keywords": "κάρτες,μελέτη,περίληψη,διαγώνισμα,κουίζ,σημειώσεις,εξετάσεις,πανελλήνιες,ai",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/ebe5c569-4d35-469d-afbf-a8d737d8f8a6"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "adf555da-2106-4b3c-ac53-cce3c604b536",
+      "attributes": {
+        "description": "Transforme qualquer livro didático em uma sessão de estudos interativa. O Brainfold usa IA para transformar seu material de estudo em tudo o que você precisa para arrasar nas provas.\n\nDIGITALIZAR E CRIAR\nTire uma foto de qualquer página, carregue um PDF ou cole um texto. O Brainfold gera instantaneamente um pacote de estudos completo com flashcards, quizzes e resumos detalhados — tudo personalizado para o seu material.\n\nTUTOR DE IA\nEstá com dificuldades em algum conceito? Pergunte ao seu tutor pessoal de IA. Ele conhece seu material de estudo como a palma da mão e explica tudo passo a passo. Desafie-se com exercícios práticos para testar sua compreensão.\n\nFLASHCARDS E QUIZZES INTELIGENTES\nEstude com flashcards gerados automaticamente ou teste seus conhecimentos com quizzes de múltipla escolha. Se errar alguma coisa, consulte o tutor para obter uma explicação.\n\nBATALHE COM SEUS AMIGOS\nDesafie seus colegas para batalhas de quizzes em tempo real. Compita frente a frente com o mesmo material de estudo e veja quem chega ao pódio.\n\nRESUMOS COMPLETOS\nObtenha resumos organizados e estruturados com conceitos-chave, fórmulas e destaques — perfeitos para uma revisão rápida antes de uma prova.\n\nDISPONÍVEL EM TODOS OS LUGARES\nFunciona no iPhone, iPad e Mac. Seus pacotes de estudo são sincronizados em todos os seus dispositivos.\n\nO Brainfold é compatível com mais de 50 idiomas para que você possa estudar em seu idioma nativo.\n\nPolítica de Privacidade: https://magiclabsolutions.com/privacy-policy/\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "pt-PT",
+        "keywords": "flashcards,estudar,resumo,exame,prova,quiz,revisão,tutor,ia,apontamentos,universidade,testes",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/adf555da-2106-4b3c-ac53-cce3c604b536"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b",
+      "attributes": {
+        "description": "Gjør enhver lærebok om til en interaktiv studieøkt. Brainfold bruker AI til å forvandle kursmateriellet ditt til alt du trenger for å bestå eksamenene dine.\n\nSKANN OG LAG\nTa et bilde av en hvilken som helst side, last opp en PDF eller lim inn tekst. Brainfold genererer umiddelbart en komplett studiepakke med flashcards, spørrekonkurranser og fyldige sammendrag – alt skreddersydd for materialet ditt.\n\nAI-VEILEDER\nSitter du fast på et konsept? Spør din personlige AI-veileder. Den kjenner studiemateriellet ditt ut og inn og forklarer ting trinn for trinn. Bli utfordret med øvingsproblemer for å teste forståelsen din.\n\nSMARTE FLASHCARDS OG QUIZZER\nStuder med automatisk genererte flashcards eller test deg selv med flervalgsspørrekonkurranser. Når du gjør noe feil, gå rett til veilederen for en forklaring.\n\nKJEMPE MOT VENNENE DINE\nUtfordre klassekameratene til quizkamper i sanntid. Konkurrer head-to-head om det samme studiemateriellet og se hvem som lander på pallen.\n\nRIKE SAMMENDRAG\nFå organiserte, strukturerte sammendrag med nøkkelbegreper, formler og informasjon – perfekt for rask gjennomgang før en eksamen.\n\nTILGJENGELIG OVERALT\nFungerer på iPhone, iPad og Mac. Studiepakkene dine synkroniseres på tvers av alle enhetene dine.\n\nBrainfold støtter over 50 språk, slik at du kan studere på morsmålet ditt.\n\nPersonvernerklæring: https://magiclabsolutions.com/privacy-policy/\nBruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "no",
+        "keywords": "studiekort,flashcards,sammendrag,eksamen,quiz,notater,repetisjon,lekser,ai,videregående",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/9a8e8815-7f2d-47b7-99e3-7fe3c7a3d09b"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "7bca27d2-6887-40de-84a9-b7059e21918e",
+      "attributes": {
+        "description": "Premeňte akúkoľvek učebnicu na interaktívnu študijnú reláciu. Brainfold využíva umelú inteligenciu na transformáciu vašich študijných materiálov na všetko, čo potrebujete na úspešné zvládnutie skúšok.\n\nSKENOVAŤ A TVORIŤ\nOdfoťte ľubovoľnú stránku, nahrajte PDF alebo vložte text. Brainfold okamžite vygeneruje kompletný študijný balíček s kartičkami, kvízmi a bohatými súhrnami – všetko prispôsobené vášmu učivu.\n\nDOUČOVATEĽ S AI\nZasekli ste sa na nejakom koncepte? Spýtajte sa svojho osobného doučovateľa s AI. Pozná váš študijný materiál do hĺbky a vysvetľuje ho krok za krokom. Nechajte sa vyzvať praktickými úlohami, aby ste si overili svoje porozumenie.\n\nINTELIGENTNÉ KARTIČKY A KVÍZY\nUčte sa s automaticky generovanými kartičkami alebo sa otestujte v kvízoch s výberom odpovede. Keď sa niečo pomýlite, okamžite sa obráťte na doučovateľa pre vysvetlenie.\n\nZÁPASŤ S PRIATEĽMI\nVyzvite spolužiakov na kvízové súboje v reálnom čase. Súťažte jeden proti druhému v rovnakom študijnom materiáli a uvidíte, kto sa dostane na stupne víťazov.\n\nBOHATÉ ZHRNUTIA\nZískajte organizované a štruktúrované zhrnutia s kľúčovými konceptmi, vzorcami a popismi – ideálne na rýchle prečítanie pred skúškou.\n\nDOSTUPNÉ VŠADE\nFunguje na iPhone, iPade a Macu. Vaše študijné balíčky sa synchronizujú na všetkých vašich zariadeniach.\n\nBrainfold podporuje viac ako 50 jazykov, takže sa môžete učiť vo svojom rodnom jazyku.\n\nZásady ochrany súkromia: https://magiclabsolutions.com/privacy-policy/\nPodmienky používania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "sk",
+        "keywords": "kartičky,učenie,štúdium,súhrn,skúška,kvíz,poznámky,opakovanie,maturita,doučovanie,ai",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/7bca27d2-6887-40de-84a9-b7059e21918e"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "bb652799-8204-49d0-bd16-4666327633f7",
+      "attributes": {
+        "description": "किसी भी पाठ्यपुस्तक को एक इंटरैक्टिव अध्ययन सत्र में बदलें। ब्रेनफोल्ड एआई का उपयोग करके आपकी पाठ्यक्रम सामग्री को उन सभी चीज़ों में बदल देता है जिनकी आपको परीक्षा में उत्कृष्ट प्रदर्शन करने के लिए आवश्यकता होती है।\n\nस्कैन करें और बनाएं\nकिसी भी पृष्ठ की तस्वीर लें, पीडीएफ अपलोड करें या टेक्स्ट पेस्ट करें। ब्रेनफोल्ड तुरंत फ्लैशकार्ड, क्विज़ और विस्तृत सारांश के साथ एक संपूर्ण अध्ययन पैक तैयार करता है - यह सब आपकी सामग्री के अनुसार अनुकूलित होता है।\n\nएआई ट्यूटर\nकिसी अवधारणा में अटक गए हैं? अपने व्यक्तिगत एआई ट्यूटर से पूछें। यह आपकी अध्ययन सामग्री को भली-भांति जानता है और चीजों को चरण-दर-चरण समझाता है। अभ्यास प्रश्नों के साथ अपनी समझ का परीक्षण करें।\n\nस्मार्ट फ्लैशकार्ड और क्विज़\nस्वचालित रूप से तैयार किए गए फ्लैशकार्ड के साथ अध्ययन करें या बहुविकल्पीय क्विज़ के साथ स्वयं का परीक्षण करें। जब आप कुछ गलत करते हैं, तो स्पष्टीकरण के लिए सीधे ट्यूटर से संपर्क करें।\n\nअपने दोस्तों से मुकाबला करें\nसहपाठियों को वास्तविक समय में क्विज़ मुकाबलों के लिए चुनौती दें। समान अध्ययन सामग्री पर आमने-सामने प्रतिस्पर्धा करें और देखें कि कौन विजेता बनता है।\n\n\nविस्तृत सारांश\nप्रमुख अवधारणाओं, सूत्रों और संदर्भ बिंदुओं से युक्त व्यवस्थित और संरचित सारांश प्राप्त करें — परीक्षा से पहले त्वरित पुनरावलोकन के लिए बिल्कुल उपयुक्त।\n\nहर जगह उपलब्ध\niPhone, iPad और Mac पर काम करता है। आपके अध्ययन पैकेज आपके सभी उपकरणों पर सिंक हो जाते हैं।\n\nBrainfold 50 से अधिक भाषाओं का समर्थन करता है, ताकि आप अपनी मातृभाषा में अध्ययन कर सकें।\n\nगोपनीयता नीति: https://magiclabsolutions.com/privacy-policy/\nउपयोग की शर्तें (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "hi",
+        "keywords": "फ्लैशकार्ड,पढ़ाई,सारांश,परीक्षा,क्विज़,नोट्स,रिवीजन,बोर्ड,jee,neet,ai,ट्यूटर",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/bb652799-8204-49d0-bd16-4666327633f7"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "42957047-5b5b-4c86-920c-481f60583a5f",
+      "attributes": {
+        "description": "Proměňte jakoukoli učebnici v interaktivní studijní lekci. Brainfold využívá umělou inteligenci k transformaci vašich studijních materiálů na vše, co potřebujete k úspěšnému složení zkoušek.\n\nSKENOVAT A TVOŘIT\nVyfoťte libovolnou stránku, nahrajte PDF nebo vložte text. Brainfold okamžitě vygeneruje kompletní studijní balíček s kartičkami, kvízy a bohatými shrnutími – vše přizpůsobené vašemu materiálu.\n\nDOUKOVATEL S AI\nZasekli jste se na nějakém konceptu? Zeptejte se svého osobního doučovatele s AI. Zná vaši studijní látku skrz naskrz a vysvětluje ji krok za krokem. Nechte se zasáhnout cvičnými úlohami, abyste si otestovali své znalosti.\n\nCHYTRÉ KARTIČKY A KVÍZY\nStuďte se s automaticky generovanými kartičkami nebo se otestujte v kvízech s výběrem odpovědí. Když se v něčem spletete, skočte rovnou k doučovateli pro vysvětlení.\n\nZÁPASTE S PŘÁTELI\nVyzvěte spolužáky v kvízových bitvách v reálném čase. Soutěžte jeden proti druhému ve stejné studijní látce a zjistěte, kdo se dostane na stupně vítězů.\n\nBOHATÉ SOUHRNY\nZískejte organizované a strukturované souhrny s klíčovými pojmy, vzorci a popisky – ideální pro rychlé zopakování před zkouškou.\n\nDOSTUPNÉ VŠUDE\nFunguje na iPhonu, iPadu a Macu. Vaše studijní balíčky se synchronizují na všech vašich zařízeních.\n\nBrainfold podporuje více než 50 jazyků, takže se můžete učit ve svém rodném jazyce.\n\nZásady ochrany soukromí: https://magiclabsolutions.com/privacy-policy/\nPodmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "cs",
+        "keywords": "kartičky,učení,studium,souhrn,zkouška,kvíz,poznámky,opakování,maturita,doučování,ai,test",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/42957047-5b5b-4c86-920c-481f60583a5f"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "77a20b84-f0f6-47d1-b319-4a2f27d62287",
+      "attributes": {
+        "description": "حوّل أي كتاب دراسي إلى جلسة دراسية تفاعلية. يستخدم Brainfold الذكاء الاصطناعي لتحويل موادك الدراسية إلى كل ما تحتاجه لاجتياز امتحاناتك بنجاح.\n\nامسح وأنشئ\nصوّر أي صفحة، أو حمّل ملف PDF، أو الصق نصًا. يُنشئ Brainfold فورًا حزمة دراسية كاملة تتضمن بطاقات تعليمية، واختبارات قصيرة، وملخصات شاملة - جميعها مُصممة خصيصًا لموادك الدراسية.\n\nمُعلّم الذكاء الاصطناعي\nهل تواجه صعوبة في فهم مفهوم ما؟ اسأل مُعلّمك الشخصي المدعوم بالذكاء الاصطناعي. فهو مُلِمّ بموادك الدراسية تمامًا ويشرح لك الأمور خطوة بخطوة. تحدَّ نفسك بمسائل تدريبية لاختبار فهمك.\n\nبطاقات تعليمية واختبارات ذكية\nادرس باستخدام بطاقات تعليمية مُنشأة تلقائيًا أو اختبر نفسك باختبارات اختيار من متعدد. عندما تُخطئ، انتقل مباشرةً إلى المُعلّم للحصول على شرح.\n\nتحدَّ أصدقاءك\nتحدَّ زملاءك في اختبارات فورية. تنافسوا وجهًا لوجه على نفس المواد الدراسية وشاهدوا من سيفوز.\n\nملخصات شاملة\nاحصل على ملخصات منظمة ومرتبة تتضمن المفاهيم الأساسية والصيغ والنقاط المهمة - مثالية للمراجعة السريعة قبل الامتحان.\n\nمتوفر في كل مكان\nيعمل على أجهزة iPhone و iPad و Mac. تتم مزامنة ملفات دراستك عبر جميع أجهزتك.\n\nيدعم Brainfold أكثر من 50 لغة، مما يتيح لك الدراسة بلغتك الأم.\n\nسياسة الخصوصية: https://magiclabsolutions.com/privacy-policy/\nشروط الاستخدام (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ar-SA",
+        "keywords": "مذاكرة,بطاقات,ملخص,اختبار,دراسة,امتحان,مدرس,مسح,ملاحظات,ثانوية,جامعة,قدرات,تحصيلي",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/77a20b84-f0f6-47d1-b319-4a2f27d62287"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "69465c6b-0d28-4d2c-ab34-4411ad15b50a",
+      "attributes": {
+        "description": "Förvandla vilken lärobok som helst till en interaktiv studiesession. Brainfold använder AI för att omvandla ditt kursmaterial till allt du behöver för att klara dina prov.\n\nSKANNA & SKAPA\nTa ett foto av valfri sida, ladda upp en PDF eller klistra in text. Brainfold genererar direkt ett komplett studiepaket med flashcards, frågesporter och utförliga sammanfattningar – allt skräddarsytt för ditt material.\n\nAI-HANDLEDARE\nHar du fastnat på ett koncept? Fråga din personliga AI-handledare. Den kan ditt studiematerial utan och innan och förklarar saker steg för steg. Utmanas med övningsproblem för att testa din förståelse.\n\nSMARTA FLASHCARDS & QUIZZES\nStudera med automatiskt genererade flashcards eller testa dig själv med flervalsfrågor. När du gör något fel, gå direkt till handledaren för en förklaring.\n\nKAMPA MOT DINA VÄNNER\nUtmana klasskamrater i realtidsquiz. Tävla head-to-head om samma studiematerial och se vem som landar på prispallen.\n\nRIKTIGA SAMMANFATTNINGAR\nFå organiserade, strukturerade sammanfattningar med viktiga begrepp, formler och information – perfekt för snabb genomgång inför en tentamen.\n\nTILLGÄNGLIG ÖVERALLT\nFungerar på iPhone, iPad och Mac. Dina studiepaket synkroniseras mellan alla dina enheter.\n\nBrainfold stöder fler än 50 språk så att du kan studera på ditt modersmål.\n\nIntegritetspolicy: https://magiclabsolutions.com/privacy-policy/\nAnvändarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "sv",
+        "keywords": "flashcards,plugga,sammanfattning,tenta,quiz,anteckningar,repetition,läxhjälp,ai,studera,prov",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/69465c6b-0d28-4d2c-ab34-4411ad15b50a"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "064c89c9-bd11-44f5-9b2f-a842dccf1334",
+      "attributes": {
+        "description": "Trasforma qualsiasi libro di testo in una sessione di studio interattiva. Brainfold utilizza l'intelligenza artificiale per trasformare il materiale del tuo corso in tutto ciò di cui hai bisogno per superare brillantemente gli esami.\n\nSCANSIONA E CREA\nScatta una foto di qualsiasi pagina, carica un PDF o incolla un testo. Brainfold genera istantaneamente un pacchetto di studio completo con flashcard, quiz e riassunti dettagliati, il tutto su misura per il tuo materiale.\n\nTUTOR IA\nNon riesci a capire un concetto? Chiedi al tuo tutor IA personale. Conosce il tuo materiale di studio alla perfezione e ti spiega tutto passo dopo passo. Mettiti alla prova con esercizi pratici per testare la tua comprensione.\n\nFLASHCARD E QUIZ INTELLIGENTI\nStudia con flashcard generate automaticamente o mettiti alla prova con quiz a risposta multipla. Se sbagli qualcosa, vai direttamente al tutor per una spiegazione.\n\nSFIDA CON I TUOI AMICI\nSfida i tuoi compagni di classe in battaglie di quiz in tempo reale. Gareggia testa a testa sullo stesso materiale di studio e scopri chi sale sul podio.\n\nRIASSUNTI RICCHI\nOttieni riassunti organizzati e strutturati con concetti chiave, formule e didascalie: perfetti per un rapido ripasso prima di un esame.\n\nDISPONIBILE OVUNQUE\nFunziona su iPhone, iPad e Mac. I tuoi pacchetti di studio si sincronizzano su tutti i tuoi dispositivi.\n\nBrainfold supporta oltre 50 lingue, così puoi studiare nella tua lingua madre.\n\nInformativa sulla privacy: https://magiclabsolutions.com/privacy-policy/\nTermini di utilizzo (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "it",
+        "keywords": "flashcard,studiare,riassunto,esame,quiz,appunti,ripasso,maturità,università,ripetizioni,ia",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/064c89c9-bd11-44f5-9b2f-a842dccf1334"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "2e2c690f-d1fc-4c1d-9cec-8f427caa1f26",
+      "attributes": {
+        "description": "Transformez n'importe quel manuel en une session d'étude interactive. Brainfold utilise l'IA pour transformer vos supports de cours en tout ce dont vous avez besoin pour réussir vos examens.\n\nNUMÉRISER ET CRÉER\nPrenez une photo d'une page, importez un PDF ou collez du texte. Brainfold génère instantanément un pack d'étude complet avec des fiches de révision, des quiz et des résumés détaillés, le tout adapté à vos supports.\n\nTUTEUR IA\nVous bloquez sur une notion ? Demandez à votre tuteur IA personnel. Il connaît vos supports de cours sur le bout des doigts et vous explique les notions étape par étape. Relevez le défi avec des exercices pour tester votre compréhension.\n\nFICHES DE RÉVISION ET QUIZ INTELLIGENTS\nÉtudiez avec des fiches de révision générées automatiquement ou testez vos connaissances avec des quiz à choix multiples. En cas d'erreur, accédez directement à l'explication du tuteur.\n\nAFFRONTER VOS AMIS\nDéfiez vos camarades de classe lors de quiz en temps réel. Affrontez-vous en duel sur les mêmes supports de cours et découvrez qui sera le meilleur.\n\nRÉSUMÉS COMPLETS\n\nBénéficiez de résumés organisés et structurés, mettant en évidence les concepts clés, les formules et les points importants : idéal pour une révision rapide avant un examen.\n\nDISPONIBLE PARTOUT\n\nCompatible avec iPhone, iPad et Mac. Vos fiches d’étude se synchronisent sur tous vos appareils.\n\nBrainfold prend en charge plus de 50 langues pour vous permettre d’étudier dans votre langue maternelle.\n\nPolitique de confidentialité: https://magiclabsolutions.com/privacy-policy/\nConditions d'utilisation (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "fr-FR",
+        "keywords": "fiches de révision,flashcards,résumé,examen,quiz,bac,brevet,partiels,réviser,tuteur,ia,cours",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/2e2c690f-d1fc-4c1d-9cec-8f427caa1f26"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1",
+      "attributes": {
+        "description": "ଯେ କୌଣସି ପାଠ୍ୟପୁସ୍ତକକୁ ଇଣ୍ଟରାକ୍ଟିଭ୍ ଅଧ୍ୟୟନରେ ପରିଣତ କରନ୍ତୁ। Brainfold AI ସାହାଯ୍ୟରେ ଆପଣଙ୍କ ପାଠ୍ୟକ୍ରମକୁ ପରୀକ୍ଷାରେ ଭଲ କରିବା ପାଇଁ ଦରକାରୀ ସବୁକିଛିରେ ବଦଳାଇ ଦିଏ।\n\nସ୍କ୍ୟାନ କରନ୍ତୁ ଓ ତିଆରି କରନ୍ତୁ\nଯେ କୌଣସି ପୃଷ୍ଠାର ଫଟୋ ନିଅନ୍ତୁ, PDF ଅପଲୋଡ କରନ୍ତୁ କିମ୍ବା ଲେଖା ପେଷ୍ଟ କରନ୍ତୁ। Brainfold ତୁରନ୍ତ ଫ୍ଲାସକାର୍ଡ, କୁଇଜ୍ ଓ ବିସ୍ତୃତ ସାରାଂଶ ସହ ଏକ ସମ୍ପୂର୍ଣ୍ଣ ଷ୍ଟଡି ପ୍ୟାକ୍ ତିଆରି କରେ।\n\nAI ଟ୍ୟୁଟର\nକୌଣସି ଧାରଣାରେ ଅଟକି ଯାଇଛନ୍ତି? ଆପଣଙ୍କ AI ଟ୍ୟୁଟରଙ୍କୁ ପଚାରନ୍ତୁ। ସେ ଆପଣଙ୍କ ଅଧ୍ୟୟନ ସାମଗ୍ରୀ ଭଲ ଭାବେ ଜାଣନ୍ତି ଓ ପାହାଚ ପାହାଚ କରି ବୁଝାନ୍ତି।\n\nସ୍ମାର୍ଟ ଫ୍ଲାସକାର୍ଡ ଓ କୁଇଜ୍\nସ୍ୱୟଂଚାଳିତ ଭାବେ ତିଆରି ଫ୍ଲାସକାର୍ଡରେ ପଢନ୍ତୁ କିମ୍ବା ବହୁବିକଳ୍ପ କୁଇଜ୍‌ରେ ନିଜକୁ ପରଖନ୍ତୁ। ଭୁଲ ହେଲେ ସିଧା ଟ୍ୟୁଟରଙ୍କ ପାଖକୁ ଯାଇ ବ୍ୟାଖ୍ୟା ପାଆନ୍ତୁ।\n\nସାଙ୍ଗମାନଙ୍କ ସହ ମୁକାବିଲା\nସହପାଠୀମାନଙ୍କୁ ରିଅଲ-ଟାଇମ୍ କୁଇଜ୍ ବ୍ୟାଟଲ୍‌ରେ ଚ୍ୟାଲେଞ୍ଜ କରନ୍ତୁ ଓ ଦେଖନ୍ତୁ କିଏ ପୋଡିୟମ୍‌ରେ ପହଞ୍ଚେ।\n\nସବୁ ଡିଭାଇସରେ\niPhone, iPad ଓ Mac ରେ ଚାଲେ। ଆପଣଙ୍କ ଷ୍ଟଡି ପ୍ୟାକ୍ ସବୁ ଡିଭାଇସରେ ସିଙ୍କ ହୁଏ।\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "or-IN",
+        "keywords": "ଫ୍ଲାସକାର୍ଡ,ଅଧ୍ୟୟନ,କୁଇଜ୍,ପରୀକ୍ଷା,ସ୍କ୍ୟାନ,ଟ୍ୟୁଟର,AI,flashcards,study,quiz",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/f46ce997-1dd3-4bb5-8fce-b7b36d07f6f1"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "c3e21ca9-6055-47ce-b4c7-f70cf7067122",
+      "attributes": {
+        "description": "Spremeni katerikoli učbenik v interaktivno učenje. Brainfold z umetno inteligenco iz tvoje učne snovi naredi vse, kar potrebuješ za odlične izpite.\n\nSKENIRAJ IN USTVARI\nFotografiraj katerokoli stran, naloži PDF ali prilepi besedilo. Brainfold v trenutku ustvari celoten učni paket z učnimi karticami, kvizi in bogatimi povzetki.\n\nAI-INŠTRUKTOR\nSe ti je zataknilo? Vprašaj svojega AI-inštruktorja. Tvojo snov pozna do potankosti in razloži korak za korakom.\n\nPAMETNE KARTICE IN KVIZI\nUči se s samodejno ustvarjenimi karticami ali se preizkusi s kvizi z več možnimi odgovori. Ko se zmotiš, skoči naravnost k inštruktorju po razlago.\n\nIZZOVI PRIJATELJE\nSošolce povabi v kvizne dvoboje v realnem času in poglej, kdo pristane na zmagovalnem odru.\n\nPOVSOD S TABO\nDeluje na iPhonu, iPadu in Macu. Tvoji učni paketi se sinhronizirajo med vsemi napravami.\n\nPrivacy Policy: https://magiclabsolutions.com/privacy-policy/\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "sl-SI",
+        "keywords": "učne kartice,učenje,kviz,izpit,skeniranje,zapiski,inštruktor,povzetek,AI,flashcards,ponavljanje",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/c3e21ca9-6055-47ce-b4c7-f70cf7067122"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "71910006-4170-498d-93b0-f8e02fbb3c07",
+      "attributes": {
+        "description": "将任何教科书变成互动式学习课程。Brainfold 利用人工智能技术，将您的课程资料转化为您考试所需的一切。\n\n扫描并创建\n\n拍摄任何页面的照片、上传 PDF 文件或粘贴文本。Brainfold 会立即生成完整的学习包，其中包含记忆卡片、测验和丰富的总结——所有内容均根据您的学习资料量身定制。\n\nAI 导师\n\n遇到概念卡住了？咨询您的专属 AI 导师。它对您的学习资料了如指掌，并会一步一步地为您讲解。通过练习题挑战自我，检验您的理解程度。\n\n智能记忆卡片和测验\n\n使用自动生成的记忆卡片进行学习，或通过多项选择题测验测试自己。如果答错了，可以直接联系导师寻求解答。\n\n与好友一决高下\n\n向同学发起实时测验挑战。在相同的学习资料上展开正面较量，看看谁能最终胜出。\n\n内容丰富的概要\n\n获取条理清晰、结构化的概要，包含关键概念、公式和重点标注——考前快速复习的理想之选。\n\n随时随地可用\n\n适用于 iPhone、iPad 和 Mac。您的学习包可在所有设备间同步。\n\nBrainfold 支持 50 多种语言，让您可以用母语学习。\n\n隐私政策: https://magiclabsolutions.com/privacy-policy/\n使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "zh-Hans",
+        "keywords": "记忆卡,学习,总结,考试,测验,笔记,复习,高考,考研,辅导,ai,闪卡,背单词,刷题",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/71910006-4170-498d-93b0-f8e02fbb3c07"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "d486c36b-c1e8-42c7-8180-7c0413968ff3",
+      "attributes": {
+        "description": "Tee mistä tahansa oppikirjasta interaktiivinen opiskeluhetki. Braifold käyttää tekoälyä muuntaakseen kurssimateriaalisi kaikeksi, mitä tarvitset kokeissasi menestymiseen.\n\nSKANNAA JA LUO\nOta kuva mistä tahansa sivusta, lataa PDF-tiedosto tai liitä tekstiä. Braifold luo välittömästi täydellisen opiskelupaketin, joka sisältää muistikortteja, tietokilpailuja ja monipuolisia yhteenvetoja – kaikki räätälöitynä materiaaliisi.\n\nTEKOÄLYOHJAINEN TUTOR\nJummuitko käsitteeseen? Kysy henkilökohtaiselta tekoälyohjaajaltasi. Se tuntee opiskelumateriaalisi läpikotaisin ja selittää asiat askel askeleelta. Testaa ymmärrystäsi harjoitustehtävillä.\n\nÄLYKKÄÄT MUISTOKORTIT JA TESTIT\nOpiskele automaattisesti luoduilla muistikorteilla tai testaa itseäsi monivalintatehtävillä. Kun saat jotain väärin, siirry suoraan ohjaajan luo saadaksesi selityksen.\n\nTAISTELE YSTÄVIÄSI VASTAAN\nHaasta luokkatoverisi reaaliaikaisiin tietokilpailuihin. Kilpaile vastakkain samasta opiskelumateriaalista ja katso, kuka nousee palkintokorokkeelle.\n\nRINKALLISET YHTEENVEDOT\nHanki järjestelmällisiä ja jäsenneltyjä yhteenvetoja, joissa on keskeiset käsitteet, kaavat ja selitteet – täydellinen nopeaan kertaamiseen ennen tenttiä.\n\nSAATAVILLA KAIKKIALLA\nToimii iPhonella, iPadilla ja Macilla. Opiskelupakettisi synkronoituvat kaikkien laitteidesi välillä.\n\nBrainfold tukee yli 50 kieltä, joten voit opiskella äidinkielelläsi.\n\nTietosuojakäytäntö: https://magiclabsolutions.com/privacy-policy/\nKäyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "fi",
+        "keywords": "muistikortit,opiskelu,tiivistelmä,koe,visa,muistiinpanot,kertaus,ylioppilaskoe,ai,tentti",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/d486c36b-c1e8-42c7-8180-7c0413968ff3"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "01c9ee4e-251c-4108-bca9-d33392df1b1e",
+      "attributes": {
+        "description": "Ubah buku teks apa pun menjadi sesi belajar interaktif. Brainfold menggunakan AI untuk mengubah materi kuliah Anda menjadi semua yang Anda butuhkan untuk meraih nilai tinggi dalam ujian.\n\nPINDAI & BUAT\nAmbil foto halaman apa pun, unggah PDF, atau tempel teks. Brainfold langsung menghasilkan paket belajar lengkap dengan kartu flash, kuis, dan ringkasan yang kaya — semuanya disesuaikan dengan materi Anda.\n\nTUTOR AI\nTerjebak pada suatu konsep? Tanyakan kepada tutor AI pribadi Anda. Ia mengetahui materi belajar Anda secara menyeluruh dan menjelaskan semuanya langkah demi langkah. Dapatkan tantangan dengan soal latihan untuk menguji pemahaman Anda.\n\nKARTU FLASH & KUIS CERDAS\nBelajar dengan kartu flash yang dihasilkan secara otomatis atau uji diri Anda dengan kuis pilihan ganda. Jika Anda salah, langsung hubungi tutor untuk mendapatkan penjelasan.\n\nBERTARUNG DENGAN TEMAN ANDA\nTantang teman sekelas Anda untuk bertarung dalam kuis secara real-time. Bersaing langsung dengan materi belajar yang sama dan lihat siapa yang naik podium.\n\nRINGKASAN LENGKAP\nDapatkan ringkasan yang terorganisir dan terstruktur dengan konsep kunci, rumus, dan catatan penting — sempurna untuk tinjauan cepat sebelum ujian.\n\nTERSEDIA DI MANA SAJA\nBerfungsi di iPhone, iPad, dan Mac. Paket belajar Anda disinkronkan di semua perangkat Anda.\n\nBrainfold mendukung lebih dari 50 bahasa sehingga Anda dapat belajar dalam bahasa ibu Anda.\n\nKebijakan Privasi: https://magiclabsolutions.com/privacy-policy/\nKetentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "id",
+        "keywords": "flashcard,belajar,ringkasan,ujian,kuis,catatan,hafalan,utbk,sbmptn,tutor,ai,sekolah,kampus",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/01c9ee4e-251c-4108-bca9-d33392df1b1e"
+      }
+    },
+    {
+      "type": "appStoreVersionLocalizations",
+      "id": "560be53a-ed92-4ee0-90d6-16e6a9db87ef",
+      "attributes": {
+        "description": "Transformă orice manual într-o sesiune de studiu interactivă. Brainfold folosește inteligența artificială pentru a transforma materialul cursului în tot ce ai nevoie pentru a trece examenele cu brio.\n\n\nSCANARE ȘI CREARE\n\nFă o fotografie a oricărei pagini, încarcă un PDF sau lipește text. Brainfold generează instantaneu un pachet complet de studiu cu fișe, teste și rezumate bogate - toate adaptate la materialul tău.\n\n\nTUTOR CU AI\n\nBlocat la un concept? Întreabă-ți tutorele personal cu inteligență artificială. Acesta îți cunoaște materialul de studiu pe de rost și explică lucrurile pas cu pas. Fă-ți provocări cu probleme de practică pentru a-ți testa înțelegerea.\n\n\nFIȘE ȘI TESTUARE INTELIGENTE\n\nStudiază cu fișe generate automat sau testează-te cu teste cu variante multiple de răspuns. Când greșești ceva, apelează direct la tutore pentru o explicație.\n\n\nLUPTĂ-ȚI PRIETENII\n\nProvoacă-ți colegii de clasă la bătălii cu teste în timp real. Concurează față în față pe același material de studiu și vezi cine ajunge pe podium.\n\nREZUMATE BOGATE\nObțineți rezumate organizate și structurate cu concepte cheie, formule și explicații — perfecte pentru o recapitulare rapidă înainte de un examen.\n\nDISPONIBIL PESTE TOT\nFuncționează pe iPhone, iPad și Mac. Pachetele dvs. de studiu se sincronizează pe toate dispozitivele dvs.\n\nBrainfold acceptă peste 50 de limbi, astfel încât să puteți studia în limba dvs. maternă.\n\nPolitica de confidențialitate: https://magiclabsolutions.com/privacy-policy/\nTermeni de utilizare (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "locale": "ro",
+        "keywords": "flashcarduri,învățare,rezumat,examen,quiz,notițe,recapitulare,bac,admitere,meditații,ai",
+        "marketingUrl": null,
+        "promotionalText": null,
+        "supportUrl": "https://magiclabsolutions.com/brainfold/support",
+        "whatsNew": null
+      },
+      "relationships": {
+        "appScreenshotSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/relationships/appScreenshotSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/appScreenshotSets"
+          }
+        },
+        "appPreviewSets": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/relationships/appPreviewSets",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/appPreviewSets"
+          }
+        },
+        "searchKeywords": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/relationships/searchKeywords",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/searchKeywords"
+          }
+        },
+        "placements": {
+          "links": {
+            "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/relationships/placements",
+            "related": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef/placements"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations/560be53a-ed92-4ee0-90d6-16e6a9db87ef"
+      }
+    }
+  ]
+}

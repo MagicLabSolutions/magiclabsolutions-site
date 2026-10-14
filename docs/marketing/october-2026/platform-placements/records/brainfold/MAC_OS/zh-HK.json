@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,21 +51,31 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/zh-HK/search-results.png",
-    "sha256": "a52fceff23696ec2cc56f787d929edc0e805093538aadcfa18e44081aeed5a55",
+    "sha256": "2b6c4cd1f4c13f0820d836660cb274e3acbc6c07716529d2dac9d8a27c6b89b2",
     "headline": "將筆記轉化為學習練習",
     "metrics": {
+      "device": {
+        "x": 564.203125,
+        "y": 706.203125,
+        "width": 2711.5625,
+        "height": 1807.703125,
+        "top": 706.203125,
+        "right": 3275.765625,
+        "bottom": 2513.90625,
+        "left": 564.203125
+      },
       "copy": {
         "x": 249.59375,
-        "y": 384,
-        "width": 1881.59375,
-        "height": 1080.734375,
-        "top": 384,
-        "right": 2131.1875,
-        "bottom": 1464.734375,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 559.015625,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 648.609375,
         "left": 249.59375
       },
       "fonts": {
-        "headline": 35.1
+        "headline": 26.52
       },
       "dimensions": [
         3840,

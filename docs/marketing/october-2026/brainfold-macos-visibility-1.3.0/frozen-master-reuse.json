@@ -1,0 +1,1745 @@
+{
+  "reason": "Retain exact uploaded bytes when independent rendering differs only by a maximum one-level RGB rounding in at most 1536 channels out of 15552000. Actual copy-fitting corrections retain their new masters.",
+  "reused": [
+    {
+      "locale": "bg",
+      "number": 1,
+      "differingChannels": 10,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bg",
+      "number": 2,
+      "differingChannels": 207,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bg",
+      "number": 3,
+      "differingChannels": 60,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bg",
+      "number": 5,
+      "differingChannels": 46,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bg",
+      "number": 7,
+      "differingChannels": 53,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bn",
+      "number": 1,
+      "differingChannels": 3,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bn",
+      "number": 2,
+      "differingChannels": 72,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bn",
+      "number": 3,
+      "differingChannels": 30,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bn",
+      "number": 4,
+      "differingChannels": 18,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bn",
+      "number": 5,
+      "differingChannels": 35,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bn",
+      "number": 6,
+      "differingChannels": 39,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "bn",
+      "number": 7,
+      "differingChannels": 54,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ca",
+      "number": 1,
+      "differingChannels": 13,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ca",
+      "number": 2,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ca",
+      "number": 4,
+      "differingChannels": 30,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ca",
+      "number": 5,
+      "differingChannels": 32,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ca",
+      "number": 6,
+      "differingChannels": 39,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ca",
+      "number": 7,
+      "differingChannels": 209,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "cs",
+      "number": 1,
+      "differingChannels": 37,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "cs",
+      "number": 2,
+      "differingChannels": 23,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "cs",
+      "number": 3,
+      "differingChannels": 39,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "cs",
+      "number": 4,
+      "differingChannels": 5,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "cs",
+      "number": 5,
+      "differingChannels": 345,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "cs",
+      "number": 6,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "cs",
+      "number": 7,
+      "differingChannels": 126,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "da",
+      "number": 1,
+      "differingChannels": 58,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "da",
+      "number": 2,
+      "differingChannels": 103,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "da",
+      "number": 3,
+      "differingChannels": 34,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "da",
+      "number": 4,
+      "differingChannels": 115,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "da",
+      "number": 6,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "de",
+      "number": 2,
+      "differingChannels": 263,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "de",
+      "number": 3,
+      "differingChannels": 69,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "de",
+      "number": 4,
+      "differingChannels": 153,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "de",
+      "number": 5,
+      "differingChannels": 21,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "de",
+      "number": 7,
+      "differingChannels": 83,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "el",
+      "number": 1,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "el",
+      "number": 2,
+      "differingChannels": 4,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "el",
+      "number": 4,
+      "differingChannels": 111,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "el",
+      "number": 5,
+      "differingChannels": 74,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "el",
+      "number": 6,
+      "differingChannels": 43,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "el",
+      "number": 7,
+      "differingChannels": 108,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-AU",
+      "number": 1,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "en-AU",
+      "number": 3,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-AU",
+      "number": 4,
+      "differingChannels": 1,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-AU",
+      "number": 5,
+      "differingChannels": 23,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-AU",
+      "number": 6,
+      "differingChannels": 38,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-AU",
+      "number": 7,
+      "differingChannels": 32,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-GB",
+      "number": 1,
+      "differingChannels": 48,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-GB",
+      "number": 3,
+      "differingChannels": 87,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-GB",
+      "number": 4,
+      "differingChannels": 41,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-GB",
+      "number": 5,
+      "differingChannels": 17,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-GB",
+      "number": 6,
+      "differingChannels": 142,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-GB",
+      "number": 7,
+      "differingChannels": 125,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-IN",
+      "number": 1,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-IN",
+      "number": 2,
+      "differingChannels": 80,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-IN",
+      "number": 3,
+      "differingChannels": 53,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-IN",
+      "number": 4,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-IN",
+      "number": 5,
+      "differingChannels": 9,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-IN",
+      "number": 6,
+      "differingChannels": 60,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-IN",
+      "number": 7,
+      "differingChannels": 93,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-US",
+      "number": 1,
+      "differingChannels": 61,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-US",
+      "number": 3,
+      "differingChannels": 40,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-US",
+      "number": 4,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-US",
+      "number": 6,
+      "differingChannels": 52,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "en-US",
+      "number": 7,
+      "differingChannels": 45,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es-US",
+      "number": 1,
+      "differingChannels": 35,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es-US",
+      "number": 2,
+      "differingChannels": 4,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es-US",
+      "number": 4,
+      "differingChannels": 69,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es-US",
+      "number": 6,
+      "differingChannels": 46,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es-US",
+      "number": 7,
+      "differingChannels": 63,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es",
+      "number": 1,
+      "differingChannels": 11,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es",
+      "number": 4,
+      "differingChannels": 49,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es",
+      "number": 5,
+      "differingChannels": 77,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es",
+      "number": 6,
+      "differingChannels": 57,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "es",
+      "number": 7,
+      "differingChannels": 36,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fi",
+      "number": 1,
+      "differingChannels": 17,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fi",
+      "number": 2,
+      "differingChannels": 15,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fi",
+      "number": 3,
+      "differingChannels": 39,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fi",
+      "number": 4,
+      "differingChannels": 55,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fi",
+      "number": 6,
+      "differingChannels": 47,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fi",
+      "number": 7,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr-CA",
+      "number": 1,
+      "differingChannels": 15,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr-CA",
+      "number": 2,
+      "differingChannels": 50,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr-CA",
+      "number": 3,
+      "differingChannels": 59,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr-CA",
+      "number": 4,
+      "differingChannels": 3,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr-CA",
+      "number": 5,
+      "differingChannels": 22,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr-CA",
+      "number": 6,
+      "differingChannels": 24,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr-CA",
+      "number": 7,
+      "differingChannels": 68,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr",
+      "number": 1,
+      "differingChannels": 11,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr",
+      "number": 2,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr",
+      "number": 4,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "fr",
+      "number": 5,
+      "differingChannels": 51,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "fr",
+      "number": 6,
+      "differingChannels": 63,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "gu",
+      "number": 1,
+      "differingChannels": 17,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "gu",
+      "number": 2,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "gu",
+      "number": 3,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "gu",
+      "number": 4,
+      "differingChannels": 2,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "gu",
+      "number": 6,
+      "differingChannels": 30,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "gu",
+      "number": 7,
+      "differingChannels": 65,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hi",
+      "number": 1,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hi",
+      "number": 2,
+      "differingChannels": 52,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hi",
+      "number": 3,
+      "differingChannels": 32,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hi",
+      "number": 4,
+      "differingChannels": 79,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hi",
+      "number": 7,
+      "differingChannels": 30,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hr",
+      "number": 1,
+      "differingChannels": 9,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hr",
+      "number": 2,
+      "differingChannels": 86,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hr",
+      "number": 4,
+      "differingChannels": 257,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hr",
+      "number": 5,
+      "differingChannels": 325,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hr",
+      "number": 6,
+      "differingChannels": 29,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hr",
+      "number": 7,
+      "differingChannels": 55,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hu",
+      "number": 1,
+      "differingChannels": 52,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hu",
+      "number": 2,
+      "differingChannels": 66,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hu",
+      "number": 3,
+      "differingChannels": 121,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hu",
+      "number": 4,
+      "differingChannels": 177,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hu",
+      "number": 5,
+      "differingChannels": 327,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hu",
+      "number": 6,
+      "differingChannels": 52,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "hu",
+      "number": 7,
+      "differingChannels": 17,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "id",
+      "number": 1,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "id",
+      "number": 2,
+      "differingChannels": 40,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "id",
+      "number": 3,
+      "differingChannels": 3,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "id",
+      "number": 4,
+      "differingChannels": 65,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "id",
+      "number": 5,
+      "differingChannels": 23,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "id",
+      "number": 7,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "it",
+      "number": 1,
+      "differingChannels": 17,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "it",
+      "number": 2,
+      "differingChannels": 39,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "it",
+      "number": 3,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "it",
+      "number": 4,
+      "differingChannels": 44,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "it",
+      "number": 5,
+      "differingChannels": 22,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "it",
+      "number": 6,
+      "differingChannels": 51,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "it",
+      "number": 7,
+      "differingChannels": 159,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ja",
+      "number": 1,
+      "differingChannels": 31,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ja",
+      "number": 2,
+      "differingChannels": 176,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ja",
+      "number": 3,
+      "differingChannels": 308,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ja",
+      "number": 5,
+      "differingChannels": 85,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ja",
+      "number": 7,
+      "differingChannels": 390,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "kk",
+      "number": 2,
+      "differingChannels": 53,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "kk",
+      "number": 4,
+      "differingChannels": 63,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "kk",
+      "number": 5,
+      "differingChannels": 2,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "kn",
+      "number": 4,
+      "differingChannels": 35,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "kn",
+      "number": 6,
+      "differingChannels": 82,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "kn",
+      "number": 7,
+      "differingChannels": 36,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ko",
+      "number": 1,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "ko",
+      "number": 2,
+      "differingChannels": 581,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ko",
+      "number": 4,
+      "differingChannels": 108,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ko",
+      "number": 5,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "ko",
+      "number": 6,
+      "differingChannels": 15,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ko",
+      "number": 7,
+      "differingChannels": 1,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "lt",
+      "number": 1,
+      "differingChannels": 61,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "lt",
+      "number": 2,
+      "differingChannels": 135,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "lt",
+      "number": 4,
+      "differingChannels": 154,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "lt",
+      "number": 5,
+      "differingChannels": 132,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "lt",
+      "number": 6,
+      "differingChannels": 23,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "lt",
+      "number": 7,
+      "differingChannels": 71,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ml",
+      "number": 1,
+      "differingChannels": 60,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ml",
+      "number": 2,
+      "differingChannels": 60,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ml",
+      "number": 3,
+      "differingChannels": 80,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ml",
+      "number": 6,
+      "differingChannels": 64,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ml",
+      "number": 7,
+      "differingChannels": 100,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "mr",
+      "number": 1,
+      "differingChannels": 27,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "mr",
+      "number": 2,
+      "differingChannels": 28,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "mr",
+      "number": 4,
+      "differingChannels": 19,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "mr",
+      "number": 5,
+      "differingChannels": 19,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "mr",
+      "number": 6,
+      "differingChannels": 47,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "mr",
+      "number": 7,
+      "differingChannels": 42,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ms",
+      "number": 1,
+      "differingChannels": 50,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ms",
+      "number": 3,
+      "differingChannels": 44,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ms",
+      "number": 4,
+      "differingChannels": 101,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ms",
+      "number": 5,
+      "differingChannels": 29,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ms",
+      "number": 6,
+      "differingChannels": 49,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ms",
+      "number": 7,
+      "differingChannels": 292,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nb",
+      "number": 1,
+      "differingChannels": 50,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nb",
+      "number": 2,
+      "differingChannels": 106,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nb",
+      "number": 3,
+      "differingChannels": 56,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nb",
+      "number": 4,
+      "differingChannels": 128,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nb",
+      "number": 5,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nb",
+      "number": 7,
+      "differingChannels": 101,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nl",
+      "number": 1,
+      "differingChannels": 117,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nl",
+      "number": 2,
+      "differingChannels": 93,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nl",
+      "number": 3,
+      "differingChannels": 87,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nl",
+      "number": 4,
+      "differingChannels": 185,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nl",
+      "number": 5,
+      "differingChannels": 47,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nl",
+      "number": 6,
+      "differingChannels": 144,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "nl",
+      "number": 7,
+      "differingChannels": 493,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "or",
+      "number": 1,
+      "differingChannels": 53,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "or",
+      "number": 2,
+      "differingChannels": 19,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "or",
+      "number": 3,
+      "differingChannels": 16,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "or",
+      "number": 4,
+      "differingChannels": 32,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "or",
+      "number": 5,
+      "differingChannels": 1,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "or",
+      "number": 6,
+      "differingChannels": 6,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "or",
+      "number": 7,
+      "differingChannels": 49,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pa",
+      "number": 1,
+      "differingChannels": 24,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pa",
+      "number": 2,
+      "differingChannels": 40,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pa",
+      "number": 3,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "pa",
+      "number": 4,
+      "differingChannels": 114,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pa",
+      "number": 5,
+      "differingChannels": 405,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pa",
+      "number": 6,
+      "differingChannels": 7,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pa",
+      "number": 7,
+      "differingChannels": 13,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pl",
+      "number": 1,
+      "differingChannels": 17,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pl",
+      "number": 2,
+      "differingChannels": 34,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pl",
+      "number": 3,
+      "differingChannels": 8,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pl",
+      "number": 4,
+      "differingChannels": 104,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pl",
+      "number": 5,
+      "differingChannels": 108,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pl",
+      "number": 7,
+      "differingChannels": 45,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-BR",
+      "number": 2,
+      "differingChannels": 13,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-BR",
+      "number": 3,
+      "differingChannels": 30,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-BR",
+      "number": 4,
+      "differingChannels": 86,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-BR",
+      "number": 5,
+      "differingChannels": 80,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-BR",
+      "number": 6,
+      "differingChannels": 20,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-BR",
+      "number": 7,
+      "differingChannels": 93,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-PT",
+      "number": 1,
+      "differingChannels": 24,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-PT",
+      "number": 2,
+      "differingChannels": 63,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-PT",
+      "number": 3,
+      "differingChannels": 102,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-PT",
+      "number": 4,
+      "differingChannels": 70,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-PT",
+      "number": 6,
+      "differingChannels": 27,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "pt-PT",
+      "number": 7,
+      "differingChannels": 5,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ro",
+      "number": 1,
+      "differingChannels": 13,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ro",
+      "number": 2,
+      "differingChannels": 6,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ro",
+      "number": 3,
+      "differingChannels": 70,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ro",
+      "number": 4,
+      "differingChannels": 71,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ro",
+      "number": 6,
+      "differingChannels": 7,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ro",
+      "number": 7,
+      "differingChannels": 49,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ru",
+      "number": 1,
+      "differingChannels": 57,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ru",
+      "number": 2,
+      "differingChannels": 18,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ru",
+      "number": 3,
+      "differingChannels": 43,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ru",
+      "number": 4,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "ru",
+      "number": 5,
+      "differingChannels": 58,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ru",
+      "number": 6,
+      "differingChannels": 54,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ru",
+      "number": 7,
+      "differingChannels": 30,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sk",
+      "number": 1,
+      "differingChannels": 85,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sk",
+      "number": 3,
+      "differingChannels": 44,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sk",
+      "number": 4,
+      "differingChannels": 22,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sk",
+      "number": 5,
+      "differingChannels": 29,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sk",
+      "number": 6,
+      "differingChannels": 11,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sk",
+      "number": 7,
+      "differingChannels": 160,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sl",
+      "number": 1,
+      "differingChannels": 45,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sl",
+      "number": 3,
+      "differingChannels": 3,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sl",
+      "number": 4,
+      "differingChannels": 447,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sl",
+      "number": 5,
+      "differingChannels": 46,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sl",
+      "number": 6,
+      "differingChannels": 87,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sl",
+      "number": 7,
+      "differingChannels": 57,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sv",
+      "number": 1,
+      "differingChannels": 77,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sv",
+      "number": 2,
+      "differingChannels": 139,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sv",
+      "number": 3,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sv",
+      "number": 4,
+      "differingChannels": 50,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sv",
+      "number": 5,
+      "differingChannels": 13,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sv",
+      "number": 6,
+      "differingChannels": 7,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "sv",
+      "number": 7,
+      "differingChannels": 44,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ta",
+      "number": 1,
+      "differingChannels": 28,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ta",
+      "number": 2,
+      "differingChannels": 61,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ta",
+      "number": 4,
+      "differingChannels": 25,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ta",
+      "number": 5,
+      "differingChannels": 108,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ta",
+      "number": 6,
+      "differingChannels": 75,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "ta",
+      "number": 7,
+      "differingChannels": 133,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "te",
+      "number": 2,
+      "differingChannels": 56,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "te",
+      "number": 4,
+      "differingChannels": 8,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "te",
+      "number": 5,
+      "differingChannels": 33,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "te",
+      "number": 6,
+      "differingChannels": 19,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "te",
+      "number": 7,
+      "differingChannels": 3,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "th",
+      "number": 1,
+      "differingChannels": 95,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "th",
+      "number": 2,
+      "differingChannels": 102,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "th",
+      "number": 4,
+      "differingChannels": 83,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "th",
+      "number": 5,
+      "differingChannels": 44,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "th",
+      "number": 6,
+      "differingChannels": 11,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "th",
+      "number": 7,
+      "differingChannels": 68,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "tr",
+      "number": 1,
+      "differingChannels": 6,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "tr",
+      "number": 2,
+      "differingChannels": 97,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "tr",
+      "number": 4,
+      "differingChannels": 423,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "tr",
+      "number": 5,
+      "differingChannels": 71,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "tr",
+      "number": 6,
+      "differingChannels": 19,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "tr",
+      "number": 7,
+      "differingChannels": 67,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "uk",
+      "number": 1,
+      "differingChannels": 145,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "uk",
+      "number": 2,
+      "differingChannels": 33,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "uk",
+      "number": 3,
+      "differingChannels": 38,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "uk",
+      "number": 4,
+      "differingChannels": 13,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "uk",
+      "number": 5,
+      "differingChannels": 75,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "uk",
+      "number": 6,
+      "differingChannels": 61,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "uk",
+      "number": 7,
+      "differingChannels": 227,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "vi",
+      "number": 1,
+      "differingChannels": 61,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "vi",
+      "number": 2,
+      "differingChannels": 112,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "vi",
+      "number": 3,
+      "differingChannels": 43,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "vi",
+      "number": 4,
+      "differingChannels": 89,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "vi",
+      "number": 5,
+      "differingChannels": 52,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "vi",
+      "number": 6,
+      "differingChannels": 107,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "vi",
+      "number": 7,
+      "differingChannels": 96,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "zh-HK",
+      "number": 1,
+      "differingChannels": 258,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "zh-HK",
+      "number": 2,
+      "differingChannels": 574,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "zh-HK",
+      "number": 4,
+      "differingChannels": 56,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "zh-HK",
+      "number": 5,
+      "differingChannels": 0,
+      "maximumChannelDelta": 0
+    },
+    {
+      "locale": "zh-HK",
+      "number": 6,
+      "differingChannels": 383,
+      "maximumChannelDelta": 1
+    },
+    {
+      "locale": "zh-HK",
+      "number": 7,
+      "differingChannels": 274,
+      "maximumChannelDelta": 1
+    }
+  ]
+}

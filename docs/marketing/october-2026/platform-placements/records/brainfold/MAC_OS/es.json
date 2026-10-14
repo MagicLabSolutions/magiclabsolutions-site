@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,21 +51,31 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/es/search-results.png",
-    "sha256": "57d54ac3df93561da5fc76b4001e36361a8ccd9d64e6f4655773094009cfc21c",
+    "sha256": "b8ffaaad567aa74d5f169c838f48ca2e5b338c82a9d21f09f16e25f4a19e9c48",
     "headline": "Convierte tus apuntes en ejercicios de estudio.",
     "metrics": {
+      "device": {
+        "x": 771.796875,
+        "y": 982.984375,
+        "width": 2296.390625,
+        "height": 1530.921875,
+        "top": 982.984375,
+        "right": 3068.1875,
+        "bottom": 2513.90625,
+        "left": 771.796875
+      },
       "copy": {
         "x": 249.59375,
-        "y": 384,
-        "width": 1881.59375,
-        "height": 1635.265625,
-        "top": 384,
-        "right": 2131.1875,
-        "bottom": 2019.265625,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 835.796875,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 925.390625,
         "left": 249.59375
       },
       "fonts": {
-        "headline": 30.834374999999998
+        "headline": 26.52
       },
       "dimensions": [
         3840,

@@ -1,0 +1,468 @@
+{
+  "checkedAt": "2026-10-14T01:43:55.831Z",
+  "locale": "ko",
+  "images": [
+    {
+      "format": "mac",
+      "number": 1,
+      "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-1.png",
+      "sha256": "32b2a970aae4e7cb89355410e157ab71b563065e07b4a47844acf8fb3b07fadb",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ko/native-1.png",
+      "copy": {
+        "headline": "학습",
+        "description": "나만의 자료로 만든 플래시카드, 퀴즈, 그리고 튜터",
+        "compactHeadline": true,
+        "wrapLongDescription": false
+      },
+      "metrics": {
+        "nativeDisplay": {
+          "x": 1222.515625,
+          "y": 680.046875,
+          "width": 1484.765625,
+          "height": 959.765625,
+          "top": 680.046875,
+          "right": 2707.28125,
+          "bottom": 1639.8125,
+          "left": 1222.515625,
+          "visibleFraction": 1
+        },
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 785.203125,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1000.203125,
+          "left": 140
+        },
+        "device": {
+          "x": 1049.8125,
+          "y": 549.875,
+          "width": 1830.1875,
+          "height": 1220.125,
+          "top": 549.875,
+          "right": 2880,
+          "bottom": 1770,
+          "left": 1049.8125
+        },
+        "card": null,
+        "photo": null,
+        "headlineLines": 0.9999803829252981,
+        "fonts": {
+          "headline": 236,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "descriptionOverflow": false,
+        "copyOverflow": false
+      },
+      "frozenMasterReused": true
+    },
+    {
+      "format": "mac",
+      "number": 2,
+      "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-2.png",
+      "sha256": "af6c5d8bd9e61ec5bc264f9afb7fdf5f64f039af8399f359f798e1306df74f3d",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ko/native-2.png",
+      "copy": {
+        "headline": "책과 PDF를.",
+        "description": "암기 카드로.",
+        "compactHeadline": false,
+        "wrapLongDescription": false
+      },
+      "metrics": {
+        "nativeDisplay": {
+          "x": 1222.515625,
+          "y": 680.046875,
+          "width": 1484.765625,
+          "height": 959.765625,
+          "top": 680.046875,
+          "right": 2707.28125,
+          "bottom": 1639.8125,
+          "left": 1222.515625,
+          "visibleFraction": 1
+        },
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 468.984375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 683.984375,
+          "left": 140
+        },
+        "device": {
+          "x": 1049.8125,
+          "y": 549.875,
+          "width": 1830.1875,
+          "height": 1220.125,
+          "top": 549.875,
+          "right": 2880,
+          "bottom": 1770,
+          "left": 1049.8125
+        },
+        "card": {
+          "x": 1910.41162109375,
+          "y": 1160.3311767578125,
+          "width": 868.9111328125,
+          "height": 579.337646484375,
+          "top": 1160.3311767578125,
+          "right": 2779.32275390625,
+          "bottom": 1739.6688232421875,
+          "left": 1910.41162109375
+        },
+        "photo": {
+          "x": -10,
+          "y": 1330,
+          "width": 930,
+          "height": 620,
+          "top": 1330,
+          "right": 920,
+          "bottom": 1950,
+          "left": -10
+        },
+        "headlineLines": 0.9999803829252981,
+        "fonts": {
+          "headline": 236,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "descriptionOverflow": false,
+        "copyOverflow": false
+      },
+      "frozenMasterReused": true
+    },
+    {
+      "format": "mac",
+      "number": 3,
+      "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-3.png",
+      "sha256": "2099a6915ab5fde1bb1d4df598302f401942aecb1c0bd283241daf8ee786adb5",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ko/native-2.png",
+      "copy": {
+        "headline": "플래시카드",
+        "description": "플래시카드 복습하기 (한 번에 한 문제씩)",
+        "compactHeadline": true,
+        "wrapLongDescription": false
+      },
+      "metrics": {
+        "nativeDisplay": {
+          "x": 1222.515625,
+          "y": 680.046875,
+          "width": 1484.765625,
+          "height": 959.765625,
+          "top": 680.046875,
+          "right": 2707.28125,
+          "bottom": 1639.8125,
+          "left": 1222.515625,
+          "visibleFraction": 1
+        },
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 627.09375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 842.09375,
+          "left": 140
+        },
+        "device": {
+          "x": 1049.8125,
+          "y": 549.875,
+          "width": 1830.1875,
+          "height": 1220.125,
+          "top": 549.875,
+          "right": 2880,
+          "bottom": 1770,
+          "left": 1049.8125
+        },
+        "card": {
+          "x": 1910.41162109375,
+          "y": 1160.3311767578125,
+          "width": 868.9111328125,
+          "height": 579.337646484375,
+          "top": 1160.3311767578125,
+          "right": 2779.32275390625,
+          "bottom": 1739.6688232421875,
+          "left": 1910.41162109375
+        },
+        "photo": null,
+        "headlineLines": 0.9999803829252981,
+        "fonts": {
+          "headline": 236,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "descriptionOverflow": false,
+        "copyOverflow": false
+      }
+    },
+    {
+      "format": "mac",
+      "number": 4,
+      "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-4.png",
+      "sha256": "c2f3e1ef5f5dc4f729e621ca217968317ed311fc8984b016d825f7c3b4e4de17",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ko/native-3.png",
+      "copy": {
+        "headline": "기억력 테스트하기",
+        "description": "노트 기반 퀴즈와 실시간 피드백",
+        "compactHeadline": false,
+        "wrapLongDescription": false
+      },
+      "metrics": {
+        "nativeDisplay": {
+          "x": 1222.515625,
+          "y": 680.046875,
+          "width": 1484.765625,
+          "height": 959.765625,
+          "top": 680.046875,
+          "right": 2707.28125,
+          "bottom": 1639.8125,
+          "left": 1222.515625,
+          "visibleFraction": 1
+        },
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 627.09375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 842.09375,
+          "left": 140
+        },
+        "device": {
+          "x": 1049.8125,
+          "y": 549.875,
+          "width": 1830.1875,
+          "height": 1220.125,
+          "top": 549.875,
+          "right": 2880,
+          "bottom": 1770,
+          "left": 1049.8125
+        },
+        "card": null,
+        "photo": null,
+        "headlineLines": 0.9999803829252981,
+        "fonts": {
+          "headline": 236,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "descriptionOverflow": false,
+        "copyOverflow": false
+      },
+      "frozenMasterReused": true
+    },
+    {
+      "format": "mac",
+      "number": 5,
+      "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-5.png",
+      "sha256": "553b7d08b9bcbe18cbbef9312a1917615add96775373753121440b2e5611f8ff",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ko/native-4.png",
+      "copy": {
+        "headline": "AI 튜터",
+        "description": "학습 자료에 대해 질문하고 내용을 계속 확인하세요.",
+        "compactHeadline": true,
+        "wrapLongDescription": false
+      },
+      "metrics": {
+        "nativeDisplay": {
+          "x": 1222.515625,
+          "y": 680.046875,
+          "width": 1484.765625,
+          "height": 959.765625,
+          "top": 680.046875,
+          "right": 2707.28125,
+          "bottom": 1639.8125,
+          "left": 1222.515625,
+          "visibleFraction": 1
+        },
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 785.203125,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1000.203125,
+          "left": 140
+        },
+        "device": {
+          "x": 1049.8125,
+          "y": 549.875,
+          "width": 1830.1875,
+          "height": 1220.125,
+          "top": 549.875,
+          "right": 2880,
+          "bottom": 1770,
+          "left": 1049.8125
+        },
+        "card": {
+          "x": 1767.8575439453125,
+          "y": 1567.343017578125,
+          "width": 1004.2850341796875,
+          "height": 175.04833984375,
+          "top": 1567.343017578125,
+          "right": 2772.142578125,
+          "bottom": 1742.391357421875,
+          "left": 1767.8575439453125
+        },
+        "photo": null,
+        "headlineLines": 0.9999803829252981,
+        "fonts": {
+          "headline": 236,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "descriptionOverflow": false,
+        "copyOverflow": false
+      },
+      "frozenMasterReused": true
+    },
+    {
+      "format": "mac",
+      "number": 6,
+      "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-6.png",
+      "sha256": "6b68a33218fa9d4dfe061b55bf44cd5b6b6c2c865f5ff60f6b4226f7e3c72ccf",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ko/native-5.png",
+      "copy": {
+        "headline": "요약",
+        "description": "풍부한 요약과 핵심 인사이트.\n언제든 복습 가능한 나만의 학습 자료.",
+        "compactHeadline": true,
+        "wrapLongDescription": false
+      },
+      "metrics": {
+        "nativeDisplay": {
+          "x": 1222.515625,
+          "y": 680.046875,
+          "width": 1484.765625,
+          "height": 959.765625,
+          "top": 680.046875,
+          "right": 2707.28125,
+          "bottom": 1639.8125,
+          "left": 1222.515625,
+          "visibleFraction": 1
+        },
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 943.3125,
+          "top": 215,
+          "right": 2740,
+          "bottom": 1158.3125,
+          "left": 140
+        },
+        "device": {
+          "x": 1049.8125,
+          "y": 549.875,
+          "width": 1830.1875,
+          "height": 1220.125,
+          "top": 549.875,
+          "right": 2880,
+          "bottom": 1770,
+          "left": 1049.8125
+        },
+        "card": null,
+        "photo": null,
+        "headlineLines": 0.9999803829252981,
+        "fonts": {
+          "headline": 236,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "descriptionOverflow": false,
+        "copyOverflow": false
+      },
+      "frozenMasterReused": true
+    },
+    {
+      "format": "mac",
+      "number": 7,
+      "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-7.png",
+      "sha256": "47a31ff0485cd272879233756fb2e7bc08b62964db1d91d467674ae74d8e1bac",
+      "capture": "docs/marketing/october-2026/brainfold-1.2.1/native/ko/native-6.png",
+      "copy": {
+        "headline": "배틀 모드",
+        "description": "팩을 선택하고 지식 대결을 시작하세요.",
+        "compactHeadline": true,
+        "wrapLongDescription": false
+      },
+      "metrics": {
+        "nativeDisplay": {
+          "x": 1222.515625,
+          "y": 680.046875,
+          "width": 1484.765625,
+          "height": 959.765625,
+          "top": 680.046875,
+          "right": 2707.28125,
+          "bottom": 1639.8125,
+          "left": 1222.515625,
+          "visibleFraction": 1
+        },
+        "copy": {
+          "x": 140,
+          "y": 215,
+          "width": 2600,
+          "height": 627.09375,
+          "top": 215,
+          "right": 2740,
+          "bottom": 842.09375,
+          "left": 140
+        },
+        "device": {
+          "x": 1049.8125,
+          "y": 549.875,
+          "width": 1830.1875,
+          "height": 1220.125,
+          "top": 549.875,
+          "right": 2880,
+          "bottom": 1770,
+          "left": 1049.8125
+        },
+        "card": null,
+        "photo": null,
+        "headlineLines": 0.9999803829252981,
+        "fonts": {
+          "headline": 236,
+          "description": 118
+        },
+        "sourceDimensions": [
+          2400,
+          1508
+        ],
+        "openingAspect": 1.5470008952551477,
+        "descriptionOverflow": false,
+        "copyOverflow": false
+      },
+      "frozenMasterReused": true
+    }
+  ]
+}

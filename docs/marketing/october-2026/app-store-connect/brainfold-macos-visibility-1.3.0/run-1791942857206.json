@@ -1,0 +1,2713 @@
+{
+  "finishedAt": "2026-10-14T01:54:17.206Z",
+  "versions": [
+    {
+      "slug": "brainfold",
+      "appId": "6760474378",
+      "platform": "MAC_OS",
+      "currentId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "version": "1.3.0",
+      "create": null,
+      "state": "PREPARE_FOR_SUBMISSION"
+    }
+  ],
+  "excluded": [],
+  "results": [
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "bn-BD",
+      "sourceLocale": "bn",
+      "type": "APP_DESKTOP",
+      "setId": "d30f9012-4277-4493-8637-10b85dccc5a8",
+      "verifiedAt": "2026-10-14T01:50:38.829Z",
+      "screenshots": [
+        {
+          "id": "53c00019-2f4a-870a-802a-787a839bc995",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/bn/mac-store-1.png",
+          "md5": "b0590659c52350a329374d5603cd599f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7cc00019-2f4a-870a-802e-456cf8eb76ce",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/bn/mac-store-2.png",
+          "md5": "f4f5fe55ae605c82ffd5cb26f13eddcb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "28c00019-2f4a-870a-800a-edde029982c0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/bn/mac-store-3.png",
+          "md5": "3a42cedc8c0449392661061693c0a09c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d8800019-2f4a-870a-803c-a198f5325db9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/bn/mac-store-4.png",
+          "md5": "9d8d530c0f71cc5d48b74f564325d267",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1a000019-2f4a-870a-8011-e1e9d236d162",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/bn/mac-store-5.png",
+          "md5": "33c8413742ff3a36271c11d57b83c697",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69400019-2f4a-870a-803b-6ccd06e69621",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/bn/mac-store-6.png",
+          "md5": "2276f923663ed15720087978b0482e83",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "89400019-2f4a-870a-8038-57e51c213b76",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/bn/mac-store-7.png",
+          "md5": "e3422edc4adb695c01d5b14b1e94ca48",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ca",
+      "sourceLocale": "ca",
+      "type": "APP_DESKTOP",
+      "setId": "8a40a093-da37-4b57-b36f-cb247ad4f2e9",
+      "verifiedAt": "2026-10-14T01:50:56.618Z",
+      "screenshots": [
+        {
+          "id": "48c00019-2f4a-870a-8014-2911e7d7c113",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ca/mac-store-1.png",
+          "md5": "5db364e2c83a44d8ab01836ae5b0240f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7d400019-2f4a-870a-802d-c984f72ea1ba",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ca/mac-store-2.png",
+          "md5": "2b819cb48d9eaee0de60dcf6990d22c5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07800019-2f4a-870a-8019-34cb01b00e49",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ca/mac-store-3.png",
+          "md5": "d3608561bc41df6f2c27bab2e9bd90f0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50c00019-2f4a-870a-8029-6ceab46f4277",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ca/mac-store-4.png",
+          "md5": "995c12fa51144f811be23e256b9033b2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "30000019-2f4a-870a-8030-ddaf651a0546",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ca/mac-store-5.png",
+          "md5": "88d375725e98ed4259c6235bd9a5badc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "79800019-2f4a-870a-8010-04bcca285d22",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ca/mac-store-6.png",
+          "md5": "4f9bd829624d79a25b5e8ed0c83eb821",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6d000019-2f4a-870a-8014-08a958abe3c6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ca/mac-store-7.png",
+          "md5": "d66e2d80bf29b4f3ee4351992ac90921",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "zh-Hant",
+      "sourceLocale": "zh-HK",
+      "type": "APP_DESKTOP",
+      "setId": "21189c9d-b8b8-4124-b015-cc7660d003ac",
+      "verifiedAt": "2026-10-14T01:50:56.907Z",
+      "screenshots": [
+        {
+          "id": "83c00019-2f4a-870a-8013-7a2b5a747319",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/zh-HK/mac-store-1.png",
+          "md5": "8c822a23520050897cb45e0ac0f92afe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1d400019-2f4a-870a-8025-12a25f806579",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/zh-HK/mac-store-2.png",
+          "md5": "f192c221681cd60b64fa11f5701d2d3b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "63c00019-2f4a-870a-8027-a71f3f68849c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/zh-HK/mac-store-3.png",
+          "md5": "414629eaf87b3118358d6fcb4579d784",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c3000019-2f4a-870a-8008-0371065609d2",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/zh-HK/mac-store-4.png",
+          "md5": "6b03d82c2b341a8385777bcbb51a15cc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1f800019-2f4a-870a-802b-bd4db838986b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/zh-HK/mac-store-5.png",
+          "md5": "90da78084beff6bb04ed18d1e57955cb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ad400019-2f4a-870a-8026-c1a09e736265",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/zh-HK/mac-store-6.png",
+          "md5": "01de746028fbe3f9462605919cfb1a2b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b6000019-2f4a-870a-8027-ecec6f81d3bd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/zh-HK/mac-store-7.png",
+          "md5": "63f37a717996fae2fe4e061d0a593b7b",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "cs",
+      "sourceLocale": "cs",
+      "type": "APP_DESKTOP",
+      "setId": "4bba11c7-a82e-4af2-80c8-ad3dfb9776af",
+      "verifiedAt": "2026-10-14T01:50:58.034Z",
+      "screenshots": [
+        {
+          "id": "29800019-2f4a-870a-8028-d07a5f27c3b8",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/cs/mac-store-1.png",
+          "md5": "3b8e93a38510a7e40939843f20f7407a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "24800019-2f4a-870a-8028-5dfb59cf637d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/cs/mac-store-2.png",
+          "md5": "ba4f37eae531c9be4f18e59e279f4986",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "26000019-2f4a-870a-801d-055e9337cc8c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/cs/mac-store-3.png",
+          "md5": "37f0782a3fb64f4005f26bbebb992786",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c5400019-2f4a-870a-8030-6403bae7a029",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/cs/mac-store-4.png",
+          "md5": "9ef313b52202038f327b6357d0e08942",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "53800019-2f4a-870a-801e-b9912490af41",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/cs/mac-store-5.png",
+          "md5": "4747ce91fb1961c13d543eea13855670",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6000019-2f4a-870a-8033-65ab1402d87a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/cs/mac-store-6.png",
+          "md5": "9145ad941b116337545629f60cc2d39d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80c00019-2f4a-870a-8016-bd307a5e8b21",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/cs/mac-store-7.png",
+          "md5": "0a471d1d3c1d7e0c13562f167516c3a9",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ar-SA",
+      "sourceLocale": "ar",
+      "type": "APP_DESKTOP",
+      "setId": "b4f02f89-b030-456e-b00d-a1bed949da43",
+      "verifiedAt": "2026-10-14T01:51:05.270Z",
+      "screenshots": [
+        {
+          "id": "64c00019-2f4a-870a-8032-c1bcdf5cee4a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ar/mac-store-1.png",
+          "md5": "af15d328110dbcb35c19f52f582bf1cb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7800019-2f4a-870a-8019-d6817c482545",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ar/mac-store-2.png",
+          "md5": "a8a9cc66c12fe4331e85dad8f15bcaca",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4e000019-2f4a-870a-800c-e6b97c734dc7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ar/mac-store-3.png",
+          "md5": "dad07a24d28d7a75eccf51fd3c0a685e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aac00019-2f4a-870a-8004-5425dc43f98f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ar/mac-store-4.png",
+          "md5": "81a99e6484e7431635958711138abc57",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5fc00019-2f4a-870a-8016-3cf18f0d3dd6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ar/mac-store-5.png",
+          "md5": "82820fc0b54f435a6f3c0cd8b479e529",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7800019-2f4a-870a-802b-0cb9e3b8b7ec",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ar/mac-store-6.png",
+          "md5": "c87628f7ddad567787b8a0eb3baee1aa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7800019-2f4a-870a-8015-4a9595a4e2f6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ar/mac-store-7.png",
+          "md5": "70016d7a35dbb61d9742f25bb92bfb77",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "nl-NL",
+      "sourceLocale": "nl",
+      "type": "APP_DESKTOP",
+      "setId": "059926d4-2ea1-4ae8-82ff-060376d7960a",
+      "verifiedAt": "2026-10-14T01:51:06.285Z",
+      "screenshots": [
+        {
+          "id": "d2000019-2f4a-870a-802b-d65d3aee3a30",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nl/mac-store-1.png",
+          "md5": "5e53dc12fc3b5c12daad822a7995f97d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "20400019-2f4a-870a-800d-b930ae8f014f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nl/mac-store-2.png",
+          "md5": "9af2a11092ffcf570fff5fbf23dc7e5d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1b000019-2f4a-870a-803f-557a6ccb7caa",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nl/mac-store-3.png",
+          "md5": "0899a84a417ffe7429365c04503930d4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "56000019-2f4a-870a-800b-b69fd9fae7a1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nl/mac-store-4.png",
+          "md5": "29962c5620c5d7827059b69148488b57",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a4400019-2f4a-870a-8005-acdb8eed51f9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nl/mac-store-5.png",
+          "md5": "86dabed2f6541c4afa630d77e958e419",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "44000019-2f4a-870a-8034-7850795ae3d8",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nl/mac-store-6.png",
+          "md5": "0672fe3e7fae8002ebe6c84b0c2d566c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "54c00019-2f4a-870a-8024-2c6c6969dff2",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nl/mac-store-7.png",
+          "md5": "386fd725b2bebb665ae8617026229da9",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "hr",
+      "sourceLocale": "hr",
+      "type": "APP_DESKTOP",
+      "setId": "7b63072c-fedf-4ca9-89fd-03a45ceff497",
+      "verifiedAt": "2026-10-14T01:51:11.548Z",
+      "screenshots": [
+        {
+          "id": "09800019-2f4a-870a-8017-dfaaed3a305b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hr/mac-store-1.png",
+          "md5": "c12a8b01b50c5babdfd42d046b6c948a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2e800019-2f4a-870a-8018-8da7974d9193",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hr/mac-store-2.png",
+          "md5": "7422f4a517869675abdb8df2d896557f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0a400019-2f4a-870a-800b-4c24cb43bf76",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hr/mac-store-3.png",
+          "md5": "889c0c117b4dd9530adbc5e1c8e038b5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fb800019-2f4a-870a-8009-3e7197a79b1e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hr/mac-store-4.png",
+          "md5": "bc9ea5b03308e02fda771cd5b92be5a7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d000019-2f4a-870a-8022-ad8158750e2f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hr/mac-store-5.png",
+          "md5": "b535ef0d8a6be3a5d9be24b30cb1986b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e0000019-2f4a-870a-8025-f40188618d0b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hr/mac-store-6.png",
+          "md5": "89b4353d4deb122242d6569ef96cb2a0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a3800019-2f4a-870a-8009-6d088a7bb03a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hr/mac-store-7.png",
+          "md5": "0ab8bf271ac069a8311b8671d0f2ba61",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "da",
+      "sourceLocale": "da",
+      "type": "APP_DESKTOP",
+      "setId": "95909540-d303-4097-b523-14da4633a878",
+      "verifiedAt": "2026-10-14T01:51:14.081Z",
+      "screenshots": [
+        {
+          "id": "2d800019-2f4a-870a-8009-0f4c5e98123e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/da/mac-store-1.png",
+          "md5": "b16fa375cb08e903bf59753316e82d8d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "62400019-2f4a-870a-8009-77dcbc8f4d0e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/da/mac-store-2.png",
+          "md5": "ba7dc17690758703a6645a6c5ee98170",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ed400019-2f4a-870a-802a-6965138794e4",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/da/mac-store-3.png",
+          "md5": "0dad6a0f4863908aab74db537157c968",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dac00019-2f4a-870a-800b-1d0534777191",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/da/mac-store-4.png",
+          "md5": "d439cdb51864259085b3a68b23d7dda4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cd800019-2f4a-870a-8015-e8aa5a1a503b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/da/mac-store-5.png",
+          "md5": "7debd3efeb22eaad25017e287086727a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "73000019-2f4a-870a-8029-58b001ce2e81",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/da/mac-store-6.png",
+          "md5": "2b545ddc8adb3ddec2104b5679be1014",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4f400019-2f4a-870a-800b-80088a926777",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/da/mac-store-7.png",
+          "md5": "0579866b64b053362723bdabdf20e9f1",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "en-AU",
+      "sourceLocale": "en-AU",
+      "type": "APP_DESKTOP",
+      "setId": "2193a2a6-d760-4226-9241-5a3b22e32ab3",
+      "verifiedAt": "2026-10-14T01:51:19.785Z",
+      "screenshots": [
+        {
+          "id": "7a000019-2f4a-870a-8017-ce28d455de88",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-AU/mac-store-1.png",
+          "md5": "9c1cd03f3455c9a1f789dbe21e98c520",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7400019-2f4a-870a-801f-629168c9c313",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-AU/mac-store-2.png",
+          "md5": "86b9beea3e1823be3ecdaa69c7d2ead3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "77800019-2f4a-870a-803d-383bfc45017d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-AU/mac-store-3.png",
+          "md5": "aad933313ca4c7c82c8054ff29ddb3eb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "72400019-2f4a-870a-8023-7ad62045b15a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-AU/mac-store-4.png",
+          "md5": "b6fc389bab8e7b338c571c38420e0257",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7d800019-2f4a-870a-8038-a9d174ce3951",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-AU/mac-store-5.png",
+          "md5": "26e4be55143f58dc2a42e1ba73dae31b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dd000019-2f4a-870a-802b-f0cccd28718e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-AU/mac-store-6.png",
+          "md5": "e29c2feb67e228b58271e1eb152e8e33",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ebc00019-2f4a-870a-801c-2291c95a5b99",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-AU/mac-store-7.png",
+          "md5": "5ecb812a9177a17fb5d4144d8243fe6c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "en-GB",
+      "sourceLocale": "en-GB",
+      "type": "APP_DESKTOP",
+      "setId": "7b7eea8f-ea10-4fcc-bcc0-af007b095cbc",
+      "verifiedAt": "2026-10-14T01:51:26.812Z",
+      "screenshots": [
+        {
+          "id": "6ac00019-2f4a-870a-8012-590b4483f006",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-GB/mac-store-1.png",
+          "md5": "4960d7a180dd77932dfe85e11346a37e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "58c00019-2f4a-870a-8029-4fded2e84558",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-GB/mac-store-2.png",
+          "md5": "321ea05b687382995dd99aeaa57b0e73",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "37400019-2f4a-870a-8010-195923ea4728",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-GB/mac-store-3.png",
+          "md5": "d0d432514493a7cf9b7f7dc13975f14b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0f400019-2f4a-870a-8031-b9b2ecaacf1c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-GB/mac-store-4.png",
+          "md5": "6c212780b49f49904569b69b057a27b5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bcc00019-2f4a-870a-8018-12f3e2046262",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-GB/mac-store-5.png",
+          "md5": "c60bc3e092b3c2a50f12d4496b8f77a5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cd400019-2f4a-870a-800a-1681fea4bdab",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-GB/mac-store-6.png",
+          "md5": "7ae8904be3401ff7c0b98b999dbc73a5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d0800019-2f4a-870a-802e-7d739399582d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-GB/mac-store-7.png",
+          "md5": "48486fdf75fb2bad5ca7f018877ddeb7",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "en-CA",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "6016b0bc-6429-49f8-ab1a-fcb68c22e9e7",
+      "verifiedAt": "2026-10-14T01:51:27.881Z",
+      "screenshots": [
+        {
+          "id": "44c00019-2f4a-870a-8036-c69ebdb7ee14",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-1.png",
+          "md5": "39f9c00ed60c2a3398ec7f9a984d25fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7a800019-2f4a-870a-8011-c8ce06bfb2aa",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-2.png",
+          "md5": "757f4da0ff1d1ecf148f87ff82dc2dbf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7800019-2f4a-870a-8028-45b8bc222769",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-3.png",
+          "md5": "16faaa30aa6afe5caf8ceb83f59b5ffc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97000019-2f4a-870a-8026-3969d835540c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-4.png",
+          "md5": "b6fc389bab8e7b338c571c38420e0257",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6f800019-2f4a-870a-800c-d8ad2b57c9d9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-5.png",
+          "md5": "bb0791cf0c5db99576f15ba51316090d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0e800019-2f4a-870a-800c-4eefcb7ad376",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-6.png",
+          "md5": "ef49413539aed2b1830bff0bd05f70d3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75800019-2f4a-870a-802d-d041ff520fbf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-7.png",
+          "md5": "7367c177a292535303dc6fc4b82f9b63",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "en-US",
+      "sourceLocale": "en-US",
+      "type": "APP_DESKTOP",
+      "setId": "dc5d6cca-e043-4de0-a5a5-05c62240b855",
+      "verifiedAt": "2026-10-14T01:51:34.692Z",
+      "screenshots": [
+        {
+          "id": "a3c00019-2f4a-870a-801e-83e01c4a1638",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-1.png",
+          "md5": "39f9c00ed60c2a3398ec7f9a984d25fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "43000019-2f4a-870a-802e-ac19037b0678",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-2.png",
+          "md5": "757f4da0ff1d1ecf148f87ff82dc2dbf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4bc00019-2f4a-870a-8002-7b07f0706b8d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-3.png",
+          "md5": "16faaa30aa6afe5caf8ceb83f59b5ffc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fc800019-2f4a-870a-801a-4294e16a9aa9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-4.png",
+          "md5": "b6fc389bab8e7b338c571c38420e0257",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "34800019-2f4a-870a-8007-e26f92c31b49",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-5.png",
+          "md5": "bb0791cf0c5db99576f15ba51316090d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8a000019-2f4a-870a-8034-7c92f455b257",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-6.png",
+          "md5": "ef49413539aed2b1830bff0bd05f70d3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "25400019-2f4a-870a-8002-3a44208fa1dc",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/en-US/mac-store-7.png",
+          "md5": "7367c177a292535303dc6fc4b82f9b63",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "fr-CA",
+      "sourceLocale": "fr-CA",
+      "type": "APP_DESKTOP",
+      "setId": "56c6eeee-f93e-4173-a39b-1df3db81fec2",
+      "verifiedAt": "2026-10-14T01:51:35.813Z",
+      "screenshots": [
+        {
+          "id": "e9400019-2f4a-870a-801c-244d23f8d5b9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr-CA/mac-store-1.png",
+          "md5": "9ef3426283bef77004fd2f5c0a225b4c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "81c00019-2f4a-870a-8031-1a940573c39b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr-CA/mac-store-2.png",
+          "md5": "0f8b137a6b49981647994278d9c612e3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "06800019-2f4a-870a-8016-09cbd18001ee",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr-CA/mac-store-3.png",
+          "md5": "6bd69690209cc0d69bc3b7b48396d5d4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "47c00019-2f4a-870a-8015-8ea5a604b149",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr-CA/mac-store-4.png",
+          "md5": "4d6aa065a46f032277eef3c5c6562b2a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5b400019-2f4a-870a-8021-d5247fe9fed7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr-CA/mac-store-5.png",
+          "md5": "c47340e10cf041a0b919ece71313ece9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "73000019-2f4a-870a-8000-60ee46321556",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr-CA/mac-store-6.png",
+          "md5": "720ba39c447736e990c9674117458892",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "52800019-2f4a-870a-8001-c01552668df7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr-CA/mac-store-7.png",
+          "md5": "4e89f68933843e3d230be8f843366911",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "fi",
+      "sourceLocale": "fi",
+      "type": "APP_DESKTOP",
+      "setId": "ca32a7b1-1f2c-4b66-bd55-3ffffce16bf2",
+      "verifiedAt": "2026-10-14T01:51:41.275Z",
+      "screenshots": [
+        {
+          "id": "40000019-2f4a-870a-801a-231cb2a68b20",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fi/mac-store-1.png",
+          "md5": "8ebc6b0c06cb7f999649e94bcebbf3a7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab400019-2f4a-870a-803a-237ff05e3ee9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fi/mac-store-2.png",
+          "md5": "1033db3e3552cb660269ef54ea6d245f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6000019-2f4a-870a-8037-5c6be610a5c0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fi/mac-store-3.png",
+          "md5": "f41be8ec4077d2718c4304f0dbb12ab5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6d800019-2f4a-870a-8027-c965427470c8",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fi/mac-store-4.png",
+          "md5": "13a054142bea500baa6db0846bceee67",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fec00019-2f4a-870a-8012-4826349d35ad",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fi/mac-store-5.png",
+          "md5": "7b1bd59384980b67e610d2fb42fb810e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d000019-2f4a-870a-8025-243792c29816",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fi/mac-store-6.png",
+          "md5": "b2df9904c0390e93d6ff1d9bd95270ec",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "06800019-2f4a-870a-8019-c62f80858862",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fi/mac-store-7.png",
+          "md5": "bee8ca2f902ae8b91f4695042b775209",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "fr-FR",
+      "sourceLocale": "fr",
+      "type": "APP_DESKTOP",
+      "setId": "1d8ab07d-d080-4ca3-833e-7605fececc7b",
+      "verifiedAt": "2026-10-14T01:51:42.978Z",
+      "screenshots": [
+        {
+          "id": "ae800019-2f4a-870a-800d-7f7ebac23019",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr/mac-store-1.png",
+          "md5": "e626f552b483018a2362aa4c9cea6f8a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9000019-2f4a-870a-800d-aa156bec2c6c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr/mac-store-2.png",
+          "md5": "40e3e1d7574741c4b7e8d7235d120841",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "51400019-2f4a-870a-802c-b64dcab3fcbf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr/mac-store-3.png",
+          "md5": "6dc70bd80bd92a641eecce90d0369b2a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ee800019-2f4a-870a-803c-f8b4f32c66cf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr/mac-store-4.png",
+          "md5": "f36f360fc674ab4f6b7f56b9747397a3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2b800019-2f4a-870a-803b-76348f5eeb77",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr/mac-store-5.png",
+          "md5": "1462af86938d617ca4e59afe318e79ed",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60c00019-2f4a-870a-8018-7bc6e72f154a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr/mac-store-6.png",
+          "md5": "063282a8f51a247847f4821ecd509ab0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "95400019-2f4a-870a-803f-e44afb3ae38a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/fr/mac-store-7.png",
+          "md5": "c4cfed9d8d959c1e2189b81dee09a7f3",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "de-DE",
+      "sourceLocale": "de",
+      "type": "APP_DESKTOP",
+      "setId": "3b638c19-af63-4da3-b2f9-87de946eee5d",
+      "verifiedAt": "2026-10-14T01:51:50.770Z",
+      "screenshots": [
+        {
+          "id": "1e800019-2f4a-870a-8007-e18c0c7606fe",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/de/mac-store-1.png",
+          "md5": "dc001c2fc612041b4405c30720ac0fdb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fa400019-2f4a-870a-802a-a824ad5f8120",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/de/mac-store-2.png",
+          "md5": "4901746e7177f73853fab083358c387c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "30c00019-2f4a-870a-802f-11b14b529738",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/de/mac-store-3.png",
+          "md5": "71d3036319fd01a30a92d9528ea28278",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9bc00019-2f4a-870a-802e-ae5ee59a8d70",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/de/mac-store-4.png",
+          "md5": "53ac1222bfc2b8c568761b33f9ab02e5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83800019-2f4a-870a-8038-b95f3f681608",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/de/mac-store-5.png",
+          "md5": "2e025c5b2e043b672605dc35f4c1dec0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "65400019-2f4a-870a-803a-affe6c110202",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/de/mac-store-6.png",
+          "md5": "8bbc35457ab9eba1933580a23f82356b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fd000019-2f4a-870a-803f-07327687dfa1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/de/mac-store-7.png",
+          "md5": "8e40d3a282f8ac82b7a26e93fd646189",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "el",
+      "sourceLocale": "el",
+      "type": "APP_DESKTOP",
+      "setId": "00895c75-4480-486f-a5cc-fa7d9599dd5c",
+      "verifiedAt": "2026-10-14T01:51:54.243Z",
+      "screenshots": [
+        {
+          "id": "a6000019-2f4a-870a-8037-aec5ecb4dd43",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/el/mac-store-1.png",
+          "md5": "6cfe4faba0980338648ba6ca7b43cd8c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80c00019-2f4a-870a-8017-9119d7bc06d2",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/el/mac-store-2.png",
+          "md5": "7020834a0a1b5c4f122167469a07cc78",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "97400019-2f4a-870a-8010-88234c31a5e9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/el/mac-store-3.png",
+          "md5": "a68e8dd423b4940ef5011d86485e8418",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60400019-2f4a-870a-802b-578a20e60451",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/el/mac-store-4.png",
+          "md5": "7eff78fce99a332ce451fda5dc222a17",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fd000019-2f4a-870a-8030-7075588e4931",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/el/mac-store-5.png",
+          "md5": "fe30518320278cf8300ba425e49a350c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c8000019-2f4a-870a-8005-da4e4362f907",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/el/mac-store-6.png",
+          "md5": "b3145f881646eb604a5c494fcc973e54",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6f000019-2f4a-870a-8016-c909643387af",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/el/mac-store-7.png",
+          "md5": "405169ef6cfff28ef22d0a8d0da146ca",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "gu-IN",
+      "sourceLocale": "gu",
+      "type": "APP_DESKTOP",
+      "setId": "eac8a9a3-d127-4e43-b633-2e50d180d9c3",
+      "verifiedAt": "2026-10-14T01:51:56.568Z",
+      "screenshots": [
+        {
+          "id": "a8800019-2f4a-870a-8029-a52a144e4e73",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/gu/mac-store-1.png",
+          "md5": "77b1423ee1c6d01adcb4d7ea69b73566",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fac00019-2f4a-870a-8019-e67c005cfd99",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/gu/mac-store-2.png",
+          "md5": "5b3684b8c8caa1ec3420e29d7a4c1fe6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e6000019-2f4a-870a-8001-ee262808f738",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/gu/mac-store-3.png",
+          "md5": "5d3e0fcbcd499c44eb155d675a4c422d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "29400019-2f4a-870a-802e-e1341c21bf00",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/gu/mac-store-4.png",
+          "md5": "8ab3a8063697f4cfab4ae7a957a2e891",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "42c00019-2f4a-870a-800c-4bebfbc28090",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/gu/mac-store-5.png",
+          "md5": "0213decd5cfa3629b5548737001c6f16",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99800019-2f4a-870a-803b-31686f5fd6fa",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/gu/mac-store-6.png",
+          "md5": "ae32a32d15211a7cdff9ac66a4986e67",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "da800019-2f4a-870a-8039-c63c99dd45d6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/gu/mac-store-7.png",
+          "md5": "09c40f480145974dfd67954848502053",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "hu",
+      "sourceLocale": "hu",
+      "type": "APP_DESKTOP",
+      "setId": "9b4099e1-4180-4afa-a654-f1dec182ed62",
+      "verifiedAt": "2026-10-14T01:52:02.030Z",
+      "screenshots": [
+        {
+          "id": "9b800019-2f4a-870a-8023-4acf935f07c6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hu/mac-store-1.png",
+          "md5": "d3f5298b952a406cd3d91fd797953b8c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a8400019-2f4a-870a-8022-501dbddfd5c5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hu/mac-store-2.png",
+          "md5": "9ed04afed69e14286ce3a3204375b7d5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e3000019-2f4a-870a-800a-0f1f879016f9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hu/mac-store-3.png",
+          "md5": "430bd27ac351deb3e35db85f158d4751",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7c00019-2f4a-870a-8013-a5fddb9e1e3e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hu/mac-store-4.png",
+          "md5": "58117f51b6781aeff44adb90f1df1e51",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e9c00019-2f4a-870a-8028-62473efc16a1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hu/mac-store-5.png",
+          "md5": "ba3f375a69b877eb4fa46b22ca992fa0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "08c00019-2f4a-870a-8033-2009e6436826",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hu/mac-store-6.png",
+          "md5": "e3c091f9c6e5775396659fb63a2c57e6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6a000019-2f4a-870a-8025-7ca3c8c15c64",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hu/mac-store-7.png",
+          "md5": "86efc13ab015408aa47834230d3078f4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "hi",
+      "sourceLocale": "hi",
+      "type": "APP_DESKTOP",
+      "setId": "b2d8b43b-b3ef-46bf-b38f-71d7b2ab3c34",
+      "verifiedAt": "2026-10-14T01:52:12.713Z",
+      "screenshots": [
+        {
+          "id": "09000019-2f4a-870a-8027-8d99b1eec758",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hi/mac-store-1.png",
+          "md5": "a484edf8d2f3bf70842c053dd594acc3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "54c00019-2f4a-870a-8021-265d7e5954b9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hi/mac-store-2.png",
+          "md5": "b55d2af6f8e78390c49ddbe1889b56fb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b6400019-2f4a-870a-800d-8e8de99e7cd4",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hi/mac-store-3.png",
+          "md5": "1b47735e3bf2eecbd6b1995263976707",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4cc00019-2f4a-870a-8026-b78ee68bf1ab",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hi/mac-store-4.png",
+          "md5": "a5da4f071039d169a67cc3cbd3e0823d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "68400019-2f4a-870a-8022-9009f58f2acf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hi/mac-store-5.png",
+          "md5": "04821bec26eb709d5100f2515ac59fe9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "8c000019-2f4a-870a-8029-e94607681f6d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hi/mac-store-6.png",
+          "md5": "0282e486b9b7f3ab0101c22bbd7be7be",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ae400019-2f4a-870a-802e-ea84c2a09844",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/hi/mac-store-7.png",
+          "md5": "10e566f349528efe90324b26ac4db1a4",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "it",
+      "sourceLocale": "it",
+      "type": "APP_DESKTOP",
+      "setId": "29ed3a3e-1e63-4ead-bea3-a63ceb4d5dba",
+      "verifiedAt": "2026-10-14T01:52:13.780Z",
+      "screenshots": [
+        {
+          "id": "b3000019-2f4a-870a-8016-e8798bc5f3a0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/it/mac-store-1.png",
+          "md5": "fe480cac393f6559bdcb24cc16783eca",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86400019-2f4a-870a-8015-a62ff38bbc3a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/it/mac-store-2.png",
+          "md5": "56168c2546dab723f0c7bca6b0ef0c75",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a8000019-2f4a-870a-8019-c9db55cde5de",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/it/mac-store-3.png",
+          "md5": "8280912a8cc69c82cc813aab69636c47",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bf800019-2f4a-870a-8027-5acaaf242cad",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/it/mac-store-4.png",
+          "md5": "57d591578c8451c5afc0f7b8e7aa7fef",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9b800019-2f4a-870a-8011-96e4205c1a13",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/it/mac-store-5.png",
+          "md5": "c0eca15d8966737131ac671d668e669b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c5800019-2f4a-870a-8034-396580c19164",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/it/mac-store-6.png",
+          "md5": "4792bf6fe44518fa909f589ee33a54dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e7c00019-2f4a-870a-8023-6b9505bb5421",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/it/mac-store-7.png",
+          "md5": "80649be336faafd8b6a2834f2d4f3aa5",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "he",
+      "sourceLocale": "he",
+      "type": "APP_DESKTOP",
+      "setId": "7f38dcce-95d2-4798-922e-70d35ac49bee",
+      "verifiedAt": "2026-10-14T01:52:20.578Z",
+      "screenshots": [
+        {
+          "id": "4c000019-2f4a-870a-8022-ddd62f71c6bd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/he/mac-store-1.png",
+          "md5": "91574cd904d46bf519f77fbc41a973f2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a1000019-2f4a-870a-8002-5fe8e2f8bb62",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/he/mac-store-2.png",
+          "md5": "e7d388845299b7fc14fb6e5190c2eed0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fc400019-2f4a-870a-800f-4624f800a7c5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/he/mac-store-3.png",
+          "md5": "c40232be50be6114445ea8925bda2520",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "abc00019-2f4a-870a-8021-d0daf1e6ad89",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/he/mac-store-4.png",
+          "md5": "f3b66e43fbc95ce919c10928a3f95caa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6b800019-2f4a-870a-8021-c76f18cbe41e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/he/mac-store-5.png",
+          "md5": "9c56e1e5c2d668485bc9273dd5502ec2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c8c00019-2f4a-870a-8035-a849e77a02a7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/he/mac-store-6.png",
+          "md5": "6b10cff397b58ccc0ccd2070c8ff16ff",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2f000019-2f4a-870a-8023-c0b063d160c7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/he/mac-store-7.png",
+          "md5": "067501fe9226570b64c6e5d1f6e2a94a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "id",
+      "sourceLocale": "id",
+      "type": "APP_DESKTOP",
+      "setId": "b286b6b9-4da0-444a-981f-b28c2d3e72b4",
+      "verifiedAt": "2026-10-14T01:52:20.865Z",
+      "screenshots": [
+        {
+          "id": "83400019-2f4a-870a-8015-cc659c3f09ff",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/id/mac-store-1.png",
+          "md5": "c6ff5d8363bdf2c2a82496f16b8062d3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3f400019-2f4a-870a-8029-f47362781ae2",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/id/mac-store-2.png",
+          "md5": "e57a394a87f2ce5c5a0f5a723cf576a8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0e000019-2f4a-870a-802a-a21c05cbaca0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/id/mac-store-3.png",
+          "md5": "f5abae552d72237da43b60c3237b1304",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a1000019-2f4a-870a-8021-26c481d90d15",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/id/mac-store-4.png",
+          "md5": "35ad54578a3bd467e46bb115ea55c9f3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c3c00019-2f4a-870a-8029-632dfdb402a6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/id/mac-store-5.png",
+          "md5": "09720db44db29af60fccf90e830e81d6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6bc00019-2f4a-870a-8030-51919927232a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/id/mac-store-6.png",
+          "md5": "15478932bf634b6bb292ea1227e259aa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9000019-2f4a-870a-8035-49c06425c00b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/id/mac-store-7.png",
+          "md5": "68aeb19e31a28f4f3276e90fdf155743",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ja",
+      "sourceLocale": "ja",
+      "type": "APP_DESKTOP",
+      "setId": "8000e829-b299-4e6b-a510-38965f9b1bd8",
+      "verifiedAt": "2026-10-14T01:52:30.701Z",
+      "screenshots": [
+        {
+          "id": "f1000019-2f4a-870a-8015-97d5a5b9d85e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ja/mac-store-1.png",
+          "md5": "fabd47d328210519ea258d94ca1db8b4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59400019-2f4a-870a-802c-a49c73ac48af",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ja/mac-store-2.png",
+          "md5": "4fee95ad637906af64e828fcf5ec5d9c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab800019-2f4a-870a-8006-613c0837c037",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ja/mac-store-3.png",
+          "md5": "76c7ef39572803a212a89da18bc09490",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35800019-2f4a-870a-8029-df9110febba1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ja/mac-store-4.png",
+          "md5": "4fc52435ef77798f1a63f2392c481360",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d7800019-2f4a-870a-8039-993fba92ad50",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ja/mac-store-5.png",
+          "md5": "887e96c639ef2ad5fd156aba45766ca4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9c400019-2f4a-870a-8032-5d4f69f9191a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ja/mac-store-6.png",
+          "md5": "49f33cc3b70c671eedb368bc674f25d8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "be400019-2f4a-870a-8006-343a70c1d73c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ja/mac-store-7.png",
+          "md5": "297ad052706e920fc4b68dd77c3d584a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ko",
+      "sourceLocale": "ko",
+      "type": "APP_DESKTOP",
+      "setId": "a1138404-0d67-491c-a0d4-8d2ffaedc97d",
+      "verifiedAt": "2026-10-14T01:52:35.991Z",
+      "screenshots": [
+        {
+          "id": "50000019-2f4a-870a-803d-c89c44ad3559",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-1.png",
+          "md5": "782fdc74528f61965680b42f331a9a04",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b1c00019-2f4a-870a-8025-0054e9d8d24f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-2.png",
+          "md5": "8e003543b3b8a48d6d70265862264221",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d0400019-2f4a-870a-8039-f3b79c6282cf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-3.png",
+          "md5": "69986aff437c3fa363acc3ff6a2f6fc4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5400019-2f4a-870a-802c-020546d1351c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-4.png",
+          "md5": "c6d60399312ee985492b803305b723f5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3a000019-2f4a-870a-8036-39943726f8fd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-5.png",
+          "md5": "be79fe98cf6c399960e0d9429cb1e126",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80400019-2f4a-870a-8038-c78d10c406b9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-6.png",
+          "md5": "ae2b4e6598a572489c3f347507aa6542",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "91c00019-2f4a-870a-8017-3beb4ac48681",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ko/mac-store-7.png",
+          "md5": "398d24e56e7c42421a3d1506cec3ec3a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "kn-IN",
+      "sourceLocale": "kn",
+      "type": "APP_DESKTOP",
+      "setId": "f830ce73-83f8-42c1-af98-658f201e9773",
+      "verifiedAt": "2026-10-14T01:52:42.643Z",
+      "screenshots": [
+        {
+          "id": "bd400019-2f4a-870a-801d-70e610cec9ba",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/kn/mac-store-1.png",
+          "md5": "7979070e7d2a3eeb2cb7ec878bd07f76",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8c00019-2f4a-870a-8039-f6241a4315e0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/kn/mac-store-2.png",
+          "md5": "852ac4484c82da22981584fddbb8ec78",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a9000019-2f4a-870a-8000-4b9f30f7d0c1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/kn/mac-store-3.png",
+          "md5": "db120d5aade16e0cae298c8bbe9f6af3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "13000019-2f4a-870a-8021-f35942f3a61c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/kn/mac-store-4.png",
+          "md5": "ffcf763978c7e4f381c2721fd061a998",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f2400019-2f4a-870a-8035-4e5f8ce6f294",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/kn/mac-store-5.png",
+          "md5": "8fdaedb8dd3630f332211e6a0dbda170",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2a400019-2f4a-870a-801c-15110f23812e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/kn/mac-store-6.png",
+          "md5": "8d39b38dc930003beab6cc6ead7992ae",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60400019-2f4a-870a-8012-9f5d8870db04",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/kn/mac-store-7.png",
+          "md5": "b7b3030c13944640e98addabdd82a095",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ms",
+      "sourceLocale": "ms",
+      "type": "APP_DESKTOP",
+      "setId": "10123842-cd2b-44ab-ab2b-393b04b847aa",
+      "verifiedAt": "2026-10-14T01:52:44.302Z",
+      "screenshots": [
+        {
+          "id": "d6400019-2f4a-870a-8031-c35a3f086d5a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ms/mac-store-1.png",
+          "md5": "4802a2cb8c5bc664959cb9c83cc515e1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "98000019-2f4a-870a-803c-208bdf115fa5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ms/mac-store-2.png",
+          "md5": "26f29899ee66e3c471b1e7612084442f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6800019-2f4a-870a-802d-0a0542b15045",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ms/mac-store-3.png",
+          "md5": "7455045e8fe04ae467d4464f240dbabf",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c7800019-2f4a-870a-8023-ba15acd0a9a3",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ms/mac-store-4.png",
+          "md5": "0123a7ae01c8f1589ee24e7c85c5d6b8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80000019-2f4a-870a-800a-3547f0c86ddf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ms/mac-store-5.png",
+          "md5": "8ce5cd6e963bfef780212b1d3556e966",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6800019-2f4a-870a-8025-0d51e10aa76a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ms/mac-store-6.png",
+          "md5": "54fc4137cf3bdf963e6a549f79ed6e22",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "85400019-2f4a-870a-8019-4536ed627d65",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ms/mac-store-7.png",
+          "md5": "b3f9a04fe6cddeaf7bae308d654d2680",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ml-IN",
+      "sourceLocale": "ml",
+      "type": "APP_DESKTOP",
+      "setId": "e1a8785b-774e-470e-ae5e-cad8fc7507bc",
+      "verifiedAt": "2026-10-14T01:52:50.892Z",
+      "screenshots": [
+        {
+          "id": "29400019-2f4a-870a-8007-03ab2d0051d8",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ml/mac-store-1.png",
+          "md5": "e9902efba18c76716c7fb8607c05a07c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1a000019-2f4a-870a-8005-683dfe011801",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ml/mac-store-2.png",
+          "md5": "d84ab0c53ee073589858e9873e386b08",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6f800019-2f4a-870a-8035-79b99e7514eb",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ml/mac-store-3.png",
+          "md5": "bd94a68ac3e60439217226fa4e9490dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d3800019-2f4a-870a-801a-8ab1732a9c54",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ml/mac-store-4.png",
+          "md5": "3ca432f19aefcd999e9899f1a407e579",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35c00019-2f4a-870a-8035-0ffec43e119d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ml/mac-store-5.png",
+          "md5": "f107918158e1dcc96835ee85416ba3f4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "27c00019-2f4a-870a-8034-12834501052d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ml/mac-store-6.png",
+          "md5": "b1c5792f9270189f0d04b7f452390a45",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cc800019-2f4a-870a-8003-305eda5b9ffd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ml/mac-store-7.png",
+          "md5": "d8dc67cae3d673ce733142e32d13f904",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "or-IN",
+      "sourceLocale": "or",
+      "type": "APP_DESKTOP",
+      "setId": "7cbde4a9-e286-41ad-9788-8d5b34442300",
+      "verifiedAt": "2026-10-14T01:52:51.938Z",
+      "screenshots": [
+        {
+          "id": "f1c00019-2f4a-870a-8012-44c08b141f48",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/or/mac-store-1.png",
+          "md5": "1f11a4e724bc11bf707a46f5d7e4584b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fe000019-2f4a-870a-803a-dbe9578af2cf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/or/mac-store-2.png",
+          "md5": "ebb2e7b3357623b1ecf5131ec9d8b260",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "25000019-2f4a-870a-802d-0878e31aebaf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/or/mac-store-3.png",
+          "md5": "82edfb5de6fd52593532e72aad026482",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cb800019-2f4a-870a-800b-867f4c3c57cd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/or/mac-store-4.png",
+          "md5": "98d5d274c25bd9e2effa43a196c2fea0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "69c00019-2f4a-870a-802e-3aefd30a238f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/or/mac-store-5.png",
+          "md5": "e3b5f377428ee6f1f1fdf1423093870c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "74c00019-2f4a-870a-8013-0822ef67fb2c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/or/mac-store-6.png",
+          "md5": "5647114cf8bf2a9c7d78a809755b42be",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "82000019-2f4a-870a-8033-4731c51d5d78",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/or/mac-store-7.png",
+          "md5": "416120986962344cdc078f5685947262",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "mr-IN",
+      "sourceLocale": "mr",
+      "type": "APP_DESKTOP",
+      "setId": "68686411-4c21-4666-99b8-27b1360caff3",
+      "verifiedAt": "2026-10-14T01:52:56.305Z",
+      "screenshots": [
+        {
+          "id": "0d000019-2f4a-870a-803e-56e9c112833a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/mr/mac-store-1.png",
+          "md5": "f19ea0e4aef327b7ada80e7a6fa58d1d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05000019-2f4a-870a-8028-2cba464e3124",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/mr/mac-store-2.png",
+          "md5": "596e221bb8b55410e9b17c76e77bd7a4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dc000019-2f4a-870a-800a-265f301b135e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/mr/mac-store-3.png",
+          "md5": "2a307a879fcb398cacf2429b834fbcf9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e8800019-2f4a-870a-803a-986b2e0ac313",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/mr/mac-store-4.png",
+          "md5": "1f032aa3984f9680950e423768a66a39",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "01400019-2f4a-870a-8024-fab3738da206",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/mr/mac-store-5.png",
+          "md5": "774fa2c158f3c0e8f2c02f31fb494af2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "99c00019-2f4a-870a-8026-f9864bbac033",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/mr/mac-store-6.png",
+          "md5": "514709b97888e35f8af686b63d0cb2b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0a400019-2f4a-870a-800a-80ae269273a3",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/mr/mac-store-7.png",
+          "md5": "b62a9a31d575df437346c69e79d54ee5",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "no",
+      "sourceLocale": "nb",
+      "type": "APP_DESKTOP",
+      "setId": "4f100f39-44c1-4f0e-a7ca-8854067b8c1b",
+      "verifiedAt": "2026-10-14T01:52:57.744Z",
+      "screenshots": [
+        {
+          "id": "6f000019-2f4a-870a-8013-44193e6bdc51",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nb/mac-store-1.png",
+          "md5": "7f35d4acc921a0b800aa9ab10958199d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b3400019-2f4a-870a-800a-5333dd21f045",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nb/mac-store-2.png",
+          "md5": "18e0a397b1b974bc6ef4115492897bcc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "93000019-2f4a-870a-8017-c53605fd6446",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nb/mac-store-3.png",
+          "md5": "32548b2080bc79e10b953121fe5b8960",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "94400019-2f4a-870a-801f-bd5669925a35",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nb/mac-store-4.png",
+          "md5": "af8068053cba0bd2c0a405a90f20d058",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "13c00019-2f4a-870a-800b-aafce9d53ea2",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nb/mac-store-5.png",
+          "md5": "21a1ba1f5083b3a13223c05b601d809e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dbc00019-2f4a-870a-801c-5694a866e5b4",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nb/mac-store-6.png",
+          "md5": "148a187ac1ddac27399e8f094c5e383d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d400019-2f4a-870a-8008-41bf65e0245d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/nb/mac-store-7.png",
+          "md5": "97801305ae4f53c5c8a0f721aa3e2d29",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "pl",
+      "sourceLocale": "pl",
+      "type": "APP_DESKTOP",
+      "setId": "7f660809-6861-47c7-b0cf-b28dffb078b6",
+      "verifiedAt": "2026-10-14T01:53:06.021Z",
+      "screenshots": [
+        {
+          "id": "79000019-2f4a-870a-8007-e45148ca461f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pl/mac-store-1.png",
+          "md5": "ad1af04d4da4b8c458a16ac04d51a7e2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7000019-2f4a-870a-8002-d31326d72b6f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pl/mac-store-2.png",
+          "md5": "2f26da76e9c97ccd8cc9f025331d6f02",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a3c00019-2f4a-870a-8008-4f8dcb9e1266",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pl/mac-store-3.png",
+          "md5": "57bd0b181183f58c933719f88bb86553",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "23800019-2f4a-870a-8027-4d5b13e070b9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pl/mac-store-4.png",
+          "md5": "d0df09a0613641f82fbf599c6e26dcda",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e1000019-2f4a-870a-803b-7ed0aa9829b6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pl/mac-store-5.png",
+          "md5": "c8eebedce2a237f92188587d4d66c1f5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1b400019-2f4a-870a-8012-16372352f916",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pl/mac-store-6.png",
+          "md5": "26f4d68d052ae29eee4751c4d0870aa0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2fc00019-2f4a-870a-803e-5b01e0de3102",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pl/mac-store-7.png",
+          "md5": "c5416bc4f37976eb6c7274a67a8ffa2c",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "pa-IN",
+      "sourceLocale": "pa",
+      "type": "APP_DESKTOP",
+      "setId": "560577c8-81b1-476a-abc3-7c6b83c4d167",
+      "verifiedAt": "2026-10-14T01:53:07.035Z",
+      "screenshots": [
+        {
+          "id": "38800019-2f4a-870a-8038-db4063a9baa6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pa/mac-store-1.png",
+          "md5": "53f556af4b81c39d3faf37af1b485143",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "36400019-2f4a-870a-8029-97ae34fb8211",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pa/mac-store-2.png",
+          "md5": "5965424d65a3893517ed945cf5d6dde7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "33c00019-2f4a-870a-8035-e32cb8f017ff",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pa/mac-store-3.png",
+          "md5": "0d2519a336f042505e4ea19f33b9cdb6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "31000019-2f4a-870a-802c-ef30b94b8e7b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pa/mac-store-4.png",
+          "md5": "7016fdf39fb6532a6d544a33c8df48f9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92400019-2f4a-870a-8034-f06ff49cc4f0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pa/mac-store-5.png",
+          "md5": "2ccc29084d7c8357ae07e3d8bd1be0fe",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "18000019-2f4a-870a-8035-e9864ab04b17",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pa/mac-store-6.png",
+          "md5": "df838935f44bc2bdb78a94818e51d974",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "15800019-2f4a-870a-802d-1cba854eaeef",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pa/mac-store-7.png",
+          "md5": "0f24c6eff08a4a7204468eaf634f99c2",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "type": "APP_DESKTOP",
+      "setId": "c2f34254-59bc-42c4-9e04-d501b0df9874",
+      "verifiedAt": "2026-10-14T01:53:09.828Z",
+      "screenshots": [
+        {
+          "id": "8b800019-2f4a-870a-800e-dba0a482269f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-BR/mac-store-1.png",
+          "md5": "f8252c49612da23b67c829440745ec77",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ebc00019-2f4a-870a-8024-46df2c15387f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-BR/mac-store-2.png",
+          "md5": "2af77fb1c2c754ae5113262358da8b72",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ae800019-2f4a-870a-801c-ed93f038cb10",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-BR/mac-store-3.png",
+          "md5": "a309f6679427047a4c215b93bb8ae3d2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "44400019-2f4a-870a-803c-a458f5bddf1f",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-BR/mac-store-4.png",
+          "md5": "d1d41ad47dde59b432b5cbd619a40b70",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "35000019-2f4a-870a-8009-55fd200cbbfa",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-BR/mac-store-5.png",
+          "md5": "0e54a29c120730f81c5b6cae96ab2dd5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "47c00019-2f4a-870a-8007-018314b0bf24",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-BR/mac-store-6.png",
+          "md5": "24097e3aa9fe14123a82aaa23cfeb272",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b0400019-2f4a-870a-800d-6e1f67e2932a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-BR/mac-store-7.png",
+          "md5": "7482c1010908cb317788a0864ca47af6",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "pt-PT",
+      "sourceLocale": "pt-PT",
+      "type": "APP_DESKTOP",
+      "setId": "5ea39a04-54d7-4093-848d-d7ce0a54d47d",
+      "verifiedAt": "2026-10-14T01:53:10.606Z",
+      "screenshots": [
+        {
+          "id": "91000019-2f4a-870a-802e-d1fed4c0b4a5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-PT/mac-store-1.png",
+          "md5": "1174c92a2caad4d59ed0a64a9a141820",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c9000019-2f4a-870a-8011-04ffea17c957",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-PT/mac-store-2.png",
+          "md5": "07f75dea1dd9d6c090aa2092300cf131",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d9c00019-2f4a-870a-8006-441c58bc94cd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-PT/mac-store-3.png",
+          "md5": "616686a64fc0978191ec79aa09e82479",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e1400019-2f4a-870a-8031-1d9238fe6d74",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-PT/mac-store-4.png",
+          "md5": "80e27cd9a8f6f365c47b0b0466b5c421",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2c800019-2f4a-870a-803f-79ef31c112d3",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-PT/mac-store-5.png",
+          "md5": "e6fb94f7846856eca59078761f0a789c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e6800019-2f4a-870a-801a-119737840e59",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-PT/mac-store-6.png",
+          "md5": "99b36a27c144faf278ce53dd33ff6f84",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "49000019-2f4a-870a-8016-14cfcae9fc21",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/pt-PT/mac-store-7.png",
+          "md5": "d1192521634bc2a9b3db70e26d2d8fa8",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ru",
+      "sourceLocale": "ru",
+      "type": "APP_DESKTOP",
+      "setId": "b96b8732-f2e8-48a8-a059-94dfa7789462",
+      "verifiedAt": "2026-10-14T01:53:10.837Z",
+      "screenshots": [
+        {
+          "id": "8e400019-2f4a-870a-803c-cebe3f752a47",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ru/mac-store-1.png",
+          "md5": "e69be89e1e3caf35ae76ffb480a8aced",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ad400019-2f4a-870a-803c-343bdf74762c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ru/mac-store-2.png",
+          "md5": "bed988c8841fd86599af0cc92912c5a6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0f800019-2f4a-870a-802d-35c588ec7ede",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ru/mac-store-3.png",
+          "md5": "ea7df436a2d1a9ace8eed59cf83e3031",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1e000019-2f4a-870a-8003-1f5dc14a9699",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ru/mac-store-4.png",
+          "md5": "98c28ee05d1d8228671d9545574c4bbd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b0c00019-2f4a-870a-8028-d9e93998b66b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ru/mac-store-5.png",
+          "md5": "103f51e0582efb9a907e01f6fa1db797",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "04400019-2f4a-870a-8001-5681f14e0514",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ru/mac-store-6.png",
+          "md5": "22410578160d8d0f679f57de8a5aab99",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3c800019-2f4a-870a-803a-666375636d58",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ru/mac-store-7.png",
+          "md5": "7abf9568cd726fbeed8a8746450b8e88",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ro",
+      "sourceLocale": "ro",
+      "type": "APP_DESKTOP",
+      "setId": "d43e9f7b-6c72-493d-91d8-6d47fb96ae17",
+      "verifiedAt": "2026-10-14T01:53:21.046Z",
+      "screenshots": [
+        {
+          "id": "b2000019-2f4a-870a-801d-3735d181009a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ro/mac-store-1.png",
+          "md5": "0e668d08a878b172b414a0324a933ad8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6a800019-2f4a-870a-8000-002501d18ee5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ro/mac-store-2.png",
+          "md5": "bd1354cd8c121dfbea1799b5aed67361",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fd800019-2f4a-870a-803f-530c8bd829e7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ro/mac-store-3.png",
+          "md5": "3371bdb4504ceba4fe5fae30c7d7dd21",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e6800019-2f4a-870a-803c-3d65026fc224",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ro/mac-store-4.png",
+          "md5": "33b92d7e7234792ed86438440d631b55",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "32400019-2f4a-870a-8016-1fd4113d6db3",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ro/mac-store-5.png",
+          "md5": "cbcc4aef7f725e84b20850bc185b97b9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4dc00019-2f4a-870a-800b-4f5a8de8946b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ro/mac-store-6.png",
+          "md5": "c00251eadb038cca0d61fb2090c46882",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "1ec00019-2f4a-870a-8013-d039c5af573a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ro/mac-store-7.png",
+          "md5": "9350f31e5ba71fd40c8ef46b1a09ad44",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "sk",
+      "sourceLocale": "sk",
+      "type": "APP_DESKTOP",
+      "setId": "12f9d4d7-c00e-46b2-b784-cb4dd234abdd",
+      "verifiedAt": "2026-10-14T01:53:24.550Z",
+      "screenshots": [
+        {
+          "id": "29c00019-2f4a-870a-8015-f7e0202fafbd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sk/mac-store-1.png",
+          "md5": "d991424cbc1be7c63c4f4982aaead0ef",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "50000019-2f4a-870a-802f-616a11b515e6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sk/mac-store-2.png",
+          "md5": "9e5845652857a5fc6651fc8ba0b5666e",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "66400019-2f4a-870a-8032-2f59c180b2ae",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sk/mac-store-3.png",
+          "md5": "953b2fc671ad47b7ce33a55fa972493d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6c000019-2f4a-870a-801b-f414d33df4d5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sk/mac-store-4.png",
+          "md5": "4069832380accf57266bf1cab88e76de",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f5800019-2f4a-870a-801e-9068cd7753da",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sk/mac-store-5.png",
+          "md5": "5021bf9eb95e264611608bc7dd6863ec",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6f000019-2f4a-870a-803e-85f155a6dc00",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sk/mac-store-6.png",
+          "md5": "556067aae3b3ea013aaa1648dbb60801",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "30800019-2f4a-870a-8036-077e53441048",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sk/mac-store-7.png",
+          "md5": "e022a662075ccf53ef660cd7c23b3847",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "sl-SI",
+      "sourceLocale": "sl",
+      "type": "APP_DESKTOP",
+      "setId": "3b647dea-7eab-4c84-a9f7-b92f2cf6fee5",
+      "verifiedAt": "2026-10-14T01:53:25.102Z",
+      "screenshots": [
+        {
+          "id": "80c00019-2f4a-870a-8025-24c36cea15bf",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sl/mac-store-1.png",
+          "md5": "6e132992acb53acaa446cae81fec92f3",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b1c00019-2f4a-870a-8003-7aeac1d84a26",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sl/mac-store-2.png",
+          "md5": "1793774624c808e14efae3f29eb2d179",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "59800019-2f4a-870a-8002-0b57a4875eba",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sl/mac-store-3.png",
+          "md5": "e5e2e91c95e8699dd9f69f5bd685c83b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "83c00019-2f4a-870a-801a-57c37e3df65b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sl/mac-store-4.png",
+          "md5": "4e58e9fa94cf39202eb0dd81573eb0b5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "04400019-2f4a-870a-8036-601d78bf5739",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sl/mac-store-5.png",
+          "md5": "f0ad4e770b3ff0eba91a4a00d2214232",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "80000019-2f4a-870a-803c-0f259a579aba",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sl/mac-store-6.png",
+          "md5": "47c3011995118f9cb2258fe23490979d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "ab800019-2f4a-870a-803f-0eb528a13907",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sl/mac-store-7.png",
+          "md5": "bcb3ca935ebbd1a49d57d05b4233c806",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "sv",
+      "sourceLocale": "sv",
+      "type": "APP_DESKTOP",
+      "setId": "be4fc557-6363-4e9c-8a8b-bf8ea7bed3e5",
+      "verifiedAt": "2026-10-14T01:53:26.489Z",
+      "screenshots": [
+        {
+          "id": "c5400019-2f4a-870a-8022-f504451e609d",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sv/mac-store-1.png",
+          "md5": "d95e63a978f8227835fa61b8780434f6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "74400019-2f4a-870a-8035-2e3745dddd6b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sv/mac-store-2.png",
+          "md5": "33422edec3e347c8747365bff66d357c",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "10400019-2f4a-870a-8038-bbaf9c95a38a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sv/mac-store-3.png",
+          "md5": "162a2dd767ce69afa1c0bba5d4254e62",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cbc00019-2f4a-870a-8039-82a1b97fe4f2",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sv/mac-store-4.png",
+          "md5": "eafe5037433e9ee32df7aac9a8a49021",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "56800019-2f4a-870a-8022-27fa3bfc8797",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sv/mac-store-5.png",
+          "md5": "68d4edbe0862db582f12135b9ad14a00",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "7e800019-2f4a-870a-8009-42b0f3bb82e1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sv/mac-store-6.png",
+          "md5": "96500a7b8bc5e0c4be9cc176d65d6ffa",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4dc00019-2f4a-870a-803c-20a9d785a5e2",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/sv/mac-store-7.png",
+          "md5": "e0ee343fe9f81479264c6ca3d0740eb5",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "es-MX",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "setId": "1e610238-838e-4f7c-b003-c949cad6e7ac",
+      "verifiedAt": "2026-10-14T01:53:36.118Z",
+      "screenshots": [
+        {
+          "id": "36400019-2f4a-870a-8032-d1d9cb5d5a2b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-1.png",
+          "md5": "b9c857b1e2f97cfbda2a03f26c21d207",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4c000019-2f4a-870a-8013-15ff013ecf88",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-2.png",
+          "md5": "b92710f5fe04fd61f105636461d99a66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60400019-2f4a-870a-8020-aaf8777360f1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-3.png",
+          "md5": "545782c12a7880b28131c27733f47778",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "05000019-2f4a-870a-801a-462d0a512025",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-4.png",
+          "md5": "f3e68bbb6568b7f6116412676d7b64e9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6e800019-2f4a-870a-801e-dde624210dec",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-5.png",
+          "md5": "a80157e303c8cd3548b1dbf1406ae840",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4c400019-2f4a-870a-800a-1c5193647eb5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-6.png",
+          "md5": "8da35021351de730830ea96193811e1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "75000019-2f4a-870a-800b-dd009a3f74ba",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-7.png",
+          "md5": "010e296497fddaa75b3ae651afde5dcd",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "es-ES",
+      "sourceLocale": "es",
+      "type": "APP_DESKTOP",
+      "setId": "6e31ded9-3998-42a1-a58f-d9ef045ebb1b",
+      "verifiedAt": "2026-10-14T01:53:40.182Z",
+      "screenshots": [
+        {
+          "id": "4bc00019-2f4a-870a-8033-5ea4d9a7352b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-1.png",
+          "md5": "b9c857b1e2f97cfbda2a03f26c21d207",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3f800019-2f4a-870a-8014-0de40233c55c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-2.png",
+          "md5": "b92710f5fe04fd61f105636461d99a66",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6b400019-2f4a-870a-8024-31795e67b8ec",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-3.png",
+          "md5": "545782c12a7880b28131c27733f47778",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "da400019-2f4a-870a-802f-e8ce7f054c18",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-4.png",
+          "md5": "f3e68bbb6568b7f6116412676d7b64e9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "92800019-2f4a-870a-8019-3809889fa156",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-5.png",
+          "md5": "a80157e303c8cd3548b1dbf1406ae840",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d6400019-2f4a-870a-801f-26f16f6fc554",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-6.png",
+          "md5": "8da35021351de730830ea96193811e1b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "72000019-2f4a-870a-802c-4d76653189bb",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/es/mac-store-7.png",
+          "md5": "010e296497fddaa75b3ae651afde5dcd",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ta-IN",
+      "sourceLocale": "ta",
+      "type": "APP_DESKTOP",
+      "setId": "8f0802e5-252f-44b0-827c-4ae95dd51d65",
+      "verifiedAt": "2026-10-14T01:53:42.614Z",
+      "screenshots": [
+        {
+          "id": "1a000019-2f4a-870a-8018-f216fe390685",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ta/mac-store-1.png",
+          "md5": "40d4f7120bac6a003d7ce62ed3dcada6",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "fb400019-2f4a-870a-8030-9d21a95dd1ee",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ta/mac-store-2.png",
+          "md5": "25951fcfa38033c501b18fe0b3a3b50a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b7c00019-2f4a-870a-8027-ae55e4418fa6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ta/mac-store-3.png",
+          "md5": "05a517e5605ca2b98a89c26ce1c789d4",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "09000019-2f4a-870a-8023-4119ca8dd1a7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ta/mac-store-4.png",
+          "md5": "112b268e4d24bd034efa363f45f86adb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f6400019-2f4a-870a-8007-3585e99f6b38",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ta/mac-store-5.png",
+          "md5": "1c5cb64f5dd75e8d77fb8e32cba0f731",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b6000019-2f4a-870a-8035-a877cccafa72",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ta/mac-store-6.png",
+          "md5": "2fecd6b2a469fd1510ba4653fc2719f1",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "6dc00019-2f4a-870a-8013-7db63b2d9603",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ta/mac-store-7.png",
+          "md5": "4c7a4940e0a2562c9c3e44e8a89dceeb",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "te-IN",
+      "sourceLocale": "te",
+      "type": "APP_DESKTOP",
+      "setId": "f870f46a-9c35-4f1f-9ca1-2a24b61c86af",
+      "verifiedAt": "2026-10-14T01:53:50.882Z",
+      "screenshots": [
+        {
+          "id": "5f000019-2f4a-870a-800c-0362987a279e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/te/mac-store-1.png",
+          "md5": "683555e21fce328912e7c2d45f0dda7d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cb000019-2f4a-870a-8016-bcb3e89597dd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/te/mac-store-2.png",
+          "md5": "765fe92622ef503360b23ffa433e0a0d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0d000019-2f4a-870a-8039-bbfe83d240ba",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/te/mac-store-3.png",
+          "md5": "90e5cd8dea1ac2e59aef710adbdbe7f0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "4a400019-2f4a-870a-802b-0217a5ef8ff9",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/te/mac-store-4.png",
+          "md5": "0995332a724b6f56885b306ca1e0e9ac",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "c2c00019-2f4a-870a-8010-9be7ad405546",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/te/mac-store-5.png",
+          "md5": "f833f2d39f92193a2520cdf533f068d9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "16000019-2f4a-870a-8013-f2f03c47d50b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/te/mac-store-6.png",
+          "md5": "8a35b8680a12a8a191a2a14da8abc43a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "45000019-2f4a-870a-802c-cfb26c88a163",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/te/mac-store-7.png",
+          "md5": "86d36246671e5ac0201f2e48fa6b1104",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "uk",
+      "sourceLocale": "uk",
+      "type": "APP_DESKTOP",
+      "setId": "eab4006f-7ce6-45d5-8a71-0f1fdc673514",
+      "verifiedAt": "2026-10-14T01:53:51.910Z",
+      "screenshots": [
+        {
+          "id": "a6000019-2f4a-870a-8035-93b278ec9de3",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/uk/mac-store-1.png",
+          "md5": "ce1455f744767600ff2ea36eb21a09b2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9f400019-2f4a-870a-8001-22599cc3fd71",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/uk/mac-store-2.png",
+          "md5": "d1ddb6b6bed5dcab7ea90af2cffb59e7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "96000019-2f4a-870a-801c-27196af1ada4",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/uk/mac-store-3.png",
+          "md5": "a87f234d0f21aec94f2001798f31bcbb",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "0b000019-2f4a-870a-8035-76be1f172840",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/uk/mac-store-4.png",
+          "md5": "399d9d6ee65549867ff1704a5aa0df5a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "e1000019-2f4a-870a-8025-ecac76ed8ef5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/uk/mac-store-5.png",
+          "md5": "5d7106fd4269ddb4fdd86e42740b5880",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "b5800019-2f4a-870a-8007-f6fac187ba72",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/uk/mac-store-6.png",
+          "md5": "9fc9317634fdf771ca14f063f41f83f2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "2fc00019-2f4a-870a-8025-89fa5ad14c29",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/uk/mac-store-7.png",
+          "md5": "0315ad8b32df1b9876b52d746022cd49",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "th",
+      "sourceLocale": "th",
+      "type": "APP_DESKTOP",
+      "setId": "416937b2-61b1-48d0-8c67-34b837006477",
+      "verifiedAt": "2026-10-14T01:53:54.582Z",
+      "screenshots": [
+        {
+          "id": "be800019-2f4a-870a-8029-60da8cbb60e7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/th/mac-store-1.png",
+          "md5": "470f0a17047416ae57fa592721c700e5",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f7400019-2f4a-870a-8008-09290904b12b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/th/mac-store-2.png",
+          "md5": "96d4ac329d7ffe274c47ebb825becd61",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "33400019-2f4a-870a-802b-2489cc30d5cd",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/th/mac-store-3.png",
+          "md5": "617c8c0c5b20fbc1103e9b3347f70ff0",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "47000019-2f4a-870a-8022-6ecff27e0c1b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/th/mac-store-4.png",
+          "md5": "56d56f076c012a5f33d27770d666efdd",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "60400019-2f4a-870a-8009-ff91720aa878",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/th/mac-store-5.png",
+          "md5": "ab8b521977a7b9d7945e877320dfbe9d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "19c00019-2f4a-870a-8031-8663799a9f4a",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/th/mac-store-6.png",
+          "md5": "811f055f08b1b227a9784806b18a9438",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "d3800019-2f4a-870a-8003-228d45c658c7",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/th/mac-store-7.png",
+          "md5": "25977ad1f702b3ac5ac41370a1f41bbe",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "tr",
+      "sourceLocale": "tr",
+      "type": "APP_DESKTOP",
+      "setId": "bf655a74-09ea-406a-abf6-1e271d5ed8b8",
+      "verifiedAt": "2026-10-14T01:53:56.880Z",
+      "screenshots": [
+        {
+          "id": "dcc00019-2f4a-870a-8028-c5910999e65c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/tr/mac-store-1.png",
+          "md5": "92d13e0ba7f8bd808f35dc445e9107c7",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "44000019-2f4a-870a-8039-2b4e02cde546",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/tr/mac-store-2.png",
+          "md5": "3d2f3a7df09dbf4eff956906c567be3f",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f8000019-2f4a-870a-803c-6d99cbe068f8",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/tr/mac-store-3.png",
+          "md5": "e7d01d95635d8ae787ddc3f35fae5b74",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "cec00019-2f4a-870a-8023-745580495f01",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/tr/mac-store-4.png",
+          "md5": "19c9681732b76bdd2bfa34ff6a234069",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "07000019-2f4a-870a-8033-65c5c60cafd0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/tr/mac-store-5.png",
+          "md5": "09c9ca4d3f916f1148ab27e3285f787d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bec00019-2f4a-870a-8037-c5f7696794c3",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/tr/mac-store-6.png",
+          "md5": "18b279f992bdb4f7197490f3d9aca27b",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "dc000019-2f4a-870a-8009-6c8c22656f49",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/tr/mac-store-7.png",
+          "md5": "41b93b69665f3122b256b0902c45593a",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "vi",
+      "sourceLocale": "vi",
+      "type": "APP_DESKTOP",
+      "setId": "5e2aa2a0-0986-441e-b482-50507a9ea06f",
+      "verifiedAt": "2026-10-14T01:53:57.143Z",
+      "screenshots": [
+        {
+          "id": "86c00019-2f4a-870a-8035-84632e54a4d0",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/vi/mac-store-1.png",
+          "md5": "c829d7b7f4d42b7c0acaa3af5b9176c2",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "11800019-2f4a-870a-8019-bfff11d663f6",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/vi/mac-store-2.png",
+          "md5": "6d2623337663107ea5c318e75c3df90d",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "98800019-2f4a-870a-8022-d39eaf2e8c30",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/vi/mac-store-3.png",
+          "md5": "5134b4552dc5618c686677ad92101e65",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "a0000019-2f4a-870a-8021-9e9c9e0749d1",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/vi/mac-store-4.png",
+          "md5": "52772ea00b13f420aa67889b17ebe802",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "04000019-2f4a-870a-8022-94b482924464",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/vi/mac-store-5.png",
+          "md5": "ed24c6a2747a48a2be6a07441ee0044a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "f3400019-2f4a-870a-8017-35f16c81d19b",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/vi/mac-store-6.png",
+          "md5": "bd1cfcc2755af6c9bf02498eded1f3e8",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "9d000019-2f4a-870a-800c-96ce84a255f3",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/vi/mac-store-7.png",
+          "md5": "1f20efb571832925e40df605e7962b14",
+          "state": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "slug": "brainfold",
+      "platform": "MAC_OS",
+      "version": "1.3.0",
+      "versionId": "cdc8be36-f5d8-46bd-9dd4-a74a2b4c5849",
+      "locale": "ur-PK",
+      "sourceLocale": "ur",
+      "type": "APP_DESKTOP",
+      "setId": "f3dc2495-4450-42ef-a275-e201523cd3e9",
+      "verifiedAt": "2026-10-14T01:54:17.204Z",
+      "screenshots": [
+        {
+          "id": "0dc00019-2f4a-870a-801d-3c38860424ae",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ur/mac-store-1.png",
+          "md5": "f7cce796fa9afdc6b0414d83d9586b61",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "aa800019-2f4a-870a-8012-64baac51fe5c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ur/mac-store-2.png",
+          "md5": "b6259dce770502fc51263f8b75ccf84a",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "5c400019-2f4a-870a-802a-49fafd701b3c",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ur/mac-store-3.png",
+          "md5": "54b6d7e861783650ab84264318b26fbc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "bd000019-2f4a-870a-8033-995e03c80b75",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ur/mac-store-4.png",
+          "md5": "e34f65ae5c8852f74f7c65ecfee52ae9",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "3a400019-2f4a-870a-8036-e42a4318cec5",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ur/mac-store-5.png",
+          "md5": "8a54a656eb3f86215a669923e487f0fc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "38800019-2f4a-870a-8035-3adee7b11b75",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ur/mac-store-6.png",
+          "md5": "4b73a5f88e2c4b413c9e01f26ad7d8dc",
+          "state": "COMPLETE"
+        },
+        {
+          "id": "86800019-2f4a-870a-8001-b3fecee46a3e",
+          "file": "docs/marketing/october-2026/brainfold-macos-visibility-1.3.0/exports/ur/mac-store-7.png",
+          "md5": "4f5b3f1181c1c43a6fa670bf1b3a6d09",
+          "state": "COMPLETE"
+        }
+      ]
+    }
+  ],
+  "unprocessed": 0
+}

@@ -41,7 +41,7 @@
     "reusedApproved": true
   },
   {
-    "renderVersion": 3,
+    "renderVersion": 4,
     "slug": "brainfold",
     "appId": "6760474378",
     "platform": "MAC_OS",
@@ -51,17 +51,27 @@
     "width": 3840,
     "height": 2560,
     "file": "docs/marketing/october-2026/platform-placements/exports/brainfold/MAC_OS/ta/search-results.png",
-    "sha256": "a0098c163c8807d1f74f09e1720121140c7c3f8f599e7e2085675ce3588708ba",
+    "sha256": "8b4d5735be1ab6b37f64b9830b1d089ab4913dbd6108718e2746042914283e3a",
     "headline": "உங்கள் குறிப்புகளைப் பயனுள்ள பயிற்சிப் பாடங்களாக மாற்றுங்கள்.",
     "metrics": {
+      "device": {
+        "x": 979.375,
+        "y": 1259.765625,
+        "width": 1881.21875,
+        "height": 1254.140625,
+        "top": 1259.765625,
+        "right": 2860.59375,
+        "bottom": 2513.90625,
+        "left": 979.375
+      },
       "copy": {
         "x": 249.59375,
-        "y": 115.1875,
-        "width": 2380.796875,
-        "height": 1731.984375,
-        "top": 115.1875,
-        "right": 2630.390625,
-        "bottom": 1847.171875,
+        "y": 89.59375,
+        "width": 3340.796875,
+        "height": 1112.578125,
+        "top": 89.59375,
+        "right": 3590.390625,
+        "bottom": 1202.171875,
         "left": 249.59375
       },
       "fonts": {
