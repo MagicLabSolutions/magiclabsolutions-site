@@ -1,34 +1,34 @@
 {
   "repository": "GroundControl",
-  "revision": "5ba5248865d693b152f75a201ff9f1f8e701906a",
-  "method": "Native app driven by the repository SnapshotDirector using disposable demo Git repositories only. ScreenCaptureKit currentProcess captures the app\u2019s own window. Capture-only checkout shows the window on screen briefly; alpha-only unused buffer padding trimmed to [0,0,1280,820]. No Git operations on real repositories.",
+  "revision": "7a169a4eed13819e55da2ed9e8087c4b63df7175",
+  "method": "Ground Control 1.0 as it ships (2026-10-16): the native app driven by its SnapshotDirector on disposable demo Git repositories only (capture-recipe.sh), photographed with ScreenCaptureKit (`photo`, the app's own window) at 1280 x 820 pt, no trimming and no capture-only patch. A demo identity and no global Git config; no Git operations on real repositories.",
   "captures": [
     {
-      "source": "/private/tmp/magiclab-groundcontrol-native/1-flight-map-trimmed.png",
+      "source": "/private/tmp/magiclab-groundcontrol-native/native-1.png",
       "output": "docs/marketing/october-2026/sources/groundcontrol/native-1.png",
       "dimensions": [
         1280,
         820
       ],
-      "sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+      "sha256": "064ac7b9459c02ce4d169384bac756ec318bdff37ad41987c022d97451aa66d9"
     },
     {
-      "source": "/private/tmp/magiclab-groundcontrol-native/2-conflicts-trimmed.png",
+      "source": "/private/tmp/magiclab-groundcontrol-native/native-2.png",
       "output": "docs/marketing/october-2026/sources/groundcontrol/native-2.png",
       "dimensions": [
         1280,
         820
       ],
-      "sha256": "9aec63c8d3050eb2844764aa1c42cd67e6259e0c7a9050915bcbf8bb8b415680"
+      "sha256": "8bf231bfda169b97dabae78646c678e422bc90a68b8edb932d0d6a831bdcfc8d"
     },
     {
-      "source": "/private/tmp/magiclab-groundcontrol-native/4-changes-trimmed.png",
+      "source": "/private/tmp/magiclab-groundcontrol-native/native-3.png",
       "output": "docs/marketing/october-2026/sources/groundcontrol/native-3.png",
       "dimensions": [
         1280,
         820
       ],
-      "sha256": "7f04635afdbc5267ae48680d786dfbb6094c5661e95c79a2283525227cd1099f"
+      "sha256": "58ee17733b877c29f626d3913d39d8e71470c356d87ec00e33c1b5e4ec7a34ce"
     }
   ]
 }

@@ -1348,31 +1348,54 @@
     "demo": "branches",
     "hero": {
       "image": {
-        "src": "/images/products-localized/groundcontrol/en-US/mac/native-1.webp",
+        "src": "/images/products/groundcontrol/screen-1.webp",
         "width": 1280,
         "height": 820
       },
       "frame": null,
       "kind": "mac",
-      "ratio": 1.5609756097560976,
-      "source_sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+      "ratio": 1.5609756097560976
     },
-    "hero_cutout": null,
+    "hero_cutout": {
+      "image": {
+        "src": "/images/products/groundcontrol/screen-2.webp",
+        "width": 1280,
+        "height": 820
+      },
+      "ratio": 2.7171052631578947,
+      "width": 154.9636803874092,
+      "left": -53.026634382566584,
+      "top": -78.94736842105263,
+      "radius": 1.2106537530266344,
+      "angle": -2,
+      "rendered": {
+        "src": "/images/native-components/66fce232dbf4f1bc.webp",
+        "width": 826,
+        "height": 304,
+        "source": "/images/products/groundcontrol/screen-2.webp",
+        "source_sha256": "097617e36682f06d9557944183490106d2cf2d53c57f165d6e1e69b743786d67",
+        "rect": {
+          "left": 438,
+          "top": 240,
+          "width": 826,
+          "height": 304
+        }
+      }
+    },
     "features": [
       {
-        "title": "Follow the branch.",
-        "description": "Your Git history, in context.",
-        "label": "Branch map",
+        "title": "Every repo, one tab.",
+        "description": "History drawn as a flight map.",
+        "label": "Tabs & branch map",
         "device": {
           "image": {
-            "src": "/images/products-localized/groundcontrol/en-US/mac/native-1.webp",
+            "src": "/images/products/groundcontrol/screen-1.webp",
             "width": 1280,
             "height": 820
           },
           "frame": null,
           "kind": "mac",
-          "ratio": 1.5609756097560976,
-          "source_sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+          "ratio": 1.5609756097560976
         },
         "cutout": null
       },
@@ -1382,31 +1405,54 @@
         "label": "Conflict resolver",
         "device": {
           "image": {
-            "src": "/images/products-localized/groundcontrol/en-US/mac/native-2.webp",
+            "src": "/images/products/groundcontrol/screen-2.webp",
             "width": 1280,
             "height": 820
           },
           "frame": null,
           "kind": "mac",
-          "ratio": 1.5609756097560976,
-          "source_sha256": "9aec63c8d3050eb2844764aa1c42cd67e6259e0c7a9050915bcbf8bb8b415680"
+          "ratio": 1.5609756097560976
         },
-        "cutout": null
+        "cutout": {
+          "image": {
+            "src": "/images/products/groundcontrol/screen-2.webp",
+            "width": 1280,
+            "height": 820
+          },
+          "ratio": 2.7171052631578947,
+          "width": 154.9636803874092,
+          "left": -53.026634382566584,
+          "top": -78.94736842105263,
+          "radius": 1.2106537530266344,
+          "angle": -2,
+          "rendered": {
+            "src": "/images/native-components/66fce232dbf4f1bc.webp",
+            "width": 826,
+            "height": 304,
+            "source": "/images/products/groundcontrol/screen-2.webp",
+            "source_sha256": "097617e36682f06d9557944183490106d2cf2d53c57f165d6e1e69b743786d67",
+            "rect": {
+              "left": 438,
+              "top": 240,
+              "width": 826,
+              "height": 304
+            }
+          }
+        }
       },
       {
-        "title": "Review changes.",
-        "description": "See your work before the commit.",
-        "label": "Uncommitted changes",
+        "title": "Find any commit.",
+        "description": "Messages, authors, hashes, changes.",
+        "label": "History search",
         "device": {
           "image": {
-            "src": "/images/products-localized/groundcontrol/en-US/mac/native-3.webp",
+            "src": "/images/products/groundcontrol/screen-3.webp",
             "width": 1280,
             "height": 820
           },
           "frame": null,
           "kind": "mac",
-          "ratio": 1.5609756097560976,
-          "source_sha256": "7f04635afdbc5267ae48680d786dfbb6094c5661e95c79a2283525227cd1099f"
+          "ratio": 1.5609756097560976
         },
         "cutout": null
       }
@@ -1417,29 +1463,20 @@
         "label": "Mac",
         "device": {
           "image": {
-            "src": "/images/products-localized/groundcontrol/en-US/mac/native-1.webp",
+            "src": "/images/products/groundcontrol/screen-1.webp",
             "width": 1280,
             "height": 820
           },
           "frame": null,
           "kind": "mac",
-          "ratio": 1.5609756097560976,
-          "source_sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+          "ratio": 1.5609756097560976
         }
       }
     ],
     "platforms": [
       "Mac"
     ],
-    "legacy_details": null,
-    "locale": "en-US",
-    "localized_copy": {
-      "headline": "Follow the branch.",
-      "description": "Your Git history, in context."
-    },
-    "direction": "ltr",
-    "capture_locale": "en-US",
-    "platform_galleries": []
+    "legacy_details": null
   },
   "brainfold": {
     "palette": [

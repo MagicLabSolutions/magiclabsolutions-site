@@ -80133,14 +80133,14 @@
         "frame": null,
         "kind": "mac",
         "ratio": 1.5609756097560976,
-        "source_sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+        "source_sha256": "064ac7b9459c02ce4d169384bac756ec318bdff37ad41987c022d97451aa66d9"
       },
       "hero_cutout": null,
       "features": [
         {
-          "title": "Follow the branch.",
-          "description": "Your Git history, in context.",
-          "label": "Branch map",
+          "title": "Every repo, one tab.",
+          "description": "History drawn as a flight map.",
+          "label": "Tabs & branch map",
           "device": {
             "image": {
               "src": "/images/products-localized/groundcontrol/en-US/mac/native-1.webp",
@@ -80150,7 +80150,7 @@
             "frame": null,
             "kind": "mac",
             "ratio": 1.5609756097560976,
-            "source_sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+            "source_sha256": "064ac7b9459c02ce4d169384bac756ec318bdff37ad41987c022d97451aa66d9"
           },
           "cutout": null
         },
@@ -80167,14 +80167,14 @@
             "frame": null,
             "kind": "mac",
             "ratio": 1.5609756097560976,
-            "source_sha256": "9aec63c8d3050eb2844764aa1c42cd67e6259e0c7a9050915bcbf8bb8b415680"
+            "source_sha256": "8bf231bfda169b97dabae78646c678e422bc90a68b8edb932d0d6a831bdcfc8d"
           },
           "cutout": null
         },
         {
-          "title": "Review changes.",
-          "description": "See your work before the commit.",
-          "label": "Uncommitted changes",
+          "title": "Find any commit.",
+          "description": "Messages, authors, hashes, changes.",
+          "label": "History search",
           "device": {
             "image": {
               "src": "/images/products-localized/groundcontrol/en-US/mac/native-3.webp",
@@ -80184,7 +80184,7 @@
             "frame": null,
             "kind": "mac",
             "ratio": 1.5609756097560976,
-            "source_sha256": "7f04635afdbc5267ae48680d786dfbb6094c5661e95c79a2283525227cd1099f"
+            "source_sha256": "58ee17733b877c29f626d3913d39d8e71470c356d87ec00e33c1b5e4ec7a34ce"
           },
           "cutout": null
         }
@@ -80202,7 +80202,7 @@
             "frame": null,
             "kind": "mac",
             "ratio": 1.5609756097560976,
-            "source_sha256": "a390c78f710f4592d5440ce2510efcaeafe58a18234ec0a8971bb3a86b0c0751"
+            "source_sha256": "064ac7b9459c02ce4d169384bac756ec318bdff37ad41987c022d97451aa66d9"
           }
         }
       ],
@@ -80212,12 +80212,11 @@
       "legacy_details": null,
       "locale": "en-US",
       "localized_copy": {
-        "headline": "Follow the branch.",
-        "description": "Your Git history, in context."
+        "headline": "Every repo, one tab.",
+        "description": "History drawn as a flight map."
       },
       "direction": "ltr",
-      "capture_locale": "en-US",
-      "platform_galleries": []
+      "capture_locale": "en-US"
     }
   },
   "brainfold": {

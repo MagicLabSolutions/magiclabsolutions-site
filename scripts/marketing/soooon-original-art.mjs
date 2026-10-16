@@ -1,6 +1,6 @@
 /** Localize the existing eight-slide Soooon story and its approved visual vocabulary. */
 import fs from'node:fs/promises';import path from'node:path';import{createRequire}from'node:module';
-const require=createRequire('/Users/fabio.hoffmann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json');const{createCanvas,loadImage,GlobalFonts}=require('@napi-rs/canvas');
+const require=createRequire((process.env.MAGICLAB_NODE_MODULES||'/Users/fabio.hoffmann/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules')+'/package.json');const{createCanvas,loadImage,GlobalFonts}=require('@napi-rs/canvas');
 const sharp=require('sharp');
 async function storePNG(canvas){return sharp(canvas.toBuffer('image/png')).flatten({background:'#ffffff'}).removeAlpha().png().toBuffer()}
 const base='docs/marketing/october-2026/localized';GlobalFonts.registerFromPath(base+'/sources/fonts/Fredoka[wdth,wght].ttf','Fredoka');

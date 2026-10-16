@@ -915,13 +915,13 @@
       "device": "mac",
       "voice": "Roger",
       "title": "Ground Control: Git",
-      "subtitle": "Your repositories at a glance",
-      "keywords": "repository,branch,commit,diff,history,developer,version,merge,stash,source,code,mac",
+      "subtitle": "Mission control for your repos",
+      "keywords": "git,github,repository,branch,commit,merge,rebase,conflict,stash,version control,pull request",
       "panels": [
         [
-          "Follow the branch.",
-          "Your Git history, in context.",
-          "Branch map"
+          "Every repo, one tab.",
+          "History drawn as a flight map.",
+          "Tabs & branch map"
         ],
         [
           "Resolve together.",
@@ -929,9 +929,9 @@
           "Conflict resolver"
         ],
         [
-          "Review changes.",
-          "See your work before the commit.",
-          "Uncommitted changes"
+          "Find any commit.",
+          "Messages, authors, hashes, changes.",
+          "History search"
         ]
       ],
       "hooks": [
@@ -946,14 +946,14 @@
       ],
       "steps": [
         [
-          "Check your repositories",
+          "Open your repositories in tabs",
           "Follow the branch map",
-          "Review local changes"
+          "Find any commit"
         ],
         [
-          "Inspect the current branch",
+          "Settle a conflict side by side",
           "Review what changed",
-          "Plan the next Git action"
+          "Push from the bar"
         ]
       ],
       "captions": [
@@ -968,7 +968,7 @@
         "DeveloperTools"
       ],
       "locale": "en-US",
-      "status": "beta",
+      "status": "released",
       "icon": "/images/portfolio/groundcontrol/icon.webp",
       "landing": "https://magiclabsolutions.com/apps/groundcontrol/",
       "source_repository": "GroundControl",
@@ -991,16 +991,16 @@
       "studio_art": {
         "copy": [
           [
-            "Follow the branch.",
-            "Your Git history, in context."
+            "Every repo, one tab.",
+            "History drawn as a flight map."
           ],
           [
             "Resolve together.",
             "Compare both sides of a conflict."
           ],
           [
-            "Review changes.",
-            "See your work before the commit."
+            "Find any commit.",
+            "Messages, authors, hashes, changes."
           ]
         ],
         "primary": {
@@ -1009,14 +1009,14 @@
             [
               {
                 "rect": [
-                  436,
-                  166,
-                  1265,
-                  393
+                  438,
+                  240,
+                  1264,
+                  544
                 ],
                 "left": 0.025,
-                "top": 0.64,
-                "width": 0.6,
+                "top": 0.61,
+                "width": 0.52,
                 "radius": 10,
                 "angle": -2,
                 "source": "/docs/marketing/october-2026/sources/groundcontrol/native-2.png"
@@ -1030,7 +1030,7 @@
       "website_layout": "studio-layered",
       "website_editorial": {
         "title": "Context before\nthe next move.",
-        "description": "Read the branch map, compare a conflict, and review uncommitted work. Three distinct views of the real Mac app.",
+        "description": "Tabs for every repository, a conflict compared side by side, and any commit one search away. Three views of the real Mac app.",
         "primary_count": 3,
         "palette": [
           "#0C1422",
@@ -1040,8 +1040,8 @@
         "gallery_id": "studio-highlights"
       },
       "share_preview": {
-        "headline": "Follow the branch.",
-        "description": "Your Git history, in context.",
+        "headline": "Every repo, one tab.",
+        "description": "History drawn as a flight map.",
         "locale": "en-US",
         "publication": "prepared; product website changes paused"
       }

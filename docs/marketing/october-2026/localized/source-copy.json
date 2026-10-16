@@ -105,9 +105,9 @@
   "groundcontrol": {
     "panels": [
       [
-        "Follow the branch.",
-        "Your Git history, in context.",
-        "Branch map"
+        "Every repo, one tab.",
+        "History drawn as a flight map.",
+        "Tabs & branch map"
       ],
       [
         "Resolve together.",
@@ -115,9 +115,9 @@
         "Conflict resolver"
       ],
       [
-        "Review changes.",
-        "See your work before the commit.",
-        "Uncommitted changes"
+        "Find any commit.",
+        "Messages, authors, hashes, changes.",
+        "History search"
       ]
     ],
     "cta": "Explore the project"

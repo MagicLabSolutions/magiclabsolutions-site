@@ -8680,191 +8680,6 @@
     }
   },
   {
-    "slug": "groundcontrol",
-    "filename": "store-1.png",
-    "format": "store",
-    "dimensions": [
-      2880,
-      1800
-    ],
-    "headline": {
-      "x": 172.796875,
-      "y": 216,
-      "width": 2534.40625,
-      "height": 273.59375,
-      "top": 216,
-      "right": 2707.203125,
-      "bottom": 489.59375,
-      "left": 172.796875
-    },
-    "image": {
-      "x": 250.390625,
-      "y": 848,
-      "width": 2379.21875,
-      "height": 1524.171875,
-      "top": 848,
-      "right": 2629.609375,
-      "bottom": 2372.171875,
-      "left": 250.390625
-    },
-    "wrapper": {
-      "x": 230.390625,
-      "y": 828,
-      "width": 2419.21875,
-      "height": 972,
-      "top": 828,
-      "right": 2649.609375,
-      "bottom": 1800,
-      "left": 230.390625
-    },
-    "imageNaturalWidth": 1280,
-    "headlinePixels": 273.6,
-    "descriptionPixels": 132.48,
-    "background": "/docs/marketing/october-2026/lifestyle/groundcontrol.png",
-    "focus": null,
-    "cutouts": [],
-    "device": {
-      "x": 230.390625,
-      "y": 828,
-      "width": 2419.21875,
-      "height": 1564.171875,
-      "top": 828,
-      "right": 2649.609375,
-      "bottom": 2392.171875,
-      "left": 230.390625
-    }
-  },
-  {
-    "slug": "groundcontrol",
-    "filename": "store-2.png",
-    "format": "store",
-    "dimensions": [
-      2880,
-      1800
-    ],
-    "headline": {
-      "x": 172.796875,
-      "y": 216,
-      "width": 2534.40625,
-      "height": 273.59375,
-      "top": 216,
-      "right": 2707.203125,
-      "bottom": 489.59375,
-      "left": 172.796875
-    },
-    "image": {
-      "x": 250.390625,
-      "y": 848,
-      "width": 2379.21875,
-      "height": 1524.171875,
-      "top": 848,
-      "right": 2629.609375,
-      "bottom": 2372.171875,
-      "left": 250.390625
-    },
-    "wrapper": {
-      "x": 230.390625,
-      "y": 828,
-      "width": 2419.21875,
-      "height": 972,
-      "top": 828,
-      "right": 2649.609375,
-      "bottom": 1800,
-      "left": 230.390625
-    },
-    "imageNaturalWidth": 1280,
-    "headlinePixels": 273.6,
-    "descriptionPixels": 132.48,
-    "background": "/docs/marketing/october-2026/lifestyle/groundcontrol.png",
-    "focus": null,
-    "cutouts": [
-      {
-        "bounds": {
-          "x": 64.26986694335938,
-          "y": 1121.990966796875,
-          "width": 1743.460205078125,
-          "height": 533.17431640625,
-          "top": 1121.990966796875,
-          "right": 1807.7300720214844,
-          "bottom": 1655.165283203125,
-          "left": 64.26986694335938
-        },
-        "source": "/docs/marketing/october-2026/sources/groundcontrol/native-2.png",
-        "rect": [
-          436,
-          166,
-          1265,
-          393
-        ]
-      }
-    ],
-    "device": {
-      "x": 230.390625,
-      "y": 828,
-      "width": 2419.21875,
-      "height": 1564.171875,
-      "top": 828,
-      "right": 2649.609375,
-      "bottom": 2392.171875,
-      "left": 230.390625
-    }
-  },
-  {
-    "slug": "groundcontrol",
-    "filename": "store-3.png",
-    "format": "store",
-    "dimensions": [
-      2880,
-      1800
-    ],
-    "headline": {
-      "x": 172.796875,
-      "y": 216,
-      "width": 2534.40625,
-      "height": 273.59375,
-      "top": 216,
-      "right": 2707.203125,
-      "bottom": 489.59375,
-      "left": 172.796875
-    },
-    "image": {
-      "x": 250.390625,
-      "y": 848,
-      "width": 2379.21875,
-      "height": 1524.171875,
-      "top": 848,
-      "right": 2629.609375,
-      "bottom": 2372.171875,
-      "left": 250.390625
-    },
-    "wrapper": {
-      "x": 230.390625,
-      "y": 828,
-      "width": 2419.21875,
-      "height": 972,
-      "top": 828,
-      "right": 2649.609375,
-      "bottom": 1800,
-      "left": 230.390625
-    },
-    "imageNaturalWidth": 1280,
-    "headlinePixels": 273.6,
-    "descriptionPixels": 132.48,
-    "background": "/docs/marketing/october-2026/lifestyle/groundcontrol.png",
-    "focus": null,
-    "cutouts": [],
-    "device": {
-      "x": 230.390625,
-      "y": 828,
-      "width": 2419.21875,
-      "height": 1564.171875,
-      "top": 828,
-      "right": 2649.609375,
-      "bottom": 2392.171875,
-      "left": 230.390625
-    }
-  },
-  {
     "slug": "poof",
     "filename": "store-1.png",
     "format": "store",
@@ -16892,6 +16707,191 @@
       "right": 950.40625,
       "bottom": 1621.0625,
       "left": 129.59375
+    }
+  },
+  {
+    "slug": "groundcontrol",
+    "filename": "store-1.png",
+    "format": "store",
+    "dimensions": [
+      2880,
+      1800
+    ],
+    "headline": {
+      "x": 172.796875,
+      "y": 216,
+      "width": 2534.40625,
+      "height": 273.59375,
+      "top": 216,
+      "right": 2707.203125,
+      "bottom": 489.59375,
+      "left": 172.796875
+    },
+    "image": {
+      "x": 250.390625,
+      "y": 848,
+      "width": 2379.21875,
+      "height": 1524.171875,
+      "top": 848,
+      "right": 2629.609375,
+      "bottom": 2372.171875,
+      "left": 250.390625
+    },
+    "wrapper": {
+      "x": 230.390625,
+      "y": 828,
+      "width": 2419.21875,
+      "height": 972,
+      "top": 828,
+      "right": 2649.609375,
+      "bottom": 1800,
+      "left": 230.390625
+    },
+    "imageNaturalWidth": 1280,
+    "headlinePixels": 273.6,
+    "descriptionPixels": 132.48,
+    "background": "/docs/marketing/october-2026/lifestyle/groundcontrol.png",
+    "focus": null,
+    "cutouts": [],
+    "device": {
+      "x": 230.390625,
+      "y": 828,
+      "width": 2419.21875,
+      "height": 1564.171875,
+      "top": 828,
+      "right": 2649.609375,
+      "bottom": 2392.171875,
+      "left": 230.390625
+    }
+  },
+  {
+    "slug": "groundcontrol",
+    "filename": "store-2.png",
+    "format": "store",
+    "dimensions": [
+      2880,
+      1800
+    ],
+    "headline": {
+      "x": 172.796875,
+      "y": 216,
+      "width": 2534.40625,
+      "height": 273.59375,
+      "top": 216,
+      "right": 2707.203125,
+      "bottom": 489.59375,
+      "left": 172.796875
+    },
+    "image": {
+      "x": 250.390625,
+      "y": 848,
+      "width": 2379.21875,
+      "height": 1524.171875,
+      "top": 848,
+      "right": 2629.609375,
+      "bottom": 2372.171875,
+      "left": 250.390625
+    },
+    "wrapper": {
+      "x": 230.390625,
+      "y": 828,
+      "width": 2419.21875,
+      "height": 972,
+      "top": 828,
+      "right": 2649.609375,
+      "bottom": 1800,
+      "left": 230.390625
+    },
+    "imageNaturalWidth": 1280,
+    "headlinePixels": 273.6,
+    "descriptionPixels": 132.48,
+    "background": "/docs/marketing/october-2026/lifestyle/groundcontrol.png",
+    "focus": null,
+    "cutouts": [
+      {
+        "bounds": {
+          "x": 62.83833694458008,
+          "y": 1072.0352783203125,
+          "width": 1515.9169921875,
+          "height": 603.101318359375,
+          "top": 1072.0352783203125,
+          "right": 1578.75532913208,
+          "bottom": 1675.1365966796875,
+          "left": 62.83833694458008
+        },
+        "source": "/docs/marketing/october-2026/sources/groundcontrol/native-2.png",
+        "rect": [
+          438,
+          240,
+          1264,
+          544
+        ]
+      }
+    ],
+    "device": {
+      "x": 230.390625,
+      "y": 828,
+      "width": 2419.21875,
+      "height": 1564.171875,
+      "top": 828,
+      "right": 2649.609375,
+      "bottom": 2392.171875,
+      "left": 230.390625
+    }
+  },
+  {
+    "slug": "groundcontrol",
+    "filename": "store-3.png",
+    "format": "store",
+    "dimensions": [
+      2880,
+      1800
+    ],
+    "headline": {
+      "x": 172.796875,
+      "y": 216,
+      "width": 2534.40625,
+      "height": 273.59375,
+      "top": 216,
+      "right": 2707.203125,
+      "bottom": 489.59375,
+      "left": 172.796875
+    },
+    "image": {
+      "x": 250.390625,
+      "y": 848,
+      "width": 2379.21875,
+      "height": 1524.171875,
+      "top": 848,
+      "right": 2629.609375,
+      "bottom": 2372.171875,
+      "left": 250.390625
+    },
+    "wrapper": {
+      "x": 230.390625,
+      "y": 828,
+      "width": 2419.21875,
+      "height": 972,
+      "top": 828,
+      "right": 2649.609375,
+      "bottom": 1800,
+      "left": 230.390625
+    },
+    "imageNaturalWidth": 1280,
+    "headlinePixels": 273.6,
+    "descriptionPixels": 132.48,
+    "background": "/docs/marketing/october-2026/lifestyle/groundcontrol.png",
+    "focus": null,
+    "cutouts": [],
+    "device": {
+      "x": 230.390625,
+      "y": 828,
+      "width": 2419.21875,
+      "height": 1564.171875,
+      "top": 828,
+      "right": 2649.609375,
+      "bottom": 2392.171875,
+      "left": 230.390625
     }
   }
 ]

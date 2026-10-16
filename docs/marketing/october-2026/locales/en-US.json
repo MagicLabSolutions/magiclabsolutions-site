@@ -350,24 +350,19 @@
       "position": "A clear view of your Git fleet before the next move.",
       "panels": [
         [
-          "Your Git fleet.",
-          "See what needs your attention.",
-          "Git on your Mac"
+          "Every repo, one tab.",
+          "History drawn as a flight map.",
+          "Tabs & branch map"
         ],
         [
-          "Follow every branch.",
-          "Read a visual map of your history.",
-          "Branches & history"
+          "Resolve together.",
+          "Compare both sides of a conflict.",
+          "Conflict resolver"
         ],
         [
-          "See what changed.",
-          "Review your local changes.",
-          "Changes in context"
-        ],
-        [
-          "Pull with clarity.",
-          "Inspect before your next move.",
-          "Stay oriented"
+          "Find any commit.",
+          "Messages, authors, hashes, changes.",
+          "History search"
         ]
       ],
       "hooks": [
@@ -382,14 +377,14 @@
       ],
       "steps": [
         [
-          "Check your repositories",
+          "Open your repositories in tabs",
           "Follow the branch map",
-          "Review local changes"
+          "Find any commit"
         ],
         [
-          "Inspect the current branch",
+          "Settle a conflict side by side",
           "Review what changed",
-          "Plan the next Git action"
+          "Push from the bar"
         ]
       ],
       "captions": [
@@ -413,21 +408,21 @@
       "detail_note": "A closer look",
       "studio_art_copy": [
         [
-          "Follow the branch.",
-          "Your Git history, in context."
+          "Every repo, one tab.",
+          "History drawn as a flight map."
         ],
         [
           "Resolve together.",
           "Compare both sides of a conflict."
         ],
         [
-          "Review changes.",
-          "See your work before the commit."
+          "Find any commit.",
+          "Messages, authors, hashes, changes."
         ]
       ],
       "share_preview": {
-        "headline": "Follow the branch.",
-        "description": "Your Git history, in context.",
+        "headline": "Every repo, one tab.",
+        "description": "History drawn as a flight map.",
         "locale": "en-US",
         "publication": "prepared; product website changes paused"
       }

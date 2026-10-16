@@ -349,13 +349,13 @@
   "groundcontrol": {
     "locale": "en-US",
     "position": "A clear view of your Git fleet before the next move.",
-    "headline": "Follow the branch.",
-    "description": "Your Git history, in context.",
+    "headline": "Every repo, one tab.",
+    "description": "History drawn as a flight map.",
     "cta": "Explore the project",
     "steps": [
-      "Check your repositories",
+      "Open your repositories in tabs",
       "Follow the branch map",
-      "Review local changes"
+      "Find any commit"
     ],
     "video": "/images/campaign/en-US/groundcontrol/walkthrough.mp4",
     "poster": "/images/campaign/en-US/groundcontrol/poster.webp",
@@ -363,8 +363,8 @@
     "gallery": [
       {
         "output": "/images/campaign/en-US/groundcontrol/highlight-1.webp",
-        "alt": "Ground Control: Follow the branch. — Your Git history, in context.",
-        "caption": "Follow the branch.",
+        "alt": "Ground Control: Every repo, one tab. — History drawn as a flight map.",
+        "caption": "Every repo, one tab.",
         "width": 1440,
         "height": 900
       },
@@ -377,8 +377,8 @@
       },
       {
         "output": "/images/campaign/en-US/groundcontrol/highlight-3.webp",
-        "alt": "Ground Control: Review changes. — See your work before the commit.",
-        "caption": "Review changes.",
+        "alt": "Ground Control: Find any commit. — Messages, authors, hashes, changes.",
+        "caption": "Find any commit.",
         "width": 1440,
         "height": 900
       }
@@ -386,9 +386,9 @@
     "captures": [
       {
         "output": "/images/campaign/en-US/groundcontrol/capture-1.webp",
-        "alt": "Ground Control: Branch map (real English product capture)",
-        "label": "Branch map",
-        "description": "Your Git history, in context."
+        "alt": "Ground Control: Tabs & branch map (real English product capture)",
+        "label": "Tabs & branch map",
+        "description": "History drawn as a flight map."
       },
       {
         "output": "/images/campaign/en-US/groundcontrol/capture-2.webp",
@@ -398,16 +398,16 @@
       },
       {
         "output": "/images/campaign/en-US/groundcontrol/capture-3.webp",
-        "alt": "Ground Control: Uncommitted changes (real English product capture)",
-        "label": "Uncommitted changes",
-        "description": "See your work before the commit."
+        "alt": "Ground Control: History search (real English product capture)",
+        "label": "History search",
+        "description": "Messages, authors, hashes, changes."
       }
     ],
     "video_kind": "edited-screen-walkthrough",
     "website_layout": "studio-layered",
     "website_editorial": {
       "title": "Context before\nthe next move.",
-      "description": "Read the branch map, compare a conflict, and review uncommitted work. Three distinct views of the real Mac app.",
+      "description": "Tabs for every repository, a conflict compared side by side, and any commit one search away. Three views of the real Mac app.",
       "primary_count": 3,
       "palette": [
         "#0C1422",
