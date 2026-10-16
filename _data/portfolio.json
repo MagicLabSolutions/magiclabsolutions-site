@@ -192,11 +192,12 @@
   },
   {
     "slug": "groundcontrol",
-    "name": "GroundControl",
+    "name": "Ground Control",
     "category": "apps",
-    "status": "beta",
+    "status": "released",
     "color": "#8DC5FC",
     "platform": "Mac",
+    "store_url": "https://apps.apple.com/app/ground-control-git/id6817404452",
     "demo": "git",
     "repositories": [
       "GroundControl"
@@ -248,30 +249,45 @@
         }
       }
     ],
-    "checked_at": "2026-10-12",
+    "checked_at": "2026-10-16",
     "copy": {
       "pt-BR": {
         "headline": "Todos os seus repositórios. Uma missão.",
-        "description": "Um painel nativo para ver branches, alterações e o que precisa de atenção nos seus repositórios Git.",
+        "description": "Um cliente Git nativo para todos os repositórios do seu Mac: abas, um mapa de branches onde você age, conflitos resolvidos bloco a bloco e ⌘F para qualquer commit.",
         "features": [
-          "Visão dos repositórios",
-          "Branches e alterações",
-          "Pull, push e histórico"
+          "Cada repositório numa aba",
+          "Conflitos, bloco a bloco",
+          "Encontre qualquer commit"
         ]
       },
       "en": {
         "headline": "Every repository. One mission control.",
-        "description": "A native dashboard for branches, changes and everything that needs attention across your Git repositories.",
+        "description": "A native Git client for every repository on your Mac: tabs, a branch map you can act on, conflicts settled block by block, and ⌘F for any commit.",
         "features": [
-          "Your repositories at a glance",
-          "Branches and changes",
-          "Pull, push and history"
+          "Every repository in tabs",
+          "Conflicts, block by block",
+          "Find any commit"
         ]
       }
     },
     "marketing_locale": "en-US",
     "marketing_updated_at": "2026-10-12",
-    "release_platforms": []
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.0"
+      }
+    ],
+    "availability_note": {
+      "pt-BR": "Na Mac App Store em 175 países, em inglês, para macOS 15 Sequoia ou posterior. Grátis com um repositório; o Ground Control Pro abre todos.",
+      "en": "On the Mac App Store in 175 countries, in English, for macOS 15 Sequoia or later. Free with one repository; Ground Control Pro opens every one.",
+      "de": "Im Mac App Store in 175 Ländern, auf Englisch, für macOS 15 Sequoia oder neuer. Kostenlos mit einem Repository; Ground Control Pro öffnet alle.",
+      "es": "En la Mac App Store en 175 países, en inglés, para macOS 15 Sequoia o posterior. Gratis con un repositorio; Ground Control Pro abre todos.",
+      "fr": "Sur le Mac App Store dans 175 pays, en anglais, pour macOS 15 Sequoia ou ultérieur. Gratuit avec un dépôt ; Ground Control Pro les ouvre tous.",
+      "ja": "Mac App Storeで175の国と地域で配信中（英語）。macOS 15 Sequoia以降。リポジトリ1つまで無料、Ground Control Proですべて開けます。",
+      "ko": "Mac App Store에서 175개 국가에 출시(영어). macOS 15 Sequoia 이상. 저장소 1개까지 무료이며, Ground Control Pro로 모든 저장소를 열 수 있습니다.",
+      "zh-Hans": "已在 Mac App Store 上架，覆盖 175 个国家和地区（英文），适用于 macOS 15 Sequoia 或更高版本。一个仓库免费；Ground Control Pro 可打开所有仓库。"
+    }
   },
   {
     "slug": "poof",
