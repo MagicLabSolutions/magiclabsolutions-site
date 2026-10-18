@@ -957,6 +957,85 @@
     "release_platforms": []
   },
   {
+    "slug": "static",
+    "name": "Static",
+    "category": "games",
+    "status": "beta",
+    "color": "#F2A23A",
+    "platform": "iPhone",
+    "demo": "static",
+    "repositories": [
+      "Apocalypse"
+    ],
+    "icon": "/images/portfolio/static/icon.webp",
+    "keywords": [
+      "audio drama",
+      "interactive story",
+      "survival game",
+      "drama em áudio",
+      "história interativa",
+      "jogo de sobrevivência",
+      "apocalypse",
+      "real-time story",
+      "AirPods head gestures"
+    ],
+    "screenshots": [
+      {
+        "source": "Apocalypse/store/captures/iphone/listening.png",
+        "output": "/images/portfolio/static/screen-1.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Marta bate à porta, e a história é narrada",
+          "en": "Marta at the door, the story read aloud"
+        }
+      },
+      {
+        "source": "Apocalypse/store/captures/iphone/decision.png",
+        "output": "/images/portfolio/static/screen-2.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "Uma decisão: acenar, balançar ou inclinar a cabeça",
+          "en": "A decision: nod, shake or tilt your head"
+        }
+      },
+      {
+        "source": "Apocalypse/store/captures/iphone/lockscreen.png",
+        "output": "/images/portfolio/static/screen-3.webp",
+        "kind": "app-capture",
+        "alt": {
+          "pt-BR": "A história e as escolhas na Tela Bloqueada",
+          "en": "The story and its choices on the Lock Screen"
+        }
+      }
+    ],
+    "checked_at": "2026-10-18",
+    "availability_note": {
+      "pt-BR": "Em análise na App Store: disponível em breve.",
+      "en": "In App Review: coming soon to the App Store."
+    },
+    "copy": {
+      "pt-BR": {
+        "headline": "Um drama de sobrevivência, em voz alta.",
+        "description": "Uma história interativa de sobrevivência narrada para você em tempo real. Coloque os fones, responda com um aceno e viva os primeiros dias de um surto numa pequena cidade à beira do rio.",
+        "features": [
+          "Narrada em voz alta",
+          "Responda com um aceno",
+          "Em tempo real"
+        ]
+      },
+      "en": {
+        "headline": "A survival drama, out loud.",
+        "description": "An interactive survival story, read to you in real time. Put your headphones in, answer with a nod, and live through the first days of an outbreak in a small river town.",
+        "features": [
+          "Told out loud",
+          "Answer with a nod",
+          "Plays in real time"
+        ]
+      }
+    },
+    "release_platforms": []
+  },
+  {
     "slug": "murmur",
     "name": "Murmur",
     "category": "games",

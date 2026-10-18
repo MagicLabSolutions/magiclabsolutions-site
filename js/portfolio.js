@@ -79,6 +79,12 @@
       button(word('“O que aconteceu?”','“What happened?”'),()=>{c.querySelector('strong').textContent=word('O sinal voltou. Mas a voz mudou.','The signal is back. But the voice has changed.');output.textContent=word('Você escolheu investigar.','You chose to investigate.');c.classList.add('is-open');});
       button(word('“Estou aqui.”','“I’m here.”'),()=>{c.querySelector('strong').textContent=word('Ainda bem. Não queria ouvir isso sozinho.','Good. I didn’t want to hear this alone.');output.textContent=word('Você escolheu se aproximar.','You chose to reach out.');c.classList.add('is-open');});
       button(word('Recomeçar','Start again'),()=>{c.querySelector('strong').textContent=word('Você também ouviu isso?','Did you hear it, too?');c.classList.remove('is-open');output.textContent='';});
+    }else if(type==='static'){
+      const c=card('STATIC',word('Três batidas na porta. É a Marta.','Three knocks on your door. It’s Marta.'),word('“O Tomas está ardendo em febre. Você vem dar uma olhada?”','“Tomas is burning up. Would you come and look at him?”'));
+      heading('Responda com um aceno.','Answer with a nod.','No app, a história é narrada e você responde com a cabeça, com fones AirPods.','In the app, the story is read to you and you answer with your head, with AirPods.');
+      [[word('Acenar · Ver o Tomas agora','Nod · Look at him now'),word('A Marta vai lembrar disso.','Marta will remember that.')],
+       [word('Balançar · Depois do plantão','Shake · After my shift'),word('Promessa: passar na casa do Tomas à noite.','Promise: look in on Tomas tonight.')],
+       [word('Inclinar · Ligue para o médico','Tilt · Ring the doctor, Marta'),word('A Marta não vai esquecer disso.','Marta won’t forget that.')]].forEach(([label,note])=>button(label,()=>{c.querySelector('strong').textContent=note;c.classList.add('is-open');output.textContent=note;}));
     }else if(type==='plant'){
       const plant=make('div','p-plant'),stem=make('div','p-stem');for(let i=0;i<3;i++)stem.append(make('span','p-leaf'));plant.append(stem,make('span','p-pot'));stage.append(plant);
       heading('Cada planta tem seu contexto.','Every plant has its context.','Veja como a luz muda esta ilustração. No app, o cuidado vem acompanhado de uma explicação.','See light change this illustration. In the app, care comes with an explanation.');
