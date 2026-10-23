@@ -14,10 +14,10 @@
 		{% endif %}
 
 		<div class="menu">
-			<div class="menu__toggle js-menu-toggle">
-				<div class="menu__toggle__icon"><span></span></div>
-			</div>
-			<div class="menu__wrap">
+			<button type="button" class="menu__toggle js-menu-toggle" aria-label="{{ t.nav.menu | default: 'Menu' }}" aria-controls="siteMenu" aria-expanded="false">
+				<span class="menu__toggle__icon" aria-hidden="true"><span></span></span>
+			</button>
+			<div class="menu__wrap" id="siteMenu">
 				<ul class="menu__list">
 					<li class="menu__list__item">
 						<a href="{{ '/' | relative_url }}" class="menu__list__item__link">{{ t.nav.home | default: "Home" }}</a>

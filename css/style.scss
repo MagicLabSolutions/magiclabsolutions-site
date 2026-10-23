@@ -975,10 +975,24 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
 // - - - - - - - - - - Language switcher
 
+// Below 1024px the switcher sits inside the full-screen mobile menu: the list opens in
+// place, in the flow of that scrollable menu, so every language stays reachable. From
+// 1024px it is a dropdown under the toggle, capped to the window height and scrollable.
 .lang-switcher {
   position: relative;
-  display: inline-block;
-  margin-left: 16px;
+  display: block;
+  margin: 4px 20px 40px;
+
+  @include mq(tabletp) {
+    max-width: 70%;
+    margin: 16px auto 40px;
+  }
+
+  @include mq(tabletl) {
+    display: inline-block;
+    max-width: none;
+    margin: 0 0 0 16px;
+  }
 
   &__toggle {
     display: flex;
@@ -997,22 +1011,39 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
       border-color: $text-medium-color;
       color: $text-dark-color;
     }
+
+    &:focus-visible {
+      outline: 2px solid $accent-color;
+      outline-offset: 2px;
+    }
   }
 
   &__dropdown {
     display: none;
-    position: absolute;
-    top: calc(100% + 6px);
-    right: 0;
-    min-width: 180px;
+    position: static;
+    max-width: 320px;
     padding: 8px 0;
-    margin: 0;
+    margin: 10px 0 0;
     list-style: none;
     background: $background-alt-color;
     border: 1px solid $border-color;
     border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-    z-index: 1000;
+
+    @include mq(tabletl) {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      min-width: 180px;
+      max-width: none;
+      margin: 0;
+      // The header is sticky, so the list starts about 70px from the top of the window.
+      max-height: calc(100vh - 96px);
+      max-height: calc(100dvh - 96px);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      z-index: 1000;
+    }
   }
 
   &.is-open &__dropdown {
@@ -1020,21 +1051,29 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
   }
 
   &__item {
-    padding: 8px 16px;
     font-size: 14px;
     color: $text-medium-color;
 
+    // The whole row is the touch target (at least 44px tall).
     a {
       color: $text-medium-color;
       text-decoration: none;
       display: block;
+      padding: 12px 16px;
 
       &:hover {
         color: $text-dark-color;
       }
+
+      &:focus-visible {
+        outline: 2px solid $accent-color;
+        outline-offset: -2px;
+        border-radius: 8px;
+      }
     }
 
     &--active {
+      padding: 12px 16px;
       color: $accent-color;
       font-weight: $bold-weight;
     }

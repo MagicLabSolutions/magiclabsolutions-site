@@ -1,6 +1,9 @@
 /* Lightweight, clearly labelled product illustrations. No account or file access. */
 (() => {
   'use strict';
+  // Language menu: an outside click or Escape closes it (Escape returns focus to its button).
+  const languages=document.querySelector('.l-languages');
+  if(languages){document.addEventListener('click',e=>{if(languages.open&&!languages.contains(e.target))languages.open=false;});languages.addEventListener('keydown',e=>{if(e.key==='Escape'&&languages.open){languages.open=false;languages.querySelector('summary').focus();}});}
   const page=document.body,reduce=matchMedia('(prefers-reduced-motion: reduce)'),toggle=document.querySelector('[data-motion-toggle]');
   let motionOff=reduce.matches;
   const dinosaurReactions=new Set();

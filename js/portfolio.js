@@ -1,5 +1,12 @@
 (() => {
   'use strict';
+  // Language menus: an outside click or Escape closes them (Escape returns focus to the button).
+  document.querySelectorAll('details.p-language, details.languages').forEach(menu => {
+    document.addEventListener('click', event => { if (menu.open && !menu.contains(event.target)) menu.open = false; });
+    menu.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary').focus(); }
+    });
+  });
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const fine = matchMedia('(hover:hover) and (pointer:fine)');
   const make = (tag, className, text) => {

@@ -74,3 +74,6 @@ body .ipad-frame:has(img[src*="/framed/"]) .ipad-screen img{height:auto!importan
 body .ipad-frame-sm:has(img[src*="/framed/"]){width:min(600px,80vw)!important}
 /* Legacy pages reset the native dialog margin; keep enlarged screenshots centered. */
 
+/* Language menus never grow past the visible window (a landscape phone included): the list scrolls inside. */
+.lab-languages nav,.p-language nav,details.languages nav{max-height:calc(100vh - 90px);max-height:calc(100dvh - 90px);overflow-y:auto;overscroll-behavior:contain}
+

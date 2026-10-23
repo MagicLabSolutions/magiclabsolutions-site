@@ -14,10 +14,24 @@
 	z-index: 100;
 	margin-top: 0;
 	padding: 14px 0;
-	background: rgba(12, 15, 20, 0.8);
-	backdrop-filter: saturate(180%) blur(20px);
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+
+	// The frosted background lives on a pseudo-element. A backdrop-filter on the header
+	// itself makes the header the containing block of the fixed mobile menu, which then
+	// shrinks to the header's 50px strip and cuts off the menu and the language list.
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		background: rgba(12, 15, 20, 0.8);
+		backdrop-filter: saturate(180%) blur(20px);
+		-webkit-backdrop-filter: saturate(180%) blur(20px);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+		pointer-events: none;
+	}
 }
 
 .header__logo {
@@ -83,28 +97,41 @@
 	position: absolute;
 	z-index: 1002;
 	top: 50%;
-	right: 30px;
+	right: 20px;
 	@include translate(0,-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 44px;
+	min-height: 44px;
+	padding: 0;
+	border: 0;
+	background: none;
 	cursor: pointer;
 	font-size: 15px;
 	line-height: 20px;
 	color: $text-dark-color;
 
-	@include mq(tabletp) {
-		right: 0;
+	&:focus-visible {
+		outline: 2px solid $accent-color;
+		outline-offset: 2px;
+		border-radius: 8px;
 	}
-	
+
+	@include mq(tabletp) {
+		right: -10px;
+	}
+
 	@include mq(tabletl) {
 		display: none;
 	}
 }
 
 .menu__toggle__icon {
-	float: right;
+	display: block;
 	position: relative;
 	width: 24px;
 	height: 20px;
-	margin-left: 8px;
 
 	span, span:before, span:after {
 		content: '';
@@ -159,6 +186,8 @@
 	left: 0;
 	background: rgba(12, 15, 20, 0.98);
 	overflow: auto;
+	overscroll-behavior: contain;
+	-webkit-overflow-scrolling: touch;
 
 	visibility: hidden;
 	opacity: 0;

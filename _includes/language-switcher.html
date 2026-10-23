@@ -1,8 +1,9 @@
+{% assign switcher_t = site.data.translations[site.active_lang] | default: site.data.translations.en %}
 <div class="lang-switcher" id="langSwitcher">
-	<button class="lang-switcher__toggle" aria-label="Change language" onclick="document.getElementById('langSwitcher').classList.toggle('is-open')">
-		<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+	<button type="button" class="lang-switcher__toggle" id="langToggle" aria-label="{{ switcher_t.nav.language | default: 'Change language' }}: {{ site.data.language_names[site.active_lang] }}" aria-controls="langDropdown" aria-expanded="false">
+		<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
 		<span>{{ site.data.language_names[site.active_lang] }}</span>
-		<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+		<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
 	</button>
 	<ul class="lang-switcher__dropdown" id="langDropdown"></ul>
 </div>
@@ -25,22 +26,60 @@
 	}
 	if (basePath === '') basePath = '/';
 
+	var sw = document.getElementById('langSwitcher');
+	var toggle = document.getElementById('langToggle');
 	var dropdown = document.getElementById('langDropdown');
 	var html = '';
 	for (var i = 0; i < langs.length; i++) {
 		var lang = langs[i];
 		if (lang === activeLang) {
-			html += '<li class="lang-switcher__item lang-switcher__item--active">' + names[lang] + '</li>';
+			html += '<li class="lang-switcher__item lang-switcher__item--active" lang="' + lang + '" aria-current="true">' + names[lang] + '</li>';
 		} else {
 			var href = lang === defaultLang ? basePath : '/' + lang + basePath;
-			html += '<li class="lang-switcher__item"><a href="' + href + '">' + names[lang] + '</a></li>';
+			html += '<li class="lang-switcher__item"><a href="' + href + '" lang="' + lang + '" hreflang="' + lang + '">' + names[lang] + '</a></li>';
 		}
 	}
 	dropdown.innerHTML = html;
 
+	function setOpen(open) {
+		sw.classList.toggle('is-open', open);
+		toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+	}
+
+	toggle.addEventListener('click', function() {
+		var open = !sw.classList.contains('is-open');
+		setOpen(open);
+		// On phones the list opens inside the mobile menu; bring its end into view.
+		if (open && dropdown.scrollIntoView && window.matchMedia('(max-width: 1023px)').matches) {
+			dropdown.scrollIntoView({block: 'nearest'});
+		}
+	});
+
 	document.addEventListener('click', function(e) {
-		var sw = document.getElementById('langSwitcher');
-		if (sw && !sw.contains(e.target)) sw.classList.remove('is-open');
+		if (!sw.contains(e.target)) setOpen(false);
+	});
+
+	// Keep the mobile menu button's state in sync (the theme script toggles body.menu--open).
+	var menuToggle = document.querySelector('.js-menu-toggle');
+	if (menuToggle) {
+		menuToggle.addEventListener('click', function() {
+			window.setTimeout(function() {
+				menuToggle.setAttribute('aria-expanded', document.body.classList.contains('menu--open') ? 'true' : 'false');
+			}, 0);
+		});
+	}
+
+	// Escape closes the language list first, then the mobile menu.
+	document.addEventListener('keydown', function(e) {
+		if (e.key !== 'Escape') return;
+		if (sw.classList.contains('is-open')) {
+			setOpen(false);
+			toggle.focus();
+		} else if (menuToggle && document.body.classList.contains('menu--open')) {
+			document.body.classList.remove('menu--open');
+			menuToggle.setAttribute('aria-expanded', 'false');
+			menuToggle.focus();
+		}
 	});
 })();
 </script>
