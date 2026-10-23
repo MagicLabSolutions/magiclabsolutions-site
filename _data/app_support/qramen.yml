@@ -1,0 +1,92 @@
+# Support page copy for /qramen/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: no code on this Mac — App Store listing id6444232316 v1.3.0 (lookup country=us and country=br&lang=pt_br, read 2026-10-23): pro=description "QRamen Pro" + "FREE FOREVER"; restore/cancel=releaseNotes ("purchases and restores") + description subscription paragraph; sync=description "Sign in with Apple or Google to sync" + site _includes/app_qramen.md "Privacy & Transparency"; photos=description "SCAN & SAVE" + "Share extension"; types=description "MAKE ANY QR CODE"; widget/watch=description "EVERYWHERE YOU NEED IT"
+palette:
+  scheme: "light"
+  paper: "#FFF7EC"
+  surface: "#F8EFE4"
+  ink: "#2A1F14"
+  muted: "#665B50"
+  line: "#D9D0C5"
+  accent: "#E07A00"
+  link: "#A65D06"
+  button: "#A65D06"
+  button_text: "#FFF7EC"
+en:
+  title: "QRamen Support — Magic Lab Solutions"
+  description: "Help with QRamen: what's free and what QRamen Pro adds, restoring or cancelling Pro, syncing your codes, reading codes from photos, code types and Apple Watch."
+  tagline: "Make, scan and keep your QR codes"
+  lede: "Answers about QRamen Pro, syncing and making codes — and a real person at the end of an email."
+  about_title: "What QRamen is"
+  about: "QRamen makes, scans and organizes QR codes on iPhone and iPad, with a Home Screen widget and an Apple Watch app. You can create more than 25 types of code, from Wi-Fi and contact cards to links and events, and every code you make or scan is saved to a library you can sort into folders and tags."
+  highlights:
+    - title: "25+ code types"
+      text: "Wi-Fi, contact cards, links, phone, email, text, events and more."
+    - title: "Scan and keep"
+      text: "Use the camera or a photo, and every scan is saved to your library."
+    - title: "Folders and tags"
+      text: "Sort your codes and find any of them fast."
+    - title: "Widget and Apple Watch"
+      text: "Your most-used codes on the Home Screen and on your wrist."
+  faqs:
+    - q: "What's free, and what does QRamen Pro add?"
+      a:
+        - "Free, forever: unlimited scanning, up to 5 codes you create, plus the widget, the Apple Watch app and sync. QRamen Pro unlocks unlimited codes, custom styling (colors, rounded shapes and dark styles), your logo on any code, colors and icons for folders, batch import and bulk CSV generation, and an analytics dashboard with daily charts of opens, shares and copies."
+        - "QRamen Pro is an auto-renewing subscription, and prices show in your own currency before you buy."
+    - q: "How do I restore or cancel QRamen Pro?"
+      a:
+        - "On a new iPhone or iPad, or after reinstalling, use the restore option for QRamen Pro inside the app while signed in to the Apple Account you subscribed with."
+        - "To cancel, go to your Apple Account's subscriptions — on iPhone, Settings → your name → Subscriptions. Cancel at least 24 hours before the current period ends to stop the next renewal; refunds are handled by Apple."
+    - q: "How do I get my codes on another device?"
+      a:
+        - "Sign in with Apple or Google in QRamen on each device, using the same account, and your codes sync across them. Sync is part of the free version."
+        - "Without signing in, your library stays on the device where you made it."
+    - q: "Can QRamen read a code from a photo or from another app?"
+      a:
+        - "Yes. Besides the camera, QRamen can import and read QR codes straight from your photo library, and its share extension saves codes from other apps. Every scan is saved to your library, so you can find it again later."
+    - q: "Which QR codes can I make?"
+      a:
+        - "More than 25 types, including Wi-Fi, contact cards (vCard), website links, phone, email, text and events, plus ready-made templates for Instagram, TikTok, WhatsApp, YouTube, Spotify and LinkedIn. The free version lets you create up to 5 codes; QRamen Pro makes it unlimited and adds styling, logos and bulk CSV generation."
+    - q: "Can I show a code from the Home Screen or my Apple Watch?"
+      a:
+        - "Yes, and both are free. Add the QRamen widget from your Home Screen's widget gallery to keep your most-used codes a tap away, and use the Apple Watch app to show a code on your wrist."
+  contact_body: "Tell us your iPhone or iPad model, its iOS version, the QRamen version and what happened, and a person will write back."
+pt-BR:
+  title: "Suporte do QRamen — Magic Lab Solutions"
+  description: "Ajuda com o QRamen: versão grátis e QRamen Pro, restaurar ou cancelar o Pro, sincronizar seus códigos, ler códigos de fotos, tipos de código e Apple Watch."
+  tagline: "Crie, leia e guarde seus QR Codes"
+  lede: "Respostas sobre o QRamen Pro, sincronização e criação de códigos — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o QRamen"
+  about: "O QRamen cria, lê e organiza QR Codes no iPhone e no iPad, com widget na Tela de Início e app para Apple Watch. Você cria mais de 25 tipos de código, de Wi-Fi e cartão de contato a links e eventos, e cada código criado ou escaneado fica salvo numa biblioteca que você organiza em pastas e etiquetas."
+  highlights:
+    - title: "Mais de 25 tipos"
+      text: "Wi-Fi, cartão de contato, links, telefone, e-mail, texto, eventos e muito mais."
+    - title: "Escaneie e guarde"
+      text: "Use a câmera ou uma foto; cada leitura fica salva na sua biblioteca."
+    - title: "Pastas e etiquetas"
+      text: "Organize seus códigos e encontre qualquer um rapidinho."
+    - title: "Widget e Apple Watch"
+      text: "Os códigos que você mais usa na Tela de Início e no pulso."
+  faqs:
+    - q: "O que é grátis e o que o QRamen Pro oferece?"
+      a:
+        - "Grátis para sempre: leitura ilimitada, até 5 QR Codes criados, além do widget, do app para Apple Watch e da sincronização. O QRamen Pro libera códigos ilimitados, estilo personalizado (cores, cantos arredondados e temas escuros), seu logo em qualquer código, cores e ícones nas pastas, importação em lote e geração em massa por CSV, e um painel de análises com gráficos diários de aberturas, compartilhamentos e cópias."
+        - "O QRamen Pro é uma assinatura com renovação automática, e os preços aparecem na sua moeda antes da compra."
+    - q: "Como restauro ou cancelo o QRamen Pro?"
+      a:
+        - "Num iPhone ou iPad novo, ou depois de reinstalar, use a opção de restaurar o QRamen Pro dentro do app, conectado à mesma Conta Apple da assinatura."
+        - "Para cancelar, vá às assinaturas da sua Conta Apple — no iPhone, Ajustes → seu nome → Assinaturas. Cancele pelo menos 24 horas antes do fim do período atual para evitar a próxima renovação; reembolsos ficam com a Apple."
+    - q: "Como levo meus códigos para outro aparelho?"
+      a:
+        - "Faça login com Apple ou Google no QRamen em cada aparelho, usando a mesma conta, e seus códigos sincronizam entre eles. A sincronização faz parte da versão gratuita."
+        - "Sem fazer login, sua biblioteca fica só no aparelho onde você a criou."
+    - q: "O QRamen lê um código de uma foto ou de outro app?"
+      a:
+        - "Sim. Além da câmera, o QRamen importa e lê QR Codes direto da sua galeria de fotos, e a extensão de compartilhamento salva códigos vindos de outros apps. Cada leitura fica salva na sua biblioteca para você encontrar depois."
+    - q: "Que tipos de QR Code posso criar?"
+      a:
+        - "Mais de 25 tipos, como Wi-Fi, cartão de contato (vCard), links de sites, telefone, e-mail, texto e eventos, além de modelos prontos para Instagram, TikTok, WhatsApp, YouTube, Spotify e LinkedIn. A versão gratuita permite criar até 5 códigos; o QRamen Pro deixa ilimitado e acrescenta estilo, logo e geração em massa por CSV."
+    - q: "Posso mostrar um código pelo widget ou pelo Apple Watch?"
+      a:
+        - "Sim, e os dois são grátis. Adicione o widget do QRamen pela galeria de widgets da Tela de Início para deixar os códigos que você mais usa a um toque, e use o app para Apple Watch para mostrar um código no pulso."
+  contact_body: "Conte o modelo do seu iPhone ou iPad, a versão do iOS, a versão do QRamen e o que aconteceu, e uma pessoa vai responder."

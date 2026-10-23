@@ -1,0 +1,94 @@
+# Support page copy for /memories/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: Memories@7e8db21: monthly film → Memories/Features/Notifications/AutoSuggestEngine.swift, Memories/Features/Notifications/NotificationManager.swift, Memories/Features/Settings/SettingsView.swift, Memories/Features/Home/FilmsView.swift; plus → Memories/Features/Subscription/PaywallView.swift, Memories/Subscription/ExportAllowance.swift, Memories/Subscription/PurchaseManager.swift, Memories/Features/Settings/SettingsView.swift; storage → Memories/App/MemoriesApp.swift, Memories/Persistence/FileStore.swift, Memories/Memories.entitlements; albums → Memories/Features/Projects/EditProjectView.swift, Memories/Features/Projects/PhotoSourcesView.swift, Memories/Features/MediaImport/LinkedSources.swift; space → Memories/Features/Settings/StorageView.swift, Memories/Features/Memories/MemoryDetailView.swift; delete project → Memories/Features/Settings/SettingsView.swift; contact → Memories/Features/Settings/SettingsView.swift; labels → Memories/Localization/Localizable.xcstrings
+palette:
+  scheme: "light"
+  paper: "#FFF5EC"
+  surface: "#F8EEE5"
+  ink: "#362E29"
+  muted: "#6E6660"
+  line: "#DBD1C9"
+  accent: "#CE704F"
+  link: "#A35E44"
+  button: "#A35E44"
+  button_text: "#FFF5EC"
+en:
+  title: "Memories Support — Magic Lab Solutions"
+  description: "Help with Memories: monthly films, Memories Plus and restoring it, linked albums and photo access, where your photos live, freeing space and deleting projects."
+  tagline: "A little film for every month"
+  lede: "The questions people ask most — and a real person at the end of an email."
+  about_title: "What Memories is"
+  about: "Memories turns the photos and videos you add into a short film for every month, with music, transitions and a title. Keep a project for a child, a year, a shared journey or anything else; months count from your own date, such as a birthday, so Month 1 really is the first month. Everything is made and kept on your iPhone, iPad or Mac, with no account."
+  highlights:
+    - title: "Monthly films, made for you"
+      text: "When a month ends, Memories turns it into a film with music and a title."
+    - title: "Albums that fill themselves"
+      text: "Link albums or your favorites in Photos, and new photos land in the right month."
+    - title: "Flashbacks"
+      text: "Now and then, a moment from a while ago comes back, in a notification or on the widget."
+    - title: "Private by design"
+      text: "No account, and your photos and films never leave your device unless you share them."
+  faqs:
+    - q: "My monthly film didn't arrive. What should I check?"
+      a:
+        - "Months count from your project's own date, not from the calendar, and a month gets a film only when it has photos or videos. When a month completes, Memories sends a reminder at 9:00 — if Monthly films is on in Settings → Notifications — and the film is made on your device when you open the app or tap the reminder."
+        - "If Settings shows Blocked in iOS Settings, allow notifications for Memories in the iPhone Settings app. You can also make any film yourself: pick a month on Home, or tap Build a custom film in Films."
+    - q: "What does Memories Plus add, and how do I restore it?"
+      a:
+        - "Memories is free for one project, with shorter, vertical films that carry a small watermark and a limited number of films to save or share each month. Memories Plus adds unlimited projects, every film saved and shared without a watermark, all aspect ratios, the full soundtrack library, year-summary films and films up to 90 seconds. It's offered as a subscription or a one-time Lifetime purchase, and prices show in your own currency before you buy."
+        - "New iPhone, or reinstalled? Settings → Memories Plus → Restore Purchases brings it back from your Apple ID. Subscriptions are managed and cancelled in your App Store account — Manage subscription, in the same section, opens it — and refunds are handled by Apple."
+    - q: "Where are my photos and films kept? Will they show up on my iPad?"
+      a:
+        - "Only on the device where you added them. Memories keeps its own copy of each photo and video and makes the films right there, on your iPhone, iPad or Mac. There's no account and nothing is uploaded to us, so projects don't sync between devices."
+        - "Your device backup, in iCloud or on a computer, includes Memories' copies of your photos and videos, so restoring a backup on a new iPhone brings your projects along. Rendered films are left out of backups, because Memories can make them again."
+    - q: "Memories isn't adding photos from my albums."
+      a:
+        - "Linked albums and suggestions need access to your photo library. To link an album or your favorites, open Settings → Projects, tap ⋯ next to the project, then Edit → Albums, favorites & suggestions. Only photos and videos taken since the project's date are added; screenshots, photos of receipts or documents and near-identical shots are left out."
+        - "If you shared only some photos with Memories, linked albums add only those. Tap Open Settings on that screen and allow access to all photos — nothing leaves your device."
+    - q: "How do I free up space?"
+      a:
+        - "Settings → Manage storage shows the space Memories uses. Delete all rendered films frees the most: your photos and videos stay, and films can be rendered again anytime. To remove a single photo or video, delete it from the project — the original stays in your photo library."
+    - q: "How do I delete a project?"
+      a:
+        - "Settings → Projects, tap ⋯ next to the project, choose Delete and confirm with Delete project. Its memories and films are removed from this device; the originals in your photo library aren't touched. Your photos and films are never sent to us, so there's nothing to delete on our side."
+  contact_body: "Settings → Contact support opens an email with your app version, iOS version and device already filled in; add what you expected and what happened, and a person will write back."
+pt-BR:
+  title: "Suporte do Memories — Magic Lab Solutions"
+  description: "Ajuda com o Memories: filmes do mês, Memories Plus e restauração, álbuns vinculados e acesso às fotos, onde ficam as fotos, liberar espaço e excluir projetos."
+  tagline: "Um pequeno filme para cada mês"
+  lede: "As dúvidas mais comuns — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o Memories"
+  about: "O Memories transforma as fotos e os vídeos que você adiciona em um filme curto para cada mês, com música, transições e título. Crie um projeto para uma criança, um ano, uma jornada compartilhada ou o que quiser; os meses contam a partir da sua data, como um aniversário, então o Mês 1 é mesmo o primeiro mês. Tudo é feito e guardado no seu iPhone, iPad ou Mac, sem conta."
+  highlights:
+    - title: "Filmes mensais, feitos para você"
+      text: "Quando um mês termina, o Memories transforma esse mês em um filme com música e título."
+    - title: "Álbuns que se enchem sozinhos"
+      text: "Vincule álbuns ou seus favoritos em Fotos, e as fotos novas caem no mês certo."
+    - title: "Flashbacks"
+      text: "De vez em quando, um momento de um tempo atrás volta, numa notificação ou no widget."
+    - title: "Privado de verdade"
+      text: "Sem conta, e suas fotos e filmes nunca saem do aparelho, a não ser que você os compartilhe."
+  faqs:
+    - q: "O filme do mês não chegou. O que devo verificar?"
+      a:
+        - "Os meses contam a partir da data do seu projeto, não do calendário, e um mês só ganha filme se tiver fotos ou vídeos. Quando um mês se completa, o Memories manda um lembrete às 9:00 — se Filmes mensais estiver ligado em Configurações → Notificações — e o filme é feito no seu aparelho quando você abre o app ou toca no lembrete."
+        - "Se aparecer Bloqueado nos Ajustes do iOS, permita as notificações do Memories nos Ajustes do iPhone. Você também pode fazer qualquer filme: escolha um mês em Início ou toque em Criar um filme personalizado, em Filmes."
+    - q: "O que o Memories Plus acrescenta e como restauro a compra?"
+      a:
+        - "O Memories é grátis para um projeto, com filmes verticais mais curtos e com uma pequena marca d’água, e um número limitado de filmes para salvar ou compartilhar por mês. O Memories Plus traz projetos ilimitados, todos os filmes salvos e compartilhados sem marca d’água, todas as proporções, a biblioteca completa de trilhas sonoras, filmes de resumo do ano e filmes de até 90 segundos. Ele é vendido como assinatura ou como compra única Vitalício, e o preço aparece na sua moeda antes da compra."
+        - "iPhone novo ou app reinstalado? Configurações → Memories Plus → Restaurar Compras traz a compra de volta pelo seu Apple ID. As assinaturas são gerenciadas e canceladas na sua conta da App Store — Gerenciar assinatura, na mesma seção, abre essa tela — e os reembolsos ficam com a Apple."
+    - q: "Onde ficam minhas fotos e filmes? Eles aparecem no meu iPad?"
+      a:
+        - "Só no aparelho em que você os adicionou. O Memories guarda a própria cópia de cada foto e vídeo e faz os filmes ali mesmo, no iPhone, iPad ou Mac. Não há conta e nada é enviado para nós, por isso os projetos não sincronizam entre aparelhos."
+        - "O backup do aparelho, no iCloud ou no computador, inclui as cópias das fotos e dos vídeos do Memories; ao restaurar um backup em um iPhone novo, seus projetos vão junto. Os filmes renderizados ficam fora do backup, porque o Memories consegue fazê-los de novo."
+    - q: "O Memories não está adicionando as fotos dos meus álbuns."
+      a:
+        - "Álbuns vinculados e sugestões precisam de acesso à sua biblioteca de fotos. Para vincular um álbum ou seus favoritos, abra Configurações → Projetos, toque em ⋯ ao lado do projeto e depois em Editar → Álbuns, favoritos e sugestões. Só entram fotos e vídeos tirados desde a data do projeto; capturas de tela, fotos de recibos ou documentos e fotos quase iguais ficam de fora."
+        - "Se você compartilhou só algumas fotos com o Memories, os álbuns vinculados adicionam só essas. Toque em Abrir Ajustes nessa tela e permita o acesso a todas as fotos — nada sai do seu aparelho."
+    - q: "Como libero espaço?"
+      a:
+        - "Configurações → Gerenciar armazenamento mostra o espaço que o Memories usa. Excluir todos os filmes renderizados é o que mais libera: suas fotos e vídeos ficam, e os filmes podem ser renderizados de novo quando quiser. Para tirar uma foto ou um vídeo, exclua do projeto — o original continua na sua biblioteca de fotos."
+    - q: "Como excluo um projeto?"
+      a:
+        - "Configurações → Projetos, toque em ⋯ ao lado do projeto, escolha Excluir e confirme em Excluir projeto. As memórias e os filmes dele saem deste aparelho; os originais na sua biblioteca de fotos não são tocados. Suas fotos e filmes nunca são enviados para nós, então não há nada para apagar do nosso lado."
+  contact_body: "Configurações → Contate o suporte abre um e-mail com a versão do app, a versão do iOS e o aparelho já preenchidos; conte o que você esperava e o que aconteceu, e uma pessoa responde."

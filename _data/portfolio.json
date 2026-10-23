@@ -3,9 +3,10 @@
     "slug": "toctoc",
     "name": "Toc Toc",
     "category": "apps",
-    "status": "beta",
+    "status": "released",
     "color": "#F26B1D",
     "platform": "Mac · iPhone",
+    "store_url": "https://apps.apple.com/app/id6817375562",
     "demo": "knock",
     "repositories": [
       "TocToc"
@@ -47,7 +48,7 @@
         }
       }
     ],
-    "checked_at": "2026-10-12",
+    "checked_at": "2026-10-23",
     "copy": {
       "pt-BR": {
         "headline": "A reunião chama. Você chega.",
@@ -124,7 +125,17 @@
     },
     "marketing_locale": "en-US",
     "marketing_updated_at": "2026-10-12",
-    "release_platforms": []
+    "evidence": "https://itunes.apple.com/lookup?id=6817375562&country=us — public on 2026-10-23; App Store Connect: Mac 1.0 and iOS 1.0 Ready for Distribution",
+    "release_platforms": [
+      {
+        "platform": "MAC_OS",
+        "version": "1.0"
+      },
+      {
+        "platform": "IOS",
+        "version": "1.0"
+      }
+    ]
   },
   {
     "slug": "soooon",

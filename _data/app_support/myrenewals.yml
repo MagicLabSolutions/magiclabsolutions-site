@@ -1,0 +1,98 @@
+# Support page copy for /myrenewals/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: SubscriptionManager@4f09821: cancel=SubscriptionManager/Modules/Plans/SubscriptionDetail/Content/PlanDetailContentView.swift (+ Models/BillingPlatform.swift); premium=SubscriptionManager/Modules/Settings/Main/SettingsViewModel.swift (+ Modules/Purchase/Content/PurchaseTermsView.swift, Library/Core/Managers/Purchase/PurchaseManager.swift, Modules/Home/Content/HomeContentView.swift); reminders=SubscriptionManager/Modules/Settings/NotificationPreferences/Content/NotificationPreferencesContentView.swift (+ Models/NotificationPreferences.swift, Modules/Renewals/Content/RenealsContentView.swift); sync=SubscriptionManager/Library/Core/CloudKit/SubscriptionCloudKitSync.swift (+ SceneDelegate.swift, Library/Core/Managers/Firebase/SessionManager.swift); privacy=SubscriptionManager/Modules/Plans/ImportScreenshot/ImportScreenshotViewModel.swift (+ functions/src/inbound.ts, firestore.rules); delete=SubscriptionManager/Modules/Plans/SubscriptionDetail/PlanDetailViewController.swift; labels=SubscriptionManager/Localization/Localizable.xcstrings
+palette:
+  scheme: "light"
+  paper: "#ECF7FA"
+  surface: "#E4F0F3"
+  ink: "#152B37"
+  muted: "#51646E"
+  line: "#C5D2D7"
+  accent: "#056B82"
+  link: "#056B82"
+  button: "#056B82"
+  button_text: "#ECF7FA"
+en:
+  title: "MyRenewals Support — Magic Lab Solutions"
+  description: "Help with MyRenewals: what Cancel subscription does, Premium and restoring it, renewal reminders, iCloud sync, privacy and imports, and deleting your data."
+  tagline: "Know what renews before you pay"
+  lede: "Answers about cancelling, reminders, sync and Premium — and a real person at the end of an email."
+  about_title: "What MyRenewals is"
+  about: "MyRenewals keeps every subscription you pay for in one list, with its price, billing cycle, next renewal date and any free trial, on iPhone, iPad and Mac. It reminds you before a renewal or the end of a free trial, adds up what you spend each month on the Overview, and points you to the right place when it's time to cancel."
+  highlights:
+    - title: "Reminders before you pay"
+      text: "On the day, 1, 2 or 7 days before, or any number of days you choose."
+    - title: "Add it in seconds"
+      text: "Type it in, or import a screenshot or PDF and review what it found."
+    - title: "Your monthly total"
+      text: "The Overview adds up what you spend and shows what renews next."
+    - title: "Profiles for home and work"
+      text: "Keep personal and business subscriptions apart, with a total for each."
+  faqs:
+    - q: "Does MyRenewals cancel the subscription for me?"
+      a:
+        - "No. MyRenewals can't charge or cancel anything for you. Cancel subscription, in a subscription's … menu, marks it as cancelled in the app from the date you pick — the service keeps billing you until you cancel with them."
+        - "The cancel screen shows where to go, based on the subscription's Billed through setting: for Apple, Manage Apple Subscriptions opens Apple's subscriptions page; for Google Play, cancel in the Play Store app; for anything else, cancel directly with the service. Changed your mind? Reactivate subscription brings it back."
+    - q: "What does Premium add, and how do I restore it?"
+      a:
+        - "Premium lifts the free version's limits on how many subscriptions and profiles you can add, and unlocks Premium Insights on the Overview: category breakdown, the last 12 months, the free-trials tracker and your most and least expensive plans. Prices show in your own currency before you buy."
+        - "New phone, or reinstalled? MyRenewals checks for your purchase when it opens. If Premium doesn't come back, go to Settings → Get Premium and tap Restore at the bottom of the screen, using the Apple Account you subscribed with; Settings then shows Premium User. To cancel Premium, Settings → Manage Subscriptions opens Apple's subscriptions page."
+    - q: "Why didn't a reminder arrive?"
+      a:
+        - "Notifications have to be allowed: if the Renewals tab says Notifications are off, tap Turn on. Each device sets up its own reminders when you open MyRenewals, timed from each subscription's Next renewal date or free trial end, so check that those dates are right."
+        - "Settings → Notification Preferences sets the reminders new subscriptions start with — on the day and 2 days before a renewal, the last day of a free trial and the day before — and the time in Alert me at. Subscriptions you already had keep their own reminders: use Apply to … subscriptions on that screen, or change the Notifications section of a subscription."
+    - q: "How do I see my subscriptions on iPhone, iPad and Mac?"
+      a:
+        - "MyRenewals syncs through iCloud. Sign in to iCloud with the same Apple Account on each device and open the app: changes travel in the background and show up when MyRenewals opens on the other device, and on a Mac it also checks while the app is open."
+        - "Sign in with Apple, under Settings → Account, is optional: it keeps your Premium, and your Forward Receipts by Email address, the same on every device. Signing out leaves your data on the device."
+    - q: "Where is my data stored, and who can see it?"
+      a:
+        - "Your subscriptions, notes and reminder settings are stored on your device and in your private iCloud, which we can't read. Purchases go through Apple, and we never see your payment details."
+        - "Imports are the exception. Import from Screenshot reads the text on your device and sends only that text to our server, where Google's Gemini model finds the subscriptions for you to review. Forward Receipts by Email works the same way with the emails you forward, and keeps the results in your private import list. Nothing joins your list until you add it."
+    - q: "How do I delete a subscription, or all my data?"
+      a:
+        - "Open the subscription, tap … and choose Remove. It deletes the subscription and its history, on your other devices too through iCloud, and can't be undone."
+        - "There's no erase-all button, so remove subscriptions one by one. If you signed in with Apple or used Forward Receipts by Email and want that account and its data deleted from our server, email us and we'll take care of it."
+  contact_body: "Tell us your device, its system version, the MyRenewals version shown at the bottom of Settings and what happened, and a person will write back."
+pt-BR:
+  title: "Suporte do MyRenewals — Magic Lab Solutions"
+  description: "Ajuda com o MyRenewals: o que faz Cancelar assinatura, Premium e restauração, lembretes de renovação, sincronização pelo iCloud, privacidade e apagar dados."
+  tagline: "Saiba o que renova antes de pagar"
+  lede: "Respostas sobre cancelamento, lembretes, sincronização e Premium — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o MyRenewals"
+  about: "O MyRenewals reúne numa lista só todas as assinaturas que você paga, com preço, ciclo de cobrança, próxima renovação e teste gratuito, no iPhone, iPad e Mac. Ele avisa antes de uma renovação ou do fim de um teste gratuito, soma quanto você gasta por mês na Visão geral e mostra o lugar certo na hora de cancelar."
+  highlights:
+    - title: "Aviso antes de pagar"
+      text: "No dia, 1, 2 ou 7 dias antes, ou com quantos dias você quiser."
+    - title: "Adicione em segundos"
+      text: "Digite ou importe uma captura de tela ou PDF e revise o que foi encontrado."
+    - title: "Seu total do mês"
+      text: "A Visão geral soma seus gastos e mostra o que renova em seguida."
+    - title: "Perfis para casa e trabalho"
+      text: "Separe as assinaturas pessoais das da empresa, com o total de cada perfil."
+  faqs:
+    - q: "O MyRenewals cancela a assinatura por mim?"
+      a:
+        - "Não. O MyRenewals não cobra nem cancela nada por você. Cancelar assinatura, no menu … de cada assinatura, marca a assinatura como cancelada no app a partir da data que você escolher — o serviço continua cobrando até você cancelar com ele."
+        - "A tela de cancelamento mostra aonde ir, de acordo com o campo Cobrado por meio de: para Apple, Gerenciar Assinaturas Apple abre a página de assinaturas da Apple; para Google Play, cancele no app da Play Store; nos outros casos, cancele direto com o serviço. Mudou de ideia? Reativar assinatura traz a assinatura de volta."
+    - q: "O que o Premium oferece e como restauro a compra?"
+      a:
+        - "O Premium tira os limites da versão gratuita para adicionar assinaturas e perfis e libera os Insights Premium na Visão geral: gastos por categoria, os últimos 12 meses, o acompanhamento de testes gratuitos e seus planos mais caros e mais baratos. Os preços aparecem na sua moeda antes da compra."
+        - "Celular novo ou app reinstalado? O MyRenewals verifica sua compra ao abrir. Se o Premium não voltar, vá em Configurações → Obter Premium e toque em Restaurar, no rodapé da tela, com a mesma Conta Apple da assinatura; depois disso, Configurações mostra Usuário Premium. Para cancelar o Premium, Configurações → Gerenciar Assinaturas abre a página de assinaturas da Apple."
+    - q: "Por que um lembrete não chegou?"
+      a:
+        - "As notificações precisam estar permitidas: se a aba Renovações mostrar Notificações estão desativadas, toque em Ativar. Cada aparelho agenda os próprios lembretes quando você abre o MyRenewals, contando a partir da Próxima data de renovação ou do fim do teste gratuito de cada assinatura — confira se essas datas estão certas."
+        - "Configurações → Preferências de Notificação define os lembretes com que as novas assinaturas começam — no dia e 2 dias antes da renovação, no último dia do teste gratuito e no dia anterior — e o horário em Alertar-me às. As assinaturas que você já tinha mantêm os próprios lembretes: use Aplicar a … assinaturas nessa tela ou mude a seção Notificações da assinatura."
+    - q: "Como vejo minhas assinaturas no iPhone, iPad e Mac?"
+      a:
+        - "O MyRenewals sincroniza pelo iCloud. Entre no iCloud com a mesma Conta Apple em cada aparelho e abra o app: as mudanças viajam em segundo plano e aparecem quando o MyRenewals abre no outro aparelho, e no Mac ele também confere enquanto está aberto."
+        - "Entrar com a Apple, em Configurações → Conta, é opcional: mantém o seu Premium, e o seu endereço de Encaminhar Recibos por E-mail, iguais em todos os aparelhos. Ao sair da conta, seus dados continuam no aparelho."
+    - q: "Onde ficam meus dados e quem pode vê-los?"
+      a:
+        - "Suas assinaturas, notas e configurações de lembrete ficam no seu aparelho e no seu iCloud privado, que nós não conseguimos ler. As compras passam pela Apple, e nunca vemos seus dados de pagamento."
+        - "As importações são a exceção. Importar de Captura de Tela lê o texto no seu aparelho e envia só esse texto ao nosso servidor, onde o modelo Gemini, do Google, encontra as assinaturas para você revisar. Encaminhar Recibos por E-mail faz o mesmo com os e-mails que você encaminha e guarda o resultado numa lista de importações que só você acessa. Nada entra na sua lista sem você adicionar."
+    - q: "Como apago uma assinatura ou todos os meus dados?"
+      a:
+        - "Abra a assinatura, toque em … e escolha Remover. Isso apaga a assinatura e o histórico dela, também nos seus outros aparelhos pelo iCloud, e não pode ser desfeito."
+        - "Não há um botão para apagar tudo, então remova as assinaturas uma a uma. Se você entrou com a Apple ou usou Encaminhar Recibos por E-mail e quer que essa conta e os dados dela sejam apagados do nosso servidor, mande um e-mail que nós cuidamos disso."
+  contact_body: "Conte qual é o seu aparelho, a versão do sistema, a versão do MyRenewals que aparece no fim de Configurações e o que aconteceu, e uma pessoa vai responder."

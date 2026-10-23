@@ -1,0 +1,95 @@
+# Support page copy for /tumtum/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: TumTum@643e2a55: grown-ups → Sources/HomeHeader.swift, Sources/PlayroomIntroduction.swift, Sources/ParentGateView.swift, Sources/ParentExternalLink.swift, TumTumKit/Sources/GameCore/SecondSwipe.swift, TumTumKit/Sources/DesignSystem/Tokens.swift; plan → Sources/GrownUpsMembershipSection.swift, Sources/SalesPageView.swift, Sources/MembershipStore.swift, TumTumKit/Sources/Playroom/Membership.swift; languages/offline → Sources/GrownUpsPlaySections.swift, Sources/GrownUpsStorageSection.swift, Tools/assets/delivery_policy.py, project-delivery.yml, docs/ASSET-DELIVERY.md; sound → TumTumKit/Sources/GameCore/LiveGameServices.swift, Sources/PlayroomIntroduction.swift, Sources/GrownUpsPlaySections.swift; play time → Sources/ParentSessionSection.swift, Sources/HomeHeader.swift; privacy → TumTumKit/Sources/Models/Household.swift, Sources/HorsePlans.swift, project.yml, Sources/GrownUpsChildrenSection.swift, TumTumKit/Sources/Playroom/HouseholdModel.swift; contact → Sources/ParentSupportSection.swift, Sources/ParentContactView.swift, Sources/ParentLinks.swift; labels → Sources/Parents.xcstrings, Sources/Localizable.xcstrings
+palette:
+  scheme: "light"
+  paper: "#FFF7E7"
+  surface: "#F8F1E1"
+  ink: "#294B3D"
+  muted: "#556E60"
+  line: "#D8D8C8"
+  accent: "#607848"
+  link: "#607848"
+  button: "#607848"
+  button_text: "#FFF7E7"
+kids: true  # no ads tag on this page
+en:
+  title: "TumTum Support — Magic Lab Solutions"
+  description: "Help for parents with TumTum: the grown-ups area, plans and restoring a purchase, languages and offline play, sound, play-time limits and your child's privacy."
+  tagline: "Little hands, big discoveries"
+  lede: "Answers for parents and caregivers — and a real person at the end of an email."
+  about_title: "What TumTum is"
+  about: "TumTum is a room of little digital toys for children from 12 months, on iPhone and iPad. Children tap and drag to explore a house, a town, an aquarium, dinosaurs, a kitchen and more, with no scores and no wrong answers. Grown-ups make a profile for each child and choose the toys, the language and the play time."
+  highlights:
+    - title: "Made for small hands"
+      text: "Menus open with a press and hold, and leaving the app takes two swipes."
+    - title: "No ads, no tracking"
+      text: "No account, and children's profiles stay on the device."
+    - title: "Eight play languages"
+      text: "English, Portuguese, Spanish, French, German, Mandarin Chinese, Korean and Japanese, each with its own recorded voice."
+    - title: "Plays offline"
+      text: "Once a language's voice is on the device, the toys need no connection."
+  faqs:
+    - q: "How do I open the grown-ups area?"
+      a:
+        - "Press and hold the door marked grown-ups, at the top of the screen, until the ring fills. The same press and hold opens the shelves with all toys, switches profiles from your child's name and leaves a toy from the X, so accidental taps don't change the screen while your child plays. Leaving the app takes two quick swipes."
+        - "Plans and prices, and anything that opens outside TumTum — our website or an email — first ask a grown-up a short multiplication question."
+    - q: "What does a TumTum plan include, and how do I restore it?"
+      a:
+        - "A plan opens every toy for every child, including new toys as they arrive, and is shared with your family through Family Sharing. Choose a yearly plan (with a free trial when one is offered), a monthly plan or a one-time Lifetime purchase; the plans page shows prices in your own currency."
+        - "New device, or reinstalled? For grown-ups → Your plan → Restore purchases. To cancel, use Manage subscription in the same section, after the adult question, or your Apple Account settings; refunds are handled by Apple."
+    - q: "Which languages are there, and does TumTum work offline?"
+      a:
+        - "Children can play in English, Portuguese, Spanish, French, German, Mandarin Chinese, Korean or Japanese. Change it in For grown-ups → Sound & voice → Play language; the whole app follows it, settings included."
+        - "The toys and their pictures come with the app. Each language's voice downloads once, when a grown-up picks the language, and then stays on the device; until it arrives, the toys show their words on screen. On mobile data TumTum asks first — the Download over mobile data switch is in For grown-ups → Space on this device — and nothing downloads while your child plays."
+    - q: "I can't hear the toys."
+      a:
+        - "Check Silent Mode and your device volume first: TumTum plays alongside your own music and goes quiet in Silent Mode. In For grown-ups → Sound & voice, Narration and Sound effects have separate sliders, and either one at zero is silent. If a toy shows its words but doesn't speak yet, its voice is still downloading."
+    - q: "Can I limit how long my child plays?"
+      a:
+        - "Yes. In For grown-ups → Play time, turn on Limit each play session and choose the length; it's off until you turn it on, and each child has their own time. At the limit, play and sound pause on a rest screen until a grown-up holds the button to start a new session. It pauses TumTum, not the device or other apps, and the moon under the door on the Home opens the same setting."
+    - q: "What does TumTum know about my child?"
+      a:
+        - "Only what a grown-up enters during setup — a name or nickname, and the birth month and year — plus the choices made in settings. It all stays on this device: there's no account, no ads, no tracking and no third-party analytics, and play activity is never sent to us."
+        - "Only the grown-ups' screens go online: to download voices from the App Store, and to show plans and confirm purchases with Apple and our subscription service — never with your child's details. You can remove a child in For grown-ups → Children, as long as another profile remains."
+  contact_body: "In For grown-ups → Help & information, Contact us opens an email after the adult question; tell us your device, iOS version, the TumTum version shown there and what happened, and please leave your child's personal details out."
+pt-BR:
+  title: "Suporte do TumTum — Magic Lab Solutions"
+  description: "Ajuda para pais com o TumTum: área dos adultos, planos e restaurar a compra, idiomas e uso offline, som, tempo de brincadeira e a privacidade da criança."
+  tagline: "Pequenas mãos, grandes descobertas"
+  lede: "Respostas para mães, pais e cuidadores — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o TumTum"
+  about: "O TumTum é uma sala de pequenos brinquedos digitais para crianças a partir de 12 meses, no iPhone e no iPad. A criança toca e arrasta para explorar uma casa, uma cidade, um aquário, dinossauros, uma cozinha e muito mais, sem pontos e sem respostas erradas. Os adultos criam um perfil para cada criança e escolhem os brinquedos, o idioma e o tempo de brincadeira."
+  highlights:
+    - title: "Feito para mãos pequenas"
+      text: "Os menus abrem quando você toca e segura, e sair do app pede dois gestos de deslizar."
+    - title: "Sem anúncios, sem rastreamento"
+      text: "Não há conta, e os perfis das crianças ficam no aparelho."
+    - title: "Oito idiomas de brincadeira"
+      text: "Inglês, português, espanhol, francês, alemão, chinês mandarim, coreano e japonês, cada um com a sua voz gravada."
+    - title: "Funciona offline"
+      text: "Depois que a voz do idioma está no aparelho, os brinquedos não precisam de internet."
+  faqs:
+    - q: "Como abro a área dos adultos?"
+      a:
+        - "Toque e segure a porta com a palavra adultos, no alto da tela, até o círculo se completar. O mesmo gesto abre a estante com todos os brinquedos, troca de perfil pelo nome da criança e sai de um brinquedo pelo X — assim, toques acidentais não mudam a tela enquanto a criança brinca. Para sair do app, são dois gestos rápidos de deslizar."
+        - "Planos e preços, e tudo o que abre fora do TumTum — nosso site ou um e-mail — primeiro pedem que um adulto resolva uma conta de multiplicação."
+    - q: "O que o plano do TumTum inclui e como restauro a compra?"
+      a:
+        - "Um plano libera todos os brinquedos para cada criança, inclusive os novos que forem chegando, e é compartilhado com sua família pelo Compartilhamento Familiar. Escolha o plano Anual (com teste grátis, quando houver), o Mensal ou a compra única Vitalício; a página de planos mostra os preços na sua moeda."
+        - "Aparelho novo ou app reinstalado? Para adultos → Seu plano → Restaurar compras. Para cancelar, use Gerenciar assinatura na mesma seção, depois da conta do adulto, ou os ajustes da sua Conta Apple; os reembolsos ficam com a Apple."
+    - q: "Em quais idiomas dá para brincar, e o TumTum funciona offline?"
+      a:
+        - "A criança pode brincar em inglês, português, espanhol, francês, alemão, chinês mandarim, coreano ou japonês. Para trocar, vá em Para adultos → Som e voz → Idioma das brincadeiras; o app inteiro segue esse idioma, inclusive as configurações."
+        - "Os brinquedos e as imagens já vêm com o app. A voz de cada idioma é baixada uma vez, quando um adulto escolhe o idioma, e fica no aparelho; até ela chegar, os brinquedos mostram as palavras na tela. Nos dados móveis, o TumTum pergunta antes — a chave Baixar pelos dados móveis fica em Para adultos → Espaço no aparelho — e nada é baixado enquanto a criança brinca."
+    - q: "Não consigo ouvir os brinquedos."
+      a:
+        - "Confira primeiro o modo silencioso e o volume do aparelho: o TumTum toca junto com a sua música e fica mudo no modo silencioso. Em Para adultos → Som e voz, Narração e Efeitos sonoros têm controles separados, e qualquer um no zero fica sem som. Se um brinquedo mostra as palavras mas ainda não fala, a voz dele ainda está sendo baixada."
+    - q: "Posso limitar o tempo de brincadeira?"
+      a:
+        - "Pode. Em Para adultos → Tempo de brincadeira, ligue Limitar cada sessão de brincadeira e escolha a duração; fica desligado até você ligar, e cada criança tem o seu tempo. No limite, a brincadeira e o som pausam numa tela de descanso até um adulto segurar o botão para começar uma nova sessão. Isso pausa o TumTum, não o aparelho nem outros apps, e a lua embaixo da porta, na tela inicial, abre o mesmo ajuste."
+    - q: "O que o TumTum sabe sobre a minha criança?"
+      a:
+        - "Só o que um adulto digita na configuração — um nome ou apelido, e o mês e o ano de nascimento — e as escolhas feitas nas configurações. Tudo fica neste aparelho: não há conta, anúncios, rastreamento nem análises de terceiros, e a atividade da brincadeira nunca é enviada para nós."
+        - "Só as telas dos adultos usam a internet: para baixar as vozes da App Store e para mostrar os planos e confirmar compras com a Apple e com o nosso serviço de assinaturas — nunca com dados da criança. Você pode remover uma criança em Para adultos → Crianças, desde que fique pelo menos um perfil."
+  contact_body: "Em Para adultos → Ajuda e informações, Fale conosco abre um e-mail depois da conta do adulto; conte qual é o aparelho, a versão do iOS, a versão do TumTum que aparece ali e o que aconteceu, e, por favor, não inclua dados pessoais da criança."

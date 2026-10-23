@@ -10,7 +10,7 @@
     "terms": "/terms-of-use/"
   },
   "myrenewals": {
-    "support": "/contact/",
+    "support": "/myrenewals/support/",
     "privacy": "/privacy-policy/",
     "terms": "/terms-of-use/"
   },
@@ -20,12 +20,12 @@
     "terms": "/terms-of-use/"
   },
   "poof": {
-    "support": "#support",
+    "support": "/poof/support/",
     "privacy": "/poof/privacy-policy/",
     "terms": "/poof/terms-of-use/"
   },
   "tumtum": {
-    "support": "/contact/",
+    "support": "/tumtum/support/",
     "privacy": "/tumtum/privacy-policy/",
     "terms": "/tumtum/terms-of-use/"
   },
@@ -35,7 +35,32 @@
     "terms": "/terms-of-use/"
   },
   "kinfold": {
-    "support": "/contact/",
+    "support": "/kinfold/support/",
+    "privacy": "/privacy-policy/",
+    "terms": "/terms-of-use/"
+  },
+  "zuzu": {
+    "support": "/zuzu-support/",
+    "privacy": "/zuzu-privacy-policy/",
+    "terms": "/terms-of-use/"
+  },
+  "memories": {
+    "support": "/memories/support/",
+    "privacy": "/privacy-policy/",
+    "terms": "/terms-of-use/"
+  },
+  "qramen": {
+    "support": "/qramen/support/",
+    "privacy": "/privacy-policy/",
+    "terms": "/terms-of-use/"
+  },
+  "soooon": {
+    "support": "/soooon/support/",
+    "privacy": "/soooon/privacy-policy/",
+    "terms": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+  },
+  "groundcontrol": {
+    "support": "/groundcontrol/support/",
     "privacy": "/privacy-policy/",
     "terms": "/terms-of-use/"
   }

@@ -1,0 +1,98 @@
+# Support page copy for /zuzu-support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: zuzu@aeba97df, zuzu-api@d72aaf3, Zuzu-android@2768939: share → Zuzu/Modules/Settings/Family/FamilyManagementViewController.swift, Zuzu/Modules/Invite/AcceptInviteViewController.swift, zuzu-api src/services/inviteService.ts + src/routes/invites.ts; premium → Zuzu/Library/Core/Managers/FeatureGate.swift, Zuzu/Modules/Settings/Content/SettingsContentView.swift, Zuzu/Modules/Paywall/Content/PaywallContentView.swift, Zuzu/Library/Core/Managers/PurchaseManager.swift; reminders → Zuzu/Modules/Settings/Content/NotificationSettingsContentView.swift, Zuzu/Modules/Settings/SettingsViewController.swift; cancel → Zuzu/Modules/Settings/Content/SubscriptionDetailView.swift, Zuzu/Modules/Settings/Family/FamilyManagementContentView.swift; data → Zuzu/Library/Core/Managers/SyncEngine.swift, zuzu-api CLAUDE.md + src/middleware/familyAccess.ts, Zuzu/Modules/Settings/Content/DataExportView.swift; delete → Zuzu/Modules/Settings/Family/FamilyManagementViewController.swift + FamilyManagementViewModel.swift, zuzu-api src/services/accountService.ts, Zuzu-android app/src/main/java/com/magiclabsolutions/zuzu/ui/screens/settings/FamilyManagementScreen.kt; contact → Zuzu/Modules/Settings/SettingsViewController.swift; labels → Zuzu/Localization/Localizable.xcstrings, Zuzu-android app/src/main/res/values*/strings.xml
+palette:
+  scheme: "light"
+  paper: "#FFF3E9"
+  surface: "#F8ECE2"
+  ink: "#40332D"
+  muted: "#70635C"
+  line: "#DDD0C7"
+  accent: "#AF5937"
+  link: "#AB5737"
+  button: "#AB5737"
+  button_text: "#FFF3E9"
+en:
+  title: "Zuzu Support — Magic Lab Solutions"
+  description: "Help with Zuzu: inviting a partner or caregiver, Premium and restoring it, reminders, cancelling, where your baby's diary is kept and deleting your account."
+  tagline: "Your baby's day, shared with the family"
+  lede: "The questions parents ask most, with the exact steps — and a real person at the end of an email."
+  about_title: "What Zuzu is"
+  about: "Zuzu is a baby and pregnancy tracker for iPhone, iPad, Apple Watch and Android. You log sleep, feeds, diapers, growth and health in a few taps, and Zuzu learns your baby's rhythm to predict the next nap. Everyone you invite to your family sees the same diary, on their own phone."
+  highlights:
+    - title: "One diary for the whole day"
+      text: "Sleep, nursing, bottles, solids, diapers, medicine, growth and milestones, each logged in a tap or two."
+    - title: "Shared with your family"
+      text: "Invite a partner, a grandparent or a nanny, and what one person logs shows up on everyone's phone."
+    - title: "Smart sleep predictions"
+      text: "Zuzu learns your baby's rhythm and shows when the next nap window opens."
+    - title: "Before the birth, too"
+      text: "A countdown to the due date, a kick counter and a contraction timer."
+  faqs:
+    - q: "How do I share Zuzu with my partner or a caregiver?"
+      a:
+        - "Tap the gear at the top of My Baby to open Settings, then Family & Account. Choose Invite by Email or Share Invite Link, and pick Parent (full access) or Caregiver (limited access): a parent can add babies and invite others, a caregiver logs and follows the diary. Inviting is part of Premium, and everyone who joins shares the family's plan."
+        - "The other person installs Zuzu, then taps the link or enters the code in Settings → Family & Account → Enter Invite Code. Invites expire after seven days, and one sent by email only works for that email address. If they had already started their own diary, Zuzu asks them to Switch Family — and if they were its only parent, that diary is deleted, so it's best to join before logging anything."
+    - q: "What does Premium include, and how do I get it back on a new phone?"
+      a:
+        - "The free plan tracks one baby, shows the last seven days of history and has a daily limit on entries. Premium adds smart sleep predictions, full history and trends, unlimited logging and AI insights, premium sounds, widgets and Apple Watch, more babies and family sharing. Get it from Settings → Upgrade to Premium; prices show in your own currency before you buy."
+        - "On a new phone, sign in with the same account as before — Apple, Google or email — and your diary and Premium come back. If Premium still looks locked, open Settings → Upgrade to Premium and tap Restore Purchase at the bottom of the plans screen."
+    - q: "Reminders aren't arriving. What should I check?"
+      a:
+        - "Open Settings → App preferences → Notifications and make sure Enable Notifications is on, then turn on the reminders you want, such as Nap Reminders, Feeding Reminders and Bedtime Reminders."
+        - "If Zuzu says notifications are disabled in system settings, the iPhone itself is blocking them. Settings → App preferences → App Preferences opens Zuzu's page in the iPhone Settings app, where you can allow notifications."
+    - q: "How do I cancel my subscription?"
+      a:
+        - "Subscriptions are handled by Apple. In Zuzu, open Settings → Family & Account, tap the Zuzu Premium card and then Manage Subscription; or go to the iPhone Settings app → your name → Subscriptions. Deleting the app or your account doesn't cancel it."
+        - "Only the person who subscribed can cancel: everyone else in the family sees Managed by and that person's name. On Android, subscriptions are managed in Google Play."
+    - q: "Where is my baby's diary kept, and can I export it?"
+      a:
+        - "On Zuzu's servers on Google Cloud, so it's on every phone in your family and comes back when you sign in on a new one. It's shared only with the people in your family. Without a connection you can keep logging: entries wait on your phone and sync as soon as you're back online."
+        - "With Premium, Settings → App preferences → Export Data makes a CSV file or a PDF Report of the last 7 days, the last 30 days or all time — handy for a doctor's visit. The Zuzu Privacy Policy lists everything Zuzu collects and who helps us run it."
+    - q: "How do I delete my account and my baby's data?"
+      a:
+        - "Open Settings → Family & Account, tap ⋯ at the top right and choose Delete Account, then type DELETE and tap Delete. If you're the family's only parent, the whole family goes with it — babies, diary and photos; if another parent is in the family, it passes to them. Cancel your subscription first: deleting the account doesn't cancel it."
+        - "If you joined someone else's family, that menu shows Leave Family instead; to delete your account too, email us from the address you sign in with. On Android, Delete Account is at the bottom of Family & Account. Full details are on the [account deletion page](/zuzu-delete-account/)."
+  contact_body: "Settings → Support & About → Contact Us opens an email with your device, iOS version and Zuzu version already filled in; add what you were doing and what happened, and a person will write back."
+pt-BR:
+  title: "Suporte do Zuzu — Magic Lab Solutions"
+  description: "Ajuda com o Zuzu: convidar parceiro ou cuidador, o Premium e como restaurá-lo, lembretes, cancelamento, onde fica o diário do bebê e como excluir a conta."
+  tagline: "O dia do bebê, dividido com a família"
+  lede: "As dúvidas que os pais mais têm, com o passo a passo — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o Zuzu"
+  about: "O Zuzu acompanha o bebê e a gravidez no iPhone, iPad, Apple Watch e Android. Você registra sono, mamadas, fraldas, crescimento e saúde em poucos toques, e o Zuzu aprende o ritmo do bebê para prever a próxima soneca. Quem você convida para a família vê o mesmo diário, cada um no seu celular."
+  highlights:
+    - title: "Um diário para o dia todo"
+      text: "Sono, amamentação, mamadeira, papinhas, fraldas, remédios, crescimento e marcos, cada um em um ou dois toques."
+    - title: "Compartilhado com a família"
+      text: "Convide o parceiro, os avós ou a babá: o que um registra aparece no celular de todos."
+    - title: "Previsões de sono inteligentes"
+      text: "O Zuzu aprende o ritmo do bebê e mostra quando abre a janela da próxima soneca."
+    - title: "Antes do nascimento, também"
+      text: "Contagem regressiva até a data prevista, contador de chutes e cronômetro de contrações."
+  faqs:
+    - q: "Como compartilho o Zuzu com meu parceiro ou um cuidador?"
+      a:
+        - "Toque na engrenagem no alto da aba Meu Bebê para abrir as Configurações e entre em Família e Conta. Escolha Convidar por e-mail ou Compartilhar link de convite e defina Pai (acesso total) ou Cuidador (acesso limitado): pai ou mãe adiciona bebês e convida outras pessoas; o cuidador registra e acompanha o diário. Convidar faz parte do Premium, e todos que entram usam o plano da família."
+        - "A outra pessoa instala o Zuzu e toca no link ou digita o código em Configurações → Família e Conta → Inserir código de convite. O convite vale por sete dias, e o que vai por e-mail só funciona para aquele endereço. Se ela já tinha começado um diário próprio, o Zuzu pergunta se quer Trocar de Família — e, se ela era o único pai ou mãe daquela família, esse diário é apagado; por isso, vale entrar antes de registrar qualquer coisa."
+    - q: "O que o Premium inclui e como recupero a assinatura em um celular novo?"
+      a:
+        - "O plano gratuito acompanha um bebê, mostra os últimos sete dias de histórico e tem um limite diário de registros. O Premium traz previsões de sono inteligentes, histórico completo e tendências, registros e insights de IA ilimitados, sons Premium, widgets e Apple Watch, mais bebês e o compartilhamento com a família. Assine em Configurações → Fazer upgrade para Premium; o preço aparece na sua moeda antes da compra."
+        - "No celular novo, entre com a mesma conta de antes — Apple, Google ou e-mail — e o diário e o Premium voltam. Se o Premium continuar bloqueado, abra Configurações → Fazer upgrade para Premium e toque em Restaurar Compra, no fim da tela de planos."
+    - q: "Os lembretes não chegam. O que devo verificar?"
+      a:
+        - "Abra Configurações → Preferências do aplicativo → Notificações e confira se Ativar Notificações está ligado; depois, ligue os lembretes que quiser, como Lembretes de soneca, Lembretes de Alimentação e Lembretes de Hora de Dormir."
+        - "Se o Zuzu avisar que as notificações estão desativadas nas configurações do sistema, é o próprio iPhone que está bloqueando. Configurações → Preferências do aplicativo → Preferências do App abre a página do Zuzu nos Ajustes do iPhone, onde você permite as notificações."
+    - q: "Como cancelo a assinatura?"
+      a:
+        - "As assinaturas ficam com a Apple. No Zuzu, abra Configurações → Família e Conta, toque no cartão Zuzu Premium e depois em Gerenciar Assinatura; ou vá em Ajustes do iPhone → seu nome → Assinaturas. Apagar o app ou a conta não cancela a assinatura."
+        - "Só quem assinou pode cancelar: as outras pessoas da família veem Gerenciado por e o nome de quem assinou. No Android, a assinatura é gerenciada no Google Play."
+    - q: "Onde fica o diário do bebê? Dá para exportar?"
+      a:
+        - "Nos servidores do Zuzu no Google Cloud, por isso ele aparece no celular de todos da família e volta quando você entra em um aparelho novo. Ele é compartilhado só com as pessoas da sua família. Sem internet, você continua registrando: os registros esperam no celular e sincronizam assim que a conexão volta."
+        - "Com o Premium, Configurações → Preferências do aplicativo → Exportar Dados gera um CSV ou um PDF Report dos Últimos 7 Dias, dos Últimos 30 dias ou de Todo o Tempo — útil para levar à consulta. A Política de Privacidade do Zuzu lista tudo o que o app coleta e quem nos ajuda a operá-lo."
+    - q: "Como excluo minha conta e os dados do bebê?"
+      a:
+        - "Abra Configurações → Família e Conta, toque em ⋯ no canto superior direito e escolha Excluir Conta; depois digite DELETE e toque em Excluir. Se você é o único pai ou mãe da família, ela é apagada inteira — bebês, diário e fotos; se houver outro pai ou mãe, a família passa para essa pessoa. Cancele a assinatura antes: excluir a conta não a cancela."
+        - "Se você entrou na família de outra pessoa, esse menu mostra Sair da Família; para excluir também a sua conta, escreva para nós a partir do e-mail com que você entra no Zuzu. No Android, Excluir Conta fica no fim da tela Família & Conta. Todos os detalhes estão na [página de exclusão de conta](/zuzu-delete-account/), em inglês."
+  contact_body: "Configurações → Suporte e Sobre → Entre em Contato abre um e-mail com o aparelho, a versão do iOS e a versão do Zuzu já preenchidos; conte o que você estava fazendo e o que aconteceu, e uma pessoa responde."

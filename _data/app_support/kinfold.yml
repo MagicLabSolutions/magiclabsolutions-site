@@ -1,0 +1,98 @@
+# Support page copy for /kinfold/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: FamilyKit@5d206b2: privacy=FamilyVault/Services/PersistenceController.swift (+ Features/Add/ScanProcessing.swift, Services/Pro/ProStore.swift, Services/AppLockController.swift, Services/SpotlightIndexer.swift); sync=FamilyVault/Features/Vault/VaultView.swift (CloudSyncDetailSheet); sharing=FamilyVault/Services/Sharing/CloudKitShareService.swift (+ Features/Family/CloudSharingSheet.swift); reminders=FamilyVault/Services/NotificationScheduler.swift (+ Features/Family/NotificationSettingsView.swift); pro=FamilyVault/Features/Family/FamilyView.swift (+ Features/Pro/PaywallView.swift); delete=FamilyVault/Features/Add/ManualEntryView.swift (+ Features/Family/MemberEditorView.swift); labels=FamilyVault/Resources/Localizable.xcstrings
+palette:
+  scheme: "light"
+  paper: "#F7F5EF"
+  surface: "#F0EEE9"
+  ink: "#242043"
+  muted: "#5F5C73"
+  line: "#D1CFD0"
+  accent: "#6356CF"
+  link: "#6356CF"
+  button: "#6356CF"
+  button_text: "#F7F5EF"
+en:
+  title: "Kinfold Support — Magic Lab Solutions"
+  description: "Help with Kinfold: where your documents are kept, iCloud sync, the Face ID lock, sharing the vault, renewal reminders, Kinfold Pro and deleting data."
+  tagline: "Your family's documents, in one place"
+  lede: "Answers about iCloud, sharing, reminders and Kinfold Pro — and a real person at the end of an email."
+  about_title: "What Kinfold is"
+  about: "Kinfold keeps your family's passports, ID cards, visas, residence permits and driver's licenses in one place, organized by person. Scan or import a document and Kinfold fills in the details on your device, then tracks the expiry date and reminds you before a renewal is due. It also plans trips, with packing lists and a check that everyone's passport is valid for the dates, on iPhone, iPad, Mac and Apple Vision Pro."
+  highlights:
+    - title: "Scan, don't type"
+      text: "A passport or ID is read on your device, machine-readable zone included."
+    - title: "Copy in any format"
+      text: "Tap a date to copy it the way a form asks: airline, German, Brazil/EU, US or ISO 8601."
+    - title: "Renewal reminders"
+      text: "From 3 months to 1 day before a passport, ID or visa expires."
+    - title: "Ready to travel"
+      text: "Trips with packing lists and a check that every passport outlasts the trip."
+  faqs:
+    - q: "Where are my documents kept, and who can see them?"
+      a:
+        - "Kinfold has no account and no server of its own. Your vault is stored encrypted in your private iCloud and syncs to the devices signed in to your Apple Account, and scans are read on the device itself, so no document is sent anywhere to be processed. Our purchase service only learns whether you have Kinfold Pro and basic app use, such as which screens open — never your documents."
+        - "For a lock on top, open Family and turn on Lock with Face ID (Touch ID, Optic ID or your passcode, depending on the device). Kinfold then locks each time you leave it, hides its preview in the app switcher and keeps your documents out of Spotlight search. The lock is set separately on each device."
+    - q: "My documents aren't on my other iPhone, iPad or Mac. What should I check?"
+      a:
+        - "Kinfold syncs through iCloud, so every device needs to be signed in with the same Apple Account, with iCloud on and storage to spare. A new device shows Syncing your vault… while your documents come down; give it a minute on a good connection."
+        - "When sync is stuck, a cloud with an exclamation mark appears at the top of the Vault; tap it to see why. Family → Sync now shows when the vault last synced and checks again. If it says Not syncing — saving to this device only, quit Kinfold completely and open it again."
+    - q: "How do I share the vault with my family?"
+      a:
+        - "Open Family, tap Invite family to this vault and send the invitation however you like. The people you invite open it with Kinfold on their own device and see your vault read-only: your documents appear in their Vault under Shared with you and stay up to date as you make changes. Starting a share needs Kinfold Pro; the people you invite don't need it."
+        - "Anyone who has the link can open it, so send it only to family. On iPhone or iPad, tap Invite family to this vault again to see who has joined, limit access to the people you invite, or stop sharing. On a Mac, the button copies the invite link instead."
+    - q: "Why didn't a renewal reminder arrive?"
+      a:
+        - "Reminders are set per device. Open Family → Reminders and check that Reminders on this device is on: it's on by default only on iPhone, so iPad, Mac and Vision Pro stay quiet until you turn it on there. Notifications for Kinfold also have to be allowed in your device's Settings."
+        - "Under Renewals, keep Document renewals on and choose how early to hear about it, from 3 months to 1 day before (2 months, 1 month and 1 week to start with), then set the Time of day. A document only reminds you when it has an expiry date and its Renewal reminder is on; archived documents and documents shared with you never send one."
+    - q: "What does Kinfold Pro add, and how do I restore it?"
+      a:
+        - "The free version has limits on how many family members and upcoming trips you can add. Kinfold Pro removes them and lets you invite family to share the vault. Nothing you already added is ever locked — the limits only stop you adding more. Prices show in your own currency before you buy."
+        - "New device, or reinstalled? Kinfold usually finds your purchase on its own when it opens. If not, go to Vault → Family → Kinfold Pro → Restore purchases, using the Apple Account you bought with. A subscription is managed and cancelled with Manage subscription in that same section, or in your Apple Account's subscriptions; refunds are handled by Apple."
+    - q: "How do I delete a document, a person or everything?"
+      a:
+        - "Open the document, tap the … menu and choose Edit → Delete document, or swipe left on it in the Vault and tap the trash button; if it has previous versions, the newest one takes its place. To remove someone, open Family, tap their name and choose Remove family member — their documents go with them. Deleting is permanent and reaches every device on your iCloud."
+        - "There is no single erase-all button: remove family members along with their documents, delete your own documents one by one, and delete trips and events from their edit screens. Deleting the app from a device leaves your iCloud copy in place, and reinstalling brings the vault back."
+  contact_body: "Tell us your device, its system version, your Kinfold version (Family → Contact support adds it for you) and what happened, and a person will write back."
+pt-BR:
+  title: "Suporte do Kinfold — Magic Lab Solutions"
+  description: "Ajuda com o Kinfold: onde ficam seus documentos, sincronização pelo iCloud, bloqueio com Face ID, compartilhar o cofre, lembretes, Kinfold Pro e apagar dados."
+  tagline: "Os documentos da sua família em um só lugar"
+  lede: "Respostas sobre iCloud, compartilhamento, lembretes e Kinfold Pro — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o Kinfold"
+  about: "O Kinfold guarda passaportes, documentos de identidade, vistos, autorizações de residência e carteiras de motorista da sua família em um só lugar, organizados por pessoa. Digitalize ou importe um documento e o Kinfold preenche os dados no próprio aparelho, acompanha a validade e avisa antes da hora de renovar. Ele também organiza viagens, com lista de mala e a conferência de que o passaporte de todos vale para as datas, no iPhone, iPad, Mac e Apple Vision Pro."
+  highlights:
+    - title: "Digitalize, não digite"
+      text: "Passaportes e documentos são lidos no próprio aparelho, com a zona de leitura automática."
+    - title: "Copie em qualquer formato"
+      text: "Toque numa data para copiá-la como o formulário pede: companhia aérea, alemão, Brasil/UE, EUA ou ISO 8601."
+    - title: "Lembretes de renovação"
+      text: "De 3 meses a 1 dia antes de um passaporte, documento ou visto vencer."
+    - title: "Pronto para viajar"
+      text: "Viagens com lista de mala e a conferência de que cada passaporte vale até o fim da viagem."
+  faqs:
+    - q: "Onde ficam meus documentos e quem pode vê-los?"
+      a:
+        - "O Kinfold não tem conta nem servidor próprio. O cofre fica guardado, criptografado, no seu iCloud privado e sincroniza com os aparelhos conectados à sua Conta Apple, e as digitalizações são lidas no próprio aparelho, então nenhum documento é enviado para ser processado. Nosso serviço de compras só recebe o status do seu Kinfold Pro e dados básicos de uso, como as telas abertas — nunca seus documentos."
+        - "Quer uma tranca a mais? Abra Família e ative Bloquear com Face ID (ou Touch ID, Optic ID ou código, conforme o aparelho). O Kinfold passa a bloquear sempre que você sai dele, esconde a prévia no seletor de apps e tira seus documentos da busca do Spotlight. O bloqueio é ativado separadamente em cada aparelho."
+    - q: "Meus documentos não aparecem no meu outro iPhone, iPad ou Mac. O que verificar?"
+      a:
+        - "O Kinfold sincroniza pelo iCloud, então todos os aparelhos precisam estar conectados à mesma Conta Apple, com o iCloud ativado e espaço livre. Num aparelho novo, aparece Sincronizando seu cofre… enquanto os documentos chegam; espere um pouco com uma boa conexão."
+        - "Se a sincronização travar, uma nuvem com ponto de exclamação aparece no topo do Cofre; toque nela para ver o motivo. Em Família → Sincronizar agora você vê quando o cofre sincronizou pela última vez e pode verificar de novo. Se aparecer Não sincronizando — salvando apenas neste dispositivo, feche o Kinfold por completo e abra de novo."
+    - q: "Como compartilho o cofre com a minha família?"
+      a:
+        - "Abra Família, toque em Convide a família para este cofre e envie o convite como preferir. Quem recebe abre o convite com o Kinfold no próprio aparelho e vê o seu cofre só para leitura: os documentos aparecem no Cofre dessa pessoa, em Compartilhado com você, e se atualizam conforme você faz mudanças. Para começar a compartilhar é preciso ter o Kinfold Pro; quem você convida não precisa."
+        - "Qualquer pessoa com o link consegue abrir o convite, então envie só para a família. No iPhone ou iPad, toque de novo em Convide a família para este cofre para ver quem entrou, limitar o acesso às pessoas convidadas ou parar de compartilhar. No Mac, o botão copia o link do convite."
+    - q: "Por que um lembrete de renovação não chegou?"
+      a:
+        - "Os lembretes são configurados em cada aparelho. Abra Família → Lembretes e confira se Lembretes neste dispositivo está ativado: ele já vem ligado só no iPhone, então iPad, Mac e Vision Pro ficam em silêncio até você ativar neles. As notificações do Kinfold também precisam estar permitidas nos Ajustes do aparelho."
+        - "Em Renovações, mantenha Renovações de documentos ativado e escolha com quanta antecedência quer ser avisado, de 3 meses a 1 dia antes (2 meses, 1 mês e 1 semana já vêm marcados); depois ajuste a Hora do dia. Um documento só avisa quando tem data de validade e o Lembrete de renovação dele está ativado; documentos arquivados e os compartilhados com você nunca enviam lembretes."
+    - q: "O que o Kinfold Pro oferece e como restauro a compra?"
+      a:
+        - "A versão gratuita tem limite de familiares e de viagens futuras. O Kinfold Pro tira esses limites e permite convidar a família para compartilhar o cofre. Nada do que você já adicionou fica bloqueado — os limites só impedem de adicionar mais. Os preços aparecem na sua moeda antes da compra."
+        - "Aparelho novo ou app reinstalado? Normalmente o Kinfold encontra sua compra sozinho ao abrir. Se não encontrar, vá em Cofre → Família → Kinfold Pro → Restaurar compras, com a mesma Conta Apple da compra. A assinatura é gerenciada e cancelada em Gerenciar assinatura, nessa mesma seção, ou nas assinaturas da sua Conta Apple; reembolsos ficam com a Apple."
+    - q: "Como apago um documento, uma pessoa ou tudo?"
+      a:
+        - "Abra o documento, toque no menu … e escolha Editar → Excluir documento, ou deslize o documento para a esquerda no Cofre e toque na lixeira; se ele tiver versões anteriores, a mais recente passa a ser a atual. Para remover alguém, abra Família, toque no nome da pessoa e escolha Remover familiar — os documentos dela vão junto. A exclusão é definitiva e vale para todos os aparelhos do seu iCloud."
+        - "Não existe um botão para apagar tudo: remova os familiares junto com os documentos deles, apague os seus documentos um a um e exclua viagens e eventos nas telas de edição deles. Apagar o app de um aparelho não apaga a cópia no iCloud, e reinstalar traz o cofre de volta."
+  contact_body: "Conte qual é o seu aparelho, a versão do sistema, a versão do Kinfold (Família → Contatar suporte já inclui) e o que aconteceu, e uma pessoa vai responder."

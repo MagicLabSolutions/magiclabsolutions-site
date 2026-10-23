@@ -1,0 +1,106 @@
+# Support page copy for /soooon/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: Soooon@3ef3c51 (origin/main):
+#   about, highlights: README.md, docs/VISION.md, fastlane/metadata/en-US/description.txt, SoooonKit/Sources/Domain/Suggestions/SuggestionMaker.swift, app/SoooonWidgets/Widgets/SoooonWidgetsBundle.swift, app/Soooon/Screens/Settings/PersonalityPicker.swift
+#   faq 1 (Pro, restore, cancel): app/Soooon/Screens/Plans/PlansScreen.swift, app/Soooon/Screens/Plans/ProBenefits.swift, app/Soooon/Screens/Settings/ProRow.swift, SoooonKit/Sources/Domain/Purchases/FreeAllowance.swift, SoooonKit/Sources/Domain/Purchases/PaywallSettings.swift, SoooonKit/Sources/Billing/PurchaseRepositoryImpl.swift (restorePolicy .onRestore), app/Soooon/App/SoooonApp.swift (Mac Settings scene), app/project.yml (one bundle id for iOS and macOS)
+#   faq 2 (sync, storage, delete): docs/ARCHITECTURE.md (Storage, Known gaps), SoooonKit/Sources/DataLayer/Store/SharedContainer.swift, SoooonKit/Sources/DataLayer/Store/PhotoRepositoryImpl.swift, app/Soooon/Support/Soooon-macOS.entitlements + Soooon-iOS.entitlements (no iCloud), app/Soooon/Screens/Home/HomeScreen.swift, app/Soooon/Screens/Detail/CountdownDetailScreen.swift
+#   faq 3 (notifications): app/Soooon/Screens/Settings/SettingsScreen.swift, app/Soooon/Screens/Editor/EditorScreen.swift, SoooonKit/Sources/Domain/Notifications/NotificationPlanner.swift, SoooonKit/Sources/Domain/Countdowns/Models/NotifyLevel.swift, SoooonKit/Sources/Domain/Suggestions/SuggestionMaker.swift (notify .bigOnes)
+#   faq 4 (widgets, menu bar): app/SoooonWidgets/Widgets/CountdownWidget.swift, UpNextWidget.swift, LockScreenWidget.swift, app/SoooonWidgets/Intents/SelectCountdownIntent.swift, app/SoooonWidgets/Timeline/CountdownProvider.swift, SoooonKit/Sources/Domain/Countdowns/CountdownUseCases.swift (reload after every change), app/Soooon/Screens/Mac/MenuBarContent.swift, MenuBarLabel.swift
+#   faq 5 (permissions): app/Soooon/Support/Info.plist + app/Soooon/Resources/InfoPlist.xcstrings, app/Soooon/Screens/Discover/DiscoverScreen.swift, app/Soooon/Screens/Discover/CalendarSection.swift, docs/ARCHITECTURE.md (Calendar: full access only)
+#   faq 6 (Live Activities): SoooonKit/Sources/Domain/LiveActivities/LiveActivityPlanner.swift, SoooonKit/Sources/DataLayer/LiveActivity/LiveActivityScheduler.swift, app/Soooon/Screens/Plans/ProBenefits.swift
+#   pt-BR labels: app/Soooon/Resources/Localizable.xcstrings, app/SoooonWidgets/Localizable.xcstrings
+palette:
+  scheme: "light"
+  paper: "#F2E8FF"
+  surface: "#EBE1F9"
+  ink: "#2B1B4B"
+  muted: "#63547D"
+  line: "#CEC3DF"
+  accent: "#7546D3"
+  link: "#7546D3"
+  button: "#7546D3"
+  button_text: "#F2E8FF"
+en:
+  title: "Soooon Support — Magic Lab Solutions"
+  description: "Help with Soooon: Soooon Pro and restoring a purchase, syncing, notifications, widgets, permissions, Live Activities and deleting countdowns."
+  tagline: "The countdown app that gets excited with you."
+  lede: "The questions people ask most about Soooon, and a real person at the end of an email."
+  about_title: "What Soooon is"
+  about: "Soooon is a countdown app for iPhone, iPad and Mac. Add the birthdays, trips and holidays you're waiting for, and a little critter counts down with you, more excited the closer each day comes. Your next countdowns show in widgets, on the Lock Screen and, on a Mac, in the menu bar."
+  highlights:
+    - title: "Ready on day one"
+      text: "Holidays for the places and traditions you choose, birthdays from Contacts, long weekends and full moons."
+    - title: "Widgets everywhere"
+      text: "Home Screen and Lock Screen widgets, desktop widgets on the Mac and a countdown in its menu bar."
+    - title: "Your kind of hype"
+      text: "Wholesome, Silly or Savage notifications, and never more than one build-up a day."
+    - title: "Stays on your device"
+      text: "No account and no ads. Your countdowns are never sent to us."
+  faqs:
+    - q: "What does Soooon Pro add, and how do I restore it?"
+      a:
+        - "Soooon is free with every holiday, smart countdown and birthday from Contacts, plus three countdowns of your own; one made from your Calendar or Reminders counts as your own. Soooon Pro adds unlimited countdowns, Live Activities on iPhone and share cards without the watermark. Choose yearly, monthly or a one-time purchase; prices show in your own currency before you buy."
+        - "New iPhone, iPad or Mac, or the app reinstalled? Soooon starts free until you restore: Settings → Soooon Pro → Restore Purchases, with the same Apple Account (on a Mac, open Soooon → Settings…). To cancel a subscription, use Apple's subscriptions page: Settings → your name → Subscriptions on iPhone and iPad, or App Store → your name → Account Settings on a Mac."
+    - q: "Does Soooon sync between my devices? Where are my countdowns kept?"
+      a:
+        - "Your countdowns, settings and photos are stored on the device, in a space shared only with Soooon's own widgets. There's no account, and we never receive them. Soooon doesn't sync countdowns between devices, so each iPhone, iPad and Mac keeps its own; Soooon Pro, though, comes with your Apple Account to each of them through Restore Purchases."
+        - "To delete a countdown, touch and hold it in your list (Control-click on a Mac) and choose Delete, or open it and choose More (…) → Delete. Deleting Soooon from an iPhone or iPad removes everything it kept there. A Mac keeps an app's data after the app goes to the Trash, so delete your countdowns first if you want them gone."
+    - q: "My notifications don't arrive. What should I check?"
+      a:
+        - "In Soooon, open Settings → Notifications. If it says “Notifications are off in System Settings”, turn them on in Settings → Notifications → Soooon on iPhone and iPad, or System Settings → Notifications → Soooon on a Mac. If it says Turn on notifications, tap it and allow them."
+        - "Each countdown has its own setting: open it, then More (…) → Edit → Notifications — Chatty, Normal, Just the big ones or Off. Holidays and birthdays from Contacts start on Just the big ones. Build-ups arrive at the Delivered at time, never more than one a day: several on the same day come together."
+    - q: "My widget shows the wrong countdown, or hasn't moved on."
+      a:
+        - "A Countdown widget shows whatever is next unless you choose one: edit the widget (touch and hold it, or Control-click it on a Mac) and pick a Countdown. Up next lists the next few. Widgets move on by themselves at midnight and at a countdown's set time, and every change in Soooon reaches them at once; if one still looks stuck, remove it and add it again."
+        - "On a Mac, the countdown in the menu bar is there while Soooon is open, and quitting Soooon takes it away. To have it back after a restart, add Soooon to the login items in System Settings → General."
+    - q: "Why does Soooon ask for Contacts, Calendar, Reminders or Photos?"
+      a:
+        - "Only when you ask for something that needs it. Find birthdays reads names and birthdays from Contacts; Find my plans and Find my reminders read the names and dates of your events and of reminders with a due date. Soooon only reads, never changes your Calendar or Reminders, and nothing leaves your device. Saving a share card to Photos asks to add pictures, never to see your library."
+        - "To change an answer, open Settings → Privacy & Security on iPhone and iPad, or System Settings → Privacy & Security on a Mac. Calendar needs full access: with access to add events only, Soooon can't read them."
+    - q: "Why don't I see a Live Activity?"
+      a:
+        - "Live Activities are part of Soooon Pro, on iPhone. One appears up to six hours before a countdown's moment, never starting between 10 pm and 7 am, and at most two show at a time. Weekly and monthly countdowns, the full moon, the seasons and countdowns with notifications Off never get one."
+        - "Check that Live Activities are on for Soooon in your iPhone's Settings. On iOS 26 and later, Soooon schedules each one ahead of time; on earlier versions, open Soooon during those hours to start it."
+  contact_body: "Tell us which iPhone, iPad or Mac you use, its iOS, iPadOS or macOS version, the Soooon version (Settings → Version) and what happened, and a person will reply."
+pt-BR:
+  title: "Suporte do Soooon — Magic Lab Solutions"
+  description: "Ajuda com o Soooon: Soooon Pro e restaurar a compra, sincronização, notificações, widgets, permissões, Atividades ao Vivo e como apagar contagens."
+  tagline: "A contagem regressiva que se anima com você."
+  lede: "As dúvidas mais comuns sobre o Soooon — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o Soooon"
+  about: "O Soooon é um app de contagem regressiva para iPhone, iPad e Mac. Adicione os aniversários, viagens e feriados que você está esperando, e uma criaturinha conta os dias com você, mais animada quanto mais perto o dia chega. As próximas contagens aparecem nos widgets, na Tela de Bloqueio e, no Mac, na barra de menus."
+  highlights:
+    - title: "Pronto no primeiro dia"
+      text: "Feriados dos lugares e tradições que você escolher, aniversários dos Contatos, feriadões e luas cheias."
+    - title: "Widgets em todo lugar"
+      text: "Na Tela de Início e na Tela de Bloqueio, widgets na mesa do Mac e uma contagem na barra de menus."
+    - title: "Do seu jeito"
+      text: "Notificações no tom Saudável, Bobo ou Sanguinário, e nunca mais de um aviso de contagem por dia."
+    - title: "Fica no seu aparelho"
+      text: "Sem conta e sem anúncios. Suas contagens nunca são enviadas para nós."
+  faqs:
+    - q: "O que o Soooon Pro acrescenta, e como restauro a compra?"
+      a:
+        - "O Soooon é grátis com todos os feriados, as contagens inteligentes e os aniversários dos Contatos, mais três contagens suas; uma contagem criada a partir do Calendário ou dos Lembretes conta como sua. O Soooon Pro libera contagens ilimitadas, Atividades ao Vivo no iPhone e cartões de compartilhamento sem marca d'água. Escolha anual, mensal ou compra única; o preço aparece na sua moeda antes de comprar."
+        - "iPhone, iPad ou Mac novo, ou app reinstalado? O Soooon começa grátis até você restaurar: Configurações → Soooon Pro → Restaurar Compras, com a mesma Conta Apple (no Mac, abra Soooon → Ajustes…). Para cancelar uma assinatura, use a página de assinaturas da Apple: Ajustes → seu nome → Assinaturas no iPhone e no iPad ou, no Mac, abra a App Store, clique no seu nome e vá aos ajustes da conta."
+    - q: "O Soooon sincroniza entre meus aparelhos? Onde ficam as minhas contagens?"
+      a:
+        - "Suas contagens, ajustes e fotos ficam guardados no próprio aparelho, num espaço que só os widgets do Soooon compartilham. Não existe conta, e nós nunca recebemos nada disso. O Soooon não sincroniza contagens entre aparelhos, então cada iPhone, iPad e Mac guarda as suas; já o Soooon Pro vai com a sua Conta Apple para todos eles, pelo Restaurar Compras."
+        - "Para apagar uma contagem, toque e segure nela na lista (no Mac, clique com a tecla Control) e escolha Excluir, ou abra a contagem e escolha Mais (…) → Excluir. Apagar o Soooon do iPhone ou do iPad remove tudo o que ele guardava ali. O Mac mantém os dados de um app mesmo depois que ele vai para o Lixo; se quiser que as contagens sumam, exclua-as antes."
+    - q: "As notificações não chegam. O que eu confiro?"
+      a:
+        - "No Soooon, abra Configurações → Notificações. Se aparecer “Notificações estão desativadas nas Configurações do Sistema”, ative em Ajustes → Notificações → Soooon no iPhone e no iPad, ou em Ajustes do Sistema → Notificações → Soooon no Mac. Se aparecer Ativar notificações, toque e permita."
+        - "Cada contagem tem o próprio ajuste: abra a contagem e vá em Mais (…) → Editar → Notificações — Conversador, Normal, Apenas os grandes ou Desligado. Feriados e aniversários dos Contatos começam em Apenas os grandes. Os avisos chegam no horário de Entregue em, no máximo um por dia: vários no mesmo dia chegam juntos."
+    - q: "Meu widget mostra a contagem errada ou não avança."
+      a:
+        - "O widget Contagem regressiva mostra o que vem a seguir, a menos que você escolha uma: edite o widget (toque e segure; no Mac, clique com a tecla Control) e selecione uma Contagem regressiva. O widget Próximo lista as próximas. Os widgets avançam sozinhos à meia-noite e no horário marcado de cada contagem, e toda mudança feita no Soooon chega a eles na hora; se algum continuar parado, remova e adicione de novo."
+        - "No Mac, a contagem na barra de menus fica lá enquanto o Soooon está aberto, e sair do Soooon a tira de lá. Para ela voltar depois de reiniciar, adicione o Soooon aos itens de início em Ajustes do Sistema → Geral."
+    - q: "Por que o Soooon pede acesso aos Contatos, ao Calendário, aos Lembretes ou às Fotos?"
+      a:
+        - "Só quando você pede algo que precisa disso. Encontrar aniversários lê nomes e aniversários dos Contatos; Encontre meus planos e Encontre meus lembretes leem os nomes e as datas dos seus eventos e dos lembretes com data. O Soooon só lê, nunca altera seu Calendário ou seus Lembretes, e nada sai do seu aparelho. Salvar um cartão nas Fotos pede para adicionar imagens, nunca para ver a sua biblioteca."
+        - "Para mudar a resposta, abra Ajustes → Privacidade e Segurança no iPhone e no iPad, ou Ajustes do Sistema → Privacidade e Segurança no Mac. O Calendário precisa de acesso total: com acesso só para adicionar eventos, o Soooon não consegue lê-los."
+    - q: "Por que não aparece uma Atividade ao Vivo?"
+      a:
+        - "As Atividades ao Vivo fazem parte do Soooon Pro, no iPhone. Uma aparece até seis horas antes do momento da contagem, nunca começando entre 22h e 7h, e no máximo duas aparecem ao mesmo tempo. Contagens semanais e mensais, a lua cheia, as estações e contagens com notificações em Desligado nunca ganham uma."
+        - "Confira se as Atividades ao Vivo estão ativadas para o Soooon nos Ajustes do iPhone. No iOS 26 ou posterior, o Soooon agenda cada uma com antecedência; nas versões anteriores, abra o Soooon nessas horas para ela começar."
+  contact_body: "Conte qual iPhone, iPad ou Mac você usa, a versão do iOS, iPadOS ou macOS, a versão do Soooon (Configurações → Versão) e o que aconteceu, e uma pessoa responde."

@@ -1,0 +1,106 @@
+# Support page copy for /poof/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: Poof@9fdd95a (origin/main), the Mac App Store edition (app/Poof/AppStore.entitlements); starts from the site's _includes/launch-details/poof.html and _data/poof_legal.json, checked against the code:
+#   about, highlights: CLAUDE.md, fastlane/metadata/en-US/description.txt, PoofKit/Sources/Domain/Catalog/*Rules.swift (selectedByDefault, quiet periods), app/Poof/Words/HoldLabel.swift
+#   faq 1 (Home folder): app/Poof/Screens/Access/AccessScreen.swift, PoofKit/Sources/Disk/AccessRepositoryImpl.swift (bookmark), PoofKit/Sources/Domain/Rules/DuplicateFiles.swift + CLAUDE.md (Duplicates: contents compared on the Mac)
+#   faq 2 (Full Disk Access): app/Poof/Screens/Components/FullDiskAccessCard.swift, PoofKit/Sources/Domain/Rules/Reach.swift, PoofKit/Sources/Domain/Catalog/ (trash, mailDownloads, containerCaches, deviceBackups, appLeftovers: reach .fullDiskAccess)
+#   faq 3 (what a clean removes): app/Poof/Words/PlanText.swift, PoofKit/Sources/Domain/Catalog/TrashRules.swift + SystemJunkRules.swift, PoofKit/Sources/Domain/Policy/SafetyPolicy.swift, CLAUDE.md (safety invariants), fastlane/metadata/en-US/description.txt
+#   faq 4 (Pro, restore, cancel): app/Poof/Settings/ProSettings.swift, app/Poof/Screens/Plans/PlansFooter.swift, app/Poof/Words/ProText.swift, PoofKit/Sources/Domain/Purchases/CleanPermission.swift + PaywallSettings.swift, PoofKit/Sources/Billing/PurchaseRepositoryImpl.swift (restorePolicy .onRestore), app/Poof/Links.swift (subscriptions)
+#   faq 5 (removing apps): app/Poof/Screens/Components/ApplicationsCard.swift, app/Poof/Words/HoldLabel.swift, CLAUDE.md (Applications — the uninstaller)
+#   faq 6 (menu bar, warnings, Auto clean): app/Poof/Settings/GeneralSettings.swift, app/Poof/Words/AutoCleanLabel.swift, PoofKit/Sources/Presentation/Monitor/SpaceMonitor.swift + MonitorTiming.swift, PoofKit/Sources/Domain/Space/SpacePressure.swift + AutoClean.swift
+#   pt-BR labels: app/Poof/Resources/Localizable.xcstrings
+palette:
+  scheme: "dark"
+  paper: "#181123"
+  surface: "#261F30"
+  ink: "#FBF4FF"
+  muted: "#BBB4C1"
+  line: "#413A4B"
+  accent: "#DBADFA"
+  link: "#DBADFA"
+  button: "#DBADFA"
+  button_text: "#181123"
+en:
+  title: "Poof Support — Magic Lab Solutions"
+  description: "Help with Poof: the Home folder and Full Disk Access, what a clean removes, Poof Pro and restoring a purchase, removing apps, the menu bar and Auto clean."
+  tagline: "Free up disk space, safely."
+  lede: "The questions people ask most about Poof, and a real person at the end of an email."
+  about_title: "What Poof is"
+  about: "Poof is a disk cleaner for the Mac. Smart Scan finds the caches, logs, build leftovers and forgotten files that apps pile up, says what each one is and how big it is, and removes only what you choose. The Space Map shows where the rest of your space goes."
+  highlights:
+    - title: "Scanning is always free"
+      text: "See everything Poof finds before you decide anything."
+    - title: "Safe by design"
+      text: "Your own files are never ticked for you, and anything in use or just changed is left alone."
+    - title: "Uninstall completely"
+      text: "An app and the data it keeps go to the Trash together."
+    - title: "Keeps watch"
+      text: "Free space in the menu bar, a warning when it runs low, and Auto clean if you want it."
+  faqs:
+    - q: "Why does Poof ask for my Home folder?"
+      a:
+        - "The Mac App Store version runs in Apple's App Sandbox, which shows an app none of your files until you choose. Click Choose Home Folder…: the panel already shows your Home folder, so just click Allow Access. Poof keeps a bookmark to it on your Mac, so it doesn't need to ask each time."
+        - "To find what can go, Poof looks at names, sizes and dates; to find duplicates, it also compares the contents of files of 1 MB or more, on your Mac. Nothing about your files is sent anywhere, and nothing is removed until you confirm, unless you turn on Auto clean."
+    - q: "What is Full Disk Access for?"
+      a:
+        - "It's optional. With it, Poof can also clean the Trash, Mail downloads, device backups, other apps' caches and what removed apps left behind: places macOS guards from every app."
+        - "On the Needs Full Disk Access card, click Open Settings, turn Poof on in the list (add it with + if it isn't there), then click Reopen Poof: macOS applies the permission only when the app opens again. You can turn it off any time in System Settings → Privacy & Security → Full Disk Access."
+    - q: "What does a clean remove, and can I get things back?"
+      a:
+        - "Poof ticks for you only what apps make again or download again: caches, logs, build data and Mail downloads, except anything whose app is open or that changed recently. Those are deleted. Installers, backups, archives, apps and any of your own files you tick go to the Trash, so you can put them back; your own files are never ticked for you."
+        - "With Full Disk Access the Trash is ticked too, and it's emptied for good. Before anything goes, a confirmation says what will happen to each kind, that included. Poof never touches your Photos and Music libraries or iCloud Drive."
+    - q: "What does Poof Pro add, and how do I restore or cancel it?"
+      a:
+        - "Scanning is always free. Cleaning and Auto clean need Poof Pro: a weekly or yearly subscription, or a one-time lifetime purchase, with prices in your own currency before you buy. If Poof offers free cleans, it shows how many are left beside the Clean button."
+        - "New Mac, or reinstalled? Poof starts free until you restore: Poof → Settings → Poof Pro → Restore Purchases (the plans page has the same button), with the same Apple Account. To cancel, click Manage Subscription in that tab, or use Apple's subscriptions page in the App Store app: your name → Account Settings."
+    - q: "How do I remove an app completely?"
+      a:
+        - "Open Applications in the sidebar, tick the app and clean: the app and the data it keeps go to the Trash together, so you can put them back. The Mac App Store version asks once for your Applications folder (Allow Access…). An app that is open is never removed, so quit it first."
+        - "macOS protects apps you've opened from changes by other apps: to remove those, click Open Settings, allow Poof under App Management, then click Reopen Poof. Apps installed for everyone on your Mac, from the App Store or an installer, can only be removed in Finder, which asks for your password. Apple's own apps are never listed."
+    - q: "What do the menu bar, low-space warnings and Auto clean do?"
+      a:
+        - "With Show Poof in the menu bar on (Poof → Settings → General), Poof checks your free space every minute and, with Tell me when my Mac runs low on space, warns you at most once a day when it drops under 30 GB or 8%. Closing the window keeps Poof in the menu bar, and Open Poof at login brings it back after a restart."
+        - "Auto clean, part of Poof Pro, takes only what rebuilds itself (caches, logs, Xcode's build data) every week or when space runs low. It never takes your own files or the Trash, never runs while you're using Poof's window, and tells you what it freed. No warnings? Check System Settings → Notifications → Poof."
+  contact_body: "Tell us your Mac, your macOS version, the Poof version (Poof → Settings → About) and what happened, and a person will reply."
+pt-BR:
+  title: "Suporte do Poof — Magic Lab Solutions"
+  description: "Ajuda com o Poof: pasta de início, Acesso Total ao Disco, o que a limpeza remove, restaurar o Poof Pro, remover apps, barra de menus e Limpeza automática."
+  tagline: "Libere espaço em disco com segurança."
+  lede: "As dúvidas mais comuns sobre o Poof — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o Poof"
+  about: "O Poof é um limpador de disco para Mac. O Escaneamento Inteligente encontra os caches, logs, sobras de build e arquivos esquecidos que os apps acumulam, diz o que é cada um e quanto ocupa, e remove só o que você escolher. O Mapa de Espaço mostra para onde vai o resto do seu espaço."
+  highlights:
+    - title: "Verificar é sempre grátis"
+      text: "Você vê tudo o que o Poof encontrou antes de decidir qualquer coisa."
+    - title: "Seguro por padrão"
+      text: "Seus próprios arquivos nunca vêm marcados, e o que está em uso ou mudou há pouco fica de fora."
+    - title: "Desinstala por completo"
+      text: "O app e os dados que ele guarda vão juntos para o Lixo."
+    - title: "Fica de olho"
+      text: "Espaço livre na barra de menus, um aviso quando ele acaba e Limpeza automática, se você quiser."
+  faqs:
+    - q: "Por que o Poof pede a minha pasta de início?"
+      a:
+        - "A versão da Mac App Store roda na App Sandbox da Apple, que não mostra nenhum arquivo seu a um app até você escolher. Clique em Escolher Pasta Inicial…: o painel já abre na sua pasta de início, então é só clicar em Permitir Acesso. O Poof guarda uma referência a ela no seu Mac, para não precisar pedir toda vez."
+        - "Para achar o que pode sair, o Poof olha nomes, tamanhos e datas; para achar duplicatas, ele também compara o conteúdo dos arquivos de 1 MB ou mais, no próprio Mac. Nada sobre os seus arquivos é enviado para lugar nenhum, e nada é removido antes da sua confirmação, a não ser que você ative a Limpeza automática."
+    - q: "Para que serve o Acesso Total ao Disco?"
+      a:
+        - "É opcional. Com ele, o Poof também limpa o Lixo, os downloads do Mail, os backups de dispositivos, os caches de outros apps e o que apps já removidos deixaram para trás: lugares que o macOS protege de todos os apps."
+        - "No cartão Precisa de Acesso Completo ao Disco, clique em Abrir Configurações, ative o Poof na lista (adicione com + se ele não estiver lá) e clique em Reabrir Poof: o macOS só aplica a permissão quando o app abre de novo. Você pode desativar quando quiser em Ajustes do Sistema → Privacidade e Segurança → Acesso Total ao Disco."
+    - q: "O que uma limpeza remove, e dá para recuperar?"
+      a:
+        - "O Poof só marca para você o que os apps refazem ou baixam de novo: caches, logs, dados de build e downloads do Mail, menos o que tem o app aberto ou mudou há pouco. Isso é apagado. Instaladores, backups, arquivos compactados, apps e qualquer arquivo seu que você marcar vão para o Lixo, para você poder recuperar; seus próprios arquivos nunca vêm marcados."
+        - "Com o Acesso Total ao Disco, o Lixo também vem marcado, e ele é esvaziado de vez. Antes de qualquer coisa sair, uma confirmação diz o que vai acontecer com cada tipo, inclusive isso. O Poof nunca mexe nas bibliotecas de Fotos e Música nem no iCloud Drive."
+    - q: "O que o Poof Pro acrescenta, e como restauro ou cancelo?"
+      a:
+        - "Verificar é sempre grátis. Limpar e a Limpeza automática precisam do Poof Pro: assinatura semanal ou anual, ou compra vitalícia única, com o preço na sua moeda antes de comprar. Se o Poof oferecer limpezas grátis, ele mostra quantas restam ao lado do botão Limpar."
+        - "Mac novo ou app reinstalado? O Poof começa grátis até você restaurar: Poof → Ajustes… → Poof Pro → Restaurar Compras (a página de planos tem o mesmo botão), com a mesma Conta Apple. Para cancelar, clique em Gerenciar Assinatura nessa aba ou use a página de assinaturas da Apple: na App Store, clique no seu nome e vá aos ajustes da conta."
+    - q: "Como removo um app por completo?"
+      a:
+        - "Abra Aplicativos na barra lateral, marque o app e limpe: o app e os dados que ele guarda vão juntos para o Lixo, para você poder recuperar. A versão da Mac App Store pede uma vez a pasta Aplicativos (Permitir Acesso…). Um app aberto nunca é removido, então feche-o antes."
+        - "O macOS protege os apps que você já abriu de mudanças feitas por outros apps: para removê-los, clique em Abrir Configurações, permita o Poof em Gerenciamento de Aplicativos e clique em Reabrir Poof. Apps instalados para todos no Mac, pela App Store ou por um instalador, só saem pelo Finder, que pede a sua senha. Os apps da própria Apple nunca aparecem na lista."
+    - q: "O que fazem a barra de menus, os avisos de pouco espaço e a Limpeza automática?"
+      a:
+        - "Com Mostrar Poof na barra de menu ativado (Poof → Ajustes… → Geral), o Poof confere o espaço livre a cada minuto e, com Me avise quando meu Mac estiver com pouco espaço, avisa no máximo uma vez por dia quando ele fica abaixo de 30 GB ou de 8%. Fechar a janela mantém o Poof na barra de menus, e Abrir Poof ao iniciar faz ele voltar depois de reiniciar o Mac."
+        - "A Limpeza automática, parte do Poof Pro, leva só o que se reconstrói sozinho (caches, logs, dados de build do Xcode) toda semana ou quando o espaço está acabando. Ela nunca leva seus arquivos nem o Lixo, nunca roda enquanto você usa a janela do Poof e conta depois quanto liberou. Sem avisos? Confira Ajustes do Sistema → Notificações → Poof."
+  contact_body: "Conte qual é o seu Mac, a versão do macOS, a versão do Poof (Poof → Ajustes… → Sobre) e o que aconteceu, e uma pessoa responde."

@@ -1,0 +1,106 @@
+# Support page copy for /groundcontrol/support/ (rendered by _includes/app-support.html).
+# Every answer was checked against the app's code on origin/main (QRamen: its App Store listing).
+# Sources: GroundControl@7a169a4 (origin/main), the Mac App Store build (AppStore configuration, APP_STORE):
+#   about, highlights: README.md, docs/VISION.md, fastlane/metadata/en-US/description.txt, docs/APP-STORE-SANDBOX.md, GroundControlKit/Sources/Domain/Conflicts/ConflictAutoResolver.swift, GroundControlKit/Sources/Domain/Settings/AppSettings.swift
+#   faq 1 (home folder): app/GroundControl/Screens/Access/AccessWelcome.swift, app/GroundControl/Words/AccessWords.swift, app/GroundControl/App/FolderPicker.swift, app/GroundControl/Screens/Settings/FolderAccessSection.swift, GroundControlKit/Sources/DataLayer/Process/SandboxedGitRunner.swift, app/GroundControl/Screens/Fleet/FleetHomeRow.swift (No access), app/GroundControl/App/RootView+Access.swift
+#   faq 2 (credentials): app/GroundControl/Screens/GitHub/GitHubAccountView.swift, app/GroundControl/Words/GitHubAccountWords.swift, app/GroundControl/App/GitHubConfig.swift (clientID empty: no code sign-in), GroundControlKit/Sources/DataLayer/GitHub/GitHubAccountStore.swift + KeychainItem.swift, app/GroundControl/Words/FailureWords.swift (authenticationFailed, hostKeyUnknown, Sign In to GitHub…), app/GroundControl/Screens/Settings/SettingsScreen.swift (Clone GitHub repositories with)
+#   faq 3 (helper): app/GroundControl/Screens/Settings/SettingsScreen.swift (Advanced → Helper), app/GroundControl/Words/RunnerWords.swift, GroundControlKit/Sources/DataLayer/Git/GitRunnerScript.swift, docs/APP-STORE-SANDBOX.md, CLAUDE.md rules 29 and 34
+#   faq 4 (pull requests, checks): GroundControlKit/Sources/DataLayer/GitHub/GitHubCLI.swift, app/GroundControl/Words/GitHubWords.swift, docs/VISION.md (GitHub, Pull request reviews)
+#   faq 5 (Pro, restore, cancel): app/GroundControl/Screens/Pro/PaywallView.swift, app/GroundControl/Words/ProWords.swift, GroundControlKit/Sources/Presentation/Pro/ProGate.swift, GroundControlKit/Sources/Billing/HorseProRepository.swift (restorePolicy .automatic), store/products.json
+#   faq 6 (what leaves the Mac): app/GroundControl/App/AppContainer.swift, app/GroundControl/App/LaunchEnvironment.swift (library in the container), GroundControlKit/Sources/Domain/Settings/AppSettings.swift (fetch every 15 min), app/GroundControl/Screens/Fleet/FleetMenus.swift, GroundControlKit/Sources/Domain/Library/Models/Library.swift, app/GroundControl/Feedback/TeamActivityNotifier.swift
+#   Labels: the app has no pt-BR translation (app/GroundControl/Resources/Localizable.xcstrings holds only en), so the pt-BR block quotes the English labels the app shows.
+palette:
+  scheme: "dark"
+  paper: "#0C1422"
+  surface: "#19212F"
+  ink: "#ECF2F9"
+  muted: "#ADB4BD"
+  line: "#343C49"
+  accent: "#8DC5FC"
+  link: "#8DC5FC"
+  button: "#8DC5FC"
+  button_text: "#0C1422"
+en:
+  title: "Ground Control Support — Magic Lab Solutions"
+  description: "Help with Ground Control: home folder access, GitHub and SSH sign-in, the optional helper, pull requests, Ground Control Pro, restoring a purchase and privacy."
+  tagline: "Mission control for your Git repositories."
+  lede: "The questions people ask most about Ground Control, and a real person at the end of an email."
+  about_title: "What Ground Control is"
+  about: "Ground Control is a Git client for the Mac. Add a folder and every repository in it reports in: its branch, what's waiting to be pulled or pushed, and any uncommitted work. Open one and its history becomes a flight map you can act on: switch branches, stage and commit, pull, push, merge, rebase and resolve conflicts."
+  highlights:
+    - title: "Its own Git"
+      text: "Ground Control carries its own Git, so there's nothing else to install."
+    - title: "The whole fleet"
+      text: "The home screen puts first what needs you, and every repository is fetched in the background."
+    - title: "Conflicts, settled"
+      text: "Your side and theirs, block by block, with the easy ones settled for you."
+    - title: "Your code stays put"
+      text: "No account. Your code goes only where Git sends it: your own remotes."
+  faqs:
+    - q: "Why does Ground Control ask for my home folder?"
+      a:
+        - "macOS keeps every Mac App Store app away from your files until you choose what it may see. Granting your home folder once covers every repository on your Mac, your Git settings and your SSH keys, so Git knows your name and email and SSH remotes work. On the welcome, click Give Access to Your Home Folder, then Grant Access in the panel."
+        - "You can choose particular folders instead (Choose Folders…), but then Git can't read your settings or SSH keys. Settings → Repositories → Folder Access shows what Ground Control may see, adds a folder and takes one back. A repository outside every grant shows No access; opening it asks for its folder."
+    - q: "Push, pull or clone says my credentials weren't accepted."
+      a:
+        - "For GitHub over HTTPS, Ground Control keeps its own sign-in in Settings → GitHub. Use GitHub CLI Login borrows the login of the gh command line tool (macOS asks once to share it); Paste a Token… takes a classic token with the repo and workflow scopes, or a fine-grained one with Contents read and write. The token stays in your keychain, and Sign Out removes it."
+        - "For SSH, grant your home folder so Git can reach your keys, and check that the key is on your GitHub account. If Ground Control can't confirm the server's identity, run ssh -T git@github.com once in Terminal to trust it. Settings → Repositories chooses whether new GitHub clones use an SSH key or HTTPS."
+    - q: "What is the helper, and do I need it?"
+      a:
+        - "It's optional. macOS marks every file a sandboxed app writes, and a marked script or program won't run from Terminal. Installed once, the helper runs pulls, switches, merges and other writes outside the sandbox, as Terminal would, so what they write stays runnable; it also brings pull requests and checks from the GitHub command line tool. Without it, everything else works as usual."
+        - "To install it, open Settings → Advanced → Helper, click Copy Command, paste it into Terminal and press Return, then click Check Again. If it later says Needs installing again, after an update, run the command once more."
+    - q: "Why don't I see pull requests or checks?"
+      a:
+        - "They come from GitHub through the gh command line tool, which the Mac App Store version reaches through the helper. Install gh (brew install gh), sign it in with gh auth login in Terminal, and install the helper. The repository needs a remote on GitHub."
+        - "Then the branch list shows the open pull requests, each commit shows its Actions result, and the home screen lists the pull requests waiting for your review. On a pull request's page you can comment, approve, request changes and merge."
+    - q: "What does Ground Control Pro add, and how do I restore it?"
+      a:
+        - "One repository is free: the first one you open. Ground Control Pro opens every one, as a yearly subscription (with a free week if you're eligible) or a one-time lifetime purchase. Prices show in your own currency before you buy."
+        - "On another Mac with the same Apple Account, Pro usually turns on by itself. If it doesn't, open a locked repository, or Settings → General → See Plans, and click Restore Purchases. To cancel a subscription, use Apple's subscriptions page: in the App Store app, click your name, then Account Settings."
+    - q: "What leaves my Mac?"
+      a:
+        - "Your code goes only where Git sends it: fetches, pulls, pushes and clones talk to your repositories' remotes. Every repository is fetched in the background every 15 minutes; change it with Fetch every repository in Settings → Repositories. GitHub features ask GitHub for pull requests, checks and profile pictures, and the plans page checks your purchase with our subscription service. No account and no ads."
+        - "Your folder list and settings stay on your Mac and the GitHub token in your keychain, and Remove from Ground Control (right-click a repository on the home screen) never touches its files. When a fetch finds a teammate's push or merge, Ground Control can notify you (macOS asks first); Tell me when others push or merge turns that off."
+  contact_body: "Tell us your Mac, your macOS version, the Ground Control version (Ground Control → About Ground Control), whether the remote uses SSH or HTTPS, and what happened."
+pt-BR:
+  title: "Suporte do Ground Control — Magic Lab Solutions"
+  description: "Ajuda com o Ground Control: acesso à pasta de início, GitHub e SSH, o helper opcional, pull requests, Ground Control Pro, restaurar a compra e privacidade."
+  tagline: "Controle de missão dos seus repositórios."
+  lede: "As dúvidas mais comuns sobre o Ground Control — e uma pessoa de verdade do outro lado do e-mail."
+  about_title: "O que é o Ground Control"
+  about: "O Ground Control é um cliente Git para Mac: adicione uma pasta e cada repositório dentro dela mostra a branch, o que espera pull ou push e o trabalho ainda sem commit. Abra um e o histórico vira um mapa de voo onde você troca de branch, faz stage e commit, pull, push, merge e rebase e resolve conflitos. O app está em inglês, então os nomes dos botões aparecem aqui como no app."
+  highlights:
+    - title: "Git próprio"
+      text: "O Ground Control traz o próprio Git, então não há mais nada para instalar."
+    - title: "A frota inteira"
+      text: "A tela inicial mostra primeiro o que precisa de você, e todo repositório recebe fetch em segundo plano."
+    - title: "Conflitos resolvidos"
+      text: "O seu lado e o deles, bloco a bloco, com os fáceis já resolvidos para você."
+    - title: "Seu código fica onde está"
+      text: "Sem conta. Seu código só vai para onde o Git manda: os seus remotos."
+  faqs:
+    - q: "Por que o Ground Control pede a minha pasta de início?"
+      a:
+        - "O macOS mantém todo app da Mac App Store longe dos seus arquivos até você escolher o que ele pode ver. Liberar a pasta de início uma vez cobre todos os repositórios do Mac, as configurações do Git e as chaves SSH, para o Git saber seu nome e e-mail e os remotos por SSH funcionarem. Na tela de boas-vindas, clique em Give Access to Your Home Folder e depois em Grant Access no painel."
+        - "Dá para escolher só algumas pastas (Choose Folders…), mas aí o Git não lê suas configurações nem suas chaves SSH. Em Settings → Repositories → Folder Access você vê o que o Ground Control pode ver, adiciona uma pasta ou retira o acesso. Um repositório fora de tudo isso aparece como No access; ao abri-lo, o app pede a pasta dele."
+    - q: "Push, pull ou clone diz que minhas credenciais não foram aceitas."
+      a:
+        - "Para o GitHub por HTTPS, o Ground Control tem o próprio login, em Settings → GitHub. Use GitHub CLI Login usa o login da ferramenta de linha de comando gh (o macOS pergunta uma vez se pode compartilhar); Paste a Token… aceita um token clássico com os escopos repo e workflow, ou um fine-grained com Contents de leitura e escrita. O token fica nas chaves do seu Mac, e Sign Out o apaga."
+        - "Para SSH, libere a pasta de início para o Git chegar às suas chaves e confira se a chave está na sua conta do GitHub. Se o Ground Control não conseguir confirmar a identidade do servidor, rode ssh -T git@github.com uma vez no Terminal para confiar nele. Em Settings → Repositories você escolhe se novos clones do GitHub usam SSH key ou HTTPS."
+    - q: "O que é o helper, e eu preciso dele?"
+      a:
+        - "É opcional. O macOS marca todo arquivo que um app em sandbox grava, e um script ou programa marcado não roda pelo Terminal. Instalado uma vez, o helper faz pulls, trocas de branch, merges e outras gravações fora do sandbox, como o Terminal faria, para o que eles gravam continuar executável; ele também traz pull requests e checks da ferramenta gh. Sem ele, todo o resto funciona normalmente."
+        - "Para instalar, abra Settings → Advanced → Helper, clique em Copy Command, cole no Terminal e aperte Return, depois clique em Check Again. Se depois de uma atualização aparecer Needs installing again, rode o comando mais uma vez."
+    - q: "Por que não vejo pull requests nem checks?"
+      a:
+        - "Eles vêm do GitHub pela ferramenta de linha de comando gh, que a versão da Mac App Store alcança pelo helper. Instale o gh (brew install gh), faça login com gh auth login no Terminal e instale o helper. O repositório precisa ter um remoto no GitHub."
+        - "Aí a lista de branches mostra os pull requests abertos, cada commit mostra o resultado do Actions e a tela inicial lista os pull requests que esperam a sua revisão. Na página de um pull request você comenta, aprova, pede mudanças e faz merge."
+    - q: "O que o Ground Control Pro acrescenta, e como restauro a compra?"
+      a:
+        - "Um repositório é grátis: o primeiro que você abrir. O Ground Control Pro abre todos, como assinatura anual (com uma semana grátis, se você tiver direito) ou compra vitalícia única. O preço aparece na sua moeda antes de comprar."
+        - "Em outro Mac com a mesma Conta Apple, o Pro costuma ativar sozinho. Se não ativar, abra um repositório com cadeado, ou Settings → General → See Plans, e clique em Restore Purchases. Para cancelar uma assinatura, use a página de assinaturas da Apple: na App Store, clique no seu nome e vá aos ajustes da conta."
+    - q: "O que sai do meu Mac?"
+      a:
+        - "Seu código só vai para onde o Git manda: fetch, pull, push e clone falam com os remotos dos seus repositórios. Todo repositório recebe fetch em segundo plano a cada 15 minutos; mude isso em Fetch every repository, em Settings → Repositories. Os recursos do GitHub pedem ao GitHub pull requests, checks e fotos de perfil, e a página de planos confere a sua compra no nosso serviço de assinaturas. Sem conta e sem anúncios."
+        - "A lista de pastas e os ajustes ficam no seu Mac, o token do GitHub nas chaves, e Remove from Ground Control (clique direito num repositório na tela inicial) nunca mexe nos arquivos dele. Quando um fetch encontra push ou merge de colegas, o Ground Control pode avisar com uma notificação (o macOS pergunta antes); Tell me when others push or merge desliga isso."
+  contact_body: "Conte qual é o seu Mac, a versão do macOS, a versão do Ground Control (Ground Control → About Ground Control), se o remoto usa SSH ou HTTPS e o que aconteceu."

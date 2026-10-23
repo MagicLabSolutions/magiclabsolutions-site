@@ -108,7 +108,7 @@ Swift-first, privacy-first, and designed to feel at home on every Apple device.
 ---
 
 > **QRamen** is developed by [Magic Lab Solutions](https://magiclabsolutions.com).
-> Questions or support? Contact us at [hello@qramen.com](mailto:hello@qramen.com).
+> Questions or support? See [QRamen Support](/qramen/support/) or write to [contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com).
 
 ---
 

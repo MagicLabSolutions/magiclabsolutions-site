@@ -1,0 +1,175 @@
+{% comment %}
+  App support page, in the style of /toctoc/support/. A page sets `support_app: <slug>`.
+  - Copy: _data/app_support/<slug>.yml (`en` and `pt-BR` blocks, plus the app's `palette`).
+  - Shared labels: _data/app_support_ui.yml. Name, icon and App Store link: _data/portfolio.json.
+  - Legal links: _data/launch_legal.json (the same ones the app's product page uses).
+  Languages without their own copy show the English text, marked lang="en", with the English
+  page as canonical, so nothing pretends to be translated.
+{% endcomment %}
+{% assign slug = page.support_app %}
+{% assign data = site.data.app_support[slug] %}
+{% assign copy_lang = 'en' %}{% if data[site.active_lang] %}{% assign copy_lang = site.active_lang %}{% endif %}
+{% assign s = data[copy_lang] %}
+{% assign ui = site.data.app_support_ui[copy_lang] | default: site.data.app_support_ui.en %}
+{% assign product = site.data.portfolio | where: 'slug', slug | first %}
+{% assign legal = site.data.launch_legal[slug] %}
+{% assign p = data.palette %}
+{% assign heading = s.title | split: ' — ' | first %}
+{% assign self_prefix = '' %}{% if copy_lang != 'en' %}{% assign self_prefix = copy_lang | prepend: '/' %}{% endif %}
+{% assign share = site.data.share_images.products[slug][copy_lang] | default: site.data.share_images.products[slug].en %}
+{% capture subject %}{{ ui.contact_subject | replace: 'APP_NAME', product.name }}{% endcapture %}
+<!DOCTYPE html>
+<html lang="{{ copy_lang }}">
+<head>
+    {% unless data.kids %}{% include gtag.html %}{% endunless %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.title }}</title>
+    <meta name="description" content="{{ s.description | escape }}">
+    <meta name="theme-color" content="{{ p.paper }}">
+    <link rel="canonical" {% static_href %}href="{{ site.url }}{{ self_prefix }}{{ page.url }}"{% endstatic_href %}>
+    <link rel="alternate" hreflang="en" {% static_href %}href="{{ site.url }}{{ page.url }}"{% endstatic_href %}>
+    {% for variant in data %}{% assign lang = variant[0] %}{% if lang != 'en' and lang != 'palette' and lang != 'kids' %}<link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}/{{ lang }}{{ page.url }}"{% endstatic_href %}>{% endif %}{% endfor %}
+    <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ site.url }}{{ page.url }}"{% endstatic_href %}>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Magic Lab Solutions">
+    <meta property="og:title" content="{{ s.title | escape }}">
+    <meta property="og:description" content="{{ s.description | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ self_prefix }}{{ page.url }}">
+    {% if share.image %}<meta property="og:image" content="{{ site.url }}{{ share.image }}">
+    <meta property="og:image:width" content="{{ share.width }}">
+    <meta property="og:image:height" content="{{ share.height }}">
+    <meta name="twitter:card" content="summary_large_image">{% endif %}
+    <link rel="icon" href="{{ product.icon | relative_url }}">
+    <style>
+        :root {
+            --paper: {{ p.paper }}; --surface: {{ p.surface }}; --ink: {{ p.ink }}; --muted: {{ p.muted }};
+            --line: {{ p.line }}; --accent: {{ p.accent }}; --link: {{ p.link }};
+            --button: {{ p.button }}; --button-text: {{ p.button_text }};
+            --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            --rounded: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, sans-serif;
+            color-scheme: {{ p.scheme }};
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { -webkit-text-size-adjust: 100%; }
+        body { font-family: var(--font); background: var(--paper); color: var(--ink); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+        .wrap { width: 100%; max-width: 720px; margin: 0 auto; padding: 0 20px; }
+        a { color: var(--link); text-underline-offset: 3px; }
+        a:focus-visible, summary:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; border-radius: 6px; }
+        h1, h2 { line-height: 1.15; letter-spacing: -0.015em; }
+        p + p { margin-top: 12px; }
+
+        .masthead { border-bottom: 1px solid var(--line); background: var(--surface); }
+        .masthead__inner { display: flex; align-items: center; gap: 10px 14px; flex-wrap: wrap; max-width: 720px; margin: 0 auto; padding: 14px 20px; }
+        .masthead__name { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; }
+        .masthead__name img { width: 36px; height: 36px; border-radius: 9px; }
+        .masthead__tag { color: var(--muted); font-size: 15px; }
+        .masthead__langs { margin-left: auto; display: flex; gap: 4px; font-size: 15px; }
+        .masthead__langs a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px; border-radius: 999px; color: var(--muted); text-decoration: none; }
+        .masthead__langs a[aria-current] { color: var(--ink); font-weight: 600; background: color-mix(in srgb, var(--ink) 8%, transparent); }
+
+        .head { padding: 44px 0 8px; }
+        .kicker { font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--link); margin-bottom: 8px; }
+        .head h1 { font-family: var(--rounded); font-size: clamp(34px, 6vw, 46px); margin-bottom: 12px; }
+        .head .lede { font-size: 19px; color: var(--muted); }
+
+        .about { margin-top: 32px; padding: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+        .about h2 { font-size: 22px; margin-bottom: 10px; }
+        .about p { color: var(--muted); }
+        .about ul { list-style: none; margin-top: 16px; }
+        .about li { padding: 10px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 16px; }
+        .about li strong { display: block; color: var(--ink); }
+
+        .faq { padding: 40px 0 8px; }
+        .faq h2 { font-size: 24px; margin-bottom: 8px; }
+        details { border-bottom: 1px solid var(--line); }
+        summary { list-style: none; cursor: pointer; padding: 16px 32px 16px 0; position: relative; font-weight: 600; font-size: 18px; line-height: 1.3; }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: '+'; position: absolute; right: 4px; top: 13px; color: var(--link); font-size: 22px; font-weight: 400; }
+        details[open] summary::after { content: '–'; }
+        details > div { padding-bottom: 18px; color: var(--muted); font-size: 16px; }
+        details > div p + p { margin-top: 10px; }
+
+        .contact { margin: 40px 0 10px; padding: 26px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+        .contact h2 { font-size: 22px; margin-bottom: 8px; }
+        .contact p { color: var(--muted); font-size: 16px; }
+        .contact__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 16px; }
+        .contact__cta { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 22px; border-radius: 12px; background: var(--button); color: var(--button-text); text-decoration: none; font-weight: 600; }
+        .contact__address { color: var(--ink); font-size: 16px; user-select: all; overflow-wrap: anywhere; }
+        .contact__cta:hover { filter: brightness(1.08); }
+        .store { margin-top: 10px; font-size: 16px; }
+        .store a { display: inline-flex; align-items: center; min-height: 44px; }
+
+        .foot { padding: 28px 0 48px; font-size: 15px; color: var(--muted); }
+        .foot__inner { display: flex; flex-wrap: wrap; gap: 4px 18px; max-width: 720px; margin: 0 auto; padding: 0 20px; align-items: center; }
+        .foot a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); text-decoration: none; }
+        .foot a:hover { color: var(--ink); text-decoration: underline; }
+        .foot__spacer { margin-left: auto; }
+        @media (max-width: 560px) {
+            .foot__spacer { margin-left: 0; flex-basis: 100%; height: 0; }
+            .masthead__langs { margin-left: -10px; flex-basis: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="masthead">
+    <div class="masthead__inner">
+        <a class="masthead__name" href="{{ '/apps/' | append: slug | append: '/' | relative_url }}"><img src="{{ product.icon | relative_url }}" width="36" height="36" alt="">{{ product.name }}</a>
+        <span class="masthead__tag">{{ s.tagline }}</span>
+        <nav class="masthead__langs" aria-label="{{ ui.languages }}">
+            <a lang="en" hreflang="en" {% if copy_lang == 'en' %}aria-current="page" {% endif %}{% static_href %}href="{{ page.url }}"{% endstatic_href %}>English</a>
+            {% if data['pt-BR'] %}<a lang="pt-BR" hreflang="pt-BR" {% if copy_lang == 'pt-BR' %}aria-current="page" {% endif %}{% static_href %}href="/pt-BR{{ page.url }}"{% endstatic_href %}>Português</a>{% endif %}
+        </nav>
+    </div>
+</header>
+
+<main class="wrap">
+    <div class="head">
+        <p class="kicker">{{ ui.kicker }}</p>
+        <h1>{{ heading }}</h1>
+        <p class="lede">{{ s.lede }}</p>
+    </div>
+
+    <section class="about" aria-labelledby="about-title">
+        <h2 id="about-title">{{ s.about_title }}</h2>
+        <p>{{ s.about }}</p>
+        <ul>
+            {% for item in s.highlights %}<li><strong>{{ item.title }}</strong>{{ item.text }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+        <p class="kicker">{{ ui.faq_kicker }}</p>
+        <h2 id="faq-title">{{ ui.faq_heading }}</h2>
+        {% for faq in s.faqs %}
+        <details>
+            <summary>{{ faq.q }}</summary>
+            <div>{% for paragraph in faq.a %}{{ paragraph | markdownify }}{% endfor %}</div>
+        </details>
+        {% endfor %}
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+        <p class="kicker">{{ ui.contact_kicker }}</p>
+        <h2 id="contact-title">{{ ui.contact_title }}</h2>
+        <p>{{ s.contact_body }}</p>
+        <p class="contact__actions"><a class="contact__cta" href="mailto:contact@magiclabsolutions.com?subject={{ subject | uri_escape }}">{{ ui.contact_cta }}</a> <span class="contact__address">contact@magiclabsolutions.com</span></p>
+        {% if product.store_url %}<p class="store"><a href="{{ product.store_url }}" rel="noopener">{{ ui.store | replace: 'APP_NAME', product.name }} ↗</a></p>{% endif %}
+    </section>
+</main>
+
+<footer class="foot">
+    <div class="foot__inner">
+        <span>&copy; {{ site.time | date: "%Y" }} Magic Lab Solutions</span>
+        <span class="foot__spacer"></span>
+        <a href="{{ '/apps/' | append: slug | append: '/' | relative_url }}">{{ ui.back | replace: 'APP_NAME', product.name }}</a>
+        <a href="{{ legal.privacy | default: '/privacy-policy/' | relative_url }}">{{ ui.privacy }}</a>
+        <a href="{{ legal.terms | default: '/terms-of-use/' | relative_url }}">{{ ui.terms }}</a>
+        <a href="{{ '/apps/' | relative_url }}">{{ ui.all_apps }}</a>
+    </div>
+</footer>
+
+</body>
+</html>
