@@ -37,7 +37,7 @@
     <section class="l-hero l-wrap" aria-labelledby="hero-title">
       <div class="l-hero-copy" lang="{{ copy_lang }}">
         <p class="l-eyebrow" lang="{{ site.active_lang }}"><span class="l-dot"></span>{{ ui.status[product.status] }} · {{ product.platform }}</p>
-        <button type="button" class="l-name" data-name-play aria-label="{{ product.name }} — {{ ui.animate }}">{{ product.name }}<span aria-hidden="true">✳</span></button>
+        <button type="button" class="l-name" data-name-play aria-label="{{ product.name }} — {{ ui.animate }}">{{ product.name }}<span aria-hidden="true">✳&#xFE0E;</span></button>
         <h1 id="hero-title">{{ pc.headline }}</h1><p class="l-lede">{{ pc.description }}</p>
         <div class="l-actions" lang="{{ site.active_lang }}">{% include launch-actions.html secondary=true %}</div>
         {% if product.availability_note %}<p class="l-note">{{ product.availability_note[site.active_lang] | default: product.availability_note.en }}</p>{% endif %}
@@ -94,5 +94,5 @@
     </section>
     <section class="l-closer l-wrap" data-reveal><p class="l-eyebrow">{{ product.name }}</p><h2 lang="{{ copy_lang }}">{{ pc.headline }}</h2><div class="l-actions l-actions--center">{% include launch-actions.html %}</div><p class="l-note">{{ product.platform }} · {{ ui.status[product.status] }}</p></section>
   </main>
-  <footer class="l-footer l-wrap"><a class="l-studio" href="{{ '/' | relative_url }}">magic lab <span aria-hidden="true">✳</span></a><p>© {{ site.time | date: '%Y' }} Magic Lab Solutions</p><nav aria-label="{{ ui.support }}"><a href="{{ '/apps/' | relative_url }}">{{ ui.all_apps }}</a><a href="{% if legal.support == '#support' %}#support{% else %}{{ legal.support | default: '/contact/' | relative_url }}{% endif %}">{{ ui.support }}</a>{% include launch-privacy.html %}<a href="{{ legal.terms | default: '/terms-of-use/' | relative_url }}">{{ ui.terms }}</a></nav></footer>
+  <footer class="l-footer l-wrap"><a class="l-studio" href="{{ '/' | relative_url }}">magic lab <span aria-hidden="true">✳&#xFE0E;</span></a><p>© {{ site.time | date: '%Y' }} Magic Lab Solutions</p><nav aria-label="{{ ui.support }}"><a href="{{ '/apps/' | relative_url }}">{{ ui.all_apps }}</a><a href="{% if legal.support == '#support' %}#support{% else %}{{ legal.support | default: '/contact/' | relative_url }}{% endif %}">{{ ui.support }}</a>{% include launch-privacy.html %}<a href="{{ legal.terms | default: '/terms-of-use/' | relative_url }}">{{ ui.terms }}</a></nav></footer>
 </body></html>

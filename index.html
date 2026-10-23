@@ -17,7 +17,7 @@ lang-ref: home
     <div class="lab-actions"><a class="lab-button" href="#apps">{{ h.explore }} <span aria-hidden="true">↗</span></a><a class="lab-text-link" href="#play">{{ h.try }} <span aria-hidden="true">↓</span></a></div>
   </div>
   <div class="hero-lab" id="hero-lab" data-product="toctoc">
-    <span class="hero-spark spark-one" aria-hidden="true">✳</span><span class="hero-spark spark-two" aria-hidden="true">✦</span>
+    <span class="hero-spark spark-one" aria-hidden="true">✳&#xFE0E;</span><span class="hero-spark spark-two" aria-hidden="true">✦</span>
     <div class="hero-stage">
       <div class="stage-label"><span><span class="status-dot"></span> {{ h.spotlight }}</span><span data-stage-number>01 / 04</span></div>
       <div class="stage-panel" id="preview-toctoc" role="tabpanel" aria-labelledby="tab-toctoc">
@@ -45,7 +45,7 @@ lang-ref: home
     </div>
   </div>
 </section>
-<div class="lab-ribbon"><div class="lab-wrap"><span>{{ h.ribbon_one }}</span><span aria-hidden="true">✳</span><span>{{ h.ribbon_two }}</span><span aria-hidden="true">✳</span><span>{{ h.ribbon_three }}</span></div></div>
+<div class="lab-ribbon"><div class="lab-wrap"><span>{{ h.ribbon_one }}</span><span aria-hidden="true">✳&#xFE0E;</span><span>{{ h.ribbon_two }}</span><span aria-hidden="true">✳&#xFE0E;</span><span>{{ h.ribbon_three }}</span></div></div>
 
 <section class="lab-story lab-wrap" id="discover" aria-labelledby="story-title">
   <div class="story-heading" data-reveal><p class="lab-kicker">{{ h.spotlight }}</p><h2 id="story-title">{{ h.story_first }}<br><span>{{ h.story_second }}</span></h2><p>{{ h.story_intro }}</p></div>
@@ -98,4 +98,4 @@ lang-ref: home
   <div class="worlds-grid"><a class="world-card world-space" href="{{ '/apps/sundust/' | relative_url }}" data-reveal><div class="world-image"><img src="{{ '/images/sundust/preview-poster.jpg' | relative_url }}" width="1200" height="675" loading="lazy" alt="Sundust — {{ t.projects.project-sundust.subtitle }}"></div><div class="world-copy"><span class="lab-kicker">SUNDUST</span><h3>{{ t.projects.project-sundust.subtitle }}</h3><span>{{ t.app_card.learn_more }} ↗</span></div></a><a class="world-card world-paper" href="{{ '/apps/tumtum/' | relative_url }}" data-reveal><div class="world-image"><img src="{{ shots[1].ipad[0].path | relative_url }}" width="640" height="853" loading="lazy" alt="{{ shots[1].alt | escape }}"></div><div class="world-copy"><span class="lab-kicker">TUMTUM · {{ site.data.tumtum_page[site.active_lang].soon }}</span><h3>{{ h.tumtum }}</h3><span>{{ t.app_card.learn_more }} ↗</span></div></a></div>
 </section>
 <section class="lab-studio lab-wrap" id="studio" aria-labelledby="studio-title" data-reveal><div class="studio-photo"><img src="{{ '/images/home/founders.webp' | relative_url }}" width="800" height="600" loading="lazy" alt="Evandro & Fabio"><span>EVANDRO + FABIO</span></div><div><p class="lab-kicker">04 / {{ h.studio }}</p><h2 id="studio-title">{{ h.studio_title }}</h2><p>{{ h.studio_intro }}</p><a class="lab-text-link" href="{{ '/about/' | relative_url }}">{{ t.home.about_us }} ↗</a></div></section>
-<section class="lab-outro lab-wrap" data-reveal><span aria-hidden="true">✳</span><h2>{{ h.outro }}</h2><a class="lab-button" href="{{ '/contact/' | relative_url }}">{{ t.home.get_in_touch }} ↗</a></section>
+<section class="lab-outro lab-wrap" data-reveal><span aria-hidden="true">✳&#xFE0E;</span><h2>{{ h.outro }}</h2><a class="lab-button" href="{{ '/contact/' | relative_url }}">{{ t.home.get_in_touch }} ↗</a></section>
