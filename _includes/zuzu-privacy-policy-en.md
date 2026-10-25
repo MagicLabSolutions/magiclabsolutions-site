@@ -14,7 +14,7 @@ Zuzu is a baby and pregnancy tracker for iPhone, iPad, Apple Watch and Android, 
 
 **Purchases.** Apple or Google processes every payment, and we never receive card details. To know which plan your family has, our subscription services receive your account's random user ID, the purchase records the store sends (the product, dates, prices and transaction identifiers), the app version and the store country. On iPhone this is our own service, Horse Revenue, which runs on Google Cloud; on Android, and for purchases made in older iPhone versions, it is RevenueCat. If you redeem a Zuzu code, we receive the code, and on iPhone a token for it is kept in your iCloud account so another of your devices can take over the access.
 
-**How the app is used, and crashes.** Firebase Analytics records events such as which screens are opened and which features are used, with your device type, app version, country and a random app-instance ID. Firebase Crashlytics records crash reports and diagnostic information when the app fails. On Android, both are also linked to your account's random user ID. Neither includes your name or email address.
+**How the app is used, and crashes.** Firebase Analytics records events such as which screens are opened and which features are used, with your device type, app version, country and a random app-instance ID. Firebase Crashlytics records crash reports and diagnostic information when the app fails. Neither includes your name or email address.
 
 **Ads that brought you to Zuzu.** Zuzu does not show ads. To learn which of our ads lead people to install and subscribe, the Meta (Facebook) SDK tells Meta when the app is opened and when a purchase is made, with the product, price and currency. On iPhone, Meta receives the advertising identifier only if you allow tracking when Zuzu asks; if you don't, Zuzu does not track you. On Android, the Meta SDK and Firebase can use your device's advertising ID, which you can reset or delete in your Android settings. On iPhone, if you installed Zuzu from an Apple Search Ads ad, Apple tells us the campaign, ad group and keyword, without identifying you.
 
@@ -47,7 +47,7 @@ We may also disclose information when the law requires it, to protect the safety
 
 ## Where it is stored and how it is protected
 
-Your family's data, photos and our servers are on Google Cloud in the United States. Zuzu's apps talk to our servers over encrypted connections (HTTPS), access to your family's data requires your signed-in account, and only members of your family can read it. If you live outside the United States, your information is transferred there; where the law requires it, these transfers rely on safeguards such as the European Commission's standard contractual clauses offered by our providers.
+Your family's data, photos and our servers are on Google Cloud in the United States. Zuzu's apps talk to our servers over encrypted connections (HTTPS). Your family's diary can only be read through a signed-in account that belongs to your family. Photos are stored at long, random web addresses that only your family's apps receive. If you live outside the United States, your information is transferred there; where the law requires it, these transfers rely on safeguards such as the European Commission's standard contractual clauses offered by our providers.
 
 ## How long we keep it
 
@@ -68,6 +68,7 @@ Zuzu is made for parents and caregivers, who must be adults, and is not directed
 - You can use Zuzu without an account, and create one later.
 - On iPhone, you can allow or refuse tracking when Zuzu asks, and change it in Settings → Privacy & Security → Tracking. On Android, you can reset or delete your advertising ID in your device's settings.
 - You can turn notifications off in Zuzu's settings or your device's settings.
+- You can turn on Private Notifications in Zuzu's notification settings: notifications then say only what kind of reminder they are, without your baby's name or details.
 - You can remove someone from your family, or leave a family, at any time.
 - You can delete your account in the app or by emailing us.
 
