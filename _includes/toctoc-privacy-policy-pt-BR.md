@@ -1,7 +1,7 @@
 O Toc Toc é um app para Mac e iPhone que bate logo antes das suas reuniões. Esta página explica,
 em linguagem simples, o que ele lê, o que ele guarda, o que ele envia e o que ele nunca faz. A
-versão curta: **suas reuniões nunca saem do seu aparelho.** A única coisa que o Toc Toc envia para
-algum lugar é o que ele precisa para saber se você tem o Toc Toc Pro.
+versão curta: **suas reuniões nunca saem do seu aparelho.** O Toc Toc só envia o que precisa para saber se
+você tem o Toc Toc Pro e, se você permitir, estatísticas anônimas sobre como o app é usado.
 
 ---
 
@@ -41,7 +41,7 @@ Tudo isso fica no armazenamento do próprio app no seu aparelho, e some quando v
 
 ### O que sai do seu aparelho
 
-Suas reuniões, nunca. O Toc Toc **não tem conta, analytics, publicidade nem rastreamento**.
+Suas reuniões, nunca. O Toc Toc **não tem conta, publicidade nem rastreamento**.
 
 * **Toc Toc Pro**: a Apple vende o Toc Toc Pro na App Store, e nunca recebemos seus dados de
   pagamento nem a sua Conta Apple. Para saber, em cada um dos seus aparelhos, se você tem o Pro,
@@ -59,6 +59,18 @@ Suas reuniões, nunca. O Toc Toc **não tem conta, analytics, publicidade nem ra
   contar nossas vendas, testes grátis e renovações. Ela nunca recebe nada sobre seus calendários ou
   suas reuniões.
 
+* **Estatísticas de uso**, a partir da versão 1.1 e só se você permitir: para entender o que
+  ajuda e o que atrapalha, o Toc Toc envia à Horse Revenue, com o mesmo identificador aleatório,
+  quando o app é aberto e por quanto tempo, quais telas você abre, as etapas do primeiro uso, se o
+  acesso aos calendários foi dado e quantos calendários ele consegue ler, quando uma batida
+  aparece ou espera e como termina (você entrou, adiou ou fechou), o tipo de chamada em que você
+  entra (Zoom, Google Meet…), quando a página do Toc Toc Pro aparece, qual plano você escolhe e
+  se compra, e quando o app pede uma avaliação à App Store, junto com o modelo do aparelho, a
+  versão do sistema e o idioma. Nunca o título, o horário, as pessoas, o local, as notas ou o link
+  de uma reunião, nem o nome de um calendário. Se você já usava o Toc Toc antes da versão 1.1,
+  nada é enviado até você dizer que sim; uma instalação nova avisa na primeira tela. Desligue
+  quando quiser nos ajustes do Toc Toc (Geral, no Mac; Ajustes, no iPhone).
+
 * **Entrar numa chamada**: quando você aperta Entrar, o link da reunião abre no app dela (Zoom,
   Teams…) ou no seu navegador. A partir daí vale a política de privacidade daquele serviço.
 * **Relatórios de falha e estatísticas**: se você escolheu compartilhar análises com
@@ -73,8 +85,10 @@ Suas reuniões, nunca. O Toc Toc **não tem conta, analytics, publicidade nem ra
   → Calendários, no Mac, ou em Ajustes → Privacidade e Segurança → Calendários, no iPhone; o Toc
   Toc fica em silêncio.
 * Desligue calendários individualmente nos ajustes do Toc Toc, em Calendários.
+* Desligue as estatísticas de uso anônimas nos ajustes do Toc Toc (Geral, no Mac; Ajustes, no
+  iPhone).
 * Apague o app para apagar tudo o que ele guardou no seu aparelho. Para perguntar sobre os seus
-  registros de compra na Horse Revenue, escreva para
+  registros de compra ou suas estatísticas de uso na Horse Revenue, escreva para
   [contact@magiclabsolutions.com](mailto:contact@magiclabsolutions.com).
 
 ---
@@ -82,7 +96,7 @@ Suas reuniões, nunca. O Toc Toc **não tem conta, analytics, publicidade nem ra
 ### Crianças
 
 O Toc Toc não é direcionado a crianças menores de 13 anos. Ele não coleta nada de ninguém além
-dos registros do Toc Toc Pro descritos acima.
+dos registros do Toc Toc Pro e, se permitidas, das estatísticas de uso anônimas descritas acima.
 
 ---
 
