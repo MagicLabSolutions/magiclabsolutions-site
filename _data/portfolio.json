@@ -971,9 +971,10 @@
     "slug": "static",
     "name": "Static",
     "category": "games",
-    "status": "beta",
+    "status": "released",
     "color": "#F2A23A",
     "platform": "iPhone",
+    "store_url": "https://apps.apple.com/app/id6823525407",
     "demo": "static",
     "repositories": [
       "Apocalypse"
@@ -1020,10 +1021,6 @@
       }
     ],
     "checked_at": "2026-10-18",
-    "availability_note": {
-      "pt-BR": "Em análise na App Store: disponível em breve.",
-      "en": "In App Review: coming soon to the App Store."
-    },
     "copy": {
       "pt-BR": {
         "headline": "Um drama de sobrevivência, em voz alta.",
