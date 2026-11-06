@@ -1701,7 +1701,7 @@
     "category": "games",
     "status": "released",
     "color": "#E8BA80",
-    "platform": "iPhone · iPad · Mac · Apple TV",
+    "platform": "iPhone · iPad · Mac · Apple TV · Android",
     "demo": "space",
     "repositories": [
       "Sundust"
@@ -1720,7 +1720,11 @@
       "mining",
       "crafting",
       "adventure",
-      "simulation"
+      "simulation",
+      "Sundust: Cozy Space Program",
+      "cozy space game",
+      "Android space game",
+      "orbital mechanics game"
     ],
     "screenshots": [
       {
@@ -1733,7 +1737,7 @@
         }
       }
     ],
-    "checked_at": "2026-10-12",
+    "checked_at": "2026-11-06",
     "copy": {
       "pt-BR": {
         "headline": "Um universo para descobrir.",
@@ -1755,7 +1759,7 @@
       },
       "de": {
         "headline": "Dein kleines Sonnensystem",
-        "description": "Ein gemütliches Weltraum-Sandbox-Spiel mit echter Orbitalmechanik. Steuere deine Rakete, lande sanft, erkunde fremde Welten zu Fuß, sammle Rohstoffe und baue – auf iPhone, iPad, Mac und Apple TV.",
+        "description": "Ein gemütliches Weltraum-Sandbox-Spiel mit echter Orbitalmechanik. Steuere deine Rakete, lande sanft, erkunde fremde Welten zu Fuß, sammle Rohstoffe und baue – auf iPhone, iPad, Mac, Apple TV und Android.",
         "features": [
           "Explore other worlds",
           "Chart your journey",
@@ -1764,7 +1768,7 @@
       },
       "es": {
         "headline": "Tu pequeño sistema solar",
-        "description": "Un acogedor sandbox espacial con mecánica orbital real. Pilota tu cohete, aterriza con suavidad, explora mundos alienígenas a pie, extrae recursos y construye — en iPhone, iPad, Mac y Apple TV.",
+        "description": "Un acogedor sandbox espacial con mecánica orbital real. Pilota tu cohete, aterriza con suavidad, explora mundos alienígenas a pie, extrae recursos y construye — en iPhone, iPad, Mac, Apple TV y Android.",
         "features": [
           "Explore other worlds",
           "Chart your journey",
@@ -1773,7 +1777,7 @@
       },
       "fr": {
         "headline": "Votre petit système solaire",
-        "description": "Un bac à sable spatial cosy fondé sur une vraie mécanique orbitale. Pilotez votre fusée, posez-vous en douceur, explorez des mondes extraterrestres à pied, minez et construisez — sur iPhone, iPad, Mac et Apple TV.",
+        "description": "Un bac à sable spatial cosy fondé sur une vraie mécanique orbitale. Pilotez votre fusée, posez-vous en douceur, explorez des mondes extraterrestres à pied, minez et construisez — sur iPhone, iPad, Mac, Apple TV et Android.",
         "features": [
           "Explore other worlds",
           "Chart your journey",
@@ -1782,7 +1786,7 @@
       },
       "ja": {
         "headline": "あなただけの小さな太陽系",
-        "description": "本物の軌道力学で遊ぶ、ゆったりした宇宙サンドボックス。ロケットを操縦し、そっと着陸し、異世界を歩き、採掘して建設。iPhone、iPad、Mac、Apple TVで楽しめます。",
+        "description": "本物の軌道力学で遊ぶ、ゆったりした宇宙サンドボックス。ロケットを操縦し、そっと着陸し、異世界を歩き、採掘して建設。iPhone、iPad、Mac、Apple TV、Androidで楽しめます。",
         "features": [
           "Explore other worlds",
           "Chart your journey",
@@ -1791,7 +1795,7 @@
       },
       "ko": {
         "headline": "나만의 작은 태양계",
-        "description": "실제 궤도 역학으로 즐기는 아늑한 우주 샌드박스. 로켓을 조종해 부드럽게 착륙하고, 외계 세계를 거닐며 자원을 캐고 건설하세요. iPhone, iPad, Mac, Apple TV에서 즐길 수 있습니다.",
+        "description": "실제 궤도 역학으로 즐기는 아늑한 우주 샌드박스. 로켓을 조종해 부드럽게 착륙하고, 외계 세계를 거닐며 자원을 캐고 건설하세요. iPhone, iPad, Mac, Apple TV, Android에서 즐길 수 있습니다.",
         "features": [
           "Explore other worlds",
           "Chart your journey",
@@ -1800,7 +1804,7 @@
       },
       "zh-Hans": {
         "headline": "你的迷你太阳系",
-        "description": "一款基于真实轨道力学的惬意太空沙盒。驾驶火箭、平稳着陆、漫步外星世界、采矿建造——支持 iPhone、iPad、Mac 和 Apple TV。",
+        "description": "一款基于真实轨道力学的惬意太空沙盒。驾驶火箭、平稳着陆、漫步外星世界、采矿建造——支持 iPhone、iPad、Mac、Apple TV 和 Android。",
         "features": [
           "Explore other worlds",
           "Chart your journey",
@@ -1809,24 +1813,35 @@
       }
     },
     "store_url": "https://apps.apple.com/app/id6791888066",
-    "version": "1.2.2",
+    "play_url": "https://play.google.com/store/apps/details?id=com.magiclabsolutions.sundust",
+    "version": "1.3.0",
     "evidence": "https://itunes.apple.com/lookup?id=6791888066&country=br",
     "marketing_locale": "en-US",
     "marketing_updated_at": "2026-10-12",
     "release_platforms": [
       {
         "platform": "MAC_OS",
-        "version": "1.2.2"
+        "version": "1.3.0"
       },
       {
         "platform": "IOS",
-        "version": "1.2.2"
+        "version": "1.3.0"
       },
       {
         "platform": "TV_OS",
-        "version": "1.2.2"
+        "version": "1.3.0"
       }
-    ]
+    ],
+    "availability_note": {
+      "en": "Free to download on the App Store and Google Play. Flying to the Moon and back is free; one in-app purchase opens the rest of the solar system.",
+      "pt-BR": "Grátis na App Store e no Google Play. Voar até a Lua e voltar é de graça; uma compra única no app abre o resto do sistema solar.",
+      "de": "Kostenlos im App Store und bei Google Play. Der Flug zum Mond und zurück ist gratis; ein einmaliger In-App-Kauf öffnet das übrige Sonnensystem.",
+      "es": "Gratis en la App Store y en Google Play. Volar a la Luna y regresar es gratis; una compra única dentro de la app abre el resto del sistema solar.",
+      "fr": "Gratuit sur l’App Store et Google Play. L’aller-retour vers la Lune est gratuit ; un achat intégré unique ouvre le reste du système solaire.",
+      "ja": "App StoreとGoogle Playで無料。月への往復は無料で遊べます。1回のアプリ内課金で太陽系の残りが開きます。",
+      "ko": "App Store와 Google Play에서 무료로 받을 수 있습니다. 달까지 왕복하는 여정은 무료이며, 한 번의 인앱 구매로 태양계의 나머지가 열립니다.",
+      "zh-Hans": "在 App Store 和 Google Play 免费下载。飞往月球再返回完全免费；一次性应用内购买即可开启太阳系的其余部分。"
+    }
   },
   {
     "slug": "kinfold",
