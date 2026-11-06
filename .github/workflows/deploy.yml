@@ -61,3 +61,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        # The published site is ~1 GB, nearly all of it localized imagery, and Pages
+        # can sit in `syncing_files` for longer than this action's 10-minute default
+        # — which is how the 2026-11-06 deploy failed after a build that passed. The
+        # failure is quiet from outside: the site keeps serving the previous version
+        # and nothing the owner looks at says otherwise.
+        with:
+          timeout: 1800000
+
