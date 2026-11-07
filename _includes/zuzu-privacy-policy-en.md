@@ -14,7 +14,7 @@ Zuzu is a baby and pregnancy tracker for iPhone, iPad, Apple Watch and Android, 
 
 **Purchases.** Apple or Google processes every payment, and we never receive card details. To know which plan your family has, our subscription services receive your account's random user ID, the purchase records the store sends (the product, dates, prices and transaction identifiers), the app version and the store country. On iPhone this is our own service, Horse Revenue, which runs on Google Cloud; on Android, and for purchases made in older iPhone versions, it is RevenueCat. If you redeem a Zuzu code, we receive the code, and on iPhone a token for it is kept in your iCloud account so another of your devices can take over the access.
 
-**How the app is used, and crashes.** Firebase Analytics records events such as which screens are opened and which features are used, with your device type, app version, country and a random app-instance ID. Firebase Crashlytics records crash reports and diagnostic information when the app fails. Neither includes your name or email address.
+**How the app is used, and crashes.** Firebase Analytics records events such as which screens are opened and which features are used, with your device type, app version, country and a random app-instance ID. Firebase Crashlytics records crash reports and diagnostic information when the app fails. Neither includes your name or email address. On iPhone, our subscription service Horse Revenue also records app opens, sessions, the screens you visit and how you use the paywall, with your device type, app version, language and country and your account's random user ID; it doesn't include your name, your email address or your baby's diary.
 
 **Ads that brought you to Zuzu.** Zuzu does not show ads. To learn which of our ads lead people to install and subscribe, the Meta (Facebook) SDK tells Meta when the app is opened and when a purchase is made, with the product, price and currency. On iPhone, Meta receives the advertising identifier only if you allow tracking when Zuzu asks; if you don't, Zuzu does not track you. On Android, the Meta SDK and Firebase can use your device's advertising ID, which you can reset or delete in your Android settings. On iPhone, if you installed Zuzu from an Apple Search Ads ad, Apple tells us the campaign, ad group and keyword, without identifying you.
 
@@ -37,7 +37,7 @@ If your family has Premium and you ask Zuzu for insights, a summary of your baby
 | Google (Firebase Authentication, Cloud Firestore, Cloud Storage, Cloud Run, Firebase Cloud Messaging, Remote Config) | Accounts, storing and syncing your family's data and photos, our servers, notifications and app settings |
 | Google (Firebase Analytics, Crashlytics) | Usage statistics and crash reports |
 | Google (Gemini) | AI insights, only when you ask for them |
-| Horse Revenue (our subscription service, on Google Cloud) and RevenueCat | Knowing which plan your family has |
+| Horse Revenue (our subscription service, on Google Cloud) and RevenueCat | Knowing which plan your family has; on iPhone, Horse Revenue also keeps the usage statistics described above |
 | Resend | Sending email invitations |
 | Apple and Google | Sign in with Apple or Google, payments, push delivery, and, on iPhone, iCloud for redeemed codes |
 
