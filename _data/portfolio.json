@@ -604,29 +604,31 @@
     ],
     "icon": "/images/portfolio/casecraft/icon.webp",
     "keywords": [
-      "jogo detetive",
-      "detective puzzle",
-      "jogo lógica investigação"
+      "detective puzzle game",
+      "murder mystery logic puzzle",
+      "murder sudoku",
+      "jogo de detetive",
+      "enigma de lógica"
     ],
     "screenshots": [],
-    "checked_at": "2026-09-30",
+    "checked_at": "2026-11-09",
     "copy": {
       "pt-BR": {
-        "headline": "Todo detalhe conta uma história.",
-        "description": "Uma antologia de mistérios ilustrados. Cruze pistas, teste álibis e resolva puzzles de lógica em diferentes épocas e lugares.",
+        "headline": "Um crime em cada caso.",
+        "description": "Enigmas de lógica de detetive em quinze mundos ilustrados. Posicione os suspeitos, descubra quem mente, refaça a noite. Londres 1964 é grátis.",
         "features": [
-          "Cenários ilustrados",
-          "Pistas que se conectam",
-          "Puzzles de dedução"
+          "Murder Sudoku",
+          "Álibis e linha do tempo",
+          "Quinze mundos ilustrados"
         ]
       },
       "en": {
-        "headline": "Every detail tells a story.",
-        "description": "An anthology of illustrated mysteries. Connect clues, test alibis and solve logic puzzles across places and eras.",
+        "headline": "A murder in every case.",
+        "description": "Detective logic puzzles across fifteen illustrated worlds. Place every suspect, catch the liar, rebuild the night. London 1964 is free.",
         "features": [
-          "Illustrated settings",
-          "Clues that connect",
-          "Deduction puzzles"
+          "Murder Sudoku",
+          "Alibis and timelines",
+          "Fifteen illustrated worlds"
         ]
       }
     },
@@ -641,7 +643,17 @@
         "output": "/images/portfolio/casecraft/art-2.webp",
         "kind": "in-game-illustration"
       }
-    ]
+    ],
+    "availability_note": {
+      "en": "Coming soon to the App Store for iPhone, iPad, Mac and Apple TV. London 1964 and its 64 cases are free; every other world is a one-time purchase, or all of them with the All Worlds pass.",
+      "pt-BR": "Em breve na App Store para iPhone, iPad, Mac e Apple TV. Londres 1964 e seus 64 casos são grátis; cada outro mundo é uma compra única, ou todos com o passe Todos os Mundos.",
+      "es": "Muy pronto en la App Store para iPhone, iPad, Mac y Apple TV. Londres 1964 y sus 64 casos son gratis; cada otro mundo es una compra única, o todos con el pase Todos los mundos.",
+      "fr": "Bientôt sur l’App Store pour iPhone, iPad, Mac et Apple TV. Londres 1964 et ses 64 enquêtes sont gratuits ; chaque autre monde est un achat unique, ou tous avec le pass Tous les mondes.",
+      "de": "Bald im App Store für iPhone, iPad, Mac und Apple TV. London 1964 mit 64 Fällen ist gratis; jede weitere Welt ist ein Einmalkauf, oder alle mit dem Pass „Alle Welten“.",
+      "ja": "iPhone、iPad、Mac、Apple TV向けにApp Storeで近日公開。ロンドン1964の64件は無料。ほかのワールドは個別購入、または全ワールドパスですべて。",
+      "ko": "iPhone, iPad, Mac, Apple TV용으로 App Store에 곧 출시됩니다. 런던 1964의 64개 사건은 무료이며, 다른 세계는 개별 구매하거나 모든 세계 패스로 모두 이용할 수 있습니다.",
+      "zh-Hans": "即将登陆 App Store，支持 iPhone、iPad、Mac 和 Apple TV。伦敦 1964 及其 64 个案件免费；其他世界可单独购买，或用全部世界通行证全部解锁。"
+    }
   },
   {
     "slug": "donaneusa",

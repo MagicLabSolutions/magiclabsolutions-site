@@ -13,7 +13,8 @@
     "myrenewals",
     "toctoc",
     "tumtum",
-    "zuzu"
+    "zuzu",
+    "casecraft"
   ],
   "policy": "Original native screens in code-composed hardware; complete component crops are CSS masks. No store backgrounds or store captions. Original store exports, TumTum and Soooon collections, and store videos untouched.",
   "records": [
@@ -618,6 +619,162 @@
       "output": "/images/products/memories/cat-cutout-v3.webp",
       "source_sha256": "ccbe93212ab899ec8993944e74f19fe7253be878cdea6ac0af3f408071985bd1",
       "kind": "Built-in image_gen photographic background extraction; transparent photo accent, separate from native UI."
+    },
+    {
+      "source": "Casecraft/store/screenshots/art/prop-magnifier.png",
+      "output": "/images/products/casecraft/prop-1.webp",
+      "source_sha256": "3cefb973a6f7c0ffe2b7c0c30cf384a80db41463908bf54b4872b54d71743c57",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/art/prop-casefile.png",
+      "output": "/images/products/casecraft/prop-2.webp",
+      "source_sha256": "e00404fcbe7a836f6e87c169ec9f1c00c09e371e4fa0ee8a2454601973c5296b",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/en-US/1-atlas.png",
+      "output": "/images/products/casecraft/iphone/native-1.webp",
+      "source_sha256": "3985644fa2eec5828ab5c7e26ad88055020157c9c5cfe036ab266b59a66777ca",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/en-US/1-atlas.png",
+      "output": "/images/products/casecraft/ipad/native-1.webp",
+      "source_sha256": "0283dabe4cfdc0232bfb8931154483bd594009bc33fbea8496f6ddbc2fe025c5",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/en-US/2-sudoku.png",
+      "output": "/images/products/casecraft/iphone/native-2.webp",
+      "source_sha256": "1b88373361ab4f3f3117bc8423db5248a79218247b02ac71ee277f4d44a4cbe8",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/en-US/2-sudoku.png",
+      "output": "/images/products/casecraft/ipad/native-2.webp",
+      "source_sha256": "35d4bd3ebb6e155f61c8de01b234c05b2f1c9acfbb701d66f712b10f8b670453",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/en-US/3-world.png",
+      "output": "/images/products/casecraft/iphone/native-3.webp",
+      "source_sha256": "dded6850b343568fe63bd299720a8caf8730e8466449e698da03e7099949c430",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/en-US/3-world.png",
+      "output": "/images/products/casecraft/ipad/native-3.webp",
+      "source_sha256": "ea1fe26a8b4f3d6ffb350fe7e12ad30e08cc9aa633688c05d20d9ef27567666d",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/en-US/4-alibi.png",
+      "output": "/images/products/casecraft/iphone/native-4.webp",
+      "source_sha256": "21cfec44da6429f31c19d707dba1da8994190fbe5f566d7e20cf31050a535382",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/en-US/4-alibi.png",
+      "output": "/images/products/casecraft/ipad/native-4.webp",
+      "source_sha256": "3c9c290628e6a7d877ef1ba27f64659579202ad670dd78a2f12e2f662afdf616",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/en-US/5-timeline.png",
+      "output": "/images/products/casecraft/iphone/native-5.webp",
+      "source_sha256": "70841b637835a7cbdfb379093c36f631388fcf3bd587eb132575b4b2587eba81",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/en-US/5-timeline.png",
+      "output": "/images/products/casecraft/ipad/native-5.webp",
+      "source_sha256": "cbf7dc8293ed19c82ef8c4ba4ef5056ed023c8c3c293c5d29d76e33d18ed7ffe",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/en-US/6-coded.png",
+      "output": "/images/products/casecraft/iphone/native-6.webp",
+      "source_sha256": "17a526be1d8d55c1d6a6554bd69d211c0ccb86b33428f22b0c1fd483c6a1e4ac",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/en-US/6-coded.png",
+      "output": "/images/products/casecraft/ipad/native-6.webp",
+      "source_sha256": "0514e2d4e0527f466771fa95b67f08bb138f84267c5f413e72e3c48e2e448c7b",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/pt-BR/1-atlas.png",
+      "output": "/images/products-localized/casecraft/pt-BR/iphone/native-1.webp",
+      "source_sha256": "16c8e5f94335667ea7705fa639b4ef780ebf342a983846cda0d71d9c2ae02a6f",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/pt-BR/1-atlas.png",
+      "output": "/images/products-localized/casecraft/pt-BR/ipad/native-1.webp",
+      "source_sha256": "5832ed126020f065ce725ce595571113174b3fe51d4c733c9390202f5e545f7b",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/pt-BR/2-sudoku.png",
+      "output": "/images/products-localized/casecraft/pt-BR/iphone/native-2.webp",
+      "source_sha256": "8937eeebd190bac6e0a38ce47436a081c012345bdb0abc2714db5dbffb667af4",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/pt-BR/2-sudoku.png",
+      "output": "/images/products-localized/casecraft/pt-BR/ipad/native-2.webp",
+      "source_sha256": "b94cd29f08c491093973d755e6551e0f08f1b918770b739ffee17399aff3fad7",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/pt-BR/3-world.png",
+      "output": "/images/products-localized/casecraft/pt-BR/iphone/native-3.webp",
+      "source_sha256": "df3824790ef1e3ab55e78e2b2f6299773ab490b22f63ee0ffe55581f122330ed",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/pt-BR/3-world.png",
+      "output": "/images/products-localized/casecraft/pt-BR/ipad/native-3.webp",
+      "source_sha256": "0eef7745dd1ea4036bec2e60436d837340f2ac4b454584db1385147d7bf753d7",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/pt-BR/4-alibi.png",
+      "output": "/images/products-localized/casecraft/pt-BR/iphone/native-4.webp",
+      "source_sha256": "57cd9b9ef8936736c1a60520e5c0803cb8dd80fd72eb91169f97bd29612010a6",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/pt-BR/4-alibi.png",
+      "output": "/images/products-localized/casecraft/pt-BR/ipad/native-4.webp",
+      "source_sha256": "42722a0c45a7ef6f504c5c72ced6a49a23afb21fb66a96a2c895a87ecf1af729",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/pt-BR/5-timeline.png",
+      "output": "/images/products-localized/casecraft/pt-BR/iphone/native-5.webp",
+      "source_sha256": "901a19b8c5aae523a877f09d116803075a26763c24e54d8c175a4d69e990d7b0",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/pt-BR/5-timeline.png",
+      "output": "/images/products-localized/casecraft/pt-BR/ipad/native-5.webp",
+      "source_sha256": "c3661749bd916c999fc7f891110768ad6bd166851640de0fd26864b03d49b02b",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/iphone/pt-BR/6-coded.png",
+      "output": "/images/products-localized/casecraft/pt-BR/iphone/native-6.webp",
+      "source_sha256": "1f4f7d662b8497649a5198bf109dbaac09c923494f29e8dcdaf084addb1f6017",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
+    },
+    {
+      "source": "Casecraft/store/screenshots/captures/ipad/pt-BR/6-coded.png",
+      "output": "/images/products-localized/casecraft/pt-BR/ipad/native-6.webp",
+      "source_sha256": "9b0533ddf41ea3d1c9df0a1a4a46e19775eed97cf69c8991d380727922702bc8",
+      "kind": "native pixels or existing brand asset; optimized without content changes"
     }
   ]
 }

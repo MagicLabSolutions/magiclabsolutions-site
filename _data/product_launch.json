@@ -7477,5 +7477,499 @@
       }
     ],
     "legacy_details": "kinfold"
+  },
+  "casecraft": {
+    "palette": [
+      "#0B1F26",
+      "#F7F8F3",
+      "#F4C46A"
+    ],
+    "demo": "sudoku",
+    "hero": {
+      "image": {
+        "src": "/images/products/casecraft/iphone/native-1.webp",
+        "width": 840,
+        "height": 1825
+      },
+      "frame": {
+        "dimensions": [
+          1470,
+          3000
+        ],
+        "screen": [
+          75,
+          66,
+          1320,
+          2868
+        ],
+        "src": "/images/products/hardware/iphone.webp",
+        "width": 1470,
+        "height": 3000
+      },
+      "kind": "iphone",
+      "ratio": 0.49,
+      "source_sha256": "3985644fa2eec5828ab5c7e26ad88055020157c9c5cfe036ab266b59a66777ca"
+    },
+    "hero_cutout": null,
+    "features": [
+      {
+        "title": "A murder\nin every case.",
+        "description": "1,020 logic puzzles in fifteen worlds,\nfrom London 1964 to the Moon.",
+        "label": "Fifteen worlds",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/iphone/native-1.webp",
+            "width": 840,
+            "height": 1825
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49,
+          "source_sha256": "3985644fa2eec5828ab5c7e26ad88055020157c9c5cfe036ab266b59a66777ca"
+        },
+        "cutout": null
+      },
+      {
+        "title": "Place everyone.\nName the killer.",
+        "description": "Murder Sudoku: read the clues,\nfill the floor plan, accuse.",
+        "label": "Murder Sudoku",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/iphone/native-2.webp",
+            "width": 840,
+            "height": 1825
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49,
+          "source_sha256": "1b88373361ab4f3f3117bc8423db5248a79218247b02ac71ee277f4d44a4cbe8"
+        },
+        "cutout": null
+      },
+      {
+        "title": "New worlds\nkeep arriving.",
+        "description": "Paris, Tokyo, Venice and more,\neach with its own cast and city.",
+        "label": "New worlds",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/iphone/native-3.webp",
+            "width": 840,
+            "height": 1825
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49,
+          "source_sha256": "dded6850b343568fe63bd299720a8caf8730e8466449e698da03e7099949c430"
+        },
+        "cutout": null
+      },
+      {
+        "title": "Catch the one\nwho is lying.",
+        "description": "Alibi Check: weigh every statement\nuntil only the truth fits.",
+        "label": "Alibi Check",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/iphone/native-4.webp",
+            "width": 840,
+            "height": 1825
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49,
+          "source_sha256": "21cfec44da6429f31c19d707dba1da8994190fbe5f566d7e20cf31050a535382"
+        },
+        "cutout": null
+      },
+      {
+        "title": "Rebuild\nthe night.",
+        "description": "Evidence Timeline: put the events\nin order and the gap appears.",
+        "label": "Evidence Timeline",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/iphone/native-5.webp",
+            "width": 840,
+            "height": 1825
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49,
+          "source_sha256": "70841b637835a7cbdfb379093c36f631388fcf3bd587eb132575b4b2587eba81"
+        },
+        "cutout": null
+      },
+      {
+        "title": "Crack the note\nthey left.",
+        "description": "Coded notes and crosswords,\nwritten for every world.",
+        "label": "Coded notes",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/iphone/native-6.webp",
+            "width": 840,
+            "height": 1825
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49,
+          "source_sha256": "17a526be1d8d55c1d6a6554bd69d211c0ccb86b33428f22b0c1fd483c6a1e4ac"
+        },
+        "cutout": null
+      }
+    ],
+    "props": [
+      {
+        "src": "/images/products/casecraft/prop-1.webp",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "src": "/images/products/casecraft/prop-2.webp",
+        "width": 600,
+        "height": 600
+      }
+    ],
+    "fleet": [
+      {
+        "label": "iPhone",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/iphone/native-2.webp",
+            "width": 840,
+            "height": 1825
+          },
+          "frame": {
+            "dimensions": [
+              1470,
+              3000
+            ],
+            "screen": [
+              75,
+              66,
+              1320,
+              2868
+            ],
+            "src": "/images/products/hardware/iphone.webp",
+            "width": 1470,
+            "height": 3000
+          },
+          "kind": "iphone",
+          "ratio": 0.49,
+          "source_sha256": "1b88373361ab4f3f3117bc8423db5248a79218247b02ac71ee277f4d44a4cbe8"
+        }
+      },
+      {
+        "label": "iPad",
+        "device": {
+          "image": {
+            "src": "/images/products/casecraft/ipad/native-1.webp",
+            "width": 1100,
+            "height": 1467
+          },
+          "frame": {
+            "dimensions": [
+              2300,
+              3000
+            ],
+            "screen": [
+              118,
+              124,
+              2064,
+              2752
+            ],
+            "src": "/images/products/hardware/ipad.webp",
+            "width": 2300,
+            "height": 3000
+          },
+          "kind": "ipad",
+          "ratio": 0.7666666666666667,
+          "source_sha256": "0283dabe4cfdc0232bfb8931154483bd594009bc33fbea8496f6ddbc2fe025c5"
+        }
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Mac",
+      "Apple TV"
+    ],
+    "legacy_details": null,
+    "locale": "en-US",
+    "localized_copy": {
+      "headline": "A murder in every case.",
+      "description": "Detective logic puzzles across fifteen illustrated worlds. Place every suspect, catch the liar, rebuild the night. London 1964 is free."
+    },
+    "direction": "ltr",
+    "capture_locale": "en-US",
+    "platform_galleries": [
+      {
+        "label": "iPad",
+        "kind": "ipad",
+        "items": [
+          {
+            "label": "Fifteen worlds",
+            "title": "A murder\nin every case.",
+            "description": "1,020 logic puzzles in fifteen worlds,\nfrom London 1964 to the Moon.",
+            "device": {
+              "image": {
+                "src": "/images/products/casecraft/ipad/native-1.webp",
+                "width": 1100,
+                "height": 1467
+              },
+              "frame": {
+                "dimensions": [
+                  2300,
+                  3000
+                ],
+                "screen": [
+                  118,
+                  124,
+                  2064,
+                  2752
+                ],
+                "src": "/images/products/hardware/ipad.webp",
+                "width": 2300,
+                "height": 3000
+              },
+              "kind": "ipad",
+              "ratio": 0.7666666666666667,
+              "source_sha256": "0283dabe4cfdc0232bfb8931154483bd594009bc33fbea8496f6ddbc2fe025c5"
+            }
+          },
+          {
+            "label": "Murder Sudoku",
+            "title": "Place everyone.\nName the killer.",
+            "description": "Murder Sudoku: read the clues,\nfill the floor plan, accuse.",
+            "device": {
+              "image": {
+                "src": "/images/products/casecraft/ipad/native-2.webp",
+                "width": 1100,
+                "height": 1467
+              },
+              "frame": {
+                "dimensions": [
+                  2300,
+                  3000
+                ],
+                "screen": [
+                  118,
+                  124,
+                  2064,
+                  2752
+                ],
+                "src": "/images/products/hardware/ipad.webp",
+                "width": 2300,
+                "height": 3000
+              },
+              "kind": "ipad",
+              "ratio": 0.7666666666666667,
+              "source_sha256": "35d4bd3ebb6e155f61c8de01b234c05b2f1c9acfbb701d66f712b10f8b670453"
+            }
+          },
+          {
+            "label": "New worlds",
+            "title": "New worlds\nkeep arriving.",
+            "description": "Paris, Tokyo, Venice and more,\neach with its own cast and city.",
+            "device": {
+              "image": {
+                "src": "/images/products/casecraft/ipad/native-3.webp",
+                "width": 1100,
+                "height": 1467
+              },
+              "frame": {
+                "dimensions": [
+                  2300,
+                  3000
+                ],
+                "screen": [
+                  118,
+                  124,
+                  2064,
+                  2752
+                ],
+                "src": "/images/products/hardware/ipad.webp",
+                "width": 2300,
+                "height": 3000
+              },
+              "kind": "ipad",
+              "ratio": 0.7666666666666667,
+              "source_sha256": "ea1fe26a8b4f3d6ffb350fe7e12ad30e08cc9aa633688c05d20d9ef27567666d"
+            }
+          },
+          {
+            "label": "Alibi Check",
+            "title": "Catch the one\nwho is lying.",
+            "description": "Alibi Check: weigh every statement\nuntil only the truth fits.",
+            "device": {
+              "image": {
+                "src": "/images/products/casecraft/ipad/native-4.webp",
+                "width": 1100,
+                "height": 1467
+              },
+              "frame": {
+                "dimensions": [
+                  2300,
+                  3000
+                ],
+                "screen": [
+                  118,
+                  124,
+                  2064,
+                  2752
+                ],
+                "src": "/images/products/hardware/ipad.webp",
+                "width": 2300,
+                "height": 3000
+              },
+              "kind": "ipad",
+              "ratio": 0.7666666666666667,
+              "source_sha256": "3c9c290628e6a7d877ef1ba27f64659579202ad670dd78a2f12e2f662afdf616"
+            }
+          },
+          {
+            "label": "Evidence Timeline",
+            "title": "Rebuild\nthe night.",
+            "description": "Evidence Timeline: put the events\nin order and the gap appears.",
+            "device": {
+              "image": {
+                "src": "/images/products/casecraft/ipad/native-5.webp",
+                "width": 1100,
+                "height": 1467
+              },
+              "frame": {
+                "dimensions": [
+                  2300,
+                  3000
+                ],
+                "screen": [
+                  118,
+                  124,
+                  2064,
+                  2752
+                ],
+                "src": "/images/products/hardware/ipad.webp",
+                "width": 2300,
+                "height": 3000
+              },
+              "kind": "ipad",
+              "ratio": 0.7666666666666667,
+              "source_sha256": "cbf7dc8293ed19c82ef8c4ba4ef5056ed023c8c3c293c5d29d76e33d18ed7ffe"
+            }
+          },
+          {
+            "label": "Coded notes",
+            "title": "Crack the note\nthey left.",
+            "description": "Coded notes and crosswords,\nwritten for every world.",
+            "device": {
+              "image": {
+                "src": "/images/products/casecraft/ipad/native-6.webp",
+                "width": 1100,
+                "height": 1467
+              },
+              "frame": {
+                "dimensions": [
+                  2300,
+                  3000
+                ],
+                "screen": [
+                  118,
+                  124,
+                  2064,
+                  2752
+                ],
+                "src": "/images/products/hardware/ipad.webp",
+                "width": 2300,
+                "height": 3000
+              },
+              "kind": "ipad",
+              "ratio": 0.7666666666666667,
+              "source_sha256": "0514e2d4e0527f466771fa95b67f08bb138f84267c5f413e72e3c48e2e448c7b"
+            }
+          }
+        ]
+      }
+    ]
   }
 }
