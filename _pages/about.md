@@ -105,7 +105,7 @@ Ready to build something magical? [Drop us a message](/contact).
       <div class="team-body">
         <h3>Ruchi Parijat</h3>
         <p class="team-role">Senior Product Manager</p>
-        <a class="team-link" href="https://www.linkedin.com/in/ruchiparijat" target="_blank" rel="noopener">
+        <a class="team-link" href="https://www.linkedin.com/in/ruchi-parijat/" target="_blank" rel="noopener">
           <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
         </a>
       </div>
