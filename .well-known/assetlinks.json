@@ -1,12 +1,28 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.magiclabsolutions.zuzu",
       "sha256_cert_fingerprints": [
         "E9:AD:74:6F:FD:3F:C0:1F:DE:9C:69:C1:92:0F:A1:12:BD:92:F9:82:86:A0:2B:48:2E:4F:81:68:2E:56:1A:C8",
         "4F:42:5A:91:E1:78:00:80:9B:06:F7:CF:6A:28:9D:E3:D1:C9:8F:FA:C8:09:58:DF:B7:D1:1B:F6:8F:D1:C9:22"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.magiclabsolutions.giftly",
+      "sha256_cert_fingerprints": [
+        "9B:C8:5A:48:A9:7E:51:E5:ED:46:DD:B4:19:A4:03:9F:54:EE:6C:D8:C4:7D:CC:A9:5F:33:65:0D:5D:56:C0:67",
+        "3D:30:0E:1A:E2:72:E9:6C:D6:81:BA:6B:3F:7E:CD:3B:49:E2:76:75:B3:BC:ED:C6:87:29:B7:AB:E3:4F:10:D3",
+        "1D:C7:2D:B4:BE:50:A0:4D:1B:CF:5E:F9:7B:E6:87:D6:85:15:96:AC:D7:48:66:40:A4:03:89:CF:DB:44:8C:13"
       ]
     }
   }

@@ -167,12 +167,18 @@ lang-ref: giftly-support
 
         <details>
             <summary>{{ s.q_data | default: "What happens to my data?" }}</summary>
-            <p>{{ s.a_data | default: "It stays in your own private iCloud database and on your devices. There is no Giftly account, no server of ours in the middle, and no analytics on who you track or what you give them. Deleting the app removes the local copy; deleting the data from iCloud settings removes the synced one." }}</p>
+            <p>{{ s.a_data | default: "Your people, dates and gift ideas stay on your device — on iPhone, iPad and Mac they also sync through your own private iCloud database; on Android they stay on the phone. There is no Giftly account and no analytics on who you track or what you give them. The only thing stored online is an online Secret Santa (names, wish lists and the draw), so everyone can join from their own phone; it is deleted 30 days after the gift swap. Details in the <a href="/giftly/privacy-policy/">privacy policy</a>." }}</p>
+        </details>
+
+        <details id="delete-data">
+            <summary>{{ s.q_delete | default: "How do I delete my data?" }}</summary>
+            <p>{{ s.a_delete_1 | default: "People, ideas and Secret Santas: delete them in the app at any time. Deleting the app removes everything on that device; on Apple devices, remove Giftly's data in Settings → your name → iCloud → Manage Storage to delete the synced copy." }}</p>
+            <p>{{ s.a_delete_2 | default: "Online Secret Santa: the organiser can delete the group at any time, and every group is deleted automatically 30 days after the gift swap. To have anything else deleted, or to ask what we hold, email contact@magiclabsolutions.com — we answer within 30 days." }}</p>
         </details>
 
         <details>
             <summary>{{ s.q_platforms | default: "Which devices are supported?" }}</summary>
-            <p>{{ s.a_platforms | default: "iPhone and iPad on iOS/iPadOS 18 or later, and Mac on macOS 15 or later. Giftly is free on all of them." }}</p>
+            <p>{{ s.a_platforms | default: "iPhone and iPad on iOS/iPadOS 18 or later, Mac on macOS 15 or later, and Android phones and tablets on Android 8 or later. Giftly is free on all of them." }}</p>
         </details>
     </section>
 </main>
