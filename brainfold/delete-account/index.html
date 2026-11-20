@@ -1,0 +1,180 @@
+---
+layout: null
+permalink: /brainfold/delete-account/
+lang-ref: brainfold-delete-account
+---
+{% assign t = site.data.translations[site.active_lang] %}
+{% assign s = t.brainfold_delete_account %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+    {% include gtag.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ s.title | default: "Delete your Brainfold account — Magic Lab Solutions" }}</title>
+    <meta name="description" content="{{ s.description | default: "Help with Brainfold: accounts and syncing, how credits work, subscriptions and restoring purchases, scanning, battle mode, and how to reach a human." }}">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <style>
+        /* Brainfold's own dark palette, matching /apps/brainfold/ */
+        :root {
+            --bg: #000000;
+            --panel: #1A1A1A;
+            --panel-2: #2A2A2A;
+            --line: rgba(255, 255, 255, 0.09);
+            --text: #F1F5F9;
+            --text-dim: #CBD5E1;
+            --muted: #94A3B8;
+            --coral: #FF6B6B;
+            --orange: #FF8E53;
+            --amber: #FBBF24;
+            --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+        body {
+            font-family: var(--font); background: var(--bg); color: var(--text);
+            line-height: 1.65; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+        }
+        .wrap { width: 100%; max-width: 780px; margin: 0 auto; padding: 0 24px; }
+        h1, h2 { font-weight: 700; line-height: 1.14; letter-spacing: -0.02em; }
+        a { color: var(--orange); }
+
+        .grad {
+            background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent;
+        }
+
+        .topbar { background: rgba(10, 10, 10, 0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
+        .topbar__inner { display: flex; align-items: center; gap: 10px; height: 62px; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+        .topbar__brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; text-decoration: none; color: var(--text); }
+        .topbar__brand img { width: 30px; height: 30px; border-radius: 8px; }
+        .topbar__back { margin-left: auto; font-size: 14.5px; font-weight: 500; text-decoration: none; color: var(--muted); transition: color .18s; }
+        .topbar__back:hover { color: var(--text); }
+
+        .head { padding: 62px 0 32px; }
+        .head h1 { font-size: clamp(32px, 5vw, 44px); margin-bottom: 12px; }
+        .head p { color: var(--muted); font-size: 17.5px; }
+
+        .contact {
+            display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+            background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
+            padding: 24px; margin-bottom: 46px;
+        }
+        .contact__text strong { display: block; font-size: 18px; margin-bottom: 3px; }
+        .contact__text span { font-size: 15px; color: var(--muted); }
+        .contact__cta {
+            margin-left: auto;
+            display: inline-flex; align-items: center; padding: 12px 22px; border-radius: 999px;
+            background: linear-gradient(135deg, #FF6B6B, #FF8E53); color: #fff; text-decoration: none;
+            font-size: 15px; font-weight: 600; transition: opacity .18s ease, transform .18s ease;
+        }
+        .contact__cta:hover { opacity: .92; transform: translateY(-1px); }
+        @media (max-width: 560px) { .contact__cta { margin-left: 0; } }
+
+        .faq { padding-bottom: 22px; }
+        .faq h2 { font-size: 23px; margin: 34px 0 16px; }
+        .faq h2:first-child { margin-top: 0; }
+        details {
+            border: 1px solid var(--line); border-radius: 14px; background: var(--panel);
+            padding: 0 20px; margin-bottom: 10px;
+        }
+        details[open] { background: var(--panel-2); border-color: rgba(255, 142, 83, 0.3); }
+        summary {
+            list-style: none; cursor: pointer; padding: 17px 0;
+            font-weight: 600; font-size: 16.5px; color: var(--text);
+            display: flex; align-items: center; gap: 12px;
+        }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: '+'; margin-left: auto; color: var(--orange); font-weight: 500; font-size: 21px; line-height: 1; }
+        details[open] summary::after { content: '−'; }
+        details > p, details > ul { padding: 0 0 18px; font-size: 15.5px; color: var(--text-dim); }
+        details > p + p { padding-top: 0; }
+        details > ul { padding-left: 20px; }
+        details > ul li { margin-bottom: 6px; }
+        details strong { color: var(--text); font-weight: 600; }
+
+        .foot { padding: 34px 0 46px; border-top: 1px solid var(--line); margin-top: 40px; }
+        .foot__inner { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; font-size: 14px; color: var(--muted); max-width: 780px; margin: 0 auto; padding: 0 24px; }
+        .foot a { color: var(--muted); text-decoration: none; }
+        .foot a:hover { color: var(--text); text-decoration: underline; }
+        .foot__spacer { margin-left: auto; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .contact__cta:hover { transform: none; }
+        }
+            .steps { padding-bottom: 22px; }
+        .steps h2 { font-size: 23px; margin: 34px 0 14px; }
+        .steps p, .steps li { font-size: 16px; color: var(--text-dim); }
+        .steps ol, .steps ul { padding-left: 22px; margin: 8px 0 14px; }
+        .steps li { margin-bottom: 7px; }
+        .steps strong { color: var(--text); }
+    </style>
+</head>
+<body>
+
+<header class="topbar">
+    <div class="topbar__inner">
+        <a class="topbar__brand" href="/apps/brainfold/">
+            <img src="/images/brainfold/app_icon.png" alt="">
+            Brainfold
+        </a>
+        <a class="topbar__back" href="/apps/brainfold/">{{ s.back | default: "← Back to Brainfold" }}</a>
+    </div>
+</header>
+
+<main class="wrap">
+    <div class="head">
+        <h1>{{ s.heading_1 | default: "Delete your" }} <span class="grad">{{ s.heading_2 | default: "Brainfold account" }}</span></h1>
+        <p>{{ s.subheading | default: "Brainfold is made by Magic Lab Solutions. You can delete your account and everything stored with it at any time, on iPhone, iPad, Mac or Android." }}</p>
+    </div>
+    <section class="steps">
+        <h2>{{ s.h_app | default: "In the app (fastest)" }}</h2>
+        <ol>
+            <li>{{ s.step_1 | default: "Open Brainfold and go to <strong>Settings</strong>." }}</li>
+            <li>{{ s.step_2 | default: "Tap <strong>Delete account</strong> at the bottom." }}</li>
+            <li>{{ s.step_3 | default: "Confirm. Your account and its data are deleted right away." }}</li>
+        </ol>
+
+        <h2>{{ s.h_email | default: "Without the app" }}</h2>
+        <p>{{ s.email_body | default: "Email us from the address on your account (or tell us the email you signed in with) and ask us to delete it. We confirm and delete it within 30 days." }}</p>
+    </section>
+    <div class="contact">
+        <div class="contact__text">
+            <strong>{{ s.contact_title | default: "Request deletion by email" }}</strong>
+            <span>contact@magiclabsolutions.com</span>
+        </div>
+        <a class="contact__cta" href="mailto:contact@magiclabsolutions.com?subject=Delete%20my%20Brainfold%20account">{{ s.contact_cta | default: "Email us" }}</a>
+    </div>
+    <section class="steps">
+        <h2>{{ s.h_deleted | default: "What is deleted" }}</h2>
+        <ul>
+            <li>{{ s.del_1 | default: "Your sign-in account and profile (name, email)." }}</li>
+            <li>{{ s.del_2 | default: "All your study packs: flashcards, quizzes, summaries, tutor chats, groups and progress." }}</li>
+            <li>{{ s.del_3 | default: "Any scans or PDFs still stored on our servers (uploads are normally removed as soon as a pack is ready)." }}</li>
+            <li>{{ s.del_4 | default: "Your credit balance, credit history, streak and the battle rooms you hosted." }}</li>
+        </ul>
+        <h2>{{ s.h_kept | default: "What is kept" }}</h2>
+        <ul>
+            <li>{{ s.kept_1 | default: "Purchase records that Apple, Google and our payment processor must keep for tax and accounting, without your study content." }}</li>
+            <li>{{ s.kept_2 | default: "Anonymous usage and crash statistics that can't be linked back to you." }}</li>
+        </ul>
+        <p>{{ s.subscriptions | default: "Deleting your account does not cancel a subscription. Cancel it in your App Store or Google Play subscriptions first, so you are not charged again." }}</p>
+    </section>
+</main>
+
+<footer class="foot">
+    <div class="foot__inner">
+        <span>&copy; {{ site.time | date: "%Y" }} Magic Lab Solutions</span>
+        <span class="foot__spacer"></span>
+        <a href="/apps/brainfold/">Brainfold</a>
+        <a href="/apps/">{{ t.nav.apps | default: "Apps" }}</a>
+        <a href="/privacy-policy/">{{ t.footer.privacy_policy | default: "Privacy Policy" }}</a>
+        <a href="/terms-of-use/">{{ t.footer.terms_of_use | default: "Terms of Use" }}</a>
+    </div>
+</footer>
+
+</body>
+</html>
