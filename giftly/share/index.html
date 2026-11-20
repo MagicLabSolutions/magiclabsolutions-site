@@ -131,8 +131,9 @@ sitemap: false
 
             var hash = window.location.hash || '';
             var open = document.getElementById('open');
-            if (hash.indexOf('#g1.') === 0 && hash.length > 8) {
-                // Hand the same data to the app through its URL scheme
+            if (/^#(g1|s1)\./.test(hash) && hash.length > 8) {
+                // Shared people (g1) or a Secret Santa invite (s1): hand the
+                // same fragment to the app through its URL scheme
                 open.href = 'giftly://share' + hash;
             } else {
                 open.setAttribute('aria-disabled', 'true');
