@@ -2,8 +2,8 @@
 layout: legal
 title: Toc Toc Privacy Policy
 permalink: /toctoc/privacy-policy/
-description: What Toc Toc reads to knock before your meetings, what it keeps on your Mac, and what it never does.
-effective_date: September 28, 2026
+description: What Toc Toc reads to knock before your meetings, what it keeps, what it sends for Toc Toc Pro, and what it never does.
+effective_date: October 2, 2026
 lang-ref: toctoc-privacy-policy
 ---
 
