@@ -25,5 +25,19 @@
         "1D:C7:2D:B4:BE:50:A0:4D:1B:CF:5E:F9:7B:E6:87:D6:85:15:96:AC:D7:48:66:40:A4:03:89:CF:DB:44:8C:13"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.magiclabsolutions.brainfold",
+      "sha256_cert_fingerprints": [
+        "31:EF:4B:7F:36:F5:F9:08:3A:36:9E:F7:84:79:B6:89:3C:F9:83:E6:2F:DD:FE:63:C4:7D:65:F0:23:B5:9D:A8",
+        "90:91:04:E4:CB:8A:64:18:D0:54:5D:18:1D:9D:AE:23:22:D0:0F:DF:08:69:C9:FF:F0:4F:E4:E4:B8:3B:90:2A",
+        "DA:88:8E:B5:D1:1E:19:33:31:27:BF:1B:07:45:DF:C6:FA:D2:0F:90:FE:DA:DB:30:FC:73:DA:CE:E0:C7:DE:84"
+      ]
+    }
   }
 ]
